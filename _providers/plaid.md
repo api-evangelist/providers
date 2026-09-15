@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -223,6 +248,7 @@ collections:
   slug: open-plaid-watchlist-screening-
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/skills/plaid-authorize-and-create-transfer.md
   title: ''
   type: AgentSkill
   url: skills/plaid-authorize-and-create-transfer.md
@@ -323,74 +349,92 @@ common:
   type: LlmsText
   url: https://plaid.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/agentic-access/plaid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/plaid-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/security/plaid-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/plaid-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/security/plaid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plaid-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/authentication/plaid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plaid-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/sandbox/plaid-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/plaid-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/conventions/plaid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plaid-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/changelog/plaid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/plaid-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/cli/plaid-cli.yml
   title: ''
   type: CLI
   url: cli/plaid-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/components/plaid-components.yml
   title: ''
   type: Components
   url: components/plaid-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/data-model/plaid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plaid-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/errors/plaid-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/plaid-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/errors/plaid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/plaid-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/packages/plaid-packages.yml
   title: ''
   type: Packages
   url: packages/plaid-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/packages/plaid-packages.yml
   title: ''
   type: SDKs
   url: packages/plaid-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/well-known/plaid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/plaid-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/conformance/plaid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plaid-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/security/plaid-trust-center.yml
   title: ''
   type: Compliance
   url: security/plaid-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/lifecycle/plaid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plaid-lifecycle.yml
@@ -399,42 +443,52 @@ common:
   type: DeprecationPolicy
   url: https://plaid.com/docs/api/versioning/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/conventions/plaid-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/plaid-conventions.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/asyncapi/plaid-webhooks--asyncapi-original.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/plaid-webhooks--asyncapi-original.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/mcp/plaid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/plaid-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/mcp/plaid-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/plaid-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/overlays/plaid-transfer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/plaid-transfer-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/llms/plaid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plaid-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/plans/plaid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/plaid-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/rate-limits/plaid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plaid-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/finops/plaid-finops.yml
   title: ''
   type: FinOps
   url: finops/plaid-finops.yml
@@ -511,6 +565,60 @@ rules:
     info: 0
     warn: 7
   slug: plaid-spectral-rules
+score:
+  band: exemplar
+  composite: 71.6
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 52.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 29.5
+    contract_quality: 68.9
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 71.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    - jurisdiction: US
+      standard: fdx
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 63.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:
 - kind: authentication

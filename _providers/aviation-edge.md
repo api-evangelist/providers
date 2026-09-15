@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,14 +101,17 @@ common:
   type: Website
   url: https://aviation-edge.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/agentic-access/aviation-edge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aviation-edge-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/security/aviation-edge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aviation-edge-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/authentication/aviation-edge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aviation-edge-authentication.yml
@@ -104,58 +132,72 @@ common:
   type: Blog
   url: https://aviation-edge.com/blog/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/packages/aviation-edge-packages.yml
   title: ''
   type: Packages
   url: packages/aviation-edge-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/packages/aviation-edge-packages.yml
   title: ''
   type: SDKs
   url: packages/aviation-edge-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/mcp/aviation-edge-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aviation-edge-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/llms/aviation-edge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aviation-edge-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/conformance/aviation-edge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aviation-edge-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/errors/aviation-edge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aviation-edge-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/lifecycle/aviation-edge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aviation-edge-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/conventions/aviation-edge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aviation-edge-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/data-model/aviation-edge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aviation-edge-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/sandbox/aviation-edge-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aviation-edge-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/plans/aviation-edge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aviation-edge-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/rate-limits/aviation-edge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aviation-edge-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/finops/aviation-edge-finops.yml
   title: ''
   type: FinOps
   url: finops/aviation-edge-finops.yml
@@ -236,6 +278,42 @@ rate_limits:
 - limit_count: 4
   name: Aviation Edge Rate Limits
   slug: aviation-edge-rate-limits
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 55.6
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/screenshots/aviation-edge-2026-06-20T172729.png
 security:
 - kind: authentication

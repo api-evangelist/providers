@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -296,38 +321,47 @@ collections:
   slug: open-tesslio-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/capabilities/tesslio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tesslio-capability-edges.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/openapi/_original/tesslio-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/tesslio-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/overlays/tesslio-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tesslio-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/authentication/tesslio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tesslio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/conventions/tesslio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tesslio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/errors/tesslio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tesslio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/data-model/tesslio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tesslio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/conformance/tesslio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tesslio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/lifecycle/tesslio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tesslio-lifecycle.yml
@@ -340,42 +374,52 @@ common:
   type: Deprecation
   url: https://docs.tessl.io/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/changelog/tesslio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tesslio-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/cli/tesslio-cli.yml
   title: ''
   type: CLI
   url: cli/tesslio-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/packages/tesslio-packages.yml
   title: ''
   type: Packages
   url: packages/tesslio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/packages/tesslio-packages.yml
   title: ''
   type: SDKs
   url: packages/tesslio-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/mcp/tesslio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tesslio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/agentic-access/tesslio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tesslio-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/well-known/tesslio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tesslio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/well-known/tesslio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tesslio-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/security/tesslio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tesslio-vulnerability-disclosure.yml
@@ -384,6 +428,7 @@ common:
   type: Security
   url: https://tessl.io/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/security/tesslio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tesslio-domain-security.yml
@@ -408,6 +453,7 @@ common:
   type: GettingStarted
   url: https://docs.tessl.io/introduction-to-tessl/set-up-tessl
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/llms/tesslio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tesslio-llms.txt
@@ -456,6 +502,41 @@ overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
   tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 48.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 4.5
+    contract_quality: 46.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 48.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/screenshots/tesslio-2026-08-17T082329.png
 security:
 - kind: authentication

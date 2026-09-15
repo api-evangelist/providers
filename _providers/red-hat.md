@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -507,6 +533,7 @@ collections:
   slug: open-red-hat-workflow-job-templates-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/capabilities/red-hat-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/red-hat-capability-edges.yml
@@ -523,102 +550,127 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/agentic-access/red-hat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red-hat-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/security/red-hat-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/red-hat-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/security/red-hat-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/red-hat-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/security/red-hat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-hat-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/authentication/red-hat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-hat-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/packages/red-hat-packages.yml
   title: ''
   type: Packages
   url: packages/red-hat-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/well-known/red-hat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/red-hat-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/well-known/red-hat-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/red-hat-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/mcp/red-hat-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/red-hat-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/llms/red-hat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/red-hat-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/conformance/red-hat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/red-hat-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/errors/red-hat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/red-hat-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/lifecycle/red-hat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/red-hat-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/conventions/red-hat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/red-hat-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/changelog/red-hat-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/red-hat-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/cli/red-hat-cli.yml
   title: ''
   type: CLI
   url: cli/red-hat-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/components/red-hat-components.yml
   title: ''
   type: Components
   url: components/red-hat-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/data-model/red-hat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/red-hat-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/sandbox/red-hat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/red-hat-sandbox.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-openshift-cluster-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-openshift-cluster-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-ansible-automation-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-ansible-automation-platform-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-keycloak-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-keycloak-admin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-insights-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-quay-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-quay-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/overlays/red-hat-satellite-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-hat-satellite-overlay.yaml
@@ -631,78 +683,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/red-hat/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-aap-build-inventory-and-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-aap-build-inventory-and-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-aap-launch-monitor-cancel-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-aap-launch-monitor-cancel-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-aap-provision-and-run-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-aap-provision-and-run-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-insights-inspect-system-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-insights-inspect-system-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-insights-rule-affected-systems-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-insights-rule-affected-systems-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-keycloak-provision-role-and-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-keycloak-provision-role-and-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-keycloak-upsert-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-keycloak-upsert-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-openshift-configure-cluster-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-openshift-configure-cluster-identity-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-openshift-provision-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-openshift-provision-cluster-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-quay-audit-repository-tags-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-quay-audit-repository-tags-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-quay-create-repo-tag-and-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-quay-create-repo-tag-and-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-quay-provision-org-robot-repo-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-quay-provision-org-robot-repo-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-satellite-create-content-view-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-satellite-create-content-view-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/arazzo/red-hat-satellite-host-errata-remediation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-hat-satellite-host-errata-remediation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-ld/red-hat-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/red-hat-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-openshift-cluster-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-openshift-cluster-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-ansible-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-ansible-job-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-insights-advisory-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-insights-advisory-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/json-schema/red-hat-quay-repository-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-quay-repository-schema.json
@@ -1420,6 +1491,40 @@ rules:
     info: 0
     warn: 8
   slug: red-hat-spectral-rules
+score:
+  band: strong
+  composite: 57.5
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 41.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 73.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 59.2
+    contract_governance: 18.2
+    contract_quality: 72.8
+    developer_ergonomics: 72.6
+    discoverability: 48.1
+    operational_transparency: 34.2
+  previous_composite: 57.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 52.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:
 - kind: authentication

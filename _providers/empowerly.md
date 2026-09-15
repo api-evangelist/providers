@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://status.empowerly.com/api/v2
@@ -40,14 +65,17 @@ collections:
   slug: open-empowerly-status-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/security/empowerly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/empowerly-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/security/empowerly-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/empowerly-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/security/empowerly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/empowerly-domain-security.yml
@@ -88,58 +116,72 @@ common:
   type: StatusPage
   url: https://status.empowerly.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/lifecycle/empowerly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/empowerly-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/security/empowerly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/empowerly-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/security/empowerly-trust-center.yml
   title: ''
   type: Compliance
   url: security/empowerly-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/authentication/empowerly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/empowerly-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/conventions/empowerly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/empowerly-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/conformance/empowerly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/empowerly-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/errors/empowerly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/empowerly-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/data-model/empowerly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/empowerly-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/plans/empowerly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/empowerly-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/rate-limits/empowerly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/empowerly-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/packages/empowerly-packages.yml
   title: ''
   type: Packages
   url: packages/empowerly-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/llms/empowerly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/empowerly-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/well-known/empowerly-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/empowerly-well-known.yml
@@ -184,6 +226,47 @@ rate_limits:
 - limit_count: 0
   name: Empowerly Rate Limits
   slug: empowerly-rate-limits
+score:
+  band: thin
+  composite: 33.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 25.6
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 33.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/screenshots/empowerly-2026-09-02T145352.png
 security:
 - kind: authentication

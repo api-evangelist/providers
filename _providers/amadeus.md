@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -532,18 +557,22 @@ collections:
   slug: open-amadeus-trip-purpose-prediction
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/capabilities/amadeus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amadeus-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/agentic-access/amadeus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amadeus-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/security/amadeus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amadeus-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/security/amadeus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amadeus-domain-security.yml
@@ -552,74 +581,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amadeus/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-airline-flight-status-checkin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-airline-flight-status-checkin-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-city-hotels-with-ratings-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-city-hotels-with-ratings-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-city-points-of-interest-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-city-points-of-interest-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-city-safety-and-livability-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-city-safety-and-livability-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-city-tours-and-activities-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-city-tours-and-activities-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-direct-destinations-search-flights-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-direct-destinations-search-flights-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-flight-availability-to-offers-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-flight-availability-to-offers-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-flight-book-and-retrieve-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-flight-book-and-retrieve-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-flight-branded-fares-upsell-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-flight-branded-fares-upsell-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-flight-inspiration-to-offers-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-flight-inspiration-to-offers-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-flight-offer-seatmap-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-flight-offer-seatmap-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-flight-order-cancel-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-flight-order-cancel-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-flight-search-price-book-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-flight-search-price-book-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-geocode-hotels-and-offers-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-geocode-hotels-and-offers-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-hotel-autocomplete-ratings-offers-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-hotel-autocomplete-ratings-offers-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-hotel-search-and-book-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-hotel-search-and-book-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-nearest-airport-flights-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-nearest-airport-flights-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/arazzo/amadeus-resolve-locations-and-search-flights-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amadeus-resolve-locations-and-search-flights-workflow.yml
@@ -764,26 +811,32 @@ common:
   type: Tools
   url: https://pypi.org/project/mcp-amadeus/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/rules/amadeus-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amadeus-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/vocabulary/amadeus-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/amadeus-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/json-ld/amadeus-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amadeus-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/plans/amadeus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amadeus-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/rate-limits/amadeus-rate-limits.yml
   title: API Commons Rate Limits
   type: RateLimits
   url: rate-limits/amadeus-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/finops/amadeus-finops.yml
   title: ''
   type: FinOps
   url: finops/amadeus-finops.yml
@@ -7364,6 +7417,38 @@ rules:
     info: 12
     warn: 14
   slug: amadeus-rules
+score:
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 94.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 28.8
+    contract_quality: 70.4
+    developer_ergonomics: 45.2
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png
 security:
 - kind: domain-security

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -74,10 +99,12 @@ collections:
   slug: open-devialet-systems-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/agentic-access/devialet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/devialet-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/security/devialet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/devialet-domain-security.yml
@@ -90,6 +117,7 @@ common:
   type: Documentation
   url: https://help.devialet.com/hc/en-us/articles/4415207423378-Phantom-s-documentation-for-piloting-them-via-IP
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/_original/devialet-ip-control-r1.pdf
   title: ''
   type: APIReference
   url: openapi/_original/devialet-ip-control-r1.pdf
@@ -114,62 +142,77 @@ common:
   type: Compliance
   url: https://www.devialet.com/en-eu/legal/compliance/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/llms/devialet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/devialet-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/authentication/devialet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/devialet-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/errors/devialet-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/devialet-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/conventions/devialet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/devialet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/conventions/devialet-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/devialet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/lifecycle/devialet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/devialet-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/changelog/devialet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/devialet-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/conformance/devialet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/devialet-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/packages/devialet-packages.yml
   title: ''
   type: Packages
   url: packages/devialet-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/data-model/devialet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/devialet-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/examples/devialet-ip-control-examples.yml
   title: ''
   type: Examples
   url: examples/devialet-ip-control-examples.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/overlays/devialet-ip-control-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/devialet-ip-control-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/mcp/devialet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/devialet-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/mcp/devialet-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/devialet-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -190,6 +233,49 @@ overview: 'Devialet publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
   Devialet''s developer surface includes documentation, API reference, support, authentication, changelog, code examples, and 20 more developer resources.'
 random_paper: 6
+score:
+  band: thin
+  composite: 26.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 15.4
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 26.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png
 security:
 - kind: authentication

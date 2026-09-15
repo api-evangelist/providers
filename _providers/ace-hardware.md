@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Ace Hardware Affiliate Program allows digital publishers, bloggers, and content creators to earn commissions by referring customers to acehardware.com. The program is managed through Impact's affi
@@ -23,6 +48,7 @@ apis:
 artifact_total: 30
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/security/ace-hardware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ace-hardware-domain-security.yml
@@ -31,22 +57,27 @@ common:
   type: LLMsTxt
   url: https://www.acehardware.com/llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/authentication/ace-hardware-authentication.yml
   title: Ace Hardware Authentication Profile (AS2 certificate, vendor portal, Impact affiliate account)
   type: Authentication
   url: authentication/ace-hardware-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/conformance/ace-hardware-conformance.yml
   title: Ace Hardware Conformance — X12 EDI 4010 over AS2, and the web-API standards it does not implement
   type: Conformance
   url: conformance/ace-hardware-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/conventions/ace-hardware-conventions.yml
   title: Ace Hardware Integration Conventions — acknowledgement, document matching, reversibility
   type: Conventions
   url: conventions/ace-hardware-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/lifecycle/ace-hardware-lifecycle.yml
   title: Ace Hardware Lifecycle — X12 4010 versioning, no deprecation policy, no status page
   type: Lifecycle
   url: lifecycle/ace-hardware-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/packages/ace-hardware-packages.yml
   title: Ace Hardware Packages — measured zero, no first-party SDK on any registry
   type: Packages
   url: packages/ace-hardware-packages.yml
@@ -173,6 +204,34 @@ rules:
     info: 2
     warn: 3
   slug: ace-hardware-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 30.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 59.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 43.2
+    contract_quality: 10.7
+    developer_ergonomics: 35.7
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 30.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png
 security:
 - kind: authentication

@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.cmp.optimizely.com/v3
@@ -117,26 +143,32 @@ asyncapis:
   slug: newscred-cmp-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/capabilities/newscred-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/newscred-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/overlays/newscred-cmp-open-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/newscred-cmp-open-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/overlays/newscred-welcome-open-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/newscred-welcome-open-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/security/newscred-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/newscred-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/security/newscred-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/newscred-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/security/newscred-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newscred-domain-security.yml
@@ -161,10 +193,12 @@ common:
   type: GettingStarted
   url: https://docs.developers.optimizely.com/content-marketing-platform/reference/get-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/authentication/newscred-authentication.yml
   title: ''
   type: Authentication
   url: authentication/newscred-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/scopes/newscred-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/newscred-scopes.yml
@@ -185,6 +219,7 @@ common:
   type: Pricing
   url: https://www.optimizely.com/plans
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/plans/newscred-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/newscred-plans-pricing.yml
@@ -205,18 +240,22 @@ common:
   type: TrustCenter
   url: https://www.optimizely.com/trust-center
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/conformance/newscred-conformance.yml
   title: ''
   type: Compliance
   url: conformance/newscred-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/conformance/newscred-conformance.yml
   title: ''
   type: Conformance
   url: conformance/newscred-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/changelog/newscred-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/newscred-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/lifecycle/newscred-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/newscred-lifecycle.yml
@@ -225,42 +264,52 @@ common:
   type: StatusPage
   url: https://status.optimizely.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/lifecycle/newscred-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/newscred-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/rate-limits/newscred-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/newscred-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/conventions/newscred-conventions.yml
   title: ''
   type: Conventions
   url: conventions/newscred-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/errors/newscred-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/newscred-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/data-model/newscred-data-model.yml
   title: ''
   type: DataModel
   url: data-model/newscred-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/packages/newscred-packages.yml
   title: ''
   type: Packages
   url: packages/newscred-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/packages/newscred-packages.yml
   title: ''
   type: SDKs
   url: packages/newscred-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/components/newscred-components.yml
   title: ''
   type: Components
   url: components/newscred-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/llms/newscred-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newscred-llms.txt
@@ -294,6 +343,40 @@ scopes:
   scope_count: 3
   slug: newscred-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 64.8
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 62.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/screenshots/newscred-2026-09-02T150743.png
 security:
 - kind: authentication

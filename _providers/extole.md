@@ -10,6 +10,32 @@ access_model:
   - https://docs.extole.com/reference/authentication-overview
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -382,6 +408,7 @@ collections:
   slug: open-extole-zone-rendering-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/capabilities/extole-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/extole-capability-edges.yml
@@ -426,82 +453,102 @@ common:
   type: Compliance
   url: https://security.extole.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/security/extole-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/extole-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/security/extole-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/extole-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/authentication/extole-authentication.yml
   title: ''
   type: Authentication
   url: authentication/extole-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/agentic-access/extole-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/extole-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/packages/extole-packages.yml
   title: ''
   type: Packages
   url: packages/extole-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/packages/extole-packages.yml
   title: ''
   type: SDKs
   url: packages/extole-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/cli/extole-cli.yml
   title: ''
   type: CLI
   url: cli/extole-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/mcp/extole-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/extole-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/llms/extole-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/extole-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/well-known/extole-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/extole-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/errors/extole-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/extole-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/conventions/extole-conventions.yml
   title: ''
   type: Conventions
   url: conventions/extole-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/lifecycle/extole-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/extole-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/conformance/extole-conformance.yml
   title: ''
   type: Conformance
   url: conformance/extole-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/data-model/extole-data-model.yml
   title: ''
   type: DataModel
   url: data-model/extole-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/changelog/extole-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/extole-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/asyncapi/extole-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/extole-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/rules/extole-spectral.yaml
   title: ''
   type: Spectral
   url: rules/extole-spectral.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/overlays/extole-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/extole-management-overlay.yaml
@@ -518,42 +565,52 @@ common:
   type: PrivacyPolicy
   url: https://www.extole.com/privacy-policy/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/plans/extole-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/extole-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/rate-limits/extole-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/extole-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/scopes/extole-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/extole-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/sandbox/extole-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/extole-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/components/extole-components.yml
   title: ''
   type: Components
   url: components/extole-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/errors/extole-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/extole-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/mcp/extole-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/extole-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/overlays/extole-management-expert-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/extole-management-expert-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/overlays/extole-integration-server-to-extole-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/extole-integration-server-to-extole-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/overlays/extole-integration-consumer-to-extole-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/extole-integration-consumer-to-extole-overlay.yaml
@@ -603,6 +660,41 @@ scopes:
   scope_count: 8
   slug: extole-scopes
   summary_line: 8 scopes
+score:
+  band: strong
+  composite: 63.8
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 63.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 63.6
+    contract_quality: 66.8
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 63.2
+  previous_composite: 63.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png
 security:
 - kind: authentication

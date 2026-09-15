@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -105,22 +130,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/wompi/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/agentic-access/wompi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wompi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wompi-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wompi-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wompi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/authentication/wompi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wompi-authentication.yml
@@ -133,42 +163,52 @@ common:
   type: Documentation
   url: https://docs.wompi.co/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/plans/wompi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wompi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/rate-limits/wompi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wompi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/finops/wompi-finops.yml
   title: ''
   type: FinOps
   url: finops/wompi-finops.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/sandbox/wompi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wompi-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/asyncapi/wompi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wompi-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/components/wompi-components.yml
   title: ''
   type: Components
   url: components/wompi-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/conventions/wompi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wompi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/errors/wompi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wompi-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/errors/wompi-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/wompi-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/lifecycle/wompi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wompi-lifecycle.yml
@@ -177,34 +217,42 @@ common:
   type: StatusPage
   url: https://wompi.statuspage.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/conformance/wompi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wompi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-trust-center.yml
   title: ''
   type: Compliance
   url: security/wompi-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/data-model/wompi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wompi-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/mcp/wompi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wompi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/llms/wompi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wompi-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/overlays/wompi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wompi-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/packages/wompi-packages.yml
   title: ''
   type: Packages
   url: packages/wompi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -229,6 +277,7 @@ common:
   type: TermsOfService
   url: https://wompi.co/es/co/terminos-y-condiciones
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/collections/wompi.postman_collection.json
   title: ''
   type: Postman
   url: collections/wompi.postman_collection.json
@@ -260,6 +309,52 @@ rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits
   slug: wompi-rate-limits
+score:
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 56.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 4.5
+    contract_quality: 61.0
+    developer_ergonomics: 50.6
+    discoverability: 68.5
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/screenshots/wompi-2026-08-17T082934.png
 security:
 - kind: authentication

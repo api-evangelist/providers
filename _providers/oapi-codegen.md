@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Command-line tool and Go library that converts OpenAPI 3.0 and 3.1 specifications into Go server-side, client-side, and HTTP model code with support for multiple Go web frameworks.
@@ -57,6 +82,7 @@ common:
   type: License
   url: https://github.com/oapi-codegen/oapi-codegen/blob/main/LICENSE
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/changelog/oapi-codegen-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oapi-codegen-changelog.yml
@@ -65,6 +91,7 @@ common:
   type: ReleaseNotes
   url: https://github.com/oapi-codegen/oapi-codegen/releases
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/lifecycle/oapi-codegen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oapi-codegen-lifecycle.yml
@@ -73,30 +100,37 @@ common:
   type: Deprecation
   url: https://github.com/oapi-codegen/oapi-codegen#backwards-compatibility
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/packages/oapi-codegen-packages.yml
   title: ''
   type: Packages
   url: packages/oapi-codegen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/packages/oapi-codegen-packages.yml
   title: ''
   type: SDKs
   url: packages/oapi-codegen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/cli/oapi-codegen-cli.yml
   title: ''
   type: CLI
   url: cli/oapi-codegen-cli.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/json-schema/oapi-codegen-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oapi-codegen-configuration-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/vocabulary/oapi-codegen-openapi-extensions.yml
   title: ''
   type: Vocabulary
   url: vocabulary/oapi-codegen-openapi-extensions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/conformance/oapi-codegen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oapi-codegen-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/security/oapi-codegen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oapi-codegen-vulnerability-disclosure.yml
@@ -105,6 +139,7 @@ common:
   type: Security
   url: https://github.com/oapi-codegen/.github/blob/main/SECURITY.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/llms/oapi-codegen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oapi-codegen-llms.txt
@@ -137,6 +172,34 @@ rate_limits:
 - limit_count: 5
   name: Oapi Codegen Rate Limits
   slug: oapi-codegen-rate-limits
+score:
+  band: thin
+  composite: 31.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 52.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 33.3
+    contract_quality: 8.0
+    developer_ergonomics: 47.6
+    discoverability: 66.7
+    operational_transparency: 44.7
+  previous_composite: 31.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/screenshots/oapi-codegen-2026-06-20T190551.png
 security:
 - kind: vulnerability-disclosure

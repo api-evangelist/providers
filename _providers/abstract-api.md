@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 45.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,14 +238,17 @@ collections:
   slug: open-abstract-api-website-screenshot-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/agentic-access/abstract-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/abstract-api-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/security/abstract-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abstract-api-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/authentication/abstract-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abstract-api-authentication.yml
@@ -229,42 +257,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/abstract-api/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-company-to-screenshot-and-avatar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-company-to-screenshot-and-avatar-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-currency-live-and-convert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-currency-live-and-convert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-email-to-company-enrichment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-email-to-company-enrichment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-iban-and-company-verification-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-iban-and-company-verification-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-ip-geolocation-to-currency-conversion-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-ip-geolocation-to-currency-conversion-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-ip-geolocation-to-timezone-holidays-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-ip-geolocation-to-timezone-holidays-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-ip-security-and-geolocation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-ip-security-and-geolocation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-phone-to-timezone-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-phone-to-timezone-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-screenshot-scrape-and-process-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-screenshot-scrape-and-process-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/arazzo/abstract-api-vat-validation-to-rates-and-calculation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/abstract-api-vat-validation-to-rates-and-calculation-workflow.yml
@@ -305,54 +343,67 @@ common:
   type: Authentication
   url: https://docs.abstractapi.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/rules/abstract-api-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/abstract-api-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/vocabulary/abstract-api-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/abstract-api-vocabulary.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/a2a/abstract-api-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/abstract-api-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/mcp/abstract-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/abstract-api-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/mcp/abstract-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/abstract-api-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/llms/abstract-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abstract-api-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/well-known/abstract-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/abstract-api-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/packages/abstract-api-packages.yml
   title: ''
   type: Packages
   url: packages/abstract-api-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/packages/abstract-api-packages.yml
   title: ''
   type: SDKs
   url: packages/abstract-api-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/conventions/abstract-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abstract-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/errors/abstract-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/abstract-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/lifecycle/abstract-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abstract-api-lifecycle.yml
@@ -361,26 +412,32 @@ common:
   type: StatusPage
   url: https://status.abstractapi.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/conformance/abstract-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abstract-api-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/conformance/abstract-api-conformance.yml
   title: ''
   type: Compliance
   url: conformance/abstract-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/data-model/abstract-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/abstract-api-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/plans/abstract-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abstract-api-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/rate-limits/abstract-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abstract-api-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/finops/abstract-api-finops.yml
   title: ''
   type: FinOps
   url: finops/abstract-api-finops.yml
@@ -990,6 +1047,41 @@ rules:
     info: 6
     warn: 17
   slug: abstract-api-spectral-rules
+score:
+  band: strong
+  composite: 57.4
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 94.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 47.0
+    contract_quality: 31.2
+    developer_ergonomics: 72.6
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 57.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 28
+      marker_coverage: 100.0
+      total: 28
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:
 - kind: authentication

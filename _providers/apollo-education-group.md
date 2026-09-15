@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The University of Phoenix identity provider, running ForgeRock Access Management in the /alpha realm. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-09-04) at https://logi
@@ -16,6 +41,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/security/apollo-education-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apollo-education-group-domain-security.yml
@@ -56,42 +82,52 @@ common:
   type: PrivacyPolicy
   url: https://www.phoenix.edu/copyright-legal/privacy-policy.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/llms/apollo-education-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apollo-education-group-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/well-known/apollo-education-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apollo-education-group-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/authentication/apollo-education-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apollo-education-group-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/scopes/apollo-education-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/apollo-education-group-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/conformance/apollo-education-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apollo-education-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/conventions/apollo-education-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apollo-education-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/lifecycle/apollo-education-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apollo-education-group-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/packages/apollo-education-group-packages.yml
   title: ''
   type: Packages
   url: packages/apollo-education-group-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/plans/apollo-education-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apollo-education-group-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/rate-limits/apollo-education-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apollo-education-group-rate-limits.yml
@@ -137,6 +173,40 @@ scopes:
   scope_count: 7
   slug: apollo-education-group-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: thin
+  composite: 29.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 87.0
+    operational_transparency: 0.0
+  previous_composite: 29.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-education-group/refs/heads/main/screenshots/apollo-education-group-2026-06-20T172307.png
 security:
 - kind: authentication

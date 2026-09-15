@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -143,82 +168,102 @@ common:
   type: Support
   url: https://docs.forum.market/guide/feedback
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/changelog/forum-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/forum-changelog.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/openapi/_original/forum-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/forum-openapi-original.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/asyncapi/forum-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/forum-websocket-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/asyncapi/forum-websocket-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/forum-websocket-asyncapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/authentication/forum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forum-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/conventions/forum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/forum-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/conventions/forum-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/forum-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/rate-limits/forum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/forum-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/errors/forum-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/forum-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/lifecycle/forum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forum-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/data-model/forum-data-model.yml
   title: ''
   type: DataModel
   url: data-model/forum-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/conformance/forum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forum-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/agentic-access/forum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/forum-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/security/forum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forum-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/well-known/forum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/forum-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/mcp/forum-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/forum-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/llms/forum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forum-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/overlays/forum-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/forum-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/arazzo/forum-place-order.yml
   title: ''
   type: Arazzo
   url: arazzo/forum-place-order.yml
@@ -246,6 +291,52 @@ rate_limits:
 - limit_count: 5
   name: Forum Rate Limits
   slug: forum-rate-limits
+score:
+  band: developing
+  composite: 39.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 65.7
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 39.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 35.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/forum/refs/heads/main/screenshots/forum-2026-07-25T215019.png
 security:
 - kind: authentication

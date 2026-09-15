@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: SocialBee platform API for managing social media posts, content categories, scheduling, recycling evergreen content, and accessing analytics across major social networks. Currently accessible via Zapi
@@ -20,10 +45,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/security/socialbee-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/socialbee-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/security/socialbee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/socialbee-domain-security.yml
@@ -60,66 +87,82 @@ common:
   type: X
   url: https://twitter.com/SocialBeeHQ
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/plans/socialbee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/socialbee-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/rate-limits/socialbee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/socialbee-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/finops/socialbee-finops.yml
   title: ''
   type: FinOps
   url: finops/socialbee-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/mcp/socialbee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/socialbee-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/well-known/socialbee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/socialbee-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/well-known/socialbee-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/socialbee-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/security/socialbee-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/socialbee-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/authentication/socialbee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/socialbee-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/scopes/socialbee-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/socialbee-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/conformance/socialbee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/socialbee-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/errors/socialbee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/socialbee-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/lifecycle/socialbee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/socialbee-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/conventions/socialbee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/socialbee-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/changelog/socialbee-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/socialbee-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/packages/socialbee-packages.yml
   title: ''
   type: Packages
   url: packages/socialbee-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/llms/socialbee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/socialbee-llms.txt
@@ -173,6 +216,35 @@ scopes:
   scope_count: 0
   slug: socialbee-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 40.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/socialbee/refs/heads/main/screenshots/socialbee-2026-06-20T194123.png
 security:
 - kind: authentication

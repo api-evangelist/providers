@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.sportradar.com/unrivaled
@@ -76,10 +101,12 @@ collections:
   slug: open-unrivaled-basketball-tournaments-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/security/unrivaled-basketball-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unrivaled-basketball-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/authentication/unrivaled-basketball-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unrivaled-basketball-authentication.yml
@@ -120,46 +147,57 @@ common:
   type: Postman
   url: https://app.getpostman.com/run-collection/17203961-e11f651d-fb09-4326-a96b-71a4c41d655d?action=collection%2Ffork&collection-url=entityId%3D17203961-e11f651d-fb09-4326-a96b-71a4c41d655d%26entityType%3Dcollection%26workspaceId%3Da6193b92-ee53-4979-bbfe-7ffdc589c3fc
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/changelog/unrivaled-basketball-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unrivaled-basketball-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/lifecycle/unrivaled-basketball-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unrivaled-basketball-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/conventions/unrivaled-basketball-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unrivaled-basketball-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/conformance/unrivaled-basketball-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unrivaled-basketball-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/sandbox/unrivaled-basketball-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/unrivaled-basketball-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/data-model/unrivaled-basketball-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unrivaled-basketball-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/overlays/unrivaled-basketball-unrivaled-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unrivaled-basketball-unrivaled-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/mcp/unrivaled-basketball-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unrivaled-basketball-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/llms/unrivaled-basketball-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unrivaled-basketball-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/well-known/unrivaled-basketball-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unrivaled-basketball-well-known.yml
@@ -176,6 +214,41 @@ overview: 'Unrivaled Basketball publishes 7 APIs on the [APIs.io](https://apis.i
 
   Unrivaled Basketball''s developer surface includes authentication, engineering blog, support, documentation, API reference, getting-started guide, changelog, and 15 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 39.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 53.4
+    developer_ergonomics: 61.3
+    discoverability: 68.5
+    operational_transparency: 15.8
+  previous_composite: 39.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/screenshots/unrivaled-basketball-2026-08-17T082632.png
 security:
 - kind: authentication

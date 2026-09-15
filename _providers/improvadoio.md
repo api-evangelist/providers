@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Programmatic access to Improvado's data extraction, transformation, and loading capabilities — data sources, connections, accounts, extraction templates, extracts, destinations, loads, data tables, re
@@ -21,14 +46,17 @@ asyncapis:
   slug: improvadoio-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/security/improvadoio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/improvadoio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/security/improvadoio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/improvadoio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/security/improvadoio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/improvadoio-domain-security.yml
@@ -97,38 +125,47 @@ common:
   type: Security
   url: https://improvado.io/company-legal/responsible-disclosure-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/mcp/improvadoio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/improvadoio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/llms/improvadoio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/improvadoio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/well-known/improvadoio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/improvadoio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/well-known/improvadoio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/improvadoio-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/authentication/improvadoio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/improvadoio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/conventions/improvadoio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/improvadoio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/asyncapi/improvadoio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/improvadoio-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/conformance/improvadoio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/improvadoio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/lifecycle/improvadoio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/improvadoio-lifecycle.yml
@@ -152,6 +189,35 @@ overview: 'Improvado.io publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
   Improvado.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 17
+score:
+  band: developing
+  composite: 49.2
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 49.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvadoio/refs/heads/main/screenshots/improvadoio-2026-07-25T222205.png
 security:
 - kind: authentication

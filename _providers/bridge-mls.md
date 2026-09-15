@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -162,6 +187,7 @@ collections:
   slug: open-bridge-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/capabilities/bridge-mls-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bridge-mls-capability-edges.yml
@@ -170,14 +196,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bridge/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/agentic-access/bridge-mls-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bridge-mls-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/security/bridge-mls-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bridge-mls-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/authentication/bridge-mls-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bridge-mls-authentication.yml
@@ -278,14 +307,17 @@ common:
   type: Documentation
   url: https://www.reso.org/certification/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/plans/bridge-mls-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bridge-mls-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/rate-limits/bridge-mls-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bridge-mls-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/finops/bridge-mls-finops.yml
   title: ''
   type: FinOps
   url: finops/bridge-mls-finops.yml
@@ -362,6 +394,44 @@ rules:
     info: 1
     warn: 4
   slug: bridge-mls-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 56.9
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 88.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 26.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 9.8
+    contract_quality: 65.4
+    developer_ergonomics: 46.4
+    discoverability: 74.1
+    operational_transparency: 47.4
+  previous_composite: 56.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.mx.com
@@ -462,10 +487,12 @@ common:
   type: Website
   url: https://www.mx.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/security/mx-platform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mx-platform-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/security/mx-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mx-platform-domain-security.yml
@@ -578,6 +605,43 @@ rate_limits:
 - limit_count: 5
   name: Mx Platform Rate Limits
   slug: mx-platform-rate-limits
+score:
+  band: developing
+  composite: 42.5
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 0.0
+    contract_quality: 58.7
+    developer_ergonomics: 26.2
+    discoverability: 61.1
+    operational_transparency: 52.6
+  previous_composite: 42.5
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 55
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 31.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/screenshots/mx-platform-2026-06-20T185909.png
 security:
 - kind: domain-security

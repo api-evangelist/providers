@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Commercial REST API over the Tastewise food and beverage intelligence graph. Publicly documented operations span recipes (popular/trending), ingredients, dishes and side dishes, restaurants (search, d
@@ -24,10 +49,12 @@ asyncapis:
   slug: tastewise-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/security/tastewise-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tastewise-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/security/tastewise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tastewise-domain-security.yml
@@ -76,42 +103,52 @@ common:
   type: Compliance
   url: https://tastewise.io/trust
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/llms/tastewise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tastewise-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/rate-limits/tastewise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tastewise-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/authentication/tastewise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tastewise-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/errors/tastewise-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tastewise-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/conventions/tastewise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tastewise-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/asyncapi/tastewise-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tastewise-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/lifecycle/tastewise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tastewise-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/conformance/tastewise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tastewise-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/plans/tastewise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tastewise-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/packages/tastewise-packages.yml
   title: ''
   type: Packages
   url: packages/tastewise-packages.yml
@@ -139,6 +176,35 @@ rate_limits:
 - limit_count: 3
   name: Tastewise Rate Limits
   slug: tastewise-rate-limits
+score:
+  band: developing
+  composite: 42.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 42.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/screenshots/tastewise-2026-09-02T162604.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: MALK Organics's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP and served from MALK's own host. Agents can search and look up the MALK product catalo
@@ -24,58 +49,72 @@ common:
   type: Website
   url: https://malkorganics.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/mcp/malk-organics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/malk-organics-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/llms/malk-organics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/malk-organics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/well-known/malk-organics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/malk-organics-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/authentication/malk-organics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/malk-organics-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/scopes/malk-organics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/malk-organics-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/conformance/malk-organics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/malk-organics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/conventions/malk-organics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/malk-organics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/conventions/malk-organics-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/malk-organics-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/rate-limits/malk-organics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/malk-organics-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/plans/malk-organics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/malk-organics-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/security/malk-organics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/malk-organics-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/lifecycle/malk-organics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/malk-organics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/data-model/malk-organics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/malk-organics-data-model.yml
@@ -133,6 +172,36 @@ scopes:
   scope_count: 4
   slug: malk-organics-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 26.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 26.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/screenshots/malk-organics-2026-09-02T150422.png
 security:
 - kind: authentication

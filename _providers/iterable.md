@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -291,66 +316,82 @@ collections:
   slug: open-iterable-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/capabilities/iterable-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/iterable-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/overlays/iterable-experimentmetrics-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/iterable-experimentmetrics-api-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/_original/iterable-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/iterable-api-openapi.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/packages/iterable-packages.yml
   title: ''
   type: Packages
   url: packages/iterable-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/packages/iterable-packages.yml
   title: ''
   type: SDKs
   url: packages/iterable-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/cli/iterable-cli.yml
   title: ''
   type: CLI
   url: cli/iterable-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/mcp/iterable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/iterable-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/mcp/iterable-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/iterable-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/llms/iterable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iterable-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/conventions/iterable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/iterable-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/errors/iterable-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/iterable-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/errors/iterable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/iterable-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/rate-limits/iterable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/iterable-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/data-model/iterable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/iterable-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/lifecycle/iterable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/iterable-lifecycle.yml
@@ -363,6 +404,7 @@ common:
   type: Deprecation
   url: https://support.iterable.com/hc/en-us/articles/360046136171-SDK-Support-Policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/conformance/iterable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/iterable-conformance.yml
@@ -371,6 +413,7 @@ common:
   type: Compliance
   url: https://trust.iterable.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/changelog/iterable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/iterable-changelog.yml
@@ -383,6 +426,7 @@ common:
   type: Webhooks
   url: https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/vocabulary/iterable-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/iterable-vocabulary.yml
@@ -411,18 +455,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/iterable/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/agentic-access/iterable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/iterable-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/security/iterable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/iterable-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/security/iterable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iterable-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/authentication/iterable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iterable-authentication.yml
@@ -431,26 +479,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/iterable
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/asyncapi/iterable-system-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/iterable-system-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/json-ld/iterable-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/iterable-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/json-schema/iterable-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/iterable-user-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/json-schema/iterable-campaign-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/iterable-campaign-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/json-schema/iterable-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/iterable-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/json-schema/iterable-commerce-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/iterable-commerce-item-schema.json
@@ -618,6 +672,47 @@ rules:
     info: 2
     warn: 3
   slug: iterable-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 73.0
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 69.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 33.3
+    contract_quality: 68.9
+    developer_ergonomics: 79.8
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 73.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:
 - kind: authentication

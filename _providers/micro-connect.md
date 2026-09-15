@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 23.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The private HTTP API behind the Micro Connect Open Platform (滴灌通开放平台), the enterprise console brands and merchants use to register, submit daily revenue and order detail reports, review data, manage a
@@ -40,54 +65,67 @@ common:
   type: Pricing
   url: https://mcex.mo/en/guide/market/fee
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/well-known/micro-connect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/micro-connect-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/authentication/micro-connect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/micro-connect-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/scopes/micro-connect-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/micro-connect-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/conformance/micro-connect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/micro-connect-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/conformance/micro-connect-conformance.yml
   title: ''
   type: Compliance
   url: conformance/micro-connect-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/security/micro-connect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/micro-connect-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/lifecycle/micro-connect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/micro-connect-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/conventions/micro-connect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/micro-connect-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/errors/micro-connect-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/micro-connect-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/packages/micro-connect-packages.yml
   title: ''
   type: Packages
   url: packages/micro-connect-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/plans/micro-connect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/micro-connect-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/rate-limits/micro-connect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/micro-connect-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/llms/micro-connect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/micro-connect-llms.txt
@@ -134,6 +172,48 @@ scopes:
   scope_count: 0
   slug: micro-connect-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 21.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 21.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 63.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/screenshots/micro-connect-2026-09-02T150543.png
 security:
 - kind: authentication

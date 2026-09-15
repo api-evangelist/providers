@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -61,14 +87,17 @@ common:
   type: License
   url: https://github.com/digital-science/dimcli/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/agentic-access/dimensions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dimensions-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/security/dimensions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dimensions-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/authentication/dimensions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dimensions-authentication.yml
@@ -121,78 +150,97 @@ common:
   type: Deprecation
   url: https://docs.dimensions.ai/dsl/releasenotes.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/changelog/dimensions-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dimensions-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/lifecycle/dimensions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dimensions-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/packages/dimensions-packages.yml
   title: ''
   type: Packages
   url: packages/dimensions-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/packages/dimensions-packages.yml
   title: ''
   type: SDKs
   url: packages/dimensions-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/cli/dimensions-cli.yml
   title: ''
   type: CLI
   url: cli/dimensions-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/components/dimensions-components.yml
   title: ''
   type: Components
   url: components/dimensions-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/mcp/dimensions-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dimensions-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/mcp/dimensions-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dimensions-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/llms/dimensions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dimensions-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/well-known/dimensions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dimensions-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/scopes/dimensions-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dimensions-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/conventions/dimensions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dimensions-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/errors/dimensions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dimensions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/conformance/dimensions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dimensions-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/data-model/dimensions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dimensions-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/plans/dimensions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dimensions-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/rate-limits/dimensions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dimensions-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/finops/dimensions-finops.yml
   title: ''
   type: FinOps
   url: finops/dimensions-finops.yml
@@ -230,6 +278,50 @@ scopes:
   scope_count: 0
   slug: dimensions-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.3
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 47.6
+    developer_ergonomics: 63.7
+    discoverability: 68.5
+    operational_transparency: 63.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 51.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 63.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/screenshots/dimensions-2026-06-20T180036.png
 security:
 - kind: authentication

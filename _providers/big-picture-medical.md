@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
@@ -27,38 +52,47 @@ common:
   type: Compliance
   url: https://trust.bigpicturemedical.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/security/big-picture-medical-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/big-picture-medical-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/security/big-picture-medical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/big-picture-medical-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/conformance/big-picture-medical-conformance.yml
   title: ''
   type: Conformance
   url: conformance/big-picture-medical-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/lifecycle/big-picture-medical-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/big-picture-medical-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/plans/big-picture-medical-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/big-picture-medical-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/rate-limits/big-picture-medical-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/big-picture-medical-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/packages/big-picture-medical-packages.yml
   title: ''
   type: Packages
   url: packages/big-picture-medical-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/components/big-picture-medical-components.yml
   title: ''
   type: Components
   url: components/big-picture-medical-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/big-picture-medical/refs/heads/main/llms/big-picture-medical-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/big-picture-medical-llms.txt
@@ -87,7 +121,7 @@ modified: '2026-09-02'
 name: Big Picture Medical
 nav: Providers
 network: true
-overview: 'Big Picture Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Care, Electronic Health Records, and openEHR.
+overview: 'Big Picture Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Electronic Health Records, openEHR, and FHIR.
 
 
   Big Picture Medical''s developer surface includes pricing and 14 more developer resources.'
@@ -100,6 +134,55 @@ rate_limits:
 - limit_count: 0
   name: Big Picture Medical Rate Limits
   slug: big-picture-medical-rate-limits
+score:
+  band: emerging
+  composite: 24.4
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 50.0
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 24.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 40.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Big Picture Medical Authentication
@@ -117,7 +200,6 @@ slug: big-picture-medical
 tags:
 - Company
 - Healthcare
-- Health Care
 - Electronic Health Records
 - openEHR
 - FHIR
@@ -125,9 +207,9 @@ tags:
 - Interoperability
 - Clinical Data
 - Care Pathways
-- Workflow
+- Workflows
 - Orchestration
-- No Code
+- No-Code
 - NHS
 - United Kingdom
 website: https://www.bigpicturemedical.com/

@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: templated
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
@@ -73,10 +98,12 @@ common:
   type: Website
   url: https://www.blnkfinance.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blnkfinance-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/authentication/blnkfinance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blnkfinance-authentication.yml
@@ -129,110 +156,137 @@ common:
   type: StatusPage
   url: https://status.blnkfinance.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/packages/blnkfinance-packages.yml
   title: ''
   type: Packages
   url: packages/blnkfinance-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/packages/blnkfinance-packages.yml
   title: ''
   type: SDKs
   url: packages/blnkfinance-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/cli/blnkfinance-cli.yml
   title: ''
   type: CLI
   url: cli/blnkfinance-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/well-known/blnkfinance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blnkfinance-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/a2a/blnkfinance-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/blnkfinance-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/llms/blnkfinance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blnkfinance-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/overlays/blnkfinance-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blnkfinance-core-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conformance/blnkfinance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blnkfinance-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conformance/blnkfinance-conformance.yml
   title: ''
   type: Compliance
   url: conformance/blnkfinance-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/errors/blnkfinance-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/blnkfinance-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/lifecycle/blnkfinance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blnkfinance-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/lifecycle/blnkfinance-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/blnkfinance-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/scopes/blnkfinance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blnkfinance-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blnkfinance-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/blnkfinance-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blnkfinance-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/sandbox/blnkfinance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blnkfinance-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conventions/blnkfinance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blnkfinance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conventions/blnkfinance-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/blnkfinance-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/changelog/blnkfinance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blnkfinance-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/data-model/blnkfinance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blnkfinance-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/asyncapi/blnkfinance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blnkfinance-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/plans/blnkfinance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blnkfinance-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/rate-limits/blnkfinance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blnkfinance-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/mcp/blnkfinance-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/blnkfinance-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/mcp/blnkfinance-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/blnkfinance-tool-crosswalk.yml
@@ -272,6 +326,50 @@ scopes:
   scope_count: 24
   slug: blnkfinance-scopes
   summary_line: 24 scopes
+score:
+  band: exemplar
+  composite: 71.8
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 50.5
+    developer_ergonomics: 85.7
+    discoverability: 66.7
+    operational_transparency: 73.7
+  previous_composite: 71.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/screenshots/blnkfinance-2026-09-02T144933.png
 security:
 - kind: authentication

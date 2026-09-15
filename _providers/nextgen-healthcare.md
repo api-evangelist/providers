@@ -10,6 +10,31 @@ access_model:
   - documentation
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -190,22 +215,27 @@ collections:
   slug: open-nextgen-office-bulk-fhir-r4
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/capabilities/nextgen-healthcare-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nextgen-healthcare-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/security/nextgen-healthcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextgen-healthcare-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/agentic-access/nextgen-healthcare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nextgen-healthcare-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/scopes/nextgen-healthcare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nextgen-healthcare-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/authentication/nextgen-healthcare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nextgen-healthcare-authentication.yml
@@ -270,54 +300,67 @@ common:
   type: Compliance
   url: https://www.nextgen.com/trust
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/conformance/nextgen-healthcare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nextgen-healthcare-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/well-known/nextgen-healthcare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nextgen-healthcare-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/conventions/nextgen-healthcare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nextgen-healthcare-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/errors/nextgen-healthcare-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nextgen-healthcare-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/lifecycle/nextgen-healthcare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nextgen-healthcare-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/data-model/nextgen-healthcare-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nextgen-healthcare-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/packages/nextgen-healthcare-packages.yml
   title: ''
   type: Packages
   url: packages/nextgen-healthcare-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/llms/nextgen-healthcare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nextgen-healthcare-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/mcp/nextgen-healthcare-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nextgen-healthcare-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/mcp/nextgen-healthcare-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/nextgen-healthcare-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/overlays/nextgen-healthcare-office-fhir-r4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nextgen-healthcare-office-fhir-r4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/overlays/nextgen-healthcare-office-bulk-fhir-r4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nextgen-healthcare-office-bulk-fhir-r4-overlay.yaml
@@ -354,26 +397,32 @@ common:
   type: Interoperability
   url: https://www.nextgen.com/solutions/interoperability/api-fhir
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/plans/nextgen-healthcare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nextgen-healthcare-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/rate-limits/nextgen-healthcare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nextgen-healthcare-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/finops/nextgen-healthcare-finops.yml
   title: ''
   type: FinOps
   url: finops/nextgen-healthcare-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/cli/nextgen-healthcare-cli.yml
   title: ''
   type: CLI
   url: cli/nextgen-healthcare-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/changelog/nextgen-healthcare-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nextgen-healthcare-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/sandbox/nextgen-healthcare-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nextgen-healthcare-sandbox.yml
@@ -423,6 +472,54 @@ scopes:
   scope_count: 12
   slug: nextgen-healthcare-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 70.4
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 69.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 18.2
+    contract_quality: 62.8
+    developer_ergonomics: 63.7
+    discoverability: 70.4
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 70.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 82.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:
 - kind: authentication

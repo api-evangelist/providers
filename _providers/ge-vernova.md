@@ -9,6 +9,31 @@ access_model:
   - https://www.gevernova.com/software/product-trials-demos
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.8
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Manage Proficy Historian systems, collectors, collector instances, data stores, tags, the Historian model and alarms and events, and query time-series tag samples with a choice of sampling, calculatio
@@ -58,22 +83,27 @@ common:
   type: Blog
   url: https://www.gevernova.com/software/blog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/authentication/ge-vernova-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ge-vernova-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/scopes/ge-vernova-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ge-vernova-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/conventions/ge-vernova-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ge-vernova-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/errors/ge-vernova-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ge-vernova-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/lifecycle/ge-vernova-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ge-vernova-lifecycle.yml
@@ -82,30 +112,37 @@ common:
   type: Deprecation
   url: https://www.gevernova.com/software/documentation/cloud-apm/latest/api-notices-upcoming-api-deprecations.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/changelog/ge-vernova-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ge-vernova-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/asyncapi/ge-vernova-event-surface.yml
   title: ''
   type: EventTypes
   url: asyncapi/ge-vernova-event-surface.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/sandbox/ge-vernova-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ge-vernova-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/plans/ge-vernova-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ge-vernova-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/rate-limits/ge-vernova-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ge-vernova-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/packages/ge-vernova-packages.yml
   title: ''
   type: Packages
   url: packages/ge-vernova-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/conformance/ge-vernova-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ge-vernova-conformance.yml
@@ -118,14 +155,17 @@ common:
   type: TrustCenter
   url: https://trust.gevernova.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/well-known/ge-vernova-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ge-vernova-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/llms/ge-vernova-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ge-vernova-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/mcp/ge-vernova-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ge-vernova-mcp.yml
@@ -134,10 +174,12 @@ common:
   type: Security
   url: https://www.gevernova.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/security/ge-vernova-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ge-vernova-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/security/ge-vernova-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ge-vernova-domain-security.yml
@@ -246,6 +288,41 @@ scopes:
   scope_count: 27
   slug: ge-vernova-scopes
   summary_line: 27 scopes · password/clientCredentials
+score:
+  band: developing
+  composite: 49.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 54.8
+    discoverability: 74.1
+    operational_transparency: 34.2
+  previous_composite: 49.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 71.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/screenshots/ge-vernova-2026-06-20T181707.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 46.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,6 +58,7 @@ collections:
   slug: open-landing-public-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/capabilities/landing-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/landing-capability-edges.yml
@@ -57,22 +83,27 @@ common:
   type: GettingStarted
   url: https://www.hellolanding.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/mcp/landing-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/landing-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/agentic-access/landing-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/landing-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/llms/landing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landing-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/well-known/landing-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/landing-well-known.yml
@@ -81,38 +112,47 @@ common:
   type: APICatalog
   url: https://www.hellolanding.com/.well-known/api-catalog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/authentication/landing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/landing-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/conventions/landing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/landing-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/errors/landing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/landing-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/examples/landing-public-examples.yml
   title: ''
   type: Examples
   url: examples/landing-public-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/data-model/landing-data-model.yml
   title: ''
   type: DataModel
   url: data-model/landing-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/overlays/landing-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landing-public-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/conformance/landing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landing-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/lifecycle/landing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landing-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/security/landing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landing-domain-security.yml
@@ -166,6 +206,42 @@ overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
   Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 22 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 51.0
+    developer_ergonomics: 58.9
+    discoverability: 87.0
+    operational_transparency: 2.6
+  previous_composite: 40.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/screenshots/landing-2026-08-17T123950.png
 security:
 - kind: authentication

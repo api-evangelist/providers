@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The WordPress REST API served by mailoptin.io, plus the Model Context Protocol server exposed through the WordPress MCP Adapter at the mcp namespace. The REST root is a public, self-describing route i
@@ -69,62 +94,77 @@ common:
   type: PrivacyPolicy
   url: https://mailoptin.io/privacy-policy/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/changelog/mailoptin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mailoptin-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/lifecycle/mailoptin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mailoptin-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/plans/mailoptin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mailoptin-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/rate-limits/mailoptin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mailoptin-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/packages/mailoptin-packages.yml
   title: ''
   type: Packages
   url: packages/mailoptin-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/asyncapi/mailoptin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mailoptin-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/conformance/mailoptin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mailoptin-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/conventions/mailoptin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mailoptin-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/errors/mailoptin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mailoptin-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/authentication/mailoptin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mailoptin-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/scopes/mailoptin-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mailoptin-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/mcp/mailoptin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mailoptin-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/well-known/mailoptin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mailoptin-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/llms/mailoptin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mailoptin-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/security/mailoptin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mailoptin-domain-security.yml
@@ -161,6 +201,35 @@ scopes:
   scope_count: 0
   slug: mailoptin-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 40.5
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 47.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailoptin/refs/heads/main/screenshots/mailoptin-2026-08-17T124048.png
 security:
 - kind: authentication

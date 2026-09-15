@@ -9,6 +9,31 @@ access_model:
   - probe
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://www.opendata.polimi.it
@@ -95,58 +120,72 @@ common:
   type: AIPolicy
   url: https://www.normativa.polimi.it/privacy-e-sicurezza
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/authentication/politecnico-di-milano-authentication.yml
   title: ''
   type: Authentication
   url: authentication/politecnico-di-milano-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/conformance/politecnico-di-milano-conformance.yml
   title: ''
   type: Conformance
   url: conformance/politecnico-di-milano-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/vocabulary/politecnico-di-milano-opendata-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/politecnico-di-milano-opendata-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/errors/politecnico-di-milano-errors.yml
   title: ''
   type: Errors
   url: errors/politecnico-di-milano-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/lifecycle/politecnico-di-milano-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/politecnico-di-milano-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/scopes/politecnico-di-milano-scopes.yml
   title: ''
   type: Scopes
   url: scopes/politecnico-di-milano-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/rules/politecnico-di-milano-spectral-ruleset.yml
   title: ''
   type: Rules
   url: rules/politecnico-di-milano-spectral-ruleset.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/examples/politecnico-di-milano-examples.yml
   title: ''
   type: Examples
   url: examples/politecnico-di-milano-examples.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/provenance.yml
   title: ''
   type: Provenance
   url: provenance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/security/politecnico-di-milano-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/politecnico-di-milano-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/plans/politecnico-di-milano-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/politecnico-di-milano-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/rate-limits/politecnico-di-milano-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/politecnico-di-milano-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/finops/politecnico-di-milano-finops.yml
   title: ''
   type: FinOps
   url: finops/politecnico-di-milano-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -216,6 +255,53 @@ scopes:
   scope_count: 0
   slug: politecnico-di-milano-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 42.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 97.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 18.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 60.6
+    contract_quality: 29.4
+    developer_ergonomics: 28.6
+    discoverability: 74.1
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - italy
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - italy-southern-europe
+  previous_composite: 42.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/screenshots/politecnico-di-milano-2026-06-20T191910.png
 security:
 - kind: authentication

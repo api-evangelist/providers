@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.4
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: JSON ad-request endpoint (mobile.mng-ads.com) that returns a single ad (banner, interstitial, native) for a given placement, device User-Agent, SDK version and consent signal. GET or POST.
@@ -55,34 +80,42 @@ common:
   type: Website
   url: https://madvertise.com/en
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/packages/madvertise-packages.yml
   title: ''
   type: Packages
   url: packages/madvertise-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/packages/madvertise-packages.yml
   title: ''
   type: SDKs
   url: packages/madvertise-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/errors/madvertise-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/madvertise-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/changelog/madvertise-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/madvertise-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/conventions/madvertise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/madvertise-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/authentication/madvertise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/madvertise-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/conformance/madvertise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/madvertise-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/lifecycle/madvertise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/madvertise-lifecycle.yml
@@ -91,34 +124,42 @@ common:
   type: Deprecation
   url: https://developers.bluestack.app/releases
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/security/madvertise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/madvertise-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/llms/madvertise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madvertise-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/llms/madvertise-bluestack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madvertise-bluestack-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/mcp/madvertise-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/madvertise-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/mcp/madvertise-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/madvertise-tool-crosswalk.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/sandbox/madvertise-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/madvertise-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/plans/madvertise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/madvertise-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/rate-limits/madvertise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/madvertise-rate-limits.yml
@@ -163,6 +204,35 @@ rate_limits:
 - limit_count: 0
   name: Madvertise Rate Limits
   slug: madvertise-rate-limits
+score:
+  band: thin
+  composite: 33.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 72.2
+    operational_transparency: 26.3
+  previous_composite: 33.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/screenshots/madvertise-2026-07-25T225832.png
 security:
 - kind: authentication

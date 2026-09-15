@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 65.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -122,18 +147,22 @@ common:
   type: License
   url: https://github.com/BOOM-TML/skills/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/capabilities/boom-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/boom-ai-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/agentic-access/boom-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/boom-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/security/boom-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boom-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/authentication/boom-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boom-ai-authentication.yml
@@ -182,30 +211,37 @@ common:
   type: PrivacyPolicy
   url: https://drive.google.com/file/d/1ITWbsA8ZmyhinJYYr4ezRdhNe-MWQBC_/view
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/_original/boom-ai-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/boom-ai-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/mcp/boom-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/boom-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/llms/boom-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boom-ai-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/overlays/boom-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/boom-ai-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/conformance/boom-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boom-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/errors/boom-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/boom-ai-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/lifecycle/boom-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/boom-ai-lifecycle.yml
@@ -214,62 +250,77 @@ common:
   type: StatusPage
   url: https://status.useboom.ai/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/sandbox/boom-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/boom-ai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/conventions/boom-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/boom-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/conventions/boom-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/boom-ai-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/rate-limits/boom-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/boom-ai-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/changelog/boom-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/boom-ai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/data-model/boom-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/boom-ai-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/a2a/boom-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/boom-ai-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/mcp/boom-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/boom-ai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/well-known/boom-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/boom-ai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/scopes/boom-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/boom-ai-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/packages/boom-ai-packages.yml
   title: ''
   type: Packages
   url: packages/boom-ai-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/plans/boom-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/boom-ai-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/asyncapi/boom-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/boom-ai-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/security/boom-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/boom-ai-trust-center.yml
@@ -318,6 +369,47 @@ scopes:
   scope_count: 7
   slug: boom-ai-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 79.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 62.4
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 79.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 65.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:
 - kind: authentication

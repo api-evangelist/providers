@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://acm.altinity.cloud/api/
@@ -26,6 +51,7 @@ collections:
   slug: open-altinity-auth-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/overlays/altinity-acm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/altinity-acm-overlay.yaml
@@ -78,46 +104,57 @@ common:
   type: PrivacyPolicy
   url: https://altinity.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/authentication/altinity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/altinity-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/packages/altinity-packages.yml
   title: ''
   type: Packages
   url: packages/altinity-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/packages/altinity-packages.yml
   title: ''
   type: SDKs
   url: packages/altinity-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/mcp/altinity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/altinity-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/llms/altinity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/altinity-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/lifecycle/altinity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/altinity-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/changelog/altinity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/altinity-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/conventions/altinity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/altinity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/conformance/altinity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/altinity-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/security/altinity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/altinity-domain-security.yml
@@ -138,6 +175,40 @@ overview: 'Altinity publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
   Altinity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
 random_paper: 17
+score:
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 46.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 41.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/screenshots/altinity-2026-07-25T195834.png
 security:
 - kind: authentication

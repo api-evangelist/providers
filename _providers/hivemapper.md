@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://beemaps.com/api/developer
@@ -60,10 +85,12 @@ collections:
   slug: open-hivemapper-map-features-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/overlays/hivemapper-beemaps-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hivemapper-beemaps-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/security/hivemapper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hivemapper-domain-security.yml
@@ -116,34 +143,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/Hivemapper
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/sandbox/hivemapper-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hivemapper-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/cli/hivemapper-cli.yml
   title: ''
   type: CLI
   url: cli/hivemapper-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/mcp/hivemapper-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hivemapper-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/llms/hivemapper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hivemapper-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/packages/hivemapper-packages.yml
   title: ''
   type: Packages
   url: packages/hivemapper-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/packages/hivemapper-packages.yml
   title: ''
   type: SDKs
   url: packages/hivemapper-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/well-known/hivemapper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hivemapper-well-known.yml
@@ -176,6 +211,40 @@ overview: 'Hivemapper publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
   Hivemapper''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 18 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 36.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 14.2
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 36.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/screenshots/hivemapper-2026-07-25T221306.png
 security:
 - kind: authentication

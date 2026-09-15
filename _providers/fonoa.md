@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -61,22 +86,27 @@ collections:
   slug: open-fonoa-transactions-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/agentic-access/fonoa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fonoa-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/security/fonoa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fonoa-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/security/fonoa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fonoa-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/security/fonoa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fonoa-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/authentication/fonoa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fonoa-authentication.yml
@@ -125,18 +155,22 @@ common:
   type: Security
   url: https://www.fonoa.com/resources/security
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/plans/fonoa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fonoa-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/rate-limits/fonoa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fonoa-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/finops/fonoa-finops.yml
   title: ''
   type: FinOps
   url: finops/fonoa-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/json-ld/fonoa-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/fonoa-context.jsonld
@@ -173,6 +207,38 @@ rate_limits:
 - limit_count: 3
   name: Fonoa Rate Limits
   slug: fonoa-rate-limits
+score:
+  band: developing
+  composite: 43.3
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 71.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 44.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 59.5
+    developer_ergonomics: 23.8
+    discoverability: 74.1
+    operational_transparency: 52.6
+  previous_composite: 43.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/screenshots/fonoa-2026-06-20T181458.png
 security:
 - kind: authentication

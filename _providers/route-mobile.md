@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -212,6 +237,7 @@ collections:
   slug: open-route-mobile-whatsapp-business
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/capabilities/route-mobile-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/route-mobile-capability-edges.yml
@@ -220,38 +246,47 @@ common:
   type: IssueTracker
   url: https://github.com/routemobile/WhatsApp-Business-API/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/agentic-access/route-mobile-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/route-mobile-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/security/route-mobile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/route-mobile-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/authentication/route-mobile-authentication.yml
   title: ''
   type: Authentication
   url: authentication/route-mobile-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/conventions/route-mobile-conventions.yml
   title: ''
   type: Conventions
   url: conventions/route-mobile-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/rate-limits/route-mobile-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/route-mobile-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/errors/route-mobile-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/route-mobile-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/errors/route-mobile-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/route-mobile-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/lifecycle/route-mobile-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/route-mobile-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/conformance/route-mobile-conformance.yml
   title: ''
   type: Conformance
   url: conformance/route-mobile-conformance.yml
@@ -260,50 +295,62 @@ common:
   type: Compliance
   url: https://routemobile.com/company-profile/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/asyncapi/route-mobile-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/route-mobile-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/mcp/route-mobile-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/route-mobile-mcp.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/sandbox/route-mobile-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/route-mobile-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/data-model/route-mobile-data-model.yml
   title: ''
   type: DataModel
   url: data-model/route-mobile-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/packages/route-mobile-packages.yml
   title: ''
   type: Packages
   url: packages/route-mobile-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/llms/route-mobile-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/route-mobile-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-sms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-whatsapp-business-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-whatsapp-business-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-rcs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-rcs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-viber-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-viber-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-sendclean-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-sendclean-email-overlay.yaml
@@ -385,6 +432,58 @@ rate_limits:
 - limit_count: 6
   name: Route Mobile Rate Limits
   slug: route-mobile-rate-limits
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 65.5
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 56.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/screenshots/route-mobile-2026-08-17T081637.png
 security:
 - kind: authentication

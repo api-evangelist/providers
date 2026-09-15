@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -128,70 +153,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/sendhub
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/authentication/sendhub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendhub-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/security/sendhub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendhub-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/agentic-access/sendhub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sendhub-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/packages/sendhub-packages.yml
   title: ''
   type: Packages
   url: packages/sendhub-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/packages/sendhub-packages.yml
   title: ''
   type: SDKs
   url: packages/sendhub-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/mcp/sendhub-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sendhub-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/llms/sendhub-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendhub-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/errors/sendhub-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendhub-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/conventions/sendhub-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendhub-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/data-model/sendhub-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendhub-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/lifecycle/sendhub-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendhub-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/conformance/sendhub-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendhub-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/overlays/sendhub-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendhub-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/asyncapi/sendhub-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sendhub-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/plans/sendhub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendhub-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/rate-limits/sendhub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendhub-rate-limits.yml
@@ -223,6 +265,47 @@ rate_limits:
 - limit_count: 0
   name: Sendhub Rate Limits
   slug: sendhub-rate-limits
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 63.1
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 44.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendhub/refs/heads/main/screenshots/sendhub-2026-08-17T081802.png
 security:
 - kind: authentication

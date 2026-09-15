@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -152,42 +178,52 @@ collections:
   slug: open-dun-and-bradstreet-search-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/capabilities/dun-and-bradstreet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dun-and-bradstreet-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/mcp/dun-and-bradstreet-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dun-and-bradstreet-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/mcp/dun-and-bradstreet-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dun-and-bradstreet-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/well-known/dun-and-bradstreet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dun-and-bradstreet-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/llms/dun-and-bradstreet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dun-and-bradstreet-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/scopes/dun-and-bradstreet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dun-and-bradstreet-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/conventions/dun-and-bradstreet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dun-and-bradstreet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/errors/dun-and-bradstreet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dun-and-bradstreet-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/data-model/dun-and-bradstreet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dun-and-bradstreet-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/lifecycle/dun-and-bradstreet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dun-and-bradstreet-lifecycle.yml
@@ -196,14 +232,17 @@ common:
   type: StatusPage
   url: https://status.dnb.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/changelog/dun-and-bradstreet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dun-and-bradstreet-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/asyncapi/dun-and-bradstreet-status-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dun-and-bradstreet-status-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/conformance/dun-and-bradstreet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dun-and-bradstreet-conformance.yml
@@ -216,78 +255,97 @@ common:
   type: Security
   url: https://www.dnb.com/en-us/utilities/our-security.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/security/dun-and-bradstreet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dun-and-bradstreet-vulnerability-disclosure.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/packages/dun-and-bradstreet-packages.yml
   title: ''
   type: Packages
   url: packages/dun-and-bradstreet-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/skills/dun-and-bradstreet-resolve-and-enrich-company.md
   title: ''
   type: AgentSkill
   url: skills/dun-and-bradstreet-resolve-and-enrich-company.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/skills/dun-and-bradstreet-monitor-a-portfolio.md
   title: ''
   type: AgentSkill
   url: skills/dun-and-bradstreet-monitor-a-portfolio.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/skills/dun-and-bradstreet-batch-match-and-enrich.md
   title: ''
   type: AgentSkill
   url: skills/dun-and-bradstreet-batch-match-and-enrich.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/skills/dun-and-bradstreet-search-and-audit.md
   title: ''
   type: AgentSkill
   url: skills/dun-and-bradstreet-search-and-audit.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-authentication-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-authentication-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-data-file-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-data-file-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-enrich-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-enrich-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-identity-resolution-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-identity-resolution-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-monitoring-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-monitoring-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-multi-process-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-multi-process-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-research-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-research-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/overlays/dun-and-bradstreet-search-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dun-and-bradstreet-search-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/security/dun-and-bradstreet-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dun-and-bradstreet-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/agentic-access/dun-and-bradstreet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dun-and-bradstreet-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/security/dun-and-bradstreet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dun-and-bradstreet-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/authentication/dun-and-bradstreet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dun-and-bradstreet-authentication.yml
@@ -296,42 +354,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dun-bradstreet/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-authenticate-and-match-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-authenticate-and-match-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-batch-match-enrich-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-batch-match-enrich-file-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-cleanse-match-and-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-cleanse-match-and-enrich-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-contact-search-and-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-contact-search-and-enrich-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-criteria-search-and-get-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-criteria-search-and-get-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-manage-portfolio-membership-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-manage-portfolio-membership-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-match-and-audit-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-match-and-audit-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-match-and-monitor-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-match-and-monitor-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-match-plus-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-match-plus-enrich-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/arazzo/dun-and-bradstreet-register-and-pull-notifications-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dun-and-bradstreet-register-and-pull-notifications-workflow.yml
@@ -404,30 +472,37 @@ common:
   type: Blog
   url: https://www.dnb.com/perspectives.html
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/plans/dun-and-bradstreet-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/dun-and-bradstreet-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/plans/dun-and-bradstreet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dun-and-bradstreet-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/rate-limits/dun-and-bradstreet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dun-and-bradstreet-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/rules/dnb-direct-plus-rules.yml
   title: ''
   type: SpectralRules
   url: rules/dnb-direct-plus-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/vocabulary/dun-and-bradstreet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dun-and-bradstreet-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/json-ld/dun-and-bradstreet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dun-and-bradstreet-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/finops/dun-and-bradstreet-finops.yml
   title: ''
   type: FinOps
   url: finops/dun-and-bradstreet-finops.yml
@@ -584,6 +659,46 @@ scopes:
   scope_count: 6
   slug: dun-and-bradstreet-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 64.0
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 86.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 29.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 87.9
+    contract_quality: 79.4
+    developer_ergonomics: 24.4
+    discoverability: 70.4
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/screenshots/dun-and-bradstreet-2026-06-20T180319.png
 security:
 - kind: authentication

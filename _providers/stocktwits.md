@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -97,70 +122,87 @@ collections:
   slug: open-stocktwits-watchlists-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/_original/stocktwits-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/stocktwits-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/agentic-access/stocktwits-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stocktwits-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/packages/stocktwits-packages.yml
   title: ''
   type: Packages
   url: packages/stocktwits-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/well-known/stocktwits-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stocktwits-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/mcp/stocktwits-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stocktwits-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/llms/stocktwits-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stocktwits-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/overlays/stocktwits-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stocktwits-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/conformance/stocktwits-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stocktwits-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/errors/stocktwits-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stocktwits-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/lifecycle/stocktwits-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stocktwits-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/conventions/stocktwits-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stocktwits-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/data-model/stocktwits-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stocktwits-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/components/stocktwits-components.yml
   title: ''
   type: Components
   url: components/stocktwits-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/security/stocktwits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stocktwits-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/scopes/stocktwits-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stocktwits-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/authentication/stocktwits-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stocktwits-authentication.yml
@@ -230,6 +272,47 @@ scopes:
   scope_count: 6
   slug: stocktwits-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: developing
+  composite: 39.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 52.7
+    developer_ergonomics: 41.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 39.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 58.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/screenshots/stocktwits-2026-08-17T082118.png
 security:
 - kind: authentication

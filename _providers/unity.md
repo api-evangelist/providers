@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -471,6 +496,7 @@ common:
   type: Website
   url: https://www.unity.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/capabilities/unity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unity-capability-edges.yml
@@ -479,94 +505,117 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/unity/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/agentic-access/unity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unity-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/security/unity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unity-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/security/unity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unity-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/authentication/unity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unity-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-analytics-validate-and-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-analytics-validate-and-record-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-anonymous-signin-refresh-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-anonymous-signin-refresh-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-build-trigger-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-build-trigger-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-cloudcode-deploy-and-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-cloudcode-deploy-and-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-cloudsave-publish-public-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-cloudsave-publish-public-profile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-cloudsave-set-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-cloudsave-set-and-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-economy-grant-currency-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-economy-grant-currency-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-economy-virtual-purchase-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-economy-virtual-purchase-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-friends-accept-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-friends-accept-request-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-leaderboard-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-leaderboard-provision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-leaderboard-submit-score-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-leaderboard-submit-score-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-lobby-host-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-lobby-host-and-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-lobby-join-by-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-lobby-join-by-code-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-matchmaker-queue-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-matchmaker-queue-provision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-matchmaking-allocate-server-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-matchmaking-allocate-server-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-matchmaking-ticket-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-matchmaking-ticket-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-multiplay-fleet-allocate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-multiplay-fleet-allocate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-player-signup-and-link-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-player-signup-and-link-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/arazzo/unity-remote-config-rollout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unity-remote-config-rollout-workflow.yml
@@ -1090,6 +1139,38 @@ rules:
     info: 2
     warn: 12
   slug: unity-spectral-rules
+score:
+  band: strong
+  composite: 60.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 28.8
+    contract_quality: 68.0
+    developer_ergonomics: 58.3
+    discoverability: 66.7
+    operational_transparency: 42.1
+  previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 96.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png
 security:
 - kind: authentication

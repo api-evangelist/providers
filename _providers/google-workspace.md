@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -115,6 +140,21 @@ apis:
 - description: The Google Meet API allows developers to build applications that integrate with Google Meet.
   name: Google Meet API
   slug: google-meet-api
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Calendar API from Google Workspace APIs — 3 operation(s) for calendar.
+  name: Google Workspace APIs Calendar API
+  slug: google-suites-calendar-api
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Drive API from Google Workspace APIs — 2 operation(s) for drive.
+  name: Google Workspace APIs Drive API
+  slug: google-suites-drive-api
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Gmail API from Google Workspace APIs — 4 operation(s) for gmail.
+  name: Google Workspace APIs Gmail API
+  slug: google-suites-gmail-api
 arazzos:
 - description: Confirm a user exists, then list every group the user belongs to.
   name: Google Workspace Audit a User's Group Memberships
@@ -164,7 +204,7 @@ arazzos:
 - description: Find a recently deleted user, undelete it into an org unit, and confirm.
   name: Google Workspace Restore a Deleted User
   slug: google-workspace-restore-deleted-user-workflow
-artifact_total: 116
+artifact_total: 119
 collections:
 - collection_type: postman
   name: Google Workspace Admin SDK Directory API
@@ -194,26 +234,32 @@ common:
   type: Website
   url: https://workspace.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/capabilities/google-workspace-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-workspace-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/agentic-access/google-workspace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-workspace-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/security/google-workspace-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-workspace-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/security/google-workspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-workspace-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/authentication/google-workspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-workspace-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/scopes/google-workspace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-workspace-scopes.yml
@@ -222,66 +268,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-workspace/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-audit-user-groups-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-audit-user-groups-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-create-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-create-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-create-org-unit-and-assign-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-create-org-unit-and-assign-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-decommission-org-unit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-decommission-org-unit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-delete-user-safely-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-delete-user-safely-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-find-and-delete-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-find-and-delete-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-find-and-update-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-find-and-update-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-inspect-org-unit-tree-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-inspect-org-unit-tree-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-move-user-org-unit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-move-user-org-unit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-offboard-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-offboard-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-promote-user-to-admin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-promote-user-to-admin-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-provision-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-rename-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-rename-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-rename-org-unit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-rename-org-unit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-reset-user-password-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-reset-user-password-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/arazzo/google-workspace-restore-deleted-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-workspace-restore-deleted-user-workflow.yml
@@ -490,7 +552,7 @@ modified: '2026-05-19'
 name: Google Workspace
 nav: Providers
 network: true
-overview: 'Google Workspace publishes 3 APIs on the [APIs.io](https://apis.io/) network: Groups API, OrgUnits API, and Users API. Tagged areas include Calendar, Collaboration, Email, Productivity, and Storage.
+overview: 'Google Workspace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Groups API, OrgUnits API, Users API, and 3 more. Tagged areas include Calendar, Collaboration, Email, Productivity, and Storage.
 
 
   The Google Workspace catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -533,6 +595,38 @@ scopes:
   scope_count: 6
   slug: google-workspace-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.2
+  facets:
+    access_clarity: 47.4
+    contract_governance: 13.6
+    contract_quality: 66.7
+    developer_ergonomics: 60.7
+    discoverability: 59.3
+    operational_transparency: 42.1
+  previous_composite: 51.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/screenshots/google-workspace-2026-06-20T182248.png
 security:
 - kind: authentication

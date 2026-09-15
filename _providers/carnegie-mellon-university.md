@@ -10,6 +10,31 @@ access_model:
   - openapi
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,70 +215,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/carnegie-mellon-university/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/conformance/carnegie-mellon-university-education-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carnegie-mellon-university-education-standards-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/authentication/carnegie-mellon-university-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carnegie-mellon-university-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/scopes/carnegie-mellon-university-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/carnegie-mellon-university-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/errors/carnegie-mellon-university-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/carnegie-mellon-university-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/lifecycle/carnegie-mellon-university-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carnegie-mellon-university-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/vocabulary/carnegie-mellon-university-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/carnegie-mellon-university-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/json-ld/carnegie-mellon-university-context.jsonld
   title: ''
   type: DataModel
   url: json-ld/carnegie-mellon-university-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/examples/carnegie-mellon-university-delphi-fluview-example.json
   title: ''
   type: Examples
   url: examples/carnegie-mellon-university-delphi-fluview-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/examples/carnegie-mellon-university-cert-vulnerability-note-example.json
   title: ''
   type: Examples
   url: examples/carnegie-mellon-university-cert-vulnerability-note-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/rules/carnegie-mellon-university-rules.yml
   title: ''
   type: Rules
   url: rules/carnegie-mellon-university-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/rules/carnegie-mellon-university-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/carnegie-mellon-university-jsonschema-spectral-rules.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/agentic-access/carnegie-mellon-university-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/carnegie-mellon-university-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/security/carnegie-mellon-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carnegie-mellon-university-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/plans/carnegie-mellon-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carnegie-mellon-university-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/rate-limits/carnegie-mellon-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/carnegie-mellon-university-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/finops/carnegie-mellon-university-finops.yml
   title: ''
   type: FinOps
   url: finops/carnegie-mellon-university-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -344,6 +386,53 @@ scopes:
   scope_count: 0
   slug: carnegie-mellon-university-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 82.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 32.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 17.4
+    contract_quality: 28.4
+    developer_ergonomics: 35.7
+    discoverability: 74.1
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 42.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
 security:
 - kind: authentication

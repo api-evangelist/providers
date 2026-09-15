@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://xentral.xentral.biz
@@ -746,10 +772,12 @@ common:
   type: Website
   url: https://www.xentral.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/capabilities/xentral-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/xentral-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/authentication/xentral-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xentral-authentication.yml
@@ -798,10 +826,12 @@ common:
   type: PrivacyPolicy
   url: https://xentral.com/de/datenschutz
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/rate-limits/xentral-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xentral-rate-limits.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/asyncapi/xentral-events-asyncapi.json
   title: ''
   type: AsyncAPI
   url: asyncapi/xentral-events-asyncapi.json
@@ -810,42 +840,52 @@ common:
   type: Webhooks
   url: https://developer.xentral.com/reference/webhooks
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/mcp/xentral-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/xentral-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/llms/xentral-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xentral-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/packages/xentral-packages.yml
   title: ''
   type: Packages
   url: packages/xentral-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/scopes/xentral-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/xentral-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/conventions/xentral-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xentral-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/sandbox/xentral-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/xentral-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/conformance/xentral-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xentral-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/errors/xentral-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xentral-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/lifecycle/xentral-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xentral-lifecycle.yml
@@ -854,22 +894,27 @@ common:
   type: Deprecation
   url: https://developer.xentral.com/reference/versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/data-model/xentral-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xentral-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/security/xentral-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xentral-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/well-known/xentral-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xentral-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/overlays/xentral-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/xentral-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/overlays/xentral-documents-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/xentral-documents-api-overlay.yaml
@@ -899,6 +944,48 @@ scopes:
   scope_count: 100
   slug: xentral-scopes
   summary_line: 100 scopes
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 61.7
+    developer_ergonomics: 52.4
+    discoverability: 70.4
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 45.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 90
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/screenshots/xentral-2026-08-17T083012.png
 security:
 - kind: authentication

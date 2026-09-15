@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: templated
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -291,6 +316,7 @@ common:
   type: Website
   url: https://www.svix.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/capabilities/svix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/svix-capability-edges.yml
@@ -315,22 +341,27 @@ common:
   type: License
   url: https://github.com/svix/svix-webhooks/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/agentic-access/svix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/svix-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/security/svix-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/svix-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/security/svix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/svix-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/security/svix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/svix-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/authentication/svix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/svix-authentication.yml
@@ -339,62 +370,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/svix/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-create-app-portal-access-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-create-app-portal-access-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-create-integration-and-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-create-integration-and-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-decommission-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-decommission-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-endpoint-health-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-endpoint-health-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-ingest-source-and-endpoint-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-ingest-source-and-endpoint-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-operational-webhook-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-operational-webhook-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-provision-and-send-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-provision-and-send-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-recover-failed-webhooks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-recover-failed-webhooks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-register-event-type-and-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-register-event-type-and-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-resend-failed-attempt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-resend-failed-attempt-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-rotate-endpoint-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-rotate-endpoint-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-rotate-ingest-source-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-rotate-ingest-source-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-rotate-integration-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-rotate-integration-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-send-message-and-confirm-delivery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-send-message-and-confirm-delivery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/arazzo/svix-stream-sink-and-poll-events-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/svix-stream-sink-and-poll-events-workflow.yml
@@ -435,14 +481,17 @@ common:
   type: Pricing
   url: https://www.svix.com/pricing/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/plans/svix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/svix-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/rate-limits/svix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/svix-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/finops/svix-finops.yml
   title: ''
   type: FinOps
   url: finops/svix-finops.yml
@@ -563,18 +612,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/svix
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/rules/svix-rules.yml
   title: ''
   type: Rules
   url: rules/svix-rules.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/json-schema/
   title: ''
   type: JSONSchema
   url: json-schema/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/json-ld/svix-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/svix-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/vocabulary/svix-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/svix-vocabulary.yml
@@ -583,78 +636,97 @@ common:
   type: LlmsText
   url: https://docs.svix.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/packages/svix-packages.yml
   title: ''
   type: Packages
   url: packages/svix-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/packages/svix-packages.yml
   title: ''
   type: SDKs
   url: packages/svix-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/well-known/svix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/svix-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/well-known/svix-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/svix-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/mcp/svix-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/svix-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/mcp/svix-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/svix-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/llms/svix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/svix-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/asyncapi/svix-operational-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/svix-operational-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/conventions/svix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/svix-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/conventions/svix-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/svix-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/errors/svix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/svix-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/lifecycle/svix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/svix-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/conformance/svix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/svix-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/data-model/svix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/svix-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/changelog/svix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/svix-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/cli/svix-cli.yml
   title: ''
   type: CLI
   url: cli/svix-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/components/svix-components.yml
   title: ''
   type: Components
   url: components/svix-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/sandbox/svix-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/svix-sandbox.yml
@@ -771,6 +843,55 @@ rules:
     info: 2
     warn: 8
   slug: svix-rules
+score:
+  band: exemplar
+  composite: 80.4
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 76.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 71.5
+    developer_ergonomics: 79.8
+    discoverability: 66.7
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - global
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 80.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
 - kind: authentication

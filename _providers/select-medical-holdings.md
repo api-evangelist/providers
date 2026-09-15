@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://epicproxy.et0948.epichosted.com/FhirProxy/api/FHIR/R4
@@ -23,6 +48,7 @@ apis:
 artifact_total: 7
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/capabilities/select-medical-holdings-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/select-medical-holdings-capability-edges.yml
@@ -43,66 +69,82 @@ common:
   type: Login
   url: https://mychart.selectmedical.com/MyChart/Authentication/Login
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/well-known/select-medical-holdings-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/select-medical-holdings-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/authentication/select-medical-holdings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/select-medical-holdings-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/scopes/select-medical-holdings-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/select-medical-holdings-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/conformance/select-medical-holdings-conformance.yml
   title: ''
   type: Conformance
   url: conformance/select-medical-holdings-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/errors/select-medical-holdings-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/select-medical-holdings-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/lifecycle/select-medical-holdings-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/select-medical-holdings-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/conventions/select-medical-holdings-conventions.yml
   title: ''
   type: Conventions
   url: conventions/select-medical-holdings-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/data-model/select-medical-holdings-data-model.yml
   title: ''
   type: DataModel
   url: data-model/select-medical-holdings-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/security/select-medical-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/select-medical-holdings-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/llms/select-medical-holdings-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/select-medical-holdings-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/plans/select-medical-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/select-medical-holdings-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/rate-limits/select-medical-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/select-medical-holdings-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/packages/select-medical-holdings-packages.yml
   title: ''
   type: Packages
   url: packages/select-medical-holdings-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/overlays/select-medical-holdings-fhir-r4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/select-medical-holdings-fhir-r4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/select-medical-holdings/refs/heads/main/fhir/select-medical-holdings-r4-capabilitystatement.json
   title: ''
   type: FHIR
   url: fhir/select-medical-holdings-r4-capabilitystatement.json
@@ -148,6 +190,46 @@ scopes:
   scope_count: 5
   slug: select-medical-holdings-scopes
   summary_line: 5 scopes
+score:
+  band: thin
+  composite: 34.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 18.2
+    contract_quality: 58.2
+    developer_ergonomics: 13.7
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 34.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Select Medical Holdings Authentication

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The PLaMo API is Preferred Networks' cloud service for its domestically developed PLaMo large language models. Its interface is compatible with the OpenAI API, so existing OpenAI/LangChain client code
@@ -21,6 +46,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/security/preferred-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/preferred-networks-domain-security.yml
@@ -77,62 +103,77 @@ common:
   type: Examples
   url: https://github.com/pfnet-research/plamo-examples
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/plans/preferred-networks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/preferred-networks-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/rate-limits/preferred-networks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/preferred-networks-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/authentication/preferred-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/preferred-networks-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/conventions/preferred-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/preferred-networks-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/lifecycle/preferred-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/preferred-networks-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/lifecycle/preferred-networks-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/preferred-networks-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/changelog/preferred-networks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/preferred-networks-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/data-model/preferred-networks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/preferred-networks-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/conformance/preferred-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/preferred-networks-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/security/preferred-networks-trust-center.yml
   title: ''
   type: Compliance
   url: security/preferred-networks-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/packages/preferred-networks-packages.yml
   title: ''
   type: Packages
   url: packages/preferred-networks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/cli/preferred-networks-cli.yml
   title: ''
   type: CLI
   url: cli/preferred-networks-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/mcp/preferred-networks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/preferred-networks-mcp.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/sandbox/preferred-networks-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/preferred-networks-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/llms/preferred-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/preferred-networks-llms.txt
@@ -161,6 +202,42 @@ rate_limits:
 - limit_count: 7
   name: Preferred Networks Rate Limits
   slug: preferred-networks-rate-limits
+score:
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 54.8
+    discoverability: 68.5
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - japan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 39.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/screenshots/preferred-networks-2026-09-02T151924.png
 security:
 - kind: authentication

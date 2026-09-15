@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -141,6 +167,7 @@ collections:
   slug: open-up-bank-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/capabilities/up-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/up-bank-capability-edges.yml
@@ -149,6 +176,7 @@ common:
   type: IssueTracker
   url: https://github.com/up-banking/api/issues
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/overlays/up-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/up-bank-cds-banking-products-overlay.yaml
@@ -157,14 +185,17 @@ common:
   type: License
   url: https://github.com/up-banking/api/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/agentic-access/up-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/up-bank-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/security/up-bank-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/up-bank-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/security/up-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/up-bank-domain-security.yml
@@ -221,26 +252,32 @@ common:
   type: Security
   url: https://bugcrowd.com/engagements/bendigobank-vdp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/authentication/up-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/up-bank-authentication.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/well-known/up-bank-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/up-bank-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/scopes/up-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/up-bank-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/conventions/up-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/up-bank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/errors/up-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/up-bank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/lifecycle/up-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/up-bank-lifecycle.yml
@@ -249,46 +286,57 @@ common:
   type: Deprecation
   url: https://developer.up.com.au/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/conformance/up-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/up-bank-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/well-known/up-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/up-bank-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/well-known/up-bank-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/up-bank-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/mcp/up-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/up-bank-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/llms/up-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/up-bank-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/packages/up-bank-packages.yml
   title: ''
   type: Packages
   url: packages/up-bank-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/rate-limits/up-bank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/up-bank-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/data-model/up-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/up-bank-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/asyncapi/up-bank-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/up-bank-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/asyncapi/up-bank-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/up-bank-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -318,6 +366,61 @@ scopes:
   scope_count: 10
   slug: up-bank-scopes
   summary_line: 10 scopes
+score:
+  band: developing
+  composite: 46.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 56.9
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 78.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:
 - kind: authentication

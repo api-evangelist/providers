@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,6 +91,7 @@ common:
   type: Website
   url: https://www.halliday.xyz/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/_original/halliday-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/halliday-openapi-original.yml
@@ -118,66 +144,82 @@ common:
   type: Compliance
   url: https://docs.halliday.xyz/pages/compliance-security.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/authentication/halliday-authentication.yml
   title: ''
   type: Authentication
   url: authentication/halliday-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/agentic-access/halliday-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/halliday-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/security/halliday-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/halliday-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/packages/halliday-packages.yml
   title: ''
   type: Packages
   url: packages/halliday-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/packages/halliday-packages.yml
   title: ''
   type: SDKs
   url: packages/halliday-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/mcp/halliday-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/halliday-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/llms/halliday-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/halliday-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/overlays/halliday-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/halliday-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/conformance/halliday-conformance.yml
   title: ''
   type: Conformance
   url: conformance/halliday-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/errors/halliday-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/halliday-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/lifecycle/halliday-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/halliday-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/conventions/halliday-conventions.yml
   title: ''
   type: Conventions
   url: conventions/halliday-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/components/halliday-components.yml
   title: ''
   type: Components
   url: components/halliday-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/data-model/halliday-data-model.yml
   title: ''
   type: DataModel
   url: data-model/halliday-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/asyncapi/halliday-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/halliday-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -197,6 +239,47 @@ overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
   Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 23 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 50.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 70.9
+    developer_ergonomics: 73.8
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 50.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/screenshots/halliday-2026-07-25T220546.png
 security:
 - kind: authentication

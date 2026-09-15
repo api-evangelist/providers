@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 api_count: 32
 apis:
 - baseURL: https://api.gsa.gov/acquisitiongateway/api/v4.0
@@ -154,14 +179,17 @@ apis:
 artifact_total: 39
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/authentication/general-services-administration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/general-services-administration-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/security/general-services-administration-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/general-services-administration-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/security/general-services-administration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/general-services-administration-domain-security.yml
@@ -218,78 +246,97 @@ common:
   type: Security
   url: https://gsa.gov/vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/well-known/general-services-administration-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/general-services-administration-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/well-known/general-services-administration-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/general-services-administration-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/conformance/general-services-administration-conformance.yml
   title: ''
   type: Conformance
   url: conformance/general-services-administration-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/conformance/general-services-administration-conformance.yml
   title: ''
   type: Compliance
   url: conformance/general-services-administration-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/packages/general-services-administration-packages.yml
   title: ''
   type: Packages
   url: packages/general-services-administration-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/components/general-services-administration-components.yml
   title: ''
   type: Components
   url: components/general-services-administration-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/mcp/general-services-administration-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/general-services-administration-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/mcp/general-services-administration-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/general-services-administration-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/llms/general-services-administration-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/general-services-administration-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/lifecycle/general-services-administration-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/general-services-administration-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/changelog/general-services-administration-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/general-services-administration-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/errors/general-services-administration-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/general-services-administration-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/conventions/general-services-administration-conventions.yml
   title: ''
   type: Conventions
   url: conventions/general-services-administration-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/sandbox/general-services-administration-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/general-services-administration-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/rate-limits/general-services-administration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/general-services-administration-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/plans/general-services-administration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/general-services-administration-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/data-model/general-services-administration-data-model.yml
   title: ''
   type: DataModel
   url: data-model/general-services-administration-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/finops/general-services-administration-finops.yml
   title: ''
   type: FinOps
   url: finops/general-services-administration-finops.yml
@@ -309,7 +356,7 @@ modified: '2026-09-12'
 name: General Services Administration
 nav: Providers
 network: true
-overview: 'General Services Administration publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Acquisition Gateway Listings API, Analytics.usa.gov API, api.data.gov Admin API, and 19 more. Tagged areas include Federal-Government, Procurement, Acquisition, Open-Data, and Government.
+overview: 'General Services Administration publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Acquisition Gateway Listings API, Analytics.usa.gov API, api.data.gov Admin API, and 19 more. Tagged areas include Federal-Government, Procurement, Acquisition, Open Data, and Government.
 
 
   General Services Administration''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 28 more developer resources.'
@@ -322,6 +369,46 @@ rate_limits:
 - limit_count: 8
   name: General Services Administration Rate Limits
   slug: general-services-administration-rate-limits
+score:
+  band: strong
+  composite: 62.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 58.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 48.8
+    developer_ergonomics: 66.1
+    discoverability: 64.8
+    operational_transparency: 60.5
+  previous_composite: 62.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 75.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/screenshots/general-services-administration-2026-06-20T181728.png
 security:
 - kind: authentication
@@ -341,11 +428,11 @@ tags:
 - Federal-Government
 - Procurement
 - Acquisition
-- Open-Data
+- Open Data
 - Government
-- SAM-gov
+- SAM.gov
 - Travel
 - Analytics
-- API-Management
+- API Management
 website: https://open.gsa.gov/api/
 ---

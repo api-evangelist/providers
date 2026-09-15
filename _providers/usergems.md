@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: true
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 59.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,66 +99,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/usergems/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/agentic-access/usergems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/usergems-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/security/usergems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/usergems-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/security/usergems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/usergems-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/security/usergems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usergems-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/authentication/usergems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usergems-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/mcp/usergems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/usergems-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/mcp/usergems-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/usergems-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/scopes/usergems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/usergems-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/well-known/usergems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/usergems-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/well-known/usergems-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/usergems-robots.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/llms/usergems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usergems-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/packages/usergems-packages.yml
   title: ''
   type: Packages
   url: packages/usergems-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/conventions/usergems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usergems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/errors/usergems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/usergems-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/lifecycle/usergems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usergems-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/conformance/usergems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usergems-conformance.yml
@@ -145,14 +187,17 @@ common:
   type: Security
   url: https://www.usergems.com/legal-security/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/data-model/usergems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usergems-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/asyncapi/usergems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/usergems-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -269,14 +314,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/usergems
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/plans/usergems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/usergems-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/rate-limits/usergems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/usergems-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/finops/usergems-finops.yml
   title: ''
   type: FinOps
   url: finops/usergems-finops.yml
@@ -403,6 +451,46 @@ scopes:
   scope_count: 1
   slug: usergems-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: exemplar
+  composite: 67.4
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 79.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 31.8
+    contract_quality: 79.9
+    developer_ergonomics: 60.1
+    discoverability: 75.9
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 67.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png
 security:
 - kind: authentication

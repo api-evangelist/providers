@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Reprise MCP server is a remote Model Context Protocol endpoint that lets any MCP-compatible AI assistant — Claude, ChatGPT, Codex, Microsoft Copilot, Gemini, Cursor — drive the whole Reprise platf
@@ -83,6 +108,7 @@ common:
   type: StatusPage
   url: https://status.reprise.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/security/reprise-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/reprise-trust-center.yml
@@ -91,70 +117,87 @@ common:
   type: Compliance
   url: https://www.reprise.com/platform/enterprise-scale-and-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/security/reprise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reprise-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/plans/reprise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reprise-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/rate-limits/reprise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reprise-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/finops/reprise-finops.yml
   title: ''
   type: FinOps
   url: finops/reprise-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/mcp/reprise-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/reprise-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/llms/reprise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reprise-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/well-known/reprise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/reprise-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/authentication/reprise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reprise-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/scopes/reprise-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/reprise-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/conformance/reprise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reprise-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/errors/reprise-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/reprise-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/lifecycle/reprise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reprise-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/conventions/reprise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reprise-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/data-model/reprise-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reprise-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/components/reprise-components.yml
   title: ''
   type: Components
   url: components/reprise-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/packages/reprise-packages.yml
   title: ''
   type: Packages
   url: packages/reprise-packages.yml
@@ -200,6 +243,36 @@ scopes:
   scope_count: 1
   slug: reprise-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 56.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 13.3
+    developer_ergonomics: 54.8
+    discoverability: 81.5
+    operational_transparency: 39.5
+  previous_composite: 43.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/screenshots/reprise-2026-06-20T192911.png
 security:
 - kind: authentication

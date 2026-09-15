@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.4
+  scored_at: '2026-09-14'
 api_count: 21
 apis:
 - baseURL: https://api.dealhub.io
@@ -370,50 +396,62 @@ collections:
   slug: open-dealhub-version-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/capabilities/dealhub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dealhub-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-quote-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-quote-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-headless-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-headless-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-crm-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-crm-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-user-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-user-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-partner-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-pricing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-pricing-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-version-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-version-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-subskribe-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-subskribe-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-external-query-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-external-query-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/overlays/dealhub-callout-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dealhub-callout-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/security/dealhub-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dealhub-trust-center.yml
@@ -438,6 +476,7 @@ common:
   type: GettingStarted
   url: https://developers.dealhub.io/docs/introduction-to-dealhub-apis
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/authentication/dealhub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dealhub-authentication.yml
@@ -450,10 +489,12 @@ common:
   type: Pricing
   url: https://dealhub.io/pricing/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/plans/dealhub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dealhub-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/rate-limits/dealhub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dealhub-rate-limits.yml
@@ -478,10 +519,12 @@ common:
   type: Security
   url: https://dealhub.io/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/security/dealhub-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dealhub-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/security/dealhub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dealhub-domain-security.yml
@@ -494,46 +537,57 @@ common:
   type: Login
   url: https://login.dealhub.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/asyncapi/dealhub-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dealhub-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/errors/dealhub-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dealhub-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/lifecycle/dealhub-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dealhub-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/conventions/dealhub-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dealhub-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/data-model/dealhub-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dealhub-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/conformance/dealhub-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dealhub-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/packages/dealhub-packages.yml
   title: ''
   type: Packages
   url: packages/dealhub-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/mcp/dealhub-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dealhub-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/mcp/dealhub-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dealhub-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/llms/dealhub-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dealhub-llms.txt
@@ -566,6 +620,40 @@ rate_limits:
 - limit_count: 0
   name: Dealhub Rate Limits
   slug: dealhub-rate-limits
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 57.6
+    developer_ergonomics: 54.2
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 52.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 96.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png
 security:
 - kind: authentication

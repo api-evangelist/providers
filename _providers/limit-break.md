@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.2
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 27
 common:
@@ -57,74 +82,92 @@ common:
   type: SignUp
   url: https://apptokens.com/testnet-signup/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/llms/limit-break-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/limit-break-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/packages/limit-break-packages.yml
   title: ''
   type: Packages
   url: packages/limit-break-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/packages/limit-break-packages.yml
   title: ''
   type: SDKs
   url: packages/limit-break-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/cli/limit-break-cli.yml
   title: ''
   type: CLI
   url: cli/limit-break-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/sandbox/limit-break-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/limit-break-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/conventions/limit-break-conventions.yml
   title: ''
   type: Conventions
   url: conventions/limit-break-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/conventions/limit-break-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/limit-break-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/errors/limit-break-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/limit-break-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/data-model/limit-break-data-model.yml
   title: ''
   type: DataModel
   url: data-model/limit-break-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/authentication/limit-break-authentication.yml
   title: ''
   type: Authentication
   url: authentication/limit-break-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/lifecycle/limit-break-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/limit-break-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/lifecycle/limit-break-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/limit-break-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/changelog/limit-break-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/limit-break-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/conformance/limit-break-conformance.yml
   title: ''
   type: Conformance
   url: conformance/limit-break-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/security/limit-break-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/limit-break-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/security/limit-break-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/limit-break-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/security/limit-break-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/limit-break-vulnerability-disclosure.yml
@@ -141,6 +184,38 @@ overview: 'Limit Break is profiled on the [APIs.io](https://apis.io/) network. T
 
   Limit Break''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, sandbox, authentication, and 22 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 78.6
+    discoverability: 57.4
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 31.5
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/screenshots/limit-break-2026-07-25T225205.png
 security:
 - kind: authentication

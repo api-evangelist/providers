@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -535,10 +560,12 @@ common:
   type: Website
   url: https://www.soldo.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/capabilities/soldo-software-and-services-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/soldo-software-and-services-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/overlays/soldo-software-and-services-business-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/soldo-software-and-services-business-api-overlay.yaml
@@ -547,18 +574,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/soldo-software-and-services/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/security/soldo-software-and-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soldo-software-and-services-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/agentic-access/soldo-software-and-services-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/soldo-software-and-services-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/scopes/soldo-software-and-services-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/soldo-software-and-services-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/authentication/soldo-software-and-services-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soldo-software-and-services-authentication.yml
@@ -579,6 +610,7 @@ common:
   type: GettingStarted
   url: https://developer.soldo.com/docs/api-set-up
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/changelog/soldo-software-and-services-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/soldo-software-and-services-changelog.yml
@@ -607,38 +639,47 @@ common:
   type: Support
   url: https://support.soldo.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/asyncapi/soldo-software-and-services-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/soldo-software-and-services-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/conventions/soldo-software-and-services-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soldo-software-and-services-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/errors/soldo-software-and-services-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/soldo-software-and-services-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/lifecycle/soldo-software-and-services-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/soldo-software-and-services-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/sandbox/soldo-software-and-services-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/soldo-software-and-services-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/data-model/soldo-software-and-services-data-model.yml
   title: ''
   type: DataModel
   url: data-model/soldo-software-and-services-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/mcp/soldo-software-and-services-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/soldo-software-and-services-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/conformance/soldo-software-and-services-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soldo-software-and-services-conformance.yml
@@ -647,10 +688,12 @@ common:
   type: Compliance
   url: https://www.soldo.com/en-gb/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/security/soldo-software-and-services-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/soldo-software-and-services-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/llms/soldo-software-and-services-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soldo-software-and-services-llms.txt
@@ -675,6 +718,51 @@ scopes:
   scope_count: 59
   slug: soldo-software-and-services-scopes
   summary_line: 59 scopes · clientCredentials
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 65.2
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 87.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/screenshots/soldo-software-and-services-2026-08-17T081955.png
 security:
 - kind: authentication

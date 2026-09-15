@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -65,42 +90,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/octaneai
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/authentication/octane-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/octane-ai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/conventions/octane-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/octane-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/components/octane-ai-components.yml
   title: ''
   type: Components
   url: components/octane-ai-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/llms/octane-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/octane-ai-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/security/octane-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octane-ai-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/asyncapi/octane-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/octane-ai-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/plans/octane-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/octane-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/rate-limits/octane-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/octane-ai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/lifecycle/octane-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/octane-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/conformance/octane-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/octane-ai-conformance.yml
@@ -128,6 +163,34 @@ rate_limits:
 - limit_count: 0
   name: Octane Ai Rate Limits
   slug: octane-ai-rate-limits
+score:
+  band: developing
+  composite: 43.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 50.0
+    discoverability: 57.4
+    operational_transparency: 10.5
+  previous_composite: 43.6
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/screenshots/octane-ai-2026-08-07T185929.png
 security:
 - kind: authentication

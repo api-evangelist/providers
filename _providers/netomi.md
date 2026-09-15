@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -199,18 +224,22 @@ collections:
   slug: open-netomi-agentdesk
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/capabilities/netomi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/netomi-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/mcp/netomi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/netomi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/agentic-access/netomi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/netomi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/security/netomi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/netomi-trust-center.yml
@@ -263,30 +292,37 @@ common:
   type: StatusPage
   url: https://status.netomi.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/packages/netomi-packages.yml
   title: ''
   type: SDKs
   url: packages/netomi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/packages/netomi-packages.yml
   title: ''
   type: Packages
   url: packages/netomi-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/components/netomi-components.yml
   title: ''
   type: Components
   url: components/netomi-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/authentication/netomi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/netomi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/conventions/netomi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/netomi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/errors/netomi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/netomi-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/lifecycle/netomi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/netomi-lifecycle.yml
@@ -295,34 +331,42 @@ common:
   type: Deprecation
   url: https://github.com/msgai/netomi-chat-ios/blob/main/docs/installation.md#cocoapods-sunset-timeline
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/changelog/netomi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/netomi-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/sandbox/netomi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/netomi-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/conformance/netomi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/netomi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/asyncapi/netomi-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/netomi-events.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/security/netomi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/netomi-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/well-known/netomi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/netomi-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/llms/netomi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/netomi-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/openapi/netomi-agentdesk-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/netomi-agentdesk-openapi.json
@@ -331,14 +375,17 @@ common:
   type: APIReference
   url: https://api.netomi.com/swagger-ui.html
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/overlays/netomi-agentdesk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/netomi-agentdesk-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/data-model/netomi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/netomi-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -359,6 +406,41 @@ overview: 'Netomi publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 29 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 49.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 48.5
+    developer_ergonomics: 61.3
+    discoverability: 70.4
+    operational_transparency: 50.0
+  previous_composite: 49.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png
 security:
 - kind: authentication

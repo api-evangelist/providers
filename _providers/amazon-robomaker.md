@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -639,22 +664,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-robomaker/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/agentic-access/amazon-robomaker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-robomaker-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/security/amazon-robomaker-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-robomaker-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/security/amazon-robomaker-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-robomaker-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/security/amazon-robomaker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-robomaker-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/authentication/amazon-robomaker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-robomaker-authentication.yml
@@ -707,2926 +737,3657 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-ld/amazon-robomaker-context-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-robomaker-context-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-architecture-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-architecture-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-arn-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-arn-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-arns-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-arns-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-batch-delete-worlds-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-batch-delete-worlds-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-batch-delete-worlds-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-batch-delete-worlds-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-batch-describe-simulation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-batch-describe-simulation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-batch-describe-simulation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-batch-describe-simulation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-batch-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-batch-policy-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-batch-timeout-in-seconds-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-batch-timeout-in-seconds-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-boolean-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-boolean-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-boxed-boolean-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-boxed-boolean-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-deployment-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-deployment-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-deployment-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-deployment-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-simulation-job-batch-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-simulation-job-batch-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-simulation-job-batch-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-simulation-job-batch-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-simulation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-simulation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-simulation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-simulation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-world-export-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-world-export-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-world-export-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-world-export-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-world-generation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-world-generation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-cancel-world-generation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-cancel-world-generation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-client-request-token-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-client-request-token-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-command-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-command-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-command-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-command-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-compute-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-compute-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-compute-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-compute-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-compute-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-compute-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-concurrent-deployment-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-concurrent-deployment-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-deployment-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-deployment-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-deployment-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-deployment-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-fleet-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-fleet-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-fleet-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-fleet-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-robot-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-robot-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-application-version-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-robot-application-version-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-application-version-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-robot-application-version-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-robot-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-robot-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-robot-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-simulation-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-simulation-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-application-version-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-simulation-application-version-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-application-version-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-simulation-application-version-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-simulation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-job-requests-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-simulation-job-requests-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-simulation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-simulation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-world-export-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-world-export-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-world-export-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-world-export-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-world-generation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-world-generation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-world-generation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-world-generation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-world-template-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-world-template-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-create-world-template-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-create-world-template-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-created-at-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-created-at-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-data-source-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-data-source-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-data-source-configs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-data-source-configs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-data-source-names-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-data-source-names-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-data-source-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-data-source-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-data-source-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-data-source-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-data-sources-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-data-sources-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-fleet-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-fleet-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-fleet-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-fleet-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-robot-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-robot-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-robot-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-robot-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-robot-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-robot-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-robot-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-robot-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-simulation-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-simulation-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-simulation-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-simulation-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-world-template-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-world-template-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-delete-world-template-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-delete-world-template-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-application-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-application-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-application-configs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-application-configs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-job-error-code-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-job-error-code-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-job-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-jobs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-jobs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-launch-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-launch-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-timeout-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-timeout-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deployment-version-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deployment-version-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deregister-robot-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deregister-robot-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-deregister-robot-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-deregister-robot-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-deployment-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-deployment-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-deployment-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-deployment-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-fleet-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-fleet-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-fleet-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-fleet-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-robot-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-robot-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-robot-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-robot-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-robot-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-robot-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-robot-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-robot-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-simulation-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-simulation-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-simulation-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-simulation-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-simulation-job-batch-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-simulation-job-batch-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-simulation-job-batch-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-simulation-job-batch-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-simulation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-simulation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-simulation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-simulation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-export-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-export-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-export-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-export-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-generation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-generation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-generation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-generation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-template-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-template-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-describe-world-template-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-describe-world-template-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-environment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-environment-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-environment-variable-key-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-environment-variable-key-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-environment-variable-map-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-environment-variable-map-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-environment-variable-value-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-environment-variable-value-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-exit-behavior-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-exit-behavior-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-failed-at-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-failed-at-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-failed-create-simulation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-failed-create-simulation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-failed-create-simulation-job-requests-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-failed-create-simulation-job-requests-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-failure-behavior-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-failure-behavior-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-failure-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-failure-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-filter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-filter-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-filter-values-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-filter-values-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-filters-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-filters-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-finished-worlds-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-finished-worlds-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-fleet-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-fleet-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-fleets-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-fleets-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-floorplan-count-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-floorplan-count-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-generic-integer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-generic-integer-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-generic-string-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-generic-string-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-get-world-template-body-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-get-world-template-body-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-get-world-template-body-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-get-world-template-body-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-gpu-unit-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-gpu-unit-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-iam-role-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-iam-role-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-idempotent-parameter-mismatch-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-idempotent-parameter-mismatch-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-image-digest-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-image-digest-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-integer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-integer-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-interior-count-per-floorplan-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-interior-count-per-floorplan-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-internal-server-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-internal-server-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-invalid-parameter-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-invalid-parameter-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-job-duration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-job-duration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-json-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-json-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-last-started-at-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-last-started-at-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-last-updated-at-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-last-updated-at-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-launch-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-launch-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-limit-exceeded-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-limit-exceeded-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-deployment-jobs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-deployment-jobs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-deployment-jobs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-deployment-jobs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-fleets-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-fleets-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-fleets-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-fleets-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-robot-applications-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-robot-applications-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-robot-applications-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-robot-applications-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-robots-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-robots-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-robots-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-robots-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-simulation-applications-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-simulation-applications-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-simulation-applications-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-simulation-applications-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-simulation-job-batches-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-simulation-job-batches-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-simulation-job-batches-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-simulation-job-batches-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-simulation-jobs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-simulation-jobs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-simulation-jobs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-simulation-jobs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-tags-for-resource-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-tags-for-resource-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-tags-for-resource-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-tags-for-resource-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-world-export-jobs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-world-export-jobs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-world-export-jobs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-world-export-jobs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-world-generation-jobs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-world-generation-jobs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-world-generation-jobs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-world-generation-jobs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-world-templates-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-world-templates-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-world-templates-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-world-templates-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-worlds-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-worlds-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-list-worlds-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-list-worlds-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-logging-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-logging-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-max-concurrency-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-max-concurrency-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-max-results-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-max-results-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-network-interface-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-network-interface-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-non-empty-string-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-non-empty-string-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-non-system-port-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-non-system-port-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-output-location-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-output-location-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-pagination-token-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-pagination-token-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-path-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-path-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-percent-done-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-percent-done-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-percentage-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-percentage-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-port-forwarding-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-port-forwarding-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-port-mapping-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-port-mapping-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-port-mapping-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-port-mapping-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-port-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-port-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-progress-detail-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-progress-detail-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-register-robot-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-register-robot-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-register-robot-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-register-robot-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-rendering-engine-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-rendering-engine-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-rendering-engine-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-rendering-engine-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-rendering-engine-version-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-rendering-engine-version-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-repository-url-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-repository-url-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-resource-already-exists-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-resource-already-exists-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-resource-not-found-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-resource-not-found-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-restart-simulation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-restart-simulation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-restart-simulation-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-restart-simulation-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-revision-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-revision-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-application-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-application-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-application-configs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-application-configs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-application-names-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-application-names-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-application-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-application-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-application-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-application-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-deployment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-deployment-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-deployment-step-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-deployment-step-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-deployment-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-deployment-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-software-suite-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-software-suite-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-software-suite-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-software-suite-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-software-suite-version-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-software-suite-version-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robot-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robot-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-robots-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-robots-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-bucket-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-bucket-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-etag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-etag-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-etags-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-etags-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-key-or-prefix-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-key-or-prefix-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-key-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-key-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-key-outputs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-key-outputs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-key-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-key-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-keys-or-prefixes-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-keys-or-prefixes-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-s3-object-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-s3-object-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-security-groups-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-security-groups-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-service-unavailable-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-service-unavailable-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-application-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-application-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-application-configs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-application-configs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-application-names-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-application-names-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-application-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-application-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-application-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-application-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-batch-error-code-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-batch-error-code-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-batch-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-batch-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-batch-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-batch-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-batch-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-batch-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-error-code-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-error-code-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-job-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-job-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-jobs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-jobs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-software-suite-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-software-suite-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-software-suite-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-software-suite-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-software-suite-version-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-software-suite-version-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-time-millis-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-time-millis-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-simulation-unit-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-simulation-unit-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-source-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-source-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-source-configs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-source-configs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-source-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-source-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-sources-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-sources-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-start-simulation-job-batch-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-start-simulation-job-batch-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-start-simulation-job-batch-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-start-simulation-job-batch-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-subnets-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-subnets-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-sync-deployment-job-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-sync-deployment-job-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-sync-deployment-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-sync-deployment-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tag-key-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tag-key-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tag-key-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tag-key-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tag-map-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tag-map-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tag-resource-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tag-resource-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tag-resource-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tag-resource-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tag-value-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tag-value-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-template-location-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-template-location-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-template-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-template-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-template-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-template-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-template-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-template-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-throttling-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-throttling-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tool-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tool-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-tools-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-tools-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-unrestricted-command-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-unrestricted-command-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-untag-resource-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-untag-resource-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-untag-resource-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-untag-resource-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-update-robot-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-update-robot-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-update-robot-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-update-robot-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-update-simulation-application-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-update-simulation-application-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-update-simulation-application-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-update-simulation-application-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-update-world-template-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-update-world-template-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-update-world-template-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-update-world-template-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-upload-behavior-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-upload-behavior-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-upload-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-upload-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-upload-configurations-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-upload-configurations-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-version-qualifier-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-version-qualifier-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-version-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-version-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-vpc-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-vpc-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-vpc-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-vpc-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-configs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-configs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-count-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-count-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-export-job-error-code-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-export-job-error-code-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-export-job-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-export-job-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-export-job-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-export-job-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-export-job-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-export-job-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-failure-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-failure-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-failures-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-failures-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-generation-job-error-code-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-generation-job-error-code-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-generation-job-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-generation-job-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-generation-job-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-generation-job-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-generation-job-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-generation-job-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-summaries-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-summaries-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-schema/amazon-robomaker-openapi-world-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-robomaker-openapi-world-summary-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-architecture-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-architecture-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-arn-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-arn-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-arns-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-arns-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-batch-delete-worlds-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-batch-delete-worlds-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-batch-delete-worlds-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-batch-delete-worlds-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-batch-describe-simulation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-batch-describe-simulation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-batch-describe-simulation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-batch-describe-simulation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-batch-policy-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-batch-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-batch-timeout-in-seconds-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-batch-timeout-in-seconds-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-boolean-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-boolean-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-boxed-boolean-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-boxed-boolean-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-deployment-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-deployment-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-deployment-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-deployment-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-simulation-job-batch-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-batch-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-simulation-job-batch-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-batch-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-simulation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-simulation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-world-export-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-world-export-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-world-export-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-world-export-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-world-generation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-world-generation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-cancel-world-generation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-cancel-world-generation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-client-request-token-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-client-request-token-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-command-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-command-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-command-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-command-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-compute-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-compute-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-compute-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-compute-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-compute-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-compute-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-concurrent-deployment-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-concurrent-deployment-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-deployment-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-deployment-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-deployment-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-deployment-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-fleet-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-fleet-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-fleet-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-fleet-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-robot-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-robot-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-robot-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-robot-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-robot-application-version-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-robot-application-version-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-robot-application-version-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-robot-application-version-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-robot-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-robot-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-robot-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-robot-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-simulation-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-simulation-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-simulation-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-simulation-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-simulation-application-version-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-simulation-application-version-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-simulation-application-version-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-simulation-application-version-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-simulation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-simulation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-simulation-job-requests-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-simulation-job-requests-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-simulation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-simulation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-world-export-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-world-export-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-world-export-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-world-export-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-world-generation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-world-generation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-world-generation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-world-generation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-world-template-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-world-template-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-create-world-template-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-create-world-template-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-created-at-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-created-at-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-data-source-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-data-source-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-data-source-configs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-data-source-configs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-data-source-names-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-data-source-names-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-data-source-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-data-source-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-data-source-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-data-source-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-data-sources-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-data-sources-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-fleet-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-fleet-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-fleet-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-fleet-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-robot-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-robot-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-robot-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-robot-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-robot-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-robot-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-robot-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-robot-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-simulation-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-simulation-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-simulation-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-simulation-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-world-template-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-world-template-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-delete-world-template-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-delete-world-template-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-application-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-application-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-application-configs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-application-configs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-job-error-code-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-job-error-code-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-job-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-job-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-jobs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-jobs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-launch-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-launch-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-timeout-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-timeout-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deployment-version-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deployment-version-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deregister-robot-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deregister-robot-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-deregister-robot-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-deregister-robot-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-deployment-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-deployment-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-deployment-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-deployment-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-fleet-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-fleet-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-fleet-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-fleet-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-robot-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-robot-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-robot-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-robot-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-robot-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-robot-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-robot-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-robot-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-simulation-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-simulation-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-simulation-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-simulation-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-simulation-job-batch-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-simulation-job-batch-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-simulation-job-batch-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-simulation-job-batch-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-simulation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-simulation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-simulation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-simulation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-export-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-export-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-export-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-export-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-generation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-generation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-generation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-generation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-template-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-template-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-describe-world-template-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-describe-world-template-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-environment-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-environment-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-environment-variable-key-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-environment-variable-key-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-environment-variable-map-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-environment-variable-map-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-environment-variable-value-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-environment-variable-value-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-exit-behavior-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-exit-behavior-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-failed-at-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-failed-at-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-failed-create-simulation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-failed-create-simulation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-failed-create-simulation-job-requests-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-failed-create-simulation-job-requests-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-failure-behavior-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-failure-behavior-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-failure-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-failure-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-filter-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-filter-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-filter-values-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-filter-values-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-filters-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-filters-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-finished-worlds-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-finished-worlds-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-fleet-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-fleet-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-fleets-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-fleets-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-floorplan-count-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-floorplan-count-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-generic-integer-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-generic-integer-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-generic-string-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-generic-string-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-get-world-template-body-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-get-world-template-body-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-get-world-template-body-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-get-world-template-body-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-gpu-unit-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-gpu-unit-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-iam-role-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-iam-role-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-idempotent-parameter-mismatch-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-idempotent-parameter-mismatch-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-image-digest-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-image-digest-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-integer-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-integer-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-interior-count-per-floorplan-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-interior-count-per-floorplan-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-internal-server-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-internal-server-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-invalid-parameter-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-invalid-parameter-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-job-duration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-job-duration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-json-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-json-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-last-started-at-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-last-started-at-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-last-updated-at-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-last-updated-at-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-launch-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-launch-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-limit-exceeded-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-limit-exceeded-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-deployment-jobs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-deployment-jobs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-deployment-jobs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-deployment-jobs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-fleets-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-fleets-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-fleets-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-fleets-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-robot-applications-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-robot-applications-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-robot-applications-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-robot-applications-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-robots-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-robots-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-robots-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-robots-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-simulation-applications-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-simulation-applications-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-simulation-applications-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-simulation-applications-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-simulation-job-batches-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-simulation-job-batches-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-simulation-job-batches-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-simulation-job-batches-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-simulation-jobs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-simulation-jobs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-simulation-jobs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-simulation-jobs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-tags-for-resource-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-tags-for-resource-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-tags-for-resource-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-tags-for-resource-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-world-export-jobs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-world-export-jobs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-world-export-jobs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-world-export-jobs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-world-generation-jobs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-world-generation-jobs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-world-generation-jobs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-world-generation-jobs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-world-templates-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-world-templates-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-world-templates-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-world-templates-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-worlds-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-worlds-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-list-worlds-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-list-worlds-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-logging-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-logging-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-max-concurrency-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-max-concurrency-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-max-results-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-max-results-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-network-interface-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-network-interface-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-non-empty-string-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-non-empty-string-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-non-system-port-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-non-system-port-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-output-location-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-output-location-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-pagination-token-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-pagination-token-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-path-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-path-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-percent-done-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-percent-done-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-percentage-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-percentage-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-port-forwarding-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-port-forwarding-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-port-mapping-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-port-mapping-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-port-mapping-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-port-mapping-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-port-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-port-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-progress-detail-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-progress-detail-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-register-robot-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-register-robot-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-register-robot-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-register-robot-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-rendering-engine-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-rendering-engine-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-rendering-engine-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-rendering-engine-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-rendering-engine-version-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-rendering-engine-version-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-repository-url-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-repository-url-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-resource-already-exists-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-resource-already-exists-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-resource-not-found-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-resource-not-found-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-restart-simulation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-restart-simulation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-restart-simulation-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-restart-simulation-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-revision-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-revision-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-application-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-application-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-application-configs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-application-configs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-application-names-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-application-names-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-application-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-application-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-application-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-application-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-deployment-step-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-deployment-step-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-deployment-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-deployment-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-deployment-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-deployment-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-software-suite-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-software-suite-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-software-suite-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-software-suite-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-software-suite-version-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-software-suite-version-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robot-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robot-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-robots-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-robots-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-bucket-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-bucket-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-etag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-etag-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-etags-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-etags-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-key-or-prefix-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-key-or-prefix-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-key-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-key-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-key-outputs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-key-outputs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-key-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-key-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-keys-or-prefixes-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-keys-or-prefixes-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-s3-object-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-s3-object-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-security-groups-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-security-groups-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-service-unavailable-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-service-unavailable-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-application-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-application-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-application-configs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-application-configs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-application-names-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-application-names-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-application-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-application-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-application-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-application-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-batch-error-code-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-batch-error-code-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-batch-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-batch-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-batch-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-batch-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-batch-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-batch-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-error-code-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-error-code-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-job-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-job-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-jobs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-jobs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-software-suite-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-software-suite-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-software-suite-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-software-suite-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-software-suite-version-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-software-suite-version-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-time-millis-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-time-millis-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-simulation-unit-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-simulation-unit-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-source-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-source-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-source-configs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-source-configs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-source-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-source-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-sources-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-sources-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-start-simulation-job-batch-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-start-simulation-job-batch-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-start-simulation-job-batch-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-start-simulation-job-batch-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-subnets-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-subnets-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-sync-deployment-job-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-sync-deployment-job-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-sync-deployment-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-sync-deployment-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tag-key-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tag-key-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tag-key-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tag-key-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tag-map-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tag-map-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tag-resource-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tag-resource-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tag-resource-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tag-resource-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tag-value-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tag-value-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-template-location-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-template-location-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-template-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-template-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-template-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-template-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-template-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-template-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-throttling-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-throttling-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tool-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tool-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-tools-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-tools-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-unrestricted-command-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-unrestricted-command-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-untag-resource-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-untag-resource-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-untag-resource-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-untag-resource-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-update-robot-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-update-robot-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-update-robot-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-update-robot-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-update-simulation-application-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-update-simulation-application-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-update-simulation-application-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-update-simulation-application-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-update-world-template-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-update-world-template-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-update-world-template-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-update-world-template-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-upload-behavior-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-upload-behavior-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-upload-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-upload-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-upload-configurations-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-upload-configurations-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-version-qualifier-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-version-qualifier-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-version-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-version-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-vpc-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-vpc-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-vpc-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-vpc-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-configs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-configs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-count-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-count-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-export-job-error-code-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-export-job-error-code-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-export-job-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-export-job-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-export-job-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-export-job-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-export-job-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-export-job-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-failure-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-failure-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-failures-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-failures-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-generation-job-error-code-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-generation-job-error-code-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-generation-job-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-generation-job-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-generation-job-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-generation-job-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-generation-job-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-generation-job-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-summaries-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-summaries-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/json-structure/amazon-robomaker-openapi-world-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-robomaker-openapi-world-summary-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-batch-delete-worlds-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-batch-delete-worlds-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-batch-delete-worlds-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-batch-delete-worlds-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-batch-describe-simulation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-batch-describe-simulation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-batch-describe-simulation-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-batch-describe-simulation-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-batch-policy-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-batch-policy-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-cancel-deployment-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-cancel-deployment-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-cancel-simulation-job-batch-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-cancel-simulation-job-batch-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-cancel-simulation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-cancel-simulation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-cancel-world-export-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-cancel-world-export-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-cancel-world-generation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-cancel-world-generation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-compute-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-compute-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-compute-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-compute-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-deployment-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-deployment-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-deployment-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-deployment-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-fleet-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-fleet-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-fleet-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-fleet-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-robot-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-robot-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-robot-application-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-robot-application-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-robot-application-version-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-robot-application-version-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-robot-application-version-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-robot-application-version-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-robot-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-robot-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-robot-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-robot-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-simulation-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-simulation-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-simulation-application-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-simulation-application-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-simulation-application-version-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-simulation-application-version-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-simulation-application-version-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-simulation-application-version-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-simulation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-simulation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-simulation-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-simulation-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-world-export-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-world-export-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-world-export-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-world-export-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-world-generation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-world-generation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-world-generation-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-world-generation-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-world-template-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-world-template-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-create-world-template-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-create-world-template-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-data-source-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-data-source-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-data-source-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-data-source-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-delete-fleet-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-delete-fleet-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-delete-robot-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-delete-robot-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-delete-robot-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-delete-robot-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-delete-simulation-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-delete-simulation-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-delete-world-template-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-delete-world-template-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-deployment-application-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-deployment-application-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-deployment-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-deployment-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-deployment-job-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-deployment-job-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-deployment-launch-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-deployment-launch-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-deregister-robot-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-deregister-robot-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-deregister-robot-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-deregister-robot-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-deployment-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-deployment-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-deployment-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-deployment-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-fleet-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-fleet-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-fleet-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-fleet-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-robot-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-robot-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-robot-application-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-robot-application-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-robot-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-robot-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-robot-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-robot-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-simulation-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-simulation-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-simulation-application-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-simulation-application-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-simulation-job-batch-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-simulation-job-batch-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-simulation-job-batch-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-simulation-job-batch-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-simulation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-simulation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-simulation-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-simulation-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-export-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-export-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-export-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-export-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-generation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-generation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-generation-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-generation-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-template-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-template-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-describe-world-template-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-describe-world-template-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-environment-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-environment-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-failed-create-simulation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-failed-create-simulation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-failure-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-failure-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-filter-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-filter-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-finished-worlds-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-finished-worlds-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-fleet-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-fleet-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-get-world-template-body-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-get-world-template-body-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-get-world-template-body-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-get-world-template-body-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-launch-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-launch-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-deployment-jobs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-deployment-jobs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-deployment-jobs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-deployment-jobs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-fleets-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-fleets-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-fleets-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-fleets-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-robot-applications-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-robot-applications-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-robot-applications-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-robot-applications-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-robots-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-robots-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-robots-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-robots-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-simulation-applications-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-simulation-applications-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-simulation-applications-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-simulation-applications-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-simulation-job-batches-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-simulation-job-batches-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-simulation-job-batches-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-simulation-job-batches-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-simulation-jobs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-simulation-jobs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-simulation-jobs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-simulation-jobs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-tags-for-resource-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-tags-for-resource-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-world-export-jobs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-world-export-jobs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-world-export-jobs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-world-export-jobs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-world-generation-jobs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-world-generation-jobs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-world-generation-jobs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-world-generation-jobs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-world-templates-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-world-templates-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-world-templates-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-world-templates-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-worlds-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-worlds-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-list-worlds-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-list-worlds-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-logging-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-logging-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-network-interface-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-network-interface-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-output-location-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-output-location-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-port-forwarding-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-port-forwarding-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-port-mapping-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-port-mapping-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-progress-detail-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-progress-detail-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-register-robot-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-register-robot-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-register-robot-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-register-robot-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-rendering-engine-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-rendering-engine-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-restart-simulation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-restart-simulation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-robot-application-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-robot-application-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-robot-application-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-robot-application-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-robot-deployment-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-robot-deployment-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-robot-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-robot-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-robot-software-suite-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-robot-software-suite-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-s3-key-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-s3-key-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-s3-object-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-s3-object-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-simulation-application-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-simulation-application-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-simulation-application-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-simulation-application-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-simulation-job-batch-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-simulation-job-batch-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-simulation-job-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-simulation-job-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-simulation-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-simulation-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-simulation-job-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-simulation-job-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-simulation-software-suite-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-simulation-software-suite-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-source-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-source-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-source-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-source-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-start-simulation-job-batch-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-start-simulation-job-batch-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-start-simulation-job-batch-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-start-simulation-job-batch-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-sync-deployment-job-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-sync-deployment-job-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-sync-deployment-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-sync-deployment-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-tag-resource-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-tag-resource-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-template-location-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-template-location-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-template-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-template-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-tool-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-tool-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-update-robot-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-update-robot-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-update-robot-application-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-update-robot-application-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-update-simulation-application-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-update-simulation-application-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-update-simulation-application-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-update-simulation-application-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-update-world-template-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-update-world-template-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-update-world-template-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-update-world-template-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-upload-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-upload-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-vpc-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-vpc-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-vpc-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-vpc-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-world-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-world-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-world-count-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-world-count-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-world-export-job-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-world-export-job-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-world-failure-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-world-failure-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-world-generation-job-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-world-generation-job-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/examples/amazon-robomaker-openapi-world-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-robomaker-openapi-world-summary-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/rules/amazon-robomaker-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-robomaker-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/vocabulary/amazon-robomaker-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-robomaker-vocabulary.yaml
@@ -5872,6 +6633,38 @@ rules:
     info: 2
     warn: 16
   slug: amazon-robomaker-spectral-rules
+score:
+  band: developing
+  composite: 45.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 58.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 28.8
+    contract_quality: 64.5
+    developer_ergonomics: 27.4
+    discoverability: 53.7
+    operational_transparency: 26.3
+  previous_composite: 45.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 55
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/screenshots/amazon-robomaker-2026-06-20T171810.png
 security:
 - kind: authentication

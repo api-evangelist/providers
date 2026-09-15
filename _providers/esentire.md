@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: An authorization-gated Model Context Protocol server operated by eSentire on its own API host. Every path under https://api.esentire.com/mcp/ answers 401 UNAUTHORIZED with an RFC 9728 challenge (`WWW-
@@ -20,6 +45,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/security/esentire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/esentire-domain-security.yml
@@ -60,46 +86,57 @@ common:
   type: TrustCenter
   url: https://trust.esentire.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/security/esentire-trust-center.yml
   title: ''
   type: Compliance
   url: security/esentire-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/security/esentire-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/esentire-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/security/esentire-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/esentire-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/llms/esentire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/esentire-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/well-known/esentire-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/esentire-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/conformance/esentire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/esentire-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/conventions/esentire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/esentire-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/lifecycle/esentire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/esentire-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/packages/esentire-packages.yml
   title: ''
   type: Packages
   url: packages/esentire-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/plans/esentire-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/esentire-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/rate-limits/esentire-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/esentire-rate-limits.yml
@@ -133,6 +170,35 @@ scopes:
   scope_count: 0
   slug: esentire-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 22.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 22.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/esentire/refs/heads/main/screenshots/esentire-2026-09-02T145421.png
 security:
 - kind: authentication

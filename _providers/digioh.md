@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Client-side browser API exposed by the Digioh widget runtime once the Digioh JavaScript tag is installed on a site. Documented calls include DIGIOH_API.LIGHTBOX.loadLightbox(guid) to manually trigger '
@@ -25,6 +50,7 @@ asyncapis:
   slug: digioh-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/security/digioh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digioh-domain-security.yml
@@ -93,54 +119,67 @@ common:
   type: ChangeLog
   url: https://www.digioh.com/blog-categories/product-updates
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/changelog/digioh-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/digioh-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/packages/digioh-packages.yml
   title: ''
   type: Packages
   url: packages/digioh-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/packages/digioh-packages.yml
   title: ''
   type: SDKs
   url: packages/digioh-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/llms/digioh-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digioh-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/plans/digioh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/digioh-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/rate-limits/digioh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/digioh-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/lifecycle/digioh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/digioh-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/conformance/digioh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/digioh-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/conventions/digioh-conventions.yml
   title: ''
   type: Conventions
   url: conventions/digioh-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/authentication/digioh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/digioh-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/asyncapi/digioh-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/digioh-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/components/digioh-components.yml
   title: ''
   type: Components
   url: components/digioh-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/sandbox/digioh-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/digioh-sandbox.yml
@@ -168,6 +207,34 @@ rate_limits:
 - limit_count: 0
   name: Digioh Rate Limits
   slug: digioh-rate-limits
+score:
+  band: strong
+  composite: 54.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 54.9
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png
 security:
 - kind: authentication

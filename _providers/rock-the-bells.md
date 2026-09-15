@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'A live, remote Model Context Protocol server on Rock The Bells'' own storefront host implementing the Universal Commerce Protocol shopping service. Thirteen tools let an agent search the catalog, look '
@@ -30,78 +55,97 @@ common:
   type: Documentation
   url: https://shop.rockthebells.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/llms/rock-the-bells-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rock-the-bells-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/mcp/rock-the-bells-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rock-the-bells-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/mcp/rock-the-bells-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rock-the-bells-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/well-known/rock-the-bells-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rock-the-bells-well-known.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/graphql/rock-the-bells-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/rock-the-bells-storefront.graphql
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/json-schema/rock-the-bells-ucp-tool-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/rock-the-bells-ucp-tool-schemas.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/conventions/rock-the-bells-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rock-the-bells-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/conventions/rock-the-bells-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rock-the-bells-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/data-model/rock-the-bells-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rock-the-bells-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/errors/rock-the-bells-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rock-the-bells-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/authentication/rock-the-bells-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rock-the-bells-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/conformance/rock-the-bells-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rock-the-bells-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/lifecycle/rock-the-bells-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rock-the-bells-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/lifecycle/rock-the-bells-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/rock-the-bells-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/plans/rock-the-bells-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rock-the-bells-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/rate-limits/rock-the-bells-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rock-the-bells-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/packages/rock-the-bells-packages.yml
   title: ''
   type: Packages
   url: packages/rock-the-bells-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/security/rock-the-bells-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rock-the-bells-domain-security.yml
@@ -158,6 +202,36 @@ rate_limits:
 - limit_count: 0
   name: Rock The Bells Rate Limits
   slug: rock-the-bells-rate-limits
+score:
+  band: thin
+  composite: 32.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 43.6
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 32.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/screenshots/rock-the-bells-2026-09-02T154032.png
 security:
 - kind: authentication

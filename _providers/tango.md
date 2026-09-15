@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -136,14 +161,17 @@ collections:
   slug: open-tango-reference-data-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/agentic-access/tango-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tango-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/security/tango-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tango-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/authentication/tango-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tango-authentication.yml
@@ -152,42 +180,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tango/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-branded-order-with-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-branded-order-with-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-explore-catalog-choice-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-explore-catalog-choice-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-freeze-and-cancel-line-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-freeze-and-cancel-line-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-fund-account-credit-card-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-fund-account-credit-card-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-low-balance-alert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-low-balance-alert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-onboard-customer-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-onboard-customer-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-place-order-with-balance-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-place-order-with-balance-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-place-reward-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-place-reward-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-resend-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-resend-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/arazzo/tango-resolve-line-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tango-resolve-line-item-workflow.yml
@@ -236,34 +274,42 @@ common:
   type: Login
   url: https://portal.tangocard.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/_original/tango-raas-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/tango-raas-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/json-schema/tango-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tango-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/json-schema/tango-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tango-account-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/json-schema/tango-catalog-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tango-catalog-item-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/json-structure/tango-order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/tango-order-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/json-ld/tango-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tango-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/rules/tango-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tango-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/vocabulary/tango-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tango-vocabulary.yml
@@ -354,6 +400,44 @@ rules:
     info: 0
     warn: 8
   slug: tango-rules
+score:
+  band: developing
+  composite: 43.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 28.8
+    contract_quality: 62.7
+    developer_ergonomics: 36.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 43.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/screenshots/tango-2026-06-20T194913.png
 security:
 - kind: authentication

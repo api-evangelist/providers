@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The Lumen Developer Center publishes Lumen's enterprise API catalog, including Location, Quoting, Ordering, Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All APIs use OAu
@@ -85,50 +110,62 @@ common:
   type: PrivacyPolicy
   url: https://www.lumen.com/en-us/about/legal/privacy-notice.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/llms/centurylink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/centurylink-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/authentication/centurylink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/centurylink-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/conventions/centurylink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/centurylink-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/errors/centurylink-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/centurylink-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/lifecycle/centurylink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/centurylink-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/conformance/centurylink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/centurylink-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/packages/centurylink-packages.yml
   title: ''
   type: Packages
   url: packages/centurylink-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/packages/centurylink-packages.yml
   title: ''
   type: SDKs
   url: packages/centurylink-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/components/centurylink-components.yml
   title: ''
   type: Components
   url: components/centurylink-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/plans/centurylink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/centurylink-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/rate-limits/centurylink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/centurylink-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/security/centurylink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centurylink-domain-security.yml
@@ -173,6 +210,41 @@ rate_limits:
 - limit_count: 2
   name: Centurylink Rate Limits
   slug: centurylink-rate-limits
+score:
+  band: thin
+  composite: 30.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 54.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 31.0
+    discoverability: 72.2
+    operational_transparency: 23.7
+  previous_composite: 30.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/centurylink/refs/heads/main/screenshots/centurylink-2026-06-20T174132.png
 security:
 - kind: authentication

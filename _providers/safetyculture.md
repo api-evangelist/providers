@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://safetyculture.com'', ''status'': 301, ''note'': ''declared website redirects to https://mitti.com/ — a different registrable domain (safetyculture.com -> mitti.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the SafetyCulture platform — inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks. Bearer-token auth over HTTPS.
@@ -76,38 +101,47 @@ common:
   type: StatusPage
   url: https://status.safetyculture.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/authentication/safetyculture-authentication.yml
   title: ''
   type: Authentication
   url: authentication/safetyculture-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/llms/safetyculture-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/safetyculture-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/well-known/safetyculture-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/safetyculture-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/well-known/safetyculture-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/safetyculture-security.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/rate-limits/safetyculture-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/safetyculture-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/asyncapi/safetyculture-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/safetyculture-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/conventions/safetyculture-conventions.yml
   title: ''
   type: Conventions
   url: conventions/safetyculture-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/lifecycle/safetyculture-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/safetyculture-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/conformance/safetyculture-conformance.yml
   title: ''
   type: Conformance
   url: conformance/safetyculture-conformance.yml
@@ -116,30 +150,37 @@ common:
   type: Compliance
   url: https://safetyculture.com/security
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/packages/safetyculture-packages.yml
   title: ''
   type: Packages
   url: packages/safetyculture-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/packages/safetyculture-packages.yml
   title: ''
   type: SDKs
   url: packages/safetyculture-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/cli/safetyculture-cli.yml
   title: ''
   type: CLI
   url: cli/safetyculture-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/mcp/safetyculture-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/safetyculture-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/security/safetyculture-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/safetyculture-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/security/safetyculture-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/safetyculture-vulnerability-disclosure.yml
@@ -148,6 +189,7 @@ common:
   type: Security
   url: https://safetyculture.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/security/safetyculture-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/safetyculture-trust-center.yml
@@ -171,6 +213,36 @@ rate_limits:
 - limit_count: 6
   name: Safetyculture Rate Limits
   slug: safetyculture-rate-limits
+score:
+  band: developing
+  composite: 50.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 57.7
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 50.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/safetyculture/refs/heads/main/screenshots/safetyculture-2026-08-17T081708.png
 security:
 - kind: authentication

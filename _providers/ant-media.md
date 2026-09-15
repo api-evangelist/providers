@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -89,6 +114,7 @@ common:
   type: Website
   url: https://antmedia.io/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/capabilities/ant-media-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ant-media-capability-edges.yml
@@ -101,10 +127,12 @@ common:
   type: Releases
   url: https://github.com/ant-media/Ant-Media-Server/releases
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/agentic-access/ant-media-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ant-media-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/security/ant-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ant-media-domain-security.yml
@@ -165,38 +193,47 @@ common:
   type: LlmsText
   url: https://antmedia.io/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/packages/ant-media-packages.yml
   title: ''
   type: Packages
   url: packages/ant-media-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/packages/ant-media-packages.yml
   title: First-party Ant Media SDK packages
   type: SDKs
   url: packages/ant-media-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/llms/ant-media-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ant-media-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/mcp/ant-media-mcp.yml
   title: Derived candidate tool surface — Ant Media publishes no MCP server
   type: X-MCPServerCandidate
   url: mcp/ant-media-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/authentication/ant-media-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ant-media-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/conventions/ant-media-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ant-media-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/errors/ant-media-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ant-media-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/conformance/ant-media-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ant-media-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/lifecycle/ant-media-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ant-media-lifecycle.yml
@@ -205,6 +242,7 @@ common:
   type: StatusPage
   url: https://status.antmedia.io/status/home
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/changelog/ant-media-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ant-media-changelog.yml
@@ -213,30 +251,37 @@ common:
   type: ChangeLog
   url: https://github.com/ant-media/Ant-Media-Server/releases
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/sandbox/ant-media-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ant-media-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/components/ant-media-components.yml
   title: ''
   type: Components
   url: components/ant-media-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/data-model/ant-media-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ant-media-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/asyncapi/ant-media-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ant-media-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/plans/ant-media-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ant-media-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/rate-limits/ant-media-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ant-media-rate-limits.yml
@@ -321,6 +366,41 @@ rules:
     info: 2
     warn: 3
   slug: ant-media-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 59.8
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 68.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 29.5
+    contract_quality: 49.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/screenshots/ant-media-2026-06-20T172022.png
 security:
 - kind: authentication

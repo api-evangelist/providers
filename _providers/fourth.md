@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.8
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: Platform notifications API secured with OAuth 2.0 (scope NotificationService).
@@ -55,10 +80,12 @@ common:
   type: GettingStarted
   url: https://developer.fourth.com/en-gb/docs/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/authentication/fourth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fourth-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/scopes/fourth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fourth-scopes.yml
@@ -87,6 +114,7 @@ common:
   type: StatusPage
   url: https://status.fourth.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/lifecycle/fourth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fourth-lifecycle.yml
@@ -95,6 +123,7 @@ common:
   type: Deprecation
   url: https://developer.fourth.com/en-gb/docs/whats-new
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/changelog/fourth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fourth-changelog.yml
@@ -103,6 +132,7 @@ common:
   type: Webhooks
   url: https://developer.fourth.com/en-gb/docs/notifications-api/reference
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/conformance/fourth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fourth-conformance.yml
@@ -111,6 +141,7 @@ common:
   type: Compliance
   url: https://www.fourth.com/legal/fourth-hosting-data-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/security/fourth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fourth-trust-center.yml
@@ -119,22 +150,27 @@ common:
   type: Security
   url: https://www.fourth.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/security/fourth-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fourth-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/well-known/fourth-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fourth-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/well-known/fourth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fourth-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/security/fourth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fourth-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/llms/fourth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fourth-llms.txt
@@ -156,6 +192,34 @@ scopes:
   scope_count: 1
   slug: fourth-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: thin
+  composite: 32.5
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 72.2
+    operational_transparency: 52.6
+  previous_composite: 32.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/screenshots/fourth-2026-07-25T215048.png
 security:
 - kind: authentication

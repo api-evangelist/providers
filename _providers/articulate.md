@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.7
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
@@ -61,6 +86,7 @@ common:
   type: StatusPage
   url: https://www.articulatestatus.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/security/articulate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/articulate-trust-center.yml
@@ -73,6 +99,7 @@ common:
   type: Security
   url: https://www.articulate.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/authentication/articulate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/articulate-authentication.yml
@@ -81,34 +108,42 @@ common:
   type: OpenIDConnect
   url: https://id.articulate.com/.well-known/openid-configuration
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/scopes/articulate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/articulate-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/well-known/articulate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/articulate-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/well-known/articulate-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/articulate-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/security/articulate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/articulate-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/security/articulate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/articulate-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/conformance/articulate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/articulate-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/lifecycle/articulate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/articulate-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/llms/articulate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/articulate-llms.txt
@@ -130,6 +165,47 @@ scopes:
   scope_count: 7
   slug: articulate-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: developing
+  composite: 39.7
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 57.4
+    operational_transparency: 26.3
+  previous_composite: 39.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: fedramp
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 85.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/screenshots/articulate-2026-07-25T201329.png
 security:
 - kind: authentication

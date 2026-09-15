@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Klutch Public API is a GraphQL API for the Klutch programmable credit card. It exposes enriched transaction history with filtering, cursor pagination and group-by aggregation; user-defined transac
@@ -81,74 +107,92 @@ common:
   type: PrivacyPolicy
   url: https://www.klutchcard.com/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/packages/klutch-packages.yml
   title: ''
   type: Packages
   url: packages/klutch-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/packages/klutch-packages.yml
   title: ''
   type: SDKs
   url: packages/klutch-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/cli/klutch-cli.yml
   title: ''
   type: CLI
   url: cli/klutch-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/components/klutch-components.yml
   title: ''
   type: Components
   url: components/klutch-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/mcp/klutch-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/klutch-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/llms/klutch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klutch-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/well-known/klutch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klutch-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/authentication/klutch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klutch-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/scopes/klutch-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/klutch-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/conventions/klutch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klutch-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/errors/klutch-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/klutch-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/lifecycle/klutch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klutch-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/conformance/klutch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klutch-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/data-model/klutch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/klutch-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/sandbox/klutch-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/klutch-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/asyncapi/klutch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/klutch-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/security/klutch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klutch-domain-security.yml
@@ -178,6 +222,42 @@ scopes:
   scope_count: 4
   slug: klutch-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 76.8
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 45.2
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/screenshots/klutch-2026-07-25T223951.png
 security:
 - kind: authentication

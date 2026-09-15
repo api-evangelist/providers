@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Agent-facing shopping surface for the moodytiger Shopify store implemented with the Universal Commerce Protocol (UCP). Agents discover capabilities at /.well-known/ucp and transact (catalog search, ca
@@ -20,22 +45,27 @@ common:
   type: Website
   url: https://moodytiger.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodytiger/refs/heads/main/well-known/moodytiger-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moodytiger-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodytiger/refs/heads/main/mcp/moodytiger-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moodytiger-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodytiger/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodytiger/refs/heads/main/llms/moodytiger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moodytiger-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moodytiger/refs/heads/main/security/moodytiger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moodytiger-domain-security.yml
@@ -76,6 +106,35 @@ overview: 'moodytiger publishes 1 API on the [APIs.io](https://apis.io/) network
 
   moodytiger''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
 random_paper: 20
+score:
+  band: emerging
+  composite: 16.6
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 23.8
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 16.6
+  provenance:
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodytiger/refs/heads/main/screenshots/moodytiger-2026-08-07T184237.png
 security:
 - kind: domain-security

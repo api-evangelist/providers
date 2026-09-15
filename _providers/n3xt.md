@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://openapi.n3xt.io
@@ -139,6 +165,7 @@ collections:
   slug: open-n3xt-wallets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/capabilities/n3xt-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/n3xt-capability-edges.yml
@@ -195,6 +222,7 @@ common:
   type: StatusPage
   url: https://status.n3xt.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/security/n3xt-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/n3xt-trust-center.yml
@@ -207,66 +235,82 @@ common:
   type: Security
   url: https://trust.n3xt.io/resources?s=a3mbqw7jbnczlhbn9hfm16&name=vulnerability-disclosure-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/security/n3xt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/n3xt-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/security/n3xt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/n3xt-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/well-known/n3xt-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/n3xt-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/authentication/n3xt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/n3xt-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/scopes/n3xt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/n3xt-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/mcp/n3xt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/n3xt-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/well-known/n3xt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/n3xt-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/llms/n3xt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/n3xt-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/overlays/n3xt-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/n3xt-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/conformance/n3xt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/n3xt-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/errors/n3xt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/n3xt-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/lifecycle/n3xt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/n3xt-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/sandbox/n3xt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/n3xt-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/conventions/n3xt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/n3xt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/data-model/n3xt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/n3xt-data-model.yml
@@ -292,6 +336,46 @@ scopes:
   scope_count: 8
   slug: n3xt-scopes
   summary_line: 8 scopes
+score:
+  band: developing
+  composite: 48.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 18.2
+    contract_quality: 56.0
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 48.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 62.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/screenshots/n3xt-2026-08-07T184554.png
 security:
 - kind: authentication

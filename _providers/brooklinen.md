@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.6
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
@@ -63,10 +88,12 @@ collections:
   slug: open-brooklinen-search-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/capabilities/brooklinen-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brooklinen-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/security/brooklinen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brooklinen-domain-security.yml
@@ -119,58 +146,72 @@ common:
   type: PrivacyPolicy
   url: https://www.brooklinen.com/policies/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/mcp/brooklinen-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/brooklinen-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/mcp/brooklinen-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/brooklinen-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/llms/brooklinen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brooklinen-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/well-known/brooklinen-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brooklinen-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/authentication/brooklinen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brooklinen-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/scopes/brooklinen-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brooklinen-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/conventions/brooklinen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brooklinen-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/conventions/brooklinen-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/brooklinen-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/lifecycle/brooklinen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brooklinen-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/conformance/brooklinen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brooklinen-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/errors/brooklinen-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brooklinen-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/data-model/brooklinen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brooklinen-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/overlays/brooklinen-storefront-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brooklinen-storefront-overlay.yaml
@@ -204,6 +245,47 @@ scopes:
   scope_count: 4
   slug: brooklinen-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 35.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 13.3
+    developer_ergonomics: 54.8
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 35.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:
 - kind: authentication

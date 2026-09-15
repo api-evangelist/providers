@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 5
@@ -181,18 +206,22 @@ common:
   type: Website
   url: https://www.smolmachines.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/overlays/smol-machines-smolfleet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/smol-machines-smolfleet-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/authentication/smol-machines-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smol-machines-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/security/smol-machines-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smol-machines-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/agentic-access/smol-machines-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smol-machines-agentic-access.yml
@@ -253,62 +282,77 @@ common:
   type: Registry
   url: https://smolmachines.com/registry
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/_original/smol-machines-smolfleet-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/smol-machines-smolfleet-openapi.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/_original/smol-machines-smolvm-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/smol-machines-smolvm-openapi.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/llms/smol-machines-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smol-machines-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/packages/smol-machines-packages.yml
   title: ''
   type: Packages
   url: packages/smol-machines-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/packages/smol-machines-packages.yml
   title: ''
   type: SDKs
   url: packages/smol-machines-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/cli/smol-machines-cli.yml
   title: ''
   type: CLI
   url: cli/smol-machines-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/mcp/smol-machines-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/smol-machines-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/well-known/smol-machines-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/smol-machines-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/conformance/smol-machines-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smol-machines-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/errors/smol-machines-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/smol-machines-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/lifecycle/smol-machines-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smol-machines-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/conventions/smol-machines-conventions.yml
   title: ''
   type: Conventions
   url: conventions/smol-machines-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/changelog/smol-machines-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/smol-machines-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/data-model/smol-machines-data-model.yml
   title: ''
   type: DataModel
   url: data-model/smol-machines-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -325,6 +369,41 @@ overview: 'Smol Machines publishes 19 APIs on the [APIs.io](https://apis.io/) ne
 
   Smol Machines'' developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 27 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 42.1
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 46.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/screenshots/smol-machines-2026-08-17T081934.png
 security:
 - kind: authentication

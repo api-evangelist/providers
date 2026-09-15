@@ -10,6 +10,32 @@ access_model:
   - https://www.nooks.ai/pricing
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 56.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -104,6 +130,7 @@ asyncapis:
   slug: nooks-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/overlays/nooks-sequencing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nooks-sequencing-overlay.yaml
@@ -160,6 +187,7 @@ common:
   type: StatusPage
   url: https://status.nooks.in/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/security/nooks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nooks-trust-center.yml
@@ -172,34 +200,42 @@ common:
   type: Security
   url: https://www.nooks.ai/responsible-disclosure-process
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/security/nooks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nooks-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/security/nooks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nooks-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/well-known/nooks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nooks-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/llms/nooks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nooks-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/packages/nooks-packages.yml
   title: ''
   type: Packages
   url: packages/nooks-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/plans/nooks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nooks-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/agentic-access/nooks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nooks-agentic-access.yml
@@ -237,6 +273,41 @@ scopes:
   scope_count: 24
   slug: nooks-scopes
   summary_line: 24 scopes · authorizationCode
+score:
+  band: strong
+  composite: 57.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 68.8
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 57.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/screenshots/nooks-2026-08-07T185457.png
 security:
 - kind: authentication

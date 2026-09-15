@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -105,22 +130,27 @@ collections:
   slug: open-amazon-ses
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/agentic-access/amazon-ses-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-ses-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/security/amazon-ses-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-ses-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/security/amazon-ses-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-ses-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/security/amazon-ses-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-ses-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -217,162 +247,202 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-ld/amazon-ses-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-ses-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-ld/amazon-ses-emailmessage-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-ses-emailmessage-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-ld/amazon-ses-openapi-email-message-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-ses-openapi-email-message-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-schema/amazon-ses-emailmessage-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-ses-emailmessage-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-schema/amazon-ses-openapi-email-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-ses-openapi-email-message-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-structure/amazon-ses-emailmessage-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-ses-emailmessage-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/json-structure/amazon-ses-openapi-email-message-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-ses-openapi-email-message-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/examples/amazon-ses-emailmessage-example.json
   title: ''
   type: Examples
   url: examples/amazon-ses-emailmessage-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/examples/amazon-ses-openapi-email-message-example.json
   title: ''
   type: Examples
   url: examples/amazon-ses-openapi-email-message-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/rules/amazon-ses-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-ses-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/vocabulary/amazon-ses-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-ses-vocabulary.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/_original/amazon-ses-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/amazon-ses-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/_original/amazon-ses-sesv2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/amazon-ses-sesv2-openapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/packages/amazon-ses-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-ses-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/packages/amazon-ses-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-ses-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/cli/amazon-ses-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-ses-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/authentication/amazon-ses-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-ses-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/conventions/amazon-ses-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-ses-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/errors/amazon-ses-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-ses-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/data-model/amazon-ses-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-ses-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/lifecycle/amazon-ses-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-ses-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/changelog/amazon-ses-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-ses-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/conformance/amazon-ses-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-ses-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/sandbox/amazon-ses-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amazon-ses-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/asyncapi/amazon-ses-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/amazon-ses-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/mcp/amazon-ses-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-ses-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/mcp/amazon-ses-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-ses-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/llms/amazon-ses-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-ses-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/llms/amazon-ses-api-reference-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-ses-api-reference-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/well-known/amazon-ses-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-ses-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/well-known/amazon-ses-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-ses-security.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/plans/amazon-ses-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-ses-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/rate-limits/amazon-ses-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-ses-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/finops/amazon-ses-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-ses-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/overlays/amazon-ses-sesv2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-ses-sesv2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/overlays/amazon-ses-email-sending-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-ses-email-sending-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/overlays/amazon-ses-identities-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-ses-identities-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/overlays/amazon-ses-contact-lists-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-ses-contact-lists-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/overlays/amazon-ses-templates-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-ses-templates-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/collections/amazon-ses.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/amazon-ses.postman_collection.json
@@ -468,6 +538,41 @@ rules:
     info: 1
     warn: 13
   slug: amazon-ses-spectral-rules
+score:
+  band: exemplar
+  composite: 76.3
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 71.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 64.9
+    developer_ergonomics: 86.9
+    discoverability: 57.4
+    operational_transparency: 84.2
+  previous_composite: 76.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 20.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png
 security:
 - kind: authentication

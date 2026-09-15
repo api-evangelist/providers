@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -246,14 +271,17 @@ common:
   type: SecurityPolicy
   url: https://github.com/dust-tt/dust/blob/main/SECURITY.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/agentic-access/dust-tt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dust-tt-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/security/dust-tt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dust-tt-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/authentication/dust-tt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dust-tt-authentication.yml
@@ -262,50 +290,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dust/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-approve-agent-action-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-approve-agent-action-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-attach-file-and-ask-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-attach-file-and-ask-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-converse-with-agent-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-converse-with-agent-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-create-table-and-upsert-rows-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-create-table-and-upsert-rows-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-discover-spaces-and-data-sources-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-discover-spaces-and-data-sources-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-find-agent-and-start-conversation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-find-agent-and-start-conversation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-import-agent-and-converse-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-import-agent-and-converse-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-message-and-submit-feedback-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-message-and-submit-feedback-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-post-message-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-post-message-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-run-app-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-run-app-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-suggest-mention-and-converse-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-suggest-mention-and-converse-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/arazzo/dust-tt-upsert-document-and-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dust-tt-upsert-document-and-search-workflow.yml
@@ -474,14 +514,17 @@ common:
   type: Twitter
   url: https://twitter.com/dust4ai
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/plans/dust-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dust-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/rate-limits/dust-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dust-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/finops/dust-finops.yml
   title: ''
   type: FinOps
   url: finops/dust-finops.yml
@@ -546,6 +589,45 @@ rules:
     info: 2
     warn: 4
   slug: dust-tt-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 73.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 87.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 27.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 9.8
+    contract_quality: 67.0
+    developer_ergonomics: 76.2
+    discoverability: 74.1
+    operational_transparency: 76.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 73.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png
 security:
 - kind: authentication

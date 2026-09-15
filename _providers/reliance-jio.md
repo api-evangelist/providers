@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -46,62 +71,77 @@ collections:
   slug: open-reliance-jio-jiomeet-platform
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/overlays/reliance-jio-jiomeet-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reliance-jio-jiomeet-platform-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/skills/reliance-jio-create-and-record-a-meeting.md
   title: ''
   type: AgentSkill
   url: skills/reliance-jio-create-and-record-a-meeting.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/overlays/reliance-jio-jiomeet-oauth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reliance-jio-jiomeet-oauth-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/skills/reliance-jio-manage-user-meetings-with-oauth.md
   title: ''
   type: AgentSkill
   url: skills/reliance-jio-manage-user-meetings-with-oauth.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/overlays/reliance-jio-jioevents-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reliance-jio-jioevents-platform-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/skills/reliance-jio-run-a-jioevents-webinar.md
   title: ''
   type: AgentSkill
   url: skills/reliance-jio-run-a-jioevents-webinar.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/agentic-access/reliance-jio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reliance-jio-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/authentication/reliance-jio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reliance-jio-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/scopes/reliance-jio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/reliance-jio-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/conventions/reliance-jio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reliance-jio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/errors/reliance-jio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reliance-jio-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/examples/reliance-jio-examples.yml
   title: ''
   type: Examples
   url: examples/reliance-jio-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/data-model/reliance-jio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reliance-jio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/lifecycle/reliance-jio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reliance-jio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/conformance/reliance-jio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reliance-jio-conformance.yml
@@ -110,38 +150,47 @@ common:
   type: Compliance
   url: https://s3.us-east-1.amazonaws.com/tmf-sfdc-public/Conformance/CON-01539/JIO-Certification%20Report-TMF653%20API-Aug2022.pdf
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/packages/reliance-jio-packages.yml
   title: ''
   type: Packages
   url: packages/reliance-jio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/packages/reliance-jio-packages.yml
   title: ''
   type: SDKs
   url: packages/reliance-jio-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/components/reliance-jio-components.yml
   title: ''
   type: Components
   url: components/reliance-jio-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/mcp/reliance-jio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/reliance-jio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/llms/reliance-jio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reliance-jio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/well-known/reliance-jio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/reliance-jio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/well-known/reliance-jio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/reliance-jio-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/security/reliance-jio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/reliance-jio-vulnerability-disclosure.yml
@@ -150,6 +199,7 @@ common:
   type: Security
   url: https://jiomeetpro.jio.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/security/reliance-jio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reliance-jio-domain-security.yml
@@ -249,6 +299,54 @@ scopes:
   scope_count: 6
   slug: reliance-jio-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: strong
+  composite: 56.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 55.5
+    developer_ergonomics: 63.7
+    discoverability: 72.2
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 56.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 100.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/screenshots/reliance-jio-2026-08-17T081508.png
 security:
 - kind: authentication

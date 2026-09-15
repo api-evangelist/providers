@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -557,30 +583,37 @@ collections:
   slug: open-asana
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/capabilities/asana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/asana-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/agentic-access/asana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/asana-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/security/asana-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/asana-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/security/asana-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/asana-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/security/asana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asana-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/authentication/asana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/asana-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/scopes/asana-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/asana-scopes.yml
@@ -589,90 +622,112 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/asana/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-add-custom-field-to-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-add-custom-field-to-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-add-existing-task-to-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-add-existing-task-to-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-assign-and-follow-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-assign-and-follow-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-attach-file-to-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-attach-file-to-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-bootstrap-project-board-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-bootstrap-project-board-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-build-enum-custom-field-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-build-enum-custom-field-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-complete-task-with-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-complete-task-with-comment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-create-task-with-subtasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-create-task-with-subtasks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-create-team-with-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-create-team-with-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-duplicate-project-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-duplicate-project-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-insert-section-into-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-insert-section-into-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-link-task-dependencies-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-link-task-dependencies-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-offboard-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-offboard-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-onboard-user-to-workspace-and-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-onboard-user-to-workspace-and-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-post-project-status-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-post-project-status-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-promote-task-to-subtask-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-promote-task-to-subtask-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-provision-tag-and-label-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-provision-tag-and-label-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-provision-workspace-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-provision-workspace-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-refresh-project-status-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-refresh-project-status-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-review-and-reply-comment-thread-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-review-and-reply-comment-thread-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-search-and-reassign-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-search-and-reassign-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/arazzo/asana-triage-and-tag-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/asana-triage-and-tag-task-workflow.yml
@@ -685,10 +740,12 @@ common:
   type: Specification
   url: https://github.com/Asana/openapi
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/json-ld/asana-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/asana-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/_original/asana-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/asana-openapi.yml
@@ -1583,6 +1640,39 @@ scopes:
   scope_count: 18
   slug: asana-scopes
   summary_line: 18 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 66.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 13.6
+    contract_quality: 84.6
+    developer_ergonomics: 69.0
+    discoverability: 66.7
+    operational_transparency: 71.1
+  previous_composite: 66.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png
 security:
 - kind: authentication

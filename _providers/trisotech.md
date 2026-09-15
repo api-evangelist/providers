@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Public API of the Digital Enterprise Suite — 129 operations across 30 resource groups covering modeling places and their content, model promotion change requests, execution environments and deploy
@@ -81,86 +106,107 @@ common:
   type: Security
   url: https://www.trisotech.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/conformance/trisotech-conformance.yml
   title: ''
   type: Compliance
   url: conformance/trisotech-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/security/trisotech-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/trisotech-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/security/trisotech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trisotech-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/security/trisotech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trisotech-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/conformance/trisotech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trisotech-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/lifecycle/trisotech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trisotech-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/changelog/trisotech-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trisotech-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/plans/trisotech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trisotech-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/rate-limits/trisotech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trisotech-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/authentication/trisotech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trisotech-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/scopes/trisotech-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trisotech-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/errors/trisotech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trisotech-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/conventions/trisotech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trisotech-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/sandbox/trisotech-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trisotech-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/packages/trisotech-packages.yml
   title: ''
   type: Packages
   url: packages/trisotech-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/mcp/trisotech-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/trisotech-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/asyncapi/trisotech-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/trisotech-events.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/components/trisotech-components.yml
   title: ''
   type: Components
   url: components/trisotech-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/data-model/trisotech-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trisotech-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/llms/trisotech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trisotech-llms.txt
@@ -176,7 +222,7 @@ modified: '2026-09-02'
 name: Trisotech
 nav: Providers
 network: true
-overview: 'Trisotech publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Process Management, Decision Management, Workflow Automation, Low Code, and BPMN.
+overview: 'Trisotech publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Process Management, Decision Management, Workflow-Automation, Low-Code, and BPMN.
 
 
   The Trisotech catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,6 +243,42 @@ scopes:
   scope_count: 20
   slug: trisotech-scopes
   summary_line: 20 scopes
+score:
+  band: strong
+  composite: 63.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    operational_transparency: 52.6
+  previous_composite: 63.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 83.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Trisotech Authentication
@@ -218,8 +300,8 @@ slug: trisotech
 tags:
 - Business Process Management
 - Decision Management
-- Workflow Automation
-- Low Code
+- Workflow-Automation
+- Low-Code
 - BPMN
 - DMN
 - CMMN
@@ -228,7 +310,7 @@ tags:
 - Clinical Decision Support
 - Standards
 - AI Agents
-- Model Context Protocol
+- MCP
 - Enterprise Architecture
 website: https://www.trisotech.com/
 ---

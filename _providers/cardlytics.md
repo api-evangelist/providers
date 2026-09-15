@@ -10,6 +10,32 @@ access_model:
   - https://docs.cardlytics.com/ads/v2/integrations/sandbox-quickstart-guide.html
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 41.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -126,46 +152,57 @@ collections:
   slug: open-cardlytics-publisher-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/capabilities/cardlytics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cardlytics-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/overlays/cardlytics-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cardlytics-partner-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/overlays/cardlytics-campaign-build-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cardlytics-campaign-build-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/overlays/cardlytics-publisher-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cardlytics-publisher-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/agentic-access/cardlytics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cardlytics-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/scopes/cardlytics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cardlytics-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/authentication/cardlytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cardlytics-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/security/cardlytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cardlytics-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/conventions/cardlytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cardlytics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/errors/cardlytics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cardlytics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/lifecycle/cardlytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cardlytics-lifecycle.yml
@@ -174,54 +211,67 @@ common:
   type: Deprecation
   url: https://docs.cardlytics.com/sdk/unified-sdk-releases.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/changelog/cardlytics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cardlytics-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/rate-limits/cardlytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cardlytics-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/plans/cardlytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cardlytics-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/sandbox/cardlytics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cardlytics-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/packages/cardlytics-packages.yml
   title: ''
   type: Packages
   url: packages/cardlytics-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/packages/cardlytics-packages.yml
   title: ''
   type: SDKs
   url: packages/cardlytics-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/components/cardlytics-components.yml
   title: ''
   type: Components
   url: components/cardlytics-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/data-model/cardlytics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cardlytics-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/conformance/cardlytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cardlytics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/asyncapi/cardlytics-publisher-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cardlytics-publisher-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/llms/cardlytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cardlytics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/well-known/cardlytics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cardlytics-well-known.yml
@@ -307,6 +357,50 @@ scopes:
   scope_count: 4
   slug: cardlytics-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode/custom
+score:
+  band: strong
+  composite: 55.9
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 54.1
+    developer_ergonomics: 54.2
+    discoverability: 92.6
+    operational_transparency: 47.4
+  previous_composite: 55.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: sox
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 67.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/screenshots/cardlytics-2026-07-25T204515.png
 security:
 - kind: authentication

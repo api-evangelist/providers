@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST API for TRON Energy and Bandwidth rental, energy subscriptions, and AML crypto checks. Endpoints include Get Services, Check Balance, Estimate Energy, Address Info, Calculate Resource Cost, Creat
@@ -31,6 +56,7 @@ common:
   type: Website
   url: https://www.tronzap.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/security/tronzap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tronzap-domain-security.yml
@@ -87,54 +113,67 @@ common:
   type: Postman
   url: https://www.postman.com/tron-energy/tronzap-com/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/llms/tronzap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tronzap-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/packages/tronzap-packages.yml
   title: ''
   type: Packages
   url: packages/tronzap-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/packages/tronzap-packages.yml
   title: ''
   type: SDKs
   url: packages/tronzap-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/conventions/tronzap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tronzap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/errors/tronzap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tronzap-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/authentication/tronzap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tronzap-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/rate-limits/tronzap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tronzap-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/plans/tronzap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tronzap-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/lifecycle/tronzap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tronzap-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/conformance/tronzap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tronzap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/data-model/tronzap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tronzap-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/mcp/tronzap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tronzap-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -159,6 +198,42 @@ rate_limits:
 - limit_count: 3
   name: Tronzap Rate Limits
   slug: tronzap-rate-limits
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 42.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tronzap/refs/heads/main/screenshots/tronzap-2026-09-02T164311.png
 security:
 - kind: authentication

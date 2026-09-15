@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Hosted Payment Pages (HPP) integration. The merchant's browser POSTs a URL-encoded request to the Gateway, which collects and processes the cardholder's payment details on a Cardstream-hosted page (li
@@ -32,6 +57,7 @@ asyncapis:
   slug: cardstream-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/security/cardstream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cardstream-domain-security.yml
@@ -88,34 +114,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/cardstream
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/packages/cardstream-packages.yml
   title: ''
   type: Packages
   url: packages/cardstream-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/packages/cardstream-packages.yml
   title: ''
   type: SDKs
   url: packages/cardstream-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/authentication/cardstream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cardstream-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/conventions/cardstream-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cardstream-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/conventions/cardstream-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cardstream-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/errors/cardstream-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cardstream-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/errors/cardstream-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/cardstream-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/conformance/cardstream-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cardstream-conformance.yml
@@ -124,26 +158,32 @@ common:
   type: Compliance
   url: https://guides.gitbook.io/integrationguide/getting-started/introduction-to-our-gateway/security-and-compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/lifecycle/cardstream-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cardstream-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/changelog/cardstream-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cardstream-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/sandbox/cardstream-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cardstream-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/components/cardstream-components.yml
   title: ''
   type: Components
   url: components/cardstream-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/asyncapi/cardstream-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cardstream-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/llms/cardstream-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cardstream-llms.txt
@@ -164,6 +204,52 @@ overview: 'Cardstream publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
   Cardstream''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, changelog, sandbox, and 22 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 50.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 25.0
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 50.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/screenshots/cardstream-2026-07-25T204520.png
 security:
 - kind: authentication

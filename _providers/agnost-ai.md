@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.agnost.ai
@@ -136,6 +162,7 @@ common:
   type: Website
   url: https://www.agnost.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/overlays/agnost-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agnost-ai-openapi-overlay.yaml
@@ -200,66 +227,82 @@ common:
   type: MCPServer
   url: https://mcp.agnost.ai/mcp
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/packages/agnost-ai-packages.yml
   title: ''
   type: Packages
   url: packages/agnost-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/packages/agnost-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/agnost-ai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/mcp/agnost-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agnost-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/well-known/agnost-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agnost-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/llms/agnost-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agnost-ai-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/authentication/agnost-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agnost-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/scopes/agnost-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agnost-ai-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/conformance/agnost-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agnost-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/errors/agnost-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agnost-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/lifecycle/agnost-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agnost-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/conventions/agnost-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agnost-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/data-model/agnost-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agnost-ai-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/security/agnost-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agnost-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/security/agnost-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agnost-ai-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/skills/agnost-ai-published.md
   title: ''
   type: AgentSkill
   url: skills/agnost-ai-published.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -288,6 +331,40 @@ scopes:
   scope_count: 1
   slug: agnost-ai-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 50.5
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 48.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
 security:
 - kind: authentication

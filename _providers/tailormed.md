@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: REST API for exchanging patient, prescription, encounter and assistance-program application data between a health system, clinic or pharmacy and the TailorMed platform. Part of TailorMed's DTA (Data T
@@ -34,6 +59,7 @@ asyncapis:
   slug: tailormed-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/security/tailormed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tailormed-domain-security.yml
@@ -74,54 +100,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/tailormed---medical-journey-innovations/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/well-known/tailormed-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tailormed-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/authentication/tailormed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tailormed-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/scopes/tailormed-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tailormed-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/conformance/tailormed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tailormed-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/conformance/tailormed-conformance.yml
   title: ''
   type: Compliance
   url: conformance/tailormed-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/lifecycle/tailormed-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tailormed-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/changelog/tailormed-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tailormed-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/conventions/tailormed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tailormed-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/plans/tailormed-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tailormed-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/rate-limits/tailormed-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tailormed-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/asyncapi/tailormed-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tailormed-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/packages/tailormed-packages.yml
   title: ''
   type: Packages
   url: packages/tailormed-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/llms/tailormed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tailormed-llms.txt
@@ -154,6 +193,47 @@ scopes:
   scope_count: 0
   slug: tailormed-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 40.5
+    discoverability: 64.8
+    operational_transparency: 23.7
+  previous_composite: 46.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitech
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 76.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/screenshots/tailormed-2026-09-02T162452.png
 security:
 - kind: authentication

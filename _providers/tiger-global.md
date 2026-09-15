@@ -32,7 +32,6 @@ tags:
 - Software
 - Fintech
 - Internet
-- Consumer
 - Artificial Intelligence
 - North America
 - Global

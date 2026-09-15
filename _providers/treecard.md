@@ -12,10 +12,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/treecard/refs/heads/main/security/treecard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/treecard-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/treecard/refs/heads/main/llms/treecard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/treecard-llms.txt

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -175,6 +200,7 @@ collections:
   slug: open-xflow-webhookendpoints-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/overlays/xflow-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/xflow-api-overlay.yaml
@@ -251,26 +277,32 @@ common:
   type: ErrorCodes
   url: https://docs.xflowpay.com/latest/errors
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/asyncapi/xflow-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/xflow-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/llms/xflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xflow-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/packages/xflow-packages.yml
   title: ''
   type: Packages
   url: packages/xflow-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/packages/xflow-packages.yml
   title: ''
   type: SDKs
   url: packages/xflow-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/mcp/xflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/xflow-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/conformance/xflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xflow-conformance.yml
@@ -279,38 +311,47 @@ common:
   type: Compliance
   url: https://www.xflowpay.com/blog/xflow-achieves-soc-2-and-iso-compliance-certification
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/errors/xflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xflow-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/lifecycle/xflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xflow-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/authentication/xflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xflow-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/security/xflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xflow-domain-security.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/sandbox/xflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/xflow-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/conventions/xflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xflow-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/data-model/xflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xflow-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/agentic-access/xflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/xflow-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -330,6 +371,54 @@ overview: 'Xflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
   Xflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 57.4
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 41.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/screenshots/xflow-2026-08-17T083009.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The production API host that backs the JobGet mobile applications and employer web experience. The host is publicly reachable over HTTPS and returns a structured RFC 9457 application/problem+json erro
@@ -21,6 +46,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/security/jobget-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jobget-domain-security.yml
@@ -85,30 +111,37 @@ common:
   type: Enterprise
   url: https://www.jobget.com/employer
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/llms/jobget-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jobget-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/mcp/jobget-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jobget-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/packages/jobget-packages.yml
   title: ''
   type: Packages
   url: packages/jobget-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/authentication/jobget-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jobget-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/conventions/jobget-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jobget-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/errors/jobget-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jobget-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/conformance/jobget-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jobget-conformance.yml
@@ -130,6 +163,35 @@ overview: 'JobGet publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
   JobGet''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 5
+score:
+  band: emerging
+  composite: 22.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 22.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobget/refs/heads/main/screenshots/jobget-2026-08-07T171009.png
 security:
 - kind: authentication

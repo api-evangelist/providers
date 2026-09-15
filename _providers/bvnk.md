@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -163,10 +188,12 @@ collections:
   slug: open-bvnk-wallets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/capabilities/bvnk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bvnk-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/overlays/bvnk-api-endpoints-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bvnk-api-endpoints-overlay.yaml
@@ -175,6 +202,7 @@ common:
   type: Website
   url: https://www.bvnk.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/security/bvnk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bvnk-trust-center.yml
@@ -235,98 +263,122 @@ common:
   type: Compliance
   url: https://www.bvnk.com/compliance
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/llms/bvnk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bvnk-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/packages/bvnk-packages.yml
   title: ''
   type: Packages
   url: packages/bvnk-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/packages/bvnk-packages.yml
   title: ''
   type: SDKs
   url: packages/bvnk-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/well-known/bvnk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bvnk-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/mcp/bvnk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bvnk-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/mcp/bvnk-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bvnk-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/asyncapi/bvnk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bvnk-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/conformance/bvnk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bvnk-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/errors/bvnk-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bvnk-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/lifecycle/bvnk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bvnk-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/lifecycle/bvnk-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bvnk-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/scopes/bvnk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bvnk-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/authentication/bvnk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bvnk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/security/bvnk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bvnk-domain-security.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/sandbox/bvnk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bvnk-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/conventions/bvnk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bvnk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/conventions/bvnk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bvnk-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/cli/bvnk-cli.yml
   title: ''
   type: CLI
   url: cli/bvnk-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/components/bvnk-components.yml
   title: ''
   type: Components
   url: components/bvnk-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/data-model/bvnk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bvnk-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/agentic-access/bvnk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bvnk-agentic-access.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/changelog/bvnk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bvnk-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/errors/bvnk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bvnk-problem-types.yml
@@ -355,6 +407,53 @@ scopes:
   scope_count: 156
   slug: bvnk-scopes
   summary_line: 156 scopes · clientCredentials
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 62.0
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 37.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: dora
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/screenshots/bvnk-2026-08-17T080753.png
 security:
 - kind: authentication

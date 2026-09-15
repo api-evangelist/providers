@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,10 +67,12 @@ collections:
   slug: open-food-info-recipesapi-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/agentic-access/food-info-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/food-info-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/security/food-info-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/food-info-domain-security.yml
@@ -70,18 +97,22 @@ common:
   type: LlmsText
   url: https://food-info.org/llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/authentication/food-info-authentication.yml
   title: ''
   type: Authentication
   url: authentication/food-info-authentication.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/plans/food-info-plans.yml
   title: ''
   type: Plans
   url: plans/food-info-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/conformance/food-info-data-provenance.yml
   title: ''
   type: Conformance
   url: conformance/food-info-data-provenance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/conformance/food-info-conformance.yml
   title: ''
   type: Conformance
   url: conformance/food-info-conformance.yml
@@ -94,14 +125,17 @@ common:
   type: Support
   url: https://food-info.org/contact
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/well-known/food-info-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/food-info-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/well-known/food-info-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/food-info-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/security/food-info-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/food-info-vulnerability-disclosure.yml
@@ -110,46 +144,57 @@ common:
   type: Security
   url: https://food-info.org/.well-known/security.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/rate-limits/food-info-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/food-info-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/errors/food-info-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/food-info-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/conventions/food-info-conventions.yml
   title: ''
   type: Conventions
   url: conventions/food-info-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/lifecycle/food-info-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/food-info-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/data-model/food-info-data-model.yml
   title: ''
   type: DataModel
   url: data-model/food-info-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/mcp/food-info-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/food-info-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/mcp/food-info-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/food-info-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/overlays/food-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/food-info-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/examples/food-info-examples.yml
   title: ''
   type: Examples
   url: examples/food-info-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/llms/food-info-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/food-info-llms.txt
@@ -178,6 +223,47 @@ rate_limits:
 - limit_count: 2
   name: Food Info Rate Limits
   slug: food-info-rate-limits
+score:
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 39.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 57.1
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 38.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Food Info Authentication

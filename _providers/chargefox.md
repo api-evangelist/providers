@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Chargefox's Open Charge Point Interface implementation in the Charge Point Operator role, used for roaming so that another network's drivers can authorise, charge and be billed on Chargefox infrastruc
@@ -28,18 +53,22 @@ collections:
   slug: open-chargefox-fleets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/capabilities/chargefox-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/chargefox-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/mcp/chargefox-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chargefox-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/security/chargefox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chargefox-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/authentication/chargefox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chargefox-authentication.yml
@@ -116,50 +145,62 @@ common:
   type: TrustCenter
   url: https://trust.chargefox.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/lifecycle/chargefox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chargefox-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/conformance/chargefox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chargefox-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/conventions/chargefox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chargefox-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/errors/chargefox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chargefox-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/data-model/chargefox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chargefox-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/packages/chargefox-packages.yml
   title: ''
   type: Packages
   url: packages/chargefox-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/well-known/chargefox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chargefox-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/llms/chargefox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chargefox-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/overlays/chargefox-fleets-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chargefox-fleets-api-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/rate-limits/chargefox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chargefox-rate-limits.yml
@@ -195,6 +236,54 @@ rate_limits:
 - limit_count: 25
   name: Chargefox Rate Limits
   slug: chargefox-rate-limits
+score:
+  band: developing
+  composite: 50.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 50.3
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 50.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 40.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png
 security:
 - kind: authentication

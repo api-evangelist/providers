@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: conformant
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -24,6 +49,7 @@ apis:
 artifact_total: 5
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/mcp/finite-state-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/finite-state-mcp.yml
@@ -104,62 +130,77 @@ common:
   type: ChangeLog
   url: https://docs.finitestate.io/changelog
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/a2a/finite-state-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/finite-state-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/llms/finite-state-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finite-state-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/well-known/finite-state-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/finite-state-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/packages/finite-state-packages.yml
   title: ''
   type: Packages
   url: packages/finite-state-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/packages/finite-state-packages.yml
   title: ''
   type: SDKs
   url: packages/finite-state-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/cli/finite-state-cli.yml
   title: ''
   type: CLI
   url: cli/finite-state-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/authentication/finite-state-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finite-state-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/conventions/finite-state-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finite-state-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/errors/finite-state-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finite-state-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/conformance/finite-state-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finite-state-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/lifecycle/finite-state-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finite-state-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/lifecycle/finite-state-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/finite-state-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/security/finite-state-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finite-state-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/data-model/finite-state-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finite-state-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -176,6 +217,39 @@ overview: 'Finite State publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
   Finite State''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 36.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.7
+    discoverability: 81.5
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 36.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
 security:
 - kind: authentication

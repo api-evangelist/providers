@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Virsec Security Platform Centralized Management Server (CMS) exposes a RESTful API for procuring information from CMS. From VSP 3.0.0 and above, the available APIs are listed by category in the CM
@@ -25,6 +50,7 @@ asyncapis:
   slug: virsec-cms-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/security/virsec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virsec-domain-security.yml
@@ -61,38 +87,47 @@ common:
   type: Twitter
   url: https://twitter.com/Virsec
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/llms/virsec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virsec-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/authentication/virsec-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virsec-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/conventions/virsec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virsec-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/errors/virsec-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/virsec-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/lifecycle/virsec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virsec-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/changelog/virsec-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virsec-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/cli/virsec-cli.yml
   title: ''
   type: CLI
   url: cli/virsec-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/asyncapi/virsec-cms-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/virsec-cms-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/conformance/virsec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virsec-conformance.yml
@@ -112,6 +147,34 @@ overview: 'Virsec publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
   Virsec''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 11 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 32.5
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 32.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/screenshots/virsec-2026-09-02T170011.png
 security:
 - kind: authentication

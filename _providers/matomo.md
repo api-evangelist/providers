@@ -11,6 +11,32 @@ access_model:
   - sandbox
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -344,302 +370,377 @@ collections:
   slug: open-matomo
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/capabilities/matomo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/matomo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-live-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-live-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-goals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-goals-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-segment-editor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-segment-editor-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-sites-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-sites-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-tag-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-tag-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-users-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-users-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-crash-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-crash-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-heatmap-session-recording-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-heatmap-session-recording-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-form-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-form-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-referrers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-referrers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-funnels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-funnels-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-actions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-actions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-ab-testing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-ab-testing-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-media-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-media-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-custom-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-custom-reports-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-mobile-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-mobile-messaging-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-search-engine-keywords-performance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-search-engine-keywords-performance-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-marketing-campaigns-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-marketing-campaigns-reporting-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-visits-summary-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-visits-summary-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-languages-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-languages-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-devices-detection-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-devices-detection-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-oauth2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-oauth2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-user-country-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-user-country-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-annotations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-annotations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-custom-alerts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-custom-alerts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-advertising-conversion-export-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-advertising-conversion-export-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-custom-dimensions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-custom-dimensions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-privacy-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-privacy-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-scheduled-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-scheduled-reports-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-dashboard-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-dashboard-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-insights-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-transitions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-transitions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-visitor-interest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-visitor-interest-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-activity-log-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-activity-log-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-api-reference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-api-reference-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-core-admin-home-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-core-admin-home-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-feedback-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-feedback-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-multi-sites-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-multi-sites-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-roll-up-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-roll-up-reporting-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-tour-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-tour-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-visit-time-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-visit-time-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-cohorts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-cohorts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-contents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-contents-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-marketplace-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-marketplace-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-overlay-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-overlay-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-resolution-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-resolution-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-user-language-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-user-language-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-bandwidth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-bandwidth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-custom-js-tracker-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-custom-js-tracker-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-device-plugins-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-device-plugins-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-image-graph-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-image-graph-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-login-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-login-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-page-performance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-page-performance-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-seo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-seo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-two-factor-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-two-factor-auth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-user-id-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-user-id-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/overlays/matomo-visit-frequency-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/matomo-visit-frequency-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/
   title: ''
   type: OpenAPI
   url: openapi/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/mcp/matomo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/matomo-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/mcp/matomo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/matomo-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/agentic-access/matomo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/matomo-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/llms/matomo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matomo-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/packages/matomo-packages.yml
   title: ''
   type: Packages
   url: packages/matomo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/packages/matomo-packages.yml
   title: ''
   type: SDKs
   url: packages/matomo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/well-known/matomo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/matomo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/authentication/matomo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matomo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/scopes/matomo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/matomo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/conventions/matomo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/matomo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/errors/matomo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/matomo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/data-model/matomo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/matomo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/conformance/matomo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matomo-conformance.yml
@@ -648,6 +749,7 @@ common:
   type: Compliance
   url: https://matomo.org/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/lifecycle/matomo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/matomo-lifecycle.yml
@@ -656,30 +758,37 @@ common:
   type: StatusPage
   url: https://status.matomo.cloud/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/changelog/matomo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/matomo-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/cli/matomo-cli.yml
   title: ''
   type: CLI
   url: cli/matomo-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/components/matomo-components.yml
   title: ''
   type: Components
   url: components/matomo-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/sandbox/matomo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/matomo-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/plans/matomo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matomo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/rate-limits/matomo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matomo-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/finops/matomo-finops.yml
   title: ''
   type: FinOps
   url: finops/matomo-finops.yml
@@ -688,14 +797,17 @@ common:
   type: Security
   url: https://matomo.org/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/security/matomo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/matomo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/security/matomo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/matomo-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/security/matomo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matomo-domain-security.yml
@@ -817,6 +929,41 @@ scopes:
   scope_count: 3
   slug: matomo-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: exemplar
+  composite: 66.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 50.4
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 66.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/screenshots/matomo-2026-06-20T185037.png
 security:
 - kind: authentication

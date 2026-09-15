@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -387,22 +412,27 @@ collections:
   slug: open-gerencianet-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/capabilities/gerencianet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gerencianet-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/agentic-access/gerencianet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gerencianet-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/security/gerencianet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gerencianet-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/authentication/gerencianet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gerencianet-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/scopes/gerencianet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gerencianet-scopes.yml
@@ -411,50 +441,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ef-pay-gerencianet/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-account-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-account-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-account-webhook-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-account-webhook-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-bill-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-bill-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-boleto-charge-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-boleto-charge-issue-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-card-charge-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-card-charge-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-charge-qrcode-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-charge-qrcode-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-charge-revise-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-charge-revise-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-charge-status-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-charge-status-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-due-charge-qrcode-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-due-charge-qrcode-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-send-cashout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-send-cashout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-webhook-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-webhook-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-statement-schedule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-statement-schedule-workflow.yml
@@ -591,26 +633,32 @@ common:
   type: Tools
   url: https://github.com/efipay/mtls-webhook
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/plans/gerencianet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gerencianet-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rate-limits/gerencianet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gerencianet-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/finops/gerencianet-finops.yml
   title: ''
   type: FinOps
   url: finops/gerencianet-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/efi-rules.yml
   title: ''
   type: SpectralRules
   url: rules/efi-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/vocabulary/gerencianet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gerencianet-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/json-ld/gerencianet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gerencianet-context.jsonld
@@ -745,6 +793,51 @@ scopes:
   scope_count: 12
   slug: gerencianet-scopes
   summary_line: 12 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 72.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 101.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 14.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 69.7
+    contract_quality: 65.4
+    developer_ergonomics: 75.0
+    discoverability: 55.6
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 72.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 58.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:
 - kind: authentication

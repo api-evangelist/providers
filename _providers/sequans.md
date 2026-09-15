@@ -9,6 +9,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 11.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: A Model Context Protocol server exposed by the WordPress MCP Adapter running on the sequans.com corporate site. Two MCP endpoints are registered and enumerable anonymously through the WordPress REST r
@@ -45,50 +70,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/Sequans
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/well-known/sequans-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sequans-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/mcp/sequans-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sequans-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/authentication/sequans-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sequans-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/scopes/sequans-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sequans-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/conventions/sequans-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sequans-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/security/sequans-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sequans-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/llms/sequans-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sequans-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/plans/sequans-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sequans-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/rate-limits/sequans-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sequans-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/lifecycle/sequans-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sequans-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/conformance/sequans-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sequans-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/packages/sequans-packages.yml
   title: ''
   type: Packages
   url: packages/sequans-packages.yml
@@ -109,6 +146,46 @@ overview: 'Sequans publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Sequans'' developer surface includes engineering blog, support, signup flow, authentication, and 15 more developer resources.'
 random_paper: 12
+score:
+  band: emerging
+  composite: 19.2
+  coverage:
+    artifact_dirs: 3
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 19.2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 52.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/screenshots/sequans-2026-09-02T154933.png
 security:
 - kind: domain-security

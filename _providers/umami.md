@@ -11,6 +11,31 @@ access_model:
   - authentication/umami-authentication.yml
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -107,10 +132,12 @@ collections:
   slug: open-umami
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/umami-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/umami-vulnerability-disclosure.yml
@@ -119,14 +146,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/umami/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/agentic-access/umami-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/umami-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/umami-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/authentication/umami-authentication.yml
   title: ''
   type: Authentication
   url: authentication/umami-authentication.yml
@@ -171,38 +201,47 @@ common:
   type: Support
   url: https://umami.is/contact
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/rules/umami-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/umami-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/packages/umami-packages.yml
   title: ''
   type: Packages
   url: packages/umami-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/packages/umami-packages.yml
   title: ''
   type: SDKs
   url: packages/umami-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/cli/umami-cli.yml
   title: ''
   type: CLI
   url: cli/umami-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/components/umami-components.yml
   title: ''
   type: Components
   url: components/umami-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/conventions/umami-conventions.yml
   title: ''
   type: Conventions
   url: conventions/umami-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/data-model/umami-data-model.yml
   title: ''
   type: DataModel
   url: data-model/umami-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/errors/umami-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/umami-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/lifecycle/umami-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/umami-lifecycle.yml
@@ -211,38 +250,47 @@ common:
   type: StatusPage
   url: https://umami.statuspage.io
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/changelog/umami-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/umami-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/conformance/umami-conformance.yml
   title: ''
   type: Conformance
   url: conformance/umami-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-trust-center.yml
   title: ''
   type: Compliance
   url: security/umami-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/umami-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/plans/umami-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/umami-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/rate-limits/umami-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/umami-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/finops/umami-finops.yml
   title: ''
   type: FinOps
   url: finops/umami-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/llms/umami-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/umami-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -287,6 +335,7 @@ common:
   type: Guides
   url: https://docs.umami.is/docs/guides
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/vocabulary/umami-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/umami-vocabulary.yaml
@@ -547,6 +596,41 @@ rules:
     info: 9
     warn: 15
   slug: umami-spectral-rules
+score:
+  band: strong
+  composite: 61.2
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 87.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 29.2
+    developer_ergonomics: 64.9
+    discoverability: 74.1
+    operational_transparency: 65.8
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
 security:
 - kind: authentication

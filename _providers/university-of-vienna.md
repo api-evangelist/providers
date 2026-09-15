@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -157,14 +182,17 @@ collections:
   slug: open-university-of-vienna-vocabularies-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/agentic-access/university-of-vienna-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-vienna-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/security/university-of-vienna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-vienna-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/authentication/university-of-vienna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-vienna-authentication.yml
@@ -177,18 +205,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/univienna/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/plans/university-of-vienna-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-vienna-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/rate-limits/university-of-vienna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-vienna-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/finops/university-of-vienna-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-vienna-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -245,6 +277,7 @@ common:
   type: AIPolicy
   url: https://studieren.univie.ac.at/en/using-ai-in-your-studies/uai-the-university-of-viennas-ai-tool/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/conformance/university-of-vienna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-vienna-conformance.yml
@@ -325,6 +358,51 @@ rules:
     info: 1
     warn: 4
   slug: university-of-vienna-rules
+score:
+  band: developing
+  composite: 43.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 75.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 13.6
+    contract_quality: 58.6
+    developer_ergonomics: 28.6
+    discoverability: 63.0
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 43.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 14
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/screenshots/university-of-vienna-2026-06-20T200302.png
 security:
 - kind: authentication

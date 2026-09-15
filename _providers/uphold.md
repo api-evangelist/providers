@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.1
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -215,6 +241,7 @@ collections:
   slug: open-uphold-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/capabilities/uphold-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uphold-capability-edges.yml
@@ -227,6 +254,7 @@ common:
   type: Releases
   url: https://github.com/uphold/docs/releases
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/overlays/uphold-core-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uphold-core-api-overlay.yaml
@@ -303,10 +331,12 @@ common:
   type: Deprecation
   url: https://developer.uphold.com/rest-apis/versioning
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/changelog/uphold-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uphold-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/lifecycle/uphold-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uphold-lifecycle.yml
@@ -315,10 +345,12 @@ common:
   type: Security
   url: https://uphold.com/en-us/get-started/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/security/uphold-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/uphold-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/security/uphold-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uphold-trust-center.yml
@@ -327,78 +359,97 @@ common:
   type: Compliance
   url: https://uphold.com/en-us/get-started/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/security/uphold-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uphold-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/well-known/uphold-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/uphold-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/well-known/uphold-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uphold-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/llms/uphold-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uphold-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/a2a/uphold-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/uphold-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/mcp/uphold-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/uphold-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/authentication/uphold-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uphold-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/scopes/uphold-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/uphold-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/conventions/uphold-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uphold-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/conformance/uphold-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uphold-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/errors/uphold-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uphold-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/errors/uphold-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/uphold-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/data-model/uphold-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uphold-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/packages/uphold-packages.yml
   title: ''
   type: Packages
   url: packages/uphold-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/packages/uphold-packages.yml
   title: ''
   type: SDKs
   url: packages/uphold-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/components/uphold-components.yml
   title: ''
   type: Components
   url: components/uphold-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/sandbox/uphold-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/uphold-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/asyncapi/uphold-core-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uphold-core-webhooks.yml
@@ -427,6 +478,46 @@ scopes:
   scope_count: 64
   slug: uphold-scopes
   summary_line: 64 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 68.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 66.0
+    developer_ergonomics: 81.0
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 68.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 76.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png
 security:
 - kind: authentication

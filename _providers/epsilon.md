@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Serves brand-page content modules for retailer-hosted brand landing pages. A retailer routes /brands/{slug} on its own domain, calls POST /ads/v3/brand-pages on its assigned regional Epsilon RMN ads h
@@ -65,22 +90,27 @@ collections:
   slug: open-epsilon-retail-media-integration
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/capabilities/epsilon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/epsilon-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/overlays/epsilon-retail-media-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/epsilon-retail-media-integration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/overlays/epsilon-retail-media-filter-mapping-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/epsilon-retail-media-filter-mapping-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/overlays/epsilon-retail-media-cross-sell-category-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/epsilon-retail-media-cross-sell-category-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/security/epsilon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epsilon-domain-security.yml
@@ -121,10 +151,12 @@ common:
   type: PrivacyPolicy
   url: https://legal.epsilon.com/global-privacy-policies
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/llms/epsilon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/epsilon-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/well-known/epsilon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/epsilon-well-known.yml
@@ -133,46 +165,57 @@ common:
   type: APICatalog
   url: https://developers.citrusad.com/.well-known/api-catalog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/authentication/epsilon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epsilon-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/conventions/epsilon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/epsilon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/errors/epsilon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/epsilon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/lifecycle/epsilon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/epsilon-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/conformance/epsilon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epsilon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/data-model/epsilon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/epsilon-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/sandbox/epsilon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/epsilon-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/packages/epsilon-packages.yml
   title: ''
   type: Packages
   url: packages/epsilon-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/plans/epsilon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epsilon-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/rate-limits/epsilon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epsilon-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -197,6 +240,40 @@ rate_limits:
 - limit_count: 0
   name: Epsilon Rate Limits
   slug: epsilon-rate-limits
+score:
+  band: thin
+  composite: 36.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 52.7
+    developer_ergonomics: 28.0
+    discoverability: 92.6
+    operational_transparency: 0.0
+  previous_composite: 36.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/screenshots/epsilon-2026-09-02T145416.png
 security:
 - kind: authentication

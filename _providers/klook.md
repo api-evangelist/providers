@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://{supplier_endpoint}/octo
@@ -55,6 +80,7 @@ collections:
   slug: open-klook-supplier-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/capabilities/klook-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/klook-capability-edges.yml
@@ -115,58 +141,72 @@ common:
   type: About
   url: https://www.klook.com/en-US/about/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/llms/klook-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klook-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/authentication/klook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klook-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/conventions/klook-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klook-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/errors/klook-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/klook-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/conformance/klook-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klook-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/lifecycle/klook-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klook-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/changelog/klook-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/klook-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/data-model/klook-data-model.yml
   title: ''
   type: DataModel
   url: data-model/klook-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/overlays/klook-octo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/klook-octo-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/mcp/klook-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/klook-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/asyncapi/klook-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/klook-notifications-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/packages/klook-packages.yml
   title: ''
   type: Packages
   url: packages/klook-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/security/klook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klook-domain-security.yml
@@ -186,6 +226,45 @@ overview: 'Klook publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
   Klook''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 22 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 58.9
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 42.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/screenshots/klook-2026-08-17T123946.png
 security:
 - kind: authentication

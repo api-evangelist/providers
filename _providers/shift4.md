@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -136,6 +161,7 @@ collections:
   slug: open-shift4-payment-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/skills/shift4-authorize-and-capture.md
   title: ''
   type: AgentSkill
   url: skills/shift4-authorize-and-capture.md
@@ -144,14 +170,17 @@ common:
   type: SDKs
   url: https://docs.shift4.com/sdks/ios
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/agentic-access/shift4-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shift4-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/security/shift4-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shift4-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/authentication/shift4-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shift4-authentication.yml
@@ -200,30 +229,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/shift4developer
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/packages/shift4-packages.yml
   title: ''
   type: Packages
   url: packages/shift4-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/packages/shift4-packages.yml
   title: ''
   type: SDKs
   url: packages/shift4-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/well-known/shift4-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shift4-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/mcp/shift4-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shift4-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/llms/shift4-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shift4-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/overlays/shift4-payment-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shift4-payment-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/conformance/shift4-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shift4-conformance.yml
@@ -232,14 +268,17 @@ common:
   type: Compliance
   url: https://www.shift4.com/pdf/S4P-PCI-DSS-Roles-and-Responsibilities.pdf
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/errors/shift4-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/shift4-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/errors/shift4-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/shift4-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/lifecycle/shift4-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shift4-lifecycle.yml
@@ -248,34 +287,42 @@ common:
   type: DeprecationPolicy
   url: https://docs.shift4.com/guides/deprecated/legacy-card-tokens
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/sandbox/shift4-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shift4-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/conventions/shift4-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shift4-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/conventions/shift4-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shift4-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/changelog/shift4-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shift4-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/data-model/shift4-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shift4-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/asyncapi/shift4-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shift4-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/components/shift4-components.yml
   title: ''
   type: Components
   url: components/shift4-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
@@ -300,6 +347,54 @@ overview: 'Shift4 publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
   Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 29 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 3.9
+    contract_governance: 18.2
+    contract_quality: 65.9
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 53.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 52.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/screenshots/shift4-2026-08-17T081829.png
 security:
 - kind: authentication

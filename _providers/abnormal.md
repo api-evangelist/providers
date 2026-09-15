@@ -11,6 +11,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.abnormalplatform.com/v1
@@ -160,14 +186,17 @@ collections:
   slug: open-abnormal-vendors-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/mcp/abnormal-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/abnormal-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/security/abnormal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/abnormal-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/security/abnormal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abnormal-domain-security.yml
@@ -228,10 +257,12 @@ common:
   type: Patents
   url: https://abnormal.ai/legal/patents
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/authentication/abnormal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abnormal-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/security/abnormal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/abnormal-vulnerability-disclosure.yml
@@ -244,22 +275,27 @@ common:
   type: Compliance
   url: https://security.abnormal.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/conformance/abnormal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abnormal-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/conventions/abnormal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abnormal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/errors/abnormal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/abnormal-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/data-model/abnormal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/abnormal-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/lifecycle/abnormal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abnormal-lifecycle.yml
@@ -268,34 +304,42 @@ common:
   type: StatusPage
   url: https://status.abnormalsecurity.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/changelog/abnormal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/abnormal-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/sandbox/abnormal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/abnormal-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/asyncapi/abnormal-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/abnormal-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/packages/abnormal-packages.yml
   title: ''
   type: Packages
   url: packages/abnormal-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/well-known/abnormal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/abnormal-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/llms/abnormal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abnormal-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/overlays/abnormal-client-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/abnormal-client-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -315,6 +359,40 @@ overview: 'Abnormal AI publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
   Abnormal AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
 random_paper: 4
+score:
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 63.5
+    developer_ergonomics: 57.7
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 51.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/screenshots/abnormal-2026-08-07T160818.png
 security:
 - kind: authentication

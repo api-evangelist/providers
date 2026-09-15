@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.goodays.co/v2
@@ -75,10 +100,12 @@ collections:
   slug: open-goodays-stats-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/capabilities/goodays-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/goodays-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/overlays/goodays-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodays-openapi-overlay.yaml
@@ -99,42 +126,52 @@ common:
   type: GettingStarted
   url: https://apidocs.goodays.co/docs/welcome-to-goodays-api-platform
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/authentication/goodays-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodays-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/conventions/goodays-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goodays-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/data-model/goodays-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goodays-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/lifecycle/goodays-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodays-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/mcp/goodays-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/goodays-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/llms/goodays-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodays-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/packages/goodays-packages.yml
   title: ''
   type: Packages
   url: packages/goodays-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/packages/goodays-packages.yml
   title: ''
   type: SDKs
   url: packages/goodays-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/components/goodays-components.yml
   title: ''
   type: Components
   url: components/goodays-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/conformance/goodays-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodays-conformance.yml
@@ -143,18 +180,22 @@ common:
   type: Compliance
   url: https://community.goodays.co/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/security/goodays-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodays-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/skills/goodays-collect-feedback.md
   title: ''
   type: AgentSkill
   url: skills/goodays-collect-feedback.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/skills/goodays-respond-to-reviews.md
   title: ''
   type: AgentSkill
   url: skills/goodays-respond-to-reviews.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/skills/goodays-track-experience-metrics.md
   title: ''
   type: AgentSkill
   url: skills/goodays-track-experience-metrics.md
@@ -195,6 +236,46 @@ overview: 'Goodays publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
   Goodays'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 21 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 32.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 25.0
+    contract_governance: 4.5
+    contract_quality: 43.1
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 32.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/screenshots/goodays-2026-07-25T220046.png
 security:
 - kind: authentication

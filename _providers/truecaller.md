@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The backend half of the Truecaller OAuth SDK flow. After the mobile SDK returns an authorization code, partners exchange it at POST /v1/token (authorization_code grant with PKCE code_verifier; refresh
@@ -30,6 +55,7 @@ asyncapis:
   slug: truecaller-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/security/truecaller-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/truecaller-vulnerability-disclosure.yml
@@ -38,54 +64,67 @@ common:
   type: Security
   url: https://www.truecaller.com/responsible-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/security/truecaller-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truecaller-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/packages/truecaller-packages.yml
   title: ''
   type: Packages
   url: packages/truecaller-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/packages/truecaller-packages.yml
   title: ''
   type: SDKs
   url: packages/truecaller-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/well-known/truecaller-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/truecaller-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/well-known/truecaller-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/truecaller-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/well-known/truecaller-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/truecaller-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/llms/truecaller-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truecaller-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/llms/truecaller-business-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truecaller-business-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/authentication/truecaller-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truecaller-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/scopes/truecaller-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/truecaller-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/conventions/truecaller-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truecaller-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/errors/truecaller-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/truecaller-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/lifecycle/truecaller-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truecaller-lifecycle.yml
@@ -94,18 +133,22 @@ common:
   type: Deprecation
   url: https://docs.truecaller.com/truecaller-for-business/verified-business-api-documentation/deprecated-apis
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/conformance/truecaller-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truecaller-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/changelog/truecaller-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/truecaller-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/components/truecaller-components.yml
   title: ''
   type: Components
   url: components/truecaller-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/asyncapi/truecaller-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/truecaller-webhooks.yml
@@ -174,6 +217,40 @@ scopes:
   scope_count: 6
   slug: truecaller-scopes
   summary_line: 6 scopes · authorizationCode/refreshToken
+score:
+  band: developing
+  composite: 46.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 81.5
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 46.6
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/truecaller/refs/heads/main/screenshots/truecaller-2026-08-17T082447.png
 security:
 - kind: authentication

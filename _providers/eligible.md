@@ -10,6 +10,31 @@ access_model:
   - https://eligible.com/signup
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The Coverage API performs real-time insurance eligibility and benefits verification for a patient against a payer. Clients submit provider NPI, payer ID, and member identity information and receive st
@@ -90,70 +115,87 @@ common:
   type: Compliance
   url: https://eligible.com/compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/security/eligible-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/eligible-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/security/eligible-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eligible-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/authentication/eligible-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eligible-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/conventions/eligible-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eligible-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/errors/eligible-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/eligible-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/lifecycle/eligible-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eligible-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/conformance/eligible-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eligible-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/packages/eligible-packages.yml
   title: ''
   type: Packages
   url: packages/eligible-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/packages/eligible-packages.yml
   title: ''
   type: SDKs
   url: packages/eligible-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/components/eligible-components.yml
   title: ''
   type: Components
   url: components/eligible-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/data-model/eligible-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eligible-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/sandbox/eligible-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eligible-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/asyncapi/eligible-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eligible-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/plans/eligible-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eligible-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/rate-limits/eligible-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eligible-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/finops/eligible-finops.yml
   title: ''
   type: FinOps
   url: finops/eligible-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/llms/eligible-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eligible-llms.txt
@@ -185,6 +227,41 @@ rate_limits:
 - limit_count: 0
   name: Eligible Rate Limits
   slug: eligible-rate-limits
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 51.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 50.0
+    discoverability: 74.1
+    operational_transparency: 26.3
+  previous_composite: 54.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 45.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/eligible/refs/heads/main/screenshots/eligible-2026-08-17T123412.png
 security:
 - kind: authentication

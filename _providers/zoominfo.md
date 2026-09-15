@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -344,30 +370,37 @@ common:
   type: Website
   url: https://www.zoominfo.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/capabilities/zoominfo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zoominfo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/overlays/zoominfo-gtm-data-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoominfo-gtm-data-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/overlays/zoominfo-gtm-copilot-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoominfo-gtm-copilot-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/overlays/zoominfo-gtm-gtm-studio-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoominfo-gtm-gtm-studio-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/overlays/zoominfo-gtm-marketing-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoominfo-gtm-marketing-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/overlays/zoominfo-gtm-agent-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoominfo-gtm-agent-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/overlays/zoominfo-gtm-platform-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoominfo-gtm-platform-v1-overlay.yaml
@@ -376,94 +409,117 @@ common:
   type: Documentation
   url: https://docs.zoominfo.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/packages/zoominfo-packages.yml
   title: Client Libraries
   type: Packages
   url: packages/zoominfo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/packages/zoominfo-packages.yml
   title: First-Party Client Libraries
   type: SDKs
   url: packages/zoominfo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/cli/zoominfo-cli.yml
   title: GTM AI CLI
   type: CLI
   url: cli/zoominfo-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/mcp/zoominfo-mcp.yml
   title: Hosted MCP Server
   type: MCPServer
   url: mcp/zoominfo-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/mcp/zoominfo-tool-crosswalk.yml
   title: MCP Tool to REST Crosswalk
   type: ToolCrosswalk
   url: mcp/zoominfo-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/skills/_index.yml
   title: Provider-Published Agent Skills
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/llms/zoominfo-llms.txt
   title: llms.txt
   type: LLMsTxt
   url: llms/zoominfo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/llms/zoominfo-docs-llms.txt
   title: Developer Documentation llms.txt
   type: LLMsTxt
   url: llms/zoominfo-docs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/well-known/zoominfo-well-known.yml
   title: Well-Known Probe
   type: WellKnown
   url: well-known/zoominfo-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/conventions/zoominfo-conventions.yml
   title: API Conventions
   type: Conventions
   url: conventions/zoominfo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/errors/zoominfo-problem-types.yml
   title: Error Catalog
   type: ErrorCatalog
   url: errors/zoominfo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/lifecycle/zoominfo-lifecycle.yml
   title: Lifecycle
   type: Lifecycle
   url: lifecycle/zoominfo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/lifecycle/zoominfo-lifecycle.yml
   title: Deprecation Policy
   type: Deprecation
   url: lifecycle/zoominfo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/changelog/zoominfo-changelog.yml
   title: API Release Notes
   type: ChangeLog
   url: changelog/zoominfo-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/conformance/zoominfo-conformance.yml
   title: Standards Conformance
   type: Conformance
   url: conformance/zoominfo-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/security/zoominfo-trust-center.yml
   title: Certifications and Compliance
   type: Compliance
   url: security/zoominfo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/security/zoominfo-trust-center.yml
   title: Trust Center
   type: TrustCenter
   url: security/zoominfo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/security/zoominfo-vulnerability-disclosure.yml
   title: Vulnerability Disclosure
   type: Security
   url: security/zoominfo-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/security/zoominfo-vulnerability-disclosure.yml
   title: Bug Bounty Program
   type: VulnerabilityDisclosure
   url: security/zoominfo-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/data-model/zoominfo-data-model.yml
   title: Data Model
   type: DataModel
   url: data-model/zoominfo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/asyncapi/zoominfo-webhooks.yml
   title: Webhook and Event Surface
   type: Webhooks
   url: asyncapi/zoominfo-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/rate-limits/zoominfo-rate-limits.yml
   title: Published Rate Limits
   type: RateLimits
   url: rate-limits/zoominfo-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/plans/zoominfo-plans-pricing.yml
   title: Packages and Credit Model
   type: Plans
   url: plans/zoominfo-plans-pricing.yml
@@ -480,18 +536,22 @@ common:
   type: Login
   url: https://login.zoominfo.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/scopes/zoominfo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zoominfo-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/agentic-access/zoominfo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zoominfo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/security/zoominfo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoominfo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/authentication/zoominfo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zoominfo-authentication.yml
@@ -500,34 +560,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zoominfo/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-authenticate-contact-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-authenticate-contact-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-company-master-data-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-company-master-data-enrich-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-company-search-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-company-search-enrich-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-company-search-intent-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-company-search-intent-enrich-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-contact-search-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-contact-search-enrich-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-intent-search-enrich-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-intent-search-enrich-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-scoop-search-enrich-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-scoop-search-enrich-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/arazzo/zoominfo-scoop-search-then-enrich-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoominfo-scoop-search-then-enrich-workflow.yml
@@ -604,10 +672,12 @@ common:
   type: Hub
   url: https://github.com/Zoominfo/zoominfo-mcp-plugin
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/rules/zoominfo-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/zoominfo-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/vocabulary/zoominfo-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/zoominfo-vocabulary.yaml
@@ -3223,6 +3293,41 @@ scopes:
   scope_count: 24
   slug: zoominfo-scopes
   summary_line: 24 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 84.7
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 91.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 23.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 33.3
+    contract_quality: 82.6
+    developer_ergonomics: 89.3
+    discoverability: 75.9
+    operational_transparency: 92.1
+  previous_composite: 84.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/screenshots/zoominfo-2026-06-20T201953.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -144,14 +169,17 @@ collections:
   slug: open-thingspeak-update-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/agentic-access/thingspeak-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thingspeak-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/security/thingspeak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thingspeak-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/authentication/thingspeak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thingspeak-authentication.yml
@@ -160,50 +188,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/thingspeak/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-bulk-update-and-read-field-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-bulk-update-and-read-field-feed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-decommission-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-decommission-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-discover-public-channel-and-read-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-discover-public-channel-and-read-feed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-inspect-channel-and-aggregate-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-inspect-channel-and-aggregate-feed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-list-channels-and-read-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-list-channels-and-read-feed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-post-status-and-read-status-updates-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-post-status-and-read-status-updates-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-provision-channel-and-seed-reading-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-provision-channel-and-seed-reading-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-queue-and-execute-talkback-command-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-queue-and-execute-talkback-command-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-relabel-field-and-read-last-field-entry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-relabel-field-and-read-last-field-entry-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-revise-queued-talkback-command-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-revise-queued-talkback-command-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-sweep-executed-talkback-commands-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-sweep-executed-talkback-commands-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-write-update-and-read-last-entry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-write-update-and-read-last-entry-workflow.yml
@@ -440,6 +480,38 @@ rules:
     info: 1
     warn: 3
   slug: thingspeak-rules
+score:
+  band: strong
+  composite: 60.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 82.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 13.6
+    contract_quality: 70.4
+    developer_ergonomics: 67.9
+    discoverability: 68.5
+    operational_transparency: 36.8
+  previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/screenshots/thingspeak-2026-06-20T195303.png
 security:
 - kind: authentication

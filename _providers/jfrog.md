@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -611,22 +636,27 @@ collections:
   slug: open-jfrog-xray
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/capabilities/jfrog-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jfrog-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/agentic-access/jfrog-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jfrog-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/security/jfrog-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jfrog-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/security/jfrog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jfrog-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/authentication/jfrog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jfrog-authentication.yml
@@ -635,102 +665,127 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/jfrog/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-access-create-user-with-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-access-create-user-with-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-access-provision-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-access-provision-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-attach-build-evidence-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-attach-build-evidence-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-cleanup-stale-artifacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-cleanup-stale-artifacts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-configure-repository-replication-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-configure-repository-replication-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-curation-policy-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-curation-policy-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-deploy-and-verify-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-deploy-and-verify-artifact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-distribution-release-bundle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-distribution-release-bundle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-grant-repository-permission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-grant-repository-permission-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-ml-register-model-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-ml-register-model-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-pipelines-trigger-and-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-pipelines-trigger-and-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-platform-register-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-platform-register-webhook-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-platform-rotate-access-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-platform-rotate-access-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-promote-artifact-by-checksum-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-promote-artifact-by-checksum-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-promote-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-promote-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-provision-local-repository-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-provision-local-repository-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-release-bundle-v2-promote-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-release-bundle-v2-promote-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-secure-publish-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-secure-publish-artifact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-worker-deploy-and-test-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-worker-deploy-and-test-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-xray-component-license-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-xray-component-license-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-xray-policy-and-watch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-xray-policy-and-watch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-xray-scan-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-xray-scan-artifact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-xray-scan-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-xray-scan-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-xray-triage-violation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-xray-triage-violation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/arazzo/jfrog-xray-vulnerability-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jfrog-xray-vulnerability-report-workflow.yml
@@ -847,50 +902,62 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/jfrog-ltd
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-ld/jfrog-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/jfrog-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-artifact-schema.json
   title: ''
   type: JSON Schema - Artifact
   url: json-schema/jfrog-artifact-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-repository-schema.json
   title: ''
   type: JSON Schema - Repository
   url: json-schema/jfrog-repository-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-build-info-schema.json
   title: ''
   type: JSON Schema - Build Info
   url: json-schema/jfrog-build-info-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-release-bundle-schema.json
   title: ''
   type: JSON Schema - Release Bundle
   url: json-schema/jfrog-release-bundle-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-security-vulnerability-schema.json
   title: ''
   type: JSON Schema - Security Vulnerability
   url: json-schema/jfrog-security-vulnerability-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-user-schema.json
   title: ''
   type: JSON Schema - User
   url: json-schema/jfrog-user-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-permission-schema.json
   title: ''
   type: JSON Schema - Permission
   url: json-schema/jfrog-permission-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-pipeline-schema.json
   title: ''
   type: JSON Schema - Pipeline
   url: json-schema/jfrog-pipeline-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-worker-schema.json
   title: ''
   type: JSON Schema - Worker
   url: json-schema/jfrog-worker-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-curation-policy-schema.json
   title: ''
   type: JSON Schema - Curation Policy
   url: json-schema/jfrog-curation-policy-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/json-schema/jfrog-evidence-schema.json
   title: ''
   type: JSON Schema - Evidence
   url: json-schema/jfrog-evidence-schema.json
@@ -1293,6 +1360,38 @@ rules:
     info: 2
     warn: 4
   slug: jfrog-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 60.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 9.8
+    contract_quality: 64.7
+    developer_ergonomics: 92.9
+    discoverability: 83.3
+    operational_transparency: 26.3
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 53
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/screenshots/jfrog-2026-06-20T183730.png
 security:
 - kind: authentication

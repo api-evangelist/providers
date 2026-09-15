@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The FRVR games SDK — one JavaScript SDK (plus Unity, Cocos Creator, and Construct 3 wrappers) that integrates ads, IAP, analytics, auth, storage, social, leaderboards, tournaments, and notifications i
@@ -61,34 +86,42 @@ common:
   type: PrivacyPolicy
   url: https://frvr.com/legal#PrivacyPolicy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/llms/frvr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/frvr-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/packages/frvr-packages.yml
   title: ''
   type: Packages
   url: packages/frvr-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/packages/frvr-packages.yml
   title: ''
   type: SDKs
   url: packages/frvr-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/sandbox/frvr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/frvr-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/authentication/frvr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/frvr-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/conventions/frvr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/frvr-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/conformance/frvr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/frvr-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/security/frvr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frvr-domain-security.yml
@@ -105,6 +138,34 @@ overview: 'FRVR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
   FRVR''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, signup flow, sandbox, and 12 more developer resources.'
 random_paper: 7
+score:
+  band: thin
+  composite: 27.7
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 27.7
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/screenshots/frvr-2026-07-25T215241.png
 security:
 - kind: authentication

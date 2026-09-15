@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -87,6 +112,7 @@ collections:
   slug: open-dflow-venues-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/overlays/dflow-aggregator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dflow-aggregator-overlay.yaml
@@ -123,62 +149,77 @@ common:
   type: SignUp
   url: https://forms.gle/eX3cghbMF8VBB9qa9
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/llms/dflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dflow-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/mcp/dflow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dflow-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/skills/dflow-spot-trading.md
   title: ''
   type: AgentSkill
   url: skills/dflow-spot-trading.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/skills/dflow-platform-fees.md
   title: ''
   type: AgentSkill
   url: skills/dflow-platform-fees.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/cli/dflow-cli.yml
   title: ''
   type: CLI
   url: cli/dflow-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/packages/dflow-packages.yml
   title: ''
   type: Packages
   url: packages/dflow-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/authentication/dflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dflow-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/conventions/dflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dflow-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/errors/dflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dflow-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/conformance/dflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dflow-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/lifecycle/dflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dflow-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/sandbox/dflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dflow-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/data-model/dflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dflow-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/agentic-access/dflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dflow-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/security/dflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dflow-domain-security.yml
@@ -202,6 +243,47 @@ overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
   DFlow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 17 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 4.5
+    contract_quality: 56.7
+    developer_ergonomics: 76.2
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 38.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 28.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
 security:
 - kind: authentication

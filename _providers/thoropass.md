@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: OAuth 2.0-secured Partner API for programmatic access to Thoropass audits, evidence requests, controls, monitoring alerts, devices, change requests, training records and vulnerability data, plus a hos
@@ -61,38 +86,47 @@ common:
   type: TrustCenter
   url: https://trust.thoropass.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/authentication/thoropass-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thoropass-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/scopes/thoropass-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/thoropass-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/mcp/thoropass-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/thoropass-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/well-known/thoropass-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thoropass-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/conventions/thoropass-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thoropass-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/conformance/thoropass-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thoropass-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/lifecycle/thoropass-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thoropass-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/security/thoropass-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thoropass-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/llms/thoropass-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thoropass-llms.txt
@@ -118,6 +152,35 @@ scopes:
   scope_count: 24
   slug: thoropass-scopes
   summary_line: 24 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 22.0
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 17.9
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 22.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoropass/refs/heads/main/screenshots/thoropass-2026-09-02T163551.png
 security:
 - kind: authentication

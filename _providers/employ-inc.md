@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://www.employinc.com/wp-json/wp/v2
@@ -28,10 +53,12 @@ asyncapis:
   slug: employ-inc-status-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/security/employ-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/employ-inc-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/authentication/employ-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/employ-inc-authentication.yml
@@ -68,58 +95,72 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/82904967
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/llms/employ-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/employ-inc-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/conventions/employ-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/employ-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/errors/employ-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/employ-inc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/lifecycle/employ-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/employ-inc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/conformance/employ-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/employ-inc-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/conformance/employ-inc-conformance.yml
   title: ''
   type: Compliance
   url: conformance/employ-inc-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/security/employ-inc-security-policy.yml
   title: ''
   type: Security
   url: security/employ-inc-security-policy.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/data-model/employ-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/employ-inc-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/packages/employ-inc-packages.yml
   title: ''
   type: Packages
   url: packages/employ-inc-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/mcp/employ-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/employ-inc-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/asyncapi/employ-inc-status-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/employ-inc-status-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/plans/employ-inc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/employ-inc-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/rate-limits/employ-inc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/employ-inc-rate-limits.yml
@@ -169,6 +210,42 @@ rate_limits:
 - limit_count: 0
   name: Employ Inc Rate Limits
   slug: employ-inc-rate-limits
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 65.4
+    developer_ergonomics: 28.0
+    discoverability: 81.5
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Employ Inc Authentication
@@ -188,7 +265,7 @@ tags:
 - Hiring
 - HR Tech
 - Content
-- Events
+- Event
 - Status
 website: https://www.employinc.com/
 ---

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Navattic's hosted, remote Model Context Protocol server — the company's primary machine-readable product surface. Agents authenticate with an OAuth 2.1 authorization-code flow (PKCE, dynamic client re
@@ -26,14 +51,17 @@ asyncapis:
   slug: navattic-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/overlays/navattic-website-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/navattic-website-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/security/navattic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/navattic-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/security/navattic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navattic-domain-security.yml
@@ -70,22 +98,27 @@ common:
   type: X
   url: https://x.com/navattic
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/plans/navattic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/navattic-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/rate-limits/navattic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/navattic-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/finops/navattic-finops.yml
   title: ''
   type: FinOps
   url: finops/navattic-finops.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/json-ld/navattic-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/navattic-context.jsonld
@@ -94,6 +127,7 @@ common:
   type: Security
   url: https://www.navattic.com/company/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/security/navattic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/navattic-trust-center.yml
@@ -102,70 +136,87 @@ common:
   type: Compliance
   url: https://trust.navattic.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/well-known/navattic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/navattic-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/well-known/navattic-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/navattic-api-catalog.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/well-known/navattic-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/navattic-robots.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/a2a/navattic-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/navattic-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/llms/navattic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/navattic-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/authentication/navattic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/navattic-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/scopes/navattic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/navattic-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/conventions/navattic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/navattic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/errors/navattic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/navattic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/lifecycle/navattic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/navattic-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/changelog/navattic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/navattic-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/conformance/navattic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/navattic-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/packages/navattic-packages.yml
   title: ''
   type: Packages
   url: packages/navattic-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/components/navattic-components.yml
   title: ''
   type: Components
   url: components/navattic-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/data-model/navattic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/navattic-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/asyncapi/navattic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/navattic-webhooks.yml
@@ -239,6 +290,41 @@ scopes:
   scope_count: 11
   slug: navattic-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: strong
+  composite: 59.1
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 60.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 57.0
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 59.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png
 security:
 - kind: authentication

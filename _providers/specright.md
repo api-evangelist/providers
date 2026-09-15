@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'REST API over Specright''s specification data. Forty-six operations across six areas: token issuance, specifications, spec families (BOM / finished good), suppliers, a generic /objects/{api-name} endpo'
@@ -66,70 +91,87 @@ common:
   type: StatusPage
   url: https://status.specright.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/mcp/specright-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/specright-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/well-known/specright-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/specright-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/authentication/specright-authentication.yml
   title: ''
   type: Authentication
   url: authentication/specright-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/scopes/specright-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/specright-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/errors/specright-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/specright-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/conventions/specright-conventions.yml
   title: ''
   type: Conventions
   url: conventions/specright-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/data-model/specright-data-model.yml
   title: ''
   type: DataModel
   url: data-model/specright-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/lifecycle/specright-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/specright-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/changelog/specright-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/specright-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/rate-limits/specright-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/specright-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/plans/specright-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/specright-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/sandbox/specright-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/specright-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/conformance/specright-conformance.yml
   title: ''
   type: Conformance
   url: conformance/specright-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/packages/specright-packages.yml
   title: ''
   type: Packages
   url: packages/specright-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/llms/specright-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/specright-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/security/specright-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/specright-domain-security.yml
@@ -163,6 +205,41 @@ scopes:
   scope_count: 0
   slug: specright-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.0
+    discoverability: 68.5
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 31.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/screenshots/specright-2026-09-02T160357.png
 security:
 - kind: authentication

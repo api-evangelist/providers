@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -209,18 +234,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/acronis/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/agentic-access/acronis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/acronis-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/security/acronis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/acronis-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/security/acronis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acronis-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/authentication/acronis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acronis-authentication.yml
@@ -277,54 +306,67 @@ common:
   type: TermsOfService
   url: https://www.acronis.com/en-us/legal/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/changelog/acronis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/acronis-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/packages/acronis-packages.yml
   title: ''
   type: Packages
   url: packages/acronis-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/packages/acronis-packages.yml
   title: ''
   type: SDKs
   url: packages/acronis-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/well-known/acronis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/acronis-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/well-known/acronis-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/acronis-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/mcp/acronis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/acronis-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/mcp/acronis-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/acronis-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/llms/acronis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acronis-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/overlays/acronis-account-management-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/acronis-account-management-v2-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/conformance/acronis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acronis-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/conformance/acronis-conformance.yml
   title: ''
   type: Compliance
   url: conformance/acronis-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/errors/acronis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/acronis-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/lifecycle/acronis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acronis-lifecycle.yml
@@ -333,46 +375,57 @@ common:
   type: StatusPage
   url: https://status.acronis.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/scopes/acronis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/acronis-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/security/acronis-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/acronis-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/security/acronis-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/acronis-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/sandbox/acronis-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/acronis-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/conventions/acronis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acronis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/conventions/acronis-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/acronis-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/cli/acronis-cli.yml
   title: ''
   type: CLI
   url: cli/acronis-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/components/acronis-components.yml
   title: ''
   type: Components
   url: components/acronis-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/data-model/acronis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acronis-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/asyncapi/acronis-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/acronis-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -405,14 +458,17 @@ common:
   type: Postman
   url: https://www.postman.com/kinlaneapi/acronis/overview
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/plans/acronis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acronis-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/rate-limits/acronis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acronis-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/finops/acronis-finops.yml
   title: ''
   type: FinOps
   url: finops/acronis-finops.yml
@@ -772,6 +828,41 @@ scopes:
   scope_count: 0
   slug: acronis-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 72.9
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 87.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 30.7
+    developer_ergonomics: 86.3
+    discoverability: 81.5
+    operational_transparency: 76.3
+  previous_composite: 72.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 14
+      marker_coverage: 100.0
+      total: 14
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/screenshots/acronis-2026-06-20T164007.png
 security:
 - kind: authentication

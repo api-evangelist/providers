@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -193,18 +218,22 @@ collections:
   slug: open-natwest-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/capabilities/natwest-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/natwest-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/well-known/natwest-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/natwest-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/well-known/natwest-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/natwest-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/lifecycle/natwest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/natwest-lifecycle.yml
@@ -217,10 +246,12 @@ common:
   type: Deprecation
   url: https://www.bankofapis.com/updates-and-releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/changelog/natwest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/natwest-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/conformance/natwest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/natwest-conformance.yml
@@ -229,46 +260,57 @@ common:
   type: Compliance
   url: https://www.bankofapis.com/products/natwest-group-open-banking/fca-service-metrics
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/errors/natwest-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/natwest-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/conventions/natwest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/natwest-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/conventions/natwest-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/natwest-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/data-model/natwest-data-model.yml
   title: ''
   type: DataModel
   url: data-model/natwest-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/sandbox/natwest-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/natwest-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/mcp/natwest-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/natwest-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/llms/natwest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/natwest-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/overlays/natwest-account-transaction-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/natwest-account-transaction-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/overlays/natwest-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/natwest-payment-initiation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/overlays/natwest-confirmation-of-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/natwest-confirmation-of-funds-overlay.yaml
@@ -277,22 +319,27 @@ common:
   type: Security
   url: https://bugcrowd.com/natwest-vdp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/security/natwest-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/natwest-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/security/natwest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/natwest-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/agentic-access/natwest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/natwest-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/scopes/natwest-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/natwest-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/authentication/natwest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/natwest-authentication.yml
@@ -362,6 +409,47 @@ scopes:
   scope_count: 5
   slug: natwest-scopes
   summary_line: 5 scopes
+score:
+  band: thin
+  composite: 31.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 50.3
+    developer_ergonomics: 8.9
+    discoverability: 81.5
+    operational_transparency: 28.9
+  previous_composite: 31.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 58.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png
 security:
 - kind: authentication

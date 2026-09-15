@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -341,190 +367,237 @@ collections:
   slug: open-infobip-zalo
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/capabilities/infobip-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/infobip-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-2fa-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-2fa-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-account-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-account-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-ai-assistants-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-ai-assistants-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-answers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-answers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-apple-mfb-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-apple-mfb-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-application-entity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-application-entity-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-billing-usage-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-billing-usage-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-biometrics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-biometrics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-blocklist-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-blocklist-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-camara-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-camara-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-catalogs-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-catalogs-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-common-assets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-common-assets-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-conversations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-conversations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-email-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-instagram-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-instagram-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-kakao-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-kakao-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-knowledge-base-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-knowledge-base-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-line-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-line-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-live-chat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-live-chat-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-messages-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-messages-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-messenger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-messenger-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-metrics-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-metrics-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-mms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-mms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-mobile-app-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-mobile-app-messaging-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-mobile-identity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-mobile-identity-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-moments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-moments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-number-activation-state-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-number-activation-state-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-number-lookup-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-number-lookup-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-numbers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-numbers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-omni-failover-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-omni-failover-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-open-channel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-open-channel-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-openapi-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-people-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-people-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-rcs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-rcs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-resources-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-resources-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-sending-strategy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-sending-strategy-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-signals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-signals-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-sms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-subscriptions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-subscriptions-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-tiktok-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-tiktok-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-viber-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-viber-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-vocalize-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-vocalize-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-voice-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-voice-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-webrtc-calls-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-webrtc-calls-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-whatsapp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-whatsapp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-zalo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-zalo-overlay.yaml
@@ -533,22 +606,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/infobip/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/agentic-access/infobip-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/infobip-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/security/infobip-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/infobip-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/security/infobip-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infobip-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/scopes/infobip-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/infobip-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/authentication/infobip-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infobip-authentication.yml
@@ -565,6 +643,7 @@ common:
   type: APIReference
   url: https://www.infobip.com/docs/api
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-platform-full-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/infobip-platform-full-openapi.json
@@ -625,66 +704,82 @@ common:
   type: Support
   url: https://www.infobip.com/contact
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/packages/infobip-packages.yml
   title: ''
   type: Packages
   url: packages/infobip-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/packages/infobip-packages.yml
   title: ''
   type: SDKs
   url: packages/infobip-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/well-known/infobip-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/infobip-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/well-known/infobip-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/infobip-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/well-known/infobip-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/infobip-api-catalog.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/well-known/infobip-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/infobip-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/mcp/infobip-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/infobip-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/mcp/infobip-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/infobip-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/llms/infobip-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infobip-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/conventions/infobip-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infobip-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/errors/infobip-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/infobip-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/errors/infobip-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/infobip-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/lifecycle/infobip-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infobip-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/lifecycle/infobip-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/infobip-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/rate-limits/infobip-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/infobip-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/conformance/infobip-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infobip-conformance.yml
@@ -693,6 +788,7 @@ common:
   type: Compliance
   url: https://www.infobip.com/certificates
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/security/infobip-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/infobip-trust-center.yml
@@ -701,66 +797,82 @@ common:
   type: Security
   url: https://www.infobip.com/security-trust-center/cvd-policy
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/asyncapi/infobip-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/infobip-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/asyncapi/infobip-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/infobip-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/data-model/infobip-data-model.yml
   title: ''
   type: DataModel
   url: data-model/infobip-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/sandbox/infobip-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/infobip-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/components/infobip-components.yml
   title: ''
   type: Components
   url: components/infobip-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/changelog/infobip-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/infobip-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/overlays/infobip-platform-full-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infobip-platform-full-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-send-sms-and-confirm-delivery.md
   title: ''
   type: AgentSkill
   url: skills/infobip-send-sms-and-confirm-delivery.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-send-whatsapp-template-message.md
   title: ''
   type: AgentSkill
   url: skills/infobip-send-whatsapp-template-message.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-two-factor-authentication.md
   title: ''
   type: AgentSkill
   url: skills/infobip-two-factor-authentication.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-verify-identity-with-network-apis.md
   title: ''
   type: AgentSkill
   url: skills/infobip-verify-identity-with-network-apis.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-send-email-and-manage-deliverability.md
   title: ''
   type: AgentSkill
   url: skills/infobip-send-email-and-manage-deliverability.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-manage-people-profiles.md
   title: ''
   type: AgentSkill
   url: skills/infobip-manage-people-profiles.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-provision-numbers-and-webhooks.md
   title: ''
   type: AgentSkill
   url: skills/infobip-provision-numbers-and-webhooks.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/skills/infobip-omnichannel-send-with-failover.md
   title: ''
   type: AgentSkill
   url: skills/infobip-omnichannel-send-with-failover.md
@@ -814,6 +926,57 @@ scopes:
   scope_count: 159
   slug: infobip-scopes
   summary_line: 159 scopes · clientCredentials/authorizationCode
+score:
+  band: exemplar
+  composite: 75.4
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 64.1
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - cee
+    - europe
+  previous_composite: 75.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 93.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/screenshots/infobip-2026-08-07T170702.png
 security:
 - kind: authentication

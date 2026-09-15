@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -195,10 +220,12 @@ collections:
   slug: open-360learning-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/capabilities/360learning-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/360learning-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/overlays/360learning-bulk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/360learning-bulk-overlay.yaml
@@ -263,42 +290,52 @@ common:
   type: Deprecation
   url: https://api.360learning.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/authentication/360learning-authentication.yml
   title: ''
   type: Authentication
   url: authentication/360learning-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/scopes/360learning-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/360learning-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/conventions/360learning-conventions.yml
   title: ''
   type: Conventions
   url: conventions/360learning-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/errors/360learning-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/360learning-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/lifecycle/360learning-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/360learning-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/changelog/360learning-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/360learning-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/asyncapi/360learning-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/360learning-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/mcp/360learning-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/360learning-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/conformance/360learning-conformance.yml
   title: ''
   type: Conformance
   url: conformance/360learning-conformance.yml
@@ -307,26 +344,32 @@ common:
   type: Compliance
   url: https://360learning.com/privacy-and-security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/security/360learning-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/360learning-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/security/360learning-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/360learning-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/agentic-access/360learning-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/360learning-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/data-model/360learning-data-model.yml
   title: ''
   type: DataModel
   url: data-model/360learning-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/packages/360learning-packages.yml
   title: ''
   type: Packages
   url: packages/360learning-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/llms/360learning-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/360learning-llms.txt
@@ -351,6 +394,51 @@ scopes:
   scope_count: 45
   slug: 360learning-scopes
   summary_line: 45 scopes
+score:
+  band: strong
+  composite: 57.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 59.7
+    developer_ergonomics: 39.9
+    discoverability: 81.5
+    operational_transparency: 39.5
+  previous_composite: 57.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:
 - kind: authentication

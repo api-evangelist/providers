@@ -10,10 +10,36 @@ access_model:
   - https://rainbowstandard.io/get-started
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 4.7
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/security/riverse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riverse-domain-security.yml
@@ -46,6 +72,7 @@ common:
   type: Pricing
   url: https://docs.rainbowstandard.io/other/terms-and-contracts/rainbow-standard-and-registry-fees
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/plans/riverse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/riverse-plans-pricing.yml
@@ -58,6 +85,7 @@ common:
   type: PrivacyPolicy
   url: https://docs.rainbowstandard.io/other/terms-and-contracts/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/llms/riverse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/riverse-llms.txt
@@ -66,10 +94,12 @@ common:
   type: ContentSignal
   url: https://docs.rainbowstandard.io/robots.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/vocabulary/riverse-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/riverse-vocabulary.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/changelog/riverse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/riverse-changelog.yml
@@ -78,6 +108,7 @@ common:
   type: ChangeLog
   url: https://docs.rainbowstandard.io/rainbow-standard-documents/rainbow-standard-rules/version-history
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/lifecycle/riverse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/riverse-lifecycle.yml
@@ -86,6 +117,7 @@ common:
   type: Deprecation
   url: https://docs.rainbowstandard.io/rainbow-standard-documents/procedures-manual/standard-and-methodologies
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/conformance/riverse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/riverse-conformance.yml
@@ -94,6 +126,7 @@ common:
   type: Compliance
   url: https://docs.rainbowstandard.io/other/governance-and-integrity
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/security/riverse-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/riverse-vulnerability-disclosure.yml
@@ -102,6 +135,7 @@ common:
   type: Security
   url: https://docs.rainbowstandard.io/rainbow-standard-documents/procedures-manual/registry-requirements
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/security/riverse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/riverse-trust-center.yml
@@ -147,6 +181,34 @@ rate_limits:
 - limit_count: 0
   name: Riverse Rate Limits
   slug: riverse-rate-limits
+score:
+  band: thin
+  composite: 34.3
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 40.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 74.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 22.0
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 57.4
+    operational_transparency: 34.2
+  previous_composite: 34.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/riverse/refs/heads/main/screenshots/riverse-2026-09-02T153933.png
 security:
 - kind: domain-security

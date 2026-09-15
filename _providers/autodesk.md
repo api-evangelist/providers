@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -706,6 +732,7 @@ collections:
   slug: open-autodesk-workitems-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/capabilities/autodesk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/autodesk-capability-edges.yml
@@ -714,18 +741,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/autodesk/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/agentic-access/autodesk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/autodesk-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/security/autodesk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autodesk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/authentication/autodesk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autodesk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/scopes/autodesk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/autodesk-scopes.yml
@@ -846,170 +877,212 @@ common:
   type: JSONLD
   url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/json-ld/autodesk-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/packages/autodesk-packages.yml
   title: ''
   type: Packages
   url: packages/autodesk-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/well-known/autodesk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autodesk-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/mcp/autodesk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/autodesk-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/llms/autodesk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autodesk-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/conformance/autodesk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autodesk-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/errors/autodesk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autodesk-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/lifecycle/autodesk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autodesk-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/conventions/autodesk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autodesk-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/changelog/autodesk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/autodesk-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/components/autodesk-components.yml
   title: ''
   type: Components
   url: components/autodesk-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/data-model/autodesk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autodesk-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/security/autodesk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autodesk-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/security/autodesk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/autodesk-trust-center.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-acc-account-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-acc-account-admin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-authentication-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-bim360-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-bim360-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-data-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-data-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-design-automation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-design-automation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-flow-graph-engine-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-flow-graph-engine-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-model-derivative-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-model-derivative-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-parameters-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-parameters-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-reality-capture-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-reality-capture-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-sustainability-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-sustainability-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-tandem-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-tandem-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/overlays/autodesk-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autodesk-webhooks-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-two-legged-token-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-two-legged-token-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-three-legged-user-login-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-three-legged-user-login-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-model-translation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-model-translation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-model-properties-extraction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-model-properties-extraction-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-oss-signed-url-distribution-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-oss-signed-url-distribution-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-project-file-upload-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-project-file-upload-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-item-new-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-item-new-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-design-automation-workitem-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-design-automation-workitem-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-reality-capture-photoscene-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-reality-capture-photoscene-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-webhook-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-webhook-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-acc-project-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-acc-project-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-bim360-issue-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-bim360-issue-triage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-flow-graph-evaluation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-flow-graph-evaluation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-tandem-element-properties-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-tandem-element-properties-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-tandem-iot-stream-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-tandem-iot-stream-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-sustainability-carbon-calculation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-sustainability-carbon-calculation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/arazzo/autodesk-parameters-collection-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/autodesk-parameters-collection-setup-workflow.yml
@@ -1555,6 +1628,40 @@ scopes:
   scope_count: 12
   slug: autodesk-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 55.5
+  coverage:
+    artifact_dirs: 37
+    catalog_earned: 51.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 18.2
+    contract_quality: 75.0
+    developer_ergonomics: 72.6
+    discoverability: 50.0
+    operational_transparency: 26.3
+  previous_composite: 55.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:
 - kind: authentication

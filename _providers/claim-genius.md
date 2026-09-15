@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The GeniusAPI Suite is Claim Genius''s REST integration layer over its AI vehicle-inspection products. Documented flow: generate a JWT via /api/auth/token using an API ID and secret, upload JPG/PNG/MP4'
@@ -42,34 +67,42 @@ common:
   type: Compliance
   url: https://claimgenius.com/geniusapi
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/authentication/claim-genius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/claim-genius-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/conventions/claim-genius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/claim-genius-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/lifecycle/claim-genius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/claim-genius-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/conformance/claim-genius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/claim-genius-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/packages/claim-genius-packages.yml
   title: ''
   type: Packages
   url: packages/claim-genius-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/well-known/claim-genius-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/claim-genius-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/llms/claim-genius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/claim-genius-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/security/claim-genius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/claim-genius-domain-security.yml
@@ -100,6 +133,40 @@ overview: 'Claim Genius publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
   Claim Genius'' developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
 random_paper: 17
+score:
+  band: minimal
+  composite: 10.8
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 59.3
+    operational_transparency: 0.0
+  previous_composite: 10.8
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 25.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/claim-genius/refs/heads/main/screenshots/claim-genius-2026-09-02T145054.png
 security:
 - kind: authentication

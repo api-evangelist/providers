@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.4
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://findmoney.fingoal.com/v3
@@ -73,10 +98,12 @@ collections:
   slug: open-fingoal-webhook-configurations-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/overlays/fingoal-link-money-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fingoal-link-money-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/overlays/fingoal-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fingoal-insights-overlay.yaml
@@ -125,66 +152,82 @@ common:
   type: Compliance
   url: https://fingoal.com/fingoal-privacy-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/security/fingoal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fingoal-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/authentication/fingoal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fingoal-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/scopes/fingoal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fingoal-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/conventions/fingoal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fingoal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/lifecycle/fingoal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fingoal-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/conformance/fingoal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fingoal-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/sandbox/fingoal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fingoal-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/asyncapi/fingoal-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fingoal-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/errors/fingoal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fingoal-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/data-model/fingoal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fingoal-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/mcp/fingoal-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fingoal-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/llms/fingoal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fingoal-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/security/fingoal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fingoal-domain-security.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/rate-limits/fingoal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fingoal-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/components/fingoal-components.yml
   title: ''
   type: Components
   url: components/fingoal-components.yml
@@ -225,6 +268,50 @@ scopes:
   scope_count: 3
   slug: fingoal-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 61.5
+    developer_ergonomics: 42.3
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 58.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 69.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:
 - kind: authentication

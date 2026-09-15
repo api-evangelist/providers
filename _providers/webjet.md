@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -167,6 +192,7 @@ collections:
   slug: open-webjet-tripninja-virtual-interlining-get-searches
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/capabilities/webjet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/webjet-capability-edges.yml
@@ -175,154 +201,192 @@ common:
   type: IssueTracker
   url: https://github.com/trip-ninja-inc/trip_ninja_api_docs/issues
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-smartflights-get-searches-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-smartflights-get-searches-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-smartflights-generate-solutions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-smartflights-generate-solutions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-smartflights-report-book-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-smartflights-report-book-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-smartflights-report-cancel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-smartflights-report-cancel-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/skills/webjet-tripninja-search-and-construct.md
   title: ''
   type: AgentSkill
   url: skills/webjet-tripninja-search-and-construct.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/skills/webjet-tripninja-report-booking-and-cancellation.md
   title: ''
   type: AgentSkill
   url: skills/webjet-tripninja-report-booking-and-cancellation.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-adminpanel-refresh-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-adminpanel-refresh-token-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/skills/webjet-tripninja-rotate-access-token.md
   title: ''
   type: AgentSkill
   url: skills/webjet-tripninja-rotate-access-token.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-farestructure-get-searches-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-farestructure-get-searches-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-farestructure-generate-solutions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-farestructure-generate-solutions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-farestructure-report-book-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-farestructure-report-book-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-farestructure-report-cancel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-farestructure-report-cancel-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-virtual-interlining-get-searches-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-virtual-interlining-get-searches-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-virtual-interlining-generate-solutions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-virtual-interlining-generate-solutions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-flights-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-flights-core-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-pricing-booking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-pricing-booking-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/skills/webjet-tripninja-price-book-and-ticket.md
   title: ''
   type: AgentSkill
   url: skills/webjet-tripninja-price-book-and-ticket.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-hotels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-hotels-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-msdp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-msdp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-v2-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-v2-core-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/overlays/webjet-v2-booking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webjet-v2-booking-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/agentic-access/webjet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/webjet-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/security/webjet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webjet-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/authentication/webjet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webjet-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/conventions/webjet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webjet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/errors/webjet-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/webjet-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/rate-limits/webjet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/webjet-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/sandbox/webjet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/webjet-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/lifecycle/webjet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webjet-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/conformance/webjet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webjet-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/data-model/webjet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/webjet-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/packages/webjet-packages.yml
   title: ''
   type: Packages
   url: packages/webjet-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/packages/webjet-packages.yml
   title: ''
   type: SDKs
   url: packages/webjet-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/well-known/webjet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/webjet-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/mcp/webjet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/webjet-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/mcp/webjet-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/webjet-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/llms/webjet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webjet-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -431,6 +495,48 @@ rate_limits:
 - limit_count: 1
   name: Webjet Rate Limits
   slug: webjet-rate-limits
+score:
+  band: thin
+  composite: 35.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 38.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 35.1
+    discoverability: 55.6
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 35.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png
 security:
 - kind: authentication

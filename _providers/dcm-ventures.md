@@ -30,7 +30,6 @@ tags:
 - Early Stage
 - Vertical SaaS
 - Fintech
-- Consumer
 - Enterprise
 - Artificial Intelligence
 - Cross-Border

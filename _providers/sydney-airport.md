@@ -10,14 +10,41 @@ access_model:
   - terms
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.1
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/security/sydney-airport-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sydney-airport-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/security/sydney-airport-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sydney-airport-domain-security.yml
@@ -38,30 +65,37 @@ common:
   type: PartnerPortal
   url: https://www.sydneyairport.com.au/infosyd
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/authentication/sydney-airport-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sydney-airport-authentication.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/authentication/sydney-airport-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: authentication/sydney-airport-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/scopes/sydney-airport-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sydney-airport-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/well-known/sydney-airport-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sydney-airport-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/conformance/sydney-airport-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sydney-airport-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/lifecycle/sydney-airport-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sydney-airport-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/llms/sydney-airport-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sydney-airport-llms.txt
@@ -90,6 +124,7 @@ common:
   type: Copyright
   url: https://www.sydneyairport.com.au/copyright
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/well-known/sydney-airport-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sydney-airport-security.txt
@@ -116,6 +151,41 @@ scopes:
   scope_count: 8
   slug: sydney-airport-scopes
   summary_line: 8 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 14.2
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 50.0
+    operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 14.2
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/screenshots/sydney-airport-2026-09-02T161434.png
 security:
 - kind: authentication

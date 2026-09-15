@@ -10,6 +10,32 @@ access_model:
   - documentation
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -171,66 +197,82 @@ collections:
   slug: open-tyro-pos-pay-terminal
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-pay-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-pay-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-pos-pay-terminal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-pos-pay-terminal-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-pos-embedded-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-pos-embedded-payments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-booking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-booking-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-ordering-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-ordering-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-menu-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-menu-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-tables-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-tables-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-sales-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-sales-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-reporting-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-loyalty-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-loyalty-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-refunds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-refunds-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-locations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-locations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/overlays/tyro-connect-referrals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tyro-connect-referrals-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/agentic-access/tyro-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tyro-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/security/tyro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tyro-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/authentication/tyro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tyro-authentication.yml
@@ -295,62 +337,77 @@ common:
   type: Security
   url: https://www.tyro.com/security/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/well-known/tyro-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/tyro-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/well-known/tyro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tyro-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/conventions/tyro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tyro-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/errors/tyro-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tyro-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/errors/tyro-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/tyro-decline-codes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/sandbox/tyro-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tyro-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/lifecycle/tyro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tyro-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/changelog/tyro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tyro-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/components/tyro-components.yml
   title: ''
   type: Components
   url: components/tyro-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/data-model/tyro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tyro-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/conformance/tyro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tyro-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/asyncapi/tyro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tyro-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/mcp/tyro-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tyro-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/llms/tyro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tyro-llms.txt
@@ -370,6 +427,54 @@ overview: 'Tyro Payments publishes 21 APIs on the [APIs.io](https://apis.io/) ne
 
   Tyro Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 39 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 66.1
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 41.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/screenshots/tyro-2026-08-17T082516.png
 security:
 - kind: authentication

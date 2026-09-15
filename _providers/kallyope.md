@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: https://kallyope.com/wp-json
@@ -49,14 +74,17 @@ collections:
   slug: open-kallyope-content-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/overlays/kallyope-content-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kallyope-content-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/mcp/kallyope-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kallyope-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -89,22 +117,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/kallyope/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/conformance/kallyope-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kallyope-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/security/kallyope-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kallyope-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/well-known/kallyope-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kallyope-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/llms/kallyope-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kallyope-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/json-ld/kallyope-organization.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kallyope-organization.jsonld
@@ -130,6 +163,47 @@ overview: 'Kallyope publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
   Kallyope''s developer surface includes engineering blog, support, and 13 more developer resources.'
 random_paper: 4
+score:
+  band: emerging
+  composite: 16.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 15.6
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 0.0
+  previous_composite: 16.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 21.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/screenshots/kallyope-2026-08-07T171056.png
 security:
 - kind: authentication

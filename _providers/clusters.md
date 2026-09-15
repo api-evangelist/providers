@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -82,6 +107,7 @@ collections:
   slug: open-clusters-registration-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/security/clusters-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clusters-vulnerability-disclosure.yml
@@ -90,14 +116,17 @@ common:
   type: Security
   url: https://clusters.xyz/vulnerability-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/security/clusters-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clusters-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/agentic-access/clusters-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clusters-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/authentication/clusters-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clusters-authentication.yml
@@ -142,66 +171,82 @@ common:
   type: PrivacyPolicy
   url: https://clusters.xyz/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/packages/clusters-packages.yml
   title: ''
   type: SDKs
   url: packages/clusters-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/packages/clusters-packages.yml
   title: ''
   type: Packages
   url: packages/clusters-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/llms/clusters-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clusters-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/well-known/clusters-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clusters-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/mcp/clusters-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clusters-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/overlays/clusters-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clusters-v1-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/conformance/clusters-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clusters-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/errors/clusters-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clusters-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/lifecycle/clusters-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clusters-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/lifecycle/clusters-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/clusters-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/conventions/clusters-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clusters-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/data-model/clusters-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clusters-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/sandbox/clusters-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clusters-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/arazzo/clusters-resolve-name.yml
   title: ''
   type: Arazzo
   url: arazzo/clusters-resolve-name.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/arazzo/clusters-register-name.yml
   title: ''
   type: Arazzo
   url: arazzo/clusters-register-name.yml
@@ -218,6 +263,47 @@ overview: 'Clusters publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
   Clusters'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, sandbox, and 24 more developer resources.'
 random_paper: 3
+score:
+  band: emerging
+  composite: 20.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 20.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 35.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/screenshots/clusters-2026-07-25T205748.png
 security:
 - kind: authentication

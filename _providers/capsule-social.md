@@ -40,6 +40,7 @@ common:
   type: SourceCode
   url: https://github.com/capsulesocial/capsule-near
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/capsule-social/refs/heads/main/packages/capsule-social-packages.yml
   title: ''
   type: Packages
   url: packages/capsule-social-packages.yml

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,14 +110,17 @@ common:
   type: Website
   url: https://www.nasa.gov/artemis/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/agentic-access/artemis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/artemis-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/security/artemis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artemis-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/authentication/artemis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artemis-authentication.yml
@@ -133,50 +161,62 @@ common:
   type: Security
   url: https://www.nasa.gov/vulnerability-disclosure-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/security/artemis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artemis-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/conventions/artemis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/artemis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/errors/artemis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/artemis-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/rate-limits/artemis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/artemis-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/plans/artemis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/artemis-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/lifecycle/artemis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artemis-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/conformance/artemis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artemis-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/data-model/artemis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/artemis-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/packages/artemis-packages.yml
   title: ''
   type: Packages
   url: packages/artemis-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/llms/artemis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artemis-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/mcp/artemis-mcp.yml
   title: Candidate MCP tool list derived from the OpenAPI — NASA ships no MCP server
   type: X-MCPServerCandidate
   url: mcp/artemis-mcp.yml
@@ -224,6 +264,48 @@ rate_limits:
 - limit_count: 3
   name: Artemis Rate Limits
   slug: artemis-rate-limits
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 36.3
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/screenshots/artemis-2026-06-20T172440.png
 security:
 - kind: authentication

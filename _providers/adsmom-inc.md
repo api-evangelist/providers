@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'First-party hosted Model Context Protocol server that exposes the same ad index to AI assistants (Claude, Codex, Cursor, Gemini). Streamable HTTP at https://api.adsmom.com/mcp, protected by OAuth 2.0 '
@@ -87,6 +113,7 @@ apis:
 artifact_total: 21
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/capabilities/adsmom-inc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adsmom-inc-capability-edges.yml
@@ -103,66 +130,82 @@ common:
   type: APIReference
   url: https://adsmom.com/product/api
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/adsmom-inc-openapi.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/mcp/adsmom-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adsmom-inc-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/mcp/adsmom-inc-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/adsmom-inc-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/well-known/adsmom-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adsmom-inc-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/authentication/adsmom-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adsmom-inc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/scopes/adsmom-inc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adsmom-inc-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/errors/adsmom-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adsmom-inc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/conventions/adsmom-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adsmom-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/data-model/adsmom-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adsmom-inc-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/rate-limits/adsmom-inc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adsmom-inc-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/lifecycle/adsmom-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adsmom-inc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/conformance/adsmom-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adsmom-inc-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/overlays/adsmom-inc-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adsmom-inc-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/llms/adsmom-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adsmom-inc-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/security/adsmom-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adsmom-inc-domain-security.yml
@@ -175,6 +218,7 @@ common:
   type: Pricing
   url: https://adsmom.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/plans/adsmom-inc-plans.yml
   title: ''
   type: Plans
   url: plans/adsmom-inc-plans.yml
@@ -229,6 +273,40 @@ scopes:
   scope_count: 0
   slug: adsmom-inc-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 40.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 51.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 44.6
+    developer_ergonomics: 32.7
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 40.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png
 security:
 - kind: authentication

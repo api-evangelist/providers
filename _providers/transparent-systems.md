@@ -16,10 +16,12 @@ common:
   type: Website
   url: https://www.transparentsystems.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transparent-systems/refs/heads/main/security/transparent-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transparent-systems-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transparent-systems/refs/heads/main/llms/transparent-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/transparent-systems-llms.txt

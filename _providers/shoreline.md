@@ -17,18 +17,22 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/security/shoreline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shoreline-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/lifecycle/shoreline-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shoreline-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/packages/shoreline-packages.yml
   title: ''
   type: Packages
   url: packages/shoreline-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/llms/shoreline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shoreline-llms.txt

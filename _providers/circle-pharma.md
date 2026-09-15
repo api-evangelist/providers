@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - baseURL: https://circlepharma.com/wp-json
@@ -69,6 +94,7 @@ collections:
   slug: open-circle-pharma-content
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/overlays/circle-pharma-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/circle-pharma-content-overlay.yaml
@@ -133,42 +159,52 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/circle-pharma_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/authentication/circle-pharma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/circle-pharma-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/conventions/circle-pharma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/circle-pharma-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/conformance/circle-pharma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/circle-pharma-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/errors/circle-pharma-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/circle-pharma-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/lifecycle/circle-pharma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/circle-pharma-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/data-model/circle-pharma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/circle-pharma-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/well-known/circle-pharma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/circle-pharma-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/security/circle-pharma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/circle-pharma-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/llms/circle-pharma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/circle-pharma-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -186,6 +222,46 @@ overview: 'Circle Pharma publishes 10 APIs on the [APIs.io](https://apis.io/) ne
 
   Circle Pharma''s developer surface includes engineering blog, support, authentication, and 23 more developer resources.'
 random_paper: 2
+score:
+  band: emerging
+  composite: 22.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 13.3
+    developer_ergonomics: 20.8
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 22.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/screenshots/circle-pharma-2026-08-07T163423.png
 security:
 - kind: authentication

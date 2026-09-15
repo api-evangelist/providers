@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -72,18 +97,22 @@ collections:
   slug: open-aflac-policies-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/agentic-access/aflac-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aflac-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/security/aflac-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aflac-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/authentication/aflac-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aflac-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/scopes/aflac-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aflac-scopes.yml
@@ -124,210 +153,262 @@ common:
   type: Blog
   url: https://newsroom.aflac.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/_ae-authored/aflac-enterprise-connect-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_ae-authored/aflac-enterprise-connect-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-claim-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-claim-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-claim-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-claim-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-claim-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-claim-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-dependent-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-dependent-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-eligibility-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-eligibility-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-eligibility-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-eligibility-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-enrollment-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-enrollment-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-enrollment-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-enrollment-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-enrollment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-enrollment-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-group-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-group-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-group-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-group-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-policy-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-policy-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-schema/enterprise-connect-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/enterprise-connect-policy-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-claim-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-claim-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-claim-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-claim-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-claim-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-claim-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-dependent-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-dependent-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-eligibility-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-eligibility-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-eligibility-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-eligibility-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-enrollment-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-enrollment-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-enrollment-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-enrollment-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-enrollment-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-enrollment-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-group-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-group-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-group-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-group-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-policy-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-policy-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-structure/enterprise-connect-policy-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/enterprise-connect-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/json-ld/aflac-enterprise-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/aflac-enterprise-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-claim-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-claim-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-claim-list-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-claim-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-claim-request-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-claim-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-dependent-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-dependent-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-eligibility-request-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-eligibility-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-eligibility-response-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-eligibility-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-enrollment-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-enrollment-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-enrollment-list-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-enrollment-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-enrollment-request-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-enrollment-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-group-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-group-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-group-list-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-group-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-policy-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-policy-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/examples/enterprise-connect-policy-list-example.json
   title: ''
   type: Examples
   url: examples/enterprise-connect-policy-list-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/rules/aflac-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/aflac-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/vocabulary/aflac-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aflac-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/conventions/aflac-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aflac-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/errors/aflac-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aflac-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/data-model/aflac-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aflac-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/lifecycle/aflac-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aflac-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/conformance/aflac-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aflac-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/packages/aflac-packages.yml
   title: ''
   type: Packages
   url: packages/aflac-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/sandbox/aflac-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aflac-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/rate-limits/aflac-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aflac-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/plans/aflac-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aflac-plans-pricing.yml
@@ -563,6 +644,46 @@ scopes:
   scope_count: 6
   slug: aflac-scopes
   summary_line: 6 scopes · clientCredentials
+score:
+  band: developing
+  composite: 40.5
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 77.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 47.0
+    contract_quality: 27.8
+    developer_ergonomics: 35.7
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 40.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 51.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:
 - kind: authentication

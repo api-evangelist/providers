@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API to tokenize EBT cards, run PIN-secured balance inquiries, and create, capture, void, and refund EBT SNAP, EBT Cash, and HSA/FSA payments and orders for online and in-store checkout.
@@ -21,6 +46,7 @@ asyncapis:
   slug: forage-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/security/forage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forage-domain-security.yml
@@ -77,26 +103,32 @@ common:
   type: StatusPage
   url: https://status.joinforage.app
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/changelog/forage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/forage-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/lifecycle/forage-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/forage-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/lifecycle/forage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forage-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/authentication/forage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forage-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/conventions/forage-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/forage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/conventions/forage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/forage-conventions.yml
@@ -105,46 +137,57 @@ common:
   type: RateLimits
   url: https://docs.joinforage.app/reference/request-limits
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/mcp/forage-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/forage-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/llms/forage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forage-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/packages/forage-packages.yml
   title: ''
   type: Packages
   url: packages/forage-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/packages/forage-packages.yml
   title: ''
   type: SDKs
   url: packages/forage-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/components/forage-components.yml
   title: ''
   type: Components
   url: components/forage-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/asyncapi/forage-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/forage-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/errors/forage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/forage-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/errors/forage-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/forage-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/data-model/forage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/forage-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/conformance/forage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forage-conformance.yml
@@ -153,6 +196,7 @@ common:
   type: Compliance
   url: https://trust.joinforage.app/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/security/forage-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/forage-trust-center.yml
@@ -176,6 +220,42 @@ overview: 'Forage publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Forage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 49.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 51.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/screenshots/forage-2026-07-25T214925.png
 security:
 - kind: authentication

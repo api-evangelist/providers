@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: A public, unauthenticated JSON API served by the Wand platform status page. It reports overall platform health, the four Wand products and the twenty-two production services behind them, plus thirty-d
@@ -13,6 +38,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/security/wand-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wand-ai-domain-security.yml
@@ -53,50 +79,62 @@ common:
   type: StatusPage
   url: https://status.wand.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/llms/wand-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wand-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/well-known/wand-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wand-ai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/well-known/wand-ai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/wand-ai-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/security/wand-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/wand-ai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/authentication/wand-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wand-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/scopes/wand-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wand-ai-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/conformance/wand-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wand-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/lifecycle/wand-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wand-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/conventions/wand-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wand-ai-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/plans/wand-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wand-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/rate-limits/wand-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wand-ai-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/security/wand-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wand-ai-vulnerability-disclosure.yml
@@ -126,6 +164,35 @@ scopes:
   scope_count: 0
   slug: wand-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 21.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 81.5
+    operational_transparency: 28.9
+  previous_composite: 21.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Wand Ai Authentication

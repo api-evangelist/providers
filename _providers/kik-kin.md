@@ -20,14 +20,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/kinecosystem
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kik-kin/refs/heads/main/packages/kik-kin-packages.yml
   title: ''
   type: Packages
   url: packages/kik-kin-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kik-kin/refs/heads/main/packages/kik-kin-packages.yml
   title: ''
   type: SDKs
   url: packages/kik-kin-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kik-kin/refs/heads/main/security/kik-kin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kik-kin-domain-security.yml

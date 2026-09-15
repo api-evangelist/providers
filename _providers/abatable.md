@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: A hosted Model Context Protocol endpoint operated by Abatable at mcp.abatable.com, fronted by Cloudflare Access. It advertises itself as an OAuth protected resource under RFC 9728 and publishes RFC 84
@@ -47,50 +72,62 @@ common:
   type: StatusPage
   url: https://status.abatable.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/llms/abatable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abatable-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/well-known/abatable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/abatable-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/mcp/abatable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/abatable-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/authentication/abatable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abatable-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/scopes/abatable-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/abatable-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/conformance/abatable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abatable-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/conventions/abatable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abatable-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/lifecycle/abatable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abatable-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/plans/abatable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abatable-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/rate-limits/abatable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abatable-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/packages/abatable-packages.yml
   title: ''
   type: Packages
   url: packages/abatable-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/security/abatable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abatable-domain-security.yml
@@ -124,6 +161,35 @@ scopes:
   scope_count: 14
   slug: abatable-scopes
   summary_line: 14 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 20.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 20.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Abatable Authentication

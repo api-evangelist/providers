@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 4
@@ -101,38 +127,47 @@ collections:
   slug: open-criteo
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/capabilities/criteo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/criteo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/overlays/criteo-marketing-solutions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/criteo-marketing-solutions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/overlays/criteo-commerce-grid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/criteo-commerce-grid-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/agentic-access/criteo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/criteo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/security/criteo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/criteo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/security/criteo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/criteo-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/security/criteo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/criteo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/authentication/criteo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/criteo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/scopes/criteo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/criteo-scopes.yml
@@ -173,34 +208,42 @@ common:
   type: LlmsText
   url: https://developers.criteo.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/packages/criteo-packages.yml
   title: ''
   type: Packages
   url: packages/criteo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/packages/criteo-packages.yml
   title: ''
   type: SDKs
   url: packages/criteo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/well-known/criteo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/criteo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/well-known/criteo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/criteo-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/a2a/criteo-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/criteo-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/llms/criteo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/criteo-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/conformance/criteo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/criteo-conformance.yml
@@ -209,10 +252,12 @@ common:
   type: Compliance
   url: https://security.criteo.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/errors/criteo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/criteo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/lifecycle/criteo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/criteo-lifecycle.yml
@@ -225,26 +270,32 @@ common:
   type: Deprecation
   url: https://developers.criteo.com/criteo-apis/docs/versioning-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/conventions/criteo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/criteo-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/changelog/criteo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/criteo-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/components/criteo-components.yml
   title: ''
   type: Components
   url: components/criteo-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/data-model/criteo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/criteo-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/plans/criteo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/criteo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/rate-limits/criteo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/criteo-rate-limits.yml
@@ -253,6 +304,7 @@ common:
   type: Security
   url: https://www.criteo.com/.well-known/security.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/finops/criteo-finops.yml
   title: ''
   type: FinOps
   url: finops/criteo-finops.yml
@@ -277,6 +329,7 @@ common:
   type: Login
   url: https://partners.criteo.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/overlays/criteo-retail-media-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/criteo-retail-media-overlay.yaml
@@ -318,6 +371,41 @@ scopes:
   scope_count: 22
   slug: criteo-scopes
   summary_line: 22 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 58.4
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 18.2
+    contract_quality: 53.3
+    developer_ergonomics: 63.7
+    discoverability: 81.5
+    operational_transparency: 78.9
+  previous_composite: 58.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png
 security:
 - kind: authentication

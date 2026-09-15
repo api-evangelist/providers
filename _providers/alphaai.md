@@ -11,6 +11,31 @@ access_model:
   - https://alphai.io/developers
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 68.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,6 +81,7 @@ common:
   type: License
   url: https://github.com/makeev/alphai-claude-skills/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/overlays/alphaai-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alphaai-rest-api-overlay.yaml
@@ -124,18 +150,22 @@ common:
   type: ChangeLog
   url: https://alphai.io/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/changelog/alphaai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alphaai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/lifecycle/alphaai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alphaai-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/authentication/alphaai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alphaai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/scopes/alphaai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alphaai-scopes.yml
@@ -144,74 +174,92 @@ common:
   type: Security
   url: https://api.alphai.io/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/well-known/alphaai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alphaai-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/security/alphaai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alphaai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/security/alphaai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alphaai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/well-known/alphaai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alphaai-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/conformance/alphaai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alphaai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/conventions/alphaai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alphaai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/errors/alphaai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alphaai-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/rate-limits/alphaai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alphaai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/plans/alphaai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alphaai-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/data-model/alphaai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alphaai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/asyncapi/alphaai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/alphaai-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/packages/alphaai-packages.yml
   title: ''
   type: Packages
   url: packages/alphaai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/packages/alphaai-packages.yml
   title: ''
   type: SDKs
   url: packages/alphaai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/cli/alphaai-cli.yml
   title: ''
   type: CLI
   url: cli/alphaai-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/sandbox/alphaai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alphaai-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/llms/alphaai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alphaai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/agentic-access/alphaai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alphaai-agentic-access.yml
@@ -251,6 +299,48 @@ scopes:
   scope_count: 2
   slug: alphaai-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 70.6
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 59.2
+    contract_governance: 4.5
+    contract_quality: 66.4
+    developer_ergonomics: 88.1
+    discoverability: 75.9
+    operational_transparency: 84.2
+  previous_composite: 70.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 71.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/screenshots/alphaai-2026-08-17T080047.png
 security:
 - kind: authentication

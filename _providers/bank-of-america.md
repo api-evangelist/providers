@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -80,6 +105,7 @@ collections:
   slug: open-bank-of-america-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/capabilities/bank-of-america-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bank-of-america-capability-edges.yml
@@ -88,18 +114,22 @@ common:
   type: Support
   url: https://www.bankofamerica.com/help/overview/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/agentic-access/bank-of-america-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bank-of-america-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/security/bank-of-america-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-america-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/authentication/bank-of-america-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-america-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/scopes/bank-of-america-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bank-of-america-scopes.yml
@@ -136,14 +166,17 @@ common:
   type: PrivacyPolicy
   url: https://www.bankofamerica.com/security-center/overview.go
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/rules/bank-of-america-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bank-of-america-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/vocabulary/bank-of-america-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/bank-of-america-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/json-ld/bank-of-america-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bank-of-america-context.jsonld
@@ -374,6 +407,44 @@ scopes:
   scope_count: 4
   slug: bank-of-america-scopes
   summary_line: 4 scopes · clientCredentials
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 28.8
+    contract_quality: 66.6
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 7.9
+  previous_composite: 41.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 53.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png
 security:
 - kind: authentication

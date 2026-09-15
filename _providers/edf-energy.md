@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -75,62 +100,77 @@ collections:
   slug: open-edf-energy-kraken
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/capabilities/edf-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/edf-energy-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/skills/edf-energy-compare-tariffs.md
   title: ''
   type: AgentSkill
   url: skills/edf-energy-compare-tariffs.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/skills/edf-energy-read-consumption.md
   title: ''
   type: AgentSkill
   url: skills/edf-energy-read-consumption.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/skills/edf-energy-quote-and-enrol.md
   title: ''
   type: AgentSkill
   url: skills/edf-energy-quote-and-enrol.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/skills/edf-energy-migrate-customer-book.md
   title: ''
   type: AgentSkill
   url: skills/edf-energy-migrate-customer-book.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/agentic-access/edf-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/edf-energy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/security/edf-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edf-energy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/authentication/edf-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/edf-energy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/scopes/edf-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/edf-energy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/conventions/edf-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/edf-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/conventions/edf-energy-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/edf-energy-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/rate-limits/edf-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/edf-energy-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/errors/edf-energy-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/edf-energy-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/errors/edf-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/edf-energy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/lifecycle/edf-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/edf-energy-lifecycle.yml
@@ -139,6 +179,7 @@ common:
   type: Deprecation
   url: https://developer.edfgb-kraken.energy/announcements/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/changelog/edf-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/edf-energy-changelog.yml
@@ -147,14 +188,17 @@ common:
   type: ChangeLog
   url: https://developer.edfgb-kraken.energy/graphql/changelog/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/conformance/edf-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/edf-energy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/data-model/edf-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/edf-energy-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/sandbox/edf-energy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/edf-energy-sandbox.yml
@@ -163,38 +207,47 @@ common:
   type: Console
   url: https://api.edfgb-kraken.energy/v1/graphql/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/well-known/edf-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/edf-energy-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/packages/edf-energy-packages.yml
   title: ''
   type: Packages
   url: packages/edf-energy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/mcp/edf-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/edf-energy-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/mcp/edf-energy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/edf-energy-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/llms/edf-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/edf-energy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/llms/edf-energy-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/edf-energy-api-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/overlays/edf-energy-kraken-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/edf-energy-kraken-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/overlays/edf-energy-kraken-data-import-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/edf-energy-kraken-data-import-overlay.yaml
@@ -223,6 +276,7 @@ common:
   type: Changelog
   url: https://developer.edfgb-kraken.energy/announcements/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/authentication/edf-energy-kraken-openid-configuration.json
   title: ''
   type: Authentication
   url: authentication/edf-energy-kraken-openid-configuration.json
@@ -311,6 +365,59 @@ scopes:
   scope_count: 111
   slug: edf-energy-scopes
   summary_line: 111 scopes · authorizationCode/clientCredentials/deviceCode/tokenExchange
+score:
+  band: exemplar
+  composite: 66.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 55.7
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 66.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: GB
+      standard: smart-energy-code
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 78.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/screenshots/edf-energy-2026-08-07T164723.png
 security:
 - kind: authentication

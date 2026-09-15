@@ -27,7 +27,6 @@ tags:
 - Venture Capital
 - Growth Capital
 - Multi-Stage
-- Consumer
 - Consumer Technology
 - Healthcare
 - Fintech

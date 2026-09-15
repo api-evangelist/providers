@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 57.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://demodesk.com
@@ -51,10 +77,12 @@ collections:
   slug: open-demodesk-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/overlays/demodesk-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demodesk-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/overlays/demodesk-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demodesk-v2-overlay.yaml
@@ -111,54 +139,67 @@ common:
   type: Roadmap
   url: https://demodesk.com/blog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/authentication/demodesk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/demodesk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/scopes/demodesk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/demodesk-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/mcp/demodesk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/demodesk-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/mcp/demodesk-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/demodesk-tool-crosswalk.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/plans/demodesk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/demodesk-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/rate-limits/demodesk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/demodesk-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/llms/demodesk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demodesk-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/llms/demodesk-mcp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demodesk-mcp-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/packages/demodesk-packages.yml
   title: ''
   type: Packages
   url: packages/demodesk-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/components/demodesk-components.yml
   title: ''
   type: Components
   url: components/demodesk-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/well-known/demodesk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/demodesk-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/conventions/demodesk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/demodesk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/conformance/demodesk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/demodesk-conformance.yml
@@ -167,22 +208,27 @@ common:
   type: Compliance
   url: https://security.demodesk.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/lifecycle/demodesk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/demodesk-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/lifecycle/demodesk-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/demodesk-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/security/demodesk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/demodesk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/security/demodesk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/demodesk-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -219,6 +265,40 @@ scopes:
   scope_count: 1
   slug: demodesk-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 56.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 61.6
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 56.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:
 - kind: authentication

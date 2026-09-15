@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -189,38 +215,47 @@ collections:
   slug: open-zoopla-weekly-featured-property
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/capabilities/alto-vebra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alto-vebra-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/overlays/alto-vebra-alto-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alto-vebra-alto-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/overlays/alto-vebra-zoopla-leads-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alto-vebra-zoopla-leads-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/overlays/alto-vebra-zoopla-premium-listing-activations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alto-vebra-zoopla-premium-listing-activations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/overlays/alto-vebra-zoopla-weekly-featured-property-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alto-vebra-zoopla-weekly-featured-property-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/agentic-access/alto-vebra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alto-vebra-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/security/alto-vebra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alto-vebra-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/scopes/alto-vebra-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alto-vebra-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/authentication/alto-vebra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alto-vebra-authentication.yml
@@ -261,18 +296,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/zoopla-eng
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/well-known/alto-vebra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alto-vebra-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/well-known/alto-vebra-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alto-vebra-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/well-known/alto-vebra-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/alto-vebra-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/security/alto-vebra-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alto-vebra-vulnerability-disclosure.yml
@@ -281,62 +320,77 @@ common:
   type: Security
   url: https://www.zoopla.co.uk/vulnerability-disclosure/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/packages/alto-vebra-packages.yml
   title: ''
   type: Packages
   url: packages/alto-vebra-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/mcp/alto-vebra-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alto-vebra-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/mcp/alto-vebra-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/alto-vebra-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/llms/alto-vebra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alto-vebra-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/llms/alto-vebra-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alto-vebra-api-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/conformance/alto-vebra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alto-vebra-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/errors/alto-vebra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alto-vebra-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/errors/alto-vebra-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/alto-vebra-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/lifecycle/alto-vebra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alto-vebra-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/conventions/alto-vebra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alto-vebra-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/changelog/alto-vebra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alto-vebra-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/sandbox/alto-vebra-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alto-vebra-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/data-model/alto-vebra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alto-vebra-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/asyncapi/alto-vebra-alto-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/alto-vebra-alto-webhooks-asyncapi.yml
@@ -401,6 +455,49 @@ scopes:
   scope_count: 104
   slug: alto-vebra-scopes
   summary_line: 104 scopes · clientCredentials
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 55.5
+    developer_ergonomics: 66.1
+    discoverability: 72.2
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 45.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/screenshots/alto-vebra-2026-08-07T161256.png
 security:
 - kind: authentication

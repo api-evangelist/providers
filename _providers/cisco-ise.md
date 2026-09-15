@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.3
+  scored_at: '2026-09-14'
 api_count: 104
 apis:
 - baseURL: https://{server}:{port}/ers/config
@@ -1007,14 +1032,17 @@ asyncapis:
   slug: cisco-ise-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/capabilities/cisco-ise-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-ise-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/security/cisco-ise-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-ise-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/security/cisco-ise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-ise-domain-security.yml
@@ -1079,18 +1107,22 @@ common:
   type: Terraform
   url: https://github.com/CiscoISE/terraform-provider-ciscoise
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/openapi/cisco-ise-openapi-index.yml
   title: ''
   type: OpenAPI Index
   url: openapi/cisco-ise-openapi-index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/packages/cisco-ise-packages.yml
   title: ''
   type: Packages
   url: packages/cisco-ise-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/packages/cisco-ise-packages.yml
   title: ''
   type: SDKs
   url: packages/cisco-ise-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/authentication/cisco-ise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-ise-authentication.yml
@@ -1099,14 +1131,17 @@ common:
   type: Authentication
   url: https://developer.cisco.com/docs/identity-services-engine/latest/authentication/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/conventions/cisco-ise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cisco-ise-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/errors/cisco-ise-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cisco-ise-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/lifecycle/cisco-ise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cisco-ise-lifecycle.yml
@@ -1119,18 +1154,22 @@ common:
   type: ChangeLog
   url: https://developer.cisco.com/docs/identity-services-engine/latest/changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/changelog/cisco-ise-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cisco-ise-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/rate-limits/cisco-ise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-ise-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/plans/cisco-ise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-ise-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/sandbox/cisco-ise-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cisco-ise-sandbox.yml
@@ -1139,30 +1178,37 @@ common:
   type: Sandbox
   url: https://developer.cisco.com/site/sandbox/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/conformance/cisco-ise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cisco-ise-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/data-model/cisco-ise-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cisco-ise-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/asyncapi/cisco-ise-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cisco-ise-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/llms/cisco-ise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cisco-ise-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/well-known/cisco-ise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cisco-ise-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/well-known/cisco-ise-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cisco-ise-security.txt
@@ -1171,6 +1217,7 @@ common:
   type: Security
   url: https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/security/cisco-ise-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cisco-ise-trust-center.yml
@@ -1179,134 +1226,167 @@ common:
   type: Compliance
   url: https://www.cisco.com/c/en/us/td/docs/security/ise/3-5/compatibility_doc/b_ise_sdt_35.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/mcp/cisco-ise-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/cisco-ise-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-ers-open-api-ers-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-ers-open-api-ers-apis-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-monitoring-open-api-monitoring-open-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-monitoring-open-api-monitoring-open-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-5g-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-5g-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-alarms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-alarms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-api-sgt-reservation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-api-sgt-reservation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-backuprestore-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-backuprestore-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-certificates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-certificates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-custom-attributes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-custom-attributes-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-data-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-data-connect-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-deployment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-deployment-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-duo-identity-sync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-duo-identity-sync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-endpoint-replication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-endpoint-replication-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-endpoints-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-endpoints-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-exim-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-exim-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-ipsec-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-ipsec-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-ise-profiler-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-ise-profiler-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-licensing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-licensing-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-lsd-settings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-lsd-settings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-mfa-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-mfa-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-oidc-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-oidc-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-patch-hot-patch-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-patch-hot-patch-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-policy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-policy-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-prometheus-alertmanager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-prometheus-alertmanager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-pxgrid-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-pxgrid-cloud-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-pxgrid-direct-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-pxgrid-direct-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-rbac-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-rbac-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-repository-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-repository-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-system-settings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-system-settings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-task-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-task-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-trustsec-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-trustsec-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-upgrade-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-upgrade-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/overlays/cisco-ise-open-api-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-ise-open-api-webhooks-overlay.yaml
@@ -1335,6 +1415,46 @@ rate_limits:
 - limit_count: 1
   name: Cisco Ise Rate Limits
   slug: cisco-ise-rate-limits
+score:
+  band: strong
+  composite: 65.5
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 4.5
+    contract_quality: 59.9
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 65.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 197
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 54.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-ise/refs/heads/main/screenshots/cisco-ise-2026-09-02T145046.png
 security:
 - kind: authentication

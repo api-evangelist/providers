@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -41,6 +66,7 @@ collections:
   slug: open-cobee-oauth-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/overlays/cobee-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cobee-public-api-overlay.yaml
@@ -89,54 +115,67 @@ common:
   type: PrivacyPolicy
   url: https://cobee.io/en/privacy-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/llms/cobee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cobee-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/authentication/cobee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cobee-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/conventions/cobee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cobee-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/errors/cobee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cobee-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/lifecycle/cobee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cobee-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/data-model/cobee-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cobee-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/sandbox/cobee-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cobee-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/mcp/cobee-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cobee-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/conformance/cobee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cobee-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/security/cobee-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cobee-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/agentic-access/cobee-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cobee-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/security/cobee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cobee-domain-security.yml
@@ -153,6 +192,49 @@ overview: 'Cobee by Pluxee publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
   Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 18 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 43.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 48.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - spain
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 43.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png
 security:
 - kind: authentication

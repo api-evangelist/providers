@@ -10,6 +10,31 @@ access_model:
   - https://www.eac.gov/jsonapi
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://www.eac.gov/jsonapi
@@ -83,18 +108,22 @@ common:
   type: Security
   url: https://www.eac.gov/vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/security/election-assistance-commission-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/election-assistance-commission-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/security/election-assistance-commission-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/election-assistance-commission-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/well-known/election-assistance-commission-well-known.yml
   title: ''
   type: X-WellKnownProbe
   url: well-known/election-assistance-commission-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/packages/election-assistance-commission-packages.yml
   title: ''
   type: Packages
   url: packages/election-assistance-commission-packages.yml
@@ -136,7 +165,7 @@ modified: '2026-09-06'
 name: Election Assistance Commission
 nav: Providers
 network: true
-overview: 'Election Assistance Commission publishes 1 API on the [APIs.io](https://apis.io/) network: EAC Content JSON:API. Tagged areas include Federal-Government, Elections, Voting, Open Data, and Voting-Systems.
+overview: 'Election Assistance Commission publishes 1 API on the [APIs.io](https://apis.io/) network: EAC Content JSON:API. Tagged areas include Federal-Government, Elections, Voting, Open Data, and Voting Systems.
 
 
   Election Assistance Commission''s developer surface includes documentation, engineering blog, support, and 17 more developer resources.'
@@ -149,6 +178,47 @@ rate_limits:
 - limit_count: 0
   name: Election Assistance Commission Rate Limits
   slug: election-assistance-commission-rate-limits
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 33.3
+    contract_quality: 57.8
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    operational_transparency: 15.8
+  previous_composite: 41.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/screenshots/election-assistance-commission-2026-06-20T180552.png
 security:
 - kind: authentication
@@ -169,10 +239,10 @@ tags:
 - Elections
 - Voting
 - Open Data
-- Voting-Systems
+- Voting Systems
 - Certification
-- Government-Data
-- JSON-API
-- Public-Records
+- Government Data
+- JSON:API
+- Public Records
 website: https://www.eac.gov
 ---

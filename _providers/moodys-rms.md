@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 1
@@ -277,46 +302,57 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/moodys/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/capabilities/moodys-rms-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moodys-rms-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/overlays/moodys-rms-risk-modeler-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moodys-rms-risk-modeler-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/overlays/moodys-rms-data-bridge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moodys-rms-data-bridge-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/overlays/moodys-rms-location-intelligence-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moodys-rms-location-intelligence-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/mcp/moodys-rms-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moodys-rms-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/mcp/moodys-rms-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/moodys-rms-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/conventions/moodys-rms-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/moodys-rms-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/conventions/moodys-rms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moodys-rms-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/errors/moodys-rms-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moodys-rms-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/lifecycle/moodys-rms-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moodys-rms-lifecycle.yml
@@ -329,18 +365,22 @@ common:
   type: Deprecation
   url: https://developer.rms.com/platform/docs/policies
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/changelog/moodys-rms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moodys-rms-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/conformance/moodys-rms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moodys-rms-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/data-model/moodys-rms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moodys-rms-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/llms/moodys-rms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moodys-rms-llms.txt
@@ -365,14 +405,17 @@ common:
   type: Postman
   url: https://www.postman.com/rms-developers/rms-developers/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/agentic-access/moodys-rms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moodys-rms-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/security/moodys-rms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moodys-rms-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/authentication/moodys-rms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moodys-rms-authentication.yml
@@ -418,6 +461,54 @@ overview: 'Moody''s RMS publishes 49 APIs on the [APIs.io](https://apis.io/) net
 
   Moody''s RMS''s developer surface includes changelog, getting-started guide, support, authentication, documentation, API reference, and 26 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 35.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 47.6
+    developer_ergonomics: 43.5
+    discoverability: 66.7
+    operational_transparency: 22.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 35.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys-rms/refs/heads/main/screenshots/moodys-rms-2026-08-07T184230.png
 security:
 - kind: authentication

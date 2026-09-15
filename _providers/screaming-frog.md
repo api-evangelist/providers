@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -20,6 +45,7 @@ apis:
 artifact_total: 12
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/security/screaming-frog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/screaming-frog-domain-security.yml
@@ -68,30 +94,37 @@ common:
   type: Login
   url: https://www.screamingfrog.co.uk/login/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/changelog/screaming-frog-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/screaming-frog-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/lifecycle/screaming-frog-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/screaming-frog-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/conventions/screaming-frog-conventions.yml
   title: ''
   type: Conventions
   url: conventions/screaming-frog-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/packages/screaming-frog-packages.yml
   title: ''
   type: Packages
   url: packages/screaming-frog-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/plans/screaming-frog-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/screaming-frog-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/rate-limits/screaming-frog-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/screaming-frog-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/llms/screaming-frog-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/screaming-frog-llms.txt
@@ -156,6 +189,35 @@ rules:
     info: 1
     warn: 4
   slug: screaming-frog-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 69.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 25.0
+    contract_quality: 25.3
+    developer_ergonomics: 44.6
+    discoverability: 59.3
+    operational_transparency: 18.4
+  previous_composite: 42.1
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:
 - kind: domain-security

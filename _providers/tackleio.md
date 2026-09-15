@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.7
+  scored_at: '2026-09-14'
 api_count: 9
 apis:
 - baseURL: https://api.tackle.io
@@ -246,10 +272,12 @@ collections:
   slug: open-tackleio-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/capabilities/tackleio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tackleio-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/overlays/tackleio-contracts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tackleio-contracts-overlay.yaml
@@ -270,58 +298,72 @@ common:
   type: GettingStarted
   url: https://developers.tackle.io/docs/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/authentication/tackleio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tackleio-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/scopes/tackleio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tackleio-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/well-known/tackleio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tackleio-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/mcp/tackleio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tackleio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/llms/tackleio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tackleio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/conventions/tackleio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tackleio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/errors/tackleio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tackleio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/conformance/tackleio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tackleio-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/security/tackleio-trust-center.yml
   title: ''
   type: Compliance
   url: security/tackleio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/security/tackleio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tackleio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/security/tackleio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tackleio-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/lifecycle/tackleio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tackleio-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/lifecycle/tackleio-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tackleio-lifecycle.yml
@@ -330,18 +372,22 @@ common:
   type: StatusPage
   url: https://status.tackle.io
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/changelog/tackleio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tackleio-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/data-model/tackleio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tackleio-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/sandbox/tackleio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tackleio-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/asyncapi/tackleio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tackleio-webhooks.yml
@@ -390,6 +436,40 @@ scopes:
   scope_count: 0
   slug: tackleio-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 70.3
+    developer_ergonomics: 50.6
+    discoverability: 57.4
+    operational_transparency: 47.4
+  previous_composite: 52.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/screenshots/tackleio-2026-08-17T082241.png
 security:
 - kind: authentication

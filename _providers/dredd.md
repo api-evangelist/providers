@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Dredd is a language-agnostic command-line tool for validating an API description document against a backend implementation. It supports API Blueprint, OpenAPI 2.0, and OpenAPI 3.0, and provides hooks '
@@ -26,6 +51,7 @@ common:
   type: License
   url: https://github.com/apiaryio/dredd/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/security/dredd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dredd-domain-security.yml
@@ -54,42 +80,52 @@ common:
   type: DockerImage
   url: https://hub.docker.com/r/apiaryio/dredd
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/packages/dredd-packages.yml
   title: ''
   type: Packages
   url: packages/dredd-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/packages/dredd-packages.yml
   title: ''
   type: SDKs
   url: packages/dredd-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/cli/dredd-cli.yml
   title: ''
   type: CLI
   url: cli/dredd-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/changelog/dredd-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dredd-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/lifecycle/dredd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dredd-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/conventions/dredd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dredd-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/conformance/dredd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dredd-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/llms/dredd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dredd-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/plans/dredd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dredd-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/rate-limits/dredd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dredd-rate-limits.yml
@@ -118,6 +154,34 @@ rate_limits:
 - limit_count: 0
   name: Dredd Rate Limits
   slug: dredd-rate-limits
+score:
+  band: emerging
+  composite: 20.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.3
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 59.3
+    operational_transparency: 18.4
+  previous_composite: 23.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/dredd/refs/heads/main/screenshots/dredd-2026-06-20T180221.png
 security:
 - kind: domain-security
@@ -134,7 +198,7 @@ tags:
 - Developer Tools
 - Command Line
 - Continuous Integration
-- JSON Schema
-- Open Source
+- JSON-Schema
+- Open-Source
 website: https://dredd.org
 ---

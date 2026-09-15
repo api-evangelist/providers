@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.9
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The recommended tenant-scoped Open API for customers, tickets, organizations, agents, agent groups, departments, knowledge base, IM sessions, call center, outbound call tasks, questionnaires, work log
@@ -35,6 +60,7 @@ asyncapis:
   slug: udesk-webhooks-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/security/udesk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/udesk-domain-security.yml
@@ -83,42 +109,52 @@ common:
   type: PrivacyPolicy
   url: https://www.udesk.cn/terms_service.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/packages/udesk-packages.yml
   title: ''
   type: Packages
   url: packages/udesk-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/packages/udesk-packages.yml
   title: ''
   type: SDKs
   url: packages/udesk-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/well-known/udesk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/udesk-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/llms/udesk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/udesk-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/authentication/udesk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/udesk-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/conventions/udesk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/udesk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/errors/udesk-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/udesk-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/lifecycle/udesk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/udesk-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/rate-limits/udesk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/udesk-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/conformance/udesk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/udesk-conformance.yml
@@ -127,14 +163,17 @@ common:
   type: Compliance
   url: https://www.udesk.cn/product_safety_features.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/security/udesk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/udesk-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/components/udesk-components.yml
   title: ''
   type: Components
   url: components/udesk-components.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/asyncapi/udesk-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/udesk-webhooks-asyncapi.yml
@@ -162,6 +201,41 @@ rate_limits:
 - limit_count: 3
   name: Udesk Rate Limits
   slug: udesk-rate-limits
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 74.1
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 48.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/udesk/refs/heads/main/screenshots/udesk-2026-08-17T082537.png
 security:
 - kind: authentication

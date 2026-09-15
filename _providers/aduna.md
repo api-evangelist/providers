@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 13.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Aduna's aggregated implementation of the CAMARA Number Verification API (v2.1), confirming possession of a mobile phone number in real time by verifying it directly against the carrier network with mi
@@ -29,58 +54,72 @@ common:
   type: Releases
   url: https://github.com/adunaglobal/nv2-asp-server-java-aduna-sdk/releases
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/authentication/aduna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aduna-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/scopes/aduna-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aduna-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/conventions/aduna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aduna-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/errors/aduna-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aduna-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/data-model/aduna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aduna-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/conformance/aduna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aduna-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/lifecycle/aduna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aduna-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/changelog/aduna-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aduna-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/packages/aduna-packages.yml
   title: ''
   type: Packages
   url: packages/aduna-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/packages/aduna-packages.yml
   title: ''
   type: SDKs
   url: packages/aduna-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/well-known/aduna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aduna-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/llms/aduna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aduna-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/security/aduna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aduna-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/security/aduna-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aduna-vulnerability-disclosure.yml
@@ -171,6 +210,48 @@ scopes:
   scope_count: 4
   slug: aduna-scopes
   summary_line: 4 scopes · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer/ciba
+score:
+  band: thin
+  composite: 35.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 72.2
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 35.6
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 75.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/screenshots/aduna-2026-08-07T160929.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Mobile Measurement Partner API enabling mobile app attribution tracking, install measurement, event tracking, and audience analytics for iOS, Android, and cross-platform mobile applications.
@@ -160,18 +185,22 @@ collections:
   slug: open-affise
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/capabilities/affise-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/affise-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/overlays/affise-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affise-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/mcp/affise-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/affise-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/security/affise-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/affise-vulnerability-disclosure.yml
@@ -180,34 +209,42 @@ common:
   type: Security
   url: https://srs.s4e.io/affise.com/report
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/well-known/affise-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/affise-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/well-known/affise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/affise-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/security/affise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affise-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/authentication/affise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/affise-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/conventions/affise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/affise-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/errors/affise-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/affise-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/lifecycle/affise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/affise-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/conformance/affise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/affise-conformance.yml
@@ -216,26 +253,32 @@ common:
   type: Compliance
   url: https://affise.com/gdpr/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/sandbox/affise-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/affise-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/asyncapi/affise-postbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/affise-postbacks-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/packages/affise-packages.yml
   title: ''
   type: Packages
   url: packages/affise-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/packages/affise-packages.yml
   title: ''
   type: SDKs
   url: packages/affise-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/llms/affise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/affise-llms.txt
@@ -304,14 +347,17 @@ common:
   type: X
   url: https://twitter.com/GetAffise
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/plans/affise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affise-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/rate-limits/affise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/affise-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/finops/affise-finops.yml
   title: ''
   type: FinOps
   url: finops/affise-finops.yml
@@ -320,6 +366,7 @@ common:
   type: BlogRSS
   url: https://affise.com/blog/feed/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/json-ld/affise-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/affise-context.jsonld
@@ -360,6 +407,40 @@ rate_limits:
 - limit_count: 0
   name: Affise Rate Limits
   slug: affise-rate-limits
+score:
+  band: strong
+  composite: 63.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 60.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 63.2
+    developer_ergonomics: 78.0
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 63.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/screenshots/affise-2026-06-20T165649.png
 security:
 - kind: authentication

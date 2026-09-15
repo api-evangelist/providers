@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -740,6 +766,7 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/capabilities/linkedin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/linkedin-capability-edges.yml
@@ -760,78 +787,97 @@ common:
   type: Compliance
   url: https://security.linkedin.com/trust-and-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/security/linkedin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/linkedin-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/asyncapi/linkedin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/linkedin-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/sandbox/linkedin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/linkedin-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/mcp/linkedin-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/linkedin-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/linkedin-authenticate.md
   title: ''
   type: AgentSkill
   url: skills/linkedin-authenticate.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/linkedin-publish-organization-post.md
   title: ''
   type: AgentSkill
   url: skills/linkedin-publish-organization-post.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/linkedin-upload-media-and-post.md
   title: ''
   type: AgentSkill
   url: skills/linkedin-upload-media-and-post.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/linkedin-organization-analytics.md
   title: ''
   type: AgentSkill
   url: skills/linkedin-organization-analytics.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/linkedin-subscribe-social-action-webhooks.md
   title: ''
   type: AgentSkill
   url: skills/linkedin-subscribe-social-action-webhooks.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/linkedin-manage-ad-campaigns.md
   title: ''
   type: AgentSkill
   url: skills/linkedin-manage-ad-campaigns.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/skills/linkedin-lead-sync.md
   title: ''
   type: AgentSkill
   url: skills/linkedin-lead-sync.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/plans/linkedin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/linkedin-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/vocabulary/linkedin-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/linkedin-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/rules/linkedin-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/linkedin-spectral-rules.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/finops/linkedin-finops.yml
   title: ''
   type: FinOps
   url: finops/linkedin-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/examples/linkedin-attachlisttosegment-example.json
   title: ''
   type: Examples
   url: examples/linkedin-attachlisttosegment-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/examples/linkedin-batchgetprofileassociations-example.json
   title: ''
   type: Examples
   url: examples/linkedin-batchgetprofileassociations-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/examples/linkedin-compliance-events-compliance-authorization-example.json
   title: ''
   type: Examples
   url: examples/linkedin-compliance-events-compliance-authorization-example.json
@@ -844,198 +890,247 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/linkedin/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/agentic-access/linkedin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/linkedin-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/packages/linkedin-packages.yml
   title: ''
   type: Packages
   url: packages/linkedin-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/well-known/linkedin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/linkedin-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/well-known/linkedin-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/linkedin-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/mcp/linkedin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/linkedin-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/llms/linkedin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linkedin-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/conformance/linkedin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linkedin-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/errors/linkedin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/linkedin-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/lifecycle/linkedin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linkedin-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/conventions/linkedin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linkedin-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/changelog/linkedin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/linkedin-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/components/linkedin-components.yml
   title: ''
   type: Components
   url: components/linkedin-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/data-model/linkedin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/linkedin-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-compliance-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-compliance-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-learning-activity-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-learning-activity-reports-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-audience-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-audience-insights-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-audience-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-audience-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-campaigns-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-community-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-community-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-content-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-conversions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-conversions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-leads-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-leads-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-media-planning-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-media-planning-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-marketing-reporting-roi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-marketing-reporting-roi-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-regulations-data-portability-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-regulations-data-portability-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-regulatory-ads-transparency-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-regulatory-ads-transparency-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-sales-navigator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-sales-navigator-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-talent-job-posting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-talent-job-posting-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-talent-learning-parent-application-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-talent-learning-parent-application-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-talent-recruiter-system-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linkedin-talent-recruiter-system-connect-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/security/linkedin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/linkedin-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/security/linkedin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linkedin-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/authentication/linkedin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linkedin-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/scopes/linkedin-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linkedin-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-create-organization-share-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-create-organization-share-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-delete-organization-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-delete-organization-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-export-post-engagement-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-export-post-engagement-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-find-org-and-people-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-find-org-and-people-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-org-access-and-brands-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-org-access-and-brands-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-organization-follower-analytics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-organization-follower-analytics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-organization-profile-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-organization-profile-overview-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-organization-share-analytics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-organization-share-analytics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-publish-and-verify-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-publish-and-verify-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-pull-social-action-notifications-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-pull-social-action-notifications-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-subscribe-social-action-notifications-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-subscribe-social-action-notifications-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-update-organization-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-update-organization-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-upload-document-and-create-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-upload-document-and-create-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-upload-image-and-create-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-upload-image-and-create-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/arazzo/linkedin-upload-video-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/linkedin-upload-video-and-verify-workflow.yml
@@ -3242,6 +3337,41 @@ scopes:
   scope_count: 7
   slug: linkedin-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 73.8
+  coverage:
+    artifact_dirs: 38
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 47.0
+    contract_quality: 78.6
+    developer_ergonomics: 85.1
+    discoverability: 75.9
+    operational_transparency: 71.1
+  previous_composite: 73.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:
 - kind: authentication

@@ -20,14 +20,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/uninstallio
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/packages/uninstall-packages.yml
   title: ''
   type: Packages
   url: packages/uninstall-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/packages/uninstall-packages.yml
   title: ''
   type: SDKs
   url: packages/uninstall-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uninstall/refs/heads/main/llms/uninstall-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uninstall-llms.txt

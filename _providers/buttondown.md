@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -273,18 +298,22 @@ collections:
   slug: open-buttondown
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/capabilities/buttondown-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/buttondown-capability-edges.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/_original/buttondown-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/buttondown-openapi.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/agentic-access/buttondown-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/buttondown-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/authentication/buttondown-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buttondown-authentication.yml
@@ -293,42 +322,52 @@ common:
   type: API Keys
   url: https://buttondown.com/keys
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/conventions/buttondown-conventions.yml
   title: ''
   type: Conventions
   url: conventions/buttondown-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/conventions/buttondown-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/buttondown-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/errors/buttondown-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/buttondown-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/errors/buttondown-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/buttondown-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/rate-limits/buttondown-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buttondown-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/plans/buttondown-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buttondown-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/finops/buttondown-finops.yml
   title: ''
   type: FinOps
   url: finops/buttondown-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/data-model/buttondown-data-model.yml
   title: ''
   type: DataModel
   url: data-model/buttondown-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/conformance/buttondown-conformance.yml
   title: ''
   type: Conformance
   url: conformance/buttondown-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/lifecycle/buttondown-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/buttondown-lifecycle.yml
@@ -345,42 +384,52 @@ common:
   type: StatusPage
   url: https://status.buttondown.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/changelog/buttondown-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/buttondown-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/packages/buttondown-packages.yml
   title: ''
   type: Packages
   url: packages/buttondown-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/cli/buttondown-cli.yml
   title: ''
   type: CLI
   url: cli/buttondown-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/sandbox/buttondown-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/buttondown-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/examples/buttondown-fixtures.json
   title: ''
   type: Examples
   url: examples/buttondown-fixtures.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/asyncapi/buttondown-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/buttondown-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/well-known/buttondown-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/buttondown-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/well-known/buttondown-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/buttondown-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/security/buttondown-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/buttondown-vulnerability-disclosure.yml
@@ -389,10 +438,12 @@ common:
   type: Security
   url: https://buttondown.com/blog/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/security/buttondown-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buttondown-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/llms/buttondown-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buttondown-llms.txt
@@ -491,6 +542,47 @@ rate_limits:
 - limit_count: 3
   name: Buttondown Rate Limits
   slug: buttondown-rate-limits
+score:
+  band: exemplar
+  composite: 67.3
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 55.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 69.5
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 92.1
+  previous_composite: 67.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:
 - kind: authentication

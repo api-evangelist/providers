@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Inbound REST endpoints into the Nextworld Platform. Every table and logic block created in the platform automatically exposes a set of endpoints for fetching, inserting, updating and deleting records '
@@ -29,10 +54,12 @@ asyncapis:
   slug: nextworld-events-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/security/nextworld-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nextworld-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/security/nextworld-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextworld-domain-security.yml
@@ -85,58 +112,72 @@ common:
   type: Compliance
   url: https://www.nextw.com/utility/compliance
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/llms/nextworld-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nextworld-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/mcp/nextworld-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nextworld-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/well-known/nextworld-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nextworld-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/scopes/nextworld-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nextworld-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/authentication/nextworld-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nextworld-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/conventions/nextworld-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nextworld-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/lifecycle/nextworld-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nextworld-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/lifecycle/nextworld-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nextworld-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/conformance/nextworld-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nextworld-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/asyncapi/nextworld-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nextworld-events-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/plans/nextworld-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nextworld-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/rate-limits/nextworld-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nextworld-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/sandbox/nextworld-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nextworld-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/packages/nextworld-packages.yml
   title: ''
   type: Packages
   url: packages/nextworld-packages.yml
@@ -173,6 +214,35 @@ scopes:
   scope_count: 0
   slug: nextworld-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 48.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 48.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/screenshots/nextworld-2026-09-02T150753.png
 security:
 - kind: authentication

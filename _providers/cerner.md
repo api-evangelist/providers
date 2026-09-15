@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://www.cerner.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.oracle.com/health/ — a different registrable domain (cerner.com -> oracle.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -323,6 +348,7 @@ collections:
   slug: open-cerner-procedure-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/capabilities/cerner-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cerner-capability-edges.yml
@@ -331,22 +357,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/agentic-access/cerner-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cerner-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/security/cerner-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cerner-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/security/cerner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cerner-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/authentication/cerner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cerner-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/scopes/cerner-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cerner-scopes.yml
@@ -391,34 +422,42 @@ common:
   type: ArazzoWorkflows
   url: ''
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-millennium-fhir-r4-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/cerner-millennium-fhir-r4-openapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/well-known/cerner-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cerner-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/packages/cerner-packages.yml
   title: ''
   type: Packages
   url: packages/cerner-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/packages/cerner-packages.yml
   title: ''
   type: SDKs
   url: packages/cerner-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/mcp/cerner-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cerner-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/llms/cerner-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cerner-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/overlays/cerner-millennium-fhir-r4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cerner-millennium-fhir-r4-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/conformance/cerner-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cerner-conformance.yml
@@ -427,46 +466,57 @@ common:
   type: Compliance
   url: https://www.oracle.com/corporate/acquisitions/cerner/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/errors/cerner-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cerner-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/lifecycle/cerner-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cerner-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/conventions/cerner-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cerner-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/data-model/cerner-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cerner-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/sandbox/cerner-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cerner-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/changelog/cerner-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cerner-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/components/cerner-components.yml
   title: ''
   type: Components
   url: components/cerner-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/plans/cerner-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cerner-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/rate-limits/cerner-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cerner-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/finops/cerner-finops.yml
   title: ''
   type: FinOps
   url: finops/cerner-finops.yml
@@ -495,10 +545,12 @@ common:
   type: TermsOfService
   url: https://www.oracle.com/legal/terms/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/collections/cerner-oracle-health-fhir-r4-api.postman_collection.json
   title: ''
   type: Collections
   url: collections/cerner-oracle-health-fhir-r4-api.postman_collection.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
@@ -553,6 +605,47 @@ scopes:
   scope_count: 303
   slug: cerner-scopes
   summary_line: 303 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 48.4
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 30.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 26.5
+    developer_ergonomics: 68.5
+    discoverability: 57.4
+    operational_transparency: 18.4
+  previous_composite: 48.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 49
+      marker_coverage: 92.5
+      total: 53
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 82.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png
 security:
 - kind: authentication

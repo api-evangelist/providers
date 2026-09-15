@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.ams.fortify.com
@@ -16,6 +41,7 @@ asyncapis:
   slug: opentext-cybersecurity-webroot-unity-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/security/opentext-cybersecurity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opentext-cybersecurity-domain-security.yml
@@ -84,106 +110,132 @@ common:
   type: Pricing
   url: https://cybersecurity.opentext.com/contact-us/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/llms/opentext-cybersecurity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opentext-cybersecurity-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/packages/opentext-cybersecurity-packages.yml
   title: ''
   type: Packages
   url: packages/opentext-cybersecurity-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/packages/opentext-cybersecurity-packages.yml
   title: ''
   type: SDKs
   url: packages/opentext-cybersecurity-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/cli/opentext-cybersecurity-cli.yml
   title: ''
   type: CLI
   url: cli/opentext-cybersecurity-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/mcp/opentext-cybersecurity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/opentext-cybersecurity-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/mcp/opentext-cybersecurity-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/opentext-cybersecurity-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/authentication/opentext-cybersecurity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opentext-cybersecurity-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/scopes/opentext-cybersecurity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/opentext-cybersecurity-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/conventions/opentext-cybersecurity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opentext-cybersecurity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/errors/opentext-cybersecurity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opentext-cybersecurity-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/lifecycle/opentext-cybersecurity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opentext-cybersecurity-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/lifecycle/opentext-cybersecurity-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/opentext-cybersecurity-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/data-model/opentext-cybersecurity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opentext-cybersecurity-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/rate-limits/opentext-cybersecurity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opentext-cybersecurity-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/plans/opentext-cybersecurity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opentext-cybersecurity-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/changelog/opentext-cybersecurity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opentext-cybersecurity-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/conformance/opentext-cybersecurity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opentext-cybersecurity-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/conformance/opentext-cybersecurity-conformance.yml
   title: ''
   type: Compliance
   url: conformance/opentext-cybersecurity-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/asyncapi/opentext-cybersecurity-webroot-unity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/opentext-cybersecurity-webroot-unity-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/grpc/opentext-cybersecurity-aviator-issue.proto
   title: ''
   type: Protobuf
   url: grpc/opentext-cybersecurity-aviator-issue.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/grpc/opentext-cybersecurity-aviator-correlation.proto
   title: ''
   type: Protobuf
   url: grpc/opentext-cybersecurity-aviator-correlation.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/grpc/opentext-cybersecurity-aviator-application.proto
   title: ''
   type: Protobuf
   url: grpc/opentext-cybersecurity-aviator-application.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/grpc/opentext-cybersecurity-aviator-entitlement.proto
   title: ''
   type: Protobuf
   url: grpc/opentext-cybersecurity-aviator-entitlement.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/grpc/opentext-cybersecurity-aviator-dast-entitlement.proto
   title: ''
   type: Protobuf
   url: grpc/opentext-cybersecurity-aviator-dast-entitlement.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/grpc/opentext-cybersecurity-aviator-accesstoken.proto
   title: ''
   type: Protobuf
   url: grpc/opentext-cybersecurity-aviator-accesstoken.proto
@@ -221,6 +273,32 @@ scopes:
   scope_count: 0
   slug: opentext-cybersecurity-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 52.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Opentext Cybersecurity Authentication

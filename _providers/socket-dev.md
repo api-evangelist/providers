@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -315,18 +341,22 @@ common:
   type: Website
   url: https://www.socket.dev/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/agentic-access/socket-dev-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/socket-dev-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/security/socket-dev-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/socket-dev-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/security/socket-dev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/socket-dev-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/authentication/socket-dev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/socket-dev-authentication.yml
@@ -335,174 +365,217 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/socket/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-audit-dependencies-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-audit-dependencies-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-create-and-report-full-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-create-and-report-full-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-diff-from-scan-ids-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-diff-from-scan-ids-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-diff-repo-head-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-diff-repo-head-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-fix-repo-vulnerabilities-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-fix-repo-vulnerabilities-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-investigate-alert-scans-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-investigate-alert-scans-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-latest-scan-pdf-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-latest-scan-pdf-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-package-issues-and-fixes-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-package-issues-and-fixes-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-poll-full-scan-completion-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-poll-full-scan-completion-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-provision-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-provision-webhook-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-rescan-and-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-rescan-and-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-review-update-security-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-review-update-security-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-snapshot-and-list-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-snapshot-and-list-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/arazzo/socket-dev-triage-latest-alerts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socket-dev-triage-latest-alerts-workflow.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/packages/socket-dev-packages.yml
   title: ''
   type: Packages
   url: packages/socket-dev-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/mcp/socket-dev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/socket-dev-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/llms/socket-dev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/socket-dev-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/well-known/socket-dev-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/socket-dev-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/well-known/socket-dev-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/socket-dev-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/scopes/socket-dev-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/socket-dev-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/conformance/socket-dev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/socket-dev-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/errors/socket-dev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/socket-dev-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/lifecycle/socket-dev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/socket-dev-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/conventions/socket-dev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/socket-dev-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/changelog/socket-dev-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/socket-dev-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/cli/socket-dev-cli.yml
   title: ''
   type: CLI
   url: cli/socket-dev-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/data-model/socket-dev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/socket-dev-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/security/socket-dev-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/socket-dev-trust-center.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-alerts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-alerts-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-api-tokens-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-api-tokens-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-audit-log-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-audit-log-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-dependencies-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-dependencies-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-diff-scans-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-diff-scans-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-fixes-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-fixes-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-full-scans-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-full-scans-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-metadata-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-metadata-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-org-settings-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-org-settings-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-org-snapshots-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-org-snapshots-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-packages-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-packages-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-repos-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-repos-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-threat-feed-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-threat-feed-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-triage-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-triage-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/overlays/socket-dev-socket-webhooks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socket-dev-socket-webhooks-api-overlay.yaml
@@ -631,14 +704,17 @@ common:
   type: OpenAPI
   url: https://api.socket.dev/v0/openapi
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/plans/socket-dev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/socket-dev-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/rate-limits/socket-dev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/socket-dev-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/finops/socket-dev-finops.yml
   title: ''
   type: FinOps
   url: finops/socket-dev-finops.yml
@@ -750,6 +826,40 @@ scopes:
   scope_count: 97
   slug: socket-dev-scopes
   summary_line: 97 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 81.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 65.7
+    developer_ergonomics: 44.0
+    discoverability: 66.7
+    operational_transparency: 50.0
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:
 - kind: authentication

@@ -11,6 +11,32 @@ access_model:
   - authentication
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 57.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -66,62 +92,77 @@ collections:
   slug: open-intelligems-holiday-benchmark-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/overlays/intelligems-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intelligems-external-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/agentic-access/intelligems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/intelligems-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/security/intelligems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intelligems-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/mcp/intelligems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/intelligems-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/packages/intelligems-packages.yml
   title: ''
   type: Packages
   url: packages/intelligems-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/packages/intelligems-packages.yml
   title: ''
   type: SDKs
   url: packages/intelligems-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/components/intelligems-components.yml
   title: ''
   type: Components
   url: components/intelligems-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/llms/intelligems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/intelligems-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/llms/intelligems-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/intelligems-docs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/mcp/intelligems-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/intelligems-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/well-known/intelligems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/intelligems-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/scopes/intelligems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/intelligems-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/asyncapi/intelligems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/intelligems-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/changelog/intelligems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/intelligems-changelog.yml
@@ -130,38 +171,47 @@ common:
   type: ChangeLog
   url: https://www.intelligems.io/resources/product-updates
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/plans/intelligems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/intelligems-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/sandbox/intelligems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/intelligems-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/rate-limits/intelligems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/intelligems-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/authentication/intelligems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intelligems-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/conventions/intelligems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/intelligems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/errors/intelligems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/intelligems-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/lifecycle/intelligems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/intelligems-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/conformance/intelligems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/intelligems-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/data-model/intelligems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/intelligems-data-model.yml
@@ -242,6 +292,41 @@ scopes:
   scope_count: 1
   slug: intelligems-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 4.5
+    contract_quality: 65.1
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/screenshots/intelligems-2026-07-25T222646.png
 security:
 - kind: authentication

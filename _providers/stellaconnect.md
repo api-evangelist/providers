@@ -13,6 +13,31 @@ access_model:
   - '{''url'': ''https://stellaconnect.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.medallia.com/ — a different registrable domain (stellaconnect.com -> medallia.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -77,14 +102,17 @@ collections:
   slug: open-stellaconnect-requests-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/capabilities/stellaconnect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stellaconnect-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/agentic-access/stellaconnect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stellaconnect-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/security/stellaconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stellaconnect-domain-security.yml
@@ -105,14 +133,17 @@ common:
   type: GettingStarted
   url: https://docs.medallia.com/en/agent-connect/api/requests/request-from-any-system
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/authentication/stellaconnect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stellaconnect-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/rate-limits/stellaconnect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stellaconnect-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/changelog/stellaconnect-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stellaconnect-changelog.yml
@@ -121,6 +152,7 @@ common:
   type: StatusPage
   url: https://agentconnect.status.medallia.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/lifecycle/stellaconnect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stellaconnect-lifecycle.yml
@@ -149,54 +181,67 @@ common:
   type: Compliance
   url: https://docs.medallia.com/en/agent-connect/security-policies-and-controls/policies-compliance-and-certification
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/conformance/stellaconnect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stellaconnect-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/errors/stellaconnect-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stellaconnect-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/conventions/stellaconnect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stellaconnect-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/sandbox/stellaconnect-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stellaconnect-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/well-known/stellaconnect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stellaconnect-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/llms/stellaconnect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stellaconnect-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/mcp/stellaconnect-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stellaconnect-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/data-model/stellaconnect-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stellaconnect-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/overlays/stellaconnect-requests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stellaconnect-requests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/overlays/stellaconnect-data-return-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stellaconnect-data-return-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/overlays/stellaconnect-user-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stellaconnect-user-management-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/skills/stellaconnect-trigger-feedback-survey.md
   title: ''
   type: AgentSkill
   url: skills/stellaconnect-trigger-feedback-survey.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/skills/stellaconnect-export-feedback-and-qa-data.md
   title: ''
   type: AgentSkill
   url: skills/stellaconnect-export-feedback-and-qa-data.md
@@ -217,6 +262,41 @@ rate_limits:
 - limit_count: 5
   name: Stellaconnect Rate Limits
   slug: stellaconnect-rate-limits
+score:
+  band: developing
+  composite: 39.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 49.8
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 65.8
+  previous_composite: 39.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/screenshots/stellaconnect-2026-08-17T082119.png
 security:
 - kind: authentication

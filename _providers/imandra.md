@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The ImandraX cloud-native automated reasoning engine, exposed as a protobuf-defined gRPC API. Services include Eval (evaluate code snippets, parse terms/types, manage artifacts), Simple (verify, test,
@@ -66,38 +91,47 @@ common:
   type: PrivacyPolicy
   url: https://www.imandra.ai/legal
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/packages/imandra-packages.yml
   title: ''
   type: Packages
   url: packages/imandra-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/packages/imandra-packages.yml
   title: ''
   type: SDKs
   url: packages/imandra-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/mcp/imandra-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/imandra-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/authentication/imandra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imandra-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/cli/imandra-cli.yml
   title: ''
   type: CLI
   url: cli/imandra-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/conventions/imandra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imandra-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/llms/imandra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imandra-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/security/imandra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imandra-domain-security.yml
@@ -118,6 +152,34 @@ overview: 'Imandra publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Imandra''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 14 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 33.9
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 33.9
+  provenance:
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/screenshots/imandra-2026-07-25T222120.png
 security:
 - kind: authentication

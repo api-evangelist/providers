@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'CAVATICA is a pediatric-research data analysis platform Seven Bridges operates with the Children''s Hospital of Philadelphia and the NIH Common Fund. It exposes the same v2 REST API surface on its own '
@@ -99,10 +124,12 @@ apis:
 artifact_total: 22
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/security/seven-bridges-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seven-bridges-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/security/seven-bridges-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seven-bridges-domain-security.yml
@@ -151,62 +178,77 @@ common:
   type: PrivacyPolicy
   url: https://www.sevenbridges.com/privacy-policy/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/lifecycle/seven-bridges-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seven-bridges-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/llms/seven-bridges-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seven-bridges-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/packages/seven-bridges-packages.yml
   title: ''
   type: Packages
   url: packages/seven-bridges-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/packages/seven-bridges-packages.yml
   title: ''
   type: SDKs
   url: packages/seven-bridges-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/cli/seven-bridges-cli.yml
   title: ''
   type: CLI
   url: cli/seven-bridges-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/authentication/seven-bridges-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seven-bridges-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/conventions/seven-bridges-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seven-bridges-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/errors/seven-bridges-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/seven-bridges-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/rate-limits/seven-bridges-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/seven-bridges-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/plans/seven-bridges-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seven-bridges-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/data-model/seven-bridges-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seven-bridges-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/conformance/seven-bridges-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seven-bridges-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/conformance/seven-bridges-conformance.yml
   title: ''
   type: Compliance
   url: conformance/seven-bridges-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/overlays/seven-bridges-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seven-bridges-platform-overlay.yaml
@@ -232,6 +274,46 @@ rate_limits:
 - limit_count: 1
   name: Seven Bridges Rate Limits
   slug: seven-bridges-rate-limits
+score:
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 52.0
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 49.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/screenshots/seven-bridges-2026-09-02T155037.png
 security:
 - kind: authentication

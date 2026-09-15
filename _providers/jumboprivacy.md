@@ -29,6 +29,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/jumboprivacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jumboprivacy/refs/heads/main/security/jumboprivacy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jumboprivacy-domain-security.yml

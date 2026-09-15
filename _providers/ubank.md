@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
@@ -74,30 +99,37 @@ collections:
   slug: open-ubank-banking-products-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/capabilities/ubank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ubank-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/security/ubank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ubank-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/authentication/ubank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ubank-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/scopes/ubank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ubank-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/conventions/ubank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ubank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/errors/ubank-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ubank-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/lifecycle/ubank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ubank-lifecycle.yml
@@ -110,26 +142,32 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/conformance/ubank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ubank-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/data-model/ubank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ubank-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/overlays/ubank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ubank-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/mcp/ubank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ubank-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/llms/ubank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ubank-llms.txt
@@ -171,6 +209,53 @@ scopes:
   scope_count: 9
   slug: ubank-scopes
   summary_line: 9 scopes
+score:
+  band: thin
+  composite: 34.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 34.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 48.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/screenshots/ubank-2026-07-21T114753.png
 security:
 - kind: authentication

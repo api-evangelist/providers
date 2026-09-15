@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -58,34 +83,42 @@ collections:
   slug: open-amazon-app-mesh-untag-resourcearn-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/capabilities/amazon-app-mesh-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-app-mesh-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/mcp/amazon-app-mesh-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-app-mesh-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/overlays/amazon-app-mesh-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-app-mesh-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/agentic-access/amazon-app-mesh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-app-mesh-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/security/amazon-app-mesh-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-app-mesh-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/security/amazon-app-mesh-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-app-mesh-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/security/amazon-app-mesh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-app-mesh-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/authentication/amazon-app-mesh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-app-mesh-authentication.yml
@@ -138,26 +171,32 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/rules/amazon-app-mesh-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-app-mesh-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/vocabulary/amazon-app-mesh-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-app-mesh-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/packages/amazon-app-mesh-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-app-mesh-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/well-known/amazon-app-mesh-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-app-mesh-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/well-known/amazon-app-mesh-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-app-mesh-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/lifecycle/amazon-app-mesh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-app-mesh-lifecycle.yml
@@ -3134,6 +3173,40 @@ rules:
     info: 1
     warn: 8
   slug: amazon-app-mesh-spectral-rules
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 51.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 33.3
+    contract_quality: 63.9
+    developer_ergonomics: 42.9
+    discoverability: 57.4
+    operational_transparency: 2.6
+  previous_composite: 44.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Run SELECT-only ClickHouse SQL over a project's observability data via POST /v1/sql/query. Authenticates with a project API key as a bearer token, accepts a query plus typed {name:Type} parameters, an
@@ -40,6 +65,7 @@ common:
   type: License
   url: https://github.com/lmnr-ai/lmnr/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/security/laminar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/laminar-domain-security.yml
@@ -104,54 +130,67 @@ common:
   type: SelfHosted
   url: https://laminar.sh/docs/self-hosting/overview
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/packages/laminar-packages.yml
   title: ''
   type: Packages
   url: packages/laminar-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/packages/laminar-packages.yml
   title: ''
   type: SDKs
   url: packages/laminar-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/cli/laminar-cli.yml
   title: ''
   type: CLI
   url: cli/laminar-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/mcp/laminar-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/laminar-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/llms/laminar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laminar-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/authentication/laminar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/laminar-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/conventions/laminar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/laminar-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/changelog/laminar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/laminar-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/lifecycle/laminar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/laminar-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/conformance/laminar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/laminar-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/well-known/laminar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/laminar-well-known.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/plans/laminar-plans.yml
   title: ''
   type: Plans
   url: plans/laminar-plans.yml
@@ -177,6 +216,39 @@ plans:
   plan_count: 4
   slug: laminar-plans
 random_paper: 5
+score:
+  band: developing
+  composite: 45.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 45.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/screenshots/laminar-2026-07-25T224445.png
 security:
 - kind: authentication

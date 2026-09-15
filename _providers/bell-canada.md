@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -85,94 +110,117 @@ collections:
   slug: open-bell-canada-trouble-ticket-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/capabilities/bell-canada-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bell-canada-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/overlays/bell-canada-trouble-ticket-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bell-canada-trouble-ticket-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/skills/bell-canada-raise-and-track-trouble-ticket.md
   title: ''
   type: AgentSkill
   url: skills/bell-canada-raise-and-track-trouble-ticket.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/overlays/bell-canada-service-order-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bell-canada-service-order-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/skills/bell-canada-place-and-cancel-service-order.md
   title: ''
   type: AgentSkill
   url: skills/bell-canada-place-and-cancel-service-order.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/overlays/bell-canada-resource-inventory-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bell-canada-resource-inventory-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/skills/bell-canada-query-resource-inventory.md
   title: ''
   type: AgentSkill
   url: skills/bell-canada-query-resource-inventory.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/overlays/bell-canada-change-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bell-canada-change-management-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/skills/bell-canada-raise-change-request.md
   title: ''
   type: AgentSkill
   url: skills/bell-canada-raise-change-request.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/agentic-access/bell-canada-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bell-canada-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/security/bell-canada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bell-canada-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/authentication/bell-canada-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bell-canada-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/conventions/bell-canada-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bell-canada-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/errors/bell-canada-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bell-canada-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/lifecycle/bell-canada-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bell-canada-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/sandbox/bell-canada-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bell-canada-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/conformance/bell-canada-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bell-canada-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/asyncapi/bell-canada-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bell-canada-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/data-model/bell-canada-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bell-canada-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/examples/bell-canada-examples.yml
   title: ''
   type: Examples
   url: examples/bell-canada-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/mcp/bell-canada-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bell-canada-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/llms/bell-canada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bell-canada-llms.txt
@@ -257,6 +305,54 @@ overview: 'Bell Canada publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
   Bell Canada''s developer surface includes authentication, sandbox, code examples, getting-started guide, support, documentation, API reference, and 32 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 48.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 57.0
+    developer_ergonomics: 66.1
+    discoverability: 64.8
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 48.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/screenshots/bell-canada-2026-08-07T162303.png
 security:
 - kind: authentication

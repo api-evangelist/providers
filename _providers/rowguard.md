@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 24.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Find missing values, invalid types, out-of-range values, duplicate identifiers and CSV formula risks in one HTTP request. Results include record and column references and optional valid rows.
@@ -7,14 +32,17 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/security/rowguard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rowguard-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/security/rowguard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rowguard-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/authentication/rowguard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rowguard-authentication.yml
@@ -63,10 +91,12 @@ common:
   type: LLMsTxt
   url: https://rowguard-api.rowguard-api.workers.dev/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/well-known/rowguard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rowguard-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/well-known/rowguard-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/rowguard-security.txt
@@ -81,7 +111,7 @@ modified: '2026-09-13'
 name: RowGuard API Catalog
 nav: Providers
 network: true
-overview: 'RowGuard API Catalog publishes 1 API on the [APIs.io](https://apis.io/) network: RowGuard CSV Validation API. Tagged areas include CSV, validation, data quality, imports, and automation.
+overview: 'RowGuard API Catalog publishes 1 API on the [APIs.io](https://apis.io/) network: RowGuard CSV Validation API. Tagged areas include CSV, Validation, Data Quality, Imports, and Automation.
 
 
   RowGuard API Catalog''s developer surface includes authentication, documentation, pricing, and 13 more developer resources.'
@@ -94,6 +124,36 @@ rate_limits:
 - limit_count: 9
   name: Rowguard Rate Limits
   slug: rowguard-rate-limits
+score:
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 51.8
+    discoverability: 83.3
+    operational_transparency: 47.4
+  previous_composite: 42.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Rowguard Authentication
@@ -110,9 +170,9 @@ security:
 slug: rowguard
 tags:
 - CSV
-- validation
-- data quality
-- imports
-- automation
+- Validation
+- Data Quality
+- Imports
+- Automation
 website: https://rowguard-api.rowguard-api.workers.dev/
 ---

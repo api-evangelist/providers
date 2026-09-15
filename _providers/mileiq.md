@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,10 +66,12 @@ collections:
   slug: open-mileiq-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/overlays/mileiq-external-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mileiq-external-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/security/mileiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mileiq-domain-security.yml
@@ -93,30 +120,37 @@ common:
   type: PrivacyPolicy
   url: https://mileiq.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/authentication/mileiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mileiq-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/scopes/mileiq-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mileiq-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/conventions/mileiq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mileiq-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/errors/mileiq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mileiq-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/rate-limits/mileiq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mileiq-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/lifecycle/mileiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mileiq-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/changelog/mileiq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mileiq-changelog.yml
@@ -125,30 +159,37 @@ common:
   type: ChangeLog
   url: https://developer.mileiq.com/api-reference/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/conformance/mileiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mileiq-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/data-model/mileiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mileiq-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/well-known/mileiq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mileiq-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/mcp/mileiq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mileiq-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/llms/mileiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mileiq-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/agentic-access/mileiq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mileiq-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -174,6 +215,42 @@ scopes:
   scope_count: 7
   slug: mileiq-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 55.3
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 44.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/screenshots/mileiq-2026-08-07T172909.png
 security:
 - kind: authentication

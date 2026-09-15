@@ -16,6 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/seismic/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/percolate/refs/heads/main/security/percolate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/percolate-domain-security.yml

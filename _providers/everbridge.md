@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 11
@@ -475,58 +501,72 @@ apis:
 artifact_total: 102
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/capabilities/everbridge-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/everbridge-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-eb-suite-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-eb-suite-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-authentication-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-communications-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-communications-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-digital-apps-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-digital-apps-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-cem-alerts-query-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-cem-alerts-query-public-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-cem-alerts-query-stream-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-cem-alerts-query-stream-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-asset-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-asset-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-asset-query-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-asset-query-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-travel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-travel-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-pnr-check-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-pnr-check-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-risk-intelligence-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-risk-intelligence-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-safety-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-safety-devices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/overlays/everbridge-snapcomms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/everbridge-snapcomms-overlay.yaml
@@ -547,42 +587,52 @@ common:
   type: GettingStarted
   url: https://developers.everbridge.net/home/docs/ebs-gs-guide
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/authentication/everbridge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/everbridge-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/scopes/everbridge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/everbridge-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/rate-limits/everbridge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/everbridge-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/plans/everbridge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/everbridge-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/changelog/everbridge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/everbridge-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/lifecycle/everbridge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/everbridge-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/errors/everbridge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/everbridge-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/conventions/everbridge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/everbridge-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/conformance/everbridge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/everbridge-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/security/everbridge-trust-center.yml
   title: ''
   type: Compliance
   url: security/everbridge-trust-center.yml
@@ -591,38 +641,47 @@ common:
   type: TrustCenter
   url: https://trust.everbridge.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/security/everbridge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/everbridge-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/agentic-access/everbridge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/everbridge-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/mcp/everbridge-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/everbridge-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/mcp/everbridge-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/everbridge-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/llms/everbridge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/everbridge-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/data-model/everbridge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/everbridge-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/packages/everbridge-packages.yml
   title: ''
   type: Packages
   url: packages/everbridge-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/sandbox/everbridge-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/everbridge-sandbox.yml
@@ -717,6 +776,41 @@ scopes:
   scope_count: 0
   slug: everbridge-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.3
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 4.5
+    contract_quality: 56.4
+    developer_ergonomics: 41.1
+    discoverability: 83.3
+    operational_transparency: 50.0
+  previous_composite: 51.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 90
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/screenshots/everbridge-2026-06-20T180905.png
 security:
 - kind: authentication

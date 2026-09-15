@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -106,14 +131,17 @@ collections:
   slug: open-kandji-upload-to-s3
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/agentic-access/kandji-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kandji-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/security/kandji-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kandji-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/security/kandji-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kandji-domain-security.yml
@@ -186,6 +214,7 @@ common:
   type: ChangeLogRSS
   url: https://updates.iru.com/feed-en
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/changelog/kandji-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kandji-changelog.yml
@@ -202,54 +231,67 @@ common:
   type: SecondaryMarketListing
   url: https://forgeglobal.com/kandji_stock/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-endpoint-management-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/kandji-endpoint-management-openapi.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/mcp/kandji-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kandji-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/mcp/kandji-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/kandji-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/packages/kandji-packages.yml
   title: ''
   type: Packages
   url: packages/kandji-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/cli/kandji-cli.yml
   title: ''
   type: CLI
   url: cli/kandji-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/llms/kandji-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kandji-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/well-known/kandji-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kandji-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/authentication/kandji-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kandji-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/conventions/kandji-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kandji-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/rate-limits/kandji-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kandji-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/errors/kandji-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kandji-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/data-model/kandji-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kandji-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/lifecycle/kandji-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kandji-lifecycle.yml
@@ -258,18 +300,22 @@ common:
   type: ReleaseStages
   url: https://docs.iru.com/en/iru/platform-overview/iru-release-stages
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/conformance/kandji-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kandji-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/security/kandji-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kandji-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/overlays/kandji-endpoint-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kandji-endpoint-management-overlay.yaml
@@ -297,6 +343,41 @@ rate_limits:
 - limit_count: 1
   name: Kandji Rate Limits
   slug: kandji-rate-limits
+score:
+  band: strong
+  composite: 57.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 54.5
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 57.5
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    contracts:
+      callable: 92.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:
 - kind: authentication

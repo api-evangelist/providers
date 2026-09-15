@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Wit.ai HTTP API extracts structured meaning (intents, entities, traits) from text and audio, transcribes speech (speech / dictation), synthesizes speech (text-to-speech), and manages an app''s NLP '
@@ -54,34 +79,42 @@ common:
   type: PrivacyPolicy
   url: https://opensource.facebook.com/legal/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/packages/witai-packages.yml
   title: ''
   type: Packages
   url: packages/witai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/packages/witai-packages.yml
   title: ''
   type: SDKs
   url: packages/witai-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/authentication/witai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/witai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/conventions/witai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/witai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/lifecycle/witai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/witai-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/security/witai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/witai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/mcp/witai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/witai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/llms/witai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/witai-llms.txt
@@ -98,6 +131,34 @@ overview: 'Wit.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Wit.AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 12 more developer resources.'
 random_paper: 17
+score:
+  band: emerging
+  composite: 23.6
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 23.6
+  provenance:
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/screenshots/witai-2026-09-02T170841.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Wangdiantong (旺店通) ERP Open Platform HTTP API (openapi2). Endpoints are named PHP methods (e.g. trade_push.php, trade_query.php, goods_push.php, stock_query.php) grouped into basics (shops/warehou
@@ -37,34 +62,42 @@ common:
   type: Support
   url: https://open.wangdian.cn/open/support
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/authentication/huice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/huice-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/conventions/huice-conventions.yml
   title: ''
   type: Conventions
   url: conventions/huice-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/sandbox/huice-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/huice-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/errors/huice-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/huice-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/lifecycle/huice-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/huice-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/well-known/huice-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/huice-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/llms/huice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/huice-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/security/huice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/huice-domain-security.yml
@@ -81,6 +114,39 @@ overview: 'Huice publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Huice''s developer surface includes documentation, API reference, support, authentication, sandbox, and 8 more developer resources.'
 random_paper: 1
+score:
+  band: emerging
+  composite: 17.6
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 17.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/huice/refs/heads/main/screenshots/huice-2026-07-25T221632.png
 security:
 - kind: authentication

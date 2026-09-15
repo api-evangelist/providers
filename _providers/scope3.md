@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 65.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -326,126 +351,157 @@ collections:
   slug: open-scope3-status-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/capabilities/scope3-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/scope3-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/overlays/scope3-buyer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scope3-buyer-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/skills/scope3-agentic-buyer.md
   title: ''
   type: AgentSkill
   url: skills/scope3-agentic-buyer.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/overlays/scope3-storefront-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scope3-storefront-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/skills/scope3-agentic-storefront.md
   title: ''
   type: AgentSkill
   url: skills/scope3-agentic-storefront.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/overlays/scope3-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scope3-ai-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/a2a/scope3-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/scope3-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/well-known/scope3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/scope3-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/mcp/scope3-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/scope3-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/conventions/scope3-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/scope3-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/scopes/scope3-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/scope3-scopes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/plans/scope3-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scope3-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/rate-limits/scope3-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scope3-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/agentic-access/scope3-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scope3-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/security/scope3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scope3-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/authentication/scope3-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scope3-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/packages/scope3-packages.yml
   title: ''
   type: Packages
   url: packages/scope3-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/packages/scope3-packages.yml
   title: ''
   type: SDKs
   url: packages/scope3-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/cli/scope3-cli.yml
   title: ''
   type: CLI
   url: cli/scope3-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/mcp/scope3-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/scope3-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/llms/scope3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/scope3-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/errors/scope3-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/scope3-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/conventions/scope3-conventions.yml
   title: ''
   type: Conventions
   url: conventions/scope3-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/lifecycle/scope3-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/scope3-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/lifecycle/scope3-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/scope3-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/changelog/scope3-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/scope3-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/conformance/scope3-conformance.yml
   title: ''
   type: Conformance
   url: conformance/scope3-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/data-model/scope3-data-model.yml
   title: ''
   type: DataModel
   url: data-model/scope3-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/sandbox/scope3-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/scope3-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/asyncapi/scope3-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/scope3-webhooks.yml
@@ -539,6 +595,41 @@ scopes:
   scope_count: 4
   slug: scope3-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 65.8
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 61.3
+    developer_ergonomics: 66.7
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 65.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 86.3
+      derived: 1
+      marker_coverage: 2.0
+      total: 51
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/screenshots/scope3-2026-08-17T080422.png
 security:
 - kind: authentication

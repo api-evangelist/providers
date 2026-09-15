@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -68,114 +93,142 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/capabilities/google-campaign-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-campaign-manager-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/agentic-access/google-campaign-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-campaign-manager-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/security/google-campaign-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-campaign-manager-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/security/google-campaign-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-campaign-manager-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/authentication/google-campaign-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-campaign-manager-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/scopes/google-campaign-manager-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-campaign-manager-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/discovery/google-campaign-manager-dfareporting-v5-discovery.json
   title: ''
   type: Discovery
   url: discovery/google-campaign-manager-dfareporting-v5-discovery.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/packages/google-campaign-manager-packages.yml
   title: ''
   type: Packages
   url: packages/google-campaign-manager-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/packages/google-campaign-manager-packages.yml
   title: ''
   type: SDKs
   url: packages/google-campaign-manager-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/well-known/google-campaign-manager-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-campaign-manager-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/well-known/google-campaign-manager-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-campaign-manager-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/security/google-campaign-manager-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/google-campaign-manager-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/mcp/google-campaign-manager-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/google-campaign-manager-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/llms/google-campaign-manager-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-campaign-manager-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/conformance/google-campaign-manager-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-campaign-manager-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/errors/google-campaign-manager-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-campaign-manager-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/lifecycle/google-campaign-manager-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-campaign-manager-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/lifecycle/google-campaign-manager-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/google-campaign-manager-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/conventions/google-campaign-manager-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-campaign-manager-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/changelog/google-campaign-manager-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-campaign-manager-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/data-model/google-campaign-manager-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-campaign-manager-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/plans/google-campaign-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-campaign-manager-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/rate-limits/google-campaign-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-campaign-manager-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/finops/google-campaign-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/google-campaign-manager-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/rules/google-campaign-manager-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-campaign-manager-jsonschema-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/collections/google-campaign-manager.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/google-campaign-manager.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/collections/google-campaign-manager.opencollection.json
   title: ''
   type: OpenCollection
   url: collections/google-campaign-manager.opencollection.json
@@ -256,14 +309,17 @@ common:
   type: GitHubRepository
   url: https://github.com/googleads/googleads-dfa-reporting-samples
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/json-ld/google-campaign-manager-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-campaign-manager-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/rules/google-campaign-manager-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-campaign-manager-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/vocabulary/google-campaign-manager-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/google-campaign-manager-vocabulary.yaml
@@ -930,6 +986,41 @@ scopes:
   scope_count: 3
   slug: google-campaign-manager-scopes
   summary_line: 3 scopes
+score:
+  band: strong
+  composite: 65.3
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 68.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 33.3
+    contract_quality: 69.9
+    developer_ergonomics: 70.8
+    discoverability: 61.1
+    operational_transparency: 84.2
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/screenshots/google-campaign-manager-2026-06-20T182032.png
 security:
 - kind: authentication

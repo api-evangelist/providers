@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Access ERS data products in machine-readable formats for analysis or integration into your own applications. Delivered via api.data.gov as REST endpoints. Requires an api.data.gov key.
@@ -20,6 +45,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/security/economic-research-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/economic-research-service-domain-security.yml
@@ -68,62 +94,77 @@ common:
   type: Twitter
   url: https://x.com/USDA_ERS
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/conformance/economic-research-service-conformance.yml
   title: ''
   type: Conformance
   url: conformance/economic-research-service-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/authentication/economic-research-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/economic-research-service-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/conventions/economic-research-service-conventions.yml
   title: ''
   type: Conventions
   url: conventions/economic-research-service-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/errors/economic-research-service-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/economic-research-service-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/lifecycle/economic-research-service-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/economic-research-service-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/changelog/economic-research-service-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/economic-research-service-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/rate-limits/economic-research-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/economic-research-service-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/plans/economic-research-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/economic-research-service-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/packages/economic-research-service-packages.yml
   title: ''
   type: Packages
   url: packages/economic-research-service-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/components/economic-research-service-components.yml
   title: ''
   type: Components
   url: components/economic-research-service-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/data-model/economic-research-service-data-model.yml
   title: ''
   type: DataModel
   url: data-model/economic-research-service-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/sandbox/economic-research-service-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/economic-research-service-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/mcp/economic-research-service-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/economic-research-service-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/llms/economic-research-service-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/economic-research-service-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/finops/economic-research-service-finops.yml
   title: ''
   type: FinOps
   url: finops/economic-research-service-finops.yml
@@ -139,7 +180,7 @@ modified: '2026-09-06'
 name: Economic Research Service
 nav: Providers
 network: true
-overview: 'Economic Research Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Economics, Federal-Government, Research, and Open-Data.
+overview: 'Economic Research Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Economics, Federal-Government, Research, and Open Data.
 
 
   Economic Research Service''s developer surface includes documentation, engineering blog, support, authentication, changelog, sandbox, and 21 more developer resources.'
@@ -152,6 +193,41 @@ rate_limits:
 - limit_count: 3
   name: Economic Research Service Rate Limits
   slug: economic-research-service-rate-limits
+score:
+  band: developing
+  composite: 45.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 26.7
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 45.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/economic-research-service/refs/heads/main/screenshots/economic-research-service-2026-06-20T180437.png
 security:
 - kind: authentication
@@ -168,7 +244,7 @@ tags:
 - Economics
 - Federal-Government
 - Research
-- Open-Data
+- Open Data
 - Geospatial
 - Statistics
 website: https://www.ers.usda.gov/

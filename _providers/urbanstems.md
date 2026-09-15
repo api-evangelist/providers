@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface for the UrbanStems store, implementing the Universal Commerce Protocol (dev.ucp.shopping) over MCP. Thirteen tools cover catalog search and lookup, product detail, ca
@@ -10,6 +35,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/security/urbanstems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/urbanstems-domain-security.yml
@@ -54,66 +80,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/urbanstems
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/mcp/urbanstems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/urbanstems-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/mcp/urbanstems-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/urbanstems-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/llms/urbanstems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/urbanstems-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/well-known/urbanstems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/urbanstems-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/authentication/urbanstems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/urbanstems-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/scopes/urbanstems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/urbanstems-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/conventions/urbanstems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/urbanstems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/conventions/urbanstems-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/urbanstems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/errors/urbanstems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/urbanstems-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/rate-limits/urbanstems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/urbanstems-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/plans/urbanstems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/urbanstems-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/lifecycle/urbanstems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/urbanstems-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/conformance/urbanstems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/urbanstems-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/data-model/urbanstems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/urbanstems-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/packages/urbanstems-packages.yml
   title: ''
   type: Packages
   url: packages/urbanstems-packages.yml
@@ -147,6 +189,36 @@ scopes:
   scope_count: 0
   slug: urbanstems-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 23.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 23.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Urbanstems Authentication
@@ -166,7 +238,7 @@ tags:
 - Gifting
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Direct to Consumer
 website: https://urbanstems.com/

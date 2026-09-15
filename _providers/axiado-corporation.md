@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The SecureStack Application Development Kit is Axiado's public API for building secure applications on the AX3000 / AX2000 TCU family. It exposes thread-safe engine interfaces for crypto (AES, SHA/SHA
@@ -18,6 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/security/axiado-corporation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axiado-corporation-domain-security.yml
@@ -102,34 +128,42 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/axiado-corporation_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/llms/axiado-corporation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/axiado-corporation-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/errors/axiado-corporation-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/axiado-corporation-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/conventions/axiado-corporation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/axiado-corporation-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/lifecycle/axiado-corporation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/axiado-corporation-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/conformance/axiado-corporation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/axiado-corporation-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/packages/axiado-corporation-packages.yml
   title: ''
   type: Packages
   url: packages/axiado-corporation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/packages/axiado-corporation-packages.yml
   title: ''
   type: SDKs
   url: packages/axiado-corporation-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/authentication/axiado-corporation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/axiado-corporation-authentication.yml
@@ -147,6 +181,34 @@ overview: 'Axiado Corporation publishes 1 API on the [APIs.io](https://apis.io/)
 
   Axiado Corporation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 6
+score:
+  band: emerging
+  composite: 23.8
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 66.7
+    operational_transparency: 2.6
+  previous_composite: 23.8
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/screenshots/axiado-corporation-2026-08-07T162032.png
 security:
 - kind: authentication

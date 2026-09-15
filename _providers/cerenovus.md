@@ -10,6 +10,31 @@ access_model:
   - https://www.cerenovus.ai/sitemap.xml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 8
 common:
@@ -18,58 +43,72 @@ common:
   type: Website
   url: https://www.cerenovus.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/llms/cerenovus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cerenovus-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/mcp/cerenovus-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cerenovus-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/well-known/cerenovus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cerenovus-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/well-known/cerenovus-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cerenovus-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/authentication/cerenovus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cerenovus-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/scopes/cerenovus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cerenovus-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/errors/cerenovus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cerenovus-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/conformance/cerenovus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cerenovus-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/lifecycle/cerenovus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cerenovus-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/rate-limits/cerenovus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cerenovus-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/plans/cerenovus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cerenovus-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/packages/cerenovus-packages.yml
   title: ''
   type: Packages
   url: packages/cerenovus-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/security/cerenovus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cerenovus-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/security/cerenovus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cerenovus-vulnerability-disclosure.yml
@@ -140,6 +179,35 @@ scopes:
   scope_count: 9
   slug: cerenovus-scopes
   summary_line: 9 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 18.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 11.9
+    discoverability: 57.4
+    operational_transparency: 15.8
+  previous_composite: 18.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/screenshots/cerenovus-2026-07-25T204948.png
 security:
 - kind: authentication

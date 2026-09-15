@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -76,14 +102,17 @@ collections:
   slug: open-workfront-planning-v2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/overlays/workfront-planning-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workfront-planning-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/overlays/workfront-planning-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workfront-planning-v1-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/agentic-access/workfront-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workfront-agentic-access.yml
@@ -152,86 +181,107 @@ common:
   type: TrustCenter
   url: https://www.adobe.com/trust.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/packages/workfront-packages.yml
   title: ''
   type: SDKs
   url: packages/workfront-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/packages/workfront-packages.yml
   title: ''
   type: Packages
   url: packages/workfront-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/cli/workfront-cli.yml
   title: ''
   type: CLI
   url: cli/workfront-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/components/workfront-components.yml
   title: ''
   type: Components
   url: components/workfront-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/sandbox/workfront-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/workfront-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/authentication/workfront-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workfront-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/scopes/workfront-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/workfront-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/conventions/workfront-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workfront-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/errors/workfront-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workfront-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/lifecycle/workfront-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workfront-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/rate-limits/workfront-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/workfront-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/plans/workfront-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/workfront-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/changelog/workfront-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/workfront-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/conformance/workfront-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workfront-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/security/workfront-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workfront-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/security/workfront-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/workfront-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/well-known/workfront-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workfront-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/well-known/workfront-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/workfront-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/llms/workfront-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workfront-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/asyncapi/workfront-event-subscriptions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/workfront-event-subscriptions-webhooks.yml
@@ -268,6 +318,41 @@ scopes:
   scope_count: 18
   slug: workfront-scopes
   summary_line: 18 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 66.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 60.1
+    developer_ergonomics: 83.3
+    discoverability: 75.9
+    operational_transparency: 78.9
+  previous_composite: 66.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/screenshots/workfront-2026-08-17T075411.png
 security:
 - kind: authentication

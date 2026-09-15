@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -106,18 +131,22 @@ common:
   type: Website
   url: https://www.mealme.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/capabilities/mealme-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mealme-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/agentic-access/mealme-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mealme-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/security/mealme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mealme-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/authentication/mealme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mealme-authentication.yml
@@ -146,26 +175,32 @@ common:
   type: LlmsText
   url: https://api.mealme.ai/llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/rules/mealme-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/mealme-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/vocabulary/mealme-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/mealme-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/json-ld/mealme-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/mealme-api-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/plans/mealme-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mealme-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/rate-limits/mealme-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mealme-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/finops/mealme-finops.yml
   title: ''
   type: FinOps
   url: finops/mealme-finops.yml
@@ -308,6 +343,38 @@ rules:
     info: 9
     warn: 23
   slug: mealme-spectral-rules
+score:
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 28.8
+    contract_quality: 67.2
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 38.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/screenshots/mealme-2026-06-20T185111.png
 security:
 - kind: authentication

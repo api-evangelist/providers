@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,6 +94,7 @@ collections:
   slug: open-bitski-token-gating-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/overlays/bitski-nft-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bitski-nft-service-overlay.yaml
@@ -121,74 +147,92 @@ common:
   type: Twitter
   url: https://twitter.com/bitski
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/packages/bitski-packages.yml
   title: ''
   type: Packages
   url: packages/bitski-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/packages/bitski-packages.yml
   title: ''
   type: SDKs
   url: packages/bitski-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/components/bitski-components.yml
   title: ''
   type: Components
   url: components/bitski-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/authentication/bitski-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitski-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/scopes/bitski-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bitski-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/conventions/bitski-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitski-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/errors/bitski-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bitski-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/lifecycle/bitski-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitski-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/changelog/bitski-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bitski-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/data-model/bitski-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitski-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/conformance/bitski-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitski-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/asyncapi/bitski-activity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bitski-activity-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/mcp/bitski-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bitski-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/well-known/bitski-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bitski-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/agentic-access/bitski-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bitski-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/security/bitski-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitski-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/llms/bitski-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitski-llms.txt
@@ -213,6 +257,47 @@ scopes:
   scope_count: 2
   slug: bitski-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: developing
+  composite: 45.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 55.3
+    developer_ergonomics: 60.1
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 45.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/screenshots/bitski-2026-08-17T122909.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -110,6 +135,7 @@ collections:
   slug: open-method-security-targets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/overlays/method-security-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/method-security-openapi-overlay.yaml
@@ -150,78 +176,97 @@ common:
   type: PrivacyPolicy
   url: https://method.security/legal/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/authentication/method-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/method-security-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/agentic-access/method-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/method-security-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/mcp/method-security-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/method-security-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/llms/method-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/method-security-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/well-known/method-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/method-security-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/well-known/method-security-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/method-security-api-catalog.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/packages/method-security-packages.yml
   title: ''
   type: Packages
   url: packages/method-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/packages/method-security-packages.yml
   title: ''
   type: SDKs
   url: packages/method-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/cli/method-security-cli.yml
   title: ''
   type: CLI
   url: cli/method-security-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/conventions/method-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/method-security-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/errors/method-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/method-security-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/lifecycle/method-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/method-security-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/changelog/method-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/method-security-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/data-model/method-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/method-security-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/conformance/method-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/method-security-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/asyncapi/method-security-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/method-security-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/security/method-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/method-security-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/security/method-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/method-security-vulnerability-disclosure.yml
@@ -230,10 +275,12 @@ common:
   type: Security
   url: https://docs.method.security/platform/security-governance/reporting-security-concerns
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/security/method-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/method-security-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/security/method-security-trust-center.yml
   title: ''
   type: Compliance
   url: security/method-security-trust-center.yml
@@ -258,6 +305,47 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
   Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
 random_paper: 20
+score:
+  band: strong
+  composite: 55.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 53.6
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 55.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/screenshots/method-security-2026-08-07T172708.png
 security:
 - kind: authentication

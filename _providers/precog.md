@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 4
@@ -121,14 +147,17 @@ collections:
   slug: open-precog-stripe-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/security/precog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/precog-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/agentic-access/precog-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/precog-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/authentication/precog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/precog-authentication.yml
@@ -173,22 +202,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/precog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/mcp/precog-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/precog-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/well-known/precog-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/precog-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/well-known/precog-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/precog-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/scopes/precog-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/precog-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/security/precog-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/precog-vulnerability-disclosure.yml
@@ -197,6 +231,7 @@ common:
   type: Security
   url: https://api.precog.cloud/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/security/precog-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/precog-trust-center.yml
@@ -205,38 +240,47 @@ common:
   type: Compliance
   url: https://precog.com/express-security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/conformance/precog-conformance.yml
   title: ''
   type: Conformance
   url: conformance/precog-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/errors/precog-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/precog-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/conventions/precog-conventions.yml
   title: ''
   type: Conventions
   url: conventions/precog-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/data-model/precog-data-model.yml
   title: ''
   type: DataModel
   url: data-model/precog-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/llms/precog-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/precog-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/overlays/precog-public-http-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/precog-public-http-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/overlays/precog-admin-http-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/precog-admin-http-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/overlays/precog-metadata-http-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/precog-metadata-http-api-overlay.yaml
@@ -266,6 +310,41 @@ scopes:
   scope_count: 3
   slug: precog-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 42.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 46.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 56.4
+    developer_ergonomics: 39.9
+    discoverability: 81.5
+    operational_transparency: 7.9
+  previous_composite: 42.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/screenshots/precog-2026-08-17T081331.png
 security:
 - kind: authentication

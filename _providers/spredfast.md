@@ -10,6 +10,31 @@ access_model:
   - authentication/spredfast-authentication.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 api_count: 17
 apis:
 - baseURL: https://api.spredfast.com/v2
@@ -297,46 +322,57 @@ collections:
   slug: open-spredfast-notification-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/capabilities/spredfast-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spredfast-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-conversations-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-conversations-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-analytics-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-analytics-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/skills/spredfast-export-analytics.md
   title: ''
   type: AgentSkill
   url: skills/spredfast-export-analytics.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-notification-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-notification-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/skills/spredfast-subscribe-to-events.md
   title: ''
   type: AgentSkill
   url: skills/spredfast-subscribe-to-events.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-experiences-stream-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-experiences-stream-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-crm-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-crm-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-custom-crm-callback-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-custom-crm-callback-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-labelsets-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-labelsets-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/overlays/spredfast-introspection-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spredfast-introspection-api-overlay.yaml
@@ -369,26 +405,32 @@ common:
   type: TermsOfService
   url: https://khoros.ai/legal/customer-agreements/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/authentication/spredfast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spredfast-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/scopes/spredfast-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spredfast-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/conventions/spredfast-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spredfast-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/errors/spredfast-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spredfast-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/data-model/spredfast-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spredfast-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/lifecycle/spredfast-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spredfast-lifecycle.yml
@@ -397,46 +439,57 @@ common:
   type: StatusPage
   url: https://status.khoros.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/conformance/spredfast-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spredfast-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/security/spredfast-trust-center.yml
   title: ''
   type: Compliance
   url: security/spredfast-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/security/spredfast-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spredfast-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/security/spredfast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spredfast-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/packages/spredfast-packages.yml
   title: ''
   type: Packages
   url: packages/spredfast-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/plans/spredfast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spredfast-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/rate-limits/spredfast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spredfast-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/changelog/spredfast-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spredfast-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/asyncapi/spredfast-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spredfast-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/llms/spredfast-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spredfast-llms.txt
@@ -470,6 +523,45 @@ scopes:
   scope_count: 1
   slug: spredfast-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 61.8
+    developer_ergonomics: 20.8
+    discoverability: 57.4
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 38.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 88.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.sewerai.com/v1
@@ -152,14 +177,17 @@ apis:
 artifact_total: 32
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/capabilities/sewerai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sewerai-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/overlays/sewerai-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sewerai-swagger-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/security/sewerai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sewerai-domain-security.yml
@@ -228,6 +256,7 @@ common:
   type: ChangeLog
   url: https://www.sewerai.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/changelog/sewerai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sewerai-changelog.yml
@@ -236,50 +265,62 @@ common:
   type: TrustCenter
   url: https://trust.sewerai.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/security/sewerai-trust-center.yml
   title: ''
   type: Compliance
   url: security/sewerai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/authentication/sewerai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sewerai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/conventions/sewerai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sewerai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/conformance/sewerai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sewerai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/lifecycle/sewerai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sewerai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/errors/sewerai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sewerai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/data-model/sewerai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sewerai-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/packages/sewerai-packages.yml
   title: ''
   type: Packages
   url: packages/sewerai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/llms/sewerai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sewerai-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/plans/sewerai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sewerai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/rate-limits/sewerai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sewerai-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -305,6 +346,40 @@ rate_limits:
 - limit_count: 0
   name: Sewerai Rate Limits
   slug: sewerai-rate-limits
+score:
+  band: strong
+  composite: 54.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 45.2
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 54.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/screenshots/sewerai-2026-09-02T155055.png
 security:
 - kind: authentication

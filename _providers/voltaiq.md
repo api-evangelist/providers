@@ -1,12 +1,39 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/security/voltaiq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/voltaiq-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/security/voltaiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voltaiq-domain-security.yml
@@ -39,34 +66,42 @@ common:
   type: Compliance
   url: https://www.voltaiq.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/conformance/voltaiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voltaiq-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/lifecycle/voltaiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voltaiq-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/authentication/voltaiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voltaiq-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/packages/voltaiq-packages.yml
   title: ''
   type: Packages
   url: packages/voltaiq-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/packages/voltaiq-packages.yml
   title: ''
   type: SDKs
   url: packages/voltaiq-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/plans/voltaiq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/voltaiq-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/rate-limits/voltaiq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/voltaiq-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voltaiq/refs/heads/main/llms/voltaiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voltaiq-llms.txt
@@ -105,6 +140,44 @@ rate_limits:
 - limit_count: 0
   name: Voltaiq Rate Limits
   slug: voltaiq-rate-limits
+score:
+  band: thin
+  composite: 29.5
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 26.2
+    discoverability: 57.4
+    operational_transparency: 2.6
+  previous_composite: 29.5
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 35.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Voltaiq Authentication

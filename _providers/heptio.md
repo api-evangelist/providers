@@ -16,6 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/vmware/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heptio/refs/heads/main/security/heptio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heptio-domain-security.yml

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.trustlayer.io/v2
@@ -192,6 +217,7 @@ collections:
   slug: open-trustlayer-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/overlays/trustlayer-platform-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trustlayer-platform-v1-overlay.yaml
@@ -208,50 +234,62 @@ common:
   type: APIReference
   url: https://www.trustlayer.io/pages/developers
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/authentication/trustlayer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trustlayer-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/asyncapi/trustlayer-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/trustlayer-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/mcp/trustlayer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trustlayer-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/llms/trustlayer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trustlayer-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/well-known/trustlayer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trustlayer-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/conformance/trustlayer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trustlayer-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/errors/trustlayer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trustlayer-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/conventions/trustlayer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trustlayer-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/sandbox/trustlayer-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trustlayer-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/data-model/trustlayer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trustlayer-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/lifecycle/trustlayer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trustlayer-lifecycle.yml
@@ -264,6 +302,7 @@ common:
   type: Deprecation
   url: https://developers.trustlayer.io/v1/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/security/trustlayer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trustlayer-domain-security.yml
@@ -311,6 +350,46 @@ overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
   TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 20 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 50.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 60.0
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 50.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 45.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/screenshots/trustlayer-2026-08-17T082453.png
 security:
 - kind: authentication

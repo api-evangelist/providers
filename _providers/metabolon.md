@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://portal-api.prod.metabolon.com
@@ -106,22 +132,27 @@ apis:
 artifact_total: 23
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/capabilities/metabolon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/metabolon-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/overlays/metabolon-portal-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metabolon-portal-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/overlays/metabolon-discovery-panels-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metabolon-discovery-panels-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/overlays/metabolon-pathway-explorer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metabolon-pathway-explorer-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/overlays/metabolon-heatmap-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metabolon-heatmap-api-overlay.yaml
@@ -162,54 +193,67 @@ common:
   type: Compliance
   url: https://www.metabolon.com/quality-assurance/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/llms/metabolon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metabolon-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/well-known/metabolon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/metabolon-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/authentication/metabolon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metabolon-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/scopes/metabolon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/metabolon-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/conformance/metabolon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metabolon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/errors/metabolon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/metabolon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/lifecycle/metabolon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metabolon-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/conventions/metabolon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metabolon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/data-model/metabolon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metabolon-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/security/metabolon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metabolon-domain-security.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/rate-limits/metabolon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metabolon-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/plans/metabolon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/metabolon-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -239,6 +283,46 @@ scopes:
   scope_count: 0
   slug: metabolon-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 44.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 43.0
+    developer_ergonomics: 42.3
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 44.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/screenshots/metabolon-2026-09-02T150526.png
 security:
 - kind: authentication

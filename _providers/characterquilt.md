@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.characterquilt.com
@@ -36,6 +61,7 @@ collections:
   slug: open-characterquilt-discovery-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/mcp/characterquilt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/characterquilt-mcp.yml
@@ -72,50 +98,62 @@ common:
   type: Support
   url: mailto:hello@characterquilt.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/security/characterquilt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/characterquilt-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/well-known/characterquilt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/characterquilt-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/authentication/characterquilt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/characterquilt-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/scopes/characterquilt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/characterquilt-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/mcp/characterquilt-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/characterquilt-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/conventions/characterquilt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/characterquilt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/conformance/characterquilt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/characterquilt-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/lifecycle/characterquilt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/characterquilt-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/rate-limits/characterquilt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/characterquilt-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/plans/characterquilt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/characterquilt-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/packages/characterquilt-packages.yml
   title: ''
   type: Packages
   url: packages/characterquilt-packages.yml
@@ -161,6 +199,46 @@ scopes:
   scope_count: 0
   slug: characterquilt-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 51.0
+    developer_ergonomics: 26.2
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 43.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/screenshots/characterquilt-2026-07-25T205053.png
 security:
 - kind: authentication

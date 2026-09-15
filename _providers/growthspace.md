@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 6
@@ -54,14 +79,17 @@ apis:
 artifact_total: 12
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/overlays/growthspace-public-api-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/growthspace-public-api-management-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/agentic-access/growthspace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/growthspace-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/security/growthspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/growthspace-domain-security.yml
@@ -110,54 +138,67 @@ common:
   type: YouTube
   url: https://www.youtube.com/@Growthspaceus
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/scopes/growthspace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/growthspace-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/authentication/growthspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/growthspace-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/conventions/growthspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/growthspace-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/errors/growthspace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/growthspace-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/lifecycle/growthspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/growthspace-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/conformance/growthspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/growthspace-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/packages/growthspace-packages.yml
   title: ''
   type: Packages
   url: packages/growthspace-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/components/growthspace-components.yml
   title: ''
   type: Components
   url: components/growthspace-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/data-model/growthspace-data-model.yml
   title: ''
   type: DataModel
   url: data-model/growthspace-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/llms/growthspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/growthspace-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/plans/growthspace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/growthspace-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/rate-limits/growthspace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/growthspace-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -188,6 +229,46 @@ scopes:
   scope_count: 11
   slug: growthspace-scopes
   summary_line: 11 scopes
+score:
+  band: thin
+  composite: 30.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 32.0
+    developer_ergonomics: 28.0
+    discoverability: 68.5
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 30.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/screenshots/growthspace-2026-09-02T145640.png
 security:
 - kind: authentication

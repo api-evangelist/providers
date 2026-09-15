@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -133,26 +158,32 @@ common:
   type: Website
   url: https://www.instacart.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/capabilities/instacart-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/instacart-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/overlays/instacart-llm-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instacart-llm-integration-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/agentic-access/instacart-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instacart-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/security/instacart-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/instacart-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/security/instacart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instacart-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/authentication/instacart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instacart-authentication.yml
@@ -165,114 +196,142 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/instacart
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/json-ld/instacart-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/instacart-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/json-schema/instacart-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instacart-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/json-schema/instacart-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instacart-product-schema.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/well-known/instacart-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/instacart-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/well-known/instacart-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/instacart-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/mcp/instacart-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/instacart-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/mcp/instacart-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/instacart-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/llms/instacart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instacart-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/conformance/instacart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instacart-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/errors/instacart-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/instacart-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/lifecycle/instacart-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instacart-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/scopes/instacart-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/instacart-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/conventions/instacart-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instacart-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/sandbox/instacart-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/instacart-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/changelog/instacart-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/instacart-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/components/instacart-components.yml
   title: ''
   type: Components
   url: components/instacart-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/data-model/instacart-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instacart-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/packages/instacart-packages.yml
   title: ''
   type: Packages
   url: packages/instacart-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/plans/instacart-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instacart-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/rate-limits/instacart-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instacart-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/finops/instacart-finops.yml
   title: ''
   type: FinOps
   url: finops/instacart-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/vocabulary/instacart-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/instacart-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/json-structure/instacart-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/instacart-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/asyncapi/instacart-connect-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/instacart-connect-events-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/asyncapi/instacart-connect-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/instacart-connect-events-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/rules/instacart-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/instacart-asyncapi-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/rules/instacart-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/instacart-jsonschema-spectral-rules.yml
@@ -527,6 +586,41 @@ scopes:
   scope_count: 0
   slug: instacart-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 70.5
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 77.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 33.3
+    contract_quality: 72.9
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 81.6
+  previous_composite: 70.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,62 +173,77 @@ common:
   type: Sitemap
   url: https://eridu.ai/wp-sitemap.xml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/authentication/eridu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eridu-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/errors/eridu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eridu-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/conventions/eridu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eridu-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/data-model/eridu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eridu-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/conformance/eridu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eridu-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/lifecycle/eridu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eridu-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/rate-limits/eridu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eridu-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/plans/eridu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eridu-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/packages/eridu-packages.yml
   title: ''
   type: Packages
   url: packages/eridu-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/llms/eridu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eridu-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/mcp/eridu-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/eridu-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/examples/eridu-examples.yml
   title: ''
   type: Examples
   url: examples/eridu-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/agentic-access/eridu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eridu-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/security/eridu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eridu-domain-security.yml
@@ -229,6 +269,42 @@ rate_limits:
 - limit_count: 0
   name: Eridu Rate Limits
   slug: eridu-rate-limits
+score:
+  band: emerging
+  composite: 19.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 16.7
+    developer_ergonomics: 16.1
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 19.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/screenshots/eridu-2026-09-02T145417.png
 security:
 - kind: authentication

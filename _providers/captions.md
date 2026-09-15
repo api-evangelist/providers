@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -99,10 +124,12 @@ collections:
   slug: open-captions-videos-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/capabilities/captions-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/captions-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/overlays/captions-mirage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/captions-mirage-overlay.yaml
@@ -163,54 +190,67 @@ common:
   type: Compliance
   url: https://captions.ai/solutions/enterprise
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/_original/captions-mirage-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/captions-mirage-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/llms/captions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/captions-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/authentication/captions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/captions-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/conventions/captions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/captions-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/errors/captions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/captions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/lifecycle/captions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/captions-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/data-model/captions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/captions-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/conformance/captions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/captions-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/security/captions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/captions-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/mcp/captions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/captions-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/agentic-access/captions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/captions-agentic-access.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/plans/captions-plans.yml
   title: ''
   type: Plans
   url: plans/captions-plans.yml
@@ -227,18 +267,22 @@ common:
   type: ChangeLog
   url: https://captions.ai/help/whats-new
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/rate-limits/captions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/captions-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/finops/captions-finops.yml
   title: ''
   type: FinOps
   url: finops/captions-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/vocabulary/captions-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/captions-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/json-ld/captions-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/captions-context.jsonld
@@ -309,6 +353,41 @@ rules:
     info: 1
     warn: 4
   slug: captions-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 65.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 83.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 43.2
+    contract_quality: 58.2
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:
 - kind: authentication

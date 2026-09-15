@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,50 +107,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/market-data/overview
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/marketdata-app-openapi-original.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/security/marketdata-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marketdata-app-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/agentic-access/marketdata-app-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/marketdata-app-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/authentication/marketdata-app-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marketdata-app-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/packages/marketdata-app-packages.yml
   title: ''
   type: Packages
   url: packages/marketdata-app-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/packages/marketdata-app-packages.yml
   title: ''
   type: SDKs
   url: packages/marketdata-app-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/well-known/marketdata-app-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/marketdata-app-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/mcp/marketdata-app-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/marketdata-app-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/llms/marketdata-app-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/marketdata-app-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/conformance/marketdata-app-conformance.yml
   title: ''
   type: Conformance
   url: conformance/marketdata-app-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/errors/marketdata-app-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/marketdata-app-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/lifecycle/marketdata-app-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/marketdata-app-lifecycle.yml
@@ -134,6 +171,7 @@ common:
   type: StatusPage
   url: https://status.marketdata.app/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/changelog/marketdata-app-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/marketdata-app-changelog.yml
@@ -142,22 +180,27 @@ common:
   type: Roadmap
   url: https://roadmap.marketdata.app/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/sandbox/marketdata-app-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/marketdata-app-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/conventions/marketdata-app-conventions.yml
   title: ''
   type: Conventions
   url: conventions/marketdata-app-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/components/marketdata-app-components.yml
   title: ''
   type: Components
   url: components/marketdata-app-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/data-model/marketdata-app-data-model.yml
   title: ''
   type: DataModel
   url: data-model/marketdata-app-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -210,14 +253,17 @@ common:
   type: PrivacyPolicy
   url: https://www.marketdata.app/privacy/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/plans/marketdata-app-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marketdata-app-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/rate-limits/marketdata-app-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marketdata-app-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/finops/marketdata-app-finops.yml
   title: ''
   type: FinOps
   url: finops/marketdata-app-finops.yml
@@ -250,6 +296,48 @@ rate_limits:
 - limit_count: 7
   name: Marketdata App Rate Limits
   slug: marketdata-app-rate-limits
+score:
+  band: strong
+  composite: 65.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 52.9
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 71.1
+  previous_composite: 65.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 80.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:
 - kind: authentication

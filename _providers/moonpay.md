@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Server and client API for on-ramp, off-ramp, swaps, quotes, sessions, customers (KYC), payment methods, transactions, and virtual accounts.
@@ -74,82 +99,102 @@ common:
   type: StatusPage
   url: https://status.moonpay.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/authentication/moonpay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moonpay-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/conventions/moonpay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moonpay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/lifecycle/moonpay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moonpay-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/errors/moonpay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moonpay-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/conformance/moonpay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moonpay-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/conformance/moonpay-conformance.yml
   title: ''
   type: Compliance
   url: conformance/moonpay-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/data-model/moonpay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moonpay-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/components/moonpay-components.yml
   title: ''
   type: Components
   url: components/moonpay-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/sandbox/moonpay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moonpay-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/asyncapi/moonpay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moonpay-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/packages/moonpay-packages.yml
   title: ''
   type: Packages
   url: packages/moonpay-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/packages/moonpay-packages.yml
   title: ''
   type: SDKs
   url: packages/moonpay-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/cli/moonpay-cli.yml
   title: ''
   type: CLI
   url: cli/moonpay-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/mcp/moonpay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moonpay-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/llms/moonpay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moonpay-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/well-known/moonpay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moonpay-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/well-known/moonpay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/moonpay-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/security/moonpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moonpay-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/security/moonpay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/moonpay-vulnerability-disclosure.yml
@@ -158,6 +203,7 @@ common:
   type: Security
   url: https://hackerone.com/moonpay
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/security/moonpay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/moonpay-trust-center.yml
@@ -181,6 +227,46 @@ overview: 'MoonPay publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
   MoonPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
 random_paper: 15
+score:
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 56.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 68.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonpay/refs/heads/main/screenshots/moonpay-2026-08-07T184245.png
 security:
 - kind: authentication

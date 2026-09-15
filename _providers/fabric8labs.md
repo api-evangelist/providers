@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,98 +109,122 @@ collections:
   slug: open-fabric8labs-team-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/agentic-access/fabric8labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fabric8labs-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/security/fabric8labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fabric8labs-domain-security.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/
   title: ''
   type: OpenAPI
   url: openapi/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/llms/fabric8labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fabric8labs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/well-known/fabric8labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fabric8labs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/authentication/fabric8labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fabric8labs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/scopes/fabric8labs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fabric8labs-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/conventions/fabric8labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fabric8labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/conformance/fabric8labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fabric8labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/lifecycle/fabric8labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fabric8labs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/data-model/fabric8labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fabric8labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/errors/fabric8labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fabric8labs-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/examples/fabric8labs-examples.yml
   title: ''
   type: Examples
   url: examples/fabric8labs-examples.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/packages/fabric8labs-packages.yml
   title: ''
   type: Packages
   url: packages/fabric8labs-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/plans/fabric8labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fabric8labs-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/rate-limits/fabric8labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fabric8labs-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/overlays/fabric8labs-posts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fabric8labs-posts-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/overlays/fabric8labs-pages-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fabric8labs-pages-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/overlays/fabric8labs-media-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fabric8labs-media-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/overlays/fabric8labs-team-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fabric8labs-team-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/overlays/fabric8labs-taxonomy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fabric8labs-taxonomy-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/overlays/fabric8labs-search-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fabric8labs-search-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/overlays/fabric8labs-discovery-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fabric8labs-discovery-api-overlay.yaml
@@ -282,6 +331,48 @@ scopes:
   scope_count: 1
   slug: fabric8labs-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 33.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 55.8
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 2.6
+  previous_composite: 33.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 51.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/screenshots/fabric8labs-2026-09-02T145452.png
 security:
 - kind: authentication

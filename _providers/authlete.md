@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -250,74 +275,92 @@ common:
   type: ChangeLog
   url: https://www.authlete.com/developers/relnotes/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/packages/authlete-packages.yml
   title: ''
   type: Packages
   url: packages/authlete-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/packages/authlete-packages.yml
   title: ''
   type: SDKs
   url: packages/authlete-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/cli/authlete-cli.yml
   title: ''
   type: CLI
   url: cli/authlete-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/components/authlete-components.yml
   title: ''
   type: Components
   url: components/authlete-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/mcp/authlete-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/authlete-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/llms/authlete-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/authlete-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/overlays/authlete-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/authlete-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/conformance/authlete-conformance.yml
   title: ''
   type: Conformance
   url: conformance/authlete-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/errors/authlete-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/authlete-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/lifecycle/authlete-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/authlete-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/conventions/authlete-conventions.yml
   title: ''
   type: Conventions
   url: conventions/authlete-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/data-model/authlete-data-model.yml
   title: ''
   type: DataModel
   url: data-model/authlete-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/well-known/authlete-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/authlete-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/well-known/authlete-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/authlete-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/agentic-access/authlete-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/authlete-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/authentication/authlete-authentication.yml
   title: ''
   type: Authentication
   url: authentication/authlete-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/security/authlete-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/authlete-vulnerability-disclosure.yml
@@ -326,6 +369,7 @@ common:
   type: Security
   url: https://www.authlete.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/security/authlete-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authlete-domain-security.yml
@@ -346,6 +390,41 @@ overview: 'Authlete publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
   Authlete''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 48.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 55.8
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 48.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/screenshots/authlete-2026-07-25T201804.png
 security:
 - kind: authentication

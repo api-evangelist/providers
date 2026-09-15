@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 63.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -211,18 +236,22 @@ collections:
   slug: open-common-room-website-visits-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/agentic-access/common-room-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/common-room-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/security/common-room-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/common-room-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/security/common-room-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/common-room-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/authentication/common-room-authentication.yml
   title: ''
   type: Authentication
   url: authentication/common-room-authentication.yml
@@ -263,50 +292,62 @@ common:
   type: Authentication
   url: https://www.commonroom.io/docs/set-preferences/api-tokens/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/plans/common-room-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/common-room-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/rate-limits/common-room-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/common-room-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/finops/common-room-finops.yml
   title: ''
   type: FinOps
   url: finops/common-room-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/packages/common-room-packages.yml
   title: ''
   type: Packages
   url: packages/common-room-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/cli/common-room-cli.yml
   title: ''
   type: CLI
   url: cli/common-room-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/well-known/common-room-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/common-room-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/well-known/common-room-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/common-room-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/mcp/common-room-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/common-room-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/mcp/common-room-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/common-room-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/llms/common-room-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/common-room-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/conformance/common-room-conformance.yml
   title: ''
   type: Conformance
   url: conformance/common-room-conformance.yml
@@ -315,6 +356,7 @@ common:
   type: Compliance
   url: https://www.commonroom.io/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/security/common-room-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/common-room-trust-center.yml
@@ -323,34 +365,42 @@ common:
   type: Security
   url: https://www.commonroom.io/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/errors/common-room-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/common-room-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/lifecycle/common-room-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/common-room-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/scopes/common-room-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/common-room-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/conventions/common-room-conventions.yml
   title: ''
   type: Conventions
   url: conventions/common-room-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/conventions/common-room-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/common-room-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/data-model/common-room-data-model.yml
   title: ''
   type: DataModel
   url: data-model/common-room-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/components/common-room-components.yml
   title: ''
   type: Components
   url: components/common-room-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/asyncapi/common-room-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/common-room-webhooks.yml
@@ -675,6 +725,41 @@ scopes:
   scope_count: 4
   slug: common-room-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
+score:
+  band: strong
+  composite: 64.2
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 69.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 28.0
+    contract_quality: 73.5
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 23.7
+  previous_composite: 64.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/screenshots/common-room-2026-06-20T174819.png
 security:
 - kind: authentication

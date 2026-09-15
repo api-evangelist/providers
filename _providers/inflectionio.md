@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -127,42 +153,52 @@ common:
   type: ChangeLog
   url: https://docs.inflection.io/whats-new/july-2026
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/changelog/inflectionio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/inflectionio-changelog.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/_original/inflectionio-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/inflectionio-openapi-original.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/overlays/inflectionio-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/inflectionio-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/authentication/inflectionio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inflectionio-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/scopes/inflectionio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/inflectionio-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/conventions/inflectionio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inflectionio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/errors/inflectionio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/inflectionio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/data-model/inflectionio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/inflectionio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/lifecycle/inflectionio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inflectionio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/conformance/inflectionio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inflectionio-conformance.yml
@@ -171,6 +207,7 @@ common:
   type: Compliance
   url: https://docs.inflection.io/agents/mcp-trust-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/security/inflectionio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/inflectionio-trust-center.yml
@@ -179,58 +216,72 @@ common:
   type: Security
   url: https://docs.inflection.io/agents/mcp-trust-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/security/inflectionio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/inflectionio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/security/inflectionio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inflectionio-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/mcp/inflectionio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/inflectionio-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/mcp/inflectionio-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/inflectionio-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/a2a/inflectionio-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/inflectionio-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/well-known/inflectionio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/inflectionio-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/llms/inflectionio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inflectionio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/agentic-access/inflectionio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/inflectionio-agentic-access.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/rate-limits/inflectionio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inflectionio-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/plans/inflectionio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/inflectionio-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/asyncapi/inflectionio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/inflectionio-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/packages/inflectionio-packages.yml
   title: ''
   type: Packages
   url: packages/inflectionio-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/components/inflectionio-components.yml
   title: ''
   type: Components
   url: components/inflectionio-components.yml
@@ -268,6 +319,41 @@ scopes:
   scope_count: 3
   slug: inflectionio-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: strong
+  composite: 62.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 63.0
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png
 security:
 - kind: authentication

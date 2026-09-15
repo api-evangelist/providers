@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://grintherapeutics.com/wp-json
@@ -83,6 +108,7 @@ collections:
   slug: open-grin-therapeutics-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/overlays/grin-therapeutics-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/grin-therapeutics-content-overlay.yaml
@@ -151,42 +177,52 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/grin-therapeutics_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/authentication/grin-therapeutics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grin-therapeutics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/conventions/grin-therapeutics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/grin-therapeutics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/conformance/grin-therapeutics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grin-therapeutics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/errors/grin-therapeutics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/grin-therapeutics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/lifecycle/grin-therapeutics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/grin-therapeutics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/data-model/grin-therapeutics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/grin-therapeutics-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/well-known/grin-therapeutics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grin-therapeutics-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/security/grin-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grin-therapeutics-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/llms/grin-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grin-therapeutics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -204,6 +240,46 @@ overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/)
 
   GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
 random_paper: 10
+score:
+  band: thin
+  composite: 30.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.6
+    contract_governance: 4.5
+    contract_quality: 49.5
+    developer_ergonomics: 18.5
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 30.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 26.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/screenshots/grin-therapeutics-2026-08-07T165843.png
 security:
 - kind: authentication

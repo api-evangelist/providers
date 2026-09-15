@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The AWS API Gateway surface behind the Sensely conversational SDKs. Observed public operations cover partner authentication and token refresh, member self-service password reset, program-code verifica
@@ -20,6 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/security/sensely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sensely-domain-security.yml
@@ -56,42 +82,52 @@ common:
   type: PrivacyPolicy
   url: https://sensely.com/privacy-policy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/packages/sensely-packages.yml
   title: ''
   type: SDKs
   url: packages/sensely-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/packages/sensely-packages.yml
   title: ''
   type: Packages
   url: packages/sensely-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/components/sensely-components.yml
   title: ''
   type: Components
   url: components/sensely-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/llms/sensely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sensely-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/conventions/sensely-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sensely-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/conformance/sensely-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sensely-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/lifecycle/sensely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sensely-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/changelog/sensely-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sensely-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/plans/sensely-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sensely-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/rate-limits/sensely-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sensely-rate-limits.yml
@@ -121,6 +157,41 @@ scopes:
   scope_count: 0
   slug: sensely-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 29.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 29.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensely/refs/heads/main/screenshots/sensely-2026-09-02T154858.png
 security:
 - kind: authentication

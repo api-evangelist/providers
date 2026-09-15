@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
@@ -135,6 +160,7 @@ collections:
   slug: open-fcc-projection-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/capabilities/fcc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fcc-capability-edges.yml
@@ -143,6 +169,7 @@ common:
   type: IssueTracker
   url: https://github.com/FCC/bdcapi/issues
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/security/fcc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fcc-domain-security.yml
@@ -179,14 +206,17 @@ common:
   type: X
   url: https://x.com/FCC
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/plans/fcc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fcc-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/rate-limits/fcc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fcc-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/finops/fcc-finops.yml
   title: ''
   type: FinOps
   url: finops/fcc-finops.yml
@@ -219,6 +249,44 @@ rate_limits:
 - limit_count: 0
   name: Fcc Rate Limits
   slug: fcc-rate-limits
+score:
+  band: thin
+  composite: 31.7
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 48.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 48.3
+    developer_ergonomics: 11.9
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 31.7
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 13.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:
 - kind: domain-security

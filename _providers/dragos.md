@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,6 +81,7 @@ common:
   type: Website
   url: https://www.dragos.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/security/dragos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dragos-domain-security.yml
@@ -96,38 +122,47 @@ common:
   type: PrivacyPolicy
   url: https://www.dragos.com/privacy/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/_original/dragos-worldview-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/dragos-worldview-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/overlays/dragos-worldview-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dragos-worldview-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/packages/dragos-packages.yml
   title: ''
   type: Packages
   url: packages/dragos-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/packages/dragos-packages.yml
   title: ''
   type: SDKs
   url: packages/dragos-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/well-known/dragos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dragos-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/well-known/dragos-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dragos-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/mcp/dragos-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dragos-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/llms/dragos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dragos-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/conformance/dragos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dragos-conformance.yml
@@ -136,42 +171,52 @@ common:
   type: Compliance
   url: https://www.dragos.com/security-program/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/errors/dragos-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dragos-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/lifecycle/dragos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dragos-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/lifecycle/dragos-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/dragos-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/conventions/dragos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dragos-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/changelog/dragos-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dragos-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/data-model/dragos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dragos-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/authentication/dragos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dragos-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/agentic-access/dragos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dragos-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/security/dragos-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dragos-vulnerability-disclosure.yml
@@ -192,6 +237,42 @@ overview: 'Dragos publishes 3 APIs on the [APIs.io](https://apis.io/) network: I
 
   Dragos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 45.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 45.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/screenshots/dragos-2026-07-25T212343.png
 security:
 - kind: authentication

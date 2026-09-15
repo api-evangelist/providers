@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.6
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
@@ -56,34 +81,42 @@ common:
   type: PrivacyPolicy
   url: https://vention.com/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/packages/vention-packages.yml
   title: ''
   type: Packages
   url: packages/vention-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/packages/vention-packages.yml
   title: ''
   type: SDKs
   url: packages/vention-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/changelog/vention-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vention-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/llms/vention-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vention-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/well-known/vention-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vention-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/well-known/vention-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/vention-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/security/vention-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vention-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/security/vention-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vention-vulnerability-disclosure.yml
@@ -92,6 +125,7 @@ common:
   type: Security
   url: https://vention.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/security/vention-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vention-trust-center.yml
@@ -112,6 +146,39 @@ overview: 'Vention is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Vention''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 15 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 30.0
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 57.4
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 30.0
+  provenance:
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vention/refs/heads/main/screenshots/vention-2026-09-02T165641.png
 security:
 - kind: domain-security

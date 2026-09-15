@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 56.3
+  scored_at: '2026-09-14'
 api_count: 53
 apis:
 - baseURL: https://api.thousandeyes.com/v7
@@ -512,118 +538,147 @@ asyncapis:
   slug: thousandeyes-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/capabilities/thousandeyes-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/thousandeyes-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-administrative-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-administrative-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-api-token-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-api-token-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-agents-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-alerts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-alerts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-autonomous-systems-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-autonomous-systems-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-bgp-monitors-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-bgp-monitors-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-cloud-insights-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-cloud-insights-integrations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-credentials-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-credentials-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-dashboards-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-dashboards-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-emulation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-emulation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-endpoint-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-endpoint-agents-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-endpoint-instant-scheduled-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-endpoint-instant-scheduled-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-endpoint-agent-labels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-endpoint-agent-labels-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-endpoint-test-results-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-endpoint-test-results-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-endpoint-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-endpoint-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-event-detection-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-event-detection-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-integrations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-internet-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-internet-insights-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-test-snapshots-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-test-snapshots-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-tags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-tags-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-instant-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-instant-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-test-results-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-test-results-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-opentelemetry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-opentelemetry-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/overlays/thousandeyes-usage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thousandeyes-usage-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/security/thousandeyes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thousandeyes-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/authentication/thousandeyes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thousandeyes-authentication.yml
@@ -732,82 +787,102 @@ common:
   type: Compliance
   url: https://trustportal.cisco.com/c/r/ctp/trust-portal.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/packages/thousandeyes-packages.yml
   title: ''
   type: SDKs
   url: packages/thousandeyes-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/packages/thousandeyes-packages.yml
   title: ''
   type: Packages
   url: packages/thousandeyes-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/cli/thousandeyes-cli.yml
   title: ''
   type: CLI
   url: cli/thousandeyes-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/well-known/thousandeyes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thousandeyes-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/llms/thousandeyes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thousandeyes-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/mcp/thousandeyes-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/thousandeyes-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/mcp/thousandeyes-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/thousandeyes-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/conformance/thousandeyes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thousandeyes-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/errors/thousandeyes-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thousandeyes-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/lifecycle/thousandeyes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thousandeyes-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/scopes/thousandeyes-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/thousandeyes-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/security/thousandeyes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/thousandeyes-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/security/thousandeyes-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/thousandeyes-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/conventions/thousandeyes-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thousandeyes-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/changelog/thousandeyes-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/thousandeyes-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/data-model/thousandeyes-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thousandeyes-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/plans/thousandeyes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/thousandeyes-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/rate-limits/thousandeyes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thousandeyes-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/asyncapi/thousandeyes-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/thousandeyes-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -845,6 +920,40 @@ scopes:
   scope_count: 2
   slug: thousandeyes-scopes
   summary_line: 2 scopes · authorizationCode/deviceCode
+score:
+  band: exemplar
+  composite: 71.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 56.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 4.5
+    contract_quality: 68.5
+    developer_ergonomics: 75.6
+    discoverability: 66.7
+    operational_transparency: 92.1
+  previous_composite: 71.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 98
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/screenshots/thousandeyes-2026-09-02T163600.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - https://docs.result.dev/
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -64,74 +89,92 @@ common:
   type: RefundPolicy
   url: https://result.dev/refund
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/llms/result-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/result-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/mcp/result-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/result-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/packages/result-packages.yml
   title: ''
   type: Packages
   url: packages/result-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/packages/result-packages.yml
   title: ''
   type: SDKs
   url: packages/result-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/cli/result-cli.yml
   title: ''
   type: CLI
   url: cli/result-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/components/result-components.yml
   title: ''
   type: Components
   url: components/result-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/authentication/result-authentication.yml
   title: ''
   type: Authentication
   url: authentication/result-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/scopes/result-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/result-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/conventions/result-conventions.yml
   title: ''
   type: Conventions
   url: conventions/result-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/errors/result-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/result-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/data-model/result-data-model.yml
   title: ''
   type: DataModel
   url: data-model/result-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/sandbox/result-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/result-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/plans/result-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/result-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/rate-limits/result-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/result-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/lifecycle/result-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/result-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/conformance/result-conformance.yml
   title: ''
   type: Conformance
   url: conformance/result-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/well-known/result-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/result-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/security/result-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/result-domain-security.yml
@@ -166,6 +209,41 @@ scopes:
   scope_count: 1
   slug: result-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 45.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 21.1
+  previous_composite: 45.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/screenshots/result-2026-08-17T081542.png
 security:
 - kind: authentication

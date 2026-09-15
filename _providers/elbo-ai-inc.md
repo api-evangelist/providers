@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -66,6 +91,7 @@ collections:
   slug: open-elbo-ai-inc-voices-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/overlays/elbo-ai-inc-puppetry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elbo-ai-inc-puppetry-overlay.yaml
@@ -122,70 +148,87 @@ common:
   type: PrivacyPolicy
   url: https://www.puppetry.com/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/packages/elbo-ai-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/elbo-ai-inc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/packages/elbo-ai-inc-packages.yml
   title: ''
   type: Packages
   url: packages/elbo-ai-inc-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/mcp/elbo-ai-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elbo-ai-inc-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/llms/elbo-ai-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elbo-ai-inc-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/well-known/elbo-ai-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elbo-ai-inc-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/authentication/elbo-ai-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elbo-ai-inc-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/conventions/elbo-ai-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elbo-ai-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/conventions/elbo-ai-inc-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/elbo-ai-inc-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/conventions/elbo-ai-inc-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/elbo-ai-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/errors/elbo-ai-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elbo-ai-inc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/lifecycle/elbo-ai-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elbo-ai-inc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/conformance/elbo-ai-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elbo-ai-inc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/data-model/elbo-ai-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elbo-ai-inc-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/security/elbo-ai-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elbo-ai-inc-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/agentic-access/elbo-ai-inc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/elbo-ai-inc-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/changelog/elbo-ai-inc-changelog.yml
   title: ''
   type: Changelog
   url: changelog/elbo-ai-inc-changelog.yml
@@ -206,6 +249,41 @@ overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
   ELBO AI, INC''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 24 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 49.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 59.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 49.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png
 security:
 - kind: authentication

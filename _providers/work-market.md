@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.workmarket.com/api/v1
@@ -104,10 +129,12 @@ collections:
   slug: open-work-market-updatecheckin-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/overlays/work-market-employer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/work-market-employer-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/security/work-market-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/work-market-domain-security.yml
@@ -172,54 +199,67 @@ common:
   type: Webhooks
   url: https://developer.workmarket.com/page/webhooks
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/asyncapi/work-market-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/work-market-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/llms/work-market-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/work-market-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/well-known/work-market-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/work-market-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/packages/work-market-packages.yml
   title: ''
   type: Packages
   url: packages/work-market-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/mcp/work-market-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/work-market-mcp.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/sandbox/work-market-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/work-market-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/conventions/work-market-conventions.yml
   title: ''
   type: Conventions
   url: conventions/work-market-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/data-model/work-market-data-model.yml
   title: ''
   type: DataModel
   url: data-model/work-market-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/errors/work-market-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/work-market-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/lifecycle/work-market-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/work-market-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/authentication/work-market-authentication.yml
   title: ''
   type: Authentication
   url: authentication/work-market-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/conformance/work-market-conformance.yml
   title: ''
   type: Conformance
   url: conformance/work-market-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -270,6 +310,46 @@ overview: 'Work Market publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 
   Work Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 23 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 41.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 47.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 54.5
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 22.4
+  previous_composite: 41.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/screenshots/work-market-2026-08-17T082936.png
 security:
 - kind: authentication

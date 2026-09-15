@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 41.3
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: CDEvents is a common specification for Continuous Delivery events that enables interoperability across CI/CD systems. It extends the CloudEvents specification and defines event vocabularies for source
@@ -48,14 +74,17 @@ asyncapis:
   slug: continuous-delivery-foundation-cdevents-events
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/security/continuous-delivery-foundation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/continuous-delivery-foundation-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/authentication/continuous-delivery-foundation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/continuous-delivery-foundation-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/security/continuous-delivery-foundation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/continuous-delivery-foundation-domain-security.yml
@@ -96,14 +125,17 @@ common:
   type: Events
   url: https://cd.foundation/events/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/well-known/continuous-delivery-foundation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/continuous-delivery-foundation-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/well-known/continuous-delivery-foundation-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/continuous-delivery-foundation-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/well-known/continuous-delivery-foundation-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/continuous-delivery-foundation-security.txt
@@ -112,42 +144,52 @@ common:
   type: Security
   url: https://www.jenkins.io/security/reporting/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/llms/continuous-delivery-foundation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/continuous-delivery-foundation-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/mcp/continuous-delivery-foundation-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/continuous-delivery-foundation-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/mcp/continuous-delivery-foundation-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/continuous-delivery-foundation-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/packages/continuous-delivery-foundation-packages.yml
   title: ''
   type: Packages
   url: packages/continuous-delivery-foundation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/packages/continuous-delivery-foundation-packages.yml
   title: ''
   type: SDKs
   url: packages/continuous-delivery-foundation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/cli/continuous-delivery-foundation-cli.yml
   title: ''
   type: CLI
   url: cli/continuous-delivery-foundation-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/conformance/continuous-delivery-foundation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/continuous-delivery-foundation-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/errors/continuous-delivery-foundation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/continuous-delivery-foundation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/lifecycle/continuous-delivery-foundation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/continuous-delivery-foundation-lifecycle.yml
@@ -156,34 +198,42 @@ common:
   type: StatusPage
   url: https://status.jenkins.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/conventions/continuous-delivery-foundation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/continuous-delivery-foundation-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/changelog/continuous-delivery-foundation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/continuous-delivery-foundation-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/data-model/continuous-delivery-foundation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/continuous-delivery-foundation-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/asyncapi/continuous-delivery-foundation-cdevents-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/continuous-delivery-foundation-cdevents-events.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/json-schema/continuous-delivery-foundation-cdevents-schemas.yml
   title: ''
   type: JSONSchema
   url: json-schema/continuous-delivery-foundation-cdevents-schemas.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/plans/continuous-delivery-foundation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/continuous-delivery-foundation-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/rate-limits/continuous-delivery-foundation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/continuous-delivery-foundation-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/finops/continuous-delivery-foundation-finops.yml
   title: ''
   type: FinOps
   url: finops/continuous-delivery-foundation-finops.yml
@@ -219,7 +269,7 @@ modified: '2026-09-05'
 name: Continuous Delivery Foundation
 nav: Providers
 network: true
-overview: 'Continuous Delivery Foundation publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jenkins, Spinnaker, Screwdriver, and 1 more. Tagged areas include Automation, CI/CD, Developer Tools, DevOps, and Linux Foundation.
+overview: 'Continuous Delivery Foundation publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jenkins, Spinnaker, Screwdriver, and 1 more. Tagged areas include Automation, CI/CD, DevOps, Linux Foundation, and Open-Source.
 
 
   The Continuous Delivery Foundation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -235,6 +285,40 @@ rate_limits:
 - limit_count: 0
   name: Continuous Delivery Foundation Rate Limits
   slug: continuous-delivery-foundation-rate-limits
+score:
+  band: developing
+  composite: 53.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 44.0
+    catalog_earned_first_party: 6.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 64.9
+    developer_ergonomics: 61.3
+    discoverability: 72.2
+    operational_transparency: 55.3
+  previous_composite: 53.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/continuous-delivery-foundation/refs/heads/main/screenshots/continuous-delivery-foundation-2026-06-20T174948.png
 security:
 - kind: authentication
@@ -253,7 +337,6 @@ slug: continuous-delivery-foundation
 tags:
 - Automation
 - CI/CD
-- Developer Tools
 - DevOps
 - Linux Foundation
 - Open-Source

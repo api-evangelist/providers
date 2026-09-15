@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -299,18 +324,22 @@ collections:
   slug: open-microsoft-azure-monitor-test-notifications-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/agentic-access/microsoft-azure-monitor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-monitor-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/security/microsoft-azure-monitor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-monitor-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/authentication/microsoft-azure-monitor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-monitor-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/scopes/microsoft-azure-monitor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-monitor-scopes.yml
@@ -319,42 +348,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-monitor/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-action-group-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-action-group-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-action-group-receiver-recovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-action-group-receiver-recovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-action-group-with-metric-alert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-action-group-with-metric-alert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-activity-log-to-metrics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-activity-log-to-metrics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-alert-rule-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-alert-rule-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-autoscale-inventory-reconfigure-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-autoscale-inventory-reconfigure-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-autoscale-setting-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-autoscale-setting-provision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-batch-metrics-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-batch-metrics-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-diagnostic-setting-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-diagnostic-setting-provision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/arazzo/microsoft-azure-monitor-resource-metrics-explorer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-monitor-resource-metrics-explorer-workflow.yml
@@ -427,6 +466,7 @@ common:
   type: Signup
   url: https://azure.microsoft.com/en-us/free
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/json-ld/azure-monitor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/azure-monitor-context.jsonld
@@ -814,6 +854,38 @@ scopes:
   scope_count: 4
   slug: microsoft-azure-monitor-scopes
   summary_line: 4 scopes · clientCredentials
+score:
+  band: strong
+  composite: 58.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 67.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 9.8
+    contract_quality: 70.9
+    developer_ergonomics: 63.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 58.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
 security:
 - kind: authentication

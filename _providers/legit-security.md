@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -16,6 +41,7 @@ asyncapis:
   slug: legit-security-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/security/legit-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/legit-security-domain-security.yml
@@ -52,34 +78,42 @@ common:
   type: PrivacyPolicy
   url: https://www.legitsecurity.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/security/legit-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/legit-security-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/packages/legit-security-packages.yml
   title: ''
   type: Packages
   url: packages/legit-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/cli/legit-security-cli.yml
   title: ''
   type: CLI
   url: cli/legit-security-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/mcp/legit-security-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/legit-security-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/asyncapi/legit-security-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/legit-security-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/changelog/legit-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/legit-security-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/llms/legit-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/legit-security-llms.txt
@@ -120,6 +154,35 @@ overview: 'Legit Security is profiled on the [APIs.io](https://apis.io/) network
 
   Legit Security''s developer surface includes engineering blog, support, CLI, changelog, and 17 more developer resources.'
 random_paper: 17
+score:
+  band: thin
+  composite: 30.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 21.4
+    discoverability: 57.4
+    operational_transparency: 26.3
+  previous_composite: 30.9
+  provenance:
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/legit-security/refs/heads/main/screenshots/legit-security-2026-07-25T224837.png
 security:
 - kind: domain-security

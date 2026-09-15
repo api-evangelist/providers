@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 12
@@ -120,18 +146,22 @@ collections:
   slug: open-workboard-workstream-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/overlays/workboard-external-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workboard-external-v1-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/agentic-access/workboard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workboard-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/security/workboard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workboard-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/authentication/workboard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workboard-authentication.yml
@@ -180,10 +210,12 @@ common:
   type: StatusPage
   url: https://workboard.statuspage.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/lifecycle/workboard-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workboard-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/changelog/workboard-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/workboard-changelog.yml
@@ -192,26 +224,32 @@ common:
   type: MCPServer
   url: https://www.myworkboard.com/wb/mcp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/mcp/workboard-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/workboard-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/llms/workboard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workboard-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/packages/workboard-packages.yml
   title: ''
   type: Packages
   url: packages/workboard-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/well-known/workboard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workboard-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/conformance/workboard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workboard-conformance.yml
@@ -220,10 +258,12 @@ common:
   type: Compliance
   url: https://www.workboard.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/security/workboard-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workboard-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/security/workboard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/workboard-vulnerability-disclosure.yml
@@ -232,18 +272,22 @@ common:
   type: Security
   url: https://www.workboard.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/errors/workboard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workboard-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/conventions/workboard-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workboard-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/data-model/workboard-data-model.yml
   title: ''
   type: DataModel
   url: data-model/workboard-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/asyncapi/workboard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/workboard-webhooks.yml
@@ -270,6 +314,41 @@ overview: 'WorkBoard publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
   WorkBoard''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 49.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 59.3
+    developer_ergonomics: 42.3
+    discoverability: 68.5
+    operational_transparency: 52.6
+  previous_composite: 49.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/screenshots/workboard-2026-08-17T082939.png
 security:
 - kind: authentication

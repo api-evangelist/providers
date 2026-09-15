@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.4
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
@@ -56,62 +81,77 @@ collections:
   slug: open-julep-beauty-search-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/overlays/julep-beauty-storefront-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/julep-beauty-storefront-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/security/julep-beauty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/julep-beauty-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/well-known/julep-beauty-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/julep-beauty-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/llms/julep-beauty-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/julep-beauty-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/mcp/julep-beauty-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/julep-beauty-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/authentication/julep-beauty-authentication.yml
   title: ''
   type: Authentication
   url: authentication/julep-beauty-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/scopes/julep-beauty-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/julep-beauty-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/conventions/julep-beauty-conventions.yml
   title: ''
   type: Conventions
   url: conventions/julep-beauty-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/rate-limits/julep-beauty-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/julep-beauty-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/errors/julep-beauty-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/julep-beauty-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/lifecycle/julep-beauty-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/julep-beauty-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/conformance/julep-beauty-conformance.yml
   title: ''
   type: Conformance
   url: conformance/julep-beauty-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/data-model/julep-beauty-data-model.yml
   title: ''
   type: DataModel
   url: data-model/julep-beauty-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/packages/julep-beauty-packages.yml
   title: ''
   type: Packages
   url: packages/julep-beauty-packages.yml
@@ -181,6 +221,41 @@ scopes:
   scope_count: 0
   slug: julep-beauty-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 27.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 13.1
+    developer_ergonomics: 35.7
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 27.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/screenshots/julep-beauty-2026-08-07T171031.png
 security:
 - kind: authentication

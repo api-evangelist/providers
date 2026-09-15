@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -359,6 +385,7 @@ collections:
   slug: open-zoom-webinar-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/capabilities/zoom-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zoom-capability-edges.yml
@@ -367,22 +394,27 @@ common:
   type: IssueTracker
   url: https://github.com/zoom/api/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/agentic-access/zoom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zoom-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/security/zoom-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zoom-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/security/zoom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoom-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/authentication/zoom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zoom-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/scopes/zoom-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zoom-scopes.yml
@@ -391,90 +423,112 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zoom/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-account-then-user-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-account-then-user-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-approve-meeting-registrants-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-approve-meeting-registrants-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-approve-webinar-registrants-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-approve-webinar-registrants-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-batch-register-attendees-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-batch-register-attendees-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-chat-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-chat-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-create-and-confirm-meeting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-create-and-confirm-meeting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-create-and-confirm-webinar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-create-and-confirm-webinar-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-create-and-get-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-create-and-get-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-create-meeting-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-create-meeting-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-delete-recording-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-delete-recording-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-end-meeting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-end-meeting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-list-and-get-recording-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-list-and-get-recording-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-list-meetings-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-list-meetings-detail-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-meeting-live-stream-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-meeting-live-stream-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-meeting-recordings-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-meeting-recordings-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-meeting-registration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-meeting-registration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-onboard-user-with-meeting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-onboard-user-with-meeting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-past-meeting-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-past-meeting-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-resolve-user-by-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-resolve-user-by-email-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-update-meeting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-update-meeting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-user-report-recordings-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-user-report-recordings-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/arazzo/zoom-webinar-registration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zoom-webinar-registration-workflow.yml
@@ -547,10 +601,12 @@ common:
   type: GitHubRepository
   url: https://github.com/zoom/api
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/json-ld/zoom-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/zoom-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/rules/zoom-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/zoom-spectral-rules.yml
@@ -893,6 +949,39 @@ scopes:
   scope_count: 19
   slug: zoom-scopes
   summary_line: 19 scopes · authorizationCode
+score:
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 68.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 13.6
+    contract_quality: 71.9
+    developer_ergonomics: 65.5
+    discoverability: 75.9
+    operational_transparency: 28.9
+  previous_composite: 53.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png
 security:
 - kind: authentication

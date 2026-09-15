@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.happy-or-not.com/v2/
@@ -194,34 +219,42 @@ collections:
   slug: open-happyornot-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/capabilities/happyornot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/happyornot-capability-edges.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/_original/happyornot-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/happyornot-openapi-original.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/overlays/happyornot-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/happyornot-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/authentication/happyornot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/happyornot-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/security/happyornot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/happyornot-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/conventions/happyornot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/happyornot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/errors/happyornot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/happyornot-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/lifecycle/happyornot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/happyornot-lifecycle.yml
@@ -230,42 +263,52 @@ common:
   type: Deprecation
   url: https://happyornot.github.io/docs/api-v1/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/changelog/happyornot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/happyornot-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/data-model/happyornot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/happyornot-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/conformance/happyornot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/happyornot-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/mcp/happyornot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/happyornot-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/packages/happyornot-packages.yml
   title: ''
   type: Packages
   url: packages/happyornot-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/llms/happyornot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/happyornot-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/arazzo/happyornot-fetch-feedback.yml
   title: ''
   type: Arazzo
   url: arazzo/happyornot-fetch-feedback.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/arazzo/happyornot-monitor-alerts.yml
   title: ''
   type: Arazzo
   url: arazzo/happyornot-monitor-alerts.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/well-known/happyornot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/happyornot-well-known.yml
@@ -330,6 +373,41 @@ overview: 'HappyOrNot publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
   HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 55.0
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 43.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/screenshots/happyornot-2026-07-25T220655.png
 security:
 - kind: authentication

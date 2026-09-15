@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.graphiant.com
@@ -353,6 +378,7 @@ collections:
   slug: open-graphiant-portal-openapi-original
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/capabilities/graphiant-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/graphiant-capability-edges.yml
@@ -381,10 +407,12 @@ common:
   type: License
   url: https://github.com/Graphiant-Inc/graphiant-sdk-python/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/security/graphiant-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/graphiant-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/security/graphiant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphiant-domain-security.yml
@@ -461,98 +489,122 @@ common:
   type: X
   url: https://x.com/graphiant
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/openapi/graphiant-portal-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/graphiant-portal-openapi-original.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/packages/graphiant-packages.yml
   title: ''
   type: Packages
   url: packages/graphiant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/packages/graphiant-packages.yml
   title: ''
   type: SDKs
   url: packages/graphiant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/cli/graphiant-cli.yml
   title: ''
   type: CLI
   url: cli/graphiant-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/authentication/graphiant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/graphiant-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/conventions/graphiant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/graphiant-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/errors/graphiant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/graphiant-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/lifecycle/graphiant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/graphiant-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/lifecycle/graphiant-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/graphiant-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/conformance/graphiant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/graphiant-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/data-model/graphiant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/graphiant-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/asyncapi/graphiant-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/graphiant-notifications-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/llms/graphiant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/graphiant-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/well-known/graphiant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/graphiant-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/overlays/graphiant-portal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/graphiant-portal-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/mcp/graphiant-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/graphiant-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/mcp/graphiant-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/graphiant-tool-crosswalk.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/changelog/graphiant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/graphiant-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/skills/graphiant-authenticate-and-scope.md
   title: ''
   type: AgentSkill
   url: skills/graphiant-authenticate-and-scope.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/skills/graphiant-inventory-network.md
   title: ''
   type: AgentSkill
   url: skills/graphiant-inventory-network.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/skills/graphiant-push-device-config.md
   title: ''
   type: AgentSkill
   url: skills/graphiant-push-device-config.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/skills/graphiant-triage-alarms.md
   title: ''
   type: AgentSkill
   url: skills/graphiant-triage-alarms.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/skills/graphiant-plan-software-rollout.md
   title: ''
   type: AgentSkill
   url: skills/graphiant-plan-software-rollout.md
@@ -585,6 +637,43 @@ overview: 'Graphiant publishes 66 APIs on the [APIs.io](https://apis.io/) networ
 
   Graphiant''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 47 more developer resources.'
 random_paper: 13
+score:
+  band: strong
+  composite: 58.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 51.4
+    developer_ergonomics: 68.5
+    discoverability: 70.4
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 58.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 66
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/screenshots/graphiant-2026-08-07T165827.png
 security:
 - kind: authentication

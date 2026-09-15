@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: An unauthenticated, read-only JSON endpoint published on Immunefi's own domain that returns the complete catalog of bug bounty programs listed on the platform. Each record carries the project name and
@@ -59,38 +84,47 @@ common:
   type: Security
   url: https://immunefi.com/bug-bounty/immunefi/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/security/immunefi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/immunefi-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/security/immunefi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/immunefi-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/asyncapi/immunefi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/immunefi-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/conformance/immunefi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/immunefi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/conventions/immunefi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/immunefi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/lifecycle/immunefi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/immunefi-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/packages/immunefi-packages.yml
   title: ''
   type: Packages
   url: packages/immunefi-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/plans/immunefi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/immunefi-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/llms/immunefi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/immunefi-llms.txt
@@ -122,6 +156,35 @@ rate_limits:
 - limit_count: 0
   name: Immunefi Rate Limits
   slug: immunefi-rate-limits
+score:
+  band: thin
+  composite: 32.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 32.8
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/screenshots/immunefi-2026-09-02T145845.png
 security:
 - kind: authentication

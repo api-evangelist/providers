@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -249,14 +274,17 @@ collections:
   slug: open-light-v1-vendors-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/capabilities/light-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/light-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/overlays/light-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/light-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/agentic-access/light-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/light-agentic-access.yml
@@ -309,54 +337,67 @@ common:
   type: Compliance
   url: https://light.inc/soc-2
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/security/light-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/light-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/security/light-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/light-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/authentication/light-authentication.yml
   title: ''
   type: Authentication
   url: authentication/light-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/conventions/light-conventions.yml
   title: ''
   type: Conventions
   url: conventions/light-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/conventions/light-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/light-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/errors/light-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/light-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/rate-limits/light-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/light-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/lifecycle/light-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/light-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/conformance/light-conformance.yml
   title: ''
   type: Conformance
   url: conformance/light-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/data-model/light-data-model.yml
   title: ''
   type: DataModel
   url: data-model/light-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/mcp/light-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/light-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/llms/light-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/light-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -382,6 +423,47 @@ rate_limits:
 - limit_count: 2
   name: Light Rate Limits
   slug: light-rate-limits
+score:
+  band: developing
+  composite: 50.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 49.5
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 50.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/screenshots/light-2026-07-25T225058.png
 security:
 - kind: authentication

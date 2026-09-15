@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -97,10 +122,12 @@ collections:
   slug: open-brandtrack-zones-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/capabilities/brandtrack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brandtrack-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/overlays/brandtrack-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandtrack-openapi-overlay.yaml
@@ -117,58 +144,72 @@ common:
   type: APIReference
   url: https://developers.brandtrack.ai/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/packages/brandtrack-postman-collection.json
   title: ''
   type: Postman
   url: packages/brandtrack-postman-collection.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/authentication/brandtrack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brandtrack-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/scopes/brandtrack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brandtrack-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/mcp/brandtrack-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brandtrack-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/agentic-access/brandtrack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brandtrack-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/well-known/brandtrack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brandtrack-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/conventions/brandtrack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brandtrack-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/errors/brandtrack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brandtrack-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/conformance/brandtrack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brandtrack-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/lifecycle/brandtrack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brandtrack-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/data-model/brandtrack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brandtrack-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/security/brandtrack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brandtrack-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/llms/brandtrack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brandtrack-llms.txt
@@ -222,6 +263,41 @@ scopes:
   scope_count: 1
   slug: brandtrack-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 55.2
+    developer_ergonomics: 48.2
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 38.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:
 - kind: authentication

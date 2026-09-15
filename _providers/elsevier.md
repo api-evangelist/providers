@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,18 +111,22 @@ common:
   type: Website
   url: https://www.elsevier.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/agentic-access/elsevier-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/elsevier-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/security/elsevier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elsevier-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/authentication/elsevier-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elsevier-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/scopes/elsevier-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elsevier-scopes.yml
@@ -106,10 +135,12 @@ common:
   type: OpenIDConnect
   url: https://id.elsevier.com/.well-known/openid-configuration
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/well-known/elsevier-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elsevier-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/conformance/elsevier-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elsevier-conformance.yml
@@ -118,18 +149,22 @@ common:
   type: Compliance
   url: https://www.elsevier.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/conventions/elsevier-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elsevier-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/errors/elsevier-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elsevier-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/lifecycle/elsevier-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elsevier-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/changelog/elsevier-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elsevier-changelog.yml
@@ -138,42 +173,52 @@ common:
   type: ReleaseNotes
   url: https://dev.elsevier.com/release_notes.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/data-model/elsevier-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elsevier-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/components/elsevier-components.yml
   title: ''
   type: Components
   url: components/elsevier-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/plans/elsevier-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elsevier-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/rate-limits/elsevier-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elsevier-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/packages/elsevier-packages.yml
   title: ''
   type: Packages
   url: packages/elsevier-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/packages/elsevier-packages.yml
   title: ''
   type: SDKs
   url: packages/elsevier-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/llms/elsevier-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elsevier-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/mcp/elsevier-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/elsevier-mcp.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/sandbox/elsevier-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/elsevier-sandbox.yml
@@ -182,10 +227,12 @@ common:
   type: Console
   url: https://dev.elsevier.com/interactive.html
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/wadl/_index.yml
   title: ''
   type: WADL
   url: wadl/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/collections/elsevier.postman_collection.json
   title: ''
   type: Postman
   url: collections/elsevier.postman_collection.json
@@ -267,6 +314,47 @@ scopes:
   scope_count: 0
   slug: elsevier-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 60.9
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 4.5
+    contract_quality: 51.6
+    developer_ergonomics: 62.5
+    discoverability: 68.5
+    operational_transparency: 50.0
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 77.8
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png
 security:
 - kind: authentication

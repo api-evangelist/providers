@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 65.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -94,6 +119,7 @@ common:
   type: Website
   url: https://thehog.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/overlays/the-hog-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-hog-openapi-overlay.yaml
@@ -138,86 +164,107 @@ common:
   type: GitHubOrganization
   url: https://github.com/The-Hog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/authentication/the-hog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-hog-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/conventions/the-hog-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-hog-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/conventions/the-hog-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-hog-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/errors/the-hog-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-hog-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/rate-limits/the-hog-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-hog-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/mcp/the-hog-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-hog-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/packages/the-hog-packages.yml
   title: ''
   type: Packages
   url: packages/the-hog-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/well-known/the-hog-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-hog-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/lifecycle/the-hog-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-hog-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/conformance/the-hog-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-hog-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/data-model/the-hog-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-hog-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/llms/the-hog-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-hog-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/security/the-hog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-hog-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/agentic-access/the-hog-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/the-hog-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/a2a/the-hog-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/the-hog-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/mcp/the-hog-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/the-hog-tool-crosswalk.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/plans/the-hog-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-hog-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/scopes/the-hog-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/the-hog-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/cli/the-hog-cli.yml
   title: ''
   type: CLI
   url: cli/the-hog-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/packages/the-hog-packages.yml
   title: ''
   type: SDKs
   url: packages/the-hog-packages.yml
@@ -251,6 +298,41 @@ scopes:
   scope_count: 0
   slug: the-hog-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 57.8
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 48.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/screenshots/the-hog-2026-08-17T082336.png
 security:
 - kind: authentication

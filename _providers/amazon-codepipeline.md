@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -354,30 +379,37 @@ collections:
   slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/capabilities/amazon-codepipeline-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-codepipeline-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/overlays/amazon-codepipeline-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-codepipeline-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/agentic-access/amazon-codepipeline-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-codepipeline-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/security/amazon-codepipeline-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-codepipeline-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/security/amazon-codepipeline-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-codepipeline-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/security/amazon-codepipeline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-codepipeline-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/authentication/amazon-codepipeline-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-codepipeline-authentication.yml
@@ -386,34 +418,42 @@ common:
   type: Blog
   url: https://aws.amazon.com/blogs/devops/tag/aws-codepipeline/feed/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/packages/amazon-codepipeline-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-codepipeline-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/well-known/amazon-codepipeline-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-codepipeline-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/well-known/amazon-codepipeline-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-codepipeline-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/mcp/amazon-codepipeline-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-codepipeline-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/llms/amazon-codepipeline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-codepipeline-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/conformance/amazon-codepipeline-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-codepipeline-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/errors/amazon-codepipeline-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-codepipeline-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/lifecycle/amazon-codepipeline-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-codepipeline-lifecycle.yml
@@ -462,14 +502,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/rules/amazon-codepipeline-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-codepipeline-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/vocabulary/amazon-codepipeline-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-codepipeline-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/json-ld/amazon-codepipeline-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-codepipeline-context.jsonld
@@ -2869,6 +2912,40 @@ rules:
     info: 2
     warn: 9
   slug: amazon-codepipeline-spectral-rules
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 54.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 33.3
+    contract_quality: 71.1
+    developer_ergonomics: 59.5
+    discoverability: 70.4
+    operational_transparency: 18.4
+  previous_composite: 52.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 41
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:
 - kind: authentication

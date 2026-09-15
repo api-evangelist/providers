@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,30 +64,37 @@ collections:
   slug: open-chargy-open-charge-point-data
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/overlays/chargy-open-charge-point-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chargy-open-charge-point-data-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/mcp/chargy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chargy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/agentic-access/chargy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chargy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/security/chargy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chargy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/authentication/chargy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chargy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/conventions/chargy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chargy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/conformance/chargy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chargy-conformance.yml
@@ -71,18 +103,22 @@ common:
   type: Compliance
   url: https://help.char.gy/support/solutions/articles/77000576948-public-charge-point-regulations-2023
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/lifecycle/chargy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chargy-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/data-model/chargy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chargy-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/llms/chargy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chargy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -180,6 +216,56 @@ overview: 'char.gy publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
   char.gy''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 24 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 35.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 16.3
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 35.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 58.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/screenshots/chargy-2026-08-07T163259.png
 security:
 - kind: authentication

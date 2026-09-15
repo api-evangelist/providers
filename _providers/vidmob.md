@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,6 +87,7 @@ collections:
   slug: open-vidmob-workspaces-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/agentic-access/vidmob-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vidmob-agentic-access.yml
@@ -118,70 +144,87 @@ common:
   type: TrustCenter
   url: https://trust.vidmob.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/security/vidmob-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vidmob-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/authentication/vidmob-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vidmob-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/scopes/vidmob-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vidmob-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/conventions/vidmob-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vidmob-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/conventions/vidmob-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vidmob-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/errors/vidmob-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vidmob-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/errors/vidmob-no-data-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vidmob-no-data-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/mcp/vidmob-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/vidmob-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/overlays/vidmob-creative-scoring-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vidmob-creative-scoring-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/lifecycle/vidmob-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vidmob-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/conformance/vidmob-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vidmob-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/well-known/vidmob-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vidmob-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/security/vidmob-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vidmob-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/data-model/vidmob-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vidmob-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/llms/vidmob-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vidmob-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/mcp/vidmob-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vidmob-mcp.yml
@@ -211,6 +254,41 @@ scopes:
   scope_count: 12
   slug: vidmob-scopes
   summary_line: 12 scopes · authorizationCode/refreshToken/jwtBearer
+score:
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 55.0
+    developer_ergonomics: 49.4
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 39.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/screenshots/vidmob-2026-08-17T082749.png
 security:
 - kind: authentication

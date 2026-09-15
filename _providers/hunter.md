@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -167,14 +192,17 @@ common:
   type: Website
   url: https://www.hunter.io/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/agentic-access/hunter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hunter-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/security/hunter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hunter-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/authentication/hunter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hunter-authentication.yml
@@ -183,42 +211,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/hunter/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-account-guarded-domain-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-account-guarded-domain-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-combined-enrich-upsert-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-combined-enrich-upsert-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-create-list-add-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-create-list-add-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-discover-search-count-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-discover-search-count-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-domain-search-build-list-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-domain-search-build-list-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-domain-search-find-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-domain-search-find-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-enrich-verify-create-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-enrich-verify-create-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-find-verify-add-recipient-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-find-verify-add-recipient-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-find-verify-create-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-find-verify-create-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/arazzo/hunter-verify-add-to-campaign-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-verify-add-to-campaign-workflow.yml
@@ -235,18 +273,22 @@ common:
   type: Documentation
   url: https://hunter.io/api-documentation/v2
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/_original/hunter-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/hunter-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/overlays/hunter-full-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hunter-full-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/json-schema/hunter-lead-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hunter-lead-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/json-ld/hunter-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hunter-context.jsonld
@@ -303,6 +345,7 @@ common:
   type: Support
   url: https://help.hunter.io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/mcp/hunter-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hunter-mcp.yml
@@ -311,50 +354,62 @@ common:
   type: MCPServer
   url: https://mcp.hunter.io/mcp
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/mcp/hunter-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hunter-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/well-known/hunter-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hunter-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/llms/hunter-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hunter-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/packages/hunter-packages.yml
   title: ''
   type: Packages
   url: packages/hunter-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/conventions/hunter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hunter-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/conventions/hunter-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hunter-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/errors/hunter-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hunter-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/lifecycle/hunter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hunter-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/scopes/hunter-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hunter-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/sandbox/hunter-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hunter-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/conformance/hunter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hunter-conformance.yml
@@ -363,18 +418,22 @@ common:
   type: Compliance
   url: https://help.hunter.io/en/articles/1890029-gdpr-compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/data-model/hunter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hunter-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/asyncapi/hunter-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hunter-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/changelog/hunter-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hunter-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/security/hunter-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hunter-vulnerability-disclosure.yml
@@ -383,26 +442,32 @@ common:
   type: Security
   url: https://hunter.io/security-policy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/plans/hunter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hunter-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/rate-limits/hunter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hunter-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/finops/hunter-finops.yml
   title: ''
   type: FinOps
   url: finops/hunter-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/vocabulary/hunter-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hunter-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/rules/hunter-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/hunter-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/postman/hunter-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/hunter-api.postman_collection.json
@@ -780,6 +845,41 @@ scopes:
   scope_count: 2
   slug: hunter-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: exemplar
+  composite: 69.8
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 84.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 47.0
+    contract_quality: 74.9
+    developer_ergonomics: 60.7
+    discoverability: 68.5
+    operational_transparency: 76.3
+  previous_composite: 69.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:
 - kind: authentication

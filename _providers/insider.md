@@ -11,6 +11,32 @@ access_model:
   - authentication/insider-authentication.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.6
+  scored_at: '2026-09-14'
 api_count: 18
 apis:
 - description: First-party remote Model Context Protocol server exposing 35 tools across Email, SMS, WhatsApp, Web Push, Mobile App and Architect — 28 read-only and 7 that create drafts for human review. Authenticat
@@ -206,74 +232,92 @@ collections:
   slug: open-insider-whatsapp
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-unification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-unification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-contact-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-contact-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-mail-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-mail-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-sms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-whatsapp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-whatsapp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-gateway-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-web-push-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-web-push-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-mobile-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-mobile-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-mobile-settings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-mobile-settings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-live-activity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-live-activity-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-verify-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-verify-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-catalog-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-catalog-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-recommendation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-recommendation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-eureka-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-eureka-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-eureka-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-eureka-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-architect-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-architect-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/overlays/insider-architect-transactional-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insider-architect-transactional-overlay.yaml
@@ -334,90 +378,112 @@ common:
   type: Postman
   url: https://developers.insiderone.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/llms/insider-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insider-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/packages/insider-packages.yml
   title: ''
   type: Packages
   url: packages/insider-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/packages/insider-packages.yml
   title: ''
   type: SDKs
   url: packages/insider-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/authentication/insider-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insider-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/scopes/insider-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/insider-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/conventions/insider-conventions.yml
   title: ''
   type: Conventions
   url: conventions/insider-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/rate-limits/insider-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/insider-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/errors/insider-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/insider-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/lifecycle/insider-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/insider-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/changelog/insider-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/insider-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/plans/insider-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/insider-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/conformance/insider-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insider-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/security/insider-trust-center.yml
   title: ''
   type: Compliance
   url: security/insider-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/security/insider-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/insider-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/security/insider-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insider-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/well-known/insider-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/insider-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/data-model/insider-data-model.yml
   title: ''
   type: DataModel
   url: data-model/insider-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/components/insider-components.yml
   title: ''
   type: Components
   url: components/insider-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/asyncapi/insider-whatsapp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/insider-whatsapp-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/mcp/insider-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/insider-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/mcp/insider-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/insider-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -455,6 +521,50 @@ scopes:
   scope_count: 0
   slug: insider-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 57.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 21.6
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 57.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 25
+      marker_coverage: 100.0
+      total: 25
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 65.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,18 +139,22 @@ collections:
   slug: open-agave-vendors-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/agentic-access/agave-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agave-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/security/agave-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agave-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/security/agave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agave-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/authentication/agave-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agave-authentication.yml
@@ -162,6 +191,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/agave-api
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/packages/agave-packages.yml
   title: ''
   type: SDKs
   url: packages/agave-packages.yml
@@ -170,250 +200,312 @@ common:
   type: SDKs
   url: https://github.com/agave-api/react-agave-link
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/_ae-authored/agave-unified-api-from-postman-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_ae-authored/agave-unified-api-from-postman-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/_ae-authored/agave-unified-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_ae-authored/agave-unified-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-budget-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-budget-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-budget-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-budget-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-contract-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-contract-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-contract-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-contract-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-cost-code-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-cost-code-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-cost-code-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-cost-code-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-employee-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-employee-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-employee-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-employee-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-invoice-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-invoice-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-invoice-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-invoice-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-invoice-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-invoice-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-link-session-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-link-session-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-link-session-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-link-session-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-project-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-project-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-project-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-project-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-timesheet-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-timesheet-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-timesheet-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-timesheet-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-vendor-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-vendor-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-schema/unified-api-vendor-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unified-api-vendor-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-budget-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-budget-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-budget-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-budget-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-contract-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-contract-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-contract-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-contract-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-cost-code-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-cost-code-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-cost-code-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-cost-code-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-employee-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-employee-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-employee-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-employee-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-invoice-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-invoice-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-invoice-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-invoice-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-invoice-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-invoice-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-link-session-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-link-session-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-link-session-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-link-session-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-project-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-project-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-project-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-project-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-timesheet-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-timesheet-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-timesheet-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-timesheet-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-vendor-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-vendor-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-structure/unified-api-vendor-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/unified-api-vendor-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/json-ld/agave-unified-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/agave-unified-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-budget-example.json
   title: ''
   type: Examples
   url: examples/unified-api-budget-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-budget-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-budget-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-contract-example.json
   title: ''
   type: Examples
   url: examples/unified-api-contract-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-contract-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-contract-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-cost-code-example.json
   title: ''
   type: Examples
   url: examples/unified-api-cost-code-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-cost-code-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-cost-code-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-employee-example.json
   title: ''
   type: Examples
   url: examples/unified-api-employee-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-employee-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-employee-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-invoice-example.json
   title: ''
   type: Examples
   url: examples/unified-api-invoice-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-invoice-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-invoice-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-invoice-request-example.json
   title: ''
   type: Examples
   url: examples/unified-api-invoice-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-link-session-example.json
   title: ''
   type: Examples
   url: examples/unified-api-link-session-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-link-session-request-example.json
   title: ''
   type: Examples
   url: examples/unified-api-link-session-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-project-example.json
   title: ''
   type: Examples
   url: examples/unified-api-project-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-project-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-project-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-timesheet-example.json
   title: ''
   type: Examples
   url: examples/unified-api-timesheet-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-timesheet-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-timesheet-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-vendor-example.json
   title: ''
   type: Examples
   url: examples/unified-api-vendor-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/examples/unified-api-vendor-list-example.json
   title: ''
   type: Examples
   url: examples/unified-api-vendor-list-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/rules/agave-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/agave-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/vocabulary/agave-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/agave-vocabulary.yaml
@@ -422,30 +514,37 @@ common:
   type: Blog
   url: https://useagave.com/blog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/packages/agave-packages.yml
   title: ''
   type: Packages
   url: packages/agave-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/well-known/agave-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/agave-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/mcp/agave-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agave-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/mcp/agave-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/agave-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/llms/agave-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agave-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/overlays/agave-unified-api-from-postman-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agave-unified-api-from-postman-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/conformance/agave-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agave-conformance.yml
@@ -454,10 +553,12 @@ common:
   type: Compliance
   url: https://security.agaveapi.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/errors/agave-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agave-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/lifecycle/agave-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agave-lifecycle.yml
@@ -466,6 +567,7 @@ common:
   type: StatusPage
   url: https://status.agaveapi.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/changelog/agave-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agave-changelog.yml
@@ -474,38 +576,47 @@ common:
   type: ChangeLog
   url: https://useagave.com/product-updates
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/conventions/agave-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agave-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/conventions/agave-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/agave-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/rate-limits/agave-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agave-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/plans/agave-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agave-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/sandbox/agave-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agave-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/components/agave-components.yml
   title: ''
   type: Components
   url: components/agave-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/data-model/agave-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agave-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/asyncapi/agave-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agave-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -514,6 +625,7 @@ common:
   type: Postman
   url: https://docs.agaveapi.com/agave-api/postman-collection
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/collections/agave-api-provider.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/agave-api-provider.postman_collection.json
@@ -807,6 +919,41 @@ rules:
     info: 0
     warn: 15
   slug: agave-spectral-rules
+score:
+  band: strong
+  composite: 60.5
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 75.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 33.3
+    contract_quality: 38.1
+    developer_ergonomics: 78.0
+    discoverability: 74.1
+    operational_transparency: 84.2
+  previous_composite: 60.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:
 - kind: authentication

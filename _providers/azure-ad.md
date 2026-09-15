@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -100,22 +126,27 @@ common:
   type: Website
   url: https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/packages/azure-ad-packages.yml
   title: ''
   type: SDKs
   url: packages/azure-ad-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/security/azure-ad-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/azure-ad-vulnerability-disclosure.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/lifecycle/azure-ad-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/azure-ad-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/conventions/azure-ad-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/azure-ad-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/security/azure-ad-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/azure-ad-trust-center.yml
@@ -124,6 +155,7 @@ common:
   type: APIReference
   url: https://learn.microsoft.com/en-us/graph/api/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/asyncapi/azure-ad-change-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/azure-ad-change-notifications-webhooks.yml
@@ -152,98 +184,122 @@ common:
   type: DeveloperPortal
   url: https://developer.microsoft.com/en-us/graph
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/rate-limits/azure-ad-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-ad-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/plans/azure-ad-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-ad-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/sandbox/azure-ad-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/azure-ad-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/data-model/azure-ad-data-model.yml
   title: ''
   type: DataModel
   url: data-model/azure-ad-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/components/azure-ad-components.yml
   title: ''
   type: Components
   url: components/azure-ad-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/cli/azure-ad-cli.yml
   title: ''
   type: CLI
   url: cli/azure-ad-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/changelog/azure-ad-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/azure-ad-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/conventions/azure-ad-conventions.yml
   title: ''
   type: Conventions
   url: conventions/azure-ad-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/lifecycle/azure-ad-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/azure-ad-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/errors/azure-ad-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/azure-ad-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/security/azure-ad-trust-center.yml
   title: ''
   type: Compliance
   url: security/azure-ad-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/conformance/azure-ad-conformance.yml
   title: ''
   type: Conformance
   url: conformance/azure-ad-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/llms/azure-ad-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/azure-ad-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/mcp/azure-ad-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/azure-ad-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/mcp/azure-ad-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/azure-ad-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/well-known/azure-ad-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/azure-ad-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/well-known/azure-ad-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/azure-ad-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/packages/azure-ad-packages.yml
   title: ''
   type: Packages
   url: packages/azure-ad-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/security/azure-ad-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-ad-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/agentic-access/azure-ad-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-ad-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/security/azure-ad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-ad-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/authentication/azure-ad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-ad-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/scopes/azure-ad-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-ad-scopes.yml
@@ -354,6 +410,41 @@ scopes:
   scope_count: 39
   slug: azure-ad-scopes
   summary_line: 39 scopes · authorizationCode/clientCredentials/deviceCode
+score:
+  band: exemplar
+  composite: 77.9
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 52.0
+    developer_ergonomics: 82.7
+    discoverability: 81.5
+    operational_transparency: 97.4
+  previous_composite: 77.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/screenshots/azure-ad-2026-06-20T172836.png
 security:
 - kind: authentication

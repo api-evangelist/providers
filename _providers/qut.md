@@ -9,6 +9,31 @@ access_model:
   - probed
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 37.3
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://eprints.qut.edu.au/cgi/oai2
@@ -60,42 +85,52 @@ common:
   type: Website
   url: https://www.qut.edu.au/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/identity-federation/qut-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity-federation/qut-identity-federation.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/conformance/qut-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qut-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/authentication/qut-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qut-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/scopes/qut-scopes.yml
   title: ''
   type: Scopes
   url: scopes/qut-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/errors/qut-errors.yml
   title: ''
   type: Errors
   url: errors/qut-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/lifecycle/qut-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qut-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/rules/qut-openapi-rules.yml
   title: ''
   type: Rules
   url: rules/qut-openapi-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/vocabulary/qut-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/qut-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/json-ld/qut-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/qut-context.jsonld
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/mcp/qut-eresearch-docs-mcp.yml
   title: ''
   type: MCP
   url: mcp/qut-eresearch-docs-mcp.yml
@@ -128,22 +163,27 @@ common:
   type: LinkedIn
   url: https://au.linkedin.com/school/queensland-university-of-technology/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/security/qut-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qut-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/plans/qut-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qut-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/rate-limits/qut-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qut-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/finops/qut-finops.yml
   title: ''
   type: FinOps
   url: finops/qut-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qut/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -211,6 +251,52 @@ scopes:
   scope_count: 0
   slug: qut-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 35.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 76.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 38.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 11.4
+    contract_quality: 37.2
+    developer_ergonomics: 21.4
+    discoverability: 85.2
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 35.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 3
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Qut Authentication

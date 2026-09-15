@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 68.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -132,38 +158,47 @@ collections:
   slug: open-carsxe
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/agentic-access/carsxe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/carsxe-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/packages/carsxe-packages.yml
   title: ''
   type: Packages
   url: packages/carsxe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/packages/carsxe-packages.yml
   title: ''
   type: SDKs
   url: packages/carsxe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/cli/carsxe-cli.yml
   title: ''
   type: CLI
   url: cli/carsxe-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/mcp/carsxe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/carsxe-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/mcp/carsxe-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/carsxe-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/llms/carsxe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carsxe-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/well-known/carsxe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/carsxe-well-known.yml
@@ -172,14 +207,17 @@ common:
   type: APICatalog
   url: https://carsxe.com/.well-known/api-catalog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/conventions/carsxe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/carsxe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/conventions/carsxe-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/carsxe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/conformance/carsxe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carsxe-conformance.yml
@@ -188,18 +226,22 @@ common:
   type: Compliance
   url: https://carsxe.com/trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/security/carsxe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/carsxe-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/security/carsxe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carsxe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/authentication/carsxe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carsxe-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/errors/carsxe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/carsxe-problem-types.yml
@@ -208,14 +250,17 @@ common:
   type: ErrorCodes
   url: https://carsxe.com/docs/errors
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/data-model/carsxe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carsxe-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/examples/carsxe-examples.yml
   title: ''
   type: Examples
   url: examples/carsxe-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/lifecycle/carsxe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carsxe-lifecycle.yml
@@ -228,26 +273,32 @@ common:
   type: Deprecation
   url: https://carsxe.com/docs/versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/asyncapi/carsxe-recalls-batch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/carsxe-recalls-batch-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/sandbox/carsxe-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/carsxe-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/rate-limits/carsxe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/carsxe-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/plans/carsxe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carsxe-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/finops/carsxe-finops.yml
   title: ''
   type: FinOps
   url: finops/carsxe-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary.yml
@@ -356,6 +407,41 @@ rate_limits:
 - limit_count: 39
   name: Carsxe Rate Limits
   slug: carsxe-rate-limits
+score:
+  band: exemplar
+  composite: 74.2
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 74.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 41.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 33.3
+    contract_quality: 70.2
+    developer_ergonomics: 80.4
+    discoverability: 87.0
+    operational_transparency: 65.8
+  previous_composite: 74.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/screenshots/carsxe-2026-06-20T174021.png
 security:
 - kind: authentication
@@ -382,7 +468,7 @@ tags:
 - Recalls
 - Market Value
 - Vehicle History
-- Model Context Protocol
+- MCP
 - Agents
 website: https://carsxe.com/
 ---

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -37,22 +62,27 @@ collections:
   slug: open-amazon-cloud-wan-core-networks-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/agentic-access/amazon-cloud-wan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-cloud-wan-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/security/amazon-cloud-wan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloud-wan-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/security/amazon-cloud-wan-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloud-wan-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/security/amazon-cloud-wan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloud-wan-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/authentication/amazon-cloud-wan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-cloud-wan-authentication.yml
@@ -117,26 +147,32 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/rules/amazon-cloud-wan-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloud-wan-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/vocabulary/amazon-cloud-wan-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloud-wan-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/packages/amazon-cloud-wan-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloud-wan-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/well-known/amazon-cloud-wan-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloud-wan-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/well-known/amazon-cloud-wan-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloud-wan-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/llms/amazon-cloud-wan-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloud-wan-llms.txt
@@ -260,6 +296,40 @@ rules:
     info: 1
     warn: 10
   slug: amazon-cloud-wan-spectral-rules
+score:
+  band: developing
+  composite: 41.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 33.3
+    contract_quality: 20.9
+    developer_ergonomics: 59.5
+    discoverability: 66.7
+    operational_transparency: 18.4
+  previous_composite: 41.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/screenshots/amazon-cloud-wan-2026-07-25T195941.png
 security:
 - kind: authentication

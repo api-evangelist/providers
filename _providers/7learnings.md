@@ -1,8 +1,34 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.4
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/security/7learnings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/7learnings-domain-security.yml
@@ -83,62 +109,77 @@ common:
   type: ChangeLog
   url: https://7learnings.com/changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/changelog/7learnings-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/7learnings-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/lifecycle/7learnings-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/7learnings-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/vocabulary/7learnings-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/7learnings-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/data-model/7learnings-data-model.yml
   title: ''
   type: DataModel
   url: data-model/7learnings-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/conventions/7learnings-conventions.yml
   title: ''
   type: Conventions
   url: conventions/7learnings-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/authentication/7learnings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/7learnings-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/scopes/7learnings-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/7learnings-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/conformance/7learnings-conformance.yml
   title: ''
   type: Conformance
   url: conformance/7learnings-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/well-known/7learnings-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/7learnings-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/mcp/7learnings-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/7learnings-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/llms/7learnings-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/7learnings-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/packages/7learnings-packages.yml
   title: ''
   type: Packages
   url: packages/7learnings-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/plans/7learnings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/7learnings-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/rate-limits/7learnings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/7learnings-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/7learnings/refs/heads/main/security/7learnings-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/7learnings-vulnerability-disclosure.yml
@@ -172,6 +213,44 @@ scopes:
   scope_count: 0
   slug: 7learnings-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 26.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 32.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 33.3
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 50.0
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+    - north-america
+  previous_composite: 26.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: 7Learnings Authentication
@@ -197,11 +276,11 @@ tags:
 - Price Optimization
 - Predictive Pricing
 - Demand Forecasting
-- Machine Learning
-- Ecommerce
+- Machine-Learning
+- E-Commerce
 - Performance Marketing
 - Data Integration
 - Germany
-- SaaS
+- Software-as-a-Service
 website: https://7learnings.com/
 ---

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Partner Integration API is the SkyKick / ConnectWise Cloud Services partner-facing REST API. The provider's own Get Started page documents an OAuth 2.0 client-credentials token exchange at /auth/t
@@ -20,6 +45,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/security/skykick-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skykick-domain-security.yml
@@ -68,26 +94,32 @@ common:
   type: TrustCenter
   url: https://trust.connectwise.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/authentication/skykick-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skykick-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/scopes/skykick-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/skykick-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/conventions/skykick-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skykick-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/errors/skykick-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skykick-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/lifecycle/skykick-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skykick-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/conformance/skykick-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skykick-conformance.yml
@@ -96,30 +128,37 @@ common:
   type: Compliance
   url: https://www.connectwise.com/company/trust/compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/security/skykick-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/skykick-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/security/skykick-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/skykick-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/security/skykick-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/skykick-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/packages/skykick-packages.yml
   title: ''
   type: Packages
   url: packages/skykick-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/plans/skykick-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skykick-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/rate-limits/skykick-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skykick-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/llms/skykick-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skykick-llms.txt
@@ -150,6 +189,40 @@ scopes:
   scope_count: 0
   slug: skykick-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 29.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 68.5
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 29.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/skykick/refs/heads/main/screenshots/skykick-2026-09-02T155808.png
 security:
 - kind: authentication

@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 59.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,10 +78,12 @@ collections:
   slug: open-datarails-financeos-mcp
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/mcp/datarails-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/datarails-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/overlays/datarails-financeos-mcp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datarails-financeos-mcp-overlay.yaml
@@ -129,78 +156,97 @@ common:
   type: Compliance
   url: https://trust.datarails.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/security/datarails-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datarails-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/security/datarails-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datarails-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/authentication/datarails-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datarails-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/scopes/datarails-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/datarails-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/well-known/datarails-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/datarails-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/llms/datarails-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datarails-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/agentic-access/datarails-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datarails-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/conventions/datarails-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datarails-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/conformance/datarails-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datarails-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/errors/datarails-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datarails-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/lifecycle/datarails-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datarails-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/changelog/datarails-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datarails-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/data-model/datarails-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datarails-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/packages/datarails-packages.yml
   title: ''
   type: Packages
   url: packages/datarails-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/components/datarails-components.yml
   title: ''
   type: Components
   url: components/datarails-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/rate-limits/datarails-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datarails-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/sandbox/datarails-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/datarails-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/plans/datarails-plans.yml
   title: ''
   type: Plans
   url: plans/datarails-plans.yml
@@ -239,6 +285,45 @@ scopes:
   scope_count: 1
   slug: datarails-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 39.1
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 55.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 53.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:
 - kind: authentication

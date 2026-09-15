@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.brale.xyz
@@ -92,6 +117,7 @@ common:
   type: Website
   url: https://www.brale.xyz/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/capabilities/brale-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brale-capability-edges.yml
@@ -100,6 +126,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/brale/overview
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/a2a/brale-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/brale-a2a.yml
@@ -156,30 +183,37 @@ common:
   type: Postman
   url: https://www.postman.com/brale-xyz/brale-api/overview
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/_original/brale-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/brale-openapi-original.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/authentication/brale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brale-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/scopes/brale-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brale-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/security/brale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brale-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/well-known/brale-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/brale-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/well-known/brale-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brale-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/security/brale-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brale-vulnerability-disclosure.yml
@@ -188,34 +222,42 @@ common:
   type: Security
   url: https://brale.xyz/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/mcp/brale-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/brale-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/llms/brale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brale-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/packages/brale-packages.yml
   title: ''
   type: Packages
   url: packages/brale-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/cli/brale-cli.yml
   title: ''
   type: CLI
   url: cli/brale-cli.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/overlays/brale-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brale-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/conformance/brale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brale-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/errors/brale-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brale-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/lifecycle/brale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brale-lifecycle.yml
@@ -224,34 +266,42 @@ common:
   type: StatusPage
   url: https://status.brale.xyz
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/lifecycle/brale-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/brale-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/conventions/brale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brale-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/conventions/brale-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/brale-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/changelog/brale-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brale-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/sandbox/brale-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/brale-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/data-model/brale-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brale-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/asyncapi/brale-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/brale-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -280,6 +330,46 @@ scopes:
   scope_count: 20
   slug: brale-scopes
   summary_line: 20 scopes · clientCredentials
+score:
+  band: strong
+  composite: 60.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 63.8
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 60.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 64.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:
 - kind: authentication

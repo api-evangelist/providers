@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -723,6 +748,7 @@ collections:
   slug: open-amazon-route53-resolver
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/capabilities/amazon-route53-resolver-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-route53-resolver-capability-edges.yml
@@ -731,22 +757,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-route-53-resolver/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/agentic-access/amazon-route53-resolver-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-route53-resolver-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/security/amazon-route53-resolver-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-route53-resolver-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/security/amazon-route53-resolver-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-route53-resolver-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/security/amazon-route53-resolver-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-route53-resolver-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/authentication/amazon-route53-resolver-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-route53-resolver-authentication.yml
@@ -799,2598 +830,3247 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-ld/amazon-route53-resolver-context-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-route53-resolver-context-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-access-denied-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-access-denied-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-account-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-account-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-action-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-action-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-arn-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-arn-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-firewall-rule-group-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-firewall-rule-group-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-query-log-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-resolver-query-log-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-query-log-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-resolver-query-log-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-resolver-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-associate-resolver-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-associate-resolver-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-autodefined-reverse-flag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-autodefined-reverse-flag-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-block-override-dns-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-block-override-dns-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-block-override-domain-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-block-override-domain-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-block-override-ttl-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-block-override-ttl-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-block-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-block-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-boolean-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-boolean-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-conflict-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-conflict-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-count-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-count-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-firewall-domain-list-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-firewall-domain-list-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-firewall-domain-list-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-firewall-domain-list-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-firewall-rule-group-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-firewall-rule-group-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-firewall-rule-group-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-firewall-rule-group-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-firewall-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-firewall-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-firewall-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-firewall-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-resolver-endpoint-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-resolver-endpoint-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-resolver-endpoint-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-resolver-endpoint-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-resolver-query-log-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-resolver-query-log-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-resolver-query-log-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-resolver-query-log-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-resolver-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-resolver-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-create-resolver-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-create-resolver-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-creator-request-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-creator-request-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-firewall-domain-list-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-firewall-domain-list-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-firewall-domain-list-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-firewall-domain-list-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-group-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-group-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-group-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-group-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-firewall-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-resolver-endpoint-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-resolver-endpoint-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-resolver-endpoint-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-resolver-endpoint-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-resolver-query-log-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-resolver-query-log-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-resolver-query-log-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-resolver-query-log-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-resolver-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-resolver-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-delete-resolver-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-delete-resolver-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-destination-arn-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-destination-arn-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-resolver-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-resolver-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-disassociate-resolver-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-disassociate-resolver-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-domain-list-file-url-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-domain-list-file-url-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-domain-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-domain-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-filter-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-filter-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-filter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-filter-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-filter-value-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-filter-value-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-filter-values-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-filter-values-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-filters-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-filters-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-config-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-config-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domain-import-operation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domain-import-operation-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domain-list-metadata-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domain-list-metadata-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domain-list-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domain-list-metadata-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domain-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domain-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domain-list-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domain-list-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domain-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domain-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domain-update-operation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domain-update-operation-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-domains-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-domains-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-fail-open-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-fail-open-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-association-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-association-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-association-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-association-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-associations-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-associations-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-metadata-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-metadata-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-metadata-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-policy-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-group-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-group-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rule-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rule-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-firewall-rules-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-firewall-rules-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-domain-list-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-domain-list-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-domain-list-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-domain-list-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-association-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-association-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-association-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-association-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-firewall-rule-group-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-dnssec-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-dnssec-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-dnssec-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-dnssec-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-endpoint-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-endpoint-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-endpoint-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-endpoint-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-query-log-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-rule-association-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-rule-association-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-rule-association-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-rule-association-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-rule-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-rule-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-rule-policy-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-rule-policy-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-get-resolver-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-get-resolver-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-import-firewall-domains-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-import-firewall-domains-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-import-firewall-domains-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-import-firewall-domains-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-internal-service-error-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-internal-service-error-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-invalid-next-token-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-invalid-next-token-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-invalid-parameter-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-invalid-parameter-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-invalid-policy-document-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-invalid-policy-document-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-invalid-request-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-invalid-request-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-invalid-tag-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-invalid-tag-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-address-count-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-address-count-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-address-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-address-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-address-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-address-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-address-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-address-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-address-update-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-address-update-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-addresses-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-addresses-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-addresses-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-addresses-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ip-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ip-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-ipv6-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-ipv6-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-limit-exceeded-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-limit-exceeded-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-domain-max-results-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-domain-max-results-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-configs-max-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-configs-max-result-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-configs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-configs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-configs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-configs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-domain-lists-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-domain-lists-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-domain-lists-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-domain-lists-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-domains-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-domains-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-domains-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-domains-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-rule-groups-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-rule-groups-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-rule-groups-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-rule-groups-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-rules-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-rules-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-firewall-rules-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-firewall-rules-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-configs-max-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-configs-max-result-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-configs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-configs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-configs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-configs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-endpoints-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-endpoints-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-endpoints-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-endpoints-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-configs-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-configs-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-configs-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-query-log-configs-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-rule-associations-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-rule-associations-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-rule-associations-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-rule-associations-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-rules-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-rules-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-resolver-rules-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-resolver-rules-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-tags-for-resource-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-tags-for-resource-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-list-tags-for-resource-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-list-tags-for-resource-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-max-results-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-max-results-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-mutation-protection-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-mutation-protection-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-next-token-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-next-token-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-port-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-port-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-priority-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-priority-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-put-resolver-rule-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-put-resolver-rule-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-put-resolver-rule-policy-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-put-resolver-rule-policy-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-autodefined-reverse-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-autodefined-reverse-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-config-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-config-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-dnssec-config-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-dnssec-config-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-dnssec-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-dnssec-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-dnssec-validation-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-dnssec-validation-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-endpoint-direction-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-endpoint-direction-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-endpoint-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-endpoint-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-endpoint-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-endpoint-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-endpoint-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-endpoint-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-endpoints-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-endpoints-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-message-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-association-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-policy-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-query-log-config-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-association-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rule-association-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-association-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rule-association-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-associations-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rule-associations-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rule-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rule-policy-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rule-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rule-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rule-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resolver-rules-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resolver-rules-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resource-exists-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resource-exists-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resource-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resource-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resource-in-use-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resource-in-use-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resource-not-found-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resource-not-found-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-resource-unavailable-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-resource-unavailable-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-rfc3339-time-string-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-rfc3339-time-string-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-rule-type-option-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-rule-type-option-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-security-group-ids-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-security-group-ids-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-service-principle-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-service-principle-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-share-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-share-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-sort-by-key-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-sort-by-key-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-sort-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-sort-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-status-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-status-message-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-subnet-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-subnet-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-tag-key-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-tag-key-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-tag-key-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-tag-key-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-tag-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-tag-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-tag-resource-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-tag-resource-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-tag-resource-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-tag-resource-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-tag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-tag-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-tag-value-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-tag-value-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-target-address-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-target-address-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-target-list-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-target-list-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-throttling-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-throttling-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-unknown-resource-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-unknown-resource-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-unsigned-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-unsigned-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-untag-resource-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-untag-resource-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-untag-resource-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-untag-resource-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-domains-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-domains-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-domains-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-domains-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-rule-group-association-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-rule-group-association-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-rule-group-association-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-rule-group-association-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-firewall-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-firewall-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-ip-address-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-ip-address-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-ip-addresses-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-ip-addresses-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-dnssec-config-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-dnssec-config-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-endpoint-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-endpoint-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-endpoint-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-endpoint-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-rule-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-rule-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-update-resolver-rule-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-update-resolver-rule-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-validation-exception-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-validation-exception-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-schema/amazon-route53-resolver-openapi-validation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-route53-resolver-openapi-validation-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-access-denied-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-access-denied-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-account-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-account-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-action-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-action-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-arn-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-arn-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-firewall-rule-group-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-firewall-rule-group-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-resolver-query-log-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-resolver-query-log-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-resolver-query-log-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-resolver-query-log-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-resolver-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-resolver-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-associate-resolver-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-associate-resolver-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-autodefined-reverse-flag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-autodefined-reverse-flag-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-block-override-dns-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-block-override-dns-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-block-override-domain-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-block-override-domain-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-block-override-ttl-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-block-override-ttl-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-block-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-block-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-boolean-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-boolean-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-conflict-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-conflict-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-count-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-count-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-firewall-domain-list-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-firewall-domain-list-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-firewall-domain-list-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-firewall-domain-list-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-firewall-rule-group-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-firewall-rule-group-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-firewall-rule-group-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-firewall-rule-group-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-firewall-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-firewall-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-firewall-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-firewall-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-resolver-endpoint-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-resolver-endpoint-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-resolver-endpoint-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-resolver-endpoint-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-resolver-query-log-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-resolver-query-log-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-resolver-query-log-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-resolver-query-log-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-resolver-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-resolver-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-create-resolver-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-create-resolver-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-creator-request-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-creator-request-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-firewall-domain-list-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-firewall-domain-list-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-firewall-domain-list-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-firewall-domain-list-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-group-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-group-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-group-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-group-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-firewall-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-resolver-endpoint-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-resolver-endpoint-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-resolver-endpoint-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-resolver-endpoint-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-resolver-query-log-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-resolver-query-log-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-resolver-query-log-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-resolver-query-log-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-resolver-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-resolver-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-delete-resolver-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-delete-resolver-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-destination-arn-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-destination-arn-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-resolver-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-resolver-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-disassociate-resolver-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-disassociate-resolver-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-domain-list-file-url-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-domain-list-file-url-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-domain-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-domain-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-filter-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-filter-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-filter-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-filter-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-filter-value-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-filter-value-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-filter-values-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-filter-values-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-filters-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-filters-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-config-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-config-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domain-import-operation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domain-import-operation-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domain-list-metadata-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domain-list-metadata-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domain-list-metadata-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domain-list-metadata-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domain-list-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domain-list-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domain-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domain-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domain-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domain-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domain-update-operation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domain-update-operation-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-domains-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-domains-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-fail-open-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-fail-open-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-association-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-association-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-association-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-association-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-associations-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-associations-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-metadata-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-metadata-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-metadata-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-metadata-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-policy-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-group-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-group-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rule-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rule-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-firewall-rules-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-firewall-rules-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-domain-list-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-domain-list-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-domain-list-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-domain-list-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-association-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-association-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-association-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-association-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-firewall-rule-group-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-dnssec-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-dnssec-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-dnssec-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-dnssec-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-endpoint-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-endpoint-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-endpoint-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-endpoint-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-query-log-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-rule-association-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-rule-association-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-rule-association-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-rule-association-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-rule-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-rule-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-rule-policy-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-rule-policy-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-get-resolver-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-get-resolver-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-import-firewall-domains-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-import-firewall-domains-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-import-firewall-domains-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-import-firewall-domains-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-internal-service-error-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-internal-service-error-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-invalid-next-token-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-invalid-next-token-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-invalid-parameter-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-invalid-parameter-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-invalid-policy-document-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-invalid-policy-document-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-invalid-request-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-invalid-request-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-invalid-tag-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-invalid-tag-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-address-count-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-address-count-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-address-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-address-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-address-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-address-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-address-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-address-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-address-update-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-address-update-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-addresses-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-addresses-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-addresses-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-addresses-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ip-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ip-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-ipv6-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-ipv6-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-limit-exceeded-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-limit-exceeded-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-domain-max-results-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-domain-max-results-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-configs-max-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-configs-max-result-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-configs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-configs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-configs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-configs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-domain-lists-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-domain-lists-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-domain-lists-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-domain-lists-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-domains-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-domains-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-domains-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-domains-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-rule-groups-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-rule-groups-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-rule-groups-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-rule-groups-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-rules-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-rules-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-firewall-rules-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-firewall-rules-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-configs-max-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-configs-max-result-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-configs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-configs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-configs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-configs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-endpoints-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-endpoints-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-endpoints-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-endpoints-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-configs-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-configs-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-configs-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-query-log-configs-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-rule-associations-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-rule-associations-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-rule-associations-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-rule-associations-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-rules-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-rules-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-resolver-rules-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-resolver-rules-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-tags-for-resource-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-tags-for-resource-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-list-tags-for-resource-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-list-tags-for-resource-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-max-results-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-max-results-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-mutation-protection-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-mutation-protection-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-next-token-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-next-token-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-port-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-port-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-priority-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-priority-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-put-resolver-rule-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-put-resolver-rule-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-put-resolver-rule-policy-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-put-resolver-rule-policy-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-autodefined-reverse-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-autodefined-reverse-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-config-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-config-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-dnssec-config-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-dnssec-config-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-dnssec-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-dnssec-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-dnssec-validation-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-dnssec-validation-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-endpoint-direction-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-endpoint-direction-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-endpoint-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-endpoint-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-endpoint-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-endpoint-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-endpoint-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-endpoint-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-endpoints-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-endpoints-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-message-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-message-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-error-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-association-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-policy-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-query-log-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rule-association-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rule-association-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rule-association-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rule-association-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rule-associations-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rule-associations-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rule-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rule-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rule-policy-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rule-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rule-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rule-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rule-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rule-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resolver-rules-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resolver-rules-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resource-exists-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resource-exists-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resource-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resource-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resource-in-use-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resource-in-use-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resource-not-found-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resource-not-found-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-resource-unavailable-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-resource-unavailable-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-rfc3339-time-string-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-rfc3339-time-string-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-rule-type-option-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-rule-type-option-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-security-group-ids-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-security-group-ids-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-service-principle-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-service-principle-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-share-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-share-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-sort-by-key-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-sort-by-key-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-sort-order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-sort-order-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-status-message-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-status-message-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-subnet-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-subnet-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-tag-key-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-tag-key-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-tag-key-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-tag-key-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-tag-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-tag-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-tag-resource-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-tag-resource-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-tag-resource-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-tag-resource-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-tag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-tag-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-tag-value-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-tag-value-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-target-address-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-target-address-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-target-list-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-target-list-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-throttling-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-throttling-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-unknown-resource-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-unknown-resource-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-unsigned-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-unsigned-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-untag-resource-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-untag-resource-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-untag-resource-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-untag-resource-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-domains-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-domains-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-domains-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-domains-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-rule-group-association-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-rule-group-association-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-rule-group-association-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-rule-group-association-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-firewall-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-firewall-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-ip-address-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-ip-address-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-ip-addresses-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-ip-addresses-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-dnssec-config-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-dnssec-config-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-endpoint-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-endpoint-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-endpoint-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-endpoint-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-rule-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-rule-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-update-resolver-rule-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-update-resolver-rule-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-validation-exception-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-validation-exception-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/json-structure/amazon-route53-resolver-openapi-validation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-route53-resolver-openapi-validation-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-firewall-rule-group-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-firewall-rule-group-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-resolver-endpoint-ip-address-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-resolver-query-log-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-resolver-query-log-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-resolver-query-log-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-resolver-query-log-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-resolver-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-resolver-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-associate-resolver-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-associate-resolver-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-firewall-domain-list-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-firewall-domain-list-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-firewall-domain-list-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-firewall-domain-list-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-firewall-rule-group-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-firewall-rule-group-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-firewall-rule-group-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-firewall-rule-group-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-firewall-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-firewall-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-firewall-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-firewall-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-resolver-endpoint-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-resolver-endpoint-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-resolver-endpoint-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-resolver-endpoint-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-resolver-query-log-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-resolver-query-log-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-resolver-query-log-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-resolver-query-log-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-resolver-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-resolver-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-create-resolver-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-create-resolver-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-firewall-domain-list-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-firewall-domain-list-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-firewall-domain-list-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-firewall-domain-list-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-firewall-rule-group-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-firewall-rule-group-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-firewall-rule-group-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-firewall-rule-group-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-firewall-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-firewall-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-firewall-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-firewall-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-resolver-endpoint-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-resolver-endpoint-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-resolver-endpoint-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-resolver-endpoint-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-resolver-query-log-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-resolver-query-log-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-resolver-query-log-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-resolver-query-log-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-resolver-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-resolver-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-delete-resolver-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-delete-resolver-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-firewall-rule-group-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-resolver-endpoint-ip-address-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-resolver-query-log-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-resolver-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-resolver-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-disassociate-resolver-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-disassociate-resolver-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-filter-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-filter-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-firewall-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-firewall-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-firewall-domain-list-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-firewall-domain-list-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-firewall-domain-list-metadata-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-firewall-domain-list-metadata-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-firewall-rule-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-firewall-rule-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-firewall-rule-group-association-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-firewall-rule-group-association-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-firewall-rule-group-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-firewall-rule-group-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-firewall-rule-group-metadata-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-firewall-rule-group-metadata-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-domain-list-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-domain-list-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-domain-list-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-domain-list-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-rule-group-association-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-rule-group-association-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-rule-group-association-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-rule-group-association-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-rule-group-policy-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-rule-group-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-rule-group-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-firewall-rule-group-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-firewall-rule-group-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-dnssec-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-dnssec-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-dnssec-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-dnssec-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-endpoint-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-endpoint-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-endpoint-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-endpoint-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-association-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-policy-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-query-log-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-rule-association-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-rule-association-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-rule-association-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-rule-association-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-rule-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-rule-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-rule-policy-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-rule-policy-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-get-resolver-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-get-resolver-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-import-firewall-domains-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-import-firewall-domains-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-import-firewall-domains-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-import-firewall-domains-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-ip-address-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-ip-address-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-ip-address-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-ip-address-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-ip-address-update-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-ip-address-update-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-configs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-configs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-configs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-configs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-domain-lists-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-domain-lists-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-domain-lists-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-domain-lists-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-domains-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-domains-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-domains-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-domains-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-rule-group-associations-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-rule-groups-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-rule-groups-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-rule-groups-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-rule-groups-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-rules-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-rules-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-firewall-rules-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-firewall-rules-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-configs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-configs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-configs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-configs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-dnssec-configs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-endpoint-ip-addresses-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-endpoints-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-endpoints-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-endpoints-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-endpoints-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-query-log-config-associations-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-query-log-configs-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-query-log-configs-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-query-log-configs-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-query-log-configs-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-rule-associations-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-rule-associations-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-rule-associations-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-rule-associations-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-rules-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-rules-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-resolver-rules-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-resolver-rules-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-tags-for-resource-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-tags-for-resource-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-list-tags-for-resource-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-list-tags-for-resource-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-put-firewall-rule-group-policy-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-put-resolver-query-log-config-policy-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-put-resolver-rule-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-put-resolver-rule-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-put-resolver-rule-policy-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-put-resolver-rule-policy-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-dnssec-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-dnssec-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-endpoint-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-endpoint-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-query-log-config-association-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-query-log-config-association-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-query-log-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-query-log-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-rule-association-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-rule-association-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-rule-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-rule-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-resolver-rule-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-resolver-rule-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-tag-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-tag-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-tag-resource-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-tag-resource-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-target-address-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-target-address-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-untag-resource-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-untag-resource-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-domains-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-domains-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-domains-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-domains-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-rule-group-association-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-rule-group-association-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-rule-group-association-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-rule-group-association-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-firewall-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-firewall-rule-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-ip-address-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-ip-address-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-dnssec-config-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-dnssec-config-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-dnssec-config-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-endpoint-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-endpoint-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-endpoint-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-endpoint-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-rule-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-rule-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/examples/amazon-route53-resolver-openapi-update-resolver-rule-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-route53-resolver-openapi-update-resolver-rule-response-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/rules/amazon-route53-resolver-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-route53-resolver-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/vocabulary/amazon-route53-resolver-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-route53-resolver-vocabulary.yaml
@@ -5390,6 +6070,38 @@ rules:
     info: 1
     warn: 16
   slug: amazon-route53-resolver-spectral-rules
+score:
+  band: developing
+  composite: 49.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 58.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 28.8
+    contract_quality: 64.6
+    developer_ergonomics: 48.8
+    discoverability: 53.7
+    operational_transparency: 26.3
+  previous_composite: 49.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/screenshots/amazon-route53-resolver-2026-06-20T171815.png
 security:
 - kind: authentication

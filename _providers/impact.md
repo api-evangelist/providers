@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.5
+  scored_at: '2026-09-14'
 api_count: 138
 apis:
 - description: Remote Model Context Protocol server for impact.com. Fifteen documented tools give an AI assistant account-scoped access to performance analytics, invoices, partner and program discovery, promo codes,
@@ -326,26 +352,32 @@ asyncapis:
   slug: impact-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/capabilities/impact-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/impact-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/overlays/impact-brand-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impact-brand-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/overlays/impact-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impact-partner-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/overlays/impact-agency-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impact-agency-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/security/impact-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/impact-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/security/impact-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/impact-domain-security.yml
@@ -378,22 +410,27 @@ common:
   type: X
   url: https://x.com/impactdotcom
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/plans/impact-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/impact-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/rate-limits/impact-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/impact-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/finops/impact-finops.yml
   title: ''
   type: FinOps
   url: finops/impact-finops.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/json-ld/impact-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/impact-context.jsonld
@@ -430,98 +467,122 @@ common:
   type: StatusPage
   url: https://status.impact.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/lifecycle/impact-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/impact-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/lifecycle/impact-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impact-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/changelog/impact-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/impact-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/conventions/impact-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impact-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/errors/impact-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/impact-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/authentication/impact-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impact-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/scopes/impact-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/impact-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/conformance/impact-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impact-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/security/impact-trust-center.yml
   title: ''
   type: Compliance
   url: security/impact-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/security/impact-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/impact-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/security/impact-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/impact-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/well-known/impact-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/impact-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/well-known/impact-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/impact-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/packages/impact-packages.yml
   title: ''
   type: Packages
   url: packages/impact-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/packages/impact-packages.yml
   title: ''
   type: SDKs
   url: packages/impact-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/components/impact-components.yml
   title: ''
   type: Components
   url: components/impact-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/data-model/impact-data-model.yml
   title: ''
   type: DataModel
   url: data-model/impact-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/sandbox/impact-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/impact-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/llms/impact-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impact-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/mcp/impact-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/impact-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/mcp/impact-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/impact-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/asyncapi/impact-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/impact-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/graphql/impact-advocate-graphql.yml
   title: ''
   type: GraphQL
   url: graphql/impact-advocate-graphql.yml
@@ -567,6 +628,40 @@ scopes:
   scope_count: 0
   slug: impact-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 68.2
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 57.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 4.5
+    contract_quality: 63.0
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 94.7
+  previous_composite: 68.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/screenshots/impact-2026-06-20T183254.png
 security:
 - kind: authentication

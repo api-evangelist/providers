@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.keyper.io/access
@@ -36,10 +61,12 @@ collections:
   slug: open-keyper-transactions-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/mcp/keyper-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/keyper-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/overlays/keyper-access-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keyper-access-overlay.yaml
@@ -88,38 +115,47 @@ common:
   type: Website
   url: https://www.keyper.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/packages/keyper-packages.yml
   title: ''
   type: Packages
   url: packages/keyper-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/packages/keyper-packages.yml
   title: ''
   type: SDKs
   url: packages/keyper-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/components/keyper-components.yml
   title: ''
   type: Components
   url: components/keyper-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/sandbox/keyper-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/keyper-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/lifecycle/keyper-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keyper-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/llms/keyper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keyper-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/well-known/keyper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/keyper-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/security/keyper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keyper-domain-security.yml
@@ -136,6 +172,46 @@ overview: 'Keyper publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 
   Keyper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 14.5
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 31.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/screenshots/keyper-2026-07-25T223658.png
 security:
 - kind: authentication

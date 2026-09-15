@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -181,6 +206,7 @@ collections:
   slug: open-volteras-vehicles-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/capabilities/volteras-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/volteras-capability-edges.yml
@@ -237,66 +263,82 @@ common:
   type: Compliance
   url: https://www.volteras.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/llms/volteras-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/volteras-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/authentication/volteras-authentication.yml
   title: ''
   type: Authentication
   url: authentication/volteras-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/scopes/volteras-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/volteras-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/security/volteras-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/volteras-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/agentic-access/volteras-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/volteras-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/conventions/volteras-conventions.yml
   title: ''
   type: Conventions
   url: conventions/volteras-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/errors/volteras-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/volteras-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/lifecycle/volteras-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/volteras-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/sandbox/volteras-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/volteras-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/rate-limits/volteras-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/volteras-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/asyncapi/volteras-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/volteras-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/conformance/volteras-conformance.yml
   title: ''
   type: Conformance
   url: conformance/volteras-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/data-model/volteras-data-model.yml
   title: ''
   type: DataModel
   url: data-model/volteras-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/overlays/volteras-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/volteras-connect-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/mcp/volteras-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/volteras-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -325,6 +367,47 @@ scopes:
   scope_count: 12
   slug: volteras-scopes
   summary_line: 12 scopes · clientCredentials
+score:
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 57.4
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 51.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/screenshots/volteras-2026-08-17T082816.png
 security:
 - kind: authentication

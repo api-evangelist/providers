@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.5
+  scored_at: '2026-09-14'
 api_count: 12
 apis:
 - baseURL: https://private.intel.amp.cisco.com
@@ -436,30 +461,37 @@ asyncapis:
   slug: cisco-xdr-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/capabilities/cisco-xdr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-xdr-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/overlays/cisco-xdr-incidents-investigations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-xdr-incidents-investigations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/overlays/cisco-xdr-automation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-xdr-automation-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/scopes/cisco-xdr-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cisco-xdr-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/authentication/cisco-xdr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-xdr-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/security/cisco-xdr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-xdr-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/security/cisco-xdr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-xdr-domain-security.yml
@@ -492,26 +524,32 @@ common:
   type: Portal
   url: https://developer.cisco.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-incidents-investigations-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/cisco-xdr-incidents-investigations-openapi.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-automation-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/cisco-xdr-automation-openapi.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/conventions/cisco-xdr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cisco-xdr-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/errors/cisco-xdr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cisco-xdr-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/data-model/cisco-xdr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cisco-xdr-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/lifecycle/cisco-xdr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cisco-xdr-lifecycle.yml
@@ -520,6 +558,7 @@ common:
   type: StatusPage
   url: https://status.tdr.cisco.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/changelog/cisco-xdr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cisco-xdr-changelog.yml
@@ -528,26 +567,32 @@ common:
   type: ChangeLog
   url: https://developer.cisco.com/docs/cisco-xdr/api-changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/rate-limits/cisco-xdr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-xdr-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/plans/cisco-xdr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-xdr-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/packages/cisco-xdr-packages.yml
   title: ''
   type: Packages
   url: packages/cisco-xdr-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/packages/cisco-xdr-packages.yml
   title: ''
   type: SDKs
   url: packages/cisco-xdr-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/well-known/cisco-xdr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cisco-xdr-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/well-known/cisco-xdr-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cisco-xdr-security.txt
@@ -556,6 +601,7 @@ common:
   type: Security
   url: https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/security/cisco-xdr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cisco-xdr-trust-center.yml
@@ -564,34 +610,42 @@ common:
   type: Compliance
   url: https://trustportal.cisco.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/conformance/cisco-xdr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cisco-xdr-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/asyncapi/cisco-xdr-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cisco-xdr-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/llms/cisco-xdr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cisco-xdr-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/overlays/cisco-xdr-inspect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-xdr-inspect-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/overlays/cisco-xdr-iroh-response-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-xdr-iroh-response-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/mcp/cisco-xdr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cisco-xdr-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/mcp/cisco-xdr-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cisco-xdr-tool-crosswalk.yml
@@ -668,6 +722,40 @@ scopes:
   scope_count: 41
   slug: cisco-xdr-scopes
   summary_line: 41 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 62.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 4.5
+    contract_quality: 61.3
+    developer_ergonomics: 66.1
+    discoverability: 68.5
+    operational_transparency: 76.3
+  previous_composite: 62.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 62.2
+      derived: 0
+      marker_coverage: 100.0
+      total: 82
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/screenshots/cisco-xdr-2026-09-02T145050.png
 security:
 - kind: authentication

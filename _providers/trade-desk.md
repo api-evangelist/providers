@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -107,10 +133,12 @@ common:
   type: Roadmap
   url: https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/UpgradeSupport
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/packages/trade-desk-packages.yml
   title: ''
   type: SDKs
   url: packages/trade-desk-packages.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/_original/trade-desk-data-api-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_original/trade-desk-data-api-swagger.json
@@ -127,34 +155,42 @@ common:
   type: Support
   url: https://open.thetradedesk.com/contact-us
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/rate-limits/trade-desk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trade-desk-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/plans/trade-desk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trade-desk-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/data-model/trade-desk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trade-desk-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/components/trade-desk-components.yml
   title: ''
   type: Components
   url: components/trade-desk-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/changelog/trade-desk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trade-desk-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/conventions/trade-desk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trade-desk-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/sandbox/trade-desk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trade-desk-sandbox.yml
@@ -163,14 +199,17 @@ common:
   type: Security
   url: https://www.thetradedesk.com/trust/report-a-vulnerability
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/security/trade-desk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trade-desk-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/authentication/trade-desk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trade-desk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/scopes/trade-desk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trade-desk-scopes.yml
@@ -179,14 +218,17 @@ common:
   type: Deprecation
   url: https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/UpgradeSupport
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/lifecycle/trade-desk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trade-desk-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/errors/trade-desk-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/trade-desk-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/errors/trade-desk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trade-desk-problem-types.yml
@@ -195,34 +237,42 @@ common:
   type: Compliance
   url: https://www.thetradedesk.com/trust/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/conformance/trade-desk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trade-desk-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/llms/trade-desk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trade-desk-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/mcp/trade-desk-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/trade-desk-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/mcp/trade-desk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/trade-desk-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/well-known/trade-desk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trade-desk-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/packages/trade-desk-packages.yml
   title: ''
   type: Packages
   url: packages/trade-desk-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/agentic-access/trade-desk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trade-desk-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/security/trade-desk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trade-desk-domain-security.yml
@@ -389,6 +439,41 @@ scopes:
   scope_count: 91
   slug: trade-desk-scopes
   summary_line: 91 scopes · authorizationCode/clientCredentials/deviceCode
+score:
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 53.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png
 security:
 - kind: authentication

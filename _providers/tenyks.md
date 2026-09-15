@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -55,10 +80,12 @@ common:
   type: Website
   url: https://www.tenyks.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/security/tenyks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tenyks-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/agentic-access/tenyks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tenyks-agentic-access.yml
@@ -95,54 +122,67 @@ common:
   type: LinkedIn
   url: https://uk.linkedin.com/company/tenyks
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/authentication/tenyks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tenyks-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/llms/tenyks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tenyks-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/well-known/tenyks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tenyks-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/mcp/tenyks-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tenyks-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/packages/tenyks-packages.yml
   title: ''
   type: Packages
   url: packages/tenyks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/packages/tenyks-packages.yml
   title: ''
   type: SDKs
   url: packages/tenyks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/cli/tenyks-cli.yml
   title: ''
   type: CLI
   url: cli/tenyks-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/sandbox/tenyks-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tenyks-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/conventions/tenyks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tenyks-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/errors/tenyks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tenyks-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/lifecycle/tenyks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tenyks-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/data-model/tenyks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tenyks-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/conformance/tenyks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tenyks-conformance.yml
@@ -151,14 +191,17 @@ common:
   type: Compliance
   url: https://trust.tenyks.ai
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/security/tenyks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tenyks-trust-center.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/overlays/tenyks-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tenyks-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -176,6 +219,41 @@ overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
   Tenyks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 40.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 18.2
+    contract_quality: 54.7
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 40.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/screenshots/tenyks-2026-08-17T082314.png
 security:
 - kind: authentication

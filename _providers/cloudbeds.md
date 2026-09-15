@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -270,22 +295,27 @@ collections:
   slug: open-cloudbeds
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/capabilities/cloudbeds-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudbeds-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/agentic-access/cloudbeds-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudbeds-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/security/cloudbeds-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudbeds-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/authentication/cloudbeds-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudbeds-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/scopes/cloudbeds-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cloudbeds-scopes.yml
@@ -310,14 +340,17 @@ common:
   type: Developer
   url: https://developers.cloudbeds.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/plans/cloudbeds-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudbeds-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/rate-limits/cloudbeds-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudbeds-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/finops/cloudbeds-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudbeds-finops.yml
@@ -326,10 +359,12 @@ common:
   type: LlmsText
   url: https://developers.cloudbeds.com/llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/rules/cloudbeds-rules.yml
   title: ''
   type: SpectralRules
   url: rules/cloudbeds-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbeds/refs/heads/main/vocabulary/cloudbeds-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cloudbeds-vocabulary.yml
@@ -423,6 +458,49 @@ scopes:
   scope_count: 2
   slug: cloudbeds-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: thin
+  composite: 33.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 65.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 62.6
+    developer_ergonomics: 19.0
+    discoverability: 61.1
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 33.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 42.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Cloudbeds Authentication

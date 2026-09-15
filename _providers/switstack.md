@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 2
@@ -75,18 +100,22 @@ arazzos:
 artifact_total: 17
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/overlays/switstack-switcloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/switstack-switcloud-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/overlays/switstack-swittest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/switstack-swittest-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/agentic-access/switstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/switstack-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/scopes/switstack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/switstack-scopes.yml
@@ -135,66 +164,82 @@ common:
   type: License
   url: https://docs.switstack.io/moka/license/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/authentication/switstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/switstack-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/conventions/switstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/switstack-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/errors/switstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/switstack-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/data-model/switstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/switstack-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/lifecycle/switstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/switstack-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/conformance/switstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/switstack-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/packages/switstack-packages.yml
   title: ''
   type: Packages
   url: packages/switstack-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/packages/switstack-packages.yml
   title: ''
   type: SDKs
   url: packages/switstack-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/cli/switstack-cli.yml
   title: ''
   type: CLI
   url: cli/switstack-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/sandbox/switstack-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/switstack-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/plans/switstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/switstack-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/rate-limits/switstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/switstack-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/llms/switstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/switstack-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/security/switstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/switstack-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/examples/switstack-code-samples.yml
   title: ''
   type: Examples
   url: examples/switstack-code-samples.yml
@@ -203,14 +248,17 @@ common:
   type: Examples
   url: https://docs.switstack.io/switcloud/examples/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/arazzo/switstack-onboard-a-terminal.yml
   title: ''
   type: Arazzo
   url: arazzo/switstack-onboard-a-terminal.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/arazzo/switstack-take-a-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/switstack-take-a-payment.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/arazzo/switstack-run-a-test-suite.yml
   title: ''
   type: Arazzo
   url: arazzo/switstack-run-a-test-suite.yml
@@ -240,6 +288,47 @@ scopes:
   scope_count: 0
   slug: switstack-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 18.2
+    contract_quality: 49.6
+    developer_ergonomics: 80.4
+    discoverability: 74.1
+    operational_transparency: 2.6
+  previous_composite: 41.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 42.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/screenshots/switstack-2026-09-02T161419.png
 security:
 - kind: authentication

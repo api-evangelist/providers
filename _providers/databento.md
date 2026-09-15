@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 36.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -184,38 +209,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/databento/overview
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-platform-openapi-official.json
   title: ''
   type: OpenAPI
   url: openapi/databento-platform-openapi-official.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/overlays/databento-platform-official-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/databento-platform-official-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/packages/databento-packages.yml
   title: ''
   type: Packages
   url: packages/databento-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/packages/databento-packages.yml
   title: ''
   type: SDKs
   url: packages/databento-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/mcp/databento-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/databento-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/llms/databento-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/databento-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/conformance/databento-conformance.yml
   title: ''
   type: Conformance
   url: conformance/databento-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/errors/databento-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/databento-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/lifecycle/databento-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/databento-lifecycle.yml
@@ -228,22 +262,27 @@ common:
   type: Deprecation
   url: https://databento.com/docs/api-reference-historical/basics/versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/conventions/databento-conventions.yml
   title: ''
   type: Conventions
   url: conventions/databento-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/changelog/databento-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/databento-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/cli/databento-cli.yml
   title: ''
   type: CLI
   url: cli/databento-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/data-model/databento-data-model.yml
   title: ''
   type: DataModel
   url: data-model/databento-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -280,6 +319,7 @@ common:
   type: APIReference
   url: https://databento.com/docs/api-reference-historical
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/collections/databento.postman_collection.json
   title: ''
   type: Postman
   url: collections/databento.postman_collection.json
@@ -288,18 +328,22 @@ common:
   type: ReleaseNotes
   url: https://databento.com/docs/release-notes
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/security/databento-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/databento-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/scopes/databento-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/databento-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/authentication/databento-authentication.yml
   title: ''
   type: Authentication
   url: authentication/databento-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/agentic-access/databento-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/databento-agentic-access.yml
@@ -320,14 +364,17 @@ common:
   type: Documentation
   url: https://databento.com/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/plans/databento-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/databento-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/rate-limits/databento-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/databento-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/finops/databento-finops.yml
   title: ''
   type: FinOps
   url: finops/databento-finops.yml
@@ -365,6 +412,47 @@ scopes:
   scope_count: 0
   slug: databento-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 43.8
+    developer_ergonomics: 64.9
+    discoverability: 68.5
+    operational_transparency: 78.9
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 21.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 55.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:
 - kind: authentication

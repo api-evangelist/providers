@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,10 +91,12 @@ collections:
   slug: open-also-search-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/overlays/also-storefront-json-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/also-storefront-json-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/agentic-access/also-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/also-agentic-access.yml
@@ -134,58 +161,72 @@ common:
   type: PrivacyPolicy
   url: https://ridealso.com/pages/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/llms/also-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/also-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/llms/also-agents.md
   title: ''
   type: AgentsMD
   url: llms/also-agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/well-known/also-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/also-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/authentication/also-authentication.yml
   title: ''
   type: Authentication
   url: authentication/also-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/scopes/also-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/also-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/well-known/also-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/also-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/conventions/also-conventions.yml
   title: ''
   type: Conventions
   url: conventions/also-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/conventions/also-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/also-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/rate-limits/also-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/also-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/conformance/also-conformance.yml
   title: ''
   type: Conformance
   url: conformance/also-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/lifecycle/also-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/also-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/components/also-components.yml
   title: ''
   type: Components
   url: components/also-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/security/also-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/also-domain-security.yml
@@ -235,6 +276,42 @@ scopes:
   scope_count: 5
   slug: also-scopes
   summary_line: 5 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 52.9
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 42.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png
 security:
 - kind: authentication

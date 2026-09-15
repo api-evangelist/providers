@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -163,26 +188,32 @@ collections:
   slug: open-adobe-captivate-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/capabilities/adobe-captivate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-captivate-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/agentic-access/adobe-captivate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-captivate-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/security/adobe-captivate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-captivate-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/security/adobe-captivate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-captivate-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/authentication/adobe-captivate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-captivate-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/scopes/adobe-captivate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adobe-captivate-scopes.yml
@@ -191,26 +222,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-captivate/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-activate-and-enroll-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-activate-and-enroll-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-enroll-learner-in-course-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-enroll-learner-in-course-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-learner-progress-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-learner-progress-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-run-bulk-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-run-bulk-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-search-and-enroll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-search-and-enroll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/arazzo/adobe-captivate-unenroll-learner-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-captivate-unenroll-learner-workflow.yml
@@ -283,26 +320,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/adobe
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-schema/adobe-captivate-learning-object-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-captivate-learning-object-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-ld/adobe-captivate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-captivate-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/rules/adobe-captivate-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/adobe-captivate-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/vocabulary/adobe-captivate-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-captivate-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-ld/adobe-captivate-learning-manager-webhooks-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-captivate-learning-manager-webhooks-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/json-ld/adobe-captivate-prime-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-captivate-prime-api-context.jsonld
@@ -917,6 +960,44 @@ scopes:
   scope_count: 4
   slug: adobe-captivate-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 54.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 80.5
+    developer_ergonomics: 45.2
+    discoverability: 50.0
+    operational_transparency: 15.8
+  previous_composite: 54.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 75.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/screenshots/adobe-captivate-2026-06-20T164834.png
 security:
 - kind: authentication

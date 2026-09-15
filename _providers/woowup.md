@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 52.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server operated by WoowUp at mcp.woowup.com. Streamable-HTTP transport, OAuth 2.1 bearer authentication with RFC 8414 authorization-server and RFC 9728 protected-
@@ -24,6 +50,7 @@ asyncapis:
   slug: woowup-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/security/woowup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/woowup-domain-security.yml
@@ -68,62 +95,77 @@ common:
   type: GettingStarted
   url: https://woowup-docs.gitbook.io/woowup-developer-docs/master
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/llms/woowup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/woowup-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/packages/woowup-packages.yml
   title: ''
   type: Packages
   url: packages/woowup-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/packages/woowup-packages.yml
   title: ''
   type: SDKs
   url: packages/woowup-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/well-known/woowup-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/woowup-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/conformance/woowup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/woowup-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/errors/woowup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/woowup-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/lifecycle/woowup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/woowup-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/authentication/woowup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/woowup-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/conventions/woowup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/woowup-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/rate-limits/woowup-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/woowup-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/components/woowup-components.yml
   title: ''
   type: Components
   url: components/woowup-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/data-model/woowup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/woowup-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/mcp/woowup-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/woowup-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/scopes/woowup-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/woowup-scopes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/plans/woowup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/woowup-plans-pricing.yml
@@ -164,6 +206,35 @@ scopes:
   scope_count: 4
   slug: woowup-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials/deviceCode/implicit
+score:
+  band: developing
+  composite: 48.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 54.8
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 48.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/screenshots/woowup-2026-08-17T082935.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Machine-to-machine REST API for ingesting Product Detail Pages (by Amazon ASIN or by caller-supplied id), submitting standalone images for asynchronous Visual AI scoring, retrieving PDP and image scor
@@ -20,6 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/security/vizit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vizit-domain-security.yml
@@ -100,50 +126,62 @@ common:
   type: Forge
   url: https://forgeglobal.com/vizit_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/authentication/vizit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vizit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/conventions/vizit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vizit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/conventions/vizit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vizit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/errors/vizit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vizit-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/rate-limits/vizit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vizit-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/lifecycle/vizit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vizit-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/sandbox/vizit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vizit-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/conformance/vizit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vizit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/data-model/vizit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vizit-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/mcp/vizit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vizit-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/llms/vizit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vizit-llms.txt
@@ -164,6 +202,41 @@ rate_limits:
 - limit_count: 5
   name: Vizit Rate Limits
   slug: vizit-rate-limits
+score:
+  band: thin
+  composite: 35.0
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 35.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/screenshots/vizit-2026-09-02T170149.png
 security:
 - kind: authentication

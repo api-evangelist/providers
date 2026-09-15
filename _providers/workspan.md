@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - baseURL: https://api-sandbox.workspan.com/oauth
@@ -230,6 +255,7 @@ collections:
   slug: open-workspan-view-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/overlays/workspan-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workspan-authentication-overlay.yaml
@@ -286,14 +312,17 @@ common:
   type: ContactUs
   url: https://www.workspan.com/company/contact
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/authentication/workspan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workspan-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/security/workspan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workspan-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/security/workspan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workspan-trust-center.yml
@@ -302,46 +331,57 @@ common:
   type: Compliance
   url: https://www.workspan.com/platform/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/conformance/workspan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workspan-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/well-known/workspan-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workspan-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/mcp/workspan-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/workspan-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/llms/workspan-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workspan-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/errors/workspan-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workspan-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/lifecycle/workspan-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workspan-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/sandbox/workspan-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/workspan-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/conventions/workspan-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workspan-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/data-model/workspan-data-model.yml
   title: ''
   type: DataModel
   url: data-model/workspan-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/asyncapi/workspan-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/workspan-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -361,6 +401,40 @@ overview: 'WorkSpan publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
   WorkSpan''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
 random_paper: 3
+score:
+  band: developing
+  composite: 49.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 62.7
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 10.5
+  previous_composite: 49.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/screenshots/workspan-2026-08-17T082946.png
 security:
 - kind: authentication

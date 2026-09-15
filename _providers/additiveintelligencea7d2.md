@@ -38,7 +38,7 @@ modified: '2026-09-07'
 name: Additive Intelligence
 nav: Providers
 network: true
-overview: Additive Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Additive Manufacturing, 3D Printing, Metal 3D Printing, and Machine Learning.
+overview: Additive Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Additive Manufacturing, 3D Printing, Metal 3D Printing, and Machine-Learning.
 random_paper: 17
 slug: additiveintelligencea7d2
 tags:
@@ -46,7 +46,7 @@ tags:
 - Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Manufacturing
 - Sintering

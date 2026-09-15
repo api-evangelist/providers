@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 0
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koru-careers/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml

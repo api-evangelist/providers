@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Full REST API for the Flywheel platform, covering the container hierarchy (groups, projects, subjects, sessions, acquisitions, files, analyses), gears and jobs, users and permissions, and search. Docu
@@ -34,42 +59,52 @@ common:
   type: GettingStarted
   url: https://api-docs.flywheel.io/latest/tags/16.19.2/python/getting_started_new.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/authentication/flywheel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flywheel-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/packages/flywheel-packages.yml
   title: ''
   type: Packages
   url: packages/flywheel-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/packages/flywheel-packages.yml
   title: ''
   type: SDKs
   url: packages/flywheel-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/cli/flywheel-cli.yml
   title: ''
   type: CLI
   url: cli/flywheel-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/data-model/flywheel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flywheel-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/conventions/flywheel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flywheel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/lifecycle/flywheel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flywheel-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/lifecycle/flywheel-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/flywheel-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/changelog/flywheel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flywheel-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/conformance/flywheel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flywheel-conformance.yml
@@ -78,18 +113,22 @@ common:
   type: Compliance
   url: https://flywheel.io/compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/security/flywheel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flywheel-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/security/flywheel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flywheel-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/well-known/flywheel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flywheel-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/llms/flywheel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flywheel-llms.txt
@@ -130,6 +169,46 @@ overview: 'Flywheel publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Flywheel''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, support, and 18 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 37.7
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/screenshots/flywheel-2026-07-25T214857.png
 security:
 - kind: authentication

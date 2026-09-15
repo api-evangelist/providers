@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Dolls Kill Universal Commerce Protocol (UCP) endpoint, served over MCP at /api/ucp/mcp. Anonymous tools/list returns 13 tools with full JSON Schema input contracts covering catalog search and look
@@ -34,6 +59,7 @@ common:
   type: Documentation
   url: https://www.dollskill.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/llms/dolls-kill-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dolls-kill-llms.txt
@@ -62,54 +88,67 @@ common:
   type: PrivacyPolicy
   url: https://www.dollskill.com/pages/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/authentication/dolls-kill-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dolls-kill-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/scopes/dolls-kill-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dolls-kill-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/well-known/dolls-kill-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dolls-kill-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/conventions/dolls-kill-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dolls-kill-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/conventions/dolls-kill-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/dolls-kill-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/errors/dolls-kill-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dolls-kill-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/rate-limits/dolls-kill-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dolls-kill-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/plans/dolls-kill-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dolls-kill-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/lifecycle/dolls-kill-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dolls-kill-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/conformance/dolls-kill-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dolls-kill-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/packages/dolls-kill-packages.yml
   title: ''
   type: Packages
   url: packages/dolls-kill-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolls-kill/refs/heads/main/security/dolls-kill-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dolls-kill-domain-security.yml
@@ -147,6 +186,41 @@ scopes:
   scope_count: 4
   slug: dolls-kill-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 41.5
+    developer_ergonomics: 28.0
+    discoverability: 81.5
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 37.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Dolls Kill Authentication

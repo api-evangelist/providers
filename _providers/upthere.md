@@ -17,14 +17,17 @@ common:
   type: Website
   url: https://upthere.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/security/upthere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upthere-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/well-known/upthere-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upthere-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/llms/upthere-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upthere-llms.txt

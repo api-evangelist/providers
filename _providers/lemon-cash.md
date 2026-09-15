@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Lemon Mini App SDK is the public developer contract for building a Mini App that runs inside the Lemon Cash mobile app. It is a TypeScript library, not an HTTP API: calls are passed to the native '
@@ -23,10 +48,12 @@ common:
   type: IssueTracker
   url: https://github.com/lemonatio/mini-app-sdk/issues
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/security/lemon-cash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lemon-cash-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/security/lemon-cash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lemon-cash-domain-security.yml
@@ -83,6 +110,7 @@ common:
   type: StatusPage
   url: https://status.lemon.me/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/lifecycle/lemon-cash-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/lemon-cash-lifecycle.yml
@@ -95,10 +123,12 @@ common:
   type: PrivacyPolicy
   url: https://lemon.me/arg-terms/declaraci%C3%B3n-de-privacidad
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/conformance/lemon-cash-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lemon-cash-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/conformance/lemon-cash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lemon-cash-conformance.yml
@@ -107,54 +137,67 @@ common:
   type: Security
   url: https://lemon.me/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/well-known/lemon-cash-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lemon-cash-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/well-known/lemon-cash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lemon-cash-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/packages/lemon-cash-packages.yml
   title: ''
   type: Packages
   url: packages/lemon-cash-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/packages/lemon-cash-packages.yml
   title: ''
   type: SDKs
   url: packages/lemon-cash-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/llms/lemon-cash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lemon-cash-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/authentication/lemon-cash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lemon-cash-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/errors/lemon-cash-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lemon-cash-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/conventions/lemon-cash-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lemon-cash-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/data-model/lemon-cash-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lemon-cash-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/sandbox/lemon-cash-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lemon-cash-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/changelog/lemon-cash-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lemon-cash-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/lifecycle/lemon-cash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lemon-cash-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -191,6 +234,46 @@ overview: 'Lemon Cash publishes 1 API on the [APIs.io](https://apis.io/) network
 
   Lemon Cash''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 33 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 43.2
+  provenance:
+    conformance: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/screenshots/lemon-cash-2026-08-07T171533.png
 security:
 - kind: authentication

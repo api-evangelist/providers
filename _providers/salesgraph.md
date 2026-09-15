@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://salesgraph.com/api/v1
@@ -67,10 +92,12 @@ common:
   type: Website
   url: https://www.salesgraph.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/overlays/salesgraph-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salesgraph-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/security/salesgraph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesgraph-domain-security.yml
@@ -91,42 +118,52 @@ common:
   type: GettingStarted
   url: https://docs.salesgraph.com/quickstart
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/authentication/salesgraph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesgraph-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/mcp/salesgraph-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/salesgraph-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/llms/salesgraph-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salesgraph-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/errors/salesgraph-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/salesgraph-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/conventions/salesgraph-conventions.yml
   title: ''
   type: Conventions
   url: conventions/salesgraph-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/lifecycle/salesgraph-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salesgraph-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/conformance/salesgraph-conformance.yml
   title: ''
   type: Conformance
   url: conformance/salesgraph-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/data-model/salesgraph-data-model.yml
   title: ''
   type: DataModel
   url: data-model/salesgraph-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/changelog/salesgraph-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/salesgraph-changelog.yml
@@ -147,18 +184,22 @@ common:
   type: PrivacyPolicy
   url: https://salesgraph.com/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/mcp/salesgraph-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/salesgraph-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/a2a/salesgraph-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/salesgraph-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/well-known/salesgraph-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/salesgraph-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/conventions/salesgraph-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/salesgraph-conventions.yml
@@ -167,14 +208,17 @@ common:
   type: StatusPage
   url: https://salesgraph.com/status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/rate-limits/salesgraph-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesgraph-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/plans/salesgraph-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesgraph-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/packages/salesgraph-packages.yml
   title: ''
   type: Packages
   url: packages/salesgraph-packages.yml
@@ -208,6 +252,40 @@ rate_limits:
 - limit_count: 0
   name: Salesgraph Rate Limits
   slug: salesgraph-rate-limits
+score:
+  band: thin
+  composite: 29.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 29.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/screenshots/salesgraph-2026-09-02T154323.png
 security:
 - kind: authentication

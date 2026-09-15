@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Access analytics and insights for coaching and training programs, including learning paths, skill assessments, roleplay AI analysis, and coach analytics data.
@@ -141,30 +167,37 @@ common:
   type: Website
   url: https://www.showpad.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/capabilities/showpad-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/showpad-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/overlays/showpad-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/showpad-v3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/overlays/showpad-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/showpad-v4-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/scopes/showpad-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/showpad-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/authentication/showpad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/showpad-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/security/showpad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/showpad-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/security/showpad-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/showpad-vulnerability-disclosure.yml
@@ -173,6 +206,7 @@ common:
   type: Security
   url: https://www.showpad.com/responsible-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/security/showpad-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/showpad-trust-center.yml
@@ -181,58 +215,72 @@ common:
   type: Compliance
   url: https://trust.bigtincan.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/conformance/showpad-conformance.yml
   title: ''
   type: Conformance
   url: conformance/showpad-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/well-known/showpad-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/showpad-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/mcp/showpad-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/showpad-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/mcp/showpad-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/showpad-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/llms/showpad-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/showpad-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/packages/showpad-packages.yml
   title: ''
   type: Packages
   url: packages/showpad-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/packages/showpad-packages.yml
   title: ''
   type: SDKs
   url: packages/showpad-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/cli/showpad-cli.yml
   title: ''
   type: CLI
   url: cli/showpad-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/components/showpad-components.yml
   title: ''
   type: Components
   url: components/showpad-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/conventions/showpad-conventions.yml
   title: ''
   type: Conventions
   url: conventions/showpad-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/errors/showpad-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/showpad-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/data-model/showpad-data-model.yml
   title: ''
   type: DataModel
   url: data-model/showpad-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/lifecycle/showpad-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/showpad-lifecycle.yml
@@ -241,6 +289,7 @@ common:
   type: StatusPage
   url: https://status.showpad.com
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/sandbox/showpad-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/showpad-sandbox.yml
@@ -273,10 +322,12 @@ common:
   type: Versioning
   url: https://developer.showpad.com/docs/apis/concepts/versions
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/asyncapi/showpad-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/showpad-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/changelog/showpad-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/showpad-changelog.yml
@@ -321,14 +372,17 @@ common:
   type: PrivacyPolicy
   url: https://www.showpad.com/privacy-policy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/plans/showpad-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/showpad-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/rate-limits/showpad-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/showpad-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/finops/showpad-finops.yml
   title: ''
   type: FinOps
   url: finops/showpad-finops.yml
@@ -369,6 +423,40 @@ scopes:
   scope_count: 8
   slug: showpad-scopes
   summary_line: 8 scopes · password/authorizationCode
+score:
+  band: exemplar
+  composite: 66.5
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 61.6
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 66.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/screenshots/showpad-2026-06-20T193845.png
 security:
 - kind: authentication

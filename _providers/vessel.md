@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 0
@@ -214,6 +239,7 @@ asyncapis:
   slug: vessel-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/capabilities/vessel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vessel-capability-edges.yml
@@ -226,14 +252,17 @@ common:
   type: License
   url: https://github.com/vesselapi/integrations/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/agentic-access/vessel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vessel-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/security/vessel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vessel-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/authentication/vessel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vessel-authentication.yml
@@ -302,106 +331,132 @@ common:
   type: Roadmap
   url: https://vesselapi.canny.io/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/packages/vessel-packages.yml
   title: ''
   type: Packages
   url: packages/vessel-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/llms/vessel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vessel-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/overlays/vessel-crm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vessel-crm-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/conformance/vessel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vessel-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/conformance/vessel-conformance.yml
   title: ''
   type: Compliance
   url: conformance/vessel-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/errors/vessel-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vessel-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/lifecycle/vessel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vessel-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/conventions/vessel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vessel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/data-model/vessel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vessel-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/components/vessel-components.yml
   title: ''
   type: Components
   url: components/vessel-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/sandbox/vessel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vessel-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/asyncapi/vessel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vessel-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/examples/vessel-list-crm-contacts-example.json
   title: ''
   type: Examples
   url: examples/vessel-list-crm-contacts-example.json
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/rate-limits/vessel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vessel-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/plans/vessel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vessel-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/finops/vessel-finops.yml
   title: ''
   type: FinOps
   url: finops/vessel-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/vocabulary/vessel-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vessel-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/rules/vessel-api-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/vessel-api-rules.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/json-schema/vessel-contact-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vessel-contact-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/json-schema/vessel-deal-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vessel-deal-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/json-schema/vessel-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vessel-account-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/json-structure/vessel-contact-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/vessel-contact-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/json-ld/vessel-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vessel-context.jsonld
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/overlays/vessel-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vessel-platform-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/rules/vessel-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/vessel-jsonschema-spectral-rules.yml
@@ -488,6 +543,44 @@ rules:
     info: 2
     warn: 3
   slug: vessel-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 64.0
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 98.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 17.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 87.9
+    contract_quality: 70.2
+    developer_ergonomics: 73.2
+    discoverability: 68.5
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 62.2
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png
 security:
 - kind: authentication

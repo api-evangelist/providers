@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 235
   human_in_the_loop: 25
@@ -392,46 +417,57 @@ collections:
   slug: open-treasure-data-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/capabilities/treasure-data-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/treasure-data-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/overlays/treasure-data-td-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/treasure-data-td-api-v3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/overlays/treasure-data-cdp-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/treasure-data-cdp-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/overlays/treasure-data-llm-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/treasure-data-llm-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/overlays/treasure-data-dwh-integration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/treasure-data-dwh-integration-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/overlays/treasure-data-personalization-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/treasure-data-personalization-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/overlays/treasure-data-postback-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/treasure-data-postback-api-v2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/agentic-access/treasure-data-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/treasure-data-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/security/treasure-data-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/treasure-data-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/security/treasure-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/treasure-data-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/authentication/treasure-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/treasure-data-authentication.yml
@@ -464,74 +500,92 @@ common:
   type: X
   url: https://twitter.com/TreasureData
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/plans/treasure-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/treasure-data-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/rate-limits/treasure-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/treasure-data-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/finops/treasure-data-finops.yml
   title: ''
   type: FinOps
   url: finops/treasure-data-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/packages/treasure-data-packages.yml
   title: ''
   type: Packages
   url: packages/treasure-data-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/packages/treasure-data-packages.yml
   title: ''
   type: SDKs
   url: packages/treasure-data-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/cli/treasure-data-cli.yml
   title: ''
   type: CLI
   url: cli/treasure-data-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/mcp/treasure-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/treasure-data-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/mcp/treasure-data-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/treasure-data-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/llms/treasure-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/treasure-data-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/well-known/treasure-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/treasure-data-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/scopes/treasure-data-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/treasure-data-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/conventions/treasure-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/treasure-data-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/conventions/treasure-data-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/treasure-data-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/errors/treasure-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/treasure-data-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/lifecycle/treasure-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/treasure-data-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/changelog/treasure-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/treasure-data-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/conformance/treasure-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/treasure-data-conformance.yml
@@ -540,18 +594,22 @@ common:
   type: Compliance
   url: https://www.treasure.ai/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/data-model/treasure-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/treasure-data-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/asyncapi/treasure-data-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/treasure-data-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/sandbox/treasure-data-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/treasure-data-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/vocabulary/treasure-data-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/treasure-data-vocabulary.yml
@@ -666,6 +724,41 @@ scopes:
   scope_count: 4
   slug: treasure-data-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 74.3
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 80.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 43.2
+    contract_quality: 66.5
+    developer_ergonomics: 81.0
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 74.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/screenshots/treasure-data-2026-06-20T195643.png
 security:
 - kind: authentication

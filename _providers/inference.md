@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for open-source, frontier, and custom language models — chat completions, batch/async inference, function calling, structured outputs, and vision — authenticated with a
@@ -24,6 +49,7 @@ asyncapis:
   slug: inference-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/security/inference-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inference-domain-security.yml
@@ -80,46 +106,57 @@ common:
   type: TrustCenter
   url: https://trust.inference.net
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/authentication/inference-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inference-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/rate-limits/inference-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inference-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/plans/inference-plans.yml
   title: ''
   type: Plans
   url: plans/inference-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/mcp/inference-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/inference-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/cli/inference-cli.yml
   title: ''
   type: CLI
   url: cli/inference-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/packages/inference-packages.yml
   title: ''
   type: Packages
   url: packages/inference-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/conventions/inference-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inference-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/lifecycle/inference-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inference-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/asyncapi/inference-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/inference-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/conformance/inference-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inference-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/llms/inference-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inference-llms.txt
@@ -151,6 +188,35 @@ rate_limits:
 - limit_count: 4
   name: Inference Rate Limits
   slug: inference-rate-limits
+score:
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 80.3
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 59.5
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 53.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/screenshots/inference-2026-07-25T222358.png
 security:
 - kind: authentication

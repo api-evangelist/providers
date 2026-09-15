@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -140,6 +166,7 @@ common:
   type: Website
   url: https://www.regal.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/capabilities/regal-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/regal-ai-capability-edges.yml
@@ -148,18 +175,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/regal/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/agentic-access/regal-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/regal-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/security/regal-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/regal-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/security/regal-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/regal-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/authentication/regal-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/regal-ai-authentication.yml
@@ -212,14 +243,17 @@ common:
   type: Pricing
   url: https://www.regal.ai/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/plans/regal-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/regal-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/rate-limits/regal-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/regal-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/finops/regal-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/regal-ai-finops.yml
@@ -320,14 +354,17 @@ common:
   type: SCIM
   url: https://developer.regal.ai/docs/okta-scim
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/vocabulary/regal-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/regal-ai-vocabulary.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/mcp/regal-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/regal-ai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/mcp/regal-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/regal-ai-tool-crosswalk.yml
@@ -336,42 +373,52 @@ common:
   type: Documentation
   url: https://developer.regal.ai/docs/regal-mcp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/well-known/regal-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/regal-ai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/scopes/regal-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/regal-ai-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/llms/regal-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/regal-ai-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/packages/regal-ai-packages.yml
   title: ''
   type: Packages
   url: packages/regal-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/packages/regal-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/regal-ai-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/components/regal-ai-components.yml
   title: ''
   type: Components
   url: components/regal-ai-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/conventions/regal-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/regal-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/errors/regal-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/regal-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/data-model/regal-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/regal-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/lifecycle/regal-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/regal-ai-lifecycle.yml
@@ -380,6 +427,7 @@ common:
   type: StatusPage
   url: https://status.regal.ai
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/changelog/regal-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/regal-ai-changelog.yml
@@ -388,10 +436,12 @@ common:
   type: ChangeLog
   url: https://www.regal.io/category/whats-new
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/sandbox/regal-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/regal-ai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/conformance/regal-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/regal-ai-conformance.yml
@@ -400,6 +450,7 @@ common:
   type: Compliance
   url: https://www.regal.ai/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/security/regal-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/regal-ai-vulnerability-disclosure.yml
@@ -412,22 +463,27 @@ common:
   type: TrustCenter
   url: https://trust.regal.ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/skills/regal-ai-ingest-contact-and-event.md
   title: ''
   type: AgentSkill
   url: skills/regal-ai-ingest-contact-and-event.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/skills/regal-ai-register-branded-phone-number.md
   title: ''
   type: AgentSkill
   url: skills/regal-ai-register-branded-phone-number.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/skills/regal-ai-send-sms.md
   title: ''
   type: AgentSkill
   url: skills/regal-ai-send-sms.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/skills/regal-ai-resolve-call-handoff.md
   title: ''
   type: AgentSkill
   url: skills/regal-ai-resolve-call-handoff.md
@@ -456,22 +512,27 @@ common:
   type: Postman
   url: https://app.getpostman.com/run-collection/17258986-81c59f40-7e22-480e-bb40-aa29250b0e35
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/examples/regal-post-custom-event-example.json
   title: ''
   type: Examples
   url: examples/regal-post-custom-event-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/examples/regal-send-message-example.json
   title: ''
   type: Examples
   url: examples/regal-send-message-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/examples/regal-post-branded-phone-number-example.json
   title: ''
   type: Examples
   url: examples/regal-post-branded-phone-number-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/examples/regal-list-campaigns-example.json
   title: ''
   type: Examples
   url: examples/regal-list-campaigns-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/examples/regal-call-completed-webhook-example.json
   title: ''
   type: Examples
   url: examples/regal-call-completed-webhook-example.json
@@ -604,6 +665,52 @@ scopes:
   scope_count: 4
   slug: regal-ai-scopes
   summary_line: 4 scopes · authorizationCode/refreshToken
+score:
+  band: exemplar
+  composite: 77.1
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 85.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 29.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 72.4
+    contract_governance: 47.0
+    contract_quality: 79.7
+    developer_ergonomics: 63.7
+    discoverability: 72.2
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 77.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 75.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
 security:
 - kind: authentication

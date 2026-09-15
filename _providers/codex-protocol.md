@@ -20,14 +20,17 @@ common:
   type: SourceCode
   url: https://github.com/codex-protocol
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/codex-protocol/refs/heads/main/packages/codex-protocol-packages.yml
   title: ''
   type: SDKs
   url: packages/codex-protocol-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/codex-protocol/refs/heads/main/packages/codex-protocol-packages.yml
   title: ''
   type: Packages
   url: packages/codex-protocol-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codex-protocol/refs/heads/main/lifecycle/codex-protocol-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/codex-protocol-lifecycle.yml

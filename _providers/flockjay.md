@@ -10,6 +10,31 @@ access_model:
   - plans/flockjay-plans-pricing.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Django REST Framework API behind the Flockjay platform. The API root at https://api.flockjay.com/api/ is anonymously readable and enumerates 20 collections across an unversioned v1 tree (events, quest
@@ -53,70 +78,87 @@ common:
   type: TermsOfService
   url: https://flockjay.com/legal/terms-and-conditions
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/mcp/flockjay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flockjay-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/well-known/flockjay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flockjay-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/authentication/flockjay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flockjay-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/scopes/flockjay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flockjay-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/conventions/flockjay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flockjay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/errors/flockjay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flockjay-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/data-model/flockjay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flockjay-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/conformance/flockjay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flockjay-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/lifecycle/flockjay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flockjay-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/plans/flockjay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flockjay-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/rate-limits/flockjay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flockjay-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/packages/flockjay-packages.yml
   title: ''
   type: Packages
   url: packages/flockjay-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/llms/flockjay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flockjay-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flockjay-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flockjay-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/flockjay-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/security/flockjay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flockjay-trust-center.yml
@@ -158,6 +200,41 @@ scopes:
   scope_count: 0
   slug: flockjay-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 34.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 8.0
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 13.2
+  previous_composite: 34.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 85.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/screenshots/flockjay-2026-07-25T214813.png
 security:
 - kind: authentication

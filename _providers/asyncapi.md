@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -97,10 +122,12 @@ common:
   type: Website
   url: https://www.asyncapi.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/agentic-access/asyncapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/asyncapi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/security/asyncapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asyncapi-domain-security.yml
@@ -125,58 +152,72 @@ common:
   type: Blog
   url: https://www.asyncapi.com/blog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/packages/asyncapi-packages.yml
   title: First-party packages and SDKs
   type: Packages
   url: packages/asyncapi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/packages/asyncapi-packages.yml
   title: AsyncAPI client libraries and tooling packages
   type: SDKs
   url: packages/asyncapi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/cli/asyncapi-cli.yml
   title: AsyncAPI CLI command surface
   type: CLI
   url: cli/asyncapi-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/components/asyncapi-components.yml
   title: Embeddable AsyncAPI document renderers
   type: Components
   url: components/asyncapi-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/authentication/asyncapi-authentication.yml
   title: Authentication profile (keyless public API)
   type: Authentication
   url: authentication/asyncapi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/conventions/asyncapi-conventions.yml
   title: API conventions and runtime semantics
   type: Conventions
   url: conventions/asyncapi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/errors/asyncapi-problem-types.yml
   title: Problem-details error catalog
   type: ErrorCatalog
   url: errors/asyncapi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/lifecycle/asyncapi-lifecycle.yml
   title: Versioning and lifecycle
   type: Lifecycle
   url: lifecycle/asyncapi-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/changelog/asyncapi-changelog.yml
   title: Specification and CLI release history
   type: ChangeLog
   url: changelog/asyncapi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/conformance/asyncapi-conformance.yml
   title: Standards conformance
   type: Conformance
   url: conformance/asyncapi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/data-model/asyncapi-data-model.yml
   title: Server API data model
   type: DataModel
   url: data-model/asyncapi-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/plans/asyncapi-plans-pricing.yml
   title: Plans and pricing (none — open source, no commercial tiers)
   type: Plans
   url: plans/asyncapi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/rate-limits/asyncapi-rate-limits.yml
   title: Rate limits (none published)
   type: RateLimits
   url: rate-limits/asyncapi-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/sandbox/asyncapi-sandbox.yml
   title: AsyncAPI Studio and self-hosted API
   type: Sandbox
   url: sandbox/asyncapi-sandbox.yml
@@ -185,18 +226,22 @@ common:
   type: Console
   url: https://studio.asyncapi.com
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/overlays/asyncapi-server-api-overlay.yaml
   title: API Evangelist enhancements overlay
   type: Overlay
   url: overlays/asyncapi-server-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/llms/asyncapi-llms.txt
   title: llms.txt
   type: LLMsTxt
   url: llms/asyncapi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/skills/_index.yml
   title: Packaged agent skills for the AsyncAPI Server API
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/security/asyncapi-vulnerability-disclosure.yml
   title: Coordinated vulnerability disclosure
   type: VulnerabilityDisclosure
   url: security/asyncapi-vulnerability-disclosure.yml
@@ -270,6 +315,41 @@ rate_limits:
 - limit_count: 0
   name: Asyncapi Rate Limits
   slug: asyncapi-rate-limits
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 51.9
+    developer_ergonomics: 80.4
+    discoverability: 59.3
+    operational_transparency: 28.9
+  previous_composite: 44.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/screenshots/asyncapi-2026-06-20T172514.png
 security:
 - kind: authentication

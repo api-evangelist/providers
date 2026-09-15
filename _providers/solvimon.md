@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 47.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -539,10 +564,12 @@ collections:
   slug: open-solvimon-workflowtriggers-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/capabilities/solvimon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/solvimon-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/overlays/solvimon-configuration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solvimon-configuration-api-overlay.yaml
@@ -591,18 +618,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/solvimon
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/authentication/solvimon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solvimon-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/agentic-access/solvimon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/solvimon-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/security/solvimon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solvimon-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/security/solvimon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/solvimon-trust-center.yml
@@ -611,70 +642,87 @@ common:
   type: Compliance
   url: https://trust.solvimon.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/conformance/solvimon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solvimon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/conventions/solvimon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/solvimon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/conventions/solvimon-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/solvimon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/errors/solvimon-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/solvimon-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/webhooks/solvimon-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/solvimon-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/lifecycle/solvimon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solvimon-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/changelog/solvimon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/solvimon-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/packages/solvimon-packages.yml
   title: ''
   type: Packages
   url: packages/solvimon-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/packages/solvimon-packages.yml
   title: ''
   type: SDKs
   url: packages/solvimon-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/components/solvimon-components.yml
   title: ''
   type: Components
   url: components/solvimon-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/mcp/solvimon-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/solvimon-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/llms/solvimon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solvimon-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/well-known/solvimon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/solvimon-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/well-known/solvimon-well-known.yml
   title: ''
   type: APICatalog
   url: well-known/solvimon-well-known.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/sandbox/solvimon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/solvimon-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/data-model/solvimon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/solvimon-data-model.yml
@@ -695,6 +743,47 @@ overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network
 
   Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
 random_paper: 5
+score:
+  band: strong
+  composite: 56.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 52.6
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 56.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/screenshots/solvimon-2026-08-17T082000.png
 security:
 - kind: authentication

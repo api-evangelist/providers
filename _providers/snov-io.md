@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -151,14 +177,17 @@ collections:
   slug: open-snov
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/agentic-access/snov-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snov-io-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snov-io-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/authentication/snov-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snov-io-authentication.yml
@@ -199,82 +228,102 @@ common:
   type: Authentication
   url: https://snov.io/knowledgebase/how-to-use-snov-io-api/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/plans/snov-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snov-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/rate-limits/snov-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snov-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/finops/snov-io-finops.yml
   title: ''
   type: FinOps
   url: finops/snov-io-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/scopes/snov-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/snov-io-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/mcp/snov-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/snov-io-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/mcp/snov-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/snov-io-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/well-known/snov-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/snov-io-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/packages/snov-io-packages.yml
   title: ''
   type: Packages
   url: packages/snov-io-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/llms/snov-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snov-io-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/conventions/snov-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snov-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/errors/snov-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/snov-io-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/lifecycle/snov-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/snov-io-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/conformance/snov-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snov-io-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-trust-center.yml
   title: ''
   type: Compliance
   url: security/snov-io-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snov-io-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/data-model/snov-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snov-io-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/changelog/snov-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/snov-io-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/asyncapi/snov-io-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/snov-io-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/graphql/snov-io-graphql.md
   title: ''
   type: GraphQL
   url: graphql/snov-io-graphql.md
@@ -369,6 +418,41 @@ scopes:
   scope_count: 0
   slug: snov-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 75.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 40.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 74.2
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 57.9
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/screenshots/snov-io-2026-06-20T194107.png
 security:
 - kind: authentication

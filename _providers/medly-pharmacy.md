@@ -15,6 +15,7 @@ common:
   type: SourceCode
   url: https://github.com/medly/medly-components
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medly-pharmacy/refs/heads/main/packages/medly-pharmacy-packages.yml
   title: ''
   type: Packages
   url: packages/medly-pharmacy-packages.yml

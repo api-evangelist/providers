@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,62 +146,77 @@ common:
   type: TermsOfService
   url: https://assets.website-files.com/60ebf6ae3b0fe3c5e739324f/60ebf6ae3b0fe306a53933ce_Soveren_Website_Terms_of_Use_20102020.pdf
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/_original/soveren-object-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/soveren-object-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/asyncapi/soveren-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/soveren-events-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/asyncapi/soveren-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/soveren-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/authentication/soveren-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soveren-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/conventions/soveren-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soveren-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/errors/soveren-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/soveren-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/data-model/soveren-data-model.yml
   title: ''
   type: DataModel
   url: data-model/soveren-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/conformance/soveren-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soveren-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/lifecycle/soveren-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/soveren-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/mcp/soveren-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/soveren-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/agentic-access/soveren-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/soveren-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/llms/soveren-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soveren-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/overlays/soveren-object-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/soveren-object-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/security/soveren-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soveren-domain-security.yml
@@ -196,6 +236,42 @@ overview: 'Soveren publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
   Soveren''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 58.4
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 39.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/screenshots/soveren-2026-08-17T082012.png
 security:
 - kind: authentication

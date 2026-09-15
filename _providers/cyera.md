@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Versioned REST API (v1 / v3) for programmatic access to Cyera's data discovery, classification, access-exposure, and risk findings. Secured with OAuth 2.0 client_credentials (Client ID + Client Secret
@@ -61,26 +86,32 @@ common:
   type: StatusPage
   url: https://status.cyera.io
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/changelog/cyera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cyera-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/authentication/cyera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cyera-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/scopes/cyera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cyera-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/well-known/cyera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cyera-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/mcp/cyera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cyera-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/conformance/cyera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cyera-conformance.yml
@@ -89,10 +120,12 @@ common:
   type: Compliance
   url: https://security.cyera.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/security/cyera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cyera-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/security/cyera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cyera-vulnerability-disclosure.yml
@@ -101,18 +134,22 @@ common:
   type: Security
   url: https://www.cyera.com/legal/vulnerability-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/security/cyera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyera-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/lifecycle/cyera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cyera-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/conventions/cyera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cyera-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/llms/cyera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cyera-llms.txt
@@ -138,6 +175,35 @@ scopes:
   scope_count: 3
   slug: cyera-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
+score:
+  band: thin
+  composite: 35.1
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 35.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyera/refs/heads/main/screenshots/cyera-2026-07-25T211042.png
 security:
 - kind: authentication

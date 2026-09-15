@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.3
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The AI for Service REST estate — Automation AI (bot lifecycle, NLP training, analytics, admin, data tables), Search AI (answer generation, content and chunk management, ingestion, connectors), Contact
@@ -42,14 +67,17 @@ asyncapis:
   slug: koreai-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/overlays/koreai-abl-runtime-conversation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koreai-abl-runtime-conversation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/overlays/koreai-abl-runtime-workflows-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koreai-abl-runtime-workflows-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/overlays/koreai-abl-runtime-sessions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koreai-abl-runtime-sessions-overlay.yaml
@@ -110,10 +138,12 @@ common:
   type: Compliance
   url: https://trust.kore.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/security/koreai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/koreai-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/lifecycle/koreai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koreai-lifecycle.yml
@@ -122,78 +152,97 @@ common:
   type: Deprecation
   url: https://docs.kore.ai/ai-for-service/release-notes/deprecations
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/changelog/koreai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/koreai-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/packages/koreai-packages.yml
   title: ''
   type: Packages
   url: packages/koreai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/packages/koreai-packages.yml
   title: ''
   type: SDKs
   url: packages/koreai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/mcp/koreai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/koreai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/mcp/koreai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/koreai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/llms/koreai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koreai-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/authentication/koreai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koreai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/conventions/koreai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koreai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/conventions/koreai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/koreai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/errors/koreai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/koreai-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/rate-limits/koreai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/koreai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/plans/koreai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/koreai-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/conformance/koreai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koreai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/security/koreai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koreai-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/asyncapi/koreai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/koreai-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/components/koreai-components.yml
   title: ''
   type: Components
   url: components/koreai-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/data-model/koreai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koreai-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/sandbox/koreai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/koreai-sandbox.yml
@@ -226,6 +275,45 @@ rate_limits:
 - limit_count: 0
   name: Koreai Rate Limits
   slug: koreai-rate-limits
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 58.4
+    developer_ergonomics: 83.3
+    discoverability: 81.5
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 54.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/screenshots/koreai-2026-09-02T150132.png
 security:
 - kind: authentication

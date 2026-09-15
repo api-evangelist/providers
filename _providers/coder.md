@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 8
@@ -258,26 +283,32 @@ collections:
   slug: open-coder-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/capabilities/coder-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/coder-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/agentic-access/coder-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coder-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/security/coder-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coder-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/security/coder-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coder-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/security/coder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coder-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/authentication/coder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coder-authentication.yml
@@ -318,14 +349,17 @@ common:
   type: CLI
   url: https://coder.com/docs/reference/cli
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/plans/coder-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coder-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/rate-limits/coder-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coder-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/finops/coder-finops.yml
   title: ''
   type: FinOps
   url: finops/coder-finops.yml
@@ -414,6 +448,38 @@ rules:
     info: 1
     warn: 4
   slug: coder-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 44.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 69.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 9.8
+    contract_quality: 55.0
+    developer_ergonomics: 31.0
+    discoverability: 59.3
+    operational_transparency: 50.0
+  previous_composite: 44.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/screenshots/coder-2026-06-20T174705.png
 security:
 - kind: authentication

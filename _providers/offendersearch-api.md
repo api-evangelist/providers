@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 45.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -112,74 +137,92 @@ common:
   type: Website
   url: https://www.offendersearch.app/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/overlays/offendersearch-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/offendersearch-api-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/agentic-access/offendersearch-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/offendersearch-api-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/security/offendersearch-api-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/offendersearch-api-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/security/offendersearch-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/offendersearch-api-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/authentication/offendersearch-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/offendersearch-api-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/well-known/offendersearch-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/offendersearch-api-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/well-known/offendersearch-api-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/offendersearch-api-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/llms/offendersearch-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/offendersearch-api-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/conventions/offendersearch-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/offendersearch-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/conventions/offendersearch-api-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/offendersearch-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/errors/offendersearch-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/offendersearch-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/lifecycle/offendersearch-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/offendersearch-api-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/conformance/offendersearch-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/offendersearch-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/data-model/offendersearch-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/offendersearch-api-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/packages/offendersearch-api-packages.yml
   title: ''
   type: Packages
   url: packages/offendersearch-api-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/plans/offendersearch-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/offendersearch-api-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/rate-limits/offendersearch-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/offendersearch-api-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -232,6 +275,47 @@ rate_limits:
 - limit_count: 0
   name: Offendersearch Api Rate Limits
   slug: offendersearch-api-rate-limits
+score:
+  band: developing
+  composite: 52.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 58.9
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 52.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/screenshots/offendersearch-api-2026-09-02T150826.png
 security:
 - kind: authentication

@@ -40,38 +40,47 @@ common:
   type: GettingStarted
   url: https://github.com/testdotai/interactive_walkthrough
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/packages/test-ai-packages.yml
   title: ''
   type: Packages
   url: packages/test-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/packages/test-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/test-ai-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/conformance/test-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/test-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/lifecycle/test-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/test-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/conventions/test-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/test-ai-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/security/test-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/test-ai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/llms/test-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/test-ai-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/plans/test-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/test-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/rate-limits/test-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/test-ai-rate-limits.yml

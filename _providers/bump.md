@@ -24,6 +24,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/bumptech
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/packages/bump-packages.yml
   title: ''
   type: Packages
   url: packages/bump-packages.yml
@@ -36,14 +37,17 @@ common:
   type: SourceCode
   url: https://github.com/bumptech/bump-api-android
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/lifecycle/bump-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bump-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/security/bump-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bump-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/llms/bump-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bump-llms.txt

@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Akia's REST API (version 3, with version 4 resources for mini apps and reservations) for creating and searching customers and reservations, sending guest messages, reading properties, generating and r
@@ -26,14 +52,17 @@ asyncapis:
   slug: akia-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/security/akia-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/akia-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/security/akia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/akia-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/security/akia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akia-domain-security.yml
@@ -94,50 +123,62 @@ common:
   type: Compliance
   url: https://www.akia.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/well-known/akia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/akia-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/well-known/akia-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/akia-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/llms/akia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/akia-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/mcp/akia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/akia-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/authentication/akia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/akia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/scopes/akia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/akia-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/conformance/akia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/akia-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/lifecycle/akia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/akia-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/conventions/akia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/akia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/components/akia-components.yml
   title: ''
   type: Components
   url: components/akia-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/data-model/akia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/akia-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/asyncapi/akia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/akia-webhooks.yml
@@ -166,6 +207,35 @@ scopes:
   scope_count: 16
   slug: akia-scopes
   summary_line: 16 scopes · authorizationCode
+score:
+  band: developing
+  composite: 46.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 46.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/screenshots/akia-2026-08-07T161133.png
 security:
 - kind: authentication

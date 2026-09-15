@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 37.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://websiteapi.agorareal.com/wp-json
@@ -15,6 +40,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/security/agora-real-estate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agora-real-estate-domain-security.yml
@@ -55,50 +81,62 @@ common:
   type: TrustCenter
   url: https://trust.agorareal.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/security/agora-real-estate-trust-center.yml
   title: ''
   type: Compliance
   url: security/agora-real-estate-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/llms/agora-real-estate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agora-real-estate-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/well-known/agora-real-estate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agora-real-estate-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/conformance/agora-real-estate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agora-real-estate-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/plans/agora-real-estate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agora-real-estate-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/rate-limits/agora-real-estate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agora-real-estate-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/packages/agora-real-estate-packages.yml
   title: ''
   type: Packages
   url: packages/agora-real-estate-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/changelog/agora-real-estate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agora-real-estate-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/lifecycle/agora-real-estate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agora-real-estate-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/authentication/agora-real-estate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agora-real-estate-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/scopes/agora-real-estate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agora-real-estate-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -111,7 +149,7 @@ modified: '2026-09-12'
 name: Agora Real Estate
 nav: Providers
 network: true
-overview: 'Agora Real Estate publishes 1 API on the [APIs.io](https://apis.io/) network: Agora Website Content API. Tagged areas include Real Estate, Investment Management, Private Equity, Fund Administration, and Investor Relations.
+overview: 'Agora Real Estate publishes 1 API on the [APIs.io](https://apis.io/) network: Agora Website Content API. Tagged areas include Real-Estate, Investment Management, Private Equity, Fund Administration, and Investor Relations.
 
 
   Agora Real Estate''s developer surface includes engineering blog, pricing, support, changelog, authentication, and 17 more developer resources.'
@@ -129,6 +167,50 @@ scopes:
   scope_count: 0
   slug: agora-real-estate-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 49.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 60.5
+    developer_ergonomics: 20.8
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 49.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Agora Real Estate Authentication
@@ -144,7 +226,7 @@ security:
   summary_line: SOC 2 Type II, SOC 1, ISO 27001:2022, GDPR
 slug: agora-real-estate
 tags:
-- Real Estate
+- Real-Estate
 - Investment Management
 - Private Equity
 - Fund Administration

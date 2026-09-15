@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.iron.xyz/api
@@ -123,6 +148,7 @@ collections:
   slug: open-unstoppable-finance-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/capabilities/unstoppable-finance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unstoppable-finance-capability-edges.yml
@@ -131,6 +157,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/unstoppable-finance-iron/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/security/unstoppable-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unstoppable-finance-domain-security.yml
@@ -151,42 +178,52 @@ common:
   type: GettingStarted
   url: https://docs.iron.xyz/onboarding
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/authentication/unstoppable-finance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unstoppable-finance-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/sandbox/unstoppable-finance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/unstoppable-finance-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/asyncapi/unstoppable-finance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unstoppable-finance-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/cli/unstoppable-finance-cli.yml
   title: ''
   type: CLI
   url: cli/unstoppable-finance-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/packages/unstoppable-finance-packages.yml
   title: ''
   type: Packages
   url: packages/unstoppable-finance-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/well-known/unstoppable-finance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unstoppable-finance-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/mcp/unstoppable-finance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unstoppable-finance-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/llms/unstoppable-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unstoppable-finance-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/overlays/unstoppable-finance-iron-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unstoppable-finance-iron-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/conformance/unstoppable-finance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unstoppable-finance-conformance.yml
@@ -195,10 +232,12 @@ common:
   type: Compliance
   url: https://iron.xyz/compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/errors/unstoppable-finance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unstoppable-finance-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/lifecycle/unstoppable-finance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unstoppable-finance-lifecycle.yml
@@ -207,22 +246,27 @@ common:
   type: StatusPage
   url: https://status.iron.xyz
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/conventions/unstoppable-finance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unstoppable-finance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/conventions/unstoppable-finance-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/unstoppable-finance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/data-model/unstoppable-finance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unstoppable-finance-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/security/unstoppable-finance-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unstoppable-finance-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/security/unstoppable-finance-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/unstoppable-finance-vulnerability-disclosure.yml
@@ -231,6 +275,7 @@ common:
   type: Security
   url: https://iron.xyz/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -270,6 +315,50 @@ overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://
 
   Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 26 more developer resources.'
 random_paper: 13
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 64.1
+    developer_ergonomics: 62.5
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 57.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 45.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/screenshots/unstoppable-finance-2026-08-17T082634.png
 security:
 - kind: authentication

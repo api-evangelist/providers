@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://platform.vectra.ai/api/v3.3
@@ -157,18 +182,22 @@ collections:
   slug: open-vectranetworks-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/overlays/vectranetworks-detect-v2.3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vectranetworks-detect-v2.3-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/security/vectranetworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vectranetworks-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/authentication/vectranetworks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vectranetworks-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/scopes/vectranetworks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vectranetworks-scopes.yml
@@ -205,6 +234,7 @@ common:
   type: TermsOfService
   url: https://www.vectra.ai/legal/terms-of-service
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/llms/vectranetworks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vectranetworks-llms.txt
@@ -217,46 +247,57 @@ common:
   type: ChangeLog
   url: https://support.vectra.ai/s/topic/0TO6S000000J745WAC/product-announcements
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/packages/vectranetworks-packages.yml
   title: ''
   type: Packages
   url: packages/vectranetworks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/packages/vectranetworks-packages.yml
   title: ''
   type: SDKs
   url: packages/vectranetworks-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/well-known/vectranetworks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vectranetworks-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/mcp/vectranetworks-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vectranetworks-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/conformance/vectranetworks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vectranetworks-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/errors/vectranetworks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vectranetworks-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/lifecycle/vectranetworks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vectranetworks-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/conventions/vectranetworks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vectranetworks-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/data-model/vectranetworks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vectranetworks-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/security/vectranetworks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vectranetworks-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -278,6 +319,40 @@ scopes:
   scope_count: 0
   slug: vectranetworks-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 41.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 46.7
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 41.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/screenshots/vectranetworks-2026-09-02T165546.png
 security:
 - kind: authentication

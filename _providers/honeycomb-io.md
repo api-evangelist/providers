@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -305,6 +331,7 @@ common:
   type: License
   url: https://github.com/honeycombio/agent-skill/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/authentication/honeycomb-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/honeycomb-io-authentication.yml
@@ -313,14 +340,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/honeycomb/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/agentic-access/honeycomb-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/honeycomb-io-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/security/honeycomb-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/honeycomb-io-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/security/honeycomb-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/honeycomb-io-domain-security.yml
@@ -377,14 +407,17 @@ common:
   type: Standards
   url: https://opentelemetry.io/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/plans/honeycomb-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/honeycomb-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/rate-limits/honeycomb-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/honeycomb-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/finops/honeycomb-io-finops.yml
   title: ''
   type: FinOps
   url: finops/honeycomb-io-finops.yml
@@ -509,10 +542,12 @@ common:
   type: PrivacyPolicy
   url: https://www.honeycomb.io/privacy
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/sandbox/honeycomb-io-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/honeycomb-io-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/security/honeycomb-io-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/honeycomb-io-vulnerability-disclosure.yml
@@ -525,54 +560,67 @@ common:
   type: Compliance
   url: https://docs.honeycomb.io/security-compliance/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/well-known/honeycomb-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/honeycomb-io-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/a2a/honeycomb-io-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/honeycomb-io-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/mcp/honeycomb-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/honeycomb-io-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/mcp/honeycomb-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/honeycomb-io-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/llms/honeycomb-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/honeycomb-io-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/packages/honeycomb-io-packages.yml
   title: ''
   type: Packages
   url: packages/honeycomb-io-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/packages/honeycomb-io-packages.yml
   title: ''
   type: SDKs
   url: packages/honeycomb-io-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/cli/honeycomb-io-cli.yml
   title: ''
   type: CLI
   url: cli/honeycomb-io-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/conventions/honeycomb-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/honeycomb-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/conformance/honeycomb-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/honeycomb-io-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/errors/honeycomb-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/honeycomb-io-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/lifecycle/honeycomb-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/honeycomb-io-lifecycle.yml
@@ -581,18 +629,22 @@ common:
   type: Deprecation
   url: https://docs.honeycomb.io/troubleshoot/product-lifecycle/release-stages/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/scopes/honeycomb-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/honeycomb-io-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/changelog/honeycomb-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/honeycomb-io-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/data-model/honeycomb-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/honeycomb-io-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/asyncapi/honeycomb-io-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/honeycomb-io-webhooks.yml
@@ -718,6 +770,46 @@ scopes:
   scope_count: 0
   slug: honeycomb-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 80.6
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 76.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 31.8
+    contract_quality: 73.2
+    developer_ergonomics: 96.4
+    discoverability: 75.9
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 80.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:
 - kind: authentication

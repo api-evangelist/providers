@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://fasab.gov/wp-json
@@ -18,6 +43,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/security/federal-accounting-standards-advisory-board-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/federal-accounting-standards-advisory-board-domain-security.yml
@@ -30,58 +56,72 @@ common:
   type: Website
   url: https://fasab.gov/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-wp-content-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/federal-accounting-standards-advisory-board-wp-content-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/authentication/federal-accounting-standards-advisory-board-authentication.yml
   title: ''
   type: Authentication
   url: authentication/federal-accounting-standards-advisory-board-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/conventions/federal-accounting-standards-advisory-board-conventions.yml
   title: ''
   type: Conventions
   url: conventions/federal-accounting-standards-advisory-board-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/errors/federal-accounting-standards-advisory-board-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/federal-accounting-standards-advisory-board-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/lifecycle/federal-accounting-standards-advisory-board-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/federal-accounting-standards-advisory-board-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/conformance/federal-accounting-standards-advisory-board-conformance.yml
   title: ''
   type: Conformance
   url: conformance/federal-accounting-standards-advisory-board-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/data-model/federal-accounting-standards-advisory-board-data-model.yml
   title: ''
   type: DataModel
   url: data-model/federal-accounting-standards-advisory-board-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/rate-limits/federal-accounting-standards-advisory-board-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/federal-accounting-standards-advisory-board-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/plans/federal-accounting-standards-advisory-board-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/federal-accounting-standards-advisory-board-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/packages/federal-accounting-standards-advisory-board-packages.yml
   title: ''
   type: Packages
   url: packages/federal-accounting-standards-advisory-board-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/mcp/federal-accounting-standards-advisory-board-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/federal-accounting-standards-advisory-board-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/llms/federal-accounting-standards-advisory-board-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/federal-accounting-standards-advisory-board-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/overlays/federal-accounting-standards-advisory-board-wp-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/federal-accounting-standards-advisory-board-wp-content-overlay.yaml
@@ -109,7 +149,7 @@ modified: '2026-09-09'
 name: Federal Accounting Standards Advisory Board
 nav: Providers
 network: true
-overview: 'Federal Accounting Standards Advisory Board publishes 1 API on the [APIs.io](https://apis.io/) network: FASAB Public Content API (WordPress REST). Tagged areas include Accounting, Federal-Government, Standards, Financial-Reporting, and Government.
+overview: 'Federal Accounting Standards Advisory Board publishes 1 API on the [APIs.io](https://apis.io/) network: FASAB Public Content API (WordPress REST). Tagged areas include Accounting, Federal-Government, Standards, Financial Reporting, and Government.
 
 
   Federal Accounting Standards Advisory Board''s developer surface includes authentication, engineering blog, support, and 17 more developer resources.'
@@ -122,6 +162,47 @@ rate_limits:
 - limit_count: 0
   name: Federal Accounting Standards Advisory Board Rate Limits
   slug: federal-accounting-standards-advisory-board-rate-limits
+score:
+  band: emerging
+  composite: 17.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 16.5
+    developer_ergonomics: 20.8
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 17.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/screenshots/federal-accounting-standards-advisory-board-2026-06-20T181109.png
 security:
 - kind: authentication
@@ -137,7 +218,7 @@ tags:
 - Accounting
 - Federal-Government
 - Standards
-- Financial-Reporting
+- Financial Reporting
 - Government
 - Regulations
 - Content

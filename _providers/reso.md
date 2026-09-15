@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The RESO Web API is the ratified transport standard for real estate data, defined as a profile of OData 4.0/4.01 (Web API Core 2.0.0 and 2.1.0). Servers MUST expose an OData XML metadata document at /
@@ -44,6 +69,7 @@ common:
   type: Releases
   url: https://github.com/RESOStandards/reso-tools/releases
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/security/reso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reso-domain-security.yml
@@ -160,10 +186,12 @@ common:
   type: ChangeLog
   url: https://tools.reso.org/releases/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/changelog/reso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/reso-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/lifecycle/reso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reso-lifecycle.yml
@@ -172,70 +200,87 @@ common:
   type: Deprecation
   url: https://transport.reso.org/versioning/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/conventions/reso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reso-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/errors/reso-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reso-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/authentication/reso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reso-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/conformance/reso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reso-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/packages/reso-packages.yml
   title: ''
   type: Packages
   url: packages/reso-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/packages/reso-packages.yml
   title: ''
   type: SDKs
   url: packages/reso-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/cli/reso-cli.yml
   title: ''
   type: CLI
   url: cli/reso-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/sandbox/reso-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/reso-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/components/reso-components.yml
   title: ''
   type: Components
   url: components/reso-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/data-model/reso-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reso-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/asyncapi/reso-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/reso-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/skills/reso-query-a-certified-server.md
   title: ''
   type: AgentSkill
   url: skills/reso-query-a-certified-server.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/skills/reso-replicate-with-entityevent.md
   title: ''
   type: AgentSkill
   url: skills/reso-replicate-with-entityevent.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/skills/reso-certify-a-server.md
   title: ''
   type: AgentSkill
   url: skills/reso-certify-a-server.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/llms/reso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reso-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/security/reso-security-audit.yml
   title: ''
   type: SecurityAudit
   url: security/reso-security-audit.yml
@@ -264,6 +309,43 @@ overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [AP
 
   RESO (Real Estate Standards Organization)''s developer surface includes documentation, pricing, engineering blog, API reference, getting-started guide, support, signup flow, and 45 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 46.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 80.4
+    discoverability: 59.3
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 46.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/screenshots/reso-2026-08-17T081530.png
 security:
 - kind: authentication

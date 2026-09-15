@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -66,26 +91,32 @@ common:
   type: PrivacyPolicy
   url: https://www.cheddarup.com/privacypolicy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/llms/cheddar-up-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cheddar-up-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/components/cheddar-up-components.yml
   title: ''
   type: Components
   url: components/cheddar-up-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/authentication/cheddar-up-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cheddar-up-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/asyncapi/cheddar-up-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cheddar-up-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/well-known/cheddar-up-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cheddar-up-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/security/cheddar-up-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cheddar-up-domain-security.yml
@@ -105,6 +136,38 @@ overview: 'Cheddar Up is profiled on the [APIs.io](https://apis.io/) network. Ta
 
   Cheddar Up''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 57.1
+    discoverability: 57.4
+    operational_transparency: 7.9
+  previous_composite: 37.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/screenshots/cheddar-up-2026-07-25T205201.png
 security:
 - kind: authentication

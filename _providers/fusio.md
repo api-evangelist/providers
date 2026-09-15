@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 48.9
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://demo.fusio-project.org
@@ -45,102 +71,127 @@ common:
   type: Website
   url: https://www.fusio-project.org/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-backend.json
   title: ''
   type: OpenAPI
   url: openapi/fusio-backend.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/mcp/fusio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fusio-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/mcp/fusio-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fusio-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/well-known/fusio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fusio-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/well-known/fusio-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/fusio-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/well-known/fusio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fusio-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/security/fusio-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/fusio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/security/fusio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fusio-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/conventions/fusio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fusio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/errors/fusio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fusio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/lifecycle/fusio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fusio-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/lifecycle/fusio-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/fusio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/conformance/fusio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fusio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/data-model/fusio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fusio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/asyncapi/fusio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fusio-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/packages/fusio-packages.yml
   title: ''
   type: Packages
   url: packages/fusio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/cli/fusio-cli.yml
   title: ''
   type: CLI
   url: cli/fusio-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/components/fusio-components.yml
   title: ''
   type: Components
   url: components/fusio-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/sandbox/fusio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fusio-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/llms/fusio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fusio-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/overlays/fusio-backend-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fusio-backend-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/rate-limits/fusio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fusio-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/plans/fusio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fusio-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/changelog/fusio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fusio-changelog.yml
@@ -161,10 +212,12 @@ common:
   type: Demo
   url: https://www.fusio-project.org/demo
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/authentication/fusio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fusio-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/scopes/fusio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fusio-scopes.yml
@@ -185,6 +238,7 @@ common:
   type: License
   url: https://github.com/apioo/fusio/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/security/fusio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fusio-domain-security.yml
@@ -289,6 +343,43 @@ scopes:
   scope_count: 58
   slug: fusio-scopes
   summary_line: 58 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 51.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 60.6
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    operational_transparency: 71.1
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 54.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/screenshots/fusio-2026-06-20T181622.png
 security:
 - kind: authentication
@@ -313,7 +404,6 @@ tags:
 - OpenAPI
 - Self-Hosted
 - MCP
-- Developer Tools
 use_cases:
 - description: Build and publish API products with documentation, authentication, and developer onboarding.
   name: API Product Building

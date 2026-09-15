@@ -16,10 +16,12 @@ common:
   type: Website
   url: https://limbolabs.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limbo-labs/refs/heads/main/lifecycle/limbo-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/limbo-labs-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limbo-labs/refs/heads/main/security/limbo-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/limbo-labs-domain-security.yml

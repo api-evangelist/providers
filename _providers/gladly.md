@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -282,6 +307,7 @@ collections:
   slug: open-gladly-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/capabilities/gladly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gladly-capability-edges.yml
@@ -290,14 +316,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/gladly/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/agentic-access/gladly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gladly-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/security/gladly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gladly-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/authentication/gladly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gladly-authentication.yml
@@ -326,6 +355,7 @@ common:
   type: RateLimits
   url: https://help.gladly.com/developer-tutorials/docs/default-api-rate-limits
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/rate-limits/gladly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gladly-rate-limits.yml
@@ -334,10 +364,12 @@ common:
   type: Pricing
   url: https://www.gladly.ai/pricing/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/plans/gladly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gladly-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/finops/gladly-finops.yml
   title: ''
   type: FinOps
   url: finops/gladly-finops.yml
@@ -370,14 +402,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/@gladlysoftware
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/rules/gladly-rules.yml
   title: ''
   type: SpectralRules
   url: rules/gladly-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/vocabulary/gladly-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gladly-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/json-ld/gladly-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gladly-context.jsonld
@@ -617,6 +652,44 @@ rules:
     info: 0
     warn: 3
   slug: gladly-rules
+score:
+  band: strong
+  composite: 62.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 76.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 28.8
+    contract_quality: 70.1
+    developer_ergonomics: 82.1
+    discoverability: 53.7
+    operational_transparency: 26.3
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/screenshots/gladly-2026-06-20T181857.png
 security:
 - kind: authentication

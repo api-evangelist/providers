@@ -18,6 +18,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/security/sears-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sears-holdings-domain-security.yml
@@ -82,62 +83,77 @@ common:
   type: PrivacyPolicy
   url: https://www.sears.com/en_us/customer-service/policies/privacy-policy.html
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/plans/sears-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sears-holdings-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/rate-limits/sears-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sears-holdings-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/authentication/sears-holdings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sears-holdings-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/errors/sears-holdings-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sears-holdings-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/conventions/sears-holdings-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sears-holdings-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/data-model/sears-holdings-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sears-holdings-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/lifecycle/sears-holdings-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sears-holdings-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/lifecycle/sears-holdings-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sears-holdings-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/changelog/sears-holdings-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sears-holdings-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/conformance/sears-holdings-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sears-holdings-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/sandbox/sears-holdings-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sears-holdings-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/llms/sears-holdings-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sears-holdings-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/xsd/_index.yml
   title: ''
   type: XMLSchema
   url: xsd/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sears-holdings/refs/heads/main/packages/sears-holdings-packages.yml
   title: ''
   type: Packages
   url: packages/sears-holdings-packages.yml

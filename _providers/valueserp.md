@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,14 +99,17 @@ collections:
   slug: open-valueserp-shopping-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/agentic-access/valueserp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/valueserp-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/valueserp-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/authentication/valueserp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/valueserp-authentication.yml
@@ -114,14 +142,17 @@ common:
   type: X
   url: https://x.com/valueserp
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/plans/valueserp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/valueserp-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/rate-limits/valueserp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/valueserp-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/finops/valueserp-finops.yml
   title: ''
   type: FinOps
   url: finops/valueserp-finops.yml
@@ -134,58 +165,72 @@ common:
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/json-ld/valueserp-context.jsonld
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/llms/valueserp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/valueserp-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/packages/valueserp-packages.yml
   title: ''
   type: Packages
   url: packages/valueserp-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/mcp/valueserp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/valueserp-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/conventions/valueserp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/valueserp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/errors/valueserp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/valueserp-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/conformance/valueserp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/valueserp-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/lifecycle/valueserp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/valueserp-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/changelog/valueserp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/valueserp-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/sandbox/valueserp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/valueserp-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/data-model/valueserp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/valueserp-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/webhooks/valueserp-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/valueserp-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/valueserp-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/valueserp-vulnerability-disclosure.yml
@@ -293,6 +338,42 @@ rules:
     info: 1
     warn: 4
   slug: valueserp-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 90.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 24.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 29.5
+    contract_quality: 69.8
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 66.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
 security:
 - kind: authentication

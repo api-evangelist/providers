@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 62.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1601
   human_in_the_loop: 29
@@ -2480,22 +2505,27 @@ common:
   type: Website
   url: https://www.adobe.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/capabilities/adobe-suite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-suite-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/agentic-access/adobe-suite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-suite-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/authentication/adobe-suite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-suite-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/security/adobe-suite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-suite-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/security/adobe-suite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-suite-domain-security.yml
@@ -2540,42 +2570,52 @@ common:
   type: Support
   url: https://developer.adobe.com/support/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/openapi/
   title: ''
   type: OpenAPI
   url: openapi/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/packages/adobe-suite-packages.yml
   title: ''
   type: Packages
   url: packages/adobe-suite-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/packages/adobe-suite-packages.yml
   title: ''
   type: SDKs
   url: packages/adobe-suite-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/well-known/adobe-suite-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adobe-suite-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/well-known/adobe-suite-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adobe-suite-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/mcp/adobe-suite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adobe-suite-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/mcp/adobe-suite-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/adobe-suite-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/llms/adobe-suite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adobe-suite-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/overlays/
   title: ''
   type: Overlay
   url: overlays/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/conformance/adobe-suite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adobe-suite-conformance.yml
@@ -2584,22 +2624,27 @@ common:
   type: Compliance
   url: https://www.adobe.com/trust/compliance/compliance-list.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/errors/adobe-suite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adobe-suite-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/lifecycle/adobe-suite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adobe-suite-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/lifecycle/adobe-suite-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/adobe-suite-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/scopes/adobe-suite-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adobe-suite-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/security/adobe-suite-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adobe-suite-trust-center.yml
@@ -2608,54 +2653,67 @@ common:
   type: Security
   url: https://helpx.adobe.com/security.html/security/policy.ug.html
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/sandbox/adobe-suite-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adobe-suite-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/conventions/adobe-suite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adobe-suite-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/conventions/adobe-suite-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/adobe-suite-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/changelog/adobe-suite-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adobe-suite-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/cli/adobe-suite-cli.yml
   title: ''
   type: CLI
   url: cli/adobe-suite-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/components/adobe-suite-components.yml
   title: ''
   type: Components
   url: components/adobe-suite-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/data-model/adobe-suite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adobe-suite-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/asyncapi/adobe-suite-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adobe-suite-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/rate-limits/adobe-suite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-suite-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/plans/adobe-suite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-suite-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/finops/adobe-suite-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-suite-finops.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/graphql/adobe-suite-graphql.md
   title: ''
   type: GraphQL
   url: graphql/adobe-suite-graphql.md
@@ -2740,6 +2798,41 @@ scopes:
   scope_count: 10
   slug: adobe-suite-scopes
   summary_line: 10 scopes
+score:
+  band: exemplar
+  composite: 75.6
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 63.2
+    developer_ergonomics: 89.9
+    discoverability: 66.7
+    operational_transparency: 71.1
+  previous_composite: 75.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 82.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 473
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/screenshots/adobe-suite-2026-06-20T165033.png
 security:
 - kind: authentication

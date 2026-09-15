@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Cloudflare Zero Trust (formerly Cloudflare for Teams / Cloudflare Access) provides ZTNA, secure web gateway, browser isolation, CASB, and DLP through a single global edge platform. The Cloudflare API '
@@ -84,10 +109,12 @@ collections:
   slug: open-zero-trust-network-access-warp-override-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/security/zero-trust-network-access-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zero-trust-network-access-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/security/zero-trust-network-access-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zero-trust-network-access-domain-security.yml
@@ -140,34 +167,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/WireGuard
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/json-schema/zero-trust-network-access-policy-schema.json
   title: ZTNA Access Policy Schema
   type: JSONSchema
   url: json-schema/zero-trust-network-access-policy-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/json-schema/zero-trust-network-access-application-schema.json
   title: ZTNA Application Schema
   type: JSONSchema
   url: json-schema/zero-trust-network-access-application-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/json-schema/zero-trust-network-access-device-posture-schema.json
   title: ZTNA Device Posture Schema
   type: JSONSchema
   url: json-schema/zero-trust-network-access-device-posture-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/json-structure/zero-trust-network-access-policy-structure.json
   title: ZTNA Access Policy Structure
   type: JSONStructure
   url: json-structure/zero-trust-network-access-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/json-ld/zero-trust-network-access-context.jsonld
   title: ZTNA JSON-LD Context
   type: JSONLD
   url: json-ld/zero-trust-network-access-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/examples/zero-trust-network-access-policy-example.json
   title: ZTNA Access Policy Example
   type: CodeExamples
   url: examples/zero-trust-network-access-policy-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/examples/zero-trust-network-access-device-posture-example.json
   title: ZTNA Device Posture Example
   type: CodeExamples
   url: examples/zero-trust-network-access-device-posture-example.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/vocabulary/zero-trust-network-access-vocabulary.yaml
   title: ZTNA Vocabulary
   type: Resources
   url: vocabulary/zero-trust-network-access-vocabulary.yaml
@@ -257,6 +292,37 @@ rules:
     info: 1
     warn: 4
   slug: zero-trust-network-access-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 35.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 52.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 9.8
+    contract_quality: 59.2
+    developer_ergonomics: 38.1
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 35.7
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/screenshots/zero-trust-network-access-2026-06-20T201911.png
 security:
 - kind: domain-security

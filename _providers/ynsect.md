@@ -38,8 +38,8 @@ tags:
 - Agriculture
 - AgTech
 - Food
-- Insect-Protein
-- Animal-Feed
+- Insect Protein
+- Animal Feed
 - Fertilizer
 - Biotechnology
 - Manufacturing

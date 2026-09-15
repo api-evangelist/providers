@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -85,10 +110,12 @@ collections:
   slug: open-shipmonk-warehouses-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/capabilities/shipmonk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shipmonk-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/overlays/shipmonk-orders-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shipmonk-orders-overlay.yaml
@@ -157,6 +184,7 @@ common:
   type: ChangeLog
   url: https://apidocs.shipmonk.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/changelog/shipmonk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shipmonk-changelog.yml
@@ -165,6 +193,7 @@ common:
   type: Compliance
   url: https://www.shipmonk.com/resources/content-hub/soc-2-type-ii-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shipmonk-trust-center.yml
@@ -173,66 +202,82 @@ common:
   type: Security
   url: https://app.shipmonk.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/shipmonk-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/well-known/shipmonk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/shipmonk-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipmonk-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/well-known/shipmonk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shipmonk-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/well-known/shipmonk-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/shipmonk-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/authentication/shipmonk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shipmonk-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/conventions/shipmonk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shipmonk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/conventions/shipmonk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shipmonk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/errors/shipmonk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shipmonk-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/rate-limits/shipmonk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shipmonk-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/lifecycle/shipmonk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shipmonk-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/conformance/shipmonk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shipmonk-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/sandbox/shipmonk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shipmonk-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/data-model/shipmonk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shipmonk-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/packages/shipmonk-packages.yml
   title: ''
   type: Packages
   url: packages/shipmonk-packages.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/asyncapi/shipmonk-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/shipmonk-webhooks-asyncapi.yml
@@ -241,22 +286,27 @@ common:
   type: Webhooks
   url: https://apidocs.shipmonk.com/reference/webhooks
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/mcp/shipmonk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shipmonk-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/mcp/shipmonk-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/shipmonk-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/agentic-access/shipmonk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shipmonk-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/llms/shipmonk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shipmonk-llms.txt
@@ -284,6 +334,46 @@ rate_limits:
 - limit_count: 2
   name: Shipmonk Rate Limits
   slug: shipmonk-rate-limits
+score:
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 58.0
+    developer_ergonomics: 41.1
+    discoverability: 81.5
+    operational_transparency: 56.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 52.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/screenshots/shipmonk-2026-08-17T081833.png
 security:
 - kind: authentication

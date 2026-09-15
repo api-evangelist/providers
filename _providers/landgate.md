@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,26 +115,32 @@ collections:
   slug: open-landgate-slip-public-services-folder
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/overlays/landgate-slip-public-arcgis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landgate-slip-public-arcgis-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/overlays/landgate-slip-public-ogc-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landgate-slip-public-ogc-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/overlays/landgate-data-wa-ckan-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landgate-data-wa-ckan-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/mcp/landgate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/landgate-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/agentic-access/landgate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/landgate-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/security/landgate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landgate-domain-security.yml
@@ -150,30 +181,37 @@ common:
   type: WellKnown
   url: https://sign-on.app.landgate.wa.gov.au/.well-known/openid-configuration
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/authentication/landgate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/landgate-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/scopes/landgate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/landgate-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/well-known/landgate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/landgate-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/conventions/landgate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/landgate-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/errors/landgate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/landgate-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/lifecycle/landgate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landgate-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/changelog/landgate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/landgate-changelog.yml
@@ -182,22 +220,27 @@ common:
   type: ChangeLog
   url: https://www.landgate.wa.gov.au/about-us/customer-news-and-media/news-and-media-articles/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/conformance/landgate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landgate-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/data-model/landgate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/landgate-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/packages/landgate-packages.yml
   title: ''
   type: Packages
   url: packages/landgate-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/llms/landgate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landgate-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -240,6 +283,55 @@ scopes:
   scope_count: 6
   slug: landgate-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 14.9
+    developer_ergonomics: 47.0
+    discoverability: 85.2
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 40.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 79.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:
 - kind: authentication

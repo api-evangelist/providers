@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Server-side REST API for Quadrata Passport: login/access-token authentication, ECDSA-signed privacy data requests, on-chain AML wallet screening, and passport attribute queries. Distributed as the @qu'
@@ -75,54 +100,67 @@ common:
   type: Sandbox
   url: https://sandbox.quadrata.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/authentication/quadrata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quadrata-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/conventions/quadrata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quadrata-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/errors/quadrata-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/quadrata-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/asyncapi/quadrata-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/quadrata-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/data-model/quadrata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quadrata-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/packages/quadrata-packages.yml
   title: ''
   type: Packages
   url: packages/quadrata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/packages/quadrata-packages.yml
   title: ''
   type: SDKs
   url: packages/quadrata-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/components/quadrata-components.yml
   title: ''
   type: Components
   url: components/quadrata-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/mcp/quadrata-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/quadrata-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/lifecycle/quadrata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quadrata-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/security/quadrata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quadrata-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/llms/quadrata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quadrata-llms.txt
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/sandbox/quadrata-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/quadrata-sandbox.yml
@@ -142,6 +180,40 @@ overview: 'Quadrata publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Quadrata''s developer surface includes documentation, getting-started guide, API reference, signup flow, engineering blog, support, sandbox, and 19 more developer resources.'
 random_paper: 11
+score:
+  band: developing
+  composite: 40.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 40.0
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/heads/main/screenshots/quadrata-2026-09-02T152551.png
 security:
 - kind: authentication

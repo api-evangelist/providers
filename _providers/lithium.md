@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 35.7
+  scored_at: '2026-09-14'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -825,18 +850,22 @@ common:
   type: BlogRSS
   url: https://khoros.ai/feed/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/capabilities/lithium-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lithium-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/security/lithium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lithium-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/scopes/lithium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lithium-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/authentication/lithium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lithium-authentication.yml
@@ -913,78 +942,97 @@ common:
   type: Training
   url: https://khoros.ai/training/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/llms/lithium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lithium-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/packages/lithium-packages.yml
   title: ''
   type: Packages
   url: packages/lithium-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/packages/lithium-packages.yml
   title: ''
   type: SDKs
   url: packages/lithium-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/cli/lithium-cli.yml
   title: ''
   type: CLI
   url: cli/lithium-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/components/lithium-components.yml
   title: ''
   type: Components
   url: components/lithium-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/conventions/lithium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lithium-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/changelog/lithium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lithium-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/lifecycle/lithium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lithium-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/conformance/lithium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lithium-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/errors/lithium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lithium-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/data-model/lithium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lithium-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/well-known/lithium-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lithium-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/asyncapi/lithium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lithium-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/mcp/lithium-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lithium-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/overlays/_index.yml
   title: ''
   type: Overlay
   url: overlays/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/rate-limits/lithium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lithium-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/security/lithium-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lithium-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/plans/lithium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lithium-plans-pricing.yml
@@ -993,22 +1041,27 @@ common:
   type: APICatalog
   url: https://developer.khoros.com/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/skills/lithium-register-and-run-a-care-bot.md
   title: ''
   type: AgentSkill
   url: skills/lithium-register-and-run-a-care-bot.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/skills/lithium-look-up-a-care-author.md
   title: ''
   type: AgentSkill
   url: skills/lithium-look-up-a-care-author.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/skills/lithium-subscribe-to-marketing-events.md
   title: ''
   type: AgentSkill
   url: skills/lithium-subscribe-to-marketing-events.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/skills/lithium-handle-a-flow-conversation.md
   title: ''
   type: AgentSkill
   url: skills/lithium-handle-a-flow-conversation.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/skills/lithium-process-a-gdpr-request.md
   title: ''
   type: AgentSkill
   url: skills/lithium-process-a-gdpr-request.md
@@ -1042,6 +1095,40 @@ scopes:
   scope_count: 1
   slug: lithium-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 59.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 62.8
+    developer_ergonomics: 44.6
+    discoverability: 77.8
+    operational_transparency: 84.2
+  previous_composite: 59.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 99
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:
 - kind: authentication

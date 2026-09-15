@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -90,22 +115,27 @@ collections:
   slug: open-amazon-serverless-application-repository
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/agentic-access/amazon-serverless-application-repository-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-serverless-application-repository-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/security/amazon-serverless-application-repository-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-serverless-application-repository-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/security/amazon-serverless-application-repository-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-serverless-application-repository-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/security/amazon-serverless-application-repository-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-serverless-application-repository-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/authentication/amazon-serverless-application-repository-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-serverless-application-repository-authentication.yml
@@ -114,34 +144,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-serverless-application-repository/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-browse-applications-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-browse-applications-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-decommission-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-decommission-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-deploy-via-change-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-deploy-via-change-set-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-provision-and-share-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-provision-and-share-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-publish-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-publish-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-publish-multiple-versions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-publish-multiple-versions-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-set-application-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-set-application-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/arazzo/amazon-serverless-application-repository-update-application-metadata-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-serverless-application-repository-update-application-metadata-workflow.yml
@@ -214,54 +252,67 @@ common:
   type: KnowledgeCenter
   url: https://repost.aws/knowledge-center
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/rules/amazon-serverless-application-repository-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-serverless-application-repository-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/vocabulary/amazon-serverless-application-repository-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-serverless-application-repository-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-ld/amazon-serverless-application-repository-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-serverless-application-repository-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-schema/amazon-serverless-application-repository-application-policy-statement-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-serverless-application-repository-application-policy-statement-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-schema/amazon-serverless-application-repository-application-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-serverless-application-repository-application-summary-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-structure/amazon-serverless-application-repository-application-policy-statement-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-serverless-application-repository-application-policy-statement-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-structure/amazon-serverless-application-repository-application-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-serverless-application-repository-application-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-structure/amazon-serverless-application-repository-application-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-serverless-application-repository-application-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/json-structure/amazon-serverless-application-repository-version-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-serverless-application-repository-version-summary-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/examples/amazon-serverless-application-repository-application-example.json
   title: ''
   type: Examples
   url: examples/amazon-serverless-application-repository-application-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/examples/amazon-serverless-application-repository-application-policy-statement-example.json
   title: ''
   type: Examples
   url: examples/amazon-serverless-application-repository-application-policy-statement-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/examples/amazon-serverless-application-repository-application-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-serverless-application-repository-application-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/examples/amazon-serverless-application-repository-version-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-serverless-application-repository-version-summary-example.json
@@ -376,6 +427,38 @@ rules:
     info: 4
     warn: 14
   slug: amazon-serverless-application-repository-spectral-rules
+score:
+  band: developing
+  composite: 43.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 74.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 28.8
+    contract_quality: 34.8
+    developer_ergonomics: 51.2
+    discoverability: 72.2
+    operational_transparency: 26.3
+  previous_composite: 43.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/screenshots/amazon-serverless-application-repository-2026-06-20T171819.png
 security:
 - kind: authentication

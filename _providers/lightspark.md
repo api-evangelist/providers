@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -278,10 +303,12 @@ collections:
   slug: open-lightspark-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/capabilities/lightspark-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lightspark-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/overlays/lightspark-grid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lightspark-grid-overlay.yaml
@@ -358,6 +385,7 @@ common:
   type: ChangeLog
   url: https://docs.lightspark.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/changelog/lightspark-changelog.yml
   title: ''
   type: ChangeLogArtifact
   url: changelog/lightspark-changelog.yml
@@ -366,6 +394,7 @@ common:
   type: Deprecation
   url: https://docs.lightspark.com/api-reference/environments
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/lifecycle/lightspark-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lightspark-lifecycle.yml
@@ -374,86 +403,107 @@ common:
   type: Security
   url: https://www.lightspark.com/news/lightspark/expanding-our-bug-bounty-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/security/lightspark-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lightspark-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/security/lightspark-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lightspark-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/security/lightspark-trust-center.yml
   title: ''
   type: Compliance
   url: security/lightspark-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/security/lightspark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightspark-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/conformance/lightspark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lightspark-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/authentication/lightspark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lightspark-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/agentic-access/lightspark-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lightspark-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/mcp/lightspark-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lightspark-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/llms/lightspark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lightspark-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/packages/lightspark-packages.yml
   title: ''
   type: Packages
   url: packages/lightspark-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/packages/lightspark-packages.yml
   title: ''
   type: SDKs
   url: packages/lightspark-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/cli/lightspark-cli.yml
   title: ''
   type: CLI
   url: cli/lightspark-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/sandbox/lightspark-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lightspark-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/conventions/lightspark-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lightspark-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/conventions/lightspark-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lightspark-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/errors/lightspark-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lightspark-error-codes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/errors/lightspark-problem-types.yml
   title: ''
   type: ProblemTypes
   url: errors/lightspark-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/data-model/lightspark-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lightspark-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/asyncapi/lightspark-grid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lightspark-grid-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/well-known/lightspark-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lightspark-well-known.yml
@@ -489,6 +539,47 @@ rules:
     info: 1
     warn: 4
   slug: lightspark-grid-spectral
+score:
+  band: exemplar
+  composite: 70.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 55.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 72.7
+    contract_quality: 67.4
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 70.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:
 - kind: authentication

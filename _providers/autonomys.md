@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://mainnet.auto-drive.autonomys.xyz
@@ -35,38 +60,47 @@ collections:
   slug: open-autonomys-auto-drive-download-gateway-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/mcp/autonomys-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/autonomys-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/openapi/_original/autonomys-auto-drive-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/autonomys-auto-drive-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/overlays/autonomys-auto-drive-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autonomys-auto-drive-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/authentication/autonomys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autonomys-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/conventions/autonomys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autonomys-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/errors/autonomys-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autonomys-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/data-model/autonomys-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autonomys-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/conformance/autonomys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autonomys-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/lifecycle/autonomys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autonomys-lifecycle.yml
@@ -75,22 +109,27 @@ common:
   type: StatusPage
   url: https://telemetry.subspace.foundation
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/packages/autonomys-packages.yml
   title: ''
   type: Packages
   url: packages/autonomys-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/packages/autonomys-packages.yml
   title: ''
   type: SDKs
   url: packages/autonomys-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/llms/autonomys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autonomys-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/security/autonomys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autonomys-domain-security.yml
@@ -151,6 +190,40 @@ overview: 'Autonomys publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
   Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 19 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 45.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 41.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/screenshots/autonomys-2026-07-25T201843.png
 security:
 - kind: authentication

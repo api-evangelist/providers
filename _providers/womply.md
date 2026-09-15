@@ -12,10 +12,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/womply/refs/heads/main/llms/womply-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/womply-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/womply/refs/heads/main/security/womply-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/womply-domain-security.yml

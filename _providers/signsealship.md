@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Create and track orders that combine e-signature, remote online notarization and tracked delivery. 35 documented paths across Onboarding, Orders, Sandbox, Closing Rooms, Closing Passports, Proof Passp
@@ -84,54 +109,67 @@ common:
   type: ChangeLog
   url: https://docs.signsealship.com/changelog/overview
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/changelog/signsealship-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/signsealship-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/plans/signsealship-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/signsealship-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/packages/signsealship-packages.yml
   title: ''
   type: Packages
   url: packages/signsealship-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/well-known/signsealship-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/signsealship-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/well-known/signsealship-apis.json
   title: ''
   type: APIsJSON
   url: well-known/signsealship-apis.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/llms/signsealship-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signsealship-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/a2a/signsealship-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/signsealship-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/conformance/signsealship-conformance.yml
   title: ''
   type: Conformance
   url: conformance/signsealship-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/security/signsealship-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signsealship-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/security/signsealship-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/signsealship-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/security/signsealship-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/signsealship-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/security/signsealship-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/signsealship-trust-center.yml
@@ -154,7 +192,7 @@ modified: '2026-09-01'
 name: SignSealShip Partner API
 nav: Providers
 network: true
-overview: 'SignSealShip Partner API publishes 1 API on the [APIs.io](https://apis.io/) network: SignSealShip Partner API. Tagged areas include notarization, remote online notarization, electronic signature, document verification, and legal technology.
+overview: 'SignSealShip Partner API publishes 1 API on the [APIs.io](https://apis.io/) network: SignSealShip Partner API. Tagged areas include Notarization, Remote Online Notarization, Electronic Signature, Document Verification, and Legal Technology.
 
 
   The SignSealShip Partner API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -170,6 +208,40 @@ rate_limits:
 - limit_count: 5
   name: Signsealship Rate Limits
   slug: signsealship-rate-limits
+score:
+  band: strong
+  composite: 61.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 58.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 69.0
+    discoverability: 77.8
+    operational_transparency: 86.8
+  previous_composite: 61.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/screenshots/signsealship-2026-09-02T155438.png
 security:
 - kind: authentication
@@ -190,13 +262,13 @@ security:
   summary_line: count, named, note
 slug: signsealship
 tags:
-- notarization
-- remote online notarization
-- electronic signature
-- document verification
-- legal technology
-- real estate
-- title and escrow
-- shipping
+- Notarization
+- Remote Online Notarization
+- Electronic Signature
+- Document Verification
+- Legal Technology
+- Real-Estate
+- Title and Escrow
+- Shipping
 website: https://www.signsealship.com/
 ---

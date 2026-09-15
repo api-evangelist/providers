@@ -16,6 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/google/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skyboximaging/refs/heads/main/security/skyboximaging-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyboximaging-domain-security.yml

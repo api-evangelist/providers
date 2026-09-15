@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 29
 apis:
 - baseURL: https://api.squared.ai/api/v1/
@@ -77,90 +102,112 @@ common:
   type: Compliance
   url: https://docs.squared.ai/deployment-and-security/security-and-compliance/overview
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/ai-squared-openapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/llms/ai-squared-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ai-squared-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/mcp/ai-squared-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ai-squared-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/mcp/ai-squared-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ai-squared-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/a2a/ai-squared-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/ai-squared-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/packages/ai-squared-packages.yml
   title: ''
   type: Packages
   url: packages/ai-squared-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/packages/ai-squared-packages.yml
   title: ''
   type: SDKs
   url: packages/ai-squared-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/well-known/ai-squared-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ai-squared-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/conventions/ai-squared-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ai-squared-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/rate-limits/ai-squared-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ai-squared-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/plans/ai-squared-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ai-squared-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/authentication/ai-squared-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ai-squared-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/errors/ai-squared-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ai-squared-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/lifecycle/ai-squared-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ai-squared-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/changelog/ai-squared-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ai-squared-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/conformance/ai-squared-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ai-squared-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/security/ai-squared-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ai-squared-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/security/ai-squared-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ai-squared-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/data-model/ai-squared-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ai-squared-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/overlays/ai-squared-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ai-squared-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/components/ai-squared-components.yml
   title: ''
   type: Components
   url: components/ai-squared-components.yml
@@ -176,7 +223,7 @@ modified: '2026-09-13'
 name: AI Squared
 nav: Providers
 network: true
-overview: 'AI Squared publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Integration, Reverse ETL, Artificial Intelligence, Machine Learning, and Customer Data Platform.
+overview: 'AI Squared publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Integration, Reverse ETL, Artificial Intelligence, Machine-Learning, and Customer Data Platform.
 
 
   AI Squared''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -189,6 +236,37 @@ rate_limits:
 - limit_count: 2
   name: Ai Squared Rate Limits
   slug: ai-squared-rate-limits
+score:
+  band: strong
+  composite: 57.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 47.7
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 52.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Ai Squared Authentication
@@ -211,11 +289,11 @@ tags:
 - Data Integration
 - Reverse ETL
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Customer Data Platform
 - Data Activation
-- Workflow Automation
-- Open Source
+- Workflow-Automation
+- Open-Source
 - MCP
 - Enterprise
 website: https://aisquared.ai/

@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The TRITIUM platform API is Episode Six's real-time RESTful interface for card issuing, issuer processing and ledger management — card program setup, account and ledger operations, transaction process
@@ -24,6 +49,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/security/episode-six-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/episode-six-domain-security.yml
@@ -76,42 +102,52 @@ common:
   type: Compliance
   url: https://episodesix.com/platform/paymentsecurity
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/conformance/episode-six-conformance.yml
   title: ''
   type: Conformance
   url: conformance/episode-six-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/mcp/episode-six-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/episode-six-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/scopes/episode-six-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/episode-six-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/authentication/episode-six-authentication.yml
   title: ''
   type: Authentication
   url: authentication/episode-six-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/well-known/episode-six-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/episode-six-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/llms/episode-six-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/episode-six-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/packages/episode-six-packages.yml
   title: ''
   type: Packages
   url: packages/episode-six-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/plans/episode-six-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/episode-six-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/rate-limits/episode-six-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/episode-six-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/lifecycle/episode-six-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/episode-six-lifecycle.yml
@@ -163,6 +199,45 @@ scopes:
   scope_count: 1
   slug: episode-six-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: emerging
+  composite: 24.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 66.7
+    operational_transparency: 0.0
+  previous_composite: 24.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/episode-six/refs/heads/main/screenshots/episode-six-2026-09-02T145414.png
 security:
 - kind: authentication

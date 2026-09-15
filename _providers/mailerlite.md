@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: true
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -100,14 +126,17 @@ collections:
   slug: open-mailerlite
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/agentic-access/mailerlite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mailerlite-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/security/mailerlite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mailerlite-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/authentication/mailerlite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mailerlite-authentication.yml
@@ -132,14 +161,17 @@ common:
   type: Pricing
   url: https://www.mailerlite.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/plans/mailerlite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mailerlite-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/rate-limits/mailerlite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mailerlite-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/finops/mailerlite-finops.yml
   title: ''
   type: FinOps
   url: finops/mailerlite-finops.yml
@@ -148,10 +180,12 @@ common:
   type: MCPServer
   url: https://mcp.mailerlite.com/mcp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/mcp/mailerlite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mailerlite-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/mcp/mailerlite-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mailerlite-tool-crosswalk.yml
@@ -160,38 +194,47 @@ common:
   type: AgentSkill
   url: https://github.com/mailerlite/mailerlite-skills
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/llms/mailerlite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mailerlite-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/packages/mailerlite-packages.yml
   title: ''
   type: Packages
   url: packages/mailerlite-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/packages/mailerlite-packages.yml
   title: ''
   type: SDKs
   url: packages/mailerlite-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/cli/mailerlite-cli.yml
   title: ''
   type: CLI
   url: cli/mailerlite-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/conventions/mailerlite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mailerlite-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/errors/mailerlite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mailerlite-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/data-model/mailerlite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mailerlite-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/lifecycle/mailerlite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mailerlite-lifecycle.yml
@@ -200,6 +243,7 @@ common:
   type: StatusPage
   url: https://status.mailerlite.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/asyncapi/mailerlite-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/mailerlite-webhooks-asyncapi.yml
@@ -208,6 +252,7 @@ common:
   type: Webhooks
   url: https://developers.mailerlite.com/api/webhooks
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/well-known/mailerlite-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mailerlite-well-known.yml
@@ -216,6 +261,7 @@ common:
   type: ContentSignal
   url: https://www.mailerlite.com/robots.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/security/mailerlite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mailerlite-vulnerability-disclosure.yml
@@ -224,6 +270,7 @@ common:
   type: Security
   url: https://www.mailerlite.com/legal/responsible-disclosure-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/security/mailerlite-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mailerlite-trust-center.yml
@@ -232,38 +279,47 @@ common:
   type: Compliance
   url: https://www.mailerlite.com/trust-page
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/conformance/mailerlite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mailerlite-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-subscribers-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-subscribers-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-groups-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-groups-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-segments-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-segments-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-fields-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-fields-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-campaigns-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-campaigns-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-automations-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-automations-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-forms-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-forms-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/overlays/mailerlite-webhooks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mailerlite-webhooks-api-overlay.yaml
@@ -354,6 +410,51 @@ rules:
     info: 0
     warn: 6
   slug: mailerlite-asyncapi-spectral-rules
+score:
+  band: exemplar
+  composite: 77.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 63.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 51.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 29.5
+    contract_quality: 59.8
+    developer_ergonomics: 88.1
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 77.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 59.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/screenshots/mailerlite-2026-06-20T184854.png
 security:
 - kind: authentication

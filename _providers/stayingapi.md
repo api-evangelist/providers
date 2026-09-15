@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 59.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -71,26 +97,32 @@ common:
   type: Website
   url: https://www.stayingapi.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/security/stayingapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stayingapi-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/agentic-access/stayingapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stayingapi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/authentication/stayingapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stayingapi-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/_original/stayingapi-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/stayingapi-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/llms/stayingapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stayingapi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/well-known/stayingapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stayingapi-well-known.yml
@@ -99,38 +131,47 @@ common:
   type: APICatalog
   url: https://stayingapi.com/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/mcp/stayingapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stayingapi-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/mcp/stayingapi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/stayingapi-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/packages/stayingapi-packages.yml
   title: ''
   type: Packages
   url: packages/stayingapi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/packages/stayingapi-packages.yml
   title: ''
   type: SDKs
   url: packages/stayingapi-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/scopes/stayingapi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stayingapi-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/conventions/stayingapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stayingapi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/errors/stayingapi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/stayingapi-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/lifecycle/stayingapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stayingapi-lifecycle.yml
@@ -143,6 +184,7 @@ common:
   type: Deprecation
   url: https://stayingapi.com/docs/stability
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/changelog/stayingapi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stayingapi-changelog.yml
@@ -151,6 +193,7 @@ common:
   type: ChangeLog
   url: https://stayingapi.com/changelog
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/sandbox/stayingapi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stayingapi-sandbox.yml
@@ -159,30 +202,37 @@ common:
   type: Console
   url: https://stayingapi.com/docs/try-it
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/conformance/stayingapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stayingapi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/data-model/stayingapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stayingapi-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/overlays/stayingapi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stayingapi-openapi-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/rate-limits/stayingapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stayingapi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/plans/stayingapi-plans.yml
   title: ''
   type: Plans
   url: plans/stayingapi-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/arazzo/stayingapi-cross-ota-price-comparison.yml
   title: ''
   type: Arazzo
   url: arazzo/stayingapi-cross-ota-price-comparison.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/arazzo/stayingapi-availability-then-price.yml
   title: ''
   type: Arazzo
   url: arazzo/stayingapi-availability-then-price.yml
@@ -260,6 +310,42 @@ scopes:
   scope_count: 1
   slug: stayingapi-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 63.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 57.1
+    developer_ergonomics: 76.2
+    discoverability: 87.0
+    operational_transparency: 73.7
+  previous_composite: 63.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
 security:
 - kind: authentication

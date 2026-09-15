@@ -10,6 +10,31 @@ access_model:
   - https://support.channel99.com/hc/en-us/articles/49766041989787-Channel99-Reporting-API-Developer-Guide
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server that exposes Channel99 marketing intelligence - visits, pixel impressions, vendor and channel scores, audiences, account identity and pipeline influenc
@@ -107,6 +132,7 @@ collections:
   slug: open-channel99-pulsar
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/authentication/channel99-authentication.yml
   title: ''
   type: Authentication
   url: authentication/channel99-authentication.yml
@@ -151,46 +177,57 @@ common:
   type: PrivacyPolicy
   url: https://www.channel99.com/company/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/llms/channel99-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/channel99-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/security/channel99-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/channel99-domain-security.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-pulsar-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/channel99-pulsar-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/overlays/channel99-pulsar-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/channel99-pulsar-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/conventions/channel99-conventions.yml
   title: ''
   type: Conventions
   url: conventions/channel99-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/data-model/channel99-data-model.yml
   title: ''
   type: DataModel
   url: data-model/channel99-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/errors/channel99-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/channel99-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/rate-limits/channel99-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/channel99-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/scopes/channel99-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/channel99-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/conformance/channel99-conformance.yml
   title: ''
   type: Conformance
   url: conformance/channel99-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/lifecycle/channel99-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/channel99-lifecycle.yml
@@ -199,30 +236,37 @@ common:
   type: StatusPage
   url: https://channel99.freshstatus.io/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/changelog/channel99-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/channel99-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/plans/channel99-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/channel99-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/components/channel99-components.yml
   title: ''
   type: Components
   url: components/channel99-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/well-known/channel99-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/channel99-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/mcp/channel99-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/channel99-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/mcp/channel99-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/channel99-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -257,6 +301,40 @@ scopes:
   scope_count: 0
   slug: channel99-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 48.5
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 63.2
+  previous_composite: 43.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/screenshots/channel99-2026-07-25T205041.png
 security:
 - kind: authentication

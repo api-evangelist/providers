@@ -12,10 +12,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/faxsav/refs/heads/main/lifecycle/faxsav-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/faxsav-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/faxsav/refs/heads/main/security/faxsav-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/faxsav-domain-security.yml

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The v1 REST API behind Cloutdesk''s Agent Platform — the programmatic surface agencies, brands, and talent representatives use to run influencer marketing through AI agents. Cursor-paginated, URI-path '
@@ -21,6 +46,7 @@ common:
   type: License
   url: https://github.com/cloutdesk/agents/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/mcp/cloutjam-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cloutjam-mcp.yml
@@ -53,58 +79,72 @@ common:
   type: PrivacyPolicy
   url: https://www.iubenda.com/privacy-policy/65621163/cookie-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/authentication/cloutjam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloutjam-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/scopes/cloutjam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cloutjam-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/conventions/cloutjam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloutjam-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/conventions/cloutjam-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cloutjam-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/conformance/cloutjam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloutjam-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/llms/cloutjam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloutjam-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/security/cloutjam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloutjam-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/packages/cloutjam-packages.yml
   title: ''
   type: Packages
   url: packages/cloutjam-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/data-model/cloutjam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloutjam-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/lifecycle/cloutjam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloutjam-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/plans/cloutjam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloutjam-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/rate-limits/cloutjam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloutjam-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/cli/cloutjam-cli.yml
   title: ''
   type: CLI
   url: cli/cloutjam-cli.yml
@@ -150,6 +190,41 @@ scopes:
   scope_count: 4
   slug: cloutjam-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 25.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 61.9
+    discoverability: 68.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 25.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloutjam/refs/heads/main/screenshots/cloutjam-2026-07-25T205717.png
 security:
 - kind: authentication

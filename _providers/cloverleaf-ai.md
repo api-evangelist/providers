@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: A remote, OAuth-protected Model Context Protocol server that exposes Cloverleaf AI's government meeting intelligence to AI agents and assistants. Found by host discovery (mcp.cloverleaf.ai) rather tha
@@ -21,6 +46,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/security/cloverleaf-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloverleaf-ai-domain-security.yml
@@ -65,26 +91,32 @@ common:
   type: Support
   url: mailto:support@cloverleaf.ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/llms/cloverleaf-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloverleaf-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/well-known/cloverleaf-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloverleaf-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/mcp/cloverleaf-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cloverleaf-ai-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/authentication/cloverleaf-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloverleaf-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/scopes/cloverleaf-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cloverleaf-ai-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/lifecycle/cloverleaf-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloverleaf-ai-lifecycle.yml
@@ -93,22 +125,27 @@ common:
   type: StatusPage
   url: https://status.cloverleaf.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/conformance/cloverleaf-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloverleaf-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/errors/cloverleaf-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloverleaf-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/conventions/cloverleaf-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloverleaf-ai-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/plans/cloverleaf-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloverleaf-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/rate-limits/cloverleaf-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloverleaf-ai-rate-limits.yml
@@ -151,6 +188,46 @@ scopes:
   scope_count: 4
   slug: cloverleaf-ai-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 29.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 29.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/screenshots/cloverleaf-ai-2026-07-25T205722.png
 security:
 - kind: authentication

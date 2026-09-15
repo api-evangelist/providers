@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,34 +75,42 @@ collections:
   slug: open-intercontinental-exchange-reference-data-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/agentic-access/intercontinental-exchange-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/intercontinental-exchange-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/security/intercontinental-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intercontinental-exchange-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/authentication/intercontinental-exchange-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intercontinental-exchange-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/packages/intercontinental-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/intercontinental-exchange-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/packages/intercontinental-exchange-packages.yml
   title: ''
   type: SDKs
   url: packages/intercontinental-exchange-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/well-known/intercontinental-exchange-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/intercontinental-exchange-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/llms/intercontinental-exchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/intercontinental-exchange-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/conformance/intercontinental-exchange-conformance.yml
   title: ''
   type: Conformance
   url: conformance/intercontinental-exchange-conformance.yml
@@ -86,10 +119,12 @@ common:
   type: Compliance
   url: https://www.ice.com/privacy-security-center/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/security/intercontinental-exchange-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/intercontinental-exchange-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/lifecycle/intercontinental-exchange-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/intercontinental-exchange-lifecycle.yml
@@ -98,18 +133,22 @@ common:
   type: StatusPage
   url: https://www.ice.com/status
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/conventions/intercontinental-exchange-conventions.yml
   title: ''
   type: Conventions
   url: conventions/intercontinental-exchange-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/components/intercontinental-exchange-components.yml
   title: ''
   type: Components
   url: components/intercontinental-exchange-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/data-model/intercontinental-exchange-data-model.yml
   title: ''
   type: DataModel
   url: data-model/intercontinental-exchange-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -190,6 +229,52 @@ rate_limits:
 - limit_count: 1
   name: Intercontinental Exchange Rate Limits
   slug: intercontinental-exchange-rate-limits
+score:
+  band: developing
+  composite: 46.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 44.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 48.2
+    discoverability: 68.5
+    operational_transparency: 23.7
+  previous_composite: 46.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:
 - kind: authentication

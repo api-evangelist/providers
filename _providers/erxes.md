@@ -11,6 +11,31 @@ access_model:
   - https://erxes.io/auth/signup
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: GraphQL Federation API powering the erxes XOS platform. An Apollo Router gateway federates one subgraph per plugin — core (contacts, companies, products, tags, documents, brands, organization structur
@@ -23,6 +48,7 @@ asyncapis:
   slug: erxes-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/security/erxes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/erxes-domain-security.yml
@@ -103,62 +129,77 @@ common:
   type: Security
   url: https://github.com/erxes/erxes/blob/main/SECURITY.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/security/erxes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/erxes-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/plans/erxes-plans.md
   title: ''
   type: Plans
   url: plans/erxes-plans.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/plans/erxes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/erxes-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/rate-limits/erxes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/erxes-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/finops/erxes-finops.md
   title: ''
   type: FinOps
   url: finops/erxes-finops.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/packages/erxes-packages.yml
   title: ''
   type: Packages
   url: packages/erxes-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/packages/erxes-packages.yml
   title: ''
   type: SDKs
   url: packages/erxes-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/cli/erxes-cli.yml
   title: ''
   type: CLI
   url: cli/erxes-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/components/erxes-components.yml
   title: ''
   type: Components
   url: components/erxes-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/authentication/erxes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/erxes-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/scopes/erxes-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/erxes-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/conventions/erxes-conventions.yml
   title: ''
   type: Conventions
   url: conventions/erxes-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/errors/erxes-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/erxes-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/lifecycle/erxes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/erxes-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/changelog/erxes-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/erxes-changelog.yml
@@ -167,22 +208,27 @@ common:
   type: ReleaseNotes
   url: https://github.com/erxes/erxes/blob/main/CHANGELOG.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/conformance/erxes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/erxes-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/data-model/erxes-data-model.yml
   title: ''
   type: DataModel
   url: data-model/erxes-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/asyncapi/erxes-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/erxes-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/llms/erxes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/erxes-llms.txt
@@ -219,6 +265,36 @@ scopes:
   scope_count: 34
   slug: erxes-scopes
   summary_line: 34 scopes · deviceCode
+score:
+  band: strong
+  composite: 62.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 49.0
+    developer_ergonomics: 78.6
+    discoverability: 83.3
+    operational_transparency: 81.6
+  previous_composite: 62.7
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/erxes/refs/heads/main/screenshots/erxes-2026-06-20T180818.png
 security:
 - kind: authentication

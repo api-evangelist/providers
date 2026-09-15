@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 api_count: 14
 apis:
 - baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
@@ -80,38 +105,47 @@ collections:
   slug: open-sourcepoint-usnat
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/overlays/sourcepoint-gdpr-tcf-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sourcepoint-gdpr-tcf-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/overlays/sourcepoint-gdpr-standard-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sourcepoint-gdpr-standard-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/overlays/sourcepoint-usnat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sourcepoint-usnat-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/overlays/sourcepoint-global-enterprise-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sourcepoint-global-enterprise-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/overlays/sourcepoint-preferences-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sourcepoint-preferences-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/overlays/sourcepoint-reporting-gdpr-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sourcepoint-reporting-gdpr-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/overlays/sourcepoint-reporting-usnat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sourcepoint-reporting-usnat-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/authentication/sourcepoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sourcepoint-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/security/sourcepoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sourcepoint-domain-security.yml
@@ -272,34 +306,42 @@ common:
   type: Twitter
   url: https://twitter.com/sourcepoint
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/llms/sourcepoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sourcepoint-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/well-known/sourcepoint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sourcepoint-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/well-known/sourcepoint-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/sourcepoint-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/mcp/sourcepoint-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sourcepoint-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/mcp/sourcepoint-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sourcepoint-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/packages/sourcepoint-packages.yml
   title: ''
   type: Packages
   url: packages/sourcepoint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/packages/sourcepoint-packages.yml
   title: ''
   type: SDKs
   url: packages/sourcepoint-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/conformance/sourcepoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sourcepoint-conformance.yml
@@ -308,10 +350,12 @@ common:
   type: Compliance
   url: https://www.sourcepoint.com/trust-and-security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/security/sourcepoint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sourcepoint-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/security/sourcepoint-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sourcepoint-vulnerability-disclosure.yml
@@ -320,38 +364,47 @@ common:
   type: Security
   url: https://www.sourcepoint.com/trust-and-security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/errors/sourcepoint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sourcepoint-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/lifecycle/sourcepoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sourcepoint-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/conventions/sourcepoint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sourcepoint-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/changelog/sourcepoint-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sourcepoint-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/components/sourcepoint-components.yml
   title: ''
   type: Components
   url: components/sourcepoint-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/data-model/sourcepoint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sourcepoint-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/plans/sourcepoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sourcepoint-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/rate-limits/sourcepoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sourcepoint-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -425,6 +478,47 @@ rate_limits:
 - limit_count: 0
   name: Sourcepoint Rate Limits
   slug: sourcepoint-rate-limits
+score:
+  band: strong
+  composite: 54.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 45.7
+    developer_ergonomics: 64.9
+    discoverability: 81.5
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+    - north-america
+  previous_composite: 54.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:
 - kind: authentication

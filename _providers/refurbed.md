@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://api.refurbed.com
@@ -164,14 +189,17 @@ collections:
   slug: open-refurbed-ticketservice-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/capabilities/refurbed-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/refurbed-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/security/refurbed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/refurbed-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/authentication/refurbed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/refurbed-authentication.yml
@@ -204,54 +232,67 @@ common:
   type: GettingStarted
   url: https://gitlab.com/refurbed-community/public-apis/-/blob/master/refurbed_merchant_api/refb/merchant/v1/README.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/conventions/refurbed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/refurbed-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/errors/refurbed-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/refurbed-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/lifecycle/refurbed-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/refurbed-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/rate-limits/refurbed-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/refurbed-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/conformance/refurbed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/refurbed-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/data-model/refurbed-data-model.yml
   title: ''
   type: DataModel
   url: data-model/refurbed-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/mcp/refurbed-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/refurbed-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/llms/refurbed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/refurbed-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/packages/refurbed-packages.yml
   title: ''
   type: Packages
   url: packages/refurbed-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/overlays/refurbed-merchant-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/refurbed-merchant-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/overlays/refurbed-affiliate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/refurbed-affiliate-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/grpc/refurbed_merchant_api/refb/merchant/v1/services
   title: ''
   type: Protobuf
   url: grpc/refurbed_merchant_api/refb/merchant/v1/services
@@ -272,6 +313,52 @@ rate_limits:
 - limit_count: 0
   name: Refurbed Rate Limits
   slug: refurbed-rate-limits
+score:
+  band: thin
+  composite: 29.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 52.1
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 29.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/screenshots/refurbed-2026-09-02T153236.png
 security:
 - kind: authentication

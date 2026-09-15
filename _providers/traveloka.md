@@ -10,6 +10,31 @@ access_model:
   - https://developer.travelokapartnersnetwork.com/get-started
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
@@ -138,10 +163,12 @@ collections:
   slug: open-traveloka-rate-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/capabilities/traveloka-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/traveloka-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/mcp/traveloka-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/traveloka-mcp.yml
@@ -194,70 +221,87 @@ common:
   type: PrivacyPolicy
   url: https://www.traveloka.com/en-id/privacy-notice
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/security/traveloka-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/traveloka-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/security/traveloka-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/traveloka-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/security/traveloka-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/traveloka-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/authentication/traveloka-authentication.yml
   title: ''
   type: Authentication
   url: authentication/traveloka-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/conventions/traveloka-conventions.yml
   title: ''
   type: Conventions
   url: conventions/traveloka-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/conventions/traveloka-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/traveloka-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/errors/traveloka-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/traveloka-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/rate-limits/traveloka-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/traveloka-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/lifecycle/traveloka-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/traveloka-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/conformance/traveloka-conformance.yml
   title: ''
   type: Conformance
   url: conformance/traveloka-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/sandbox/traveloka-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/traveloka-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/packages/traveloka-packages.yml
   title: ''
   type: Packages
   url: packages/traveloka-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/data-model/traveloka-data-model.yml
   title: ''
   type: DataModel
   url: data-model/traveloka-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/asyncapi/traveloka-connect-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/traveloka-connect-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/llms/traveloka-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/traveloka-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/overlays/traveloka-loka-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/traveloka-loka-partner-api-overlay.yaml
@@ -281,6 +325,47 @@ rate_limits:
 - limit_count: 1
   name: Traveloka Rate Limits
   slug: traveloka-rate-limits
+score:
+  band: developing
+  composite: 48.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 60.1
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - indonesia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 48.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/screenshots/traveloka-2026-08-17T125942.png
 security:
 - kind: authentication

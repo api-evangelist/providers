@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://i-gaming.tools/api/v1
@@ -65,42 +90,52 @@ common:
   type: PrivacyPolicy
   url: https://i-gaming.tools/privacy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/llms/igaming-tools-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/igaming-tools-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/llms/igaming-tools-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/igaming-tools-docs-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/plans/igaming-tools-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/igaming-tools-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/rate-limits/igaming-tools-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/igaming-tools-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/conventions/igaming-tools-conventions.yml
   title: ''
   type: Conventions
   url: conventions/igaming-tools-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/lifecycle/igaming-tools-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/igaming-tools-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/conformance/igaming-tools-conformance.yml
   title: ''
   type: Conformance
   url: conformance/igaming-tools-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/security/igaming-tools-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/igaming-tools-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/packages/igaming-tools-packages.yml
   title: ''
   type: Packages
   url: packages/igaming-tools-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -132,6 +167,36 @@ rate_limits:
 - limit_count: 3
   name: Igaming Tools Rate Limits
   slug: igaming-tools-rate-limits
+score:
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 55.6
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 51.8
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/screenshots/igaming-tools-2026-09-02T145828.png
 security:
 - kind: authentication

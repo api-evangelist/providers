@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,6 +83,7 @@ collections:
   slug: open-amazon-cloudformation-templates-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/overlays/amazon-cloudformation-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-cloudformation-openapi-overlay.yaml
@@ -66,30 +92,37 @@ common:
   type: MCPServer
   url: https://github.com/awslabs/mcp/tree/main/src/aws-iac-mcp-server
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/agentic-access/amazon-cloudformation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-cloudformation-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/security/amazon-cloudformation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloudformation-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/security/amazon-cloudformation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloudformation-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/security/amazon-cloudformation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloudformation-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/authentication/amazon-cloudformation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-cloudformation-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/well-known/amazon-cloudformation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloudformation-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/well-known/amazon-cloudformation-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloudformation-security.txt
@@ -154,10 +187,12 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/rules/amazon-cloudformation-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloudformation-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/vocabulary/amazon-cloudformation-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloudformation-vocabulary.yaml
@@ -371,6 +406,41 @@ rules:
     info: 1
     warn: 11
   slug: amazon-cloudformation-spectral-rules
+score:
+  band: strong
+  composite: 57.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 62.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 33.3
+    contract_quality: 71.9
+    developer_ergonomics: 71.4
+    discoverability: 66.7
+    operational_transparency: 18.4
+  previous_composite: 57.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:
 - kind: authentication

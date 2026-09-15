@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 1
@@ -216,38 +242,47 @@ collections:
   slug: open-lucid-scim-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/capabilities/lucid-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lucid-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/overlays/lucid-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucid-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/overlays/lucid-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucid-data-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/overlays/lucid-scim-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucid-scim-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/agentic-access/lucid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lucid-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/security/lucid-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lucid-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/security/lucid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lucid-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/scopes/lucid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lucid-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/authentication/lucid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lucid-authentication.yml
@@ -308,6 +343,7 @@ common:
   type: Security
   url: https://lucid.co/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/security/lucid-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lucid-vulnerability-disclosure.yml
@@ -316,62 +352,77 @@ common:
   type: StatusPage
   url: https://status.lucid.co/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/lifecycle/lucid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lucid-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/changelog/lucid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lucid-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/well-known/lucid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lucid-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/conventions/lucid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lucid-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/conformance/lucid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lucid-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/errors/lucid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lucid-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/data-model/lucid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lucid-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/rate-limits/lucid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lucid-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/packages/lucid-packages.yml
   title: ''
   type: Packages
   url: packages/lucid-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/packages/lucid-packages.yml
   title: ''
   type: SDKs
   url: packages/lucid-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/cli/lucid-cli.yml
   title: ''
   type: CLI
   url: cli/lucid-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/components/lucid-components.yml
   title: ''
   type: Components
   url: components/lucid-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/llms/lucid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lucid-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/mcp/lucid-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lucid-mcp.yml
@@ -406,6 +457,41 @@ scopes:
   scope_count: 143
   slug: lucid-scopes
   summary_line: 143 scopes · authorizationCode
+score:
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 63.9
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 76.3
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 94.4
+      total: 36
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucid/refs/heads/main/screenshots/lucid-2026-08-07T171817.png
 security:
 - kind: authentication

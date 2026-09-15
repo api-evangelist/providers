@@ -8,6 +8,32 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 56.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 2
@@ -122,78 +148,97 @@ common:
   type: License
   url: https://github.com/tiktok/tiktok-business-api-sdk/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/capabilities/tiktok-ads-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tiktok-ads-capability-edges.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-marketing-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/tiktok-ads-marketing-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/overlays/tiktok-ads-marketing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tiktok-ads-marketing-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/mcp/tiktok-ads-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tiktok-ads-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/mcp/tiktok-ads-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tiktok-ads-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/agentic-access/tiktok-ads-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tiktok-ads-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/llms/tiktok-ads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tiktok-ads-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/well-known/tiktok-ads-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tiktok-ads-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/authentication/tiktok-ads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tiktok-ads-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/scopes/tiktok-ads-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tiktok-ads-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/conventions/tiktok-ads-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tiktok-ads-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/errors/tiktok-ads-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tiktok-ads-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/data-model/tiktok-ads-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tiktok-ads-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/rate-limits/tiktok-ads-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tiktok-ads-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/plans/tiktok-ads-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tiktok-ads-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/sandbox/tiktok-ads-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tiktok-ads-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/asyncapi/tiktok-ads-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tiktok-ads-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/lifecycle/tiktok-ads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tiktok-ads-lifecycle.yml
@@ -206,26 +251,32 @@ common:
   type: Deprecation
   url: https://business-api.tiktok.com/portal/docs?id=1740578661644289
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/changelog/tiktok-ads-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tiktok-ads-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/conformance/tiktok-ads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tiktok-ads-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/packages/tiktok-ads-packages.yml
   title: ''
   type: Packages
   url: packages/tiktok-ads-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/packages/tiktok-ads-packages.yml
   title: ''
   type: SDKs
   url: packages/tiktok-ads-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/security/tiktok-ads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tiktok-ads-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/security/tiktok-ads-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tiktok-ads-vulnerability-disclosure.yml
@@ -338,6 +389,41 @@ scopes:
   scope_count: 0
   slug: tiktok-ads-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 54.6
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 58.9
+    developer_ergonomics: 78.0
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 54.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/screenshots/tiktok-ads-2026-06-20T195404.png
 security:
 - kind: authentication

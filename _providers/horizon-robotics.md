@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Horizon Robotics'' hosted Model Context Protocol server for the OpenExplorer toolchain. Probed anonymously on 2026-08-22: MCP protocol version 2025-06-18, serverInfo "Open Explorer MCP Server" v3.9.0, '
@@ -55,74 +80,92 @@ common:
   type: IntellectualProperty
   url: https://www.horizon.auto/en/legal/intellectual-property-rights
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/security/horizon-robotics-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/horizon-robotics-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/security/horizon-robotics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/horizon-robotics-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/security/horizon-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/horizon-robotics-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/mcp/horizon-robotics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/horizon-robotics-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/cli/horizon-robotics-cli.yml
   title: ''
   type: CLI
   url: cli/horizon-robotics-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/packages/horizon-robotics-packages.yml
   title: ''
   type: Packages
   url: packages/horizon-robotics-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/packages/horizon-robotics-packages.yml
   title: ''
   type: SDKs
   url: packages/horizon-robotics-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/conventions/horizon-robotics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/horizon-robotics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/conventions/horizon-robotics-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/horizon-robotics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/errors/horizon-robotics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/horizon-robotics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/lifecycle/horizon-robotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/horizon-robotics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/conformance/horizon-robotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/horizon-robotics-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/authentication/horizon-robotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/horizon-robotics-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/rate-limits/horizon-robotics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/horizon-robotics-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/plans/horizon-robotics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/horizon-robotics-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/changelog/horizon-robotics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/horizon-robotics-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/llms/horizon-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/horizon-robotics-llms.txt
@@ -152,6 +195,43 @@ rate_limits:
 - limit_count: 0
   name: Horizon Robotics Rate Limits
   slug: horizon-robotics-rate-limits
+score:
+  band: thin
+  composite: 27.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 68.5
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 27.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/screenshots/horizon-robotics-2026-09-02T145749.png
 security:
 - kind: authentication

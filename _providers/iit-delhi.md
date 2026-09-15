@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: IIT Delhi runs its own Shibboleth identity provider at idp.iitd.ac.in and self-publishes its SAML 2.0 metadata as a machine-readable EntityDescriptor. The document names the institute as the organisat
@@ -80,46 +105,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/iitdelhi/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-site-platform-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/iit-delhi-site-platform-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/json-schema/iit-delhi-site-platform-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/iit-delhi-site-platform-schemas.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/examples/iit-delhi-site-platform-examples.json
   title: ''
   type: Examples
   url: examples/iit-delhi-site-platform-examples.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/authentication/iit-delhi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iit-delhi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/errors/iit-delhi-errors.yml
   title: ''
   type: Errors
   url: errors/iit-delhi-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/conformance/iit-delhi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/iit-delhi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/security/iit-delhi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iit-delhi-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/plans/iit-delhi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/iit-delhi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/rate-limits/iit-delhi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/iit-delhi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/finops/iit-delhi-finops.yml
   title: ''
   type: FinOps
   url: finops/iit-delhi-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -199,6 +235,52 @@ rate_limits:
 - limit_count: 1
   name: Iit Delhi Rate Limits
   slug: iit-delhi-rate-limits
+score:
+  band: thin
+  composite: 26.8
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 65.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 28.6
+    developer_ergonomics: 21.4
+    discoverability: 59.3
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 26.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/screenshots/iit-delhi-2026-06-20T183235.png
 security:
 - kind: authentication

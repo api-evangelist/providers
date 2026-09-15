@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -83,58 +108,72 @@ common:
   type: TermsOfService
   url: https://trunk.io/legal/terms
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/authentication/trunk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trunk-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/agentic-access/trunk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trunk-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/mcp/trunk-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trunk-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/errors/trunk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trunk-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/conventions/trunk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trunk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/data-model/trunk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trunk-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/conformance/trunk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trunk-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/lifecycle/trunk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trunk-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/cli/trunk-cli.yml
   title: ''
   type: CLI
   url: cli/trunk-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/asyncapi/trunk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/trunk-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/overlays/trunk-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trunk-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/security/trunk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trunk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/security/trunk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trunk-vulnerability-disclosure.yml
@@ -143,14 +182,17 @@ common:
   type: Security
   url: https://trunk.io/security
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/plans/trunk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trunk-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/rate-limits/trunk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trunk-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/finops/trunk-finops.yml
   title: ''
   type: FinOps
   url: finops/trunk-finops.yml
@@ -182,6 +224,41 @@ rate_limits:
 - limit_count: 3
   name: Trunk Rate Limits
   slug: trunk-rate-limits
+score:
+  band: developing
+  composite: 47.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 63.6
+    developer_ergonomics: 51.8
+    discoverability: 68.5
+    operational_transparency: 52.6
+  previous_composite: 47.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 0
@@ -384,18 +409,22 @@ asyncapis:
   slug: cart-com-online-store-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/capabilities/cart-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cart-com-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/agentic-access/cart-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cart-com-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/security/cart-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cart-com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/authentication/cart-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cart-com-authentication.yml
@@ -456,74 +485,92 @@ common:
   type: StatusPage
   url: https://status.cart.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/scopes/cart-com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cart-com-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/conventions/cart-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cart-com-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/errors/cart-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cart-com-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/rate-limits/cart-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cart-com-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/lifecycle/cart-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cart-com-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/lifecycle/cart-com-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cart-com-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/conformance/cart-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cart-com-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/data-model/cart-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cart-com-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/packages/cart-com-packages.yml
   title: ''
   type: Packages
   url: packages/cart-com-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/examples/cart-com-code-samples.yml
   title: ''
   type: Examples
   url: examples/cart-com-code-samples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/components/cart-com-components.yml
   title: ''
   type: Components
   url: components/cart-com-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/sandbox/cart-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cart-com-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/well-known/cart-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cart-com-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/llms/cart-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cart-com-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/overlays/cart-com-online-store-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cart-com-online-store-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/mcp/cart-com-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cart-com-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/asyncapi/cart-com-online-store-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cart-com-online-store-webhooks.yml
@@ -552,6 +599,41 @@ scopes:
   scope_count: 17
   slug: cart-com-scopes
   summary_line: 17 scopes · authorizationCode
+score:
+  band: developing
+  composite: 50.0
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 46.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 66.0
+    developer_ergonomics: 58.9
+    discoverability: 70.4
+    operational_transparency: 81.6
+  previous_composite: 50.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 71
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/screenshots/cart-com-2026-08-07T163035.png
 security:
 - kind: authentication

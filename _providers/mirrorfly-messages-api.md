@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 8.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for chat and messaging (User and Admin APIs) with JSON payloads. Production base URL is tenant-specific; a public preprod sandbox is available for testing. Auth via username/password to '
@@ -23,6 +48,7 @@ common:
   type: Website
   url: https://www.mirrorfly.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/security/mirrorfly-messages-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mirrorfly-messages-api-domain-security.yml
@@ -79,42 +105,52 @@ common:
   type: ChangeLog
   url: https://www.mirrorfly.com/docs/platformapi/api-changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/changelog/mirrorfly-messages-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mirrorfly-messages-api-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/authentication/mirrorfly-messages-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mirrorfly-messages-api-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/conventions/mirrorfly-messages-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mirrorfly-messages-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/errors/mirrorfly-messages-api-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mirrorfly-messages-api-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/lifecycle/mirrorfly-messages-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mirrorfly-messages-api-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/sandbox/mirrorfly-messages-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mirrorfly-messages-api-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/packages/mirrorfly-messages-api-packages.yml
   title: ''
   type: Packages
   url: packages/mirrorfly-messages-api-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/packages/mirrorfly-messages-api-packages.yml
   title: ''
   type: SDKs
   url: packages/mirrorfly-messages-api-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/components/mirrorfly-messages-api-components.yml
   title: ''
   type: Components
   url: components/mirrorfly-messages-api-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/conformance/mirrorfly-messages-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mirrorfly-messages-api-conformance.yml
@@ -123,6 +159,7 @@ common:
   type: Compliance
   url: https://www.mirrorfly.com/chat-security.php
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/llms/mirrorfly-messages-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mirrorfly-messages-api-llms.txt
@@ -139,6 +176,40 @@ overview: 'MirrorFly Messages API publishes 1 API on the [APIs.io](https://apis.
 
   MirrorFly Messages API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 39.1
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/screenshots/mirrorfly-messages-api-2026-09-02T150554.png
 security:
 - kind: authentication

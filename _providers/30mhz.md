@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 27.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 319
   human_in_the_loop: 3
@@ -20,14 +45,17 @@ asyncapis:
   slug: 30mhz-event-surface
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/agentic-access/30mhz-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/30mhz-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/security/30mhz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/30mhz-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/authentication/30mhz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/30mhz-authentication.yml
@@ -92,50 +120,62 @@ common:
   type: ChangeLog
   url: https://support.30mhz.com/whats-new
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/changelog/30mhz-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/30mhz-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/conventions/30mhz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/30mhz-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/errors/30mhz-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/30mhz-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/lifecycle/30mhz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/30mhz-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/conformance/30mhz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/30mhz-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/data-model/30mhz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/30mhz-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/rate-limits/30mhz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/30mhz-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/plans/30mhz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/30mhz-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/llms/30mhz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/30mhz-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/overlays/30mhz-zensie-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/30mhz-zensie-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/30mhz/refs/heads/main/mcp/30mhz-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/30mhz-mcp.yml
@@ -163,6 +203,49 @@ rate_limits:
 - limit_count: 0
   name: 30Mhz Rate Limits
   slug: 30mhz-rate-limits
+score:
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 58.3
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
+  previous_composite: 51.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 security:
 - kind: authentication
   name: 30Mhz Authentication

@@ -7,6 +7,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/Mobcrush
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mobcrush/refs/heads/main/packages/mobcrush-packages.yml
   title: ''
   type: Packages
   url: packages/mobcrush-packages.yml

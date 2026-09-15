@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -58,6 +83,7 @@ collections:
   slug: open-dopesecurity-policies-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dopesecurity-trust-center.yml
@@ -122,74 +148,92 @@ common:
   type: Security
   url: https://dope.security/.well-known/security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/llms/dopesecurity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dopesecurity-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/mcp/dopesecurity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dopesecurity-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/packages/dopesecurity-packages.yml
   title: ''
   type: Packages
   url: packages/dopesecurity-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/cli/dopesecurity-cli.yml
   title: ''
   type: CLI
   url: cli/dopesecurity-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/well-known/dopesecurity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dopesecurity-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/well-known/dopesecurity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dopesecurity-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/authentication/dopesecurity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dopesecurity-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/conventions/dopesecurity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dopesecurity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/errors/dopesecurity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dopesecurity-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/lifecycle/dopesecurity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dopesecurity-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/conformance/dopesecurity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dopesecurity-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/data-model/dopesecurity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dopesecurity-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/changelog/dopesecurity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dopesecurity-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/overlays/dopesecurity-flightdeck-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dopesecurity-flightdeck-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dopesecurity-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dopesecurity-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/agentic-access/dopesecurity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dopesecurity-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -210,6 +254,46 @@ overview: 'dope.security publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
   dope.security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 27 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 56.3
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 54.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/screenshots/dopesecurity-2026-07-25T212307.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -76,70 +101,87 @@ common:
   type: Compliance
   url: https://jiko.com/trust-and-safety
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/authentication/jiko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jiko-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/scopes/jiko-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jiko-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/conventions/jiko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jiko-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/conventions/jiko-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/jiko-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/rate-limits/jiko-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jiko-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/changelog/jiko-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jiko-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/sandbox/jiko-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jiko-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/lifecycle/jiko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jiko-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/asyncapi/jiko-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jiko-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/well-known/jiko-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jiko-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/mcp/jiko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/jiko-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/llms/jiko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jiko-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/conformance/jiko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jiko-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/security/jiko-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jiko-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/security/jiko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jiko-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/data-model/jiko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jiko-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -168,6 +210,42 @@ scopes:
   scope_count: 25
   slug: jiko-scopes
   summary_line: 25 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 55.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 55.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-08-17T123926.png
 security:
 - kind: authentication

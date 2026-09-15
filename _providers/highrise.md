@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: wss://highrise.game/web/botapi
@@ -115,70 +140,87 @@ common:
   type: Partnerships
   url: https://create.highrise.game/partnerships
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/packages/highrise-packages.yml
   title: ''
   type: Packages
   url: packages/highrise-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/packages/highrise-packages.yml
   title: ''
   type: SDKs
   url: packages/highrise-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/cli/highrise-cli.yml
   title: ''
   type: CLI
   url: cli/highrise-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/authentication/highrise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/highrise-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/conventions/highrise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/highrise-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/errors/highrise-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/highrise-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/data-model/highrise-data-model.yml
   title: ''
   type: DataModel
   url: data-model/highrise-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/conformance/highrise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/highrise-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/lifecycle/highrise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/highrise-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/changelog/highrise-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/highrise-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/mcp/highrise-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/highrise-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/llms/highrise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/highrise-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/well-known/highrise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/highrise-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/security/highrise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/highrise-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/overlays/highrise-web-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/highrise-web-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/asyncapi/highrise-bot-api-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/highrise-bot-api-asyncapi.yml
@@ -198,6 +240,41 @@ overview: 'Highrise publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
   Highrise''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 21 more developer resources.'
 random_paper: 11
+score:
+  band: developing
+  composite: 39.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 21.9
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 39.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/screenshots/highrise-2026-07-25T221206.png
 security:
 - kind: authentication

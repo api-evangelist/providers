@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Read-only shopping tools for finding grouped products, comparing current merchant offers and delivered totals, and checking price history.
@@ -23,86 +48,107 @@ common:
   type: License
   url: https://github.com/TheBestCo/bestprice-mcp/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/security/bestprice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bestprice-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/mcp/bestprice-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bestprice-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/mcp/bestprice-webmcp.yml
   title: ''
   type: WebMCP
   url: mcp/bestprice-webmcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/well-known/bestprice-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bestprice-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/well-known/bestprice-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bestprice-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/well-known/bestprice-ard.json
   title: ''
   type: APICatalog
   url: well-known/bestprice-ard.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/llms/bestprice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bestprice-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/authentication/bestprice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bestprice-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/conformance/bestprice-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bestprice-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/conventions/bestprice-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bestprice-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/errors/bestprice-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bestprice-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/lifecycle/bestprice-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bestprice-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/changelog/bestprice-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bestprice-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/plans/bestprice-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bestprice-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/rate-limits/bestprice-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bestprice-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/packages/bestprice-packages.yml
   title: ''
   type: Packages
   url: packages/bestprice-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/components/bestprice-components.yml
   title: ''
   type: Components
   url: components/bestprice-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/data-model/bestprice-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bestprice-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/security/bestprice-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bestprice-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/security/bestprice-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bestprice-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -185,6 +231,42 @@ rate_limits:
 - limit_count: 0
   name: Bestprice Rate Limits
   slug: bestprice-rate-limits
+score:
+  band: thin
+  composite: 32.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 47.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 13.3
+    developer_ergonomics: 58.9
+    discoverability: 94.4
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - italy-southern-europe
+  previous_composite: 32.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/screenshots/bestprice-2026-09-02T144927.png
 security:
 - kind: authentication

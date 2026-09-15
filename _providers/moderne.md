@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Moderne Platform GraphQL API for programmatically executing OpenRewrite recipes across organizations of repositories, polling recipe-run state, retrieving results and recipe data tables, and commi
@@ -37,6 +62,7 @@ common:
   type: GettingStarted
   url: https://docs.moderne.io/user-documentation/moderne-platform/getting-started/running-your-first-recipe
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/authentication/moderne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moderne-authentication.yml
@@ -65,58 +91,72 @@ common:
   type: SignUp
   url: https://app.moderne.io/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/changelog/moderne-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moderne-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/llms/moderne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moderne-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/mcp/moderne-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moderne-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/cli/moderne-cli.yml
   title: ''
   type: CLI
   url: cli/moderne-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/packages/moderne-packages.yml
   title: ''
   type: Packages
   url: packages/moderne-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/packages/moderne-packages.yml
   title: ''
   type: SDKs
   url: packages/moderne-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/conventions/moderne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moderne-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/data-model/moderne-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moderne-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/lifecycle/moderne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moderne-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/lifecycle/moderne-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/moderne-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/conformance/moderne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moderne-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/conformance/moderne-conformance.yml
   title: ''
   type: Compliance
   url: conformance/moderne-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/security/moderne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moderne-domain-security.yml
@@ -137,6 +177,36 @@ overview: 'Moderne publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Moderne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 19 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 34.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 34.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/moderne/refs/heads/main/screenshots/moderne-2026-08-07T184011.png
 security:
 - kind: authentication

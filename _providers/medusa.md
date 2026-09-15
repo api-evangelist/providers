@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 61.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Medusa's GraphQL surface over the store data core. The schema in this repo was derived from the OAS output schemas published in the medusajs/medusa repository; Medusa does not publish a hosted, intros
@@ -395,14 +420,17 @@ asyncapis:
   slug: medusa-events
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/capabilities/medusa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/medusa-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/overlays/medusa-store-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medusa-store-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/overlays/medusa-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medusa-admin-overlay.yaml
@@ -467,106 +495,132 @@ common:
   type: Security
   url: https://github.com/medusajs/medusa/security/policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/llms/medusa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medusa-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/packages/medusa-packages.yml
   title: ''
   type: Packages
   url: packages/medusa-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/packages/medusa-packages.yml
   title: ''
   type: SDKs
   url: packages/medusa-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/well-known/medusa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medusa-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/mcp/medusa-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/medusa-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/mcp/medusa-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/medusa-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/conformance/medusa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medusa-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/errors/medusa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medusa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/lifecycle/medusa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medusa-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/lifecycle/medusa-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/medusa-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/authentication/medusa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medusa-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/scopes/medusa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/medusa-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/security/medusa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medusa-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/security/medusa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/medusa-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/sandbox/medusa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/medusa-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/conventions/medusa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medusa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/conventions/medusa-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/medusa-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/changelog/medusa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/medusa-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/cli/medusa-cli.yml
   title: ''
   type: CLI
   url: cli/medusa-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/components/medusa-components.yml
   title: ''
   type: Components
   url: components/medusa-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/data-model/medusa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medusa-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/asyncapi/medusa-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/medusa-events.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/plans/medusa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/medusa-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/rate-limits/medusa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medusa-rate-limits.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/graphql/medusa-graphql.md
   title: ''
   type: GraphQL
   url: graphql/medusa-graphql.md
@@ -611,6 +665,40 @@ scopes:
   scope_count: 0
   slug: medusa-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 62.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 46.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 4.5
+    contract_quality: 61.5
+    developer_ergonomics: 85.7
+    discoverability: 70.4
+    operational_transparency: 60.5
+  previous_composite: 62.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/screenshots/medusa-2026-08-07T172412.png
 security:
 - kind: authentication

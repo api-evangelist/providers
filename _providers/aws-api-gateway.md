@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -264,22 +289,27 @@ common:
   type: Signup
   url: https://signin.aws.amazon.com/signup?request_type=register
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/agentic-access/aws-api-gateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aws-api-gateway-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/security/aws-api-gateway-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aws-api-gateway-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/security/aws-api-gateway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aws-api-gateway-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/security/aws-api-gateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aws-api-gateway-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/authentication/aws-api-gateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aws-api-gateway-authentication.yml
@@ -288,50 +318,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-api-gateway/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-add-method-and-redeploy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-add-method-and-redeploy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-audit-http-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-audit-http-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-build-http-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-build-http-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-build-websocket-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-build-websocket-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-create-api-key-and-usage-plan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-create-api-key-and-usage-plan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-decommission-http-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-decommission-http-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-deploy-http-api-stage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-deploy-http-api-stage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-inspect-rest-api-method-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-inspect-rest-api-method-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-metered-rest-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-metered-rest-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-provision-rest-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-provision-rest-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-redeploy-rest-api-stage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-redeploy-rest-api-stage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/arazzo/aws-api-gateway-secure-http-api-authorizer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/aws-api-gateway-secure-http-api-authorizer-workflow.yml
@@ -404,22 +446,27 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/aws-api-gateway
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/rules/aws-api-gateway-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/aws-api-gateway-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/vocabulary/aws-api-gateway-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aws-api-gateway-vocabulary.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/plans/aws-api-gateway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aws-api-gateway-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/rate-limits/aws-api-gateway-rate-limits.yml
   title: ''
   type: RateLimitsArtifact
   url: rate-limits/aws-api-gateway-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/finops/aws-api-gateway-finops.yml
   title: ''
   type: FinOps
   url: finops/aws-api-gateway-finops.yml
@@ -1048,6 +1095,38 @@ rules:
     info: 2
     warn: 21
   slug: aws-api-gateway-spectral-rules
+score:
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.3
+  facets:
+    access_clarity: 76.3
+    contract_governance: 28.8
+    contract_quality: 74.1
+    developer_ergonomics: 67.9
+    discoverability: 57.4
+    operational_transparency: 52.6
+  previous_composite: 68.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:
 - kind: authentication

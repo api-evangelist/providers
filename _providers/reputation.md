@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -153,14 +178,17 @@ collections:
   slug: open-reputation-users-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/agentic-access/reputation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reputation-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/security/reputation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reputation-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/authentication/reputation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reputation-authentication.yml
@@ -197,38 +225,47 @@ common:
   type: X
   url: https://twitter.com/Reputation_Com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/vocabulary/reputation-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/reputation-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/json-ld/reputation-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/reputation-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/plans/reputation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reputation-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/rate-limits/reputation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reputation-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/finops/reputation-finops.yml
   title: ''
   type: FinOps
   url: finops/reputation-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/conventions/reputation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reputation-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/errors/reputation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reputation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/lifecycle/reputation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reputation-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/conformance/reputation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reputation-conformance.yml
@@ -237,42 +274,52 @@ common:
   type: Compliance
   url: https://reputation.com/security-posture/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/security/reputation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/reputation-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/data-model/reputation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reputation-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/packages/reputation-packages.yml
   title: ''
   type: Packages
   url: packages/reputation-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/llms/reputation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reputation-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/examples/reputation-get-reviews-example.json
   title: ''
   type: Examples
   url: examples/reputation-get-reviews-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/examples/reputation-get-locations-example.json
   title: ''
   type: Examples
   url: examples/reputation-get-locations-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/examples/reputation-respond-to-review-example.json
   title: ''
   type: Examples
   url: examples/reputation-respond-to-review-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/examples/reputation-send-review-request-example.json
   title: ''
   type: Examples
   url: examples/reputation-send-review-request-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/rules/reputation-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/reputation-jsonschema-spectral-rules.yml
@@ -377,6 +424,41 @@ rules:
     info: 2
     warn: 3
   slug: reputation-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 61.8
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 78.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 43.2
+    contract_quality: 71.6
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/screenshots/reputation-2026-06-20T192944.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - finops
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Burlington''s consumer storefront: shopping, store locator, gift cards, loyalty and credit card servicing. No public API is published behind it. Every /.well-known/ path, /openapi.json and /llms.txt on'
@@ -44,22 +69,27 @@ common:
   type: PrivacyPolicy
   url: https://www.burlington.com/helpcenter/privacy-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/conformance/burlington-stores-conformance.yml
   title: ''
   type: Conformance
   url: conformance/burlington-stores-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/llms/burlington-stores-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/burlington-stores-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/security/burlington-stores-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/burlington-stores-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/plans/burlington-stores-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/burlington-stores-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/rate-limits/burlington-stores-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/burlington-stores-rate-limits.yml
@@ -122,6 +152,34 @@ rate_limits:
 - limit_count: 0
   name: Burlington Stores Rate Limits
   slug: burlington-stores-rate-limits
+score:
+  band: minimal
+  composite: 10.4
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 66.7
+    operational_transparency: 0.0
+  previous_composite: 10.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/screenshots/burlington-stores-2026-06-20T173818.png
 security:
 - kind: domain-security

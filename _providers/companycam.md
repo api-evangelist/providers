@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -168,94 +193,117 @@ common:
   type: PrivacyPolicy
   url: https://companycam.com/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-v2.postman_collection.json
   title: ''
   type: Postman
   url: openapi/companycam-v2.postman_collection.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/llms/companycam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/companycam-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/packages/companycam-packages.yml
   title: ''
   type: SDKs
   url: packages/companycam-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/packages/companycam-packages.yml
   title: ''
   type: Packages
   url: packages/companycam-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/authentication/companycam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/companycam-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/scopes/companycam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/companycam-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/conventions/companycam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/companycam-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/rate-limits/companycam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/companycam-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/errors/companycam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/companycam-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/lifecycle/companycam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/companycam-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/conformance/companycam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/companycam-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/changelog/companycam-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/companycam-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/data-model/companycam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/companycam-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/asyncapi/companycam-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/companycam-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/well-known/companycam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/companycam-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/well-known/companycam-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/companycam-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/well-known/companycam-security.txt
   title: ''
   type: Security
   url: well-known/companycam-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/security/companycam-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/companycam-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/security/companycam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/companycam-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/agentic-access/companycam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/companycam-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/mcp/companycam-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/companycam-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/overlays/companycam-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/companycam-openapi-overlay.yaml
@@ -284,6 +332,41 @@ scopes:
   scope_count: 54
   slug: companycam-scopes
   summary_line: 54 scopes · authorizationCode
+score:
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 63.4
+    developer_ergonomics: 48.2
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/screenshots/companycam-2026-07-25T210145.png
 security:
 - kind: authentication

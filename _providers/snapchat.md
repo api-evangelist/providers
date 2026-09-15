@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -98,42 +123,52 @@ collections:
   slug: open-snapchat-user-profile-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/capabilities/snapchat-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/snapchat-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-ad-accounts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-ad-accounts-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-ad-squads-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-ad-squads-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-audience-segments-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-audience-segments-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-campaigns-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-campaigns-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-creatives-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-creatives-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-funding-sources-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-funding-sources-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-measurement-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-measurement-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-media-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-media-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-organizations-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-organizations-api-overlay.yaml
@@ -142,18 +177,22 @@ common:
   type: IssueTracker
   url: https://github.com/Snapchat/creative-kit/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/agentic-access/snapchat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snapchat-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/security/snapchat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snapchat-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/authentication/snapchat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snapchat-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/scopes/snapchat-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/snapchat-scopes.yml
@@ -210,94 +249,117 @@ common:
   type: LlmsText
   url: https://developers.snap.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/packages/snapchat-packages.yml
   title: ''
   type: Packages
   url: packages/snapchat-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/packages/snapchat-packages.yml
   title: ''
   type: SDKs
   url: packages/snapchat-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/well-known/snapchat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/snapchat-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/well-known/snapchat-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/snapchat-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/mcp/snapchat-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/snapchat-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/mcp/snapchat-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/snapchat-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/llms/snapchat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snapchat-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-ads-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snapchat-ads-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/conformance/snapchat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snapchat-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/errors/snapchat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/snapchat-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/lifecycle/snapchat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/snapchat-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/lifecycle/snapchat-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/snapchat-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/security/snapchat-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/snapchat-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/security/snapchat-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/snapchat-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/security/snapchat-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snapchat-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/sandbox/snapchat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/snapchat-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/conventions/snapchat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snapchat-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/changelog/snapchat-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/snapchat-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/components/snapchat-components.yml
   title: ''
   type: Components
   url: components/snapchat-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/data-model/snapchat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snapchat-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/plans/snapchat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snapchat-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/rate-limits/snapchat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snapchat-rate-limits.yml
@@ -465,6 +527,41 @@ scopes:
   scope_count: 7
   slug: snapchat-scopes
   summary_line: 7 scopes · authorizationCode/implicit
+score:
+  band: strong
+  composite: 65.3
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 63.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 31.8
+    contract_quality: 65.3
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 57.9
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png
 security:
 - kind: authentication

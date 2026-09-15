@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -138,22 +163,27 @@ collections:
   slug: open-quickbooks-accounting
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/capabilities/intuit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/intuit-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/agentic-access/intuit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/intuit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/security/intuit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intuit-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/authentication/intuit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intuit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/scopes/intuit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/intuit-scopes.yml
@@ -162,66 +192,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/intuit/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-catalog-and-bill-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-catalog-and-bill-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-create-and-send-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-create-and-send-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-create-and-void-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-create-and-void-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-create-customer-and-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-create-customer-and-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-create-item-and-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-create-item-and-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-customer-invoice-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-customer-invoice-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-find-or-create-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-find-or-create-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-invoice-and-collect-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-invoice-and-collect-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-invoice-to-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-invoice-to-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-pay-customer-open-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-pay-customer-open-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-query-and-void-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-query-and-void-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-remind-overdue-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-remind-overdue-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-reprice-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-reprice-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-update-customer-by-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-update-customer-by-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-update-payment-amount-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-update-payment-amount-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/arazzo/intuit-void-payment-safely-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/intuit-void-payment-safely-workflow.yml
@@ -662,6 +708,44 @@ scopes:
   scope_count: 1
   slug: intuit-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 62.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 55.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 13.6
+    contract_quality: 79.2
+    developer_ergonomics: 82.1
+    discoverability: 50.0
+    operational_transparency: 55.3
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:
 - kind: authentication

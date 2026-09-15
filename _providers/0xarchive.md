@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 57.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Current and historical market data across Hyperliquid core, Spot, HIP-3, HIP-4, and Lighter. Direct market-data requests use X-API-Key.
@@ -96,74 +122,92 @@ common:
   type: Support
   url: mailto:support@0xarchive.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/security/0xarchive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/0xarchive-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/security/0xarchive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/0xarchive-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/authentication/0xarchive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/0xarchive-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/openapi/0xarchive-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/0xarchive-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/overlays/0xarchive-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/0xarchive-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/llms/0xarchive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/0xarchive-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/well-known/0xarchive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/0xarchive-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/well-known/0xarchive-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/0xarchive-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/a2a/0xarchive-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/0xarchive-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/mcp/0xarchive-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/0xarchive-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/mcp/0xarchive-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/0xarchive-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/packages/0xarchive-packages.yml
   title: ''
   type: Packages
   url: packages/0xarchive-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/packages/0xarchive-packages.yml
   title: ''
   type: SDKs
   url: packages/0xarchive-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/cli/0xarchive-cli.yml
   title: ''
   type: CLI
   url: cli/0xarchive-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/conformance/0xarchive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/0xarchive-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/errors/0xarchive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/0xarchive-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/lifecycle/0xarchive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/0xarchive-lifecycle.yml
@@ -172,34 +216,42 @@ common:
   type: StatusPage
   url: https://0xarchive.io/status
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/scopes/0xarchive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/0xarchive-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/security/0xarchive-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/0xarchive-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/conventions/0xarchive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/0xarchive-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/sandbox/0xarchive-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/0xarchive-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/data-model/0xarchive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/0xarchive-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/plans/0xarchive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/0xarchive-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/rate-limits/0xarchive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/0xarchive-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/changelog/0xarchive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/0xarchive-changelog.yml
@@ -259,7 +311,7 @@ modified: '2026-09-01'
 name: 0xArchive
 nav: Providers
 network: true
-overview: '0xArchive publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include market data, historical data, crypto, DeFi, and perpetuals.
+overview: '0xArchive publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Market Data, Historical Data, Crypto, DeFi, and Perpetuals.
 
 
   The 0xArchive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -280,6 +332,46 @@ scopes:
   scope_count: 0
   slug: 0xarchive-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 72.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 54.5
+    developer_ergonomics: 85.7
+    discoverability: 94.4
+    operational_transparency: 71.1
+  previous_composite: 72.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 78.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/screenshots/0xarchive-2026-09-02T144104.png
 security:
 - kind: authentication
@@ -296,23 +388,23 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: 0xarchive
 tags:
-- market data
-- historical data
-- crypto
+- Market Data
+- Historical Data
+- Crypto
 - DeFi
-- perpetuals
-- derivatives
-- order book
+- Perpetuals
+- Derivatives
+- Order Book
 - Hyperliquid
 - Lighter
 - HIP-3
 - HIP-4
-- prediction markets
+- Prediction Markets
 - WebSocket
-- streaming
-- historical replay
+- Streaming
+- historical-replay
 - Parquet
-- bulk data
+- Bulk Data
 - MCP
 - agent-native
 - x402

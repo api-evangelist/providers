@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/glow/refs/heads/main/security/glow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/glow-domain-security.yml

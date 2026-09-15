@@ -10,6 +10,31 @@ access_model:
   - openapi
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.tycho.pitt.edu/api
@@ -139,70 +164,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-pittsburgh/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-project-tycho-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/university-of-pittsburgh-project-tycho-api-openapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/conformance/university-of-pittsburgh-education-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-pittsburgh-education-standards-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/authentication/university-of-pittsburgh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-pittsburgh-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/scopes/university-of-pittsburgh-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/university-of-pittsburgh-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/errors/university-of-pittsburgh-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/university-of-pittsburgh-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/lifecycle/university-of-pittsburgh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-pittsburgh-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/vocabulary/university-of-pittsburgh-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-pittsburgh-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/json-schema/university-of-pittsburgh-project-tycho-data-row.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-pittsburgh-project-tycho-data-row.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/json-schema/university-of-pittsburgh-wprdc-ckan-action-envelope.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-pittsburgh-wprdc-ckan-action-envelope.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/examples/university-of-pittsburgh-examples-manifest.yml
   title: ''
   type: Examples
   url: examples/university-of-pittsburgh-examples-manifest.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/rules/university-of-pittsburgh-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-pittsburgh-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/json-ld/university-of-pittsburgh-context.jsonld
   title: ''
   type: DataModel
   url: json-ld/university-of-pittsburgh-context.jsonld
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/security/university-of-pittsburgh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-pittsburgh-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/plans/university-of-pittsburgh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-pittsburgh-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/rate-limits/university-of-pittsburgh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-pittsburgh-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/finops/university-of-pittsburgh-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-pittsburgh-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -271,6 +313,52 @@ scopes:
   scope_count: 0
   slug: university-of-pittsburgh-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 70.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 15.2
+    contract_quality: 27.4
+    developer_ergonomics: 35.7
+    discoverability: 59.3
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 39.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/screenshots/university-of-pittsburgh-2026-06-20T200224.png
 security:
 - kind: authentication

@@ -20,10 +20,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Heyzap
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/heyzap/refs/heads/main/packages/heyzap-packages.yml
   title: ''
   type: Packages
   url: packages/heyzap-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/heyzap/refs/heads/main/packages/heyzap-packages.yml
   title: ''
   type: SDKs
   url: packages/heyzap-packages.yml

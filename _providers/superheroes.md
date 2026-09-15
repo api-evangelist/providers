@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,10 +113,12 @@ common:
   type: IssueTracker
   url: https://github.com/akabab/superhero-api/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/agentic-access/superheroes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/superheroes-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/security/superheroes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superheroes-domain-security.yml
@@ -124,66 +151,82 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/rules/superheroes-rules.yml
   title: ''
   type: SpectralRules
   url: rules/superheroes-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/vocabulary/superheroes-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/superheroes-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-ld/superheroes-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/superheroes-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-schema/superheroes-character-schema.json
   title: Character
   type: JSONSchema
   url: json-schema/superheroes-character-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-schema/superheroes-powerstats-schema.json
   title: Powerstats
   type: JSONSchema
   url: json-schema/superheroes-powerstats-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-schema/superheroes-appearance-schema.json
   title: Appearance
   type: JSONSchema
   url: json-schema/superheroes-appearance-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-schema/superheroes-biography-schema.json
   title: Biography
   type: JSONSchema
   url: json-schema/superheroes-biography-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-schema/superheroes-work-schema.json
   title: Work
   type: JSONSchema
   url: json-schema/superheroes-work-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-schema/superheroes-connections-schema.json
   title: Connections
   type: JSONSchema
   url: json-schema/superheroes-connections-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-schema/superheroes-images-schema.json
   title: Images
   type: JSONSchema
   url: json-schema/superheroes-images-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/json-structure/superheroes-character-structure.json
   title: Character
   type: JSONStructure
   url: json-structure/superheroes-character-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/examples/superheroes-character-example.json
   title: Character Example
   type: Examples
   url: examples/superheroes-character-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/examples/superheroes-all-example.json
   title: All Characters Example
   type: Examples
   url: examples/superheroes-all-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/examples/superheroes-powerstats-example.json
   title: Powerstats Example
   type: Examples
   url: examples/superheroes-powerstats-example.json
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/rate-limits/superheroes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/superheroes-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/plans/superheroes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/superheroes-plans-pricing.yml
@@ -271,6 +314,39 @@ rules:
     info: 0
     warn: 3
   slug: superheroes-rules
+score:
+  band: thin
+  composite: 32.6
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 62.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 28.8
+    contract_quality: 60.2
+    developer_ergonomics: 9.5
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 32.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/screenshots/superheroes-2026-06-20T194712.png
 security:
 - kind: domain-security

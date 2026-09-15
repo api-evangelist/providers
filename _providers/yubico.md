@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.yubico.com/wsapi/2.0
@@ -27,6 +52,7 @@ collections:
   slug: open-yubico-validation-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/overlays/yubico-yubicloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yubico-yubicloud-overlay.yaml
@@ -87,54 +113,67 @@ common:
   type: Deprecation
   url: https://support.yubico.com/hc/en-us/articles/360016614820
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/packages/yubico-packages.yml
   title: ''
   type: Packages
   url: packages/yubico-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/packages/yubico-packages.yml
   title: ''
   type: SDKs
   url: packages/yubico-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/cli/yubico-cli.yml
   title: ''
   type: CLI
   url: cli/yubico-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/mcp/yubico-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/yubico-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/llms/yubico-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yubico-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/well-known/yubico-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yubico-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/well-known/yubico-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/yubico-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/authentication/yubico-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yubico-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/conventions/yubico-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yubico-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/errors/yubico-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/yubico-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/lifecycle/yubico-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yubico-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/conformance/yubico-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yubico-conformance.yml
@@ -143,10 +182,12 @@ common:
   type: Compliance
   url: https://www.yubico.com/solutions/cybersecurity-compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/security/yubico-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yubico-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/security/yubico-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yubico-vulnerability-disclosure.yml
@@ -155,6 +196,7 @@ common:
   type: Security
   url: https://www.yubico.com/support/issue-rating-system/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/security/yubico-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/yubico-trust-center.yml
@@ -171,6 +213,41 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 
   Yubico''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
 random_paper: 0
+score:
+  band: strong
+  composite: 55.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 55.1
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 55.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/screenshots/yubico-2026-08-17T083021.png
 security:
 - kind: authentication

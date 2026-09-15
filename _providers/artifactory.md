@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -240,90 +265,112 @@ common:
   type: Website
   url: https://www.jfrog.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/capabilities/artifactory-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/artifactory-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/agentic-access/artifactory-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/artifactory-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/security/artifactory-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artifactory-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/security/artifactory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artifactory-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/authentication/artifactory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artifactory-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/security/artifactory-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/artifactory-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/packages/artifactory-packages.yml
   title: ''
   type: Packages
   url: packages/artifactory-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/mcp/artifactory-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/artifactory-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/llms/artifactory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artifactory-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/well-known/artifactory-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/artifactory-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/well-known/artifactory-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/artifactory-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/conformance/artifactory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artifactory-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/errors/artifactory-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/artifactory-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/lifecycle/artifactory-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artifactory-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/conventions/artifactory-conventions.yml
   title: ''
   type: Conventions
   url: conventions/artifactory-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/changelog/artifactory-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/artifactory-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/cli/artifactory-cli.yml
   title: ''
   type: CLI
   url: cli/artifactory-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/data-model/artifactory-data-model.yml
   title: ''
   type: DataModel
   url: data-model/artifactory-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/overlays/artifactory-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/artifactory-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/overlays/artifactory-aql-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/artifactory-aql-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/overlays/artifactory-docker-registry-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/artifactory-docker-registry-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/overlays/artifactory-build-integration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/artifactory-build-integration-api-overlay.yaml
@@ -332,74 +379,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/jfrog-artifactory/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-aql-find-and-delete-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-aql-find-and-delete-artifact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-checksum-search-retrieve-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-checksum-search-retrieve-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-compare-build-versions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-compare-build-versions-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-configure-repository-replication-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-configure-repository-replication-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-create-group-scoped-access-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-create-group-scoped-access-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-create-user-verify-membership-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-create-user-verify-membership-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-decommission-repository-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-decommission-repository-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-deploy-tag-search-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-deploy-tag-search-artifact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-gavc-search-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-gavc-search-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-inspect-docker-image-manifest-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-inspect-docker-image-manifest-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-move-artifact-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-move-artifact-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-onboard-user-group-permission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-onboard-user-group-permission-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-promote-artifact-across-repositories-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-promote-artifact-across-repositories-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-promote-docker-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-promote-docker-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-provision-repository-deploy-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-provision-repository-deploy-artifact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-publish-build-set-retention-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-publish-build-set-retention-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-publish-promote-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-publish-promote-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/arazzo/artifactory-rename-build-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/artifactory-rename-build-verify-workflow.yml
@@ -540,6 +605,40 @@ rules:
     info: 2
     warn: 4
   slug: artifactory-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 49.4
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 62.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 14.4
+    contract_quality: 64.3
+    developer_ergonomics: 46.4
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 49.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:
 - kind: authentication
@@ -567,7 +666,6 @@ tags:
 - Maven
 - Package Management
 - Repository
-- Developer Tools
 use_cases:
 - description: Development teams integrate Artifactory with Jenkins, GitHub Actions, and other CI/CD tools to store, version, and distribute build artifacts.
   name: CI/CD Pipeline Integration

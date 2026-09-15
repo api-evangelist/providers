@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -186,14 +211,17 @@ collections:
   slug: open-cable-utilities-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/capabilities/cable-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cable-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/security/cable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cable-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/security/cable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cable-domain-security.yml
@@ -246,66 +274,82 @@ common:
   type: ChangeLog
   url: https://docs.cable.tech/product-updates
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/changelog/cable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cable-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/authentication/cable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cable-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/agentic-access/cable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cable-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/mcp/cable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cable-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/llms/cable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cable-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/conventions/cable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cable-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/errors/cable-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cable-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/lifecycle/cable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cable-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/conformance/cable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cable-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/security/cable-trust-center.yml
   title: ''
   type: Compliance
   url: security/cable-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/security/cable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cable-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/data-model/cable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cable-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/overlays/cable-api-reference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cable-api-reference-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/overlays/cable-customer-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cable-customer-data-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/overlays/cable-transaction-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cable-transaction-data-api-overlay.yaml
@@ -326,6 +370,47 @@ overview: 'Cable publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
   Cable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 25 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 50.8
+    developer_ergonomics: 55.4
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 46.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 45.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/screenshots/cable-2026-07-25T204213.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.1
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://proxy.kong.lkeyprod.com/integration/
@@ -142,10 +167,12 @@ collections:
   slug: open-lendkey-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/capabilities/lendkey-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lendkey-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/overlays/lendkey-esign-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lendkey-esign-overlay.yaml
@@ -194,50 +221,62 @@ common:
   type: PrivacyPolicy
   url: https://www.lendkey.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/authentication/lendkey-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lendkey-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/scopes/lendkey-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lendkey-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/security/lendkey-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lendkey-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/conventions/lendkey-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lendkey-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/errors/lendkey-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lendkey-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/lifecycle/lendkey-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lendkey-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/conformance/lendkey-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lendkey-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/data-model/lendkey-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lendkey-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/sandbox/lendkey-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lendkey-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/mcp/lendkey-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lendkey-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/llms/lendkey-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lendkey-llms.txt
@@ -262,6 +301,46 @@ scopes:
   scope_count: 0
   slug: lendkey-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 59.5
+    developer_ergonomics: 54.2
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 48.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 70.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:
 - kind: authentication

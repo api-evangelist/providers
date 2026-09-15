@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The XOTP (Paymentus payment) API exposes core Service Commerce operations — make payment (Sale), account inquiry, payment history, void/cancel payment, customer profile create/read/update/delete and l
@@ -22,10 +47,12 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/security/paymentus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paymentus-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/security/paymentus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paymentus-domain-security.yml
@@ -74,30 +101,37 @@ common:
   type: Support
   url: https://www.paymentus.com/contact/?form=pay
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/packages/paymentus-packages.yml
   title: ''
   type: Packages
   url: packages/paymentus-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/packages/paymentus-packages.yml
   title: ''
   type: SDKs
   url: packages/paymentus-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/authentication/paymentus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paymentus-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/scopes/paymentus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/paymentus-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/conventions/paymentus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paymentus-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/mcp/paymentus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/paymentus-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/conformance/paymentus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paymentus-conformance.yml
@@ -106,14 +140,17 @@ common:
   type: Compliance
   url: https://trust.paymentus.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/lifecycle/paymentus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paymentus-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/data-model/paymentus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paymentus-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paymentus/refs/heads/main/llms/paymentus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paymentus-llms.txt
@@ -136,6 +173,52 @@ scopes:
   scope_count: 16
   slug: paymentus-scopes
   summary_line: 16 scopes
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 38.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 75.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Paymentus Authentication

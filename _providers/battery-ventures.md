@@ -31,7 +31,6 @@ tags:
 - Buyout
 - Application Software
 - Infrastructure Software
-- Consumer
 - Industrial Tech
 - Life Science Tools
 - Boston

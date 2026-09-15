@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -190,18 +215,22 @@ collections:
   slug: open-workato-user-groups-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/capabilities/workato-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/workato-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/agentic-access/workato-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workato-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/security/workato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workato-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/authentication/workato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workato-authentication.yml
@@ -210,70 +239,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/workato/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-batch-publish-events-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-batch-publish-events-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-build-and-launch-genie-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-build-and-launch-genie-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-bulk-stop-recipes-in-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-bulk-stop-recipes-in-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-clone-and-activate-recipe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-clone-and-activate-recipe-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-curate-mcp-server-tool-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-curate-mcp-server-tool-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-decommission-genie-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-decommission-genie-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-equip-genie-with-knowledge-base-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-equip-genie-with-knowledge-base-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-provision-data-table-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-provision-data-table-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-provision-mcp-server-with-tools-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-provision-mcp-server-with-tools-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-publish-and-consume-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-publish-and-consume-event-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-recipe-to-genie-skill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-recipe-to-genie-skill-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-recipe-version-rollback-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-recipe-version-rollback-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-reset-data-table-schema-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-reset-data-table-schema-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-rotate-mcp-server-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-rotate-mcp-server-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-secure-mcp-server-access-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-secure-mcp-server-access-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-start-recipe-with-health-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-start-recipe-with-health-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/arazzo/workato-stop-and-delete-recipe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workato-stop-and-delete-recipe-workflow.yml
@@ -470,54 +516,67 @@ common:
   type: Events
   url: https://www.workato.com/events/automate
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-ld/workato-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/workato-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-recipe-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-recipe-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-genie-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-genie-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-developer-api-recipe-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-developer-api-recipe-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-developer-api-data-table-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-developer-api-data-table-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-agent-studio-genie-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-agent-studio-genie-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-agent-studio-skill-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-agent-studio-skill-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-agent-studio-knowledge-base-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-agent-studio-knowledge-base-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-event-streams-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-event-streams-message-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-mcp-server-mcp-server-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-mcp-server-mcp-server-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/json-schema/workato-mcp-server-tool-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workato-mcp-server-tool-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/rules/workato-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/workato-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/vocabulary/workato-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/workato-vocabulary.yml
@@ -1056,6 +1115,38 @@ rules:
     info: 8
     warn: 23
   slug: workato-spectral-rules
+score:
+  band: strong
+  composite: 62.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 71.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 83.1
+    developer_ergonomics: 63.1
+    discoverability: 59.3
+    operational_transparency: 55.3
+  previous_composite: 62.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/screenshots/workato-2026-06-20T201551.png
 security:
 - kind: authentication

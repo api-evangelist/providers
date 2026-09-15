@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.4
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - baseURL: https://virtualincision.com/wp-json
@@ -100,78 +126,97 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/virtual-incision_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/well-known/virtual-incision-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/virtual-incision-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/llms/virtual-incision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virtual-incision-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/packages/virtual-incision-packages.yml
   title: ''
   type: Packages
   url: packages/virtual-incision-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/authentication/virtual-incision-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virtual-incision-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/scopes/virtual-incision-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/virtual-incision-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/conventions/virtual-incision-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virtual-incision-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/conformance/virtual-incision-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virtual-incision-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/lifecycle/virtual-incision-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virtual-incision-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/security/virtual-incision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virtual-incision-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/security/virtual-incision-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/virtual-incision-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/errors/virtual-incision-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/virtual-incision-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/data-model/virtual-incision-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virtual-incision-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/examples/virtual-incision-examples.yml
   title: ''
   type: Examples
   url: examples/virtual-incision-examples.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/rate-limits/virtual-incision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/virtual-incision-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/plans/virtual-incision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/virtual-incision-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/mcp/virtual-incision-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/virtual-incision-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/mcp/virtual-incision-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/virtual-incision-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/virtual-incision/refs/heads/main/overlays/virtual-incision-posts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virtual-incision-posts-api-overlay.yaml
@@ -205,6 +250,46 @@ scopes:
   scope_count: 0
   slug: virtual-incision-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 20.6
+    developer_ergonomics: 20.8
+    discoverability: 81.5
+    operational_transparency: 13.2
+  previous_composite: 31.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Virtual Incision Authentication
@@ -231,7 +316,7 @@ tags:
 - Content
 - News
 - Careers
-- Events
-- Model Context Protocol
+- Event
+- MCP
 website: https://virtualincision.com/
 ---

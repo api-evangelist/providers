@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,70 +92,87 @@ common:
   type: GettingStarted
   url: https://docs.atratopago.com/reference/recepción-de-pagos
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/authentication/atrato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/atrato-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/_original/atrato-partners-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/atrato-partners-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/overlays/atrato-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/atrato-partners-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/errors/atrato-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/atrato-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/conventions/atrato-conventions.yml
   title: ''
   type: Conventions
   url: conventions/atrato-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/data-model/atrato-data-model.yml
   title: ''
   type: DataModel
   url: data-model/atrato-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/conformance/atrato-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atrato-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/lifecycle/atrato-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/atrato-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/mcp/atrato-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/atrato-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/agentic-access/atrato-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/atrato-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/llms/atrato-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atrato-llms.txt
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/sandbox/atrato-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/atrato-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/asyncapi/atrato-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/atrato-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/components/atrato-components.yml
   title: ''
   type: Components
   url: components/atrato-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/skills/atrato-cash-in-register-payment.md
   title: ''
   type: AgentSkill
   url: skills/atrato-cash-in-register-payment.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/skills/atrato-ecommerce-generate-order.md
   title: ''
   type: AgentSkill
   url: skills/atrato-ecommerce-generate-order.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/security/atrato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atrato-domain-security.yml
@@ -174,6 +216,54 @@ overview: 'Atrato publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
   Atrato''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 21 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 37.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 22.4
+    contract_governance: 4.5
+    contract_quality: 58.2
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - mexico
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 37.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 35.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/screenshots/atrato-2026-07-25T201622.png
 security:
 - kind: authentication

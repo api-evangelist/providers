@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Versioned REST access to store data (products, orders, customers, inventory, fulfillment, discounts, and more) for SHOPLINE apps.
@@ -83,58 +108,72 @@ common:
   type: PrivacyPolicy
   url: https://www.shopline.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/authentication/shopline-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopline-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/scopes/shopline-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shopline-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/conventions/shopline-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopline-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/lifecycle/shopline-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopline-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/changelog/shopline-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shopline-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/conformance/shopline-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopline-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/asyncapi/shopline-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shopline-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/packages/shopline-packages.yml
   title: ''
   type: Packages
   url: packages/shopline-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/packages/shopline-packages.yml
   title: ''
   type: SDKs
   url: packages/shopline-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/cli/shopline-cli.yml
   title: ''
   type: CLI
   url: cli/shopline-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/sandbox/shopline-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopline-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/components/shopline-components.yml
   title: ''
   type: Components
   url: components/shopline-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/llms/shopline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopline-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/security/shopline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopline-domain-security.yml
@@ -159,6 +198,40 @@ scopes:
   scope_count: 63
   slug: shopline-scopes
   summary_line: 63 scopes · authorizationCode
+score:
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 76.2
+    discoverability: 81.5
+    operational_transparency: 50.0
+  previous_composite: 53.1
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/screenshots/shopline-2026-08-17T081839.png
 security:
 - kind: authentication

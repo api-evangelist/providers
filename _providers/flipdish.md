@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -991,6 +1017,7 @@ collections:
   slug: open-flipdish-whitelabelconfig-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/capabilities/flipdish-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flipdish-capability-edges.yml
@@ -999,18 +1026,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/flipdish/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/agentic-access/flipdish-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flipdish-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/security/flipdish-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flipdish-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/authentication/flipdish-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flipdish-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/scopes/flipdish-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flipdish-scopes.yml
@@ -1115,22 +1146,27 @@ common:
   type: X
   url: https://twitter.com/flipdish
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/plans/flipdish-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flipdish-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/rate-limits/flipdish-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flipdish-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/finops/flipdish-finops.yml
   title: ''
   type: FinOps
   url: finops/flipdish-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/rules/flipdish-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/flipdish-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/vocabulary/flipdish-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/flipdish-vocabulary.yml
@@ -3735,6 +3771,45 @@ scopes:
   scope_count: 1
   slug: flipdish-scopes
   summary_line: 1 scope · implicit/clientCredentials
+score:
+  band: strong
+  composite: 54.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 83.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 56.6
+    contract_governance: 28.8
+    contract_quality: 67.2
+    developer_ergonomics: 45.2
+    discoverability: 81.5
+    operational_transparency: 23.7
+  previous_composite: 54.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 85
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 42.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:
 - kind: authentication

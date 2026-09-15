@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The HTTP API of phoenixd, ACINQ's self-custodial Lightning server daemon. 27 documented endpoints covering Bolt11 invoices, Bolt12 offers, Lightning addresses, on-chain sends and swap-in, payment hist
@@ -31,6 +56,7 @@ common:
   type: License
   url: https://github.com/ACINQ/phoenixd/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/security/acinq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acinq-domain-security.yml
@@ -83,66 +109,82 @@ common:
   type: Security
   url: https://github.com/ACINQ/eclair/blob/master/SECURITY.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/security/acinq-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/acinq-vulnerability-disclosure.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/changelog/acinq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/acinq-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/authentication/acinq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acinq-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/conventions/acinq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acinq-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/errors/acinq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/acinq-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/lifecycle/acinq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acinq-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/conformance/acinq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acinq-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/data-model/acinq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acinq-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/packages/acinq-packages.yml
   title: ''
   type: Packages
   url: packages/acinq-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/packages/acinq-packages.yml
   title: ''
   type: SDKs
   url: packages/acinq-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/cli/acinq-cli.yml
   title: ''
   type: CLI
   url: cli/acinq-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/sandbox/acinq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/acinq-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/plans/acinq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acinq-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/rate-limits/acinq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acinq-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/asyncapi/acinq-phoenixd-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/acinq-phoenixd-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/llms/acinq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acinq-llms.txt
@@ -170,6 +212,47 @@ rate_limits:
 - limit_count: 0
   name: Acinq Rate Limits
   slug: acinq-rate-limits
+score:
+  band: developing
+  composite: 48.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 76.2
+    discoverability: 75.9
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 48.9
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/acinq/refs/heads/main/screenshots/acinq-2026-09-02T144115.png
 security:
 - kind: authentication

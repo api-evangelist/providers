@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.dimensionlabs.io
@@ -55,54 +80,67 @@ common:
   type: GettingStarted
   url: https://docs.dimensionlabs.io/reference/generating-dashbot-api-key
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/authentication/dashbot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dashbot-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/llms/dashbot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dashbot-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/packages/dashbot-packages.yml
   title: ''
   type: Packages
   url: packages/dashbot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/packages/dashbot-packages.yml
   title: ''
   type: SDKs
   url: packages/dashbot-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/errors/dashbot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dashbot-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/security/dashbot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dashbot-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/mcp/dashbot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dashbot-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/mcp/dashbot-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dashbot-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/conventions/dashbot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dashbot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/data-model/dashbot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dashbot-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/lifecycle/dashbot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dashbot-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/conformance/dashbot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dashbot-conformance.yml
@@ -111,14 +149,17 @@ common:
   type: Compliance
   url: https://www.dimensionlabs.io/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/plans/dashbot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dashbot-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/rate-limits/dashbot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dashbot-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/overlays/dashbot-export-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dashbot-export-api-overlay.yaml
@@ -179,6 +220,41 @@ rate_limits:
 - limit_count: 0
   name: Dashbot Rate Limits
   slug: dashbot-rate-limits
+score:
+  band: developing
+  composite: 48.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 40.1
+    developer_ergonomics: 55.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 48.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/screenshots/dashbot-2026-07-25T211226.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://api.thefoodassembly.com
@@ -50,14 +75,17 @@ collections:
   slug: open-la-ruche-qui-dit-oui-sale-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/mcp/la-ruche-qui-dit-oui-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/la-ruche-qui-dit-oui-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/security/la-ruche-qui-dit-oui-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/la-ruche-qui-dit-oui-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/authentication/la-ruche-qui-dit-oui-authentication.yml
   title: ''
   type: Authentication
   url: authentication/la-ruche-qui-dit-oui-authentication.yml
@@ -90,34 +118,42 @@ common:
   type: Blog
   url: https://laruchequiditoui.fr/fr/what-the-field/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/llms/la-ruche-qui-dit-oui-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/la-ruche-qui-dit-oui-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/conventions/la-ruche-qui-dit-oui-conventions.yml
   title: ''
   type: Conventions
   url: conventions/la-ruche-qui-dit-oui-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/errors/la-ruche-qui-dit-oui-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/la-ruche-qui-dit-oui-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/lifecycle/la-ruche-qui-dit-oui-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/la-ruche-qui-dit-oui-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/conformance/la-ruche-qui-dit-oui-conformance.yml
   title: ''
   type: Conformance
   url: conformance/la-ruche-qui-dit-oui-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/data-model/la-ruche-qui-dit-oui-data-model.yml
   title: ''
   type: DataModel
   url: data-model/la-ruche-qui-dit-oui-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/overlays/la-ruche-qui-dit-oui-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/la-ruche-qui-dit-oui-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -134,6 +170,48 @@ overview: 'La Ruche qui dit Oui! publishes 4 APIs on the [APIs.io](https://apis.
 
   La Ruche qui dit Oui!''s developer surface includes authentication, support, signup flow, engineering blog, and 14 more developer resources.'
 random_paper: 19
+score:
+  band: emerging
+  composite: 24.0
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 13.6
+    developer_ergonomics: 37.5
+    discoverability: 81.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 24.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: La Ruche Qui Dit Oui Authentication

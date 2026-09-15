@@ -11,6 +11,31 @@ access_model:
   - security
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -122,18 +147,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/scylladb/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/agentic-access/scylladb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scylladb-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/security/scylladb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/scylladb-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/security/scylladb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scylladb-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/authentication/scylladb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scylladb-authentication.yml
@@ -186,22 +215,27 @@ common:
   type: University
   url: https://university.scylladb.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/vocabulary/scylladb-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/scylladb-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/json-ld/scylladb-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/scylladb-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/plans/scylladb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scylladb-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/rate-limits/scylladb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scylladb-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/finops/scylladb-finops.yml
   title: ''
   type: FinOps
   url: finops/scylladb-finops.yml
@@ -272,6 +306,38 @@ rules:
     info: 2
     warn: 3
   slug: scylladb-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 84.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 30.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 25.0
+    contract_quality: 68.1
+    developer_ergonomics: 39.3
+    discoverability: 59.3
+    operational_transparency: 55.3
+  previous_composite: 51.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/screenshots/scylladb-2026-06-20T193611.png
 security:
 - kind: authentication

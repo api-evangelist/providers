@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Apache Thrift is a lightweight, language-independent software stack for point-to-point RPC implementation. It provides abstractions for data transport, serialization, and application-level processing '
@@ -17,10 +42,12 @@ apis:
 artifact_total: 12
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thrift/refs/heads/main/security/thrift-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/thrift-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thrift/refs/heads/main/security/thrift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thrift-domain-security.yml
@@ -96,7 +123,7 @@ modified: '2026-05-03'
 name: Apache Thrift
 nav: Providers
 network: true
-overview: 'Apache Thrift publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Code Generation, Cross-Language, Developer Tools, and Open-Source.
+overview: 'Apache Thrift publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Code Generation, Cross-Language, Open-Source, and RPC.
 
 
   The Apache Thrift catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -123,6 +150,32 @@ rules:
     info: 1
     warn: 5
   slug: thrift-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 26.4
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 71.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 22.7
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 26.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrift/refs/heads/main/screenshots/thrift-2026-06-20T195317.png
 security:
 - kind: domain-security
@@ -138,7 +191,6 @@ tags:
 - Apache
 - Code Generation
 - Cross-Language
-- Developer Tools
 - Open-Source
 - RPC
 - SDK

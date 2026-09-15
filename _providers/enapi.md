@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Enapi's OCPI HUB endpoint for EV charging roaming. Implements the Open Charge Point Interface (OCPI) 2.1.1 / 2.2.1 / 2.3.0 across the Credentials, Locations, Tariffs, Tokens, Sessions, CDRs, Commands,
@@ -65,30 +90,37 @@ common:
   type: Compliance
   url: https://docs.enapi.com/security-compliance-and-slas/compliance-and-data-residency
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/llms/enapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enapi-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/authentication/enapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enapi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/conventions/enapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/enapi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/conformance/enapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enapi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/lifecycle/enapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/enapi-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/sandbox/enapi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/enapi-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/security/enapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enapi-domain-security.yml
@@ -106,6 +138,44 @@ overview: 'Enapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Enapi''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 12 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 34.5
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 34.5
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/enapi/refs/heads/main/screenshots/enapi-2026-07-25T213259.png
 security:
 - kind: authentication

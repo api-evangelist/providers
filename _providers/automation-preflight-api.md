@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,22 +90,27 @@ common:
   type: Website
   url: https://tinyopsstudio.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/mcp/automation-preflight-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/automation-preflight-api-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/overlays/automation-preflight-api-direct-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automation-preflight-api-direct-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/security/automation-preflight-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automation-preflight-api-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/agentic-access/automation-preflight-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/automation-preflight-api-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/authentication/automation-preflight-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/automation-preflight-api-authentication.yml
@@ -113,14 +143,17 @@ common:
   type: PrivacyPolicy
   url: https://tinyopsstudio.com/privacy
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/a2a/automation-preflight-api-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/automation-preflight-api-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/well-known/automation-preflight-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/automation-preflight-api-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/llms/automation-preflight-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/automation-preflight-api-llms.txt
@@ -129,46 +162,57 @@ common:
   type: LLMsTxt Source
   url: https://tinyopsstudio.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/conventions/automation-preflight-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/automation-preflight-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/errors/automation-preflight-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/automation-preflight-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/lifecycle/automation-preflight-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/automation-preflight-api-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/conformance/automation-preflight-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/automation-preflight-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/data-model/automation-preflight-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/automation-preflight-api-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/rate-limits/automation-preflight-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/automation-preflight-api-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/plans/automation-preflight-api-plans.yml
   title: ''
   type: Plans
   url: plans/automation-preflight-api-plans.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/sandbox/automation-preflight-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/automation-preflight-api-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/examples/automation-preflight-api-analyze-example.json
   title: ''
   type: Examples
   url: examples/automation-preflight-api-analyze-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/examples/automation-preflight-api-health-and-errors-example.json
   title: ''
   type: Examples
   url: examples/automation-preflight-api-health-and-errors-example.json
@@ -200,6 +244,41 @@ rate_limits:
 - limit_count: 2
   name: Automation Preflight Api Rate Limits
   slug: automation-preflight-api-rate-limits
+score:
+  band: developing
+  composite: 47.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 52.2
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 47.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/screenshots/automation-preflight-api-2026-08-17T080618.png
 security:
 - kind: authentication

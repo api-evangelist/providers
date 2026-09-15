@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://dev.imprint.co
@@ -141,6 +166,7 @@ collections:
   slug: open-imprint-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/capabilities/imprint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/imprint-capability-edges.yml
@@ -189,6 +215,7 @@ common:
   type: StatusPage
   url: https://status.imprint.co/partners
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/security/imprint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/imprint-trust-center.yml
@@ -197,70 +224,87 @@ common:
   type: Compliance
   url: https://trust.imprint.co/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/authentication/imprint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imprint-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/packages/imprint-packages.yml
   title: ''
   type: Packages
   url: packages/imprint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/packages/imprint-packages.yml
   title: ''
   type: SDKs
   url: packages/imprint-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/components/imprint-components.yml
   title: ''
   type: Components
   url: components/imprint-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/mcp/imprint-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/imprint-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/llms/imprint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imprint-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/overlays/imprint-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/imprint-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/conformance/imprint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imprint-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/errors/imprint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/imprint-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/lifecycle/imprint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imprint-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/conventions/imprint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imprint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/data-model/imprint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/imprint-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/sandbox/imprint-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/imprint-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/asyncapi/imprint-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/imprint-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/well-known/imprint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/imprint-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/security/imprint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imprint-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -280,6 +324,46 @@ overview: 'Imprint publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
   Imprint''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 62.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 49.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 51.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
 security:
 - kind: authentication

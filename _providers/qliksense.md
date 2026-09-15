@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.9
+  scored_at: '2026-09-14'
 api_count: 82
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
@@ -511,122 +537,152 @@ common:
   type: CLI
   url: https://qlik.dev/toolkits/qlik-cli/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/packages/qliksense-packages.yml
   title: ''
   type: SDKs
   url: packages/qliksense-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/packages/qliksense-packages.yml
   title: ''
   type: Packages
   url: packages/qliksense-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/mcp/qliksense-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qliksense-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/mcp/qliksense-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/qliksense-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/llms/qliksense-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qliksense-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/asyncapi/qliksense-asyncapi-index.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/qliksense-asyncapi-index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/asyncapi/qliksense-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qliksense-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/grpc/qliksense-server-side-extension.proto
   title: ''
   type: Protobuf
   url: grpc/qliksense-server-side-extension.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/json-rpc/qliksense-qix-openrpc.json
   title: ''
   type: OpenRPC
   url: json-rpc/qliksense-qix-openrpc.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/json-schema/qliksense-qtcp-project.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/qliksense-qtcp-project.schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/conformance/qliksense-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qliksense-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/security/qliksense-trust-center.yml
   title: ''
   type: Compliance
   url: security/qliksense-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/security/qliksense-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qliksense-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/security/qliksense-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/qliksense-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/security/qliksense-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qliksense-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/security/qliksense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qliksense-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/errors/qliksense-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qliksense-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/lifecycle/qliksense-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qliksense-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/lifecycle/qliksense-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qliksense-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/scopes/qliksense-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/qliksense-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/authentication/qliksense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qliksense-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/conventions/qliksense-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qliksense-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/changelog/qliksense-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qliksense-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/cli/qliksense-cli.yml
   title: ''
   type: CLI
   url: cli/qliksense-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/components/qliksense-components.yml
   title: ''
   type: Components
   url: components/qliksense-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/data-model/qliksense-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qliksense-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/plans/qliksense-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qliksense-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/rate-limits/qliksense-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qliksense-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/finops/qliksense-finops.yml
   title: ''
   type: FinOps
   url: finops/qliksense-finops.yml
@@ -811,6 +867,40 @@ scopes:
   scope_count: 0
   slug: qliksense-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 70.5
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 55.1
+    developer_ergonomics: 78.6
+    discoverability: 68.5
+    operational_transparency: 84.2
+  previous_composite: 70.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 56
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/screenshots/qliksense-2026-06-20T192343.png
 security:
 - kind: authentication

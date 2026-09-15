@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -112,6 +137,7 @@ collections:
   slug: open-1kosmos-workflow-api-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/mcp/1kosmos-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/1kosmos-mcp.yml
@@ -172,74 +198,92 @@ common:
   type: Compliance
   url: https://www.1kosmos.com/compliance
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/sandbox/1kosmos-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/1kosmos-sandbox.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/openapi/_original/1kosmos-blockid-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/1kosmos-blockid-openapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/packages/1kosmos-packages.yml
   title: ''
   type: Packages
   url: packages/1kosmos-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/packages/1kosmos-packages.yml
   title: ''
   type: SDKs
   url: packages/1kosmos-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/authentication/1kosmos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1kosmos-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/scopes/1kosmos-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1kosmos-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/conventions/1kosmos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1kosmos-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/errors/1kosmos-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1kosmos-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/lifecycle/1kosmos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1kosmos-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/changelog/1kosmos-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/1kosmos-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/conformance/1kosmos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1kosmos-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/data-model/1kosmos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1kosmos-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/asyncapi/1kosmos-idverify-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/1kosmos-idverify-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/llms/1kosmos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1kosmos-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/overlays/1kosmos-blockid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/1kosmos-blockid-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/security/1kosmos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1kosmos-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/agentic-access/1kosmos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1kosmos-agentic-access.yml
@@ -264,6 +308,41 @@ scopes:
   scope_count: 3
   slug: 1kosmos-scopes
   summary_line: 3 scopes · authorizationCode/refreshToken
+score:
+  band: developing
+  composite: 49.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 61.3
+    developer_ergonomics: 72.0
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 49.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:
 - kind: authentication

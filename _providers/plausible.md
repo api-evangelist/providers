@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -106,22 +131,27 @@ common:
   type: License
   url: https://github.com/plausible/analytics/blob/master/LICENSE
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/packages/plausible-packages.yml
   title: ''
   type: Packages
   url: packages/plausible-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/packages/plausible-packages.yml
   title: ''
   type: SDKs
   url: packages/plausible-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/mcp/plausible-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/plausible-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/llms/plausible-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plausible-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/conformance/plausible-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plausible-conformance.yml
@@ -130,10 +160,12 @@ common:
   type: Compliance
   url: https://plausible.io/compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/errors/plausible-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/plausible-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/lifecycle/plausible-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plausible-lifecycle.yml
@@ -142,26 +174,32 @@ common:
   type: StatusPage
   url: https://plausible.io/status
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/conventions/plausible-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plausible-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/changelog/plausible-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/plausible-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/components/plausible-components.yml
   title: ''
   type: Components
   url: components/plausible-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/data-model/plausible-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plausible-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/sandbox/plausible-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/plausible-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/security/plausible-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/plausible-vulnerability-disclosure.yml
@@ -170,22 +208,27 @@ common:
   type: Security
   url: https://plausible.io/vulnerability-disclosure-program
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/plans/plausible-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/plausible-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/rate-limits/plausible-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plausible-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/finops/plausible-finops.yml
   title: ''
   type: FinOps
   url: finops/plausible-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/mcp/plausible-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/plausible-mcp.yml
@@ -234,14 +277,17 @@ common:
   type: Mastodon
   url: https://fosstodon.org/@plausible
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/agentic-access/plausible-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/plausible-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/security/plausible-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plausible-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/authentication/plausible-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plausible-authentication.yml
@@ -334,6 +380,41 @@ rate_limits:
 - limit_count: 3
   name: Plausible Rate Limits
   slug: plausible-rate-limits
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 18.2
+    contract_quality: 49.3
+    developer_ergonomics: 69.6
+    discoverability: 74.1
+    operational_transparency: 81.6
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/screenshots/plausible-2026-06-20T191759.png
 security:
 - kind: authentication

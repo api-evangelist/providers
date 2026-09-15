@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Nativo API V3 is the platform REST API for the Nativo advertising platform. It exposes CRUD trafficking resources (advertisers, campaigns, budgets, ads, creatives, placements, targeting parameters
@@ -27,6 +52,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/life360/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/security/nativo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nativo-vulnerability-disclosure.yml
@@ -83,70 +109,87 @@ common:
   type: StatusPage
   url: https://status.nativo.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/lifecycle/nativo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nativo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/lifecycle/nativo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nativo-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/authentication/nativo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nativo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/conventions/nativo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nativo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/errors/nativo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nativo-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/rate-limits/nativo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nativo-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/plans/nativo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nativo-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/packages/nativo-packages.yml
   title: ''
   type: Packages
   url: packages/nativo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/packages/nativo-packages.yml
   title: ''
   type: SDKs
   url: packages/nativo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/llms/nativo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nativo-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/conformance/nativo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nativo-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/conformance/nativo-conformance.yml
   title: ''
   type: Compliance
   url: conformance/nativo-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/security/nativo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nativo-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/data-model/nativo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nativo-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/changelog/nativo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nativo-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/sandbox/nativo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nativo-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/security/nativo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nativo-vulnerability-disclosure.yml
@@ -171,6 +214,35 @@ rate_limits:
 - limit_count: 2
   name: Nativo Rate Limits
   slug: nativo-rate-limits
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 40.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/screenshots/nativo-2026-09-02T150725.png
 security:
 - kind: authentication

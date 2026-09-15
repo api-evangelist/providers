@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 42.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -40,14 +65,17 @@ asyncapis:
   slug: tzero-institutional-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/agentic-access/tzero-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tzero-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/security/tzero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tzero-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/authentication/tzero-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tzero-authentication.yml
@@ -120,30 +148,37 @@ common:
   type: X
   url: https://x.com/tZERO
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/conventions/tzero-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tzero-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/conventions/tzero-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tzero-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/errors/tzero-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tzero-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/errors/tzero-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/tzero-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/lifecycle/tzero-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tzero-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/changelog/tzero-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tzero-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/conformance/tzero-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tzero-conformance.yml
@@ -152,38 +187,47 @@ common:
   type: Compliance
   url: https://www.tzero.com/legal
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/data-model/tzero-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tzero-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/asyncapi/tzero-institutional-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tzero-institutional-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/llms/tzero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tzero-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/packages/tzero-packages.yml
   title: ''
   type: Packages
   url: packages/tzero-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/plans/tzero-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tzero-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/rate-limits/tzero-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tzero-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/overlays/tzero-issuance-secondary-markets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tzero-issuance-secondary-markets-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/overlays/tzero-institutional-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tzero-institutional-overlay.yaml
@@ -211,6 +255,42 @@ rate_limits:
 - limit_count: 0
   name: Tzero Rate Limits
   slug: tzero-rate-limits
+score:
+  band: developing
+  composite: 50.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 55.9
+    developer_ergonomics: 58.9
+    discoverability: 64.8
+    operational_transparency: 26.3
+  previous_composite: 50.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/screenshots/tzero-2026-09-02T164703.png
 security:
 - kind: authentication
@@ -232,7 +312,7 @@ tags:
 - Transfer Agent
 - Custody
 - Blockchain
-- Financial Services
+- Financial-Services
 - Securities
 - Market Data
 - FIX Protocol

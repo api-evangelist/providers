@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.vulncheck.com/v3
@@ -69,58 +94,72 @@ common:
   type: Security
   url: https://www.vulncheck.com/vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/well-known/vulncheck-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/vulncheck-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/well-known/vulncheck-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vulncheck-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/security/vulncheck-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vulncheck-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/security/vulncheck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vulncheck-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/packages/vulncheck-packages.yml
   title: ''
   type: Packages
   url: packages/vulncheck-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/packages/vulncheck-packages.yml
   title: ''
   type: SDKs
   url: packages/vulncheck-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/cli/vulncheck-cli.yml
   title: ''
   type: CLI
   url: cli/vulncheck-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/mcp/vulncheck-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vulncheck-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/llms/vulncheck-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vulncheck-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/lifecycle/vulncheck-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vulncheck-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/conformance/vulncheck-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vulncheck-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/plans/vulncheck-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vulncheck-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/rate-limits/vulncheck-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vulncheck-rate-limits.yml
@@ -149,6 +188,35 @@ rate_limits:
 - limit_count: 1
   name: Vulncheck Rate Limits
   slug: vulncheck-rate-limits
+score:
+  band: developing
+  composite: 48.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 48.4
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Vulncheck Authentication

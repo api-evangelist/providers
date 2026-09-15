@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'RESTful API (v1) to automate outbound payments from your own Telleroo account: manage recipients, query accounts and transactions, and create bank transfers (to a saved recipient or adhoc). Token auth'
@@ -80,62 +105,77 @@ common:
   type: PrivacyPolicy
   url: https://www.telleroo.com/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/llms/telleroo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/telleroo-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/authentication/telleroo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/telleroo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/scopes/telleroo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/telleroo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/conventions/telleroo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/telleroo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/conventions/telleroo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/telleroo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/errors/telleroo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/telleroo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/lifecycle/telleroo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/telleroo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/lifecycle/telleroo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/telleroo-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/sandbox/telleroo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/telleroo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/conformance/telleroo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/telleroo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/data-model/telleroo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/telleroo-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/security/telleroo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telleroo-domain-security.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/asyncapi/telleroo-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/telleroo-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/asyncapi/telleroo-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/telleroo-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/mcp/telleroo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/telleroo-mcp.yml
@@ -160,6 +200,41 @@ scopes:
   scope_count: 1
   slug: telleroo-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 47.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 60.7
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 47.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 53.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/screenshots/telleroo-2026-08-17T082305.png
 security:
 - kind: authentication

@@ -32,7 +32,6 @@ tags:
 - Developer Tools
 - Infrastructure
 - Fintech
-- Consumer
 - Artificial Intelligence
 - United States
 ---

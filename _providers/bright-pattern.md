@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -138,26 +163,32 @@ collections:
   slug: open-bright-pattern-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/capabilities/bright-pattern-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bright-pattern-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/mcp/bright-pattern-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bright-pattern-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/agentic-access/bright-pattern-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bright-pattern-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/security/bright-pattern-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bright-pattern-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/security/bright-pattern-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bright-pattern-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/authentication/bright-pattern-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bright-pattern-authentication.yml
@@ -182,6 +213,7 @@ common:
   type: GettingStarted
   url: https://help.brightpattern.com/latest:Tutorials-for-admins/API/Access
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/postman/bright-pattern-postman.yml
   title: ''
   type: Postman
   url: postman/bright-pattern-postman.yml
@@ -226,58 +258,72 @@ common:
   type: ChangeLog
   url: https://help.brightpattern.com/WhatsNew
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/openapi/_original/bright-pattern-list-management-v3-2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/bright-pattern-list-management-v3-2-openapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/packages/bright-pattern-packages.yml
   title: ''
   type: Packages
   url: packages/bright-pattern-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/packages/bright-pattern-packages.yml
   title: ''
   type: SDKs
   url: packages/bright-pattern-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/well-known/bright-pattern-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bright-pattern-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/llms/bright-pattern-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bright-pattern-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/conformance/bright-pattern-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bright-pattern-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/errors/bright-pattern-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bright-pattern-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/lifecycle/bright-pattern-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bright-pattern-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/conventions/bright-pattern-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bright-pattern-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/conventions/bright-pattern-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bright-pattern-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/components/bright-pattern-components.yml
   title: ''
   type: Components
   url: components/bright-pattern-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/data-model/bright-pattern-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bright-pattern-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/overlays/bright-pattern-list-management-v3-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bright-pattern-list-management-v3-2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -294,6 +340,53 @@ overview: 'Bright Pattern publishes 14 APIs on the [APIs.io](https://apis.io/) n
 
   Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 random_paper: 2
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 53.9
+    developer_ergonomics: 70.8
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/screenshots/bright-pattern-2026-08-17T080703.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.2
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: ytt is a templating tool that understands YAML structure, letting you use familiar YAML constructs and Python-like language (Starlark) to template Kubernetes configuration. Supports overlays, data val
@@ -59,6 +84,7 @@ common:
   type: License
   url: https://github.com/carvel-dev/ytt/blob/develop/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/security/carvel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carvel-domain-security.yml
@@ -95,66 +121,82 @@ common:
   type: Security
   url: https://carvel.dev/shared/docs/latest/security-policy/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/json-schema/_index.yml
   title: ''
   type: JSONSchema
   url: json-schema/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/packages/carvel-packages.yml
   title: ''
   type: Packages
   url: packages/carvel-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/cli/carvel-cli.yml
   title: ''
   type: CLI
   url: cli/carvel-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/llms/carvel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carvel-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/changelog/carvel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/carvel-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/lifecycle/carvel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carvel-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/conformance/carvel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carvel-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/conventions/carvel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/carvel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/conventions/carvel-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/carvel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/data-model/carvel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carvel-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/authentication/carvel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carvel-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/security/carvel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/carvel-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/sandbox/carvel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/carvel-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/plans/carvel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carvel-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/rate-limits/carvel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/carvel-rate-limits.yml
@@ -183,6 +225,38 @@ rate_limits:
 - limit_count: 0
   name: Carvel Rate Limits
   slug: carvel-rate-limits
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 44.0
+    catalog_earned_first_party: 6.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 34.7
+    developer_ergonomics: 36.9
+    discoverability: 72.2
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 38.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/carvel/refs/heads/main/screenshots/carvel-2026-06-20T174027.png
 security:
 - kind: authentication

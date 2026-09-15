@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://offgridstores.com/api/ucp/mcp. The server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-
@@ -37,10 +62,12 @@ common:
   type: Documentation
   url: https://offgridstores.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/llms/offgridstores-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/offgridstores-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/llms/offgridstores-agents.md
   title: ''
   type: AgentInstructions
   url: llms/offgridstores-agents.md
@@ -77,66 +104,82 @@ common:
   type: ShippingPolicy
   url: https://offgridstores.com/policies/shipping-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/well-known/offgridstores-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/offgridstores-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/authentication/offgridstores-authentication.yml
   title: ''
   type: Authentication
   url: authentication/offgridstores-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/scopes/offgridstores-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/offgridstores-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/conformance/offgridstores-conformance.yml
   title: ''
   type: Conformance
   url: conformance/offgridstores-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/lifecycle/offgridstores-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/offgridstores-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/conventions/offgridstores-conventions.yml
   title: ''
   type: Conventions
   url: conventions/offgridstores-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/conventions/offgridstores-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/offgridstores-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/errors/offgridstores-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/offgridstores-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/rate-limits/offgridstores-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/offgridstores-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/plans/offgridstores-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/offgridstores-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/data-model/offgridstores-data-model.yml
   title: ''
   type: DataModel
   url: data-model/offgridstores-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/mcp/offgridstores-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/offgridstores-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/mcp/offgridstores-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/offgridstores-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/graphql/offgridstores-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/offgridstores-storefront.graphql
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/security/offgridstores-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/offgridstores-domain-security.yml
@@ -170,6 +213,42 @@ scopes:
   scope_count: 0
   slug: offgridstores-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 38.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 37.2
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 38.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/screenshots/offgridstores-2026-09-02T150831.png
 security:
 - kind: authentication

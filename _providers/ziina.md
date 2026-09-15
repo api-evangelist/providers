@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -118,22 +143,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ziina/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/agentic-access/ziina-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ziina-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/security/ziina-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ziina-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/security/ziina-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ziina-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/security/ziina-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ziina-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/authentication/ziina-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ziina-authentication.yml
@@ -154,14 +184,17 @@ common:
   type: Documentation
   url: https://docs.ziina.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/plans/ziina-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ziina-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/rate-limits/ziina-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ziina-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/finops/ziina-finops.yml
   title: ''
   type: FinOps
   url: finops/ziina-finops.yml
@@ -170,78 +203,97 @@ common:
   type: Blog
   url: https://ziina.com/blog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/scopes/ziina-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ziina-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/conventions/ziina-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ziina-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/conventions/ziina-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ziina-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/errors/ziina-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ziina-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/conformance/ziina-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ziina-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/security/ziina-trust-center.yml
   title: ''
   type: Compliance
   url: security/ziina-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/lifecycle/ziina-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ziina-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/sandbox/ziina-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ziina-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/data-model/ziina-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ziina-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/components/ziina-components.yml
   title: ''
   type: Components
   url: components/ziina-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/well-known/ziina-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ziina-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/llms/ziina-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ziina-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/mcp/ziina-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ziina-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/overlays/ziina-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ziina-openapi-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/asyncapi/ziina-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/ziina-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/asyncapi/ziina-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/ziina-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/arazzo/ziina-accept-payment.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/ziina-accept-payment.arazzo.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/arazzo/ziina-refund-payment.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/ziina-refund-payment.arazzo.yml
@@ -310,6 +362,52 @@ scopes:
   scope_count: 7
   slug: ziina-scopes
   summary_line: 7 scopes
+score:
+  band: strong
+  composite: 65.7
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 51.5
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  previous_composite: 65.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 84.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/screenshots/ziina-2026-08-17T083107.png
 security:
 - kind: authentication

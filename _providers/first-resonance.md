@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The ION Factory OS GraphQL API. A single GraphQL endpoint for reading and writing manufacturing data in ION: Runs, Procedures, Parts, mBOM/aBOM, inventory, notifications, and webhook subscriptions. Au'
@@ -21,6 +47,7 @@ asyncapis:
   slug: first-resonance-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/security/first-resonance-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/first-resonance-trust-center.yml
@@ -49,6 +76,7 @@ common:
   type: GettingStarted
   url: https://manual.firstresonance.io/api/how-to-create-an-app-with-ion
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/authentication/first-resonance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/first-resonance-authentication.yml
@@ -93,46 +121,57 @@ common:
   type: Deprecation
   url: https://manual.firstresonance.io/api/api-change-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/mcp/first-resonance-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/first-resonance-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/asyncapi/first-resonance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/first-resonance-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/well-known/first-resonance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/first-resonance-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/llms/first-resonance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/first-resonance-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/lifecycle/first-resonance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/first-resonance-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/conventions/first-resonance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/first-resonance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/conformance/first-resonance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/first-resonance-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/sandbox/first-resonance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/first-resonance-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/changelog/first-resonance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/first-resonance-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/security/first-resonance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/first-resonance-domain-security.yml
@@ -156,6 +195,36 @@ overview: 'First Resonance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
   First Resonance''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 46.2
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-resonance/refs/heads/main/screenshots/first-resonance-2026-07-25T214610.png
 security:
 - kind: authentication

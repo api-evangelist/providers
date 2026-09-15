@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -109,22 +134,27 @@ collections:
   slug: open-verizon-sms-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/agentic-access/verizon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/verizon-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/security/verizon-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/verizon-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/security/verizon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verizon-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/authentication/verizon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verizon-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/scopes/verizon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/verizon-scopes.yml
@@ -177,42 +207,52 @@ common:
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/vocabulary/verizon-vocabulary.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/llms/verizon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verizon-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/packages/verizon-packages.yml
   title: ''
   type: Packages
   url: packages/verizon-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/packages/verizon-packages.yml
   title: ''
   type: SDKs
   url: packages/verizon-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/mcp/verizon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/verizon-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/grpc/verizon-etx-protobuf.yml
   title: ''
   type: Protobuf
   url: grpc/verizon-etx-protobuf.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/conformance/verizon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verizon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/errors/verizon-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/verizon-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/errors/verizon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/verizon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/lifecycle/verizon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verizon-lifecycle.yml
@@ -221,22 +261,27 @@ common:
   type: StatusPage
   url: https://www.verizon.com/support/service-outage-status/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/conventions/verizon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verizon-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/changelog/verizon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/verizon-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/sandbox/verizon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/verizon-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/data-model/verizon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verizon-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/asyncapi/verizon-thingspace-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/verizon-thingspace-callbacks-webhooks.yml
@@ -245,22 +290,27 @@ common:
   type: Security
   url: https://www.verizon.com/solutions-and-services/report-security-vulnerability/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/overlays/verizon-accounts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verizon-accounts-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/overlays/verizon-callbacks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verizon-callbacks-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/overlays/verizon-devices-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verizon-devices-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/overlays/verizon-session-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verizon-session-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/overlays/verizon-sms-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verizon-sms-api-overlay.yaml
@@ -520,6 +570,47 @@ scopes:
   scope_count: 3
   slug: verizon-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: strong
+  composite: 63.2
+  coverage:
+    artifact_dirs: 35
+    catalog_earned: 74.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 33.3
+    contract_quality: 44.1
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 81.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:
 - kind: authentication

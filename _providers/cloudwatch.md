@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -101,6 +126,7 @@ collections:
   slug: open-cloudwatch
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/capabilities/cloudwatch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudwatch-capability-edges.yml
@@ -109,22 +135,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/aws-cloudwatch/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/agentic-access/cloudwatch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudwatch-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/security/cloudwatch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudwatch-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/security/cloudwatch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudwatch-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/security/cloudwatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudwatch-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/authentication/cloudwatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudwatch-authentication.yml
@@ -169,22 +200,27 @@ common:
   type: Documentation
   url: https://docs.aws.amazon.com/cloudwatch/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/_original/cloudwatch-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/cloudwatch-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/json-schema/cloudwatch-alarm-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudwatch-alarm-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/json-ld/cloudwatch-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudwatch-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/rules/cloudwatch-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/cloudwatch-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/vocabulary/cloudwatch-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/cloudwatch-vocabulary.yaml
@@ -1148,6 +1184,38 @@ rules:
     info: 0
     warn: 7
   slug: cloudwatch-spectral-rules
+score:
+  band: strong
+  composite: 56.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 65.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 28.8
+    contract_quality: 71.8
+    developer_ergonomics: 63.1
+    discoverability: 59.3
+    operational_transparency: 39.5
+  previous_composite: 56.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:
 - kind: authentication

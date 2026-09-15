@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The developer surface of the Virtualitics AI Platform. Developers author AI Apps in Python with the Virtualitics SDK (App, Step, Page, Section, Card, Elements, Assets, LLM/Iris, Store, Audit, Triggers
@@ -10,14 +35,17 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/security/virtualitics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/virtualitics-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/security/virtualitics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/virtualitics-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/security/virtualitics-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/virtualitics-vulnerability-disclosure.yml
@@ -66,62 +94,77 @@ common:
   type: PrivacyPolicy
   url: https://virtualitics.com/privacy-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/llms/virtualitics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virtualitics-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/packages/virtualitics-packages.yml
   title: ''
   type: Packages
   url: packages/virtualitics-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/packages/virtualitics-packages.yml
   title: ''
   type: SDKs
   url: packages/virtualitics-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/cli/virtualitics-cli.yml
   title: ''
   type: CLI
   url: cli/virtualitics-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/components/virtualitics-components.yml
   title: ''
   type: Components
   url: components/virtualitics-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/changelog/virtualitics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virtualitics-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/conformance/virtualitics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virtualitics-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/conformance/virtualitics-conformance.yml
   title: ''
   type: Compliance
   url: conformance/virtualitics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/lifecycle/virtualitics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virtualitics-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/authentication/virtualitics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virtualitics-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/security/virtualitics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virtualitics-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/conventions/virtualitics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virtualitics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/data-model/virtualitics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virtualitics-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/plans/virtualitics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/virtualitics-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/virtualitics/refs/heads/main/rate-limits/virtualitics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/virtualitics-rate-limits.yml
@@ -133,7 +176,7 @@ modified: '2026-09-04'
 name: Virtualitics
 nav: Providers
 network: true
-overview: 'Virtualitics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Analytics, Data Visualization, and Machine Learning.
+overview: 'Virtualitics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Analytics, Data Visualization, and Machine-Learning.
 
 
   Virtualitics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 22 more developer resources.'
@@ -146,6 +189,41 @@ rate_limits:
 - limit_count: 0
   name: Virtualitics Rate Limits
   slug: virtualitics-rate-limits
+score:
+  band: developing
+  composite: 40.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 6.7
+    developer_ergonomics: 71.4
+    discoverability: 66.7
+    operational_transparency: 28.9
+  previous_composite: 40.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Virtualitics Authentication
@@ -169,7 +247,7 @@ tags:
 - Artificial Intelligence
 - Data Analytics
 - Data Visualization
-- Machine Learning
+- Machine-Learning
 - Defense
 - Government
 - Python

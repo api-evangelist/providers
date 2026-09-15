@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.silnahealth.com/api
@@ -357,70 +382,87 @@ collections:
   slug: open-silna-v2benefitscheckresource-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/capabilities/silna-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/silna-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/security/silna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silna-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/authentication/silna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/silna-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/errors/silna-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/silna-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/conventions/silna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/silna-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/conventions/silna-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/silna-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/rate-limits/silna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/silna-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/lifecycle/silna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/silna-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/conformance/silna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/silna-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/conformance/silna-conformance.yml
   title: ''
   type: Compliance
   url: conformance/silna-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/security/silna-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/silna-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/data-model/silna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/silna-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/mcp/silna-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/silna-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/well-known/silna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/silna-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/overlays/silna-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/silna-openapi-overlay.yaml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/sandbox/silna-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/silna-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -501,6 +543,50 @@ rate_limits:
 - limit_count: 2
   name: Silna Rate Limits
   slug: silna-rate-limits
+score:
+  band: strong
+  composite: 55.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 54.7
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 55.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 53.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/screenshots/silna-2026-08-17T081856.png
 security:
 - kind: authentication

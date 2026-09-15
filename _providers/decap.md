@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Decap CMS communicates with Git hosting providers (GitHub, GitLab, Bitbucket, Azure, Gitea) through their REST and GraphQL APIs to read, create, update, and delete content entries, manage media file u
@@ -17,6 +42,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/decap/refs/heads/main/security/decap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/decap-domain-security.yml
@@ -45,14 +71,17 @@ common:
   type: X
   url: https://x.com/Decap_CMS
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/decap/refs/heads/main/plans/decap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/decap-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/decap/refs/heads/main/rate-limits/decap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/decap-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/decap/refs/heads/main/finops/decap-finops.yml
   title: ''
   type: FinOps
   url: finops/decap-finops.yml
@@ -85,6 +114,32 @@ rate_limits:
 - limit_count: 0
   name: Decap Rate Limits
   slug: decap-rate-limits
+score:
+  band: thin
+  composite: 33.7
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 52.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 37.2
+    developer_ergonomics: 23.8
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 33.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/decap/refs/heads/main/screenshots/decap-2026-06-20T175749.png
 security:
 - kind: domain-security

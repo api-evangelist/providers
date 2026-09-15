@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Crawlee JavaScript SDK is a Node.js/TypeScript library for building reliable web scrapers and crawlers. It provides a family of crawler classes - BasicCrawler, HttpCrawler, CheerioCrawler, JSDOMCr
@@ -28,6 +53,7 @@ common:
   type: ContributionGuide
   url: https://github.com/apify/crawlee/blob/master/CONTRIBUTING.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/security/crawlee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crawlee-domain-security.yml
@@ -80,42 +106,52 @@ common:
   type: DeveloperPortal
   url: https://crawlee.dev/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/llms/crawlee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crawlee-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/packages/crawlee-packages.yml
   title: ''
   type: Packages
   url: packages/crawlee-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/packages/crawlee-packages.yml
   title: ''
   type: SDKs
   url: packages/crawlee-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/cli/crawlee-cli.yml
   title: ''
   type: CLI
   url: cli/crawlee-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/changelog/crawlee-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crawlee-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/lifecycle/crawlee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crawlee-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/lifecycle/crawlee-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/crawlee-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/conventions/crawlee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crawlee-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/conformance/crawlee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crawlee-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -144,6 +180,36 @@ rate_limits:
 - limit_count: 0
   name: Crawlee Rate Limits
   slug: crawlee-rate-limits
+score:
+  band: thin
+  composite: 26.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 66.7
+    operational_transparency: 26.3
+  previous_composite: 26.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/screenshots/crawlee-2026-06-20T175215.png
 security:
 - kind: domain-security

@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api-v2.7signal.com
@@ -16,6 +42,7 @@ asyncapis:
   slug: 7signalsolutions-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/security/7signalsolutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/7signalsolutions-domain-security.yml
@@ -76,46 +103,57 @@ common:
   type: StatusPage
   url: https://7signal.com/status/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/lifecycle/7signalsolutions-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/7signalsolutions-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/lifecycle/7signalsolutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/7signalsolutions-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/changelog/7signalsolutions-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/7signalsolutions-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/plans/7signalsolutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/7signalsolutions-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/rate-limits/7signalsolutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/7signalsolutions-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/packages/7signalsolutions-packages.yml
   title: ''
   type: Packages
   url: packages/7signalsolutions-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/conformance/7signalsolutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/7signalsolutions-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/conformance/7signalsolutions-conformance.yml
   title: ''
   type: Compliance
   url: conformance/7signalsolutions-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/well-known/7signalsolutions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/7signalsolutions-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/llms/7signalsolutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/7signalsolutions-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/7signalsolutions/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -155,6 +193,45 @@ scopes:
   scope_count: 10
   slug: 7signalsolutions-scopes
   summary_line: 10 scopes · clientCredentials/authorization_code
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 65.1
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 54.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: 7Signalsolutions Authentication

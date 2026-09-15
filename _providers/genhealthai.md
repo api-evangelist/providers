@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.6
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
@@ -71,42 +96,52 @@ common:
   type: Compliance
   url: https://trust.genhealth.ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/llms/genhealthai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/genhealthai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/mcp/genhealthai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/genhealthai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/authentication/genhealthai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/genhealthai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/conformance/genhealthai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genhealthai-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/sandbox/genhealthai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/genhealthai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/lifecycle/genhealthai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/genhealthai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/changelog/genhealthai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/genhealthai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/conventions/genhealthai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/genhealthai-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/security/genhealthai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genhealthai-domain-security.yml
@@ -127,6 +162,42 @@ overview: 'GenHealth.ai is profiled on the [APIs.io](https://apis.io/) network. 
 
   GenHealth.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
 random_paper: 12
+score:
+  band: thin
+  composite: 29.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 57.4
+    operational_transparency: 26.3
+  previous_composite: 29.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/genhealthai/refs/heads/main/screenshots/genhealthai-2026-07-25T215613.png
 security:
 - kind: authentication

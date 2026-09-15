@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -87,34 +112,42 @@ collections:
   slug: open-macquarie-bank-banking-products-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/capabilities/macquarie-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/macquarie-bank-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/security/macquarie-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/macquarie-bank-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/agentic-access/macquarie-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/macquarie-bank-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/authentication/macquarie-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/macquarie-bank-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/scopes/macquarie-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/macquarie-bank-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/conformance/macquarie-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/macquarie-bank-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/errors/macquarie-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/macquarie-bank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/lifecycle/macquarie-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/macquarie-bank-lifecycle.yml
@@ -123,34 +156,42 @@ common:
   type: StatusPage
   url: https://api.macquariebank.io/cds-au/v1/discovery/status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/lifecycle/macquarie-bank-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/macquarie-bank-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/conventions/macquarie-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/macquarie-bank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/data-model/macquarie-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/macquarie-bank-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/mcp/macquarie-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/macquarie-bank-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/overlays/macquarie-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/macquarie-bank-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/llms/macquarie-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/macquarie-bank-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/sandbox/macquarie-bank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/macquarie-bank-sandbox.yml
@@ -191,6 +232,7 @@ common:
   type: APIReference
   url: https://consumerdatastandardsaustralia.github.io/standards/#cdr-banking-api
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/security/macquarie-bank-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/macquarie-bank-vulnerability-disclosure.yml
@@ -224,6 +266,54 @@ scopes:
   scope_count: 10
   slug: macquarie-bank-scopes
   summary_line: 10 scopes · authorizationCode
+score:
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 51.8
+    discoverability: 66.7
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 42.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 64.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png
 security:
 - kind: authentication

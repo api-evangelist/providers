@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the official 52TOYS Shopify storefront via the Universal Commerce Protocol MCP endpoint — catalog search, cart, and buyer-approved checkout. Read-only catalog browsing is un
@@ -25,34 +50,42 @@ common:
   type: DeveloperPortal
   url: https://hi52toys.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/llms/52toys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/52toys-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/mcp/52toys-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/52toys-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/authentication/52toys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/52toys-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/scopes/52toys-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/52toys-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/conventions/52toys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/52toys-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/well-known/52toys-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/52toys-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/security/52toys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/52toys-domain-security.yml
@@ -98,6 +131,35 @@ scopes:
   scope_count: 4
   slug: 52toys-scopes
   summary_line: 4 scopes
+score:
+  band: emerging
+  composite: 20.0
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 20.0
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/screenshots/52toys-2026-07-25T181212.png
 security:
 - kind: authentication

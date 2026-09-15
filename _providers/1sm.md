@@ -40,5 +40,5 @@ tags:
 - Sales
 - Marketing
 - Business Intelligence
-- SaaS
+- Software-as-a-Service
 ---

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://docs.ocient.com/api-playgrounds/ocient-http-query-api
@@ -35,10 +60,12 @@ collections:
   slug: open-ocient-system-information-rest-endpoints-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/security/ocient-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ocient-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/security/ocient-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ocient-domain-security.yml
@@ -99,38 +126,47 @@ common:
   type: SecurityGuide
   url: https://docs.ocient.com/ocient-security-guide
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/_original/ocient-http-query-api-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/ocient-http-query-api-openapi-original.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/packages/ocient-packages.yml
   title: ''
   type: Packages
   url: packages/ocient-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/packages/ocient-packages.yml
   title: ''
   type: SDKs
   url: packages/ocient-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/cli/ocient-cli.yml
   title: ''
   type: CLI
   url: cli/ocient-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/authentication/ocient-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ocient-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/conventions/ocient-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ocient-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/errors/ocient-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ocient-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/errors/ocient-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/ocient-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/lifecycle/ocient-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ocient-lifecycle.yml
@@ -139,42 +175,52 @@ common:
   type: VersionCompatibility
   url: https://docs.ocient.com/version-compatibility
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/changelog/ocient-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ocient-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/conformance/ocient-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ocient-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/data-model/ocient-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ocient-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/overlays/ocient-http-query-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ocient-http-query-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/well-known/ocient-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ocient-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/llms/ocient-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ocient-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/mcp/ocient-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ocient-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/mcp/ocient-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ocient-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/a2a/ocient-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/ocient-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -195,6 +241,45 @@ overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: O
 
   Ocient''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 29 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 48.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 46.3
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 48.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/screenshots/ocient-2026-08-07T185927.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.9
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - description: Outgoing webhook event surface — nineteen documented event types across contacts, consent, deliverability, lead scoring, subscriptions, automated programs, messaging, forms and CRM connections. Payloa
@@ -161,18 +186,22 @@ collections:
   slug: open-act-on-rest-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/overlays/act-on-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/act-on-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/overlays/act-on-raw-body-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/act-on-raw-body-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/overlays/act-on-oauth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/act-on-oauth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/overlays/act-on-custom-objects-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/act-on-custom-objects-service-overlay.yaml
@@ -229,70 +258,87 @@ common:
   type: ChangeLog
   url: https://connect.act-on.com/hc/en-us/categories/13386837131927-What-s-New
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/llms/act-on-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/act-on-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/authentication/act-on-authentication.yml
   title: ''
   type: Authentication
   url: authentication/act-on-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/conventions/act-on-conventions.yml
   title: ''
   type: Conventions
   url: conventions/act-on-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/errors/act-on-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/act-on-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/conformance/act-on-conformance.yml
   title: ''
   type: Conformance
   url: conformance/act-on-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/lifecycle/act-on-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/act-on-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/data-model/act-on-data-model.yml
   title: ''
   type: DataModel
   url: data-model/act-on-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/rate-limits/act-on-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/act-on-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/plans/act-on-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/act-on-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/sandbox/act-on-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/act-on-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/changelog/act-on-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/act-on-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/asyncapi/act-on-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/act-on-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/mcp/act-on-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/act-on-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/security/act-on-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/act-on-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/security/act-on-trust-center.yml
   title: ''
   type: Compliance
   url: security/act-on-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/security/act-on-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/act-on-domain-security.yml
@@ -326,6 +372,40 @@ scopes:
   scope_count: 0
   slug: act-on-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 57.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 55.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 65.2
+    developer_ergonomics: 55.4
+    discoverability: 72.2
+    operational_transparency: 71.1
+  previous_composite: 57.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/screenshots/act-on-2026-07-25T181520.png
 security:
 - kind: authentication

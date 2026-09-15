@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.sponsorunited.com
@@ -57,6 +82,7 @@ common:
   type: StatusPage
   url: https://sponsorunited.statuspage.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/security/sponsorunited-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sponsorunited-trust-center.yml
@@ -77,30 +103,37 @@ common:
   type: ChangeLog
   url: https://help.sponsorunited.com/en/collections/7168679-data-product-releases
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/llms/sponsorunited-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sponsorunited-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/lifecycle/sponsorunited-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sponsorunited-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/conformance/sponsorunited-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sponsorunited-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/security/sponsorunited-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sponsorunited-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/plans/sponsorunited-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sponsorunited-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/rate-limits/sponsorunited-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sponsorunited-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/packages/sponsorunited-packages.yml
   title: ''
   type: Packages
   url: packages/sponsorunited-packages.yml
@@ -129,6 +162,40 @@ rate_limits:
 - limit_count: 0
   name: Sponsorunited Rate Limits
   slug: sponsorunited-rate-limits
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 60.9
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 52.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/screenshots/sponsorunited-2026-09-02T160541.png
 security:
 - kind: authentication

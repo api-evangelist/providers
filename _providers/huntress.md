@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 55.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -214,30 +240,37 @@ common:
   type: StatusPage
   url: https://status.huntress.io
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/changelog/huntress-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/huntress-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/mcp/huntress-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/huntress-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/well-known/huntress-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/huntress-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/well-known/huntress-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/huntress-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/llms/huntress-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/huntress-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/overlays/huntress-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/huntress-rest-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/conformance/huntress-conformance.yml
   title: ''
   type: Conformance
   url: conformance/huntress-conformance.yml
@@ -246,30 +279,37 @@ common:
   type: Compliance
   url: https://trust.huntress.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/errors/huntress-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/huntress-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/lifecycle/huntress-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/huntress-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/scopes/huntress-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/huntress-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/conventions/huntress-conventions.yml
   title: ''
   type: Conventions
   url: conventions/huntress-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/data-model/huntress-data-model.yml
   title: ''
   type: DataModel
   url: data-model/huntress-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/asyncapi/huntress-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/huntress-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -278,22 +318,27 @@ common:
   type: Security
   url: https://support.huntress.io/hc/en-us/articles/24119617302291-Huntress-Vulnerability-Disclosure-Program-Terms-and-Conditions
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/security/huntress-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/huntress-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/security/huntress-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/huntress-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/security/huntress-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/huntress-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/agentic-access/huntress-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/huntress-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/authentication/huntress-authentication.yml
   title: ''
   type: Authentication
   url: authentication/huntress-authentication.yml
@@ -326,6 +371,41 @@ scopes:
   scope_count: 1
   slug: huntress-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 51.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 65.6
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 51.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/screenshots/huntress-2026-07-25T221735.png
 security:
 - kind: authentication

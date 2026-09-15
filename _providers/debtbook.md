@@ -10,10 +10,36 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.1
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/security/debtbook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/debtbook-domain-security.yml
@@ -66,6 +92,7 @@ common:
   type: ChangeLog
   url: https://www.debtbook.com/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/changelog/debtbook-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/debtbook-changelog.yml
@@ -90,38 +117,47 @@ common:
   type: Compliance
   url: https://trust.debtbook.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/security/debtbook-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/debtbook-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/security/debtbook-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/debtbook-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/lifecycle/debtbook-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/debtbook-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/conformance/debtbook-conformance.yml
   title: ''
   type: Conformance
   url: conformance/debtbook-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/well-known/debtbook-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/debtbook-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/well-known/debtbook-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/debtbook-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/authentication/debtbook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/debtbook-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/llms/debtbook-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/debtbook-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/packages/debtbook-packages.yml
   title: ''
   type: Packages
   url: packages/debtbook-packages.yml
@@ -139,6 +175,40 @@ overview: 'DebtBook is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   DebtBook''s developer surface includes support, engineering blog, pricing, signup flow, legal docs, changelog, authentication, and 21 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 34.4
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 50.0
+    operational_transparency: 42.1
+  previous_composite: 34.4
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/debtbook/refs/heads/main/screenshots/debtbook-2026-08-07T164221.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - https://billing.blng.ai/billing/products
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 3
@@ -96,18 +121,22 @@ asyncapis:
   slug: blng-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/capabilities/blng-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blng-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/overlays/blng-journey-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blng-journey-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/agentic-access/blng-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blng-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/security/blng-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blng-domain-security.yml
@@ -132,6 +161,7 @@ common:
   type: Pricing
   url: https://blng.ai/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/plans/blng-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blng-plans-pricing.yml
@@ -172,6 +202,7 @@ common:
   type: StatusPage
   url: https://status.blng.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/lifecycle/blng-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blng-lifecycle.yml
@@ -180,42 +211,52 @@ common:
   type: TrustCenter
   url: https://trust.blng.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/security/blng-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blng-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/authentication/blng-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blng-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/scopes/blng-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blng-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/conventions/blng-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blng-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/errors/blng-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blng-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/data-model/blng-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blng-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/conformance/blng-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blng-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/rate-limits/blng-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blng-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/llms/blng-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blng-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -249,6 +290,41 @@ scopes:
   scope_count: 4
   slug: blng-scopes
   summary_line: 4 scopes · implicit
+score:
+  band: developing
+  composite: 49.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 54.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 54.3
+    developer_ergonomics: 49.4
+    discoverability: 74.1
+    operational_transparency: 23.7
+  previous_composite: 49.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 71.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/screenshots/blng-2026-07-25T203330.png
 security:
 - kind: authentication

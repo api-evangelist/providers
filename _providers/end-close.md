@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -135,6 +160,7 @@ common:
   type: Website
   url: https://www.endclose.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/capabilities/end-close-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/end-close-capability-edges.yml
@@ -147,62 +173,77 @@ common:
   type: Login
   url: https://app.endclose.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/authentication/end-close-authentication.yml
   title: ''
   type: Authentication
   url: authentication/end-close-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/conventions/end-close-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/end-close-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/conventions/end-close-conventions.yml
   title: ''
   type: Conventions
   url: conventions/end-close-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/errors/end-close-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/end-close-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/asyncapi/end-close-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/end-close-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/mcp/end-close-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/end-close-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/llms/end-close-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/end-close-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/overlays/end-close-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/end-close-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/conformance/end-close-conformance.yml
   title: ''
   type: Conformance
   url: conformance/end-close-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/lifecycle/end-close-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/end-close-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/data-model/end-close-data-model.yml
   title: ''
   type: DataModel
   url: data-model/end-close-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/well-known/end-close-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/end-close-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/well-known/end-close-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/end-close-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/security/end-close-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/end-close-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/security/end-close-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/end-close-vulnerability-disclosure.yml
@@ -211,10 +252,12 @@ common:
   type: Security
   url: https://www.endclose.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/security/end-close-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/end-close-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/agentic-access/end-close-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/end-close-agentic-access.yml
@@ -234,6 +277,46 @@ overview: 'End Close publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
   End Close''s developer surface includes authentication and 21 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 14.5
+    contract_governance: 4.5
+    contract_quality: 59.6
+    developer_ergonomics: 38.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 42.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 35.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:
 - kind: authentication

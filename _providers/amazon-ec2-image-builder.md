@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -658,26 +683,32 @@ collections:
   slug: open-amazon-ec2-image-builder-updateinfrastructureconfiguration-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/capabilities/amazon-ec2-image-builder-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-ec2-image-builder-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/agentic-access/amazon-ec2-image-builder-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-ec2-image-builder-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/security/amazon-ec2-image-builder-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-ec2-image-builder-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/security/amazon-ec2-image-builder-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-ec2-image-builder-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/security/amazon-ec2-image-builder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-ec2-image-builder-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/authentication/amazon-ec2-image-builder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-ec2-image-builder-authentication.yml
@@ -686,50 +717,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-ec2-image-builder/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-assemble-container-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-assemble-container-pipeline-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-assemble-image-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-assemble-image-pipeline-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-build-image-with-failure-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-build-image-with-failure-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-cancel-running-image-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-cancel-running-image-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-component-version-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-component-version-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-create-image-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-create-image-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-decommission-pipeline-stack-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-decommission-pipeline-stack-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-distribute-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-distribute-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-inspect-latest-pipeline-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-inspect-latest-pipeline-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-run-pipeline-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-run-pipeline-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-scan-image-and-review-findings-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-scan-image-and-review-findings-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/arazzo/amazon-ec2-image-builder-update-pipeline-and-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-image-builder-update-pipeline-and-run-workflow.yml
@@ -806,10 +849,12 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/rules/amazon-ec2-image-builder-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-ec2-image-builder-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/vocabulary/amazon-ec2-image-builder-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-ec2-image-builder-vocabulary.yaml
@@ -3930,6 +3975,38 @@ rules:
     info: 1
     warn: 13
   slug: amazon-ec2-image-builder-spectral-rules
+score:
+  band: strong
+  composite: 58.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 73.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 59.2
+    contract_governance: 28.8
+    contract_quality: 77.6
+    developer_ergonomics: 65.5
+    discoverability: 70.4
+    operational_transparency: 36.8
+  previous_composite: 58.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 54
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png
 security:
 - kind: authentication

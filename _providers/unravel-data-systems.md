@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the Unravel data observability platform. Query and collect data from your monitored clusters and workspaces over HTTP/HTTPS with JSON requests and responses. Endpoint groups cover applica
@@ -22,6 +47,7 @@ asyncapis:
   slug: unravel-data-systems-webhooks
 common:
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/plans/unravel-data-systems-plans.yml
   title: ''
   type: Plans
   url: plans/unravel-data-systems-plans.yml
@@ -34,6 +60,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/UnravelData
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/security/unravel-data-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unravel-data-systems-domain-security.yml
@@ -74,6 +101,7 @@ common:
   type: Contact
   url: https://www.unraveldata.com/contact-us/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/security/unravel-data-systems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unravel-data-systems-trust-center.yml
@@ -82,38 +110,47 @@ common:
   type: Compliance
   url: https://www.unraveldata.com/privacy-security-faq/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/llms/unravel-data-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unravel-data-systems-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/well-known/unravel-data-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unravel-data-systems-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/packages/unravel-data-systems-packages.yml
   title: ''
   type: Packages
   url: packages/unravel-data-systems-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/authentication/unravel-data-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unravel-data-systems-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/conformance/unravel-data-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unravel-data-systems-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/conventions/unravel-data-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unravel-data-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/lifecycle/unravel-data-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unravel-data-systems-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/changelog/unravel-data-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unravel-data-systems-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/cli/unravel-data-systems-cli.yml
   title: ''
   type: CLI
   url: cli/unravel-data-systems-cli.yml
@@ -122,6 +159,7 @@ common:
   type: Login
   url: https://customers.unraveldata.com/login
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/asyncapi/unravel-data-systems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unravel-data-systems-webhooks.yml
@@ -145,6 +183,34 @@ plans:
   plan_count: 1
   slug: unravel-data-systems-plans
 random_paper: 20
+score:
+  band: developing
+  composite: 47.2
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 47.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/unravel-data-systems/refs/heads/main/screenshots/unravel-data-systems-2026-08-17T082628.png
 security:
 - kind: authentication

@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://vantage-us.abbyy.com
@@ -78,94 +104,117 @@ common:
   type: StatusPage
   url: https://status.abbyy.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/llms/abbyy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abbyy-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/a2a/abbyy-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/abbyy-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/mcp/abbyy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/abbyy-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/mcp/abbyy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/abbyy-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/well-known/abbyy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/abbyy-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/packages/abbyy-packages.yml
   title: ''
   type: Packages
   url: packages/abbyy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/packages/abbyy-packages.yml
   title: ''
   type: SDKs
   url: packages/abbyy-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/authentication/abbyy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abbyy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/scopes/abbyy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/abbyy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/conventions/abbyy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abbyy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/conformance/abbyy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abbyy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/security/abbyy-trust-center.yml
   title: ''
   type: Compliance
   url: security/abbyy-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/errors/abbyy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/abbyy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/lifecycle/abbyy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abbyy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/lifecycle/abbyy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/abbyy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/changelog/abbyy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/abbyy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/data-model/abbyy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/abbyy-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/components/abbyy-components.yml
   title: ''
   type: Components
   url: components/abbyy-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/plans/abbyy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abbyy-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/rate-limits/abbyy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abbyy-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/security/abbyy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/abbyy-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/security/abbyy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abbyy-domain-security.yml
@@ -203,6 +252,40 @@ scopes:
   scope_count: 3
   slug: abbyy-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: developing
+  composite: 50.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 54.6
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 50.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/screenshots/abbyy-2026-07-25T181335.png
 security:
 - kind: authentication

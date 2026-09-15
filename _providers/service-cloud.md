@@ -10,6 +10,31 @@ access_model:
   - https://developer.salesforce.com/signup
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -65,10 +90,12 @@ common:
   type: License
   url: https://github.com/forcedotcom/pub-sub-api/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/capabilities/service-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/service-cloud-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/skills/service-cloud-einstein-bot-session.md
   title: ''
   type: AgentSkill
   url: skills/service-cloud-einstein-bot-session.md
@@ -133,26 +160,32 @@ common:
   type: PrivacyPolicy
   url: https://www.salesforce.com/company/privacy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/authentication/service-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/service-cloud-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/scopes/service-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/service-cloud-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/conventions/service-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/service-cloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/conventions/service-cloud-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/service-cloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/errors/service-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/service-cloud-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/lifecycle/service-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/service-cloud-lifecycle.yml
@@ -161,70 +194,87 @@ common:
   type: StatusPage
   url: https://status.salesforce.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/lifecycle/service-cloud-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/service-cloud-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/changelog/service-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/service-cloud-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/rate-limits/service-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/service-cloud-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/plans/service-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/service-cloud-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/finops/service-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/service-cloud-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/packages/service-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/service-cloud-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/packages/service-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/service-cloud-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/cli/service-cloud-cli.yml
   title: ''
   type: CLI
   url: cli/service-cloud-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/sandbox/service-cloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/service-cloud-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/mcp/service-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/service-cloud-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/mcp/service-cloud-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/service-cloud-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/llms/service-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/service-cloud-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/grpc/service-cloud-pubsub-api.proto
   title: ''
   type: Protobuf
   url: grpc/service-cloud-pubsub-api.proto
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/asyncapi/service-cloud-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/service-cloud-event-surface.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/data-model/service-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/service-cloud-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/conformance/service-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/service-cloud-conformance.yml
@@ -233,6 +283,7 @@ common:
   type: Compliance
   url: https://compliance.salesforce.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/service-cloud-trust-center.yml
@@ -245,18 +296,22 @@ common:
   type: Security
   url: https://www.salesforce.com/company/disclosure/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/service-cloud-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/security/service-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/service-cloud-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/well-known/service-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/service-cloud-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/overlays/service-cloud-einstein-bots-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/service-cloud-einstein-bots-overlay.yaml
@@ -297,6 +352,40 @@ scopes:
   scope_count: 36
   slug: service-cloud-scopes
   summary_line: 36 scopes · authorizationCode/implicit
+score:
+  band: exemplar
+  composite: 68.6
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 54.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 55.6
+    developer_ergonomics: 82.7
+    discoverability: 57.4
+    operational_transparency: 84.2
+  previous_composite: 68.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png
 security:
 - kind: authentication

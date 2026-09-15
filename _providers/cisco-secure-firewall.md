@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -568,18 +594,22 @@ common:
   type: Website
   url: https://www.cisco.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/capabilities/cisco-secure-firewall-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-secure-firewall-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/authentication/cisco-secure-firewall-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-secure-firewall-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/security/cisco-secure-firewall-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-secure-firewall-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/security/cisco-secure-firewall-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-secure-firewall-domain-security.yml
@@ -644,10 +674,12 @@ common:
   type: Terraform
   url: https://registry.terraform.io/providers/CiscoDevNet/fmc/latest
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/packages/cisco-secure-firewall-packages.yml
   title: ''
   type: Packages
   url: packages/cisco-secure-firewall-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/packages/cisco-secure-firewall-packages.yml
   title: ''
   type: SDKs
   url: packages/cisco-secure-firewall-packages.yml
@@ -656,46 +688,57 @@ common:
   type: Python SDK
   url: https://pypi.org/project/scc-firewall-manager-sdk/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/well-known/cisco-secure-firewall-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cisco-secure-firewall-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/well-known/cisco-secure-firewall-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cisco-secure-firewall-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/mcp/cisco-secure-firewall-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cisco-secure-firewall-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/mcp/cisco-secure-firewall-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cisco-secure-firewall-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/llms/cisco-secure-firewall-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cisco-secure-firewall-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/overlays/cisco-secure-firewall-cdfmc-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-secure-firewall-cdfmc-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/overlays/cisco-secure-firewall-scc-firewall-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-secure-firewall-scc-firewall-manager-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/conformance/cisco-secure-firewall-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cisco-secure-firewall-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/conformance/cisco-secure-firewall-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cisco-secure-firewall-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/errors/cisco-secure-firewall-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cisco-secure-firewall-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/lifecycle/cisco-secure-firewall-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cisco-secure-firewall-lifecycle.yml
@@ -704,46 +747,57 @@ common:
   type: StatusPage
   url: https://status.security.cisco.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/lifecycle/cisco-secure-firewall-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cisco-secure-firewall-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/security/cisco-secure-firewall-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cisco-secure-firewall-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/security/cisco-secure-firewall-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cisco-secure-firewall-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/sandbox/cisco-secure-firewall-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cisco-secure-firewall-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/conventions/cisco-secure-firewall-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cisco-secure-firewall-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/changelog/cisco-secure-firewall-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cisco-secure-firewall-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/data-model/cisco-secure-firewall-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cisco-secure-firewall-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/agentic-access/cisco-secure-firewall-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cisco-secure-firewall-agentic-access.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/plans/cisco-secure-firewall-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-secure-firewall-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/rate-limits/cisco-secure-firewall-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-secure-firewall-rate-limits.yml
@@ -773,6 +827,51 @@ rate_limits:
 - limit_count: 0
   name: Cisco Secure Firewall Rate Limits
   slug: cisco-secure-firewall-rate-limits
+score:
+  band: strong
+  composite: 57.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 55.4
+    developer_ergonomics: 78.0
+    discoverability: 50.0
+    operational_transparency: 52.6
+  previous_composite: 57.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 108
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: fedramp
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 54.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/screenshots/cisco-secure-firewall-2026-09-02T145045.png
 security:
 - kind: authentication

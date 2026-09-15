@@ -10,6 +10,31 @@ access_model:
   - probed
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://apis.auckland.ac.nz/courses/v3
@@ -112,70 +137,87 @@ common:
   type: Support
   url: https://www.eresearch.auckland.ac.nz/getting-in-touch/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-course-catalog-v3-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/university-of-auckland-course-catalog-v3-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-classes-v2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/university-of-auckland-classes-v2-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/json-schema/university-of-auckland-course-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-auckland-course-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/json-schema/university-of-auckland-term-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-auckland-term-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/json-schema/university-of-auckland-class-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-auckland-class-schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/examples/university-of-auckland-terms-list-example.json
   title: ''
   type: Examples
   url: examples/university-of-auckland-terms-list-example.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/authentication/university-of-auckland-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-auckland-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/errors/university-of-auckland-errors.yml
   title: ''
   type: Errors
   url: errors/university-of-auckland-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/conformance/university-of-auckland-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-auckland-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/lifecycle/university-of-auckland-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-auckland-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/rules/university-of-auckland-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-auckland-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/vocabulary/university-of-auckland-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-auckland-vocabulary.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/security/university-of-auckland-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-auckland-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/plans/university-of-auckland-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-auckland-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/rate-limits/university-of-auckland-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-auckland-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/finops/university-of-auckland-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-auckland-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -233,6 +275,49 @@ rules:
     info: 0
     warn: 9
   slug: university-of-auckland-rules
+score:
+  band: developing
+  composite: 46.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 72.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 34.1
+    contract_quality: 62.2
+    developer_ergonomics: 42.9
+    discoverability: 59.3
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 46.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 38.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/screenshots/university-of-auckland-2026-06-20T200126.png
 security:
 - kind: authentication

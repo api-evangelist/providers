@@ -11,6 +11,32 @@ access_model:
   - https://iongroup.com/analytics/data-portal/apis-data-feeds/dealogic-origination-data-feed/
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.7
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://spac.analytics.dealogic.com/
@@ -58,6 +84,7 @@ asyncapis:
   slug: dealogic-events
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/security/dealogic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dealogic-domain-security.yml
@@ -150,70 +177,87 @@ common:
   type: SignUp
   url: https://iongroup.com/analytics/data-portal/request-info/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/security/dealogic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dealogic-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/conformance/dealogic-conformance.yml
   title: ''
   type: Compliance
   url: conformance/dealogic-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/conformance/dealogic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dealogic-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/authentication/dealogic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dealogic-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/scopes/dealogic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dealogic-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/well-known/dealogic-login-dealogic-com-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/dealogic-login-dealogic-com-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/well-known/dealogic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dealogic-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/conventions/dealogic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dealogic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/errors/dealogic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dealogic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/data-model/dealogic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dealogic-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/lifecycle/dealogic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dealogic-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/plans/dealogic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dealogic-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/rate-limits/dealogic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dealogic-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/packages/dealogic-packages.yml
   title: ''
   type: Packages
   url: packages/dealogic-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/mcp/dealogic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dealogic-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/llms/dealogic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dealogic-llms.txt
@@ -246,6 +290,46 @@ scopes:
   scope_count: 4
   slug: dealogic-scopes
   summary_line: 4 scopes
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 39.4
+    developer_ergonomics: 54.2
+    discoverability: 72.2
+    operational_transparency: 2.6
+  previous_composite: 41.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 59.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/screenshots/dealogic-2026-06-20T175743.png
 security:
 - kind: authentication

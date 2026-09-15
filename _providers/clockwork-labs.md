@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The SpacetimeDB HTTP API lets clients and tools interact with SpacetimeDB databases: publish and delete database modules, manage database names, retrieve schema and logs, invoke reducers, run SQL quer'
@@ -74,62 +99,77 @@ common:
   type: PrivacyPolicy
   url: https://spacetimedb.com/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/llms/clockwork-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clockwork-labs-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/packages/clockwork-labs-packages.yml
   title: ''
   type: Packages
   url: packages/clockwork-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/packages/clockwork-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/clockwork-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/cli/clockwork-labs-cli.yml
   title: ''
   type: CLI
   url: cli/clockwork-labs-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/well-known/clockwork-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clockwork-labs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/authentication/clockwork-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clockwork-labs-authentication.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/well-known/clockwork-labs-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/clockwork-labs-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/errors/clockwork-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clockwork-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/conventions/clockwork-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clockwork-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/conformance/clockwork-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clockwork-labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/lifecycle/clockwork-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clockwork-labs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/changelog/clockwork-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clockwork-labs-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/mcp/clockwork-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clockwork-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/security/clockwork-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clockwork-labs-domain-security.yml
@@ -146,6 +186,36 @@ overview: 'Clockwork Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
   Clockwork Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
 random_paper: 10
+score:
+  band: thin
+  composite: 36.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 36.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/screenshots/clockwork-labs-2026-07-25T205640.png
 security:
 - kind: authentication

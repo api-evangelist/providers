@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.dev.fieldops.centrica.com/api/v1/identity
@@ -27,22 +52,27 @@ collections:
   slug: open-centrica-fieldops-identity-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/overlays/centrica-fieldops-identity-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/centrica-fieldops-identity-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/mcp/centrica-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/centrica-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/security/centrica-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centrica-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/authentication/centrica-authentication.yml
   title: ''
   type: Authentication
   url: authentication/centrica-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/security/centrica-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/centrica-vulnerability-disclosure.yml
@@ -51,50 +81,62 @@ common:
   type: Security
   url: https://www.britishgas.co.uk/global-maintenance/responsible-disclosure.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/well-known/centrica-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/centrica-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/well-known/centrica-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/centrica-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/conformance/centrica-conformance.yml
   title: ''
   type: Conformance
   url: conformance/centrica-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/conventions/centrica-conventions.yml
   title: ''
   type: Conventions
   url: conventions/centrica-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/lifecycle/centrica-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/centrica-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/data-model/centrica-data-model.yml
   title: ''
   type: DataModel
   url: data-model/centrica-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/packages/centrica-packages.yml
   title: ''
   type: Packages
   url: packages/centrica-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/sandbox/centrica-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/centrica-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/rate-limits/centrica-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/centrica-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/plans/centrica-plans.yml
   title: ''
   type: Plans
   url: plans/centrica-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/llms/centrica-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/centrica-llms.txt
@@ -168,6 +210,55 @@ rate_limits:
 - limit_count: 3
   name: Centrica Rate Limits
   slug: centrica-rate-limits
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 4.5
+    contract_quality: 51.0
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - ireland
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 51.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 52.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:
 - kind: authentication

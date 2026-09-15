@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://rpc.cosmos.network
@@ -62,10 +87,12 @@ collections:
   slug: open-tendermint-websocket-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/overlays/tendermint-rpc-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tendermint-rpc-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/security/tendermint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tendermint-domain-security.yml
@@ -98,70 +125,87 @@ common:
   type: Support
   url: https://forum.cosmos.network/c/tendermint
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/packages/tendermint-packages.yml
   title: ''
   type: Packages
   url: packages/tendermint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/packages/tendermint-packages.yml
   title: ''
   type: SDKs
   url: packages/tendermint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/cli/tendermint-cli.yml
   title: ''
   type: CLI
   url: cli/tendermint-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/mcp/tendermint-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tendermint-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/llms/tendermint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tendermint-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/authentication/tendermint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tendermint-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/conventions/tendermint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tendermint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/errors/tendermint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tendermint-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/data-model/tendermint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tendermint-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/conformance/tendermint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tendermint-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/lifecycle/tendermint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tendermint-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/lifecycle/tendermint-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tendermint-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/changelog/tendermint-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tendermint-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/asyncapi/tendermint-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tendermint-events-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/grpc/tendermint-abci.proto
   title: ''
   type: Protobuf
   url: grpc/tendermint-abci.proto
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/security/tendermint-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tendermint-vulnerability-disclosure.yml
@@ -185,6 +229,41 @@ overview: 'Tendermint publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
   Tendermint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 20 more developer resources.'
 random_paper: 11
+score:
+  band: developing
+  composite: 39.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 54.6
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 39.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/screenshots/tendermint-2026-08-17T082310.png
 security:
 - kind: authentication

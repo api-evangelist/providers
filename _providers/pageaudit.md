@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 38.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -18,10 +43,12 @@ common:
   type: Website
   url: https://pageaudit.online/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/mcp/pageaudit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/pageaudit-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/security/pageaudit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pageaudit-vulnerability-disclosure.yml
@@ -30,70 +57,87 @@ common:
   type: Security
   url: https://pageaudit.online/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/security/pageaudit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pageaudit-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/agentic-access/pageaudit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pageaudit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/authentication/pageaudit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pageaudit-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/well-known/pageaudit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pageaudit-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/well-known/pageaudit-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pageaudit-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/mcp/pageaudit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pageaudit-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/llms/pageaudit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pageaudit-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/overlays/pageaudit-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pageaudit-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/conformance/pageaudit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pageaudit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/errors/pageaudit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pageaudit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/lifecycle/pageaudit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pageaudit-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/conventions/pageaudit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pageaudit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/conventions/pageaudit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/pageaudit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/components/pageaudit-components.yml
   title: ''
   type: Components
   url: components/pageaudit-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/data-model/pageaudit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pageaudit-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/plans/pageaudit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pageaudit-plans-pricing.yml
@@ -102,6 +146,7 @@ common:
   type: Pricing
   url: https://pageaudit.online/api/billing
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pageaudit/refs/heads/main/rate-limits/pageaudit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pageaudit-rate-limits.yml
@@ -128,7 +173,7 @@ modified: '2026-09-07'
 name: PageAudit
 nav: Providers
 network: true
-overview: 'PageAudit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Technical SEO, SEO auditing, Developer Tools, Agent-native, and MCP.
+overview: 'PageAudit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Technical SEO, SEO auditing, Developer Tools, agent-native, and MCP.
 
 
   PageAudit''s developer surface includes authentication, pricing, and 23 more developer resources.'
@@ -141,6 +186,41 @@ rate_limits:
 - limit_count: 3
   name: Pageaudit Rate Limits
   slug: pageaudit-rate-limits
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 35.2
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 41.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Pageaudit Authentication
@@ -159,7 +239,7 @@ tags:
 - Technical SEO
 - SEO auditing
 - Developer Tools
-- Agent-native
+- agent-native
 - MCP
 - x402
 website: https://pageaudit.online/

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -89,22 +114,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/truora/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/agentic-access/truora-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/truora-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/security/truora-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/truora-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/security/truora-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/truora-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/security/truora-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truora-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/authentication/truora-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truora-authentication.yml
@@ -125,14 +155,17 @@ common:
   type: Documentation
   url: https://dev.truora.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/plans/truora-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/truora-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/rate-limits/truora-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/truora-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/finops/truora-finops.yml
   title: ''
   type: FinOps
   url: finops/truora-finops.yml
@@ -141,34 +174,42 @@ common:
   type: Blog
   url: https://blog.truora.com/en
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/llms/truora-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truora-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/packages/truora-packages.yml
   title: ''
   type: Packages
   url: packages/truora-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/packages/truora-packages.yml
   title: ''
   type: SDKs
   url: packages/truora-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/scopes/truora-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/truora-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/conventions/truora-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truora-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/errors/truora-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/truora-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/lifecycle/truora-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truora-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/conformance/truora-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truora-conformance.yml
@@ -177,26 +218,32 @@ common:
   type: Compliance
   url: https://www.truora.com/en/iso-27001-certification
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/data-model/truora-data-model.yml
   title: ''
   type: DataModel
   url: data-model/truora-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/mcp/truora-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/truora-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/overlays/truora-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/truora-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/components/truora-components.yml
   title: ''
   type: Components
   url: components/truora-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/asyncapi/truora-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/truora-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -273,6 +320,46 @@ scopes:
   scope_count: 14
   slug: truora-scopes
   summary_line: 14 scopes · authorizationCode/ciba/refreshToken
+score:
+  band: strong
+  composite: 61.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 18.2
+    contract_quality: 62.6
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 61.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/screenshots/truora-2026-08-17T080431.png
 security:
 - kind: authentication

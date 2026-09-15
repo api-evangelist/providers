@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 56.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -460,14 +486,17 @@ collections:
   slug: open-morningstar-x-rays-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/agentic-access/morningstar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/morningstar-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/security/morningstar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morningstar-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/authentication/morningstar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/morningstar-authentication.yml
@@ -508,86 +537,107 @@ common:
   type: Support
   url: https://www.morningstar.com/business/products/direct-web-services/contact
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/packages/morningstar-packages.yml
   title: ''
   type: Packages
   url: packages/morningstar-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/packages/morningstar-packages.yml
   title: ''
   type: SDKs
   url: packages/morningstar-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/well-known/morningstar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/morningstar-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/mcp/morningstar-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/morningstar-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/mcp/morningstar-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/morningstar-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/llms/morningstar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/morningstar-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/overlays/morningstar-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/morningstar-agent-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/overlays/morningstar-securities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/morningstar-securities-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/overlays/morningstar-screener-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/morningstar-screener-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/overlays/morningstar-x-ray-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/morningstar-x-ray-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/overlays/morningstar-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/morningstar-token-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/conformance/morningstar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/morningstar-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/errors/morningstar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/morningstar-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/lifecycle/morningstar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/morningstar-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/scopes/morningstar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/morningstar-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/sandbox/morningstar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/morningstar-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/conventions/morningstar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/morningstar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/components/morningstar-components.yml
   title: ''
   type: Components
   url: components/morningstar-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/data-model/morningstar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/morningstar-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/security/morningstar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/morningstar-vulnerability-disclosure.yml
@@ -633,6 +683,52 @@ scopes:
   scope_count: 4
   slug: morningstar-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 47.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 56.6
+    developer_ergonomics: 73.8
+    discoverability: 64.8
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 47.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 117
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 61.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/screenshots/morningstar-2026-07-22T202515.png
 security:
 - kind: authentication

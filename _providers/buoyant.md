@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Linkerd is a CNCF-graduated service mesh for Kubernetes that transparently adds mutual TLS encryption, latency-aware load balancing, retries, timeouts, circuit breaking, and observability to any Kuber
@@ -51,6 +76,7 @@ common:
   type: License
   url: https://github.com/linkerd/linkerd2/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/security/buoyant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buoyant-domain-security.yml
@@ -119,66 +145,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/BuoyantIO
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/llms/buoyant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buoyant-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/packages/buoyant-packages.yml
   title: ''
   type: Packages
   url: packages/buoyant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/packages/buoyant-packages.yml
   title: ''
   type: SDKs
   url: packages/buoyant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/cli/buoyant-cli.yml
   title: ''
   type: CLI
   url: cli/buoyant-cli.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/grpc/buoyant-grpc.yml
   title: ''
   type: Protobuf
   url: grpc/buoyant-grpc.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/authentication/buoyant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buoyant-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/conventions/buoyant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/buoyant-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/conformance/buoyant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/buoyant-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/conformance/buoyant-conformance.yml
   title: ''
   type: Compliance
   url: conformance/buoyant-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/lifecycle/buoyant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/buoyant-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/lifecycle/buoyant-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/buoyant-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/changelog/buoyant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/buoyant-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/security/buoyant-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/buoyant-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/security/buoyant-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/buoyant-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/plans/buoyant-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buoyant-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/rate-limits/buoyant-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buoyant-rate-limits.yml
@@ -207,6 +249,37 @@ rate_limits:
 - limit_count: 0
   name: Buoyant Rate Limits
   slug: buoyant-rate-limits
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 71.4
+    discoverability: 72.2
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 52.5
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/screenshots/buoyant-2026-06-20T173802.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Ameren Illinois Share My Usage API implements the Green Button Connect My Data program, providing authorized third parties access to up to 24 months of historical electric energy usage data for re
@@ -20,10 +45,12 @@ apis:
 artifact_total: 21
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/security/ameren-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ameren-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/security/ameren-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ameren-domain-security.yml
@@ -32,54 +59,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/AmerenCorp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/well-known/ameren-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ameren-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/well-known/ameren-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ameren-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/security/ameren-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ameren-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/authentication/ameren-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ameren-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/scopes/ameren-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ameren-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/conformance/ameren-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ameren-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/conventions/ameren-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ameren-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/lifecycle/ameren-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ameren-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/packages/ameren-packages.yml
   title: ''
   type: Packages
   url: packages/ameren-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/llms/ameren-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ameren-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/plans/ameren-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ameren-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/rate-limits/ameren-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ameren-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/finops/ameren-finops.yml
   title: ''
   type: FinOps
   url: finops/ameren-finops.yml
@@ -183,6 +223,41 @@ scopes:
   scope_count: 0
   slug: ameren-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 66.7
+    operational_transparency: 13.2
+  previous_composite: 31.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 64.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/screenshots/ameren-2026-08-07T174227.png
 security:
 - kind: authentication

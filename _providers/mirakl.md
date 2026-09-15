@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 56.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -256,34 +282,42 @@ collections:
   slug: open-mirakl-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/capabilities/mirakl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mirakl-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-connect-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-connect-channel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-connect-channel-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-account-channel-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-account-channel-platform-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mmp-front-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mmp-front-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mcm-front-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mcm-front-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mms-front-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mms-front-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-shopify-operator-connector-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-shopify-operator-connector-overlay.yaml
@@ -336,54 +370,67 @@ common:
   type: StatusPage
   url: https://status.mirakl.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/authentication/mirakl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mirakl-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/scopes/mirakl-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mirakl-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/conventions/mirakl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mirakl-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/errors/mirakl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mirakl-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/data-model/mirakl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mirakl-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/lifecycle/mirakl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mirakl-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/packages/mirakl-packages.yml
   title: ''
   type: Packages
   url: packages/mirakl-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/packages/mirakl-packages.yml
   title: ''
   type: SDKs
   url: packages/mirakl-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/mcp/mirakl-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mirakl-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/well-known/mirakl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mirakl-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/llms/mirakl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mirakl-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/overlays/mirakl-mmp-seller-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirakl-mmp-seller-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/conformance/mirakl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mirakl-conformance.yml
@@ -392,22 +439,27 @@ common:
   type: Compliance
   url: https://www.mirakl.com/why-mirakl/technology
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/security/mirakl-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mirakl-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/security/mirakl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mirakl-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/agentic-access/mirakl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mirakl-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/asyncapi/mirakl-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mirakl-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -416,18 +468,22 @@ common:
   type: Website
   url: https://www.mirakl.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/rate-limits/mirakl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mirakl-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/plans/mirakl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mirakl-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/changelog/mirakl-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mirakl-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/sandbox/mirakl-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mirakl-sandbox.yml
@@ -472,6 +528,41 @@ scopes:
   scope_count: 0
   slug: mirakl-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 70.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 61.5
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 50.0
+  previous_composite: 70.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:
 - kind: authentication

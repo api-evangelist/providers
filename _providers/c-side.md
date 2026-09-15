@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -56,46 +81,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/client-side-dev
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/mcp/c-side-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/c-side-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/llms/c-side-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/c-side-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/packages/c-side-packages.yml
   title: ''
   type: Packages
   url: packages/c-side-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/packages/c-side-packages.yml
   title: ''
   type: SDKs
   url: packages/c-side-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/cli/c-side-cli.yml
   title: ''
   type: CLI
   url: cli/c-side-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/components/c-side-components.yml
   title: ''
   type: Components
   url: components/c-side-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/well-known/c-side-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/c-side-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/well-known/c-side-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/c-side-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/asyncapi/c-side-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/c-side-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/changelog/c-side-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/c-side-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/lifecycle/c-side-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/c-side-lifecycle.yml
@@ -104,6 +140,7 @@ common:
   type: StatusPage
   url: https://status.cside.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/conformance/c-side-conformance.yml
   title: ''
   type: Conformance
   url: conformance/c-side-conformance.yml
@@ -112,10 +149,12 @@ common:
   type: Compliance
   url: https://trust.cside.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/security/c-side-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/c-side-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/security/c-side-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/c-side-vulnerability-disclosure.yml
@@ -124,6 +163,7 @@ common:
   type: Security
   url: https://cside.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/security/c-side-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/c-side-domain-security.yml
@@ -148,6 +188,49 @@ overview: 'c/side is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   c/side''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 21 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 44.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 52.4
+    discoverability: 57.4
+    operational_transparency: 52.6
+  previous_composite: 44.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa-cpra
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 40.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/screenshots/c-side-2026-07-25T204147.png
 security:
 - kind: domain-security

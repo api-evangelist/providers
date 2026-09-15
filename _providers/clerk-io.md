@@ -11,6 +11,31 @@ access_model:
   - plans/clerk-io-plans-pricing.yml
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Clerk.js is the browser-side JavaScript library for embedding Clerk.io recommendation slots, search, and email opens on a storefront, with Liquid templating support and event tracking.
@@ -88,14 +113,17 @@ collections:
   slug: open-clerk-io
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/authentication/clerk-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clerk-io-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/security/clerk-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clerk-io-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/security/clerk-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clerk-io-domain-security.yml
@@ -148,10 +176,12 @@ common:
   type: PrivacyPolicy
   url: https://www.clerk.io/privacy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/json-ld/clerk-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clerk-io-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/rules/clerk-io-rules.yml
   title: ''
   type: Spectral
   url: rules/clerk-io-rules.yml
@@ -160,6 +190,7 @@ common:
   type: LlmsText
   url: https://docs.clerk.io/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/llms/clerk-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clerk-io-llms.txt
@@ -188,26 +219,32 @@ common:
   type: Login
   url: https://my.clerk.io/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/packages/clerk-io-packages.yml
   title: ''
   type: Packages
   url: packages/clerk-io-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/packages/clerk-io-packages.yml
   title: ''
   type: SDKs
   url: packages/clerk-io-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/mcp/clerk-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clerk-io-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/mcp/clerk-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/clerk-io-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/overlays/clerk-io-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clerk-io-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/conformance/clerk-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clerk-io-conformance.yml
@@ -216,38 +253,47 @@ common:
   type: Compliance
   url: https://trust.clerk.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/errors/clerk-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clerk-io-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/lifecycle/clerk-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clerk-io-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/conventions/clerk-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clerk-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/data-model/clerk-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clerk-io-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/components/clerk-io-components.yml
   title: ''
   type: Components
   url: components/clerk-io-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/plans/clerk-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clerk-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/rate-limits/clerk-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clerk-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/finops/clerk-io-finops.yml
   title: ''
   type: FinOps
   url: finops/clerk-io-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -300,6 +346,40 @@ rules:
     info: 0
     warn: 4
   slug: clerk-io-rules
+score:
+  band: strong
+  composite: 59.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 72.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 50.0
+    contract_quality: 62.0
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 59.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/screenshots/clerk-io-2026-06-20T174507.png
 security:
 - kind: authentication

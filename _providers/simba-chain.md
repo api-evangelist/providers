@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.4
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://blocks.simbachain.com/api/member-service
@@ -38,6 +64,7 @@ asyncapis:
   slug: simba-chain-subscriptions-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/security/simba-chain-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simba-chain-domain-security.yml
@@ -94,78 +121,97 @@ common:
   type: ChangeLog
   url: https://docs.simbachain.com/documentation/release-notes/release-notes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/llms/simba-chain-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simba-chain-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/packages/simba-chain-packages.yml
   title: ''
   type: Packages
   url: packages/simba-chain-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/packages/simba-chain-packages.yml
   title: ''
   type: SDKs
   url: packages/simba-chain-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/cli/simba-chain-cli.yml
   title: ''
   type: CLI
   url: cli/simba-chain-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/mcp/simba-chain-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/simba-chain-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/mcp/simba-chain-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/simba-chain-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/well-known/simba-chain-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simba-chain-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/authentication/simba-chain-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simba-chain-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/scopes/simba-chain-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/simba-chain-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/conventions/simba-chain-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simba-chain-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/conformance/simba-chain-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simba-chain-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/errors/simba-chain-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simba-chain-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/lifecycle/simba-chain-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simba-chain-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/changelog/simba-chain-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simba-chain-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/data-model/simba-chain-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simba-chain-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/asyncapi/simba-chain-subscriptions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/simba-chain-subscriptions-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/plans/simba-chain-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simba-chain-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/rate-limits/simba-chain-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simba-chain-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -202,6 +248,41 @@ scopes:
   scope_count: 0
   slug: simba-chain-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 52.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 50.7
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 52.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/screenshots/simba-chain-2026-09-02T155524.png
 security:
 - kind: authentication

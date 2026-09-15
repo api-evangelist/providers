@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'The Adaptive Client API is a sixteen-operation REST API under /api/v3/client that exposes an Adaptive workspace to external systems: list users, resources, endpoints, authorizations, scripts and teams'
@@ -62,50 +87,62 @@ common:
   type: PrivacyPolicy
   url: https://adaptive.live/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/security/adaptive-automation-technologies-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adaptive-automation-technologies-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/llms/adaptive-automation-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptive-automation-technologies-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/packages/adaptive-automation-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/adaptive-automation-technologies-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/packages/adaptive-automation-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/adaptive-automation-technologies-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/cli/adaptive-automation-technologies-cli.yml
   title: ''
   type: CLI
   url: cli/adaptive-automation-technologies-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/changelog/adaptive-automation-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adaptive-automation-technologies-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/lifecycle/adaptive-automation-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adaptive-automation-technologies-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/conformance/adaptive-automation-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaptive-automation-technologies-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/conformance/adaptive-automation-technologies-conformance.yml
   title: ''
   type: Compliance
   url: conformance/adaptive-automation-technologies-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/asyncapi/adaptive-automation-technologies-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adaptive-automation-technologies-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/plans/adaptive-automation-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptive-automation-technologies-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/security/adaptive-automation-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptive-automation-technologies-domain-security.yml
@@ -143,6 +180,35 @@ scopes:
   scope_count: 0
   slug: adaptive-automation-technologies-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 50.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 50.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Adaptive Automation Technologies Authentication
@@ -164,7 +230,7 @@ tags:
 - Identity and Access Management
 - Data Security
 - Agents
-- Model Context Protocol
+- MCP
 - Infrastructure
 - Databases
 - Kubernetes

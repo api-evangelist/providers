@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://data.tankutility.com/api
@@ -39,58 +64,72 @@ collections:
   slug: open-tank-utility-devices-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/mcp/tank-utility-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tank-utility-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/security/tank-utility-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tank-utility-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/authentication/tank-utility-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tank-utility-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/conventions/tank-utility-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tank-utility-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/errors/tank-utility-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tank-utility-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/lifecycle/tank-utility-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tank-utility-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/data-model/tank-utility-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tank-utility-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/conformance/tank-utility-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tank-utility-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/packages/tank-utility-packages.yml
   title: ''
   type: Packages
   url: packages/tank-utility-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/cli/tank-utility-cli.yml
   title: ''
   type: CLI
   url: cli/tank-utility-cli.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/overlays/tank-utility-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tank-utility-devices-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/llms/tank-utility-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tank-utility-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/arazzo/tank-utility-read-tank-level.yml
   title: ''
   type: Arazzo
   url: arazzo/tank-utility-read-tank-level.yml
@@ -131,6 +170,47 @@ overview: 'Tank Utility publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
   Tank Utility''s developer surface includes authentication, CLI, support, engineering blog, and 16 more developer resources.'
 random_paper: 3
+score:
+  band: emerging
+  composite: 24.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 14.2
+    developer_ergonomics: 28.0
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 24.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/screenshots/tank-utility-2026-09-02T162519.png
 security:
 - kind: authentication

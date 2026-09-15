@@ -33,7 +33,6 @@ tags:
 - Buyout
 - Technology
 - Healthcare
-- Consumer
 - China
 - Asia
 - Global

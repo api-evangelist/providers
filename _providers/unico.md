@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://api.id.unico.app
@@ -89,98 +114,122 @@ common:
   type: Postman
   url: https://developer.unico.io/developers/api-reference/postman
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/security/unico-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/unico-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/security/unico-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/unico-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/well-known/unico-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/unico-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/security/unico-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unico-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/security/unico-trust-center.yml
   title: ''
   type: Compliance
   url: security/unico-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/conformance/unico-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unico-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/authentication/unico-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unico-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/scopes/unico-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/unico-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/rate-limits/unico-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unico-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/errors/unico-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unico-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/conventions/unico-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unico-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/lifecycle/unico-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unico-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/changelog/unico-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unico-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/plans/unico-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unico-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/packages/unico-packages.yml
   title: ''
   type: Packages
   url: packages/unico-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/packages/unico-packages.yml
   title: ''
   type: SDKs
   url: packages/unico-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/components/unico-components.yml
   title: ''
   type: Components
   url: components/unico-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/sandbox/unico-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/unico-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/data-model/unico-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unico-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/asyncapi/unico-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unico-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/mcp/unico-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unico-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/llms/unico-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unico-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/well-known/unico-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unico-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/security/unico-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unico-domain-security.yml
@@ -213,6 +262,42 @@ scopes:
   scope_count: 0
   slug: unico-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 76.2
+    discoverability: 81.5
+    operational_transparency: 73.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 54.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Unico Authentication

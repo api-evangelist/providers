@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -256,6 +281,7 @@ collections:
   slug: open-prime-intellect-user-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/capabilities/prime-intellect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/prime-intellect-capability-edges.yml
@@ -264,18 +290,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/prime-intellect/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/agentic-access/prime-intellect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/prime-intellect-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/security/prime-intellect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/prime-intellect-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/security/prime-intellect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prime-intellect-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/authentication/prime-intellect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prime-intellect-authentication.yml
@@ -356,14 +386,17 @@ common:
   type: Pricing
   url: https://docs.primeintellect.ai/hosted-training/models-and-pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/plans/prime-intellect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prime-intellect-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/rate-limits/prime-intellect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prime-intellect-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/finops/prime-intellect-finops.yml
   title: ''
   type: FinOps
   url: finops/prime-intellect-finops.yml
@@ -449,6 +482,38 @@ rules:
     info: 1
     warn: 4
   slug: prime-intellect-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 56.5
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 82.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 9.8
+    contract_quality: 70.2
+    developer_ergonomics: 70.2
+    discoverability: 68.5
+    operational_transparency: 36.8
+  previous_composite: 56.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png
 security:
 - kind: authentication

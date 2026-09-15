@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider, entityID https://idp.zju.edu.cn/idp/shibboleth, registered in CARSI (the CERNET Authentication and Resource Sharing Infrastructure
@@ -38,10 +63,12 @@ common:
   type: WebsiteChinese
   url: https://www.zju.edu.cn/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/identity-federation/zhejiang-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity-federation/zhejiang-identity-federation.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/conformance/zhejiang-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/zhejiang-education-standards.yml
@@ -82,54 +109,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/zhejiang-university/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/authentication/zhejiang-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zhejiang-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/scopes/zhejiang-scopes.yml
   title: ''
   type: Scopes
   url: scopes/zhejiang-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/errors/zhejiang-errors.yml
   title: ''
   type: Errors
   url: errors/zhejiang-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/rules/zhejiang-rules.yml
   title: ''
   type: Rules
   url: rules/zhejiang-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/vocabulary/zhejiang-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/zhejiang-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/lifecycle/zhejiang-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zhejiang-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/json-ld/zhejiang-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/zhejiang-context.jsonld
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/security/zhejiang-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zhejiang-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/security/zhejiang-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zhejiang-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/plans/zhejiang-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zhejiang-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/rate-limits/zhejiang-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zhejiang-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/finops/zhejiang-finops.yml
   title: ''
   type: FinOps
   url: finops/zhejiang-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -191,6 +231,52 @@ scopes:
   scope_count: 0
   slug: zhejiang-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 35.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 71.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 3.8
+    contract_quality: 28.9
+    developer_ergonomics: 33.3
+    discoverability: 68.5
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 35.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 61.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png
 security:
 - kind: authentication

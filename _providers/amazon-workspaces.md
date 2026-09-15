@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -742,6 +767,7 @@ collections:
   slug: open-amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/capabilities/amazon-workspaces-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-workspaces-capability-edges.yml
@@ -750,22 +776,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-workspaces/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/agentic-access/amazon-workspaces-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-workspaces-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/security/amazon-workspaces-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-workspaces-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/security/amazon-workspaces-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-workspaces-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/security/amazon-workspaces-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-workspaces-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/authentication/amazon-workspaces-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-workspaces-authentication.yml
@@ -822,10 +853,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/rules/amazon-workspaces-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-workspaces-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/vocabulary/amazon-workspaces-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-workspaces-vocabulary.yaml
@@ -3355,6 +3388,38 @@ rules:
     info: 2
     warn: 11
   slug: amazon-workspaces-spectral-rules
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 28.8
+    contract_quality: 69.3
+    developer_ergonomics: 58.3
+    discoverability: 53.7
+    operational_transparency: 26.3
+  previous_composite: 52.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 65
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/screenshots/amazon-workspaces-2026-06-20T171849.png
 security:
 - kind: authentication

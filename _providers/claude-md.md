@@ -40,6 +40,7 @@ common:
   type: Hooks Reference
   url: https://code.claude.com/docs/en/hooks
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/claude-md/refs/heads/main/json-ld/claude-md-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/claude-md-context.jsonld

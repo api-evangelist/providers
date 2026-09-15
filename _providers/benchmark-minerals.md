@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.benchmarkminerals.com/v2
@@ -19,70 +44,87 @@ apis:
 artifact_total: 20
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/authentication/benchmark-minerals-authentication.yml
   title: ''
   type: Authentication
   url: authentication/benchmark-minerals-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/security/benchmark-minerals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/benchmark-minerals-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/scopes/benchmark-minerals-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/benchmark-minerals-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/conventions/benchmark-minerals-conventions.yml
   title: ''
   type: Conventions
   url: conventions/benchmark-minerals-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/errors/benchmark-minerals-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/benchmark-minerals-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/data-model/benchmark-minerals-data-model.yml
   title: ''
   type: DataModel
   url: data-model/benchmark-minerals-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/lifecycle/benchmark-minerals-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/benchmark-minerals-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/conformance/benchmark-minerals-conformance.yml
   title: ''
   type: Conformance
   url: conformance/benchmark-minerals-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/conformance/benchmark-minerals-conformance.yml
   title: IOSCO-assured price assessments
   type: Compliance
   url: conformance/benchmark-minerals-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/well-known/benchmark-minerals-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/benchmark-minerals-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/mcp/benchmark-minerals-mcp.yml
   title: Benchmark MCP Gateway (https://mcp.benchmarkminerals.com/mcp)
   type: MCPServer
   url: mcp/benchmark-minerals-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/llms/benchmark-minerals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/benchmark-minerals-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/packages/benchmark-minerals-packages.yml
   title: ''
   type: Packages
   url: packages/benchmark-minerals-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/components/benchmark-minerals-components.yml
   title: ''
   type: Components
   url: components/benchmark-minerals-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/sandbox/benchmark-minerals-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/benchmark-minerals-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/plans/benchmark-minerals-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/benchmark-minerals-plans-pricing.yml
@@ -182,6 +224,46 @@ scopes:
   scope_count: 0
   slug: benchmark-minerals-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 49.0
+    developer_ergonomics: 54.2
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 54.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/screenshots/benchmark-minerals-2026-06-20T173138.png
 security:
 - kind: authentication

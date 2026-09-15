@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol endpoint served from the Doctor Anywhere Thailand site (Wix Site MCP). Advertised in the site llms.txt; an unauthenticated tools/list returns nine tools covering busin
@@ -24,6 +49,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/security/doctor-anywhere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doctor-anywhere-domain-security.yml
@@ -72,34 +98,42 @@ common:
   type: Pricing
   url: https://doctoranywhere.com/da-virtual-clinic/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/mcp/doctor-anywhere-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/doctor-anywhere-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/llms/doctor-anywhere-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doctor-anywhere-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/well-known/doctor-anywhere-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/doctor-anywhere-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/authentication/doctor-anywhere-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doctor-anywhere-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/conventions/doctor-anywhere-conventions.yml
   title: ''
   type: Conventions
   url: conventions/doctor-anywhere-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/conformance/doctor-anywhere-conformance.yml
   title: ''
   type: Conformance
   url: conformance/doctor-anywhere-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/lifecycle/doctor-anywhere-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/doctor-anywhere-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -121,6 +155,49 @@ overview: 'Doctor Anywhere publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
   Doctor Anywhere''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 15 more developer resources.'
 random_paper: 9
+score:
+  band: emerging
+  composite: 24.0
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 20.8
+    discoverability: 81.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 24.0
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctor-anywhere/refs/heads/main/screenshots/doctor-anywhere-2026-08-07T164459.png
 security:
 - kind: authentication

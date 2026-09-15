@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -175,10 +201,12 @@ collections:
   slug: open-heymilo-workspaces-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/agentic-access/heymilo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/heymilo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/security/heymilo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heymilo-domain-security.yml
@@ -243,62 +271,77 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/heymilo/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/mcp/heymilo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/heymilo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/llms/heymilo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/heymilo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/well-known/heymilo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/heymilo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/authentication/heymilo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/heymilo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/conventions/heymilo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/heymilo-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/rate-limits/heymilo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/heymilo-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/errors/heymilo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/heymilo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/lifecycle/heymilo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/heymilo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/conformance/heymilo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/heymilo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/asyncapi/heymilo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/heymilo-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/asyncapi/heymilo-webhooks.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/heymilo-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/data-model/heymilo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/heymilo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/components/heymilo-components.yml
   title: ''
   type: Components
   url: components/heymilo-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/overlays/heymilo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/heymilo-openapi-overlay.yaml
@@ -327,6 +370,41 @@ rate_limits:
 - limit_count: 1
   name: Heymilo Rate Limits
   slug: heymilo-rate-limits
+score:
+  band: developing
+  composite: 51.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 63.2
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 51.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/screenshots/heymilo-2026-07-25T221122.png
 security:
 - kind: authentication

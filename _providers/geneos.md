@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: http://{netprobeHost}:7136/v1
@@ -95,94 +120,117 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/itrsgroup
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/packages/geneos-packages.yml
   title: ''
   type: Packages
   url: packages/geneos-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/packages/geneos-packages.yml
   title: ''
   type: SDKs
   url: packages/geneos-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/cli/geneos-cli.yml
   title: ''
   type: CLI
   url: cli/geneos-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/sandbox/geneos-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/geneos-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/authentication/geneos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/geneos-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/conventions/geneos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/geneos-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/conventions/geneos-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/geneos-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/errors/geneos-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/geneos-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/lifecycle/geneos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/geneos-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/lifecycle/geneos-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/geneos-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/changelog/geneos-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/geneos-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/data-model/geneos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/geneos-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/conformance/geneos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/geneos-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/conformance/geneos-conformance.yml
   title: ''
   type: Compliance
   url: conformance/geneos-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/security/geneos-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/geneos-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/security/geneos-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/geneos-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/security/geneos-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/geneos-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/security/geneos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/geneos-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/llms/geneos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/geneos-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/plans/geneos-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/geneos-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/rate-limits/geneos-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/geneos-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/finops/geneos-finops.yml
   title: ''
   type: FinOps
   url: finops/geneos-finops.yml
@@ -211,6 +259,40 @@ rate_limits:
 - limit_count: 5
   name: Geneos Rate Limits
   slug: geneos-rate-limits
+score:
+  band: strong
+  composite: 59.5
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 18.2
+    contract_quality: 45.8
+    developer_ergonomics: 80.4
+    discoverability: 66.7
+    operational_transparency: 68.4
+  previous_composite: 59.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/screenshots/geneos-2026-06-20T181719.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.gather.town
@@ -43,50 +68,62 @@ collections:
   slug: open-gather-spaces-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/openapi/_original/gather-http-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/gather-http-api-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/authentication/gather-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gather-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/security/gather-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gather-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/packages/gather-packages.yml
   title: ''
   type: Packages
   url: packages/gather-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/packages/gather-packages.yml
   title: ''
   type: SDKs
   url: packages/gather-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/well-known/gather-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gather-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/mcp/gather-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gather-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/llms/gather-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gather-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/overlays/gather-http-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gather-http-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/conformance/gather-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gather-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/errors/gather-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gather-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/lifecycle/gather-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gather-lifecycle.yml
@@ -95,14 +132,17 @@ common:
   type: StatusPage
   url: https://status.gather.town/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/conventions/gather-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gather-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/data-model/gather-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gather-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -167,6 +207,40 @@ overview: 'Gather publishes 3 APIs on the [APIs.io](https://apis.io/) network: G
 
   Gather''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 27.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 0.0
+    contract_quality: 13.9
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 27.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/screenshots/gather-2026-07-25T215458.png
 security:
 - kind: authentication

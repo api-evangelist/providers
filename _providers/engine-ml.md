@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/engine-ml/refs/heads/main/security/engine-ml-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/engine-ml-domain-security.yml

@@ -11,6 +11,31 @@ access_model:
   - https://gigacatalyst.com/pricing
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The one public, unauthenticated operation Gigacatalyst publishes on its own behalf. A coding agent reads the project's API surface, builds a JSON description of it (organization, integrations, tools w
@@ -19,10 +44,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/security/gigacatalyst-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gigacatalyst-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/security/gigacatalyst-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gigacatalyst-domain-security.yml
@@ -71,62 +98,77 @@ common:
   type: Security
   url: https://gigacatalyst.com/trust/vulnerability-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/security/gigacatalyst-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gigacatalyst-vulnerability-disclosure.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/packages/gigacatalyst-packages.yml
   title: ''
   type: Packages
   url: packages/gigacatalyst-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/packages/gigacatalyst-packages.yml
   title: ''
   type: SDKs
   url: packages/gigacatalyst-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/cli/gigacatalyst-cli.yml
   title: ''
   type: CLI
   url: cli/gigacatalyst-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/components/gigacatalyst-components.yml
   title: ''
   type: Components
   url: components/gigacatalyst-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/llms/gigacatalyst-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gigacatalyst-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/conventions/gigacatalyst-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gigacatalyst-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/data-model/gigacatalyst-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gigacatalyst-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/errors/gigacatalyst-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gigacatalyst-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/authentication/gigacatalyst-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gigacatalyst-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/conformance/gigacatalyst-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gigacatalyst-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/lifecycle/gigacatalyst-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gigacatalyst-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/plans/gigacatalyst-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gigacatalyst-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/rate-limits/gigacatalyst-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gigacatalyst-rate-limits.yml
@@ -152,6 +194,36 @@ rate_limits:
 - limit_count: 0
   name: Gigacatalyst Rate Limits
   slug: gigacatalyst-rate-limits
+score:
+  band: thin
+  composite: 28.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 28.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/screenshots/gigacatalyst-2026-07-25T215805.png
 security:
 - kind: authentication

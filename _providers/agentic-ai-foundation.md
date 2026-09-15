@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: The Model Context Protocol (MCP) is an open JSON-RPC 2.0 standard for connecting AI applications to external systems — tools, resources and reusable prompt templates. Originally developed by Anthropic
@@ -94,22 +119,27 @@ common:
   type: SecurityPolicy
   url: https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/SECURITY.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/security/agentic-ai-foundation-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/agentic-ai-foundation-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/security/agentic-ai-foundation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agentic-ai-foundation-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/well-known/agentic-ai-foundation-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/agentic-ai-foundation-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/well-known/agentic-ai-foundation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agentic-ai-foundation-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/security/agentic-ai-foundation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentic-ai-foundation-domain-security.yml
@@ -134,94 +164,117 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/agentic-ai-foundation
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/mcp/agentic-ai-foundation-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agentic-ai-foundation-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/mcp/agentic-ai-foundation-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/agentic-ai-foundation-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/a2a/agentic-ai-foundation-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/agentic-ai-foundation-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/llms/agentic-ai-foundation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentic-ai-foundation-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/packages/agentic-ai-foundation-packages.yml
   title: ''
   type: Packages
   url: packages/agentic-ai-foundation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/packages/agentic-ai-foundation-packages.yml
   title: ''
   type: SDKs
   url: packages/agentic-ai-foundation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/cli/agentic-ai-foundation-cli.yml
   title: ''
   type: CLI
   url: cli/agentic-ai-foundation-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/authentication/agentic-ai-foundation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentic-ai-foundation-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/conventions/agentic-ai-foundation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentic-ai-foundation-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/errors/agentic-ai-foundation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agentic-ai-foundation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/data-model/agentic-ai-foundation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agentic-ai-foundation-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/conformance/agentic-ai-foundation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentic-ai-foundation-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/lifecycle/agentic-ai-foundation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentic-ai-foundation-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/changelog/agentic-ai-foundation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agentic-ai-foundation-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/overlays/agentic-ai-foundation-mcp-registry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agentic-ai-foundation-mcp-registry-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/plans/agentic-ai-foundation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agentic-ai-foundation-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/rate-limits/agentic-ai-foundation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentic-ai-foundation-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/vocabulary/agentic-ai-foundation-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/agentic-ai-foundation-vocabulary.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/json-schema/agentic-ai-foundation-mcp-protocol-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/agentic-ai-foundation-mcp-protocol-schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/examples/agentic-ai-foundation-mcp-tool-example.json
   title: ''
   type: Examples
   url: examples/agentic-ai-foundation-mcp-tool-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/rules/agentic-ai-foundation-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/agentic-ai-foundation-jsonschema-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/json-ld/agentic-ai-foundation-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/agentic-ai-foundation-context.jsonld
@@ -321,6 +374,40 @@ rules:
     info: 2
     warn: 3
   slug: agentic-ai-foundation-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 60.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 29.5
+    contract_quality: 58.5
+    developer_ergonomics: 78.6
+    discoverability: 72.2
+    operational_transparency: 34.2
+  previous_composite: 50.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 36.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 3
@@ -140,26 +165,32 @@ collections:
   slug: open-autopay
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/capabilities/autopay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/autopay-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/agentic-access/autopay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/autopay-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autopay-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autopay-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/authentication/autopay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autopay-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/scopes/autopay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/autopay-scopes.yml
@@ -220,14 +251,17 @@ common:
   type: Deprecation
   url: https://developer.autopay.io/api_deprecation/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/lifecycle/autopay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autopay-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/autopay-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/well-known/autopay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/autopay-security.txt
@@ -236,58 +270,72 @@ common:
   type: TrustCenter
   url: https://solutions.autopay.io/about-us/iso-certifications
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/security/autopay-trust-center.yml
   title: ''
   type: Compliance
   url: security/autopay-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/conformance/autopay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autopay-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/well-known/autopay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autopay-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/conventions/autopay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autopay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/errors/autopay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autopay-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/asyncapi/autopay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/autopay-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/data-model/autopay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autopay-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/llms/autopay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autopay-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/packages/autopay-packages.yml
   title: ''
   type: Packages
   url: packages/autopay-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/mcp/autopay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/autopay-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/plans/autopay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autopay-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/rate-limits/autopay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autopay-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/finops/autopay-finops.yml
   title: ''
   type: FinOps
   url: finops/autopay-finops.yml
@@ -342,6 +390,55 @@ scopes:
   scope_count: 3
   slug: autopay-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: strong
+  composite: 56.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 55.8
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - norway
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 81.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png
 security:
 - kind: authentication

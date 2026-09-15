@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.butterflymx.com
@@ -137,14 +162,17 @@ collections:
   slug: open-butterflymx-virtual-keys-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/capabilities/butterflymx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/butterflymx-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/mcp/butterflymx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/butterflymx-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/overlays/butterflymx-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/butterflymx-api-overlay.yaml
@@ -209,70 +237,87 @@ common:
   type: TrustCenter
   url: https://trust.butterflymx.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/llms/butterflymx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/butterflymx-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/well-known/butterflymx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/butterflymx-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/authentication/butterflymx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/butterflymx-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/scopes/butterflymx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/butterflymx-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/conventions/butterflymx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/butterflymx-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/errors/butterflymx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/butterflymx-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/lifecycle/butterflymx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/butterflymx-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/conformance/butterflymx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/butterflymx-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/security/butterflymx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/butterflymx-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/security/butterflymx-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/butterflymx-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/packages/butterflymx-packages.yml
   title: ''
   type: Packages
   url: packages/butterflymx-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/packages/butterflymx-packages.yml
   title: ''
   type: SDKs
   url: packages/butterflymx-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/data-model/butterflymx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/butterflymx-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/asyncapi/butterflymx-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/butterflymx-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/sandbox/butterflymx-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/butterflymx-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/changelog/butterflymx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/butterflymx-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -298,6 +343,40 @@ scopes:
   scope_count: 6
   slug: butterflymx-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 41.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 14.5
+    contract_governance: 4.5
+    contract_quality: 57.6
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 41.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/screenshots/butterflymx-2026-08-17T080748.png
 security:
 - kind: authentication

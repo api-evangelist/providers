@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -107,6 +132,7 @@ collections:
   slug: open-orderful-transaction-v3-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/overlays/orderful-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orderful-openapi-overlay.yaml
@@ -159,86 +185,107 @@ common:
   type: StatusPage
   url: https://status.orderful.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/authentication/orderful-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orderful-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/conventions/orderful-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orderful-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/errors/orderful-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orderful-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/lifecycle/orderful-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orderful-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/lifecycle/orderful-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/orderful-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/changelog/orderful-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orderful-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/mcp/orderful-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/orderful-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/conformance/orderful-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orderful-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/data-model/orderful-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orderful-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/sandbox/orderful-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orderful-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/asyncapi/orderful-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/orderful-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/arazzo/orderful-order-to-cash.yml
   title: ''
   type: Arazzo
   url: arazzo/orderful-order-to-cash.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/agentic-access/orderful-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orderful-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/llms/orderful-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orderful-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/well-known/orderful-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/orderful-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/well-known/orderful-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/orderful-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/orderful-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/orderful-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/orderful-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/security/orderful-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orderful-domain-security.yml
@@ -262,6 +309,41 @@ overview: 'Orderful publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
   Orderful''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 49.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 58.2
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 49.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/screenshots/orderful-2026-08-07T190910.png
 security:
 - kind: authentication

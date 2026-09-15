@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -97,86 +122,107 @@ collections:
   slug: open-drchrono-practice-management-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/capabilities/drchrono-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/drchrono-capability-edges.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/conventions/drchrono-conventions.yml
   title: ''
   type: Conventions
   url: conventions/drchrono-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/errors/drchrono-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/drchrono-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/lifecycle/drchrono-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/drchrono-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/lifecycle/drchrono-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/drchrono-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/changelog/drchrono-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/drchrono-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/conformance/drchrono-conformance.yml
   title: ''
   type: Conformance
   url: conformance/drchrono-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/conformance/drchrono-conformance.yml
   title: ''
   type: Compliance
   url: conformance/drchrono-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/data-model/drchrono-data-model.yml
   title: ''
   type: DataModel
   url: data-model/drchrono-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/packages/drchrono-packages.yml
   title: ''
   type: Packages
   url: packages/drchrono-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/well-known/drchrono-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/drchrono-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/llms/drchrono-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drchrono-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/asyncapi/drchrono-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/drchrono-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/asyncapi/drchrono-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/drchrono-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/sandbox/drchrono-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/drchrono-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/security/drchrono-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/drchrono-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/security/drchrono-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/drchrono-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/mcp/drchrono-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/drchrono-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/fhir/drchrono-fhir-r4-capabilitystatement.json
   title: ''
   type: CapabilityStatement
   url: fhir/drchrono-fhir-r4-capabilitystatement.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/fhir/drchrono-fhir.yml
   title: ''
   type: FHIR
   url: fhir/drchrono-fhir.yml
@@ -213,22 +259,27 @@ common:
   type: BugBounty
   url: https://hackerone.com/drchrono
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/agentic-access/drchrono-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/drchrono-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/security/drchrono-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drchrono-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/authentication/drchrono-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drchrono-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/scopes/drchrono-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/drchrono-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/scopes/drchrono-fhir-smart-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/drchrono-fhir-smart-scopes.yml
@@ -265,14 +316,17 @@ common:
   type: X
   url: https://twitter.com/drchrono
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/plans/drchrono-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drchrono-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/rate-limits/drchrono-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drchrono-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/finops/drchrono-finops.yml
   title: ''
   type: FinOps
   url: finops/drchrono-finops.yml
@@ -789,6 +843,47 @@ scopes:
   scope_count: 23
   slug: drchrono-scopes
   summary_line: 23 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 80.9
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 71.3
+    catalog_earned_first_party: 20.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 28.0
+    contract_quality: 65.8
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 84.2
+  previous_composite: 80.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 90.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png
 security:
 - kind: authentication

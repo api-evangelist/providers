@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 62.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -313,46 +339,57 @@ collections:
   slug: open-customer-io-transactional-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/capabilities/customer-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/customer-io-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/overlays/customer-io-pipelines-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/customer-io-pipelines-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/overlays/customer-io-reporting-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/customer-io-reporting-webhooks-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/plans/customer-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/customer-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/rate-limits/customer-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/customer-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/finops/customer-io-finops.yml
   title: ''
   type: FinOps
   url: finops/customer-io-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/agentic-access/customer-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/customer-io-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/security/customer-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/customer-io-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/security/customer-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/customer-io-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/security/customer-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/customer-io-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/authentication/customer-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/customer-io-authentication.yml
@@ -373,30 +410,37 @@ common:
   type: Documentation
   url: https://docs.customer.io
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/asyncapi/customer-io-reporting-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/customer-io-reporting-webhooks-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/json-schema/customer-io-customer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-io-customer-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/json-schema/customer-io-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-io-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/json-schema/customer-io-webhook-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-io-webhook-payload-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/json-ld/customer-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/customer-io-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/vocabulary/customer-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/customer-io-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/rules/customer-io-rules.yml
   title: ''
   type: Rules
   url: rules/customer-io-rules.yml
@@ -405,54 +449,67 @@ common:
   type: LlmsText
   url: https://docs.customer.io/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/packages/customer-io-packages.yml
   title: ''
   type: Packages
   url: packages/customer-io-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/packages/customer-io-packages.yml
   title: ''
   type: SDKs
   url: packages/customer-io-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/cli/customer-io-cli.yml
   title: ''
   type: CLI
   url: cli/customer-io-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/mcp/customer-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/customer-io-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/mcp/customer-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/customer-io-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/a2a/customer-io-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/customer-io-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/well-known/customer-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/customer-io-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/llms/customer-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/customer-io-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/scopes/customer-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/customer-io-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/conventions/customer-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/customer-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/errors/customer-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/customer-io-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/lifecycle/customer-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/customer-io-lifecycle.yml
@@ -461,14 +518,17 @@ common:
   type: StatusPage
   url: https://status.customerio.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/changelog/customer-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/customer-io-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/conformance/customer-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/customer-io-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/conformance/customer-io-conformance.yml
   title: ''
   type: Compliance
   url: conformance/customer-io-conformance.yml
@@ -477,22 +537,27 @@ common:
   type: Security
   url: https://customer.io/legal/reporting-vulnerability
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/data-model/customer-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/customer-io-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/sandbox/customer-io-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/customer-io-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-reporting-webhooks-openapi.json
   title: ''
   type: Webhooks
   url: openapi/_original/customer-io-reporting-webhooks-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/overlays/customer-io-app-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/customer-io-app-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/well-known/customer-io-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/customer-io-api-catalog.json
@@ -629,6 +694,47 @@ scopes:
   scope_count: 0
   slug: customer-io-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 89.3
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 81.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 47.0
+    contract_quality: 73.4
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 84.2
+  previous_composite: 89.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 2.2
+      total: 45
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/screenshots/customer-io-2026-06-20T175348.png
 security:
 - kind: authentication

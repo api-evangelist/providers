@@ -44,38 +44,47 @@ common:
   type: TermsOfService
   url: http://xcbl.org/license.shtml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/vocabulary/commerce-one-xcbl-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/commerce-one-xcbl-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/errors/commerce-one-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/commerce-one-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/conformance/commerce-one-conformance.yml
   title: ''
   type: Conformance
   url: conformance/commerce-one-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/changelog/commerce-one-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/commerce-one-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/lifecycle/commerce-one-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/commerce-one-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/well-known/commerce-one-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/commerce-one-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/security/commerce-one-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/commerce-one-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/llms/commerce-one-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/commerce-one-llms.txt

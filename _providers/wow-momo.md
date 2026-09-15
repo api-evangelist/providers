@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 24.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://www.wowmomo.com/wp-json
@@ -12,6 +37,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/security/wow-momo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wow-momo-domain-security.yml
@@ -44,58 +70,72 @@ common:
   type: LinkedIn
   url: https://in.linkedin.com/company/wow-momo
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/openapi/_ae-authored/wow-momo-content-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_ae-authored/wow-momo-content-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/overlays/wow-momo-content-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wow-momo-content-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/llms/wow-momo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wow-momo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/mcp/wow-momo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wow-momo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/authentication/wow-momo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wow-momo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/conventions/wow-momo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wow-momo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/errors/wow-momo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wow-momo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/data-model/wow-momo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wow-momo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/lifecycle/wow-momo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wow-momo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/conformance/wow-momo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wow-momo-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/packages/wow-momo-packages.yml
   title: ''
   type: Packages
   url: packages/wow-momo-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/plans/wow-momo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wow-momo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/rate-limits/wow-momo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wow-momo-rate-limits.yml
@@ -108,7 +148,7 @@ modified: '2026-09-04'
 name: WOW! Momo
 nav: Providers
 network: true
-overview: 'WOW! Momo publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Restaurants, Food and Beverage, Quick Service Restaurant, and Retail.
+overview: 'WOW! Momo publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Restaurant, Food and Beverage, Quick Service Restaurant, and Retail.
 
 
   WOW! Momo''s developer surface includes authentication and 21 more developer resources.'
@@ -121,6 +161,48 @@ rate_limits:
 - limit_count: 0
   name: Wow Momo Rate Limits
   slug: wow-momo-rate-limits
+score:
+  band: emerging
+  composite: 19.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 12.2
+    developer_ergonomics: 13.7
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 19.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Wow Momo Authentication
@@ -133,7 +215,7 @@ security:
 slug: wow-momo
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Food and Beverage
 - Quick Service Restaurant
 - Retail

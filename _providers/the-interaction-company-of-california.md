@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://poke.com
@@ -27,14 +52,17 @@ collections:
   slug: open-the-interaction-company-of-california-messaging-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/overlays/the-interaction-company-of-california-poke-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-interaction-company-of-california-poke-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/security/the-interaction-company-of-california-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-interaction-company-of-california-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/authentication/the-interaction-company-of-california-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-interaction-company-of-california-authentication.yml
@@ -95,38 +123,47 @@ common:
   type: ChangeLog
   url: https://poke.com/docs/release-notes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/llms/the-interaction-company-of-california-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-interaction-company-of-california-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/packages/the-interaction-company-of-california-packages.yml
   title: ''
   type: Packages
   url: packages/the-interaction-company-of-california-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/packages/the-interaction-company-of-california-packages.yml
   title: ''
   type: SDKs
   url: packages/the-interaction-company-of-california-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/cli/the-interaction-company-of-california-cli.yml
   title: ''
   type: CLI
   url: cli/the-interaction-company-of-california-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/lifecycle/the-interaction-company-of-california-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-interaction-company-of-california-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/conventions/the-interaction-company-of-california-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-interaction-company-of-california-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/conformance/the-interaction-company-of-california-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-interaction-company-of-california-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/errors/the-interaction-company-of-california-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-interaction-company-of-california-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -143,6 +180,39 @@ overview: 'The Interaction Company Of California publishes 1 API on the [APIs.io
 
   The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
 random_paper: 9
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 14.6
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 38.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-interaction-company-of-california/refs/heads/main/screenshots/the-interaction-company-of-california-2026-09-02T163455.png
 security:
 - kind: authentication

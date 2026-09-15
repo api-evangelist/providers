@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -530,18 +555,22 @@ collections:
   slug: open-macrometa-waiting-rooms-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/capabilities/macrometa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/macrometa-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/security/macrometa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/macrometa-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/agentic-access/macrometa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/macrometa-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/authentication/macrometa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/macrometa-authentication.yml
@@ -590,50 +619,62 @@ common:
   type: ChangeLog
   url: https://www.macrometa.com/docs/release-notes
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/packages/macrometa-packages.yml
   title: ''
   type: Packages
   url: packages/macrometa-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/packages/macrometa-packages.yml
   title: ''
   type: SDKs
   url: packages/macrometa-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/cli/macrometa-cli.yml
   title: ''
   type: CLI
   url: cli/macrometa-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/lifecycle/macrometa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/macrometa-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/llms/macrometa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/macrometa-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/mcp/macrometa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/macrometa-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/errors/macrometa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/macrometa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/conventions/macrometa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/macrometa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/conformance/macrometa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/macrometa-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/data-model/macrometa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/macrometa-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/overlays/macrometa-gdn-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/macrometa-gdn-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -650,6 +691,41 @@ overview: 'Macrometa publishes 63 APIs on the [APIs.io](https://apis.io/) networ
 
   Macrometa''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 20 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 55.8
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 43.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
 security:
 - kind: authentication

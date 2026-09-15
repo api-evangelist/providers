@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://index.affectiva.com
@@ -9,10 +34,12 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/security/affectiva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affectiva-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/authentication/affectiva-authentication.yml
   title: ''
   type: Authentication
   url: authentication/affectiva-authentication.yml
@@ -53,102 +80,127 @@ common:
   type: PrivacyPolicy
   url: https://www.affectiva.com/privacy-policy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/packages/affectiva-packages.yml
   title: ''
   type: Packages
   url: packages/affectiva-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/packages/affectiva-packages.yml
   title: ''
   type: SDKs
   url: packages/affectiva-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/llms/affectiva-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/affectiva-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/mcp/affectiva-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/affectiva-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/conformance/affectiva-conformance.yml
   title: ''
   type: Conformance
   url: conformance/affectiva-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/errors/affectiva-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/affectiva-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/lifecycle/affectiva-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/affectiva-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/conventions/affectiva-conventions.yml
   title: ''
   type: Conventions
   url: conventions/affectiva-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/data-model/affectiva-data-model.yml
   title: ''
   type: DataModel
   url: data-model/affectiva-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/plans/affectiva-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affectiva-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/rate-limits/affectiva-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/affectiva-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-data_collection_projects-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-data_collection_projects-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-entries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-entries-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-event_configs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-event_configs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-event_instances-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-event_instances-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-frame_sampling_jobs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-frame_sampling_jobs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-jobs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-jobs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-labeling_job_annotations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-labeling_job_annotations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-labeling_jobs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-labeling_jobs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-labeling_tasks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-labeling_tasks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-representation_storages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-representation_storages-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-representations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-representations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-video_frames-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-video_frames-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/overlays/affectiva-eaas-video_segments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affectiva-eaas-video_segments-overlay.yaml
@@ -161,7 +213,7 @@ modified: '2026-09-12'
 name: Affectiva
 nav: Providers
 network: true
-overview: 'Affectiva publishes 1 API on the [APIs.io](https://apis.io/) network: Facial Coding API. Tagged areas include Company, Emotion AI, Artificial Intelligence, Machine Learning, and Computer Vision.
+overview: 'Affectiva publishes 1 API on the [APIs.io](https://apis.io/) network: Facial Coding API. Tagged areas include Company, Emotion AI, Artificial Intelligence, Machine-Learning, and Computer-Vision.
 
 
   Affectiva''s developer surface includes authentication, API reference, documentation, support, engineering blog, and 31 more developer resources.'
@@ -174,6 +226,45 @@ rate_limits:
 - limit_count: 0
   name: Affectiva Rate Limits
   slug: affectiva-rate-limits
+score:
+  band: thin
+  composite: 32.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 42.2
+    developer_ergonomics: 44.6
+    discoverability: 68.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 32.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Affectiva Authentication
@@ -188,8 +279,8 @@ tags:
 - Company
 - Emotion AI
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Facial Coding
 - Facial Expression Analysis
 - Media Analytics

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.advance.ai
@@ -51,10 +76,12 @@ collections:
   slug: open-advance-intelligence-group-ocr-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/overlays/advance-intelligence-group-advance-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/advance-intelligence-group-advance-ai-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/security/advance-intelligence-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advance-intelligence-group-domain-security.yml
@@ -95,46 +122,57 @@ common:
   type: Compliance
   url: https://advance.ai/security-compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/authentication/advance-intelligence-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advance-intelligence-group-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/conventions/advance-intelligence-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advance-intelligence-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/errors/advance-intelligence-group-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/advance-intelligence-group-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/lifecycle/advance-intelligence-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advance-intelligence-group-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/conformance/advance-intelligence-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advance-intelligence-group-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/packages/advance-intelligence-group-packages.yml
   title: ''
   type: Packages
   url: packages/advance-intelligence-group-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/packages/advance-intelligence-group-packages.yml
   title: ''
   type: SDKs
   url: packages/advance-intelligence-group-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/mcp/advance-intelligence-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/advance-intelligence-group-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/llms/advance-intelligence-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advance-intelligence-group-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/data-model/advance-intelligence-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/advance-intelligence-group-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -151,6 +189,47 @@ overview: 'Advance Intelligence Group publishes 4 APIs on the [APIs.io](https://
 
   Advance Intelligence Group''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 53.6
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 39.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:
 - kind: authentication

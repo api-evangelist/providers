@@ -16,10 +16,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/airbrite
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbrite/refs/heads/main/packages/airbrite-packages.yml
   title: ''
   type: Packages
   url: packages/airbrite-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbrite/refs/heads/main/packages/airbrite-packages.yml
   title: ''
   type: SDKs
   url: packages/airbrite-packages.yml

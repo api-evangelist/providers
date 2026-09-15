@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -205,22 +230,27 @@ collections:
   slug: open-workday-extend-wql-query-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/agentic-access/workday-extend-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workday-extend-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/security/workday-extend-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workday-extend-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/security/workday-extend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workday-extend-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/authentication/workday-extend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workday-extend-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/scopes/workday-extend-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/workday-extend-scopes.yml
@@ -229,50 +259,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/workday-extend/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-app-configuration-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-app-configuration-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-cancel-running-execution-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-cancel-running-execution-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-create-and-activate-orchestration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-create-and-activate-orchestration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-define-custom-object-with-fields-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-define-custom-object-with-fields-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-discover-schema-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-discover-schema-and-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-inspect-orchestration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-inspect-orchestration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-launch-orchestration-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-launch-orchestration-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-publish-app-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-publish-app-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-register-and-deploy-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-register-and-deploy-app-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-safe-update-orchestration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-safe-update-orchestration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-upsert-worker-custom-object-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-upsert-worker-custom-object-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/arazzo/workday-extend-wql-query-to-worker-custom-object-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-extend-wql-query-to-worker-custom-object-workflow.yml
@@ -369,26 +411,32 @@ common:
   type: Partners
   url: https://www.workday.com/en-us/company/partners/software-partners.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/rules/workday-extend-rules.yml
   title: ''
   type: SpectralRules
   url: rules/workday-extend-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/json-ld/workday-extend-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/workday-extend-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/json-schema/workday-extend-app-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workday-extend-app-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/json-schema/workday-extend-orchestration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workday-extend-orchestration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/json-schema/workday-extend-custom-object-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workday-extend-custom-object-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/vocabulary/workday-extend-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/workday-extend-vocabulary.yml
@@ -578,6 +626,38 @@ scopes:
   scope_count: 9
   slug: workday-extend-scopes
   summary_line: 9 scopes · authorizationCode
+score:
+  band: developing
+  composite: 46.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 48.7
+    contract_governance: 28.8
+    contract_quality: 66.6
+    developer_ergonomics: 25.0
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 46.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:
 - kind: authentication

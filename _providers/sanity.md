@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -177,78 +202,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sanity/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/agentic-access/sanity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sanity-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/security/sanity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sanity-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/security/sanity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sanity-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/security/sanity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sanity-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/authentication/sanity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sanity-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-bootstrap-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-bootstrap-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-bulk-delete-by-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-bulk-delete-by-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-compare-draft-and-published-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-compare-draft-and-published-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-create-and-verify-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-create-and-verify-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-discover-project-datasets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-discover-project-datasets-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-issue-token-for-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-issue-token-for-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-provision-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-provision-dataset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-publish-draft-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-publish-draft-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-query-then-patch-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-query-then-patch-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-register-webhook-for-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-register-webhook-for-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-rename-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-rename-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-replace-document-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-replace-document-asset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-upload-asset-and-reference-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-upload-asset-and-reference-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/arazzo/sanity-upsert-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sanity-upsert-document-workflow.yml
@@ -301,14 +345,17 @@ common:
   type: StatusPage
   url: https://status.sanity.io
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/vocabulary/sanity-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sanity-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/rules/sanity-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sanity-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/json-ld/sanity-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sanity-context.jsonld
@@ -441,6 +488,39 @@ rules:
     info: 0
     warn: 4
   slug: sanity-rules
+score:
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 68.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 28.8
+    contract_quality: 76.0
+    developer_ergonomics: 63.1
+    discoverability: 59.3
+    operational_transparency: 26.3
+  previous_composite: 50.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/screenshots/sanity-2026-06-20T193435.png
 security:
 - kind: authentication

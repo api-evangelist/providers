@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -186,14 +212,17 @@ collections:
   slug: open-verato-unmergeidentities-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/capabilities/verato-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/verato-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/overlays/verato-organization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verato-organization-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/agentic-access/verato-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/verato-agentic-access.yml
@@ -234,10 +263,12 @@ common:
   type: ChangeLog
   url: https://support.verato.com/hc/en-us/sections/8836852287764-Release-Notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/changelog/verato-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/verato-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/security/verato-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/verato-trust-center.yml
@@ -258,46 +289,57 @@ common:
   type: Compliance
   url: https://verato.com/platform/why-verato/security/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/llms/verato-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verato-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/mcp/verato-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/verato-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/well-known/verato-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/verato-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/authentication/verato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verato-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/conventions/verato-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verato-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/errors/verato-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/verato-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/data-model/verato-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verato-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/conformance/verato-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verato-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/lifecycle/verato-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verato-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/security/verato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verato-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -318,6 +360,51 @@ overview: 'Verato publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
   Verato''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 22 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 40.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 49.0
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 40.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/screenshots/verato-2026-08-17T082722.png
 security:
 - kind: authentication

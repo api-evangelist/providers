@@ -10,6 +10,32 @@ access_model:
   - https://beta-api.nectarsocial.com/.well-known/oauth-authorization-server
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Remote Model Context Protocol server exposing Nectar Social''s social content and analytics to AI agents over JSON-RPC 2.0 (Streamable HTTP). OAuth-protected: an anonymous tools/list returns HTTP 401 w'
@@ -25,54 +51,67 @@ asyncapis:
   slug: nectar-social-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/mcp/nectar-social-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nectar-social-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/authentication/nectar-social-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nectar-social-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/scopes/nectar-social-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nectar-social-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/conventions/nectar-social-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nectar-social-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/errors/nectar-social-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nectar-social-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/conformance/nectar-social-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nectar-social-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/lifecycle/nectar-social-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nectar-social-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/asyncapi/nectar-social-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nectar-social-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/packages/nectar-social-packages.yml
   title: ''
   type: Packages
   url: packages/nectar-social-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/plans/nectar-social-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nectar-social-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/rate-limits/nectar-social-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nectar-social-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/llms/nectar-social-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nectar-social-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/security/nectar-social-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nectar-social-vulnerability-disclosure.yml
@@ -81,14 +120,17 @@ common:
   type: Security
   url: https://www.nectarsocial.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/security/nectar-social-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nectar-social-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/well-known/nectar-social-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nectar-social-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nectar-social/refs/heads/main/well-known/nectar-social-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nectar-social-well-known.yml
@@ -141,6 +183,40 @@ scopes:
   scope_count: 18
   slug: nectar-social-scopes
   summary_line: 18 scopes · authorizationCode
+score:
+  band: thin
+  composite: 26.9
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 14.3
+    discoverability: 75.9
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 26.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Nectar Social Authentication

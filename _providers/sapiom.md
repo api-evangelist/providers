@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for transaction management, payment authorization, agents, spending rules, analytics, and phone verification. Bearer-token authenticated; JSON envelope with cursor pagination.
@@ -65,66 +90,82 @@ common:
   type: PrivacyPolicy
   url: https://docs.sapiom.ai/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/llms/sapiom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sapiom-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/mcp/sapiom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sapiom-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/packages/sapiom-packages.yml
   title: ''
   type: Packages
   url: packages/sapiom-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/packages/sapiom-packages.yml
   title: ''
   type: SDKs
   url: packages/sapiom-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/cli/sapiom-cli.yml
   title: ''
   type: CLI
   url: cli/sapiom-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/well-known/sapiom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sapiom-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/authentication/sapiom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sapiom-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/conventions/sapiom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sapiom-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/errors/sapiom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sapiom-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/rate-limits/sapiom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sapiom-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/lifecycle/sapiom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sapiom-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/conformance/sapiom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sapiom-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/security/sapiom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sapiom-domain-security.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/sandbox/sapiom-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sapiom-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/data-model/sapiom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sapiom-data-model.yml
@@ -149,6 +190,42 @@ rate_limits:
 - limit_count: 2
   name: Sapiom Rate Limits
   slug: sapiom-rate-limits
+score:
+  band: thin
+  composite: 37.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 82.1
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 37.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sapiom/refs/heads/main/screenshots/sapiom-2026-09-02T154410.png
 security:
 - kind: authentication

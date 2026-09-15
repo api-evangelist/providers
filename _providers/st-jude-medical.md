@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Merlin.net Patient Care Network is Abbott''s (formerly St. Jude Medical''s) remote cardiac monitoring platform. It allows clinicians to receive scheduled transmissions and daily alert notifications '
@@ -17,6 +42,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/st-jude-medical/refs/heads/main/security/st-jude-medical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/st-jude-medical-domain-security.yml
@@ -37,14 +63,17 @@ common:
   type: Documentation
   url: https://www.cardiovascular.abbott/us/en/hcp/products/cardiac-rhythm-management/connectivity-remote-care/merlin-patient-care-network.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/st-jude-medical/refs/heads/main/json-ld/st-jude-medical-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/st-jude-medical-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/st-jude-medical/refs/heads/main/json-schema/st-jude-medical-cardiac-device-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/st-jude-medical-cardiac-device-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/st-jude-medical/refs/heads/main/vocabulary/st-jude-medical-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/st-jude-medical-vocabulary.yml
@@ -116,6 +145,38 @@ rules:
     info: 2
     warn: 3
   slug: st-jude-medical-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 19.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 59.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 10.7
+    developer_ergonomics: 19.0
+    discoverability: 63.0
+    operational_transparency: 7.9
+  previous_composite: 19.2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 13.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/st-jude-medical/refs/heads/main/screenshots/st-jude-medical-2026-06-20T194437.png
 security:
 - kind: domain-security

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,6 +74,7 @@ common:
   type: License
   url: https://github.com/tuna/tunasync/blob/master/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/capabilities/tsinghua-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tsinghua-capability-edges.yml
@@ -101,42 +127,52 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/tsinghua-university/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/conformance/tsinghua-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tsinghua-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/authentication/tsinghua-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tsinghua-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/errors/tsinghua-errors.yml
   title: ''
   type: Errors
   url: errors/tsinghua-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/lifecycle/tsinghua-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tsinghua-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/agentic-access/tsinghua-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tsinghua-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/security/tsinghua-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tsinghua-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/plans/tsinghua-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tsinghua-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/rate-limits/tsinghua-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tsinghua-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/finops/tsinghua-finops.yml
   title: ''
   type: FinOps
   url: finops/tsinghua-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -212,6 +248,53 @@ rules:
     info: 0
     warn: 3
   slug: tsinghua-rules
+score:
+  band: developing
+  composite: 40.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 81.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 28.8
+    contract_quality: 65.4
+    developer_ergonomics: 21.4
+    discoverability: 64.8
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 40.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/screenshots/tsinghua-2026-06-20T195921.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -26,54 +51,67 @@ apis:
 artifact_total: 8
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/overlays/localclarity-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/localclarity-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/agentic-access/localclarity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/localclarity-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/authentication/localclarity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/localclarity-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/security/localclarity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/localclarity-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/conventions/localclarity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/localclarity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/errors/localclarity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/localclarity-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/lifecycle/localclarity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/localclarity-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/changelog/localclarity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/localclarity-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/data-model/localclarity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/localclarity-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/conformance/localclarity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/localclarity-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/packages/localclarity-packages.yml
   title: ''
   type: Packages
   url: packages/localclarity-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/llms/localclarity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/localclarity-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -138,14 +176,17 @@ common:
   type: X
   url: https://twitter.com/localClarity
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/plans/localclarity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/localclarity-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/rate-limits/localclarity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/localclarity-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/finops/localclarity-finops.yml
   title: ''
   type: FinOps
   url: finops/localclarity-finops.yml
@@ -182,6 +223,41 @@ rate_limits:
 - limit_count: 0
   name: Localclarity Rate Limits
   slug: localclarity-rate-limits
+score:
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 60.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 4.5
+    contract_quality: 63.3
+    developer_ergonomics: 49.4
+    discoverability: 74.1
+    operational_transparency: 28.9
+  previous_composite: 52.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/screenshots/localclarity-2026-06-20T184634.png
 security:
 - kind: authentication

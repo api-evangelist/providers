@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Programmatic access to the exe.dev command surface. POST the command exactly as typed in the ssh exe.dev REPL to https://exe.dev/exec with an exe1. bearer token; supported commands return JSON via --j
@@ -62,70 +87,87 @@ common:
   type: PrivacyPolicy
   url: https://exe.dev/docs/privacy-notice.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/llms/exedev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exedev-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/well-known/exedev-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/exedev-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/authentication/exedev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exedev-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/security/exedev-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/exedev-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/security/exedev-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/exedev-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/security/exedev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exedev-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/conventions/exedev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exedev-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/errors/exedev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/exedev-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/lifecycle/exedev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exedev-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/changelog/exedev-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/exedev-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/cli/exedev-cli.yml
   title: ''
   type: CLI
   url: cli/exedev-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/packages/exedev-packages.yml
   title: ''
   type: Packages
   url: packages/exedev-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/mcp/exedev-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/exedev-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/conformance/exedev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exedev-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/data-model/exedev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/exedev-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/components/exedev-components.yml
   title: ''
   type: Components
   url: components/exedev-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/skills/exedev-using-exe-dev.md
   title: ''
   type: AgentSkill
   url: skills/exedev-using-exe-dev.md
@@ -142,6 +184,36 @@ overview: 'exe.dev publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   exe.dev''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 21 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 32.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 28.9
+  previous_composite: 32.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/screenshots/exedev-2026-07-25T213854.png
 security:
 - kind: authentication

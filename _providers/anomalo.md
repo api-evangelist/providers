@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 api_count: 19
 apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
@@ -116,6 +141,7 @@ collections:
   slug: open-anomalo-unstructured
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/overlays/anomalo-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anomalo-public-api-overlay.yaml
@@ -168,66 +194,82 @@ common:
   type: Compliance
   url: https://www.anomalo.com/legal/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/packages/anomalo-packages.yml
   title: ''
   type: Packages
   url: packages/anomalo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/packages/anomalo-packages.yml
   title: ''
   type: SDKs
   url: packages/anomalo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/cli/anomalo-cli.yml
   title: ''
   type: CLI
   url: cli/anomalo-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/mcp/anomalo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/anomalo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/llms/anomalo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anomalo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/well-known/anomalo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/anomalo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/authentication/anomalo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anomalo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/scopes/anomalo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/anomalo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/conventions/anomalo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anomalo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/lifecycle/anomalo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anomalo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/conformance/anomalo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anomalo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/errors/anomalo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anomalo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/data-model/anomalo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anomalo-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/changelog/anomalo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anomalo-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/security/anomalo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anomalo-domain-security.yml
@@ -254,6 +296,40 @@ scopes:
   scope_count: 3
   slug: anomalo-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: thin
+  composite: 32.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 15.4
+    developer_ergonomics: 44.6
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 32.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 20
+      marker_coverage: 100.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/screenshots/anomalo-2026-08-07T161419.png
 security:
 - kind: authentication

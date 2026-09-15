@@ -10,6 +10,31 @@ access_model:
   - https://developer.sendoso.com/rest-api/overview/authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://app.sendoso.com/api/v3
@@ -57,10 +82,12 @@ asyncapis:
   slug: sendoso-webhooks-asyncapi
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/overlays/sendoso-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendoso-core-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/overlays/sendoso-scim-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendoso-scim-overlay.yaml
@@ -89,78 +116,97 @@ common:
   type: GettingStarted
   url: https://developer.sendoso.com/rest-api/overview/introduction
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/authentication/sendoso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendoso-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/scopes/sendoso-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sendoso-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/conventions/sendoso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendoso-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/conventions/sendoso-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sendoso-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/rate-limits/sendoso-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendoso-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/errors/sendoso-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendoso-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/lifecycle/sendoso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendoso-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/conformance/sendoso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendoso-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/data-model/sendoso-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendoso-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/sandbox/sendoso-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sendoso-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/components/sendoso-components.yml
   title: ''
   type: Components
   url: components/sendoso-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/plans/sendoso-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendoso-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/packages/sendoso-packages.yml
   title: ''
   type: Packages
   url: packages/sendoso-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/well-known/sendoso-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sendoso-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/mcp/sendoso-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sendoso-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/mcp/sendoso-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sendoso-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/a2a/sendoso-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/sendoso-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/llms/sendoso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendoso-llms.txt
@@ -169,30 +215,37 @@ common:
   type: LlmsText
   url: https://developer.sendoso.com/llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/asyncapi/sendoso-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sendoso-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/asyncapi/sendoso-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/sendoso-webhooks-asyncapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/security/sendoso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendoso-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/security/sendoso-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sendoso-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/security/sendoso-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sendoso-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/rules/sendoso-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sendoso-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/vocabulary/sendoso-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sendoso-vocabulary.yml
@@ -291,6 +344,40 @@ scopes:
   scope_count: 6
   slug: sendoso-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 69.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 33.3
+    contract_quality: 28.8
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 53.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/screenshots/sendoso-2026-06-20T193656.png
 security:
 - kind: authentication

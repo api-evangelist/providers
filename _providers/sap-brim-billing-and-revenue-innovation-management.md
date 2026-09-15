@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -174,22 +199,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/sap/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/agentic-access/sap-brim-billing-and-revenue-innovation-management-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-brim-billing-and-revenue-innovation-management-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/security/sap-brim-billing-and-revenue-innovation-management-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-brim-billing-and-revenue-innovation-management-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/security/sap-brim-billing-and-revenue-innovation-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-brim-billing-and-revenue-innovation-management-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/authentication/sap-brim-billing-and-revenue-innovation-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-brim-billing-and-revenue-innovation-management-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/scopes/sap-brim-billing-and-revenue-innovation-management-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-brim-billing-and-revenue-innovation-management-scopes.yml
@@ -198,66 +228,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sap-brim-billing-and-revenue-innovation-management/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-add-item-and-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-add-item-and-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-authorize-confirm-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-authorize-confirm-charge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-authorize-or-release-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-authorize-or-release-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-batch-rate-and-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-batch-rate-and-charge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-cancel-and-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-cancel-and-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-charge-and-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-charge-and-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-customer-billing-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-customer-billing-overview-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-manual-renewal-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-manual-renewal-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-prepaid-topup-and-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-prepaid-topup-and-charge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-pricing-plan-with-rate-card-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-pricing-plan-with-rate-card-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-provision-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-provision-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-simulate-rate-and-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-simulate-rate-and-charge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-subscription-upgrade-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-subscription-upgrade-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-suspend-and-resume-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-suspend-and-resume-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-update-item-quantity-and-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-update-item-quantity-and-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/arazzo/sap-brim-billing-and-revenue-innovation-management-usage-event-rating-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-brim-billing-and-revenue-innovation-management-usage-event-rating-poll-workflow.yml
@@ -266,34 +312,42 @@ common:
   type: Portal
   url: https://api.sap.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/_original/sap-brim-convergent-charging-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-brim-convergent-charging-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/openapi/_original/sap-brim-subscription-billing-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-brim-subscription-billing-openapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/json-ld/sap-brim-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sap-brim-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/json-schema/sap-brim-subscription-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-brim-subscription-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/json-structure/sap-brim-subscription-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sap-brim-subscription-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/json-structure/sap-brim-rating-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sap-brim-rating-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/rules/sap-brim-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sap-brim-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/vocabulary/sap-brim-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sap-brim-vocabulary.yml
@@ -527,6 +581,38 @@ scopes:
   scope_count: 2
   slug: sap-brim-billing-and-revenue-innovation-management-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 67.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 28.8
+    contract_quality: 69.4
+    developer_ergonomics: 44.0
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 51.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/screenshots/sap-brim-billing-and-revenue-innovation-management-2026-06-20T193418.png
 security:
 - kind: authentication

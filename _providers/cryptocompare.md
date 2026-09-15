@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -203,14 +228,17 @@ collections:
   slug: open-cryptocompare-top-lists-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/agentic-access/cryptocompare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cryptocompare-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/security/cryptocompare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cryptocompare-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/authentication/cryptocompare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cryptocompare-authentication.yml
@@ -219,34 +247,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/cryptocompare/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-asset-research-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-asset-research-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-coin-price-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-coin-price-snapshot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-coin-social-pulse-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-coin-social-pulse-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-exchange-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-exchange-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-market-cap-leaders-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-market-cap-leaders-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-news-feed-filter-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-news-feed-filter-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-spot-instrument-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-spot-instrument-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/arazzo/cryptocompare-top-volume-deep-dive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cryptocompare-top-volume-deep-dive-workflow.yml
@@ -299,30 +335,37 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/rules/cryptocompare-rules.yml
   title: ''
   type: SpectralRules
   url: rules/cryptocompare-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/vocabulary/cryptocompare-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cryptocompare-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/json-ld/cryptocompare-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cryptocompare-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/json-structure/cryptocompare-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/cryptocompare-structure.json
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/plans/cryptocompare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cryptocompare-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/rate-limits/cryptocompare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cryptocompare-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/finops/cryptocompare-finops.yml
   title: ''
   type: FinOps
   url: finops/cryptocompare-finops.yml
@@ -347,50 +390,62 @@ common:
   type: Deprecation
   url: https://downloads.coindesk.com/cd3/CDI/IA/CoinDesk%20Indices_CCData_API_Migration_Guide.pdf
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/lifecycle/cryptocompare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cryptocompare-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/mcp/cryptocompare-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cryptocompare-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/mcp/cryptocompare-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cryptocompare-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/llms/cryptocompare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cryptocompare-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/well-known/cryptocompare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cryptocompare-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/packages/cryptocompare-packages.yml
   title: ''
   type: Packages
   url: packages/cryptocompare-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/conformance/cryptocompare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cryptocompare-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/errors/cryptocompare-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cryptocompare-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/conventions/cryptocompare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cryptocompare-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/components/cryptocompare-components.yml
   title: ''
   type: Components
   url: components/cryptocompare-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/data-model/cryptocompare-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cryptocompare-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -542,6 +597,48 @@ rules:
     info: 3
     warn: 6
   slug: cryptocompare-rules
+score:
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 85.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 29.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 33.3
+    contract_quality: 74.4
+    developer_ergonomics: 25.6
+    discoverability: 70.4
+    operational_transparency: 50.0
+  previous_composite: 52.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 38.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,62 +67,77 @@ common:
   type: License
   url: https://github.com/mesmerlord/admakeai-agent-skills/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/well-known/admakeai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/admakeai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/llms/admakeai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/admakeai-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/packages/admakeai-packages.yml
   title: ''
   type: Packages
   url: packages/admakeai-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/authentication/admakeai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/admakeai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/scopes/admakeai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/admakeai-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/agentic-access/admakeai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/admakeai-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/conventions/admakeai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/admakeai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/errors/admakeai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/admakeai-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/conformance/admakeai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/admakeai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/lifecycle/admakeai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/admakeai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/data-model/admakeai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/admakeai-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/plans/admakeai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/admakeai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/rate-limits/admakeai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/admakeai-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/security/admakeai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/admakeai-domain-security.yml
@@ -178,6 +218,37 @@ scopes:
   scope_count: 4
   slug: admakeai-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 41.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/screenshots/admakeai-2026-09-02T144111.png
 security:
 - kind: authentication

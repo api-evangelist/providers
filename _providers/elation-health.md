@@ -10,6 +10,32 @@ access_model:
   - documentation
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -781,74 +807,92 @@ collections:
   slug: open-elation-visit-notes-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/capabilities/elation-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/elation-health-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-api-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-api-authentication-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-patient-profile-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-patient-profile-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-visit-notes-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-visit-notes-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-patient-document-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-patient-document-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-orders-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-orders-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-scheduling-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-scheduling-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-billing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-billing-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-insurance-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-insurance-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-premium-patient-insurance-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-premium-patient-insurance-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-practice-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-practice-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-user-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-user-management-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-messaging-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-messaging-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-event-subscription-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-event-subscription-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-reference-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-reference-data-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-care-gaps-api-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-care-gaps-api-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-elation-import-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-elation-import-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/overlays/elation-health-api-full-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elation-health-api-full-overlay.yaml
@@ -857,30 +901,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/elation-health/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/sandbox/elation-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/elation-health-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/data-model/elation-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elation-health-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/changelog/elation-health-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elation-health-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/conventions/elation-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elation-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/lifecycle/elation-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elation-health-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/errors/elation-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elation-health-problem-types.yml
@@ -889,42 +940,52 @@ common:
   type: Compliance
   url: https://www.elationhealth.com/solutions/ehr/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/conformance/elation-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elation-health-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/mcp/elation-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/elation-health-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/mcp/elation-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elation-health-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/well-known/elation-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elation-health-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/packages/elation-health-packages.yml
   title: ''
   type: Packages
   url: packages/elation-health-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/llms/elation-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elation-health-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/security/elation-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elation-health-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/agentic-access/elation-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/elation-health-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/scopes/elation-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elation-health-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/authentication/elation-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elation-health-authentication.yml
@@ -1025,46 +1086,57 @@ common:
   type: X
   url: https://x.com/elationhealth
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/plans/elation-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elation-health-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/rate-limits/elation-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elation-health-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/finops/elation-health-finops.yml
   title: ''
   type: FinOps
   url: finops/elation-health-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/a2a/elation-health-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/elation-health-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/examples/elation-health-patient-example.json
   title: ''
   type: Examples
   url: examples/elation-health-patient-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/examples/elation-health-appointment-example.json
   title: ''
   type: Examples
   url: examples/elation-health-appointment-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/vocabulary/elation-health-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/elation-health-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/rules/elation-health-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/elation-health-jsonschema-spectral-rules.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/json-schema/elation-health-patient-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/elation-health-patient-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/json-ld/elation-health-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/elation-health-context.jsonld
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/skills/elation-health-provider-published-skill.md
   title: ''
   type: AgentSkill
   url: skills/elation-health-provider-published-skill.md
@@ -1181,6 +1253,58 @@ scopes:
   scope_count: 154
   slug: elation-health-scopes
   summary_line: 154 scopes · clientCredentials/password
+score:
+  band: exemplar
+  composite: 83.7
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 71.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 43.2
+    contract_quality: 73.0
+    developer_ergonomics: 72.6
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 83.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 125
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 92.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:
 - kind: authentication

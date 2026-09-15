@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -200,18 +225,22 @@ collections:
   slug: open-openmercantil
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/overlays/openmercantil-risk-signals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openmercantil-risk-signals-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/agentic-access/openmercantil-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openmercantil-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/security/openmercantil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openmercantil-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/authentication/openmercantil-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openmercantil-authentication.yml
@@ -248,54 +277,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/PabloCirre
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/json-schema/openmercantil-company-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/openmercantil-company-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/json-schema/openmercantil-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/openmercantil-event-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/json-structure/openmercantil-company-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/openmercantil-company-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/json-ld/openmercantil-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/openmercantil-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/examples/openmercantil-search-companies-example.json
   title: ''
   type: Examples
   url: examples/openmercantil-search-companies-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/examples/openmercantil-get-company-example.json
   title: ''
   type: Examples
   url: examples/openmercantil-get-company-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/examples/openmercantil-get-company-events-example.json
   title: ''
   type: Examples
   url: examples/openmercantil-get-company-events-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/examples/openmercantil-health-example.json
   title: ''
   type: Examples
   url: examples/openmercantil-health-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/rules/openmercantil-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/openmercantil-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/vocabulary/openmercantil-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openmercantil-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/plans/openmercantil-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openmercantil-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/rate-limits/openmercantil-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openmercantil-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/finops/openmercantil-finops.yml
   title: ''
   type: FinOps
   url: finops/openmercantil-finops.yml
@@ -304,22 +346,27 @@ common:
   type: LLMsTxt
   url: https://openmercantil.es/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/packages/openmercantil-packages.yml
   title: ''
   type: Packages
   url: packages/openmercantil-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/conventions/openmercantil-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openmercantil-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/conventions/openmercantil-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/openmercantil-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/errors/openmercantil-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openmercantil-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/lifecycle/openmercantil-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openmercantil-lifecycle.yml
@@ -328,50 +375,62 @@ common:
   type: StatusPage
   url: https://openmercantil.es/status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/lifecycle/openmercantil-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/openmercantil-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/changelog/openmercantil-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openmercantil-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/conformance/openmercantil-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openmercantil-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/conformance/openmercantil-conformance.yml
   title: ''
   type: Compliance
   url: conformance/openmercantil-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/scopes/openmercantil-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openmercantil-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/security/openmercantil-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/openmercantil-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/security/openmercantil-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/openmercantil-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/security/openmercantil-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/openmercantil-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/data-model/openmercantil-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openmercantil-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/asyncapi/openmercantil-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openmercantil-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/llms/openmercantil-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openmercantil-llms.txt
@@ -488,6 +547,59 @@ scopes:
   scope_count: 0
   slug: openmercantil-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 88.2
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 84.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 76.6
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - spain
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 88.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 85.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png
 security:
 - kind: authentication

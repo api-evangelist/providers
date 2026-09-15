@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.templafy.com/v3
@@ -155,6 +180,7 @@ collections:
   slug: open-templafy-textelements-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/overlays/templafy-public-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/templafy-public-api-v3-overlay.yaml
@@ -207,6 +233,7 @@ common:
   type: StatusPage
   url: https://status.templafy.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/lifecycle/templafy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/templafy-lifecycle.yml
@@ -215,50 +242,62 @@ common:
   type: Compliance
   url: https://www.templafy.com/home/platform/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/security/templafy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/templafy-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/security/templafy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/templafy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/authentication/templafy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/templafy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/conventions/templafy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/templafy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/errors/templafy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/templafy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/lifecycle/templafy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/templafy-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/conformance/templafy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/templafy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/data-model/templafy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/templafy-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/mcp/templafy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/templafy-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/packages/templafy-packages.yml
   title: ''
   type: Packages
   url: packages/templafy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/packages/templafy-packages.yml
   title: ''
   type: SDKs
   url: packages/templafy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/llms/templafy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/templafy-llms.txt
@@ -275,6 +314,39 @@ overview: 'Templafy publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
   Templafy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 47.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 55.7
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 47.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/screenshots/templafy-2026-08-17T082310.png
 security:
 - kind: authentication

@@ -20,10 +20,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/universitynow
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unow/refs/heads/main/security/unow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unow-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unow/refs/heads/main/llms/unow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unow-llms.txt

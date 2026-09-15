@@ -8,6 +8,32 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 358
   human_in_the_loop: 358
@@ -372,6 +398,7 @@ asyncapis:
   slug: sweep-event-surface
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/capabilities/sweep-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sweep-capability-edges.yml
@@ -408,18 +435,22 @@ common:
   type: Compliance
   url: https://www.sweep.io/security-compliance-governance
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/mcp/sweep-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sweep-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/llms/sweep-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sweep-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/conformance/sweep-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sweep-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/security/sweep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sweep-domain-security.yml
@@ -436,62 +467,77 @@ common:
   type: APIReference
   url: https://api.sweep.io/api
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/openapi/sweep-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/sweep-api-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/authentication/sweep-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sweep-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/conventions/sweep-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sweep-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/data-model/sweep-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sweep-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/errors/sweep-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sweep-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/lifecycle/sweep-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sweep-lifecycle.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/overlays/sweep-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sweep-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/packages/sweep-packages.yml
   title: ''
   type: Packages
   url: packages/sweep-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/plans/sweep-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sweep-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/rate-limits/sweep-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sweep-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/agentic-access/sweep-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sweep-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/mcp/sweep-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sweep-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/security/sweep-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sweep-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/well-known/sweep-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sweep-well-known.yml
@@ -523,6 +569,41 @@ rate_limits:
 - limit_count: 0
   name: Sweep Rate Limits
   slug: sweep-rate-limits
+score:
+  band: developing
+  composite: 50.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 46.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 52.0
+    developer_ergonomics: 49.4
+    discoverability: 70.4
+    operational_transparency: 0.0
+  previous_composite: 50.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sweep/refs/heads/main/screenshots/sweep-2026-08-17T082224.png
 security:
 - kind: authentication

@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -89,18 +115,22 @@ collections:
   slug: open-clevertap
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/agentic-access/clevertap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clevertap-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/security/clevertap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clevertap-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/security/clevertap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clevertap-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/authentication/clevertap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clevertap-authentication.yml
@@ -145,10 +175,12 @@ common:
   type: TermsOfService
   url: https://clevertap.com/terms-of-service/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/json-ld/clevertap-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clevertap-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/rules/clevertap-rules.yml
   title: ''
   type: Spectral
   url: rules/clevertap-rules.yml
@@ -161,46 +193,57 @@ common:
   type: Blog
   url: https://clevertap.com/blog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/packages/clevertap-packages.yml
   title: ''
   type: Packages
   url: packages/clevertap-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/packages/clevertap-packages.yml
   title: ''
   type: SDKs
   url: packages/clevertap-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/well-known/clevertap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clevertap-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/mcp/clevertap-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clevertap-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/mcp/clevertap-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/clevertap-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/llms/clevertap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clevertap-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/scopes/clevertap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clevertap-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/conventions/clevertap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clevertap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/errors/clevertap-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/clevertap-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/lifecycle/clevertap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clevertap-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/changelog/clevertap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clevertap-changelog.yml
@@ -209,6 +252,7 @@ common:
   type: ChangeLog
   url: https://developer.clevertap.com/docs/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/conformance/clevertap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clevertap-conformance.yml
@@ -217,42 +261,52 @@ common:
   type: Compliance
   url: https://clevertap.com/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/asyncapi/clevertap-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/clevertap-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/data-model/clevertap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clevertap-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/overlays/clevertap-profiles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clevertap-profiles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/overlays/clevertap-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clevertap-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/overlays/clevertap-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clevertap-campaigns-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/overlays/clevertap-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clevertap-reports-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/plans/clevertap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clevertap-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/rate-limits/clevertap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clevertap-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/finops/clevertap-finops.yml
   title: ''
   type: FinOps
   url: finops/clevertap-finops.yml
@@ -338,6 +392,41 @@ scopes:
   scope_count: 4
   slug: clevertap-scopes
   summary_line: 4 scopes · authorizationCode/refreshToken
+score:
+  band: strong
+  composite: 64.1
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 84.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 31.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 63.6
+    contract_quality: 61.7
+    developer_ergonomics: 38.7
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/screenshots/clevertap-2026-06-20T174517.png
 security:
 - kind: authentication

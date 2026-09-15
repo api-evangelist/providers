@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 52
 apis:
 - baseURL: https://api.umbrella.com/admin/v2
@@ -448,122 +473,152 @@ common:
   type: Website
   url: https://www.cisco.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/capabilities/cisco-umbrella-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-umbrella-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-admin-key-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-admin-key-admin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-admin-managed-providers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-admin-managed-providers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-admin-providers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-admin-providers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-admin-s3-key-rotation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-admin-s3-key-rotation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-admin-service-providers-console-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-admin-service-providers-console-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-admin-users-roles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-admin-users-roles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-auth-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-auth-token-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-cloudlock-cloudlock-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-cloudlock-cloudlock-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-internal-domains-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-internal-domains-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-internal-networks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-internal-networks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-network-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-network-devices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-network-tunnels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-network-tunnels-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-networks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-networks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-policies-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-policies-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-roaming-computers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-roaming-computers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-sites-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-sites-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-swg-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-swg-devices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-tagging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-tagging-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-deployments-virtual-appliances-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-deployments-virtual-appliances-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-investigate-investigate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-investigate-investigate-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-policies-application-lists-internet-umb-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-policies-application-lists-internet-umb-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-policies-destination-lists-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-policies-destination-lists-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-reports-api-usage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-reports-api-usage-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-reports-app-discovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-reports-app-discovery-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-reports-provider-consoles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-reports-provider-consoles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/overlays/cisco-umbrella-reports-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-umbrella-reports-reporting-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/security/cisco-umbrella-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-umbrella-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/scopes/cisco-umbrella-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cisco-umbrella-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/authentication/cisco-umbrella-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-umbrella-authentication.yml
@@ -640,70 +695,87 @@ common:
   type: TrustCenter
   url: https://trustportal.cisco.com/c/r/ctp/trust-portal.html
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/sandbox/cisco-umbrella-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cisco-umbrella-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/packages/cisco-umbrella-packages.yml
   title: ''
   type: Packages
   url: packages/cisco-umbrella-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/llms/cisco-umbrella-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cisco-umbrella-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/conventions/cisco-umbrella-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cisco-umbrella-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/changelog/cisco-umbrella-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cisco-umbrella-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/lifecycle/cisco-umbrella-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cisco-umbrella-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/lifecycle/cisco-umbrella-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cisco-umbrella-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/conformance/cisco-umbrella-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cisco-umbrella-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/conformance/cisco-umbrella-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cisco-umbrella-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/errors/cisco-umbrella-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cisco-umbrella-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/data-model/cisco-umbrella-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cisco-umbrella-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/rate-limits/cisco-umbrella-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-umbrella-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/plans/cisco-umbrella-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-umbrella-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/security/cisco-umbrella-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cisco-umbrella-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/security/cisco-umbrella-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-umbrella-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/well-known/cisco-umbrella-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cisco-umbrella-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -737,6 +809,40 @@ scopes:
   scope_count: 61
   slug: cisco-umbrella-scopes
   summary_line: 61 scopes
+score:
+  band: strong
+  composite: 59.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 61.7
+    developer_ergonomics: 70.8
+    discoverability: 68.5
+    operational_transparency: 84.2
+  previous_composite: 59.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 85
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/screenshots/cisco-umbrella-2026-09-02T145048.png
 security:
 - kind: authentication

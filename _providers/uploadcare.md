@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -104,18 +129,22 @@ collections:
   slug: open-uploadcare-webhook-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/agentic-access/uploadcare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uploadcare-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/security/uploadcare-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/uploadcare-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/security/uploadcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uploadcare-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/authentication/uploadcare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uploadcare-authentication.yml
@@ -152,38 +181,47 @@ common:
   type: X
   url: https://twitter.com/uploadcare
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/plans/uploadcare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uploadcare-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/rate-limits/uploadcare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uploadcare-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/finops/uploadcare-finops.yml
   title: ''
   type: FinOps
   url: finops/uploadcare-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/vocabulary/uploadcare-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/uploadcare-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/json-schema/uploadcare-file.json
   title: ''
   type: JSONSchema
   url: json-schema/uploadcare-file.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/json-schema/uploadcare-group.json
   title: ''
   type: JSONSchema
   url: json-schema/uploadcare-group.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/json-schema/uploadcare-project.json
   title: ''
   type: JSONSchema
   url: json-schema/uploadcare-project.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/json-schema/uploadcare-webhook.json
   title: ''
   type: JSONSchema
   url: json-schema/uploadcare-webhook.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/json-ld/uploadcare-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/uploadcare-context.jsonld
@@ -267,6 +305,38 @@ rules:
     info: 1
     warn: 4
   slug: uploadcare-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 71.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 25.0
+    contract_quality: 66.3
+    developer_ergonomics: 23.8
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 43.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/screenshots/uploadcare-2026-06-20T200444.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'The CloudEagle API is an enterprise REST surface that exposes the same SaaS-management primitives as the web app: discovered applications, licenses and usage, identity and access state, onboarding/off'
@@ -20,6 +45,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/security/cloudeagle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudeagle-domain-security.yml
@@ -72,50 +98,62 @@ common:
   type: Compliance
   url: https://www.cloudeagle.ai/compliance/soc-2
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/llms/cloudeagle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudeagle-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/well-known/cloudeagle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudeagle-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/mcp/cloudeagle-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cloudeagle-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/authentication/cloudeagle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudeagle-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/conventions/cloudeagle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloudeagle-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/errors/cloudeagle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudeagle-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/conformance/cloudeagle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudeagle-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/changelog/cloudeagle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cloudeagle-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/lifecycle/cloudeagle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloudeagle-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/packages/cloudeagle-packages.yml
   title: ''
   type: Packages
   url: packages/cloudeagle-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/plans/cloudeagle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudeagle-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/rate-limits/cloudeagle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudeagle-rate-limits.yml
@@ -148,6 +186,35 @@ rate_limits:
 - limit_count: 0
   name: Cloudeagle Rate Limits
   slug: cloudeagle-rate-limits
+score:
+  band: thin
+  composite: 33.4
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 33.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/screenshots/cloudeagle-2026-06-20T174549.png
 security:
 - kind: authentication

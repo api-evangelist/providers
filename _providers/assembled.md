@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -337,26 +362,32 @@ collections:
   slug: open-assembled-working-hours-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/capabilities/assembled-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/assembled-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/agentic-access/assembled-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/assembled-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/security/assembled-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/assembled-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/security/assembled-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/assembled-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/security/assembled-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/assembled-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/authentication/assembled-authentication.yml
   title: ''
   type: Authentication
   url: authentication/assembled-authentication.yml
@@ -365,62 +396,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/assembled/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-agent-profile-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-agent-profile-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-associate-agent-platforms-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-associate-agent-platforms-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-audit-schedule-changes-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-audit-schedule-changes-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-cancel-time-off-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-cancel-time-off-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-forecast-to-requirement-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-forecast-to-requirement-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-generate-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-generate-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-ingest-conversations-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-ingest-conversations-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-manage-forecast-total-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-manage-forecast-total-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-provision-agent-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-provision-agent-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-provision-queue-and-staff-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-provision-queue-and-staff-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-request-time-off-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-request-time-off-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-review-working-hours-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-review-working-hours-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-schedule-agent-shift-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-schedule-agent-shift-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-staff-agent-shift-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-staff-agent-shift-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/arazzo/assembled-stream-agent-state-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/assembled-stream-agent-state-workflow.yml
@@ -453,14 +499,17 @@ common:
   type: Pricing
   url: https://www.assembled.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/plans/assembled-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/assembled-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/rate-limits/assembled-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/assembled-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/finops/assembled-finops.yml
   title: ''
   type: FinOps
   url: finops/assembled-finops.yml
@@ -553,14 +602,17 @@ common:
   type: Product
   url: https://www.assembled.com/products/vendor-management
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/json-ld/assembled-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/assembled-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/vocabulary/assembled-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/assembled-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/rules/assembled-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/assembled-rules.yml
@@ -670,6 +722,43 @@ rules:
     info: 0
     warn: 4
   slug: assembled-rules
+score:
+  band: strong
+  composite: 59.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 78.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 56.6
+    contract_governance: 28.8
+    contract_quality: 61.9
+    developer_ergonomics: 58.3
+    discoverability: 64.8
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 59.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/screenshots/assembled-2026-06-20T172502.png
 security:
 - kind: authentication

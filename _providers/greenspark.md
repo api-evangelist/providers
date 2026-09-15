@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -127,74 +152,92 @@ common:
   type: PrivacyPolicy
   url: https://app.privasee.io/privacy-portal/61a7587adcff740014657fbf
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/_original/greenspark-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/greenspark-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/authentication/greenspark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/greenspark-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/agentic-access/greenspark-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/greenspark-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/security/greenspark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greenspark-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/packages/greenspark-packages.yml
   title: ''
   type: Packages
   url: packages/greenspark-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/packages/greenspark-packages.yml
   title: ''
   type: SDKs
   url: packages/greenspark-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/mcp/greenspark-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/greenspark-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/llms/greenspark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/greenspark-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/conventions/greenspark-conventions.yml
   title: ''
   type: Conventions
   url: conventions/greenspark-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/lifecycle/greenspark-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/greenspark-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/errors/greenspark-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/greenspark-problem-types.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/sandbox/greenspark-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/greenspark-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/components/greenspark-components.yml
   title: ''
   type: Components
   url: components/greenspark-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/conformance/greenspark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/greenspark-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/data-model/greenspark-data-model.yml
   title: ''
   type: DataModel
   url: data-model/greenspark-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/changelog/greenspark-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/greenspark-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/overlays/greenspark-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/greenspark-openapi-overlay.yaml
@@ -215,6 +258,41 @@ overview: 'Greenspark publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
   Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 22 more developer resources.'
 random_paper: 3
+score:
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 59.0
+    developer_ergonomics: 51.2
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 41.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/screenshots/greenspark-2026-07-25T220317.png
 security:
 - kind: authentication

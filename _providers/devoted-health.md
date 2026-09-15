@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -235,62 +261,77 @@ common:
   type: TermsOfService
   url: https://www.devoted.com/terms-of-use/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/authentication/devoted-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/devoted-health-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/scopes/devoted-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/devoted-health-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/well-known/devoted-health-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/devoted-health-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/well-known/devoted-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/devoted-health-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/conformance/devoted-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/devoted-health-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/errors/devoted-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/devoted-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/lifecycle/devoted-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/devoted-health-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/conventions/devoted-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/devoted-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/data-model/devoted-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/devoted-health-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/mcp/devoted-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/devoted-health-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/llms/devoted-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/devoted-health-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/overlays/devoted-health-patient-access-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/devoted-health-patient-access-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/overlays/devoted-health-provider-directory-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/devoted-health-provider-directory-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/security/devoted-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/devoted-health-domain-security.yml
@@ -303,106 +344,132 @@ common:
   type: GitHubOrganization
   url: https://github.com/DevotedHealth
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/authentication/devoted-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/devoted-health-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/scopes/devoted-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/devoted-health-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/well-known/devoted-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/devoted-health-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/conformance/devoted-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/devoted-health-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/conventions/devoted-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/devoted-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/data-model/devoted-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/devoted-health-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/errors/devoted-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/devoted-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/lifecycle/devoted-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/devoted-health-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/mcp/devoted-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/devoted-health-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/overlays/devoted-health-patient-access-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/devoted-health-patient-access-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/llms/devoted-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/devoted-health-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/security/devoted-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/devoted-health-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/agentic-access/devoted-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/devoted-health-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/authentication/devoted-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/devoted-health-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/scopes/devoted-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/devoted-health-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/well-known/devoted-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/devoted-health-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/conformance/devoted-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/devoted-health-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/conventions/devoted-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/devoted-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/data-model/devoted-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/devoted-health-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/errors/devoted-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/devoted-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/lifecycle/devoted-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/devoted-health-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/mcp/devoted-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/devoted-health-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/overlays/devoted-health-patient-access-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/devoted-health-patient-access-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/llms/devoted-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/devoted-health-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/security/devoted-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/devoted-health-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/agentic-access/devoted-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/devoted-health-agentic-access.yml
@@ -424,6 +491,47 @@ scopes:
   scope_count: 14
   slug: devoted-health-scopes
   summary_line: 14 scopes
+score:
+  band: developing
+  composite: 47.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 45.4
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 47.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 70.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/screenshots/devoted-health-2026-07-25T211822.png
 security:
 - kind: authentication

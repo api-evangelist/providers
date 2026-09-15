@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.3
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Standards for Carrier APIs
@@ -54,6 +79,7 @@ common:
   type: Website
   url: https://www.nmfta.org/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/capabilities/nmfta-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nmfta-capability-edges.yml
@@ -106,30 +132,37 @@ common:
   type: Contact
   url: mailto:dsdc@nmfta.org
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/governance/nmfta-governance.yml
   title: ''
   type: Governance
   url: governance/nmfta-governance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/taxonomy/nmfta-taxonomy.yml
   title: ''
   type: Taxonomy
   url: taxonomy/nmfta-taxonomy.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/companies/nmfta-companies.yml
   title: ''
   type: Companies
   url: companies/nmfta-companies.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/adoption/nmfta-adoption.yml
   title: ''
   type: Adoption
   url: adoption/nmfta-adoption.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/leads/nmfta-new-company-leads.yml
   title: ''
   type: Leads
   url: leads/nmfta-new-company-leads.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/repositories/nmfta-repositories.yml
   title: ''
   type: Repositories
   url: repositories/nmfta-repositories.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/contributors/nmfta-contributors.yml
   title: ''
   type: Contributors
   url: contributors/nmfta-contributors.yml
@@ -158,6 +191,37 @@ overview: 'NMFTA publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
   NMFTA''s developer surface includes developer portal, product news, and 19 more developer resources.'
 random_paper: 9
+score:
+  band: emerging
+  composite: 21.9
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 48.0
+    developer_ergonomics: 19.0
+    discoverability: 64.8
+    operational_transparency: 2.6
+  previous_composite: 21.9
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png
 slug: nmfta
 tags:

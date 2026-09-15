@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -74,6 +99,7 @@ collections:
   slug: open-segmind
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/capabilities/segmind-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/segmind-capability-edges.yml
@@ -122,86 +148,107 @@ common:
   type: StatusPage
   url: https://status.segmind.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/changelog/segmind-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/segmind-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/lifecycle/segmind-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/segmind-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/lifecycle/segmind-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/segmind-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/plans/segmind-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/segmind-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/rate-limits/segmind-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/segmind-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/finops/segmind-finops.yml
   title: ''
   type: FinOps
   url: finops/segmind-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/agentic-access/segmind-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/segmind-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/security/segmind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/segmind-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/authentication/segmind-authentication.yml
   title: ''
   type: Authentication
   url: authentication/segmind-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/scopes/segmind-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/segmind-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/conventions/segmind-conventions.yml
   title: ''
   type: Conventions
   url: conventions/segmind-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/errors/segmind-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/segmind-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/conformance/segmind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/segmind-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/conformance/segmind-conformance.yml
   title: ''
   type: Compliance
   url: conformance/segmind-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/data-model/segmind-data-model.yml
   title: ''
   type: DataModel
   url: data-model/segmind-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/packages/segmind-packages.yml
   title: ''
   type: Packages
   url: packages/segmind-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/packages/segmind-packages.yml
   title: ''
   type: SDKs
   url: packages/segmind-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/sandbox/segmind-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/segmind-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/asyncapi/segmind-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/segmind-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/llms/segmind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/segmind-llms.txt
@@ -254,6 +301,41 @@ scopes:
   scope_count: 0
   slug: segmind-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 67.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 57.7
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 67.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/screenshots/segmind-2026-06-20T193634.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Laurence MCP is a hosted, remote Model Context Protocol server that exposes a read-only set of nine tools over a customer''s Amazon Advertising and Amazon Marketing Stream data — allowed ads profiles, '
@@ -17,58 +42,72 @@ apis:
 artifact_total: 7
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/well-known/laurence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/laurence-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/llms/laurence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laurence-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/mcp/laurence-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/laurence-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/authentication/laurence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/laurence-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/scopes/laurence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/laurence-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/conformance/laurence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/laurence-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/conventions/laurence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/laurence-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/security/laurence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/laurence-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/packages/laurence-packages.yml
   title: ''
   type: Packages
   url: packages/laurence-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/plans/laurence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/laurence-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/rate-limits/laurence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/laurence-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/errors/laurence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/laurence-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/lifecycle/laurence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/laurence-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,6 +193,36 @@ scopes:
   scope_count: 0
   slug: laurence-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 23.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 23.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/screenshots/laurence-2026-07-25T224624.png
 security:
 - kind: authentication

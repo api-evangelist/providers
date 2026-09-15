@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -147,6 +173,7 @@ collections:
   slug: open-turntide-technologies-yoast-v1-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/overlays/turntide-technologies-wordpress-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/turntide-technologies-wordpress-rest-overlay.yaml
@@ -215,62 +242,77 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/turntide-technologies_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/well-known/turntide-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/turntide-technologies-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/mcp/turntide-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/turntide-technologies-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/mcp/turntide-technologies-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/turntide-technologies-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/authentication/turntide-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/turntide-technologies-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/scopes/turntide-technologies-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/turntide-technologies-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/security/turntide-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/turntide-technologies-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/conformance/turntide-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/turntide-technologies-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/errors/turntide-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/turntide-technologies-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/lifecycle/turntide-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/turntide-technologies-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/conventions/turntide-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/turntide-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/data-model/turntide-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/turntide-technologies-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/packages/turntide-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/turntide-technologies-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/llms/turntide-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/turntide-technologies-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/agentic-access/turntide-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/turntide-technologies-agentic-access.yml
@@ -296,6 +338,47 @@ scopes:
   scope_count: 1
   slug: turntide-technologies-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 33.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 25.0
+    contract_governance: 18.2
+    contract_quality: 16.0
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 33.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 16
+      marker_coverage: 100.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 64.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png
 security:
 - kind: authentication

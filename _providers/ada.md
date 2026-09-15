@@ -11,6 +11,31 @@ access_model:
   - https://www.ada.cx/
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: templated
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 47.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -188,58 +213,72 @@ collections:
   slug: open-ada-subpackage-webhookmanagement-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-channels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-channels-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-conversations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-conversations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-deletechatterdata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-deletechatterdata-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-endusers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-endusers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-knowledge-subpackage-knowledge-sources-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-knowledge-subpackage-knowledge-sources-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-knowledge-subpackage-knowledge-tags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-knowledge-subpackage-knowledge-tags-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-messages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-messages-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-platformintegrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-platformintegrations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-webhookmanagement-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-webhookmanagement-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/agentic-access/ada-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ada-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/security/ada-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ada-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/security/ada-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ada-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/security/ada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ada-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/authentication/ada-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ada-authentication.yml
@@ -276,22 +315,27 @@ common:
   type: X
   url: https://x.com/ada_cx
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/plans/ada-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ada-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/rate-limits/ada-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ada-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/finops/ada-finops.yml
   title: ''
   type: FinOps
   url: finops/ada-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/vocabulary/ada-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ada-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/json-ld/ada-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/ada-context.jsonld
@@ -340,38 +384,47 @@ common:
   type: Compliance
   url: https://security.ada.cx/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/packages/ada-packages.yml
   title: ''
   type: Packages
   url: packages/ada-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/packages/ada-packages.yml
   title: ''
   type: SDKs
   url: packages/ada-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/cli/ada-cli.yml
   title: ''
   type: CLI
   url: cli/ada-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/components/ada-components.yml
   title: ''
   type: Components
   url: components/ada-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/sandbox/ada-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ada-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/conventions/ada-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ada-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/conventions/ada-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ada-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/errors/ada-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ada-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/lifecycle/ada-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ada-lifecycle.yml
@@ -380,6 +433,7 @@ common:
   type: Deprecation
   url: https://docs.ada.cx/reference/introduction/migrate-to-v-2
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/changelog/ada-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ada-changelog.yml
@@ -388,18 +442,22 @@ common:
   type: ReleaseNotes
   url: https://docs.ada.cx/release-notes
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/conformance/ada-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ada-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/data-model/ada-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ada-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/scopes/ada-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ada-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/well-known/ada-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ada-well-known.yml
@@ -408,26 +466,32 @@ common:
   type: APICatalog
   url: https://docs.ada.cx/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/llms/ada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ada-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/mcp/ada-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ada-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/mcp/ada-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ada-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/asyncapi/ada-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ada-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/overlays/ada-subpackage-knowledge-subpackage-knowledge-articles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ada-subpackage-knowledge-subpackage-knowledge-articles-overlay.yaml
@@ -505,6 +569,41 @@ scopes:
   scope_count: 8
   slug: ada-scopes
   summary_line: 8 scopes · authorizationCode/refreshToken
+score:
+  band: exemplar
+  composite: 83.2
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 70.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 82.9
+    contract_governance: 43.2
+    contract_quality: 71.6
+    developer_ergonomics: 85.7
+    discoverability: 92.6
+    operational_transparency: 60.5
+  previous_composite: 83.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:
 - kind: authentication

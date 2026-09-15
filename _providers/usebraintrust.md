@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://dashboard.app.usebraintrust.com
@@ -25,6 +50,7 @@ collections:
   slug: open-usebraintrust-dashboard-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/overlays/usebraintrust-network-stats-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/usebraintrust-network-stats-overlay.yaml
@@ -65,18 +91,22 @@ common:
   type: PrivacyPolicy
   url: https://www.usebraintrust.com/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/llms/usebraintrust-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usebraintrust-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/well-known/usebraintrust-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/usebraintrust-well-known.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/changelog/usebraintrust-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/usebraintrust-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/conformance/usebraintrust-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usebraintrust-conformance.yml
@@ -85,18 +115,22 @@ common:
   type: Compliance
   url: https://www.usebraintrust.com/products/air/compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/security/usebraintrust-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/usebraintrust-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/security/usebraintrust-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usebraintrust-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/mcp/usebraintrust-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/usebraintrust-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -117,6 +151,41 @@ overview: 'Braintrust (Talent Network) publishes 1 API on the [APIs.io](https://
 
   Braintrust (Talent Network)''s developer surface includes documentation, engineering blog, pricing, support, signup flow, changelog, and 13 more developer resources.'
 random_paper: 7
+score:
+  band: thin
+  composite: 30.3
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 15.8
+    developer_ergonomics: 18.5
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 30.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/usebraintrust/refs/heads/main/screenshots/usebraintrust-2026-09-02T165230.png
 security:
 - kind: domain-security

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Cross River Operating System (COS) API is Cross River's API-driven bank core, exposing Accounts and Payments products (ACH, RTP, FedNow, wires, international payments, cards, subledgers, and lendi
@@ -17,6 +42,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/security/crb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crb-domain-security.yml
@@ -41,10 +67,12 @@ common:
   type: GettingStarted
   url: https://docs.crossriver.com/get-started/quickstart
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/authentication/crb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crb-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/sandbox/crb-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crb-sandbox.yml
@@ -53,6 +81,7 @@ common:
   type: Webhooks
   url: https://docs.crossriver.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/changelog/crb-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crb-changelog.yml
@@ -73,10 +102,12 @@ common:
   type: PrivacyPolicy
   url: https://www.crossriver.com/legal/privacy-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/conventions/crb-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crb-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/llms/crb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crb-llms.txt
@@ -93,6 +124,38 @@ overview: 'CRB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
   CRB''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 9 more developer resources.'
 random_paper: 17
+score:
+  band: emerging
+  composite: 25.3
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 66.7
+    operational_transparency: 23.7
+  previous_composite: 25.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 25.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/crb/refs/heads/main/screenshots/crb-2026-07-25T210659.png
 security:
 - kind: authentication

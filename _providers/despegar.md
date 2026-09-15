@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: https://api.despegar.com/v3
@@ -202,58 +227,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/despegar
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/mcp/despegar-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/despegar-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/llms/despegar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/despegar-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/well-known/despegar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/despegar-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/well-known/despegar-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/despegar-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/authentication/despegar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/despegar-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/conventions/despegar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/despegar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/lifecycle/despegar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/despegar-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/sandbox/despegar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/despegar-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/conformance/despegar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/despegar-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/errors/despegar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/despegar-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/data-model/despegar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/despegar-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/packages/despegar-packages.yml
   title: ''
   type: Packages
   url: packages/despegar-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/security/despegar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/despegar-vulnerability-disclosure.yml
@@ -262,6 +301,7 @@ common:
   type: Security
   url: https://www.despegar.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/security/despegar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/despegar-domain-security.yml
@@ -286,6 +326,45 @@ overview: 'Despegar publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
   Despegar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 17 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 30.6
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 50.8
+    developer_ergonomics: 44.6
+    discoverability: 81.5
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 30.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/screenshots/despegar-2026-07-25T211758.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Planday's REST API secured by OAuth2 bearer tokens, separated into domains (HR, Absence, Pay, Payroll, Portal, Punchclock, Reports, Revenue, Schedule, Contract Rules, Security Group Membership). Reque
@@ -21,6 +46,7 @@ common:
   type: Website
   url: https://www.planday.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/security/planday-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/planday-domain-security.yml
@@ -77,18 +103,22 @@ common:
   type: PrivacyPolicy
   url: https://www.planday.com/legal/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/well-known/planday-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/planday-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/authentication/planday-authentication.yml
   title: ''
   type: Authentication
   url: authentication/planday-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/scopes/planday-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/planday-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/conformance/planday-conformance.yml
   title: ''
   type: Conformance
   url: conformance/planday-conformance.yml
@@ -97,22 +127,27 @@ common:
   type: Compliance
   url: https://www.planday.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/lifecycle/planday-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/planday-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/conventions/planday-conventions.yml
   title: ''
   type: Conventions
   url: conventions/planday-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/data-model/planday-data-model.yml
   title: ''
   type: DataModel
   url: data-model/planday-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/mcp/planday-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/planday-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/llms/planday-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/planday-llms.txt
@@ -134,6 +169,35 @@ scopes:
   scope_count: 78
   slug: planday-scopes
   summary_line: 78 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: thin
+  composite: 33.8
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 33.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/screenshots/planday-2026-09-02T151402.png
 security:
 - kind: authentication

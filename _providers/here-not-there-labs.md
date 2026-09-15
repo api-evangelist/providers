@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Towns Protocol is an open, decentralized messaging protocol built on Base. Builders integrate via first-party TypeScript SDKs, a React SDK of hooks, and a bot/app framework. Under the hood the network
@@ -21,6 +46,7 @@ asyncapis:
   slug: here-not-there-labs-bot-events
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/security/here-not-there-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/here-not-there-labs-domain-security.yml
@@ -53,46 +79,57 @@ common:
   type: SignUp
   url: https://app.towns.com/developer
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/llms/here-not-there-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/here-not-there-labs-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/packages/here-not-there-labs-packages.yml
   title: ''
   type: Packages
   url: packages/here-not-there-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/packages/here-not-there-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/here-not-there-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/cli/here-not-there-labs-cli.yml
   title: ''
   type: CLI
   url: cli/here-not-there-labs-cli.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/grpc/here-not-there-labs-protocol.proto
   title: ''
   type: Protobuf
   url: grpc/here-not-there-labs-protocol.proto
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/asyncapi/here-not-there-labs-bot-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/here-not-there-labs-bot-events.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/conventions/here-not-there-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/here-not-there-labs-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/authentication/here-not-there-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/here-not-there-labs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/conformance/here-not-there-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/here-not-there-labs-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/conformance/here-not-there-labs-conformance.yml
   title: ''
   type: Compliance
   url: conformance/here-not-there-labs-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -113,6 +150,35 @@ overview: 'Here Not There Labs publishes 1 API on the [APIs.io](https://apis.io/
 
   Here Not There Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, and 13 more developer resources.'
 random_paper: 19
+score:
+  band: thin
+  composite: 32.8
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 32.8
+  provenance:
+    conformance: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/here-not-there-labs/refs/heads/main/screenshots/here-not-there-labs-2026-07-25T221025.png
 security:
 - kind: authentication

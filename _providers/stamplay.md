@@ -20,14 +20,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/Stamplay
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stamplay/refs/heads/main/packages/stamplay-packages.yml
   title: ''
   type: SDKs
   url: packages/stamplay-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stamplay/refs/heads/main/packages/stamplay-packages.yml
   title: ''
   type: Packages
   url: packages/stamplay-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stamplay/refs/heads/main/cli/stamplay-cli.yml
   title: ''
   type: CLI
   url: cli/stamplay-cli.yml

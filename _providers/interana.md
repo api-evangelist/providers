@@ -16,10 +16,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Interana
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/interana/refs/heads/main/packages/interana-packages.yml
   title: ''
   type: Packages
   url: packages/interana-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/interana/refs/heads/main/packages/interana-packages.yml
   title: ''
   type: SDKs
   url: packages/interana-packages.yml

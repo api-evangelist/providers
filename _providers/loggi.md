@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Loggi's REST integration platform for freight quotation, shipment creation (sync/async), label generation, package update/cancel, package details, real-time tracking, webhooks, integrator management a
@@ -57,54 +82,67 @@ common:
   type: PrivacyPolicy
   url: https://www.loggi.com/aviso-privacidade-clientes/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/llms/loggi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loggi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/well-known/loggi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/loggi-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/authentication/loggi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loggi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/conventions/loggi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loggi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/lifecycle/loggi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loggi-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/lifecycle/loggi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/loggi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/asyncapi/loggi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/loggi-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/mcp/loggi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/loggi-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/errors/loggi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/loggi-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/conformance/loggi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loggi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/data-model/loggi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loggi-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/packages/loggi-packages.yml
   title: ''
   type: Packages
   url: packages/loggi-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/security/loggi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loggi-domain-security.yml
@@ -124,6 +162,42 @@ overview: 'Loggi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Loggi''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 34.6
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 34.6
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/screenshots/loggi-2026-07-25T225453.png
 security:
 - kind: authentication

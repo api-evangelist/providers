@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The northbound API of the Juniper Session Smart Router (SSR) and Session Smart Conductor. A YANG-modeled configuration and state tree is exposed over a REST API rooted at /api/v1, an equivalent GraphQ
@@ -11,6 +36,7 @@ asyncapis:
   slug: 128-technology-event-surface
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/security/128-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/128-technology-domain-security.yml
@@ -55,46 +81,57 @@ common:
   type: Compliance
   url: https://docs.128technology.com/docs/cc_fips_intro
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/packages/128-technology-packages.yml
   title: ''
   type: Packages
   url: packages/128-technology-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/packages/128-technology-packages.yml
   title: ''
   type: SDKs
   url: packages/128-technology-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/authentication/128-technology-authentication.yml
   title: ''
   type: Authentication
   url: authentication/128-technology-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/conventions/128-technology-conventions.yml
   title: ''
   type: Conventions
   url: conventions/128-technology-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/lifecycle/128-technology-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/128-technology-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/changelog/128-technology-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/128-technology-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/conformance/128-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/128-technology-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/cli/128-technology-cli.yml
   title: ''
   type: CLI
   url: cli/128-technology-cli.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/plans/128-technology-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/128-technology-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/rate-limits/128-technology-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/128-technology-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/128-technology/refs/heads/main/llms/128-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/128-technology-llms.txt
@@ -123,6 +160,40 @@ rate_limits:
 - limit_count: 0
   name: 128 Technology Rate Limits
   slug: 128-technology-rate-limits
+score:
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 69.0
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 38.4
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 30.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: 128 Technology Authentication

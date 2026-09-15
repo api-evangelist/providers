@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://console.zenadmin.ai/api/external
@@ -71,14 +96,17 @@ collections:
   slug: open-zenadmin-webhooks-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/skills/zenadmin-inventory-devices-employees.md
   title: ''
   type: AgentSkill
   url: skills/zenadmin-inventory-devices-employees.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/mcp/zenadmin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zenadmin-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/overlays/zenadmin-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zenadmin-external-api-overlay.yaml
@@ -115,14 +143,17 @@ common:
   type: PrivacyPolicy
   url: https://www.zenadmin.ai/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/llms/zenadmin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenadmin-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/security/zenadmin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenadmin-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/well-known/zenadmin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zenadmin-well-known.yml
@@ -142,6 +173,40 @@ overview: 'ZenAdmin publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
   ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 11 more developer resources.'
 random_paper: 14
+score:
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 24.9
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 28.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/screenshots/zenadmin-2026-09-02T171553.png
 security:
 - kind: authentication

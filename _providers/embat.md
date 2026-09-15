@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -203,6 +228,7 @@ collections:
   slug: open-embat-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/capabilities/embat-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/embat-capability-edges.yml
@@ -223,54 +249,67 @@ common:
   type: APIReference
   url: https://api.embat.io/docs
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/authentication/embat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/embat-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/conventions/embat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/embat-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/errors/embat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/embat-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/data-model/embat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/embat-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/lifecycle/embat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/embat-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/conformance/embat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/embat-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/sandbox/embat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/embat-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/mcp/embat-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/embat-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/llms/embat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/embat-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/overlays/embat-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/embat-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/agentic-access/embat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/embat-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/security/embat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/embat-domain-security.yml
@@ -287,6 +326,47 @@ overview: 'Embat publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
   Embat''s developer surface includes documentation, API reference, authentication, sandbox, and 14 more developer resources.'
 random_paper: 17
+score:
+  band: thin
+  composite: 29.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 4.5
+    contract_quality: 61.8
+    developer_ergonomics: 37.5
+    discoverability: 51.9
+    operational_transparency: 0.0
+  previous_composite: 29.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 21.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/screenshots/embat-2026-07-25T213227.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://loyalty.hang.xyz/partner-api
@@ -167,18 +192,22 @@ collections:
   slug: open-hang-wallet-integration-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/security/hang-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hang-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/security/hang-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hang-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/security/hang-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hang-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/authentication/hang-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hang-authentication.yml
@@ -235,46 +264,57 @@ common:
   type: Compliance
   url: https://www.hang.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/llms/hang-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hang-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/mcp/hang-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hang-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/errors/hang-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hang-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/conventions/hang-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hang-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/conventions/hang-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hang-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/lifecycle/hang-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hang-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/conformance/hang-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hang-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/data-model/hang-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hang-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/asyncapi/hang-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hang-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/overlays/hang-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hang-partner-api-overlay.yaml
@@ -294,6 +334,40 @@ overview: 'Hang publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
   Hang''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 22 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 50.2
+    developer_ergonomics: 48.2
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 51.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
 security:
 - kind: authentication

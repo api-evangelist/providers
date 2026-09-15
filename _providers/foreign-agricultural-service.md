@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,14 +84,17 @@ collections:
   slug: open-foreign-agricultural-service
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/agentic-access/foreign-agricultural-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/foreign-agricultural-service-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/security/foreign-agricultural-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/foreign-agricultural-service-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/authentication/foreign-agricultural-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/foreign-agricultural-service-authentication.yml
@@ -79,50 +107,62 @@ common:
   type: Website
   url: https://www.fas.usda.gov/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/packages/foreign-agricultural-service-packages.yml
   title: ''
   type: Packages
   url: packages/foreign-agricultural-service-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/llms/foreign-agricultural-service-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/foreign-agricultural-service-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/mcp/foreign-agricultural-service-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/foreign-agricultural-service-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/conformance/foreign-agricultural-service-conformance.yml
   title: ''
   type: Conformance
   url: conformance/foreign-agricultural-service-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/errors/foreign-agricultural-service-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/foreign-agricultural-service-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/lifecycle/foreign-agricultural-service-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/foreign-agricultural-service-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/conventions/foreign-agricultural-service-conventions.yml
   title: ''
   type: Conventions
   url: conventions/foreign-agricultural-service-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/data-model/foreign-agricultural-service-data-model.yml
   title: ''
   type: DataModel
   url: data-model/foreign-agricultural-service-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/plans/foreign-agricultural-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/foreign-agricultural-service-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/rate-limits/foreign-agricultural-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/foreign-agricultural-service-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/security/foreign-agricultural-service-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/foreign-agricultural-service-vulnerability-disclosure.yml
@@ -162,7 +202,7 @@ modified: '2026-09-10'
 name: Foreign Agricultural Service
 nav: Providers
 network: true
-overview: 'Foreign Agricultural Service publishes 4 APIs on the [APIs.io](https://apis.io/) network, including USDA FAS Open Data API, ESR API, GATS API, and 1 more. Tagged areas include Agriculture, Federal-Government, Trade, Open-Data, and Commodities.
+overview: 'Foreign Agricultural Service publishes 4 APIs on the [APIs.io](https://apis.io/) network, including USDA FAS Open Data API, ESR API, GATS API, and 1 more. Tagged areas include Agriculture, Federal-Government, Trade, Open Data, and Commodities.
 
 
   Foreign Agricultural Service''s developer surface includes authentication, API reference, signup flow, support, and 19 more developer resources.'
@@ -175,6 +215,48 @@ rate_limits:
 - limit_count: 0
   name: Foreign Agricultural Service Rate Limits
   slug: foreign-agricultural-service-rate-limits
+score:
+  band: thin
+  composite: 32.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 44.6
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 32.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/screenshots/foreign-agricultural-service-2026-06-20T181418.png
 security:
 - kind: authentication
@@ -194,9 +276,9 @@ tags:
 - Agriculture
 - Federal-Government
 - Trade
-- Open-Data
+- Open Data
 - Commodities
-- Exports
+- Export
 - Government
 website: https://www.fas.usda.gov/
 ---

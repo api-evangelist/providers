@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The multi-tenant commerce backend Amboras operates at api.amboras.com. Every Amboras-built storefront calls it through the Medusa JS SDK, sending a publishable API key (x-publishable-api-key, pk_ pref
@@ -16,10 +41,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/security/amboras-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amboras-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/security/amboras-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amboras-vulnerability-disclosure.yml
@@ -32,6 +59,7 @@ common:
   type: Compliance
   url: https://www.amboras.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/security/amboras-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amboras-domain-security.yml
@@ -76,50 +104,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/Amboras
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/authentication/amboras-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amboras-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/conventions/amboras-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amboras-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/errors/amboras-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amboras-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/lifecycle/amboras-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amboras-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/conformance/amboras-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amboras-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/changelog/amboras-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amboras-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/plans/amboras-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amboras-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/packages/amboras-packages.yml
   title: ''
   type: Packages
   url: packages/amboras-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/packages/amboras-packages.yml
   title: ''
   type: SDKs
   url: packages/amboras-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/components/amboras-components.yml
   title: ''
   type: Components
   url: components/amboras-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/llms/amboras-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amboras-llms.txt
@@ -145,6 +185,41 @@ rate_limits:
 - limit_count: 0
   name: Amboras Rate Limits
   slug: amboras-rate-limits
+score:
+  band: developing
+  composite: 44.9
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 68.5
+    operational_transparency: 44.7
+  previous_composite: 44.9
+  provenance:
+    conformance: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/screenshots/amboras-2026-07-25T200029.png
 security:
 - kind: authentication

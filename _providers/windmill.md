@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -714,6 +739,7 @@ common:
   type: Website
   url: https://www.windmill.dev/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/capabilities/windmill-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/windmill-capability-edges.yml
@@ -734,54 +760,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/windmill/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/agentic-access/windmill-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/windmill-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/security/windmill-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/windmill-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/authentication/windmill-authentication.yml
   title: ''
   type: Authentication
   url: authentication/windmill-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-bootstrap-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-bootstrap-workspace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-create-and-run-script-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-create-and-run-script-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-provision-resource-and-run-script-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-provision-resource-and-run-script-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-provision-variable-and-run-script-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-provision-variable-and-run-script-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-run-flow-and-await-result-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-run-flow-and-await-result-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-run-script-and-await-result-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-run-script-and-await-result-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-run-script-and-cleanup-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-run-script-and-cleanup-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-run-script-with-timeout-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-run-script-with-timeout-cancel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-schedule-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-schedule-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/arazzo/windmill-schedule-script-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/windmill-schedule-script-workflow.yml
@@ -1014,6 +1053,38 @@ rules:
     info: 1
     warn: 4
   slug: windmill-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 72.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 54.5
+    contract_quality: 51.5
+    developer_ergonomics: 58.3
+    discoverability: 63.0
+    operational_transparency: 34.2
+  previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 59
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:
 - kind: authentication

@@ -16,6 +16,7 @@ common:
   type: Website
   url: https://unamo.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unamo/refs/heads/main/llms/unamo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unamo-llms.txt

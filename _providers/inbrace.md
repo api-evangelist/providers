@@ -14,6 +14,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inbrace/refs/heads/main/security/inbrace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inbrace-domain-security.yml

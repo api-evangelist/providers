@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -254,18 +279,22 @@ collections:
   slug: open-process-street-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/capabilities/process-street-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/process-street-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/overlays/process-street-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/process-street-public-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/security/process-street-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/process-street-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/security/process-street-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/process-street-vulnerability-disclosure.yml
@@ -294,10 +323,12 @@ common:
   type: APIReference
   url: https://public-api.process.st/api/v1.1/docs/index.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/mcp/process-street-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/process-street-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/authentication/process-street-authentication.yml
   title: ''
   type: Authentication
   url: authentication/process-street-authentication.yml
@@ -338,18 +369,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/process-street
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/llms/process-street-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/process-street-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/packages/process-street-packages.yml
   title: ''
   type: Packages
   url: packages/process-street-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/security/process-street-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/process-street-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -373,6 +408,41 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
 
   Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 4.5
+    contract_quality: 65.3
+    developer_ergonomics: 47.0
+    discoverability: 66.7
+    operational_transparency: 36.8
+  previous_composite: 44.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/screenshots/process-street-2026-08-17T081341.png
 security:
 - kind: authentication

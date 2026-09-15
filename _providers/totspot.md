@@ -16,10 +16,12 @@ common:
   type: Website
   url: https://totspot.me
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/totspot/refs/heads/main/security/totspot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/totspot-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/totspot/refs/heads/main/well-known/totspot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/totspot-well-known.yml

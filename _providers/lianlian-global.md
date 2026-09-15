@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -405,22 +430,27 @@ collections:
   slug: open-lianlian-global-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/capabilities/lianlian-global-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lianlian-global-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/agentic-access/lianlian-global-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lianlian-global-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/security/lianlian-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lianlian-global-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/scopes/lianlian-global-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lianlian-global-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/authentication/lianlian-global-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lianlian-global-authentication.yml
@@ -473,158 +503,197 @@ common:
   type: PrivacyPolicy
   url: https://us.lianlianglobal.com/legal/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/packages/lianlian-global-packages.yml
   title: ''
   type: Packages
   url: packages/lianlian-global-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/packages/lianlian-global-packages.yml
   title: ''
   type: SDKs
   url: packages/lianlian-global-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/cli/lianlian-global-cli.yml
   title: ''
   type: CLI
   url: cli/lianlian-global-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/sandbox/lianlian-global-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lianlian-global-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/conventions/lianlian-global-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lianlian-global-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/conventions/lianlian-global-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lianlian-global-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/errors/lianlian-global-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lianlian-global-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/lifecycle/lianlian-global-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lianlian-global-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/changelog/lianlian-global-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lianlian-global-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/asyncapi/lianlian-global-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lianlian-global-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/conformance/lianlian-global-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lianlian-global-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/well-known/lianlian-global-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lianlian-global-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/mcp/lianlian-global-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lianlian-global-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/llms/lianlian-global-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lianlian-global-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/data-model/lianlian-global-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lianlian-global-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/skills/lianlian-global-b2c-openapi-integration.md
   title: ''
   type: AgentSkill
   url: skills/lianlian-global-b2c-openapi-integration.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/skills/lianlian-global-vcc-openapi-integration.md
   title: ''
   type: AgentSkill
   url: skills/lianlian-global-vcc-openapi-integration.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/skills/lianlian-global-lppe-payout.md
   title: ''
   type: AgentSkill
   url: skills/lianlian-global-lppe-payout.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/skills/lianlian-global-lppe-receive.md
   title: ''
   type: AgentSkill
   url: skills/lianlian-global-lppe-receive.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/skills/lianlian-global-b2c-collection.md
   title: ''
   type: AgentSkill
   url: skills/lianlian-global-b2c-collection.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-b2b-inflow-payout-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-b2b-inflow-payout-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-b2b-cross-border-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-b2b-cross-border-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-cards-open-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-cards-open-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-connect-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-connect-ota-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-connect-ota-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-e-wallet-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-e-wallet-openapi-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-global-payout-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-global-payout-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-global-payout-fx-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-global-payout-fx-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-global-payout-tuition-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-global-payout-tuition-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-llg-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-llg-payments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-llp-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-llp-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-lppe-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-lppe-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-outbound-payout-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-outbound-payout-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-outbound-payout-ka-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-outbound-payout-ka-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-outbound-payout-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-outbound-payout-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-outbound-payout-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-outbound-payout-verification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-standard-remittance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-standard-remittance-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/overlays/lianlian-global-triplink-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lianlian-global-triplink-overlay.yaml
@@ -650,6 +719,54 @@ scopes:
   scope_count: 1
   slug: lianlian-global-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 45.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 4.5
+    contract_quality: 57.3
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 45.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: derived
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 42.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png
 security:
 - kind: authentication

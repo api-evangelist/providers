@@ -10,6 +10,31 @@ access_model:
   - authentication/push-authentication.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -155,82 +180,102 @@ common:
   type: PrivacyPolicy
   url: https://pushtech.com/privacy_policy
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-cendyn-crm-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/push-cendyn-crm-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/overlays/push-cendyn-crm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/push-cendyn-crm-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/asyncapi/push-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/push-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/asyncapi/push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/push-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/authentication/push-authentication.yml
   title: ''
   type: Authentication
   url: authentication/push-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/conventions/push-conventions.yml
   title: ''
   type: Conventions
   url: conventions/push-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/errors/push-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/push-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/data-model/push-data-model.yml
   title: ''
   type: DataModel
   url: data-model/push-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/lifecycle/push-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/push-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/conformance/push-conformance.yml
   title: ''
   type: Conformance
   url: conformance/push-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/packages/push-packages.yml
   title: ''
   type: Packages
   url: packages/push-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/packages/push-packages.yml
   title: ''
   type: SDKs
   url: packages/push-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/plans/push-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/push-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/rate-limits/push-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/push-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/agentic-access/push-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/push-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/llms/push-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/push-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/arazzo/push-onboard-and-welcome-guest.yml
   title: ''
   type: Arazzo
   url: arazzo/push-onboard-and-welcome-guest.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/arazzo/push-load-catalog-and-purchase-history.yml
   title: ''
   type: Arazzo
   url: arazzo/push-load-catalog-and-purchase-history.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/security/push-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/push-domain-security.yml
@@ -259,6 +304,47 @@ rate_limits:
 - limit_count: 0
   name: Push Rate Limits
   slug: push-rate-limits
+score:
+  band: thin
+  composite: 33.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 21.8
+    developer_ergonomics: 66.1
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 33.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 15
+      marker_coverage: 100.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/screenshots/push-2026-08-17T081405.png
 security:
 - kind: authentication

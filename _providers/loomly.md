@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Public, read-only, unauthenticated JSON API for the Loomly status page, exposing overall system state, the four service components (Publishing, Analytics, Interactions, Website) and paginated incident
@@ -77,58 +102,72 @@ common:
   type: StatusPage
   url: https://status.loomly.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/lifecycle/loomly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loomly-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/changelog/loomly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/loomly-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/authentication/loomly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loomly-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/conventions/loomly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loomly-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/loomly-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/loomly-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/loomly-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/security/loomly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loomly-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/conformance/loomly-conformance.yml
   title: ''
   type: Compliance
   url: conformance/loomly-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/conformance/loomly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loomly-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/plans/loomly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loomly-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/rate-limits/loomly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loomly-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/finops/loomly-finops.yml
   title: ''
   type: FinOps
   url: finops/loomly-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/llms/loomly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loomly-llms.txt
@@ -171,6 +210,35 @@ rate_limits:
 - limit_count: 1
   name: Loomly Rate Limits
   slug: loomly-rate-limits
+score:
+  band: developing
+  composite: 44.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 55.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 59.3
+    operational_transparency: 65.8
+  previous_composite: 44.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/screenshots/loomly-2026-06-20T184715.png
 security:
 - kind: authentication

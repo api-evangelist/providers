@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'GraphQL reporting API for Jampp advertisers. The pivot query returns funnel metrics — impressions, clicks, spend, installs, events, CPC/CPM/CTR/CPI/CPA/ROAS — grouped by any combination of documented '
@@ -64,70 +89,87 @@ common:
   type: PrivacyPolicy
   url: https://www.jampp.com/privacy-policy-terms-and-conditions
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/changelog/jampp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jampp-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/packages/jampp-packages.yml
   title: ''
   type: Packages
   url: packages/jampp-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/packages/jampp-packages.yml
   title: ''
   type: SDKs
   url: packages/jampp-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/well-known/jampp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jampp-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/authentication/jampp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jampp-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/scopes/jampp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jampp-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/conformance/jampp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jampp-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/errors/jampp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jampp-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/lifecycle/jampp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jampp-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/conventions/jampp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jampp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/data-model/jampp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jampp-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/vocabulary/jampp-reporting-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/jampp-reporting-vocabulary.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/rate-limits/jampp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jampp-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/plans/jampp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jampp-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/security/jampp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jampp-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/llms/jampp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jampp-llms.txt
@@ -157,6 +199,36 @@ scopes:
   scope_count: 1
   slug: jampp-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
+score:
+  band: thin
+  composite: 31.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 38.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 22.0
+    contract_quality: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 31.9
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/screenshots/jampp-2026-09-02T145930.png
 security:
 - kind: authentication

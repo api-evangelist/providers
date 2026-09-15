@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The keyword-matching service behind Koko's Suicide Prevention Toolkit. Callers match a search term or post against Koko's risk taxonomy, filtered across three dimensions — category, confidence and int
@@ -38,10 +63,12 @@ collections:
   slug: open-koko-helplines-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/overlays/koko-crisis-helplines-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koko-crisis-helplines-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/security/koko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koko-domain-security.yml
@@ -94,54 +121,67 @@ common:
   type: ChangeLog
   url: https://developers.kokocares.org/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/changelog/koko-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/koko-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/authentication/koko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koko-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/conventions/koko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koko-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/errors/koko-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/koko-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/lifecycle/koko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koko-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/conformance/koko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koko-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/data-model/koko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koko-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/packages/koko-packages.yml
   title: ''
   type: Packages
   url: packages/koko-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/packages/koko-packages.yml
   title: ''
   type: SDKs
   url: packages/koko-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/well-known/koko-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/koko-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/mcp/koko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/koko-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/llms/koko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koko-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -159,6 +199,47 @@ overview: 'Koko publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cou
 
   Koko''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 20 more developer resources.'
 random_paper: 16
+score:
+  band: thin
+  composite: 32.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 13.4
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 32.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/koko/refs/heads/main/screenshots/koko-2026-07-25T224124.png
 security:
 - kind: authentication

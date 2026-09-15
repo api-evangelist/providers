@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -228,58 +253,72 @@ collections:
   slug: open-kore-wireless-webhook
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/capabilities/kore-wireless-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kore-wireless-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-connectivity-pro-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-connectivity-pro-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-supersim-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-supersim-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-programmable-wireless-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-programmable-wireless-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-sms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-webhook-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-webhook-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-iam-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-iam-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-api-clients-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-api-clients-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-token-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/agentic-access/kore-wireless-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kore-wireless-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/security/kore-wireless-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kore-wireless-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/security/kore-wireless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kore-wireless-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/scopes/kore-wireless-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kore-wireless-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/authentication/kore-wireless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kore-wireless-authentication.yml
@@ -376,62 +415,77 @@ common:
   type: Security
   url: https://www.korewireless.com/responsible-disclosure-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/llms/kore-wireless-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kore-wireless-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/packages/kore-wireless-packages.yml
   title: ''
   type: Packages
   url: packages/kore-wireless-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/packages/kore-wireless-packages.yml
   title: ''
   type: SDKs
   url: packages/kore-wireless-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/mcp/kore-wireless-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kore-wireless-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/conventions/kore-wireless-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kore-wireless-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/conventions/kore-wireless-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kore-wireless-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/errors/kore-wireless-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kore-wireless-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/errors/kore-wireless-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kore-wireless-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/lifecycle/kore-wireless-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kore-wireless-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/changelog/kore-wireless-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kore-wireless-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/sandbox/kore-wireless-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kore-wireless-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/conformance/kore-wireless-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kore-wireless-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/asyncapi/kore-wireless-event-streams-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kore-wireless-event-streams-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/data-model/kore-wireless-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kore-wireless-data-model.yml
@@ -457,6 +511,54 @@ scopes:
   scope_count: 0
   slug: kore-wireless-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 50.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 57.7
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 50.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 63.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/screenshots/kore-wireless-2026-08-07T171327.png
 security:
 - kind: authentication

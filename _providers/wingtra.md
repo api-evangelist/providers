@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The GraphQL API behind my.wingtra.com, Wingtra's customer and partner portal. The schema answers anonymous introspection and returns 84 types, 38 query root fields and 33 mutations covering drone regi
@@ -10,6 +35,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/security/wingtra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wingtra-domain-security.yml
@@ -54,58 +80,72 @@ common:
   type: ChangeLog
   url: https://knowledge.wingtra.com/en/wingtracloud-releases-
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/well-known/wingtra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wingtra-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/well-known/wingtra-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/wingtra-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/authentication/wingtra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wingtra-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/scopes/wingtra-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wingtra-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/conventions/wingtra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wingtra-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/conformance/wingtra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wingtra-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/conformance/wingtra-conformance.yml
   title: ''
   type: Compliance
   url: conformance/wingtra-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/errors/wingtra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wingtra-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/lifecycle/wingtra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wingtra-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/data-model/wingtra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wingtra-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/packages/wingtra-packages.yml
   title: ''
   type: Packages
   url: packages/wingtra-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/plans/wingtra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wingtra-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/rate-limits/wingtra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wingtra-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wingtra/refs/heads/main/llms/wingtra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wingtra-llms.txt
@@ -136,6 +176,43 @@ scopes:
   scope_count: 0
   slug: wingtra-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 37.2
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 42.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Wingtra Authentication

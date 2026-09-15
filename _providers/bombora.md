@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.4
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - baseURL: https://api.bombora.com/intent/v1
@@ -123,30 +149,37 @@ collections:
   slug: open-bombora-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/overlays/bombora-authentication-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bombora-authentication-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/overlays/bombora-account-list-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bombora-account-list-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/overlays/bombora-reference-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bombora-reference-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/overlays/bombora-digital-audience-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bombora-digital-audience-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/overlays/bombora-webhooks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bombora-webhooks-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/authentication/bombora-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bombora-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/security/bombora-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bombora-domain-security.yml
@@ -215,34 +248,42 @@ common:
   type: Blog
   url: https://bombora.com/feed/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/packages/bombora-packages.yml
   title: ''
   type: Packages
   url: packages/bombora-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/well-known/bombora-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bombora-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/mcp/bombora-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bombora-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/mcp/bombora-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bombora-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/llms/bombora-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bombora-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/conformance/bombora-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bombora-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/errors/bombora-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bombora-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/lifecycle/bombora-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bombora-lifecycle.yml
@@ -251,30 +292,37 @@ common:
   type: Deprecation
   url: https://developer.bombora.com/api-change-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/conventions/bombora-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bombora-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/changelog/bombora-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bombora-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/data-model/bombora-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bombora-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/asyncapi/bombora-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bombora-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/plans/bombora-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bombora-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/rate-limits/bombora-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bombora-rate-limits.yml
@@ -339,6 +387,45 @@ rate_limits:
 - limit_count: 1
   name: Bombora Rate Limits
   slug: bombora-rate-limits
+score:
+  band: developing
+  composite: 45.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 66.8
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 45.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png
 security:
 - kind: authentication

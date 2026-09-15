@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
@@ -105,10 +130,12 @@ collections:
   slug: open-newcastle-permanent-scheduled-payments-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/capabilities/newcastle-permanent-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/newcastle-permanent-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/security/newcastle-permanent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newcastle-permanent-domain-security.yml
@@ -145,30 +172,37 @@ common:
   type: Sandbox
   url: https://developer.newcastlepermanent.com.au/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/authentication/newcastle-permanent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/newcastle-permanent-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/scopes/newcastle-permanent-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/newcastle-permanent-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/well-known/newcastle-permanent-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/newcastle-permanent-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/conventions/newcastle-permanent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/newcastle-permanent-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/errors/newcastle-permanent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/newcastle-permanent-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/conformance/newcastle-permanent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/newcastle-permanent-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/lifecycle/newcastle-permanent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/newcastle-permanent-lifecycle.yml
@@ -181,22 +215,27 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/data-model/newcastle-permanent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/newcastle-permanent-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/mcp/newcastle-permanent-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/newcastle-permanent-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/overlays/newcastle-permanent-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/newcastle-permanent-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/llms/newcastle-permanent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newcastle-permanent-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/skills/newcastle-permanent-browse-products.md
   title: ''
   type: AgentSkill
   url: skills/newcastle-permanent-browse-products.md
@@ -238,6 +277,59 @@ scopes:
   scope_count: 12
   slug: newcastle-permanent-scopes
   summary_line: 12 scopes · authorizationCode
+score:
+  band: developing
+  composite: 44.1
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 51.5
+    developer_ergonomics: 35.1
+    discoverability: 81.5
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 44.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 22.2
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: consumer-data-standards
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 87.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:
 - kind: authentication

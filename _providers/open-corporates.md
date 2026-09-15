@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST API providing access to the world's largest open database of companies. Search and retrieve company registration data, officer information, corporate filings, and jurisdiction data across more th
@@ -20,6 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-corporates/refs/heads/main/security/open-corporates-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-corporates-domain-security.yml
@@ -56,14 +82,17 @@ common:
   type: X
   url: https://twitter.com/opencorporates
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-corporates/refs/heads/main/plans/open-corporates-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/open-corporates-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/open-corporates/refs/heads/main/rate-limits/open-corporates-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/open-corporates-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-corporates/refs/heads/main/finops/open-corporates-finops.yml
   title: ''
   type: FinOps
   url: finops/open-corporates-finops.yml
@@ -92,6 +121,38 @@ rate_limits:
 - limit_count: 9
   name: Open Corporates Rate Limits
   slug: open-corporates-rate-limits
+score:
+  band: thin
+  composite: 30.1
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 11.9
+    discoverability: 68.5
+    operational_transparency: 44.7
+  previous_composite: 30.1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-corporates/refs/heads/main/screenshots/open-corporates-2026-06-20T190736.png
 security:
 - kind: domain-security

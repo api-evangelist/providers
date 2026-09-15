@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.reachware.com
@@ -36,54 +61,67 @@ collections:
   slug: open-reachware-inc-payments-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/openapi/_original/reachware-inc-reachpay-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/reachware-inc-reachpay-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/overlays/reachware-inc-reachpay-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reachware-inc-reachpay-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/authentication/reachware-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reachware-inc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/security/reachware-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reachware-inc-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/mcp/reachware-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/reachware-inc-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/errors/reachware-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reachware-inc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/conventions/reachware-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reachware-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/data-model/reachware-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reachware-inc-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/sandbox/reachware-inc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/reachware-inc-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/conformance/reachware-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reachware-inc-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/conformance/reachware-inc-conformance.yml
   title: ''
   type: Compliance
   url: conformance/reachware-inc-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/llms/reachware-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reachware-inc-llms.txt
@@ -136,6 +174,53 @@ overview: 'Reachware Inc. publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
   Reachware Inc.''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 16 more developer resources.'
 random_paper: 3
+score:
+  band: developing
+  composite: 40.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 25.0
+    contract_governance: 18.2
+    contract_quality: 55.8
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - saudi-arabia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  previous_composite: 40.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 53.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/screenshots/reachware-inc-2026-08-17T081449.png
 security:
 - kind: authentication

@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 59.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -237,10 +263,12 @@ collections:
   slug: open-talkable-visitors-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/agentic-access/talkable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/talkable-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/security/talkable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/talkable-domain-security.yml
@@ -285,86 +313,107 @@ common:
   type: StatusPage
   url: https://status.talkable.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/mcp/talkable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/talkable-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/authentication/talkable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/talkable-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/scopes/talkable-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/talkable-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/conventions/talkable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/talkable-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/errors/talkable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/talkable-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/lifecycle/talkable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/talkable-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/conformance/talkable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/talkable-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/asyncapi/talkable-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/talkable-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/well-known/talkable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/talkable-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/packages/talkable-packages.yml
   title: ''
   type: Packages
   url: packages/talkable-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/packages/talkable-packages.yml
   title: ''
   type: SDKs
   url: packages/talkable-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/data-model/talkable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/talkable-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/overlays/talkable-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkable-v2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/llms/talkable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/talkable-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/mcp/talkable-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/talkable-tool-crosswalk.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/rate-limits/talkable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/talkable-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/plans/talkable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/talkable-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/changelog/talkable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/talkable-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/sandbox/talkable-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/talkable-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/components/talkable-components.yml
   title: ''
   type: Components
   url: components/talkable-components.yml
@@ -417,6 +466,41 @@ scopes:
   scope_count: 3
   slug: talkable-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: strong
+  composite: 59.4
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 58.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 59.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/screenshots/talkable-2026-08-17T082242.png
 security:
 - kind: authentication

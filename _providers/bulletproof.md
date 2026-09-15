@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API served from the Bulletproof store host. Anonymous introspection succeeded on 2026-08-08 (424 types, QueryRoot + Mutation), and anonymous queries against shop, produc
@@ -68,50 +93,62 @@ common:
   type: PrivacyPolicy
   url: https://shop.bulletproof.com/policies/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/llms/bulletproof-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bulletproof-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/well-known/bulletproof-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bulletproof-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/authentication/bulletproof-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bulletproof-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/scopes/bulletproof-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bulletproof-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/conventions/bulletproof-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bulletproof-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/conventions/bulletproof-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bulletproof-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/errors/bulletproof-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bulletproof-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/errors/bulletproof-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/bulletproof-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/lifecycle/bulletproof-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bulletproof-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/conformance/bulletproof-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bulletproof-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/security/bulletproof-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bulletproof-domain-security.yml
@@ -147,6 +184,42 @@ scopes:
   scope_count: 4
   slug: bulletproof-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 42.6
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 37.7
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bulletproof/refs/heads/main/screenshots/bulletproof-2026-09-02T144956.png
 security:
 - kind: authentication

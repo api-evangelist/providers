@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -382,38 +408,47 @@ common:
   type: Website
   url: https://www.adobe.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/packages/adobe-packages.yml
   title: ''
   type: Packages
   url: packages/adobe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/packages/adobe-packages.yml
   title: ''
   type: SDKs
   url: packages/adobe-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/well-known/adobe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adobe-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/well-known/adobe-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adobe-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/llms/adobe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adobe-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/mcp/adobe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adobe-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/mcp/adobe-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/adobe-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/conformance/adobe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adobe-conformance.yml
@@ -422,6 +457,7 @@ common:
   type: Compliance
   url: https://www.adobe.com/trust/compliance/compliance-list.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/security/adobe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adobe-trust-center.yml
@@ -430,10 +466,12 @@ common:
   type: Security
   url: https://helpx.adobe.com/security.html/security/policy.ug.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/errors/adobe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adobe-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/lifecycle/adobe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adobe-lifecycle.yml
@@ -442,74 +480,92 @@ common:
   type: Deprecation
   url: https://developer.adobe.com/document-services/docs/overview/pdf-services-api/policies/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/conventions/adobe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adobe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/data-model/adobe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adobe-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/overlays/adobe-pdf-services-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-pdf-services-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/asyncapi/adobe-pdf-services-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adobe-pdf-services-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/sandbox/adobe-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adobe-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/changelog/adobe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adobe-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/cli/adobe-cli.yml
   title: ''
   type: CLI
   url: cli/adobe-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/components/adobe-components.yml
   title: ''
   type: Components
   url: components/adobe-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/plans/adobe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/rate-limits/adobe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/finops/adobe-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-finops.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-pdf-services-api-openapi-official.json
   title: ''
   type: OpenAPI
   url: openapi/_original/adobe-pdf-services-api-openapi-official.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-substance-3d-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/adobe-substance-3d-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-cc-libraries-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/adobe-cc-libraries-api-openapi.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/agentic-access/adobe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/security/adobe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/security/adobe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/authentication/adobe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-authentication.yml
@@ -518,62 +574,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-auto-tag-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-auto-tag-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-combine-pdfs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-combine-pdfs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-compress-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-compress-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-create-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-create-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-delete-pages-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-delete-pages-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-download-and-cleanup-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-download-and-cleanup-asset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-export-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-export-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-extract-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-extract-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-generate-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-generate-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-inspect-pdf-properties-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-inspect-pdf-properties-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-ocr-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-ocr-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-protect-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-protect-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-remove-protection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-remove-protection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-rotate-pages-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-rotate-pages-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/arazzo/adobe-split-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-split-pdf-workflow.yml
@@ -654,22 +725,27 @@ common:
   type: Login
   url: https://developer.adobe.com/console/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-pdf-services-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/adobe-pdf-services-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/json-schema/adobe-pdf-services-asset-upload-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-pdf-services-asset-upload-request-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/json-ld/adobe-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/rules/adobe-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/adobe-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/vocabulary/adobe-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-vocabulary.yaml
@@ -1165,6 +1241,41 @@ rules:
     info: 1
     warn: 9
   slug: adobe-spectral-rules
+score:
+  band: exemplar
+  composite: 78.5
+  coverage:
+    artifact_dirs: 38
+    catalog_earned: 80.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 73.6
+    developer_ergonomics: 95.8
+    discoverability: 57.4
+    operational_transparency: 78.9
+  previous_composite: 78.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:
 - kind: authentication

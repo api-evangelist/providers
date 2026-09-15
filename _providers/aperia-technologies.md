@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 8.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Halo Connect Partner API is the read-only REST integration surface of the Halo Connect tire-management portal. Partners and fleet platforms authenticate with HTTP Basic credentials and pull vehicl
@@ -62,6 +87,7 @@ common:
   type: PrivacyPolicy
   url: https://aperiatech.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/security/aperia-technologies-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aperia-technologies-trust-center.yml
@@ -70,30 +96,37 @@ common:
   type: Compliance
   url: https://aperia-technologies.secureframetrust.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/llms/aperia-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aperia-technologies-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/authentication/aperia-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aperia-technologies-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/conventions/aperia-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aperia-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/errors/aperia-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aperia-technologies-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/lifecycle/aperia-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aperia-technologies-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/conformance/aperia-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aperia-technologies-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/security/aperia-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aperia-technologies-domain-security.yml
@@ -110,6 +143,34 @@ overview: 'Aperia Technologies publishes 1 API on the [APIs.io](https://apis.io/
 
   Aperia Technologies'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 13 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 28.5
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 28.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aperia-technologies/refs/heads/main/screenshots/aperia-technologies-2026-08-07T161450.png
 security:
 - kind: authentication

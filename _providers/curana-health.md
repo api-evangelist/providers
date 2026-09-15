@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Standards-based FHIR R4 (4.0.1) Patient Access API published for CMS-9115-F / ONC 21st Century Cures Act compliance. Lets Medicare Advantage members authorize third-party applications via OAuth 2.0 to
@@ -49,26 +74,32 @@ common:
   type: Compliance
   url: https://curanahealth.com/interoperability-api/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/authentication/curana-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/curana-health-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/scopes/curana-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/curana-health-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/conventions/curana-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/curana-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/conformance/curana-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/curana-health-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/errors/curana-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/curana-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/lifecycle/curana-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/curana-health-lifecycle.yml
@@ -77,30 +108,37 @@ common:
   type: Deprecation
   url: https://curanahealth.com/wp-content/uploads/2025/11/CuranaCMSAPI-Release-Policy-Clean-and-Final.pdf
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/changelog/curana-health-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/curana-health-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/sandbox/curana-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/curana-health-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/data-model/curana-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/curana-health-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/mcp/curana-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/curana-health-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/llms/curana-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curana-health-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/well-known/curana-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/curana-health-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/security/curana-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curana-health-domain-security.yml
@@ -122,6 +160,47 @@ scopes:
   scope_count: 0
   slug: curana-health-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 36.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 36.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: us-core
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 71.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/curana-health/refs/heads/main/screenshots/curana-health-2026-07-25T210929.png
 security:
 - kind: authentication

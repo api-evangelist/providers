@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the drinkhint.com storefront. Discovery is published at https://www.drinkhint.com/.well-known/ucp (Universal Commerce Protocol merchant profile, versions 2026-04-0
@@ -20,6 +45,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/security/hint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hint-domain-security.yml
@@ -52,58 +78,72 @@ common:
   type: PrivacyPolicy
   url: https://www.drinkhint.com/policies/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/mcp/hint-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hint-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/llms/hint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hint-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/well-known/hint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hint-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/authentication/hint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hint-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/scopes/hint-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hint-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/conventions/hint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/conventions/hint-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/errors/hint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hint-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/conformance/hint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hint-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/lifecycle/hint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hint-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/rate-limits/hint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hint-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/plans/hint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hint-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/data-model/hint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hint-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -137,6 +177,36 @@ scopes:
   scope_count: 0
   slug: hint-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 22.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 22.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint/refs/heads/main/screenshots/hint-2026-09-02T145732.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,10 +80,12 @@ common:
   type: Website
   url: https://www.hedra.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/capabilities/hedra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hedra-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/overlays/hedra-web-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hedra-web-api-overlay.yaml
@@ -115,78 +142,97 @@ common:
   type: StatusPage
   url: https://status.hedra.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/agentic-access/hedra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hedra-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/authentication/hedra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hedra-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/packages/hedra-packages.yml
   title: ''
   type: Packages
   url: packages/hedra-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/packages/hedra-packages.yml
   title: ''
   type: SDKs
   url: packages/hedra-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/cli/hedra-cli.yml
   title: ''
   type: CLI
   url: cli/hedra-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/mcp/hedra-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hedra-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/llms/hedra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hedra-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/conformance/hedra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hedra-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/errors/hedra-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/hedra-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/conventions/hedra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hedra-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/data-model/hedra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hedra-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/lifecycle/hedra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hedra-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/security/hedra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hedra-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/asyncapi/hedra-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hedra-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/arazzo/hedra-generate-image.yml
   title: ''
   type: Arazzo
   url: arazzo/hedra-generate-image.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/arazzo/hedra-generate-video.yml
   title: ''
   type: Arazzo
   url: arazzo/hedra-generate-video.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/arazzo/hedra-generate-avatar-video.yml
   title: ''
   type: Arazzo
   url: arazzo/hedra-generate-avatar-video.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/arazzo/hedra-generate-audio.yml
   title: ''
   type: Arazzo
   url: arazzo/hedra-generate-audio.yml
@@ -206,6 +252,41 @@ overview: 'Hedra publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
   Hedra''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 28 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 48.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 56.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 48.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/screenshots/hedra-2026-07-25T220905.png
 security:
 - kind: authentication

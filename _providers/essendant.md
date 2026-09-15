@@ -8,10 +8,36 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 16.2
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/security/essendant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/essendant-domain-security.yml
@@ -24,30 +50,37 @@ common:
   type: Website
   url: https://www.essendant.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/llms/essendant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/essendant-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/well-known/essendant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/essendant-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/authentication/essendant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/essendant-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/scopes/essendant-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/essendant-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/conformance/essendant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/essendant-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/plans/essendant-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/essendant-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/rate-limits/essendant-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/essendant-rate-limits.yml
@@ -113,6 +146,34 @@ scopes:
   scope_count: 9
   slug: essendant-scopes
   summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
+score:
+  band: emerging
+  composite: 17.2
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 57.4
+    operational_transparency: 0.0
+  previous_composite: 17.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/essendant/refs/heads/main/screenshots/essendant-2026-06-20T180823.png
 security:
 - kind: authentication
@@ -133,8 +194,8 @@ tags:
 - 3PL
 - B2B
 - EDI
-- Ecommerce
+- E-Commerce
 - JanSan
-- Foodservice
+- Food Service
 website: https://www.essendant.com
 ---

@@ -33,7 +33,6 @@ tags:
 - Developer Tools
 - Cybersecurity
 - Fintech
-- Consumer
 - United States
 - Asia
 - Global

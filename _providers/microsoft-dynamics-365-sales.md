@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -118,26 +144,32 @@ collections:
   slug: open-microsoft-dynamics-365-sales
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/agentic-access/microsoft-dynamics-365-sales-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-dynamics-365-sales-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/security/microsoft-dynamics-365-sales-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-dynamics-365-sales-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/security/microsoft-dynamics-365-sales-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-dynamics-365-sales-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/security/microsoft-dynamics-365-sales-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-dynamics-365-sales-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/authentication/microsoft-dynamics-365-sales-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-dynamics-365-sales-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/scopes/microsoft-dynamics-365-sales-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-dynamics-365-sales-scopes.yml
@@ -210,38 +242,47 @@ common:
   type: SLA
   url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/packages/microsoft-dynamics-365-sales-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-dynamics-365-sales-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/packages/microsoft-dynamics-365-sales-packages.yml
   title: ''
   type: SDKs
   url: packages/microsoft-dynamics-365-sales-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/cli/microsoft-dynamics-365-sales-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-dynamics-365-sales-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/mcp/microsoft-dynamics-365-sales-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/microsoft-dynamics-365-sales-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/mcp/microsoft-dynamics-365-sales-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/microsoft-dynamics-365-sales-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/llms/microsoft-dynamics-365-sales-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-dynamics-365-sales-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/well-known/microsoft-dynamics-365-sales-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-dynamics-365-sales-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/well-known/microsoft-dynamics-365-sales-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-dynamics-365-sales-security.txt
@@ -254,22 +295,27 @@ common:
   type: Compliance
   url: https://www.microsoft.com/en-us/trust-center/compliance/compliance-overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/conformance/microsoft-dynamics-365-sales-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-dynamics-365-sales-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/conventions/microsoft-dynamics-365-sales-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-dynamics-365-sales-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/errors/microsoft-dynamics-365-sales-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-dynamics-365-sales-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/data-model/microsoft-dynamics-365-sales-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-dynamics-365-sales-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/lifecycle/microsoft-dynamics-365-sales-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-dynamics-365-sales-lifecycle.yml
@@ -282,22 +328,27 @@ common:
   type: Deprecation
   url: https://learn.microsoft.com/en-us/power-platform/important-changes-coming
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/changelog/microsoft-dynamics-365-sales-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-dynamics-365-sales-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/sandbox/microsoft-dynamics-365-sales-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-dynamics-365-sales-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/asyncapi/microsoft-dynamics-365-sales-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/microsoft-dynamics-365-sales-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/plans/microsoft-dynamics-365-sales-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-dynamics-365-sales-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/rate-limits/microsoft-dynamics-365-sales-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-dynamics-365-sales-rate-limits.yml
@@ -334,6 +385,41 @@ scopes:
   scope_count: 2
   slug: microsoft-dynamics-365-sales-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 68.4
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 60.4
+    developer_ergonomics: 80.4
+    discoverability: 83.3
+    operational_transparency: 89.5
+  previous_composite: 68.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/screenshots/microsoft-dynamics-365-sales-2026-06-20T185455.png
 security:
 - kind: authentication

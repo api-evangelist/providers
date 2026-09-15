@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -98,6 +123,7 @@ collections:
   slug: open-biolevate-question-answering-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/_original/biolevate-api-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/biolevate-api-original.json
@@ -114,74 +140,92 @@ common:
   type: GettingStarted
   url: https://api-docs.biolevatecloud.com/biolevateapi/intro
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/authentication/biolevate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/biolevate-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/packages/biolevate-packages.yml
   title: ''
   type: Packages
   url: packages/biolevate-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/packages/biolevate-packages.yml
   title: ''
   type: SDKs
   url: packages/biolevate-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/cli/biolevate-cli.yml
   title: ''
   type: CLI
   url: cli/biolevate-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/mcp/biolevate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/biolevate-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/agentic-access/biolevate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/biolevate-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/llms/biolevate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biolevate-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/overlays/biolevate-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/biolevate-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/conventions/biolevate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/biolevate-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/conventions/biolevate-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/biolevate-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/errors/biolevate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/biolevate-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/data-model/biolevate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/biolevate-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/conformance/biolevate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biolevate-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/lifecycle/biolevate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/biolevate-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/changelog/biolevate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/biolevate-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/well-known/biolevate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/biolevate-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/security/biolevate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biolevate-domain-security.yml
@@ -226,6 +270,47 @@ overview: 'Biolevate publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
   Biolevate''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 42.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 54.5
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 42.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/screenshots/biolevate-2026-07-25T203041.png
 security:
 - kind: authentication

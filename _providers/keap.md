@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -315,38 +341,47 @@ common:
   type: License
   url: https://github.com/infusionsoft/keap-sdk/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/capabilities/keap-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/keap-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/overlays/keap-appointment-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keap-appointment-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/overlays/keap-e-commerce-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keap-e-commerce-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/overlays/keap-file-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keap-file-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/overlays/keap-product-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keap-product-v1-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/agentic-access/keap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/keap-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/security/keap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keap-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/authentication/keap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keap-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/scopes/keap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/keap-scopes.yml
@@ -383,42 +418,52 @@ common:
   type: Blog
   url: https://keap.com/small-business-automation-blog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/well-known/keap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/keap-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/mcp/keap-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/keap-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/mcp/keap-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/keap-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/packages/keap-packages.yml
   title: ''
   type: Packages
   url: packages/keap-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/packages/keap-packages.yml
   title: ''
   type: SDKs
   url: packages/keap-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/llms/keap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keap-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/conformance/keap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/keap-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/conformance/keap-conformance.yml
   title: ''
   type: Compliance
   url: conformance/keap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/errors/keap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/keap-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/lifecycle/keap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keap-lifecycle.yml
@@ -427,46 +472,57 @@ common:
   type: StatusPage
   url: https://status.thryv.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/lifecycle/keap-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/keap-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/conventions/keap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/keap-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/sandbox/keap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/keap-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/components/keap-components.yml
   title: ''
   type: Components
   url: components/keap-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/data-model/keap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/keap-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/plans/keap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/keap-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/rate-limits/keap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/keap-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/asyncapi/keap-resthooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/keap-resthooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/asyncapi/keap-resthooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/keap-resthooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/rules/keap-asyncapi-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/keap-asyncapi-spectral-rules.yml
@@ -583,6 +639,47 @@ scopes:
   scope_count: 1
   slug: keap-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 65.0
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 38.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 76.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 15.9
+    contract_quality: 64.8
+    developer_ergonomics: 78.0
+    discoverability: 50.0
+    operational_transparency: 34.2
+  previous_composite: 65.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 51
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,6 +101,7 @@ collections:
   slug: open-highnote
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/skills/highnote-accept-a-payment.md
   title: ''
   type: AgentSkill
   url: skills/highnote-accept-a-payment.md
@@ -92,14 +118,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/highnote/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/agentic-access/highnote-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/highnote-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/security/highnote-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/highnote-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/authentication/highnote-authentication.yml
   title: ''
   type: Authentication
   url: authentication/highnote-authentication.yml
@@ -156,46 +185,57 @@ common:
   type: Signup
   url: https://dashboard.highnote.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/plans/highnote-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/highnote-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/rate-limits/highnote-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/highnote-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/finops/highnote-finops.yml
   title: ''
   type: FinOps
   url: finops/highnote-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/packages/highnote-packages.yml
   title: ''
   type: Packages
   url: packages/highnote-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/packages/highnote-packages.yml
   title: ''
   type: SDKs
   url: packages/highnote-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/mcp/highnote-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/highnote-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/mcp/highnote-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/highnote-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/llms/highnote-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/highnote-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/well-known/highnote-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/highnote-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/overlays/highnote-graphql-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/highnote-graphql-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/conformance/highnote-conformance.yml
   title: ''
   type: Conformance
   url: conformance/highnote-conformance.yml
@@ -204,14 +244,17 @@ common:
   type: Compliance
   url: https://docs.highnote.com/docs/get-started/introduction/pci-dss-compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/errors/highnote-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/highnote-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/errors/highnote-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/highnote-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/lifecycle/highnote-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/highnote-lifecycle.yml
@@ -220,38 +263,47 @@ common:
   type: DeprecationPolicy
   url: https://docs.highnote.com/docs/developers/api/status-changes
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/conventions/highnote-conventions.yml
   title: ''
   type: Conventions
   url: conventions/highnote-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/conventions/highnote-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/highnote-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/changelog/highnote-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/highnote-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/sandbox/highnote-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/highnote-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/components/highnote-components.yml
   title: ''
   type: Components
   url: components/highnote-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/data-model/highnote-data-model.yml
   title: ''
   type: DataModel
   url: data-model/highnote-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/asyncapi/highnote-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/highnote-events-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/asyncapi/highnote-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/highnote-events-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
@@ -288,6 +340,54 @@ rate_limits:
 - limit_count: 2
   name: Highnote Rate Limits
   slug: highnote-rate-limits
+score:
+  band: exemplar
+  composite: 71.8
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 56.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 18.2
+    contract_quality: 67.3
+    developer_ergonomics: 74.4
+    discoverability: 75.9
+    operational_transparency: 71.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 71.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 68.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:
 - kind: authentication

@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -212,22 +238,27 @@ collections:
   slug: open-salla-zones-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/capabilities/salla-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salla-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/agentic-access/salla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salla-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/security/salla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salla-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/authentication/salla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salla-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/scopes/salla-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salla-scopes.yml
@@ -236,46 +267,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salla/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-abandoned-cart-recovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-abandoned-cart-recovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-catalog-taxonomy-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-catalog-taxonomy-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-customer-upsert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-customer-upsert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-oauth-token-exchange-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-oauth-token-exchange-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-order-fulfillment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-order-fulfillment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-order-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-order-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-product-create-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-product-create-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-product-upsert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-product-upsert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-shipment-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-shipment-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-shipping-zone-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-shipping-zone-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/arazzo/salla-webhook-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salla-webhook-subscription-workflow.yml
@@ -404,22 +446,27 @@ common:
   type: Forums
   url: https://t.me/sallaDevelopers
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/rules/salla-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salla-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/vocabulary/salla-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salla-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/plans/salla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salla-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/rate-limits/salla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salla-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/finops/salla-finops.yml
   title: ''
   type: FinOps
   url: finops/salla-finops.yml
@@ -540,6 +587,52 @@ scopes:
   scope_count: 11
   slug: salla-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 72.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 86.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 28.8
+    contract_quality: 70.7
+    developer_ergonomics: 82.1
+    discoverability: 64.8
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - saudi-arabia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  previous_composite: 72.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png
 security:
 - kind: authentication

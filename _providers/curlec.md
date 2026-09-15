@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 56.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -359,6 +384,7 @@ collections:
   slug: open-curlec-x-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/capabilities/curlec-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/curlec-capability-edges.yml
@@ -367,10 +393,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/curlec/overview
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/a2a/curlec-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/curlec-a2a.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/security/curlec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/curlec-domain-security.yml
@@ -443,78 +471,97 @@ common:
   type: Postman
   url: https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/asyncapi/curlec-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/curlec-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/mcp/curlec-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/curlec-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/well-known/curlec-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/curlec-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/packages/curlec-packages.yml
   title: ''
   type: Packages
   url: packages/curlec-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/packages/curlec-packages.yml
   title: ''
   type: SDKs
   url: packages/curlec-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conventions/curlec-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/curlec-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conventions/curlec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/curlec-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/errors/curlec-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/curlec-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/lifecycle/curlec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/curlec-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conformance/curlec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/curlec-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/conformance/curlec-conformance.yml
   title: ''
   type: Compliance
   url: conformance/curlec-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/sandbox/curlec-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/curlec-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/data-model/curlec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/curlec-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/changelog/curlec-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/curlec-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/agentic-access/curlec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/curlec-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/overlays/curlec-razorpay-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/curlec-razorpay-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/llms/curlec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/curlec-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/components/curlec-components.yml
   title: ''
   type: Components
   url: components/curlec-components.yml
@@ -547,6 +594,52 @@ scopes:
   scope_count: 1
   slug: curlec-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 62.8
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 65.9
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 75.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:
 - kind: authentication

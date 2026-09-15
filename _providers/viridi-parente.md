@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://vista.viridiparente.com
@@ -9,10 +34,12 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/security/viridi-parente-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/viridi-parente-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/authentication/viridi-parente-authentication.yml
   title: ''
   type: Authentication
   url: authentication/viridi-parente-authentication.yml
@@ -61,46 +88,57 @@ common:
   type: FAQ
   url: https://viridiparente.com/faq/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/conventions/viridi-parente-conventions.yml
   title: ''
   type: Conventions
   url: conventions/viridi-parente-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/errors/viridi-parente-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/viridi-parente-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/data-model/viridi-parente-data-model.yml
   title: ''
   type: DataModel
   url: data-model/viridi-parente-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/conformance/viridi-parente-conformance.yml
   title: ''
   type: Conformance
   url: conformance/viridi-parente-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/lifecycle/viridi-parente-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/viridi-parente-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/llms/viridi-parente-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/viridi-parente-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/overlays/viridi-parente-vista-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viridi-parente-vista-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/plans/viridi-parente-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/viridi-parente-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/rate-limits/viridi-parente-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/viridi-parente-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/viridi-parente/refs/heads/main/mcp/viridi-parente-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/viridi-parente-mcp.yml
@@ -125,6 +163,41 @@ rate_limits:
 - limit_count: 0
   name: Viridi Parente Rate Limits
   slug: viridi-parente-rate-limits
+score:
+  band: developing
+  composite: 41.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 45.3
+    developer_ergonomics: 37.5
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 41.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 security:
 - kind: authentication
   name: Viridi Parente Authentication

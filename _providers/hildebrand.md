@@ -10,6 +10,31 @@ access_model:
   - https://docs.glowmarkt.com/GlowmarktAPIDataRetrievalDocumentationIndividualUserForBright.pdf
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -152,26 +177,32 @@ collections:
   slug: open-hildebrand-glowmarkt-virtual-entity-system-swagger
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/capabilities/hildebrand-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hildebrand-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/overlays/hildebrand-glowmarkt-user-system-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hildebrand-glowmarkt-user-system-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/overlays/hildebrand-glowmarkt-resource-system-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hildebrand-glowmarkt-resource-system-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/overlays/hildebrand-glowmarkt-virtual-entity-system-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hildebrand-glowmarkt-virtual-entity-system-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/overlays/hildebrand-glowmarkt-device-management-system-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hildebrand-glowmarkt-device-management-system-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/overlays/hildebrand-glowmarkt-notification-system-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hildebrand-glowmarkt-notification-system-overlay.yaml
@@ -192,58 +223,72 @@ common:
   type: Compliance
   url: https://www.hildebrand.co.uk/about
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/conformance/hildebrand-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hildebrand-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/conventions/hildebrand-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hildebrand-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/errors/hildebrand-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hildebrand-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/lifecycle/hildebrand-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hildebrand-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/data-model/hildebrand-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hildebrand-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/packages/hildebrand-packages.yml
   title: ''
   type: Packages
   url: packages/hildebrand-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/plans/hildebrand-plans.yml
   title: ''
   type: Plans
   url: plans/hildebrand-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/mcp/hildebrand-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hildebrand-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/llms/hildebrand-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hildebrand-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/asyncapi/hildebrand-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/hildebrand-event-surface.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/agentic-access/hildebrand-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hildebrand-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/security/hildebrand-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hildebrand-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/authentication/hildebrand-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hildebrand-authentication.yml
@@ -284,6 +329,7 @@ common:
   type: PrivacyPolicy
   url: https://www.hildebrand.co.uk/privacy-policy
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -308,6 +354,55 @@ plans:
   plan_count: 3
   slug: hildebrand-plans
 random_paper: 8
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 61.0
+    developer_ergonomics: 49.4
+    discoverability: 74.1
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 54.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 52.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/screenshots/hildebrand-2026-08-07T170207.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.quo.com
@@ -95,14 +120,17 @@ collections:
   slug: open-openphone-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/capabilities/openphone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openphone-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/security/openphone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/openphone-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/security/openphone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openphone-domain-security.yml
@@ -127,6 +155,7 @@ common:
   type: GettingStarted
   url: https://www.quo.com/docs/mdx/api-reference/send-your-first-message
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/authentication/openphone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openphone-authentication.yml
@@ -159,6 +188,7 @@ common:
   type: ChangeLog
   url: https://www.quo.com/docs/mdx/api-reference/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/changelog/openphone-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openphone-changelog.yml
@@ -167,50 +197,62 @@ common:
   type: Compliance
   url: https://www.quo.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/lifecycle/openphone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openphone-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/conventions/openphone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openphone-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/errors/openphone-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openphone-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/conformance/openphone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openphone-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/data-model/openphone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openphone-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/asyncapi/openphone-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openphone-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/mcp/openphone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/openphone-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/well-known/openphone-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openphone-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/overlays/openphone-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openphone-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/packages/openphone-packages.yml
   title: ''
   type: Packages
   url: packages/openphone-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/llms/openphone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openphone-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -230,6 +272,52 @@ overview: 'OpenPhone publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
   OpenPhone''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, signup flow, and 23 more developer resources.'
 random_paper: 6
+score:
+  band: strong
+  composite: 54.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 67.5
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 54.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 36.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/screenshots/openphone-2026-08-07T190627.png
 security:
 - kind: authentication

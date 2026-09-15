@@ -12,10 +12,12 @@ api_count: 0
 artifact_total: 2
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/interface-specifications/refs/heads/main/security/interface-specifications-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/interface-specifications-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/interface-specifications/refs/heads/main/security/interface-specifications-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interface-specifications-domain-security.yml

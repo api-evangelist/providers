@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://www.searchapi.io/api/v1/search
@@ -100,86 +125,107 @@ common:
   type: Compliance
   url: https://www.searchapi.io/legal/dpa
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/mcp/searchapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/searchapi-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/authentication/searchapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/searchapi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/conventions/searchapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/searchapi-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/packages/searchapi-packages.yml
   title: ''
   type: Packages
   url: packages/searchapi-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/changelog/searchapi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/searchapi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/lifecycle/searchapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/searchapi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/conformance/searchapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/searchapi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/security/searchapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/searchapi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/security/searchapi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/searchapi-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/llms/searchapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/searchapi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/well-known/searchapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/searchapi-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/scopes/searchapi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/searchapi-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/rate-limits/searchapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/searchapi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/plans/searchapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/searchapi-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/errors/searchapi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/searchapi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/data-model/searchapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/searchapi-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/mcp/searchapi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/searchapi-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/overlays/searchapi-search-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/searchapi-search-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/collections/searchapi-search-api.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/searchapi-search-api.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/collections/searchapi-search-api.opencollection.json
   title: ''
   type: OpenCollection
   url: collections/searchapi-search-api.opencollection.json
@@ -213,6 +259,41 @@ scopes:
   scope_count: 0
   slug: searchapi-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 50.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 14.2
+    developer_ergonomics: 49.4
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 50.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png
 security:
 - kind: authentication

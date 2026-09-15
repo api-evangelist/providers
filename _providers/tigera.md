@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
@@ -161,94 +186,117 @@ common:
   type: Compliance
   url: https://www.tigera.io/tigera-products/calico-cloud-trust-center/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/security/tigera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tigera-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/security/tigera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tigera-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/security/tigera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tigera-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/authentication/tigera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tigera-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/scopes/tigera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tigera-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/well-known/tigera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tigera-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/llms/tigera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tigera-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/mcp/tigera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tigera-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/mcp/tigera-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tigera-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/packages/tigera-packages.yml
   title: ''
   type: Packages
   url: packages/tigera-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/packages/tigera-packages.yml
   title: ''
   type: SDKs
   url: packages/tigera-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/cli/tigera-cli.yml
   title: ''
   type: CLI
   url: cli/tigera-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/conventions/tigera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tigera-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/conventions/tigera-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tigera-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/conformance/tigera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tigera-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/errors/tigera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tigera-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/lifecycle/tigera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tigera-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/changelog/tigera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tigera-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/data-model/tigera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tigera-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/asyncapi/tigera-calico-cloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tigera-calico-cloud-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/overlays/tigera-calico-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tigera-calico-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/grpc/tigera-goldmane-api.proto
   title: ''
   type: Protobuf
   url: grpc/tigera-goldmane-api.proto
@@ -277,6 +325,43 @@ scopes:
   scope_count: 1
   slug: tigera-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 47.5
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 51.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/screenshots/tigera-2026-08-17T082354.png
 security:
 - kind: authentication

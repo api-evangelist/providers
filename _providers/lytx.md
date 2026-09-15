@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -326,18 +352,22 @@ collections:
   slug: open-lytx-zones-go9-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/capabilities/lytx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lytx-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/overlays/lytx-consent--overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lytx-consent--overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/agentic-access/lytx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lytx-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/security/lytx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lytx-domain-security.yml
@@ -362,30 +392,37 @@ common:
   type: Authentication
   url: https://developer.lytx.com/docs/authentication
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/llms/lytx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lytx-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/mcp/lytx-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lytx-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/well-known/lytx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lytx-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/asyncapi/lytx-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lytx-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/errors/lytx-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lytx-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/conventions/lytx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lytx-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/lifecycle/lytx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lytx-lifecycle.yml
@@ -394,18 +431,22 @@ common:
   type: StatusPage
   url: https://status.lytx.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/conformance/lytx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lytx-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/data-model/lytx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lytx-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/authentication/lytx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lytx-authentication.yml
@@ -445,6 +486,41 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 
   Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 20 more developer resources.'
 random_paper: 3
+score:
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 62.1
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 39.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:
 - kind: authentication

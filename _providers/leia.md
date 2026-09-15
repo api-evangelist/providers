@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: true
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -55,18 +80,22 @@ collections:
   slug: open-leia-immersity-cloud-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/capabilities/leia-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leia-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/overlays/leia-immersity-cloud-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leia-immersity-cloud-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/agentic-access/leia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leia-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/security/leia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leia-domain-security.yml
@@ -123,70 +152,87 @@ common:
   type: FAQ
   url: https://immersity.ai/faqs
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/changelog/leia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leia-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/packages/leia-packages.yml
   title: ''
   type: Packages
   url: packages/leia-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/packages/leia-packages.yml
   title: ''
   type: SDKs
   url: packages/leia-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/well-known/leia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leia-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/llms/leia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leia-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/authentication/leia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/scopes/leia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/leia-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/conventions/leia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/lifecycle/leia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leia-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/conformance/leia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leia-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/errors/leia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/data-model/leia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leia-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/asyncapi/leia-callbacks.yml
   title: ''
   type: Webhooks
   url: asyncapi/leia-callbacks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/mcp/leia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/leia-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/plans/leia-plans.yml
   title: ''
   type: Plans
   url: plans/leia-plans.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/examples/leia-immersity-cloud-api-examples.yml
   title: ''
   type: Examples
   url: examples/leia-immersity-cloud-api-examples.yml
@@ -216,6 +262,41 @@ scopes:
   scope_count: 20
   slug: leia-scopes
   summary_line: 20 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 4.5
+    contract_quality: 68.8
+    developer_ergonomics: 57.7
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 52.8
+  provenance:
+    agentic_access: first-party
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/screenshots/leia-2026-08-07T171526.png
 security:
 - kind: authentication

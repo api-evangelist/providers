@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -220,6 +245,7 @@ collections:
   slug: open-airtm-withdrawals-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/overlays/airtm-enterprise-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/airtm-enterprise-v1-overlay.yaml
@@ -272,94 +298,117 @@ common:
   type: StatusPage
   url: https://status.airtm.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/security/airtm-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/airtm-trust-center.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/changelog/airtm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/airtm-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/lifecycle/airtm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/airtm-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/authentication/airtm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airtm-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/scopes/airtm-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/airtm-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/conventions/airtm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/airtm-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/conventions/airtm-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/airtm-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/rate-limits/airtm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/airtm-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/errors/airtm-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/airtm-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/errors/airtm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/airtm-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/conformance/airtm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airtm-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/packages/airtm-packages.yml
   title: ''
   type: Packages
   url: packages/airtm-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/packages/airtm-packages.yml
   title: ''
   type: SDKs
   url: packages/airtm-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/sandbox/airtm-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/airtm-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/components/airtm-components.yml
   title: ''
   type: Components
   url: components/airtm-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/data-model/airtm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/airtm-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/asyncapi/airtm-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/airtm-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/well-known/airtm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/airtm-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/well-known/airtm-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/airtm-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/llms/airtm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airtm-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/mcp/airtm-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/airtm-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/agentic-access/airtm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/airtm-agentic-access.yml
@@ -368,10 +417,12 @@ common:
   type: Security
   url: https://www.airtm.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/security/airtm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/airtm-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/security/airtm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airtm-domain-security.yml
@@ -400,6 +451,52 @@ scopes:
   scope_count: 8
   slug: airtm-scopes
   summary_line: 8 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: strong
+  composite: 60.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 67.2
+    developer_ergonomics: 73.2
+    discoverability: 57.4
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 60.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/screenshots/airtm-2026-08-07T161117.png
 security:
 - kind: authentication

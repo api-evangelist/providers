@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -11209,6 +11235,7 @@ common:
   type: APIReference
   url: https://learn.microsoft.com/en-us/rest/api/azure/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/mcp/microsoft-azure-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/microsoft-azure-tool-crosswalk.yml
@@ -11217,22 +11244,27 @@ common:
   type: Deprecation
   url: https://azure.microsoft.com/en-us/updates/?updateType=retirements
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/components/microsoft-azure-components.yml
   title: ''
   type: Components
   url: components/microsoft-azure-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/data-model/microsoft-azure-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-azure-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/sandbox/microsoft-azure-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-azure-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/asyncapi/microsoft-azure-event-grid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/microsoft-azure-event-grid-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -11265,70 +11297,87 @@ common:
   type: Website
   url: https://azure.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/capabilities/microsoft-azure-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/agentic-access/microsoft-azure-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/security/microsoft-azure-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/authentication/microsoft-azure-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/scopes/microsoft-azure-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/packages/microsoft-azure-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-azure-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/well-known/microsoft-azure-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-azure-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/well-known/microsoft-azure-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-azure-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/mcp/microsoft-azure-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/microsoft-azure-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/llms/microsoft-azure-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-azure-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/lifecycle/microsoft-azure-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-azure-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/conventions/microsoft-azure-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-azure-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/errors/microsoft-azure-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-azure-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/conformance/microsoft-azure-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-azure-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/cli/microsoft-azure-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-azure-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/security/microsoft-azure-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-azure-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/security/microsoft-azure-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-azure-trust-center.yml
@@ -11337,58 +11386,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-azure/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-audit-subscription-resources-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-audit-subscription-resources-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-create-resource-group-and-deploy-from-link-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-create-resource-group-and-deploy-from-link-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-create-resource-group-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-create-resource-group-and-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-deploy-template-to-resource-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-deploy-template-to-resource-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-deploy-then-delete-resource-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-deploy-then-delete-resource-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-deployment-status-and-resource-list-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-deployment-status-and-resource-list-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-find-resources-by-type-and-inspect-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-find-resources-by-type-and-inspect-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-list-providers-and-resources-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-list-providers-and-resources-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-list-resource-groups-and-inventory-resources-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-list-resource-groups-and-inventory-resources-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-redeploy-into-existing-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-redeploy-into-existing-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-relocate-resource-group-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-relocate-resource-group-deployment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-resource-group-lifecycle-tag-and-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-resource-group-lifecycle-tag-and-inventory-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-select-subscription-and-list-resource-groups-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-select-subscription-and-list-resource-groups-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/arazzo/microsoft-azure-tag-resource-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-tag-resource-group-workflow.yml
@@ -11485,6 +11548,7 @@ common:
   type: Plans
   url: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/json-ld/microsoft-azure-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-azure-context.jsonld
@@ -13987,6 +14051,41 @@ scopes:
   scope_count: 25
   slug: microsoft-azure-scopes
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 73.3
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 62.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 33.3
+    contract_quality: 69.9
+    developer_ergonomics: 74.4
+    discoverability: 57.4
+    operational_transparency: 63.2
+  previous_composite: 73.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 1659
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
 - kind: authentication

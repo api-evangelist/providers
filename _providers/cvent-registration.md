@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -148,22 +173,27 @@ collections:
   slug: open-cvent-registration
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/agentic-access/cvent-registration-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cvent-registration-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/security/cvent-registration-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cvent-registration-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/security/cvent-registration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cvent-registration-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/authentication/cvent-registration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cvent-registration-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/scopes/cvent-registration-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cvent-registration-scopes.yml
@@ -224,94 +254,117 @@ common:
   type: Blog
   url: https://www.cvent.com/en/blog/feed.xml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/overlays/_index.yml
   title: ''
   type: Overlay
   url: overlays/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/overlays/cvent-registration-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cvent-registration-public-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/wsdl/cvent-registration-soap-v200611.wsdl
   title: ''
   type: WSDL
   url: wsdl/cvent-registration-soap-v200611.wsdl
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/llms/cvent-registration-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cvent-registration-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/packages/cvent-registration-packages.yml
   title: ''
   type: Packages
   url: packages/cvent-registration-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/packages/cvent-registration-packages.yml
   title: ''
   type: SDKs
   url: packages/cvent-registration-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/conformance/cvent-registration-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cvent-registration-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/conformance/cvent-registration-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cvent-registration-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/errors/cvent-registration-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cvent-registration-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/lifecycle/cvent-registration-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cvent-registration-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/lifecycle/cvent-registration-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cvent-registration-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/conventions/cvent-registration-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cvent-registration-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/changelog/cvent-registration-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cvent-registration-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/components/cvent-registration-components.yml
   title: ''
   type: Components
   url: components/cvent-registration-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/data-model/cvent-registration-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cvent-registration-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/asyncapi/cvent-registration-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cvent-registration-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/mcp/cvent-registration-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cvent-registration-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/security/cvent-registration-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cvent-registration-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/security/cvent-registration-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cvent-registration-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/plans/cvent-registration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cvent-registration-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/rate-limits/cvent-registration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cvent-registration-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/finops/cvent-registration-finops.yml
   title: ''
   type: FinOps
   url: finops/cvent-registration-finops.yml
@@ -372,6 +425,47 @@ scopes:
   scope_count: 238
   slug: cvent-registration-scopes
   summary_line: 238 scopes · authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 82.0
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 71.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 92.1
+  previous_composite: 82.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 17
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/screenshots/cvent-registration-2026-06-20T175407.png
 security:
 - kind: authentication
@@ -403,7 +497,7 @@ tags:
 - Registration
 - REST API
 - SCIM
-- SDKs
+- SDK
 - SOAP
 - Ticketing
 - Webhook

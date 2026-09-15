@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: S3-compatible object storage REST API implementing Amazon S3 bucket and object operations (put/get/list/delete objects, multipart uploads, versioning, object locking, lifecycle, replication), authenti
@@ -30,6 +55,7 @@ common:
   type: Website
   url: https://www.min.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/minio-trust-center.yml
@@ -70,70 +96,87 @@ common:
   type: SignUp
   url: https://subnet.min.io/login
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/packages/minio-packages.yml
   title: ''
   type: Packages
   url: packages/minio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/packages/minio-packages.yml
   title: ''
   type: SDKs
   url: packages/minio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/cli/minio-cli.yml
   title: ''
   type: CLI
   url: cli/minio-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/mcp/minio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/minio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/llms/minio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/minio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/well-known/minio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/minio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/authentication/minio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/minio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/conventions/minio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/minio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/conformance/minio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/minio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/errors/minio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/minio-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/lifecycle/minio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/minio-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/changelog/minio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/minio-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/sandbox/minio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/minio-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/minio-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/minio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/minio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/minio-trust-center.yml
@@ -142,6 +185,7 @@ common:
   type: Compliance
   url: https://trust.min.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/asyncapi/minio-bucket-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/minio-bucket-notifications-webhooks.yml
@@ -173,6 +217,35 @@ overview: 'MinIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
   MinIO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 25 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 48.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 48.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/screenshots/minio-2026-08-07T172955.png
 security:
 - kind: authentication

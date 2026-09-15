@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -249,6 +274,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/armory
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/changelog/armory-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/armory-changelog.yml
@@ -257,30 +283,37 @@ common:
   type: ReleaseNotes
   url: https://docs.armory.io/continuous-deployment/release-notes/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/agentic-access/armory-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/armory-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/authentication/armory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/armory-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/conventions/armory-conventions.yml
   title: ''
   type: Conventions
   url: conventions/armory-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/conventions/armory-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/armory-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/errors/armory-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/armory-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/data-model/armory-data-model.yml
   title: ''
   type: DataModel
   url: data-model/armory-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/lifecycle/armory-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/armory-lifecycle.yml
@@ -289,50 +322,62 @@ common:
   type: Deprecation
   url: https://docs.armory.io/continuous-deployment/feature-status/deprecations/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/overlays/armory-scale-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/armory-scale-agent-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/conformance/armory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/armory-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/packages/armory-packages.yml
   title: ''
   type: Packages
   url: packages/armory-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/packages/armory-packages.yml
   title: ''
   type: SDKs
   url: packages/armory-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/cli/armory-cli.yml
   title: ''
   type: CLI
   url: cli/armory-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/asyncapi/armory-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/armory-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/mcp/armory-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/armory-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/mcp/armory-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/armory-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/llms/armory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/armory-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/well-known/armory-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/armory-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/security/armory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/armory-domain-security.yml
@@ -376,6 +421,44 @@ overview: 'Armory publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
   Armory''s developer surface includes documentation, API reference, getting-started guide, support, changelog, release notes, authentication, and 31 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 36.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 53.0
+    developer_ergonomics: 68.5
+    discoverability: 64.8
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 36.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/screenshots/armory-2026-08-07T161731.png
 security:
 - kind: authentication

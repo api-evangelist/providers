@@ -11,6 +11,31 @@ access_model:
   - plans/emarsys-plans-pricing.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -257,130 +282,162 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/sap/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/capabilities/emarsys-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/emarsys-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-accounts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-auto-import-profiles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-auto-import-profiles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-bulk-response-summary-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-bulk-response-summary-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-conditional-text-rules-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-conditional-text-rules-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-contact-and-email-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-contact-and-email-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-contact-lists-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-contact-lists-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-contact-sources-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-contact-sources-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-contacts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-contacts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-email-campaign-lifecycle-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-email-campaign-lifecycle-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-email-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-email-campaigns-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-email-reporting-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-email-reporting-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-email-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-email-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-external-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-external-content-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-fields-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-fields-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-forms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-forms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-keys-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-keys-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-media-database-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-media-database-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-programs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-programs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-relational-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-relational-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-sections-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-sections-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-segments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-segments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-sms-partner-callbacks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-sms-partner-callbacks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-sms-partner-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-sms-partner-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/overlays/emarsys-tracked-links-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emarsys-tracked-links-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/packages/emarsys-packages.yml
   title: ''
   type: Packages
   url: packages/emarsys-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/packages/emarsys-packages.yml
   title: ''
   type: SDKs
   url: packages/emarsys-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/well-known/emarsys-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emarsys-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/well-known/emarsys-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/emarsys-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/llms/emarsys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emarsys-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/conformance/emarsys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emarsys-conformance.yml
@@ -389,14 +446,17 @@ common:
   type: Compliance
   url: https://www.sap.com/about/trust-center/certification-compliance.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/security/emarsys-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/emarsys-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/errors/emarsys-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/emarsys-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/lifecycle/emarsys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emarsys-lifecycle.yml
@@ -409,46 +469,57 @@ common:
   type: Deprecation
   url: https://dev.emarsys.com/docs/changelog/z1yoegvlz20pg-changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/changelog/emarsys-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/emarsys-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/conventions/emarsys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emarsys-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/data-model/emarsys-data-model.yml
   title: ''
   type: DataModel
   url: data-model/emarsys-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/asyncapi/emarsys-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/emarsys-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/rate-limits/emarsys-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emarsys-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/plans/emarsys-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emarsys-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/agentic-access/emarsys-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emarsys-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/authentication/emarsys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emarsys-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/scopes/emarsys-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/emarsys-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/security/emarsys-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/emarsys-vulnerability-disclosure.yml
@@ -457,6 +528,7 @@ common:
   type: Security
   url: https://www.sap.com/report-a-vulnerability
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/security/emarsys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emarsys-domain-security.yml
@@ -570,6 +642,51 @@ scopes:
   scope_count: 156
   slug: emarsys-scopes
   summary_line: 156 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 71.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 61.0
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 71.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 90.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 80.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/screenshots/emarsys-2026-06-20T180628.png
 security:
 - kind: authentication

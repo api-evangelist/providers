@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -261,14 +287,17 @@ collections:
   slug: open-cms-provider-drug-coverage-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/capabilities/cms-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cms-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/skills/cms-export-aco-claims-bcda.md
   title: ''
   type: AgentSkill
   url: skills/cms-export-aco-claims-bcda.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/skills/cms-export-partd-claims-ab2d.md
   title: ''
   type: AgentSkill
   url: skills/cms-export-partd-claims-ab2d.md
@@ -297,14 +326,17 @@ common:
   type: License
   url: https://github.com/CMSgov/bcda-app/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/agentic-access/cms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cms-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/security/cms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cms-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/authentication/cms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cms-authentication.yml
@@ -333,6 +365,7 @@ common:
   type: PublicDatasets
   url: https://www.cms.gov/data-research/cms-data/data-available-everyone
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/scopes/cms-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cms-scopes.yml
@@ -385,6 +418,7 @@ common:
   type: PrivacyPolicy
   url: https://www.cms.gov/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/well-known/cms-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cms-well-known.yml
@@ -393,26 +427,32 @@ common:
   type: OpenIDConnect
   url: https://api.bluebutton.cms.gov/.well-known/openid-configuration
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/packages/cms-packages.yml
   title: ''
   type: Packages
   url: packages/cms-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/packages/cms-packages.yml
   title: ''
   type: SDKs
   url: packages/cms-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/mcp/cms-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cms-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/mcp/cms-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cms-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/llms/cms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cms-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/conformance/cms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cms-conformance.yml
@@ -425,10 +465,12 @@ common:
   type: TrustCenter
   url: https://security.cms.gov/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/errors/cms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cms-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/lifecycle/cms-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cms-lifecycle.yml
@@ -445,6 +487,7 @@ common:
   type: Versioning
   url: https://bcda.cms.gov/bcda-data/difference-between-v1-v2.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/changelog/cms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cms-changelog.yml
@@ -453,94 +496,117 @@ common:
   type: Security
   url: https://www.cms.gov/vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/security/cms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cms-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/conventions/cms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cms-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/sandbox/cms-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cms-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/cli/cms-cli.yml
   title: ''
   type: CLI
   url: cli/cms-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/components/cms-components.yml
   title: ''
   type: Components
   url: components/cms-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/data-model/cms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cms-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/plans/cms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cms-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/rate-limits/cms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cms-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/finops/cms-finops.yml
   title: ''
   type: FinOps
   url: finops/cms-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/rules/cms-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/cms-jsonschema-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/json-ld/cms-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/cms-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/examples/marketplace-plan-example.json
   title: ''
   type: Examples
   url: examples/marketplace-plan-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/examples/marketplace-household-example.json
   title: ''
   type: Examples
   url: examples/marketplace-household-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/examples/marketplace-provider-example.json
   title: ''
   type: Examples
   url: examples/marketplace-provider-example.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/json-schema/marketplace-plan.json
   title: ''
   type: JSONSchema
   url: json-schema/marketplace-plan.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/json-schema/marketplace-household.json
   title: ''
   type: JSONSchema
   url: json-schema/marketplace-household.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/json-schema/marketplace-eligibility.json
   title: ''
   type: JSONSchema
   url: json-schema/marketplace-eligibility.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/json-schema/marketplace-provider.json
   title: ''
   type: JSONSchema
   url: json-schema/marketplace-provider.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/json-schema/marketplace-drug.json
   title: ''
   type: JSONSchema
   url: json-schema/marketplace-drug.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/collections/cms-cms-blue-button-2.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/cms-cms-blue-button-2.postman_collection.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/overlays/cms-bcda-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cms-bcda-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/overlays/cms-ab2d-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cms-ab2d-overlay.yaml
@@ -573,6 +639,7 @@ common:
   type: TermsOfService
   url: https://bluebutton.cms.gov/terms/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/vocabulary/cms-vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/cms-vocabulary.json
@@ -949,6 +1016,47 @@ scopes:
   scope_count: 6
   slug: cms-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 81.3
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 78.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 43.2
+    contract_quality: 62.8
+    developer_ergonomics: 79.2
+    discoverability: 66.7
+    operational_transparency: 84.2
+  previous_composite: 81.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 81.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 83.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:
 - kind: authentication

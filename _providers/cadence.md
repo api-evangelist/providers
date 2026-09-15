@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 13.3
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Cadence Design Systems delivers software and IP for electronic design automation, including IC and PCB design, verification, emulation, and system analysis. The EDA product lines (Virtuoso, Allegro X,
@@ -23,6 +48,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/security/cadence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cadence-domain-security.yml
@@ -67,46 +93,57 @@ common:
   type: TermsOfService
   url: https://www.cadence.com/en_US/home/terms-of-use.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/packages/cadence-packages.yml
   title: ''
   type: Packages
   url: packages/cadence-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/packages/cadence-packages.yml
   title: ''
   type: SDKs
   url: packages/cadence-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/cli/cadence-cli.yml
   title: ''
   type: CLI
   url: cli/cadence-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/authentication/cadence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cadence-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/scopes/cadence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cadence-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/conventions/cadence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cadence-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/changelog/cadence-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cadence-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/lifecycle/cadence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cadence-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/well-known/cadence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cadence-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/llms/cadence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cadence-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/conformance/cadence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cadence-conformance.yml
@@ -115,10 +152,12 @@ common:
   type: Compliance
   url: https://www.cadence.com/en_US/home/resources/technical-briefs/cloud-security-tb.html
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/plans/cadence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cadence-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/rate-limits/cadence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cadence-rate-limits.yml
@@ -180,6 +219,34 @@ scopes:
   scope_count: 0
   slug: cadence-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 72.2
+    operational_transparency: 18.4
+  previous_composite: 34.0
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/screenshots/cadence-2026-06-20T173836.png
 security:
 - kind: authentication

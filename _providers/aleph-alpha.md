@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -323,18 +348,22 @@ collections:
   slug: open-aleph-alpha-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/capabilities/aleph-alpha-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aleph-alpha-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/agentic-access/aleph-alpha-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aleph-alpha-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/security/aleph-alpha-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aleph-alpha-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/authentication/aleph-alpha-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aleph-alpha-authentication.yml
@@ -395,46 +424,57 @@ common:
   type: HuggingFace
   url: https://huggingface.co/Aleph-Alpha
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/packages/aleph-alpha-packages.yml
   title: ''
   type: Packages
   url: packages/aleph-alpha-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/packages/aleph-alpha-packages.yml
   title: ''
   type: SDKs
   url: packages/aleph-alpha-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/cli/aleph-alpha-cli.yml
   title: ''
   type: CLI
   url: cli/aleph-alpha-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/components/aleph-alpha-components.yml
   title: ''
   type: Components
   url: components/aleph-alpha-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/mcp/aleph-alpha-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aleph-alpha-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/mcp/aleph-alpha-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aleph-alpha-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/llms/aleph-alpha-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aleph-alpha-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/conventions/aleph-alpha-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aleph-alpha-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/errors/aleph-alpha-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aleph-alpha-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/lifecycle/aleph-alpha-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aleph-alpha-lifecycle.yml
@@ -443,10 +483,12 @@ common:
   type: Deprecation
   url: https://docs.aleph-alpha.com/phariaai-home/latest/release-notes/index.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/changelog/aleph-alpha-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aleph-alpha-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/conformance/aleph-alpha-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aleph-alpha-conformance.yml
@@ -455,42 +497,52 @@ common:
   type: Compliance
   url: https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/security/aleph-alpha-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aleph-alpha-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/data-model/aleph-alpha-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aleph-alpha-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/well-known/aleph-alpha-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aleph-alpha-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/overlays/aleph-alpha-pharia-inference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aleph-alpha-pharia-inference-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/overlays/aleph-alpha-responses-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aleph-alpha-responses-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/overlays/aleph-alpha-pharia-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aleph-alpha-pharia-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/overlays/aleph-alpha-pharia-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aleph-alpha-pharia-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/overlays/aleph-alpha-pharia-studio-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aleph-alpha-pharia-studio-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/overlays/aleph-alpha-pharia-os-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aleph-alpha-pharia-os-overlay.yaml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/sandbox/aleph-alpha-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aleph-alpha-sandbox.yml
@@ -520,6 +572,55 @@ overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) netw
 
   Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 38 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 46.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 55.5
+    developer_ergonomics: 72.0
+    discoverability: 50.0
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 46.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 48.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/screenshots/aleph-alpha-2026-08-07T161154.png
 security:
 - kind: authentication

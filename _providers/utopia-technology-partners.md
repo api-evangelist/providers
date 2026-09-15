@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 0
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/utopia-technology-partners/refs/heads/main/llms/utopia-technology-partners-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/utopia-technology-partners-llms.txt

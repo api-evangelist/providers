@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -109,38 +134,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/rules/amazon-codeguru-profiler-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-codeguru-profiler-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/vocabulary/amazon-codeguru-profiler-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-codeguru-profiler-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/json-ld/amazon-codeguru-profiler-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-codeguru-profiler-context.jsonld
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/mcp/amazon-codeguru-profiler-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-codeguru-profiler-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/overlays/amazon-codeguru-profiler-openapi-original-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-codeguru-profiler-openapi-original-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/agentic-access/amazon-codeguru-profiler-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-codeguru-profiler-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/security/amazon-codeguru-profiler-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-codeguru-profiler-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/security/amazon-codeguru-profiler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-codeguru-profiler-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/authentication/amazon-codeguru-profiler-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-codeguru-profiler-authentication.yml
@@ -149,86 +183,107 @@ common:
   type: Blog
   url: https://aws.amazon.com/blogs/devops/tag/codeguru-profiler/feed/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/packages/amazon-codeguru-profiler-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-codeguru-profiler-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/packages/amazon-codeguru-profiler-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-codeguru-profiler-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/cli/amazon-codeguru-profiler-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-codeguru-profiler-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/well-known/amazon-codeguru-profiler-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-codeguru-profiler-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/well-known/amazon-codeguru-profiler-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-codeguru-profiler-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/security/amazon-codeguru-profiler-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/amazon-codeguru-profiler-vulnerability-disclosure.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/mcp/amazon-codeguru-profiler-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-codeguru-profiler-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/llms/amazon-codeguru-profiler-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-codeguru-profiler-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/conformance/amazon-codeguru-profiler-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-codeguru-profiler-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/errors/amazon-codeguru-profiler-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-codeguru-profiler-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/lifecycle/amazon-codeguru-profiler-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-codeguru-profiler-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/lifecycle/amazon-codeguru-profiler-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/amazon-codeguru-profiler-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/conventions/amazon-codeguru-profiler-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-codeguru-profiler-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/conventions/amazon-codeguru-profiler-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/amazon-codeguru-profiler-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/data-model/amazon-codeguru-profiler-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-codeguru-profiler-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/plans/amazon-codeguru-profiler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-codeguru-profiler-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/rate-limits/amazon-codeguru-profiler-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-codeguru-profiler-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/changelog/amazon-codeguru-profiler-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-codeguru-profiler-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/asyncapi/amazon-codeguru-profiler-notifications.yml
   title: ''
   type: Webhooks
   url: asyncapi/amazon-codeguru-profiler-notifications.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/rules/amazon-codeguru-profiler-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-codeguru-profiler-jsonschema-spectral-rules.yml
@@ -1265,6 +1320,41 @@ rules:
     info: 2
     warn: 9
   slug: amazon-codeguru-profiler-spectral-rules
+score:
+  band: exemplar
+  composite: 73.0
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 73.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 47.0
+    contract_quality: 75.2
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 73.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:
 - kind: authentication

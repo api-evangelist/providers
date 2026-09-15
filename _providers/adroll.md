@@ -8,6 +8,32 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: REST API for managing AdRoll advertisers, campaigns, ads, audience segments, and reporting on the NextRoll platform. Supports OAuth 2.0 flows and Personal Access Tokens with the client API key sent as
@@ -25,6 +51,7 @@ apis:
 artifact_total: 13
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/security/adroll-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adroll-domain-security.yml
@@ -93,26 +120,32 @@ common:
   type: PrivacyPolicy
   url: https://www.nextroll.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/authentication/adroll-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adroll-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/scopes/adroll-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adroll-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/conventions/adroll-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adroll-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/errors/adroll-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/adroll-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/data-model/adroll-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adroll-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/lifecycle/adroll-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adroll-lifecycle.yml
@@ -121,18 +154,22 @@ common:
   type: StatusPage
   url: https://status.nextroll.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/lifecycle/adroll-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/adroll-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/rate-limits/adroll-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adroll-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/plans/adroll-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adroll-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/conformance/adroll-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adroll-conformance.yml
@@ -141,10 +178,12 @@ common:
   type: Compliance
   url: https://security.nextroll.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/security/adroll-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adroll-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/security/adroll-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adroll-vulnerability-disclosure.yml
@@ -153,38 +192,47 @@ common:
   type: Security
   url: https://security.nextroll.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/well-known/adroll-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adroll-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/mcp/adroll-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adroll-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/mcp/adroll-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/adroll-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/llms/adroll-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adroll-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/sandbox/adroll-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adroll-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/components/adroll-components.yml
   title: ''
   type: Components
   url: components/adroll-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/packages/adroll-packages.yml
   title: ''
   type: Packages
   url: packages/adroll-packages.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/graphql/adroll-reporting.graphql
   title: ''
   type: GraphQL
   url: graphql/adroll-reporting.graphql
@@ -222,6 +270,36 @@ scopes:
   scope_count: 2
   slug: adroll-scopes
   summary_line: 2 scopes · authorizationCode/implicit/password
+score:
+  band: strong
+  composite: 57.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 49.4
+    discoverability: 81.5
+    operational_transparency: 68.4
+  previous_composite: 57.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/screenshots/adroll-2026-06-20T165128.png
 security:
 - kind: authentication

@@ -20,6 +20,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/Kitchit
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kitchit/refs/heads/main/security/kitchit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kitchit-domain-security.yml

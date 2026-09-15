@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -245,6 +270,7 @@ collections:
   slug: open-spiko-yields-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/capabilities/spiko-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spiko-capability-edges.yml
@@ -305,86 +331,107 @@ common:
   type: Compliance
   url: https://support.spiko.io/hc/en-us/sections/45292991501073-Legal-and-regulatory-documentation
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/authentication/spiko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spiko-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/scopes/spiko-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spiko-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/well-known/spiko-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/spiko-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/well-known/spiko-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spiko-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/agentic-access/spiko-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spiko-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/security/spiko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spiko-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/mcp/spiko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spiko-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/llms/spiko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spiko-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/conventions/spiko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spiko-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/conventions/spiko-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spiko-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/errors/spiko-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spiko-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/lifecycle/spiko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spiko-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/lifecycle/spiko-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/spiko-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/conformance/spiko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spiko-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/sandbox/spiko-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/spiko-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/data-model/spiko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spiko-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/asyncapi/spiko-distributor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spiko-distributor-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/overlays/spiko-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spiko-public-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/overlays/spiko-investor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spiko-investor-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/overlays/spiko-distributor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spiko-distributor-overlay.yaml
@@ -409,6 +456,51 @@ scopes:
   scope_count: 3
   slug: spiko-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: strong
+  composite: 55.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 60.7
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 55.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: mifid-ii
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/screenshots/spiko-2026-08-17T082026.png
 security:
 - kind: authentication

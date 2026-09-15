@@ -10,6 +10,31 @@ access_model:
   - https://www.getmobly.com/request-a-demo/
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -60,10 +85,12 @@ collections:
   slug: open-mobly-rest-api-v0
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/overlays/mobly-rest-api-v0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mobly-rest-api-v0-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/agentic-access/mobly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mobly-agentic-access.yml
@@ -96,58 +123,72 @@ common:
   type: Blog
   url: https://www.getmobly.com/resources/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/changelog/mobly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mobly-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/llms/mobly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mobly-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/authentication/mobly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mobly-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/conventions/mobly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mobly-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/rate-limits/mobly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mobly-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/errors/mobly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mobly-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/data-model/mobly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mobly-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/lifecycle/mobly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mobly-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/conformance/mobly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mobly-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/packages/mobly-packages.yml
   title: ''
   type: Packages
   url: packages/mobly-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/plans/mobly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mobly-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/asyncapi/mobly-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mobly-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/security/mobly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mobly-domain-security.yml
@@ -188,6 +229,46 @@ rate_limits:
 - limit_count: 1
   name: Mobly Rate Limits
   slug: mobly-rate-limits
+score:
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 63.0
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 52.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/screenshots/mobly-2026-08-07T183858.png
 security:
 - kind: authentication

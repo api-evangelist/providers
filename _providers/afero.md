@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,22 +83,27 @@ collections:
   slug: open-afero-users-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/mcp/afero-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/afero-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/agentic-access/afero-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/afero-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/security/afero-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/afero-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/security/afero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/afero-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/authentication/afero-authentication.yml
   title: ''
   type: Authentication
   url: authentication/afero-authentication.yml
@@ -134,50 +164,62 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/afero
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/packages/afero-packages.yml
   title: ''
   type: Packages
   url: packages/afero-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/packages/afero-packages.yml
   title: ''
   type: SDKs
   url: packages/afero-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/well-known/afero-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/afero-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/well-known/afero-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/afero-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/llms/afero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/afero-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/conventions/afero-conventions.yml
   title: ''
   type: Conventions
   url: conventions/afero-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/errors/afero-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/afero-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/lifecycle/afero-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/afero-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/changelog/afero-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/afero-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/conformance/afero-conformance.yml
   title: ''
   type: Conformance
   url: conformance/afero-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/data-model/afero-data-model.yml
   title: ''
   type: DataModel
   url: data-model/afero-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -190,6 +232,7 @@ common:
   type: ReleaseNotes
   url: https://afero-docs.readthedocs.io/en/latest/RelNotes/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/overlays/afero-cloud-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/afero-cloud-api-overlay.yaml
@@ -206,6 +249,47 @@ overview: 'Afero publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
   Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 27 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 14.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 28.9
+  previous_composite: 38.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 41.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/screenshots/afero-2026-08-07T161019.png
 security:
 - kind: authentication

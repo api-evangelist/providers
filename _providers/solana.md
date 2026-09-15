@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -186,10 +211,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/solana/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/agentic-access/solana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/solana-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/security/solana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solana-domain-security.yml
@@ -218,6 +245,7 @@ common:
   type: Authentication
   url: https://solana.com/docs/rpc
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/authentication/solana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solana-authentication.yml
@@ -278,158 +306,197 @@ common:
   type: PrivacyPolicy
   url: https://solana.com/privacy-policy
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/rate-limits/solana-rpc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/solana-rpc-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/plans/solana-plans.yml
   title: ''
   type: Plans
   url: plans/solana-plans.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/finops/solana-finops.yml
   title: ''
   type: FinOps
   url: finops/solana-finops.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/_original/solana-rpc-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/solana-rpc-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/overlays/solana-rpc-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solana-rpc-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/packages/solana-packages.yml
   title: ''
   type: Packages
   url: packages/solana-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/well-known/solana-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/solana-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/mcp/solana-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/solana-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/llms/solana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solana-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/llms/solana-llms-full.txt
   title: llms-full.txt (inline docs corpus)
   type: LLMsTxt
   url: llms/solana-llms-full.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/conformance/solana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solana-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/errors/solana-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/solana-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/lifecycle/solana-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solana-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/changelog/solana-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/solana-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/conventions/solana-conventions.yml
   title: ''
   type: Conventions
   url: conventions/solana-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/data-model/solana-data-model.yml
   title: ''
   type: DataModel
   url: data-model/solana-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/sandbox/solana-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/solana-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/cli/solana-cli.yml
   title: ''
   type: CLI
   url: cli/solana-cli.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/json-schema/solana-rpc-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/solana-rpc-schemas.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/examples/solana-rpc-examples.json
   title: ''
   type: Examples
   url: examples/solana-rpc-examples.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/vocabulary/solana-rpc-vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/solana-rpc-vocabulary.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/json-ld/solana-rpc-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/solana-rpc-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-send-transaction-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-send-transaction-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-devnet-airdrop-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-devnet-airdrop-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-wallet-portfolio-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-wallet-portfolio-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-address-transaction-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-address-transaction-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-fee-estimation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-fee-estimation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-account-rent-exemption-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-account-rent-exemption-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-token-mint-analytics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-token-mint-analytics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-token-delegate-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-token-delegate-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-program-accounts-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-program-accounts-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-cluster-health-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-cluster-health-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-node-identity-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-node-identity-snapshot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-block-inspection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-block-inspection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-ledger-backfill-range-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-ledger-backfill-range-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-leader-schedule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-leader-schedule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-network-performance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-network-performance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-validator-rewards-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-validator-rewards-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/arazzo/solana-network-supply-economics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/solana-network-supply-economics-workflow.yml
@@ -502,6 +569,43 @@ rules:
     info: 2
     warn: 4
   slug: solana-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 67.1
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 83.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 29.5
+    contract_quality: 63.3
+    developer_ergonomics: 84.5
+    discoverability: 75.9
+    operational_transparency: 76.3
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 67.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:
 - kind: authentication

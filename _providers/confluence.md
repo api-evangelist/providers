@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -337,10 +363,12 @@ collections:
   slug: open-confluence-space-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/mcp/confluence-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/confluence-tool-crosswalk.yml
@@ -373,90 +401,112 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/confluence/overview
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/packages/confluence-packages.yml
   title: ''
   type: Packages
   url: packages/confluence-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/well-known/confluence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/confluence-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/well-known/confluence-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/confluence-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/mcp/confluence-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/confluence-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/llms/confluence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/confluence-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/llms/confluence-llms-atlassian.txt
   title: ''
   type: LLMsTxt
   url: llms/confluence-llms-atlassian.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/overlays/confluence-cloud-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/confluence-cloud-v2-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/conformance/confluence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/confluence-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/errors/confluence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/confluence-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/lifecycle/confluence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/confluence-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/conventions/confluence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/confluence-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/changelog/confluence-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/confluence-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/cli/confluence-cli.yml
   title: ''
   type: CLI
   url: cli/confluence-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/components/confluence-components.yml
   title: ''
   type: Components
   url: components/confluence-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/data-model/confluence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/confluence-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/sandbox/confluence-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/confluence-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/agentic-access/confluence-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/confluence-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/security/confluence-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/confluence-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/security/confluence-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/confluence-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/security/confluence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/confluence-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/authentication/confluence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/confluence-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/scopes/confluence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/confluence-scopes.yml
@@ -613,6 +663,7 @@ common:
   type: SDKs
   url: https://www.postman.com/api-evangelist/atlassian-confluence/collection/k3y2x73/atlassian-confluence-cloud
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/_original/confluence-cloud-v2.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/confluence-cloud-v2.yml
@@ -621,74 +672,92 @@ common:
   type: OpenAPI
   url: https://dac-static.atlassian.com/cloud/confluence/swagger.v3.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/asyncapi/confluence-webhooks.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/confluence-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/json-schema/confluence-page-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/confluence-page-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/json-schema/confluence-space-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/confluence-space-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/json-ld/confluence-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/confluence-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/json-ld/confluence-cloud-v2-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/confluence-cloud-v2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-blog-post-retire-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-blog-post-retire-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-comment-moderation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-comment-moderation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-comment-thread-reply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-comment-thread-reply-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-create-page-read-back-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-create-page-read-back-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-inline-comment-on-page-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-inline-comment-on-page-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-page-archive-retire-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-page-archive-retire-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-page-attachment-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-page-attachment-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-page-move-reparent-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-page-move-reparent-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-page-tree-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-page-tree-export-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-publish-blog-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-publish-blog-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-revise-blog-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-revise-blog-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-space-content-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-space-content-inventory-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/arazzo/confluence-upsert-page-by-title-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/confluence-upsert-page-by-title-workflow.yml
@@ -1199,6 +1268,41 @@ scopes:
   scope_count: 9
   slug: confluence-scopes
   summary_line: 9 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 67.8
+  coverage:
+    artifact_dirs: 36
+    catalog_earned: 46.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 75.1
+    developer_ergonomics: 94.6
+    discoverability: 68.5
+    operational_transparency: 44.7
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:
 - kind: authentication

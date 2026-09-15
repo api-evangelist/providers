@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
@@ -64,46 +89,57 @@ common:
   type: Compliance
   url: https://trust.keeper.io/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/packages/keeper-security-packages.yml
   title: ''
   type: Packages
   url: packages/keeper-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/packages/keeper-security-packages.yml
   title: ''
   type: SDKs
   url: packages/keeper-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/cli/keeper-security-cli.yml
   title: ''
   type: CLI
   url: cli/keeper-security-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/well-known/keeper-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/keeper-security-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/well-known/keeper-security-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/keeper-security-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/security/keeper-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keeper-security-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/security/keeper-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/keeper-security-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/security/keeper-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/keeper-security-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/conformance/keeper-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/keeper-security-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/lifecycle/keeper-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keeper-security-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/llms/keeper-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keeper-security-llms.txt
@@ -120,6 +156,34 @@ overview: 'Keeper Security is profiled on the [APIs.io](https://apis.io/) networ
 
   Keeper Security''s developer surface includes documentation, engineering blog, support, pricing, CLI, and 19 more developer resources.'
 random_paper: 15
+score:
+  band: emerging
+  composite: 25.4
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 57.4
+    operational_transparency: 28.9
+  previous_composite: 25.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/screenshots/keeper-security-2026-07-25T223552.png
 security:
 - kind: domain-security

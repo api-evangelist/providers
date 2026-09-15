@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -91,6 +116,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/paylocity/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/overlays/vidgrid-content-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vidgrid-content-management-overlay.yaml
@@ -127,62 +153,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/ilosvideos
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/agentic-access/vidgrid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vidgrid-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/authentication/vidgrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vidgrid-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/security/vidgrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vidgrid-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/well-known/vidgrid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vidgrid-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/llms/vidgrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vidgrid-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/mcp/vidgrid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vidgrid-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/conventions/vidgrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vidgrid-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/rate-limits/vidgrid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vidgrid-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/errors/vidgrid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vidgrid-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/lifecycle/vidgrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vidgrid-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/conformance/vidgrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vidgrid-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/asyncapi/vidgrid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vidgrid-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/components/vidgrid-components.yml
   title: ''
   type: Components
   url: components/vidgrid-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/data-model/vidgrid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vidgrid-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -206,6 +247,41 @@ rate_limits:
 - limit_count: 1
   name: Vidgrid Rate Limits
   slug: vidgrid-rate-limits
+score:
+  band: developing
+  composite: 40.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 4.5
+    contract_quality: 63.5
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 40.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/screenshots/vidgrid-2026-08-17T082745.png
 security:
 - kind: authentication

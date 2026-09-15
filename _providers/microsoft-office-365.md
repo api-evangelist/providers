@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -150,26 +175,32 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/capabilities/microsoft-office-365-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-office-365-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/agentic-access/microsoft-office-365-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-office-365-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/security/microsoft-office-365-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-office-365-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/security/microsoft-office-365-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-office-365-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/authentication/microsoft-office-365-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-office-365-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/scopes/microsoft-office-365-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-office-365-scopes.yml
@@ -178,78 +209,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-office-365/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-cancel-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-cancel-event-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-cleanup-draft-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-cleanup-draft-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-create-group-with-members-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-create-group-with-members-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-deprovision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-deprovision-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-draft-and-send-mail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-draft-and-send-mail-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-find-event-in-window-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-find-event-in-window-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-find-or-create-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-find-or-create-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-notify-new-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-notify-new-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-onboard-user-to-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-onboard-user-to-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-provision-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-reschedule-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-reschedule-event-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-respond-to-invitation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-respond-to-invitation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-rotate-group-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-rotate-group-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-schedule-and-accept-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-schedule-and-accept-event-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-schedule-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-schedule-event-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-triage-inbox-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-triage-inbox-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-update-draft-and-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-update-draft-and-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-update-group-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-update-group-and-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/arazzo/microsoft-office-365-update-user-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-office-365-update-user-profile-workflow.yml
@@ -326,6 +376,7 @@ common:
   type: Compliance
   url: https://learn.microsoft.com/en-us/graph/compliance-concept-overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/rules/microsoft-office-365-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-office-365-spectral-rules.yml
@@ -1000,6 +1051,38 @@ scopes:
   scope_count: 18
   slug: microsoft-office-365-scopes
   summary_line: 18 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 55.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 52.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 13.6
+    contract_quality: 77.2
+    developer_ergonomics: 72.6
+    discoverability: 53.7
+    operational_transparency: 34.2
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:
 - kind: authentication

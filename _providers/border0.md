@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -146,6 +171,7 @@ collections:
   slug: open-border0-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/overlays/border0-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/border0-openapi-overlay.yaml
@@ -202,6 +228,7 @@ common:
   type: StatusPage
   url: https://status.border0.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/changelog/border0-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/border0-changelog.yml
@@ -210,62 +237,77 @@ common:
   type: Security
   url: https://docs.border0.com/docs/security-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/security/border0-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/border0-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/security/border0-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/border0-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/agentic-access/border0-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/border0-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/authentication/border0-authentication.yml
   title: ''
   type: Authentication
   url: authentication/border0-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/conventions/border0-conventions.yml
   title: ''
   type: Conventions
   url: conventions/border0-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/conformance/border0-conformance.yml
   title: ''
   type: Conformance
   url: conformance/border0-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/errors/border0-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/border0-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/lifecycle/border0-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/border0-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/data-model/border0-data-model.yml
   title: ''
   type: DataModel
   url: data-model/border0-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/packages/border0-packages.yml
   title: ''
   type: Packages
   url: packages/border0-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/packages/border0-packages.yml
   title: ''
   type: SDKs
   url: packages/border0-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/cli/border0-cli.yml
   title: ''
   type: CLI
   url: cli/border0-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/mcp/border0-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/border0-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/llms/border0-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/border0-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -282,6 +324,41 @@ overview: 'Border0 publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
   Border0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 45.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 54.7
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 45.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/screenshots/border0-2026-07-25T203633.png
 security:
 - kind: authentication

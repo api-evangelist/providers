@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,42 +187,52 @@ collections:
   slug: open-tebra-patient-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/capabilities/tebra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tebra-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/overlays/tebra-fhir-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tebra-fhir-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/mcp/tebra-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tebra-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/skills/tebra-read-patient-clinical-data.md
   title: ''
   type: AgentSkill
   url: skills/tebra-read-patient-clinical-data.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/scopes/tebra-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tebra-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/agentic-access/tebra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tebra-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/security/tebra-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tebra-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/security/tebra-trust-center.yml
   title: ''
   type: Compliance
   url: security/tebra-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/security/tebra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tebra-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/authentication/tebra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tebra-authentication.yml
@@ -238,42 +273,52 @@ common:
   type: StatusPage
   url: https://status.tebra.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/plans/tebra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tebra-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/rate-limits/tebra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tebra-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/finops/tebra-finops.yml
   title: ''
   type: FinOps
   url: finops/tebra-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/conformance/tebra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tebra-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/lifecycle/tebra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tebra-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/errors/tebra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tebra-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/conventions/tebra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tebra-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/data-model/tebra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tebra-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/llms/tebra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tebra-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/packages/tebra-packages.yml
   title: ''
   type: Packages
   url: packages/tebra-packages.yml
@@ -308,6 +353,56 @@ scopes:
   scope_count: 27
   slug: tebra-scopes
   summary_line: 27 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 65.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 0.0
+    contract_quality: 55.4
+    developer_ergonomics: 55.4
+    discoverability: 68.5
+    operational_transparency: 47.4
+  previous_composite: 65.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 90.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: us-core
+    - jurisdiction: US
+      standard: uscdi
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 86.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/screenshots/tebra-2026-08-17T082258.png
 security:
 - kind: authentication

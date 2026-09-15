@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.5
+  scored_at: '2026-09-14'
 api_count: 59
 apis:
 - description: Provides information of Sales activities related to Accounts, Contacts, and Blocks for the selected Property. Compatible with OPERA Cloud RnA release 26.1.0.0. Read-only GraphQL subject area in the OP
@@ -818,6 +843,7 @@ collections:
   slug: open-oracle-hospitality-property-v1-tokenexchange
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/capabilities/oracle-hospitality-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oracle-hospitality-capability-edges.yml
@@ -842,238 +868,297 @@ common:
   type: ContributionGuide
   url: https://github.com/oracle/hospitality-api-docs/blob/main/CONTRIBUTING.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-outbound-aripublication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-outbound-aripublication-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-outbound-lookup-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-outbound-lookup-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-outbound-notification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-outbound-notification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-book-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-book-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-content-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-controls-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-controls-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-distribution-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-distribution-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-hdpbaoauth2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-hdpbaoauth2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-onboard-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-onboard-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-resnotif-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-resnotif-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-distribution-v1-shop-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-distribution-v1-shop-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-nor1-v1-upselloffers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-nor1-v1-upselloffers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-outbound-crmoutbound-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-outbound-crmoutbound-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-outbound-cshoutbound-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-outbound-cshoutbound-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-outbound-fofoutbound-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-outbound-fofoutbound-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-act-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-act-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-actcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-actcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-ars-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-ars-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-blk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-blk-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-blkasync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-blkasync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-blkcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-blkcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-bof-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-bof-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-chl-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-chl-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-cms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-cms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-crm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-crm-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-crmasync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-crmasync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-crmcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-crmcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-csh-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-csh-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-cshasync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-cshasync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-dvm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-dvm-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-ecommtokenization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-ecommtokenization-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-entcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-entcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-evm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-evm-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-evmcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-evmcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-expcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-expcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-fof-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-fof-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-fofcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-fofcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-hsk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-hsk-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-int-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-int-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-intcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-intcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-inv-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-inv-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-invasync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-invasync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-lms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-lms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-lov-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-lov-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-medcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-medcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-oauth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-oauth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-ops-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-ops-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-par-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-par-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-parasync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-parasync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-repcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-repcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rmcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rmcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rmr-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rmr-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rmrcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rmrcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rsv-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rsv-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rsvasync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rsvasync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rsvcfg-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rsvcfg-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rtp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rtp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-rtpasync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-rtpasync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/overlays/oracle-hospitality-property-v1-tokenexchange-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-hospitality-property-v1-tokenexchange-overlay.yaml
@@ -1082,14 +1167,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/mcp/oracle-hospitality-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/oracle-hospitality-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/authentication/oracle-hospitality-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-hospitality-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/security/oracle-hospitality-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-hospitality-domain-security.yml
@@ -1150,14 +1238,17 @@ common:
   type: Support
   url: https://docs.oracle.com/cd/F29336_01/doc.201/f27480/c_getting_help_and_contacting_support.htm
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/packages/oracle-hospitality-packages.yml
   title: ''
   type: Packages
   url: packages/oracle-hospitality-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/llms/oracle-hospitality-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oracle-hospitality-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/conformance/oracle-hospitality-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oracle-hospitality-conformance.yml
@@ -1166,14 +1257,17 @@ common:
   type: Compliance
   url: https://www.oracle.com/corporate/cloud-compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/errors/oracle-hospitality-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oracle-hospitality-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/errors/oracle-hospitality-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/oracle-hospitality-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/lifecycle/oracle-hospitality-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oracle-hospitality-lifecycle.yml
@@ -1182,10 +1276,12 @@ common:
   type: Deprecation
   url: https://docs.oracle.com/cd/F29336_01/doc.201/f27480/c_versioning.htm
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/scopes/oracle-hospitality-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/oracle-hospitality-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/security/oracle-hospitality-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oracle-hospitality-vulnerability-disclosure.yml
@@ -1194,42 +1290,52 @@ common:
   type: Security
   url: https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/security/oracle-hospitality-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oracle-hospitality-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/sandbox/oracle-hospitality-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/oracle-hospitality-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/conventions/oracle-hospitality-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oracle-hospitality-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/changelog/oracle-hospitality-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oracle-hospitality-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/rate-limits/oracle-hospitality-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-hospitality-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/data-model/oracle-hospitality-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oracle-hospitality-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/asyncapi/oracle-hospitality-outbound-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/oracle-hospitality-outbound-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/asyncapi/oracle-hospitality-outbound-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/oracle-hospitality-outbound-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/mcp/oracle-hospitality-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/oracle-hospitality-tool-crosswalk.yml
@@ -1266,6 +1372,7 @@ common:
   type: SourceCode
   url: https://github.com/oracle/hospitality-api-docs
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/graphql/oracle-hospitality-rna-base.graphql
   title: ''
   type: GraphQL
   url: graphql/oracle-hospitality-rna-base.graphql
@@ -1295,6 +1402,47 @@ scopes:
   scope_count: 1
   slug: oracle-hospitality-scopes
   summary_line: 1 scope · clientCredentials/password
+score:
+  band: exemplar
+  composite: 69.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 60.8
+    developer_ergonomics: 70.8
+    discoverability: 57.4
+    operational_transparency: 81.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 69.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 78
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png
 security:
 - kind: authentication

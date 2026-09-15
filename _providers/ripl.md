@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 4.7
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
@@ -49,14 +74,17 @@ common:
   type: PrivacyPolicy
   url: https://www.ripl.com/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/mcp/ripl-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ripl-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/llms/ripl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ripl-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/security/ripl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ripl-domain-security.yml
@@ -65,6 +93,7 @@ common:
   type: GettingStarted
   url: https://help.ripl.com/support/solutions/16000060995
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/plans/ripl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ripl-plans-pricing.yml
@@ -111,6 +140,34 @@ rate_limits:
 - limit_count: 0
   name: Ripl Rate Limits
   slug: ripl-rate-limits
+score:
+  band: emerging
+  composite: 21.4
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 59.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 57.4
+    operational_transparency: 0.0
+  previous_composite: 21.4
+  provenance:
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripl/refs/heads/main/screenshots/ripl-2026-09-02T153845.png
 security:
 - kind: domain-security

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -81,74 +106,92 @@ common:
   type: GitHubOrganization
   url: https://github.com/IntouchHealth
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/authentication/teladoc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teladoc-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/conventions/teladoc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teladoc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/errors/teladoc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/teladoc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/asyncapi/teladoc-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/teladoc-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/sandbox/teladoc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/teladoc-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/lifecycle/teladoc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/teladoc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/data-model/teladoc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/teladoc-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/conformance/teladoc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/teladoc-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/packages/teladoc-packages.yml
   title: ''
   type: Packages
   url: packages/teladoc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/packages/teladoc-packages.yml
   title: ''
   type: SDKs
   url: packages/teladoc-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/security/teladoc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teladoc-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/llms/teladoc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teladoc-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/security/teladoc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/teladoc-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/security/teladoc-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/teladoc-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/conformance/teladoc-conformance.yml
   title: ''
   type: Compliance
   url: conformance/teladoc-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/changelog/teladoc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/teladoc-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/plans/teladoc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/teladoc-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/rate-limits/teladoc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teladoc-rate-limits.yml
@@ -200,6 +243,45 @@ rate_limits:
 - limit_count: 0
   name: Teladoc Rate Limits
   slug: teladoc-rate-limits
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 59.5
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 48.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/screenshots/teladoc-2026-08-17T082301.png
 security:
 - kind: authentication

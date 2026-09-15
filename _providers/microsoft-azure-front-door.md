@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,22 +74,27 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/capabilities/microsoft-azure-front-door-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-front-door-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/agentic-access/microsoft-azure-front-door-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-front-door-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/security/microsoft-azure-front-door-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-front-door-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/authentication/microsoft-azure-front-door-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-front-door-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/scopes/microsoft-azure-front-door-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-front-door-scopes.yml
@@ -126,6 +156,38 @@ scopes:
   scope_count: 1
   slug: microsoft-azure-front-door-scopes
   summary_line: 1 scope · implicit
+score:
+  band: developing
+  composite: 39.3
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 46.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 0.0
+    contract_quality: 49.0
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 39.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/screenshots/microsoft-azure-front-door-2026-06-20T185415.png
 security:
 - kind: authentication

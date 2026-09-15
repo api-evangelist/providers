@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -254,22 +279,27 @@ common:
   type: License
   url: https://github.com/SAP-samples/analytics-cloud-export-api-wrapper/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/agentic-access/sap-bi-tools-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-bi-tools-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/security/sap-bi-tools-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-bi-tools-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/security/sap-bi-tools-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-bi-tools-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/authentication/sap-bi-tools-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-bi-tools-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/scopes/sap-bi-tools-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-bi-tools-scopes.yml
@@ -278,58 +308,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sap-bi-tools/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-cms-query-drilldown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-cms-query-drilldown-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-create-team-with-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-create-team-with-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-export-dimension-master-data-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-export-dimension-master-data-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-export-model-fact-data-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-export-model-fact-data-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-import-content-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-import-content-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-list-and-inspect-story-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-list-and-inspect-story-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-logon-browse-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-logon-browse-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-provision-scim-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-provision-scim-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-publish-content-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-publish-content-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-query-and-schedule-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-query-and-schedule-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-retire-content-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-retire-content-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-schedule-and-poll-inbox-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-schedule-and-poll-inbox-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-session-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-session-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/arazzo/sap-bi-tools-story-resource-crossref-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-bi-tools-story-resource-crossref-workflow.yml
@@ -398,50 +442,62 @@ common:
   type: SDKs
   url: https://developers.sap.com/topics/cloud-sdk.html
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/_original/sap-analytics-cloud-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-analytics-cloud-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/_original/sap-analytics-cloud-content-network-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-analytics-cloud-content-network-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/_original/sap-analytics-cloud-data-export-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-analytics-cloud-data-export-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/_original/sap-businessobjects-bi-platform-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-businessobjects-bi-platform-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/json-schema/sap-bi-tools-story-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-bi-tools-story-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/json-schema/sap-bi-tools-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-bi-tools-user-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/json-schema/sap-bi-tools-content-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-bi-tools-content-item-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/json-structure/sap-bi-tools-story-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sap-bi-tools-story-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/json-structure/sap-bi-tools-user-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sap-bi-tools-user-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/json-ld/sap-bi-tools-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sap-bi-tools-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/vocabulary/sap-bi-tools-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sap-bi-tools-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/rules/sap-bi-tools-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sap-bi-tools-rules.yml
@@ -588,6 +644,38 @@ scopes:
   scope_count: 0
   slug: sap-bi-tools-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 50.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 28.8
+    contract_quality: 68.6
+    developer_ergonomics: 46.4
+    discoverability: 53.7
+    operational_transparency: 39.5
+  previous_composite: 50.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/screenshots/sap-bi-tools-2026-06-20T193416.png
 security:
 - kind: authentication

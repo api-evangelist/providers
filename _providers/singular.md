@@ -10,6 +10,32 @@ access_model:
   - plans/singular-plans-pricing.yml
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.0
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - description: 'Asynchronous REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Create a report, '
@@ -80,6 +106,7 @@ common:
   type: Pricing
   url: https://www.singular.net/pricing/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/plans/singular-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/singular-plans-pricing.yml
@@ -112,66 +139,82 @@ common:
   type: ChangeLog
   url: https://support.singular.net/hc/en-us/articles/360061042971-Product-Updates
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/changelog/singular-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/singular-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/llms/singular-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/singular-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/packages/singular-packages.yml
   title: ''
   type: Packages
   url: packages/singular-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/packages/singular-packages.yml
   title: ''
   type: SDKs
   url: packages/singular-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/components/singular-components.yml
   title: ''
   type: Components
   url: components/singular-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/authentication/singular-authentication.yml
   title: ''
   type: Authentication
   url: authentication/singular-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/scopes/singular-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/singular-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/conventions/singular-conventions.yml
   title: ''
   type: Conventions
   url: conventions/singular-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/errors/singular-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/singular-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/rate-limits/singular-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/singular-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/lifecycle/singular-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/singular-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/asyncapi/singular-postbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/singular-postbacks-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/mcp/singular-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/singular-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/mcp/singular-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/singular-tool-crosswalk.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/sandbox/singular-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/singular-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/conformance/singular-conformance.yml
   title: ''
   type: Conformance
   url: conformance/singular-conformance.yml
@@ -180,14 +223,17 @@ common:
   type: Compliance
   url: https://www.singular.net/data-security-privacy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/security/singular-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/singular-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/security/singular-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/singular-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/well-known/singular-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/singular-well-known.yml
@@ -225,6 +271,35 @@ scopes:
   scope_count: 2
   slug: singular-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 73.7
+  previous_composite: 63.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/screenshots/singular-2026-08-17T080421.png
 security:
 - kind: authentication

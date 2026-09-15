@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -153,22 +178,27 @@ common:
   type: Website
   url: https://n8n.io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/agentic-access/n8n-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/n8n-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/security/n8n-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/n8n-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/security/n8n-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/n8n-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/security/n8n-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/n8n-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/authentication/n8n-authentication.yml
   title: ''
   type: Authentication
   url: authentication/n8n-authentication.yml
@@ -229,46 +259,57 @@ common:
   type: Security
   url: https://n8n.io/legal/security/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/mcp/n8n-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/n8n-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/well-known/n8n-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/n8n-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/well-known/n8n-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/n8n-security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/mcp/n8n-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/n8n-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/llms/n8n-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/n8n-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/packages/n8n-packages.yml
   title: ''
   type: Packages
   url: packages/n8n-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/packages/n8n-packages.yml
   title: ''
   type: SDKs
   url: packages/n8n-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/conformance/n8n-conformance.yml
   title: ''
   type: Conformance
   url: conformance/n8n-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/errors/n8n-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/n8n-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/lifecycle/n8n-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/n8n-lifecycle.yml
@@ -277,46 +318,57 @@ common:
   type: StatusPage
   url: https://status.n8n.cloud/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/scopes/n8n-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/n8n-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/conventions/n8n-conventions.yml
   title: ''
   type: Conventions
   url: conventions/n8n-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/changelog/n8n-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/n8n-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/cli/n8n-cli.yml
   title: ''
   type: CLI
   url: cli/n8n-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/components/n8n-components.yml
   title: ''
   type: Components
   url: components/n8n-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/data-model/n8n-data-model.yml
   title: ''
   type: DataModel
   url: data-model/n8n-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/sandbox/n8n-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/n8n-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/plans/n8n-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/n8n-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/rate-limits/n8n-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/n8n-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/overlays/n8n-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/n8n-public-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/security/n8n-trust-center.yml
   title: ''
   type: Compliance
   url: security/n8n-trust-center.yml
@@ -383,6 +435,41 @@ scopes:
   scope_count: 67
   slug: n8n-scopes
   summary_line: 67 scopes
+score:
+  band: strong
+  composite: 62.9
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 41.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 58.4
+    developer_ergonomics: 85.7
+    discoverability: 66.7
+    operational_transparency: 55.3
+  previous_composite: 62.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 6.7
+      total: 15
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/screenshots/n8n-2026-06-20T185922.png
 security:
 - kind: authentication
@@ -408,6 +495,6 @@ tags:
 - Integration
 - Workflows
 - Automation
-- Low Code
+- Low-Code
 website: https://n8n.io
 ---

@@ -11,6 +11,31 @@ access_model:
   - developer-terms-and-conditions
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.6
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: 'The core Foundations REST API over the Reapit agency CRM data platform. It is documented as a hypermedia REST API with date-based versioning (the `api-version: 2020-01-31` header is required), optimis'
@@ -41,38 +66,47 @@ asyncapis:
   slug: reapit-foundations-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/security/reapit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reapit-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/well-known/reapit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/reapit-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/authentication/reapit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reapit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/scopes/reapit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/reapit-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/conventions/reapit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reapit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/conventions/reapit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/reapit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/errors/reapit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reapit-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/rate-limits/reapit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reapit-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/lifecycle/reapit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reapit-lifecycle.yml
@@ -81,38 +115,47 @@ common:
   type: Deprecation
   url: https://foundations-documentation.reapit.cloud/api/api-documentation#deprecation
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/changelog/reapit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/reapit-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/packages/reapit-packages.yml
   title: ''
   type: Packages
   url: packages/reapit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/packages/reapit-packages.yml
   title: ''
   type: SDKs
   url: packages/reapit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/cli/reapit-cli.yml
   title: ''
   type: CLI
   url: cli/reapit-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/components/reapit-components.yml
   title: ''
   type: Components
   url: components/reapit-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/sandbox/reapit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/reapit-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/data-model/reapit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reapit-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/conformance/reapit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reapit-conformance.yml
@@ -121,6 +164,7 @@ common:
   type: Compliance
   url: https://www.reapit.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/security/reapit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/reapit-trust-center.yml
@@ -251,6 +295,46 @@ scopes:
   scope_count: 0
   slug: reapit-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 57.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 54.2
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 92.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 57.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/screenshots/reapit-2026-08-17T081459.png
 security:
 - kind: authentication

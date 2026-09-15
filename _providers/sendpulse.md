@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 382
   human_in_the_loop: 7
@@ -485,82 +511,102 @@ collections:
   slug: open-sendpulse
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/capabilities/sendpulse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sendpulse-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-bulk-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-bulk-email-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-smtp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-smtp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-sms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-crm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-crm-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-a360-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-a360-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-chatbots-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-chatbots-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-whatsapp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-whatsapp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-telegram-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-telegram-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-facebook-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-facebook-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-instagram-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-instagram-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-viber-chatbot-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-viber-chatbot-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-tiktok-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-tiktok-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-live-chat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-live-chat-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-web-push-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-web-push-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-viber-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-viber-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-verifier-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-verifier-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-edu-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-edu-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-popups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-popups-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/overlays/sendpulse-file-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendpulse-file-manager-overlay.yaml
@@ -637,106 +683,132 @@ common:
   type: ChangeLog
   url: https://sendpulse.com/updates
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/agentic-access/sendpulse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sendpulse-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/authentication/sendpulse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendpulse-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/scopes/sendpulse-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sendpulse-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/conventions/sendpulse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendpulse-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/errors/sendpulse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendpulse-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/rate-limits/sendpulse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendpulse-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/plans/sendpulse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendpulse-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/finops/sendpulse-finops.yml
   title: ''
   type: FinOps
   url: finops/sendpulse-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/lifecycle/sendpulse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendpulse-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/changelog/sendpulse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sendpulse-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/data-model/sendpulse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendpulse-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/asyncapi/sendpulse-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sendpulse-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/packages/sendpulse-packages.yml
   title: ''
   type: Packages
   url: packages/sendpulse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/packages/sendpulse-packages.yml
   title: ''
   type: SDKs
   url: packages/sendpulse-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/mcp/sendpulse-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sendpulse-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/mcp/sendpulse-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sendpulse-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/llms/sendpulse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendpulse-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/well-known/sendpulse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sendpulse-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/well-known/sendpulse-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sendpulse-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/conformance/sendpulse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendpulse-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/security/sendpulse-trust-center.yml
   title: ''
   type: Compliance
   url: security/sendpulse-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/security/sendpulse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sendpulse-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/security/sendpulse-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sendpulse-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/security/sendpulse-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/sendpulse-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/security/sendpulse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendpulse-domain-security.yml
@@ -788,6 +860,51 @@ scopes:
   scope_count: 1
   slug: sendpulse-scopes
   summary_line: 1 scope
+score:
+  band: exemplar
+  composite: 74.4
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 64.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 57.4
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 74.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 85
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendpulse/refs/heads/main/screenshots/sendpulse-2026-08-17T080418.png
 security:
 - kind: authentication

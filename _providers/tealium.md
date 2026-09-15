@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -99,22 +124,27 @@ collections:
   slug: open-tealium-privacy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/overlays/tealium-ai-read-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tealium-ai-read-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/agentic-access/tealium-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tealium-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/security/tealium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tealium-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/security/tealium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tealium-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/authentication/tealium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tealium-authentication.yml
@@ -155,54 +185,67 @@ common:
   type: ReleaseNotes
   url: https://docs.tealium.com/release-notes/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/plans/tealium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tealium-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/rate-limits/tealium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tealium-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/finops/tealium-finops.yml
   title: ''
   type: FinOps
   url: finops/tealium-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/mcp/tealium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tealium-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/packages/tealium-packages.yml
   title: ''
   type: Packages
   url: packages/tealium-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/packages/tealium-packages.yml
   title: ''
   type: SDKs
   url: packages/tealium-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/well-known/tealium-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tealium-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/llms/tealium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tealium-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/conventions/tealium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tealium-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/errors/tealium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tealium-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/lifecycle/tealium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tealium-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/changelog/tealium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tealium-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/conformance/tealium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tealium-conformance.yml
@@ -211,34 +254,42 @@ common:
   type: Compliance
   url: https://tealium.com/security/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/sandbox/tealium-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tealium-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/data-model/tealium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tealium-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/asyncapi/tealium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tealium-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/vocabulary/tealium-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tealium-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/rules/tealium-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/tealium-jsonschema-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/json-ld/tealium-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tealium-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
@@ -347,6 +398,41 @@ rules:
     info: 1
     warn: 4
   slug: tealium-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 67.4
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 71.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 43.2
+    contract_quality: 62.7
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 44.7
+  previous_composite: 67.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 16.7
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/screenshots/tealium-2026-06-20T194955.png
 security:
 - kind: authentication

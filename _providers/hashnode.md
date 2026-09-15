@@ -10,6 +10,31 @@ access_model:
   - https://hashnode.com/pro
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Hashnode Public API is a GraphQL API that queries publication data, manages posts and drafts, and creates content via mutations. All requests are POSTed to a single endpoint at https://gql-beta.ha
@@ -90,82 +115,102 @@ common:
   type: ChangeLog
   url: https://hashnode.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/changelog/hashnode-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hashnode-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/lifecycle/hashnode-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/hashnode-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/lifecycle/hashnode-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hashnode-lifecycle.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/graphql/hashnode-gql-api.graphql
   title: ''
   type: GraphQL
   url: graphql/hashnode-gql-api.graphql
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/authentication/hashnode-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hashnode-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/conventions/hashnode-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hashnode-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/errors/hashnode-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/hashnode-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/data-model/hashnode-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hashnode-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/conformance/hashnode-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hashnode-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/asyncapi/hashnode-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hashnode-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/packages/hashnode-packages.yml
   title: ''
   type: Packages
   url: packages/hashnode-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/packages/hashnode-packages.yml
   title: ''
   type: SDKs
   url: packages/hashnode-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/cli/hashnode-cli.yml
   title: ''
   type: CLI
   url: cli/hashnode-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/components/hashnode-components.yml
   title: ''
   type: Components
   url: components/hashnode-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/llms/hashnode-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hashnode-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/plans/hashnode-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hashnode-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/rate-limits/hashnode-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hashnode-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/finops/hashnode-finops.yml
   title: ''
   type: FinOps
   url: finops/hashnode-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/security/hashnode-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hashnode-domain-security.yml
@@ -201,6 +246,36 @@ rate_limits:
 - limit_count: 2
   name: Hashnode Rate Limits
   slug: hashnode-rate-limits
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 49.0
+    developer_ergonomics: 78.6
+    discoverability: 68.5
+    operational_transparency: 63.2
+  previous_composite: 57.8
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashnode/refs/heads/main/screenshots/hashnode-2026-08-17T083521.png
 security:
 - kind: authentication

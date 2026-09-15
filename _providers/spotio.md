@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 4
@@ -338,22 +363,27 @@ collections:
   slug: open-spotio-workflowstages-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/capabilities/spotio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spotio-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/agentic-access/spotio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spotio-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/authentication/spotio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spotio-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/security/spotio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spotio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/security/spotio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spotio-domain-security.yml
@@ -374,38 +404,47 @@ common:
   type: Webhooks
   url: https://support.spotio.com/hc/en-us/articles/360057063834-Webhooks
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/plans/spotio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spotio-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/mcp/spotio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spotio-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/mcp/spotio-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/spotio-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/llms/spotio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spotio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/conventions/spotio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spotio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/errors/spotio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spotio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/data-model/spotio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spotio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/lifecycle/spotio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spotio-lifecycle.yml
@@ -414,6 +453,7 @@ common:
   type: StatusPage
   url: https://status.spotio2.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/changelog/spotio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spotio-changelog.yml
@@ -422,6 +462,7 @@ common:
   type: ChangeLog
   url: https://support.spotio.com/release-notes
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/conformance/spotio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spotio-conformance.yml
@@ -430,18 +471,22 @@ common:
   type: Compliance
   url: https://spotio.com/features/security-compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/asyncapi/spotio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spotio-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/sandbox/spotio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/spotio-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/rate-limits/spotio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spotio-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/packages/spotio-packages.yml
   title: ''
   type: Packages
   url: packages/spotio-packages.yml
@@ -518,6 +563,41 @@ rate_limits:
 - limit_count: 0
   name: Spotio Rate Limits
   slug: spotio-rate-limits
+score:
+  band: strong
+  composite: 65.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 41.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 60.1
+    developer_ergonomics: 66.1
+    discoverability: 53.7
+    operational_transparency: 42.1
+  previous_composite: 65.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 39
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 66.7
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/screenshots/spotio-2026-08-17T082034.png
 security:
 - kind: authentication

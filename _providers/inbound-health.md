@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inbound-health/refs/heads/main/security/inbound-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inbound-health-domain-security.yml

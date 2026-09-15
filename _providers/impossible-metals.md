@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://impossiblemetals.com/wp-json
@@ -104,38 +129,47 @@ apis:
 artifact_total: 22
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-posts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-posts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-pages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-pages-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-faq-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-faq-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-media-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-media-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-taxonomy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-taxonomy-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-discovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-discovery-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/overlays/impossible-metals-oembed-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-metals-oembed-overlay.yaml
@@ -208,54 +242,67 @@ common:
   type: Twitter
   url: https://twitter.com/ImpossMetals
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/llms/impossible-metals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impossible-metals-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/mcp/impossible-metals-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/impossible-metals-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/security/impossible-metals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/impossible-metals-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/plans/impossible-metals-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/impossible-metals-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/rate-limits/impossible-metals-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/impossible-metals-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/conventions/impossible-metals-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impossible-metals-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/lifecycle/impossible-metals-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impossible-metals-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/conformance/impossible-metals-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impossible-metals-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/errors/impossible-metals-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/impossible-metals-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/authentication/impossible-metals-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impossible-metals-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/data-model/impossible-metals-data-model.yml
   title: ''
   type: DataModel
   url: data-model/impossible-metals-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/examples/impossible-metals-examples.yml
   title: ''
   type: Examples
   url: examples/impossible-metals-examples.yml
@@ -281,6 +328,45 @@ rate_limits:
 - limit_count: 0
   name: Impossible Metals Rate Limits
   slug: impossible-metals-rate-limits
+score:
+  band: emerging
+  composite: 20.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 29.6
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 20.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 18
+      marker_coverage: 69.2
+      total: 26
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - https://api.stackmoxie.com/
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,10 +72,12 @@ apis:
 artifact_total: 12
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/agentic-access/stack-moxie-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stack-moxie-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/authentication/stack-moxie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stack-moxie-authentication.yml
@@ -59,46 +86,57 @@ common:
   type: APIReference
   url: https://api.stackmoxie.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-rest-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/stack-moxie-rest-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/overlays/stack-moxie-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stack-moxie-rest-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/errors/stack-moxie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stack-moxie-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/errors/stack-moxie-outcome-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/stack-moxie-outcome-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/conventions/stack-moxie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stack-moxie-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/data-model/stack-moxie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stack-moxie-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/conformance/stack-moxie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stack-moxie-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/rate-limits/stack-moxie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stack-moxie-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/plans/stack-moxie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stack-moxie-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/packages/stack-moxie-packages.yml
   title: ''
   type: SDKs
   url: packages/stack-moxie-packages.yml
@@ -159,26 +197,32 @@ common:
   type: StatusPage
   url: https://www.stackmoxie.com/app-status/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/cli/stack-moxie-cli.yml
   title: ''
   type: CLI
   url: cli/stack-moxie-cli.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/grpc/stack-moxie-cog.proto
   title: ''
   type: Protobuf
   url: grpc/stack-moxie-cog.proto
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/packages/stack-moxie-packages.yml
   title: ''
   type: Packages
   url: packages/stack-moxie-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/changelog/stack-moxie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stack-moxie-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/lifecycle/stack-moxie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stack-moxie-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/llms/stack-moxie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stack-moxie-llms.txt
@@ -191,14 +235,17 @@ common:
   type: Security
   url: https://www.stackmoxie.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/security/stack-moxie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stack-moxie-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/security/stack-moxie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stack-moxie-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/security/stack-moxie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stack-moxie-domain-security.yml
@@ -223,6 +270,41 @@ rate_limits:
 - limit_count: 0
   name: Stack Moxie Rate Limits
   slug: stack-moxie-rate-limits
+score:
+  band: strong
+  composite: 62.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 52.0
+    developer_ergonomics: 73.2
+    discoverability: 68.5
+    operational_transparency: 44.7
+  previous_composite: 62.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/screenshots/stack-moxie-2026-08-17T082056.png
 security:
 - kind: authentication

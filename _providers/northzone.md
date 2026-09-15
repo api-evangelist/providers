@@ -31,7 +31,6 @@ tags:
 - Artificial Intelligence
 - Enterprise
 - Fintech
-- Consumer
 - Healthcare
 - Climate
 - Developer Tools

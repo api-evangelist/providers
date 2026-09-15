@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.7
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
@@ -21,22 +46,27 @@ common:
   type: Documentation
   url: https://www.pointfive.co/mcp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/mcp/pointfive-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pointfive-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/well-known/pointfive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pointfive-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/authentication/pointfive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pointfive-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/scopes/pointfive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pointfive-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/lifecycle/pointfive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pointfive-lifecycle.yml
@@ -45,6 +75,7 @@ common:
   type: StatusPage
   url: https://status.pointfive.co/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/conformance/pointfive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pointfive-conformance.yml
@@ -53,14 +84,17 @@ common:
   type: Compliance
   url: https://trust.pointfive.co/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/security/pointfive-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pointfive-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/security/pointfive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pointfive-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/llms/pointfive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pointfive-llms.txt
@@ -106,6 +140,35 @@ scopes:
   scope_count: 2
   slug: pointfive-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 22.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 57.4
+    operational_transparency: 15.8
+  previous_composite: 22.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/screenshots/pointfive-2026-09-02T151625.png
 security:
 - kind: authentication

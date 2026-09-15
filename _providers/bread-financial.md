@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.8
+  scored_at: '2026-09-14'
 api_count: 13
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
@@ -107,54 +132,67 @@ common:
   type: PrivacyPolicy
   url: https://www.breadfinancial.com/en/privacy-policy.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/packages/bread-financial-packages.yml
   title: ''
   type: Packages
   url: packages/bread-financial-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/packages/bread-financial-packages.yml
   title: ''
   type: SDKs
   url: packages/bread-financial-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/llms/bread-financial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bread-financial-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/authentication/bread-financial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bread-financial-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/conventions/bread-financial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bread-financial-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/conformance/bread-financial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bread-financial-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/lifecycle/bread-financial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bread-financial-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/sandbox/bread-financial-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bread-financial-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/components/bread-financial-components.yml
   title: ''
   type: Components
   url: components/bread-financial-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/mcp/bread-financial-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bread-financial-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/asyncapi/bread-financial-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bread-financial-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/well-known/bread-financial-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bread-financial-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/security/bread-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bread-financial-domain-security.yml
@@ -183,6 +221,45 @@ overview: 'Bread Financial publishes 9 APIs on the [APIs.io](https://apis.io/) n
 
   Bread Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 17 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 41.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 65.9
+    developer_ergonomics: 57.1
+    discoverability: 72.2
+    operational_transparency: 10.5
+  previous_composite: 41.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/screenshots/bread-financial-2026-07-25T203733.png
 security:
 - kind: authentication

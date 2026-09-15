@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://www.appneta.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.broadcom.com/products/software/network-management/appneta — a different registrable domain (appneta.com -> broadcom.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: RESTful API for AppNeta Performance Manager, covering monitoring policies and policy groups, web paths, web applications (locations, targets, user flows), monitoring points, alarm connectors (v4), and
@@ -38,6 +63,7 @@ common:
   type: APIReference
   url: https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/appneta/GA/integrate/api/api-v4.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appneta/refs/heads/main/authentication/appneta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appneta-authentication.yml
@@ -50,10 +76,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/appneta
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appneta/refs/heads/main/packages/appneta-packages.yml
   title: ''
   type: Packages
   url: packages/appneta-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appneta/refs/heads/main/security/appneta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appneta-domain-security.yml
@@ -86,6 +114,32 @@ overview: 'AppNeta publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
   AppNeta''s developer surface includes documentation, API reference, authentication, support, engineering blog, and 8 more developer resources.'
 random_paper: 10
+score:
+  band: emerging
+  composite: 12.5
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 31.0
+    discoverability: 59.3
+    operational_transparency: 2.6
+  previous_composite: 12.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/appneta/refs/heads/main/screenshots/appneta-2026-07-25T200818.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.thetokencompany.com
@@ -39,10 +64,12 @@ common:
   type: Website
   url: https://www.thetokencompany.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/overlays/the-token-company-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-token-company-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/security/the-token-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-token-company-domain-security.yml
@@ -103,50 +130,62 @@ common:
   type: Compliance
   url: https://trust.thetokencompany.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/packages/the-token-company-packages.yml
   title: ''
   type: Packages
   url: packages/the-token-company-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/packages/the-token-company-packages.yml
   title: ''
   type: SDKs
   url: packages/the-token-company-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/authentication/the-token-company-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-token-company-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/errors/the-token-company-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-token-company-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/conventions/the-token-company-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-token-company-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/lifecycle/the-token-company-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-token-company-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/changelog/the-token-company-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-token-company-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/mcp/the-token-company-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-token-company-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/llms/the-token-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-token-company-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/conformance/the-token-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-token-company-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/data-model/the-token-company-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-token-company-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -163,6 +202,45 @@ overview: 'The Token Company publishes 2 APIs on the [APIs.io](https://apis.io/)
 
   The Token Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
 random_paper: 14
+score:
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 36.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/screenshots/the-token-company-2026-08-17T082339.png
 security:
 - kind: authentication

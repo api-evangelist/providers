@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -131,6 +157,7 @@ collections:
   slug: open-replicas-terminal-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/overlays/replicas-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/replicas-openapi-overlay.yaml
@@ -183,66 +210,82 @@ common:
   type: ChangeLog
   url: https://docs.tryreplicas.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/changelog/replicas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/replicas-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/llms/replicas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/replicas-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/mcp/replicas-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/replicas-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/cli/replicas-cli.yml
   title: ''
   type: CLI
   url: cli/replicas-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/packages/replicas-packages.yml
   title: ''
   type: Packages
   url: packages/replicas-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/authentication/replicas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/replicas-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/conventions/replicas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/replicas-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/errors/replicas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/replicas-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/lifecycle/replicas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/replicas-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/conformance/replicas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/replicas-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/data-model/replicas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/replicas-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/asyncapi/replicas-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/replicas-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/agentic-access/replicas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/replicas-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/security/replicas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/replicas-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/security/replicas-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/replicas-vulnerability-disclosure.yml
@@ -270,6 +313,41 @@ overview: 'Replicas publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
   Replicas'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, GitHub presence, and 23 more developer resources.'
 random_paper: 11
+score:
+  band: developing
+  composite: 50.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 64.5
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 50.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/screenshots/replicas-2026-08-17T081523.png
 security:
 - kind: authentication

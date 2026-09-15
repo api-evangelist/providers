@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -291,22 +317,27 @@ common:
   type: Website
   url: https://appyway.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/capabilities/appyway-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/appyway-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/agentic-access/appyway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/appyway-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/security/appyway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appyway-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/authentication/appyway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appyway-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/scopes/appyway-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/appyway-scopes.yml
@@ -351,74 +382,92 @@ common:
   type: RateLimits
   url: https://docs.appyway.com/docs/public-docs/319adf4695d05-rate-limiting
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/well-known/appyway-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appyway-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/packages/appyway-packages.yml
   title: ''
   type: Packages
   url: packages/appyway-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/mcp/appyway-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/appyway-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/llms/appyway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appyway-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/conformance/appyway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appyway-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/errors/appyway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appyway-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/lifecycle/appyway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appyway-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/conventions/appyway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appyway-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/changelog/appyway-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appyway-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/components/appyway-components.yml
   title: ''
   type: Components
   url: components/appyway-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/data-model/appyway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appyway-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/sandbox/appyway-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/appyway-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/rate-limits/appyway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appyway-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/collections/AppyWay-YlpExplorerApi-v1.postman_collection.json
   title: ''
   type: Postman
   url: collections/AppyWay-YlpExplorerApi-v1.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/collections/AppyWay-YlpReferenceApi-v1.postman_collection.json
   title: ''
   type: Postman
   url: collections/AppyWay-YlpReferenceApi-v1.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/collections/AppyWay-YlpCmsDataApi-v1.postman_collection.json
   title: ''
   type: Postman
   url: collections/AppyWay-YlpCmsDataApi-v1.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/collections/AppyWay-YlpAvailabilityRealTimeApi-v1.postman_collection.json
   title: ''
   type: Postman
   url: collections/AppyWay-YlpAvailabilityRealTimeApi-v1.postman_collection.json
@@ -518,6 +567,47 @@ scopes:
   scope_count: 0
   slug: appyway-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 58.6
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 74.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 47.0
+    contract_quality: 65.7
+    developer_ergonomics: 67.3
+    discoverability: 59.3
+    operational_transparency: 39.5
+  previous_composite: 58.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 51.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:
 - kind: authentication

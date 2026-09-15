@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The agent-callable commerce surface of HODINKEE Shop. Two Model Context Protocol endpoints are served from shop.hodinkee.com and answered a real tools/list anonymously on 2026-08-22: /api/ucp/mcp impl'
@@ -28,62 +53,77 @@ common:
   type: Documentation
   url: https://shop.hodinkee.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/mcp/hodinkee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hodinkee-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/llms/hodinkee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hodinkee-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/well-known/hodinkee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hodinkee-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/authentication/hodinkee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hodinkee-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/scopes/hodinkee-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hodinkee-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/conventions/hodinkee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hodinkee-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/conformance/hodinkee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hodinkee-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/errors/hodinkee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hodinkee-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/data-model/hodinkee-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hodinkee-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/rate-limits/hodinkee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hodinkee-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/lifecycle/hodinkee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hodinkee-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/plans/hodinkee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hodinkee-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/packages/hodinkee-packages.yml
   title: ''
   type: Packages
   url: packages/hodinkee-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/security/hodinkee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hodinkee-domain-security.yml
@@ -149,6 +189,41 @@ scopes:
   scope_count: 0
   slug: hodinkee-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 23.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 23.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hodinkee/refs/heads/main/screenshots/hodinkee-2026-09-02T145738.png
 security:
 - kind: authentication

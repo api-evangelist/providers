@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.gettyimages.com
@@ -455,22 +480,27 @@ collections:
   slug: open-getty-images-videos-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/scopes/getty-images-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/getty-images-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/authentication/getty-images-authentication.yml
   title: ''
   type: Authentication
   url: authentication/getty-images-authentication.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/capabilities/getty-images-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/getty-images-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/security/getty-images-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/getty-images-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/security/getty-images-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getty-images-domain-security.yml
@@ -495,6 +525,7 @@ common:
   type: DeveloperPortal
   url: https://developer.gettyimages.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/openapi/_original/getty-images-swagger-v3-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/getty-images-swagger-v3-openapi.json
@@ -511,18 +542,22 @@ common:
   type: GettingStarted
   url: https://developer.gettyimages.com/docs/gettingstarted/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/packages/getty-images-packages.yml
   title: ''
   type: Packages
   url: packages/getty-images-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/packages/getty-images-packages.yml
   title: ''
   type: SDKs
   url: packages/getty-images-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/well-known/getty-images-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/getty-images-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/well-known/getty-images-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/getty-images-security.txt
@@ -531,26 +566,32 @@ common:
   type: Security
   url: https://www.gettyimages.com/.well-known/security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/mcp/getty-images-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/getty-images-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/mcp/getty-images-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/getty-images-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/llms/getty-images-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getty-images-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/conformance/getty-images-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getty-images-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/errors/getty-images-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/getty-images-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/lifecycle/getty-images-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/getty-images-lifecycle.yml
@@ -559,10 +600,12 @@ common:
   type: StatusPage
   url: https://developer.gettyimages.com/status/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/conventions/getty-images-conventions.yml
   title: ''
   type: Conventions
   url: conventions/getty-images-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/changelog/getty-images-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/getty-images-changelog.yml
@@ -571,26 +614,32 @@ common:
   type: ReleaseNotes
   url: https://developer.gettyimages.com/release-notes/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/components/getty-images-components.yml
   title: ''
   type: Components
   url: components/getty-images-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/data-model/getty-images-data-model.yml
   title: ''
   type: DataModel
   url: data-model/getty-images-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/plans/getty-images-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/getty-images-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/rate-limits/getty-images-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/getty-images-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/finops/getty-images-finops.yml
   title: ''
   type: FinOps
   url: finops/getty-images-finops.yml
@@ -644,6 +693,40 @@ scopes:
   scope_count: 0
   slug: getty-images-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 49.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 58.9
+    discoverability: 70.4
+    operational_transparency: 71.1
+  previous_composite: 49.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png
 security:
 - kind: authentication
@@ -669,6 +752,6 @@ tags:
 - Search
 - Content Licensing
 - Digital Asset Management
-- Model Context Protocol
+- MCP
 website: https://www.gettyimages.com/
 ---

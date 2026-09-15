@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -113,34 +138,42 @@ collections:
   slug: open-goodlord-referencing-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/capabilities/goodlord-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/goodlord-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/overlays/goodlord-referencing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodlord-referencing-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/overlays/goodlord-referencing-api-sandbox-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodlord-referencing-api-sandbox-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/overlays/goodlord-insurance-app-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goodlord-insurance-app-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/conventions/goodlord-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goodlord-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/errors/goodlord-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/goodlord-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/data-model/goodlord-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goodlord-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/lifecycle/goodlord-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodlord-lifecycle.yml
@@ -149,6 +182,7 @@ common:
   type: StatusPage
   url: https://goodlord.statuspal.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/conformance/goodlord-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodlord-conformance.yml
@@ -157,26 +191,32 @@ common:
   type: Compliance
   url: https://trust.goodlord.com/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/sandbox/goodlord-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/goodlord-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/well-known/goodlord-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/goodlord-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/llms/goodlord-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodlord-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/mcp/goodlord-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/goodlord-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/asyncapi/goodlord-referencing-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/goodlord-referencing-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -205,22 +245,27 @@ common:
   type: PrivacyPolicy
   url: https://www.goodlord.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/security/goodlord-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/goodlord-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/security/goodlord-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodlord-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/agentic-access/goodlord-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/goodlord-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/scopes/goodlord-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/goodlord-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/authentication/goodlord-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodlord-authentication.yml
@@ -294,6 +339,59 @@ scopes:
   scope_count: 2
   slug: goodlord-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 67.8
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 71.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:
 - kind: authentication

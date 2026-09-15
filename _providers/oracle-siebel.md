@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -120,6 +145,7 @@ collections:
   slug: open-oracle-siebel-service-requests-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/capabilities/oracle-siebel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oracle-siebel-capability-edges.yml
@@ -136,10 +162,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/scopes/oracle-siebel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/oracle-siebel-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/authentication/oracle-siebel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-siebel-authentication.yml
@@ -148,6 +176,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oracle-siebel/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-siebel-domain-security.yml
@@ -220,82 +249,102 @@ common:
   type: GitHubRepository
   url: https://github.com/OracleSiebel/ConfiguringSiebel
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/packages/oracle-siebel-packages.yml
   title: ''
   type: Packages
   url: packages/oracle-siebel-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/mcp/oracle-siebel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/oracle-siebel-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/mcp/oracle-siebel-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/oracle-siebel-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/llms/oracle-siebel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oracle-siebel-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/conventions/oracle-siebel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oracle-siebel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/errors/oracle-siebel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oracle-siebel-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/data-model/oracle-siebel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oracle-siebel-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/lifecycle/oracle-siebel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oracle-siebel-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/lifecycle/oracle-siebel-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/oracle-siebel-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/changelog/oracle-siebel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oracle-siebel-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/cli/oracle-siebel-cli.yml
   title: ''
   type: CLI
   url: cli/oracle-siebel-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/components/oracle-siebel-components.yml
   title: ''
   type: Components
   url: components/oracle-siebel-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/conformance/oracle-siebel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oracle-siebel-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-trust-center.yml
   title: ''
   type: Compliance
   url: security/oracle-siebel-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oracle-siebel-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oracle-siebel-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/plans/oracle-siebel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-siebel-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/rate-limits/oracle-siebel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-siebel-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/finops/oracle-siebel-finops.yml
   title: ''
   type: FinOps
   url: finops/oracle-siebel-finops.yml
@@ -373,6 +422,40 @@ scopes:
   scope_count: 0
   slug: oracle-siebel-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 67.6
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 60.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 65.7
+    developer_ergonomics: 67.3
+    discoverability: 66.7
+    operational_transparency: 84.2
+  previous_composite: 67.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:
 - kind: authentication

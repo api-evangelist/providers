@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -78,6 +104,7 @@ common:
   type: Website
   url: https://www.clawvisor.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/overlays/clawvisor-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clawvisor-gateway-overlay.yaml
@@ -122,62 +149,77 @@ common:
   type: PrivacyPolicy
   url: https://clawvisor.com/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/mcp/clawvisor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clawvisor-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/llms/clawvisor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clawvisor-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/well-known/clawvisor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clawvisor-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/authentication/clawvisor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clawvisor-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/conventions/clawvisor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clawvisor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/errors/clawvisor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clawvisor-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/lifecycle/clawvisor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clawvisor-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/conformance/clawvisor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clawvisor-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/data-model/clawvisor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clawvisor-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/asyncapi/clawvisor-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/clawvisor-callbacks-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/packages/clawvisor-packages.yml
   title: ''
   type: Packages
   url: packages/clawvisor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/cli/clawvisor-cli.yml
   title: ''
   type: CLI
   url: cli/clawvisor-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/security/clawvisor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clawvisor-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/agentic-access/clawvisor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clawvisor-agentic-access.yml
@@ -201,6 +243,41 @@ overview: 'Clawvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
   Clawvisor''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 20 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 45.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 60.4
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 45.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/screenshots/clawvisor-2026-07-25T205527.png
 security:
 - kind: authentication

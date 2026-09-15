@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server that pipes a Jam's recording, console logs, network requests, user events, transcript, and metadata into AI coding tools (Claude, Cursor, VS Code). OAuth2 (PKCE) o
@@ -77,6 +103,7 @@ common:
   type: Security
   url: https://jam.dev/docs/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/security/jam-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jam-trust-center.yml
@@ -85,66 +112,82 @@ common:
   type: Compliance
   url: https://trust.jam.dev/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/mcp/jam-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jam-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/llms/jam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jam-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/well-known/jam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jam-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/packages/jam-packages.yml
   title: ''
   type: Packages
   url: packages/jam-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/packages/jam-packages.yml
   title: ''
   type: SDKs
   url: packages/jam-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/cli/jam-cli.yml
   title: ''
   type: CLI
   url: cli/jam-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/authentication/jam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jam-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/scopes/jam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jam-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/conventions/jam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jam-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/asyncapi/jam-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jam-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/conformance/jam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jam-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/lifecycle/jam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jam-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/security/jam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jam-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/security/jam-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jam-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/skills/jam-bug-to-fix.md
   title: ''
   type: AgentSkill
   url: skills/jam-bug-to-fix.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/skills/jam-collect-recordings.md
   title: ''
   type: AgentSkill
   url: skills/jam-collect-recordings.md
@@ -173,6 +216,36 @@ scopes:
   scope_count: 2
   slug: jam-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 48.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/screenshots/jam-2026-07-25T223045.png
 security:
 - kind: authentication

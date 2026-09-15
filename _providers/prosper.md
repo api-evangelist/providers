@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: RESTful API for Prosper investors and third-party agents to view account information, search active loan listings, place orders to purchase Notes, and retrieve owned Notes, invested loans, and loan pa
@@ -65,6 +90,7 @@ common:
   type: PrivacyPolicy
   url: https://www.prosper.com/legal/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/authentication/prosper-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prosper-authentication.yml
@@ -73,26 +99,32 @@ common:
   type: OAuth
   url: https://www.prosper.com/oauth
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/sandbox/prosper-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prosper-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/security/prosper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prosper-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/well-known/prosper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prosper-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/packages/prosper-packages.yml
   title: ''
   type: Packages
   url: packages/prosper-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/llms/prosper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prosper-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -109,6 +141,36 @@ overview: 'Prosper publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Prosper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 13 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 28.7
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/screenshots/prosper-2026-09-02T152212.png
 security:
 - kind: authentication

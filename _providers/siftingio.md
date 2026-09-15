@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,22 +121,27 @@ common:
   type: License
   url: https://github.com/SiftingIO/siftingio-mcp/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/agentic-access/siftingio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/siftingio-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/security/siftingio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/siftingio-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/authentication/siftingio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/siftingio-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/packages/siftingio-packages.yml
   title: ''
   type: Packages
   url: packages/siftingio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/packages/siftingio-packages.yml
   title: ''
   type: SDKs
   url: packages/siftingio-packages.yml
@@ -120,38 +150,47 @@ common:
   type: SDKs
   url: https://sifting.io/sdks
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/llms/siftingio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/siftingio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/mcp/siftingio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/siftingio-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/mcp/siftingio-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/siftingio-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/conventions/siftingio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/siftingio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/errors/siftingio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/siftingio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/conformance/siftingio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/siftingio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/data-model/siftingio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/siftingio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/lifecycle/siftingio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/siftingio-lifecycle.yml
@@ -164,6 +203,7 @@ common:
   type: Deprecation
   url: https://sifting.io/docs/quickstart
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/changelog/siftingio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/siftingio-changelog.yml
@@ -172,62 +212,77 @@ common:
   type: ChangeLog
   url: https://sifting.io/changelog
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/plans/siftingio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/siftingio-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/rate-limits/siftingio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/siftingio-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/sandbox/siftingio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/siftingio-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/components/siftingio-components.yml
   title: ''
   type: Components
   url: components/siftingio-components.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-commodities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-commodities-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-convert-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-convert-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-crypto-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-crypto-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-dex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-dex-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-economiccalendar-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-economiccalendar-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-filers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-filers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-forex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-forex-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-live-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-live-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-markets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-markets-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-signals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-signals-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/overlays/siftingio-stocks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siftingio-stocks-overlay.yaml
@@ -330,6 +385,48 @@ rate_limits:
 - limit_count: 9
   name: Siftingio Rate Limits
   slug: siftingio-rate-limits
+score:
+  band: strong
+  composite: 63.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 56.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 59.0
+    developer_ergonomics: 83.3
+    discoverability: 66.7
+    operational_transparency: 57.9
+  previous_composite: 63.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/screenshots/siftingio-2026-09-02T155422.png
 security:
 - kind: authentication

@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: A POST-only REST API for programmatically writing data into Marin. Five bulk endpoints — /campaigns, /groups, /keywords, /ads and /strategies — accept a JSON body containing a single "data" array of r
@@ -48,6 +73,7 @@ common:
   type: PrivacyPolicy
   url: https://www.marinsoftware.com/legal/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/security/marin-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marin-software-domain-security.yml
@@ -64,38 +90,47 @@ common:
   type: Support
   url: https://support.marinsoftware.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/authentication/marin-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marin-software-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/conventions/marin-software-conventions.yml
   title: ''
   type: Conventions
   url: conventions/marin-software-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/data-model/marin-software-data-model.yml
   title: ''
   type: DataModel
   url: data-model/marin-software-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/errors/marin-software-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/marin-software-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/rate-limits/marin-software-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marin-software-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/lifecycle/marin-software-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/marin-software-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/plans/marin-software-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marin-software-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/packages/marin-software-packages.yml
   title: ''
   type: Packages
   url: packages/marin-software-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/conformance/marin-software-conformance.yml
   title: ''
   type: Conformance
   url: conformance/marin-software-conformance.yml
@@ -104,6 +139,7 @@ common:
   type: Compliance
   url: https://www.marinsoftware.com/legal/data-processing-addendum
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/llms/marin-software-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/marin-software-llms.txt
@@ -129,6 +165,34 @@ rate_limits:
 - limit_count: 0
   name: Marin Software Rate Limits
   slug: marin-software-rate-limits
+score:
+  band: thin
+  composite: 31.4
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 31.4
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/marin-software/refs/heads/main/screenshots/marin-software-2026-07-25T230152.png
 security:
 - kind: authentication

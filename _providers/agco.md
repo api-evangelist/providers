@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,18 +84,22 @@ collections:
   slug: open-agco-telemetry-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/capabilities/agco-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/agco-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/agentic-access/agco-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agco-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/security/agco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agco-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/authentication/agco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agco-authentication.yml
@@ -95,98 +124,122 @@ common:
   type: Blog
   url: https://news.agcocorp.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/json-schema/agco-location-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/agco-location-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/json-schema/agco-machine-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/agco-machine-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/json-schema/agco-telemetry-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/agco-telemetry-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/json-structure/agco-location-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/agco-location-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/json-structure/agco-machine-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/agco-machine-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/json-structure/agco-telemetry-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/agco-telemetry-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/json-ld/agco-telematics-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/agco-telematics-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/examples/agco-location-example.json
   title: ''
   type: Examples
   url: examples/agco-location-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/examples/agco-machine-example.json
   title: ''
   type: Examples
   url: examples/agco-machine-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/examples/agco-telemetry-example.json
   title: ''
   type: Examples
   url: examples/agco-telemetry-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/rules/agco-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/agco-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/vocabulary/agco-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/agco-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/packages/agco-packages.yml
   title: ''
   type: Packages
   url: packages/agco-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/mcp/agco-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/agco-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/llms/agco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agco-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/conformance/agco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agco-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/errors/agco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agco-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/lifecycle/agco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agco-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/conventions/agco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agco-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/data-model/agco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agco-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/overlays/agco-ats-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agco-ats-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/plans/agco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agco-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/rate-limits/agco-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agco-rate-limits.yml
@@ -335,6 +388,41 @@ rules:
     info: 0
     warn: 11
   slug: agco-spectral-rules
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 57.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 47.0
+    contract_quality: 63.0
+    developer_ergonomics: 54.2
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 45.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png
 security:
 - kind: authentication

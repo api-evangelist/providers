@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API suite for the PageUp talent management platform, secured with OAuth 2.0 client-credentials. Covers Core HR, Recruitment, Partner, Performance, and Platform (Exports) endpoint groups. Per-tena
@@ -57,22 +82,27 @@ common:
   type: Marketplace
   url: https://www.pageuppeople.com/marketplace/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/authentication/pageup-people-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pageup-people-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/errors/pageup-people-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/pageup-people-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/conventions/pageup-people-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pageup-people-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/sandbox/pageup-people-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pageup-people-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/security/pageup-people-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pageup-people-vulnerability-disclosure.yml
@@ -81,6 +111,7 @@ common:
   type: Security
   url: https://www.pageuppeople.com/responsible-disclosure/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/conformance/pageup-people-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pageup-people-conformance.yml
@@ -89,14 +120,17 @@ common:
   type: Compliance
   url: https://www.pageuppeople.com/how-we-do-it/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/security/pageup-people-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pageup-people-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/security/pageup-people-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pageup-people-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/llms/pageup-people-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pageup-people-llms.txt
@@ -114,6 +148,39 @@ overview: 'PageUp People publishes 1 API on the [APIs.io](https://apis.io/) netw
 
   PageUp People''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, authentication, and 14 more developer resources.'
 random_paper: 9
+score:
+  band: emerging
+  composite: 23.3
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 23.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/screenshots/pageup-people-2026-08-07T191300.png
 security:
 - kind: authentication

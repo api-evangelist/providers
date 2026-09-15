@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://market-api.metadao.fi
@@ -74,50 +99,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/metaDAOproject
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/authentication/metadao-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metadao-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/errors/metadao-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/metadao-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/lifecycle/metadao-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metadao-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/conventions/metadao-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metadao-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/conformance/metadao-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metadao-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/security/metadao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metadao-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/data-model/metadao-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metadao-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/rate-limits/metadao-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metadao-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/mcp/metadao-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/metadao-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/skills/metadao-market-data.md
   title: ''
   type: AgentSkill
   url: skills/metadao-market-data.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/skills/metadao-token-supply.md
   title: ''
   type: AgentSkill
   url: skills/metadao-token-supply.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/llms/metadao-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metadao-llms.txt
@@ -138,6 +175,47 @@ rate_limits:
 - limit_count: 1
   name: Metadao Rate Limits
   slug: metadao-rate-limits
+score:
+  band: thin
+  composite: 35.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 49.0
+    developer_ergonomics: 51.8
+    discoverability: 81.5
+    operational_transparency: 23.7
+  previous_composite: 35.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 28.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/screenshots/metadao-2026-08-07T172641.png
 security:
 - kind: authentication

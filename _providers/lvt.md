@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.lvt.com/v1
@@ -66,18 +91,22 @@ asyncapis:
   slug: lvt-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/capabilities/lvt-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lvt-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/security/lvt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lvt-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/scopes/lvt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lvt-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/authentication/lvt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lvt-authentication.yml
@@ -138,70 +167,87 @@ common:
   type: TrustCenter
   url: https://trust.lvt.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/llms/lvt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lvt-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/packages/lvt-packages.yml
   title: ''
   type: Packages
   url: packages/lvt-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/mcp/lvt-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lvt-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/mcp/lvt-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/lvt-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/overlays/lvt-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lvt-partner-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/conformance/lvt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lvt-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/conformance/lvt-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lvt-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/errors/lvt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lvt-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/lifecycle/lvt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lvt-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/security/lvt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lvt-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/security/lvt-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/lvt-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/conventions/lvt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lvt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/data-model/lvt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lvt-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/asyncapi/lvt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lvt-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/plans/lvt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lvt-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/rate-limits/lvt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lvt-rate-limits.yml
@@ -235,6 +281,45 @@ scopes:
   scope_count: 3
   slug: lvt-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: developing
+  composite: 51.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 64.5
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 51.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/screenshots/lvt-2026-09-02T150348.png
 security:
 - kind: authentication

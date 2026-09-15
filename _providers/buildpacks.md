@@ -11,6 +11,31 @@ access_model:
   - probe
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.0
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - description: The Buildpack API is the contract between a buildpack and the lifecycle. It defines the detect and build executables, layers, build-plan provisions and requirements, and image extension lifecycle that
@@ -68,6 +93,7 @@ common:
   type: License
   url: https://github.com/buildpacks/spec/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/security/buildpacks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buildpacks-domain-security.yml
@@ -120,94 +146,117 @@ common:
   type: DevStats
   url: https://buildpacks.devstats.cncf.io/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/packages/buildpacks-packages.yml
   title: ''
   type: Packages
   url: packages/buildpacks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/packages/buildpacks-packages.yml
   title: ''
   type: SDKs
   url: packages/buildpacks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/cli/buildpacks-cli.yml
   title: ''
   type: CLI
   url: cli/buildpacks-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/conventions/buildpacks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/buildpacks-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/conventions/buildpacks-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/buildpacks-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/authentication/buildpacks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buildpacks-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/errors/buildpacks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/buildpacks-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/lifecycle/buildpacks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/buildpacks-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/lifecycle/buildpacks-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/buildpacks-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/changelog/buildpacks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/buildpacks-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/conformance/buildpacks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/buildpacks-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/conformance/buildpacks-conformance.yml
   title: ''
   type: Compliance
   url: conformance/buildpacks-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/data-model/buildpacks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/buildpacks-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/security/buildpacks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/buildpacks-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/security/buildpacks-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/buildpacks-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/security/buildpacks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/buildpacks-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/llms/buildpacks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buildpacks-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/overlays/buildpacks-kpack-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/buildpacks-kpack-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/plans/buildpacks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buildpacks-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/rate-limits/buildpacks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buildpacks-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/finops/buildpacks-finops.yml
   title: ''
   type: FinOps
   url: finops/buildpacks-finops.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/buildpacks-kpack-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/buildpacks-kpack-swagger.json
@@ -296,6 +345,43 @@ rate_limits:
 - limit_count: 0
   name: Buildpacks Rate Limits
   slug: buildpacks-rate-limits
+score:
+  band: developing
+  composite: 47.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 42.2
+    developer_ergonomics: 73.2
+    discoverability: 72.2
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 47.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/screenshots/buildpacks-2026-06-20T173752.png
 security:
 - kind: authentication
@@ -322,7 +408,6 @@ tags:
 - CNCF
 - Container Images
 - Containers
-- Developer Tools
 - OCI
 - Open-Source
 use_cases:

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -24,50 +49,62 @@ common:
   type: Website
   url: https://chocodata.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/security/chocodata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chocodata-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/authentication/chocodata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chocodata-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/packages/chocodata-packages.yml
   title: ''
   type: Packages
   url: packages/chocodata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/packages/chocodata-packages.yml
   title: ''
   type: SDKs
   url: packages/chocodata-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/well-known/chocodata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chocodata-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/mcp/chocodata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chocodata-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/mcp/chocodata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/chocodata-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/llms/chocodata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chocodata-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/overlays/chocodata-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chocodata-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/conformance/chocodata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chocodata-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/errors/chocodata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chocodata-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/lifecycle/chocodata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chocodata-lifecycle.yml
@@ -76,38 +113,47 @@ common:
   type: StatusPage
   url: https://chocodata.com/status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/lifecycle/chocodata-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/chocodata-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/conventions/chocodata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chocodata-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/changelog/chocodata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chocodata-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/cli/chocodata-cli.yml
   title: ''
   type: CLI
   url: cli/chocodata-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/asyncapi/chocodata-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/chocodata-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/agentic-access/chocodata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chocodata-agentic-access.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/plans/chocodata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chocodata-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/rate-limits/chocodata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chocodata-rate-limits.yml
@@ -183,6 +229,41 @@ rate_limits:
 - limit_count: 4
   name: Chocodata Rate Limits
   slug: chocodata-rate-limits
+score:
+  band: strong
+  composite: 61.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 55.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/screenshots/chocodata-2026-07-25T205249.png
 security:
 - kind: authentication

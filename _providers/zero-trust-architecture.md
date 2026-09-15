@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.8
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: NIST Special Publication 800-207 defines zero trust architecture (ZTA) and provides a roadmap for organizations migrating to ZTA. It describes seven ZTA tenets, three logical components (Policy Decisi
@@ -29,10 +54,12 @@ apis:
 artifact_total: 47
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/security/zero-trust-architecture-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zero-trust-architecture-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/security/zero-trust-architecture-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zero-trust-architecture-domain-security.yml
@@ -77,38 +104,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/open-policy-agent
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-schema/zero-trust-architecture-policy-schema.json
   title: Zero Trust Policy Schema
   type: JSONSchema
   url: json-schema/zero-trust-architecture-policy-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-schema/zero-trust-architecture-identity-schema.json
   title: Zero Trust Identity Schema
   type: JSONSchema
   url: json-schema/zero-trust-architecture-identity-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-schema/zero-trust-architecture-resource-schema.json
   title: Zero Trust Resource Schema
   type: JSONSchema
   url: json-schema/zero-trust-architecture-resource-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-ld/zero-trust-architecture-context.jsonld
   title: Zero Trust Architecture JSON-LD Context
   type: JSONLD
   url: json-ld/zero-trust-architecture-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-structure/zero-trust-architecture-policy-structure.json
   title: Zero Trust Policy Structure
   type: JSONStructure
   url: json-structure/zero-trust-architecture-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-structure/zero-trust-architecture-identity-structure.json
   title: Zero Trust Identity Structure
   type: JSONStructure
   url: json-structure/zero-trust-architecture-identity-structure.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/vocabulary/zero-trust-architecture-vocabulary.yaml
   title: Zero Trust Architecture Vocabulary
   type: Resources
   url: vocabulary/zero-trust-architecture-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/examples/zero-trust-architecture-policy-example.json
   title: Zero Trust Policy Example
   type: CodeExamples
   url: examples/zero-trust-architecture-policy-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/examples/zero-trust-architecture-identity-example.json
   title: Zero Trust Identity Example
   type: CodeExamples
   url: examples/zero-trust-architecture-identity-example.json
@@ -222,6 +258,32 @@ rules:
     info: 2
     warn: 3
   slug: zero-trust-architecture-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 22.6
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 55.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 9.8
+    contract_quality: 17.3
+    developer_ergonomics: 19.0
+    discoverability: 72.2
+    operational_transparency: 10.5
+  previous_composite: 22.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/screenshots/zero-trust-architecture-2026-06-20T201825.png
 security:
 - kind: domain-security

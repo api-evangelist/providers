@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -316,22 +341,27 @@ common:
   type: Website
   url: https://www.tink.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/capabilities/tink-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tink-com-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/agentic-access/tink-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tink-com-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/security/tink-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tink-com-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/security/tink-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tink-com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/authentication/tink-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tink-com-authentication.yml
@@ -340,42 +370,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tink/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-account-transactions-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-account-transactions-overview-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-account-verification-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-account-verification-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-balance-refresh-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-balance-refresh-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-initiate-payment-poll-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-initiate-payment-poll-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-mandate-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-mandate-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-payment-refund-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-payment-refund-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-provider-consent-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-provider-consent-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-recurring-spend-budget-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-recurring-spend-budget-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-user-data-access-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-user-data-access-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/arazzo/tink-com-webhook-endpoint-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tink-com-webhook-endpoint-setup-workflow.yml
@@ -460,26 +500,32 @@ common:
   type: Tools
   url: https://github.com/tink-ab/terraform-provider-buildkite
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/rules/tink-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tink-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/vocabulary/tink-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tink-com-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/json-ld/tink-com-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tink-com-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/plans/tink-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tink-com-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/rate-limits/tink-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tink-com-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/finops/tink-com-finops.yml
   title: ''
   type: FinOps
   url: finops/tink-com-finops.yml
@@ -594,6 +640,49 @@ rules:
     info: 1
     warn: 3
   slug: tink-rules
+score:
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 85.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 29.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 28.8
+    contract_quality: 73.9
+    developer_ergonomics: 52.4
+    discoverability: 64.8
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 44.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/screenshots/tink-com-2026-06-20T195409.png
 security:
 - kind: authentication

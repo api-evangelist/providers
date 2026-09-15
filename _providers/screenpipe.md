@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://screenpi.pe'', ''status'': 301, ''note'': ''declared website redirects to https://screenpipe.com/ — a different registrable domain (screenpi.pe -> screenpipe.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 3
@@ -171,10 +196,12 @@ collections:
   slug: open-screenpipe-vision-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/overlays/screenpipe-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/screenpipe-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/screenpipe-trust-center.yml
@@ -183,10 +210,12 @@ common:
   type: Compliance
   url: https://screenpipe.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/screenpipe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/screenpipe-vulnerability-disclosure.yml
@@ -195,6 +224,7 @@ common:
   type: Security
   url: https://screenpipe.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/agentic-access/screenpipe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/screenpipe-agentic-access.yml
@@ -231,6 +261,7 @@ common:
   type: ChangeLog
   url: https://docs.screenpipe.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/changelog/screenpipe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/screenpipe-changelog.yml
@@ -247,54 +278,67 @@ common:
   type: FAQ
   url: https://docs.screenpipe.com/faq
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/mcp/screenpipe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/screenpipe-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/packages/screenpipe-packages.yml
   title: ''
   type: Packages
   url: packages/screenpipe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/packages/screenpipe-packages.yml
   title: ''
   type: SDKs
   url: packages/screenpipe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/cli/screenpipe-cli.yml
   title: ''
   type: CLI
   url: cli/screenpipe-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/authentication/screenpipe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/screenpipe-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/conventions/screenpipe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/screenpipe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/errors/screenpipe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/screenpipe-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/lifecycle/screenpipe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/screenpipe-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/lifecycle/screenpipe-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/screenpipe-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/conformance/screenpipe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/screenpipe-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/data-model/screenpipe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/screenpipe-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/llms/screenpipe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/screenpipe-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -315,6 +359,41 @@ overview: 'Screenpipe publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
   Screenpipe''s developer surface includes documentation, API reference, getting-started guide, quickstart, changelog, pricing, support, and 25 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 40.3
+    developer_ergonomics: 70.8
+    discoverability: 66.7
+    operational_transparency: 36.8
+  previous_composite: 40.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/screenshots/screenpipe-2026-08-17T081738.png
 security:
 - kind: authentication

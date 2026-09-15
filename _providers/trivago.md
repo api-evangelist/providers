@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Public Model Context Protocol connector (search_hotels) plus an invite-only direct hotel-search API delivering live prices ranked by value, enriched property data, and destination price trends across '
@@ -60,30 +85,37 @@ common:
   type: Compliance
   url: https://www.trivago.com/en-US/sp/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/mcp/trivago-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/trivago-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/llms/trivago-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trivago-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/well-known/trivago-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trivago-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/well-known/trivago-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/trivago-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/conformance/trivago-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trivago-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/security/trivago-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trivago-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/security/trivago-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trivago-vulnerability-disclosure.yml
@@ -108,6 +140,35 @@ overview: 'Trivago publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Trivago''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 13 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 26.4
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 26.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/screenshots/trivago-2026-09-02T164304.png
 security:
 - kind: domain-security

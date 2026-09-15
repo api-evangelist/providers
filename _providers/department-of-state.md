@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -71,10 +96,12 @@ common:
   type: X
   url: https://x.com/StateDept
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/agentic-access/department-of-state-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/department-of-state-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/authentication/department-of-state-authentication.yml
   title: ''
   type: Authentication
   url: authentication/department-of-state-authentication.yml
@@ -83,6 +110,7 @@ common:
   type: Website
   url: https://www.state.gov/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/security/department-of-state-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/department-of-state-domain-security.yml
@@ -107,62 +135,77 @@ common:
   type: Reference
   url: https://fam.state.gov/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/openapi/department-of-state-state-gov-content-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/department-of-state-state-gov-content-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/json-schema/_index.yml
   title: ''
   type: JSONSchema
   url: json-schema/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/overlays/department-of-state-state-gov-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/department-of-state-state-gov-content-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/conventions/department-of-state-conventions.yml
   title: ''
   type: Conventions
   url: conventions/department-of-state-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/errors/department-of-state-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/department-of-state-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/data-model/department-of-state-data-model.yml
   title: ''
   type: DataModel
   url: data-model/department-of-state-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/lifecycle/department-of-state-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/department-of-state-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/conformance/department-of-state-conformance.yml
   title: ''
   type: Conformance
   url: conformance/department-of-state-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/packages/department-of-state-packages.yml
   title: ''
   type: Packages
   url: packages/department-of-state-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/mcp/department-of-state-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/department-of-state-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/llms/department-of-state-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/department-of-state-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/rate-limits/department-of-state-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/department-of-state-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/plans/department-of-state-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/department-of-state-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/security/department-of-state-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/department-of-state-vulnerability-disclosure.yml
@@ -278,6 +321,47 @@ rules:
     info: 0
     warn: 0
   slug: state-rules
+score:
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 6.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 25.2
+    developer_ergonomics: 44.6
+    discoverability: 64.8
+    operational_transparency: 28.9
+  previous_composite: 38.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Department Of State Authentication

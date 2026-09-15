@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -30,14 +55,17 @@ apis:
 artifact_total: 7
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/agentic-access/accessibe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/accessibe-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/security/accessibe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/accessibe-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/security/accessibe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accessibe-domain-security.yml
@@ -102,66 +130,82 @@ common:
   type: ChangeLog
   url: https://support.accessibe.com/hc/en-us/categories/15274937179922-Release-Notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/changelog/accessibe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/accessibe-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/llms/accessibe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accessibe-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/packages/accessibe-packages.yml
   title: ''
   type: Packages
   url: packages/accessibe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/packages/accessibe-packages.yml
   title: ''
   type: SDKs
   url: packages/accessibe-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/mcp/accessibe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/accessibe-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/mcp/accessibe-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/accessibe-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/authentication/accessibe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/accessibe-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/conventions/accessibe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/accessibe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/conventions/accessibe-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/accessibe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/errors/accessibe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/accessibe-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/lifecycle/accessibe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accessibe-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/conformance/accessibe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accessibe-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/data-model/accessibe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/accessibe-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/components/accessibe-components.yml
   title: ''
   type: Components
   url: components/accessibe-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/overlays/accessibe-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/accessibe-partners-overlay.yaml
@@ -182,6 +226,41 @@ overview: 'accessiBe publishes 1 API on the [APIs.io](https://apis.io/) network:
 
   accessiBe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 44.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 54.4
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 44.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/screenshots/accessibe-2026-08-07T160757.png
 security:
 - kind: authentication

@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thundra/refs/heads/main/security/thundra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thundra-domain-security.yml
@@ -24,14 +25,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/thundra-io
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thundra/refs/heads/main/packages/thundra-packages.yml
   title: ''
   type: Packages
   url: packages/thundra-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thundra/refs/heads/main/llms/thundra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thundra-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thundra/refs/heads/main/lifecycle/thundra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thundra-lifecycle.yml

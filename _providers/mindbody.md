@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -189,22 +214,27 @@ common:
   type: IssueTracker
   url: https://github.com/mindbody/Mindbody-API-SDKs/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/agentic-access/mindbody-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mindbody-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/security/mindbody-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mindbody-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/security/mindbody-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mindbody-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/authentication/mindbody-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mindbody-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/scopes/mindbody-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mindbody-scopes.yml
@@ -213,66 +243,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mindbody/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-add-client-book-class-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-add-client-book-class-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-book-appointment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-book-appointment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-browse-services-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-browse-services-checkout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-checkout-cart-confirm-sale-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-checkout-cart-confirm-sale-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-client-arrival-checkin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-client-arrival-checkin-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-client-membership-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-client-membership-review-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-client-visit-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-client-visit-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-enroll-client-in-program-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-enroll-client-in-program-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-find-client-purchases-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-find-client-purchases-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-issue-token-list-clients-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-issue-token-list-clients-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-log-client-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-log-client-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-resolve-site-list-classes-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-resolve-site-list-classes-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-schedule-items-by-location-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-schedule-items-by-location-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-session-type-book-appointment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-session-type-book-appointment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-staff-class-schedule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-staff-class-schedule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/arazzo/mindbody-staff-schedule-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindbody-staff-schedule-lookup-workflow.yml
@@ -329,22 +375,27 @@ common:
   type: ReleaseNotes
   url: https://developers.mindbodyonline.com/Resources/ApiReleaseNotes
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/plans/mindbody-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mindbody-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/rate-limits/mindbody-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mindbody-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/finops/mindbody-finops.yml
   title: ''
   type: FinOps
   url: finops/mindbody-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/rules/mindbody-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/mindbody-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/vocabulary/mindbody-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mindbody-vocabulary.yml
@@ -3519,6 +3570,38 @@ scopes:
   scope_count: 5
   slug: mindbody-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: strong
+  composite: 64.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 81.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 28.8
+    contract_quality: 71.4
+    developer_ergonomics: 72.6
+    discoverability: 63.0
+    operational_transparency: 65.8
+  previous_composite: 64.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png
 security:
 - kind: authentication

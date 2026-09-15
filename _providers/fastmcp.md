@@ -9,6 +9,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: near-conformant
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.6
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: The FastMCP Server is the Python entry point for exposing tools, resources, prompts, and apps to any Model Context Protocol client. Developers instantiate a `FastMCP` server object and register compon
@@ -52,10 +77,12 @@ common:
   type: ContributionGuide
   url: https://github.com/PrefectHQ/fastmcp/blob/main/CONTRIBUTING.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fastmcp/refs/heads/main/a2a/fastmcp-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/fastmcp-a2a.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fastmcp/refs/heads/main/security/fastmcp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fastmcp-domain-security.yml
@@ -233,6 +260,34 @@ overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
   FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 25 more developer resources.'
 random_paper: 15
+score:
+  band: emerging
+  composite: 19.7
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 74.1
+    operational_transparency: 28.9
+  previous_composite: 19.7
+  provenance:
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastmcp/refs/heads/main/screenshots/fastmcp-2026-06-20T181055.png
 security:
 - kind: domain-security

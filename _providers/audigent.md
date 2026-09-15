@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Public, anonymous identity-resolution endpoint that returns Audigent's cookieless Hadron ID (plus hadronIdv2 and the legacy haloId) for the calling browser. Called by the Prebid.js hadronIdSystem user
@@ -92,50 +117,62 @@ common:
   type: PrivacyCenter
   url: https://audigent.com/privacy-center/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/authentication/audigent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/audigent-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/conventions/audigent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/audigent-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/lifecycle/audigent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/audigent-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/lifecycle/audigent-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/audigent-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/conformance/audigent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/audigent-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/conformance/audigent-conformance.yml
   title: ''
   type: Compliance
   url: conformance/audigent-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/components/audigent-components.yml
   title: ''
   type: Components
   url: components/audigent-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/security/audigent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/audigent-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/packages/audigent-packages.yml
   title: ''
   type: Packages
   url: packages/audigent-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/plans/audigent-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/audigent-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/rate-limits/audigent-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/audigent-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/llms/audigent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/audigent-llms.txt
@@ -164,6 +201,37 @@ rate_limits:
 - limit_count: 0
   name: Audigent Rate Limits
   slug: audigent-rate-limits
+score:
+  band: thin
+  composite: 29.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 14.5
+    contract_governance: 18.2
+    contract_quality: 5.3
+    developer_ergonomics: 47.6
+    discoverability: 74.1
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 29.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/screenshots/audigent-2026-08-07T161917.png
 security:
 - kind: authentication

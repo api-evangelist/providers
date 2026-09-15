@@ -10,6 +10,31 @@ access_model:
   - plans/proactis-plans-pricing.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - description: Configure the accounting structures that spend is coded against — departments, cost centers, cost accounts and cost dimensions, plus department addresses. Master data, so records are created with POST
@@ -69,34 +94,42 @@ common:
   type: GettingStarted
   url: https://docs.proactis.com/introduction/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/authentication/proactis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/proactis-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/scopes/proactis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/proactis-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/conventions/proactis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/proactis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/errors/proactis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/proactis-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/rate-limits/proactis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/proactis-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/plans/proactis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/proactis-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/lifecycle/proactis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/proactis-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/changelog/proactis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/proactis-changelog.yml
@@ -105,6 +138,7 @@ common:
   type: ReleaseNotes
   url: https://docs.proactis.com/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/conformance/proactis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proactis-conformance.yml
@@ -113,26 +147,32 @@ common:
   type: Compliance
   url: https://www.proactis.com/uk/about-us/accreditations-certifications/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/asyncapi/proactis-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/proactis-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/sandbox/proactis-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/proactis-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/packages/proactis-packages.yml
   title: ''
   type: Packages
   url: packages/proactis-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/data-model/proactis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/proactis-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/llms/proactis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/proactis-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proactis/refs/heads/main/security/proactis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proactis-domain-security.yml
@@ -194,6 +234,35 @@ scopes:
   scope_count: 0
   slug: proactis-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 53.2
+    developer_ergonomics: 64.3
+    discoverability: 81.5
+    operational_transparency: 57.9
+  previous_composite: 51.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Proactis Authentication

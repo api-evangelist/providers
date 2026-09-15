@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://integration.voa.health/v1
@@ -68,66 +93,82 @@ common:
   type: Support
   url: mailto:integration@voahealth.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/openapi/_original/voa-health-rnds-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/voa-health-rnds-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/overlays/voa-health-rnds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/voa-health-rnds-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/authentication/voa-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voa-health-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/errors/voa-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voa-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/conventions/voa-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voa-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/conformance/voa-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voa-health-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/conformance/voa-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/voa-health-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/lifecycle/voa-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voa-health-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/llms/voa-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voa-health-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/components/voa-health-components.yml
   title: ''
   type: Components
   url: components/voa-health-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/sandbox/voa-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/voa-health-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/data-model/voa-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voa-health-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/mcp/voa-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/voa-health-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/well-known/voa-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/voa-health-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/security/voa-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voa-health-domain-security.yml
@@ -144,6 +185,57 @@ overview: 'VOA Health publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
   VOA Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
 random_paper: 14
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 14.5
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 31.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: BR
+      standard: lgpd
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 27.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/screenshots/voa-health-2026-09-02T170203.png
 security:
 - kind: authentication

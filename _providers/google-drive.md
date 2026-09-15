@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,94 +83,117 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/overlays/google-drive-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-drive-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/agentic-access/google-drive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-drive-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/security/google-drive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-drive-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/security/google-drive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-drive-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/security/google-drive-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/google-drive-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/packages/google-drive-packages.yml
   title: ''
   type: Packages
   url: packages/google-drive-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/well-known/google-drive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-drive-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/mcp/google-drive-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/google-drive-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/llms/google-drive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-drive-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/conformance/google-drive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-drive-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/errors/google-drive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-drive-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/lifecycle/google-drive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-drive-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/scopes/google-drive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-drive-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/authentication/google-drive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-drive-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/conventions/google-drive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-drive-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/changelog/google-drive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-drive-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/components/google-drive-components.yml
   title: ''
   type: Components
   url: components/google-drive-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/data-model/google-drive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-drive-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/arazzo/google-drive-upsert-file-by-name-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-drive-upsert-file-by-name-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/arazzo/google-drive-provision-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-drive-provision-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/arazzo/google-drive-share-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-drive-share-file-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/arazzo/google-drive-copy-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-drive-copy-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/arazzo/google-drive-backup-and-delete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-drive-backup-and-delete-workflow.yml
@@ -177,6 +226,7 @@ common:
   type: StatusPage
   url: https://www.google.com/appsstatus
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/json-ld/google-drive-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-drive-context.jsonld
@@ -273,6 +323,40 @@ scopes:
   scope_count: 13
   slug: google-drive-scopes
   summary_line: 13 scopes · authorizationCode
+score:
+  band: developing
+  composite: 44.6
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 62.6
+    developer_ergonomics: 42.9
+    discoverability: 68.5
+    operational_transparency: 23.7
+  previous_composite: 44.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-08-17T083537.png
 security:
 - kind: authentication

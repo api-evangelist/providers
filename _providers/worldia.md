@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 10.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Worldia production REST API. An API Platform (Symfony) deployment that content-negotiates application/vnd.worldia+json, application/ld+json (Hydra) and application/problem+json. A subset of collection
@@ -31,54 +56,67 @@ common:
   type: PrivacyPolicy
   url: https://static.worldia.com/documents/privacy-policy/GB.pdf
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/json-ld/worldia-json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/worldia-json-ld.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/vocabulary/worldia-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/worldia-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/data-model/worldia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/worldia-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/conventions/worldia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/worldia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/errors/worldia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/worldia-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/authentication/worldia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/worldia-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/packages/worldia-packages.yml
   title: ''
   type: Packages
   url: packages/worldia-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/llms/worldia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/worldia-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/conformance/worldia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/worldia-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/lifecycle/worldia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/worldia-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/plans/worldia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/worldia-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/rate-limits/worldia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/worldia-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/worldia/refs/heads/main/security/worldia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/worldia-domain-security.yml
@@ -171,6 +209,40 @@ rate_limits:
 - limit_count: 0
   name: Worldia Rate Limits
   slug: worldia-rate-limits
+score:
+  band: emerging
+  composite: 23.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 49.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 22.0
+    contract_quality: 14.7
+    developer_ergonomics: 16.7
+    discoverability: 68.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 23.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Worldia Authentication

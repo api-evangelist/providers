@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -100,18 +125,22 @@ common:
   type: License
   url: https://github.com/tibber/Tibber.SDK.NET/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/agentic-access/tibber-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tibber-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/security/tibber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tibber-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/authentication/tibber-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tibber-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/scopes/tibber-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tibber-scopes.yml
@@ -120,34 +149,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tibber/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-consumption-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-consumption-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-current-price-by-home-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-current-price-by-home-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-inspect-connected-device-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-inspect-connected-device-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-price-alert-push-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-price-alert-push-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-production-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-production-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-pull-device-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-pull-device-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-realtime-power-readiness-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-realtime-power-readiness-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/arazzo/tibber-submit-meter-reading-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tibber-submit-meter-reading-workflow.yml
@@ -256,26 +293,32 @@ common:
   type: Forums
   url: https://www.facebook.com/groups/tibbergebruikers/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/rules/tibber-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tibber-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/vocabulary/tibber-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tibber-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/json-ld/tibber-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tibber-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/plans/tibber-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tibber-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/rate-limits/tibber-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tibber-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/finops/tibber-finops.yml
   title: ''
   type: FinOps
   url: finops/tibber-finops.yml
@@ -433,6 +476,53 @@ scopes:
   scope_count: 11
   slug: tibber-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: strong
+  composite: 60.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 87.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 28.8
+    contract_quality: 71.4
+    developer_ergonomics: 60.7
+    discoverability: 68.5
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:
 - kind: authentication

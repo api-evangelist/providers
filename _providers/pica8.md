@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Standards-based on-device programmability in the PICOS network operating system. RESTCONF (RFC 8040) exposes OPTIONS/HEAD/GET/POST/PATCH/PUT/DELETE over YANG-modelled configuration and state at /restc
@@ -74,6 +99,7 @@ apis:
 artifact_total: 16
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/security/pica8-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pica8-domain-security.yml
@@ -134,66 +160,82 @@ common:
   type: Contact
   url: https://www.pica8.com/contact/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-ampcon-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/pica8-ampcon-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/overlays/pica8-ampcon-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pica8-ampcon-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/authentication/pica8-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pica8-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/conventions/pica8-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pica8-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/errors/pica8-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pica8-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/data-model/pica8-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pica8-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/lifecycle/pica8-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pica8-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/changelog/pica8-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pica8-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/conformance/pica8-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pica8-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/packages/pica8-packages.yml
   title: ''
   type: Packages
   url: packages/pica8-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/mcp/pica8-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pica8-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/llms/pica8-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pica8-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/plans/pica8-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pica8-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/rate-limits/pica8-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pica8-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/cli/pica8-cli.yml
   title: ''
   type: CLI
   url: cli/pica8-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -219,6 +261,40 @@ rate_limits:
 - limit_count: 0
   name: Pica8 Rate Limits
   slug: pica8-rate-limits
+score:
+  band: thin
+  composite: 33.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 13.3
+    developer_ergonomics: 54.2
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 33.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/screenshots/pica8-2026-09-02T151220.png
 security:
 - kind: authentication

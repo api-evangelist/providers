@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,6 +90,7 @@ collections:
   slug: open-b-well-webhook-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/overlays/b-well-client-webhook-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/b-well-client-webhook-api-overlay.yaml
@@ -80,6 +107,7 @@ common:
   type: License
   url: https://github.com/icanbwell/fhir-server/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/agentic-access/b-well-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/b-well-agentic-access.yml
@@ -104,10 +132,12 @@ common:
   type: GettingStarted
   url: https://developer.bwell.com/docs/welcome
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/authentication/b-well-authentication.yml
   title: ''
   type: Authentication
   url: authentication/b-well-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/scopes/b-well-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/b-well-scopes.yml
@@ -140,26 +170,32 @@ common:
   type: StatusPage
   url: https://status.bwell.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/changelog/b-well-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/b-well-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/lifecycle/b-well-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/b-well-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/packages/b-well-packages.yml
   title: ''
   type: Packages
   url: packages/b-well-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/packages/b-well-packages.yml
   title: ''
   type: SDKs
   url: packages/b-well-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/well-known/b-well-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/b-well-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/well-known/b-well-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/b-well-security.txt
@@ -168,70 +204,87 @@ common:
   type: Security
   url: https://www.icanbwell.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/security/b-well-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/b-well-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/security/b-well-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/b-well-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/llms/b-well-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/b-well-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/mcp/b-well-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/b-well-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/mcp/b-well-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/b-well-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/conformance/b-well-conformance.yml
   title: ''
   type: Conformance
   url: conformance/b-well-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/errors/b-well-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/b-well-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/conventions/b-well-conventions.yml
   title: ''
   type: Conventions
   url: conventions/b-well-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/sandbox/b-well-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/b-well-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/components/b-well-components.yml
   title: ''
   type: Components
   url: components/b-well-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/data-model/b-well-data-model.yml
   title: ''
   type: DataModel
   url: data-model/b-well-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/asyncapi/b-well-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/b-well-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/plans/b-well-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/b-well-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/rate-limits/b-well-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/b-well-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/security/b-well-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/b-well-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/security/b-well-trust-center.yml
   title: ''
   type: Compliance
   url: security/b-well-trust-center.yml
@@ -269,6 +322,55 @@ scopes:
   scope_count: 4
   slug: b-well-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 56.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 59.4
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 56.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 73.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/screenshots/b-well-2026-08-07T162052.png
 security:
 - kind: authentication

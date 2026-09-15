@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 1
@@ -262,122 +287,152 @@ collections:
   slug: open-mediavalet-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/capabilities/mediavalet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mediavalet-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/agentic-access/mediavalet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mediavalet-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/authentication/mediavalet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mediavalet-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/scopes/mediavalet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mediavalet-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/conventions/mediavalet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mediavalet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/errors/mediavalet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mediavalet-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/lifecycle/mediavalet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mediavalet-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/lifecycle/mediavalet-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/mediavalet-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/changelog/mediavalet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mediavalet-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/data-model/mediavalet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mediavalet-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/conformance/mediavalet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mediavalet-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/conformance/mediavalet-conformance.yml
   title: ''
   type: Compliance
   url: conformance/mediavalet-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/sandbox/mediavalet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mediavalet-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/components/mediavalet-components.yml
   title: ''
   type: Components
   url: components/mediavalet-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/packages/mediavalet-packages.yml
   title: ''
   type: Packages
   url: packages/mediavalet-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/mcp/mediavalet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mediavalet-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/asyncapi/mediavalet-skyhook-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/mediavalet-skyhook-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/asyncapi/mediavalet-skyhook-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/mediavalet-skyhook-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/overlays/mediavalet-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mediavalet-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/llms/mediavalet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mediavalet-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/well-known/mediavalet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mediavalet-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/well-known/mediavalet-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/mediavalet-openid-configuration.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/collections/mediavalet-api.postman_collection.json
   title: ''
   type: Postman
   url: collections/mediavalet-api.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/collections/mediavalet-api.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/mediavalet-api.postman_collection.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/security/mediavalet-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mediavalet-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/security/mediavalet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mediavalet-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/plans/mediavalet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mediavalet-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/rate-limits/mediavalet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mediavalet-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/finops/mediavalet-finops.yml
   title: ''
   type: FinOps
   url: finops/mediavalet-finops.yml
@@ -471,6 +526,41 @@ scopes:
   scope_count: 7
   slug: mediavalet-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials/password
+score:
+  band: strong
+  composite: 59.8
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 51.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 64.3
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/screenshots/mediavalet-2026-08-07T172338.png
 security:
 - kind: authentication

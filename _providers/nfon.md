@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -445,18 +470,22 @@ common:
   type: Website
   url: https://www.nfon.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/capabilities/nfon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nfon-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/security/nfon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nfon-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/agentic-access/nfon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nfon-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/authentication/nfon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nfon-authentication.yml
@@ -509,70 +538,87 @@ common:
   type: Support
   url: https://partners.nfon.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/postman/nfon-service-portal-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/nfon-service-portal-api.postman_collection.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/errors/nfon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nfon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/conformance/nfon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nfon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/lifecycle/nfon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nfon-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/conventions/nfon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nfon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/data-model/nfon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nfon-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/mcp/nfon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nfon-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/llms/nfon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nfon-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/packages/nfon-packages.yml
   title: ''
   type: Packages
   url: packages/nfon-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/well-known/nfon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nfon-well-known.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/changelog/nfon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nfon-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/overlays/nfon-pbx-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nfon-pbx-configuration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/overlays/nfon-cti-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nfon-cti-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/overlays/nfon-call-history-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nfon-call-history-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/skills/nfon-cti-originate-and-cancel-call.md
   title: ''
   type: AgentSkill
   url: skills/nfon-cti-originate-and-cancel-call.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/skills/nfon-call-history-retrieve-records.md
   title: ''
   type: AgentSkill
   url: skills/nfon-call-history-retrieve-records.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/skills/nfon-pbx-provision-extension.md
   title: ''
   type: AgentSkill
   url: skills/nfon-pbx-provision-extension.md
@@ -589,6 +635,59 @@ overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 
   Nfon''s developer surface includes authentication, documentation, API reference, support, changelog, and 29 more developer resources.'
 random_paper: 13
+score:
+  band: developing
+  composite: 47.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 52.5
+    developer_ergonomics: 45.8
+    discoverability: 81.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 47.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 5.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 51
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -184,14 +209,17 @@ collections:
   slug: open-sandboxaq-viewexports-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/capabilities/sandboxaq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sandboxaq-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/agentic-access/sandboxaq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sandboxaq-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/security/sandboxaq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sandboxaq-domain-security.yml
@@ -248,82 +276,102 @@ common:
   type: SecondaryMarket
   url: https://www.hiive.com/securities/sandboxaq-stock
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/openapi/_original/sandboxaq-flint-ai-platform-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/sandboxaq-flint-ai-platform-openapi.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/graphql/sandboxaq-aqtive-guard.graphql
   title: ''
   type: GraphQL
   url: graphql/sandboxaq-aqtive-guard.graphql
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/grpc/sandboxaq-sandwich-sandwich.proto
   title: ''
   type: Protobuf
   url: grpc/sandboxaq-sandwich-sandwich.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/a2a/sandboxaq-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/sandboxaq-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/llms/sandboxaq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sandboxaq-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/mcp/sandboxaq-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sandboxaq-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/mcp/sandboxaq-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sandboxaq-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/packages/sandboxaq-packages.yml
   title: ''
   type: Packages
   url: packages/sandboxaq-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/packages/sandboxaq-packages.yml
   title: ''
   type: SDKs
   url: packages/sandboxaq-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/cli/sandboxaq-cli.yml
   title: ''
   type: CLI
   url: cli/sandboxaq-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/well-known/sandboxaq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sandboxaq-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/conventions/sandboxaq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sandboxaq-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/conformance/sandboxaq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sandboxaq-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/errors/sandboxaq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sandboxaq-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/authentication/sandboxaq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sandboxaq-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/lifecycle/sandboxaq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sandboxaq-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/changelog/sandboxaq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sandboxaq-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/data-model/sandboxaq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sandboxaq-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/overlays/sandboxaq-flint-ai-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sandboxaq-flint-ai-platform-overlay.yaml
@@ -344,6 +392,41 @@ overview: 'SandboxAQ publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 
   SandboxAQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 29 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 59.8
+    developer_ergonomics: 73.8
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 49.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/screenshots/sandboxaq-2026-08-17T081721.png
 security:
 - kind: authentication

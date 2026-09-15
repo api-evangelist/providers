@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -150,6 +175,7 @@ common:
   type: StatusPage
   url: https://status.anam.ai/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/changelog/anam-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anam-changelog.yml
@@ -162,78 +188,97 @@ common:
   type: Compliance
   url: https://trust.anam.ai/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/openapi/_original/anam-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/anam-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/llms/anam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anam-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/packages/anam-packages.yml
   title: ''
   type: Packages
   url: packages/anam-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/packages/anam-packages.yml
   title: ''
   type: SDKs
   url: packages/anam-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/mcp/anam-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/anam-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/overlays/anam-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anam-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/conformance/anam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anam-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/errors/anam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anam-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/lifecycle/anam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anam-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/conventions/anam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anam-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/data-model/anam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anam-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/authentication/anam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anam-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/agentic-access/anam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anam-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/well-known/anam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/anam-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/well-known/anam-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/anam-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/well-known/anam-security.txt
   title: ''
   type: Security
   url: well-known/anam-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/security/anam-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anam-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/security/anam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anam-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -250,6 +295,41 @@ overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
   Anam''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 28 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 51.6
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 58.2
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 51.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:
 - kind: authentication

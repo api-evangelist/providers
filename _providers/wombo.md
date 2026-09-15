@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.w.ai/v1
@@ -95,54 +120,67 @@ common:
   type: Download
   url: https://download.w.ai
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/authentication/wombo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wombo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/conventions/wombo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wombo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/errors/wombo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wombo-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/cli/wombo-cli.yml
   title: ''
   type: CLI
   url: cli/wombo-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/packages/wombo-packages.yml
   title: ''
   type: Packages
   url: packages/wombo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/mcp/wombo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wombo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/llms/wombo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wombo-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/lifecycle/wombo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wombo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/conformance/wombo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wombo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/data-model/wombo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wombo-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/security/wombo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wombo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/overlays/wombo-wai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wombo-wai-overlay.yaml
@@ -159,6 +197,40 @@ overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
   Wombo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, CLI, and 17 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 28.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 14.3
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 28.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/screenshots/wombo-2026-09-02T170908.png
 security:
 - kind: authentication

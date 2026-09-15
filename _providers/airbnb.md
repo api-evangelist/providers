@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -118,26 +143,32 @@ collections:
   slug: open-airbnb-schedules-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/capabilities/airbnb-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/airbnb-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/agentic-access/airbnb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/airbnb-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/security/airbnb-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/airbnb-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/security/airbnb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airbnb-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/authentication/airbnb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airbnb-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/scopes/airbnb-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/airbnb-scopes.yml
@@ -150,18 +181,22 @@ common:
   type: Portal
   url: https://developer.withairbnb.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-ld/airbnb-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/airbnb-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-listing-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-listing-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-reservation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-reservation-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-webhook-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-webhook-event-schema.json
@@ -194,310 +229,387 @@ common:
   type: StatusPage
   url: https://airbnb.statuspage.io/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-address-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-address-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-booking-guest-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-booking-guest-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-booking-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-booking-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-calendar-day-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-calendar-day-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-calendar-operation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-calendar-operation-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-create-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-create-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-host-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-host-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-location-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-location-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-message-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-photo-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-photo-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-pricing-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-pricing-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-experience-update-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-experience-update-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-guest-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-guest-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-listing-create-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-listing-create-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-listing-update-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-listing-update-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-message-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-photo-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-photo-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-pricing-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-pricing-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-review-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-review-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-schedule-create-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-schedule-create-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-schedule-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-schedule-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-schema/airbnb-schedule-update-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/airbnb-schedule-update-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-address-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-address-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-booking-guest-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-booking-guest-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-booking-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-booking-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-calendar-day-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-calendar-day-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-calendar-operation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-calendar-operation-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-create-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-create-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-host-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-host-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-location-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-location-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-message-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-message-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-photo-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-photo-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-pricing-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-pricing-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-experience-update-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-experience-update-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-guest-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-guest-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-listing-create-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-listing-create-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-listing-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-listing-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-listing-update-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-listing-update-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-message-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-message-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-photo-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-photo-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-pricing-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-pricing-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-reservation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-reservation-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-review-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-review-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-schedule-create-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-schedule-create-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-schedule-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-schedule-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-schedule-update-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-schedule-update-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/json-structure/airbnb-webhook-event-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/airbnb-webhook-event-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-address-example.json
   title: ''
   type: Examples
   url: examples/airbnb-address-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-booking-example.json
   title: ''
   type: Examples
   url: examples/airbnb-booking-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-booking-guest-example.json
   title: ''
   type: Examples
   url: examples/airbnb-booking-guest-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-calendar-day-example.json
   title: ''
   type: Examples
   url: examples/airbnb-calendar-day-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-calendar-operation-example.json
   title: ''
   type: Examples
   url: examples/airbnb-calendar-operation-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-create-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-host-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-host-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-location-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-location-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-message-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-message-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-photo-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-photo-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-pricing-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-pricing-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-experience-update-example.json
   title: ''
   type: Examples
   url: examples/airbnb-experience-update-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-guest-example.json
   title: ''
   type: Examples
   url: examples/airbnb-guest-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-listing-create-example.json
   title: ''
   type: Examples
   url: examples/airbnb-listing-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-listing-example.json
   title: ''
   type: Examples
   url: examples/airbnb-listing-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-listing-update-example.json
   title: ''
   type: Examples
   url: examples/airbnb-listing-update-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-message-example.json
   title: ''
   type: Examples
   url: examples/airbnb-message-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-photo-example.json
   title: ''
   type: Examples
   url: examples/airbnb-photo-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-pricing-example.json
   title: ''
   type: Examples
   url: examples/airbnb-pricing-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-reservation-example.json
   title: ''
   type: Examples
   url: examples/airbnb-reservation-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-review-example.json
   title: ''
   type: Examples
   url: examples/airbnb-review-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-schedule-create-example.json
   title: ''
   type: Examples
   url: examples/airbnb-schedule-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-schedule-example.json
   title: ''
   type: Examples
   url: examples/airbnb-schedule-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-schedule-update-example.json
   title: ''
   type: Examples
   url: examples/airbnb-schedule-update-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/examples/airbnb-webhook-event-example.json
   title: ''
   type: Examples
   url: examples/airbnb-webhook-event-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/rules/airbnb-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/airbnb-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/vocabulary/airbnb-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/airbnb-vocabulary.yaml
@@ -812,6 +924,41 @@ scopes:
   scope_count: 13
   slug: airbnb-scopes
   summary_line: 13 scopes · authorizationCode
+score:
+  band: developing
+  composite: 43.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 54.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 28.8
+    contract_quality: 77.9
+    developer_ergonomics: 26.2
+    discoverability: 53.7
+    operational_transparency: 26.3
+  previous_composite: 43.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png
 security:
 - kind: authentication

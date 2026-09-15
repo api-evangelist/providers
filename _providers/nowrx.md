@@ -7,6 +7,7 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/nowrx_stock/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nowrx/refs/heads/main/packages/nowrx-packages.yml
   title: ''
   type: Packages
   url: packages/nowrx-packages.yml

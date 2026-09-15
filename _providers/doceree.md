@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The ad-request surface Doceree publisher partners call to fetch an HCP-targeted advertisement. It is the endpoint behind the Doceree Publisher Tag, the first-party Prebid.js header-bidding adapter (bi
@@ -26,6 +51,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/security/doceree-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/doceree-trust-center.yml
@@ -46,6 +72,7 @@ common:
   type: License
   url: https://github.com/prebid/Prebid.js/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/security/doceree-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doceree-domain-security.yml
@@ -98,58 +125,72 @@ common:
   type: Contact
   url: https://doceree.com/contact
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/packages/doceree-packages.yml
   title: ''
   type: Packages
   url: packages/doceree-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/packages/doceree-packages.yml
   title: ''
   type: SDKs
   url: packages/doceree-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/components/doceree-components.yml
   title: ''
   type: Components
   url: components/doceree-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/conventions/doceree-conventions.yml
   title: ''
   type: Conventions
   url: conventions/doceree-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/authentication/doceree-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doceree-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/conformance/doceree-conformance.yml
   title: ''
   type: Conformance
   url: conformance/doceree-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/lifecycle/doceree-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/doceree-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/llms/doceree-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doceree-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/errors/doceree-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/doceree-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/rate-limits/doceree-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/doceree-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/plans/doceree-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/doceree-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/data-model/doceree-data-model.yml
   title: ''
   type: DataModel
   url: data-model/doceree-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/changelog/doceree-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/doceree-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/sandbox/doceree-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/doceree-sandbox.yml
@@ -175,6 +216,49 @@ rate_limits:
 - limit_count: 0
   name: Doceree Rate Limits
   slug: doceree-rate-limits
+score:
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 74.1
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 38.4
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/screenshots/doceree-2026-08-07T164451.png
 security:
 - kind: authentication

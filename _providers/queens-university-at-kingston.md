@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Queen's runs its own Shibboleth Identity Provider and publishes SAML 2.0 IdP metadata as application/xml at a stable, unauthenticated URL on its own registrable domain. The EntityDescriptor carries en
@@ -83,30 +108,37 @@ common:
   type: Blog
   url: https://www.queensu.ca/gazette/rss.xml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/conformance/queens-university-at-kingston-conformance.yml
   title: ''
   type: Conformance
   url: conformance/queens-university-at-kingston-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/authentication/queens-university-at-kingston-authentication.yml
   title: ''
   type: Authentication
   url: authentication/queens-university-at-kingston-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/security/queens-university-at-kingston-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/queens-university-at-kingston-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/plans/queens-university-at-kingston-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/queens-university-at-kingston-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/rate-limits/queens-university-at-kingston-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/queens-university-at-kingston-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/finops/queens-university-at-kingston-finops.yml
   title: ''
   type: FinOps
   url: finops/queens-university-at-kingston-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -164,6 +196,47 @@ rate_limits:
 - limit_count: 1
   name: Queens University At Kingston Rate Limits
   slug: queens-university-at-kingston-rate-limits
+score:
+  band: thin
+  composite: 28.0
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 59.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 4.4
+    developer_ergonomics: 28.6
+    discoverability: 81.5
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 28.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 38.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png
 security:
 - kind: authentication

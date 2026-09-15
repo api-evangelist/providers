@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,6 +82,7 @@ collections:
   slug: open-parafi-solana-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/overlays/parafi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/parafi-openapi-overlay.yaml
@@ -89,46 +115,57 @@ common:
   type: PrivacyPolicy
   url: https://parafi.tech/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/authentication/parafi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parafi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/conventions/parafi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parafi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/errors/parafi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parafi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/lifecycle/parafi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parafi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/conformance/parafi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parafi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/data-model/parafi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parafi-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/mcp/parafi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parafi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/llms/parafi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parafi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/agentic-access/parafi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/parafi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/security/parafi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parafi-domain-security.yml
@@ -153,6 +190,48 @@ overview: 'Parafi publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
   Parafi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, and 15 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 44.0
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 44.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/screenshots/parafi-2026-08-07T191404.png
 security:
 - kind: authentication

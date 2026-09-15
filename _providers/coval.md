@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -299,6 +325,7 @@ collections:
   slug: open-coval-widgets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/overlays/coval-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coval-agents-overlay.yaml
@@ -371,62 +398,77 @@ common:
   type: Compliance
   url: https://trust.oneleet.com/coval
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/authentication/coval-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coval-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/security/coval-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coval-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/packages/coval-packages.yml
   title: ''
   type: Packages
   url: packages/coval-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/packages/coval-packages.yml
   title: ''
   type: SDKs
   url: packages/coval-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/cli/coval-cli.yml
   title: ''
   type: CLI
   url: cli/coval-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/mcp/coval-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/coval-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/llms/coval-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coval-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/agentic-access/coval-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coval-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/conventions/coval-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coval-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/errors/coval-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coval-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/lifecycle/coval-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coval-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/conformance/coval-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coval-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/data-model/coval-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coval-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/asyncapi/coval-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coval-webhooks.yml
@@ -450,6 +492,41 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
   Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 70.1
+    developer_ergonomics: 74.4
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 52.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
@@ -44,6 +69,7 @@ common:
   type: Website
   url: https://www.snap.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/skills/snap-send-conversion-events.md
   title: ''
   type: AgentSkill
   url: skills/snap-send-conversion-events.md
@@ -64,118 +90,147 @@ common:
   type: GettingStarted
   url: https://developers.snap.com/api/marketing-api/Ads-API/quick-start
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/authentication/snap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snap-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/scopes/snap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/snap-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/packages/snap-packages.yml
   title: ''
   type: SDKs
   url: packages/snap-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/packages/snap-packages.yml
   title: ''
   type: Packages
   url: packages/snap-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/conventions/snap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/errors/snap-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/snap-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/lifecycle/snap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/snap-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/lifecycle/snap-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/snap-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/changelog/snap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/snap-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/conformance/snap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snap-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/mcp/snap-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/snap-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/mcp/snap-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/snap-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/snap-conversions-api-v3-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/snap-conversions-api-v3-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/openapi/snap-conversions-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/snap-conversions-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/overlays/snap-conversions-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snap-conversions-api-v3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/overlays/snap-conversions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snap-conversions-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/asyncapi/snap-lead-gen-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/snap-lead-gen-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/rate-limits/snap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snap-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/plans/snap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snap-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/sandbox/snap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/snap-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/components/snap-components.yml
   title: ''
   type: Components
   url: components/snap-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snap-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/llms/snap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snap-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/well-known/snap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/snap-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snap-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/snap-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/security/snap-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/snap-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/data-model/snap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snap-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -237,6 +292,40 @@ scopes:
   scope_count: 0
   slug: snap-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 52.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 49.3
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 76.3
+  previous_composite: 52.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/screenshots/snap-2026-08-17T081939.png
 security:
 - kind: authentication

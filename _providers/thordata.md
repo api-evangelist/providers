@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://openapi.thordata.com/api/locations
@@ -94,34 +119,42 @@ common:
   type: Website
   url: https://www.thordata.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/overlays/thordata-scraper-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thordata-scraper-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/skills/thordata-serp-search.md
   title: ''
   type: AgentSkill
   url: skills/thordata-serp-search.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/overlays/thordata-universal-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thordata-universal-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/skills/thordata-scrape-page.md
   title: ''
   type: AgentSkill
   url: skills/thordata-scrape-page.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/overlays/thordata-web-scraper-tasks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thordata-web-scraper-tasks-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/skills/thordata-run-scraper-task.md
   title: ''
   type: AgentSkill
   url: skills/thordata-run-scraper-task.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/overlays/thordata-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thordata-public-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/skills/thordata-manage-proxy-users.md
   title: ''
   type: AgentSkill
   url: skills/thordata-manage-proxy-users.md
@@ -178,74 +211,92 @@ common:
   type: Security
   url: https://www.thordata.com/security-vulnerabilities-reward-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/security/thordata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/thordata-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/security/thordata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thordata-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/authentication/thordata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thordata-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/conventions/thordata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thordata-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/errors/thordata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thordata-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/rate-limits/thordata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thordata-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/plans/thordata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/thordata-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/lifecycle/thordata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thordata-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/changelog/thordata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/thordata-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/conformance/thordata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thordata-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/data-model/thordata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thordata-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/packages/thordata-packages.yml
   title: ''
   type: Packages
   url: packages/thordata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/packages/thordata-packages.yml
   title: ''
   type: SDKs
   url: packages/thordata-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/sandbox/thordata-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thordata-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/asyncapi/thordata-web-scraper-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/thordata-web-scraper-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/mcp/thordata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/thordata-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/llms/thordata-llms.txt
   title: ''
   type: LLMSTxt
   url: llms/thordata-llms.txt
@@ -278,6 +329,40 @@ rate_limits:
 - limit_count: 0
   name: Thordata Rate Limits
   slug: thordata-rate-limits
+score:
+  band: thin
+  composite: 36.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 21.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 36.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 14
+      marker_coverage: 100.0
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/screenshots/thordata-2026-08-17T082346.png
 security:
 - kind: authentication

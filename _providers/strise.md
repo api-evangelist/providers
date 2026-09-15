@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: GraphQL API for programmatic access to core Strise functionality — search companies and persons, screen for PEP/sanctions/ownership, run reviews, manage a monitoring portfolio, and subscribe to webhoo
@@ -77,58 +103,72 @@ common:
   type: Security
   url: https://docs.strise.ai/technology/bug-bounty-program/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/mcp/strise-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/strise-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/llms/strise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/strise-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/well-known/strise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/strise-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/authentication/strise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/strise-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/conventions/strise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/strise-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/conformance/strise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/strise-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/sandbox/strise-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/strise-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/changelog/strise-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/strise-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/asyncapi/strise-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/strise-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/lifecycle/strise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/strise-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/data-model/strise-data-model.yml
   title: ''
   type: DataModel
   url: data-model/strise-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/security/strise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/strise-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/security/strise-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/strise-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -152,6 +192,42 @@ overview: 'Strise publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Strise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 47.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 47.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/strise/refs/heads/main/screenshots/strise-2026-08-17T082140.png
 security:
 - kind: authentication

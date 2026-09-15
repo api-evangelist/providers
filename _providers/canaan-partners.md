@@ -31,7 +31,6 @@ tags:
 - Biotech
 - Developer Tools
 - Fintech
-- Consumer
 - Artificial Intelligence
 - North America
 ---

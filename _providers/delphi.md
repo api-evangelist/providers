@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -114,18 +139,22 @@ common:
   type: GettingStarted
   url: https://docs.delphi.ai/advanced/actions/api-immortal-only
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/authentication/delphi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/delphi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/conventions/delphi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/delphi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/errors/delphi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/delphi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/lifecycle/delphi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/delphi-lifecycle.yml
@@ -134,46 +163,57 @@ common:
   type: StatusPage
   url: https://status.delphi.ai
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/changelog/delphi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/delphi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/conformance/delphi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/delphi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/security/delphi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/delphi-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/agentic-access/delphi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/delphi-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/mcp/delphi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/delphi-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/asyncapi/delphi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/delphi-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/llms/delphi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/delphi-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/data-model/delphi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/delphi-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/components/delphi-components.yml
   title: ''
   type: Components
   url: components/delphi-components.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/overlays/delphi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/delphi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -221,6 +261,41 @@ overview: 'Delphi publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
   Delphi''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 37.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 22.5
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 37.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
 security:
 - kind: authentication

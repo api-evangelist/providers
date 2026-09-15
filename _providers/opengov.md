@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 63.1
+  scored_at: '2026-09-14'
 api_count: 12
 apis:
 - baseURL: https://api.plce.opengov.com/plce
@@ -841,22 +866,27 @@ collections:
   slug: open-opengov-vendors-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/capabilities/opengov-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opengov-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/overlays/opengov-budgeting-performance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opengov-budgeting-performance-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/security/opengov-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/opengov-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/security/opengov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opengov-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/authentication/opengov-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opengov-authentication.yml
@@ -917,74 +947,92 @@ common:
   type: Security
   url: https://opengov.com/security/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/sandbox/opengov-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/opengov-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/changelog/opengov-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opengov-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/asyncapi/opengov-permitting-licensing-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/opengov-permitting-licensing-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/conventions/opengov-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opengov-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/errors/opengov-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opengov-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/lifecycle/opengov-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opengov-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/conformance/opengov-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opengov-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/data-model/opengov-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opengov-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/packages/opengov-packages.yml
   title: ''
   type: Packages
   url: packages/opengov-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/well-known/opengov-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/opengov-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/llms/opengov-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opengov-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/mcp/opengov-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/opengov-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/conventions/opengov-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/opengov-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/security/opengov-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/opengov-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/scopes/opengov-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/opengov-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/rate-limits/opengov-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opengov-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/well-known/opengov-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/opengov-openid-configuration.json
@@ -1013,6 +1061,46 @@ scopes:
   scope_count: 0
   slug: opengov-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 65.6
+    developer_ergonomics: 23.2
+    discoverability: 68.5
+    operational_transparency: 36.8
+  previous_composite: 49.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 102
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 77.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:
 - kind: authentication

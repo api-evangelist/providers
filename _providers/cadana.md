@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -278,10 +303,12 @@ collections:
   slug: open-cadana-virtual-accounts-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/capabilities/cadana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cadana-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/overlays/cadana-embedded-consumer-wallets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cadana-embedded-consumer-wallets-overlay.yaml
@@ -338,74 +365,92 @@ common:
   type: Postman
   url: https://www.postman.com/cadana/workspace/cadana-developers
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/security/cadana-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cadana-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/authentication/cadana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cadana-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/llms/cadana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cadana-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/mcp/cadana-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cadana-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/conventions/cadana-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cadana-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/conventions/cadana-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cadana-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/errors/cadana-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cadana-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/lifecycle/cadana-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cadana-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/conformance/cadana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cadana-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/sandbox/cadana-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cadana-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/components/cadana-components.yml
   title: ''
   type: Components
   url: components/cadana-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/data-model/cadana-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cadana-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/asyncapi/cadana-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cadana-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/agentic-access/cadana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cadana-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/security/cadana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cadana-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/arazzo/cadana-pay-contractor.yml
   title: ''
   type: Arazzo
   url: arazzo/cadana-pay-contractor.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/arazzo/cadana-calculate-tax.yml
   title: ''
   type: Arazzo
   url: arazzo/cadana-calculate-tax.yml
@@ -425,6 +470,47 @@ overview: 'Cadana publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
   Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 4.5
+    contract_quality: 64.6
+    developer_ergonomics: 68.5
+    discoverability: 81.5
+    operational_transparency: 10.5
+  previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/screenshots/cadana-2026-07-25T204209.png
 security:
 - kind: authentication

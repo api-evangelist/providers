@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -130,14 +155,17 @@ collections:
   slug: open-nrdp
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/agentic-access/nagios-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nagios-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/security/nagios-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nagios-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/authentication/nagios-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nagios-authentication.yml
@@ -238,14 +266,17 @@ common:
   type: License
   url: https://github.com/NagiosEnterprises/nagioscore/blob/master/LICENSE
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/plans/nagios-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nagios-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/vocabulary/nagios-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nagios-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/json-ld/nagios-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/nagios-context.jsonld
@@ -353,6 +384,38 @@ rules:
     info: 0
     warn: 2
   slug: ncpa-rules
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 82.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 28.8
+    contract_quality: 58.1
+    developer_ergonomics: 31.0
+    discoverability: 74.1
+    operational_transparency: 2.6
+  previous_composite: 41.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:
 - kind: authentication

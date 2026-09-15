@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.8
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The foundational specification of the Zero Trust security model. Defines the seven tenets, the PDP/PEP/PA logical components, and the deployment variants (enhanced identity governance, microsegmentati
@@ -29,10 +54,12 @@ apis:
 artifact_total: 30
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/security/zero-trust-security-model-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zero-trust-security-model-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/security/zero-trust-security-model-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zero-trust-security-model-domain-security.yml
@@ -89,26 +116,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/open-policy-agent
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-schema/zero-trust-security-model-pillar-schema.json
   title: Zero Trust Pillar Schema
   type: JSONSchema
   url: json-schema/zero-trust-security-model-pillar-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-schema/zero-trust-security-model-maturity-schema.json
   title: Zero Trust Maturity Assessment Schema
   type: JSONSchema
   url: json-schema/zero-trust-security-model-maturity-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-structure/zero-trust-security-model-pillar-structure.json
   title: Zero Trust Pillar Structure
   type: JSONStructure
   url: json-structure/zero-trust-security-model-pillar-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/json-ld/zero-trust-security-model-context.jsonld
   title: Zero Trust Security Model JSON-LD Context
   type: JSONLD
   url: json-ld/zero-trust-security-model-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/examples/zero-trust-security-model-maturity-example.json
   title: Zero Trust Maturity Assessment Example
   type: CodeExamples
   url: examples/zero-trust-security-model-maturity-example.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/vocabulary/zero-trust-security-model-vocabulary.yaml
   title: Zero Trust Security Model Vocabulary
   type: Resources
   url: vocabulary/zero-trust-security-model-vocabulary.yaml
@@ -188,6 +221,38 @@ rules:
     info: 1
     warn: 4
   slug: zero-trust-security-model-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 27.3
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 55.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 9.8
+    contract_quality: 17.3
+    developer_ergonomics: 26.2
+    discoverability: 72.2
+    operational_transparency: 13.2
+  previous_composite: 27.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 40.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-security-model/refs/heads/main/screenshots/zero-trust-security-model-2026-06-20T201831.png
 security:
 - kind: domain-security

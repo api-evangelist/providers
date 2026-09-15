@@ -16,6 +16,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/security/css-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/css-domain-security.yml
@@ -100,34 +101,42 @@ common:
   type: Tools
   url: https://www.w3.org/Style/CSS/Test/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/vocabulary/css-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/css-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/packages/css-packages.yml
   title: ''
   type: Packages
   url: packages/css-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/llms/css-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/css-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/lifecycle/css-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/css-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/changelog/css-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/css-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/conformance/css-conformance.yml
   title: ''
   type: Conformance
   url: conformance/css-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/plans/css-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/css-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/css/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -173,6 +182,6 @@ tags:
 - Validation
 - CSSOM
 - Houdini
-- Front End
+- Frontend
 website: https://www.w3.org/Style/CSS/
 ---

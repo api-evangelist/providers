@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,18 +81,22 @@ collections:
   slug: open-green-button-alliance-espi
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/agentic-access/pge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pge-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/security/pge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pge-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/scopes/pge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pge-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/authentication/pge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pge-authentication.yml
@@ -100,6 +129,7 @@ common:
   type: VulnerabilityDisclosure
   url: https://www.pge.com/en/about/company-information/vulnerability-disclosure-policy.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/security/pge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pge-vulnerability-disclosure.yml
@@ -140,58 +170,72 @@ common:
   type: TermsOfService
   url: https://www.pge.com/assets/pge/docs/save-energy-and-money/energy-savings-programs/ShareMyData_Platform_TermsofUse.pdf
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/packages/pge-packages.yml
   title: ''
   type: Packages
   url: packages/pge-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/packages/pge-packages.yml
   title: ''
   type: SDKs
   url: packages/pge-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/llms/pge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pge-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/overlays/pge-green-button-alliance-espi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pge-green-button-alliance-espi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/conformance/pge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pge-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/errors/pge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pge-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/lifecycle/pge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pge-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/changelog/pge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pge-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/conventions/pge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pge-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/data-model/pge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pge-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/rate-limits/pge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pge-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/sandbox/pge-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pge-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/asyncapi/pge-share-my-data-notifications.yml
   title: ''
   type: Webhooks
   url: asyncapi/pge-share-my-data-notifications.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -231,6 +275,54 @@ scopes:
   scope_count: 21
   slug: pge-scopes
   summary_line: 21 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 21.9
+    developer_ergonomics: 82.7
+    discoverability: 68.5
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 53.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 64.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/screenshots/pge-2026-08-17T081205.png
 security:
 - kind: authentication

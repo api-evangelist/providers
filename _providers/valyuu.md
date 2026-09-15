@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Partner-facing trade-in API behind Valyuu's embedded recommerce platform. Version 1 exposes device catalog lookups (categories, brands, series, models, and model condition/attribute questions), FAQ co
@@ -19,6 +44,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/security/valyuu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/valyuu-domain-security.yml
@@ -39,30 +65,37 @@ common:
   type: TermsOfService
   url: https://15q6umhquujjvdoy.public.blob.vercel-storage.com/selling-t%26c/(EN)%20Selling%20Terms%20and%20Conditions_Valyuu%20-LdMQiilaDa887YNj0BWw2XEGmYgLmK.pdf
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/well-known/valyuu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/valyuu-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/mcp/valyuu-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/valyuu-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/llms/valyuu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/valyuu-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/authentication/valyuu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/valyuu-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/lifecycle/valyuu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/valyuu-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/data-model/valyuu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/valyuu-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/valyuu/refs/heads/main/sandbox/valyuu-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/valyuu-sandbox.yml
@@ -79,6 +112,34 @@ overview: 'Valyuu publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Valyuu''s developer surface includes authentication, sandbox, and 10 more developer resources.'
 random_paper: 6
+score:
+  band: emerging
+  composite: 15.9
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 15.9
+  provenance:
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Valyuu Authentication

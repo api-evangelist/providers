@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,14 +62,17 @@ collections:
   slug: open-abstractapi-phone
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/agentic-access/abstractapi-phone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/abstractapi-phone-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/security/abstractapi-phone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abstractapi-phone-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/authentication/abstractapi-phone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abstractapi-phone-authentication.yml
@@ -65,14 +93,17 @@ common:
   type: Documentation
   url: https://www.abstractapi.com/api/phone-validation-api
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/plans/abstractapi-phone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abstractapi-phone-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/rate-limits/abstractapi-phone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abstractapi-phone-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/finops/abstractapi-phone-finops.yml
   title: ''
   type: FinOps
   url: finops/abstractapi-phone-finops.yml
@@ -101,6 +132,45 @@ rate_limits:
 - limit_count: 2
   name: Abstractapi Phone Rate Limits
   slug: abstractapi-phone-rate-limits
+score:
+  band: thin
+  composite: 35.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 56.5
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 23.7
+  previous_composite: 35.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/screenshots/abstractapi-phone-2026-07-25T181408.png
 security:
 - kind: authentication

@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ofo/refs/heads/main/packages/ofo-packages.yml
   title: ''
   type: Packages
   url: packages/ofo-packages.yml

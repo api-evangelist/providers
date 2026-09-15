@@ -11,6 +11,32 @@ access_model:
   - openapi
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 51.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 30
@@ -268,118 +294,147 @@ common:
   type: StatusPage
   url: https://my.onetrust.com/s/system-status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/lifecycle/onetrust-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/onetrust-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/lifecycle/onetrust-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onetrust-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/changelog/onetrust-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onetrust-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/authentication/onetrust-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onetrust-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/scopes/onetrust-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/onetrust-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/conventions/onetrust-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onetrust-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/errors/onetrust-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/onetrust-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/data-model/onetrust-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onetrust-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/rate-limits/onetrust-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/onetrust-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/plans/onetrust-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/onetrust-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/finops/onetrust-finops.yml
   title: ''
   type: FinOps
   url: finops/onetrust-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/packages/onetrust-packages.yml
   title: ''
   type: Packages
   url: packages/onetrust-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/packages/onetrust-packages.yml
   title: ''
   type: SDKs
   url: packages/onetrust-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/components/onetrust-components.yml
   title: ''
   type: Components
   url: components/onetrust-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/sandbox/onetrust-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/onetrust-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/mcp/onetrust-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/onetrust-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/mcp/onetrust-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/onetrust-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/agentic-access/onetrust-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/onetrust-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/llms/onetrust-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onetrust-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/well-known/onetrust-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/onetrust-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/well-known/onetrust-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/onetrust-api-catalog.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/asyncapi/onetrust-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/onetrust-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/conformance/onetrust-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onetrust-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/conformance/onetrust-conformance.yml
   title: ''
   type: Compliance
   url: conformance/onetrust-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/security/onetrust-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/onetrust-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/security/onetrust-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/onetrust-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/security/onetrust-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/onetrust-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/security/onetrust-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onetrust-domain-security.yml
@@ -420,6 +475,41 @@ scopes:
   scope_count: 51
   slug: onetrust-scopes
   summary_line: 51 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 68.2
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 50.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 70.4
+    developer_ergonomics: 51.8
+    discoverability: 57.4
+    operational_transparency: 92.1
+  previous_composite: 68.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/screenshots/onetrust-2026-06-20T190718.png
 security:
 - kind: authentication

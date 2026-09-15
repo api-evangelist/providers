@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -75,82 +100,102 @@ collections:
   slug: open-jenkins
 common:
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-trigger-build-and-await-result-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-trigger-build-and-await-result-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-trigger-parameterized-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-trigger-parameterized-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-inspect-job-latest-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-inspect-job-latest-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-instance-health-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-instance-health-check-workflow.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/agentic-access/jenkins-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jenkins-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/security/jenkins-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jenkins-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/security/jenkins-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jenkins-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/authentication/jenkins-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jenkins-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/packages/jenkins-packages.yml
   title: ''
   type: Packages
   url: packages/jenkins-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/well-known/jenkins-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jenkins-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/well-known/jenkins-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/jenkins-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/mcp/jenkins-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jenkins-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/llms/jenkins-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jenkins-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/overlays/jenkins-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jenkins-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/conformance/jenkins-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jenkins-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/lifecycle/jenkins-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jenkins-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/conventions/jenkins-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jenkins-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/changelog/jenkins-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jenkins-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/cli/jenkins-cli.yml
   title: ''
   type: CLI
   url: cli/jenkins-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/data-model/jenkins-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jenkins-data-model.yml
@@ -243,6 +288,40 @@ rate_limits:
 - limit_count: 5
   name: Jenkins Rate Limits
   slug: jenkins-rate-limits
+score:
+  band: thin
+  composite: 36.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 44.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 46.9
+    developer_ergonomics: 45.2
+    discoverability: 64.8
+    operational_transparency: 31.6
+  previous_composite: 36.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/screenshots/jenkins-2026-06-20T183720.png
 security:
 - kind: authentication
@@ -264,7 +343,6 @@ tags:
 - CI/CD
 - Continuous Delivery
 - Continuous Integration
-- Developer Tools
 - DevOps
 - Open-Source
 - Remote Access API

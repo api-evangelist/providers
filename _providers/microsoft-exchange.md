@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -259,78 +284,97 @@ collections:
   slug: open-microsoft-exchange-scheduling-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/overlays/microsoft-exchange-admin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-exchange-admin-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/agentic-access/microsoft-exchange-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-exchange-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/security/microsoft-exchange-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-exchange-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/security/microsoft-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-exchange-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/authentication/microsoft-exchange-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-exchange-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/scopes/microsoft-exchange-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-exchange-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/packages/microsoft-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-exchange-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/well-known/microsoft-exchange-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-exchange-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/well-known/microsoft-exchange-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-exchange-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/mcp/microsoft-exchange-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/microsoft-exchange-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/llms/microsoft-exchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-exchange-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/conformance/microsoft-exchange-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-exchange-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/errors/microsoft-exchange-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-exchange-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/lifecycle/microsoft-exchange-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-exchange-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/conventions/microsoft-exchange-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-exchange-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/changelog/microsoft-exchange-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-exchange-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/cli/microsoft-exchange-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-exchange-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/data-model/microsoft-exchange-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-exchange-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/sandbox/microsoft-exchange-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-exchange-sandbox.yml
@@ -339,70 +383,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-exchange/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-audit-message-attachments-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-audit-message-attachments-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-audit-org-and-domains-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-audit-org-and-domains-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-compose-attach-send-mail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-compose-attach-send-mail-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-discover-mailbox-content-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-discover-mailbox-content-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-find-times-and-book-meeting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-find-times-and-book-meeting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-grant-folder-permission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-grant-folder-permission-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-inspect-and-delegate-mailbox-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-inspect-and-delegate-mailbox-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-migrate-mailbox-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-migrate-mailbox-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-organize-contacts-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-organize-contacts-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-organize-folder-and-file-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-organize-folder-and-file-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-prepare-and-send-forward-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-prepare-and-send-forward-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-provision-calendar-and-add-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-provision-calendar-and-add-event-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-reply-to-latest-from-sender-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-reply-to-latest-from-sender-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-review-and-respond-to-invite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-review-and-respond-to-invite-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-schedule-event-with-attachment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-schedule-event-with-attachment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-triage-and-move-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-triage-and-move-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/arazzo/microsoft-exchange-upsert-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-exchange-upsert-contact-workflow.yml
@@ -479,30 +540,37 @@ common:
   type: Graph Explorer
   url: https://developer.microsoft.com/en-us/graph/graph-explorer
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/json-ld/microsoft-exchange-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/microsoft-exchange-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/json-schema/microsoft-exchange-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-exchange-message-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/json-schema/microsoft-exchange-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-exchange-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/json-schema/microsoft-exchange-contact-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-exchange-contact-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/json-schema/microsoft-exchange-calendar-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-exchange-calendar-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/json-schema/microsoft-exchange-mail-folder-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-exchange-mail-folder-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/json-schema/microsoft-exchange-person-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-exchange-person-schema.json
@@ -716,6 +784,40 @@ scopes:
   scope_count: 18
   slug: microsoft-exchange-scopes
   summary_line: 18 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 56.4
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 57.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 48.7
+    contract_governance: 14.4
+    contract_quality: 70.5
+    developer_ergonomics: 79.8
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 56.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:
 - kind: authentication

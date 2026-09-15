@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -147,78 +172,97 @@ collections:
   slug: open-amazon-rekognition
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/agentic-access/amazon-rekognition-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-rekognition-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/security/amazon-rekognition-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-rekognition-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/security/amazon-rekognition-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-rekognition-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/security/amazon-rekognition-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-rekognition-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/authentication/amazon-rekognition-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-rekognition-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/packages/amazon-rekognition-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-rekognition-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/mcp/amazon-rekognition-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-rekognition-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/well-known/amazon-rekognition-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-rekognition-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/well-known/amazon-rekognition-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-rekognition-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/llms/amazon-rekognition-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-rekognition-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/overlays/amazon-rekognition-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-rekognition-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/errors/amazon-rekognition-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-rekognition-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/lifecycle/amazon-rekognition-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-rekognition-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/conformance/amazon-rekognition-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-rekognition-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/conventions/amazon-rekognition-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-rekognition-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/changelog/amazon-rekognition-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-rekognition-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/cli/amazon-rekognition-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-rekognition-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/components/amazon-rekognition-components.yml
   title: ''
   type: Components
   url: components/amazon-rekognition-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/data-model/amazon-rekognition-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-rekognition-data-model.yml
@@ -227,46 +271,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-rekognition/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-celebrity-scene-context-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-celebrity-scene-context-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-custom-labels-and-moderate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-custom-labels-and-moderate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-detect-then-compare-faces-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-detect-then-compare-faces-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-enroll-and-search-face-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-enroll-and-search-face-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-face-liveness-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-face-liveness-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-label-and-moderate-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-label-and-moderate-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-quality-gated-enrollment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-quality-gated-enrollment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-reuse-or-create-collection-enroll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-reuse-or-create-collection-enroll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-text-and-moderation-screen-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-text-and-moderation-screen-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-verify-face-against-collection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-verify-face-against-collection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/arazzo/amazon-rekognition-video-label-detection-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rekognition-video-label-detection-job-workflow.yml
@@ -347,446 +402,557 @@ common:
   type: KnowledgeCenter
   url: https://repost.aws/knowledge-center
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/rules/amazon-rekognition-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-rekognition-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/vocabulary/amazon-rekognition-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-rekognition-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-ld/amazon-rekognition-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-rekognition-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-bounding-box-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-bounding-box-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-compare-faces-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-compare-faces-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-compare-faces-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-compare-faces-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-create-collection-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-create-collection-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-create-collection-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-create-collection-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-create-face-liveness-session-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-create-face-liveness-session-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-create-face-liveness-session-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-create-face-liveness-session-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-custom-labels-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-custom-labels-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-custom-labels-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-custom-labels-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-faces-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-faces-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-faces-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-faces-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-labels-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-labels-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-labels-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-labels-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-moderation-labels-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-moderation-labels-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-moderation-labels-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-moderation-labels-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detect-text-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detect-text-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-detectlabelsresponse-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-detectlabelsresponse-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-face-detail-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-face-detail-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-face-liveness-session-results-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-get-face-liveness-session-results-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-face-liveness-session-results-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-get-face-liveness-session-results-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-label-detection-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-get-label-detection-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-get-video-job-result-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-get-video-job-result-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-image-only-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-image-only-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-image-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-image-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-index-faces-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-index-faces-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-index-faces-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-index-faces-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-label-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-label-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-list-collections-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-list-collections-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-notification-channel-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-notification-channel-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-recognize-celebrities-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-recognize-celebrities-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-s3-object-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-s3-object-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-search-faces-by-image-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-search-faces-by-image-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-search-faces-by-image-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-search-faces-by-image-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-start-label-detection-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-start-label-detection-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-start-video-job-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-start-video-job-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-schema/amazon-rekognition-video-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rekognition-video-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-bounding-box-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-bounding-box-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-compare-faces-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-compare-faces-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-compare-faces-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-compare-faces-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-create-collection-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-create-collection-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-create-collection-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-create-collection-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-create-face-liveness-session-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-create-face-liveness-session-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-create-face-liveness-session-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-create-face-liveness-session-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-custom-labels-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-custom-labels-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-custom-labels-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-custom-labels-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-faces-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-faces-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-faces-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-faces-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-labels-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-labels-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-labels-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-labels-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-moderation-labels-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-moderation-labels-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-moderation-labels-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-moderation-labels-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detect-text-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detect-text-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-detectlabelsresponse-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-detectlabelsresponse-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-face-detail-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-face-detail-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-get-face-liveness-session-results-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-get-face-liveness-session-results-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-get-face-liveness-session-results-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-get-face-liveness-session-results-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-get-label-detection-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-get-label-detection-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-get-video-job-result-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-get-video-job-result-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-image-only-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-image-only-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-image-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-image-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-index-faces-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-index-faces-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-index-faces-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-index-faces-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-label-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-label-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-list-collections-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-list-collections-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-notification-channel-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-notification-channel-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-recognize-celebrities-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-recognize-celebrities-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-s3-object-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-s3-object-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-search-faces-by-image-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-search-faces-by-image-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-search-faces-by-image-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-search-faces-by-image-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-start-label-detection-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-start-label-detection-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-start-video-job-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-start-video-job-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/json-structure/amazon-rekognition-video-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rekognition-video-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-bounding-box-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-bounding-box-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-compare-faces-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-compare-faces-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-compare-faces-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-compare-faces-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-create-collection-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-create-collection-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-create-collection-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-create-collection-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-create-face-liveness-session-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-create-face-liveness-session-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-create-face-liveness-session-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-create-face-liveness-session-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-custom-labels-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-custom-labels-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-custom-labels-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-custom-labels-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-faces-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-faces-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-faces-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-faces-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-labels-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-labels-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-labels-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-labels-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-moderation-labels-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-moderation-labels-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-moderation-labels-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-moderation-labels-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detect-text-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detect-text-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-detectlabelsresponse-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-detectlabelsresponse-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-face-detail-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-face-detail-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-get-face-liveness-session-results-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-get-face-liveness-session-results-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-get-face-liveness-session-results-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-get-face-liveness-session-results-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-get-label-detection-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-get-label-detection-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-get-video-job-result-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-get-video-job-result-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-image-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-image-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-image-only-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-image-only-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-index-faces-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-index-faces-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-index-faces-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-index-faces-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-label-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-label-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-list-collections-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-list-collections-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-notification-channel-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-notification-channel-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-recognize-celebrities-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-recognize-celebrities-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-s3-object-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-s3-object-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-search-faces-by-image-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-search-faces-by-image-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-search-faces-by-image-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-search-faces-by-image-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-start-label-detection-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-start-label-detection-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-start-video-job-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-start-video-job-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/examples/amazon-rekognition-video-example.json
   title: ''
   type: Examples
   url: examples/amazon-rekognition-video-example.json
@@ -1209,6 +1375,40 @@ rules:
     info: 2
     warn: 13
   slug: amazon-rekognition-spectral-rules
+score:
+  band: strong
+  composite: 55.8
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 33.3
+    contract_quality: 33.4
+    developer_ergonomics: 72.6
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 55.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:
 - kind: authentication

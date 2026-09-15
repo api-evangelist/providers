@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 3
@@ -58,6 +83,7 @@ apis:
 artifact_total: 24
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/capabilities/nus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nus-capability-edges.yml
@@ -110,70 +136,87 @@ common:
   type: Twitter
   url: https://twitter.com/NUSingapore
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-identity-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/nus-identity-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/json-schema/nus-openid-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/nus-openid-configuration-schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/examples/index.yml
   title: ''
   type: Examples
   url: examples/index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/rules/nus-rules.yml
   title: ''
   type: Rules
   url: rules/nus-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/vocabulary/nus-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nus-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/json-ld/nus-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/nus-context.jsonld
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/authentication/nus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nus-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/scopes/nus-scopes.yml
   title: ''
   type: Scopes
   url: scopes/nus-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/errors/nus-errors.yml
   title: ''
   type: Errors
   url: errors/nus-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/conformance/nus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nus-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/lifecycle/nus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nus-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/agentic-access/nus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nus-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/security/nus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nus-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/plans/nus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nus-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/rate-limits/nus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nus-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/finops/nus-finops.yml
   title: ''
   type: FinOps
   url: finops/nus-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -289,6 +332,52 @@ scopes:
   scope_count: 0
   slug: nus-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 73.8
+    catalog_earned_first_party: 16.0
+    catalog_gap: 41.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 11.4
+    contract_quality: 25.1
+    developer_ergonomics: 23.8
+    discoverability: 74.1
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 31.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png
 security:
 - kind: authentication

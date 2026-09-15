@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface for Cosmos Store, Agnikul's branded merchandise shop, implementing the Universal Commerce Protocol (dev.ucp.shopping) over MCP. Thirteen tools cover catalog search an
@@ -26,70 +51,87 @@ common:
   type: Support
   url: https://agnikul.in/contact-us/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/mcp/agnikul-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agnikul-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/mcp/agnikul-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/agnikul-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/llms/agnikul-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agnikul-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/well-known/agnikul-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agnikul-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/authentication/agnikul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agnikul-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/scopes/agnikul-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agnikul-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/conventions/agnikul-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agnikul-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/conventions/agnikul-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/agnikul-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/errors/agnikul-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agnikul-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/rate-limits/agnikul-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agnikul-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/plans/agnikul-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agnikul-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/lifecycle/agnikul-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agnikul-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/conformance/agnikul-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agnikul-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/data-model/agnikul-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agnikul-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/packages/agnikul-packages.yml
   title: ''
   type: Packages
   url: packages/agnikul-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/security/agnikul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agnikul-domain-security.yml
@@ -124,6 +166,43 @@ scopes:
   scope_count: 0
   slug: agnikul-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 15.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 15.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Agnikul Authentication
@@ -146,7 +225,7 @@ tags:
 - E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 website: https://agnikul.in/
 ---

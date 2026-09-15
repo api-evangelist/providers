@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Digital platform providing financial advisors and their clients access to independent investment managers with differentiated investment solutions. Offers access to mutual funds, separately managed ac
@@ -30,58 +55,72 @@ apis:
 artifact_total: 26
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/security/affiliated-managers-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affiliated-managers-group-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/conformance/affiliated-managers-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/affiliated-managers-group-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/authentication/affiliated-managers-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/affiliated-managers-group-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/conventions/affiliated-managers-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/affiliated-managers-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/errors/affiliated-managers-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/affiliated-managers-group-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/data-model/affiliated-managers-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/affiliated-managers-group-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/lifecycle/affiliated-managers-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/affiliated-managers-group-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/llms/affiliated-managers-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/affiliated-managers-group-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/packages/affiliated-managers-group-packages.yml
   title: ''
   type: Packages
   url: packages/affiliated-managers-group-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/vocabulary/affiliated-managers-group-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/affiliated-managers-group-vocabulary.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/plans/affiliated-managers-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affiliated-managers-group-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/rate-limits/affiliated-managers-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/affiliated-managers-group-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/finops/affiliated-managers-group-finops.yml
   title: ''
   type: FinOps
   url: finops/affiliated-managers-group-finops.yml
@@ -178,6 +217,40 @@ rate_limits:
 - limit_count: 0
   name: Affiliated Managers Group Rate Limits
   slug: affiliated-managers-group-rate-limits
+score:
+  band: thin
+  composite: 30.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 43.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 15.2
+    contract_quality: 13.3
+    developer_ergonomics: 37.5
+    discoverability: 57.4
+    operational_transparency: 0.0
+  previous_composite: 30.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/screenshots/affiliated-managers-group-2026-06-20T165600.png
 security:
 - kind: authentication

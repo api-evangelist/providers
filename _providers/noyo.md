@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://fulfillment.noyo.com
@@ -534,10 +559,12 @@ collections:
   slug: open-noyo-volleys-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/capabilities/noyo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/noyo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/overlays/noyo-carrier-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/noyo-carrier-overlay.yaml
@@ -586,46 +613,57 @@ common:
   type: Webhooks
   url: https://docs.noyo.com/docs/introduction/webhooks
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/llms/noyo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/noyo-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/authentication/noyo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/noyo-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/mcp/noyo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/noyo-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/conformance/noyo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/noyo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/errors/noyo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/noyo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/lifecycle/noyo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/noyo-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/sandbox/noyo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/noyo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/conventions/noyo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/noyo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/data-model/noyo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/noyo-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/security/noyo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noyo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -645,6 +683,46 @@ overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
 
   Noyo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 18 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 54.8
+    developer_ergonomics: 61.3
+    discoverability: 81.5
+    operational_transparency: 7.9
+  previous_composite: 42.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/screenshots/noyo-2026-08-07T185645.png
 security:
 - kind: authentication

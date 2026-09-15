@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -108,6 +133,7 @@ common:
   type: ContributionGuide
   url: https://github.com/spacemeshos/go-spacemesh/blob/develop/CONTRIBUTING.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/overlays/spacemesh-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spacemesh-v1-overlay.yaml
@@ -136,62 +162,77 @@ common:
   type: APIReference
   url: https://github.com/spacemeshos/api
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/grpc/spacemesh/v2beta1/v2beta1.proto
   title: ''
   type: Protobuf
   url: grpc/spacemesh/v2beta1/v2beta1.proto
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/packages/spacemesh-packages.yml
   title: ''
   type: Packages
   url: packages/spacemesh-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/packages/spacemesh-packages.yml
   title: ''
   type: SDKs
   url: packages/spacemesh-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/cli/spacemesh-cli.yml
   title: ''
   type: CLI
   url: cli/spacemesh-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/mcp/spacemesh-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spacemesh-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/llms/spacemesh-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spacemesh-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/conventions/spacemesh-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spacemesh-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/errors/spacemesh-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spacemesh-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/conformance/spacemesh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spacemesh-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/lifecycle/spacemesh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spacemesh-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/changelog/spacemesh-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spacemesh-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/data-model/spacemesh-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spacemesh-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/agentic-access/spacemesh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spacemesh-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/security/spacemesh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spacemesh-domain-security.yml
@@ -208,6 +249,44 @@ overview: 'Spacemesh publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
   Spacemesh''s developer surface includes documentation, API reference, CLI, changelog, and 23 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 35.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 42.9
+    developer_ergonomics: 32.7
+    discoverability: 75.9
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 35.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/screenshots/spacemesh-2026-09-02T160328.png
 security:
 - kind: domain-security

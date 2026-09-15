@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -149,14 +174,17 @@ collections:
   slug: open-opsmill-transform-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/agentic-access/opsmill-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opsmill-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/security/opsmill-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opsmill-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/authentication/opsmill-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opsmill-authentication.yml
@@ -213,54 +241,67 @@ common:
   type: TermsOfService
   url: https://opsmill.com/legal/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/packages/opsmill-packages.yml
   title: ''
   type: Packages
   url: packages/opsmill-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/packages/opsmill-packages.yml
   title: ''
   type: SDKs
   url: packages/opsmill-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/cli/opsmill-cli.yml
   title: ''
   type: CLI
   url: cli/opsmill-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/mcp/opsmill-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/opsmill-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/llms/opsmill-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opsmill-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/conventions/opsmill-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opsmill-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/errors/opsmill-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opsmill-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/lifecycle/opsmill-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opsmill-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/changelog/opsmill-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opsmill-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/conformance/opsmill-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opsmill-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/data-model/opsmill-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opsmill-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/overlays/opsmill-infrahub-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opsmill-infrahub-overlay.yaml
@@ -281,6 +322,41 @@ overview: 'OpsMill publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
   OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 22 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 47.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 50.8
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 47.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/screenshots/opsmill-2026-08-07T190749.png
 security:
 - kind: authentication

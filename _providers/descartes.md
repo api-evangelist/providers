@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Real-time freight and shipment visibility. Lets a shipper, broker, or 3PL create, update, monitor, and stop tracking sessions on loads directly from a TMS or ERP and receive location, order-status, tr
@@ -32,6 +57,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/security/descartes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/descartes-domain-security.yml
@@ -56,14 +82,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/macropoint-telematics
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/plans/descartes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/descartes-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/rate-limits/descartes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/descartes-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/finops/descartes-finops.yml
   title: ''
   type: FinOps
   url: finops/descartes-finops.yml
@@ -92,6 +121,38 @@ rate_limits:
 - limit_count: 4
   name: Descartes Rate Limits
   slug: descartes-rate-limits
+score:
+  band: emerging
+  composite: 20.1
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 62.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 23.8
+    discoverability: 64.8
+    operational_transparency: 31.6
+  previous_composite: 20.1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/screenshots/descartes-2026-07-25T211743.png
 security:
 - kind: domain-security

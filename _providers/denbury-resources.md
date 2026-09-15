@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,58 +107,72 @@ common:
   type: Notes
   url: https://en.wikipedia.org/wiki/Denbury_Resources
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/authentication/denbury-resources-authentication.yml
   title: ''
   type: Authentication
   url: authentication/denbury-resources-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/conventions/denbury-resources-conventions.yml
   title: ''
   type: Conventions
   url: conventions/denbury-resources-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/errors/denbury-resources-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/denbury-resources-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/data-model/denbury-resources-data-model.yml
   title: ''
   type: DataModel
   url: data-model/denbury-resources-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/conformance/denbury-resources-conformance.yml
   title: ''
   type: Conformance
   url: conformance/denbury-resources-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/lifecycle/denbury-resources-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/denbury-resources-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/rate-limits/denbury-resources-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/denbury-resources-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/plans/denbury-resources-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/denbury-resources-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/llms/denbury-resources-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/denbury-resources-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/mcp/denbury-resources-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/denbury-resources-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/security/denbury-resources-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/denbury-resources-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/examples/denbury-resources-examples.yml
   title: ''
   type: Examples
   url: examples/denbury-resources-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/agentic-access/denbury-resources-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/denbury-resources-agentic-access.yml
@@ -174,6 +213,53 @@ rate_limits:
 - limit_count: 0
   name: Denbury Resources Rate Limits
   slug: denbury-resources-rate-limits
+score:
+  band: emerging
+  composite: 23.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 16.0
+    developer_ergonomics: 18.5
+    discoverability: 74.1
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 23.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/screenshots/denbury-resources-2026-06-20T175910.png
 security:
 - kind: authentication

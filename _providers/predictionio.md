@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'REST API for importing and querying event data used to train prediction engines. Authenticated with a per-app access key passed as the accessKey query parameter; JSON request/response with .json path '
@@ -44,30 +69,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/apache/predictionio
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/packages/predictionio-packages.yml
   title: ''
   type: SDKs
   url: packages/predictionio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/packages/predictionio-packages.yml
   title: ''
   type: Packages
   url: packages/predictionio-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/authentication/predictionio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/predictionio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/conventions/predictionio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/predictionio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/lifecycle/predictionio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/predictionio-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/lifecycle/predictionio-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/predictionio-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/well-known/predictionio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/predictionio-well-known.yml
@@ -84,6 +116,32 @@ overview: 'PredictionIO publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
   PredictionIO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
 random_paper: 8
+score:
+  band: emerging
+  composite: 16.8
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 59.3
+    operational_transparency: 10.5
+  previous_composite: 16.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/predictionio/refs/heads/main/screenshots/predictionio-2026-09-02T151912.png
 security:
 - kind: authentication

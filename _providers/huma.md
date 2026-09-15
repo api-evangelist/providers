@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 527
   human_in_the_loop: 6
@@ -405,26 +430,32 @@ apis:
 artifact_total: 81
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/capabilities/huma-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/huma-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/overlays/huma-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/huma-platform-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/mcp/huma-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/huma-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/security/huma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/huma-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/agentic-access/huma-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/huma-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/authentication/huma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/huma-authentication.yml
@@ -465,34 +496,42 @@ common:
   type: Compliance
   url: https://docs.huma.com/trust-security/compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/security/huma-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/huma-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/conformance/huma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/huma-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/lifecycle/huma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/huma-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/conventions/huma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/huma-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/packages/huma-packages.yml
   title: ''
   type: Packages
   url: packages/huma-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/packages/huma-packages.yml
   title: ''
   type: SDKs
   url: packages/huma-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/llms/huma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/huma-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -518,6 +557,59 @@ overview: 'Huma publishes 76 APIs on the [APIs.io](https://apis.io/) network, in
 
   Huma''s developer surface includes authentication, documentation, getting-started guide, signup flow, API reference, and 20 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 46.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 49.4
+    developer_ergonomics: 58.9
+    discoverability: 51.9
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 76
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 32.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/screenshots/huma-2026-07-25T221642.png
 security:
 - kind: authentication

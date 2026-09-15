@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.7
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -57,6 +82,7 @@ common:
   type: License
   url: https://github.com/dotansimha/graphql-code-generator/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-hive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-hive-domain-security.yml
@@ -93,18 +119,22 @@ common:
   type: X
   url: https://twitter.com/TheGuildDev
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/graphql-hive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/graphql-hive-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/graphql-hive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/graphql-hive-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/graphql-hive-finops.yml
   title: ''
   type: FinOps
   url: finops/graphql-hive-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-mesh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-mesh-domain-security.yml
@@ -137,18 +167,22 @@ common:
   type: Blog
   url: https://the-guild.dev/blog
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/graphql-mesh-plans.md
   title: ''
   type: Plans
   url: plans/graphql-mesh-plans.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/graphql-mesh-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/graphql-mesh-rate-limits.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/graphql-mesh-finops.md
   title: ''
   type: FinOps
   url: finops/graphql-mesh-finops.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-yoga-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-yoga-domain-security.yml
@@ -169,18 +203,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/dotansimha/graphql-yoga
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/graphql-yoga-plans.md
   title: ''
   type: Plans
   url: plans/graphql-yoga-plans.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/graphql-yoga-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/graphql-yoga-rate-limits.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/graphql-yoga-finops.md
   title: ''
   type: FinOps
   url: finops/graphql-yoga-finops.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-tools-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-tools-domain-security.yml
@@ -201,18 +239,22 @@ common:
   type: Pricing
   url: https://the-guild.dev/graphql/tools/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/graphql-tools-plans.md
   title: ''
   type: Plans
   url: plans/graphql-tools-plans.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/graphql-tools-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/graphql-tools-rate-limits.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/graphql-tools-finops.md
   title: ''
   type: FinOps
   url: finops/graphql-tools-finops.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-code-generator-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-code-generator-domain-security.yml
@@ -229,14 +271,17 @@ common:
   type: Pricing
   url: https://the-guild.dev/graphql/hive#pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/graphql-code-generator-plans.md
   title: ''
   type: Plans
   url: plans/graphql-code-generator-plans.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/graphql-code-generator-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/graphql-code-generator-rate-limits.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/graphql-code-generator-finops.md
   title: ''
   type: FinOps
   url: finops/graphql-code-generator-finops.md
@@ -245,6 +290,7 @@ common:
   type: Blog
   url: https://graphql-codegen.com/feed
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-codegen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-codegen-domain-security.yml
@@ -261,6 +307,7 @@ common:
   type: Plugins
   url: https://the-guild.dev/graphql/codegen/plugins
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-inspector-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-inspector-domain-security.yml
@@ -285,18 +332,22 @@ common:
   type: Pricing
   url: https://github.com/marketplace/graphql-inspector
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/graphql-inspector-plans.md
   title: ''
   type: Plans
   url: plans/graphql-inspector-plans.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/graphql-inspector-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/graphql-inspector-rate-limits.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/graphql-inspector-finops.md
   title: ''
   type: FinOps
   url: finops/graphql-inspector-finops.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/graphql-scalars-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphql-scalars-domain-security.yml
@@ -313,18 +364,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/graphql-hive/graphql-scalars
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/graphql-scalars-plans.md
   title: ''
   type: Plans
   url: plans/graphql-scalars-plans.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/graphql-scalars-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/graphql-scalars-rate-limits.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/graphql-scalars-finops.md
   title: ''
   type: FinOps
   url: finops/graphql-scalars-finops.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/envelop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/envelop-domain-security.yml
@@ -345,18 +400,22 @@ common:
   type: Pricing
   url: https://the-guild.dev/graphql/envelop/plugins
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/plans/envelop-plans.md
   title: ''
   type: Plans
   url: plans/envelop-plans.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/rate-limits/envelop-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/envelop-rate-limits.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/finops/envelop-finops.md
   title: ''
   type: FinOps
   url: finops/envelop-finops.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/security/schema-stitching-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/schema-stitching-domain-security.yml
@@ -389,6 +448,7 @@ common:
   type: LlmsText
   url: https://graphql-hive.com/llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/graphql/the-guild-dev-hive-console.graphql
   title: ''
   type: GraphQL
   url: graphql/the-guild-dev-hive-console.graphql
@@ -539,6 +599,35 @@ rules:
     info: 2
     warn: 4
   slug: schema-stitching-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 40.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 69.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 25.0
+    contract_quality: 64.9
+    developer_ergonomics: 31.0
+    discoverability: 72.2
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 40.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/screenshots/schema-stitching-2026-06-20T193517.png
 security:
 - kind: domain-security

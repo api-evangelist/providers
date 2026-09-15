@@ -29,42 +29,52 @@ common:
   type: TermsOfService
   url: https://github.com/appdotnet/terms-of-service
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/authentication/appnet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appnet-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/scopes/appnet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/appnet-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/packages/appnet-packages.yml
   title: ''
   type: Packages
   url: packages/appnet-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/packages/appnet-packages.yml
   title: ''
   type: SDKs
   url: packages/appnet-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/conventions/appnet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appnet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/errors/appnet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appnet-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/conformance/appnet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appnet-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/lifecycle/appnet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appnet-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/rate-limits/appnet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appnet-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/llms/appnet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appnet-llms.txt

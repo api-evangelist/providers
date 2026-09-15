@@ -47,10 +47,10 @@ tags:
 - Acquired
 - Aerospace
 - Space
-- Launch-Services
-- Small-Satellites
+- Launch Services
+- Small Satellites
 - Satellite
 - Rockets
 - Software-Defined-Satellites
-- Deep-Tech
+- Deep Tech
 ---

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -57,22 +82,27 @@ collections:
   slug: open-zendesk-sell
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/agentic-access/zendesk-sell-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zendesk-sell-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/security/zendesk-sell-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zendesk-sell-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/security/zendesk-sell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zendesk-sell-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/authentication/zendesk-sell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zendesk-sell-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/scopes/zendesk-sell-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zendesk-sell-scopes.yml
@@ -129,30 +159,37 @@ common:
   type: PrivacyPolicy
   url: https://www.zendesk.com/company/agreements-and-terms/privacy-notice/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/packages/zendesk-sell-packages.yml
   title: ''
   type: Packages
   url: packages/zendesk-sell-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/packages/zendesk-sell-packages.yml
   title: ''
   type: SDKs
   url: packages/zendesk-sell-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/well-known/zendesk-sell-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zendesk-sell-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/well-known/zendesk-sell-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zendesk-sell-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/mcp/zendesk-sell-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zendesk-sell-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/llms/zendesk-sell-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zendesk-sell-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/conformance/zendesk-sell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zendesk-sell-conformance.yml
@@ -161,6 +198,7 @@ common:
   type: Compliance
   url: https://www.zendesk.com/trust-center/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/security/zendesk-sell-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zendesk-sell-trust-center.yml
@@ -169,10 +207,12 @@ common:
   type: Security
   url: https://www.zendesk.com/company/policies-and-guidelines/responsible-disclosure-policy/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/errors/zendesk-sell-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zendesk-sell-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/lifecycle/zendesk-sell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zendesk-sell-lifecycle.yml
@@ -185,34 +225,42 @@ common:
   type: Deprecation
   url: https://support.zendesk.com/hc/en-us/articles/9591462550042-Announcing-the-retiring-of-Zendesk-Sell
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/conventions/zendesk-sell-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zendesk-sell-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/changelog/zendesk-sell-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zendesk-sell-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/cli/zendesk-sell-cli.yml
   title: ''
   type: CLI
   url: cli/zendesk-sell-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/data-model/zendesk-sell-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zendesk-sell-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/rate-limits/zendesk-sell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zendesk-sell-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/plans/zendesk-sell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zendesk-sell-plans-pricing.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/events/zendesk-sell-events.yml
   title: ''
   type: EventTypes
   url: events/zendesk-sell-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -246,6 +294,41 @@ scopes:
   scope_count: 3
   slug: zendesk-sell-scopes
   summary_line: 3 scopes · authorizationCode/implicit/password
+score:
+  band: strong
+  composite: 58.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 59.0
+    developer_ergonomics: 74.4
+    discoverability: 68.5
+    operational_transparency: 73.7
+  previous_composite: 58.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/screenshots/zendesk-sell-2026-06-20T201812.png
 security:
 - kind: authentication

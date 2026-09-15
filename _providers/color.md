@@ -11,6 +11,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.color.com/api/v1/external
@@ -43,14 +68,17 @@ common:
   type: Interoperability
   url: https://www.redoxengine.com/healthcare-product/color/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/capabilities/color-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/color-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/overlays/color-external-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/color-external-api-v1-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/color-trust-center.yml
@@ -59,18 +87,22 @@ common:
   type: Compliance
   url: https://security.color.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/conformance/color-conformance.yml
   title: ''
   type: Conformance
   url: conformance/color-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/color-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/color-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/color-vulnerability-disclosure.yml
@@ -123,54 +155,67 @@ common:
   type: Website
   url: https://www.color.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/authentication/color-authentication.yml
   title: ''
   type: Authentication
   url: authentication/color-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/conventions/color-conventions.yml
   title: ''
   type: Conventions
   url: conventions/color-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/conventions/color-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/color-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/errors/color-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/color-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/data-model/color-data-model.yml
   title: ''
   type: DataModel
   url: data-model/color-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/lifecycle/color-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/color-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/changelog/color-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/color-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/sandbox/color-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/color-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/packages/color-packages.yml
   title: ''
   type: Packages
   url: packages/color-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/plans/color-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/color-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/mcp/color-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/color-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/llms/color-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/color-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -195,6 +240,52 @@ rate_limits:
 - limit_count: 0
   name: Color Rate Limits
   slug: color-rate-limits
+score:
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 57.1
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 53.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
 security:
 - kind: authentication

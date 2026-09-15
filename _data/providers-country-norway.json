@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -137,7 +137,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -187,7 +187,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
@@ -230,14 +230,21 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
       "score": 66.7,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -280,7 +287,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -341,7 +348,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -384,7 +391,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -444,7 +451,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -487,7 +494,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -530,7 +537,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -573,7 +580,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -615,7 +622,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -658,7 +665,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

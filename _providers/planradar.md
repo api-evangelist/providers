@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.planradar.com/api/v1
@@ -311,14 +336,17 @@ collections:
   slug: open-planradar-videos-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/capabilities/planradar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/planradar-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/security/planradar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/planradar-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/authentication/planradar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/planradar-authentication.yml
@@ -375,22 +403,27 @@ common:
   type: ChangeLog
   url: https://help.planradar.com/hc/en-gb/articles/28730384282653
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/errors/planradar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/planradar-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/conventions/planradar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/planradar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/data-model/planradar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/planradar-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/mcp/planradar-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/planradar-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/conformance/planradar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/planradar-conformance.yml
@@ -399,30 +432,37 @@ common:
   type: Compliance
   url: https://www.planradar.com/data-security-and-privacy-at-planradar/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/security/planradar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/planradar-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/lifecycle/planradar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/planradar-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/asyncapi/planradar-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/planradar-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/llms/planradar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/planradar-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/overlays/planradar-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/planradar-openapi-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/changelog/planradar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/planradar-changelog.yml
@@ -442,6 +482,40 @@ overview: 'PlanRadar publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
   PlanRadar''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 4
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 47.6
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 44.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/screenshots/planradar-2026-08-17T081300.png
 security:
 - kind: authentication

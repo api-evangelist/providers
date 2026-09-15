@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 34.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://cloud.synadia.com/api
@@ -84,90 +109,112 @@ common:
   type: PrivacyPolicy
   url: https://www.synadia.com/legal/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/llms/synadia-communications-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synadia-communications-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/well-known/synadia-communications-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/synadia-communications-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/packages/synadia-communications-packages.yml
   title: ''
   type: Packages
   url: packages/synadia-communications-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/packages/synadia-communications-packages.yml
   title: ''
   type: SDKs
   url: packages/synadia-communications-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/cli/synadia-communications-cli.yml
   title: ''
   type: CLI
   url: cli/synadia-communications-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/mcp/synadia-communications-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/synadia-communications-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/conventions/synadia-communications-conventions.yml
   title: ''
   type: Conventions
   url: conventions/synadia-communications-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/errors/synadia-communications-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/synadia-communications-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/data-model/synadia-communications-data-model.yml
   title: ''
   type: DataModel
   url: data-model/synadia-communications-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/conformance/synadia-communications-conformance.yml
   title: ''
   type: Conformance
   url: conformance/synadia-communications-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/conformance/synadia-communications-conformance.yml
   title: ''
   type: Compliance
   url: conformance/synadia-communications-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/security/synadia-communications-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/synadia-communications-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/lifecycle/synadia-communications-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/synadia-communications-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/authentication/synadia-communications-authentication.yml
   title: ''
   type: Authentication
   url: authentication/synadia-communications-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/security/synadia-communications-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synadia-communications-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/security/synadia-communications-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/synadia-communications-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/security/synadia-communications-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/synadia-communications-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/plans/synadia-communications-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/synadia-communications-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/rate-limits/synadia-communications-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/synadia-communications-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/changelog/synadia-communications-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/synadia-communications-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/sandbox/synadia-communications-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/synadia-communications-sandbox.yml
@@ -196,6 +243,40 @@ rate_limits:
 - limit_count: 0
   name: Synadia Communications Rate Limits
   slug: synadia-communications-rate-limits
+score:
+  band: strong
+  composite: 65.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 61.2
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 28.9
+  previous_composite: 65.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/screenshots/synadia-communications-2026-09-02T161447.png
 security:
 - kind: authentication

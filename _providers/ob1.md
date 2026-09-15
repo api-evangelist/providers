@@ -20,6 +20,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/OpenBazaar
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ob1/refs/heads/main/security/ob1-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ob1-domain-security.yml

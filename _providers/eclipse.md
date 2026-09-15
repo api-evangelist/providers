@@ -11,6 +11,32 @@ access_model:
   - pricing
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,10 +214,12 @@ collections:
   slug: open-eclipse
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/scopes/eclipse-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eclipse-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/authentication/eclipse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eclipse-authentication.yml
@@ -200,14 +228,17 @@ common:
   type: Website
   url: https://www.eclipse.org/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/agentic-access/eclipse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eclipse-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/security/eclipse-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eclipse-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/security/eclipse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eclipse-domain-security.yml
@@ -248,42 +279,52 @@ common:
   type: License
   url: https://www.eclipse.org/legal/epl-2.0/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/packages/eclipse-packages.yml
   title: ''
   type: Packages
   url: packages/eclipse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/packages/eclipse-packages.yml
   title: ''
   type: SDKs
   url: packages/eclipse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/cli/eclipse-cli.yml
   title: ''
   type: CLI
   url: cli/eclipse-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/components/eclipse-components.yml
   title: ''
   type: Components
   url: components/eclipse-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/well-known/eclipse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eclipse-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/well-known/eclipse-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/eclipse-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/llms/eclipse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eclipse-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/conformance/eclipse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eclipse-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/errors/eclipse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eclipse-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/lifecycle/eclipse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eclipse-lifecycle.yml
@@ -292,6 +333,7 @@ common:
   type: StatusPage
   url: https://status.eclipse.org
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/lifecycle/eclipse-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/eclipse-lifecycle.yml
@@ -304,38 +346,47 @@ common:
   type: Security
   url: https://www.eclipse.org/security/policy/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/conventions/eclipse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eclipse-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/conventions/eclipse-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/eclipse-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/changelog/eclipse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eclipse-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/data-model/eclipse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eclipse-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/asyncapi/eclipse-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eclipse-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/plans/eclipse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eclipse-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/rate-limits/eclipse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eclipse-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/finops/eclipse-finops.yml
   title: ''
   type: FinOps
   url: finops/eclipse-finops.yml
@@ -388,7 +439,7 @@ modified: '2026-09-07'
 name: Eclipse Foundation
 nav: Providers
 network: true
-overview: 'Eclipse Foundation publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Eclipse Marketplace API, Web API, Eclipse Projects API, and 23 more. Tagged areas include Eclipse Foundation, Foundation, Open-Source, Standards, and Developer-Tools.
+overview: 'Eclipse Foundation publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Eclipse Marketplace API, Web API, Eclipse Projects API, and 23 more. Tagged areas include Eclipse Foundation, Foundation, Open-Source, Standards, and Developer Tools.
 
 
   The Eclipse Foundation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -409,6 +460,41 @@ scopes:
   scope_count: 11
   slug: eclipse-scopes
   summary_line: 11 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 61.5
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 59.3
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 52.6
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/screenshots/eclipse-2026-06-20T180424.png
 security:
 - kind: authentication
@@ -429,7 +515,7 @@ tags:
 - Foundation
 - Open-Source
 - Standards
-- Developer-Tools
+- Developer Tools
 - Extensions
 - Marketplace
 - Registry

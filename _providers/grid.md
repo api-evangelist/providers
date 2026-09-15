@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 6
 common:
@@ -54,10 +79,12 @@ common:
   type: PrivacyPolicy
   url: https://www.withgrid.com/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/llms/grid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grid-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/security/grid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grid-domain-security.yml
@@ -66,22 +93,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/SaaSGrid
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/mcp/grid-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/grid-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/authentication/grid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grid-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/conformance/grid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grid-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/security/grid-trust-center.yml
   title: ''
   type: Compliance
   url: security/grid-trust-center.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/plans/grid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grid-plans-pricing.yml
@@ -110,6 +142,35 @@ rate_limits:
 - limit_count: 0
   name: Grid Rate Limits
   slug: grid-rate-limits
+score:
+  band: thin
+  composite: 29.8
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 57.4
+    operational_transparency: 2.6
+  previous_composite: 29.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/screenshots/grid-2026-07-25T220324.png
 security:
 - kind: authentication

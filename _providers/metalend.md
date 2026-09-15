@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -107,38 +132,47 @@ collections:
   slug: open-metalend-withdrawals-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/agentic-access/metalend-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/metalend-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/authentication/metalend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metalend-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/security/metalend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metalend-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/mcp/metalend-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/metalend-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/errors/metalend-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/metalend-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/conventions/metalend-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metalend-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/lifecycle/metalend-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metalend-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/conformance/metalend-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metalend-conformance.yml
@@ -147,18 +181,22 @@ common:
   type: Compliance
   url: https://metalend-inc.gitbook.io/litepaper/security-audits-with-sherlock
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/data-model/metalend-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metalend-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/sandbox/metalend-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/metalend-sandbox.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/overlays/metalend-rebalancing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metalend-rebalancing-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/llms/metalend-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metalend-llms.txt
@@ -227,6 +265,47 @@ overview: 'MetaLend publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
   MetaLend''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, pricing, support, and 20 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 58.9
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 5.3
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/screenshots/metalend-2026-08-07T172645.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 api_count: 9
 apis:
 - baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
@@ -67,10 +92,12 @@ common:
   type: GettingStarted
   url: https://docs.cadasto.io/docs/quick-start
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/authentication/cadasto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cadasto-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/scopes/cadasto-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cadasto-scopes.yml
@@ -107,90 +134,112 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/cadasto/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/mcp/cadasto-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cadasto-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/mcp/cadasto-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cadasto-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/llms/cadasto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cadasto-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/packages/cadasto-packages.yml
   title: ''
   type: Packages
   url: packages/cadasto-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/packages/cadasto-packages.yml
   title: ''
   type: SDKs
   url: packages/cadasto-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/well-known/cadasto-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cadasto-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/well-known/cadasto-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cadasto-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/security/cadasto-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cadasto-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/security/cadasto-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cadasto-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/security/cadasto-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cadasto-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/security/cadasto-trust-center.yml
   title: ''
   type: Compliance
   url: security/cadasto-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/security/cadasto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cadasto-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/conformance/cadasto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cadasto-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/conventions/cadasto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cadasto-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/errors/cadasto-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cadasto-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/lifecycle/cadasto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cadasto-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/data-model/cadasto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cadasto-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/plans/cadasto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cadasto-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/rate-limits/cadasto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cadasto-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/sandbox/cadasto-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cadasto-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/changelog/cadasto-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cadasto-changelog.yml
@@ -224,6 +273,54 @@ scopes:
   scope_count: 0
   slug: cadasto-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 59.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 50.6
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
+  previous_composite: 59.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 68.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 security:
 - kind: authentication
   name: Cadasto Authentication

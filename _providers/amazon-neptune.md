@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 7
@@ -389,26 +414,32 @@ collections:
   slug: open-amazon-neptune-subnet-groups-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/capabilities/amazon-neptune-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-neptune-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/agentic-access/amazon-neptune-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-neptune-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/security/amazon-neptune-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-neptune-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/security/amazon-neptune-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-neptune-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/security/amazon-neptune-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-neptune-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/authentication/amazon-neptune-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-neptune-authentication.yml
@@ -417,102 +448,127 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-neptune/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-analytics-cancel-import-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-analytics-cancel-import-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-analytics-create-graph-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-analytics-create-graph-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-analytics-import-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-analytics-import-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-analytics-private-endpoint-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-analytics-private-endpoint-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-analytics-reset-graph-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-analytics-reset-graph-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-analytics-snapshot-and-restore-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-analytics-snapshot-and-restore-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-bulk-loader-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-bulk-loader-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-gremlin-add-and-count-vertices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-gremlin-add-and-count-vertices-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-gremlin-cancel-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-gremlin-cancel-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-gremlin-explain-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-gremlin-explain-profile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-gremlin-query-with-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-gremlin-query-with-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-loader-cancel-running-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-loader-cancel-running-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-loader-job-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-loader-job-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-ml-create-inference-endpoint-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-ml-create-inference-endpoint-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-ml-dataprocessing-to-training-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-ml-dataprocessing-to-training-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-ml-model-transform-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-ml-model-transform-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-ml-stop-dataprocessing-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-ml-stop-dataprocessing-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-opencypher-create-and-read-node-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-opencypher-create-and-read-node-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-opencypher-explain-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-opencypher-explain-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-opencypher-query-with-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-opencypher-query-with-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-propertygraph-statistics-refresh-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-propertygraph-statistics-refresh-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-propertygraph-stream-replay-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-propertygraph-stream-replay-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-sparql-query-with-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-sparql-query-with-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-sparql-statistics-refresh-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-sparql-statistics-refresh-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/arazzo/amazon-neptune-sparql-update-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-neptune-sparql-update-and-verify-workflow.yml
@@ -613,78 +669,97 @@ common:
   type: Pricing
   url: https://aws.amazon.com/neptune/pricing/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-neptune-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-db-cluster-schema.json
   title: DB Cluster Schema
   type: JSONSchema
   url: json-schema/amazon-neptune-db-cluster-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-db-instance-schema.json
   title: DB Instance Schema
   type: JSONSchema
   url: json-schema/amazon-neptune-db-instance-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-graph-element-schema.json
   title: Graph Element Schema
   type: JSONSchema
   url: json-schema/amazon-neptune-graph-element-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-loader-job-schema.json
   title: Loader Job Schema
   type: JSONSchema
   url: json-schema/amazon-neptune-loader-job-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-stream-record-schema.json
   title: Stream Record Schema
   type: JSONSchema
   url: json-schema/amazon-neptune-stream-record-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-analytics-graph-schema.json
   title: Analytics Graph Schema
   type: JSONSchema
   url: json-schema/amazon-neptune-analytics-graph-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-schema/amazon-neptune-ml-job-schema.json
   title: ML Job Schema
   type: JSONSchema
   url: json-schema/amazon-neptune-ml-job-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/rules/amazon-neptune-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-neptune-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/vocabulary/amazon-neptune-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-neptune-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-analytics-context.jsonld
   title: Analytics Context
   type: JSONLD
   url: json-ld/amazon-neptune-analytics-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-data-context.jsonld
   title: Data Context
   type: JSONLD
   url: json-ld/amazon-neptune-data-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-gremlin-context.jsonld
   title: Gremlin Context
   type: JSONLD
   url: json-ld/amazon-neptune-gremlin-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-loader-context.jsonld
   title: Loader Context
   type: JSONLD
   url: json-ld/amazon-neptune-loader-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-management-context.jsonld
   title: Management Context
   type: JSONLD
   url: json-ld/amazon-neptune-management-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-ml-context.jsonld
   title: Ml Context
   type: JSONLD
   url: json-ld/amazon-neptune-ml-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-opencypher-context.jsonld
   title: Opencypher Context
   type: JSONLD
   url: json-ld/amazon-neptune-opencypher-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-sparql-context.jsonld
   title: Sparql Context
   type: JSONLD
   url: json-ld/amazon-neptune-sparql-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/json-ld/amazon-neptune-streams-context.jsonld
   title: Streams Context
   type: JSONLD
   url: json-ld/amazon-neptune-streams-context.jsonld
@@ -2210,6 +2285,38 @@ rules:
     info: 4
     warn: 17
   slug: amazon-neptune-spectral-rules
+score:
+  band: strong
+  composite: 61.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 66.2
+    developer_ergonomics: 82.1
+    discoverability: 50.0
+    operational_transparency: 52.6
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/screenshots/amazon-neptune-2026-06-20T171750.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -138,46 +163,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/appian/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/agentic-access/appian-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/appian-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/security/appian-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/appian-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/security/appian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appian-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/authentication/appian-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appian-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-deployment-status-and-log-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-deployment-status-and-log-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-export-application-package-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-export-application-package-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-export-full-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-export-full-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-import-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-import-deployment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-inspect-package-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-inspect-package-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-inspect-then-import-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-inspect-then-import-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-resolve-and-export-named-package-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-resolve-and-export-named-package-workflow.yml
@@ -310,210 +346,262 @@ common:
   type: Website
   url: https://www.appian.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-ld/appian-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/appian-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/application-package-details-package-list-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/application-package-details-package-list-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/application-package-details-package-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/application-package-details-package-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-database-script-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-database-script-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-deployment-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-deployment-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-deployment-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-deployment-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-deployment-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-deployment-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-export-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-export-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-export-deployment-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-export-deployment-result-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-import-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-import-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-import-deployment-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-import-deployment-result-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-import-summary-count-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-import-summary-count-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-error-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-error-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-problems-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-problems-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-result-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-warning-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-warning-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/application-package-details-package-list-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/application-package-details-package-list-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/application-package-details-package-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/application-package-details-package-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-database-script-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-database-script-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-deployment-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-deployment-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-deployment-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-deployment-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-deployment-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-deployment-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-export-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-export-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-export-deployment-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-export-deployment-result-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-import-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-import-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-import-deployment-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-import-deployment-result-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-import-summary-count-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-import-summary-count-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-error-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-error-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-problems-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-problems-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-result-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-warning-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-warning-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/application-package-details-package-example.json
   title: ''
   type: Examples
   url: examples/application-package-details-package-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/application-package-details-package-list-response-example.json
   title: ''
   type: Examples
   url: examples/application-package-details-package-list-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-database-script-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-database-script-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-deployment-request-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-deployment-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-deployment-response-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-deployment-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-deployment-status-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-deployment-status-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-export-configuration-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-export-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-export-deployment-result-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-export-deployment-result-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-import-configuration-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-import-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-import-deployment-result-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-import-deployment-result-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-import-summary-count-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-import-summary-count-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-error-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-error-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-problems-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-problems-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-request-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-response-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-result-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-result-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-warning-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-warning-example.json
@@ -801,6 +889,38 @@ rules:
     info: 2
     warn: 3
   slug: appian-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 55.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 9.8
+    contract_quality: 65.4
+    developer_ergonomics: 72.6
+    discoverability: 59.3
+    operational_transparency: 63.2
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/screenshots/appian-2026-06-20T172316.png
 security:
 - kind: authentication

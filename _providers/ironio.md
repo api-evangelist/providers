@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: IronMQ is a high-performance hosted message queue that lets you pass messages and events between processes and systems. The v3 REST API supports pull and push queues, subscribers, message reservations
@@ -25,10 +50,12 @@ asyncapis:
   slug: ironio-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/security/ironio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ironio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/security/ironio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ironio-domain-security.yml
@@ -85,50 +112,62 @@ common:
   type: PrivacyPolicy
   url: https://www.iron.io/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/packages/ironio-packages.yml
   title: ''
   type: Packages
   url: packages/ironio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/packages/ironio-packages.yml
   title: ''
   type: SDKs
   url: packages/ironio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/cli/ironio-cli.yml
   title: ''
   type: CLI
   url: cli/ironio-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/authentication/ironio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ironio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/conventions/ironio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ironio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/errors/ironio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ironio-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/lifecycle/ironio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ironio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/conformance/ironio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ironio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/data-model/ironio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ironio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/asyncapi/ironio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ironio-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/mcp/ironio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ironio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/llms/ironio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ironio-llms.txt
@@ -148,6 +187,35 @@ overview: 'Iron.io publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
   Iron.io''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, CLI, and 20 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 46.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 46.3
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/screenshots/ironio-2026-07-25T222916.png
 security:
 - kind: authentication

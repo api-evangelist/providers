@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: MarineCadastre.gov is the authoritative source for marine cadastre data and services. It provides an interactive map viewer with integrated submerged lands information including legal, property owners
@@ -23,10 +48,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/security/bureau-of-ocean-energy-management-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bureau-of-ocean-energy-management-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/security/bureau-of-ocean-energy-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bureau-of-ocean-energy-management-domain-security.yml
@@ -75,54 +102,67 @@ common:
   type: TermsOfService
   url: https://www.boem.gov/about-boem/disclaimer-liability-and-endorsement
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/security/bureau-of-ocean-energy-management-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bureau-of-ocean-energy-management-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/well-known/bureau-of-ocean-energy-management-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bureau-of-ocean-energy-management-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/well-known/bureau-of-ocean-energy-management-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bureau-of-ocean-energy-management-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/conformance/bureau-of-ocean-energy-management-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bureau-of-ocean-energy-management-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/authentication/bureau-of-ocean-energy-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bureau-of-ocean-energy-management-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/conventions/bureau-of-ocean-energy-management-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bureau-of-ocean-energy-management-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/data-model/bureau-of-ocean-energy-management-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bureau-of-ocean-energy-management-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/errors/bureau-of-ocean-energy-management-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bureau-of-ocean-energy-management-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/lifecycle/bureau-of-ocean-energy-management-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bureau-of-ocean-energy-management-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/llms/bureau-of-ocean-energy-management-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bureau-of-ocean-energy-management-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/mcp/bureau-of-ocean-energy-management-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bureau-of-ocean-energy-management-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/plans/bureau-of-ocean-energy-management-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bureau-of-ocean-energy-management-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/rate-limits/bureau-of-ocean-energy-management-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bureau-of-ocean-energy-management-rate-limits.yml
@@ -155,6 +195,41 @@ rate_limits:
 - limit_count: 0
   name: Bureau Of Ocean Energy Management Rate Limits
   slug: bureau-of-ocean-energy-management-rate-limits
+score:
+  band: thin
+  composite: 29.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 81.5
+    operational_transparency: 10.5
+  previous_composite: 29.9
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 41.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/screenshots/bureau-of-ocean-energy-management-2026-06-20T173814.png
 security:
 - kind: authentication

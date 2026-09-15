@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.music.ai/v1
@@ -90,58 +115,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/moises-ai
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/_original/moises-music-ai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/moises-music-ai-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/authentication/moises-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moises-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/packages/moises-packages.yml
   title: ''
   type: Packages
   url: packages/moises-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/packages/moises-packages.yml
   title: ''
   type: SDKs
   url: packages/moises-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/cli/moises-cli.yml
   title: ''
   type: CLI
   url: cli/moises-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/mcp/moises-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moises-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/llms/moises-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moises-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/overlays/moises-music-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moises-music-ai-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/conformance/moises-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moises-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/errors/moises-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moises-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/lifecycle/moises-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moises-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/conventions/moises-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moises-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/data-model/moises-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moises-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -158,6 +197,40 @@ overview: 'Moises publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
   Moises'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 41.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 56.1
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 41.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/screenshots/moises-2026-08-07T184046.png
 security:
 - kind: authentication

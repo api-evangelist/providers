@@ -10,6 +10,32 @@ access_model:
   - https://secureframe.com/pricing
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.secureframe.com
@@ -47,10 +73,12 @@ common:
   type: Pricing
   url: https://secureframe.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/plans/secureframe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/secureframe-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/rate-limits/secureframe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/secureframe-rate-limits.yml
@@ -79,6 +107,7 @@ common:
   type: ChangeLog
   url: https://secureframe.com/product-updates
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/changelog/secureframe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/secureframe-changelog.yml
@@ -103,26 +132,32 @@ common:
   type: Blog
   url: https://secureframe.com/blog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/mcp/secureframe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/secureframe-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/mcp/secureframe-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/secureframe-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/llms/secureframe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/secureframe-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/well-known/secureframe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/secureframe-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/conformance/secureframe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/secureframe-conformance.yml
@@ -131,58 +166,72 @@ common:
   type: Compliance
   url: https://trust.secureframe.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/security/secureframe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/secureframe-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/security/secureframe-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/secureframe-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/security/secureframe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/secureframe-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/security/secureframe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/secureframe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/authentication/secureframe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/secureframe-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/scopes/secureframe-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/secureframe-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/errors/secureframe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/secureframe-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/conventions/secureframe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/secureframe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/data-model/secureframe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/secureframe-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/lifecycle/secureframe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/secureframe-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/lifecycle/secureframe-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/secureframe-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/packages/secureframe-packages.yml
   title: ''
   type: Packages
   url: packages/secureframe-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/overlays/secureframe-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/secureframe-public-api-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/finops/secureframe-finops.yml
   title: ''
   type: FinOps
   url: finops/secureframe-finops.yml
@@ -220,6 +269,40 @@ scopes:
   scope_count: 0
   slug: secureframe-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 56.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 18.2
+    contract_quality: 55.2
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 56.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/screenshots/secureframe-2026-06-20T193625.png
 security:
 - kind: authentication

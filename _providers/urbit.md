@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The HTTP interface of every Urbit ship, served by the Eyre kernel vane. Clients authenticate by POSTing the ship's web login code to /~/login for an urbauth session cookie, then interact through chann
@@ -20,6 +45,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/security/urbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/urbit-domain-security.yml
@@ -64,6 +90,7 @@ common:
   type: PrivacyPolicy
   url: https://urbit.org/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/llms/urbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/urbit-llms.txt
@@ -72,54 +99,67 @@ common:
   type: AgentsMd
   url: https://urbit.org/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/well-known/urbit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/urbit-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/mcp/urbit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/urbit-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/packages/urbit-packages.yml
   title: ''
   type: Packages
   url: packages/urbit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/packages/urbit-packages.yml
   title: ''
   type: SDKs
   url: packages/urbit-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/authentication/urbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/urbit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/conventions/urbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/urbit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/errors/urbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/urbit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/conformance/urbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/urbit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/lifecycle/urbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/urbit-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/changelog/urbit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/urbit-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/sandbox/urbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/urbit-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/cli/urbit-cli.yml
   title: ''
   type: CLI
   url: cli/urbit-cli.yml
@@ -140,6 +180,36 @@ overview: 'Urbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
   Urbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
 random_paper: 4
+score:
+  band: thin
+  composite: 31.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 31.9
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/urbit/refs/heads/main/screenshots/urbit-2026-09-02T165214.png
 security:
 - kind: authentication

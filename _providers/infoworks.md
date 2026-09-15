@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://{host}:{port}/v3
@@ -341,10 +366,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/uniphore/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/capabilities/infoworks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/infoworks-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/overlays/infoworks-rest-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infoworks-rest-api-v3-overlay.yaml
@@ -393,54 +420,67 @@ common:
   type: Compliance
   url: https://www.uniphore.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/infoworks-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/packages/infoworks-packages.yml
   title: ''
   type: Packages
   url: packages/infoworks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/packages/infoworks-packages.yml
   title: ''
   type: SDKs
   url: packages/infoworks-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/changelog/infoworks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/infoworks-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/lifecycle/infoworks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infoworks-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/conformance/infoworks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infoworks-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/llms/infoworks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infoworks-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/plans/infoworks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/infoworks-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/rate-limits/infoworks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/infoworks-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infoworks-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/infoworks-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/infoworks-vulnerability-disclosure.yml
@@ -466,6 +506,40 @@ rate_limits:
 - limit_count: 0
   name: Infoworks Rate Limits
   slug: infoworks-rate-limits
+score:
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 54.3
+    developer_ergonomics: 28.0
+    discoverability: 50.0
+    operational_transparency: 28.9
+  previous_composite: 36.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/screenshots/infoworks-2026-09-02T145852.png
 security:
 - kind: authentication

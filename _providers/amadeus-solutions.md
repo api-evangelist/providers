@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,18 +69,22 @@ common:
   type: Website
   url: https://www.amadeus.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/overlays/amadeus-solutions-branded-fares-upsell-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amadeus-solutions-branded-fares-upsell-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/agentic-access/amadeus-solutions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amadeus-solutions-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/security/amadeus-solutions-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amadeus-solutions-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/security/amadeus-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amadeus-solutions-domain-security.yml
@@ -120,38 +149,47 @@ common:
   type: StatusPage
   url: https://developers.amadeus.com/status
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/rules/amadeus-solutions-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amadeus-solutions-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/vocabulary/amadeus-solutions-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amadeus-solutions-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/packages/amadeus-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/amadeus-solutions-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/well-known/amadeus-solutions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amadeus-solutions-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/mcp/amadeus-solutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amadeus-solutions-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/llms/amadeus-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amadeus-solutions-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/conformance/amadeus-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amadeus-solutions-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/errors/amadeus-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amadeus-solutions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/lifecycle/amadeus-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amadeus-solutions-lifecycle.yml
@@ -2314,6 +2352,40 @@ rules:
     info: 1
     warn: 8
   slug: amadeus-solutions-spectral-rules
+score:
+  band: thin
+  composite: 29.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 60.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 33.3
+    contract_quality: 49.7
+    developer_ergonomics: 26.2
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 29.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:
 - kind: domain-security

@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 58.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -282,6 +308,7 @@ common:
   type: ChangeLog
   url: https://docs.plantpredict.com/release-notes/Current-Version
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/changelog/terabase-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/terabase-energy-changelog.yml
@@ -290,74 +317,92 @@ common:
   type: Compliance
   url: https://docs.plantpredict.com/user-guide/resources/security-compliance
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/mcp/terabase-energy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/terabase-energy-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/mcp/terabase-energy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/terabase-energy-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/llms/terabase-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/terabase-energy-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/packages/terabase-energy-packages.yml
   title: ''
   type: Packages
   url: packages/terabase-energy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/packages/terabase-energy-packages.yml
   title: ''
   type: SDKs
   url: packages/terabase-energy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/well-known/terabase-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/terabase-energy-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/authentication/terabase-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/terabase-energy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/scopes/terabase-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/terabase-energy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/conventions/terabase-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/terabase-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/errors/terabase-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/terabase-energy-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/rate-limits/terabase-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/terabase-energy-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/lifecycle/terabase-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/terabase-energy-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/conformance/terabase-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/terabase-energy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/security/terabase-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/terabase-energy-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/data-model/terabase-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/terabase-energy-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/overlays/terabase-energy-plantpredict-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/terabase-energy-plantpredict-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/a2a/terabase-energy-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/terabase-energy-a2a.yml
@@ -376,7 +421,7 @@ modified: '2026-08-05'
 name: Terabase Energy
 nav: Providers
 network: true
-overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) network, including ASHRAE API, Company API, Country API, and 21 more. Tagged areas include Solar, Renewable Energy, Energy Modeling, utility-scale-solar, and Simulation.
+overview: 'Terabase Energy publishes 24 APIs on the [APIs.io](https://apis.io/) network, including ASHRAE API, Company API, Country API, and 21 more. Tagged areas include Solar, Renewable Energy, Energy Modeling, Utility-Scale Solar, and Simulation.
 
 
   Terabase Energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -390,6 +435,46 @@ scopes:
   scope_count: 2
   slug: terabase-energy-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: strong
+  composite: 57.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 57.2
+    developer_ergonomics: 76.2
+    discoverability: 70.4
+    operational_transparency: 18.4
+  previous_composite: 57.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/screenshots/terabase-energy-2026-08-17T082317.png
 security:
 - kind: authentication
@@ -405,7 +490,7 @@ tags:
 - Solar
 - Renewable Energy
 - Energy Modeling
-- utility-scale-solar
+- Utility-Scale Solar
 - Simulation
 - Photovoltaics
 - Construction Technology

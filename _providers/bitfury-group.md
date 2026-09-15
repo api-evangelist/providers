@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The HTTP surface an Exonum node serves. The explorer service exposes REST endpoints under /api/explorer (blocks, block, transactions, call_status) plus a WebSocket interface for submitting signed tran
@@ -107,38 +132,47 @@ common:
   type: ChangeLog
   url: https://github.com/exonum/exonum/blob/master/CHANGELOG.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/changelog/bitfury-group-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bitfury-group-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/packages/bitfury-group-packages.yml
   title: ''
   type: Packages
   url: packages/bitfury-group-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/packages/bitfury-group-packages.yml
   title: ''
   type: SDKs
   url: packages/bitfury-group-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/cli/bitfury-group-cli.yml
   title: ''
   type: CLI
   url: cli/bitfury-group-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/sandbox/bitfury-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bitfury-group-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/authentication/bitfury-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitfury-group-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/conventions/bitfury-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitfury-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/errors/bitfury-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bitfury-group-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/lifecycle/bitfury-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitfury-group-lifecycle.yml
@@ -147,70 +181,87 @@ common:
   type: Deprecation
   url: https://exonum.com/doc/version/latest/advanced/versioning/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/conformance/bitfury-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitfury-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/data-model/bitfury-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitfury-group-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/asyncapi/bitfury-group-exonum-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/bitfury-group-exonum-events.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/security/bitfury-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitfury-group-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/llms/bitfury-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitfury-group-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-blockchain.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-blockchain.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-messages.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-messages.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-crypto-types.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-crypto-types.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-runtime-base.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-runtime-base.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-runtime-auth.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-runtime-auth.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-runtime-errors.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-runtime-errors.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-runtime-lifecycle.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-runtime-lifecycle.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-proofs.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-proofs.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-proof-list_proof.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-proof-list_proof.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-proof-map_proof.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-proof-map_proof.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-key_value_sequence.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-key_value_sequence.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/grpc/bitfury-group-exonum-common-bit_vec.proto
   title: ''
   type: Protobuf
   url: grpc/bitfury-group-exonum-common-bit_vec.proto
@@ -230,6 +281,40 @@ overview: 'BitFury publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   BitFury''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, engineering blog, changelog, and 41 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 41.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 73.8
+    discoverability: 59.3
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 41.0
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/screenshots/bitfury-group-2026-08-07T162553.png
 security:
 - kind: authentication

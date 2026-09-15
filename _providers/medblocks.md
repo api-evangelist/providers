@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 64.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://app.medblocks.com
@@ -18,10 +44,12 @@ asyncapis:
   slug: medblocks-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/security/medblocks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medblocks-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/authentication/medblocks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medblocks-authentication.yml
@@ -78,86 +106,107 @@ common:
   type: PrivacyPolicy
   url: https://medblocks.com/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/packages/medblocks-packages.yml
   title: ''
   type: Packages
   url: packages/medblocks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/packages/medblocks-packages.yml
   title: ''
   type: SDKs
   url: packages/medblocks-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/well-known/medblocks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medblocks-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/well-known/medblocks-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/medblocks-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/mcp/medblocks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/medblocks-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/mcp/medblocks-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/medblocks-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/llms/medblocks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medblocks-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/conformance/medblocks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medblocks-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/conformance/medblocks-conformance.yml
   title: ''
   type: Compliance
   url: conformance/medblocks-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/errors/medblocks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medblocks-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/lifecycle/medblocks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medblocks-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/scopes/medblocks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/medblocks-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/conventions/medblocks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medblocks-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/changelog/medblocks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/medblocks-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/sandbox/medblocks-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/medblocks-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/components/medblocks-components.yml
   title: ''
   type: Components
   url: components/medblocks-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/data-model/medblocks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medblocks-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/asyncapi/medblocks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/medblocks-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/plans/medblocks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/medblocks-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/rate-limits/medblocks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medblocks-rate-limits.yml
@@ -194,6 +243,52 @@ scopes:
   scope_count: 0
   slug: medblocks-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 63.5
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 64.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Medblocks Authentication
@@ -214,8 +309,8 @@ tags:
 - Patient Access
 - Health Data
 - SMART on FHIR
-- Webhooks
-- Model Context Protocol
+- Webhook
+- MCP
 - Company
 website: https://medblocks.com/
 ---

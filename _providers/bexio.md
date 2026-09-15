@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -129,22 +155,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bexio/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/agentic-access/bexio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bexio-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/security/bexio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bexio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/security/bexio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bexio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/security/bexio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bexio-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/authentication/bexio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bexio-authentication.yml
@@ -165,14 +196,17 @@ common:
   type: Documentation
   url: https://docs.bexio.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/plans/bexio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bexio-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/rate-limits/bexio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bexio-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/finops/bexio-finops.yml
   title: ''
   type: FinOps
   url: finops/bexio-finops.yml
@@ -181,10 +215,12 @@ common:
   type: Blog
   url: https://www.bexio.com/en-CH/blog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/well-known/bexio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bexio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/well-known/bexio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bexio-security.txt
@@ -197,34 +233,42 @@ common:
   type: Compliance
   url: https://www.bexio.com/en-CH/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/scopes/bexio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bexio-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/packages/bexio-packages.yml
   title: ''
   type: Packages
   url: packages/bexio-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/mcp/bexio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bexio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/llms/bexio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bexio-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/overlays/bexio-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bexio-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/conformance/bexio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bexio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/errors/bexio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bexio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/lifecycle/bexio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bexio-lifecycle.yml
@@ -237,22 +281,27 @@ common:
   type: Deprecation
   url: https://docs.bexio.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/changelog/bexio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bexio-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/conventions/bexio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bexio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/data-model/bexio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bexio-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/collections/bexio.postman_collection.json
   title: ''
   type: Postman
   url: collections/bexio.postman_collection.json
@@ -322,6 +371,49 @@ scopes:
   scope_count: 71
   slug: bexio-scopes
   summary_line: 71 scopes
+score:
+  band: developing
+  composite: 43.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 1.0
+    developer_ergonomics: 50.6
+    discoverability: 68.5
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 43.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:
 - kind: authentication

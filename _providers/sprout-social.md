@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
@@ -17,10 +42,12 @@ apis:
 artifact_total: 11
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/security/sprout-social-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sprout-social-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/security/sprout-social-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sprout-social-domain-security.yml
@@ -57,18 +84,22 @@ common:
   type: X
   url: https://x.com/SproutSocial
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/plans/sprout-social-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sprout-social-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/rate-limits/sprout-social-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sprout-social-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/finops/sprout-social-finops.yml
   title: ''
   type: FinOps
   url: finops/sprout-social-finops.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
@@ -105,6 +136,7 @@ common:
   type: Security
   url: https://sproutsocial.com/responsible-disclosure-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/security/sprout-social-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sprout-social-vulnerability-disclosure.yml
@@ -113,50 +145,62 @@ common:
   type: Compliance
   url: https://trust.sproutsocial.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/authentication/sprout-social-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sprout-social-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/scopes/sprout-social-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sprout-social-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/well-known/sprout-social-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sprout-social-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/conventions/sprout-social-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sprout-social-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/errors/sprout-social-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sprout-social-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/lifecycle/sprout-social-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sprout-social-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/changelog/sprout-social-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sprout-social-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/conformance/sprout-social-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sprout-social-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/data-model/sprout-social-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sprout-social-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/packages/sprout-social-packages.yml
   title: ''
   type: Packages
   url: packages/sprout-social-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/components/sprout-social-components.yml
   title: ''
   type: Components
   url: components/sprout-social-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/llms/sprout-social-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sprout-social-llms.txt
@@ -202,6 +246,35 @@ scopes:
   scope_count: 6
   slug: sprout-social-scopes
   summary_line: 6 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 70.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 33.3
+    contract_quality: 46.8
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 62.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/screenshots/sprout-social-2026-08-17T082048.png
 security:
 - kind: authentication

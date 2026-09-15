@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -149,10 +174,12 @@ collections:
   slug: open-abound-w-9-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/capabilities/abound-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/abound-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/overlays/abound-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/abound-v4-overlay.yaml
@@ -161,82 +188,102 @@ common:
   type: Website
   url: https://withabound.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/packages/abound-packages.yml
   title: ''
   type: Packages
   url: packages/abound-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/packages/abound-packages.yml
   title: ''
   type: SDKs
   url: packages/abound-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/authentication/abound-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abound-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/conventions/abound-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abound-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/conventions/abound-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/abound-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/errors/abound-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/abound-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/lifecycle/abound-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abound-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/conformance/abound-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abound-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/data-model/abound-data-model.yml
   title: ''
   type: DataModel
   url: data-model/abound-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/components/abound-components.yml
   title: ''
   type: Components
   url: components/abound-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/sandbox/abound-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/abound-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/asyncapi/abound-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/abound-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/mcp/abound-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/abound-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/llms/abound-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abound-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/security/abound-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abound-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/agentic-access/abound-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/abound-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/arazzo/abound-collect-w9-and-verify-tin.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/abound-collect-w9-and-verify-tin.arazzo.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/arazzo/abound-file-1099-nec.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/abound-file-1099-nec.arazzo.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abound/refs/heads/main/arazzo/abound-correct-or-void-1099.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/abound-correct-or-void-1099.arazzo.yml
@@ -256,6 +303,47 @@ overview: 'Abound publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
   Abound''s developer surface includes authentication, sandbox, and 21 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 30.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 61.6
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 30.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Abound Authentication

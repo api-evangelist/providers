@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,10 +66,12 @@ common:
   type: Website
   url: https://gtgroup.dev/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/mcp/device-specs-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/device-specs-api-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/overlays/device-specs-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/device-specs-api-openapi-overlay.yaml
@@ -81,6 +108,7 @@ common:
   type: Pricing
   url: https://ds.gtgroup.dev/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/plans/device-specs-api-plans.yml
   title: ''
   type: Plans
   url: plans/device-specs-api-plans.yml
@@ -101,22 +129,27 @@ common:
   type: APIsJSON
   url: https://ds.gtgroup.dev/apis.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/rules/device-specs-api-spectral.yaml
   title: ''
   type: SpectralRules
   url: rules/device-specs-api-spectral.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/llms/device-specs-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/device-specs-api-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/well-known/device-specs-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/device-specs-api-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/packages/device-specs-api-packages.yml
   title: ''
   type: Packages
   url: packages/device-specs-api-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/packages/device-specs-api-packages.yml
   title: ''
   type: SDKs
   url: packages/device-specs-api-packages.yml
@@ -129,34 +162,42 @@ common:
   type: JavaScript SDK
   url: https://www.npmjs.com/package/@granturismo/devicespecs
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/authentication/device-specs-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/device-specs-api-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/conventions/device-specs-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/device-specs-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/errors/device-specs-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/device-specs-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/conformance/device-specs-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/device-specs-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/lifecycle/device-specs-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/device-specs-api-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/data-model/device-specs-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/device-specs-api-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/rate-limits/device-specs-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/device-specs-api-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/sandbox/device-specs-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/device-specs-api-sandbox.yml
@@ -165,14 +206,17 @@ common:
   type: Console
   url: https://ds.gtgroup.dev/playground
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/agentic-access/device-specs-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/device-specs-api-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/security/device-specs-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/device-specs-api-domain-security.yml
@@ -212,6 +256,42 @@ rules:
     info: 0
     warn: 0
   slug: device-specs-api-spectral
+score:
+  band: strong
+  composite: 57.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 66.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 49.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 19.7
+    contract_quality: 51.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 57.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/screenshots/device-specs-api-2026-08-17T080857.png
 security:
 - kind: authentication
@@ -231,7 +311,7 @@ tags:
 - Hardware
 - mobile-specs
 - Devices
-- rapidapi
+- RapidAPI
 - gsmarena
 - Reference Data
 - Developer Tools

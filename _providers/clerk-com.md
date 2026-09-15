@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 16
@@ -967,6 +993,7 @@ collections:
   slug: open-clerk-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/capabilities/clerk-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clerk-com-capability-edges.yml
@@ -975,18 +1002,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/clerk/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/agentic-access/clerk-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clerk-com-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/security/clerk-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clerk-com-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/security/clerk-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clerk-com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/authentication/clerk-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clerk-com-authentication.yml
@@ -1119,134 +1150,167 @@ common:
   type: Tools
   url: https://github.com/clerk/migration-tool
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/plans/clerk-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clerk-com-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/rate-limits/clerk-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clerk-com-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/finops/clerk-com-finops.yml
   title: ''
   type: FinOps
   url: finops/clerk-com-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/vocabulary/clerk-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/clerk-com-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-ld/clerk-com-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clerk-com-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-user-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-user-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-user-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-session-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-session-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-session-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-session-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-organization-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-organization-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-organization-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-organization-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-organizationmembership-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-organizationmembership-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-organizationmembership-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-organizationmembership-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-organizationinvitation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-organizationinvitation-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-organizationinvitation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-organizationinvitation-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-invitation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-invitation-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-invitation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-invitation-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-emailaddress-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-emailaddress-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-emailaddress-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-emailaddress-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-phonenumber-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-phonenumber-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-phonenumber-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-phonenumber-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-client-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-client-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-client-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-client-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-oauthapplication-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-oauthapplication-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-oauthapplication-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-oauthapplication-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-samlconnection-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-samlconnection-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-samlconnection-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-samlconnection-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-jwttemplate-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-jwttemplate-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-jwttemplate-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-jwttemplate-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-signintoken-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-signintoken-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-signintoken-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-signintoken-structure.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-schema/clerk-actortoken-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clerk-actortoken-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/json-structure/clerk-actortoken-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/clerk-actortoken-structure.json
@@ -1474,6 +1538,39 @@ rules:
     info: 4
     warn: 3
   slug: clerk-rules
+score:
+  band: strong
+  composite: 65.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 69.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 28.8
+    contract_quality: 71.5
+    developer_ergonomics: 72.6
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 65.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 81
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/screenshots/clerk-com-2026-06-20T174512.png
 security:
 - kind: authentication

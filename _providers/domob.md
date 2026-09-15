@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Domob's mobile ad exchange, supporting RTB, PMP, PD and PDB buying. Listed on the Domob developer platform's API docking page with a docking document updated 2025-06-13, but that document is hosted on
@@ -30,6 +55,7 @@ collections:
   slug: open-domob-media-data-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/overlays/domob-media-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/domob-media-data-api-overlay.yaml
@@ -86,70 +112,87 @@ common:
   type: PrivacyPolicy
   url: https://www.domob.cn/article?id=advertiserPlatformPrivacyPolicy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/packages/domob-packages.yml
   title: ''
   type: Packages
   url: packages/domob-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/packages/domob-packages.yml
   title: ''
   type: SDKs
   url: packages/domob-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/authentication/domob-authentication.yml
   title: ''
   type: Authentication
   url: authentication/domob-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/errors/domob-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/domob-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/conventions/domob-conventions.yml
   title: ''
   type: Conventions
   url: conventions/domob-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/data-model/domob-data-model.yml
   title: ''
   type: DataModel
   url: data-model/domob-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/lifecycle/domob-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/domob-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/changelog/domob-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/domob-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/sandbox/domob-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/domob-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/plans/domob-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/domob-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/rate-limits/domob-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/domob-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/conformance/domob-conformance.yml
   title: ''
   type: Conformance
   url: conformance/domob-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/llms/domob-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/domob-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/mcp/domob-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/domob-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/mcp/domob-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/domob-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/security/domob-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/domob-domain-security.yml
@@ -175,6 +218,47 @@ rate_limits:
 - limit_count: 0
   name: Domob Rate Limits
   slug: domob-rate-limits
+score:
+  band: developing
+  composite: 43.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 59.2
+    developer_ergonomics: 69.6
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 43.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/screenshots/domob-2026-07-25T212250.png
 security:
 - kind: authentication

@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snaproute/refs/heads/main/security/snaproute-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snaproute-domain-security.yml

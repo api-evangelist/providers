@@ -36,14 +36,17 @@ common:
   type: SourceCode
   url: https://github.com/ninjablocks
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/packages/ninjablocks-packages.yml
   title: ''
   type: SDKs
   url: packages/ninjablocks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/packages/ninjablocks-packages.yml
   title: ''
   type: Packages
   url: packages/ninjablocks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/cli/ninjablocks-cli.yml
   title: ''
   type: CLI
   url: cli/ninjablocks-cli.yml

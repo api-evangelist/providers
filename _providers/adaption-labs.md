@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,6 +67,7 @@ collections:
   slug: open-adaption-labs-upload-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/overlays/adaption-labs-datasets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adaption-labs-datasets-overlay.yaml
@@ -62,34 +88,42 @@ common:
   type: GettingStarted
   url: https://docs.adaptionlabs.ai/introduction/getting-started/index.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/authentication/adaption-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adaption-labs-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/agentic-access/adaption-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adaption-labs-agentic-access.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/openapi/_original/adaption-labs-datasets-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/adaption-labs-datasets-openapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/mcp/adaption-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/adaption-labs-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/errors/adaption-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adaption-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/data-model/adaption-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adaption-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/lifecycle/adaption-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adaption-labs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/conformance/adaption-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaption-labs-conformance.yml
@@ -98,26 +132,32 @@ common:
   type: Compliance
   url: https://adaptionlabs.ai/enterprise
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/packages/adaption-labs-packages.yml
   title: ''
   type: Packages
   url: packages/adaption-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/packages/adaption-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/adaption-labs-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/conventions/adaption-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adaption-labs-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/changelog/adaption-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adaption-labs-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/llms/adaption-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaption-labs-llms.txt
@@ -142,6 +182,7 @@ common:
   type: PrivacyPolicy
   url: https://adaptionlabs.ai/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/security/adaption-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaption-labs-domain-security.yml
@@ -158,6 +199,41 @@ overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
   Adaption Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 19 more developer resources.'
 random_paper: 9
+score:
+  band: thin
+  composite: 34.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 13.5
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 34.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,18 +69,22 @@ apis:
 artifact_total: 10
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/capabilities/lengow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lengow-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/agentic-access/lengow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lengow-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/security/lengow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lengow-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/security/lengow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lengow-domain-security.yml
@@ -120,66 +149,82 @@ common:
   type: ChangeLog
   url: https://docs.lengow.io/#api-release-notes
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/packages/lengow-packages.yml
   title: ''
   type: Packages
   url: packages/lengow-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/packages/lengow-packages.yml
   title: ''
   type: SDKs
   url: packages/lengow-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/well-known/lengow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lengow-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/well-known/lengow-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lengow-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/llms/lengow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lengow-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/authentication/lengow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lengow-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/conventions/lengow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lengow-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/errors/lengow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lengow-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/lifecycle/lengow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lengow-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/changelog/lengow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lengow-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/conformance/lengow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lengow-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/data-model/lengow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lengow-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/plans/lengow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lengow-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/rate-limits/lengow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lengow-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/overlays/lengow-channel-execution-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lengow-channel-execution-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -213,6 +258,49 @@ rate_limits:
 - limit_count: 2
   name: Lengow Rate Limits
   slug: lengow-rate-limits
+score:
+  band: strong
+  composite: 60.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 56.1
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/screenshots/lengow-2026-09-02T150237.png
 security:
 - kind: authentication

@@ -17,6 +17,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/colourlovers/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forrst/refs/heads/main/security/forrst-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forrst-domain-security.yml

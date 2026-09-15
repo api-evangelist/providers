@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -178,10 +203,12 @@ collections:
   slug: open-oxen-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/overlays/oxen-hub-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oxen-hub-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/security/oxen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oxen-domain-security.yml
@@ -246,54 +273,67 @@ common:
   type: ChangeLog
   url: https://www.oxen.ai/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/llms/oxen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oxen-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/packages/oxen-packages.yml
   title: ''
   type: Packages
   url: packages/oxen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/packages/oxen-packages.yml
   title: ''
   type: SDKs
   url: packages/oxen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/cli/oxen-cli.yml
   title: ''
   type: CLI
   url: cli/oxen-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/authentication/oxen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oxen-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/conventions/oxen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oxen-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/errors/oxen-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oxen-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/lifecycle/oxen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oxen-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/conformance/oxen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oxen-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/data-model/oxen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oxen-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/mcp/oxen-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/oxen-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/agentic-access/oxen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oxen-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -310,6 +350,41 @@ overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
   Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 4.5
+    contract_quality: 56.1
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 38.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
 security:
 - kind: authentication

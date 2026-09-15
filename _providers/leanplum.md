@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.leanplum.com'', ''status'': 301, ''note'': ''declared website redirects to https://clevertap.com:443/ — a different registrable domain (leanplum.com -> clevertap.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -131,14 +156,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/clevertap/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/authentication/leanplum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leanplum-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/agentic-access/leanplum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leanplum-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/security/leanplum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leanplum-domain-security.yml
@@ -159,74 +187,92 @@ common:
   type: Documentation
   url: https://docs.leanplum.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/plans/leanplum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leanplum-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/rate-limits/leanplum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leanplum-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/finops/leanplum-finops.yml
   title: ''
   type: FinOps
   url: finops/leanplum-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/packages/leanplum-packages.yml
   title: ''
   type: Packages
   url: packages/leanplum-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/packages/leanplum-packages.yml
   title: ''
   type: SDKs
   url: packages/leanplum-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/llms/leanplum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leanplum-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/conformance/leanplum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leanplum-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/security/leanplum-trust-center.yml
   title: ''
   type: Compliance
   url: security/leanplum-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/security/leanplum-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leanplum-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/errors/leanplum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leanplum-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/lifecycle/leanplum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leanplum-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/conventions/leanplum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leanplum-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/changelog/leanplum-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leanplum-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/sandbox/leanplum-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/leanplum-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/data-model/leanplum-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leanplum-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/asyncapi/leanplum-postbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/leanplum-postbacks-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/overlays/leanplum-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leanplum-api-overlay.yaml
@@ -298,6 +344,41 @@ rate_limits:
 - limit_count: 10
   name: Leanplum Rate Limits
   slug: leanplum-rate-limits
+score:
+  band: strong
+  composite: 55.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 82.9
+    contract_governance: 18.2
+    contract_quality: 36.0
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 55.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 50.0
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/screenshots/leanplum-2026-07-25T224746.png
 security:
 - kind: authentication

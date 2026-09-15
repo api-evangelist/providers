@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -75,42 +100,52 @@ collections:
   slug: open-powershop-cdr-energy-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/skills/powershop-lookup-energy-plans.md
   title: ''
   type: AgentSkill
   url: skills/powershop-lookup-energy-plans.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/skills/powershop-check-cdr-status.md
   title: ''
   type: AgentSkill
   url: skills/powershop-check-cdr-status.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/skills/powershop-share-consumer-energy-data.md
   title: ''
   type: AgentSkill
   url: skills/powershop-share-consumer-energy-data.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/agentic-access/powershop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/powershop-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/security/powershop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/powershop-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/authentication/powershop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/powershop-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/scopes/powershop-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/powershop-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/conventions/powershop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/powershop-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/errors/powershop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/powershop-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/lifecycle/powershop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/powershop-lifecycle.yml
@@ -123,38 +158,47 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/changelog/powershop-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/powershop-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/conformance/powershop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/powershop-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/data-model/powershop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/powershop-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/mcp/powershop-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/powershop-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/llms/powershop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/powershop-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/overlays/powershop-cdr-energy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/powershop-cdr-energy-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/overlays/powershop-cdr-common-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/powershop-cdr-common-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/packages/powershop-packages.yml
   title: ''
   type: Packages
   url: packages/powershop-packages.yml
@@ -237,6 +281,54 @@ scopes:
   scope_count: 11
   slug: powershop-scopes
   summary_line: 11 scopes
+score:
+  band: developing
+  composite: 46.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 37.5
+    discoverability: 68.5
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 46.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/screenshots/powershop-2026-08-17T124837.png
 security:
 - kind: authentication

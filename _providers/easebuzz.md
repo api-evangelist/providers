@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST payment gateway API to initiate transactions, verify transaction status, and process refunds across 150+ payment options (cards, UPI, net banking, wallets, EMI). Requests are authenticated with a
@@ -22,6 +47,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/security/easebuzz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/easebuzz-domain-security.yml
@@ -78,22 +104,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/easebuzz
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/packages/easebuzz-packages.yml
   title: ''
   type: Packages
   url: packages/easebuzz-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/packages/easebuzz-packages.yml
   title: ''
   type: SDKs
   url: packages/easebuzz-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/authentication/easebuzz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/easebuzz-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/sandbox/easebuzz-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/easebuzz-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/conformance/easebuzz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/easebuzz-conformance.yml
@@ -102,6 +133,7 @@ common:
   type: Compliance
   url: https://docs.easebuzz.in/docs/payment-gateway/i849ghebwytej-payment-gateway
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/llms/easebuzz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/easebuzz-llms.txt
@@ -118,6 +150,47 @@ overview: 'Easebuzz publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
   Easebuzz''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, authentication, and 14 more developer resources.'
 random_paper: 12
+score:
+  band: thin
+  composite: 36.6
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 36.6
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 59.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png
 security:
 - kind: authentication

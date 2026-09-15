@@ -17,10 +17,12 @@ common:
   type: Website
   url: https://www.circleofmoms.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/circle-of-moms/refs/heads/main/security/circle-of-moms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/circle-of-moms-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/circle-of-moms/refs/heads/main/llms/circle-of-moms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/circle-of-moms-llms.txt

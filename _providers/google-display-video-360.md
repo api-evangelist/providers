@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 0
@@ -122,6 +147,7 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/overlays/google-display-video-360-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-display-video-360-api-overlay.yaml
@@ -130,10 +156,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-display--video-360/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/agentic-access/google-display-video-360-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-display-video-360-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/security/google-display-video-360-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-display-video-360-vulnerability-disclosure.yml
@@ -142,50 +170,62 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/security/google-display-video-360-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-display-video-360-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/authentication/google-display-video-360-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-display-video-360-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/scopes/google-display-video-360-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-display-video-360-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/well-known/google-display-video-360-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-display-video-360-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/well-known/google-display-video-360-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-display-video-360-security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/packages/google-display-video-360-packages.yml
   title: ''
   type: Packages
   url: packages/google-display-video-360-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/packages/google-display-video-360-packages.yml
   title: ''
   type: SDKs
   url: packages/google-display-video-360-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/llms/google-display-video-360-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-display-video-360-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/conventions/google-display-video-360-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-display-video-360-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/errors/google-display-video-360-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-display-video-360-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/conformance/google-display-video-360-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-display-video-360-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/lifecycle/google-display-video-360-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-display-video-360-lifecycle.yml
@@ -194,6 +234,7 @@ common:
   type: Deprecation
   url: https://developers.google.com/display-video/api/deprecations
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/changelog/google-display-video-360-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-display-video-360-changelog.yml
@@ -202,30 +243,37 @@ common:
   type: ReleaseNotes
   url: https://developers.google.com/display-video/api/release-notes
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/data-model/google-display-video-360-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-display-video-360-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/mcp/google-display-video-360-mcp.yml
   title: ''
   type: MCP
   url: mcp/google-display-video-360-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/plans/google-display-video-360-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-display-video-360-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/rate-limits/google-display-video-360-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-display-video-360-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/finops/google-display-video-360-finops.yml
   title: ''
   type: FinOps
   url: finops/google-display-video-360-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/rules/google-display-video-360-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/google-display-video-360-jsonschema-spectral-rules.yml
@@ -278,6 +326,7 @@ common:
   type: Support
   url: https://developers.google.com/display-video/api/support
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/json-ld/json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/json-ld.yml
@@ -329,6 +378,41 @@ scopes:
   scope_count: 4
   slug: google-display-video-360-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 64.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 14.4
+    contract_quality: 64.9
+    developer_ergonomics: 67.3
+    discoverability: 74.1
+    operational_transparency: 68.4
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/screenshots/google-display-video-360-2026-06-20T182156.png
 security:
 - kind: authentication

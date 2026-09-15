@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://otx.alienvault.com/api/v1
@@ -55,6 +80,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/att/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/overlays/alienvault-otx-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alienvault-otx-overlay.yaml
@@ -83,46 +109,57 @@ common:
   type: TermsOfService
   url: https://otx.alienvault.com/terms/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/packages/alienvault-packages.yml
   title: ''
   type: Packages
   url: packages/alienvault-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/packages/alienvault-packages.yml
   title: ''
   type: SDKs
   url: packages/alienvault-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/mcp/alienvault-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alienvault-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/llms/alienvault-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alienvault-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/authentication/alienvault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alienvault-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/security/alienvault-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alienvault-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/conventions/alienvault-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alienvault-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/data-model/alienvault-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alienvault-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/conformance/alienvault-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alienvault-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/lifecycle/alienvault-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alienvault-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -139,6 +176,40 @@ overview: 'AlienVault publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
   AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 15 more developer resources.'
 random_paper: 6
+score:
+  band: emerging
+  composite: 24.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 20.8
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 24.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/screenshots/alienvault-2026-07-25T195617.png
 security:
 - kind: authentication

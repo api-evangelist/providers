@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api-2445582032290.production.gw.apicast.io
@@ -27,6 +52,7 @@ collections:
   slug: open-azumio-food-recognition-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/overlays/azumio-food-recognition-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/azumio-food-recognition-overlay.yaml
@@ -71,46 +97,57 @@ common:
   type: PrivacyPolicy
   url: https://azumio.com/privacy-policy-and-terms-of-use
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/authentication/azumio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azumio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/conventions/azumio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/azumio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/errors/azumio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/azumio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/lifecycle/azumio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/azumio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/conformance/azumio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/azumio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/data-model/azumio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/azumio-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/mcp/azumio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/azumio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/llms/azumio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/azumio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/well-known/azumio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/azumio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/security/azumio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azumio-domain-security.yml
@@ -127,6 +164,46 @@ overview: 'Azumio publishes 1 API on the [APIs.io](https://apis.io/) network: Fo
 
   Azumio''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, and 16 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 39.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 55.8
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 39.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/screenshots/azumio-2026-07-25T202122.png
 security:
 - kind: authentication

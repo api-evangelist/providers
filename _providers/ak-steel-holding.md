@@ -17,22 +17,27 @@ apis:
 artifact_total: 12
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/security/ak-steel-holding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ak-steel-holding-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/lifecycle/ak-steel-holding-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ak-steel-holding-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/llms/ak-steel-holding-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ak-steel-holding-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/plans/ak-steel-holding-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ak-steel-holding-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/rate-limits/ak-steel-holding-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ak-steel-holding-rate-limits.yml

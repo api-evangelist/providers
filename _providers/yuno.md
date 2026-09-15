@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.y.uno
@@ -29,6 +54,7 @@ collections:
   slug: open-.refine-report
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/security/yuno-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yuno-domain-security.yml
@@ -93,82 +119,102 @@ common:
   type: ChangeLog
   url: https://docs.y.uno/changelog
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/openapi/_original/yuno-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/yuno-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/llms/yuno-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yuno-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/packages/yuno-packages.yml
   title: ''
   type: Packages
   url: packages/yuno-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/packages/yuno-packages.yml
   title: ''
   type: SDKs
   url: packages/yuno-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/mcp/yuno-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/yuno-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/authentication/yuno-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yuno-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/conventions/yuno-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yuno-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/conventions/yuno-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/yuno-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/errors/yuno-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/yuno-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/errors/yuno-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/yuno-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/lifecycle/yuno-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yuno-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/sandbox/yuno-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/yuno-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/conformance/yuno-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yuno-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/security/yuno-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yuno-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/components/yuno-components.yml
   title: ''
   type: Components
   url: components/yuno-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/data-model/yuno-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yuno-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/asyncapi/yuno-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/yuno-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/overlays/yuno-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yuno-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/changelog/yuno-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/yuno-changelog.yml
@@ -192,6 +238,42 @@ overview: 'Yuno publishes 1 API on the [APIs.io](https://apis.io/) network: Paym
 
   Yuno''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 29 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 53.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 65.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/screenshots/yuno-2026-08-17T083027.png
 security:
 - kind: authentication

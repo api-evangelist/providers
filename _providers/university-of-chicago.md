@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 1
@@ -422,58 +447,72 @@ common:
   type: AITooling
   url: https://genai.uchicago.edu/service-requests
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/conformance/university-of-chicago-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/university-of-chicago-domain-standards.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/errors/university-of-chicago-errors.yml
   title: ''
   type: Errors
   url: errors/university-of-chicago-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/lifecycle/university-of-chicago-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-chicago-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/agentic-access/university-of-chicago-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-chicago-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/security/university-of-chicago-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-chicago-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/authentication/university-of-chicago-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-chicago-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/scopes/university-of-chicago-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/university-of-chicago-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/rules/university-of-chicago-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-chicago-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/vocabulary/university-of-chicago-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-chicago-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/json-ld/university-of-chicago-context.jsonld
   title: ''
   type: x-json-ld
   url: json-ld/university-of-chicago-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/plans/university-of-chicago-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-chicago-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/rate-limits/university-of-chicago-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-chicago-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/finops/university-of-chicago-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-chicago-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -568,6 +607,52 @@ scopes:
   scope_count: 3
   slug: university-of-chicago-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: developing
+  composite: 46.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 72.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 25.0
+    contract_quality: 57.6
+    developer_ergonomics: 40.5
+    discoverability: 68.5
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 46.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 5.1
+      total: 39
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/screenshots/university-of-chicago-2026-06-20T200146.png
 security:
 - kind: authentication

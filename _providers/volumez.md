@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.dev.volumez.com
@@ -33,58 +58,72 @@ common:
   type: StatusPage
   url: https://volumez.statuspage.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/lifecycle/volumez-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/volumez-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/changelog/volumez-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/volumez-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/conformance/volumez-conformance.yml
   title: ''
   type: Conformance
   url: conformance/volumez-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/conformance/volumez-conformance.yml
   title: ''
   type: Compliance
   url: conformance/volumez-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/authentication/volumez-authentication.yml
   title: ''
   type: Authentication
   url: authentication/volumez-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/conventions/volumez-conventions.yml
   title: ''
   type: Conventions
   url: conventions/volumez-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/security/volumez-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/volumez-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/packages/volumez-packages.yml
   title: ''
   type: Packages
   url: packages/volumez-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/packages/volumez-packages.yml
   title: ''
   type: SDKs
   url: packages/volumez-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/plans/volumez-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/volumez-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/rate-limits/volumez-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/volumez-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/llms/volumez-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/volumez-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/volumez/refs/heads/main/mcp/volumez-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/volumez-mcp.yml
@@ -109,6 +148,40 @@ rate_limits:
 - limit_count: 0
   name: Volumez Rate Limits
   slug: volumez-rate-limits
+score:
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 35.1
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 38.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 security:
 - kind: authentication
   name: Volumez Authentication

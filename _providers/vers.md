@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.vers.sh
@@ -115,6 +140,7 @@ collections:
   slug: open-vers-vms-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/overlays/vers-orchestrator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vers-orchestrator-overlay.yaml
@@ -163,58 +189,72 @@ common:
   type: PrivacyPolicy
   url: https://vers.sh/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/authentication/vers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vers-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/security/vers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vers-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/packages/vers-packages.yml
   title: ''
   type: Packages
   url: packages/vers-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/packages/vers-packages.yml
   title: ''
   type: SDKs
   url: packages/vers-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/cli/vers-cli.yml
   title: ''
   type: CLI
   url: cli/vers-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/mcp/vers-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vers-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/llms/vers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vers-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/conventions/vers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vers-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/conventions/vers-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vers-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/errors/vers-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vers-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/lifecycle/vers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vers-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/conformance/vers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vers-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/data-model/vers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vers-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -235,6 +275,40 @@ overview: 'Vers publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
   Vers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 47.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 39.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/screenshots/vers-2026-08-17T082735.png
 security:
 - kind: authentication

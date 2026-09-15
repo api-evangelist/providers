@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 55.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://rest.iad-01.braze.com
@@ -214,18 +240,22 @@ collections:
   slug: open-braze-user-data-external-id-migration-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/capabilities/braze-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/braze-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/authentication/braze-authentication.yml
   title: ''
   type: Authentication
   url: authentication/braze-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/security/braze-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/braze-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/security/braze-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/braze-domain-security.yml
@@ -290,38 +320,47 @@ common:
   type: LlmsText
   url: https://braze.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/mcp/braze-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/braze-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/mcp/braze-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/braze-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/packages/braze-packages.yml
   title: ''
   type: Packages
   url: packages/braze-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/packages/braze-packages.yml
   title: ''
   type: SDKs
   url: packages/braze-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/well-known/braze-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/braze-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/well-known/braze-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/braze-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/llms/braze-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/braze-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/scopes/braze-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/braze-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/conformance/braze-conformance.yml
   title: ''
   type: Conformance
   url: conformance/braze-conformance.yml
@@ -330,6 +369,7 @@ common:
   type: Compliance
   url: https://www.braze.com/docs/developer_guide/disclosures/security_qualifications
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/security/braze-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/braze-trust-center.yml
@@ -338,10 +378,12 @@ common:
   type: Security
   url: https://hackerone.com/braze_inc
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/errors/braze-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/braze-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/lifecycle/braze-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/braze-lifecycle.yml
@@ -354,34 +396,42 @@ common:
   type: Deprecation
   url: https://www.braze.com/docs/releases/deprecations
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/conventions/braze-conventions.yml
   title: ''
   type: Conventions
   url: conventions/braze-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/changelog/braze-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/braze-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/components/braze-components.yml
   title: ''
   type: Components
   url: components/braze-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/data-model/braze-data-model.yml
   title: ''
   type: DataModel
   url: data-model/braze-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/asyncapi/braze-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/braze-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/plans/braze-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/braze-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/rate-limits/braze-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/braze-rate-limits.yml
@@ -475,6 +525,46 @@ scopes:
   scope_count: 2
   slug: braze-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 80.4
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 67.5
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 92.1
+  previous_composite: 80.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 80.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/screenshots/braze-2026-06-20T173643.png
 security:
 - kind: authentication

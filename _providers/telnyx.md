@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 553
   human_in_the_loop: 61
@@ -1378,30 +1403,37 @@ collections:
   slug: open-telnyx
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/capabilities/telnyx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/telnyx-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/agentic-access/telnyx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/telnyx-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/security/telnyx-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/telnyx-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/security/telnyx-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/telnyx-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/security/telnyx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telnyx-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/authentication/telnyx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/telnyx-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/scopes/telnyx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/telnyx-scopes.yml
@@ -1418,14 +1450,17 @@ common:
   type: Website
   url: https://telnyx.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/plans/telnyx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/telnyx-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/rate-limits/telnyx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/telnyx-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/finops/telnyx-finops.yml
   title: ''
   type: FinOps
   url: finops/telnyx-finops.yml
@@ -1467,6 +1502,45 @@ scopes:
   scope_count: 1
   slug: telnyx-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: thin
+  composite: 35.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 26.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 89.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 61.2
+    developer_ergonomics: 23.8
+    discoverability: 42.6
+    operational_transparency: 7.9
+  previous_composite: 35.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 169
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 55.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/screenshots/telnyx-2026-06-20T195051.png
 security:
 - kind: authentication

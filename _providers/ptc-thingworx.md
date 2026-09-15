@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -89,18 +114,22 @@ collections:
   slug: open-ptc-thingworx-valuestreams-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/agentic-access/ptc-thingworx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ptc-thingworx-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/security/ptc-thingworx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ptc-thingworx-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/authentication/ptc-thingworx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ptc-thingworx-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/scopes/ptc-thingworx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ptc-thingworx-scopes.yml
@@ -129,18 +158,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/ptc-iot-sharing
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/_original/ptc-thingworx-rest-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ptc-thingworx-rest-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/asyncapi/ptc-thingworx-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/ptc-thingworx-websocket-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/json-schema/ptc-thingworx-thing-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ptc-thingworx-thing-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/json-ld/ptc-thingworx-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/ptc-thingworx-context.jsonld
@@ -211,6 +244,41 @@ scopes:
   scope_count: 1
   slug: ptc-thingworx-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 35.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 46.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 13.6
+    contract_quality: 64.9
+    developer_ergonomics: 35.7
+    discoverability: 50.0
+    operational_transparency: 10.5
+  previous_composite: 35.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Ptc Thingworx Authentication

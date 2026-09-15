@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -289,34 +314,42 @@ collections:
   slug: open-vaultre-api-v1-3
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/capabilities/vaultre-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vaultre-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-api-v1-3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-api-v1-3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-api-v1-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-api-v1-2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-api-v1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-api-v1-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-aggregator-api-v1-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-aggregator-api-v1-0-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/agentic-access/vaultre-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vaultre-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/security/vaultre-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vaultre-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/authentication/vaultre-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vaultre-authentication.yml
@@ -397,54 +430,67 @@ common:
   type: StatusPage
   url: https://status.mrisoftware.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/lifecycle/vaultre-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vaultre-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/changelog/vaultre-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vaultre-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/conventions/vaultre-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vaultre-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/errors/vaultre-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vaultre-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/conformance/vaultre-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vaultre-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/scopes/vaultre-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vaultre-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/packages/vaultre-packages.yml
   title: ''
   type: Packages
   url: packages/vaultre-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/data-model/vaultre-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vaultre-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/asyncapi/vaultre-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vaultre-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/mcp/vaultre-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vaultre-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/mcp/vaultre-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/vaultre-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/llms/vaultre-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vaultre-llms.txt
@@ -471,6 +517,48 @@ scopes:
   scope_count: 0
   slug: vaultre-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 49.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 68.2
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 49.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:
 - kind: authentication

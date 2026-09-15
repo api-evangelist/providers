@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://nest.com'', ''status'': 301, ''note'': ''declared website redirects to https://store.google.com/us/category/connected_home?hl=en-US&GoogleNest&utm_source=nest_redirect&utm_medium=google_oo&utm_campaign=homepage — a different registrable domain (nest.com -> google.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Google Nest Device Access REST API for accessing, controlling, and managing authorized Nest devices (thermostats, cameras, doorbells, Hub Max) via enterprises/structures/rooms/devices resources and a '
@@ -26,6 +51,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/google/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/security/nest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nest-domain-security.yml
@@ -74,58 +100,72 @@ common:
   type: StatusPage
   url: https://status.cloud.google.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/authentication/nest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nest-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/scopes/nest-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nest-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/conventions/nest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nest-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/errors/nest-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nest-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/data-model/nest-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nest-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/lifecycle/nest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nest-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/lifecycle/nest-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nest-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/conformance/nest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nest-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/mcp/nest-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nest-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/packages/nest-packages.yml
   title: ''
   type: Packages
   url: packages/nest-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/packages/nest-packages.yml
   title: ''
   type: SDKs
   url: packages/nest-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/asyncapi/nest-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/nest-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/llms/nest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nest-llms.txt
@@ -150,6 +190,36 @@ scopes:
   scope_count: 1
   slug: nest-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 46.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nest/refs/heads/main/screenshots/nest-2026-08-07T184913.png
 security:
 - kind: authentication

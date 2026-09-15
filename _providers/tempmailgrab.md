@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://tempmailgrab.com/api/v1
@@ -83,86 +108,107 @@ common:
   type: StatusPage
   url: https://tempmailgrab.com/status
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/llms/tempmailgrab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tempmailgrab-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/well-known/tempmailgrab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tempmailgrab-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/well-known/tempmailgrab-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tempmailgrab-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/authentication/tempmailgrab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tempmailgrab-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/conventions/tempmailgrab-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tempmailgrab-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/errors/tempmailgrab-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tempmailgrab-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/examples/tempmailgrab-examples.yml
   title: ''
   type: Examples
   url: examples/tempmailgrab-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/data-model/tempmailgrab-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tempmailgrab-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/lifecycle/tempmailgrab-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tempmailgrab-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/changelog/tempmailgrab-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tempmailgrab-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/conformance/tempmailgrab-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tempmailgrab-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/rate-limits/tempmailgrab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tempmailgrab-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/plans/tempmailgrab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tempmailgrab-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/packages/tempmailgrab-packages.yml
   title: ''
   type: Packages
   url: packages/tempmailgrab-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/packages/tempmailgrab-packages.yml
   title: ''
   type: SDKs
   url: packages/tempmailgrab-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/sandbox/tempmailgrab-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tempmailgrab-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/asyncapi/tempmailgrab-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tempmailgrab-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/security/tempmailgrab-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tempmailgrab-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/security/tempmailgrab-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tempmailgrab-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/security/tempmailgrab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tempmailgrab-domain-security.yml
@@ -174,7 +220,7 @@ modified: '2026-09-01'
 name: TempMailGrab API
 nav: Providers
 network: true
-overview: 'TempMailGrab API publishes 1 API on the [APIs.io](https://apis.io/) network: TempMailGrab REST API. Tagged areas include email, temporary-email, disposable-email, otp, and webhooks.
+overview: 'TempMailGrab API publishes 1 API on the [APIs.io](https://apis.io/) network: TempMailGrab REST API. Tagged areas include Email, temporary-email, Disposable Email, OTP, and Webhook.
 
 
   The TempMailGrab API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,6 +236,40 @@ rate_limits:
 - limit_count: 4
   name: Tempmailgrab Rate Limits
   slug: tempmailgrab-rate-limits
+score:
+  band: strong
+  composite: 62.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 4.5
+    contract_quality: 64.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 86.8
+  previous_composite: 62.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/screenshots/tempmailgrab-2026-09-02T163054.png
 security:
 - kind: authentication
@@ -206,17 +286,17 @@ security:
   summary_line: security.txt · contact published
 slug: tempmailgrab
 tags:
-- email
+- Email
 - temporary-email
-- disposable-email
-- otp
-- webhooks
-- qa
-- testing
-- playwright
-- cypress
-- developer-tools
-- email-testing
-- ci
+- Disposable Email
+- OTP
+- Webhook
+- QA
+- Testing
+- Playwright
+- Cypress
+- Developer Tools
+- Email Testing
+- CI
 website: https://www.tempmailgrab.com/
 ---

@@ -10,6 +10,31 @@ access_model:
   - https://www.giveffect.com/faq
   trial: true
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Giveffect's "open API" is available on the enterprise Ultimate+ plan and provides programmatic access to platform data (donors, donations, volunteers, campaigns, and events). It is explicitly carved o
@@ -18,34 +43,42 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/security/giveffect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/giveffect-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/security/giveffect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/giveffect-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/llms/giveffect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/giveffect-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/plans/giveffect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/giveffect-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/changelog/giveffect-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/giveffect-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/conventions/giveffect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/giveffect-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/conformance/giveffect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/giveffect-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/lifecycle/giveffect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/giveffect-lifecycle.yml
@@ -128,6 +161,35 @@ rate_limits:
 - limit_count: 0
   name: Giveffect Rate Limits
   slug: giveffect-rate-limits
+score:
+  band: thin
+  composite: 29.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 68.5
+    operational_transparency: 15.8
+  previous_composite: 29.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/giveffect/refs/heads/main/screenshots/giveffect-2026-07-25T215843.png
 security:
 - kind: authentication

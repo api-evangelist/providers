@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Elysium Health's storefront implements the Universal Commerce Protocol (UCP) for agent-driven commerce, discoverable at https://www.elysiumhealth.com/.well-known/ucp. The merchant profile advertises t
@@ -23,6 +48,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/security/elysium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elysium-domain-security.yml
@@ -71,54 +97,67 @@ common:
   type: PrivacyPolicy
   url: https://www.elysiumhealth.com/policies/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/llms/elysium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elysium-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/llms/elysium-agents.md
   title: ''
   type: AgentsMD
   url: llms/elysium-agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/well-known/elysium-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elysium-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/mcp/elysium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elysium-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/authentication/elysium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elysium-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/scopes/elysium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elysium-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/conventions/elysium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elysium-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/conformance/elysium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elysium-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/lifecycle/elysium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elysium-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/data-model/elysium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elysium-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/errors/elysium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elysium-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/skills/elysium-browse-catalog.md
   title: ''
   type: AgentSkill
   url: skills/elysium-browse-catalog.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/skills/elysium-agentic-purchase.md
   title: ''
   type: AgentSkill
   url: skills/elysium-agentic-purchase.md
@@ -145,6 +184,47 @@ scopes:
   scope_count: 4
   slug: elysium-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 35.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 51.8
+    discoverability: 81.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 35.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/screenshots/elysium-2026-07-25T213214.png
 security:
 - kind: authentication

@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -155,10 +181,12 @@ collections:
   slug: open-chili-piper-workspace-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/agentic-access/chili-piper-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chili-piper-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/overlays/chili-piper-availability-inspector-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chili-piper-availability-inspector-overlay.yaml
@@ -219,70 +247,87 @@ common:
   type: Security
   url: https://github.com/Chili-Piper/mcp-assets/blob/main/SECURITY.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/llms/chili-piper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chili-piper-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/packages/chili-piper-packages.yml
   title: ''
   type: Packages
   url: packages/chili-piper-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/packages/chili-piper-packages.yml
   title: ''
   type: SDKs
   url: packages/chili-piper-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/components/chili-piper-components.yml
   title: ''
   type: Components
   url: components/chili-piper-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/well-known/chili-piper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chili-piper-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/authentication/chili-piper-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chili-piper-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/scopes/chili-piper-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/chili-piper-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/conventions/chili-piper-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chili-piper-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/errors/chili-piper-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chili-piper-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/lifecycle/chili-piper-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chili-piper-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/conformance/chili-piper-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chili-piper-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/security/chili-piper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chili-piper-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/security/chili-piper-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chili-piper-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/data-model/chili-piper-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chili-piper-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/asyncapi/chili-piper-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/chili-piper-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/changelog/chili-piper-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chili-piper-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -291,18 +336,22 @@ common:
   type: TrustCenter
   url: https://trust.chilipiper.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/mcp/chili-piper-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chili-piper-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/mcp/chili-piper-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/chili-piper-tool-crosswalk.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/plans/chili-piper-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chili-piper-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/rate-limits/chili-piper-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chili-piper-rate-limits.yml
@@ -339,6 +388,41 @@ scopes:
   scope_count: 0
   slug: chili-piper-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 63.1
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 65.5
+    developer_ergonomics: 61.9
+    discoverability: 81.5
+    operational_transparency: 52.6
+  previous_composite: 63.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/screenshots/chili-piper-2026-08-17T080410.png
 security:
 - kind: authentication

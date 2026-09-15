@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://tillpayments.com/'', ''status'': 308, ''note'': ''declared website redirects to https://www.nuvei.com/offers/australia-and-new-zealand — a different registrable domain (tillpayments.com -> nuvei.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -86,70 +111,87 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/nuvei/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/mcp/till-payments-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/till-payments-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/overlays/till-payments-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/till-payments-gateway-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/overlays/till-payments-direct-pci-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/till-payments-direct-pci-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/agentic-access/till-payments-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/till-payments-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/security/till-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/till-payments-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/authentication/till-payments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/till-payments-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/conventions/till-payments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/till-payments-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/conventions/till-payments-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/till-payments-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/errors/till-payments-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/till-payments-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/lifecycle/till-payments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/till-payments-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/asyncapi/till-payments-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/till-payments-callbacks-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/data-model/till-payments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/till-payments-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/conformance/till-payments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/till-payments-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/llms/till-payments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/till-payments-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/arazzo/till-payments-authorize-and-capture.yml
   title: ''
   type: Arazzo
   url: arazzo/till-payments-authorize-and-capture.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/arazzo/till-payments-tokenize-and-charge.yml
   title: ''
   type: Arazzo
   url: arazzo/till-payments-tokenize-and-charge.yml
@@ -213,6 +255,58 @@ overview: 'Till Payments publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
   Till Payments'' developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 23 more developer resources.'
 random_paper: 19
+score:
+  band: thin
+  composite: 35.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 58.7
+    developer_ergonomics: 39.9
+    discoverability: 66.7
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 35.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: GB
+      standard: dcc
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/screenshots/till-payments-2026-08-17T082354.png
 security:
 - kind: authentication

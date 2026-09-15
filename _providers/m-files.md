@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: JSON over HTTPS REST API for the M-Files information management platform. Served per M-Files Server / Cloud vault under a /REST/ base path; supports objects, files, vaults, views, value lists, and sea
@@ -69,34 +94,42 @@ common:
   type: Compliance
   url: https://www.m-files.com/about/trust-center/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/packages/m-files-packages.yml
   title: ''
   type: Packages
   url: packages/m-files-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/packages/m-files-packages.yml
   title: ''
   type: SDKs
   url: packages/m-files-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/authentication/m-files-authentication.yml
   title: ''
   type: Authentication
   url: authentication/m-files-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/conventions/m-files-conventions.yml
   title: ''
   type: Conventions
   url: conventions/m-files-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/conformance/m-files-conformance.yml
   title: ''
   type: Conformance
   url: conformance/m-files-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/lifecycle/m-files-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/m-files-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/security/m-files-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/m-files-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/security/m-files-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/m-files-vulnerability-disclosure.yml
@@ -105,14 +138,17 @@ common:
   type: Security
   url: https://www.m-files.com/about/trust-center/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/security/m-files-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/m-files-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/llms/m-files-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/m-files-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/well-known/m-files-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/m-files-well-known.yml
@@ -129,6 +165,34 @@ overview: 'M-Files publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   M-Files'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 33.4
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 66.7
+    operational_transparency: 13.2
+  previous_composite: 33.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/screenshots/m-files-2026-07-25T225802.png
 security:
 - kind: authentication

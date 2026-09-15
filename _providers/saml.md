@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,6 +81,7 @@ common:
   type: Website
   url: https://www.oasis-open.org/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/agentic-access/saml-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/saml-agentic-access.yml
@@ -80,34 +106,42 @@ common:
   type: Documentation
   url: https://docs.oasis-open.org/security/saml/v2.0/saml-profiles-2.0-os.pdf
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/json-schema/saml-entity-descriptor.json
   title: SAML 2.0 EntityDescriptor Metadata
   type: JSONSchema
   url: json-schema/saml-entity-descriptor.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/json-schema/saml-authn-request.json
   title: SAML 2.0 AuthnRequest
   type: JSONSchema
   url: json-schema/saml-authn-request.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/json-schema/saml-assertion.json
   title: SAML 2.0 Assertion
   type: JSONSchema
   url: json-schema/saml-assertion.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/json-ld/saml-context.jsonld
   title: SAML 2.0 JSON-LD Context
   type: JSONLDContext
   url: json-ld/saml-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/json-structure/saml-assertion-structure.json
   title: SAML 2.0 Assertion Structure
   type: JSONStructure
   url: json-structure/saml-assertion-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/rules/saml-rules.yml
   title: SAML API Spectral Rules
   type: SpectralRules
   url: rules/saml-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/examples/saml-sso-redirect-example.json
   title: SAML SSO HTTP Redirect Binding Example
   type: Examples
   url: examples/saml-sso-redirect-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/vocabulary/saml-vocabulary.yml
   title: SAML 2.0 Vocabulary
   type: Vocabulary
   url: vocabulary/saml-vocabulary.yml
@@ -184,6 +218,38 @@ rules:
     info: 2
     warn: 5
   slug: saml-rules
+score:
+  band: thin
+  composite: 28.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 53.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 28.8
+    contract_quality: 56.8
+    developer_ergonomics: 9.5
+    discoverability: 51.9
+    operational_transparency: 7.9
+  previous_composite: 28.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/screenshots/saml-2026-06-20T193358.png
 slug: saml
 tags:

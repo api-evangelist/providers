@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API for embedding Improvado's data extraction, transformation, and load pipeline into agency and platform products. Manages data sources, connections, accounts, extraction templa
@@ -85,6 +110,7 @@ common:
   type: ChangeLog
   url: https://developers.improvado.io/changelog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/security/improvado-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/improvado-trust-center.yml
@@ -93,22 +119,27 @@ common:
   type: Compliance
   url: https://trust.improvado.io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/llms/improvado-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/improvado-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/well-known/improvado-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/improvado-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/well-known/improvado-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/improvado-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/security/improvado-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/improvado-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/security/improvado-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/improvado-vulnerability-disclosure.yml
@@ -117,82 +148,102 @@ common:
   type: Security
   url: https://improvado.io/company-legal/responsible-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/authentication/improvado-authentication.yml
   title: ''
   type: Authentication
   url: authentication/improvado-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/conventions/improvado-conventions.yml
   title: ''
   type: Conventions
   url: conventions/improvado-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/conventions/improvado-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/improvado-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/asyncapi/improvado-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/improvado-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/lifecycle/improvado-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/improvado-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/conformance/improvado-conformance.yml
   title: ''
   type: Conformance
   url: conformance/improvado-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/errors/improvado-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/improvado-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/data-model/improvado-data-model.yml
   title: ''
   type: DataModel
   url: data-model/improvado-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/mcp/improvado-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/improvado-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-agent-ask-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/improvado-agent-ask-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/overlays/improvado-agent-ask-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/improvado-agent-ask-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/mcp/improvado-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/improvado-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/scopes/improvado-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/improvado-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/packages/improvado-packages.yml
   title: ''
   type: Packages
   url: packages/improvado-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/packages/improvado-packages.yml
   title: ''
   type: SDKs
   url: packages/improvado-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/plans/improvado-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/improvado-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/rate-limits/improvado-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/improvado-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/components/improvado-components.yml
   title: ''
   type: Components
   url: components/improvado-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/llms/improvado-site-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/improvado-site-llms.txt
@@ -233,6 +284,40 @@ scopes:
   scope_count: 3
   slug: improvado-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: strong
+  composite: 61.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 55.7
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 61.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/screenshots/improvado-2026-07-25T222205.png
 security:
 - kind: authentication

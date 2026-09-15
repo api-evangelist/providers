@@ -9,6 +9,31 @@ access_model:
   - https://hpsf.io/wp-json/tribe/events/v1/events
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://hpsf.io/wp-json/tribe/events/v1
@@ -103,6 +128,7 @@ common:
   type: Governance
   url: https://hpsf.io/tac/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/well-known/hpsf-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hpsf-well-known.yml
@@ -111,58 +137,72 @@ common:
   type: ContentSignal
   url: https://hpsf.io/robots.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/llms/hpsf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hpsf-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/authentication/hpsf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hpsf-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/conventions/hpsf-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hpsf-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/conformance/hpsf-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hpsf-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/lifecycle/hpsf-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hpsf-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/errors/hpsf-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hpsf-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/data-model/hpsf-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hpsf-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/examples/hpsf-examples.yml
   title: ''
   type: Examples
   url: examples/hpsf-examples.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/packages/hpsf-packages.yml
   title: ''
   type: Packages
   url: packages/hpsf-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/plans/hpsf-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hpsf-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/rate-limits/hpsf-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hpsf-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/security/hpsf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hpsf-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/mcp/hpsf-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hpsf-mcp.yml
@@ -191,6 +231,40 @@ rate_limits:
 - limit_count: 0
   name: Hpsf Rate Limits
   slug: hpsf-rate-limits
+score:
+  band: developing
+  composite: 41.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 29.1
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 62.0
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 5.3
+  previous_composite: 12.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: rising
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/screenshots/hpsf-2026-06-20T182854.png
 security:
 - kind: authentication
@@ -209,11 +283,11 @@ tags:
 - Scientific Computing
 - Foundation
 - Supercomputing
-- Open-Governance
-- Events
+- Open Governance
+- Event
 - Conferences
-- Research-Computing
-- Nonprofit
+- Research Computing
+- Non-Profit
 - Content
 website: https://www.hpsf.io/
 ---

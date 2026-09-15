@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Crexi Exchange API is Crexi's partner-facing REST API, documented in a Theneo-published portal at api-docs.crexi.com (password protected) and fronted by a Swagger UI gateway at exchange.crexi.com.
@@ -25,10 +50,12 @@ apis:
 artifact_total: 7
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/mcp/crexi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crexi-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/security/crexi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crexi-domain-security.yml
@@ -89,34 +116,42 @@ common:
   type: StatusPage
   url: https://status.crexi.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/lifecycle/crexi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crexi-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/authentication/crexi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crexi-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/scopes/crexi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/crexi-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/well-known/crexi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crexi-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/conformance/crexi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crexi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/conventions/crexi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crexi-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/packages/crexi-packages.yml
   title: ''
   type: Packages
   url: packages/crexi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/llms/crexi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crexi-llms.txt
@@ -150,6 +185,40 @@ scopes:
   scope_count: 2
   slug: crexi-scopes
   summary_line: 2 scopes · password/refresh_token/switch_user/single_use_token_exchange
+score:
+  band: thin
+  composite: 32.2
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 72.2
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 32.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/screenshots/crexi-2026-08-07T163841.png
 security:
 - kind: authentication

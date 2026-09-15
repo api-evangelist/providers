@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -430,6 +455,7 @@ collections:
   slug: open-salesforce-experience-cloud-versions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/capabilities/salesforce-experience-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesforce-experience-cloud-capability-edges.yml
@@ -438,18 +464,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/agentic-access/salesforce-experience-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-experience-cloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/security/salesforce-experience-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-experience-cloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/authentication/salesforce-experience-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-experience-cloud-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/scopes/salesforce-experience-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-experience-cloud-scopes.yml
@@ -458,86 +488,107 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce-experience-cloud/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-account-contact-case-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-account-contact-case-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-branding-set-revise-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-branding-set-revise-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-case-escalation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-case-escalation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-cms-content-publish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-cms-content-publish-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-cms-content-revise-republish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-cms-content-revise-republish-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-contact-case-intake-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-contact-case-intake-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-favorite-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-favorite-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-feed-element-moderation-delete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-feed-element-moderation-delete-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-feed-post-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-feed-post-comment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-feed-post-like-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-feed-post-like-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-graphql-query-rest-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-graphql-query-rest-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-headless-content-delivery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-headless-content-delivery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-member-reputation-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-member-reputation-lookup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-object-listview-explore-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-object-listview-explore-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-site-provision-publish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-site-provision-publish-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-site-theme-activate-publish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-site-theme-activate-publish-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-site-update-publish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-site-update-publish-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-sobject-record-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-sobject-record-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-soql-query-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-soql-query-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-topic-upsert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-topic-upsert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/arazzo/salesforce-experience-cloud-ui-record-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-experience-cloud-ui-record-lifecycle-workflow.yml
@@ -630,42 +681,52 @@ common:
   type: Developer Center
   url: https://developer.salesforce.com/developer-centers/experience-cloud
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-ld/salesforce-experience-cloud-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/salesforce-experience-cloud-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-schema/salesforce-experience-cloud-site-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-experience-cloud-site-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-schema/salesforce-experience-cloud-managed-content-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-experience-cloud-managed-content-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-schema/salesforce-experience-cloud-feed-element-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-experience-cloud-feed-element-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-schema/salesforce-experience-cloud-community-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-experience-cloud-community-user-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-schema/salesforce-experience-cloud-cms-channel-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-experience-cloud-cms-channel-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-schema/salesforce-experience-cloud-sobject-record-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-experience-cloud-sobject-record-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/rules/salesforce-experience-cloud-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salesforce-experience-cloud-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/json-structure/salesforce-experience-cloud-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/salesforce-experience-cloud-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/vocabulary/salesforce-experience-cloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-experience-cloud-vocabulary.yml
@@ -1051,6 +1112,38 @@ scopes:
   scope_count: 5
   slug: salesforce-experience-cloud-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 66.8
+    developer_ergonomics: 69.0
+    discoverability: 59.3
+    operational_transparency: 31.6
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 35
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:
 - kind: authentication

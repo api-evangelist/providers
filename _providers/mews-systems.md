@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 217
   human_in_the_loop: 1
@@ -1138,18 +1164,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mews/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/agentic-access/mews-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mews-systems-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/security/mews-systems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mews-systems-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/security/mews-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mews-systems-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/authentication/mews-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mews-systems-authentication.yml
@@ -1270,22 +1300,27 @@ common:
   type: CodeExamples
   url: https://github.com/MewsSystems/open-api-docs
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/rules/mews-systems-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/mews-systems-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/vocabulary/mews-systems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mews-systems-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/plans/mews-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mews-systems-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/rate-limits/mews-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mews-systems-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/finops/mews-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/mews-systems-finops.yml
@@ -1951,6 +1986,50 @@ rules:
     info: 17
     warn: 17
   slug: mews-systems-spectral-rules
+score:
+  band: strong
+  composite: 61.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 81.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 28.8
+    contract_quality: 22.5
+    developer_ergonomics: 75.0
+    discoverability: 68.5
+    operational_transparency: 73.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - cee
+    - europe
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 86
+      marker_coverage: 100.0
+      total: 86
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/screenshots/mews-systems-2026-06-20T185318.png
 security:
 - kind: authentication

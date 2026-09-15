@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -1185,54 +1211,67 @@ common:
   type: Website
   url: https://www.twilio.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/capabilities/twilio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/twilio-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/agentic-access/twilio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/twilio-agentic-access.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/sandbox/twilio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/twilio-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/conventions/twilio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/twilio-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/changelog/twilio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/twilio-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/cli/twilio-cli.yml
   title: ''
   type: CLI
   url: cli/twilio-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/components/twilio-components.yml
   title: ''
   type: Components
   url: components/twilio-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/data-model/twilio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/twilio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/errors/twilio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/twilio-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/packages/twilio-packages.yml
   title: ''
   type: Packages
   url: packages/twilio-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/security/twilio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/twilio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/security/twilio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/twilio-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/authentication/twilio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/twilio-authentication.yml
@@ -1241,114 +1280,142 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/twilio/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-conference-find-and-add-participant-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-conference-find-and-add-participant-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-conversation-reply-and-track-receipts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-conversation-reply-and-track-receipts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-create-and-confirm-queue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-create-and-confirm-queue-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-create-conversation-add-participant-send-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-create-conversation-add-participant-send-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-create-conversation-with-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-create-conversation-with-webhook-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-end-active-call-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-end-active-call-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-lookup-then-send-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-lookup-then-send-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-lookup-then-start-verification-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-lookup-then-start-verification-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-make-call-track-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-make-call-track-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-provision-messaging-service-add-number-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-provision-messaging-service-add-number-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-record-active-call-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-record-active-call-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-schedule-and-cancel-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-schedule-and-cancel-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-send-and-redact-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-send-and-redact-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-send-message-track-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-send-message-track-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-send-mms-and-list-media-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-send-mms-and-list-media-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-studio-create-flow-and-execute-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-studio-create-flow-and-execute-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-studio-trigger-execution-track-steps-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-studio-trigger-execution-track-steps-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-verify-provision-service-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-verify-provision-service-and-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-verify-start-and-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-verify-start-and-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-verify-start-poll-and-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-verify-start-poll-and-cancel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-verify-phone-number-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-verify-phone-number-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-lookup-phone-number-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-lookup-phone-number-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-send-via-messaging-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-send-via-messaging-service-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-search-and-buy-number-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-search-and-buy-number-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-create-video-room-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-create-video-room-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-taskrouter-workspace-and-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-taskrouter-workspace-and-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-sync-document-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-sync-document-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/arazzo/twilio-trigger-studio-execution-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twilio-trigger-studio-execution-workflow.yml
@@ -1489,46 +1556,57 @@ common:
   type: TwilioQuest
   url: https://www.twilio.com/en-us/quest
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-schema/twilio-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/twilio-message-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-schema/twilio-call-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/twilio-call-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-schema/twilio-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/twilio-account-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-schema/twilio-recording-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/twilio-recording-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-schema/twilio-verification-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/twilio-verification-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-schema/twilio-phone-number-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/twilio-phone-number-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-ld/twilio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/twilio-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/rules/twilio-rules.yml
   title: ''
   type: SpectralRules
   url: rules/twilio-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/vocabulary/twilio-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/twilio-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-structure/twilio-message-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/twilio-message-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/json-structure/twilio-call-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/twilio-call-structure.json
@@ -1537,22 +1615,27 @@ common:
   type: MCPServer
   url: https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/graphql/twilio-graphql.md
   title: ''
   type: GraphQL
   url: graphql/twilio-graphql.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/mcp/twilio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/twilio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/llms/twilio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/twilio-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/conformance/twilio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/twilio-conformance.yml
@@ -1561,6 +1644,7 @@ common:
   type: Compliance
   url: https://security.twilio.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/lifecycle/twilio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/twilio-lifecycle.yml
@@ -1569,38 +1653,47 @@ common:
   type: Deprecation
   url: https://www.twilio.com/docs/sync/versioning-and-support-lifecycle
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/security/twilio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/twilio-vulnerability-disclosure.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-messaging-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-voice-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-voice-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-verify-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-verify-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-lookup-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-lookup-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-video-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-video-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-flex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-flex-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-accounts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/overlays/twilio-sendgrid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twilio-sendgrid-overlay.yaml
@@ -1740,6 +1833,47 @@ rules:
     info: 0
     warn: 8
   slug: twilio-rules
+score:
+  band: exemplar
+  composite: 72.9
+  coverage:
+    artifact_dirs: 38
+    catalog_earned: 57.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 33.3
+    contract_quality: 70.9
+    developer_ergonomics: 79.8
+    discoverability: 66.7
+    operational_transparency: 71.1
+  previous_composite: 72.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 115
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:
 - kind: authentication

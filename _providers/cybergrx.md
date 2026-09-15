@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Versioned REST API for managing third-party cyber risk — search and create third parties, answer inherent-risk scoping questions, apply tags, read inherent and residual risk profiles, and bulk-export '
@@ -47,38 +72,47 @@ common:
   type: Blog
   url: https://www.processunity.com/resources/blogs/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/authentication/cybergrx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cybergrx-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/conventions/cybergrx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cybergrx-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/data-model/cybergrx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cybergrx-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/lifecycle/cybergrx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cybergrx-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/sandbox/cybergrx-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cybergrx-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/mcp/cybergrx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cybergrx-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/llms/cybergrx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cybergrx-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/security/cybergrx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cybergrx-domain-security.yml
@@ -95,6 +129,35 @@ overview: 'CyberGRX publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   CyberGRX''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, sandbox, and 9 more developer resources.'
 random_paper: 9
+score:
+  band: emerging
+  composite: 17.8
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 17.8
+  provenance:
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/screenshots/cybergrx-2026-07-25T211027.png
 security:
 - kind: authentication

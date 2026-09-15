@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -104,82 +130,102 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/agentic-access/microsoft-outlook-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-outlook-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/security/microsoft-outlook-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-outlook-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/security/microsoft-outlook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-outlook-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/authentication/microsoft-outlook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-outlook-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/scopes/microsoft-outlook-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-outlook-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/security/microsoft-outlook-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-outlook-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/packages/microsoft-outlook-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-outlook-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/well-known/microsoft-outlook-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-outlook-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/mcp/microsoft-outlook-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/microsoft-outlook-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/llms/microsoft-outlook-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-outlook-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/overlays/microsoft-outlook-microsoft-graph-mail-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-outlook-microsoft-graph-mail-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/conformance/microsoft-outlook-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-outlook-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/errors/microsoft-outlook-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-outlook-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/lifecycle/microsoft-outlook-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-outlook-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/conventions/microsoft-outlook-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-outlook-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/data-model/microsoft-outlook-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-outlook-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/changelog/microsoft-outlook-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-outlook-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/cli/microsoft-outlook-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-outlook-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/components/microsoft-outlook-components.yml
   title: ''
   type: Components
   url: components/microsoft-outlook-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/sandbox/microsoft-outlook-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-outlook-sandbox.yml
@@ -188,50 +234,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-outlook/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-archive-copy-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-archive-copy-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-build-folder-tree-and-seed-draft-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-build-folder-tree-and-seed-draft-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-compose-attach-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-compose-attach-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-draft-refine-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-draft-refine-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-file-message-into-new-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-file-message-into-new-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-find-and-forward-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-find-and-forward-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-inspect-and-remove-attachment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-inspect-and-remove-attachment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-large-attachment-upload-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-large-attachment-upload-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-reorganize-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-reorganize-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-reply-draft-with-attachment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-reply-draft-with-attachment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-review-folder-and-mark-read-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-review-folder-and-mark-read-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/arazzo/microsoft-outlook-triage-and-reply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-outlook-triage-and-reply-workflow.yml
@@ -537,6 +595,40 @@ scopes:
   scope_count: 20
   slug: microsoft-outlook-scopes
   summary_line: 20 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.3
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 18.2
+    contract_quality: 86.2
+    developer_ergonomics: 79.8
+    discoverability: 83.3
+    operational_transparency: 34.2
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:
 - kind: authentication

@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bluekai/refs/heads/main/security/bluekai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bluekai-domain-security.yml

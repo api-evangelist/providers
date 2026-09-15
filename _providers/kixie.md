@@ -12,6 +12,31 @@ access_model:
   - security
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'The primary Kixie automation surface. A single POST endpoint on the apig.kixie.com gateway that dispatches on an `eventname` discriminator in the JSON body — `call` (place an outbound call through an '
@@ -98,62 +123,77 @@ common:
   type: StatusPage
   url: https://status.kixie.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/lifecycle/kixie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kixie-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/changelog/kixie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kixie-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/authentication/kixie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kixie-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/conventions/kixie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kixie-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/rate-limits/kixie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kixie-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/plans/kixie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kixie-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/asyncapi/kixie-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kixie-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/data-model/kixie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kixie-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/packages/kixie-packages.yml
   title: ''
   type: Packages
   url: packages/kixie-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/conformance/kixie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kixie-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kixie-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kixie-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kixie-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kixie-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/llms/kixie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kixie-llms.txt
@@ -182,6 +222,41 @@ rate_limits:
 - limit_count: 1
   name: Kixie Rate Limits
   slug: kixie-rate-limits
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 59.5
+    discoverability: 74.1
+    operational_transparency: 73.7
+  previous_composite: 60.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 59.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/screenshots/kixie-2026-08-17T081010.png
 security:
 - kind: authentication

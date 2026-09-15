@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.1
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - baseURL: https://api.us1.odp.optimizely.com/v3
@@ -213,26 +238,32 @@ common:
   type: ChangeLog
   url: https://support.optimizely.com/hc/en-us/articles/23168838218253-2026-Optimizely-Data-Platform-release-notes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/llms/zaius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zaius-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/packages/zaius-packages.yml
   title: ''
   type: Packages
   url: packages/zaius-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/packages/zaius-packages.yml
   title: ''
   type: SDKs
   url: packages/zaius-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/authentication/zaius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zaius-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/conventions/zaius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zaius-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/lifecycle/zaius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zaius-lifecycle.yml
@@ -241,14 +272,17 @@ common:
   type: Deprecation
   url: https://docs.developers.optimizely.com/optimizely-data-platform/reference/introduction
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/errors/zaius-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zaius-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/data-model/zaius-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zaius-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/conformance/zaius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zaius-conformance.yml
@@ -257,18 +291,22 @@ common:
   type: Compliance
   url: https://www.optimizely.com/trust-center/compliance
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/mcp/zaius-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zaius-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/security/zaius-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zaius-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/security/zaius-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zaius-vulnerability-disclosure.yml
@@ -277,34 +315,42 @@ common:
   type: Security
   url: https://www.optimizely.com/trust-center/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/security/zaius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zaius-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/overlays/zaius-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zaius-events-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/changelog/zaius-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zaius-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/rate-limits/zaius-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zaius-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/plans/zaius-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zaius-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/cli/zaius-cli.yml
   title: ''
   type: CLI
   url: cli/zaius-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/sandbox/zaius-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zaius-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/mcp/zaius-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/zaius-tool-crosswalk.yml
@@ -329,6 +375,40 @@ rate_limits:
 - limit_count: 6
   name: Zaius Rate Limits
   slug: zaius-rate-limits
+score:
+  band: strong
+  composite: 59.5
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 56.0
+    developer_ergonomics: 66.7
+    discoverability: 81.5
+    operational_transparency: 80.3
+  previous_composite: 59.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:
 - kind: authentication

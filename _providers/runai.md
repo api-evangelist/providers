@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.run.ai
@@ -515,6 +540,7 @@ collections:
   slug: open-runai-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/capabilities/runai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/runai-capability-edges.yml
@@ -551,70 +577,87 @@ common:
   type: Login
   url: https://app.run.ai/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/openapi/_original/runai-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/runai-openapi-original.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/authentication/runai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runai-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/llms/runai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runai-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/packages/runai-packages.yml
   title: ''
   type: Packages
   url: packages/runai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/packages/runai-packages.yml
   title: ''
   type: SDKs
   url: packages/runai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/cli/runai-cli.yml
   title: ''
   type: CLI
   url: cli/runai-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/changelog/runai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/runai-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/lifecycle/runai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/runai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/lifecycle/runai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/runai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/conventions/runai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/errors/runai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/runai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/conformance/runai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/data-model/runai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/runai-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/mcp/runai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/runai-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/security/runai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runai-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/overlays/runai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/runai-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -639,6 +682,40 @@ overview: 'NVIDIA Run:ai publishes 62 APIs on the [APIs.io](https://apis.io/) ne
 
   NVIDIA Run:ai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 22 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 41.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 58.2
+    developer_ergonomics: 66.1
+    discoverability: 51.9
+    operational_transparency: 26.3
+  previous_composite: 41.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 62
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/runai/refs/heads/main/screenshots/runai-2026-08-17T081650.png
 security:
 - kind: authentication

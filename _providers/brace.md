@@ -14,6 +14,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brace/refs/heads/main/security/brace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brace-domain-security.yml
@@ -34,6 +35,7 @@ common:
   type: PressRelease
   url: https://press.stavvy.com/stavvy-acquires-brace
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brace/refs/heads/main/lifecycle/brace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brace-lifecycle.yml

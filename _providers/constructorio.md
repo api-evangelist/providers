@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 34
 apis:
 - description: Remote, anonymously reachable Model Context Protocol server published by Constructor that exposes documentation search/fetch and OpenAPI endpoint discovery tools to AI coding tools such as Claude, Cur
@@ -261,74 +286,92 @@ collections:
   slug: open-constructorio-user-profile
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/capabilities/constructorio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/constructorio-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-autocomplete-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-autocomplete-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-browse-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-browse-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-recommendations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-recommendations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-image-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-image-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-ai-shopping-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-ai-shopping-agent-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-catalog-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-catalog-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-catalog-batching-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-catalog-batching-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-configuration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-searchandising-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-searchandising-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-quizzes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-quizzes-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-offsite-discovery-recommendations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-offsite-discovery-recommendations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-retail-media-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-retail-media-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-retail-media-display-ads-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-retail-media-display-ads-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-product-details-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-product-details-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-behavioral-actions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-behavioral-actions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/overlays/constructorio-user-profile-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/constructorio-user-profile-overlay.yaml
@@ -393,38 +436,47 @@ common:
   type: ChangeLog
   url: https://releases.constructor.io/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/packages/constructorio-packages.yml
   title: ''
   type: SDKs
   url: packages/constructorio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/packages/constructorio-packages.yml
   title: ''
   type: Packages
   url: packages/constructorio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/cli/constructorio-cli.yml
   title: ''
   type: CLI
   url: cli/constructorio-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/components/constructorio-components.yml
   title: ''
   type: Components
   url: components/constructorio-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/authentication/constructorio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/constructorio-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/scopes/constructorio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/constructorio-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/conventions/constructorio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/constructorio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/errors/constructorio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/constructorio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/lifecycle/constructorio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/constructorio-lifecycle.yml
@@ -433,34 +485,42 @@ common:
   type: Deprecation
   url: https://docs.constructor.com/reference/configuration-facets-and-searchabilities-v2-migration-guide
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/conformance/constructorio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/constructorio-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/security/constructorio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/constructorio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/security/constructorio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/constructorio-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/well-known/constructorio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/constructorio-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/llms/constructorio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/constructorio-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/data-model/constructorio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/constructorio-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/changelog/constructorio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/constructorio-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -486,6 +546,40 @@ scopes:
   scope_count: 37
   slug: constructorio-scopes
   summary_line: 37 scopes
+score:
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 61.4
+    developer_ergonomics: 57.7
+    discoverability: 75.9
+    operational_transparency: 22.4
+  previous_composite: 52.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:
 - kind: authentication

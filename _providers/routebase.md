@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -21,6 +47,7 @@ asyncapis:
   slug: routebase-webhooks-catalog
 common:
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/mcp/routebase-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/routebase-tool-crosswalk.yml
@@ -57,94 +84,117 @@ common:
   type: PrivacyPolicy
   url: https://routebase.dev/privacy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/packages/routebase-packages.yml
   title: ''
   type: Packages
   url: packages/routebase-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/packages/routebase-packages.yml
   title: ''
   type: SDKs
   url: packages/routebase-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/cli/routebase-cli.yml
   title: ''
   type: CLI
   url: cli/routebase-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/scopes/routebase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/routebase-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/conventions/routebase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/routebase-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/errors/routebase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/routebase-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/conformance/routebase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/routebase-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/rate-limits/routebase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/routebase-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/lifecycle/routebase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/routebase-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/changelog/routebase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/routebase-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/data-model/routebase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/routebase-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/sandbox/routebase-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/routebase-sandbox.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/asyncapi/routebase-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/routebase-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/asyncapi/routebase-webhooks-catalog.yml
   title: ''
   type: Webhooks
   url: asyncapi/routebase-webhooks-catalog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/overlays/routebase-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/routebase-public-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/well-known/routebase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/routebase-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/well-known/routebase-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/routebase-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/agentic-access/routebase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/routebase-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/security/routebase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/routebase-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/well-known/routebase-security.txt
   title: ''
   type: Security
   url: well-known/routebase-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/security/routebase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/routebase-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/authentication/routebase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/routebase-authentication.yml
@@ -164,7 +214,7 @@ modified: '2026-09-13'
 name: Routebase
 nav: Providers
 network: true
-overview: 'Routebase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API lifecycle management, API design, OpenAPI, API documentation, and API testing.
+overview: 'Routebase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API lifecycle management, API Design, OpenAPI, API Documentation, and API Testing.
 
 
   The Routebase catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -185,6 +235,41 @@ scopes:
   scope_count: 0
   slug: routebase-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 60.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 security:
 - kind: authentication
   name: Routebase Authentication
@@ -201,16 +286,16 @@ security:
 slug: routebase
 tags:
 - API lifecycle management
-- API design
+- API Design
 - OpenAPI
-- API documentation
-- API testing
-- API mocking
-- API monitoring
-- API security
+- API Documentation
+- API Testing
+- API Mocking
+- API Monitoring
+- API Security
 - MCP
-- AI agents
-- developer tools
+- AI Agents
+- Developer Tools
 - CI/CD
 - REST
 - OAuth 2.1

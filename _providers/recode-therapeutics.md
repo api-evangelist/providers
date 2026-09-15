@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - baseURL: https://recodetx.com/wp-json
@@ -75,10 +100,12 @@ collections:
   slug: open-recode-therapeutics-taxonomy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/overlays/recode-therapeutics-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/recode-therapeutics-content-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/security/recode-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recode-therapeutics-domain-security.yml
@@ -167,42 +194,52 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/recode-therapeutics_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/llms/recode-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/recode-therapeutics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/well-known/recode-therapeutics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/recode-therapeutics-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/authentication/recode-therapeutics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recode-therapeutics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/conventions/recode-therapeutics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/recode-therapeutics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/conformance/recode-therapeutics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/recode-therapeutics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/errors/recode-therapeutics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/recode-therapeutics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/lifecycle/recode-therapeutics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/recode-therapeutics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/data-model/recode-therapeutics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/recode-therapeutics-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/json-ld/recode-therapeutics-json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/recode-therapeutics-json-ld.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -228,6 +265,51 @@ overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 
   ReCode Therapeutics'' developer surface includes product news, authentication, and 31 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 45.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 15.8
+    developer_ergonomics: 13.7
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 28.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/screenshots/recode-therapeutics-2026-09-02T153045.png
 security:
 - kind: authentication

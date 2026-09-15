@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -151,70 +176,87 @@ common:
   type: Website
   url: https://www.fal.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/capabilities/fal-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fal-ai-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/overlays/fal-ai-model-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fal-ai-model-apis-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/agentic-access/fal-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fal-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/security/fal-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fal-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/authentication/fal-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fal-ai-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/packages/fal-ai-packages.yml
   title: ''
   type: Packages
   url: packages/fal-ai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/well-known/fal-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fal-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/mcp/fal-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fal-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/llms/fal-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fal-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/llms/fal-ai-llms-full.txt
   title: ''
   type: LLMsTxt
   url: llms/fal-ai-llms-full.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/conformance/fal-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fal-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/errors/fal-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fal-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/lifecycle/fal-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fal-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/conventions/fal-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fal-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/data-model/fal-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fal-ai-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/changelog/fal-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fal-ai-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/cli/fal-ai-cli.yml
   title: ''
   type: CLI
   url: cli/fal-ai-cli.yml
@@ -223,38 +265,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/fal/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-image-to-image-result-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-image-to-image-result-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-queue-inference-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-queue-inference-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-serverless-app-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-serverless-app-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-serverless-app-files-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-serverless-app-files-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-set-and-verify-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-set-and-verify-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-stream-inference-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-stream-inference-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-submit-and-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-submit-and-cancel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-upload-then-inference-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-upload-then-inference-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/arazzo/fal-ai-webhook-submission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/fal-ai-webhook-submission-workflow.yml
@@ -339,6 +390,7 @@ common:
   type: TrustCenter
   url: https://trust.fal.ai
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/security/fal-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fal-ai-trust-center.yml
@@ -411,14 +463,17 @@ common:
   type: Documentation
   url: https://fal.ai/docs/comfyui
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/plans/fal-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fal-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/rate-limits/fal-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fal-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/finops/fal-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/fal-ai-finops.yml
@@ -539,6 +594,40 @@ rules:
     info: 2
     warn: 5
   slug: fal-ai-rules
+score:
+  band: exemplar
+  composite: 67.6
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 82.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 18.2
+    contract_quality: 76.6
+    developer_ergonomics: 75.0
+    discoverability: 81.5
+    operational_transparency: 57.9
+  previous_composite: 67.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:
 - kind: authentication

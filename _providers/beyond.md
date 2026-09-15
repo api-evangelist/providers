@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -90,6 +115,7 @@ collections:
   slug: open-beyond-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/capabilities/beyond-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/beyond-capability-edges.yml
@@ -134,78 +160,97 @@ common:
   type: PrivacyPolicy
   url: https://beyondpricing.com/legal/privacy
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/_original/beyond-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/beyond-openapi-original.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/overlays/beyond-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beyond-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/authentication/beyond-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beyond-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/scopes/beyond-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beyond-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/conventions/beyond-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beyond-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/conventions/beyond-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/beyond-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/errors/beyond-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beyond-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/lifecycle/beyond-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beyond-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/lifecycle/beyond-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/beyond-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/changelog/beyond-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beyond-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/conformance/beyond-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beyond-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/data-model/beyond-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beyond-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/asyncapi/beyond-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/beyond-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/mcp/beyond-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/beyond-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/llms/beyond-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beyond-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/well-known/beyond-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beyond-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/agentic-access/beyond-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beyond-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/security/beyond-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beyond-domain-security.yml
@@ -238,6 +283,41 @@ scopes:
   scope_count: 9
   slug: beyond-scopes
   summary_line: 9 scopes · clientCredentials
+score:
+  band: developing
+  composite: 45.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 56.9
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 45.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/screenshots/beyond-2026-07-25T202828.png
 security:
 - kind: authentication

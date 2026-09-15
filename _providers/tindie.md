@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.tindie.com/api/v1
@@ -46,6 +71,7 @@ collections:
   slug: open-tindie-product-schema
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/security/tindie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tindie-domain-security.yml
@@ -74,46 +100,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/tindie
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/authentication/tindie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tindie-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/conventions/tindie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tindie-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/errors/tindie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tindie-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/data-model/tindie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tindie-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/lifecycle/tindie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tindie-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/well-known/tindie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tindie-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/mcp/tindie-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tindie-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/llms/tindie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tindie-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/conformance/tindie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tindie-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/overlays/tindie-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tindie-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tindie/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -130,6 +167,41 @@ overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: o
 
   Tindie''s developer surface includes API reference, support, engineering blog, authentication, and 14 more developer resources.'
 random_paper: 7
+score:
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 53.1
+    developer_ergonomics: 24.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 28.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Tindie Authentication

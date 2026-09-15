@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 27.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -618,22 +643,27 @@ collections:
   slug: open-temenos-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/capabilities/temenos-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/temenos-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/agentic-access/temenos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/temenos-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/security/temenos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/temenos-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/authentication/temenos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/temenos-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/scopes/temenos-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/temenos-scopes.yml
@@ -642,58 +672,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/temenos/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-bnpl-offer-accept-loan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-bnpl-offer-accept-loan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-bulk-payment-approval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-bulk-payment-approval-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-cloud-banking-account-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-cloud-banking-account-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-fund-subscription-instruction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-fund-subscription-instruction-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-infinity-initiate-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-infinity-initiate-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-infinity-open-banking-consent-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-infinity-open-banking-consent-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-initiate-payment-poll-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-initiate-payment-poll-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-journey-complete-submission-delivery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-journey-complete-submission-delivery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-microservices-orchestration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-microservices-orchestration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-onboard-customer-open-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-onboard-customer-open-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-originate-loan-arrangement-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-originate-loan-arrangement-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-screen-and-risk-score-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-screen-and-risk-score-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-simulate-and-retrieve-quotation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-simulate-and-retrieve-quotation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/arazzo/temenos-wealth-open-portfolio-place-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temenos-wealth-open-portfolio-place-order-workflow.yml
@@ -814,42 +858,52 @@ common:
   type: TermsOfService
   url: https://developer.temenos.com/temenos-developer-community-terms-use
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-ld/temenos-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/temenos-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-schema/temenos-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/temenos-account-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-schema/temenos-customer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/temenos-customer-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-schema/temenos-payment-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/temenos-payment-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-schema/temenos-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/temenos-event-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-structure/temenos-account-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/temenos-account-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-structure/temenos-payment-order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/temenos-payment-order-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/json-structure/temenos-customer-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/temenos-customer-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/rules/temenos-rules.yml
   title: ''
   type: SpectralRules
   url: rules/temenos-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/vocabulary/temenos-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/temenos-vocabulary.yml
@@ -963,6 +1017,44 @@ scopes:
   scope_count: 3
   slug: temenos-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: strong
+  composite: 55.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 68.3
+    developer_ergonomics: 60.7
+    discoverability: 68.5
+    operational_transparency: 31.6
+  previous_composite: 55.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 58
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 58.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/screenshots/temenos-2026-06-20T195053.png
 security:
 - kind: authentication

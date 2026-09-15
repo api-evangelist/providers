@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The VNPAY-QR payment gateway (vpcpay) processes card, QR, ATM/bank-account and international-card payments via a browser redirect plus server-to-server IPN callback. Requests carry vnp_ parameters sig
@@ -17,6 +42,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/security/vnlife-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vnlife-domain-security.yml
@@ -49,34 +75,42 @@ common:
   type: GettingStarted
   url: https://sandbox.vnpayment.vn/apis/docs/huong-dan-tich-hop/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/sandbox/vnlife-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vnlife-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/authentication/vnlife-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vnlife-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/conventions/vnlife-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vnlife-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/conventions/vnlife-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vnlife-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/errors/vnlife-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vnlife-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/errors/vnlife-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/vnlife-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/lifecycle/vnlife-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vnlife-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/conformance/vnlife-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vnlife-conformance.yml
@@ -85,14 +119,17 @@ common:
   type: Compliance
   url: https://sandbox.vnpayment.vn/apis/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/changelog/vnlife-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vnlife-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/mcp/vnlife-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vnlife-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/llms/vnlife-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vnlife-llms.txt
@@ -109,6 +146,46 @@ overview: 'VNLIFE publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   VNLIFE''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, sandbox, authentication, and 13 more developer resources.'
 random_paper: 14
+score:
+  band: emerging
+  composite: 22.3
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 22.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 34.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vnlife/refs/heads/main/screenshots/vnlife-2026-09-02T170159.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -109,90 +134,112 @@ common:
   type: Security
   url: https://www.coxautoinc.com/responsible-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/well-known/cox-automotive-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cox-automotive-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/well-known/cox-automotive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cox-automotive-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/security/cox-automotive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cox-automotive-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/security/cox-automotive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cox-automotive-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/authentication/cox-automotive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cox-automotive-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/scopes/cox-automotive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cox-automotive-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/conventions/cox-automotive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cox-automotive-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/conformance/cox-automotive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cox-automotive-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/errors/cox-automotive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cox-automotive-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/lifecycle/cox-automotive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cox-automotive-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/data-model/cox-automotive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cox-automotive-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/rate-limits/cox-automotive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cox-automotive-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/plans/cox-automotive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cox-automotive-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/packages/cox-automotive-packages.yml
   title: ''
   type: Packages
   url: packages/cox-automotive-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/llms/cox-automotive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cox-automotive-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/asyncapi/cox-automotive-manheim-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cox-automotive-manheim-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/mcp/cox-automotive-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cox-automotive-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/agentic-access/cox-automotive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cox-automotive-agentic-access.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/sandbox/cox-automotive-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cox-automotive-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/errors/cox-automotive-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/cox-automotive-error-codes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/overlays/cox-automotive-kbb-idws-vehicle-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cox-automotive-kbb-idws-vehicle-overlay.yaml
@@ -226,6 +273,38 @@ scopes:
   scope_count: 0
   slug: cox-automotive-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 49.5
+    developer_ergonomics: 39.9
+    discoverability: 74.1
+    operational_transparency: 57.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Cox Automotive Authentication
@@ -250,7 +329,7 @@ tags:
 - VIN Decoding
 - Inventory Management
 - Remarketing
-- Events
-- Webhooks
+- Event
+- Webhook
 website: https://www.coxautoinc.com/
 ---

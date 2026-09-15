@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 6
@@ -205,18 +230,22 @@ collections:
   slug: open-ninjaone-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/overlays/ninjaone-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ninjaone-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/security/ninjaone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ninjaone-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/security/ninjaone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ninjaone-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/security/ninjaone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ninjaone-domain-security.yml
@@ -241,10 +270,12 @@ common:
   type: GettingStarted
   url: https://www.ninjaone.com/docs/application-programming-interface-api/public-api-operations/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/authentication/ninjaone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ninjaone-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/scopes/ninjaone-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ninjaone-scopes.yml
@@ -273,6 +304,7 @@ common:
   type: StatusPage
   url: https://status.ninjaone.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/lifecycle/ninjaone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ninjaone-lifecycle.yml
@@ -285,14 +317,17 @@ common:
   type: Security
   url: https://www.ninjaone.com/.well-known/security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/mcp/ninjaone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ninjaone-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/packages/ninjaone-packages.yml
   title: ''
   type: Packages
   url: packages/ninjaone-packages.yml
@@ -301,14 +336,17 @@ common:
   type: Postman
   url: https://www.postman.com/ninjaone/ninjaone-api-workspace/collection/8gh1ujj/ninjaone-public-api-2-0
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/llms/ninjaone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ninjaone-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/well-known/ninjaone-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ninjaone-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/well-known/ninjaone-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ninjaone-security.txt
@@ -333,6 +371,41 @@ scopes:
   scope_count: 4
   slug: ninjaone-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 48.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 59.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 48.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
 security:
 - kind: authentication

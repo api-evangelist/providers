@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -735,74 +761,92 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/twilio/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/capabilities/sendgrid-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sendgrid-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/overlays/sendgrid-tsg_account_provisioning_v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendgrid-tsg_account_provisioning_v3-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/packages/sendgrid-packages.yml
   title: ''
   type: Packages
   url: packages/sendgrid-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/mcp/sendgrid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sendgrid-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/llms/sendgrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendgrid-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/conformance/sendgrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendgrid-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/errors/sendgrid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendgrid-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/lifecycle/sendgrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendgrid-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/conventions/sendgrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendgrid-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/changelog/sendgrid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sendgrid-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/data-model/sendgrid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendgrid-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/sandbox/sendgrid-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sendgrid-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/security/sendgrid-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sendgrid-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/security/sendgrid-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sendgrid-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/agentic-access/sendgrid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sendgrid-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/security/sendgrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendgrid-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/authentication/sendgrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendgrid-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/graphql/sendgrid-graphql.md
   title: ''
   type: GraphQL
   url: graphql/sendgrid-graphql.md
@@ -811,78 +855,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sendgrid/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-campaign-test-then-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-campaign-test-then-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-create-list-add-contacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-create-list-add-contacts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-create-schedule-campaign-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-create-schedule-campaign-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-create-schedule-singlesend-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-create-schedule-singlesend-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-create-segment-from-list-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-create-segment-from-list-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-create-sender-resend-verification-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-create-sender-resend-verification-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-create-verified-sender-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-create-verified-sender-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-design-to-singlesend-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-design-to-singlesend-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-duplicate-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-duplicate-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-dynamic-template-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-dynamic-template-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-global-suppress-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-global-suppress-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-list-add-contacts-count-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-list-add-contacts-count-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-refresh-segment-get-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-refresh-segment-get-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-search-contacts-suppress-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-search-contacts-suppress-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-send-transactional-mail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-send-transactional-mail-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-singlesend-stats-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-singlesend-stats-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-suppression-group-add-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-suppression-group-add-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-template-version-activate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-template-version-activate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/arazzo/sendgrid-upsert-contacts-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendgrid-upsert-contacts-confirm-workflow.yml
@@ -1007,90 +1070,112 @@ common:
   type: X (Twitter)
   url: https://x.com/sendgrid
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-email-send.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-email-send.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-webhooks.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-webhooks.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-suppressions.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-suppressions.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-account-setup.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-account-setup.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-email-settings.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-email-settings.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-engagement-quality.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-engagement-quality.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-inbound-parse.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-inbound-parse.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/skills/sendgrid-deliverability-advisor.md
   title: ''
   type: AgentSkill
   url: skills/sendgrid-deliverability-advisor.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/mcp/sendgrid-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sendgrid-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/asyncapi/sendgrid-event-webhook-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sendgrid-event-webhook-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/asyncapi/sendgrid-inbound-parse-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sendgrid-inbound-parse-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/asyncapi/sendgrid-event-webhook-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/sendgrid-event-webhook-asyncapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/scopes/sendgrid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sendgrid-scopes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/plans/sendgrid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendgrid-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/rate-limits/sendgrid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendgrid-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/packages/sendgrid-packages.yml
   title: ''
   type: SDKs
   url: packages/sendgrid-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/lifecycle/sendgrid-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sendgrid-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/security/sendgrid-trust-center.yml
   title: ''
   type: Compliance
   url: security/sendgrid-trust-center.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/finops/sendgrid-finops.yml
   title: ''
   type: FinOps
   url: finops/sendgrid-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/rules/sendgrid-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/sendgrid-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/rules/sendgrid-asyncapi-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/sendgrid-asyncapi-spectral-rules.yml
@@ -1099,6 +1184,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/sendgrid
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/llms/sendgrid-twilio-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendgrid-twilio-docs-llms.txt
@@ -1179,6 +1265,41 @@ scopes:
   scope_count: 0
   slug: sendgrid-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 80.0
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 55.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 59.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 29.5
+    contract_quality: 70.8
+    developer_ergonomics: 89.3
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 80.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:
 - kind: authentication

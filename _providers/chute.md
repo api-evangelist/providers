@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 0
 common:
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chute/refs/heads/main/packages/chute-packages.yml
   title: ''
   type: Packages
   url: packages/chute-packages.yml

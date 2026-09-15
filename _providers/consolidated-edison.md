@@ -10,6 +10,31 @@ access_model:
   - docs
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -34,10 +59,12 @@ asyncapis:
   slug: consolidated-edison-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/agentic-access/consolidated-edison-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/consolidated-edison-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/security/consolidated-edison-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/consolidated-edison-domain-security.yml
@@ -110,66 +137,82 @@ common:
   type: FAQ
   url: https://edge-e-dcxprod-web-bechbkdqagefb9ge.a03.azurefd.net/-/media/files/coned/documents/accountandbilling/share-my-data/faq.pdf
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/authentication/consolidated-edison-authentication.yml
   title: ''
   type: Authentication
   url: authentication/consolidated-edison-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/scopes/consolidated-edison-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/consolidated-edison-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/conformance/consolidated-edison-conformance.yml
   title: ''
   type: Conformance
   url: conformance/consolidated-edison-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/conventions/consolidated-edison-conventions.yml
   title: ''
   type: Conventions
   url: conventions/consolidated-edison-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/errors/consolidated-edison-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/consolidated-edison-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/lifecycle/consolidated-edison-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/consolidated-edison-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/sandbox/consolidated-edison-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/consolidated-edison-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/data-model/consolidated-edison-data-model.yml
   title: ''
   type: DataModel
   url: data-model/consolidated-edison-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/packages/consolidated-edison-packages.yml
   title: ''
   type: Packages
   url: packages/consolidated-edison-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/asyncapi/consolidated-edison-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/consolidated-edison-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/llms/consolidated-edison-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/consolidated-edison-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/overlays/consolidated-edison-green-button-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/consolidated-edison-green-button-connect-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/rate-limits/consolidated-edison-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/consolidated-edison-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/plans/consolidated-edison-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/consolidated-edison-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/finops/consolidated-edison-finops.yml
   title: ''
   type: FinOps
   url: finops/consolidated-edison-finops.yml
@@ -222,6 +265,47 @@ scopes:
   scope_count: 17
   slug: consolidated-edison-scopes
   summary_line: 17 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 55.1
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 51.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 47.7
+    developer_ergonomics: 58.9
+    discoverability: 59.3
+    operational_transparency: 31.6
+  previous_composite: 55.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 67.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/screenshots/consolidated-edison-2026-07-25T210311.png
 security:
 - kind: authentication
@@ -244,7 +328,7 @@ tags:
 - NAESB
 - Natural Gas
 - New York
-- OAuth2
+- Authentication
 - Steam
 - Utility
 website: https://www.coned.com

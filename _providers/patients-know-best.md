@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: HL7 FHIR STU3 (3.0.2) "Facade" server exposing Patients Know Best personal health record data — Patient, Appointment, Communication, Consent, DiagnosticReport, DocumentReference, Encounter, Observatio
@@ -17,6 +42,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/security/patients-know-best-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/patients-know-best-domain-security.yml
@@ -73,14 +99,17 @@ common:
   type: Partners
   url: https://patientsknowbest.com/partners/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/authentication/patients-know-best-authentication.yml
   title: ''
   type: Authentication
   url: authentication/patients-know-best-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/conventions/patients-know-best-conventions.yml
   title: ''
   type: Conventions
   url: conventions/patients-know-best-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/conformance/patients-know-best-conformance.yml
   title: ''
   type: Conformance
   url: conformance/patients-know-best-conformance.yml
@@ -89,34 +118,42 @@ common:
   type: Compliance
   url: https://patientsknowbest.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/errors/patients-know-best-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/patients-know-best-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/lifecycle/patients-know-best-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/patients-know-best-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/data-model/patients-know-best-data-model.yml
   title: ''
   type: DataModel
   url: data-model/patients-know-best-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/mcp/patients-know-best-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/patients-know-best-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/llms/patients-know-best-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/patients-know-best-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/well-known/patients-know-best-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/patients-know-best-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/well-known/patients-know-best-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/patients-know-best-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/security/patients-know-best-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/patients-know-best-vulnerability-disclosure.yml
@@ -125,10 +162,12 @@ common:
   type: Security
   url: https://my.patientsknowbest.com/.well-known/security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/sandbox/patients-know-best-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/patients-know-best-sandbox.yml
@@ -145,6 +184,46 @@ overview: 'Patients Know Best publishes 1 API on the [APIs.io](https://apis.io/)
 
   Patients Know Best''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 22 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 43.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 34.4
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 43.9
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 40.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/screenshots/patients-know-best-2026-08-07T191555.png
 security:
 - kind: authentication

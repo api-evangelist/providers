@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,22 +85,27 @@ collections:
   slug: open-amazon-organizations
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/agentic-access/amazon-organizations-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-organizations-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/security/amazon-organizations-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-organizations-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/security/amazon-organizations-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-organizations-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/security/amazon-organizations-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-organizations-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/authentication/amazon-organizations-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-organizations-authentication.yml
@@ -84,26 +114,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-organizations/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-bootstrap-organization-by-feature-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-bootstrap-organization-by-feature-set-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-capture-management-account-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-capture-management-account-identity-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-create-organization-all-features-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-create-organization-all-features-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-create-organization-consolidated-billing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-create-organization-consolidated-billing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-record-organization-arns-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-record-organization-arns-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-verify-organization-feature-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-verify-organization-feature-set-workflow.yml
@@ -180,38 +216,47 @@ common:
   type: Code Examples
   url: https://docs.aws.amazon.com/code-library/latest/ug/organizations_code_examples.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/rules/amazon-organizations-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-organizations-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/vocabulary/amazon-organizations-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-organizations-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-ld/amazon-organizations-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-organizations-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-ld/amazon-organizations-openapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-organizations-openapi-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/amazon-organizations-schema.json
   title: Amazon Organizations
   type: JSONSchema
   url: json-schema/amazon-organizations-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-account-schema.json
   title: Openapi Account
   type: JSONSchema
   url: json-schema/openapi-account-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-organization-schema.json
   title: Openapi Organization
   type: JSONSchema
   url: json-schema/openapi-organization-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-organizational-unit-schema.json
   title: Openapi Organizational Unit
   type: JSONSchema
   url: json-schema/openapi-organizational-unit-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-policy-schema.json
   title: Openapi Policy
   type: JSONSchema
   url: json-schema/openapi-policy-schema.json
@@ -322,6 +367,38 @@ rules:
     info: 1
     warn: 14
   slug: amazon-organizations-spectral-rules
+score:
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 28.8
+    contract_quality: 66.7
+    developer_ergonomics: 63.1
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 53.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/screenshots/amazon-organizations-2026-06-20T171753.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: cloud9.gg runs on WordPress (WP Cloud / Automattic Atomic hosting) and serves the standard WordPress REST API anonymously at https://cloud9.gg/wp-json/. The discovery index enumerates 277 routes acros
@@ -25,6 +50,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/security/cloud9-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloud9-domain-security.yml
@@ -77,54 +103,67 @@ common:
   type: Shop
   url: https://store.cloud9.gg/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/well-known/cloud9-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloud9-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/authentication/cloud9-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloud9-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/scopes/cloud9-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cloud9-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/mcp/cloud9-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cloud9-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/mcp/cloud9-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cloud9-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/json-schema/cloud9-wp-rest-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/cloud9-wp-rest-schemas.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/data-model/cloud9-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloud9-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/conventions/cloud9-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloud9-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/conformance/cloud9-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloud9-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/errors/cloud9-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloud9-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/lifecycle/cloud9-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloud9-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/llms/cloud9-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloud9-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -162,6 +201,41 @@ scopes:
   scope_count: 1
   slug: cloud9-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: emerging
+  composite: 22.9
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 46.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 8.0
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 22.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/screenshots/cloud9-2026-09-02T145113.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -107,26 +132,32 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/capabilities/microsoft-planner-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-planner-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/agentic-access/microsoft-planner-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-planner-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/security/microsoft-planner-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-planner-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/security/microsoft-planner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-planner-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/authentication/microsoft-planner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-planner-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/scopes/microsoft-planner-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-planner-scopes.yml
@@ -135,34 +166,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-planner/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-add-bucket-task-to-plan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-add-bucket-task-to-plan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-complete-my-first-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-complete-my-first-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-complete-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-complete-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-create-plan-bucket-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-create-plan-bucket-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-create-task-with-details-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-create-task-with-details-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-list-group-plan-tasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-list-group-plan-tasks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-move-task-to-bucket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-move-task-to-bucket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/arazzo/microsoft-planner-rename-plan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-planner-rename-plan-workflow.yml
@@ -235,22 +274,27 @@ common:
   type: RateLimits
   url: https://learn.microsoft.com/en-us/graph/throttling
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/_original/microsoft-planner-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/microsoft-planner-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/json-schema/microsoft-planner-task-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-planner-task-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/json-ld/microsoft-planner-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-planner-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/rules/microsoft-planner-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-planner-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/vocabulary/microsoft-planner-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-planner-vocabulary.yaml
@@ -745,6 +789,38 @@ scopes:
   scope_count: 6
   slug: microsoft-planner-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 48.7
+    contract_governance: 28.8
+    contract_quality: 75.3
+    developer_ergonomics: 82.1
+    discoverability: 66.7
+    operational_transparency: 26.3
+  previous_composite: 57.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/screenshots/microsoft-planner-2026-06-20T185518.png
 security:
 - kind: authentication

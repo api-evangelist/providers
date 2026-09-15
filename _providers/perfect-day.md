@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 api_count: 18
 apis:
 - baseURL: https://perfectday.com/wp-json
@@ -147,6 +172,7 @@ collections:
   slug: open-perfect-day-types-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/overlays/perfect-day-media-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/perfect-day-media-overlay.yaml
@@ -223,50 +249,62 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/perfect-day_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/authentication/perfect-day-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perfect-day-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/conventions/perfect-day-conventions.yml
   title: ''
   type: Conventions
   url: conventions/perfect-day-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/errors/perfect-day-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/perfect-day-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/data-model/perfect-day-data-model.yml
   title: ''
   type: DataModel
   url: data-model/perfect-day-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/lifecycle/perfect-day-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perfect-day-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/conformance/perfect-day-conformance.yml
   title: ''
   type: Conformance
   url: conformance/perfect-day-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/well-known/perfect-day-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/perfect-day-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/mcp/perfect-day-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/perfect-day-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/mcp/perfect-day-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/perfect-day-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/llms/perfect-day-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perfect-day-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/security/perfect-day-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perfect-day-domain-security.yml
@@ -287,6 +325,40 @@ overview: 'Perfect Day publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
   Perfect Day''s developer surface includes documentation, API reference, engineering blog, support, FAQ, authentication, and 25 more developer resources.'
 random_paper: 16
+score:
+  band: emerging
+  composite: 24.1
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 17.6
+    developer_ergonomics: 37.5
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 24.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 16
+      marker_coverage: 100.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/screenshots/perfect-day-2026-09-02T151042.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'An OAuth-protected Model Context Protocol endpoint served from 8B''s own WordPress installation at www.8b.africa. Discovery is standards-conformant: an RFC 8414 authorization-server metadata document a'
@@ -7,6 +32,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/security/8b-education-investments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/8b-education-investments-domain-security.yml
@@ -55,38 +81,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/8b-education-investment-fund
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/mcp/8b-education-investments-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/8b-education-investments-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/llms/8b-education-investments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/8b-education-investments-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/well-known/8b-education-investments-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/8b-education-investments-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/authentication/8b-education-investments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/8b-education-investments-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/scopes/8b-education-investments-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/8b-education-investments-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/conformance/8b-education-investments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/8b-education-investments-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/conventions/8b-education-investments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/8b-education-investments-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/rate-limits/8b-education-investments-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/8b-education-investments-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/8b-education-investments/refs/heads/main/plans/8b-education-investments-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/8b-education-investments-plans-pricing.yml
@@ -102,7 +137,7 @@ modified: '2026-09-05'
 name: 8B Education Investments
 nav: Providers
 network: true
-overview: '8B Education Investments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Student Loans, Financial Services, and Lending.
+overview: '8B Education Investments publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Student Loans, Financial-Services, and Lending.
 
 
   8B Education Investments'' developer surface includes engineering blog, support, FAQ, authentication, and 17 more developer resources.'
@@ -120,6 +155,46 @@ scopes:
   scope_count: 0
   slug: 8b-education-investments-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 24.7
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 24.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: 8B Education Investments Authentication
@@ -134,9 +209,9 @@ tags:
 - Company
 - Education
 - Student Loans
-- Financial Services
+- Financial-Services
 - Lending
-- FinTech
+- Fintech
 - Africa
 - Higher Education
 - Study Abroad

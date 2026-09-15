@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: OpenTelemetry Protocol (OTLP) ingest endpoint for sending traces, metrics and logs into the Kosmos operational intelligence platform. Accepts OTLP over HTTP (primary) and gRPC (alternative), authentic
@@ -71,50 +96,62 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/kosmosailabs/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/llms/kosmoslabs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kosmoslabs-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/authentication/kosmoslabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kosmoslabs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/conventions/kosmoslabs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kosmoslabs-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/rate-limits/kosmoslabs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kosmoslabs-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/conformance/kosmoslabs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kosmoslabs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/errors/kosmoslabs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kosmoslabs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/lifecycle/kosmoslabs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kosmoslabs-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/packages/kosmoslabs-packages.yml
   title: ''
   type: Packages
   url: packages/kosmoslabs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/well-known/kosmoslabs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kosmoslabs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/security/kosmoslabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kosmoslabs-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/security/kosmoslabs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kosmoslabs-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/security/kosmoslabs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kosmoslabs-vulnerability-disclosure.yml
@@ -135,6 +172,34 @@ rate_limits:
 - limit_count: 0
   name: Kosmoslabs Rate Limits
   slug: kosmoslabs-rate-limits
+score:
+  band: thin
+  composite: 27.9
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 27.9
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/screenshots/kosmoslabs-2026-07-25T224239.png
 security:
 - kind: authentication

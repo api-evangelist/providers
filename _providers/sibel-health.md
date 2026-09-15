@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The REST API behind Sibel Health's ANNE cloud hubs. The base https://api.sibelhealth.com/jsn/alpha is referenced directly by the JavaScript bundle of the company's own datahub.sibelhealth.com single-p
@@ -19,10 +44,12 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/security/sibel-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sibel-health-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/security/sibel-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sibel-health-domain-security.yml
@@ -55,22 +82,27 @@ common:
   type: Security
   url: https://sibelhealth.com/security/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/llms/sibel-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sibel-health-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/packages/sibel-health-packages.yml
   title: ''
   type: Packages
   url: packages/sibel-health-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/conformance/sibel-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sibel-health-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/plans/sibel-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sibel-health-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/conformance/sibel-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sibel-health-conformance.yml
@@ -118,6 +150,52 @@ rate_limits:
 - limit_count: 0
   name: Sibel Health Rate Limits
   slug: sibel-health-rate-limits
+score:
+  band: emerging
+  composite: 25.9
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 25.9
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/screenshots/sibel-health-2026-09-02T155343.png
 security:
 - kind: authentication

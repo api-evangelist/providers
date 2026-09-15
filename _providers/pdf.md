@@ -12,10 +12,12 @@ api_count: 0
 artifact_total: 2
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pdf/refs/heads/main/security/pdf-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pdf-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pdf/refs/heads/main/security/pdf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pdf-domain-security.yml

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -277,14 +302,17 @@ common:
   type: Website
   url: https://www.vantage.sh/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/agentic-access/vantage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vantage-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/security/vantage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vantage-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/authentication/vantage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vantage-authentication.yml
@@ -293,46 +321,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/vantage/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-build-cost-dashboard-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-build-cost-dashboard-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-create-anomaly-alert-for-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-create-anomaly-alert-for-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-create-budget-alert-for-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-create-budget-alert-for-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-create-cost-report-and-fetch-costs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-create-cost-report-and-fetch-costs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-explore-cloud-pricing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-explore-cloud-pricing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-fetch-costs-for-existing-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-fetch-costs-for-existing-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-financial-commitment-report-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-financial-commitment-report-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-organize-report-in-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-organize-report-in-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-resource-report-and-resources-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-resource-report-and-resources-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-review-recommendations-by-provider-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-review-recommendations-by-provider-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/arazzo/vantage-saved-filter-to-cost-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vantage-saved-filter-to-cost-report-workflow.yml
@@ -393,10 +432,12 @@ common:
   type: SDKs
   url: https://github.com/vantage-sh/terraform-provider-vantage
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/rules/vantage-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/vantage-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/vocabulary/vantage-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/vantage-vocabulary.yaml
@@ -951,6 +992,38 @@ rules:
     info: 0
     warn: 9
   slug: vantage-spectral-rules
+score:
+  band: developing
+  composite: 50.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 70.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 28.8
+    contract_quality: 75.2
+    developer_ergonomics: 65.5
+    discoverability: 70.4
+    operational_transparency: 28.9
+  previous_composite: 50.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:
 - kind: authentication

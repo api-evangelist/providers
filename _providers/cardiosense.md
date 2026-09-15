@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: A live Model Context Protocol endpoint served from the Cardiosense corporate host. It is a WordPress MCP Adapter deployment over the website's content and abilities rather than a product API for the C
@@ -19,6 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/security/cardiosense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cardiosense-domain-security.yml
@@ -63,34 +89,42 @@ common:
   type: Regulatory
   url: https://cardiosense.com/regulatory/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/llms/cardiosense-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cardiosense-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/well-known/cardiosense-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cardiosense-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/mcp/cardiosense-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cardiosense-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/authentication/cardiosense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cardiosense-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/scopes/cardiosense-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cardiosense-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/conformance/cardiosense-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cardiosense-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/conformance/cardiosense-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cardiosense-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/agentic-access/cardiosense-robots.txt
   title: ''
   type: RobotsTxt
   url: agentic-access/cardiosense-robots.txt
@@ -116,6 +150,47 @@ scopes:
   scope_count: 0
   slug: cardiosense-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 20.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 13.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 20.2
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 51.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/screenshots/cardiosense-2026-09-02T145015.png
 security:
 - kind: authentication

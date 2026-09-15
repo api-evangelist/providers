@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
@@ -59,38 +84,47 @@ common:
   type: StatusPage
   url: https://status.insurely.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/authentication/insurely-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insurely-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/conventions/insurely-conventions.yml
   title: ''
   type: Conventions
   url: conventions/insurely-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/asyncapi/insurely-collection-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/insurely-collection-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/errors/insurely-collection-states.yml
   title: ''
   type: ErrorCatalog
   url: errors/insurely-collection-states.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/lifecycle/insurely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/insurely-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/sandbox/insurely-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/insurely-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/mcp/insurely-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/insurely-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/llms/insurely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insurely-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/conformance/insurely-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insurely-conformance.yml
@@ -99,10 +133,12 @@ common:
   type: Compliance
   url: https://trust.insurely.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/security/insurely-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/insurely-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/security/insurely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insurely-domain-security.yml
@@ -126,6 +162,52 @@ overview: 'Insurely publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Insurely''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
 random_paper: 9
+score:
+  band: thin
+  composite: 34.8
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+  previous_composite: 34.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 27.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/screenshots/insurely-2026-07-25T222626.png
 security:
 - kind: authentication

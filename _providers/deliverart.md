@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -153,70 +178,87 @@ collections:
   slug: open-deliverart-workshifts-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/capabilities/deliverart-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/deliverart-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/mcp/deliverart-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/deliverart-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/authentication/deliverart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deliverart-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/scopes/deliverart-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/deliverart-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/conventions/deliverart-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deliverart-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/errors/deliverart-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/deliverart-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/lifecycle/deliverart-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deliverart-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/changelog/deliverart-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/deliverart-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/data-model/deliverart-data-model.yml
   title: ''
   type: DataModel
   url: data-model/deliverart-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/conformance/deliverart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deliverart-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/agentic-access/deliverart-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deliverart-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/overlays/deliverart-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/deliverart-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/llms/deliverart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deliverart-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/packages/deliverart-packages.yml
   title: ''
   type: Packages
   url: packages/deliverart-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/packages/deliverart-packages.yml
   title: ''
   type: SDKs
   url: packages/deliverart-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/security/deliverart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deliverart-domain-security.yml
@@ -278,6 +320,41 @@ scopes:
   scope_count: 44
   slug: deliverart-scopes
   summary_line: 44 scopes · password
+score:
+  band: developing
+  composite: 43.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 54.4
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 43.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/screenshots/deliverart-2026-07-25T211654.png
 security:
 - kind: authentication

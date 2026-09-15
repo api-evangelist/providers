@@ -10,6 +10,32 @@ access_model:
   - https://permutive.com/request-a-demo
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 58.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -76,34 +102,42 @@ collections:
   slug: open-permutive-taxonomy-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/skills/permutive-manage-cohorts.md
   title: ''
   type: AgentSkill
   url: skills/permutive-manage-cohorts.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/overlays/permutive-events-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/permutive-events-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/skills/permutive-track-and-identify.md
   title: ''
   type: AgentSkill
   url: skills/permutive-track-and-identify.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/overlays/permutive-identity-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/permutive-identity-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/overlays/permutive-segmentation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/permutive-segmentation-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/skills/permutive-segment-without-an-sdk.md
   title: ''
   type: AgentSkill
   url: skills/permutive-segment-without-an-sdk.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/overlays/permutive-taxonomy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/permutive-taxonomy-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/skills/permutive-manage-import-taxonomy.md
   title: ''
   type: AgentSkill
   url: skills/permutive-manage-import-taxonomy.md
@@ -168,94 +202,117 @@ common:
   type: Compliance
   url: https://trust.permutive.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/security/permutive-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/permutive-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/security/permutive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/permutive-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/security/permutive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/permutive-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/authentication/permutive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/permutive-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/conventions/permutive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/permutive-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/errors/permutive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/permutive-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/lifecycle/permutive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/permutive-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/changelog/permutive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/permutive-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/data-model/permutive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/permutive-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/conformance/permutive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/permutive-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/rate-limits/permutive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/permutive-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/plans/permutive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/permutive-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/asyncapi/permutive-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/permutive-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/packages/permutive-packages.yml
   title: ''
   type: Packages
   url: packages/permutive-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/packages/permutive-packages.yml
   title: ''
   type: SDKs
   url: packages/permutive-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/mcp/permutive-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/permutive-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/mcp/permutive-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/permutive-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/a2a/permutive-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/permutive-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/well-known/permutive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/permutive-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/llms/permutive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/permutive-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/agentic-access/permutive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/permutive-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/overlays/permutive-cohorts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/permutive-cohorts-api-overlay.yaml
@@ -287,6 +344,41 @@ rate_limits:
 - limit_count: 0
   name: Permutive Rate Limits
   slug: permutive-rate-limits
+score:
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 58.0
+    developer_ergonomics: 66.7
+    discoverability: 81.5
+    operational_transparency: 52.6
+  previous_composite: 53.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 20.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://www.kaleyra.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.tatacommunications.com/kaleyra — a different registrable domain (kaleyra.com -> tatacommunications.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -86,18 +111,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/kaleyra/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/agentic-access/kaleyra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kaleyra-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/security/kaleyra-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kaleyra-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/security/kaleyra-trust-center.yml
   title: ''
   type: Compliance
   url: security/kaleyra-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/security/kaleyra-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kaleyra-vulnerability-disclosure.yml
@@ -106,46 +135,57 @@ common:
   type: Security
   url: https://www.kaleyra.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/security/kaleyra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kaleyra-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/authentication/kaleyra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kaleyra-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/conformance/kaleyra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kaleyra-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/packages/kaleyra-packages.yml
   title: ''
   type: Packages
   url: packages/kaleyra-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/packages/kaleyra-packages.yml
   title: ''
   type: SDKs
   url: packages/kaleyra-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/well-known/kaleyra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kaleyra-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/mcp/kaleyra-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kaleyra-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/llms/kaleyra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kaleyra-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/overlays/kaleyra-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kaleyra-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/errors/kaleyra-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kaleyra-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/lifecycle/kaleyra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kaleyra-lifecycle.yml
@@ -154,26 +194,32 @@ common:
   type: StatusPage
   url: https://status.kaleyra.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/conventions/kaleyra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kaleyra-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/changelog/kaleyra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kaleyra-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/components/kaleyra-components.yml
   title: ''
   type: Components
   url: components/kaleyra-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/data-model/kaleyra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kaleyra-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/asyncapi/kaleyra-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kaleyra-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -206,6 +252,7 @@ common:
   type: PrivacyPolicy
   url: https://www.kaleyra.com/privacy-policy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/collections/kaleyra.postman_collection.json
   title: ''
   type: Postman
   url: collections/kaleyra.postman_collection.json
@@ -222,14 +269,17 @@ common:
   type: Documentation
   url: https://developers.kaleyra.io/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/plans/kaleyra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kaleyra-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/rate-limits/kaleyra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kaleyra-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/finops/kaleyra-finops.yml
   title: ''
   type: FinOps
   url: finops/kaleyra-finops.yml
@@ -265,6 +315,60 @@ rate_limits:
 - limit_count: 4
   name: Kaleyra Rate Limits
   slug: kaleyra-rate-limits
+score:
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 62.1
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 73.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 53.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 38.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.corva.ai
@@ -31,10 +56,12 @@ asyncapis:
   slug: corva-ai-event-surface
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/authentication/corva-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/corva-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/security/corva-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/corva-ai-domain-security.yml
@@ -147,70 +174,87 @@ common:
   type: About
   url: https://www.corva.ai/company/about-corva-real-time-energy-data-solutions
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/packages/corva-ai-packages.yml
   title: ''
   type: Packages
   url: packages/corva-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/packages/corva-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/corva-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/cli/corva-ai-cli.yml
   title: ''
   type: CLI
   url: cli/corva-ai-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/components/corva-ai-components.yml
   title: ''
   type: Components
   url: components/corva-ai-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/conventions/corva-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/corva-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/conformance/corva-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/corva-ai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/conformance/corva-ai-conformance.yml
   title: ''
   type: Compliance
   url: conformance/corva-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/errors/corva-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/corva-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/lifecycle/corva-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/corva-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/data-model/corva-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/corva-ai-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/plans/corva-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/corva-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/rate-limits/corva-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/corva-ai-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/llms/corva-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/corva-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/mcp/corva-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/corva-ai-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/asyncapi/corva-ai-event-surface.yml
   title: ''
   type: X-EventSurface
   url: asyncapi/corva-ai-event-surface.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/well-known/corva-ai-well-known.yml
   title: ''
   type: X-WellKnownProbe
   url: well-known/corva-ai-well-known.yml
@@ -227,7 +271,7 @@ modified: '2026-09-05'
 name: Corva AI
 nav: Providers
 network: true
-overview: 'Corva AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Corva Platform API and Corva Data API. Tagged areas include Analytics, Artificial Intelligence, Completions, Custom Apps, and Data API.
+overview: 'Corva AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Corva Platform API and Corva Data API. Tagged areas include Artificial Intelligence, Analytics, Completions, Custom Apps, and Data API.
 
 
   The Corva AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -243,6 +287,51 @@ rate_limits:
 - limit_count: 3
   name: Corva Ai Rate Limits
   slug: corva-ai-rate-limits
+score:
+  band: strong
+  composite: 59.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 56.2
+    developer_ergonomics: 73.2
+    discoverability: 59.3
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 59.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/corva-ai/refs/heads/main/screenshots/corva-ai-2026-06-20T175049.png
 security:
 - kind: authentication
@@ -255,26 +344,20 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: corva-ai
 tags:
-- Analytics
 - Artificial Intelligence
+- Analytics
 - Completions
 - Custom Apps
 - Data API
 - Dev Center
-- Dev Center Apps
 - Drilling
 - Energy
 - Geoscience
 - Oil and Gas
-- Platform API
 - Predictive Drilling
 - Python SDK
 - Real-Time
-- Real-Time Analytics
 - Sensor Data
 - Sustainability
-- Time Series
-- WITS
-- Well Data
 website: https://www.corva.ai/
 ---

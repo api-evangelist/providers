@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -494,114 +519,142 @@ collections:
   slug: open-stytch-webauthn-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/capabilities/stytch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stytch-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/agentic-access/stytch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stytch-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/security/stytch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stytch-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/authentication/stytch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stytch-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-create-org-invite-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-create-org-invite-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-discovery-intermediate-exchange-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-discovery-intermediate-exchange-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-email-magic-link-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-email-magic-link-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-email-otp-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-email-otp-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-email-otp-login-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-email-otp-login-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-magic-link-org-login-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-magic-link-org-login-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-org-create-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-org-create-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-password-auth-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-password-auth-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-recovery-codes-rotate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-recovery-codes-rotate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-sms-otp-mfa-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-sms-otp-mfa-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-b2b-totp-enrollment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-b2b-totp-enrollment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-create-user-magic-link-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-create-user-magic-link-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-crypto-wallet-auth-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-crypto-wallet-auth-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-email-otp-login-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-email-otp-login-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-magic-link-login-or-create-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-magic-link-login-or-create-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-oauth-authenticate-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-oauth-authenticate-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-password-reset-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-password-reset-email-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-password-signup-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-password-signup-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-revoke-connected-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-revoke-connected-app-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-session-authenticate-revoke-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-session-authenticate-revoke-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-sms-otp-login-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-sms-otp-login-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-totp-enrollment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-totp-enrollment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-user-create-search-delete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-user-create-search-delete-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/arazzo/stytch-whatsapp-otp-login-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stytch-whatsapp-otp-login-workflow.yml
@@ -750,130 +803,162 @@ common:
   type: Blog
   url: https://stytch.com/blog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/rules/stytch-rules.yml
   title: ''
   type: SpectralRules
   url: rules/stytch-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/vocabulary/stytch-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/stytch-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-schema/stytch-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stytch-user-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-schema/stytch-organization-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stytch-organization-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-schema/stytch-member-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stytch-member-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-schema/stytch-connected-app-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stytch-connected-app-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-schema/stytch-m2m-client-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stytch-m2m-client-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-structure/stytch-session-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stytch-session-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-structure/stytch-connected-app-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stytch-connected-app-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/json-ld/stytch-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/stytch-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-send-magic-link-example.json
   title: ''
   type: Examples
   url: examples/stytch-send-magic-link-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-create-organization-example.json
   title: ''
   type: Examples
   url: examples/stytch-create-organization-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-magic-links-login-or-create-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-magic-links-login-or-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-otps-sms-send-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-otps-sms-send-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-oauth-authenticate-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-oauth-authenticate-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-sessions-authenticate-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-sessions-authenticate-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-webauthn-register-start-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-webauthn-register-start-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-connected-apps-create-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-connected-apps-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-fingerprint-lookup-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-fingerprint-lookup-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-consumer-users-create-example.json
   title: ''
   type: Examples
   url: examples/stytch-consumer-users-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-b2b-organizations-create-example.json
   title: ''
   type: Examples
   url: examples/stytch-b2b-organizations-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-b2b-members-create-example.json
   title: ''
   type: Examples
   url: examples/stytch-b2b-members-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-b2b-sso-saml-create-connection-example.json
   title: ''
   type: Examples
   url: examples/stytch-b2b-sso-saml-create-connection-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-b2b-discovery-organizations-example.json
   title: ''
   type: Examples
   url: examples/stytch-b2b-discovery-organizations-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-b2b-magic-links-email-login-or-signup-example.json
   title: ''
   type: Examples
   url: examples/stytch-b2b-magic-links-email-login-or-signup-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-b2b-sessions-authenticate-example.json
   title: ''
   type: Examples
   url: examples/stytch-b2b-sessions-authenticate-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-b2b-rbac-policy-get-example.json
   title: ''
   type: Examples
   url: examples/stytch-b2b-rbac-policy-get-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-management-create-project-example.json
   title: ''
   type: Examples
   url: examples/stytch-management-create-project-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/examples/stytch-management-create-redirect-url-example.json
   title: ''
   type: Examples
   url: examples/stytch-management-create-redirect-url-example.json
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/plans/stytch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stytch-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/rate-limits/stytch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stytch-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/finops/stytch-finops.yml
   title: ''
   type: FinOps
   url: finops/stytch-finops.yml
@@ -3905,6 +3990,38 @@ rules:
     info: 0
     warn: 6
   slug: stytch-rules
+score:
+  band: strong
+  composite: 58.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 65.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 28.8
+    contract_quality: 69.6
+    developer_ergonomics: 69.0
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 58.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 66.7
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -715,6 +740,7 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/capabilities/microsoft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-capability-edges.yml
@@ -723,22 +749,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/agentic-access/microsoft-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/security/microsoft-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/security/microsoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/authentication/microsoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/scopes/microsoft-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-scopes.yml
@@ -795,34 +826,42 @@ common:
   type: GitHub
   url: https://github.com/microsoft
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-ld/microsoft-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-ld/microsoft-graph-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-graph-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-schema/microsoft-graph-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-graph-user-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-schema/microsoft-graph-group-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-graph-group-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-schema/microsoft-azure-resource-group-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-azure-resource-group-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-schema/microsoft-teams-team-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-teams-team-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-schema/microsoft-drive-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-drive-item-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/json-schema/microsoft-managed-device-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-managed-device-schema.json
@@ -963,6 +1002,38 @@ scopes:
   scope_count: 42
   slug: microsoft-scopes
   summary_line: 42 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 60.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 56.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 9.8
+    contract_quality: 77.5
+    developer_ergonomics: 75.0
+    discoverability: 57.4
+    operational_transparency: 42.1
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 59
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:
 - kind: authentication

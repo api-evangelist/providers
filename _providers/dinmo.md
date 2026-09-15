@@ -11,6 +11,31 @@ access_model:
   - https://docs.dinmo.io/customer-hub/profiles-api.md
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Real-time read API for retrieving an activated model record (customer profile and its mapped activation attributes) by lookup key, for personalization use cases in apps and websites. Authenticated wit
@@ -71,58 +96,72 @@ common:
   type: PrivacyPolicy
   url: https://www.dinmo.com/legals/privacy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/llms/dinmo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dinmo-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/authentication/dinmo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dinmo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/errors/dinmo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dinmo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/conventions/dinmo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dinmo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/lifecycle/dinmo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dinmo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/changelog/dinmo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dinmo-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/security/dinmo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dinmo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/mcp/dinmo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dinmo-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/plans/dinmo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dinmo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/rate-limits/dinmo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dinmo-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/conformance/dinmo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dinmo-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/conformance/dinmo-conformance.yml
   title: ''
   type: Compliance
   url: conformance/dinmo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/data-model/dinmo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dinmo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/asyncapi/dinmo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dinmo-webhooks.yml
@@ -166,6 +205,41 @@ rate_limits:
 - limit_count: 1
   name: Dinmo Rate Limits
   slug: dinmo-rate-limits
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 54.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinmo/refs/heads/main/screenshots/dinmo-2026-07-25T212055.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: RESTful JSON API for accepting crypto, stock, and card donations on behalf of nonprofits in The Giving Block network. Provides organization management, currency and exchange-rate lookups, crypto depos
@@ -43,54 +68,67 @@ common:
   type: Support
   url: https://thegivingblock.com/about/contact/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/authentication/the-giving-block-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-giving-block-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/conventions/the-giving-block-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-giving-block-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/errors/the-giving-block-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-giving-block-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/conformance/the-giving-block-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-giving-block-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/lifecycle/the-giving-block-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-giving-block-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/sandbox/the-giving-block-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/the-giving-block-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/components/the-giving-block-components.yml
   title: ''
   type: Components
   url: components/the-giving-block-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/webhooks/the-giving-block-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/the-giving-block-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/mcp/the-giving-block-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-giving-block-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/llms/the-giving-block-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-giving-block-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/security/the-giving-block-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-giving-block-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/well-known/the-giving-block-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-giving-block-well-known.yml
@@ -107,6 +145,42 @@ overview: 'The Giving Block publishes 1 API on the [APIs.io](https://apis.io/) n
 
   The Giving Block''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, authentication, sandbox, and 12 more developer resources.'
 random_paper: 3
+score:
+  band: emerging
+  composite: 18.2
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 18.2
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-giving-block/refs/heads/main/screenshots/the-giving-block-2026-09-02T163344.png
 security:
 - kind: authentication

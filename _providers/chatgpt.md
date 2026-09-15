@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -74,86 +99,107 @@ common:
   type: Website
   url: https://openai.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/capabilities/chatgpt-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/chatgpt-capability-edges.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/packages/chatgpt-packages.yml
   title: ''
   type: Packages
   url: packages/chatgpt-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/well-known/chatgpt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chatgpt-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/well-known/chatgpt-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chatgpt-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/mcp/chatgpt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chatgpt-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/llms/chatgpt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chatgpt-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/overlays/chatgpt-chat-completions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chatgpt-chat-completions-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/overlays/chatgpt-responses-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chatgpt-responses-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/conformance/chatgpt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chatgpt-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/errors/chatgpt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chatgpt-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/lifecycle/chatgpt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chatgpt-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/conventions/chatgpt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chatgpt-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/changelog/chatgpt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chatgpt-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/cli/chatgpt-cli.yml
   title: ''
   type: CLI
   url: cli/chatgpt-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/components/chatgpt-components.yml
   title: ''
   type: Components
   url: components/chatgpt-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/data-model/chatgpt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chatgpt-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/agentic-access/chatgpt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chatgpt-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/security/chatgpt-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/chatgpt-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/security/chatgpt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chatgpt-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/security/chatgpt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chatgpt-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/authentication/chatgpt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chatgpt-authentication.yml
@@ -162,34 +208,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/chatgpt/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-chat-completion-tool-call-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-chat-completion-tool-call-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-create-and-poll-response-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-create-and-poll-response-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-image-input-describe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-image-input-describe-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-moderation-gate-generate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-moderation-gate-generate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-multi-turn-conversation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-multi-turn-conversation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-response-lifecycle-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-response-lifecycle-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-structured-output-response-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-structured-output-response-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/arazzo/chatgpt-web-search-answer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/chatgpt-web-search-answer-workflow.yml
@@ -706,6 +760,40 @@ rules:
     info: 0
     warn: 8
   slug: chatgpt-spectral-rules
+score:
+  band: strong
+  composite: 55.9
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 18.2
+    contract_quality: 58.7
+    developer_ergonomics: 65.5
+    discoverability: 74.1
+    operational_transparency: 52.6
+  previous_composite: 55.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/screenshots/chatgpt-2026-08-17T082057.png
 security:
 - kind: authentication

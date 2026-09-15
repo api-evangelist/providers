@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,62 +72,77 @@ collections:
   slug: open-simon-data-event-ingestion
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/overlays/simon-data-audience-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/simon-data-audience-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/overlays/simon-data-event-ingestion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/simon-data-event-ingestion-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-audience-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/simon-data-audience-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-event-ingestion-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/simon-data-event-ingestion-openapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/mcp/simon-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/simon-data-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/well-known/simon-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simon-data-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/llms/simon-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simon-data-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/agentic-access/simon-data-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simon-data-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/authentication/simon-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simon-data-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/scopes/simon-data-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/simon-data-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/conventions/simon-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simon-data-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/errors/simon-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simon-data-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/data-model/simon-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simon-data-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/lifecycle/simon-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simon-data-lifecycle.yml
@@ -110,6 +151,7 @@ common:
   type: StatusPage
   url: https://status.simondata.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/changelog/simon-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simon-data-changelog.yml
@@ -118,22 +160,27 @@ common:
   type: ChangeLog
   url: https://docs.simondata.com/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/asyncapi/simon-data-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/simon-data-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/sandbox/simon-data-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/simon-data-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/components/simon-data-components.yml
   title: ''
   type: Components
   url: components/simon-data-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/packages/simon-data-packages.yml
   title: ''
   type: Packages
   url: packages/simon-data-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/conformance/simon-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simon-data-conformance.yml
@@ -142,6 +189,7 @@ common:
   type: Compliance
   url: https://www.simon.ai/terms/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/security/simon-data-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/simon-data-trust-center.yml
@@ -150,46 +198,57 @@ common:
   type: Security
   url: https://www.simon.ai/terms/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/security/simon-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/simon-data-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/security/simon-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simon-data-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/examples/
   title: ''
   type: Examples
   url: examples/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/json-schema/simon-data-contact-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/simon-data-contact-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/json-schema/simon-data-event-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/simon-data-event-payload-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/vocabulary/simon-data-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/simon-data-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/json-ld/simon-data-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/simon-data-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/rules/simon-data-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/simon-data-jsonschema-spectral-rules.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/plans/simon-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simon-data-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/rate-limits/simon-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simon-data-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/finops/simon-data-finops.yml
   title: ''
   type: FinOps
   url: finops/simon-data-finops.yml
@@ -323,6 +382,41 @@ scopes:
   scope_count: 0
   slug: simon-data-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.0
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 75.3
+    catalog_earned_first_party: 16.0
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 82.9
+    contract_governance: 29.5
+    contract_quality: 75.8
+    developer_ergonomics: 44.6
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png
 security:
 - kind: authentication

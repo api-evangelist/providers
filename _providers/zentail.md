@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Zentail's Open API for building custom sales-channel, inventory, and fulfillment integrations and running bulk product report imports/exports. Authenticated with an account API token generated under A
@@ -21,6 +46,7 @@ common:
   type: Website
   url: https://www.zentail.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/security/zentail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zentail-domain-security.yml
@@ -69,26 +95,32 @@ common:
   type: StatusPage
   url: https://status.zentail.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/authentication/zentail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zentail-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/conventions/zentail-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zentail-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/lifecycle/zentail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zentail-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/llms/zentail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zentail-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/well-known/zentail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zentail-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/conformance/zentail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zentail-conformance.yml
@@ -105,6 +137,34 @@ overview: 'Zentail publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Zentail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 30.5
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 30.5
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zentail/refs/heads/main/screenshots/zentail-2026-09-02T171622.png
 security:
 - kind: authentication

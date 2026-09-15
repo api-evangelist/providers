@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,14 +91,17 @@ common:
   type: ContributionGuide
   url: https://github.com/dagger/dagger/blob/main/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/agentic-access/dagger-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dagger-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/security/dagger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dagger-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/authentication/dagger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dagger-authentication.yml
@@ -146,10 +174,12 @@ common:
   type: License
   url: https://github.com/dagger/dagger/blob/main/LICENSE
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/json-ld/dagger-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dagger-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/vocabulary/dagger-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dagger-vocabulary.yml
@@ -158,38 +188,47 @@ common:
   type: LlmsText
   url: https://docs.dagger.io/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/llms/dagger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dagger-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/packages/dagger-packages.yml
   title: ''
   type: Packages
   url: packages/dagger-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/packages/dagger-packages.yml
   title: ''
   type: SDKs
   url: packages/dagger-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/well-known/dagger-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dagger-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/mcp/dagger-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dagger-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/mcp/dagger-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dagger-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/conformance/dagger-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dagger-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/errors/dagger-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dagger-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/lifecycle/dagger-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dagger-lifecycle.yml
@@ -198,10 +237,12 @@ common:
   type: StatusPage
   url: https://status.dagger.io
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/conventions/dagger-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dagger-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/changelog/dagger-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dagger-changelog.yml
@@ -210,22 +251,27 @@ common:
   type: ChangeLog
   url: https://dagger.io/changelog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/cli/dagger-cli.yml
   title: ''
   type: CLI
   url: cli/dagger-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/data-model/dagger-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dagger-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/plans/dagger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dagger-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/rate-limits/dagger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dagger-rate-limits.yml
@@ -282,6 +328,42 @@ rate_limits:
 - limit_count: 0
   name: Dagger Rate Limits
   slug: dagger-rate-limits
+score:
+  band: strong
+  composite: 55.9
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 65.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 33.3
+    contract_quality: 57.8
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 55.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/screenshots/dagger-2026-06-20T175437.png
 security:
 - kind: authentication
@@ -300,7 +382,6 @@ tags:
 - Containers
 - DAG
 - Daggerverse
-- Developer Tools
 - DevOps
 - GraphQL
 - Modules

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
@@ -74,42 +99,52 @@ collections:
   slug: open-rabobank-australia-banking-products-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/capabilities/rabobank-australia-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rabobank-australia-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/security/rabobank-australia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rabobank-australia-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/authentication/rabobank-australia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rabobank-australia-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/conventions/rabobank-australia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rabobank-australia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/errors/rabobank-australia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rabobank-australia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/lifecycle/rabobank-australia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rabobank-australia-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/conformance/rabobank-australia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rabobank-australia-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/conformance/rabobank-australia-conformance.yml
   title: ''
   type: Compliance
   url: conformance/rabobank-australia-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/scopes/rabobank-australia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rabobank-australia-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/lifecycle/rabobank-australia-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/rabobank-australia-lifecycle.yml
@@ -118,22 +153,27 @@ common:
   type: APIReference
   url: https://consumerdatastandardsaustralia.github.io/standards/#banking-apis
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/data-model/rabobank-australia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rabobank-australia-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/mcp/rabobank-australia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rabobank-australia-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/skills/rabobank-australia-list-products.md
   title: ''
   type: AgentSkill
   url: skills/rabobank-australia-list-products.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/overlays/rabobank-australia-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rabobank-australia-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/llms/rabobank-australia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rabobank-australia-llms.txt
@@ -179,6 +219,53 @@ scopes:
   scope_count: 10
   slug: rabobank-australia-scopes
   summary_line: 10 scopes
+score:
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 37.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 54.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:
 - kind: authentication

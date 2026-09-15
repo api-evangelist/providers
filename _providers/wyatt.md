@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: A live, remotely-callable Model Context Protocol server for Wyatt's Dr.FORHAIR direct-to-consumer storefront. Six tools cover catalog search, product detail, checkout-URL creation, customer order hist
@@ -7,10 +32,12 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/security/wyatt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wyatt-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/security/wyatt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wyatt-domain-security.yml
@@ -19,34 +46,42 @@ common:
   type: Website
   url: https://wyattcorp.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/well-known/wyatt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wyatt-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/conformance/wyatt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wyatt-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/llms/wyatt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wyatt-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/packages/wyatt-packages.yml
   title: ''
   type: Packages
   url: packages/wyatt-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/plans/wyatt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wyatt-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/rate-limits/wyatt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wyatt-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/lifecycle/wyatt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wyatt-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -78,7 +113,7 @@ modified: '2026-09-04'
 name: Wyatt
 nav: Providers
 network: true
-overview: 'Wyatt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Personal Care, Haircare, and Consumer Products.
+overview: 'Wyatt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beauty, Personal Care, Hair Care, and Consumer Products.
 
 
   Wyatt''s developer surface includes signup flow, support, and 13 more developer resources.'
@@ -96,6 +131,43 @@ scopes:
   scope_count: 0
   slug: wyatt-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 20.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 1.9
+    developer_ergonomics: 18.5
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 20.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Wyatt Authentication
@@ -114,12 +186,12 @@ tags:
 - Company
 - Beauty
 - Personal Care
-- Haircare
+- Hair Care
 - Consumer Products
 - E-Commerce
 - Retail
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - South Korea
 website: https://wyattcorp.com/
 ---

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 4
@@ -696,22 +721,27 @@ collections:
   slug: open-salesloft
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/capabilities/salesloft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesloft-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/agentic-access/salesloft-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesloft-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/security/salesloft-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/salesloft-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/security/salesloft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesloft-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/authentication/salesloft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesloft-authentication.yml
@@ -728,38 +758,47 @@ common:
   type: Website
   url: https://salesloft.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/plans/salesloft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesloft-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/rate-limits/salesloft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesloft-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/finops/salesloft-finops.yml
   title: ''
   type: FinOps
   url: finops/salesloft-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/mcp/salesloft-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/salesloft-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/mcp/salesloft-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/salesloft-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/well-known/salesloft-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/salesloft-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/packages/salesloft-packages.yml
   title: ''
   type: Packages
   url: packages/salesloft-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/llms/salesloft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salesloft-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/conformance/salesloft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/salesloft-conformance.yml
@@ -768,10 +807,12 @@ common:
   type: Compliance
   url: https://trust.salesloft.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/errors/salesloft-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/salesloft-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/lifecycle/salesloft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salesloft-lifecycle.yml
@@ -780,26 +821,32 @@ common:
   type: StatusPage
   url: https://status.salesloft.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/scopes/salesloft-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesloft-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/conventions/salesloft-conventions.yml
   title: ''
   type: Conventions
   url: conventions/salesloft-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/conventions/salesloft-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/salesloft-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/changelog/salesloft-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/salesloft-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/data-model/salesloft-data-model.yml
   title: ''
   type: DataModel
   url: data-model/salesloft-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/security/salesloft-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/salesloft-vulnerability-disclosure.yml
@@ -808,6 +855,7 @@ common:
   type: Security
   url: https://www.salesloft.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -816,6 +864,7 @@ common:
   type: Webhooks
   url: https://developers.salesloft.com/docs/platform/webhooks/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi.yml
@@ -955,6 +1004,41 @@ scopes:
   scope_count: 57
   slug: salesloft-scopes
   summary_line: 57 scopes
+score:
+  band: strong
+  composite: 60.2
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 58.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 31.8
+    contract_quality: 58.2
+    developer_ergonomics: 61.3
+    discoverability: 63.0
+    operational_transparency: 84.2
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 82
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/screenshots/salesloft-2026-06-20T193352.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://blobsrus.omniapp.co/api
@@ -324,6 +349,7 @@ collections:
   slug: open-omni-who-am-i-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/capabilities/omni-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/omni-capability-edges.yml
@@ -372,42 +398,52 @@ common:
   type: PrivacyPolicy
   url: https://omni.co/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/llms/omni-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/omni-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/packages/omni-packages.yml
   title: ''
   type: Packages
   url: packages/omni-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/packages/omni-packages.yml
   title: ''
   type: SDKs
   url: packages/omni-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/cli/omni-cli.yml
   title: ''
   type: CLI
   url: cli/omni-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/mcp/omni-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/omni-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/authentication/omni-authentication.yml
   title: ''
   type: Authentication
   url: authentication/omni-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/conventions/omni-conventions.yml
   title: ''
   type: Conventions
   url: conventions/omni-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/errors/omni-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/omni-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/lifecycle/omni-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/omni-lifecycle.yml
@@ -416,10 +452,12 @@ common:
   type: StatusPage
   url: https://status.omniapp.co
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/changelog/omni-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/omni-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/conformance/omni-conformance.yml
   title: ''
   type: Conformance
   url: conformance/omni-conformance.yml
@@ -428,30 +466,37 @@ common:
   type: Compliance
   url: https://omni.co/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/data-model/omni-data-model.yml
   title: ''
   type: DataModel
   url: data-model/omni-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/overlays/omni-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omni-openapi-overlay.yaml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/sandbox/omni-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/omni-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/components/omni-components.yml
   title: ''
   type: Components
   url: components/omni-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/security/omni-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/omni-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/security/omni-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/omni-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/security/omni-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/omni-vulnerability-disclosure.yml
@@ -476,6 +521,40 @@ overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
 
   Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 27 more developer resources.'
 random_paper: 15
+score:
+  band: strong
+  composite: 58.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 65.2
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 58.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/screenshots/omni-2026-08-07T190144.png
 security:
 - kind: authentication

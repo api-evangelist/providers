@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,10 +84,12 @@ collections:
   slug: open-open-trivia
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/agentic-access/open-trivia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-trivia-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/security/open-trivia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-trivia-domain-security.yml
@@ -269,6 +296,45 @@ rules:
     info: 6
     warn: 18
   slug: open-trivia-rules
+score:
+  band: thin
+  composite: 29.6
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 78.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 28.8
+    contract_quality: 30.3
+    developer_ergonomics: 26.2
+    discoverability: 81.5
+    operational_transparency: 21.1
+  previous_composite: 29.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 20.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
 security:
 - kind: domain-security

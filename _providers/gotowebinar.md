@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -135,34 +160,42 @@ collections:
   slug: open-gotowebinar-webinars-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/_original/gotowebinar-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/gotowebinar-openapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/packages/gotowebinar-packages.yml
   title: ''
   type: Packages
   url: packages/gotowebinar-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/packages/gotowebinar-packages.yml
   title: ''
   type: SDKs
   url: packages/gotowebinar-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/well-known/gotowebinar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gotowebinar-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/mcp/gotowebinar-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gotowebinar-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/llms/gotowebinar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gotowebinar-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/overlays/gotowebinar-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gotowebinar-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/conformance/gotowebinar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gotowebinar-conformance.yml
@@ -171,10 +204,12 @@ common:
   type: Compliance
   url: https://www.goto.com/company/trust/compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/security/gotowebinar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gotowebinar-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/security/gotowebinar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gotowebinar-vulnerability-disclosure.yml
@@ -183,30 +218,37 @@ common:
   type: Security
   url: https://www.goto.com/company/trust/security-measures
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/errors/gotowebinar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gotowebinar-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/lifecycle/gotowebinar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gotowebinar-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/conventions/gotowebinar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gotowebinar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/data-model/gotowebinar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gotowebinar-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/asyncapi/gotowebinar-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gotowebinar-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/collections/gotowebinar-v2-provider.postman_collection.json
   title: ''
   type: Postman
   url: collections/gotowebinar-v2-provider.postman_collection.json
@@ -243,18 +285,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/goto
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/agentic-access/gotowebinar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gotowebinar-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/security/gotowebinar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gotowebinar-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/authentication/gotowebinar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gotowebinar-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/scopes/gotowebinar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gotowebinar-scopes.yml
@@ -307,22 +353,27 @@ common:
   type: Partners
   url: https://www.goto.com/partners
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/json-ld/gotowebinar-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gotowebinar-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/vocabulary/gotowebinar-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gotowebinar-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/plans/gotowebinar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gotowebinar-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/rate-limits/gotowebinar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gotowebinar-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/finops/gotowebinar-finops.yml
   title: ''
   type: FinOps
   url: finops/gotowebinar-finops.yml
@@ -476,6 +527,41 @@ scopes:
   scope_count: 2
   slug: gotowebinar-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 72.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 33.3
+    contract_quality: 65.1
+    developer_ergonomics: 55.4
+    discoverability: 74.1
+    operational_transparency: 52.6
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
 security:
 - kind: authentication

@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 3.8
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 2
 common:
@@ -52,42 +77,52 @@ common:
   type: ChangeLog
   url: https://github.com/readysettech/readyset/releases
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/mcp/readyset-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/readyset-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/cli/readyset-cli.yml
   title: ''
   type: CLI
   url: cli/readyset-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/packages/readyset-packages.yml
   title: ''
   type: Packages
   url: packages/readyset-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/llms/readyset-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/readyset-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/well-known/readyset-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/readyset-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/well-known/readyset-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/readyset-api-catalog.json
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/changelog/readyset-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/readyset-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/lifecycle/readyset-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/readyset-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/security/readyset-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/readyset-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -108,6 +143,35 @@ overview: 'ReadySet is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   ReadySet''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 13 more developer resources.'
 random_paper: 4
+score:
+  band: emerging
+  composite: 21.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 37.5
+    discoverability: 57.4
+    operational_transparency: 18.4
+  previous_composite: 21.2
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/readyset/refs/heads/main/screenshots/readyset-2026-09-02T152950.png
 security:
 - kind: domain-security

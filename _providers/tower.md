@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.tower.dev/v1
@@ -241,14 +266,17 @@ collections:
   slug: open-tower-whoami-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/capabilities/tower-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tower-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/overlays/tower-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tower-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/security/tower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tower-domain-security.yml
@@ -301,70 +329,87 @@ common:
   type: StatusPage
   url: https://status.tower.dev
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/lifecycle/tower-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tower-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/changelog/tower-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tower-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/llms/tower-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tower-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/well-known/tower-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tower-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/mcp/tower-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tower-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/packages/tower-packages.yml
   title: ''
   type: Packages
   url: packages/tower-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/packages/tower-packages.yml
   title: ''
   type: SDKs
   url: packages/tower-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/cli/tower-cli.yml
   title: ''
   type: CLI
   url: cli/tower-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/authentication/tower-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tower-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/scopes/tower-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tower-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/conventions/tower-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tower-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/conformance/tower-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tower-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/errors/tower-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tower-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/asyncapi/tower-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tower-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/sandbox/tower-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tower-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/data-model/tower-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tower-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -393,6 +438,40 @@ scopes:
   scope_count: 53
   slug: tower-scopes
   summary_line: 53 scopes
+score:
+  band: strong
+  composite: 54.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 63.8
+    developer_ergonomics: 81.0
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 54.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/screenshots/tower-2026-08-17T082413.png
 security:
 - kind: authentication

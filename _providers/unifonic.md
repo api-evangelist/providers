@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
@@ -104,10 +129,12 @@ collections:
   slug: open-unifonic-wrapper-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/capabilities/unifonic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unifonic-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/overlays/unifonic-authenticate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unifonic-authenticate-overlay.yaml
@@ -116,6 +143,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/unifonic/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/security/unifonic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unifonic-domain-security.yml
@@ -172,70 +200,87 @@ common:
   type: ReleaseNotes
   url: https://docs.unifonic.com/articles/release-notes-publication/2026-release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/changelog/unifonic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unifonic-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/lifecycle/unifonic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unifonic-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/errors/unifonic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unifonic-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/authentication/unifonic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unifonic-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/conventions/unifonic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unifonic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/conformance/unifonic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unifonic-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/packages/unifonic-packages.yml
   title: ''
   type: Packages
   url: packages/unifonic-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/packages/unifonic-packages.yml
   title: ''
   type: SDKs
   url: packages/unifonic-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/components/unifonic-components.yml
   title: ''
   type: Components
   url: components/unifonic-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/data-model/unifonic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unifonic-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/sandbox/unifonic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/unifonic-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/asyncapi/unifonic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unifonic-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/mcp/unifonic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/unifonic-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/llms/unifonic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unifonic-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/well-known/unifonic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unifonic-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/security/unifonic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unifonic-trust-center.yml
@@ -263,6 +308,53 @@ overview: 'Unifonic publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
   Unifonic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, release notes, and 28 more developer resources.'
 random_paper: 19
+score:
+  band: strong
+  composite: 56.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 0.0
+    contract_quality: 63.7
+    developer_ergonomics: 74.4
+    discoverability: 74.1
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - saudi-arabia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  previous_composite: 56.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/screenshots/unifonic-2026-08-17T082602.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -79,14 +104,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adapt/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/agentic-access/adapt-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adapt-io-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/security/adapt-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adapt-io-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/authentication/adapt-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adapt-io-authentication.yml
@@ -119,14 +147,17 @@ common:
   type: Pricing
   url: https://www.adapt.io/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/plans/adapt-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adapt-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/rate-limits/adapt-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adapt-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/finops/adapt-io-finops.yml
   title: ''
   type: FinOps
   url: finops/adapt-io-finops.yml
@@ -187,38 +218,47 @@ common:
   type: Twitter
   url: https://twitter.com/adapt_io
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/packages/adapt-io-packages.yml
   title: ''
   type: Packages
   url: packages/adapt-io-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/mcp/adapt-io-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/adapt-io-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/llms/adapt-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adapt-io-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/conventions/adapt-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adapt-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/errors/adapt-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adapt-io-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/lifecycle/adapt-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adapt-io-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/conformance/adapt-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adapt-io-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/data-model/adapt-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adapt-io-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -308,6 +348,41 @@ rules:
     info: 2
     warn: 3
   slug: adapt-io-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 57.0
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 78.3
+    catalog_earned_first_party: 20.0
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 14.4
+    contract_quality: 69.9
+    developer_ergonomics: 60.1
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 57.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/screenshots/adapt-io-2026-06-20T164545.png
 security:
 - kind: authentication

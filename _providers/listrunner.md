@@ -17,6 +17,7 @@ common:
   type: Website
   url: https://listrunnerapp.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/listrunner/refs/heads/main/security/listrunner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/listrunner-domain-security.yml

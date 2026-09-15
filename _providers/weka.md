@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -386,26 +411,32 @@ collections:
   slug: open-weka-weka-home-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/capabilities/weka-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/weka-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/overlays/weka-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weka-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/agentic-access/weka-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weka-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/authentication/weka-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weka-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/security/weka-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weka-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/security/weka-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/weka-vulnerability-disclosure.yml
@@ -414,38 +445,47 @@ common:
   type: Security
   url: https://www.weka.io/company/vulnerability-discovery-procedure/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/packages/weka-packages.yml
   title: ''
   type: Packages
   url: packages/weka-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/packages/weka-packages.yml
   title: ''
   type: SDKs
   url: packages/weka-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/cli/weka-cli.yml
   title: ''
   type: CLI
   url: cli/weka-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/mcp/weka-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/weka-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/llms/weka-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/weka-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/lifecycle/weka-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/weka-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/lifecycle/weka-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/weka-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/changelog/weka-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/weka-changelog.yml
@@ -506,6 +546,41 @@ overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, in
 
   Weka''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 20 more developer resources.'
 random_paper: 4
+score:
+  band: developing
+  composite: 45.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 53.0
+    developer_ergonomics: 73.2
+    discoverability: 57.4
+    operational_transparency: 36.8
+  previous_composite: 45.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 45
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/screenshots/weka-2026-08-17T082907.png
 security:
 - kind: authentication

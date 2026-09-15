@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -66,26 +91,32 @@ collections:
   slug: open-crea-realtor-ca-ddf-web-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/capabilities/crea-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/crea-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/overlays/crea-realtor-ca-ddf-web-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crea-realtor-ca-ddf-web-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/overlays/crea-realtor-ca-ddf-web-api-swagger-endpoint-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crea-realtor-ca-ddf-web-api-swagger-endpoint-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/overlays/crea-realtor-ca-board-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crea-realtor-ca-board-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/agentic-access/crea-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crea-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/security/crea-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crea-vulnerability-disclosure.yml
@@ -94,90 +125,112 @@ common:
   type: Security
   url: https://www.crea.ca/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/security/crea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crea-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/well-known/crea-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crea-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/well-known/crea-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crea-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/authentication/crea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crea-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/scopes/crea-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/crea-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/conventions/crea-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crea-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/errors/crea-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crea-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/lifecycle/crea-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crea-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/changelog/crea-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crea-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/conformance/crea-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crea-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/data-model/crea-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crea-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/packages/crea-packages.yml
   title: ''
   type: Packages
   url: packages/crea-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/mcp/crea-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/crea-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/mcp/crea-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/crea-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/llms/crea-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crea-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/components/crea-components.yml
   title: ''
   type: Components
   url: components/crea-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-authenticate-and-query-listings.md
   title: ''
   type: AgentSkill
   url: skills/crea-authenticate-and-query-listings.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-replicate-ddf-feed.md
   title: ''
   type: AgentSkill
   url: skills/crea-replicate-ddf-feed.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-send-lead-to-realtor.md
   title: ''
   type: AgentSkill
   url: skills/crea-send-lead-to-realtor.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-pull-board-roster.md
   title: ''
   type: AgentSkill
   url: skills/crea-pull-board-roster.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-comply-with-ddf-display-rules.md
   title: ''
   type: AgentSkill
   url: skills/crea-comply-with-ddf-display-rules.md
@@ -273,6 +326,48 @@ scopes:
   scope_count: 5
   slug: crea-scopes
   summary_line: 5 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 41.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 47.1
+    developer_ergonomics: 50.6
+    discoverability: 92.6
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 41.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png
 security:
 - kind: authentication

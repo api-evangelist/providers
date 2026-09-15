@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: RESTful API (v2.0.0) for Arctic Wolf partner applications managing multiple customer tenants — create a partner application, generate an OAuth client-credentials bearer token, run health checks, and i
@@ -64,14 +89,17 @@ common:
   type: PrivacyPolicy
   url: https://arcticwolf.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/authentication/arctic-wolf-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arctic-wolf-networks-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/scopes/arctic-wolf-networks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/arctic-wolf-networks-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/conformance/arctic-wolf-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arctic-wolf-networks-conformance.yml
@@ -80,14 +108,17 @@ common:
   type: Compliance
   url: https://trust.arcticwolf.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/security/arctic-wolf-networks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/arctic-wolf-networks-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/security/arctic-wolf-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arctic-wolf-networks-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/security/arctic-wolf-networks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/arctic-wolf-networks-vulnerability-disclosure.yml
@@ -96,18 +127,22 @@ common:
   type: Security
   url: https://arcticwolf.com/vulnerability-disclosure
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/well-known/arctic-wolf-networks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arctic-wolf-networks-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/well-known/arctic-wolf-networks-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/arctic-wolf-networks-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/llms/arctic-wolf-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arctic-wolf-networks-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/lifecycle/arctic-wolf-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arctic-wolf-networks-lifecycle.yml
@@ -133,6 +168,34 @@ scopes:
   scope_count: 1
   slug: arctic-wolf-networks-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: thin
+  composite: 33.4
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 28.9
+  previous_composite: 33.4
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/screenshots/arctic-wolf-networks-2026-07-25T201104.png
 security:
 - kind: authentication

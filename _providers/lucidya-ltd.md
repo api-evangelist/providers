@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - description: Receive real-time push notifications when specific events or conditions are met across your monitors.
@@ -218,42 +243,52 @@ collections:
   slug: open-lucidya-ltd-social-listening-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/capabilities/lucidya-ltd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lucidya-ltd-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-pull-social-listening-widget-data.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-pull-social-listening-widget-data.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-ai-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-analyze-arabic-text.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-analyze-arabic-text.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-transcribe-audio.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-transcribe-audio.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-cdp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-cdp-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-manage-cdp-profiles-and-segments.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-manage-cdp-profiles-and-segments.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-omnichannel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-omnichannel-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-omniserve-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-omniserve-analytics-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/lucidya-ltd-run-omniserve-analytics-job.md
   title: ''
   type: AgentSkill
   url: skills/lucidya-ltd-run-omniserve-analytics-job.md
@@ -278,14 +313,17 @@ common:
   type: GettingStarted
   url: https://docs.lucidya.com/docs/Social-Listening-api/rqwky70duwx76-get-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/authentication/lucidya-ltd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lucidya-ltd-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/conventions/lucidya-ltd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lucidya-ltd-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/asyncapi/lucidya-ltd-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lucidya-ltd-webhooks.yml
@@ -302,6 +340,7 @@ common:
   type: Blog
   url: https://lucidya.com/blog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/changelog/lucidya-ltd-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lucidya-ltd-changelog.yml
@@ -310,6 +349,7 @@ common:
   type: StatusPage
   url: https://status.lucidya.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/lifecycle/lucidya-ltd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lucidya-ltd-lifecycle.yml
@@ -334,10 +374,12 @@ common:
   type: PrivacyPolicy
   url: https://lucidya.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/security/lucidya-ltd-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/lucidya-ltd-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/security/lucidya-ltd-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lucidya-ltd-vulnerability-disclosure.yml
@@ -346,14 +388,17 @@ common:
   type: TrustCenter
   url: https://trust.lucidya.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/conformance/lucidya-ltd-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lucidya-ltd-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/conformance/lucidya-ltd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lucidya-ltd-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/security/lucidya-ltd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lucidya-ltd-domain-security.yml
@@ -362,46 +407,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/lucidya
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/llms/lucidya-ltd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lucidya-ltd-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-social-listening-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/lucidya-ltd-social-listening-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-social-listening-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidya-ltd-social-listening-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/errors/lucidya-ltd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lucidya-ltd-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/rate-limits/lucidya-ltd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lucidya-ltd-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/plans/lucidya-ltd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lucidya-ltd-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/data-model/lucidya-ltd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lucidya-ltd-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/sandbox/lucidya-ltd-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lucidya-ltd-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/packages/lucidya-ltd-packages.yml
   title: ''
   type: Packages
   url: packages/lucidya-ltd-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/mcp/lucidya-ltd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lucidya-ltd-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -429,6 +485,40 @@ rate_limits:
 - limit_count: 4
   name: Lucidya Ltd Rate Limits
   slug: lucidya-ltd-rate-limits
+score:
+  band: exemplar
+  composite: 66.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 64.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 84.2
+  previous_composite: 66.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
 security:
 - kind: authentication

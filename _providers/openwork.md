@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 52.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.openworklabs.com
@@ -320,6 +346,7 @@ collections:
   slug: open-openwork-workers-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/capabilities/openwork-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openwork-capability-edges.yml
@@ -340,18 +367,22 @@ common:
   type: ContributionGuide
   url: https://github.com/different-ai/openwork/blob/dev/CONTRIBUTING.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/overlays/openwork-den-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openwork-den-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/security/openwork-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/openwork-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/security/openwork-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openwork-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/authentication/openwork-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openwork-authentication.yml
@@ -404,62 +435,77 @@ common:
   type: ChangeLog
   url: https://github.com/different-ai/openwork/releases
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/llms/openwork-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openwork-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/well-known/openwork-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openwork-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/scopes/openwork-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openwork-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/mcp/openwork-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openwork-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/conformance/openwork-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openwork-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/security/openwork-trust-center.yml
   title: ''
   type: Compliance
   url: security/openwork-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/errors/openwork-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openwork-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/lifecycle/openwork-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openwork-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/conventions/openwork-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openwork-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/data-model/openwork-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openwork-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/packages/openwork-packages.yml
   title: ''
   type: Packages
   url: packages/openwork-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/packages/openwork-packages.yml
   title: ''
   type: SDKs
   url: packages/openwork-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/changelog/openwork-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openwork-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/asyncapi/openwork-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openwork-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -488,6 +534,40 @@ scopes:
   scope_count: 0
   slug: openwork-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 49.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 63.4
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 49.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/screenshots/openwork-2026-08-17T124245.png
 security:
 - kind: authentication

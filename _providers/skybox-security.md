@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skybox-security/refs/heads/main/security/skybox-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skybox-security-domain-security.yml

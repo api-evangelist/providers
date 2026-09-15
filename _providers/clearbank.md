@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -136,42 +161,52 @@ collections:
   slug: open-clearbank-sterling-v4
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/capabilities/clearbank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clearbank-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/mcp/clearbank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clearbank-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/security/clearbank-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clearbank-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/security/clearbank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clearbank-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/agentic-access/clearbank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clearbank-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/authentication/clearbank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clearbank-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/conventions/clearbank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clearbank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/conventions/clearbank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/clearbank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/errors/clearbank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clearbank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/lifecycle/clearbank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clearbank-lifecycle.yml
@@ -184,22 +219,27 @@ common:
   type: Deprecation
   url: https://clearbank.github.io/uk/docs/api/support-life-cycle
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/sandbox/clearbank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clearbank-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/asyncapi/clearbank-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/clearbank-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/conformance/clearbank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clearbank-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/data-model/clearbank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clearbank-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/packages/clearbank-packages.yml
   title: ''
   type: Packages
   url: packages/clearbank-packages.yml
@@ -208,62 +248,77 @@ common:
   type: Postman
   url: https://github.com/clearbank/fi-api-postman
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/well-known/clearbank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clearbank-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/well-known/clearbank-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clearbank-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/llms/clearbank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clearbank-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-sterling-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-sterling-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-fps-initiate-payment-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-fps-initiate-payment-v3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-chaps-v6-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-chaps-v6-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-cross-border-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-cross-border-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-mccy-accounts-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-mccy-accounts-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-mccy-payments-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-mccy-payments-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-fx-orchestrator-rfq-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-fx-orchestrator-rfq-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-sepa-ct-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-sepa-ct-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-cop-outbound-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-cop-outbound-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-know-your-customer-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-know-your-customer-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/overlays/clearbank-customers_v2_retail-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearbank-customers_v2_retail-overlay.yaml
@@ -328,6 +383,55 @@ overview: 'ClearBank publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
   ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 38 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 47.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 48.5
+    developer_ergonomics: 61.3
+    discoverability: 81.5
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 47.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 44.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:
 - kind: authentication

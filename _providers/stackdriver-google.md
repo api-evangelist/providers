@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Cloud Monitoring API (v3) collects metrics, events, and metadata from Google Cloud, AWS, and application instrumentation, and exposes them for dashboards, uptime checks, alerting policies, and time-se
@@ -22,6 +47,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/security/stackdriver-google-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stackdriver-google-vulnerability-disclosure.yml
@@ -30,26 +56,32 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/security/stackdriver-google-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stackdriver-google-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/well-known/stackdriver-google-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stackdriver-google-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/well-known/stackdriver-google-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stackdriver-google-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/packages/stackdriver-google-packages.yml
   title: ''
   type: Packages
   url: packages/stackdriver-google-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/packages/stackdriver-google-packages.yml
   title: ''
   type: SDKs
   url: packages/stackdriver-google-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/lifecycle/stackdriver-google-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stackdriver-google-lifecycle.yml
@@ -122,6 +154,32 @@ overview: 'Stackdriver (Google) publishes 3 APIs on the [APIs.io](https://apis.i
 
   Stackdriver (Google)''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 15 more developer resources.'
 random_paper: 20
+score:
+  band: thin
+  composite: 29.0
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 74.1
+    operational_transparency: 36.8
+  previous_composite: 29.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/screenshots/stackdriver-google-2026-09-02T160705.png
 security:
 - kind: domain-security

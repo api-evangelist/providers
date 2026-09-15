@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://go.qxo.com/qxoapi'', ''status'': 200, ''note'': ''API access is sales-gated: requester must already be a QXO customer and accept the API licence terms. No self-serve signup, no published price.''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.2
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - baseURL: https://beaconproplus.com/v2/rest/com/becn
@@ -51,10 +76,12 @@ apis:
 artifact_total: 27
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/authentication/beacon-roofing-supply-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beacon-roofing-supply-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/security/beacon-roofing-supply-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beacon-roofing-supply-domain-security.yml
@@ -107,62 +134,77 @@ common:
   type: ChangeLog
   url: https://beaconproplus.com/swagger/dev/index.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/changelog/beacon-roofing-supply-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beacon-roofing-supply-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/scopes/beacon-roofing-supply-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beacon-roofing-supply-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/conventions/beacon-roofing-supply-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beacon-roofing-supply-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/errors/beacon-roofing-supply-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beacon-roofing-supply-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/errors/beacon-roofing-supply-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/beacon-roofing-supply-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/lifecycle/beacon-roofing-supply-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beacon-roofing-supply-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/lifecycle/beacon-roofing-supply-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/beacon-roofing-supply-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/conformance/beacon-roofing-supply-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beacon-roofing-supply-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/data-model/beacon-roofing-supply-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beacon-roofing-supply-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/packages/beacon-roofing-supply-packages.yml
   title: ''
   type: Packages
   url: packages/beacon-roofing-supply-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/llms/beacon-roofing-supply-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beacon-roofing-supply-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/plans/beacon-roofing-supply-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/beacon-roofing-supply-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/rate-limits/beacon-roofing-supply-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/beacon-roofing-supply-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/finops/beacon-roofing-supply-finops.yml
   title: ''
   type: FinOps
   url: finops/beacon-roofing-supply-finops.yml
@@ -234,6 +276,40 @@ scopes:
   scope_count: 0
   slug: beacon-roofing-supply-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 43.8
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 50.3
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 23.7
+  previous_composite: 43.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/screenshots/beacon-roofing-supply-2026-06-20T173105.png
 security:
 - kind: authentication

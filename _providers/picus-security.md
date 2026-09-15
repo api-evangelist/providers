@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -139,26 +164,32 @@ collections:
   slug: open-picus-security-users-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/mcp/picus-security-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/picus-security-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/overlays/picus-security-activity-logs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/picus-security-activity-logs-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/agentic-access/picus-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/picus-security-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/security/picus-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/picus-security-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/security/picus-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/picus-security-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/authentication/picus-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/picus-security-authentication.yml
@@ -227,6 +258,7 @@ common:
   type: LLMsTxt
   url: https://apidocs.picussecurity.com/llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/lifecycle/picus-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/picus-security-lifecycle.yml
@@ -235,42 +267,52 @@ common:
   type: Deprecation
   url: https://apidocs.picussecurity.com/docs/versioning
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/changelog/picus-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/picus-security-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/conventions/picus-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/picus-security-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/rate-limits/picus-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/picus-security-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/errors/picus-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/picus-security-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/conformance/picus-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/picus-security-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/data-model/picus-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/picus-security-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/packages/picus-security-packages.yml
   title: ''
   type: Packages
   url: packages/picus-security-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/security/picus-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/picus-security-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/llms/picus-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/picus-security-llms.txt
@@ -291,6 +333,41 @@ rate_limits:
 - limit_count: 2
   name: Picus Security Rate Limits
   slug: picus-security-rate-limits
+score:
+  band: developing
+  composite: 47.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 54.3
+    developer_ergonomics: 35.1
+    discoverability: 81.5
+    operational_transparency: 59.2
+  previous_composite: 47.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/screenshots/picus-security-2026-08-17T081225.png
 security:
 - kind: authentication

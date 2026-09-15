@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://snowsignals.io/v1
@@ -26,66 +52,82 @@ common:
   type: GitHubRepository
   url: https://github.com/snowkidind/snowsignals-mcp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/llms/snowsignals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snowsignals-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/well-known/snowsignals-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/snowsignals-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/mcp/snowsignals-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/snowsignals-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/mcp/snowsignals-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/snowsignals-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/authentication/snowsignals-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snowsignals-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/scopes/snowsignals-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/snowsignals-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/conventions/snowsignals-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snowsignals-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/errors/snowsignals-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/snowsignals-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/conformance/snowsignals-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snowsignals-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/lifecycle/snowsignals-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/snowsignals-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/plans/snowsignals-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snowsignals-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/rate-limits/snowsignals-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snowsignals-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/data-model/snowsignals-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snowsignals-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/security/snowsignals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snowsignals-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/packages/snowsignals-packages.yml
   title: ''
   type: Packages
   url: packages/snowsignals-packages.yml
@@ -104,7 +146,7 @@ modified: '2026-09-10'
 name: SnowSignals
 nav: Providers
 network: true
-overview: 'SnowSignals publishes 2 APIs on the [APIs.io](https://apis.io/) network, including x402 Gateway, and 1 more. Tagged areas include crypto, market-data, bitcoin, analytics, and market-phase.
+overview: 'SnowSignals publishes 2 APIs on the [APIs.io](https://apis.io/) network, including x402 Gateway, and 1 more. Tagged areas include Crypto, Market Data, Bitcoin, Analytics, and market-phase.
 
 
   SnowSignals'' developer surface includes authentication and 18 more developer resources.'
@@ -122,6 +164,46 @@ scopes:
   scope_count: 1
   slug: snowsignals-scopes
   summary_line: 1 scope
+score:
+  band: thin
+  composite: 32.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 47.6
+    developer_ergonomics: 23.2
+    discoverability: 70.4
+    operational_transparency: 5.3
+  previous_composite: 32.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 55.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Snowsignals Authentication
@@ -133,17 +215,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: snowsignals
 tags:
-- crypto
-- market-data
-- bitcoin
-- analytics
+- Crypto
+- Market Data
+- Bitcoin
+- Analytics
 - market-phase
 - regime
 - trendvane
-- daas
-- mcp
+- DaaS
+- MCP
 - agent-native
-- financial-data
+- Financial Data
 - x402
 website: https://snowsignals.io
 ---

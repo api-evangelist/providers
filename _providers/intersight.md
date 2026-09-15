@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bound
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - baseURL: https://intersight.com
@@ -603,58 +628,72 @@ apis:
 artifact_total: 124
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/capabilities/intersight-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/intersight-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-fabric-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-fabric-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-hyperflex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-hyperflex-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-kubernetes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-kubernetes-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-nexus-insight-advisor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-nexus-insight-advisor-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-orchestrator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-orchestrator-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-server-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-storage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-storage-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-system-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-system-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-telemetry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-telemetry-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-virtualization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-virtualization-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/overlays/intersight-workflows-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/intersight-workflows-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/security/intersight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intersight-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/scopes/intersight-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/intersight-scopes.yml
@@ -687,10 +726,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/CiscoDevNet
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/packages/intersight-packages.yml
   title: ''
   type: Packages
   url: packages/intersight-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/packages/intersight-packages.yml
   title: ''
   type: SDKs
   url: packages/intersight-packages.yml
@@ -699,34 +740,42 @@ common:
   type: Postman
   url: https://github.com/CiscoDevNet/intersight-postman
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/well-known/intersight-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/intersight-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/llms/intersight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/intersight-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/conformance/intersight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/intersight-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/security/intersight-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/intersight-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/security/intersight-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/intersight-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/security/intersight-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/intersight-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/errors/intersight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/intersight-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/lifecycle/intersight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/intersight-lifecycle.yml
@@ -735,26 +784,32 @@ common:
   type: StatusPage
   url: https://status.intersight.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/lifecycle/intersight-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/intersight-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/conventions/intersight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/intersight-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/conventions/intersight-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/intersight-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/changelog/intersight-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/intersight-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/data-model/intersight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/intersight-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/plans/intersight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/intersight-plans-pricing.yml
@@ -763,18 +818,22 @@ common:
   type: Pricing
   url: https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/licensing.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/rate-limits/intersight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/intersight-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/sandbox/intersight-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/intersight-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/authentication/intersight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intersight-authentication.yml
@@ -824,6 +883,40 @@ scopes:
   scope_count: 3317
   slug: intersight-scopes
   summary_line: 3317 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 55.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 54.3
+    developer_ergonomics: 75.6
+    discoverability: 57.4
+    operational_transparency: 52.6
+  previous_composite: 55.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 117
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/screenshots/intersight-2026-09-02T145914.png
 security:
 - kind: authentication

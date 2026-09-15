@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -116,18 +141,22 @@ collections:
   slug: open-understudy-labs-supervision-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/overlays/understudy-labs-desktop-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/understudy-labs-desktop-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/agentic-access/understudy-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/understudy-labs-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/authentication/understudy-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/understudy-labs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/security/understudy-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/understudy-labs-domain-security.yml
@@ -176,54 +205,67 @@ common:
   type: PrivacyPolicy
   url: https://understudylabs.com/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/llms/understudy-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/understudy-labs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/well-known/understudy-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/understudy-labs-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/mcp/understudy-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/understudy-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/errors/understudy-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/understudy-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/conventions/understudy-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/understudy-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/lifecycle/understudy-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/understudy-labs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/conformance/understudy-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/understudy-labs-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/packages/understudy-labs-packages.yml
   title: ''
   type: Packages
   url: packages/understudy-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/cli/understudy-labs-cli.yml
   title: ''
   type: CLI
   url: cli/understudy-labs-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/changelog/understudy-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/understudy-labs-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/data-model/understudy-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/understudy-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/arazzo/understudy-labs-download-warm-and-chat.yml
   title: ''
   type: Arazzo
   url: arazzo/understudy-labs-download-warm-and-chat.yml
@@ -244,6 +286,41 @@ overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 21 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 47.8
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 43.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/screenshots/understudy-labs-2026-08-17T082556.png
 security:
 - kind: authentication

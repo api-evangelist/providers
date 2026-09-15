@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -231,74 +256,92 @@ common:
   type: Website
   url: https://www.buildkite.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/agentic-access/buildkite-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/buildkite-com-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/security/buildkite-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/buildkite-com-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/security/buildkite-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buildkite-com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/authentication/buildkite-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buildkite-com-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/scopes/buildkite-com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/buildkite-com-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/packages/buildkite-com-packages.yml
   title: ''
   type: Packages
   url: packages/buildkite-com-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/well-known/buildkite-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/buildkite-com-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/mcp/buildkite-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/buildkite-com-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/llms/buildkite-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buildkite-com-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/cli/buildkite-com-cli.yml
   title: ''
   type: CLI
   url: cli/buildkite-com-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/changelog/buildkite-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/buildkite-com-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/lifecycle/buildkite-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/buildkite-com-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/conventions/buildkite-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/buildkite-com-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/conformance/buildkite-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/buildkite-com-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/errors/buildkite-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/buildkite-com-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/data-model/buildkite-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/buildkite-com-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/overlays/buildkite-com-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/buildkite-com-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/overlays/buildkite-com-agent-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/buildkite-com-agent-api-overlay.yaml
@@ -307,38 +350,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/buildkite/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-build-failure-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-build-failure-triage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-cancel-running-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-cancel-running-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-collect-build-artifacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-collect-build-artifacts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-fetch-job-log-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-fetch-job-log-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-provision-pipeline-and-first-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-provision-pipeline-and-first-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-rebuild-latest-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-rebuild-latest-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-retry-failed-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-retry-failed-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-stop-disconnected-agent-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-stop-disconnected-agent-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/arazzo/buildkite-com-trigger-and-poll-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/buildkite-com-trigger-and-poll-build-workflow.yml
@@ -463,22 +515,27 @@ common:
   type: SourceCode
   url: https://github.com/buildkite/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/plans/buildkite-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buildkite-com-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/rate-limits/buildkite-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buildkite-com-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/finops/buildkite-com-finops.yml
   title: ''
   type: FinOps
   url: finops/buildkite-com-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/vocabulary/buildkite-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/buildkite-com-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/rules/buildkite-rules.yml
   title: ''
   type: Spectral
   url: rules/buildkite-rules.yml
@@ -618,6 +675,40 @@ scopes:
   scope_count: 42
   slug: buildkite-com-scopes
   summary_line: 42 scopes
+score:
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 74.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 33.3
+    contract_quality: 64.4
+    developer_ergonomics: 72.6
+    discoverability: 66.7
+    operational_transparency: 47.4
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:
 - kind: authentication
@@ -648,6 +739,5 @@ tags:
 - REST
 - MCP
 - Webhook
-- Developer Tools
 website: https://www.buildkite.com/
 ---

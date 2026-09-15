@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.entergram.com
@@ -57,50 +83,62 @@ common:
   type: StatusPage
   url: https://status.entergram.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/changelog/entergram-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/entergram-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/lifecycle/entergram-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/entergram-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/plans/entergram-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/entergram-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/llms/entergram-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/entergram-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/well-known/entergram-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/entergram-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/well-known/entergram-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/entergram-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/conformance/entergram-conformance.yml
   title: ''
   type: Conformance
   url: conformance/entergram-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/security/entergram-trust-center.yml
   title: ''
   type: Compliance
   url: security/entergram-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/security/entergram-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/entergram-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/security/entergram-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/entergram-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/security/entergram-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/entergram-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/security/entergram-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/entergram-domain-security.yml
@@ -116,7 +154,7 @@ modified: '2026-09-11'
 name: Entergram
 nav: Providers
 network: true
-overview: 'Entergram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, Notifications, Communications, CRM, and Telegram.
+overview: 'Entergram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, Notification, Communications, CRM, and Telegram.
 
 
   The Entergram catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -137,6 +175,35 @@ scopes:
   scope_count: 0
   slug: entergram-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 54.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Entergram Authentication
@@ -157,14 +224,14 @@ security:
 slug: entergram
 tags:
 - Messaging
-- Notifications
+- Notification
 - Communications
 - CRM
 - Telegram
-- Customer Support
+- Customer-Support
 - Ticketing
 - Sales
 - MCP
-- Webhooks
+- Webhook
 website: https://www.entergram.com
 ---

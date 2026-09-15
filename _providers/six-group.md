@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.0
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -121,14 +147,17 @@ collections:
   slug: open-six-group-token-provisioning-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/capabilities/six-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/six-group-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/security/six-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/six-group-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/security/six-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/six-group-domain-security.yml
@@ -169,46 +198,57 @@ common:
   type: Support
   url: https://www.six-group.com/en/contacts.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/packages/six-group-packages.yml
   title: ''
   type: Packages
   url: packages/six-group-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/components/six-group-components.yml
   title: ''
   type: Components
   url: components/six-group-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/well-known/six-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/six-group-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/well-known/six-group-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/six-group-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/mcp/six-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/six-group-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/llms/six-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/six-group-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/conformance/six-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/six-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/errors/six-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/six-group-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/lifecycle/six-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/six-group-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/lifecycle/six-group-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/six-group-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/authentication/six-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/six-group-authentication.yml
@@ -217,26 +257,32 @@ common:
   type: Security
   url: https://hackerone.com/six-group
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/sandbox/six-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/six-group-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/conventions/six-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/six-group-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/changelog/six-group-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/six-group-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/data-model/six-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/six-group-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/asyncapi/six-group-debix-push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/six-group-debix-push-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -276,6 +322,54 @@ overview: 'SIX publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
 
   SIX''s developer surface includes developer portal, documentation, engineering blog, support, authentication, sandbox, changelog, and 28 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 59.8
+    developer_ergonomics: 70.8
+    discoverability: 72.2
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 54.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 95.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 55.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png
 security:
 - kind: authentication

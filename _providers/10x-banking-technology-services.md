@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The REST API surface of the 10x SuperCore platform, covering parties, subscriptions, arrangements, transaction/deposit/loan/credit-card products, repayment schedules, interest overrides, cards, statem
@@ -59,62 +84,77 @@ common:
   type: Security
   url: https://www.10xbanking.com/responsible-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/security/10x-banking-technology-services-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/10x-banking-technology-services-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/well-known/10x-banking-technology-services-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/10x-banking-technology-services-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/well-known/10x-banking-technology-services-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/10x-banking-technology-services-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/security/10x-banking-technology-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/10x-banking-technology-services-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/authentication/10x-banking-technology-services-authentication.yml
   title: ''
   type: Authentication
   url: authentication/10x-banking-technology-services-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/conventions/10x-banking-technology-services-conventions.yml
   title: ''
   type: Conventions
   url: conventions/10x-banking-technology-services-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/errors/10x-banking-technology-services-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/10x-banking-technology-services-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/lifecycle/10x-banking-technology-services-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/10x-banking-technology-services-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/changelog/10x-banking-technology-services-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/10x-banking-technology-services-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/sandbox/10x-banking-technology-services-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/10x-banking-technology-services-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/rate-limits/10x-banking-technology-services-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/10x-banking-technology-services-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/plans/10x-banking-technology-services-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/10x-banking-technology-services-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/packages/10x-banking-technology-services-packages.yml
   title: ''
   type: Packages
   url: packages/10x-banking-technology-services-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/conformance/10x-banking-technology-services-conformance.yml
   title: ''
   type: Conformance
   url: conformance/10x-banking-technology-services-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/llms/10x-banking-technology-services-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/10x-banking-technology-services-llms.txt
@@ -144,7 +184,7 @@ modified: '2026-09-05'
 name: 10x Banking Technology Services
 nav: Providers
 network: true
-overview: '10x Banking Technology Services publishes 1 API on the [APIs.io](https://apis.io/) network: 10x Banking Platform API. Tagged areas include Financial-Services, Banking, Core Banking, Cloud Native, and Banking as a Service.
+overview: '10x Banking Technology Services publishes 1 API on the [APIs.io](https://apis.io/) network: 10x Banking Platform API. Tagged areas include Financial-Services, Banking, Core Banking, Cloud-Native, and Banking as a Service.
 
 
   10x Banking Technology Services'' developer surface includes documentation, engineering blog, support, signup flow, authentication, changelog, sandbox, and 21 more developer resources.'
@@ -157,6 +197,49 @@ rate_limits:
 - limit_count: 0
   name: 10X Banking Technology Services Rate Limits
   slug: 10x-banking-technology-services-rate-limits
+score:
+  band: thin
+  composite: 30.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 75.9
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 30.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: 10X Banking Technology Services Authentication
@@ -175,16 +258,16 @@ tags:
 - Financial-Services
 - Banking
 - Core Banking
-- Cloud Native
+- Cloud-Native
 - Banking as a Service
 - Embedded Finance
 - Payments
 - Lending
 - Deposits
 - Cards
-- Event Driven
+- Event-Driven
 - United Kingdom
-- SaaS
+- Software-as-a-Service
 - Fintech
 website: https://www.10xbanking.com/
 ---

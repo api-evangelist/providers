@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 63.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -307,14 +333,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sp-global/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/agentic-access/sp-global-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sp-global-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/security/sp-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sp-global-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/authentication/sp-global-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sp-global-authentication.yml
@@ -367,34 +396,42 @@ common:
   type: Blog
   url: https://kensho.com/blog
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/plans/sp-global-plans-pricing.yml
   title: S&P Global / Kensho API Plans (API Commons Plans 0.1)
   type: Plans
   url: plans/sp-global-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/rate-limits/sp-global-rate-limits.yml
   title: S&P Global / Kensho API Rate Limits (API Commons Rate Limits 0.1)
   type: RateLimits
   url: rate-limits/sp-global-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/finops/sp-global-finops.yml
   title: S&P Global / Kensho API FinOps mapping (FOCUS aligned)
   type: FinOps
   url: finops/sp-global-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/json-ld/sp-global-context.jsonld
   title: S&P Global JSON-LD context
   type: JSONLD
   url: json-ld/sp-global-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/json-schema/kensho-llmready-company-info-schema.json
   title: LLM-ready API Company Info JSON Schema
   type: JSONSchema
   url: json-schema/kensho-llmready-company-info-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/json-schema/kensho-extract-extraction-schema.json
   title: Kensho Extract Extraction JSON Schema
   type: JSONSchema
   url: json-schema/kensho-extract-extraction-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/json-schema/kensho-nerd-annotation-schema.json
   title: Kensho NERD Annotation JSON Schema
   type: JSONSchema
   url: json-schema/kensho-nerd-annotation-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/vocabulary/sp-global-vocabulary.yml
   title: S&P Global vocabulary
   type: Vocabulary
   url: vocabulary/sp-global-vocabulary.yml
@@ -403,34 +440,42 @@ common:
   type: Subsidiaries
   url: ''
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/packages/sp-global-packages.yml
   title: First-party packages (kensho-kfinance on PyPI)
   type: Packages
   url: packages/sp-global-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/well-known/sp-global-well-known.yml
   title: Well-known probe index (RFC 8414 + RFC 9728 metadata on kfinance.kensho.com)
   type: WellKnown
   url: well-known/sp-global-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/mcp/sp-global-mcp.yml
   title: Hosted kFinance MCP server manifest (https://kfinance.kensho.com/integrations/mcp)
   type: MCPServer
   url: mcp/sp-global-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/llms/sp-global-llms.txt
   title: Generated llms.txt for the S&P Global / Kensho API surface
   type: LLMsTxt
   url: llms/sp-global-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/scopes/sp-global-scopes.yml
   title: OAuth scopes (from live RFC 8414 metadata)
   type: OAuthScopes
   url: scopes/sp-global-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/conformance/sp-global-conformance.yml
   title: Standards conformance (OAuth2/OIDC/PKCE/MCP/RFC 8414/9728)
   type: Conformance
   url: conformance/sp-global-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/errors/sp-global-problem-types.yml
   title: Error catalog derived from OpenAPI 4xx/5xx responses
   type: ErrorCatalog
   url: errors/sp-global-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/lifecycle/sp-global-lifecycle.yml
   title: Versioning, supersession, and status-page lifecycle profile
   type: Lifecycle
   url: lifecycle/sp-global-lifecycle.yml
@@ -439,34 +484,42 @@ common:
   type: StatusPage
   url: https://status.kensho.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/changelog/sp-global-changelog.yml
   title: kensho-kfinance changelog (semver, current 7.0.2)
   type: ChangeLog
   url: changelog/sp-global-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/conventions/sp-global-conventions.yml
   title: Cross-cutting API conventions (auth, batching, async jobs, errors)
   type: Conventions
   url: conventions/sp-global-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/data-model/sp-global-data-model.yml
   title: Capital IQ identification-triple entity graph
   type: DataModel
   url: data-model/sp-global-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/skills/_index.yml
   title: S&P Global Plugin Agent Skills (provider-published, saved verbatim)
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/collections/kensho-llmready.postman_collection.json
   title: Postman collection for the LLM-Ready API (repo artifact)
   type: PostmanCollection
   url: collections/kensho-llmready.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/examples/kensho-llmready-get-company-information-example.json
   title: ''
   type: Examples
   url: examples/kensho-llmready-get-company-information-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/examples/kensho-llmready-get-financial-statement-example.json
   title: ''
   type: Examples
   url: examples/kensho-llmready-get-financial-statement-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/examples/kensho-extract-post-v3-extractions-example.json
   title: ''
   type: Examples
   url: examples/kensho-extract-post-v3-extractions-example.json
@@ -874,6 +927,41 @@ scopes:
   scope_count: 2
   slug: sp-global-scopes
   summary_line: 2 scopes · authorizationCode/refresh_token
+score:
+  band: strong
+  composite: 65.7
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 70.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 47.0
+    contract_quality: 69.8
+    developer_ergonomics: 89.3
+    discoverability: 72.2
+    operational_transparency: 36.8
+  previous_composite: 65.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:
 - kind: authentication

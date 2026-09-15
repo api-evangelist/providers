@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.8
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://tokensniffer.com/api/v2
@@ -81,10 +106,12 @@ collections:
   slug: open-solidus-labs-webhooks-api-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/overlays/solidus-labs-tokensniffer-addresses-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solidus-labs-tokensniffer-addresses-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/security/solidus-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solidus-labs-domain-security.yml
@@ -149,74 +176,92 @@ common:
   type: FAQ
   url: https://tokensniffer.readme.io/reference/faq
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/authentication/solidus-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solidus-labs-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/llms/solidus-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solidus-labs-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/conventions/solidus-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/solidus-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/errors/solidus-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/solidus-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/lifecycle/solidus-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solidus-labs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/changelog/solidus-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/solidus-labs-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/rate-limits/solidus-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/solidus-labs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/plans/solidus-labs-plans.yml
   title: ''
   type: Plans
   url: plans/solidus-labs-plans.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/packages/solidus-labs-packages.yml
   title: ''
   type: Packages
   url: packages/solidus-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/packages/solidus-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/solidus-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/cli/solidus-labs-cli.yml
   title: ''
   type: CLI
   url: cli/solidus-labs-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/components/solidus-labs-components.yml
   title: ''
   type: Components
   url: components/solidus-labs-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/vocabulary/solidus-labs-exploit-types.yml
   title: ''
   type: Vocabulary
   url: vocabulary/solidus-labs-exploit-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/conformance/solidus-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solidus-labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/asyncapi/solidus-labs-tokensniffer-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/solidus-labs-tokensniffer-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/mcp/solidus-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/solidus-labs-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/mcp/solidus-labs-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/solidus-labs-tool-crosswalk.yml
@@ -245,6 +290,45 @@ rate_limits:
 - limit_count: 5
   name: Solidus Labs Rate Limits
   slug: solidus-labs-rate-limits
+score:
+  band: strong
+  composite: 65.1
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 65.0
+    catalog_earned_first_party: 25.0
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 33.3
+    contract_quality: 67.3
+    developer_ergonomics: 72.6
+    discoverability: 81.5
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 65.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/screenshots/solidus-labs-2026-08-17T080424.png
 security:
 - kind: authentication

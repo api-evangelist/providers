@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: true
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,78 +66,97 @@ common:
   type: Documentation
   url: https://www.makeupbymario.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/llms/makeup-by-mario-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/makeup-by-mario-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/well-known/makeup-by-mario-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/makeup-by-mario-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/mcp/makeup-by-mario-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/makeup-by-mario-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/mcp/makeup-by-mario-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/makeup-by-mario-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/agentic-access/makeup-by-mario-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/makeup-by-mario-agentic-access.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/graphql/makeup-by-mario-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/makeup-by-mario-storefront.graphql
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/data-model/makeup-by-mario-data-model.yml
   title: ''
   type: DataModel
   url: data-model/makeup-by-mario-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/authentication/makeup-by-mario-authentication.yml
   title: ''
   type: Authentication
   url: authentication/makeup-by-mario-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/scopes/makeup-by-mario-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/makeup-by-mario-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conventions/makeup-by-mario-conventions.yml
   title: ''
   type: Conventions
   url: conventions/makeup-by-mario-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conventions/makeup-by-mario-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/makeup-by-mario-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/errors/makeup-by-mario-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/makeup-by-mario-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/lifecycle/makeup-by-mario-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/makeup-by-mario-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conformance/makeup-by-mario-conformance.yml
   title: ''
   type: Conformance
   url: conformance/makeup-by-mario-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conformance/makeup-by-mario-conformance.yml
   title: ''
   type: Compliance
   url: conformance/makeup-by-mario-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/rate-limits/makeup-by-mario-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/makeup-by-mario-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/plans/makeup-by-mario-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/makeup-by-mario-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/security/makeup-by-mario-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/makeup-by-mario-domain-security.yml
@@ -195,6 +239,42 @@ scopes:
   scope_count: 0
   slug: makeup-by-mario-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 37.2
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 31.5
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/screenshots/makeup-by-mario-2026-09-02T150420.png
 security:
 - kind: authentication

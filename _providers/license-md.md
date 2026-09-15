@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/license-md/refs/heads/main/security/license-md-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/license-md-domain-security.yml

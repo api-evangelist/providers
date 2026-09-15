@@ -11,6 +11,31 @@ access_model:
   - https://aws.amazon.com/marketplace/pp/prodview-eolcfagze2ihw
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 2
@@ -63,22 +88,27 @@ apis:
 artifact_total: 16
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/capabilities/datavant-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datavant-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/agentic-access/datavant-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datavant-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/scopes/datavant-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/datavant-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/authentication/datavant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datavant-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/security/datavant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datavant-domain-security.yml
@@ -111,6 +141,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/datavant
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/llms/datavant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datavant-llms.txt
@@ -143,6 +174,7 @@ common:
   type: APIReference
   url: https://developer.datavant.com/docs
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-rest-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/datavant-rest-api-openapi.yml
@@ -159,30 +191,37 @@ common:
   type: Login
   url: https://portal.datavant.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/conventions/datavant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datavant-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/errors/datavant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datavant-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/data-model/datavant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datavant-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/overlays/datavant-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datavant-rest-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/lifecycle/datavant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datavant-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/changelog/datavant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datavant-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/conformance/datavant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datavant-conformance.yml
@@ -191,6 +230,7 @@ common:
   type: Compliance
   url: https://www.datavant.com/about/privacy-compliance
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/well-known/datavant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/datavant-well-known.yml
@@ -199,6 +239,7 @@ common:
   type: OpenIDConnect
   url: https://auth.datavant.com/.well-known/openid-configuration
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/security/datavant-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/datavant-vulnerability-disclosure.yml
@@ -207,18 +248,22 @@ common:
   type: Security
   url: https://www.datavant.com/report-vulnerabilities
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/security/datavant-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datavant-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/packages/datavant-packages.yml
   title: ''
   type: Packages
   url: packages/datavant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/cli/datavant-cli.yml
   title: ''
   type: CLI
   url: cli/datavant-cli.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/plans/datavant-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datavant-plans-pricing.yml
@@ -227,14 +272,17 @@ common:
   type: Pricing
   url: https://aws.amazon.com/marketplace/pp/prodview-eolcfagze2ihw
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/rate-limits/datavant-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datavant-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/mcp/datavant-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/datavant-mcp.yml
@@ -265,6 +313,54 @@ scopes:
   scope_count: 0
   slug: datavant-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 61.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 18.2
+    contract_quality: 55.2
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 73.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/screenshots/datavant-2026-07-25T211401.png
 security:
 - kind: authentication

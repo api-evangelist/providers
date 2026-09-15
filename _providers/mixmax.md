@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -77,18 +102,22 @@ collections:
   slug: open-mixmax-snippet-tags-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/mcp/mixmax-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mixmax-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/overlays/mixmax-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mixmax-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/agentic-access/mixmax-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mixmax-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/security/mixmax-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mixmax-trust-center.yml
@@ -97,18 +126,22 @@ common:
   type: Compliance
   url: https://www.mixmax.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/security/mixmax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mixmax-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/packages/mixmax-packages.yml
   title: ''
   type: Packages
   url: packages/mixmax-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/packages/mixmax-packages.yml
   title: ''
   type: SDKs
   url: packages/mixmax-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -169,26 +202,32 @@ common:
   type: Website
   url: https://www.mixmax.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/mcp/mixmax-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mixmax-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/scopes/mixmax-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mixmax-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/asyncapi/mixmax-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mixmax-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/plans/mixmax-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mixmax-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/changelog/mixmax-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mixmax-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/errors/mixmax-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mixmax-problem-types.yml
@@ -226,6 +265,41 @@ scopes:
   scope_count: 0
   slug: mixmax-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 25.0
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png
 security:
 - kind: authentication

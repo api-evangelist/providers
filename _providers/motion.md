@@ -10,6 +10,31 @@ access_model:
   - https://help.motionapp.com/en/articles/14315735-motion-mcp
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Motion's official hosted remote MCP server. Read-only, OAuth 2.0 gated, and documented with 13 tools across six categories — auth context, creative performance (ranked creatives, AI creative summaries
@@ -22,46 +47,57 @@ common:
   type: Website
   url: https://motionapp.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/llms/motion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/motion-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/security/motion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/motion-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/mcp/motion-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/motion-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/well-known/motion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/motion-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/authentication/motion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/motion-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/scopes/motion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/motion-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/conventions/motion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/motion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/errors/motion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/motion-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/rate-limits/motion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/motion-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/conformance/motion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/motion-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/lifecycle/motion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/motion-lifecycle.yml
@@ -70,10 +106,12 @@ common:
   type: StatusPage
   url: https://status.motionapp.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/plans/motion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/motion-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -118,6 +156,7 @@ common:
   type: ChangeLog
   url: https://motionapp.com/releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/changelog/motion-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/motion-changelog.yml
@@ -160,6 +199,41 @@ scopes:
   scope_count: 11
   slug: motion-scopes
   summary_line: 11 scopes
+score:
+  band: thin
+  composite: 35.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 35.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion/refs/heads/main/screenshots/motion-2026-08-07T184326.png
 security:
 - kind: authentication

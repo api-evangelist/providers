@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
@@ -47,58 +72,72 @@ common:
   type: Website
   url: https://www.loacare.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/security/loa-healthcare-pricing-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loa-healthcare-pricing-api-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/authentication/loa-healthcare-pricing-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loa-healthcare-pricing-api-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/well-known/loa-healthcare-pricing-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/loa-healthcare-pricing-api-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/llms/loa-healthcare-pricing-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loa-healthcare-pricing-api-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/conformance/loa-healthcare-pricing-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loa-healthcare-pricing-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/errors/loa-healthcare-pricing-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/loa-healthcare-pricing-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/lifecycle/loa-healthcare-pricing-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loa-healthcare-pricing-api-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/scopes/loa-healthcare-pricing-api-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/loa-healthcare-pricing-api-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/conventions/loa-healthcare-pricing-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loa-healthcare-pricing-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/conventions/loa-healthcare-pricing-api-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/loa-healthcare-pricing-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/data-model/loa-healthcare-pricing-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loa-healthcare-pricing-api-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/plans/loa-healthcare-pricing-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loa-healthcare-pricing-api-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/rate-limits/loa-healthcare-pricing-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loa-healthcare-pricing-api-rate-limits.yml
@@ -163,6 +202,46 @@ scopes:
   scope_count: 0
   slug: loa-healthcare-pricing-api-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 50.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 4.5
+    contract_quality: 52.2
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 50.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/screenshots/loa-healthcare-pricing-api-2026-08-07T171743.png
 security:
 - kind: authentication

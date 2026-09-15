@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -84,6 +109,7 @@ apis:
 artifact_total: 17
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/overlays/franklin-whole-home-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/franklin-whole-home-openapi-overlay.yaml
@@ -128,62 +154,77 @@ common:
   type: PrivacyPolicy
   url: https://www.franklinwh.com/policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/authentication/franklin-whole-home-authentication.yml
   title: ''
   type: Authentication
   url: authentication/franklin-whole-home-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/conventions/franklin-whole-home-conventions.yml
   title: ''
   type: Conventions
   url: conventions/franklin-whole-home-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/errors/franklin-whole-home-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/franklin-whole-home-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/lifecycle/franklin-whole-home-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/franklin-whole-home-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/conformance/franklin-whole-home-conformance.yml
   title: ''
   type: Conformance
   url: conformance/franklin-whole-home-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/data-model/franklin-whole-home-data-model.yml
   title: ''
   type: DataModel
   url: data-model/franklin-whole-home-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/sandbox/franklin-whole-home-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/franklin-whole-home-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/packages/franklin-whole-home-packages.yml
   title: ''
   type: Packages
   url: packages/franklin-whole-home-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/mcp/franklin-whole-home-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/franklin-whole-home-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/llms/franklin-whole-home-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/franklin-whole-home-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/rate-limits/franklin-whole-home-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/franklin-whole-home-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/plans/franklin-whole-home-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/franklin-whole-home-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/security/franklin-whole-home-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/franklin-whole-home-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/agentic-access/franklin-whole-home-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/franklin-whole-home-agentic-access.yml
@@ -208,6 +249,47 @@ rate_limits:
 - limit_count: 0
   name: Franklin Whole Home Rate Limits
   slug: franklin-whole-home-rate-limits
+score:
+  band: thin
+  composite: 26.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 14.3
+    developer_ergonomics: 37.5
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 26.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/screenshots/franklin-whole-home-2026-08-17T080936.png
 security:
 - kind: authentication

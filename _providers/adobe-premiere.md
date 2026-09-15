@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -94,22 +119,27 @@ common:
   type: Website
   url: https://www.adobe.com/products/premiere.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/agentic-access/adobe-premiere-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-premiere-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/security/adobe-premiere-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-premiere-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/security/adobe-premiere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-premiere-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/authentication/adobe-premiere-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-premiere-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/scopes/adobe-premiere-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adobe-premiere-scopes.yml
@@ -118,30 +148,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-premiere-pro/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/arazzo/adobe-premiere-add-element-to-library-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-premiere-add-element-to-library-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/arazzo/adobe-premiere-catalog-library-elements-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-premiere-catalog-library-elements-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/arazzo/adobe-premiere-fetch-element-representation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-premiere-fetch-element-representation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/arazzo/adobe-premiere-find-or-create-library-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-premiere-find-or-create-library-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/arazzo/adobe-premiere-provision-library-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-premiere-provision-library-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/arazzo/adobe-premiere-purge-library-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-premiere-purge-library-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/arazzo/adobe-premiere-rename-and-verify-library-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-premiere-rename-and-verify-library-workflow.yml
@@ -194,98 +231,122 @@ common:
   type: GettingStarted
   url: https://developer.adobe.com/premiere-pro/uxp/introduction/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/rules/adobe-premiere-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/adobe-premiere-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/vocabulary/adobe-premiere-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-premiere-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/packages/adobe-premiere-packages.yml
   title: ''
   type: Packages
   url: packages/adobe-premiere-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/packages/adobe-premiere-packages.yml
   title: ''
   type: SDKs
   url: packages/adobe-premiere-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/well-known/adobe-premiere-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adobe-premiere-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/well-known/adobe-premiere-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adobe-premiere-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/security/adobe-premiere-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/adobe-premiere-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/mcp/adobe-premiere-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/adobe-premiere-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/llms/adobe-premiere-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adobe-premiere-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/overlays/adobe-premiere-cc-libraries-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-premiere-cc-libraries-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/overlays/adobe-premiere-elements-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-premiere-elements-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/overlays/adobe-premiere-libraries-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-premiere-libraries-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/overlays/adobe-premiere-representations-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-premiere-representations-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/conformance/adobe-premiere-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adobe-premiere-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/errors/adobe-premiere-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adobe-premiere-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/lifecycle/adobe-premiere-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adobe-premiere-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/lifecycle/adobe-premiere-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/adobe-premiere-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/conventions/adobe-premiere-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adobe-premiere-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/changelog/adobe-premiere-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adobe-premiere-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/data-model/adobe-premiere-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adobe-premiere-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/asyncapi/adobe-premiere-libraries-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adobe-premiere-libraries-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/plans/adobe-premiere-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-premiere-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/rate-limits/adobe-premiere-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-premiere-rate-limits.yml
@@ -302,6 +363,7 @@ common:
   type: HelpCenter
   url: https://forums.creativeclouddeveloper.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/json-ld/adobe-premiere-creative-cloud-libraries-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-premiere-creative-cloud-libraries-context.jsonld
@@ -468,6 +530,41 @@ scopes:
   scope_count: 4
   slug: adobe-premiere-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 59.1
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 70.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 47.0
+    contract_quality: 79.2
+    developer_ergonomics: 74.4
+    discoverability: 68.5
+    operational_transparency: 52.6
+  previous_composite: 59.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/screenshots/adobe-premiere-2026-06-20T165010.png
 security:
 - kind: authentication

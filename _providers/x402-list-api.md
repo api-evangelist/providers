@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Public REST API (OpenAPI 3.1) providing access to the x402 services directory, uptime, pricing, facilitator volumes, networks, stats, rankings, and change events. Free reads (rate-limited), with x402 '
@@ -11,14 +36,17 @@ common:
   type: Website
   url: https://www.x402-list.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/security/x402-list-api-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/x402-list-api-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/security/x402-list-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/x402-list-api-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/well-known/x402-list-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/x402-list-api-well-known.yml
@@ -27,10 +55,12 @@ common:
   type: APICatalog
   url: https://x402-list.com/.well-known/api-catalog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/well-known/x402-list-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/x402-list-api-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/security/x402-list-api-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/x402-list-api-vulnerability-disclosure.yml
@@ -43,6 +73,7 @@ common:
   type: APIsJSON
   url: https://x402-list.com/.well-known/apis.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/packages/x402-list-api-packages.yml
   title: ''
   type: Packages
   url: packages/x402-list-api-packages.yml
@@ -81,7 +112,7 @@ modified: '2026-09-02'
 name: x402 List API
 nav: Providers
 network: true
-overview: 'x402 List API publishes 1 API on the [APIs.io](https://apis.io/) network: x402 List API. Tagged areas include x402, crypto, 402, agentic-payments, and API directory.
+overview: 'x402 List API publishes 1 API on the [APIs.io](https://apis.io/) network: x402 List API. Tagged areas include x402, Crypto, 402, Agentic Payments, and API Directory.
 
 
   The x402 List API catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -109,6 +140,46 @@ rules:
     info: 0
     warn: 2
   slug: x402-list-api-spectral
+score:
+  band: strong
+  composite: 55.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 68.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 47.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 50.0
+    contract_quality: 33.3
+    developer_ergonomics: 58.9
+    discoverability: 87.0
+    operational_transparency: 68.4
+  previous_composite: 55.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: X402 List Api Authentication
@@ -125,14 +196,14 @@ security:
 slug: x402-list-api
 tags:
 - x402
-- crypto
+- Crypto
 - '402'
-- agentic-payments
-- API directory
-- registry
-- AI agents
-- blockchain
-- developer tools
-- uptime monitoring
+- Agentic Payments
+- API Directory
+- Registry
+- AI Agents
+- Blockchain
+- Developer Tools
+- Uptime Monitoring
 website: https://www.x402-list.com/
 ---

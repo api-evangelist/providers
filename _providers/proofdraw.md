@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://proofdraw.com/api/v1
@@ -55,6 +80,7 @@ common:
   type: License
   url: https://github.com/proofdraw/verifier/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/overlays/proofdraw-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/proofdraw-api-overlay.yaml
@@ -115,58 +141,72 @@ common:
   type: SourceCode
   url: https://github.com/proofdraw/verifier
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/security/proofdraw-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proofdraw-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/authentication/proofdraw-authentication.yml
   title: ''
   type: Authentication
   url: authentication/proofdraw-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/conventions/proofdraw-conventions.yml
   title: ''
   type: Conventions
   url: conventions/proofdraw-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/errors/proofdraw-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/proofdraw-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/lifecycle/proofdraw-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/proofdraw-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/conformance/proofdraw-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proofdraw-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/data-model/proofdraw-data-model.yml
   title: ''
   type: DataModel
   url: data-model/proofdraw-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/asyncapi/proofdraw-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/proofdraw-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/sandbox/proofdraw-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/proofdraw-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/plans/proofdraw-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/proofdraw-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/rate-limits/proofdraw-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/proofdraw-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/llms/proofdraw-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/proofdraw-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/security/proofdraw-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/proofdraw-vulnerability-disclosure.yml
@@ -198,6 +238,40 @@ rate_limits:
 - limit_count: 0
   name: Proofdraw Rate Limits
   slug: proofdraw-rate-limits
+score:
+  band: thin
+  composite: 34.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 59.6
+    developer_ergonomics: 20.8
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 34.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/screenshots/proofdraw-2026-08-17T081348.png
 security:
 - kind: authentication

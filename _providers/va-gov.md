@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -350,26 +375,32 @@ common:
   type: Website
   url: https://www.va.gov/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/capabilities/va-gov-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/va-gov-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/agentic-access/va-gov-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/va-gov-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/security/va-gov-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/va-gov-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/security/va-gov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/va-gov-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/authentication/va-gov-authentication.yml
   title: ''
   type: Authentication
   url: authentication/va-gov-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/scopes/va-gov-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/va-gov-scopes.yml
@@ -562,6 +593,44 @@ scopes:
   scope_count: 35
   slug: va-gov-scopes
   summary_line: 35 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 43.1
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 64.9
+    developer_ergonomics: 31.0
+    discoverability: 50.0
+    operational_transparency: 18.4
+  previous_composite: 43.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 68.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png
 security:
 - kind: authentication

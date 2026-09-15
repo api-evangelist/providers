@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -236,18 +261,22 @@ collections:
   slug: open-openweathermap-weather-stations
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/overlays/openweathermap-accumulated-parameters-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openweathermap-accumulated-parameters-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/agentic-access/openweathermap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openweathermap-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/security/openweathermap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openweathermap-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/authentication/openweathermap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openweathermap-authentication.yml
@@ -256,34 +285,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/openweathermap/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-air-quality-by-city-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-air-quality-by-city-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-coordinate-weather-and-air-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-coordinate-weather-and-air-snapshot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-historical-air-pollution-window-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-historical-air-pollution-window-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-locate-and-report-current-weather-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-locate-and-report-current-weather-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-multi-horizon-forecast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-multi-horizon-forecast-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-reverse-geocode-weather-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-reverse-geocode-weather-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-weather-map-overlay-context-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-weather-map-overlay-context-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/arazzo/openweathermap-zip-to-forecast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openweathermap-zip-to-forecast-workflow.yml
@@ -324,10 +361,12 @@ common:
   type: Pricing
   url: https://openweathermap.org/price
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/plans/openweathermap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openweathermap-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/rate-limits/openweathermap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openweathermap-rate-limits.yml
@@ -364,14 +403,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/openweathermap
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/rules/openweathermap-rules.yml
   title: ''
   type: SpectralRules
   url: rules/openweathermap-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/vocabulary/openweathermap-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openweathermap-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/json-ld/openweathermap-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/openweathermap-context.jsonld
@@ -384,42 +426,52 @@ common:
   type: Tools
   url: ''
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/packages/openweathermap-packages.yml
   title: ''
   type: Packages
   url: packages/openweathermap-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/well-known/openweathermap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openweathermap-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/mcp/openweathermap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/openweathermap-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/llms/openweathermap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openweathermap-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/conformance/openweathermap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openweathermap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/errors/openweathermap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openweathermap-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/lifecycle/openweathermap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openweathermap-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/conventions/openweathermap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openweathermap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/data-model/openweathermap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openweathermap-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/components/openweathermap-components.yml
   title: ''
   type: Components
   url: components/openweathermap-components.yml
@@ -583,6 +635,40 @@ rules:
     info: 0
     warn: 10
   slug: openweathermap-rules
+score:
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 94.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 33.3
+    contract_quality: 78.1
+    developer_ergonomics: 65.5
+    discoverability: 83.3
+    operational_transparency: 34.2
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:
 - kind: authentication

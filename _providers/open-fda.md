@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,6 +97,7 @@ apis:
 artifact_total: 45
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/agentic-access/open-fda-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-fda-agentic-access.yml
@@ -128,22 +154,27 @@ common:
   type: PrivacyPolicy
   url: https://www.fda.gov/about-website/website-policies
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/rules/open-fda-rules.yml
   title: ''
   type: Rules
   url: rules/open-fda-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/rules/open-fda-rules.yml
   title: ''
   type: SpectralRules
   url: rules/open-fda-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/vocabulary/open-fda-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/open-fda-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/json-schema/open-fda-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/open-fda-search-response-schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/examples/open-fda-drug-event-example.json
   title: ''
   type: Examples
   url: examples/open-fda-drug-event-example.json
@@ -164,6 +195,7 @@ common:
   type: License
   url: https://github.com/FDA/openfda/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/security/open-fda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-fda-domain-security.yml
@@ -200,14 +232,17 @@ common:
   type: Authentication
   url: https://open.fda.gov/apis/authentication/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/plans/open-fda-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/open-fda-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/rate-limits/open-fda-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/open-fda-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/finops/open-fda-finops.yml
   title: ''
   type: FinOps
   url: finops/open-fda-finops.yml
@@ -327,6 +362,40 @@ rules:
     info: 0
     warn: 0
   slug: open-fda-rules
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 69.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 22.7
+    contract_quality: 21.3
+    developer_ergonomics: 57.1
+    discoverability: 74.1
+    operational_transparency: 44.7
+  previous_composite: 45.8
+  provenance:
+    agentic_access: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 38.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
 security:
 - kind: domain-security

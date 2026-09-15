@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.allscripts.com'', ''status'': 301, ''note'': ''declared website redirects to https://veradigm.com:443/?modal=allscripts — a different registrable domain (allscripts.com -> veradigm.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: HL7 FHIR R4 (4.0.1) REST API for Veradigm EHR, aligned to USCDI for 21st Century Cures Act patient and provider access. The live CapabilityStatement declares 31 resource types (Patient, Encounter, Obs
@@ -77,82 +102,102 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/allscripts
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/fhir/allscripts-healthcare-solutions-veradigm-fhir-r4-capabilitystatement.json
   title: ''
   type: CapabilityStatement
   url: fhir/allscripts-healthcare-solutions-veradigm-fhir-r4-capabilitystatement.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/well-known/allscripts-healthcare-solutions-smart-configuration.json
   title: ''
   type: SMARTConfiguration
   url: well-known/allscripts-healthcare-solutions-smart-configuration.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/well-known/allscripts-healthcare-solutions-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: well-known/allscripts-healthcare-solutions-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/well-known/allscripts-healthcare-solutions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allscripts-healthcare-solutions-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/authentication/allscripts-healthcare-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allscripts-healthcare-solutions-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/scopes/allscripts-healthcare-solutions-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allscripts-healthcare-solutions-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/conformance/allscripts-healthcare-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allscripts-healthcare-solutions-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/errors/allscripts-healthcare-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allscripts-healthcare-solutions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/conventions/allscripts-healthcare-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/allscripts-healthcare-solutions-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/lifecycle/allscripts-healthcare-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allscripts-healthcare-solutions-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/sandbox/allscripts-healthcare-solutions-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/allscripts-healthcare-solutions-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/data-model/allscripts-healthcare-solutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/allscripts-healthcare-solutions-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/packages/allscripts-healthcare-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/allscripts-healthcare-solutions-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/mcp/allscripts-healthcare-solutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/allscripts-healthcare-solutions-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/llms/allscripts-healthcare-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allscripts-healthcare-solutions-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/plans/allscripts-healthcare-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/allscripts-healthcare-solutions-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/rate-limits/allscripts-healthcare-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/allscripts-healthcare-solutions-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/finops/allscripts-healthcare-solutions-finops.yml
   title: ''
   type: FinOps
   url: finops/allscripts-healthcare-solutions-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/security/allscripts-healthcare-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allscripts-healthcare-solutions-domain-security.yml
@@ -187,6 +232,48 @@ scopes:
   scope_count: 237
   slug: allscripts-healthcare-solutions-scopes
   summary_line: 237 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 60.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 34.4
+    developer_ergonomics: 58.9
+    discoverability: 59.3
+    operational_transparency: 57.9
+  previous_composite: 60.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: us-core
+    - jurisdiction: US
+      standard: uscdi
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 70.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/screenshots/allscripts-healthcare-solutions-2026-06-20T171537.png
 security:
 - kind: authentication

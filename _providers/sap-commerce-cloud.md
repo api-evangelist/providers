@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -233,26 +258,32 @@ collections:
   slug: open-sap-commerce-cloud-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/capabilities/sap-commerce-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sap-commerce-cloud-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/agentic-access/sap-commerce-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-commerce-cloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/security/sap-commerce-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-commerce-cloud-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/security/sap-commerce-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-commerce-cloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/authentication/sap-commerce-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-commerce-cloud-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/scopes/sap-commerce-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-commerce-cloud-scopes.yml
@@ -297,58 +328,72 @@ common:
   type: StatusPage
   url: https://www.sap.com/about/trust-center/cloud-service-status.html
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/_original/sap-commerce-cloud-commerce-web-services-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-commerce-cloud-commerce-web-services-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/_original/sap-commerce-cloud-assisted-service-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-commerce-cloud-assisted-service-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/_original/sap-commerce-cloud-integration-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-commerce-cloud-integration-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/_original/sap-commerce-cloud-admin-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-commerce-cloud-admin-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/_original/sap-commerce-cloud-product-content-management-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sap-commerce-cloud-product-content-management-openapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/json-ld/sap-commerce-cloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sap-commerce-cloud-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/json-schema/sap-commerce-cloud-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-commerce-cloud-product-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/json-schema/sap-commerce-cloud-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-commerce-cloud-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/json-schema/sap-commerce-cloud-cart-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-commerce-cloud-cart-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/json-schema/sap-commerce-cloud-customer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sap-commerce-cloud-customer-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/json-structure/sap-commerce-cloud-product-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sap-commerce-cloud-product-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/json-structure/sap-commerce-cloud-order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sap-commerce-cloud-order-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/rules/sap-commerce-cloud-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sap-commerce-cloud-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/vocabulary/sap-commerce-cloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sap-commerce-cloud-vocabulary.yml
@@ -690,6 +735,38 @@ scopes:
   scope_count: 3
   slug: sap-commerce-cloud-scopes
   summary_line: 3 scopes · clientCredentials/password
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 28.8
+    contract_quality: 64.1
+    developer_ergonomics: 21.4
+    discoverability: 72.2
+    operational_transparency: 23.7
+  previous_composite: 42.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png
 security:
 - kind: authentication

@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -317,70 +343,87 @@ collections:
   slug: open-dow-jones-top-stories-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/capabilities/dow-jones-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dow-jones-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-screening-and-monitoring-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-screening-and-monitoring-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-screening-and-monitoring-private-lists-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-screening-and-monitoring-private-lists-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-advanced-screening-and-monitoring-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-advanced-screening-and-monitoring-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-risk-search-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-risk-search-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-risk-profiles-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-risk-profiles-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-risk-taxonomy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-risk-taxonomy-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-profile-version-history-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-profile-version-history-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-due-diligence-reports-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-due-diligence-reports-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-riskcenter-third-party-api-0-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-riskcenter-third-party-api-0-2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-newswires-real-time-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-newswires-real-time-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-top-stories-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-top-stories-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-calendar-live-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-calendar-live-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-newswires-content-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-newswires-content-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-content-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-content-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-newsletters-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-newsletters-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/overlays/dow-jones-company-news-radar-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dow-jones-company-news-radar-api-overlay.yaml
@@ -449,50 +492,62 @@ common:
   type: Blog
   url: https://www.dowjones.com/press-room/feed/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/authentication/dow-jones-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dow-jones-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/scopes/dow-jones-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dow-jones-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/agentic-access/dow-jones-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dow-jones-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/security/dow-jones-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dow-jones-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/packages/dow-jones-packages.yml
   title: ''
   type: Packages
   url: packages/dow-jones-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/packages/dow-jones-packages.yml
   title: ''
   type: SDKs
   url: packages/dow-jones-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/well-known/dow-jones-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dow-jones-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/mcp/dow-jones-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dow-jones-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/llms/dow-jones-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dow-jones-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/conformance/dow-jones-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dow-jones-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/errors/dow-jones-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dow-jones-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/lifecycle/dow-jones-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dow-jones-lifecycle.yml
@@ -501,46 +556,57 @@ common:
   type: Deprecation
   url: https://developer.dowjones.com/documents/site-docs-getting_started-deprecation_and_sunset_policies
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/changelog/dow-jones-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dow-jones-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/conventions/dow-jones-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dow-jones-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/data-model/dow-jones-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dow-jones-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/asyncapi/dow-jones-riskcenter-third-party-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dow-jones-riskcenter-third-party-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/rate-limits/dow-jones-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dow-jones-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/plans/dow-jones-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dow-jones-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/security/dow-jones-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dow-jones-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/security/dow-jones-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/dow-jones-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/security/dow-jones-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dow-jones-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/security/dow-jones-trust-center.yml
   title: ''
   type: Compliance
   url: security/dow-jones-trust-center.yml
@@ -573,6 +639,47 @@ scopes:
   scope_count: 7
   slug: dow-jones-scopes
   summary_line: 7 scopes · authorizationCode/implicit/password/jwt-bearer/refresh_token
+score:
+  band: strong
+  composite: 64.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 42.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 63.3
+    developer_ergonomics: 68.5
+    discoverability: 63.0
+    operational_transparency: 76.3
+  previous_composite: 64.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 67.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 46
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 80.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:
 - kind: authentication

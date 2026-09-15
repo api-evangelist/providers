@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 58.8
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: https://enterprise.knak.io/api/published/v1
@@ -224,10 +250,12 @@ collections:
   slug: open-knak-validation-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/capabilities/knak-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/knak-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/security/knak-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/knak-trust-center.yml
@@ -288,102 +316,127 @@ common:
   type: Security
   url: https://knak.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/security/knak-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/knak-vulnerability-disclosure.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/_original/knak-dam-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/knak-dam-openapi-original.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/_original/knak-custom-validator-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/knak-custom-validator-openapi-original.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/openapi/_original/knak-custom-sync-location-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/knak-custom-sync-location-openapi-original.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/mcp/knak-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/knak-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/authentication/knak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/knak-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/scopes/knak-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/knak-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/well-known/knak-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/knak-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/conventions/knak-conventions.yml
   title: ''
   type: Conventions
   url: conventions/knak-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/errors/knak-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/knak-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/lifecycle/knak-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/knak-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/conformance/knak-conformance.yml
   title: ''
   type: Conformance
   url: conformance/knak-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/data-model/knak-data-model.yml
   title: ''
   type: DataModel
   url: data-model/knak-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/asyncapi/knak-enterprise-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/knak-enterprise-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/llms/knak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knak-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/security/knak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knak-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/overlays/knak-enterprise-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/knak-enterprise-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/overlays/knak-send-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/knak-send-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/overlays/knak-scim-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/knak-scim-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/rate-limits/knak-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/knak-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/plans/knak-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/knak-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/mcp/knak-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/knak-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/errors/knak-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/knak-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/components/knak-components.yml
   title: ''
   type: Components
   url: components/knak-components.yml
@@ -420,6 +473,40 @@ scopes:
   scope_count: 1
   slug: knak-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 58.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 60.8
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 58.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png
 security:
 - kind: authentication

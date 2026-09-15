@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The BioCloud data-as-a-service platform API that ingests continuous vital-signs telemetry from BioButton / BioSticker wearables via BioHub gateways and the BioMobile app, and serves it to BioDashboard
@@ -18,6 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/security/biointellisense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biointellisense-domain-security.yml
@@ -74,34 +100,42 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/biointellisense_stock/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/lifecycle/biointellisense-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/biointellisense-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/packages/biointellisense-packages.yml
   title: ''
   type: Packages
   url: packages/biointellisense-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/well-known/biointellisense-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/biointellisense-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/conformance/biointellisense-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biointellisense-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/conventions/biointellisense-conventions.yml
   title: ''
   type: Conventions
   url: conventions/biointellisense-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/authentication/biointellisense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/biointellisense-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/errors/biointellisense-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/biointellisense-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/llms/biointellisense-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biointellisense-llms.txt
@@ -118,6 +152,48 @@ overview: 'BioIntelliSense publishes 1 API on the [APIs.io](https://apis.io/) ne
 
   BioIntelliSense''s developer surface includes documentation, support, engineering blog, legal docs, authentication, and 17 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 28.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 15.8
+  previous_composite: 28.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa-cpra
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitech
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/screenshots/biointellisense-2026-08-07T162500.png
 security:
 - kind: authentication

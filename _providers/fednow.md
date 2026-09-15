@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: Account Management API letting a participating financial institution programmatically retrieve its FedNow master account balance information. Documented on the FedLine Developer portal as one of the o
@@ -30,6 +55,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/security/fednow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fednow-domain-security.yml
@@ -82,30 +108,37 @@ common:
   type: StatusPage
   url: https://www.frbservices.org/app/status/serviceStatus.do
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/authentication/fednow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fednow-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/conformance/fednow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fednow-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/lifecycle/fednow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fednow-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/changelog/fednow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fednow-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/sandbox/fednow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fednow-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/well-known/fednow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fednow-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/llms/fednow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fednow-llms.txt
@@ -123,6 +156,47 @@ overview: 'FedNow Service publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
   FedNow Service''s developer surface includes documentation, API reference, pricing, signup flow, support, getting-started guide, engineering blog, and 13 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 38.2
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 72.2
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 38.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 51.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/screenshots/fednow-2026-07-25T214316.png
 security:
 - kind: authentication

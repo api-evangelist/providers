@@ -17,26 +17,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/SynapseFI
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synapsefi/refs/heads/main/packages/synapsefi-packages.yml
   title: ''
   type: Packages
   url: packages/synapsefi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synapsefi/refs/heads/main/packages/synapsefi-packages.yml
   title: ''
   type: SDKs
   url: packages/synapsefi-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synapsefi/refs/heads/main/lifecycle/synapsefi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/synapsefi-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synapsefi/refs/heads/main/plans/synapsefi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/synapsefi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synapsefi/refs/heads/main/rate-limits/synapsefi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/synapsefi-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synapsefi/refs/heads/main/llms/synapsefi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synapsefi-llms.txt

@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 43.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -527,6 +553,7 @@ common:
   type: Website
   url: https://www.orange.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/capabilities/orange-business-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/orange-business-capability-edges.yml
@@ -539,10 +566,12 @@ common:
   type: Releases
   url: https://github.com/camaraproject/NumberVerification/releases
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/overlays/orange-business-live-objects-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orange-business-live-objects-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/scopes/orange-business-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/orange-business-scopes.yml
@@ -551,18 +580,22 @@ common:
   type: License
   url: https://github.com/camaraproject/NumberVerification/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/agentic-access/orange-business-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orange-business-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/security/orange-business-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/orange-business-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/security/orange-business-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orange-business-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/authentication/orange-business-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orange-business-authentication.yml
@@ -687,82 +720,102 @@ common:
   type: Portal
   url: https://cloud.orange-business.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/packages/orange-business-packages.yml
   title: ''
   type: Packages
   url: packages/orange-business-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/packages/orange-business-packages.yml
   title: ''
   type: SDKs
   url: packages/orange-business-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/well-known/orange-business-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/orange-business-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/well-known/orange-business-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/orange-business-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/mcp/orange-business-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/orange-business-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/mcp/orange-business-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/orange-business-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/llms/orange-business-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orange-business-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/conformance/orange-business-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orange-business-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/errors/orange-business-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orange-business-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/lifecycle/orange-business-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orange-business-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/lifecycle/orange-business-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/orange-business-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/conventions/orange-business-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orange-business-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/sandbox/orange-business-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orange-business-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/changelog/orange-business-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orange-business-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/data-model/orange-business-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orange-business-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/asyncapi/orange-business-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/orange-business-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/plans/orange-business-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orange-business-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/rate-limits/orange-business-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orange-business-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/security/orange-business-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/orange-business-vulnerability-disclosure.yml
@@ -824,6 +877,58 @@ scopes:
   scope_count: 23
   slug: orange-business-scopes
   summary_line: 23 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 70.1
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 52.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 68.0
+    developer_ergonomics: 82.7
+    discoverability: 66.7
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 70.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 75.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:
 - kind: authentication

@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -82,54 +108,67 @@ collections:
   slug: open-vim-data-source-openapi-original
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/capabilities/vim-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vim-capability-edges.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-data-source-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/vim-data-source-openapi-original.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/vim-rest-api-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/mcp/vim-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vim-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/mcp/vim-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/vim-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/packages/vim-packages.yml
   title: ''
   type: Packages
   url: packages/vim-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/packages/vim-packages.yml
   title: ''
   type: SDKs
   url: packages/vim-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/errors/vim-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vim-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/conventions/vim-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vim-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/data-model/vim-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vim-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/lifecycle/vim-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vim-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/conformance/vim-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vim-conformance.yml
@@ -142,62 +181,77 @@ common:
   type: TrustCenter
   url: https://compliance-self-service.getvim.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/well-known/vim-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vim-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/llms/vim-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vim-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/overlays/vim-data-source-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vim-data-source-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/overlays/vim-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vim-rest-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/errors/vim-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vim-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/rate-limits/vim-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vim-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/changelog/vim-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vim-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/sandbox/vim-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vim-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/asyncapi/vim-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vim-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/plans/vim-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vim-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/components/vim-components.yml
   title: ''
   type: Components
   url: components/vim-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/security/vim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vim-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/agentic-access/vim-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vim-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/scopes/vim-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vim-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/authentication/vim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vim-authentication.yml
@@ -222,10 +276,12 @@ common:
   type: GettingStarted
   url: https://docs.getvim.com/vim-os-js/setting-up
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/well-known/vim-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: well-known/vim-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/well-known/vim-oauth-authorization-server.json
   title: ''
   type: OAuthMetadata
   url: well-known/vim-oauth-authorization-server.json
@@ -299,6 +355,58 @@ scopes:
   scope_count: 4
   slug: vim-scopes
   summary_line: 4 scopes · implicit/clientCredentials
+score:
+  band: strong
+  composite: 64.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 59.4
+    developer_ergonomics: 78.0
+    discoverability: 66.7
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 64.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/screenshots/vim-2026-08-17T082750.png
 security:
 - kind: authentication

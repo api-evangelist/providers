@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -106,22 +131,27 @@ collections:
   slug: open-shippo
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/capabilities/shippo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shippo-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/agentic-access/shippo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shippo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/security/shippo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shippo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/security/shippo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shippo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/authentication/shippo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shippo-authentication.yml
@@ -343,6 +373,38 @@ rules:
     info: 4
     warn: 7
   slug: shippo-rules
+score:
+  band: developing
+  composite: 51.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 69.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 28.8
+    contract_quality: 77.7
+    developer_ergonomics: 73.8
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 51.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
 security:
 - kind: authentication

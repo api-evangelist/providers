@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.gengo.com/v2
@@ -112,66 +137,82 @@ common:
   type: TermsOfService
   url: https://gengo.com/terms-of-service/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/openapi/_original/gengo-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/gengo-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/authentication/gengo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gengo-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/packages/gengo-packages.yml
   title: ''
   type: Packages
   url: packages/gengo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/packages/gengo-packages.yml
   title: ''
   type: SDKs
   url: packages/gengo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/mcp/gengo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gengo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/llms/gengo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gengo-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/overlays/gengo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gengo-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/conformance/gengo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gengo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/errors/gengo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/gengo-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/lifecycle/gengo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gengo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/conventions/gengo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gengo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/data-model/gengo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gengo-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/sandbox/gengo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gengo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/asyncapi/gengo-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gengo-callbacks-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/security/gengo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gengo-domain-security.yml
@@ -195,6 +236,40 @@ overview: 'Gengo publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
   Gengo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 3
+score:
+  band: developing
+  composite: 43.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 54.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 43.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/screenshots/gengo-2026-07-25T215611.png
 security:
 - kind: authentication

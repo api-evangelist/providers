@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 api_count: 18
 apis:
 - baseURL: https://api.antavo.com
@@ -215,86 +240,107 @@ collections:
   slug: open-antavo-social-share-campaigns
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/capabilities/antavo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/antavo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-async-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-async-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-customer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-customer-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-display-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-display-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-entities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-entities-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-rewards-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-rewards-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-coupons-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-coupons-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-coupon-pools-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-coupon-pools-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-offers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-offers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-points-preview-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-points-preview-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-leaderboard-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-leaderboard-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-bulk-operations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-bulk-operations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-clubs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-clubs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-promotion-engine-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-promotion-engine-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-authentication-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-faq-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-faq-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-loyalty-read-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-loyalty-read-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/overlays/antavo-social-share-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/antavo-social-share-campaigns-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/authentication/antavo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/antavo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/security/antavo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/antavo-domain-security.yml
@@ -315,14 +361,17 @@ common:
   type: Documentation
   url: https://developers.antavo.com/docs/antavo-apis
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/plans/antavo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/antavo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/rate-limits/antavo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/antavo-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/finops/antavo-finops.yml
   title: ''
   type: FinOps
   url: finops/antavo-finops.yml
@@ -363,22 +412,27 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/31303107/2sAYdmkTFm
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/llms/antavo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/antavo-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/packages/antavo-packages.yml
   title: ''
   type: Packages
   url: packages/antavo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/packages/antavo-packages.yml
   title: ''
   type: SDKs
   url: packages/antavo-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/conventions/antavo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/antavo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/lifecycle/antavo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/antavo-lifecycle.yml
@@ -391,14 +445,17 @@ common:
   type: Deprecation
   url: https://developers.antavo.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/changelog/antavo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/antavo-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/scopes/antavo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/antavo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/conformance/antavo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/antavo-conformance.yml
@@ -407,46 +464,57 @@ common:
   type: Compliance
   url: https://antavo.com/product/loyalty-engine/technology/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/security/antavo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/antavo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/security/antavo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/antavo-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/errors/antavo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/antavo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/data-model/antavo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/antavo-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/sandbox/antavo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/antavo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/asyncapi/antavo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/antavo-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/skills/antavo-submit-loyalty-event.md
   title: ''
   type: AgentSkill
   url: skills/antavo-submit-loyalty-event.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/skills/antavo-async-event-ingestion.md
   title: ''
   type: AgentSkill
   url: skills/antavo-async-event-ingestion.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/skills/antavo-member-experience-and-reward-claim.md
   title: ''
   type: AgentSkill
   url: skills/antavo-member-experience-and-reward-claim.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/skills/antavo-cart-promotions-and-points-preview.md
   title: ''
   type: AgentSkill
   url: skills/antavo-cart-promotions-and-points-preview.md
@@ -483,6 +551,40 @@ scopes:
   scope_count: 1
   slug: antavo-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: strong
+  composite: 64.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 63.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 59.8
+    developer_ergonomics: 67.3
+    discoverability: 81.5
+    operational_transparency: 77.6
+  previous_composite: 64.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/screenshots/antavo-2026-07-25T200404.png
 security:
 - kind: authentication

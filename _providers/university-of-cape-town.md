@@ -9,6 +9,31 @@ access_model:
   - probe
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -117,74 +142,92 @@ common:
   type: x-ror
   url: https://ror.org/03p74gp79
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/openapi/_original/university-of-cape-town-datafirst-nada.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/university-of-cape-town-datafirst-nada.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/conformance/university-of-cape-town-conformance.yml
   title: ''
   type: x-conformance
   url: conformance/university-of-cape-town-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/authentication/university-of-cape-town-authentication.yml
   title: ''
   type: x-authentication
   url: authentication/university-of-cape-town-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/errors/university-of-cape-town-errors.yml
   title: ''
   type: x-errors
   url: errors/university-of-cape-town-errors.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/json-schema/university-of-cape-town-study-schema.json
   title: ''
   type: x-json-schema
   url: json-schema/university-of-cape-town-study-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/json-schema/university-of-cape-town-datafile-schema.json
   title: ''
   type: x-json-schema
   url: json-schema/university-of-cape-town-datafile-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/json-schema/university-of-cape-town-variable-schema.json
   title: ''
   type: x-json-schema
   url: json-schema/university-of-cape-town-variable-schema.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/json-structure/university-of-cape-town-study-structure.json
   title: ''
   type: x-json-structure
   url: json-structure/university-of-cape-town-study-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/rules/university-of-cape-town-rules.yml
   title: ''
   type: x-spectral-rules
   url: rules/university-of-cape-town-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/vocabulary/university-of-cape-town-vocabulary.yml
   title: ''
   type: x-vocabulary
   url: vocabulary/university-of-cape-town-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/json-ld/university-of-cape-town-context.jsonld
   title: ''
   type: x-json-ld
   url: json-ld/university-of-cape-town-context.jsonld
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/capabilities/university-of-cape-town-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/university-of-cape-town-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/agentic-access/university-of-cape-town-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-cape-town-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/security/university-of-cape-town-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-cape-town-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/plans/university-of-cape-town-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-cape-town-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/rate-limits/university-of-cape-town-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-cape-town-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/finops/university-of-cape-town-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-cape-town-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -267,6 +310,51 @@ rules:
     info: 0
     warn: 6
   slug: university-of-cape-town-rules
+score:
+  band: developing
+  composite: 40.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 67.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 9.8
+    contract_quality: 58.6
+    developer_ergonomics: 16.7
+    discoverability: 68.5
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 40.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 35.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cape-town/refs/heads/main/screenshots/university-of-cape-town-2026-06-20T200148.png
 security:
 - kind: authentication

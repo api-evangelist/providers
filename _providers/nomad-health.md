@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://nomadhealth.com/api/v1
@@ -27,10 +52,12 @@ collections:
   slug: open-nomad-health-default-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/capabilities/nomad-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nomad-health-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/overlays/nomad-health-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nomad-health-api-overlay.yaml
@@ -75,50 +102,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/NomadHealth
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/llms/nomad-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nomad-health-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/well-known/nomad-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nomad-health-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/authentication/nomad-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nomad-health-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/conventions/nomad-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nomad-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/errors/nomad-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nomad-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/conformance/nomad-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nomad-health-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/data-model/nomad-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nomad-health-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/lifecycle/nomad-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nomad-health-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/mcp/nomad-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nomad-health-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/mcp/nomad-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/nomad-health-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/security/nomad-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nomad-health-domain-security.yml
@@ -136,6 +175,46 @@ overview: 'Nomad Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
   Nomad Health''s developer surface includes API reference, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 30.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 33.1
+    developer_ergonomics: 28.0
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 30.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/screenshots/nomad-health-2026-08-07T185440.png
 security:
 - kind: authentication

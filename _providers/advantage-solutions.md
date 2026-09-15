@@ -9,6 +9,31 @@ access_model:
   - '{''url'': ''https://www.advantagesolutions.net'', ''status'': 301, ''note'': ''declared website redirects to https://youradv.com/ — a different registrable domain (advantagesolutions.net -> youradv.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -131,22 +156,27 @@ apis:
 artifact_total: 27
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/capabilities/advantage-solutions-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/advantage-solutions-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/overlays/advantage-solutions-youradv-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/advantage-solutions-youradv-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/overlays/advantage-solutions-mrktblog-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/advantage-solutions-mrktblog-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/agentic-access/advantage-solutions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/advantage-solutions-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/security/advantage-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advantage-solutions-domain-security.yml
@@ -195,46 +225,57 @@ common:
   type: Login
   url: https://youradv.com/associate-login/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/llms/advantage-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advantage-solutions-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/authentication/advantage-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advantage-solutions-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/conventions/advantage-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advantage-solutions-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/errors/advantage-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/advantage-solutions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/lifecycle/advantage-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advantage-solutions-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/conformance/advantage-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advantage-solutions-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/data-model/advantage-solutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/advantage-solutions-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/rate-limits/advantage-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advantage-solutions-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/plans/advantage-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advantage-solutions-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/mcp/advantage-solutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/advantage-solutions-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -259,6 +300,41 @@ rate_limits:
 - limit_count: 0
   name: Advantage Solutions Rate Limits
   slug: advantage-solutions-rate-limits
+score:
+  band: emerging
+  composite: 23.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 17.2
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 23.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 24
+      marker_coverage: 100.0
+      total: 24
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - https://nts.developer.azure-api.net
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://api.nts.web.com
@@ -40,6 +65,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/security/websitepros-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/websitepros-domain-security.yml
@@ -72,62 +98,77 @@ common:
   type: Postman
   url: https://api-docs.intl.web.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/collections/websitepros-international-platform.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/websitepros-international-platform.postman_collection.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/authentication/websitepros-authentication.yml
   title: ''
   type: Authentication
   url: authentication/websitepros-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/conventions/websitepros-conventions.yml
   title: ''
   type: Conventions
   url: conventions/websitepros-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/errors/websitepros-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/websitepros-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/lifecycle/websitepros-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/websitepros-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/conformance/websitepros-conformance.yml
   title: ''
   type: Conformance
   url: conformance/websitepros-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/data-model/websitepros-data-model.yml
   title: ''
   type: DataModel
   url: data-model/websitepros-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/sandbox/websitepros-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/websitepros-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/plans/websitepros-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/websitepros-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/rate-limits/websitepros-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/websitepros-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/packages/websitepros-packages.yml
   title: ''
   type: Packages
   url: packages/websitepros-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/mcp/websitepros-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/websitepros-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/llms/websitepros-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/websitepros-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/overlays/websitepros-international-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/websitepros-international-platform-overlay.yaml
@@ -153,6 +194,45 @@ rate_limits:
 - limit_count: 0
   name: Websitepros Rate Limits
   slug: websitepros-rate-limits
+score:
+  band: emerging
+  composite: 25.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 4.5
+    contract_quality: 17.4
+    developer_ergonomics: 57.7
+    discoverability: 74.1
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 25.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/screenshots/websitepros-2026-09-02T170535.png
 security:
 - kind: authentication

@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 39.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -81,30 +107,37 @@ collections:
   slug: open-imb-bank-banking-products-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/capabilities/imb-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/imb-bank-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/agentic-access/imb-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/imb-bank-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/security/imb-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imb-bank-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/well-known/imb-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/imb-bank-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/authentication/imb-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imb-bank-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/scopes/imb-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/imb-bank-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/conformance/imb-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imb-bank-conformance.yml
@@ -113,10 +146,12 @@ common:
   type: Compliance
   url: https://www.imb.com.au/pdfs/consumer-data-right-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/errors/imb-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/imb-bank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/lifecycle/imb-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imb-bank-lifecycle.yml
@@ -129,30 +164,37 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/conventions/imb-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imb-bank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/data-model/imb-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/imb-bank-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/sandbox/imb-bank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/imb-bank-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/mcp/imb-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/imb-bank-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/overlays/imb-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/imb-bank-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/llms/imb-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imb-bank-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/skills/imb-bank-browse-products.md
   title: ''
   type: AgentSkill
   url: skills/imb-bank-browse-products.md
@@ -214,6 +256,54 @@ scopes:
   scope_count: 12
   slug: imb-bank-scopes
   summary_line: 12 scopes
+score:
+  band: developing
+  composite: 44.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 44.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 77.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://repository.library.brown.edu/api/
@@ -108,70 +133,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/brown-university/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/brown-bdr-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-iiif-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/brown-bdr-iiif-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/json-schema/brown-bdr-searchresponse.json
   title: ''
   type: JSONSchema
   url: json-schema/brown-bdr-searchresponse.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/examples/bdr-item.json
   title: ''
   type: Examples
   url: examples/bdr-item.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/errors/brown-bdr-errors.yml
   title: ''
   type: Errors
   url: errors/brown-bdr-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/vocabulary/brown-bdr-field-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/brown-bdr-field-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/rules/brown-bdr-spectral-ruleset.yml
   title: ''
   type: Rules
   url: rules/brown-bdr-spectral-ruleset.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/authentication/brown-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brown-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/lifecycle/brown-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brown-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/conformance/brown-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brown-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/identity-federation/brown-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity-federation/brown-identity-federation.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/json-ld/brown-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/brown-context.jsonld
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/security/brown-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brown-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/plans/brown-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brown-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/rate-limits/brown-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brown-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/finops/brown-finops.yml
   title: ''
   type: FinOps
   url: finops/brown-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -288,6 +330,52 @@ rules:
     info: 1
     warn: 3
   slug: brown-bdr-spectral-ruleset
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 64.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 17.4
+    contract_quality: 27.5
+    developer_ergonomics: 35.7
+    discoverability: 68.5
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 34.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/screenshots/brown-2026-06-20T173721.png
 security:
 - kind: authentication

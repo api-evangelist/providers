@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -198,26 +223,32 @@ collections:
   slug: open-apex27-portal-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/overlays/apex27-crm-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apex27-crm-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/overlays/apex27-portal-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apex27-portal-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/mcp/apex27-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apex27-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/agentic-access/apex27-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apex27-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/security/apex27-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apex27-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/authentication/apex27-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apex27-authentication.yml
@@ -262,46 +293,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/apex27
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/packages/apex27-packages.yml
   title: ''
   type: Packages
   url: packages/apex27-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/llms/apex27-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apex27-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/conformance/apex27-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apex27-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/errors/apex27-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apex27-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/lifecycle/apex27-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apex27-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/conventions/apex27-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apex27-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/changelog/apex27-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apex27-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/data-model/apex27-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apex27-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/vocabulary/apex27-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/apex27-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/asyncapi/apex27-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/apex27-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -322,6 +364,49 @@ overview: 'Apex27 publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
   Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 21 more developer resources.'
 random_paper: 10
+score:
+  band: thin
+  composite: 32.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 38.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 8.3
+    contract_quality: 25.4
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 32.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 33
+      marker_coverage: 100.0
+      total: 33
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/screenshots/apex27-2026-08-07T161440.png
 security:
 - kind: authentication

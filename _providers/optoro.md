@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -133,58 +158,72 @@ asyncapis:
   slug: optoro-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/capabilities/optoro-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/optoro-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-auth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-catalogs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-catalogs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-facilities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-facilities-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-rtv-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-rtv-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-asn-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-asn-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-external-bin-changes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-external-bin-changes-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/skills/optoro-drop-ship-order.md
   title: ''
   type: AgentSkill
   url: skills/optoro-drop-ship-order.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/skills/optoro-returns-experience.md
   title: ''
   type: AgentSkill
   url: skills/optoro-returns-experience.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-returns-portal-orders-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-returns-portal-orders-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-rmas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-rmas-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/agentic-access/optoro-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/optoro-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/security/optoro-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/optoro-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/security/optoro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/optoro-domain-security.yml
@@ -237,34 +276,42 @@ common:
   type: StatusPage
   url: https://status.optiturn.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/llms/optoro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/optoro-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/asyncapi/optoro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/optoro-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/authentication/optoro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/optoro-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/scopes/optoro-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/optoro-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/conventions/optoro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/optoro-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/errors/optoro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/optoro-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/lifecycle/optoro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/optoro-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/conformance/optoro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/optoro-conformance.yml
@@ -277,38 +324,47 @@ common:
   type: TrustCenter
   url: https://www.optoro.com/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/data-model/optoro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/optoro-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/sandbox/optoro-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/optoro-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/changelog/optoro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/optoro-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/rate-limits/optoro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/optoro-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/plans/optoro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/optoro-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/packages/optoro-packages.yml
   title: ''
   type: Packages
   url: packages/optoro-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/mcp/optoro-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/optoro-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/overlays/optoro-drop-ship-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optoro-drop-ship-overlay.yaml
@@ -346,6 +402,41 @@ scopes:
   scope_count: 0
   slug: optoro-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 58.9
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 61.7
+    developer_ergonomics: 61.3
+    discoverability: 81.5
+    operational_transparency: 73.7
+  previous_composite: 58.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 76.2
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/screenshots/optoro-2026-09-02T150853.png
 security:
 - kind: authentication

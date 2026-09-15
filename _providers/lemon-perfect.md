@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'The Shopify Storefront GraphQL API served on lemonperfect.com. Introspection is open anonymously: 428 types, 35 query fields and 41 mutations covering products, collections, search, carts, customer ac'
@@ -71,54 +96,67 @@ common:
   type: ShippingPolicy
   url: https://lemonperfect.com/policies/shipping-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/llms/lemon-perfect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lemon-perfect-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/llms/lemon-perfect-agents.md
   title: ''
   type: AgentsMd
   url: llms/lemon-perfect-agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/well-known/lemon-perfect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lemon-perfect-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/authentication/lemon-perfect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lemon-perfect-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/scopes/lemon-perfect-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lemon-perfect-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/well-known/lemon-perfect-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/lemon-perfect-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/conventions/lemon-perfect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lemon-perfect-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/conventions/lemon-perfect-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lemon-perfect-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/rate-limits/lemon-perfect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lemon-perfect-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/conformance/lemon-perfect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lemon-perfect-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/lifecycle/lemon-perfect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lemon-perfect-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/security/lemon-perfect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lemon-perfect-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -148,6 +186,41 @@ scopes:
   scope_count: 4
   slug: lemon-perfect-scopes
   summary_line: 4 scopes · authorizationCode/refreshToken/jwtBearer
+score:
+  band: developing
+  composite: 41.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 41.5
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 41.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-perfect/refs/heads/main/screenshots/lemon-perfect-2026-08-07T171544.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -78,14 +78,21 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 92.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -129,7 +136,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -180,7 +187,7 @@
       "developer_ergonomics": 79.2,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -231,7 +238,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -282,7 +289,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -333,14 +340,21 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 76.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "us-core",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -384,7 +398,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -435,7 +449,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -486,7 +500,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -537,7 +551,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -588,7 +602,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -639,7 +653,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -690,14 +704,25 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 58.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "ccpa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 41.3,
      "agent_band": "agent-ready",
@@ -741,14 +766,21 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 51.2,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -792,7 +824,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -843,7 +875,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -894,7 +926,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -945,14 +977,25 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 82.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "us-core",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -1007,14 +1050,29 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 86.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "us-core",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "uscdi",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -1058,7 +1116,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1109,7 +1167,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1160,14 +1218,21 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 58.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -1211,7 +1276,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1262,14 +1327,21 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 43.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 29.6,
      "agent_band": "agent-ready",
@@ -1313,7 +1385,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1364,14 +1436,25 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 71.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "us-core",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 43.7,
      "agent_band": "agent-native",
@@ -1415,14 +1498,29 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 76.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "ccpa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -1466,14 +1564,21 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 83.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 40.8,
      "agent_band": "agent-ready",
@@ -1517,7 +1622,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1568,14 +1673,21 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 73.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -1619,7 +1731,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1670,7 +1782,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1721,14 +1833,21 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 52.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -1772,7 +1891,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1823,7 +1942,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1874,7 +1993,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1925,14 +2044,21 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 76.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -1976,7 +2102,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2027,7 +2153,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2078,14 +2204,21 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 77.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 40.4,
      "agent_band": "agent-native",
@@ -2129,14 +2262,21 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 58.1,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -2191,7 +2331,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2242,14 +2382,25 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 52.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "ccpa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 43.7,
      "agent_band": "agent-native",
@@ -2293,14 +2444,29 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 45.0,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "fedramp",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hitrust",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -2344,7 +2510,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2395,7 +2561,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2446,14 +2612,21 @@
       "developer_ergonomics": 36.3,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 51.2,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -2497,7 +2670,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2548,14 +2721,21 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -2599,7 +2779,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2650,14 +2830,25 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 73.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -2701,14 +2892,21 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 38.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -2752,7 +2950,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2803,7 +3001,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2854,7 +3052,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2905,7 +3103,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2956,7 +3154,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3007,7 +3205,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3058,14 +3256,21 @@
       "developer_ergonomics": 38.7,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 26.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -3119,14 +3324,25 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 66.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "ccpa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 20.4,
      "agent_band": "agent-aware",
@@ -3170,14 +3386,21 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 83.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -3221,14 +3444,21 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 76.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "us-core",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -3272,14 +3502,25 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 55.0,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3323,7 +3564,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3373,14 +3614,25 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3424,14 +3676,21 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 55.0,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3475,7 +3734,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3536,14 +3795,21 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 52.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -3587,7 +3853,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3638,14 +3904,21 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 30.0,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3689,7 +3962,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3740,14 +4013,25 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hitrust",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 11.2,
      "agent_band": "agent-aware",
@@ -3791,7 +4075,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3842,7 +4126,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3892,7 +4176,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3943,7 +4227,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3994,7 +4278,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

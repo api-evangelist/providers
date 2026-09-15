@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.7
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
@@ -51,6 +76,7 @@ common:
   type: Compliance
   url: https://trust.artificial.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/security/artificial-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/artificial-labs-trust-center.yml
@@ -83,38 +109,47 @@ common:
   type: OpenIDConnect
   url: https://auth.artificialos.com/.well-known/openid-configuration
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/authentication/artificial-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artificial-labs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/scopes/artificial-labs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/artificial-labs-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/well-known/artificial-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/artificial-labs-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/conformance/artificial-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artificial-labs-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/security/artificial-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artificial-labs-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/security/artificial-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artificial-labs-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/lifecycle/artificial-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artificial-labs-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/packages/artificial-labs-packages.yml
   title: ''
   type: Packages
   url: packages/artificial-labs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/llms/artificial-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artificial-labs-llms.txt
@@ -138,6 +173,49 @@ scopes:
   scope_count: 14
   slug: artificial-labs-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials
+score:
+  band: thin
+  composite: 32.0
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 57.4
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 32.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 80.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/screenshots/artificial-labs-2026-07-25T201337.png
 security:
 - kind: authentication

@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 1.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The LAPIS specification defines a token-minimal, LLM-native format for describing HTTP APIs. A LAPIS document is organized into up to seven indentation-based sections - [meta], [types], [ops], [webhoo
@@ -76,50 +101,62 @@ common:
   type: Issues
   url: https://github.com/cr0hn/LAPIS/issues
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/vocabulary/lapis-vocabulary.yml
   title: LAPIS Normative Vocabulary
   type: Vocabulary
   url: vocabulary/lapis-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/json-schema/lapis-document-schema.json
   title: LAPIS Document JSON Schema
   type: JSONSchema
   url: json-schema/lapis-document-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/json-structure/lapis-document-structure.json
   title: LAPIS Document JSON Structure
   type: JSONStructure
   url: json-structure/lapis-document-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/json-ld/lapis-context.jsonld
   title: LAPIS JSON-LD Context
   type: JSONLD
   url: json-ld/lapis-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-invoice-service-example.lapis
   title: Invoice Service LAPIS Example
   type: Examples
   url: examples/lapis-invoice-service-example.lapis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-meta-section-example.lapis
   title: Meta Section Example
   type: Examples
   url: examples/lapis-meta-section-example.lapis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-types-section-example.lapis
   title: Types Section Example
   type: Examples
   url: examples/lapis-types-section-example.lapis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-ops-section-example.lapis
   title: Operations Section Example
   type: Examples
   url: examples/lapis-ops-section-example.lapis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-webhooks-section-example.lapis
   title: Webhooks Section Example
   type: Examples
   url: examples/lapis-webhooks-section-example.lapis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-errors-section-example.lapis
   title: Errors Section Example
   type: Examples
   url: examples/lapis-errors-section-example.lapis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-limits-section-example.lapis
   title: Limits Section Example
   type: Examples
   url: examples/lapis-limits-section-example.lapis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/examples/lapis-flows-section-example.lapis
   title: Flows Section Example
   type: Examples
   url: examples/lapis-flows-section-example.lapis
@@ -205,6 +242,32 @@ rules:
     info: 3
     warn: 3
   slug: lapis-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 33.9
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 51.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 25.0
+    contract_quality: 21.3
+    developer_ergonomics: 59.5
+    discoverability: 59.3
+    operational_transparency: 31.6
+  previous_composite: 33.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lapis/refs/heads/main/screenshots/lapis-2026-06-20T184316.png
 slug: lapis
 tags:

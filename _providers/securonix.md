@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The documented SNYPR / Unified Defense SIEM web-service surface reached at /ws on the tenant host — token generation and validation, incident management and actions, activity, asset, geolocation, list
@@ -272,22 +298,27 @@ apis:
 artifact_total: 58
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/capabilities/securonix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/securonix-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/overlays/securonix-policy-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/securonix-policy-management-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/overlays/securonix-datasource-onboarding-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/securonix-datasource-onboarding-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/overlays/securonix-device-monitoring-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/securonix-device-monitoring-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/overlays/securonix-threatq-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/securonix-threatq-api-overlay.yaml
@@ -336,70 +367,87 @@ common:
   type: Compliance
   url: https://www.securonix.com/gdpr-compliance/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/authentication/securonix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/securonix-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/changelog/securonix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/securonix-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/conformance/securonix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/securonix-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/conventions/securonix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/securonix-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/data-model/securonix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/securonix-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/security/securonix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/securonix-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/errors/securonix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/securonix-problem-types.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/json-schema/securonix-connectorinfo.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/securonix-connectorinfo.schema.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/llms/securonix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/securonix-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/lifecycle/securonix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/securonix-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/mcp/securonix-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/securonix-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/packages/securonix-packages.yml
   title: ''
   type: Packages
   url: packages/securonix-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/plans/securonix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/securonix-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/rate-limits/securonix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/securonix-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/mcp/securonix-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/securonix-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/well-known/securonix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/securonix-well-known.yml
@@ -432,6 +480,40 @@ rate_limits:
 - limit_count: 0
   name: Securonix Rate Limits
   slug: securonix-rate-limits
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 56.8
+    developer_ergonomics: 8.9
+    discoverability: 74.1
+    operational_transparency: 18.4
+  previous_composite: 34.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 96.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/screenshots/securonix-2026-09-02T154728.png
 security:
 - kind: authentication

@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - baseURL: https://developers.b3.com.br:8065
@@ -102,10 +127,12 @@ collections:
   slug: open-b3-exchange-tesouro-direto-positions
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/security/b3-exchange-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/b3-exchange-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/security/b3-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/b3-exchange-domain-security.yml
@@ -134,62 +161,77 @@ common:
   type: Support
   url: https://developers.b3.com.br/contato
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/packages/b3-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/b3-exchange-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/well-known/b3-exchange-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/b3-exchange-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/well-known/b3-exchange-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/b3-exchange-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/mcp/b3-exchange-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/b3-exchange-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/llms/b3-exchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/b3-exchange-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/conformance/b3-exchange-conformance.yml
   title: ''
   type: Conformance
   url: conformance/b3-exchange-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/errors/b3-exchange-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/b3-exchange-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/lifecycle/b3-exchange-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/b3-exchange-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/scopes/b3-exchange-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/b3-exchange-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/authentication/b3-exchange-authentication.yml
   title: ''
   type: Authentication
   url: authentication/b3-exchange-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/conventions/b3-exchange-conventions.yml
   title: ''
   type: Conventions
   url: conventions/b3-exchange-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/sandbox/b3-exchange-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/b3-exchange-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/changelog/b3-exchange-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/b3-exchange-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/data-model/b3-exchange-data-model.yml
   title: ''
   type: DataModel
   url: data-model/b3-exchange-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -231,6 +273,49 @@ scopes:
   scope_count: 2
   slug: b3-exchange-scopes
   summary_line: 2 scopes · clientCredentials/password
+score:
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 26.7
+    developer_ergonomics: 63.7
+    discoverability: 64.8
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 42.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 68.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:
 - kind: authentication

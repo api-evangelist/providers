@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,10 +70,12 @@ apis:
 artifact_total: 14
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/agentic-access/spekit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spekit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/authentication/spekit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spekit-authentication.yml
@@ -57,10 +84,12 @@ common:
   type: Website
   url: https://spekit.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/mcp/spekit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spekit-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/lifecycle/spekit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spekit-lifecycle.yml
@@ -69,6 +98,7 @@ common:
   type: StatusPage
   url: https://status.spekit.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/conformance/spekit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spekit-conformance.yml
@@ -77,14 +107,17 @@ common:
   type: Compliance
   url: https://www.spekit.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/security/spekit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spekit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/security/spekit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spekit-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/llms/spekit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spekit-llms.txt
@@ -117,50 +150,62 @@ common:
   type: TermsOfService
   url: https://www.spekit.com/legal/msa
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/spekit-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/overlays/spekit-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spekit-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/mcp/spekit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/spekit-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/scopes/spekit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spekit-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/conventions/spekit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spekit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/errors/spekit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spekit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/data-model/spekit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spekit-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/rate-limits/spekit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spekit-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/plans/spekit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spekit-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/packages/spekit-packages.yml
   title: ''
   type: Packages
   url: packages/spekit-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/well-known/spekit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spekit-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/security/spekit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spekit-vulnerability-disclosure.yml
@@ -169,6 +214,7 @@ common:
   type: Security
   url: https://www.spekit.com/vulnerability-disclosure-program
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -239,6 +285,42 @@ scopes:
   scope_count: 4
   slug: spekit-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 51.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 50.7
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 51.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/screenshots/spekit-2026-08-17T082023.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -236,22 +261,27 @@ collections:
   slug: open-netcracker-qubership-maas-swagger
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/capabilities/netcracker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/netcracker-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/overlays/netcracker-qubership-apihub-registry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/netcracker-qubership-apihub-registry-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/overlays/netcracker-qubership-apihub-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/netcracker-qubership-apihub-admin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/overlays/netcracker-qubership-maas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/netcracker-qubership-maas-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/overlays/netcracker-qubership-dbaas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/netcracker-qubership-dbaas-overlay.yaml
@@ -280,62 +310,77 @@ common:
   type: License
   url: https://github.com/Netcracker/qubership-apihub-backend/blob/develop/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/agentic-access/netcracker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/netcracker-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/security/netcracker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/netcracker-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/authentication/netcracker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/netcracker-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/packages/netcracker-packages.yml
   title: ''
   type: Packages
   url: packages/netcracker-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/packages/netcracker-packages.yml
   title: ''
   type: SDKs
   url: packages/netcracker-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/mcp/netcracker-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/netcracker-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/mcp/netcracker-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/netcracker-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/llms/netcracker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/netcracker-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/well-known/netcracker-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/netcracker-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/conventions/netcracker-conventions.yml
   title: ''
   type: Conventions
   url: conventions/netcracker-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/conventions/netcracker-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/netcracker-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/errors/netcracker-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/netcracker-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/lifecycle/netcracker-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/netcracker-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/changelog/netcracker-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/netcracker-changelog.yml
@@ -344,6 +389,7 @@ common:
   type: ChangeLog
   url: https://netcracker.github.io/apihub/releases/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/conformance/netcracker-conformance.yml
   title: ''
   type: Conformance
   url: conformance/netcracker-conformance.yml
@@ -352,10 +398,12 @@ common:
   type: Compliance
   url: https://www.netcracker.com/portfolio/services/netcracker-cybersecurity
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/security/netcracker-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/netcracker-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/security/netcracker-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/netcracker-vulnerability-disclosure.yml
@@ -364,22 +412,27 @@ common:
   type: Security
   url: https://github.com/Netcracker/qubership-apihub/blob/main/SECURITY.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/cli/netcracker-cli.yml
   title: ''
   type: CLI
   url: cli/netcracker-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/components/netcracker-components.yml
   title: ''
   type: Components
   url: components/netcracker-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/data-model/netcracker-data-model.yml
   title: ''
   type: DataModel
   url: data-model/netcracker-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/sandbox/netcracker-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/netcracker-sandbox.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/grpc/netcracker-qubership-control-plane-bus.proto
   title: ''
   type: Protobuf
   url: grpc/netcracker-qubership-control-plane-bus.proto
@@ -457,6 +510,57 @@ overview: 'Netcracker publishes 40 APIs on the [APIs.io](https://apis.io/) netwo
 
   Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 44 more developer resources.'
 random_paper: 8
+score:
+  band: strong
+  composite: 61.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 57.2
+    developer_ergonomics: 75.6
+    discoverability: 68.5
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 52.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png
 security:
 - kind: authentication

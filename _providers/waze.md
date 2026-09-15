@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: URL-invocation API to open the Waze app from an external link to locate an address, drop a pin, or start navigation. Query params include ll (lat,lon), q (search), navigate, z (zoom), favorite, and av
@@ -62,38 +87,47 @@ common:
   type: PrivacyPolicy
   url: https://www.waze.com/en/legal/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/authentication/waze-authentication.yml
   title: ''
   type: Authentication
   url: authentication/waze-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/conventions/waze-conventions.yml
   title: ''
   type: Conventions
   url: conventions/waze-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/components/waze-components.yml
   title: ''
   type: Components
   url: components/waze-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/security/waze-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/waze-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/security/waze-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/waze-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/security/waze-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/waze-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/well-known/waze-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/waze-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/well-known/waze-well-known.yml
   title: ''
   type: SecurityTxt
   url: well-known/waze-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/llms/waze-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/waze-llms.txt
@@ -110,6 +144,32 @@ overview: 'Waze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
   Waze''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
 random_paper: 19
+score:
+  band: emerging
+  composite: 22.8
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 81.5
+    operational_transparency: 10.5
+  previous_composite: 22.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/screenshots/waze-2026-09-02T170520.png
 security:
 - kind: authentication

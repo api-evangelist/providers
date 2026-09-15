@@ -34,42 +34,52 @@ common:
   type: SourceCode
   url: https://github.com/CarServ/public_api_client
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/packages/carserv-packages.yml
   title: ''
   type: Packages
   url: packages/carserv-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/packages/carserv-packages.yml
   title: ''
   type: SDKs
   url: packages/carserv-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/authentication/carserv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carserv-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/conventions/carserv-conventions.yml
   title: ''
   type: Conventions
   url: conventions/carserv-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/errors/carserv-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/carserv-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/data-model/carserv-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carserv-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/conformance/carserv-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carserv-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/lifecycle/carserv-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carserv-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/security/carserv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carserv-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/llms/carserv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carserv-llms.txt

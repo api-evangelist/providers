@@ -10,6 +10,31 @@ access_model:
   - https://docs.lindy.ai/pricing
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Lindy's callable surface. There is no public REST API and no published OpenAPI. The one documented HTTP endpoint is an inbound webhook trigger at https://public.lindy.ai/api/v1/webhooks/[unique-id], a
@@ -38,6 +63,7 @@ common:
   type: Blog
   url: https://www.lindy.ai/blog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/changelog/lindy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lindy-changelog.yml
@@ -46,6 +72,7 @@ common:
   type: StatusPage
   url: https://status.lindy.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/lifecycle/lindy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lindy-lifecycle.yml
@@ -54,14 +81,17 @@ common:
   type: Pricing
   url: https://www.lindy.ai/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/plans/lindy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lindy-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/rate-limits/lindy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lindy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/finops/lindy-finops.yml
   title: ''
   type: FinOps
   url: finops/lindy-finops.yml
@@ -94,38 +124,47 @@ common:
   type: Compliance
   url: https://www.lindy.ai/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/security/lindy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lindy-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/security/lindy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lindy-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/security/lindy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lindy-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/conformance/lindy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lindy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/conventions/lindy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lindy-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/mcp/lindy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lindy-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/a2a/lindy-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/lindy-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/well-known/lindy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lindy-well-known.yml
@@ -134,18 +173,22 @@ common:
   type: LLMsTxt
   url: https://docs.lindy.ai/llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/asyncapi/lindy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lindy-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/authentication/lindy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lindy-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/packages/lindy-packages.yml
   title: ''
   type: Packages
   url: packages/lindy-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/components/lindy-components.yml
   title: ''
   type: Components
   url: components/lindy-components.yml
@@ -189,6 +232,36 @@ rate_limits:
 - limit_count: 0
   name: Lindy Rate Limits
   slug: lindy-rate-limits
+score:
+  band: strong
+  composite: 56.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 56.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lindy/refs/heads/main/screenshots/lindy-2026-06-20T184536.png
 security:
 - kind: authentication

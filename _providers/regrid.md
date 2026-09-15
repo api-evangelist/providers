@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -78,14 +103,17 @@ collections:
   slug: open-regrid-typeahead-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/agentic-access/regrid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/regrid-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/security/regrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/regrid-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/authentication/regrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/regrid-authentication.yml
@@ -118,34 +146,42 @@ common:
   type: X
   url: https://x.com/regridapp
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/plans/regrid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/regrid-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/rate-limits/regrid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/regrid-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/finops/regrid-finops.yml
   title: ''
   type: FinOps
   url: finops/regrid-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/vocabulary/regrid-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/regrid-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/json-schema/regrid-parcel-properties.json
   title: ''
   type: JSONSchema
   url: json-schema/regrid-parcel-properties.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/json-ld/regrid-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/regrid-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/examples/parcel-point-lookup-response.json
   title: ''
   type: Examples
   url: examples/parcel-point-lookup-response.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/examples/parcel-area-search-request.json
   title: ''
   type: Examples
   url: examples/parcel-area-search-request.json
@@ -204,6 +240,38 @@ rules:
     info: 1
     warn: 4
   slug: regrid-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 44.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 80.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 25.0
+    contract_quality: 62.6
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 47.4
+  previous_composite: 44.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png
 security:
 - kind: authentication

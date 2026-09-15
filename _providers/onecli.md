@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -222,22 +247,27 @@ common:
   type: Website
   url: https://www.onecli.sh/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/capabilities/onecli-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/onecli-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/overlays/onecli-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/onecli-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/security/onecli-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onecli-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/agentic-access/onecli-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/onecli-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/authentication/onecli-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onecli-authentication.yml
@@ -286,50 +316,62 @@ common:
   type: Support
   url: https://discord.gg/PSztzsQB3g
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/packages/onecli-packages.yml
   title: ''
   type: Packages
   url: packages/onecli-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/packages/onecli-packages.yml
   title: ''
   type: SDKs
   url: packages/onecli-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/cli/onecli-cli.yml
   title: ''
   type: CLI
   url: cli/onecli-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/mcp/onecli-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/onecli-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/llms/onecli-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onecli-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/conventions/onecli-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onecli-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/errors/onecli-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/onecli-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/lifecycle/onecli-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onecli-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/changelog/onecli-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onecli-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/conformance/onecli-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onecli-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/data-model/onecli-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onecli-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -346,6 +388,41 @@ overview: 'Onecli publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
   Onecli''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 22 more developer resources.'
 random_paper: 4
+score:
+  band: developing
+  composite: 47.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 55.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 47.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/screenshots/onecli-2026-08-07T190306.png
 security:
 - kind: authentication

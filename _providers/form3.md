@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -173,6 +198,7 @@ collections:
   slug: open-form3-payments
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/capabilities/form3-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/form3-capability-edges.yml
@@ -181,30 +207,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/form3/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/security/form3-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/form3-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/security/form3-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/form3-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/security/form3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/form3-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/agentic-access/form3-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/form3-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/scopes/form3-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/form3-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/authentication/form3-authentication.yml
   title: ''
   type: Authentication
   url: authentication/form3-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/security/form3-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/form3-vulnerability-disclosure.yml
@@ -213,42 +246,52 @@ common:
   type: Compliance
   url: https://trust.form3.tech/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/well-known/form3-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/form3-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/well-known/form3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/form3-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/packages/form3-packages.yml
   title: ''
   type: Packages
   url: packages/form3-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/packages/form3-packages.yml
   title: ''
   type: SDKs
   url: packages/form3-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/mcp/form3-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/form3-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/llms/form3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/form3-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/overlays/form3-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/form3-payments-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/conformance/form3-conformance.yml
   title: ''
   type: Conformance
   url: conformance/form3-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/errors/form3-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/form3-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/lifecycle/form3-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/form3-lifecycle.yml
@@ -257,22 +300,27 @@ common:
   type: ChangeLog
   url: https://www.api-docs.form3.tech/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/conventions/form3-conventions.yml
   title: ''
   type: Conventions
   url: conventions/form3-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/conventions/form3-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/form3-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/data-model/form3-data-model.yml
   title: ''
   type: DataModel
   url: data-model/form3-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/asyncapi/form3-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/form3-notifications-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -297,6 +345,7 @@ common:
   type: GettingStarted
   url: https://www.api-docs.form3.tech/api/tutorials/getting-started/introduction
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-payments.yml
   title: ''
   type: OpenAPI
   url: openapi/form3-payments.yml
@@ -350,6 +399,59 @@ scopes:
   scope_count: 0
   slug: form3-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 45.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 58.2
+    developer_ergonomics: 28.0
+    discoverability: 70.4
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 45.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:
 - kind: authentication

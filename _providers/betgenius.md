@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,38 +69,47 @@ asyncapis:
   slug: betgenius-event-surface
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/capabilities/betgenius-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/betgenius-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/overlays/betgenius-booking-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/betgenius-booking-v2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/skills/betgenius-book-fixtures.md
   title: ''
   type: AgentSkill
   url: skills/betgenius-book-fixtures.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/overlays/betgenius-booking-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/betgenius-booking-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/overlays/betgenius-video-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/betgenius-video-v3-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/skills/betgenius-stream-live-fixture.md
   title: ''
   type: AgentSkill
   url: skills/betgenius-stream-live-fixture.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/agentic-access/betgenius-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/betgenius-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/authentication/betgenius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/betgenius-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/security/betgenius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betgenius-domain-security.yml
@@ -184,58 +218,72 @@ common:
   type: StatusPage
   url: https://status.geniussports.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/lifecycle/betgenius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/betgenius-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/conventions/betgenius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/betgenius-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/errors/betgenius-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/betgenius-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/rate-limits/betgenius-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/betgenius-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/plans/betgenius-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/betgenius-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/scopes/betgenius-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/betgenius-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/sandbox/betgenius-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/betgenius-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/conformance/betgenius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/betgenius-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/data-model/betgenius-data-model.yml
   title: ''
   type: DataModel
   url: data-model/betgenius-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/components/betgenius-components.yml
   title: ''
   type: Components
   url: components/betgenius-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/packages/betgenius-packages.yml
   title: ''
   type: Packages
   url: packages/betgenius-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/asyncapi/betgenius-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/betgenius-event-surface.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/llms/betgenius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/betgenius-llms.txt
@@ -269,6 +317,41 @@ scopes:
   scope_count: 10
   slug: betgenius-scopes
   summary_line: 10 scopes
+score:
+  band: developing
+  composite: 43.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 54.4
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    operational_transparency: 57.9
+  previous_composite: 43.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/screenshots/betgenius-2026-06-20T173202.png
 security:
 - kind: authentication

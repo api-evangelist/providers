@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,18 +65,22 @@ collections:
   slug: open-whoapi-domain-intelligence-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/agentic-access/whoapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/whoapi-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/mcp/whoapi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/whoapi-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/overlays/whoapi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/whoapi-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/security/whoapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whoapi-domain-security.yml
@@ -104,30 +133,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/whoapi
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/packages/whoapi-packages.yml
   title: ''
   type: Packages
   url: packages/whoapi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/packages/whoapi-packages.yml
   title: ''
   type: SDKs
   url: packages/whoapi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/cli/whoapi-cli.yml
   title: ''
   type: CLI
   url: cli/whoapi-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/authentication/whoapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whoapi-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/llms/whoapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/whoapi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/conformance/whoapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/whoapi-conformance.yml
@@ -140,18 +176,22 @@ common:
   type: Support
   url: https://whoapi.com/contact-us/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/plans/whoapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/whoapi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/rate-limits/whoapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/whoapi-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/asyncapi/whoapi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/whoapi-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/mcp/whoapi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/whoapi-tool-crosswalk.yml
@@ -179,6 +219,42 @@ rate_limits:
 - limit_count: 4
   name: Whoapi Rate Limits
   slug: whoapi-rate-limits
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 21.0
+    developer_ergonomics: 80.4
+    discoverability: 68.5
+    operational_transparency: 57.9
+  previous_composite: 45.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/screenshots/whoapi-2026-08-17T082916.png
 security:
 - kind: authentication

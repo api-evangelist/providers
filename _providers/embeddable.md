@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Server-side REST APIs for managing Embeddable deployments — mint short-lived JWT security tokens for embeds, list embeddables (dashboards), manage published versions, and read data-model schemas. All '
@@ -18,6 +43,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/security/embeddable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/embeddable-trust-center.yml
@@ -78,30 +104,37 @@ common:
   type: PrivacyPolicy
   url: https://embeddable.com/policies
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/llms/embeddable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/embeddable-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/packages/embeddable-packages.yml
   title: ''
   type: Packages
   url: packages/embeddable-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/packages/embeddable-packages.yml
   title: ''
   type: SDKs
   url: packages/embeddable-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/components/embeddable-components.yml
   title: ''
   type: Components
   url: components/embeddable-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/authentication/embeddable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/embeddable-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/conformance/embeddable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/embeddable-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/lifecycle/embeddable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/embeddable-lifecycle.yml
@@ -110,22 +143,27 @@ common:
   type: StatusPage
   url: https://status.embeddable.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/conventions/embeddable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/embeddable-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/changelog/embeddable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/embeddable-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/cli/embeddable-cli.yml
   title: ''
   type: CLI
   url: cli/embeddable-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/skills/embeddable-dashboard-as-code.md
   title: ''
   type: AgentSkill
   url: skills/embeddable-dashboard-as-code.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/security/embeddable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/embeddable-domain-security.yml
@@ -143,6 +181,35 @@ overview: 'Embeddable publishes 1 API on the [APIs.io](https://apis.io/) network
 
   Embeddable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 42.4
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/embeddable/refs/heads/main/screenshots/embeddable-2026-07-25T213227.png
 security:
 - kind: authentication

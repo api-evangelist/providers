@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 18
 apis:
 - description: 'REST API for Inspur Cloud''s elastic compute service: create, start, stop, reboot, resize, rebuild and delete cloud servers, manage private images, security-group membership, attached volumes, SSH key '
@@ -118,42 +143,52 @@ common:
   type: Pricing
   url: https://console1.cloud.inspur.com/document/ecs/2-product-pricing.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/packages/inspur-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/inspur-cloud-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/packages/inspur-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/inspur-cloud-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/authentication/inspur-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inspur-cloud-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/conventions/inspur-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inspur-cloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/errors/inspur-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/inspur-cloud-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/lifecycle/inspur-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inspur-cloud-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/changelog/inspur-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/inspur-cloud-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/conformance/inspur-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inspur-cloud-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/security/inspur-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inspur-cloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/security/inspur-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/inspur-cloud-vulnerability-disclosure.yml
@@ -162,22 +197,27 @@ common:
   type: Security
   url: https://www.inspur.com/lcjtww/2312126/2432763/index.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/data-model/inspur-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/inspur-cloud-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/plans/inspur-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/inspur-cloud-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/rate-limits/inspur-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inspur-cloud-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/mcp/inspur-cloud-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/inspur-cloud-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/llms/inspur-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inspur-cloud-llms.txt
@@ -206,6 +246,42 @@ rate_limits:
 - limit_count: 0
   name: Inspur Cloud Rate Limits
   slug: inspur-cloud-rate-limits
+score:
+  band: thin
+  composite: 32.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 64.8
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 32.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/inspur-cloud/refs/heads/main/screenshots/inspur-cloud-2026-09-02T150016.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 34.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -62,10 +87,12 @@ collections:
   slug: open-kurly-delivery-tracking-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/capabilities/kurly-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kurly-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/overlays/kurly-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kurly-auth-overlay.yaml
@@ -110,54 +137,67 @@ common:
   type: Console
   url: https://kls.kurly.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/authentication/kurly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kurly-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/agentic-access/kurly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kurly-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/mcp/kurly-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kurly-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/llms/kurly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kurly-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/conventions/kurly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kurly-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/conventions/kurly-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kurly-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/errors/kurly-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kurly-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/data-model/kurly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kurly-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/vocabulary/kurly-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kurly-vocabulary.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/rate-limits/kurly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kurly-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/lifecycle/kurly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kurly-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/changelog/kurly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kurly-changelog.yml
@@ -166,30 +206,37 @@ common:
   type: ChangeLog
   url: https://developers.kurly.com/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/conformance/kurly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kurly-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/sandbox/kurly-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kurly-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/security/kurly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kurly-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/well-known/kurly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kurly-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/arazzo/kurly-delivery-order-to-tracking.yml
   title: ''
   type: Arazzo
   url: arazzo/kurly-delivery-order-to-tracking.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/arazzo/kurly-inbound-receiving-flow.yml
   title: ''
   type: Arazzo
   url: arazzo/kurly-inbound-receiving-flow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/arazzo/kurly-fulfillment-order-flow.yml
   title: ''
   type: Arazzo
   url: arazzo/kurly-fulfillment-order-flow.yml
@@ -210,6 +257,48 @@ rate_limits:
 - limit_count: 0
   name: Kurly Rate Limits
   slug: kurly-rate-limits
+score:
+  band: thin
+  composite: 33.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 19.7
+    contract_quality: 50.3
+    developer_ergonomics: 31.5
+    discoverability: 81.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 33.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:
 - kind: authentication

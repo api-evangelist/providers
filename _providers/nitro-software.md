@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -57,10 +82,12 @@ common:
   type: Website
   url: https://www.gonitro.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/agentic-access/nitro-software-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nitro-software-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/authentication/nitro-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nitro-software-authentication.yml
@@ -81,6 +108,7 @@ common:
   type: GettingStarted
   url: https://developers.gonitro.com/docs/getting-started/basic-setup
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/changelog/nitro-software-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nitro-software-changelog.yml
@@ -89,10 +117,12 @@ common:
   type: StatusPage
   url: https://status.gonitro.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/lifecycle/nitro-software-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nitro-software-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/asyncapi/nitro-software-sign-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nitro-software-sign-webhooks.yml
@@ -101,6 +131,7 @@ common:
   type: Security
   url: https://www.gonitro.com/security-compliance/security/responsible-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/security/nitro-software-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nitro-software-vulnerability-disclosure.yml
@@ -113,6 +144,7 @@ common:
   type: Compliance
   url: https://www.gonitro.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/security/nitro-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nitro-software-domain-security.yml
@@ -141,42 +173,52 @@ common:
   type: Support
   url: https://community.gonitro.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/conventions/nitro-software-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/nitro-software-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/conventions/nitro-software-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nitro-software-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/errors/nitro-software-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nitro-software-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/lifecycle/nitro-software-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nitro-software-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/data-model/nitro-software-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nitro-software-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/conformance/nitro-software-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nitro-software-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/mcp/nitro-software-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nitro-software-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/llms/nitro-software-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nitro-software-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/overlays/nitro-software-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nitro-software-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -196,6 +238,41 @@ overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
   Nitro Software''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 25 more developer resources.'
 random_paper: 6
+score:
+  band: strong
+  composite: 54.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 61.8
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 54.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/screenshots/nitro-software-2026-08-07T185343.png
 security:
 - kind: authentication

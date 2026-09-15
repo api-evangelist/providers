@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -198,6 +223,7 @@ common:
   type: ContributionGuide
   url: https://github.com/stakpak/agent/blob/main/CONTRIBUTING.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/overlays/stakpak-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stakpak-openapi-overlay.yaml
@@ -242,50 +268,62 @@ common:
   type: SourceCode
   url: https://github.com/stakpak/agent
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/packages/stakpak-packages.yml
   title: ''
   type: Packages
   url: packages/stakpak-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/packages/stakpak-packages.yml
   title: ''
   type: SDKs
   url: packages/stakpak-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/cli/stakpak-cli.yml
   title: ''
   type: CLI
   url: cli/stakpak-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/mcp/stakpak-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stakpak-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/llms/stakpak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stakpak-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/changelog/stakpak-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stakpak-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/lifecycle/stakpak-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stakpak-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/conformance/stakpak-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stakpak-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/security/stakpak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stakpak-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/agentic-access/stakpak-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stakpak-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/authentication/stakpak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stakpak-authentication.yml
@@ -310,6 +348,44 @@ overview: 'StakPak publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
   StakPak''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, CLI, and 20 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 44.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 51.1
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 44.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/screenshots/stakpak-2026-08-17T082102.png
 security:
 - kind: authentication

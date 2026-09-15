@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -174,26 +199,32 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/capabilities/active-directory-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/active-directory-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/agentic-access/active-directory-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/active-directory-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/security/active-directory-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/active-directory-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/security/active-directory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/active-directory-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/authentication/active-directory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/active-directory-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/scopes/active-directory-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/active-directory-scopes.yml
@@ -202,54 +233,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-active-directory/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-audit-user-group-memberships-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-audit-user-group-memberships-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-create-group-and-add-members-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-create-group-and-add-members-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-create-m365-group-with-owner-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-create-m365-group-with-owner-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-decommission-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-decommission-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-find-user-and-update-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-find-user-and-update-profile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-offboard-user-from-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-offboard-user-from-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-onboard-user-to-existing-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-onboard-user-to-existing-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-provision-application-with-membership-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-provision-application-with-membership-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-provision-user-into-new-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-provision-user-into-new-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-rename-group-and-list-members-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-rename-group-and-list-members-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-self-service-profile-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-self-service-profile-review-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-transfer-user-between-groups-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-transfer-user-between-groups-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/arazzo/active-directory-update-application-redirect-uris-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/active-directory-update-application-redirect-uris-workflow.yml
@@ -330,14 +374,17 @@ common:
   type: Training
   url: https://learn.microsoft.com/en-us/training/paths/m365-msgraph-associate/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/rules/active-directory-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/active-directory-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/vocabulary/active-directory-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/active-directory-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/json-ld/active-directory-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/active-directory-context.jsonld
@@ -473,6 +520,38 @@ scopes:
   scope_count: 11
   slug: active-directory-scopes
   summary_line: 11 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 56.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 71.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 28.8
+    contract_quality: 76.4
+    developer_ergonomics: 72.6
+    discoverability: 72.2
+    operational_transparency: 26.3
+  previous_composite: 56.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -191,6 +216,7 @@ collections:
   slug: open-order-management-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/capabilities/klarna-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/klarna-capability-edges.yml
@@ -267,90 +293,112 @@ common:
   type: LlmsText
   url: https://docs.klarna.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/agentic-access/klarna-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/klarna-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/authentication/klarna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klarna-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/scopes/klarna-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/klarna-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/security/klarna-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/klarna-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/security/klarna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klarna-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/packages/klarna-packages.yml
   title: ''
   type: Packages
   url: packages/klarna-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/packages/klarna-packages.yml
   title: ''
   type: SDKs
   url: packages/klarna-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/conventions/klarna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klarna-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/conventions/klarna-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/klarna-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/errors/klarna-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/klarna-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/lifecycle/klarna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klarna-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/changelog/klarna-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/klarna-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/sandbox/klarna-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/klarna-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/components/klarna-components.yml
   title: ''
   type: Components
   url: components/klarna-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/data-model/klarna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/klarna-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/conformance/klarna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klarna-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/well-known/klarna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klarna-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/asyncapi/klarna-push-notifications-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/klarna-push-notifications-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/plans/klarna-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/klarna-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/rate-limits/klarna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/klarna-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/finops/klarna-finops.yml
   title: ''
   type: FinOps
   url: finops/klarna-finops.yml
@@ -600,6 +648,55 @@ scopes:
   scope_count: 34
   slug: klarna-scopes
   summary_line: 34 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 76.3
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 67.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 31.8
+    contract_quality: 60.6
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 92.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 76.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 78.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 security:
 - kind: authentication
   name: Klarna Authentication

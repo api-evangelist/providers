@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api-sandbox.c008-m008-us.fraud.net
@@ -87,70 +112,87 @@ common:
   type: ChangeLog
   url: https://releasenotes.fraud.net/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/authentication/fraud-net-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fraud-net-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/conventions/fraud-net-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fraud-net-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/conventions/fraud-net-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fraud-net-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/errors/fraud-net-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fraud-net-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/lifecycle/fraud-net-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fraud-net-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/conformance/fraud-net-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fraud-net-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/data-model/fraud-net-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fraud-net-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/overlays/fraud-net-public-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fraud-net-public-apis-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/packages/fraud-net-packages.yml
   title: ''
   type: Packages
   url: packages/fraud-net-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/packages/fraud-net-packages.yml
   title: ''
   type: SDKs
   url: packages/fraud-net-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/components/fraud-net-components.yml
   title: ''
   type: Components
   url: components/fraud-net-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/llms/fraud-net-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fraud-net-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/asyncapi/fraud-net-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fraud-net-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/sandbox/fraud-net-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fraud-net-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/security/fraud-net-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fraud-net-domain-security.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/changelog/fraud-net-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fraud-net-changelog.yml
@@ -193,6 +235,46 @@ rules:
     info: 0
     warn: 0
   slug: fraud-net-rules
+score:
+  band: strong
+  composite: 58.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 18.2
+    contract_quality: 59.1
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 58.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 64.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/screenshots/fraud-net-2026-06-20T181510.png
 security:
 - kind: authentication
@@ -221,6 +303,6 @@ tags:
 - Compliance
 - Identity
 - Banking
-- Machine Learning
+- Machine-Learning
 website: https://www.fraud.net/
 ---

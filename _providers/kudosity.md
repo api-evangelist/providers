@@ -11,6 +11,32 @@ access_model:
   - https://developers.kudosity.com/docs/getting-started
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 48.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -98,6 +124,7 @@ common:
   type: Website
   url: https://kudosity.com
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/capabilities/kudosity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kudosity-capability-edges.yml
@@ -166,6 +193,7 @@ common:
   type: Compliance
   url: https://trust.kudosity.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/security/kudosity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kudosity-trust-center.yml
@@ -174,22 +202,27 @@ common:
   type: Security
   url: https://trust.kudosity.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/security/kudosity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kudosity-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/security/kudosity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kudosity-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/authentication/kudosity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kudosity-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/agentic-access/kudosity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kudosity-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/mcp/kudosity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kudosity-mcp.yml
@@ -198,54 +231,67 @@ common:
   type: MCPServer
   url: https://developers.kudosity.com/mcp
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/mcp/kudosity-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/kudosity-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/llms/kudosity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kudosity-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/llms/kudosity-website-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kudosity-website-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/asyncapi/kudosity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kudosity-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/errors/kudosity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kudosity-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/errors/kudosity-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/kudosity-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/rate-limits/kudosity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kudosity-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/conventions/kudosity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kudosity-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/examples/kudosity-examples.yml
   title: ''
   type: Examples
   url: examples/kudosity-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/data-model/kudosity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kudosity-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/conformance/kudosity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kudosity-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/lifecycle/kudosity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kudosity-lifecycle.yml
@@ -254,14 +300,17 @@ common:
   type: ChangeLog
   url: https://developers.kudosity.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/changelog/kudosity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kudosity-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/plans/kudosity-plans.yml
   title: ''
   type: Plans
   url: plans/kudosity-plans.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/packages/kudosity-packages.yml
   title: ''
   type: Packages
   url: packages/kudosity-packages.yml
@@ -298,6 +347,7 @@ common:
   type: SourceCode
   url: https://github.com/kudosity/mcp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/well-known/kudosity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kudosity-well-known.yml
@@ -332,6 +382,58 @@ rate_limits:
 - limit_count: 2
   name: Kudosity Rate Limits
   slug: kudosity-rate-limits
+score:
+  band: strong
+  composite: 60.0
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 61.9
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:
 - kind: authentication

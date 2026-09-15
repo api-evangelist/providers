@@ -21,6 +21,7 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/faraday-pharmaceuticals_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/faraday-pharmaceuticals/refs/heads/main/security/faraday-pharmaceuticals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/faraday-pharmaceuticals-domain-security.yml

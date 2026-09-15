@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: platform
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,46 +105,57 @@ common:
   type: Website
   url: https://www.bindbee.dev/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/agentic-access/bindbee-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bindbee-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/a2a/bindbee-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/bindbee-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/mcp/bindbee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bindbee-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/mcp/bindbee-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bindbee-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/well-known/bindbee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bindbee-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/conventions/bindbee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bindbee-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/conventions/bindbee-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bindbee-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/errors/bindbee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bindbee-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/data-model/bindbee-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bindbee-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/lifecycle/bindbee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bindbee-lifecycle.yml
@@ -128,58 +164,72 @@ common:
   type: StatusPage
   url: https://status.bindbee.dev/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/conformance/bindbee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bindbee-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/conformance/bindbee-conformance.yml
   title: ''
   type: Compliance
   url: conformance/bindbee-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/security/bindbee-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bindbee-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/packages/bindbee-packages.yml
   title: ''
   type: Packages
   url: packages/bindbee-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/packages/bindbee-packages.yml
   title: ''
   type: SDKs
   url: packages/bindbee-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/components/bindbee-components.yml
   title: ''
   type: Components
   url: components/bindbee-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/sandbox/bindbee-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bindbee-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/asyncapi/bindbee-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bindbee-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/overlays/bindbee-unified-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bindbee-unified-api-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/plans/bindbee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bindbee-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/rate-limits/bindbee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bindbee-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/llms/bindbee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bindbee-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/examples/bindbee-employees-response-example.json
   title: ''
   type: Examples
   url: examples/bindbee-employees-response-example.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/json-schema/bindbee-employees-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/bindbee-employees-response-schema.json
@@ -220,10 +270,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/unifyXX
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/security/bindbee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bindbee-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/authentication/bindbee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bindbee-authentication.yml
@@ -382,7 +434,7 @@ modified: '2026-09-04'
 name: Bindbee
 nav: Providers
 network: true
-overview: 'Bindbee publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Employees API, and 3 more. Tagged areas include ATS, HR Integration, HRIS, Workforce, and Unified API.
+overview: 'Bindbee publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Employees API, and 3 more. Tagged areas include ATS, HR Integration, HRIS, Workforce, and Unified-API.
 
 
   The Bindbee catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -420,6 +472,47 @@ rules:
     info: 0
     warn: 22
   slug: bindbee-spectral-rules
+score:
+  band: exemplar
+  composite: 67.0
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 80.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 33.4
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 67.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/screenshots/bindbee-2026-06-20T173245.png
 security:
 - kind: authentication
@@ -440,11 +533,11 @@ tags:
 - HR Integration
 - HRIS
 - Workforce
-- Unified API
+- Unified-API
 - Payroll
 - LMS
 - Employee Data
-- Integrations
+- Integration
 use_cases:
 - description: Sync employee records from any HRIS into internal apps and directories.
   name: Employee Directory Integration

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Banyan's OAuth2 REST API for submitting receipt and transaction data, retrieving enriched (item-level) transactions, managing card-linked-offer campaigns/offers/activations, receipt search, consumer c
@@ -57,46 +82,57 @@ common:
   type: ChangeLog
   url: https://developers.banyan.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/changelog/banyan-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/banyan-systems-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/authentication/banyan-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/banyan-systems-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/conventions/banyan-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/banyan-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/errors/banyan-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/banyan-systems-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/lifecycle/banyan-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/banyan-systems-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/conformance/banyan-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/banyan-systems-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/asyncapi/banyan-systems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/banyan-systems-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/mcp/banyan-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/banyan-systems-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/llms/banyan-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/banyan-systems-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/well-known/banyan-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/banyan-systems-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/security/banyan-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banyan-systems-domain-security.yml
@@ -116,6 +152,41 @@ overview: 'Banyan Systems publishes 1 API on the [APIs.io](https://apis.io/) net
 
   Banyan Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 13 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 32.0
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 38.1
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 32.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/screenshots/banyan-systems-2026-07-25T202351.png
 security:
 - kind: authentication

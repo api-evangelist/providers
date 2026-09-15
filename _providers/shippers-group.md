@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Shippers Group provides third-party logistics services including warehousing, co-packaging, fulfillment, and transportation management. As a national 3PL provider operating across 12 US locations,
@@ -20,6 +45,7 @@ apis:
 artifact_total: 11
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/security/shippers-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shippers-group-domain-security.yml
@@ -56,22 +82,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/the-shippers-group/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/json-schema/shippers-group-warehouse-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/shippers-group-warehouse-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/json-structure/shippers-group-warehouse-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/shippers-group-warehouse-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/json-ld/shippers-group-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/shippers-group-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/examples/shippers-group-warehouse-example.json
   title: ''
   type: Examples
   url: examples/shippers-group-warehouse-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shippers-group/refs/heads/main/vocabulary/shippers-group-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shippers-group-vocabulary.yml
@@ -131,6 +162,37 @@ rules:
     info: 2
     warn: 3
   slug: shippers-group-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 19.3
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 57.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 17.3
+    developer_ergonomics: 9.5
+    discoverability: 59.3
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 19.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Shippers Group Domain Security

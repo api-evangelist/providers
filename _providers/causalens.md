@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 9.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The HTTP surface exposed by a Dara application. Dara is causaLens'' Apache-2.0 open-source Python framework built on FastAPI; each app serves a documented set of built-in routes (session verification, '
@@ -18,10 +43,12 @@ apis:
 artifact_total: 4
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/mcp/causalens-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/causalens-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/security/causalens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/causalens-domain-security.yml
@@ -74,50 +101,62 @@ common:
   type: StatusPage
   url: https://status.causalens.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/packages/causalens-packages.yml
   title: ''
   type: Packages
   url: packages/causalens-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/packages/causalens-packages.yml
   title: ''
   type: SDKs
   url: packages/causalens-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/cli/causalens-cli.yml
   title: ''
   type: CLI
   url: cli/causalens-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/components/causalens-components.yml
   title: ''
   type: Components
   url: components/causalens-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/changelog/causalens-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/causalens-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/lifecycle/causalens-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/causalens-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/authentication/causalens-authentication.yml
   title: ''
   type: Authentication
   url: authentication/causalens-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/conventions/causalens-conventions.yml
   title: ''
   type: Conventions
   url: conventions/causalens-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/conformance/causalens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/causalens-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/well-known/causalens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/causalens-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/llms/causalens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/causalens-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -138,6 +177,42 @@ overview: 'CausaLens publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   CausaLens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
 random_paper: 14
+score:
+  band: thin
+  composite: 33.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 78.6
+    discoverability: 66.7
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 33.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/causalens/refs/heads/main/screenshots/causalens-2026-09-02T145021.png
 security:
 - kind: authentication

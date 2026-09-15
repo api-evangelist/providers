@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -273,34 +298,42 @@ collections:
   slug: open-ccp-games-wars-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/capabilities/ccp-games-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ccp-games-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/overlays/ccp-games-esi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ccp-games-esi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/llms/ccp-games-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ccp-games-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/mcp/ccp-games-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ccp-games-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/data-model/ccp-games-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ccp-games-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/conformance/ccp-games-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ccp-games-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/changelog/ccp-games-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ccp-games-changelog.yml
@@ -309,14 +342,17 @@ common:
   type: Deprecation
   url: https://docs.esi.evetech.net/docs/guidelines.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/lifecycle/ccp-games-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ccp-games-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/conventions/ccp-games-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ccp-games-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/errors/ccp-games-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ccp-games-problem-types.yml
@@ -325,30 +361,37 @@ common:
   type: Security
   url: https://www.eveonline.com/article/responsible-disclosure-reporting-security-issues
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/well-known/ccp-games-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ccp-games-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/well-known/ccp-games-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ccp-games-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/security/ccp-games-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ccp-games-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/security/ccp-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ccp-games-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/agentic-access/ccp-games-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ccp-games-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/scopes/ccp-games-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ccp-games-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/authentication/ccp-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ccp-games-authentication.yml
@@ -406,6 +449,47 @@ scopes:
   scope_count: 70
   slug: ccp-games-scopes
   summary_line: 70 scopes · authorizationCode
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 52.8
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 41.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/screenshots/ccp-games-2026-07-25T204826.png
 security:
 - kind: authentication

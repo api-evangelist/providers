@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.6
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Programmatically search Planet's imagery catalog by geometry, date range, cloud cover and other filters, then discover the items and downloadable assets that match. Supports item search, asset activat
@@ -100,58 +125,72 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/planet-labs
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/packages/planet-packages.yml
   title: ''
   type: Packages
   url: packages/planet-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/packages/planet-packages.yml
   title: ''
   type: SDKs
   url: packages/planet-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/cli/planet-cli.yml
   title: ''
   type: CLI
   url: cli/planet-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/mcp/planet-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/planet-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/llms/planet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/planet-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/well-known/planet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/planet-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/authentication/planet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/planet-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/scopes/planet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/planet-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/conventions/planet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/planet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/conformance/planet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/planet-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/lifecycle/planet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/planet-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/changelog/planet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/planet-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/security/planet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/planet-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/security/planet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/planet-vulnerability-disclosure.yml
@@ -160,6 +199,7 @@ common:
   type: Security
   url: https://www.planet.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/security/planet-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/planet-trust-center.yml
@@ -189,6 +229,35 @@ scopes:
   scope_count: 5
   slug: planet-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 5.3
+    developer_ergonomics: 71.4
+    discoverability: 74.1
+    operational_transparency: 47.4
+  previous_composite: 40.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/screenshots/planet-2026-09-02T151406.png
 security:
 - kind: authentication

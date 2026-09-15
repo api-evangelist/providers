@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.request.finance/'', ''status'': 302, ''note'': ''declared website redirects to https://www.requestfinance.com/ — a different registrable domain (request.finance -> requestfinance.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Accounts Payable and Receivable REST API for issuing invoices, accepting crypto and fiat payments, running payroll, and managing organizations and clients. JSON request and response bodies, Bearer
@@ -22,14 +47,17 @@ asyncapis:
   slug: request-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/mcp/request-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/request-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/security/request-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/request-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/security/request-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/request-domain-security.yml
@@ -54,6 +82,7 @@ common:
   type: GettingStarted
   url: https://docs.request.finance/getting-started
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/llms/request-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/request-llms.txt
@@ -82,50 +111,62 @@ common:
   type: SignUp
   url: https://app.request.finance/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/asyncapi/request-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/request-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/authentication/request-authentication.yml
   title: ''
   type: Authentication
   url: authentication/request-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/scopes/request-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/request-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/sandbox/request-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/request-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/conventions/request-conventions.yml
   title: ''
   type: Conventions
   url: conventions/request-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/lifecycle/request-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/request-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/lifecycle/request-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/request-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/conformance/request-conformance.yml
   title: ''
   type: Conformance
   url: conformance/request-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/security/request-trust-center.yml
   title: ''
   type: Compliance
   url: security/request-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/data-model/request-data-model.yml
   title: ''
   type: DataModel
   url: data-model/request-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/rate-limits/request-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/request-rate-limits.yml
@@ -154,6 +195,42 @@ scopes:
   scope_count: 5
   slug: request-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 45.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/screenshots/request-2026-08-17T081526.png
 security:
 - kind: authentication

@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -112,10 +138,12 @@ collections:
   slug: open-plansource-security-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/capabilities/plansource-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/plansource-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/overlays/plansource-admin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/plansource-admin-api-overlay.yaml
@@ -164,6 +192,7 @@ common:
   type: PrivacyPolicy
   url: https://plansource.com/privacy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/security/plansource-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/plansource-trust-center.yml
@@ -172,62 +201,77 @@ common:
   type: Compliance
   url: https://trust.plansource.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/llms/plansource-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plansource-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/well-known/plansource-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/plansource-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/mcp/plansource-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/plansource-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/security/plansource-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plansource-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/authentication/plansource-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plansource-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/scopes/plansource-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/plansource-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/conformance/plansource-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plansource-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/lifecycle/plansource-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plansource-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/sandbox/plansource-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/plansource-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/conventions/plansource-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plansource-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/errors/plansource-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/plansource-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/data-model/plansource-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plansource-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/examples/plansource-examples.yml
   title: ''
   type: Examples
   url: examples/plansource-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/agentic-access/plansource-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/plansource-agentic-access.yml
@@ -254,6 +298,53 @@ scopes:
   scope_count: 8
   slug: plansource-scopes
   summary_line: 8 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 56.2
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 48.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 71.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/screenshots/plansource-2026-08-17T081304.png
 security:
 - kind: authentication

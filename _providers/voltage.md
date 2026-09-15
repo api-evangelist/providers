@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for sending and receiving Bitcoin/Lightning payments. Manage wallets, create send/receive payments (BOLT11, on-chain, BIP21), lock BTC/USD exchange rates with quotes, view lines of credit, an
@@ -26,14 +51,17 @@ asyncapis:
   slug: voltage-payments-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/security/voltage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/voltage-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/security/voltage-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/voltage-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/security/voltage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voltage-domain-security.yml
@@ -94,82 +122,102 @@ common:
   type: ChangeLog
   url: https://docs.voltageapi.com/release-notes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/llms/voltage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voltage-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/authentication/voltage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voltage-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/conventions/voltage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voltage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/conventions/voltage-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/voltage-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/changelog/voltage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/voltage-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/lifecycle/voltage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voltage-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/sandbox/voltage-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/voltage-sandbox.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/asyncapi/voltage-payments-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/voltage-payments-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/asyncapi/voltage-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/voltage-payments-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/mcp/voltage-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/voltage-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/errors/voltage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voltage-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/conformance/voltage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voltage-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/conformance/voltage-conformance.yml
   title: ''
   type: Compliance
   url: conformance/voltage-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/data-model/voltage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voltage-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/cli/voltage-cli.yml
   title: ''
   type: CLI
   url: cli/voltage-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/packages/voltage-packages.yml
   title: ''
   type: Packages
   url: packages/voltage-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/packages/voltage-packages.yml
   title: ''
   type: SDKs
   url: packages/voltage-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/well-known/voltage-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/voltage-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/well-known/voltage-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/voltage-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -189,6 +237,42 @@ overview: 'Voltage publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Voltage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 19
+score:
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 56.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/voltage/refs/heads/main/screenshots/voltage-2026-08-17T082821.png
 security:
 - kind: authentication

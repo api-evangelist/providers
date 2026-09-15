@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -932,26 +957,32 @@ common:
   type: Website
   url: https://www.bentley.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/capabilities/bentley-systems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bentley-systems-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/agentic-access/bentley-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bentley-systems-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/security/bentley-systems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bentley-systems-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/security/bentley-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bentley-systems-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/authentication/bentley-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bentley-systems-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/scopes/bentley-systems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bentley-systems-scopes.yml
@@ -960,34 +991,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bentley-systems/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-advance-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-advance-issue-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-authoring-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-authoring-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-clone-imodel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-clone-imodel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-file-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-file-issue-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-provision-imodel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-provision-imodel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-publish-form-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-publish-form-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-register-reality-data-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-register-reality-data-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/arazzo/bentley-systems-tag-named-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bentley-systems-tag-named-version-workflow.yml
@@ -1032,14 +1071,17 @@ common:
   type: Pricing
   url: https://developer.bentley.com/pricing/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/plans/bentley-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bentley-systems-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/rate-limits/bentley-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bentley-systems-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/finops/bentley-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/bentley-systems-finops.yml
@@ -1152,10 +1194,12 @@ common:
   type: Community
   url: https://developer.bentley.com/community/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/vocabulary/bentley-systems-vocabulary.yml
   title: ''
   type: VocabularyOfTerms
   url: vocabulary/bentley-systems-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/json-ld/bentley-systems-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bentley-systems-context.jsonld
@@ -1308,6 +1352,38 @@ scopes:
   scope_count: 1
   slug: bentley-systems-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 62.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 73.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 72.4
+    contract_governance: 13.6
+    contract_quality: 58.8
+    developer_ergonomics: 82.1
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 86
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:
 - kind: authentication

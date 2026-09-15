@@ -10,6 +10,32 @@ access_model:
   - https://signal-ai.com/solutions/api
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.signal-ai.com
@@ -107,14 +133,17 @@ collections:
   slug: open-signal-ai-topics-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/security/signal-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signal-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/authentication/signal-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/signal-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/scopes/signal-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/signal-ai-scopes.yml
@@ -151,66 +180,82 @@ common:
   type: StatusPage
   url: https://signalai.statuspage.io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/llms/signal-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signal-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/well-known/signal-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/signal-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/mcp/signal-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/signal-ai-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/overlays/signal-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/signal-ai-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/conformance/signal-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/signal-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/lifecycle/signal-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/signal-ai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/lifecycle/signal-ai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/signal-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/conventions/signal-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/signal-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/data-model/signal-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/signal-ai-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/packages/signal-ai-packages.yml
   title: ''
   type: Packages
   url: packages/signal-ai-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/errors/signal-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/signal-ai-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/rate-limits/signal-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/signal-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/plans/signal-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/signal-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/changelog/signal-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/signal-ai-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/mcp/signal-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/signal-ai-tool-crosswalk.yml
@@ -260,6 +305,40 @@ scopes:
   scope_count: 7
   slug: signal-ai-scopes
   summary_line: 7 scopes · clientCredentials
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 51.7
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 41.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/screenshots/signal-ai-2026-08-17T081853.png
 security:
 - kind: authentication

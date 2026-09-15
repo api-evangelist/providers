@@ -10,6 +10,31 @@ access_model:
   - https://ogen.dev/docs/intro
   trial: false
   try_now: true
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The ogen code generator. Invoked as a build-time CLI against a local OpenAPI v3 document — `ogen [options] <spec>` — it writes a Go package containing a typed client, server, router, validators and JS
@@ -70,50 +95,62 @@ common:
   type: Community
   url: https://t.me/ogen_dev
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/json-schema/ogen-config.jsonschema.json
   title: ''
   type: JSONSchema
   url: json-schema/ogen-config.jsonschema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/packages/ogen-packages.yml
   title: ''
   type: Packages
   url: packages/ogen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/packages/ogen-packages.yml
   title: ''
   type: SDKs
   url: packages/ogen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/cli/ogen-cli.yml
   title: ''
   type: CLI
   url: cli/ogen-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/sandbox/ogen-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ogen-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/vocabulary/ogen-extensions.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ogen-extensions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/conformance/ogen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ogen-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/changelog/ogen-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ogen-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/lifecycle/ogen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ogen-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/llms/ogen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ogen-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/security/ogen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ogen-vulnerability-disclosure.yml
@@ -122,6 +159,7 @@ common:
   type: Security
   url: https://github.com/ogen-go/ogen/blob/main/SECURITY.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/security/ogen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ogen-domain-security.yml
@@ -154,6 +192,35 @@ rate_limits:
 - limit_count: 5
   name: Ogen Rate Limits
   slug: ogen-rate-limits
+score:
+  band: thin
+  composite: 33.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 52.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 33.3
+    contract_quality: 8.0
+    developer_ergonomics: 66.1
+    discoverability: 59.3
+    operational_transparency: 36.8
+  previous_composite: 33.1
+  provenance:
+    conformance: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/screenshots/ogen-2026-06-20T190640.png
 security:
 - kind: domain-security

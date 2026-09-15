@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -150,18 +175,22 @@ collections:
   slug: open-spot-zones-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/security/spot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spot-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/security/spot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spot-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/agentic-access/spot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spot-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/authentication/spot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spot-authentication.yml
@@ -226,42 +255,52 @@ common:
   type: Compliance
   url: https://www.spot.ai/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/llms/spot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spot-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/errors/spot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spot-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/conventions/spot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/lifecycle/spot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spot-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/conformance/spot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/data-model/spot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spot-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/asyncapi/spot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spot-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/mcp/spot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spot-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/overlays/spot-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spot-devices-overlay.yaml
@@ -281,6 +320,41 @@ overview: 'Spot AI publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
   Spot AI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 64.5
+    developer_ergonomics: 39.9
+    discoverability: 81.5
+    operational_transparency: 21.1
+  previous_composite: 46.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/screenshots/spot-2026-08-17T082037.png
 security:
 - kind: authentication

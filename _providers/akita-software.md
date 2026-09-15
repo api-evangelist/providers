@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 10.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Akita Software provided an API observability platform that used passive traffic monitoring to automatically discover, map, and model APIs without requiring code changes or proxying. It could generate '
@@ -32,6 +57,7 @@ common:
   type: License
   url: https://github.com/postmanlabs/postman-insights-agent/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/security/akita-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akita-software-domain-security.yml
@@ -52,42 +78,52 @@ common:
   type: X
   url: https://x.com/akitasoftware
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/packages/akita-software-packages.yml
   title: ''
   type: Packages
   url: packages/akita-software-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/cli/akita-software-cli.yml
   title: ''
   type: CLI
   url: cli/akita-software-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/changelog/akita-software-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/akita-software-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/lifecycle/akita-software-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/akita-software-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/authentication/akita-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/akita-software-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/errors/akita-software-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/akita-software-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/conventions/akita-software-conventions.yml
   title: ''
   type: Conventions
   url: conventions/akita-software-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/llms/akita-software-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/akita-software-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/plans/akita-software-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/akita-software-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/akita-software/refs/heads/main/rate-limits/akita-software-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/akita-software-rate-limits.yml
@@ -142,6 +178,37 @@ rate_limits:
 - limit_count: 0
   name: Akita Software Rate Limits
   slug: akita-software-rate-limits
+score:
+  band: thin
+  composite: 27.4
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 66.7
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 27.4
+  provenance:
+    mcp: unknown
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Akita Software Authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.9
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,34 +120,42 @@ common:
   type: Roadmap
   url: https://www.nerc.com/standards/reliability-standards-under-development
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/well-known/nerc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nerc-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/well-known/nerc-eisac-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/nerc-eisac-openid-configuration.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/well-known/nerc-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/nerc-robots.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/authentication/nerc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nerc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/scopes/nerc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nerc-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/conformance/nerc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nerc-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/security/nerc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nerc-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/llms/nerc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nerc-llms.txt
@@ -146,6 +179,48 @@ scopes:
   scope_count: 36
   slug: nerc-scopes
   summary_line: 36 scopes · authorizationCode/implicit
+score:
+  band: emerging
+  composite: 23.2
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 50.0
+    operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 23.2
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerc/refs/heads/main/screenshots/nerc-2026-08-07T184904.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - https://www.actively.ai/products/api-platform
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Actively's hosted (remote) Model Context Protocol server, which connects its Per-Account Agents — per-account research, strategy and persistent memory — into external AI clients such as ChatGPT, Claud
@@ -20,62 +45,77 @@ apis:
 artifact_total: 9
 common:
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/conformance/actively-conformance.yml
   title: ''
   type: Conformance
   url: conformance/actively-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/conformance/actively-conformance.yml
   title: ''
   type: Compliance
   url: conformance/actively-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/mcp/actively-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/actively-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/llms/actively-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/actively-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/security/actively-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/actively-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/security/actively-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/actively-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/security/actively-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/actively-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/security/actively-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/actively-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/authentication/actively-authentication.yml
   title: ''
   type: Authentication
   url: authentication/actively-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/scopes/actively-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/actively-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/well-known/actively-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/actively-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/conventions/actively-conventions.yml
   title: ''
   type: Conventions
   url: conventions/actively-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/lifecycle/actively-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/actively-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/plans/actively-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/actively-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/rate-limits/actively-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/actively-rate-limits.yml
@@ -133,6 +173,35 @@ scopes:
   scope_count: 0
   slug: actively-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 24.4
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 24.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/screenshots/actively-2026-07-25T181529.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -97,74 +122,92 @@ collections:
   slug: open-amazon-secrets-manager
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/capabilities/amazon-secrets-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-secrets-manager-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/agentic-access/amazon-secrets-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-secrets-manager-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/security/amazon-secrets-manager-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-secrets-manager-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/security/amazon-secrets-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-secrets-manager-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/security/amazon-secrets-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-secrets-manager-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/authentication/amazon-secrets-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-secrets-manager-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/packages/amazon-secrets-manager-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-secrets-manager-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/well-known/amazon-secrets-manager-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-secrets-manager-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/well-known/amazon-secrets-manager-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-secrets-manager-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/mcp/amazon-secrets-manager-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-secrets-manager-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/llms/amazon-secrets-manager-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-secrets-manager-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/overlays/amazon-secrets-manager-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-secrets-manager-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/conformance/amazon-secrets-manager-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-secrets-manager-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/errors/amazon-secrets-manager-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-secrets-manager-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/lifecycle/amazon-secrets-manager-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-secrets-manager-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/conventions/amazon-secrets-manager-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-secrets-manager-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/cli/amazon-secrets-manager-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-secrets-manager-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/data-model/amazon-secrets-manager-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-secrets-manager-data-model.yml
@@ -173,34 +216,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-secrets-manager/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-create-and-read-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-create-and-read-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-find-and-delete-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-find-and-delete-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-generate-password-and-store-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-generate-password-and-store-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-restore-deleted-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-restore-deleted-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-rotate-and-describe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-rotate-and-describe-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-rotate-version-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-rotate-version-and-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-tag-secret-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-tag-secret-and-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/arazzo/amazon-secrets-manager-update-metadata-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-secrets-manager-update-metadata-and-verify-workflow.yml
@@ -285,74 +336,92 @@ common:
   type: CLI
   url: https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/rules/amazon-secrets-manager-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-secrets-manager-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/vocabulary/amazon-secrets-manager-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-secrets-manager-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-ld/amazon-secrets-manager-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-secrets-manager-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-schema/amazon-secrets-manager-get-random-password-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-secrets-manager-get-random-password-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-schema/amazon-secrets-manager-list-secrets-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-secrets-manager-list-secrets-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-schema/amazon-secrets-manager-tag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-secrets-manager-tag-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-structure/amazon-secrets-manager-get-random-password-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-secrets-manager-get-random-password-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-structure/amazon-secrets-manager-list-secrets-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-secrets-manager-list-secrets-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-structure/amazon-secrets-manager-rotation-rules-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-secrets-manager-rotation-rules-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-structure/amazon-secrets-manager-secret-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-secrets-manager-secret-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-structure/amazon-secrets-manager-secret-value-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-secrets-manager-secret-value-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/json-structure/amazon-secrets-manager-tag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-secrets-manager-tag-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/examples/amazon-secrets-manager-get-random-password-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-secrets-manager-get-random-password-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/examples/amazon-secrets-manager-list-secrets-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-secrets-manager-list-secrets-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/examples/amazon-secrets-manager-rotation-rules-example.json
   title: ''
   type: Examples
   url: examples/amazon-secrets-manager-rotation-rules-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/examples/amazon-secrets-manager-secret-example.json
   title: ''
   type: Examples
   url: examples/amazon-secrets-manager-secret-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/examples/amazon-secrets-manager-secret-value-example.json
   title: ''
   type: Examples
   url: examples/amazon-secrets-manager-secret-value-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/examples/amazon-secrets-manager-tag-example.json
   title: ''
   type: Examples
   url: examples/amazon-secrets-manager-tag-example.json
@@ -485,6 +554,40 @@ rules:
     info: 1
     warn: 13
   slug: amazon-secrets-manager-spectral-rules
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 73.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 33.3
+    contract_quality: 65.3
+    developer_ergonomics: 72.6
+    discoverability: 77.8
+    operational_transparency: 36.8
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:
 - kind: authentication

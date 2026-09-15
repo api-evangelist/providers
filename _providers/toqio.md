@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.7
+  scored_at: '2026-09-14'
 api_count: 17
 apis:
 - baseURL: https://api.toq.io/wallet/api
@@ -414,10 +439,12 @@ collections:
   slug: open-toqio-webhook-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/capabilities/toqio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/toqio-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/overlays/toqio-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/toqio-accounts-overlay.yaml
@@ -470,66 +497,82 @@ common:
   type: Compliance
   url: https://integrate.toq.io/reference/third-party-risk-management-dora-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/security/toqio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/toqio-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/scopes/toqio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/toqio-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/authentication/toqio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/toqio-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/packages/toqio-packages.yml
   title: ''
   type: Packages
   url: packages/toqio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/packages/toqio-packages.yml
   title: ''
   type: SDKs
   url: packages/toqio-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/mcp/toqio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/toqio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/llms/toqio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/toqio-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/conformance/toqio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/toqio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/errors/toqio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/toqio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/lifecycle/toqio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/toqio-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/sandbox/toqio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/toqio-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/conventions/toqio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/toqio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/components/toqio-components.yml
   title: ''
   type: Components
   url: components/toqio-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/data-model/toqio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/toqio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/asyncapi/toqio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/toqio-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -554,6 +597,50 @@ scopes:
   scope_count: 3
   slug: toqio-scopes
   summary_line: 3 scopes · clientCredentials/password
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 25.0
+    contract_governance: 18.2
+    contract_quality: 57.2
+    developer_ergonomics: 49.4
+    discoverability: 81.5
+    operational_transparency: 22.4
+  previous_composite: 51.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 56.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 49
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/screenshots/toqio-2026-08-17T082408.png
 security:
 - kind: authentication

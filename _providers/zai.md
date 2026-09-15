@@ -11,6 +11,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -182,22 +208,27 @@ collections:
   slug: open-zai-virtual-accounts-payid
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/capabilities/zai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zai-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-assembly-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-assembly-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-virtual-accounts-payid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-virtual-accounts-payid-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-payto-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-payto-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-async-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-async-api-overlay.yaml
@@ -206,18 +237,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zai/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/agentic-access/zai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/security/zai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/scopes/zai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zai-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/authentication/zai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zai-authentication.yml
@@ -286,58 +321,72 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/hellozai/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/packages/zai-packages.yml
   title: ''
   type: Packages
   url: packages/zai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/packages/zai-packages.yml
   title: ''
   type: SDKs
   url: packages/zai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/well-known/zai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/mcp/zai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/mcp/zai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/zai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/llms/zai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/conformance/zai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/errors/zai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zai-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/lifecycle/zai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/conventions/zai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/asyncapi/zai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zai-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/sandbox/zai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/data-model/zai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zai-data-model.yml
@@ -367,6 +416,54 @@ scopes:
   scope_count: 0
   slug: zai-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 64.6
+    developer_ergonomics: 55.4
+    discoverability: 57.4
+    operational_transparency: 22.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 52.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 81.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png
 security:
 - kind: authentication

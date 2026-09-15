@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://rtb.network.tpsengage.com/api/sv
@@ -33,14 +58,17 @@ collections:
   slug: open-tps-engage-prefetch-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/mcp/tps-engage-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tps-engage-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/overlays/tps-engage-blindspot-pull-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tps-engage-blindspot-pull-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/security/tps-engage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tps-engage-domain-security.yml
@@ -89,54 +117,67 @@ common:
   type: GettingStarted
   url: https://seeblindspot.com/create-your-first-campaign-in-less-than-5-minutes-step-by-step/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/llms/tps-engage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tps-engage-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/packages/tps-engage-packages.yml
   title: ''
   type: Packages
   url: packages/tps-engage-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/authentication/tps-engage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tps-engage-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/conventions/tps-engage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tps-engage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/lifecycle/tps-engage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tps-engage-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/plans/tps-engage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tps-engage-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/rate-limits/tps-engage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tps-engage-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/examples/tps-engage-examples.yml
   title: ''
   type: Examples
   url: examples/tps-engage-examples.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/security/tps-engage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tps-engage-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/security/tps-engage-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tps-engage-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/security/tps-engage-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tps-engage-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/security/tps-engage-trust-center.yml
   title: ''
   type: Compliance
   url: security/tps-engage-trust-center.yml
@@ -161,6 +202,41 @@ rate_limits:
 - limit_count: 0
   name: Tps Engage Rate Limits
   slug: tps-engage-rate-limits
+score:
+  band: developing
+  composite: 45.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 45.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/screenshots/tps-engage-2026-08-17T082415.png
 security:
 - kind: authentication

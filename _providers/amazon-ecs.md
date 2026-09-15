@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -149,6 +174,7 @@ collections:
   slug: open-amazon-ecs
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/capabilities/amazon-ecs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-ecs-capability-edges.yml
@@ -177,22 +203,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-ecs/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/agentic-access/amazon-ecs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-ecs-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/security/amazon-ecs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-ecs-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/security/amazon-ecs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-ecs-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/security/amazon-ecs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-ecs-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/authentication/amazon-ecs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-ecs-authentication.yml
@@ -777,6 +808,41 @@ rules:
     info: 1
     warn: 7
   slug: amazon-ecs-spectral-rules
+score:
+  band: developing
+  composite: 53.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 52.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 13.6
+    contract_quality: 69.2
+    developer_ergonomics: 65.5
+    discoverability: 61.1
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 53.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/screenshots/amazon-ecs-2026-06-20T171639.png
 security:
 - kind: authentication

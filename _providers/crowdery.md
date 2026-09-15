@@ -24,6 +24,7 @@ common:
   type: Archive
   url: http://web.archive.org/web/20131220212321/http://www.crowdery.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crowdery/refs/heads/main/security/crowdery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crowdery-domain-security.yml

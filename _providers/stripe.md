@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -1579,10 +1604,12 @@ collections:
   slug: open-stripe-webhook-endpoints-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/capabilities/stripe-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stripe-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/skills/stripe-calculate-and-settle-tax.md
   title: ''
   type: AgentSkill
   url: skills/stripe-calculate-and-settle-tax.md
@@ -1591,54 +1618,67 @@ common:
   type: Roadmap
   url: https://stripe.com/roadmap
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/agentic-access/stripe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stripe-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/security/stripe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stripe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/security/stripe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stripe-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/security/stripe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stripe-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/authentication/stripe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stripe-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/scopes/stripe-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stripe-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/sandbox/stripe-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stripe-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/conventions/stripe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stripe-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/changelog/stripe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stripe-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/cli/stripe-cli.yml
   title: ''
   type: CLI
   url: cli/stripe-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/components/stripe-components.yml
   title: ''
   type: Components
   url: components/stripe-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/data-model/stripe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stripe-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/errors/stripe-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/stripe-decline-codes.yml
@@ -1651,126 +1691,157 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/stripe/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-add-and-scale-subscription-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-add-and-scale-subscription-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-attach-payment-method-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-attach-payment-method-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-authorize-and-capture-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-authorize-and-capture-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-cancel-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-cancel-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-cancel-uncaptured-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-cancel-uncaptured-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-capture-and-partial-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-capture-and-partial-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-charge-and-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-charge-and-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-checkout-session-and-lineitems-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-checkout-session-and-lineitems-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-create-and-cancel-payout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-create-and-cancel-payout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-create-and-finalize-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-create-and-finalize-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-create-customer-and-pay-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-create-customer-and-pay-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-create-product-and-price-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-create-product-and-price-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-expire-checkout-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-expire-checkout-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-invoice-and-collect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-invoice-and-collect-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-launch-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-launch-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-onboard-customer-to-plan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-onboard-customer-to-plan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-pause-and-resume-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-pause-and-resume-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-refund-payment-intent-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-refund-payment-intent-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-reverse-payout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-reverse-payout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-save-card-and-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-save-card-and-charge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-send-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-send-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-subscribe-existing-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-subscribe-existing-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-void-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-void-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-write-off-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-write-off-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-connect-onboard-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-connect-onboard-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-issue-card-to-cardholder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-issue-card-to-cardholder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-verify-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-verify-identity-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-link-financial-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-link-financial-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-setup-future-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-setup-future-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-calculate-and-settle-tax-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-calculate-and-settle-tax-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/arazzo/stripe-quote-to-paid-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/stripe-quote-to-paid-invoice-workflow.yml
@@ -1971,74 +2042,92 @@ common:
   type: API Keys
   url: https://docs.stripe.com/keys
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/asyncapi/stripe-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/stripe-webhooks-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-customer.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-customer.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-payment-intent.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-payment-intent.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-subscription.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-subscription.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-charge.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-charge.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-invoice.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-invoice.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-event.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-event.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-product.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-product.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-schema/stripe-price.json
   title: ''
   type: JSONSchema
   url: json-schema/stripe-price.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-ld/stripe-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/stripe-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/rules/stripe-rules.yml
   title: ''
   type: SpectralRules
   url: rules/stripe-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/vocabulary/stripe-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/stripe-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-structure/stripe-payment-intent-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stripe-payment-intent-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-structure/stripe-customer-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stripe-customer-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/json-structure/stripe-invoice-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stripe-invoice-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/examples/stripe-create-payment-intent-example.json
   title: ''
   type: Examples
   url: examples/stripe-create-payment-intent-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/examples/stripe-create-checkout-session-example.json
   title: ''
   type: Examples
   url: examples/stripe-create-checkout-session-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/examples/stripe-create-customer-example.json
   title: ''
   type: Examples
   url: examples/stripe-create-customer-example.json
@@ -2047,34 +2136,42 @@ common:
   type: LlmsText
   url: https://docs.stripe.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/packages/stripe-packages.yml
   title: ''
   type: Packages
   url: packages/stripe-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/well-known/stripe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stripe-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/well-known/stripe-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stripe-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/mcp/stripe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stripe-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/llms/stripe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stripe-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/conformance/stripe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stripe-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/errors/stripe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stripe-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/lifecycle/stripe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stripe-lifecycle.yml
@@ -2083,6 +2180,7 @@ common:
   type: DeprecationPolicy
   url: https://docs.stripe.com/upgrades
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/conventions/stripe-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/stripe-conventions.yml
@@ -2091,6 +2189,7 @@ common:
   type: Compliance
   url: https://docs.stripe.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
@@ -2240,6 +2339,51 @@ scopes:
   scope_count: 2
   slug: stripe-scopes
   summary_line: 2 scopes
+score:
+  band: exemplar
+  composite: 79.7
+  coverage:
+    artifact_dirs: 40
+    catalog_earned: 45.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 69.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 33.3
+    contract_quality: 73.2
+    developer_ergonomics: 94.6
+    discoverability: 48.1
+    operational_transparency: 76.3
+  previous_composite: 79.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 159
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 93.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-08-17T125440.png
 security:
 - kind: authentication

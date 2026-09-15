@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -156,18 +181,22 @@ common:
   type: Website
   url: https://www.adafruit.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/agentic-access/adafruit-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adafruit-io-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/security/adafruit-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adafruit-io-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/security/adafruit-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adafruit-io-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/authentication/adafruit-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adafruit-io-authentication.yml
@@ -176,38 +205,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adafruit-io/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-attach-feed-to-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-attach-feed-to-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-batch-ingest-and-chart-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-batch-ingest-and-chart-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-build-dashboard-with-block-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-build-dashboard-with-block-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-create-and-verify-trigger-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-create-and-verify-trigger-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-ensure-feed-exists-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-ensure-feed-exists-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-group-feed-bootstrap-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-group-feed-bootstrap-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-group-multifeed-publish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-group-multifeed-publish-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-issue-and-verify-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-issue-and-verify-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/arazzo/adafruit-io-provision-feed-and-seed-data-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adafruit-io-provision-feed-and-seed-data-workflow.yml
@@ -352,14 +390,17 @@ common:
   type: Plans
   url: https://io.adafruit.com/plus
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/plans/adafruit-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adafruit-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/rate-limits/adafruit-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adafruit-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/finops/adafruit-io-finops.yml
   title: ''
   type: FinOps
   url: finops/adafruit-io-finops.yml
@@ -468,6 +509,38 @@ rules:
     info: 0
     warn: 5
   slug: adafruit-io-rules
+score:
+  band: strong
+  composite: 61.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 86.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 13.6
+    contract_quality: 65.1
+    developer_ergonomics: 67.9
+    discoverability: 68.5
+    operational_transparency: 52.6
+  previous_composite: 61.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/screenshots/adafruit-io-2026-06-20T164505.png
 security:
 - kind: authentication

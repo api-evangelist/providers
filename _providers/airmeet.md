@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api-gateway.airmeet.com/prod
@@ -113,46 +138,57 @@ common:
   type: GettingStarted
   url: https://help.airmeet.com/support/solutions/articles/82000467794-airmeet-public-api-introduction
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/_original/airmeet-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/airmeet-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/asyncapi/airmeet-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/airmeet-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/asyncapi/airmeet-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/airmeet-webhooks-asyncapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/overlays/airmeet-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/airmeet-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/mcp/airmeet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/airmeet-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/authentication/airmeet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airmeet-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/conventions/airmeet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/airmeet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/errors/airmeet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/airmeet-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/data-model/airmeet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/airmeet-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/lifecycle/airmeet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/airmeet-lifecycle.yml
@@ -165,6 +201,7 @@ common:
   type: ChangeLog
   url: https://updates.airmeet.com/en/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/conformance/airmeet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airmeet-conformance.yml
@@ -177,10 +214,12 @@ common:
   type: TrustCenter
   url: https://www.airmeet.com/hub/security-and-compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/security/airmeet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airmeet-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/security/airmeet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/airmeet-vulnerability-disclosure.yml
@@ -228,6 +267,40 @@ overview: 'Airmeet publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
   Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 49.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 63.4
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 49.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/screenshots/airmeet-2026-07-25T195432.png
 security:
 - kind: authentication

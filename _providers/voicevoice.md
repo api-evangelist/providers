@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voicevoice/refs/heads/main/security/voicevoice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voicevoice-domain-security.yml

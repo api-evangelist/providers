@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -85,62 +110,77 @@ common:
   type: StatusPage
   url: https://status.andel.org
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/mcp/andel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/andel-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/llms/andel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/andel-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/authentication/andel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/andel-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/scopes/andel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/andel-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/errors/andel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/andel-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/conventions/andel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/andel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/lifecycle/andel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/andel-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/sandbox/andel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/andel-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/data-model/andel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/andel-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/conformance/andel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/andel-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/overlays/andel-data-exchange-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/andel-data-exchange-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/asyncapi/andel-data-exchange-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/andel-data-exchange-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/security/andel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/andel-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/agentic-access/andel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/andel-agentic-access.yml
@@ -173,6 +213,47 @@ scopes:
   scope_count: 1
   slug: andel-scopes
   summary_line: 1 scope
+score:
+  band: developing
+  composite: 49.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 57.7
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 49.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/screenshots/andel-2026-07-25T200224.png
 security:
 - kind: authentication

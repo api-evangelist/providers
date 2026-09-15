@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -231,18 +256,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/taboola/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/agentic-access/taboola-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/taboola-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/security/taboola-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/taboola-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/security/taboola-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taboola-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/authentication/taboola-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taboola-authentication.yml
@@ -407,90 +436,112 @@ common:
   type: Documentation
   url: https://developers.taboola.com/dynamic-creative/docs/overview
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/plans/taboola-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/taboola-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/rate-limits/taboola-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/taboola-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/finops/taboola-finops.yml
   title: ''
   type: FinOps
   url: finops/taboola-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/llms/taboola-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taboola-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/well-known/taboola-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/taboola-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/well-known/taboola-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/taboola-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/mcp/taboola-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/taboola-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/mcp/taboola-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/taboola-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/packages/taboola-packages.yml
   title: ''
   type: Packages
   url: packages/taboola-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/packages/taboola-packages.yml
   title: ''
   type: SDKs
   url: packages/taboola-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/conformance/taboola-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taboola-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/security/taboola-trust-center.yml
   title: ''
   type: Compliance
   url: security/taboola-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/security/taboola-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/taboola-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/errors/taboola-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/taboola-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/lifecycle/taboola-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taboola-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/lifecycle/taboola-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/taboola-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/conventions/taboola-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taboola-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/changelog/taboola-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/taboola-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/scopes/taboola-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/taboola-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/data-model/taboola-data-model.yml
   title: ''
   type: DataModel
   url: data-model/taboola-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/components/taboola-components.yml
   title: ''
   type: Components
   url: components/taboola-components.yml
@@ -626,6 +677,41 @@ scopes:
   scope_count: 0
   slug: taboola-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 67.4
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 77.3
+    catalog_earned_first_party: 16.0
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 28.0
+    contract_quality: 69.0
+    developer_ergonomics: 72.6
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 67.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:
 - kind: authentication

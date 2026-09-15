@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -85,30 +110,37 @@ collections:
   slug: open-greater-bank-banking-products-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/capabilities/greater-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/greater-bank-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/agentic-access/greater-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/greater-bank-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/security/greater-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greater-bank-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/authentication/greater-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/greater-bank-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/conventions/greater-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/greater-bank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/errors/greater-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/greater-bank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/lifecycle/greater-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/greater-bank-lifecycle.yml
@@ -121,30 +153,37 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/conformance/greater-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/greater-bank-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/data-model/greater-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/greater-bank-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/mcp/greater-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/greater-bank-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/llms/greater-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/greater-bank-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/overlays/greater-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/greater-bank-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/arazzo/greater-bank-product-lookup.yml
   title: ''
   type: Arazzo
   url: arazzo/greater-bank-product-lookup.yml
@@ -197,6 +236,54 @@ overview: 'Greater Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
   Greater Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, support, and 20 more developer resources.'
 random_paper: 6
+score:
+  band: thin
+  composite: 35.6
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 35.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 31.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png
 security:
 - kind: authentication

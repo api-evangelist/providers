@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -104,6 +129,7 @@ collections:
   slug: open-qubiqle-vendors-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/overlays/qubiqle-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qubiqle-openapi-overlay.yaml
@@ -128,38 +154,47 @@ common:
   type: GettingStarted
   url: https://docs.ottimate.com/integration-journey
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/authentication/qubiqle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qubiqle-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/scopes/qubiqle-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/qubiqle-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/sandbox/qubiqle-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/qubiqle-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/rate-limits/qubiqle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qubiqle-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/conventions/qubiqle-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/qubiqle-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/conventions/qubiqle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qubiqle-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/errors/qubiqle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qubiqle-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/data-model/qubiqle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qubiqle-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/lifecycle/qubiqle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qubiqle-lifecycle.yml
@@ -172,38 +207,47 @@ common:
   type: Deprecation
   url: https://docs.ottimate.com/releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/changelog/qubiqle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qubiqle-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/conformance/qubiqle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qubiqle-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/mcp/qubiqle-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qubiqle-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/arazzo/qubiqle-sync-erp-master-data.yml
   title: ''
   type: Arazzo
   url: arazzo/qubiqle-sync-erp-master-data.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/arazzo/qubiqle-invoice-capture-to-export.yml
   title: ''
   type: Arazzo
   url: arazzo/qubiqle-invoice-capture-to-export.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/agentic-access/qubiqle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qubiqle-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/security/qubiqle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qubiqle-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/well-known/qubiqle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qubiqle-well-known.yml
@@ -257,6 +301,47 @@ scopes:
   scope_count: 1
   slug: qubiqle-scopes
   summary_line: 1 scope
+score:
+  band: strong
+  composite: 56.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 53.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/screenshots/qubiqle-2026-08-17T081428.png
 security:
 - kind: authentication

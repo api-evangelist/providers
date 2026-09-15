@@ -9,6 +9,31 @@ access_model:
   - review
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -87,62 +112,77 @@ collections:
   slug: open-infoway-terminology-service-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/security/canada-health-infoway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canada-health-infoway-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/agentic-access/canada-health-infoway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/canada-health-infoway-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/authentication/canada-health-infoway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canada-health-infoway-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/conventions/canada-health-infoway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/canada-health-infoway-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/errors/canada-health-infoway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/canada-health-infoway-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/lifecycle/canada-health-infoway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/canada-health-infoway-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/conformance/canada-health-infoway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canada-health-infoway-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/data-model/canada-health-infoway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/canada-health-infoway-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/mcp/canada-health-infoway-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/canada-health-infoway-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/mcp/canada-health-infoway-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/canada-health-infoway-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/llms/canada-health-infoway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canada-health-infoway-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/overlays/canada-health-infoway-fhir-terminology-service-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canada-health-infoway-fhir-terminology-service-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/overlays/canada-health-infoway-terminology-service-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canada-health-infoway-terminology-service-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/asyncapi/canada-health-infoway-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/canada-health-infoway-notifications-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -203,6 +243,54 @@ overview: 'Canada Health Infoway publishes 11 APIs on the [APIs.io](https://apis
 
   Canada Health Infoway''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 41.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 53.0
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 41.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:
 - kind: authentication

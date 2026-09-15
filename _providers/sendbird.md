@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -119,70 +144,87 @@ collections:
   slug: open-sendbird-users-api
 common:
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/packages/sendbird-packages.yml
   title: ''
   type: Packages
   url: packages/sendbird-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/well-known/sendbird-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sendbird-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/mcp/sendbird-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sendbird-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/llms/sendbird-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendbird-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/overlays/sendbird-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendbird-platform-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/conformance/sendbird-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendbird-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/errors/sendbird-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendbird-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/errors/sendbird-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendbird-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/lifecycle/sendbird-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendbird-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/conventions/sendbird-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendbird-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/components/sendbird-components.yml
   title: ''
   type: Components
   url: components/sendbird-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/data-model/sendbird-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendbird-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/agentic-access/sendbird-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sendbird-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/security/sendbird-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sendbird-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/security/sendbird-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sendbird-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/security/sendbird-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendbird-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/authentication/sendbird-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendbird-authentication.yml
@@ -191,62 +233,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sendbird/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-add-members-to-existing-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-add-members-to-existing-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-archive-and-delete-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-archive-and-delete-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-audit-channel-membership-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-audit-channel-membership-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-ban-user-from-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-ban-user-from-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-create-channel-and-broadcast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-create-channel-and-broadcast-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-deactivate-user-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-deactivate-user-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-direct-message-between-users-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-direct-message-between-users-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-find-or-create-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-find-or-create-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-issue-access-token-and-greet-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-issue-access-token-and-greet-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-moderate-channel-message-author-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-moderate-channel-message-author-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-mute-then-warn-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-mute-then-warn-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-onboard-user-and-start-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-onboard-user-and-start-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-rename-user-and-notify-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-rename-user-and-notify-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-reply-to-latest-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-reply-to-latest-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/arazzo/sendbird-update-user-metadata-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendbird-update-user-metadata-workflow.yml
@@ -311,14 +368,17 @@ common:
   type: Dashboard
   url: https://dashboard.sendbird.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/rules/sendbird-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sendbird-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/json-ld/sendbird-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/sendbird-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/vocabulary/sendbird-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sendbird-vocabulary.yml
@@ -406,6 +466,43 @@ rules:
     info: 1
     warn: 6
   slug: sendbird-rules
+score:
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 33.3
+    contract_quality: 70.8
+    developer_ergonomics: 27.4
+    discoverability: 74.1
+    operational_transparency: 26.3
+  previous_composite: 46.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:
 - kind: authentication

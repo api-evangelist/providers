@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -123,42 +149,52 @@ collections:
   slug: open-jane-app-jdp
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/capabilities/jane-app-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jane-app-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/mcp/jane-app-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/jane-app-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/security/jane-app-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jane-app-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/security/jane-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jane-app-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/agentic-access/jane-app-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jane-app-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/authentication/jane-app-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jane-app-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/scopes/jane-app-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jane-app-scopes.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-jdp-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/jane-app-jdp-openapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/conventions/jane-app-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jane-app-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/lifecycle/jane-app-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jane-app-lifecycle.yml
@@ -167,10 +203,12 @@ common:
   type: StatusPage
   url: https://jane.statuspage.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/errors/jane-app-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jane-app-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/conformance/jane-app-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jane-app-conformance.yml
@@ -179,30 +217,37 @@ common:
   type: Compliance
   url: https://jane.app/security-and-trust
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/well-known/jane-app-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jane-app-well-known.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/sandbox/jane-app-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jane-app-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/data-model/jane-app-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jane-app-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/packages/jane-app-packages.yml
   title: ''
   type: Packages
   url: packages/jane-app-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/overlays/jane-app-jdp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jane-app-jdp-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/asyncapi/jane-app-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jane-app-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -255,6 +300,7 @@ common:
   type: TermsOfService
   url: https://jane.app/terms
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/llms/jane-app-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jane-app-llms.txt
@@ -280,6 +326,54 @@ scopes:
   scope_count: 30
   slug: jane-app-scopes
   summary_line: 30 scopes · authorizationCode
+score:
+  band: strong
+  composite: 57.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 66.3
+    developer_ergonomics: 47.0
+    discoverability: 66.7
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 57.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 76.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:
 - kind: authentication

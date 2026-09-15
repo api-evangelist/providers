@@ -11,6 +11,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 57.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -61,10 +86,12 @@ common:
   type: License
   url: https://github.com/poggiolabs/goalkeeper/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/agentic-access/poggio-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/poggio-labs-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/security/poggio-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/poggio-labs-trust-center.yml
@@ -129,54 +156,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/poggiolabs
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/mcp/poggio-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/poggio-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/llms/poggio-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/poggio-labs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/well-known/poggio-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/poggio-labs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/authentication/poggio-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/poggio-labs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/conventions/poggio-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/poggio-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/lifecycle/poggio-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/poggio-labs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/conformance/poggio-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/poggio-labs-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/security/poggio-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/poggio-labs-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/plans/poggio-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/poggio-labs-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/rate-limits/poggio-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/poggio-labs-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/packages/poggio-labs-packages.yml
   title: ''
   type: Packages
   url: packages/poggio-labs-packages.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goalkeeper-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/poggio-labs-goalkeeper-openapi.json
@@ -185,30 +225,37 @@ common:
   type: SourceCode
   url: https://github.com/poggiolabs/goalkeeper
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/conventions/poggio-labs-goalkeeper-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/poggio-labs-goalkeeper-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/errors/poggio-labs-goalkeeper-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/poggio-labs-goalkeeper-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/data-model/poggio-labs-goalkeeper-data-model.yml
   title: ''
   type: DataModel
   url: data-model/poggio-labs-goalkeeper-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/changelog/poggio-labs-goalkeeper-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/poggio-labs-goalkeeper-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/scopes/poggio-labs-goalkeeper-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/poggio-labs-goalkeeper-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/mcp/poggio-labs-goalkeeper-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/poggio-labs-goalkeeper-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/overlays/poggio-labs-goalkeeper-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/poggio-labs-goalkeeper-overlay.yaml
@@ -245,6 +292,41 @@ scopes:
   scope_count: 6
   slug: poggio-labs-goalkeeper-scopes
   summary_line: 6 scopes
+score:
+  band: strong
+  composite: 54.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 48.8
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 54.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/screenshots/poggio-labs-2026-08-17T081318.png
 security:
 - kind: authentication

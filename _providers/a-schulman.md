@@ -24,10 +24,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/lyondellbasell/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/llms/a-schulman-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/a-schulman-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/security/a-schulman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/a-schulman-domain-security.yml

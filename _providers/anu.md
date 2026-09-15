@@ -11,6 +11,31 @@ access_model:
   - rate-limits
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
@@ -107,66 +132,82 @@ common:
   type: Policies
   url: https://policies.anu.edu.au/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-quantum-numbers-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/anu-quantum-numbers-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/json-schema/anu-quantum-numbers-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/anu-quantum-numbers-response-schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/examples/anu-qrng-legacy-uint8-example.json
   title: ''
   type: Examples
   url: examples/anu-qrng-legacy-uint8-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/rules/anu-rules.yml
   title: ''
   type: Rules
   url: rules/anu-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/vocabulary/anu-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/anu-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/json-ld/anu-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/anu-context.jsonld
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/authentication/anu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anu-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/scopes/anu-scopes.yml
   title: ''
   type: Scopes
   url: scopes/anu-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/errors/anu-problem-types.yml
   title: ''
   type: Errors
   url: errors/anu-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/conformance/anu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anu-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/lifecycle/anu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anu-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/security/anu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anu-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/plans/anu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anu-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/rate-limits/anu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anu-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/finops/anu-finops.yml
   title: ''
   type: FinOps
   url: finops/anu-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -237,6 +278,52 @@ scopes:
   scope_count: 0
   slug: anu-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 54.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 84.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 30.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 11.4
+    contract_quality: 47.0
+    developer_ergonomics: 28.6
+    discoverability: 74.1
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 54.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 79.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/screenshots/anu-2026-06-20T172029.png
 security:
 - kind: authentication

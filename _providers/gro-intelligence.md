@@ -27,58 +27,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/gro-intelligence
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/packages/gro-intelligence-packages.yml
   title: ''
   type: Packages
   url: packages/gro-intelligence-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/packages/gro-intelligence-packages.yml
   title: ''
   type: SDKs
   url: packages/gro-intelligence-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/cli/gro-intelligence-cli.yml
   title: ''
   type: CLI
   url: cli/gro-intelligence-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/authentication/gro-intelligence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gro-intelligence-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/rate-limits/gro-intelligence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gro-intelligence-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/plans/gro-intelligence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gro-intelligence-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/errors/gro-intelligence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gro-intelligence-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/lifecycle/gro-intelligence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gro-intelligence-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/conventions/gro-intelligence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gro-intelligence-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/conformance/gro-intelligence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gro-intelligence-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/data-model/gro-intelligence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gro-intelligence-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/changelog/gro-intelligence-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gro-intelligence-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/security/gro-intelligence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gro-intelligence-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/llms/gro-intelligence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gro-intelligence-llms.txt

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - description: Server-side API for managing QlikView Server operations, documents, and sessions.
@@ -44,10 +69,12 @@ apis:
 artifact_total: 30
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qlikview-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qlikview-domain-security.yml
@@ -112,50 +139,62 @@ common:
   type: Compliance
   url: https://www.qlik.com/us/trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/qlikview-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/security/qlikview-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qlikview-vulnerability-disclosure.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/packages/qlikview-packages.yml
   title: ''
   type: Packages
   url: packages/qlikview-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/packages/qlikview-packages.yml
   title: ''
   type: SDKs
   url: packages/qlikview-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/authentication/qlikview-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qlikview-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/conventions/qlikview-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qlikview-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/conformance/qlikview-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qlikview-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/lifecycle/qlikview-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qlikview-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/lifecycle/qlikview-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qlikview-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/changelog/qlikview-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qlikview-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/components/qlikview-components.yml
   title: ''
   type: Components
   url: components/qlikview-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/llms/qlikview-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qlikview-llms.txt
@@ -201,6 +240,35 @@ rate_limits:
 - limit_count: 0
   name: Qlikview Rate Limits
   slug: qlikview-rate-limits
+score:
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 81.5
+    operational_transparency: 36.8
+  previous_composite: 39.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlikview/refs/heads/main/screenshots/qlikview-2026-06-20T192347.png
 security:
 - kind: authentication

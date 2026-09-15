@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 248
   human_in_the_loop: 0
@@ -543,10 +568,12 @@ collections:
   slug: open-erply-workorder-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/capabilities/erply-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/erply-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/overlays/erply-assignments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/erply-assignments-overlay.yaml
@@ -611,66 +638,82 @@ common:
   type: ChangeLog
   url: https://erply.com/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/changelog/erply-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/erply-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/authentication/erply-authentication.yml
   title: ''
   type: Authentication
   url: authentication/erply-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/security/erply-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/erply-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/agentic-access/erply-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/erply-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/packages/erply-packages.yml
   title: ''
   type: Packages
   url: packages/erply-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/packages/erply-packages.yml
   title: ''
   type: SDKs
   url: packages/erply-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/llms/erply-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/erply-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/mcp/erply-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/erply-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/conventions/erply-conventions.yml
   title: ''
   type: Conventions
   url: conventions/erply-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/errors/erply-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/erply-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/rate-limits/erply-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/erply-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/lifecycle/erply-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/erply-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/conformance/erply-conformance.yml
   title: ''
   type: Conformance
   url: conformance/erply-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/data-model/erply-data-model.yml
   title: ''
   type: DataModel
   url: data-model/erply-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/asyncapi/erply-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/erply-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -694,6 +737,41 @@ rate_limits:
 - limit_count: 1
   name: Erply Rate Limits
   slug: erply-rate-limits
+score:
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 53.7
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/screenshots/erply-2026-07-25T213611.png
 security:
 - kind: authentication

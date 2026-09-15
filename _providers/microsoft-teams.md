@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -155,78 +180,97 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/mcp/microsoft-teams-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/microsoft-teams-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/overlays/microsoft-teams-graph-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-teams-graph-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/agentic-access/microsoft-teams-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-teams-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/security/microsoft-teams-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-teams-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/security/microsoft-teams-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-teams-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/authentication/microsoft-teams-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-teams-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/scopes/microsoft-teams-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-teams-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/security/microsoft-teams-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-teams-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/packages/microsoft-teams-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-teams-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/well-known/microsoft-teams-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-teams-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/llms/microsoft-teams-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-teams-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/conformance/microsoft-teams-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-teams-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/lifecycle/microsoft-teams-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-teams-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/conventions/microsoft-teams-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-teams-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/data-model/microsoft-teams-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-teams-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/changelog/microsoft-teams-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-teams-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/cli/microsoft-teams-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-teams-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/components/microsoft-teams-components.yml
   title: ''
   type: Components
   url: components/microsoft-teams-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/sandbox/microsoft-teams-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-teams-sandbox.yml
@@ -235,58 +279,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-teams/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-add-member-and-welcome-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-add-member-and-welcome-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-archive-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-archive-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-audit-team-channels-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-audit-team-channels-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-broadcast-to-joined-team-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-broadcast-to-joined-team-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-create-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-create-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-discover-channel-tabs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-discover-channel-tabs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-inventory-team-collaboration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-inventory-team-collaboration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-offboard-team-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-offboard-team-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-onboard-team-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-onboard-team-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-post-channel-announcement-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-post-channel-announcement-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-promote-team-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-promote-team-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-provision-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-provision-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-rename-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-rename-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/arazzo/microsoft-teams-review-channel-conversation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-teams-review-channel-conversation-workflow.yml
@@ -331,10 +389,12 @@ common:
   type: PrivacyPolicy
   url: https://privacy.microsoft.com/en-us/privacystatement
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/rules/microsoft-teams-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-teams-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/vocabulary/microsoft-teams-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-teams-vocabulary.yaml
@@ -572,6 +632,40 @@ scopes:
   scope_count: 10
   slug: microsoft-teams-scopes
   summary_line: 10 scopes · authorizationCode
+score:
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 35
+    catalog_earned: 78.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 33.3
+    contract_quality: 51.1
+    developer_ergonomics: 79.8
+    discoverability: 88.9
+    operational_transparency: 31.6
+  previous_composite: 54.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:
 - kind: authentication

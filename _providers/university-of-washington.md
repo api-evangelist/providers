@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -257,14 +282,17 @@ collections:
   slug: open-university-of-washington-version-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/capabilities/university-of-washington-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/university-of-washington-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/agentic-access/university-of-washington-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-washington-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/security/university-of-washington-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-washington-domain-security.yml
@@ -285,18 +313,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-washington/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/plans/university-of-washington-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-washington-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/rate-limits/university-of-washington-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-washington-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/finops/university-of-washington-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-washington-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -365,26 +397,32 @@ common:
   type: AITooling
   url: https://it.uw.edu/guides/ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/conformance/university-of-washington-domain-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-washington-domain-standards-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/authentication/university-of-washington-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-washington-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/scopes/university-of-washington-astra-roles.yml
   title: ''
   type: Scopes
   url: scopes/university-of-washington-astra-roles.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/lifecycle/university-of-washington-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-washington-api-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/vocabulary/university-of-washington-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-washington-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/rules/university-of-washington-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-washington-rules.yml
@@ -498,6 +536,52 @@ rules:
     info: 2
     warn: 3
   slug: university-of-washington-rules
+score:
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 67.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 25.0
+    contract_quality: 21.3
+    developer_ergonomics: 45.2
+    discoverability: 59.3
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 39.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 90.0
+      derived: 26
+      marker_coverage: 100.0
+      total: 30
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://api.typingdna.com
@@ -45,18 +70,22 @@ collections:
   slug: open-typingdna-standard-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/overlays/typingdna-authentication-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/typingdna-authentication-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/security/typingdna-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/typingdna-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/security/typingdna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/typingdna-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/authentication/typingdna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/typingdna-authentication.yml
@@ -129,62 +158,77 @@ common:
   type: Compliance
   url: https://www.typingdna.com/pricing/auth-api
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/packages/typingdna-packages.yml
   title: ''
   type: Packages
   url: packages/typingdna-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/packages/typingdna-packages.yml
   title: ''
   type: SDKs
   url: packages/typingdna-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/well-known/typingdna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/typingdna-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/well-known/typingdna-verify-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/typingdna-verify-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/mcp/typingdna-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/typingdna-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/llms/typingdna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/typingdna-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/conformance/typingdna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/typingdna-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/errors/typingdna-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/typingdna-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/lifecycle/typingdna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/typingdna-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/scopes/typingdna-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/typingdna-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/sandbox/typingdna-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/typingdna-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/conventions/typingdna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/typingdna-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/components/typingdna-components.yml
   title: ''
   type: Components
   url: components/typingdna-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/data-model/typingdna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/typingdna-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -206,6 +250,40 @@ scopes:
   scope_count: 3
   slug: typingdna-scopes
   summary_line: 3 scopes · authorizationCode/refreshToken/deviceCode/jwtBearer
+score:
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 53.7
+    developer_ergonomics: 78.0
+    discoverability: 74.1
+    operational_transparency: 18.4
+  previous_composite: 52.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/screenshots/typingdna-2026-08-17T082510.png
 security:
 - kind: authentication

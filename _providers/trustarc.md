@@ -8,6 +8,32 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 17
@@ -292,30 +318,37 @@ asyncapis:
   slug: trustarc-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/capabilities/trustarc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trustarc-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/skills/trustarc-scim-user-provisioning.md
   title: ''
   type: AgentSkill
   url: skills/trustarc-scim-user-provisioning.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/agentic-access/trustarc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trustarc-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/scopes/trustarc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trustarc-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/authentication/trustarc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trustarc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/security/trustarc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/trustarc-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/security/trustarc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trustarc-domain-security.yml
@@ -408,22 +441,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/trustarc
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/packages/trustarc-packages.yml
   title: ''
   type: Packages
   url: packages/trustarc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/packages/trustarc-packages.yml
   title: ''
   type: SDKs
   url: packages/trustarc-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/well-known/trustarc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trustarc-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/llms/trustarc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trustarc-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/conformance/trustarc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trustarc-conformance.yml
@@ -436,10 +474,12 @@ common:
   type: TrustCenter
   url: https://trust.trustarc.com/en-US/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/errors/trustarc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trustarc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/lifecycle/trustarc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trustarc-lifecycle.yml
@@ -452,42 +492,52 @@ common:
   type: Deprecation
   url: https://trustarchelp.zendesk.com/hc/en-us/articles/53518189041043-API-Versioning-Changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/conventions/trustarc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trustarc-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/changelog/trustarc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trustarc-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/components/trustarc-components.yml
   title: ''
   type: Components
   url: components/trustarc-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/data-model/trustarc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trustarc-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/asyncapi/trustarc-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/trustarc-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/sandbox/trustarc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trustarc-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/rate-limits/trustarc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trustarc-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/plans/trustarc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trustarc-plans-pricing.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/overlays/trustarc-guardian-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trustarc-guardian-overlay.yaml
@@ -558,6 +608,41 @@ scopes:
   scope_count: 1
   slug: trustarc-scopes
   summary_line: 1 scope · implicit
+score:
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 18.2
+    contract_quality: 55.5
+    developer_ergonomics: 63.7
+    discoverability: 63.0
+    operational_transparency: 50.0
+  previous_composite: 50.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/screenshots/trustarc-2026-06-20T195803.png
 security:
 - kind: authentication

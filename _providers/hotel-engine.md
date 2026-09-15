@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,6 +85,7 @@ collections:
   slug: open-hotel-engine-lodgingshoppingservice-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/overlays/hotel-engine-omni-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hotel-engine-omni-partner-api-overlay.yaml
@@ -132,6 +158,7 @@ common:
   type: ChangeLog
   url: https://github.com/engine-public/engine-partner-api/releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/changelog/hotel-engine-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hotel-engine-changelog.yml
@@ -140,6 +167,7 @@ common:
   type: Deprecation
   url: https://engine-public.github.io/engine-partner-api/versioning.html#support-for-deprecated-versions
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/lifecycle/hotel-engine-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hotel-engine-lifecycle.yml
@@ -148,6 +176,7 @@ common:
   type: Security
   url: https://www.engine.com/responsible-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/security/hotel-engine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hotel-engine-vulnerability-disclosure.yml
@@ -156,38 +185,47 @@ common:
   type: TrustCenter
   url: https://trust.engine.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/security/hotel-engine-trust-center.yml
   title: ''
   type: Compliance
   url: security/hotel-engine-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/conformance/hotel-engine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hotel-engine-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/packages/hotel-engine-packages.yml
   title: ''
   type: Packages
   url: packages/hotel-engine-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/packages/hotel-engine-packages.yml
   title: ''
   type: SDKs
   url: packages/hotel-engine-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/sandbox/hotel-engine-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hotel-engine-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/llms/hotel-engine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hotel-engine-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/agentic-access/hotel-engine-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hotel-engine-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/security/hotel-engine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hotel-engine-domain-security.yml
@@ -208,6 +246,47 @@ rate_limits:
 - limit_count: 16
   name: Hotel Engine Rate Limits
   slug: hotel-engine-rate-limits
+score:
+  band: strong
+  composite: 55.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 46.9
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/screenshots/hotel-engine-2026-08-07T170318.png
 security:
 - kind: authentication

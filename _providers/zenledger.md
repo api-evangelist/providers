@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.zenledger.io
@@ -41,6 +66,7 @@ common:
   type: APIReference
   url: https://docs.zenledger.io/compliance/v3/README.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/postman/zenledger-compliance-v3.postman_collection.json
   title: ''
   type: Postman
   url: postman/zenledger-compliance-v3.postman_collection.json
@@ -69,70 +95,87 @@ common:
   type: StatusPage
   url: https://status.zenledger.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/authentication/zenledger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenledger-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/conventions/zenledger-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenledger-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/errors/zenledger-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zenledger-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/lifecycle/zenledger-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenledger-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/data-model/zenledger-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zenledger-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/conformance/zenledger-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zenledger-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/conformance/zenledger-conformance.yml
   title: ''
   type: Compliance
   url: conformance/zenledger-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/security/zenledger-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/zenledger-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/security/zenledger-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zenledger-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/security/zenledger-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zenledger-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/security/zenledger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenledger-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/packages/zenledger-packages.yml
   title: ''
   type: Packages
   url: packages/zenledger-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/plans/zenledger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zenledger-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/rate-limits/zenledger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zenledger-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/mcp/zenledger-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zenledger-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/llms/zenledger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenledger-llms.txt
@@ -160,6 +203,40 @@ rate_limits:
 - limit_count: 0
   name: Zenledger Rate Limits
   slug: zenledger-rate-limits
+score:
+  band: strong
+  composite: 55.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 70.5
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 55.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Zenledger Authentication
@@ -186,7 +263,7 @@ tags:
 - RegTech
 - Accounting
 - Sanctions Screening
-- Financial Services
+- Financial-Services
 - Portfolio Aggregation
 - Cryptocurrency
 website: https://zenledger.io/

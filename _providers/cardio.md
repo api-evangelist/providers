@@ -44,18 +44,22 @@ common:
   type: SourceCode
   url: https://github.com/card-io/card.io-Android-SDK
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/packages/cardio-packages.yml
   title: ''
   type: Packages
   url: packages/cardio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/packages/cardio-packages.yml
   title: ''
   type: SDKs
   url: packages/cardio-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/security/cardio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cardio-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/llms/cardio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cardio-llms.txt

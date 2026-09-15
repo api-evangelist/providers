@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: OData-based REST API for querying SAP BW data, executing BEx queries, and accessing InfoProviders. Supports analytical queries with filtering, aggregation, and hierarchical navigation.
@@ -34,18 +59,22 @@ common:
   type: APIReference
   url: https://help.sap.com/docs/SAP_BW4HANA/107a6e8a38b74ede94c833ca3b7b6f51/4c22135610cc5791e10000000a15822b.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/packages/sap-bw-packages.yml
   title: ''
   type: Packages
   url: packages/sap-bw-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/packages/sap-bw-packages.yml
   title: ''
   type: SDKs
   url: packages/sap-bw-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/well-known/sap-bw-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sap-bw-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/well-known/sap-bw-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sap-bw-security.txt
@@ -54,6 +83,7 @@ common:
   type: Security
   url: https://www.sap.com/about/trust-center/security/incident-management.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/security/sap-bw-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sap-bw-trust-center.yml
@@ -62,22 +92,27 @@ common:
   type: Compliance
   url: https://www.sap.com/about/trust-center/certification-compliance.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/conformance/sap-bw-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sap-bw-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/authentication/sap-bw-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-bw-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/conventions/sap-bw-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sap-bw-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/errors/sap-bw-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sap-bw-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/lifecycle/sap-bw-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sap-bw-lifecycle.yml
@@ -90,30 +125,37 @@ common:
   type: Deprecation
   url: https://help.sap.com/doc/16e3352bd6c342ec9fb1cd90adb9fbf4/2.0/en-US/SAP_BW4HANA_20_Simplification_List.pdf
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/changelog/sap-bw-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sap-bw-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/llms/sap-bw-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sap-bw-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/plans/sap-bw-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sap-bw-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/rate-limits/sap-bw-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sap-bw-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/finops/sap-bw-finops.yml
   title: ''
   type: FinOps
   url: finops/sap-bw-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/security/sap-bw-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-bw-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/security/sap-bw-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-bw-domain-security.yml
@@ -202,6 +244,35 @@ rate_limits:
 - limit_count: 0
   name: Sap Bw Rate Limits
   slug: sap-bw-rate-limits
+score:
+  band: thin
+  composite: 35.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 5.3
+    developer_ergonomics: 47.6
+    discoverability: 64.8
+    operational_transparency: 52.6
+  previous_composite: 35.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/screenshots/sap-bw-2026-06-20T193419.png
 security:
 - kind: authentication

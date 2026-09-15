@@ -10,6 +10,31 @@ access_model:
   - probed
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -130,46 +155,57 @@ common:
   type: Blog
   url: https://www.unige.ch/feed/rss
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/authentication/university-of-geneva-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-geneva-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/conformance/university-of-geneva-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-geneva-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/errors/university-of-geneva-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/university-of-geneva-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/lifecycle/university-of-geneva-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-geneva-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/rules/university-of-geneva-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/university-of-geneva-jsonschema-spectral-rules.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/agentic-access/university-of-geneva-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-geneva-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/security/university-of-geneva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-geneva-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/plans/university-of-geneva-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-geneva-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/rate-limits/university-of-geneva-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-geneva-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/finops/university-of-geneva-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-geneva-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -264,6 +300,53 @@ rules:
     info: 3
     warn: 4
   slug: university-of-geneva-rules
+score:
+  band: thin
+  composite: 36.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 77.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 25.0
+    contract_quality: 42.9
+    developer_ergonomics: 39.3
+    discoverability: 59.3
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 36.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png
 security:
 - kind: authentication

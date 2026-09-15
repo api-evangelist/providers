@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -262,110 +288,137 @@ collections:
   slug: open-tmforum-tmf931-open-gateway-onboarding-ordering
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/capabilities/open-gateway-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/open-gateway-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-number-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-number-verification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-sim-swap-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-sim-swap-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-device-swap-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-device-swap-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-call-forwarding-signal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-call-forwarding-signal-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-kyc-match-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-kyc-match-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-kyc-age-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-kyc-age-verification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-kyc-tenure-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-kyc-tenure-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-one-time-password-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-one-time-password-sms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-quality-on-demand-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-quality-on-demand-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-qos-profiles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-qos-profiles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-device-reachability-status-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-device-reachability-status-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-device-reachability-status-subscriptions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-device-reachability-status-subscriptions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-device-identifier-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-device-identifier-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-device-roaming-status-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-device-roaming-status-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-connected-network-type-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-connected-network-type-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-population-density-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-population-density-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-location-retrieval-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-location-retrieval-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-location-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-location-verification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-simple-edge-discovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-simple-edge-discovery-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-carrier-billing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-carrier-billing-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-camara-home-devices-qod-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-camara-home-devices-qod-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/overlays/open-gateway-tmforum-tmf931-open-gateway-onboarding-ordering-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-gateway-tmforum-tmf931-open-gateway-onboarding-ordering-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/agentic-access/open-gateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-gateway-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/security/open-gateway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/open-gateway-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/security/open-gateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-gateway-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/authentication/open-gateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/open-gateway-authentication.yml
@@ -422,38 +475,47 @@ common:
   type: Privacy
   url: https://www.gsma.com/aboutus/legal/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/packages/open-gateway-packages.yml
   title: ''
   type: Packages
   url: packages/open-gateway-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/well-known/open-gateway-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/open-gateway-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/well-known/open-gateway-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/open-gateway-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/mcp/open-gateway-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/open-gateway-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/mcp/open-gateway-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/open-gateway-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/llms/open-gateway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/open-gateway-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/conformance/open-gateway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/open-gateway-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/errors/open-gateway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/open-gateway-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/lifecycle/open-gateway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/open-gateway-lifecycle.yml
@@ -462,14 +524,17 @@ common:
   type: Deprecation
   url: https://github.com/camaraproject/ReleaseManagement/blob/main/documentation/API_Release_Guidelines.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/scopes/open-gateway-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/open-gateway-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/conventions/open-gateway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/open-gateway-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/sandbox/open-gateway-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/open-gateway-sandbox.yml
@@ -478,6 +543,7 @@ common:
   type: Sandbox
   url: https://open-gateway.gsma.com/sandbox
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/changelog/open-gateway-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/open-gateway-changelog.yml
@@ -486,14 +552,17 @@ common:
   type: ChangeLog
   url: https://github.com/camaraproject/ReleaseManagement/releases
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/data-model/open-gateway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/open-gateway-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/asyncapi/open-gateway-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/open-gateway-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -551,6 +620,55 @@ scopes:
   scope_count: 38
   slug: open-gateway-scopes
   summary_line: 38 scopes
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 59.4
+    developer_ergonomics: 61.3
+    discoverability: 77.8
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 69.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/screenshots/open-gateway-2026-08-07T190457.png
 security:
 - kind: authentication

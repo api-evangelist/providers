@@ -11,6 +11,31 @@ access_model:
   - https://metadata.io/developers/quickstart.html
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://mcp-server.metadata.io
@@ -30,14 +55,17 @@ collections:
   slug: open-metadata-mcp-server
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/overlays/metadata-mcp-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metadata-mcp-server-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/mcp/metadata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/metadata-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -70,6 +98,7 @@ common:
   type: TermsOfService
   url: https://metadata.io/terms-of-use/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/security/metadata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/metadata-trust-center.yml
@@ -78,6 +107,7 @@ common:
   type: Compliance
   url: https://metadata.io/trust-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/security/metadata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metadata-domain-security.yml
@@ -102,10 +132,12 @@ common:
   type: StatusPage
   url: https://metadata.io/developers/status.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/llms/metadata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metadata-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/well-known/metadata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/metadata-well-known.yml
@@ -140,6 +172,41 @@ scopes:
   scope_count: 0
   slug: metadata-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 43.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 41.5
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 43.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/screenshots/metadata-2026-08-07T172641.png
 security:
 - kind: authentication

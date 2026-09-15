@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -263,30 +289,37 @@ common:
   type: Website
   url: https://www.dynatrace.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/capabilities/dynatrace-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dynatrace-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/agentic-access/dynatrace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dynatrace-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/security/dynatrace-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dynatrace-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/security/dynatrace-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dynatrace-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/security/dynatrace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dynatrace-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/authentication/dynatrace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dynatrace-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/scopes/dynatrace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dynatrace-scopes.yml
@@ -299,62 +332,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dynatrace/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-account-access-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-account-access-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-annotate-deployment-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-annotate-deployment-event-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-entity-dependency-map-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-entity-dependency-map-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-entity-type-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-entity-type-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-error-log-investigation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-error-log-investigation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-export-logs-for-siem-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-export-logs-for-siem-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-ingest-and-search-logs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-ingest-and-search-logs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-ingest-and-verify-metric-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-ingest-and-verify-metric-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-metric-threshold-alert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-metric-threshold-alert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-onboard-account-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-onboard-account-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-problem-comment-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-problem-comment-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-problem-comment-thread-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-problem-comment-thread-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-problem-triage-and-close-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-problem-triage-and-close-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-service-health-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-service-health-snapshot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/arazzo/dynatrace-service-problem-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dynatrace-service-problem-lookup-workflow.yml
@@ -435,14 +483,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/dynatrace
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/dynatrace-metric-series-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/dynatrace-metric-series-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-schema/dynatrace-problem-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/dynatrace-problem-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-context.jsonld
@@ -519,118 +570,147 @@ common:
   type: Tutorials
   url: https://github.com/Dynatrace/Dynatrace-Tutorial
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/rules/dynatrace-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/dynatrace-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/vocabulary/dynatrace-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/dynatrace-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-account-management-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-account-management-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-dynatrace-metric-series-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-dynatrace-metric-series-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-dynatrace-problem-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-dynatrace-problem-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-entities-api-v2-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-entities-api-v2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-events-api-v2-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-events-api-v2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-log-monitoring-api-v2-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-log-monitoring-api-v2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-metrics-api-v2-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-metrics-api-v2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-api-v2-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-api-v2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-entity-ref-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-entity-ref-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-impacted-entity-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-impacted-entity-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-problem-details-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-problem-details-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-problem-notification-payload-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-problem-notification-payload-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-webhook-header-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-webhook-header-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/json-ld/dynatrace-problems-webhook-notification-config-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-webhook-notification-config-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-management-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/dynatrace-account-management-api-openapi.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/packages/dynatrace-packages.yml
   title: ''
   type: Packages
   url: packages/dynatrace-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/packages/dynatrace-packages.yml
   title: ''
   type: SDKs
   url: packages/dynatrace-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/well-known/dynatrace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dynatrace-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/well-known/dynatrace-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dynatrace-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/well-known/dynatrace-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/dynatrace-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/mcp/dynatrace-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dynatrace-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/mcp/dynatrace-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dynatrace-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/llms/dynatrace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dynatrace-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/conformance/dynatrace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dynatrace-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/security/dynatrace-trust-center.yml
   title: ''
   type: Compliance
   url: security/dynatrace-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/errors/dynatrace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dynatrace-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/lifecycle/dynatrace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dynatrace-lifecycle.yml
@@ -639,54 +719,67 @@ common:
   type: Deprecation
   url: https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-api/basics/deprecation-migration-guides
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/conventions/dynatrace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dynatrace-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/changelog/dynatrace-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dynatrace-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/cli/dynatrace-cli.yml
   title: ''
   type: CLI
   url: cli/dynatrace-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/components/dynatrace-components.yml
   title: ''
   type: Components
   url: components/dynatrace-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/data-model/dynatrace-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dynatrace-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/plans/dynatrace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dynatrace-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/rate-limits/dynatrace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dynatrace-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/finops/dynatrace-finops.yml
   title: ''
   type: FinOps
   url: finops/dynatrace-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/asyncapi/dynatrace-problems-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/dynatrace-problems-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/skills/dynatrace-triage-problem.md
   title: ''
   type: AgentSkill
   url: skills/dynatrace-triage-problem.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/skills/dynatrace-ingest-telemetry.md
   title: ''
   type: AgentSkill
   url: skills/dynatrace-ingest-telemetry.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/skills/dynatrace-manage-account-access.md
   title: ''
   type: AgentSkill
   url: skills/dynatrace-manage-account-access.md
@@ -695,38 +788,47 @@ common:
   type: Marketplace
   url: https://www.dynatrace.com/hub/detail/dynatrace-mcp-server/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-entities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-entities-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-environments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-environments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-groups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-groups-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-logs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-logs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-metrics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-metrics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-permissions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-permissions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-problems-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-problems-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/overlays/dynatrace-users-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dynatrace-users-overlay.yaml
@@ -2080,6 +2182,41 @@ scopes:
   scope_count: 3
   slug: dynatrace-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 86.5
+  coverage:
+    artifact_dirs: 36
+    catalog_earned: 94.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 86.8
+    developer_ergonomics: 88.7
+    discoverability: 75.9
+    operational_transparency: 94.7
+  previous_composite: 86.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 90.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/screenshots/dynatrace-2026-06-20T180345.png
 security:
 - kind: authentication

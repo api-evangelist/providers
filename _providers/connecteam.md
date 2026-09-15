@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 43.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -378,22 +404,27 @@ collections:
   slug: open-connecteam-openapi-original
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/capabilities/connecteam-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/connecteam-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/agentic-access/connecteam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/connecteam-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/security/connecteam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/connecteam-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/scopes/connecteam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/connecteam-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/authentication/connecteam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/connecteam-authentication.yml
@@ -462,6 +493,7 @@ common:
   type: ChangeLog
   url: https://developer.connecteam.com/changelog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/security/connecteam-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/connecteam-trust-center.yml
@@ -470,66 +502,82 @@ common:
   type: Compliance
   url: https://connecteam.com/trust-center/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/llms/connecteam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/connecteam-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/well-known/connecteam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/connecteam-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/well-known/connecteam-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/connecteam-api-catalog.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/packages/connecteam-packages.yml
   title: ''
   type: Packages
   url: packages/connecteam-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/conventions/connecteam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/connecteam-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/rate-limits/connecteam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/connecteam-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/plans/connecteam-plans.yml
   title: ''
   type: Plans
   url: plans/connecteam-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/errors/connecteam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/connecteam-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/lifecycle/connecteam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/connecteam-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/changelog/connecteam-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/connecteam-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/conformance/connecteam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/connecteam-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/data-model/connecteam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/connecteam-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/overlays/connecteam-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/connecteam-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/asyncapi/connecteam-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/connecteam-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/mcp/connecteam-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/connecteam-mcp.yml
@@ -566,6 +614,41 @@ scopes:
   scope_count: 62
   slug: connecteam-scopes
   summary_line: 62 scopes · clientCredentials
+score:
+  band: strong
+  composite: 59.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 53.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 66.9
+    developer_ergonomics: 39.9
+    discoverability: 61.1
+    operational_transparency: 73.7
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png
 security:
 - kind: authentication

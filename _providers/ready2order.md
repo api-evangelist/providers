@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.ready2order.com/v1
@@ -315,6 +340,7 @@ common:
   type: Website
   url: https://www.ready2order.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/capabilities/ready2order-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ready2order-capability-edges.yml
@@ -359,66 +385,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/ready2order
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/openapi/_original/ready2order-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/ready2order-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/overlays/ready2order-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ready2order-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/authentication/ready2order-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ready2order-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/security/ready2order-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ready2order-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/conventions/ready2order-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ready2order-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/errors/ready2order-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ready2order-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/lifecycle/ready2order-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ready2order-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/conformance/ready2order-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ready2order-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/data-model/ready2order-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ready2order-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/well-known/ready2order-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ready2order-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/packages/ready2order-packages.yml
   title: ''
   type: Packages
   url: packages/ready2order-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/packages/ready2order-packages.yml
   title: ''
   type: SDKs
   url: packages/ready2order-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/mcp/ready2order-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ready2order-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/llms/ready2order-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ready2order-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/asyncapi/ready2order-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ready2order-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -438,6 +480,46 @@ overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
   Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 22 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 66.2
+    developer_ergonomics: 51.8
+    discoverability: 51.9
+    operational_transparency: 10.5
+  previous_composite: 43.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/screenshots/ready2order-2026-08-17T081455.png
 security:
 - kind: authentication

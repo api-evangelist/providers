@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://netography.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.vectra.ai/platform/network-observability — a different registrable domain (netography.com -> vectra.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 14
@@ -254,18 +279,22 @@ collections:
   slug: open-netography-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/capabilities/netography-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/netography-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/agentic-access/netography-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/netography-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/security/netography-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/netography-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/security/netography-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/netography-domain-security.yml
@@ -294,54 +323,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/netography
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/llms/netography-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/netography-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/authentication/netography-authentication.yml
   title: ''
   type: Authentication
   url: authentication/netography-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/mcp/netography-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/netography-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/asyncapi/netography-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/netography-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/conventions/netography-conventions.yml
   title: ''
   type: Conventions
   url: conventions/netography-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/errors/netography-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/netography-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/conformance/netography-conformance.yml
   title: ''
   type: Conformance
   url: conformance/netography-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/lifecycle/netography-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/netography-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/data-model/netography-data-model.yml
   title: ''
   type: DataModel
   url: data-model/netography-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/overlays/netography-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/netography-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/packages/netography-packages.yml
   title: ''
   type: Packages
   url: packages/netography-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/cli/netography-cli.yml
   title: ''
   type: CLI
   url: cli/netography-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -365,6 +407,41 @@ overview: 'Netography publishes 28 APIs on the [APIs.io](https://apis.io/) netwo
 
   Netography''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 18 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 37.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 59.2
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 37.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/screenshots/netography-2026-08-07T184939.png
 security:
 - kind: authentication

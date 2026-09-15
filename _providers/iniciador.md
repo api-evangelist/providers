@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Iniciador's regulated Open Finance Brasil API surface for payment initiation and financial data sharing (accounts, credit cards, loans, financings, investments, exchanges, and more), authorized via FA
@@ -17,6 +42,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/security/iniciador-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/iniciador-trust-center.yml
@@ -53,6 +79,7 @@ common:
   type: StatusPage
   url: https://status.iniciador.com.br
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/security/iniciador-trust-center.yml
   title: ''
   type: Compliance
   url: security/iniciador-trust-center.yml
@@ -61,38 +88,47 @@ common:
   type: Security
   url: https://iniciador.com.br/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/well-known/iniciador-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/iniciador-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/security/iniciador-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/iniciador-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/well-known/iniciador-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/iniciador-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/authentication/iniciador-authentication.yml
   title: ''
   type: Authentication
   url: authentication/iniciador-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/scopes/iniciador-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/iniciador-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/conformance/iniciador-conformance.yml
   title: ''
   type: Conformance
   url: conformance/iniciador-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/security/iniciador-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iniciador-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/lifecycle/iniciador-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/iniciador-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/llms/iniciador-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iniciador-llms.txt
@@ -122,6 +158,51 @@ scopes:
   scope_count: 16
   slug: iniciador-scopes
   summary_line: 16 scopes · authorizationCode/clientCredentials
+score:
+  band: thin
+  composite: 36.5
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 36.5
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: BR
+      standard: lgpd
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 84.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/screenshots/iniciador-2026-07-25T222443.png
 security:
 - kind: authentication

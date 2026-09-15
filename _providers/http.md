@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/http/refs/heads/main/security/http-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/http-domain-security.yml
@@ -28,22 +29,27 @@ common:
   type: Reference
   url: https://httpwg.org/specs/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/http/refs/heads/main/json-ld/http-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/http-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/http/refs/heads/main/json-schema/http-request.json
   title: ''
   type: JSONSchema
   url: json-schema/http-request.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/http/refs/heads/main/json-schema/http-response.json
   title: ''
   type: JSONSchema
   url: json-schema/http-response.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/http/refs/heads/main/json-schema/http-problem-details.json
   title: ''
   type: JSONSchema
   url: json-schema/http-problem-details.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/http/refs/heads/main/rules/http-rules.yml
   title: ''
   type: Rules
   url: rules/http-rules.yml

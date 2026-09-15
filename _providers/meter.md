@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -92,74 +117,92 @@ collections:
   slug: open-meter-transactions-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/openapi/_original/meter-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/meter-openapi-original.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/asyncapi/meter-subscriptions-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/meter-subscriptions-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/asyncapi/meter-subscriptions-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/meter-subscriptions-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/agentic-access/meter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/meter-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/security/meter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meter-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/packages/meter-packages.yml
   title: ''
   type: Packages
   url: packages/meter-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/packages/meter-packages.yml
   title: ''
   type: SDKs
   url: packages/meter-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/mcp/meter-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/meter-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/llms/meter-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meter-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/overlays/meter-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meter-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/conventions/meter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meter-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/data-model/meter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/meter-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/conformance/meter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meter-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/lifecycle/meter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meter-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/lifecycle/meter-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/meter-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/changelog/meter-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meter-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/sandbox/meter-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/meter-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,6 +258,41 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
   Meter''s developer surface includes changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
 random_paper: 16
+score:
+  band: thin
+  composite: 35.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 45.1
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 35.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:
 - kind: domain-security

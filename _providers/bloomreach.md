@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 63.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -219,14 +245,17 @@ common:
   type: License
   url: https://github.com/bloomreach/api-specs/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/agentic-access/bloomreach-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bloomreach-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/security/bloomreach-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomreach-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/authentication/bloomreach-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bloomreach-authentication.yml
@@ -267,74 +296,92 @@ common:
   type: X
   url: https://x.com/bloomreach_tm
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/vocabulary/bloomreach-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bloomreach-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/json-ld/bloomreach-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/bloomreach-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/plans/bloomreach-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomreach-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/rate-limits/bloomreach-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomreach-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/finops/bloomreach-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomreach-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/mcp/bloomreach-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bloomreach-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/mcp/bloomreach-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bloomreach-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/llms/bloomreach-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bloomreach-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/well-known/bloomreach-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bloomreach-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/well-known/bloomreach-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/bloomreach-api-catalog.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/packages/bloomreach-packages.yml
   title: ''
   type: Packages
   url: packages/bloomreach-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/packages/bloomreach-packages.yml
   title: ''
   type: SDKs
   url: packages/bloomreach-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/conventions/bloomreach-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bloomreach-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/errors/bloomreach-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bloomreach-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/lifecycle/bloomreach-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bloomreach-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/changelog/bloomreach-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bloomreach-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/conformance/bloomreach-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bloomreach-conformance.yml
@@ -343,26 +390,32 @@ common:
   type: Compliance
   url: https://www.bloomreach.com/en/legal/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/security/bloomreach-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bloomreach-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/scopes/bloomreach-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bloomreach-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/sandbox/bloomreach-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bloomreach-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/components/bloomreach-components.yml
   title: ''
   type: Components
   url: components/bloomreach-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/data-model/bloomreach-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bloomreach-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/asyncapi/bloomreach-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bloomreach-webhooks.yml
@@ -482,6 +535,41 @@ scopes:
   scope_count: 3
   slug: bloomreach-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 67.2
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 73.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 41.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 43.2
+    contract_quality: 69.6
+    developer_ergonomics: 58.3
+    discoverability: 57.4
+    operational_transparency: 81.6
+  previous_composite: 67.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 95.2
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png
 security:
 - kind: authentication

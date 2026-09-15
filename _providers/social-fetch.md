@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Synchronous REST API for scraping public social media data across ~23 platforms, returning structured JSON. 206 operations under /v1. API-key auth via x-api-key header. Supports x402 USDC-on-Base pay-
@@ -15,90 +41,112 @@ common:
   type: Website
   url: https://www.socialfetch.dev
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/mcp/social-fetch-tool-crosswalk.yml
   title: ''
   type: x-ToolCrosswalk
   url: mcp/social-fetch-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/security/social-fetch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/social-fetch-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/security/social-fetch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/social-fetch-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/security/social-fetch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/social-fetch-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/authentication/social-fetch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/social-fetch-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/security/social-fetch-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/social-fetch-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/well-known/social-fetch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/social-fetch-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/well-known/social-fetch-well-known.yml
   title: ''
   type: SecurityTxt
   url: well-known/social-fetch-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/llms/social-fetch-llms.yml
   title: ''
   type: LLMsTxt
   url: llms/social-fetch-llms.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/packages/social-fetch-packages.yml
   title: ''
   type: Packages
   url: packages/social-fetch-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/packages/social-fetch-packages.yml
   title: ''
   type: SDKs
   url: packages/social-fetch-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/conformance/social-fetch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/social-fetch-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/errors/social-fetch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/social-fetch-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/lifecycle/social-fetch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/social-fetch-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/scopes/social-fetch-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/social-fetch-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/conventions/social-fetch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/social-fetch-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/plans/social-fetch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/social-fetch-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/rate-limits/social-fetch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/social-fetch-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/asyncapi/social-fetch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/social-fetch-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/overlays/social-fetch-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/social-fetch-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/mcp/social-fetch-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/social-fetch-mcp.yml
@@ -148,7 +196,7 @@ modified: '2026-09-11'
 name: Social Fetch
 nav: Providers
 network: true
-overview: 'Social Fetch publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include social media, web scraping, data extraction, social listening, and monitoring.
+overview: 'Social Fetch publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Social-Media, Web Scraping, Data Extraction, Social Listening, and Monitoring.
 
 
   The Social Fetch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -169,6 +217,35 @@ scopes:
   scope_count: 0
   slug: social-fetch-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 55.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 66.1
+    discoverability: 72.2
+    operational_transparency: 42.1
+  previous_composite: 53.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Social Fetch Authentication
@@ -188,18 +265,18 @@ security:
   summary_line: trust center published
 slug: social-fetch
 tags:
-- social media
-- web scraping
-- data extraction
-- social listening
-- monitoring
-- structured data
-- JSON API
+- Social-Media
+- Web Scraping
+- Data Extraction
+- Social Listening
+- Monitoring
+- Structured Data
+- JSON:API
 - REST
 - MCP
 - agent-native
 - TypeScript SDK
-- transcripts
+- Transcripts
 - ads intelligence
 website: https://www.socialfetch.dev
 ---

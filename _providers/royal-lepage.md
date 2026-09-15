@@ -10,10 +10,36 @@ access_model:
   - terms-of-service
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/security/royal-lepage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/royal-lepage-domain-security.yml
@@ -90,18 +116,22 @@ common:
   type: GitHubProfile
   url: https://github.com/RoyalLePage
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/llms/royal-lepage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/royal-lepage-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/conformance/royal-lepage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/royal-lepage-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/json-ld/royal-lepage-organization.jsonld
   title: ''
   type: JSONLD
   url: json-ld/royal-lepage-organization.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/packages/royal-lepage-packages.yml
   title: ''
   type: Packages
   url: packages/royal-lepage-packages.yml
@@ -127,6 +157,47 @@ overview: 'Royal LePage is profiled on the [APIs.io](https://apis.io/) network. 
 
   Royal LePage''s developer surface includes developer portal, support, YouTube channel, and 20 more developer resources.'
 random_paper: 0
+score:
+  band: emerging
+  composite: 15.4
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 14.3
+    discoverability: 50.0
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 15.4
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 31.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/royal-lepage/refs/heads/main/screenshots/royal-lepage-2026-09-02T154148.png
 security:
 - kind: domain-security

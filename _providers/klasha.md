@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: Collect payments from customers in Africa via card, bank transfer, USSD, M-Pesa, mobile money and the Klasha wallet, including charge validation, refunds and exchange rates.
@@ -35,10 +60,12 @@ asyncapis:
   slug: klasha-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/security/klasha-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/klasha-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/security/klasha-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klasha-domain-security.yml
@@ -111,58 +138,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/klasha-apps
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/authentication/klasha-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klasha-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/packages/klasha-packages.yml
   title: ''
   type: Packages
   url: packages/klasha-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/packages/klasha-packages.yml
   title: ''
   type: SDKs
   url: packages/klasha-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/components/klasha-components.yml
   title: ''
   type: Components
   url: components/klasha-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/sandbox/klasha-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/klasha-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/conventions/klasha-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klasha-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/errors/klasha-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/klasha-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/lifecycle/klasha-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klasha-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/asyncapi/klasha-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/klasha-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/data-model/klasha-data-model.yml
   title: ''
   type: DataModel
   url: data-model/klasha-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/conformance/klasha-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klasha-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/llms/klasha-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klasha-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/mcp/klasha-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/klasha-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -182,6 +223,47 @@ overview: 'Klasha publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
   Klasha''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 26 more developer resources.'
 random_paper: 19
+score:
+  band: strong
+  composite: 54.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 75.6
+    discoverability: 81.5
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 54.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 68.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/klasha/refs/heads/main/screenshots/klasha-2026-07-25T223937.png
 security:
 - kind: authentication

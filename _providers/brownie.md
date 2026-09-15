@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Programmatic access to trigger AI-driven incident investigations, poll investigation status and results, and read/update hierarchical team configuration. Authenticated with team or admin bearer tokens
@@ -67,58 +92,72 @@ common:
   type: SignUp
   url: https://slack.incidentfox.ai/slack/install
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/llms/brownie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brownie-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/authentication/brownie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brownie-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/conventions/brownie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brownie-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/errors/brownie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brownie-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/rate-limits/brownie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brownie-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/lifecycle/brownie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brownie-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/mcp/brownie-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brownie-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/data-model/brownie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brownie-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/packages/brownie-packages.yml
   title: ''
   type: Packages
   url: packages/brownie-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/asyncapi/brownie-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/brownie-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/conformance/brownie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brownie-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/security/brownie-trust-center.yml
   title: ''
   type: Compliance
   url: security/brownie-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/security/brownie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/brownie-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/security/brownie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brownie-vulnerability-disclosure.yml
@@ -127,10 +166,12 @@ common:
   type: Security
   url: https://incidentfox.ai/vulnerability.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/security/brownie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brownie-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,6 +195,36 @@ rate_limits:
 - limit_count: 3
   name: Brownie Rate Limits
   slug: brownie-rate-limits
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 47.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png
 security:
 - kind: authentication

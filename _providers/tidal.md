@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -628,26 +653,32 @@ collections:
   slug: open-tidal-videos-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/capabilities/tidal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tidal-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/agentic-access/tidal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tidal-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/security/tidal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tidal-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/security/tidal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tidal-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/authentication/tidal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tidal-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/scopes/tidal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tidal-scopes.yml
@@ -656,38 +687,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tidal/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-album-tracklist-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-album-tracklist-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-artist-discography-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-artist-discography-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-browse-collection-tracks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-browse-collection-tracks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-create-playlist-and-add-tracks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-create-playlist-and-add-tracks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-discovery-mix-tracks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-discovery-mix-tracks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-search-and-save-track-to-collection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-search-and-save-track-to-collection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-search-to-track-album-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-search-to-track-album-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-track-playback-manifest-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-track-playback-manifest-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/arazzo/tidal-video-explorer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tidal-video-explorer-workflow.yml
@@ -808,14 +848,17 @@ common:
   type: Plans
   url: https://tidal.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/plans/tidal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tidal-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/rate-limits/tidal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tidal-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/finops/tidal-finops.yml
   title: ''
   type: FinOps
   url: finops/tidal-finops.yml
@@ -930,6 +973,38 @@ scopes:
   scope_count: 12
   slug: tidal-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 51.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 75.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 9.8
+    contract_quality: 67.9
+    developer_ergonomics: 44.0
+    discoverability: 50.0
+    operational_transparency: 42.1
+  previous_composite: 51.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 65
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/screenshots/tidal-2026-06-20T195337.png
 security:
 - kind: authentication

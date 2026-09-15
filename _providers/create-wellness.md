@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 13.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol endpoint served from the Create Wellness storefront, exposed over the Model Context Protocol. Thirteen tools cover catalog search and lookup, cart create/read/update/ca
@@ -20,6 +45,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/security/create-wellness-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/create-wellness-domain-security.yml
@@ -32,46 +58,57 @@ common:
   type: Documentation
   url: https://trycreate.co/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/llms/create-wellness-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/create-wellness-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/mcp/create-wellness-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/create-wellness-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/well-known/create-wellness-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/create-wellness-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/authentication/create-wellness-authentication.yml
   title: ''
   type: Authentication
   url: authentication/create-wellness-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/scopes/create-wellness-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/create-wellness-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/conventions/create-wellness-conventions.yml
   title: ''
   type: Conventions
   url: conventions/create-wellness-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/conventions/create-wellness-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/create-wellness-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/rate-limits/create-wellness-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/create-wellness-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/plans/create-wellness-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/create-wellness-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/conformance/create-wellness-conformance.yml
   title: ''
   type: Conformance
   url: conformance/create-wellness-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -125,6 +162,42 @@ scopes:
   scope_count: 0
   slug: create-wellness-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 26.0
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 26.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/screenshots/create-wellness-2026-09-02T145207.png
 security:
 - kind: authentication

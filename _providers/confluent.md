@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -692,14 +718,17 @@ common:
   type: Website
   url: https://www.confluent.io/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/capabilities/confluent-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/confluent-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/overlays/confluent-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/confluent-cloud-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/overlays/confluent-metrics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/confluent-metrics-overlay.yaml
@@ -744,22 +773,27 @@ common:
   type: StatusPage
   url: https://status.confluent.cloud/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/lifecycle/confluent-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/confluent-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/lifecycle/confluent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/confluent-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/changelog/confluent-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/confluent-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/security/confluent-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/confluent-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/security/confluent-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/confluent-trust-center.yml
@@ -768,86 +802,107 @@ common:
   type: Compliance
   url: https://www.confluent.io/trust-and-security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/conformance/confluent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/confluent-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/packages/confluent-packages.yml
   title: ''
   type: Packages
   url: packages/confluent-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/packages/confluent-packages.yml
   title: ''
   type: SDKs
   url: packages/confluent-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/cli/confluent-cli.yml
   title: ''
   type: CLI
   url: cli/confluent-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/sandbox/confluent-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/confluent-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/conventions/confluent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/confluent-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/errors/confluent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/confluent-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/data-model/confluent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/confluent-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/asyncapi/confluent-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/confluent-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/well-known/confluent-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/confluent-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/well-known/confluent-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/confluent-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/llms/confluent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/confluent-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/plans/confluent-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/confluent-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/rate-limits/confluent-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/confluent-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/finops/confluent-finops.yml
   title: ''
   type: FinOps
   url: finops/confluent-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/scopes/confluent-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/confluent-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/agentic-access/confluent-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/confluent-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/security/confluent-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/confluent-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/security/confluent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/confluent-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/authentication/confluent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/confluent-authentication.yml
@@ -908,6 +963,41 @@ scopes:
   scope_count: 5
   slug: confluent-scopes
   summary_line: 5 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 79.0
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 67.1
+    developer_ergonomics: 85.7
+    discoverability: 66.7
+    operational_transparency: 92.1
+  previous_composite: 79.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 125
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/screenshots/confluent-2026-06-20T174900.png
 security:
 - kind: authentication

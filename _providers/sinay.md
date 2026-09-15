@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -77,18 +102,22 @@ collections:
   slug: open-sinay
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/capabilities/sinay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sinay-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/agentic-access/sinay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sinay-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/security/sinay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sinay-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/authentication/sinay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sinay-authentication.yml
@@ -109,14 +138,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/sinay
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/plans/sinay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sinay-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/rate-limits/sinay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sinay-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/finops/sinay-finops.yml
   title: ''
   type: FinOps
   url: finops/sinay-finops.yml
@@ -145,6 +177,38 @@ rate_limits:
 - limit_count: 3
   name: Sinay Rate Limits
   slug: sinay-rate-limits
+score:
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 0.0
+    contract_quality: 55.9
+    developer_ergonomics: 20.2
+    discoverability: 68.5
+    operational_transparency: 31.6
+  previous_composite: 38.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/screenshots/sinay-2026-09-02T155607.png
 security:
 - kind: authentication

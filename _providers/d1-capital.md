@@ -31,7 +31,6 @@ tags:
 - Fintech
 - Artificial Intelligence
 - Technology
-- Consumer
 - Healthcare
 - New York
 - Global

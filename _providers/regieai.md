@@ -9,6 +9,31 @@ access_model:
   - https://www.regie.ai/pricing
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
@@ -53,6 +78,7 @@ common:
   type: ChangeLog
   url: https://www.regie.ai/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/changelog/regieai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/regieai-changelog.yml
@@ -61,10 +87,12 @@ common:
   type: Compliance
   url: https://www.regie.ai/gdpr
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/conformance/regieai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/regieai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/security/regieai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/regieai-domain-security.yml
@@ -77,30 +105,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/REGIE-io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/mcp/regieai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/regieai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/well-known/regieai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/regieai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/authentication/regieai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/regieai-authentication.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/plans/regieai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/regieai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/rate-limits/regieai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/regieai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/lifecycle/regieai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/regieai-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/llms/regieai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/regieai-llms.txt
@@ -129,6 +164,35 @@ rate_limits:
 - limit_count: 0
   name: Regieai Rate Limits
   slug: regieai-rate-limits
+score:
+  band: thin
+  composite: 30.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 33.3
+    discoverability: 50.0
+    operational_transparency: 18.4
+  previous_composite: 30.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/regieai/refs/heads/main/screenshots/regieai-2026-09-02T153243.png
 security:
 - kind: authentication

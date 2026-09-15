@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -110,10 +136,12 @@ collections:
   slug: open-salsify-records-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/capabilities/salsify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salsify-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/security/salsify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/salsify-vulnerability-disclosure.yml
@@ -138,10 +166,12 @@ common:
   type: GettingStarted
   url: https://developers.salsify.com/docs/integration-with-salsify
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/authentication/salsify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salsify-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/scopes/salsify-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salsify-scopes.yml
@@ -182,62 +212,77 @@ common:
   type: Compliance
   url: https://www.salsify.com/security-and-reliability
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/security/salsify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/salsify-trust-center.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/changelog/salsify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/salsify-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/packages/salsify-packages.yml
   title: ''
   type: Packages
   url: packages/salsify-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/packages/salsify-packages.yml
   title: ''
   type: SDKs
   url: packages/salsify-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/well-known/salsify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/salsify-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/conformance/salsify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/salsify-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/errors/salsify-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/salsify-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/lifecycle/salsify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salsify-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/conventions/salsify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/salsify-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/data-model/salsify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/salsify-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/rate-limits/salsify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salsify-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/asyncapi/salsify-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/salsify-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/agentic-access/salsify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salsify-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/security/salsify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salsify-domain-security.yml
@@ -246,18 +291,22 @@ common:
   type: Security
   url: https://www.salsify.com/responsible-disclosure
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/overlays/salsify-api-settings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salsify-api-settings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/overlays/salsify-write-operations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salsify-write-operations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/overlays/salsify-non-v1-endpoints-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salsify-non-v1-endpoints-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/llms/salsify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salsify-llms.txt
@@ -294,6 +343,41 @@ scopes:
   scope_count: 2
   slug: salsify-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 56.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 60.9
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 73.7
+  previous_composite: 56.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/screenshots/salsify-2026-08-17T081714.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'The Tailor Platform control plane. A single tailor.v1.OperatorService with 254 RPCs covering organizations, folders, teams, access grants, IP restrictions, workspaces, applications and every platform '
@@ -75,110 +100,137 @@ common:
   type: PrivacyPolicy
   url: https://www.tailor.tech/privacy
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/grpc/tailor-grpc.yml
   title: ''
   type: Protobuf
   url: grpc/tailor-grpc.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/packages/tailor-packages.yml
   title: ''
   type: Packages
   url: packages/tailor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/packages/tailor-packages.yml
   title: ''
   type: SDKs
   url: packages/tailor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/cli/tailor-cli.yml
   title: ''
   type: CLI
   url: cli/tailor-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/mcp/tailor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tailor-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/mcp/tailor-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tailor-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/llms/tailor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tailor-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/well-known/tailor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tailor-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/authentication/tailor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tailor-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/scopes/tailor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tailor-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/conformance/tailor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tailor-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/conformance/tailor-conformance.yml
   title: ''
   type: Compliance
   url: conformance/tailor-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/errors/tailor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tailor-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/lifecycle/tailor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tailor-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/lifecycle/tailor-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tailor-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/changelog/tailor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tailor-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/conventions/tailor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tailor-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/sandbox/tailor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tailor-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/components/tailor-components.yml
   title: ''
   type: Components
   url: components/tailor-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/data-model/tailor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tailor-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/asyncapi/tailor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tailor-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/rate-limits/tailor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tailor-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/plans/tailor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tailor-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/security/tailor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tailor-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/security/tailor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tailor-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/security/tailor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tailor-domain-security.yml
@@ -215,6 +267,36 @@ scopes:
   scope_count: 0
   slug: tailor-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 85.7
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 53.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Tailor Authentication

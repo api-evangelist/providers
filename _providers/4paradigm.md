@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.4
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The HTTP/JSON surface of OpenMLDB's optional APIServer module — insert rows into a table, invoke a deployed real-time feature-computation service, run online/offline SQL, read deployment and table met
@@ -26,6 +51,7 @@ apis:
 artifact_total: 11
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/security/4paradigm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/4paradigm-domain-security.yml
@@ -66,58 +92,72 @@ common:
   type: PrivacyPolicy
   url: https://www.4paradigm.com/other/privacy.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/packages/4paradigm-packages.yml
   title: ''
   type: Packages
   url: packages/4paradigm-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/packages/4paradigm-packages.yml
   title: ''
   type: SDKs
   url: packages/4paradigm-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/cli/4paradigm-cli.yml
   title: ''
   type: CLI
   url: cli/4paradigm-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/llms/4paradigm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/4paradigm-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/changelog/4paradigm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/4paradigm-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/lifecycle/4paradigm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/4paradigm-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/conventions/4paradigm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/4paradigm-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/conformance/4paradigm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/4paradigm-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/errors/4paradigm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/4paradigm-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/authentication/4paradigm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/4paradigm-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/data-model/4paradigm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/4paradigm-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/plans/4paradigm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/4paradigm-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/rate-limits/4paradigm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/4paradigm-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -133,7 +173,7 @@ modified: '2026-09-05'
 name: 4Paradigm
 nav: Providers
 network: true
-overview: '4Paradigm publishes 2 APIs on the [APIs.io](https://apis.io/) network: OpenAIOS Platform API (Pineapple) and OpenAIOS Platform Billing API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Feature Store, and Databases.
+overview: '4Paradigm publishes 2 APIs on the [APIs.io](https://apis.io/) network: OpenAIOS Platform API (Pineapple) and OpenAIOS Platform Billing API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Feature Store, and Databases.
 
 
   4Paradigm''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, changelog, and 17 more developer resources.'
@@ -146,6 +186,40 @@ rate_limits:
 - limit_count: 0
   name: 4Paradigm Rate Limits
   slug: 4paradigm-rate-limits
+score:
+  band: thin
+  composite: 36.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 4.5
+    contract_quality: 46.5
+    developer_ergonomics: 60.1
+    discoverability: 72.2
+    operational_transparency: 18.4
+  previous_composite: 36.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: 4Paradigm Authentication
@@ -159,10 +233,10 @@ slug: 4paradigm
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Feature Store
 - Databases
-- Open Source
+- Open-Source
 - MLOps
 - Agents
 - Robotics

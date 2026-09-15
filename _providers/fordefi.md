@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -218,74 +243,92 @@ common:
   type: Compliance
   url: https://fordefi.com/solutions/mpc-security
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/changelog/fordefi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fordefi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/lifecycle/fordefi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fordefi-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/authentication/fordefi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fordefi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/conventions/fordefi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fordefi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/conventions/fordefi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fordefi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/errors/fordefi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fordefi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/data-model/fordefi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fordefi-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/asyncapi/fordefi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fordefi-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/packages/fordefi-packages.yml
   title: ''
   type: Packages
   url: packages/fordefi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/packages/fordefi-packages.yml
   title: ''
   type: SDKs
   url: packages/fordefi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/mcp/fordefi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fordefi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/llms/fordefi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fordefi-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/overlays/fordefi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fordefi-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/conformance/fordefi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fordefi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/security/fordefi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fordefi-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/security/fordefi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fordefi-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/agentic-access/fordefi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fordefi-agentic-access.yml
@@ -305,6 +348,47 @@ overview: 'Fordefi publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
   Fordefi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 24 more developer resources.'
 random_paper: 0
+score:
+  band: strong
+  composite: 56.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 63.8
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 56.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
 security:
 - kind: authentication

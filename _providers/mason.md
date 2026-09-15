@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -93,10 +118,12 @@ collections:
   slug: open-mason-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/overlays/mason-apps-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mason-apps-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/security/mason-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mason-vulnerability-disclosure.yml
@@ -105,18 +132,22 @@ common:
   type: Security
   url: https://getmason.io/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/security/mason-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mason-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/agentic-access/mason-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mason-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/scopes/mason-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mason-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/authentication/mason-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mason-authentication.yml
@@ -169,46 +200,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/kubric
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/llms/mason-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mason-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/errors/mason-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mason-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/conventions/mason-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mason-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/data-model/mason-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mason-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/asyncapi/mason-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mason-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/mcp/mason-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mason-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/conformance/mason-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mason-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/well-known/mason-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mason-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/lifecycle/mason-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mason-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/changelog/mason-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mason-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -233,6 +275,41 @@ scopes:
   scope_count: 0
   slug: mason-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 58.7
+    developer_ergonomics: 35.1
+    discoverability: 81.5
+    operational_transparency: 28.9
+  previous_composite: 41.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/screenshots/mason-2026-07-25T230331.png
 security:
 - kind: authentication

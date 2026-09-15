@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.2
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - baseURL: https://api.leap.energy
@@ -119,14 +144,17 @@ collections:
   slug: open-leap-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/capabilities/leap-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leap-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/overlays/leap-create-meters-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leap-create-meters-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/security/leap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leap-domain-security.yml
@@ -175,94 +203,117 @@ common:
   type: StatusPage
   url: https://status.leap.energy/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/changelog/leap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leap-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/lifecycle/leap-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/leap-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/lifecycle/leap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leap-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/llms/leap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leap-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/authentication/leap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leap-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/conventions/leap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/errors/leap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leap-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/errors/leap-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/leap-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/conformance/leap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leap-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/sandbox/leap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/leap-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/data-model/leap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leap-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/asyncapi/leap-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/leap-events-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/asyncapi/leap-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/leap-events-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/mcp/leap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/leap-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/well-known/leap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leap-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/packages/leap-packages.yml
   title: ''
   type: Packages
   url: packages/leap-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/components/leap-components.yml
   title: ''
   type: Components
   url: components/leap-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/skills/leap-onboard-meters.md
   title: ''
   type: AgentSkill
   url: skills/leap-onboard-meters.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/skills/leap-process-dispatch.md
   title: ''
   type: AgentSkill
   url: skills/leap-process-dispatch.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/skills/leap-subscribe-webhooks.md
   title: ''
   type: AgentSkill
   url: skills/leap-subscribe-webhooks.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/skills/leap-revenue-reporting.md
   title: ''
   type: AgentSkill
   url: skills/leap-revenue-reporting.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/skills/leap-manage-nominations.md
   title: ''
   type: AgentSkill
   url: skills/leap-manage-nominations.md
@@ -282,6 +333,51 @@ overview: 'Leap publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
   Leap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 30 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 47.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 68.0
+    developer_ergonomics: 44.6
+    discoverability: 81.5
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 47.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/screenshots/leap-2026-07-25T224743.png
 security:
 - kind: authentication

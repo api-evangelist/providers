@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -155,6 +180,7 @@ common:
   type: GettingStarted
   url: https://docs.overflow.co/api-reference/quickstart
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/authentication/overflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/overflow-authentication.yml
@@ -163,6 +189,7 @@ common:
   type: RateLimits
   url: https://docs.overflow.co/api-reference/rate-limiting
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/asyncapi/overflow-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/overflow-webhooks.yml
@@ -195,50 +222,62 @@ common:
   type: PrivacyPolicy
   url: https://www.overflow.co/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/llms/overflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/overflow-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/mcp/overflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/overflow-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/overlays/overflow-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/overflow-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/conformance/overflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/overflow-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/errors/overflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/overflow-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/lifecycle/overflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/overflow-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/security/overflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/overflow-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/conventions/overflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/overflow-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/sandbox/overflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/overflow-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/data-model/overflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/overflow-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/agentic-access/overflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/overflow-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -258,6 +297,47 @@ overview: 'Overflow publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
   Overflow''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 20 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 46.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 60.5
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 46.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/screenshots/overflow-2026-08-07T191125.png
 security:
 - kind: authentication

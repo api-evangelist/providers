@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rtfkt/refs/heads/main/security/rtfkt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rtfkt-domain-security.yml

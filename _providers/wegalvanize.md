@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://apis-us.highbond.com/v1
@@ -574,14 +599,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/diligent-boards/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/capabilities/wegalvanize-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wegalvanize-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/overlays/wegalvanize-highbond-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wegalvanize-highbond-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/security/wegalvanize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wegalvanize-domain-security.yml
@@ -606,22 +634,27 @@ common:
   type: GettingStarted
   url: https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=lp-access-tokens
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/authentication/wegalvanize-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wegalvanize-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/scopes/wegalvanize-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wegalvanize-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/conventions/wegalvanize-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wegalvanize-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/errors/wegalvanize-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wegalvanize-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/conformance/wegalvanize-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wegalvanize-conformance.yml
@@ -630,10 +663,12 @@ common:
   type: Compliance
   url: https://trust.diligent.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/security/wegalvanize-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wegalvanize-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/lifecycle/wegalvanize-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wegalvanize-lifecycle.yml
@@ -642,18 +677,22 @@ common:
   type: StatusPage
   url: https://status.diligent.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/data-model/wegalvanize-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wegalvanize-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/mcp/wegalvanize-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wegalvanize-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/well-known/wegalvanize-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wegalvanize-well-known.yml
@@ -695,6 +734,40 @@ scopes:
   scope_count: 7
   slug: wegalvanize-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials/implicit/refreshToken/tokenExchange
+score:
+  band: developing
+  composite: 45.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 52.5
+    developer_ergonomics: 56.5
+    discoverability: 63.0
+    operational_transparency: 18.4
+  previous_composite: 45.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 69
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/screenshots/wegalvanize-2026-08-17T082923.png
 security:
 - kind: authentication

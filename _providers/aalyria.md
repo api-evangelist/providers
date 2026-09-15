@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The Northbound Interface allows humans or applications to define and orchestrate a Spacetime network. It carries the Model API (NMTS entities and relationships describing platforms, antennas, interfac
@@ -55,6 +80,7 @@ common:
   type: GettingStarted
   url: https://docs.spacetime.aalyria.com/api/nbi/build-your-first-scenario/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/authentication/aalyria-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aalyria-authentication.yml
@@ -79,26 +105,32 @@ common:
   type: Support
   url: https://github.com/aalyria/api/issues
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/grpc/aalyria-grpc-index.yml
   title: ''
   type: Protobuf
   url: grpc/aalyria-grpc-index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/packages/aalyria-packages.yml
   title: ''
   type: Packages
   url: packages/aalyria-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/packages/aalyria-packages.yml
   title: ''
   type: SDKs
   url: packages/aalyria-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/cli/aalyria-cli.yml
   title: ''
   type: CLI
   url: cli/aalyria-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/changelog/aalyria-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aalyria-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/lifecycle/aalyria-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aalyria-lifecycle.yml
@@ -107,34 +139,42 @@ common:
   type: Deprecation
   url: https://docs.spacetime.aalyria.com/dev-guides/api-stability-levels/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/conventions/aalyria-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aalyria-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/conformance/aalyria-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aalyria-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/errors/aalyria-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aalyria-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/data-model/aalyria-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aalyria-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/llms/aalyria-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aalyria-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/mcp/aalyria-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aalyria-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/security/aalyria-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aalyria-domain-security.yml
@@ -152,6 +192,42 @@ overview: 'Aalyria publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
 
   Aalyria''s developer surface includes documentation, API reference, getting-started guide, authentication, support, CLI, changelog, and 21 more developer resources.'
 random_paper: 4
+score:
+  band: thin
+  composite: 37.9
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 70.8
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 37.9
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/screenshots/aalyria-2026-08-07T160729.png
 security:
 - kind: authentication

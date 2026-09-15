@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.rmaster.com/api
@@ -161,6 +186,7 @@ collections:
   slug: open-broadlume-bms
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/capabilities/broadlume-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/broadlume-capability-edges.yml
@@ -209,6 +235,7 @@ common:
   type: Sandbox
   url: https://developer.broadlume.com/api-runner/broadlume/bms
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/changelog/broadlume-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/broadlume-changelog.yml
@@ -217,62 +244,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/broadlume
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/security/broadlume-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/broadlume-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/llms/broadlume-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/broadlume-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/authentication/broadlume-authentication.yml
   title: ''
   type: Authentication
   url: authentication/broadlume-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/conventions/broadlume-conventions.yml
   title: ''
   type: Conventions
   url: conventions/broadlume-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/errors/broadlume-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/broadlume-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/lifecycle/broadlume-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/broadlume-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/data-model/broadlume-data-model.yml
   title: ''
   type: DataModel
   url: data-model/broadlume-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/conformance/broadlume-conformance.yml
   title: ''
   type: Conformance
   url: conformance/broadlume-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/packages/broadlume-packages.yml
   title: ''
   type: Packages
   url: packages/broadlume-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/packages/broadlume-packages.yml
   title: ''
   type: SDKs
   url: packages/broadlume-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/mcp/broadlume-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/broadlume-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/overlays/broadlume-bms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/broadlume-bms-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/plans/broadlume-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/broadlume-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/rate-limits/broadlume-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/broadlume-rate-limits.yml
@@ -297,6 +339,40 @@ rate_limits:
 - limit_count: 0
   name: Broadlume Rate Limits
   slug: broadlume-rate-limits
+score:
+  band: developing
+  composite: 44.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 54.4
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 44.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/screenshots/broadlume-2026-07-25T203941.png
 security:
 - kind: authentication

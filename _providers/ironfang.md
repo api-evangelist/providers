@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.ironfang.uk/renderwolf
@@ -17,46 +42,57 @@ common:
   type: Website
   url: https://www.ironfang.uk/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/security/ironfang-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ironfang-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/authentication/ironfang-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ironfang-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/scopes/ironfang-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ironfang-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/conventions/ironfang-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ironfang-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/conventions/ironfang-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ironfang-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/packages/ironfang-packages.yml
   title: ''
   type: Packages
   url: packages/ironfang-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/packages/ironfang-packages.yml
   title: ''
   type: SDKs
   url: packages/ironfang-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/cli/ironfang-cli.yml
   title: ''
   type: CLI
   url: cli/ironfang-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/well-known/ironfang-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ironfang-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/conformance/ironfang-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ironfang-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/lifecycle/ironfang-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ironfang-lifecycle.yml
@@ -65,18 +101,22 @@ common:
   type: StatusPage
   url: https://status.ironfang.uk
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/sandbox/ironfang-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ironfang-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/plans/ironfang-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ironfang-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/rate-limits/ironfang-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ironfang-rate-limits.yml
@@ -127,7 +167,7 @@ modified: '2026-09-02'
 name: Ironfang
 nav: Providers
 network: true
-overview: 'Ironfang publishes 1 API on the [APIs.io](https://apis.io/) network: Renderwolf API. Tagged areas include Developer Tools, Screenshot API, Website Screenshot, HTML-to-PDF, and PDF API.
+overview: 'Ironfang publishes 1 API on the [APIs.io](https://apis.io/) network: Renderwolf API. Tagged areas include Developer Tools, screenshot-api, website screenshot, HTML to PDF, and PDF API.
 
 
   The Ironfang catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -148,6 +188,40 @@ scopes:
   scope_count: 0
   slug: ironfang-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 0.0
+    contract_quality: 65.9
+    developer_ergonomics: 78.0
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 64.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 security:
 - kind: authentication
   name: Ironfang Authentication
@@ -160,9 +234,9 @@ security:
 slug: ironfang
 tags:
 - Developer Tools
-- Screenshot API
-- Website Screenshot
-- HTML-to-PDF
+- screenshot-api
+- website screenshot
+- HTML to PDF
 - PDF API
 - Image API
 - OG Image API

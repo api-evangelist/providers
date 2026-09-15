@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://invoca.net
@@ -28,6 +53,7 @@ apis:
 artifact_total: 7
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/overlays/invoca-sms-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/invoca-sms-messaging-overlay.yaml
@@ -92,42 +118,52 @@ common:
   type: Compliance
   url: https://www.invoca.com/product/security-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/authentication/invoca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/invoca-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/conventions/invoca-conventions.yml
   title: ''
   type: Conventions
   url: conventions/invoca-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/conventions/invoca-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/invoca-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/lifecycle/invoca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/invoca-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/lifecycle/invoca-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/invoca-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/conformance/invoca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/invoca-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/errors/invoca-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/invoca-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/mcp/invoca-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/invoca-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/security/invoca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/invoca-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/llms/invoca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/invoca-llms.txt
@@ -136,34 +172,42 @@ common:
   type: ChangeLog
   url: https://www.invoca.com/latest-releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/changelog/invoca-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/invoca-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/packages/invoca-packages.yml
   title: ''
   type: Packages
   url: packages/invoca-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/plans/invoca-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/invoca-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/rate-limits/invoca-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/invoca-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/components/invoca-components.yml
   title: ''
   type: Components
   url: components/invoca-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/sandbox/invoca-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/invoca-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/data-model/invoca-data-model.yml
   title: ''
   type: DataModel
   url: data-model/invoca-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -188,6 +232,40 @@ rate_limits:
 - limit_count: 0
   name: Invoca Rate Limits
   slug: invoca-rate-limits
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 4.5
+    contract_quality: 40.1
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 51.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:
 - kind: authentication

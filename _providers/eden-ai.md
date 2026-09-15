@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 6
@@ -116,18 +142,22 @@ common:
   type: Website
   url: https://www.edenai.co/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/agentic-access/eden-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eden-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/security/eden-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/eden-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/security/eden-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eden-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/authentication/eden-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eden-ai-authentication.yml
@@ -192,70 +222,87 @@ common:
   type: TrustCenter
   url: https://trust.edenai.co/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/mcp/eden-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eden-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/llms/eden-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eden-ai-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/packages/eden-ai-packages.yml
   title: ''
   type: Packages
   url: packages/eden-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/packages/eden-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/eden-ai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/conventions/eden-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eden-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/errors/eden-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eden-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/lifecycle/eden-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eden-ai-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/scopes/eden-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eden-ai-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/conformance/eden-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eden-ai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/security/eden-ai-trust-center.yml
   title: ''
   type: Compliance
   url: security/eden-ai-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/asyncapi/eden-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eden-ai-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/sandbox/eden-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eden-ai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/data-model/eden-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eden-ai-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/rate-limits/eden-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eden-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/plans/eden-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eden-ai-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/finops/eden-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/eden-ai-finops.yml
@@ -275,7 +322,7 @@ modified: '2026-09-06'
 name: Eden AI
 nav: Providers
 network: true
-overview: 'Eden AI publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Image API, OCR API, and 9 more. Tagged areas include Artificial Intelligence, AI Gateway, LLM, Machine Learning, and OCR.
+overview: 'Eden AI publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Image API, OCR API, and 9 more. Tagged areas include Artificial Intelligence, AI Gateway, LLM, Machine-Learning, and OCR.
 
 
   The Eden AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -296,6 +343,41 @@ scopes:
   scope_count: 0
   slug: eden-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 59.1
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 59.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 57.4
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 31.6
+  previous_composite: 59.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/screenshots/eden-ai-2026-06-20T180450.png
 security:
 - kind: authentication
@@ -319,12 +401,12 @@ tags:
 - Artificial Intelligence
 - AI Gateway
 - LLM
-- Machine Learning
+- Machine-Learning
 - OCR
 - Translation
 - Speech
-- Computer Vision
-- Model Context Protocol
+- Computer-Vision
+- MCP
 - Emotion Detection
 website: https://www.edenai.co/
 ---

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,22 +82,27 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/agentic-access/google-cloud-transfer-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-transfer-service-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/security/google-cloud-transfer-service-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-transfer-service-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/security/google-cloud-transfer-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-transfer-service-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/authentication/google-cloud-transfer-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-transfer-service-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/scopes/google-cloud-transfer-service-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-transfer-service-scopes.yml
@@ -89,6 +119,7 @@ common:
   type: Pricing
   url: https://cloud.google.com/storage-transfer/pricing
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/json-ld/google-cloud-transfer-service-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-transfer-service-context.jsonld
@@ -149,6 +180,38 @@ scopes:
   scope_count: 1
   slug: google-cloud-transfer-service-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 36.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 60.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 9.8
+    contract_quality: 62.6
+    developer_ergonomics: 35.7
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 36.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/screenshots/google-cloud-transfer-service-2026-06-20T182144.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 13.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Listed in the Aviva API Developer Portal service catalogue as an API that calculates premiums for Aviva consumer Private Medical Insurance policies — the quote/rating verb of the Aviva Health API fami
@@ -23,38 +48,47 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/security/aviva-plc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aviva-plc-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/authentication/aviva-plc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aviva-plc-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/well-known/aviva-plc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aviva-plc-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/conventions/aviva-plc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aviva-plc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/conformance/aviva-plc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aviva-plc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/lifecycle/aviva-plc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aviva-plc-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/sandbox/aviva-plc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aviva-plc-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/rate-limits/aviva-plc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aviva-plc-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/llms/aviva-plc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aviva-plc-llms.txt
@@ -137,6 +171,48 @@ rate_limits:
 - limit_count: 2
   name: Aviva Plc Rate Limits
   slug: aviva-plc-rate-limits
+score:
+  band: emerging
+  composite: 25.3
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 39.3
+    discoverability: 66.7
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 25.3
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/screenshots/aviva-plc-2026-07-25T201951.png
 security:
 - kind: authentication

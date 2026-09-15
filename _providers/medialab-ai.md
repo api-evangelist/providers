@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
@@ -29,10 +54,12 @@ collections:
   slug: postman-medialab-ai-imgur-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/mcp/medialab-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/medialab-ai-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/security/medialab-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medialab-ai-domain-security.yml
@@ -97,22 +124,27 @@ common:
   type: PrivacyPolicy
   url: https://medialab.la/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/packages/medialab-ai-packages.yml
   title: ''
   type: Packages
   url: packages/medialab-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/packages/medialab-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/medialab-ai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/well-known/medialab-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medialab-ai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/well-known/medialab-ai-genius-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/medialab-ai-genius-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/security/medialab-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/medialab-ai-vulnerability-disclosure.yml
@@ -121,26 +153,32 @@ common:
   type: Security
   url: https://bugcrowd.com/engagements/Genius-VDP
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/authentication/medialab-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medialab-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/scopes/medialab-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/medialab-ai-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/conventions/medialab-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medialab-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/errors/medialab-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medialab-ai-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/rate-limits/medialab-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medialab-ai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/lifecycle/medialab-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medialab-ai-lifecycle.yml
@@ -149,34 +187,42 @@ common:
   type: StatusPage
   url: https://status.imgur.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/lifecycle/medialab-ai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/medialab-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/conformance/medialab-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medialab-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/data-model/medialab-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medialab-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/components/medialab-ai-components.yml
   title: ''
   type: Components
   url: components/medialab-ai-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/examples/medialab-ai-imgur-examples.yml
   title: ''
   type: Examples
   url: examples/medialab-ai-imgur-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/llms/medialab-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medialab-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/postman/medialab-ai-imgur-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/medialab-ai-imgur-api.postman_collection.json
@@ -203,6 +249,36 @@ scopes:
   scope_count: 4
   slug: medialab-ai-scopes
   summary_line: 4 scopes · authorizationCode/implicit
+score:
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 6.7
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 38.9
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/screenshots/medialab-ai-2026-08-07T172332.png
 security:
 - kind: authentication

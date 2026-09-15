@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Live Model Context Protocol server operated by ServiceUp at api.serviceup.com/mcp, exposing the agentic repair platform to MCP clients. The endpoint is protected by OAuth 2.1 (authorization code + PKC
@@ -19,10 +44,12 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/security/serviceup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/serviceup-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/security/serviceup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/serviceup-domain-security.yml
@@ -59,42 +86,52 @@ common:
   type: Compliance
   url: https://trust.serviceup.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/well-known/serviceup-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/serviceup-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/mcp/serviceup-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/serviceup-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/scopes/serviceup-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/serviceup-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/authentication/serviceup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/serviceup-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/packages/serviceup-packages.yml
   title: ''
   type: Packages
   url: packages/serviceup-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/conformance/serviceup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/serviceup-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/conventions/serviceup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/serviceup-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/errors/serviceup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/serviceup-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/lifecycle/serviceup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/serviceup-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/llms/serviceup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/serviceup-llms.txt
@@ -120,6 +157,41 @@ scopes:
   scope_count: 3
   slug: serviceup-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: thin
+  composite: 28.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 28.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 71.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/screenshots/serviceup-2026-09-02T155016.png
 security:
 - kind: authentication

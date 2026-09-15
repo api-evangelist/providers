@@ -11,6 +11,31 @@ access_model:
   - https://docs.gethealthie.com/guides/api-concepts/environments
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Healthie GraphQL API is the single contract behind the entire Healthie platform — the same API that powers the Healthie web, iOS, and Android applications is available to partners building branded
@@ -26,10 +51,12 @@ asyncapis:
   slug: healthie-webhooks-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/security/healthie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/healthie-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/security/healthie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthie-domain-security.yml
@@ -38,6 +65,7 @@ common:
   type: Compliance
   url: https://www.gethealthie.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/conformance/healthie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/healthie-conformance.yml
@@ -46,30 +74,37 @@ common:
   type: APIReference
   url: https://docs.gethealthie.com/reference
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/graphql/healthie-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/healthie-schema.graphql
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/authentication/healthie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/healthie-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/conventions/healthie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/healthie-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/errors/healthie-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/healthie-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/rate-limits/healthie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/healthie-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/data-model/healthie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/healthie-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/lifecycle/healthie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/healthie-lifecycle.yml
@@ -78,42 +113,52 @@ common:
   type: Deprecation
   url: https://docs.gethealthie.com/guides/api-concepts/deprecations
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/changelog/healthie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/healthie-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/sandbox/healthie-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/healthie-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/packages/healthie-packages.yml
   title: ''
   type: Packages
   url: packages/healthie-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/components/healthie-components.yml
   title: ''
   type: Components
   url: components/healthie-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/mcp/healthie-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/healthie-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/mcp/healthie-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/healthie-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/llms/healthie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/healthie-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-subscriptions-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/healthie-subscriptions-asyncapi.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/plans/healthie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/healthie-plans-pricing.yml
@@ -290,6 +335,42 @@ rules:
     info: 0
     warn: 4
   slug: healthie-asyncapi-spectral-rules
+score:
+  band: exemplar
+  composite: 68.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 64.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 50.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 29.5
+    contract_quality: 53.0
+    developer_ergonomics: 61.3
+    discoverability: 68.5
+    operational_transparency: 86.8
+  previous_composite: 68.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 45.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png
 security:
 - kind: authentication

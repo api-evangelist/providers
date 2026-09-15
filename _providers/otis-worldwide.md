@@ -10,6 +10,31 @@ access_model:
   - https://www.otis.com/documents/256045/119472397/OID_Robot-Prodivers_Datasheet_InDesign_WHQ_English_Final.pdf/215d5e99-fd88-5502-aa1a-078c8c3b3eff?t=1655310590825
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Cloud-based or on-premise API for integrating service robots and third-party applications with Otis elevators. Otis''s own service-robot data sheet lists the available operations as: place a hall call,'
@@ -21,6 +46,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/security/otis-worldwide-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/otis-worldwide-domain-security.yml
@@ -69,34 +95,42 @@ common:
   type: Roadmap
   url: https://www.otis.com/documents/256045/119472397/OID_Robot-Prodivers_Datasheet_InDesign_WHQ_English_Final.pdf/215d5e99-fd88-5502-aa1a-078c8c3b3eff?t=1655310590825
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/authentication/otis-worldwide-authentication.yml
   title: ''
   type: Authentication
   url: authentication/otis-worldwide-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/sandbox/otis-worldwide-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/otis-worldwide-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/rate-limits/otis-worldwide-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/otis-worldwide-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/plans/otis-worldwide-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/otis-worldwide-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/conventions/otis-worldwide-conventions.yml
   title: ''
   type: Conventions
   url: conventions/otis-worldwide-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/lifecycle/otis-worldwide-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/otis-worldwide-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/conformance/otis-worldwide-conformance.yml
   title: ''
   type: Conformance
   url: conformance/otis-worldwide-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/llms/otis-worldwide-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/otis-worldwide-llms.txt
@@ -134,6 +168,34 @@ rate_limits:
 - limit_count: 0
   name: Otis Worldwide Rate Limits
   slug: otis-worldwide-rate-limits
+score:
+  band: emerging
+  composite: 25.3
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 54.8
+    discoverability: 68.5
+    operational_transparency: 5.3
+  previous_composite: 25.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Otis Worldwide Authentication

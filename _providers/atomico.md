@@ -32,7 +32,6 @@ tags:
 - Fintech
 - Artificial Intelligence
 - Developer Tools
-- Consumer
 - Health
 - Climate
 - Europe

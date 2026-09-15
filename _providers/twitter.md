@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -264,6 +289,7 @@ collections:
   slug: open-x-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/capabilities/twitter-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/twitter-capability-edges.yml
@@ -280,90 +306,112 @@ common:
   type: CodeOfConduct
   url: https://github.com/xdevplatform/.github/blob/main/code-of-conduct.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/agentic-access/twitter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/twitter-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/authentication/twitter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/twitter-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/scopes/twitter-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/twitter-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-bookmark-and-remove-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-bookmark-and-remove-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-create-list-add-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-create-list-add-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-follow-list-by-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-follow-list-by-id-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-follow-user-by-username-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-follow-user-by-username-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-followers-of-handle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-followers-of-handle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-liked-posts-of-handle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-liked-posts-of-handle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-list-detail-and-members-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-list-detail-and-members-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-mentions-of-handle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-mentions-of-handle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-mute-user-by-username-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-mute-user-by-username-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-pin-owned-list-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-pin-owned-list-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-post-engagement-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-post-engagement-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-post-like-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-post-like-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-quote-post-from-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-quote-post-from-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-reply-to-latest-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-reply-to-latest-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-repost-then-undo-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-repost-then-undo-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-reposters-of-latest-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-reposters-of-latest-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-search-recent-get-details-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-search-recent-get-details-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-unfollow-user-by-username-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-unfollow-user-by-username-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/arazzo/twitter-user-lookup-recent-posts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/twitter-user-lookup-recent-posts-workflow.yml
@@ -801,6 +849,38 @@ scopes:
   scope_count: 21
   slug: twitter-scopes
   summary_line: 21 scopes · authorizationCode
+score:
+  band: strong
+  composite: 57.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 60.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 13.6
+    contract_quality: 67.8
+    developer_ergonomics: 76.2
+    discoverability: 68.5
+    operational_transparency: 42.1
+  previous_composite: 57.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-08-17T130216.png
 security:
 - kind: authentication

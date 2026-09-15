@@ -16,6 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/airtable/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airplane/refs/heads/main/security/airplane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airplane-domain-security.yml

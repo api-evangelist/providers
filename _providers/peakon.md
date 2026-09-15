@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://www.peakon.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.workday.com/en-us/products/employee-voice/overview.html — a different registrable domain (peakon.com -> workday.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -95,6 +120,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/workday/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/agentic-access/peakon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/peakon-agentic-access.yml
@@ -119,38 +145,47 @@ common:
   type: GettingStarted
   url: https://developer.peakon.com/docs/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/authentication/peakon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/peakon-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/conventions/peakon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/peakon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/errors/peakon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/peakon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/data-model/peakon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/peakon-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/conformance/peakon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peakon-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/mcp/peakon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/peakon-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/llms/peakon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peakon-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/lifecycle/peakon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/peakon-lifecycle.yml
@@ -159,6 +194,7 @@ common:
   type: StatusPage
   url: https://status.peakon.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/security/peakon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peakon-domain-security.yml
@@ -171,6 +207,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/peakon
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/overlays/peakon-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/peakon-openapi-overlay.yaml
@@ -187,6 +224,41 @@ overview: 'Peakon publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
   Peakon''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 16 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 46.2
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 31.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/screenshots/peakon-2026-08-07T191724.png
 security:
 - kind: authentication

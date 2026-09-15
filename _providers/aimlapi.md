@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 55.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -121,14 +147,17 @@ common:
   type: Website
   url: https://aimlapi.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/agentic-access/aimlapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aimlapi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/security/aimlapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aimlapi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/authentication/aimlapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aimlapi-authentication.yml
@@ -177,10 +206,12 @@ common:
   type: TermsOfService
   url: https://aimlapi.com/terms-and-conditions
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/rules/aimlapi-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/aimlapi-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/vocabulary/aimlapi-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aimlapi-vocabulary.yaml
@@ -189,42 +220,52 @@ common:
   type: LlmsText
   url: https://aimlapi.com/llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-inference-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/aimlapi-inference-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/overlays/aimlapi-inference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aimlapi-inference-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/mcp/aimlapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aimlapi-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/mcp/aimlapi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aimlapi-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/packages/aimlapi-packages.yml
   title: ''
   type: Packages
   url: packages/aimlapi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/packages/aimlapi-packages.yml
   title: ''
   type: SDKs
   url: packages/aimlapi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/well-known/aimlapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aimlapi-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/conformance/aimlapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aimlapi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/errors/aimlapi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aimlapi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/lifecycle/aimlapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aimlapi-lifecycle.yml
@@ -233,38 +274,47 @@ common:
   type: StatusPage
   url: https://status.aimlapi.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/lifecycle/aimlapi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/aimlapi-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/scopes/aimlapi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aimlapi-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/conventions/aimlapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aimlapi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/data-model/aimlapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aimlapi-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/changelog/aimlapi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aimlapi-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/plans/aimlapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aimlapi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/rate-limits/aimlapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aimlapi-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/llms/aimlapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aimlapi-llms.txt
@@ -456,6 +506,41 @@ scopes:
   scope_count: 0
   slug: aimlapi-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 65.5
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 80.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 47.0
+    contract_quality: 59.4
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 65.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/screenshots/aimlapi-2026-06-20T171417.png
 security:
 - kind: authentication

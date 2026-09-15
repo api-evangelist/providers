@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 55.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -238,26 +263,32 @@ collections:
   slug: open-stedi-x12-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/capabilities/stedi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stedi-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/overlays/stedi-event-destinations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stedi-event-destinations-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/agentic-access/stedi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stedi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/security/stedi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stedi-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/security/stedi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stedi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/authentication/stedi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stedi-authentication.yml
@@ -298,22 +329,27 @@ common:
   type: StatusPage
   url: https://status.stedi.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/vocabulary/stedi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/stedi-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/json-ld/stedi-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/stedi-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/plans/stedi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stedi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/rate-limits/stedi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stedi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/finops/stedi-finops.yml
   title: ''
   type: FinOps
   url: finops/stedi-finops.yml
@@ -322,90 +358,112 @@ common:
   type: ArazzoWorkflows
   url: ''
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/packages/stedi-packages.yml
   title: ''
   type: Packages
   url: packages/stedi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/packages/stedi-packages.yml
   title: ''
   type: SDKs
   url: packages/stedi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/mcp/stedi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stedi-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/mcp/stedi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/stedi-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/well-known/stedi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stedi-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/well-known/stedi-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stedi-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/llms/stedi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stedi-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/conformance/stedi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stedi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/security/stedi-trust-center.yml
   title: ''
   type: Compliance
   url: security/stedi-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/security/stedi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stedi-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/conventions/stedi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stedi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/conventions/stedi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/stedi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/errors/stedi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stedi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/lifecycle/stedi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stedi-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/lifecycle/stedi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/stedi-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/security/stedi-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/stedi-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/sandbox/stedi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stedi-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/changelog/stedi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stedi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/data-model/stedi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stedi-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/scopes/stedi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stedi-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/asyncapi/stedi-event-destinations-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/stedi-event-destinations-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -536,6 +594,47 @@ scopes:
   scope_count: 0
   slug: stedi-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 83.1
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 83.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 43.2
+    contract_quality: 67.6
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 84.2
+  previous_composite: 83.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 80.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/screenshots/stedi-2026-06-20T194534.png
 security:
 - kind: authentication

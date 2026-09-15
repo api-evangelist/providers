@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
@@ -90,14 +115,17 @@ collections:
   slug: open-leaseaccelerator-user-provisioning-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/capabilities/leaseaccelerator-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leaseaccelerator-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/overlays/leaseaccelerator-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leaseaccelerator-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/security/leaseaccelerator-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leaseaccelerator-domain-security.yml
@@ -162,62 +190,77 @@ common:
   type: TrustCenter
   url: https://trust.insightsoftware.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/security/leaseaccelerator-trust-center.yml
   title: ''
   type: Compliance
   url: security/leaseaccelerator-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/authentication/leaseaccelerator-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leaseaccelerator-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/conventions/leaseaccelerator-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leaseaccelerator-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/conventions/leaseaccelerator-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/leaseaccelerator-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/errors/leaseaccelerator-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leaseaccelerator-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/lifecycle/leaseaccelerator-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leaseaccelerator-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/lifecycle/leaseaccelerator-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/leaseaccelerator-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/changelog/leaseaccelerator-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leaseaccelerator-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/conformance/leaseaccelerator-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leaseaccelerator-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/data-model/leaseaccelerator-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leaseaccelerator-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/packages/leaseaccelerator-packages.yml
   title: ''
   type: Packages
   url: packages/leaseaccelerator-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/well-known/leaseaccelerator-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leaseaccelerator-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/mcp/leaseaccelerator-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/leaseaccelerator-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/llms/leaseaccelerator-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leaseaccelerator-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -234,6 +277,40 @@ overview: 'LeaseAccelerator publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
   LeaseAccelerator''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 50.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 55.2
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 50.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
 security:
 - kind: authentication

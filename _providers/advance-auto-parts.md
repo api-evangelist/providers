@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -88,46 +113,57 @@ collections:
   slug: open-advance-auto-parts-vehicles-api
 common:
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/packages/advance-auto-parts-packages.yml
   title: ''
   type: Packages
   url: packages/advance-auto-parts-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/security/advance-auto-parts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/advance-auto-parts-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/security/advance-auto-parts-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/advance-auto-parts-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/conformance/advance-auto-parts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advance-auto-parts-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/lifecycle/advance-auto-parts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advance-auto-parts-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/llms/advance-auto-parts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advance-auto-parts-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/capabilities/advance-auto-parts-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/advance-auto-parts-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/agentic-access/advance-auto-parts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/advance-auto-parts-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/security/advance-auto-parts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advance-auto-parts-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/authentication/advance-auto-parts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advance-auto-parts-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/scopes/advance-auto-parts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/advance-auto-parts-scopes.yml
@@ -487,6 +523,40 @@ scopes:
   scope_count: 4
   slug: advance-auto-parts-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 67.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 30.3
+    contract_governance: 28.8
+    contract_quality: 68.6
+    developer_ergonomics: 29.8
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 41.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
 security:
 - kind: authentication

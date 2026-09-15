@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://us-east-1-aic.leena.ai
@@ -58,6 +83,7 @@ collections:
   slug: open-leena-ai-knowledge-articles-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/overlays/leena-ai-aop-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leena-ai-aop-overlay.yaml
@@ -110,82 +136,102 @@ common:
   type: ChangeLog
   url: https://docs.leena.ai/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/changelog/leena-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leena-ai-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/mcp/leena-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/leena-ai-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/authentication/leena-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leena-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/scopes/leena-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/leena-ai-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/rate-limits/leena-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leena-ai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/errors/leena-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leena-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/conventions/leena-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leena-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/lifecycle/leena-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leena-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/conformance/leena-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leena-ai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/security/leena-ai-trust-center.yml
   title: ''
   type: Compliance
   url: security/leena-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/security/leena-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leena-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/security/leena-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/leena-ai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/security/leena-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/leena-ai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/security/leena-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leena-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/well-known/leena-ai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/leena-ai-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/well-known/leena-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leena-ai-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/packages/leena-ai-packages.yml
   title: ''
   type: Packages
   url: packages/leena-ai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/llms/leena-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leena-ai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/data-model/leena-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leena-ai-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -216,6 +262,40 @@ scopes:
   scope_count: 0
   slug: leena-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 33.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 13.1
+    developer_ergonomics: 37.5
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 33.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/screenshots/leena-ai-2026-07-25T224821.png
 security:
 - kind: authentication

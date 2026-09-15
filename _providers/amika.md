@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.amika.dev/api/v0beta1
@@ -114,6 +139,7 @@ collections:
   slug: open-amika-uploads-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/overlays/amika-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amika-openapi-overlay.yaml
@@ -150,30 +176,37 @@ common:
   type: GettingStarted
   url: https://docs.amika.dev/quickstart
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/authentication/amika-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amika-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/packages/amika-packages.yml
   title: ''
   type: SDKs
   url: packages/amika-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/packages/amika-packages.yml
   title: ''
   type: Packages
   url: packages/amika-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/cli/amika-cli.yml
   title: ''
   type: CLI
   url: cli/amika-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/mcp/amika-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amika-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/llms/amika-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amika-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/lifecycle/amika-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amika-lifecycle.yml
@@ -182,26 +215,32 @@ common:
   type: Roadmap
   url: https://docs.amika.dev/architecture/roadmap
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/conventions/amika-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amika-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/errors/amika-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amika-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/data-model/amika-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amika-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/conformance/amika-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amika-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/security/amika-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amika-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -254,6 +293,43 @@ overview: 'Amika publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
   Amika''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, pricing, signup flow, and 25 more developer resources.'
 random_paper: 11
+score:
+  band: developing
+  composite: 51.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 46.4
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 23.7
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 51.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/screenshots/amika-2026-07-25T200103.png
 security:
 - kind: authentication

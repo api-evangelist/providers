@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Ximilar REST API at https://api.ximilar.com. One account token in an ''Authorization: Token'' header unlocks every service the active plan includes: fashion, home-decor and photo tagging, collectibl'
@@ -101,62 +126,77 @@ common:
   type: LLMsTxt
   url: https://docs.ximilar.com/llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/plans/ximilar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ximilar-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/rate-limits/ximilar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ximilar-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/finops/ximilar-finops.yml
   title: ''
   type: FinOps
   url: finops/ximilar-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/packages/ximilar-packages.yml
   title: ''
   type: Packages
   url: packages/ximilar-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/packages/ximilar-packages.yml
   title: ''
   type: SDKs
   url: packages/ximilar-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/mcp/ximilar-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ximilar-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/authentication/ximilar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ximilar-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/conventions/ximilar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ximilar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/conventions/ximilar-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ximilar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/errors/ximilar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ximilar-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/lifecycle/ximilar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ximilar-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/conformance/ximilar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ximilar-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/asyncapi/ximilar-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ximilar-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/sandbox/ximilar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ximilar-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/security/ximilar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ximilar-domain-security.yml
@@ -195,6 +235,35 @@ rate_limits:
 - limit_count: 9
   name: Ximilar Rate Limits
   slug: ximilar-rate-limits
+score:
+  band: strong
+  composite: 58.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 58.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ximilar/refs/heads/main/screenshots/ximilar-2026-06-20T201703.png
 security:
 - kind: authentication

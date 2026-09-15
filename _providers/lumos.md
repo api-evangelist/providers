@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 59.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -153,14 +179,17 @@ collections:
   slug: open-lumos
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/agentic-access/lumos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lumos-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/security/lumos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lumos-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/authentication/lumos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lumos-authentication.yml
@@ -237,82 +266,102 @@ common:
   type: TrustCenter
   url: https://trust.lumos.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/mcp/lumos-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lumos-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/mcp/lumos-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/lumos-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/scopes/lumos-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lumos-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/well-known/lumos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lumos-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/packages/lumos-packages.yml
   title: ''
   type: Packages
   url: packages/lumos-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/packages/lumos-packages.yml
   title: ''
   type: SDKs
   url: packages/lumos-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/cli/lumos-cli.yml
   title: ''
   type: CLI
   url: cli/lumos-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/conventions/lumos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lumos-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/errors/lumos-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lumos-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/data-model/lumos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lumos-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/lifecycle/lumos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lumos-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/changelog/lumos-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lumos-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/conformance/lumos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lumos-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/asyncapi/lumos-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lumos-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/overlays/lumos-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lumos-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/llms/lumos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lumos-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/rate-limits/lumos-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lumos-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/plans/lumos-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lumos-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/finops/lumos-finops.yml
   title: ''
   type: FinOps
   url: finops/lumos-finops.yml
@@ -353,6 +402,41 @@ scopes:
   scope_count: 0
   slug: lumos-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 54.6
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 61.5
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 54.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/screenshots/lumos-2026-06-20T184756.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://www.bondpets.com/wp-json/wc/store/v1
@@ -42,6 +67,7 @@ collections:
   slug: open-bond-pet-foods-wp-v2-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/overlays/bond-pet-foods-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bond-pet-foods-content-overlay.yaml
@@ -98,38 +124,47 @@ common:
   type: SecondaryMarket
   url: https://www.nasdaqprivatemarket.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/authentication/bond-pet-foods-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bond-pet-foods-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/conventions/bond-pet-foods-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bond-pet-foods-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/errors/bond-pet-foods-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bond-pet-foods-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/lifecycle/bond-pet-foods-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bond-pet-foods-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/conformance/bond-pet-foods-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bond-pet-foods-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/data-model/bond-pet-foods-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bond-pet-foods-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/security/bond-pet-foods-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bond-pet-foods-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/llms/bond-pet-foods-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bond-pet-foods-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -150,6 +185,39 @@ overview: 'Bond Pet Foods publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
   Bond Pet Foods'' developer surface includes support, FAQ, engineering blog, authentication, and 19 more developer resources.'
 random_paper: 12
+score:
+  band: emerging
+  composite: 19.1
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 24.5
+    developer_ergonomics: 20.8
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 19.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png
 security:
 - kind: authentication

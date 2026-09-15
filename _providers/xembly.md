@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 0
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xembly/refs/heads/main/llms/xembly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xembly-llms.txt

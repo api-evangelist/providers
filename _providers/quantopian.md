@@ -16,6 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/robinhood/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/quantopian/refs/heads/main/packages/quantopian-packages.yml
   title: ''
   type: Packages
   url: packages/quantopian-packages.yml
@@ -24,6 +25,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/quantopian
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/quantopian/refs/heads/main/security/quantopian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quantopian-domain-security.yml

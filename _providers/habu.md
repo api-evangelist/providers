@@ -14,6 +14,31 @@ access_model:
   - '{''url'': ''https://habu.com'', ''status'': 301, ''note'': ''declared website redirects to https://liveramp.com/ — a different registrable domain (habu.com -> liveramp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.habu.com/v1/
@@ -197,6 +222,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/liveramp/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/capabilities/habu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/habu-capability-edges.yml
@@ -229,62 +255,77 @@ common:
   type: StatusPage
   url: https://status.liveramp.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/lifecycle/habu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/habu-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/changelog/habu-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/habu-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/packages/habu-packages.yml
   title: ''
   type: Packages
   url: packages/habu-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/packages/habu-packages.yml
   title: ''
   type: SDKs
   url: packages/habu-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/conventions/habu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/habu-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/errors/habu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/habu-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/conformance/habu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/habu-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/data-model/habu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/habu-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/rate-limits/habu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/habu-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/plans/habu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/habu-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/llms/habu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/habu-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/overlays/habu-clean-room-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/habu-clean-room-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/scopes/habu-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/habu-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/authentication/habu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/habu-authentication.yml
@@ -325,14 +366,17 @@ common:
   type: Security
   url: https://liveramp.com/security/bug-bounty
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/security/habu-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/habu-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/security/habu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/habu-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/security/habu-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/habu-trust-center.yml
@@ -363,6 +407,45 @@ scopes:
   scope_count: 0
   slug: habu-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 45.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 36.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 58.0
+    developer_ergonomics: 16.1
+    discoverability: 51.9
+    operational_transparency: 76.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 45.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/screenshots/habu-2026-07-25T220519.png
 security:
 - kind: authentication

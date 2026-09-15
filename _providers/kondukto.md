@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://kondukto.io'', ''status'': 301, ''note'': ''declared website redirects to https://www.invicti.com/ — a different registrable domain (kondukto.io -> invicti.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -153,6 +178,7 @@ collections:
   slug: open-kondukto-vulnerabilities-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/overlays/kondukto-aspm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kondukto-aspm-overlay.yaml
@@ -221,86 +247,107 @@ common:
   type: Compliance
   url: https://www.invicti.com/compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/security/kondukto-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kondukto-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/security/kondukto-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kondukto-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/well-known/kondukto-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kondukto-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/well-known/kondukto-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kondukto-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/security/kondukto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kondukto-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/authentication/kondukto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kondukto-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/conventions/kondukto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kondukto-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/errors/kondukto-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kondukto-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/data-model/kondukto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kondukto-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/lifecycle/kondukto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kondukto-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/changelog/kondukto-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kondukto-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/conformance/kondukto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kondukto-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/packages/kondukto-packages.yml
   title: ''
   type: Packages
   url: packages/kondukto-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/packages/kondukto-packages.yml
   title: ''
   type: SDKs
   url: packages/kondukto-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/cli/kondukto-cli.yml
   title: ''
   type: CLI
   url: cli/kondukto-cli.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/plans/kondukto-plans.yml
   title: ''
   type: Plans
   url: plans/kondukto-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/asyncapi/kondukto-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kondukto-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/mcp/kondukto-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kondukto-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/llms/kondukto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kondukto-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/agentic-access/kondukto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kondukto-agentic-access.yml
@@ -324,6 +371,41 @@ plans:
   plan_count: 2
   slug: kondukto-plans
 random_paper: 18
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 4.5
+    contract_quality: 64.4
+    developer_ergonomics: 55.4
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 57.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/screenshots/kondukto-2026-07-25T224148.png
 security:
 - kind: authentication

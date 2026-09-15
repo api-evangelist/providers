@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -516,10 +542,12 @@ collections:
   slug: open-dream-sports-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/capabilities/dream-sports-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dream-sports-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/overlays/dream-sports-checkmate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dream-sports-checkmate-overlay.yaml
@@ -528,10 +556,12 @@ common:
   type: IssueTracker
   url: https://github.com/dream-horizon-org/odin-mcp/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/agentic-access/dream-sports-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dream-sports-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/security/dream-sports-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dream-sports-domain-security.yml
@@ -580,70 +610,87 @@ common:
   type: Security
   url: https://github.com/dream-horizon-org/logwise/blob/master/SECURITY.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/mcp/dream-sports-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dream-sports-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/mcp/dream-sports-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dream-sports-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/llms/dream-sports-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dream-sports-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/well-known/dream-sports-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dream-sports-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/packages/dream-sports-packages.yml
   title: ''
   type: Packages
   url: packages/dream-sports-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/packages/dream-sports-packages.yml
   title: ''
   type: SDKs
   url: packages/dream-sports-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/cli/dream-sports-cli.yml
   title: ''
   type: CLI
   url: cli/dream-sports-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/authentication/dream-sports-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dream-sports-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/scopes/dream-sports-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dream-sports-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/conventions/dream-sports-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dream-sports-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/errors/dream-sports-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dream-sports-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/lifecycle/dream-sports-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dream-sports-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/changelog/dream-sports-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dream-sports-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/conformance/dream-sports-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dream-sports-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/data-model/dream-sports-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dream-sports-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/security/dream-sports-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dream-sports-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/asyncapi/dream-sports-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dream-sports-webhooks.yml
@@ -652,6 +699,7 @@ common:
   type: Roadmap
   url: https://dream-horizon-org.github.io/odin/docs/roadmap/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -681,6 +729,48 @@ scopes:
   scope_count: 7
   slug: dream-sports-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: developing
+  composite: 48.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 59.6
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 48.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/screenshots/dream-sports-2026-08-07T164521.png
 security:
 - kind: authentication

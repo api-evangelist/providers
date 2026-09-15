@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -943,78 +969,97 @@ collections:
   slug: open-ringcentral-webinars-and-sessions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/capabilities/ringcentral-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ringcentral-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/scopes/ringcentral-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ringcentral-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/packages/ringcentral-packages.yml
   title: ''
   type: Packages
   url: packages/ringcentral-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/well-known/ringcentral-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ringcentral-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/mcp/ringcentral-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ringcentral-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/llms/ringcentral-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ringcentral-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/overlays/ringcentral-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ringcentral-platform-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/conformance/ringcentral-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ringcentral-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/errors/ringcentral-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ringcentral-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/lifecycle/ringcentral-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ringcentral-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/conventions/ringcentral-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ringcentral-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/changelog/ringcentral-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ringcentral-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/components/ringcentral-components.yml
   title: ''
   type: Components
   url: components/ringcentral-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/data-model/ringcentral-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ringcentral-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/sandbox/ringcentral-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ringcentral-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/agentic-access/ringcentral-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ringcentral-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/security/ringcentral-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ringcentral-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/security/ringcentral-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ringcentral-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/authentication/ringcentral-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ringcentral-authentication.yml
@@ -1103,74 +1148,92 @@ common:
   type: YouTube
   url: https://www.youtube.com/@RingCentralDevelopers
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/plans/ringcentral-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ringcentral-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/rate-limits/ringcentral-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ringcentral-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/finops/ringcentral-finops.yml
   title: ''
   type: FinOps
   url: finops/ringcentral-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-a2p-sms-batch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-a2p-sms-batch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-call-log-recording-retrieval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-call-log-recording-retrieval-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-call-recording-intelligence-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-call-recording-intelligence-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-extension-provisioning-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-extension-provisioning-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-message-store-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-message-store-export-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-presence-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-presence-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-ringout-click-to-call-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-ringout-click-to-call-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-send-fax-confirm-delivery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-send-fax-confirm-delivery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-send-sms-track-delivery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-send-sms-track-delivery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-team-messaging-post-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-team-messaging-post-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-team-messaging-webhook-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-team-messaging-webhook-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-video-meeting-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-video-meeting-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-voicemail-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-voicemail-triage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-webhook-subscription-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-webhook-subscription-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/arazzo/ringcentral-webinar-registration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ringcentral-webinar-registration-workflow.yml
@@ -1223,6 +1286,46 @@ scopes:
   scope_count: 38
   slug: ringcentral-scopes
   summary_line: 38 scopes · authorizationCode
+score:
+  band: strong
+  composite: 56.3
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 37.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 18.2
+    contract_quality: 62.6
+    developer_ergonomics: 67.9
+    discoverability: 44.4
+    operational_transparency: 50.0
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 74
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 54.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:
 - kind: authentication

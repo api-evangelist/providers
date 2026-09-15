@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -227,14 +252,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/trellix-web-gateway/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/agentic-access/trellix-web-gateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trellix-web-gateway-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/security/trellix-web-gateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trellix-web-gateway-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/authentication/trellix-web-gateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trellix-web-gateway-authentication.yml
@@ -275,26 +303,32 @@ common:
   type: SDKs
   url: https://github.com/trellix-enterprise/mwg-sdk
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/json-ld/trellix-web-gateway-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trellix-web-gateway-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/json-schema/trellix-web-gateway-security-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trellix-web-gateway-security-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/json-schema/trellix-web-gateway-rule-set-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trellix-web-gateway-rule-set-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/json-structure/trellix-web-gateway-security-event-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/trellix-web-gateway-security-event-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/rules/trellix-web-gateway-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/trellix-web-gateway-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/vocabulary/trellix-web-gateway-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/trellix-web-gateway-vocabulary.yml
@@ -368,6 +402,38 @@ rules:
     info: 4
     warn: 12
   slug: trellix-web-gateway-spectral-rules
+score:
+  band: developing
+  composite: 48.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 28.8
+    contract_quality: 61.9
+    developer_ergonomics: 50.0
+    discoverability: 81.5
+    operational_transparency: 36.8
+  previous_composite: 48.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/screenshots/trellix-web-gateway-2026-06-20T195750.png
 security:
 - kind: authentication

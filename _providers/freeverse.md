@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Public GraphQL API maintained by the LAOS Foundation for Bridgeless Minting and Evolution of NFTs. Create collections, mint up to 700 NFTs atomically, evolve assets, broadcast to marketplaces, and run
@@ -62,6 +87,7 @@ common:
   type: ChangeLog
   url: https://docs.laosnetwork.io/tokenomics/change-log
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/changelog/freeverse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/freeverse-changelog.yml
@@ -70,50 +96,62 @@ common:
   type: Whitepaper
   url: https://github.com/freeverseio/laos-whitepaper
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/packages/freeverse-packages.yml
   title: ''
   type: SDKs
   url: packages/freeverse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/packages/freeverse-packages.yml
   title: ''
   type: Packages
   url: packages/freeverse-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/authentication/freeverse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freeverse-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/conventions/freeverse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/freeverse-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/data-model/freeverse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/freeverse-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/errors/freeverse-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/freeverse-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/lifecycle/freeverse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/freeverse-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/conformance/freeverse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/freeverse-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/mcp/freeverse-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/freeverse-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/llms/freeverse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/freeverse-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/security/freeverse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freeverse-domain-security.yml
@@ -130,6 +168,36 @@ overview: 'Freeverse publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   Freeverse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 33.6
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 42.6
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 33.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/screenshots/freeverse-2026-07-25T215145.png
 security:
 - kind: authentication

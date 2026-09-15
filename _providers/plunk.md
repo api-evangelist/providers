@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -84,14 +109,17 @@ common:
   type: License
   url: https://github.com/useplunk/plunk/blob/next/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/agentic-access/plunk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/plunk-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/security/plunk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plunk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/authentication/plunk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plunk-authentication.yml
@@ -112,46 +140,57 @@ common:
   type: Documentation
   url: https://docs.useplunk.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/plans/plunk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/plunk-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/rate-limits/plunk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plunk-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/finops/plunk-finops.yml
   title: ''
   type: FinOps
   url: finops/plunk-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/packages/plunk-packages.yml
   title: ''
   type: Packages
   url: packages/plunk-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/packages/plunk-packages.yml
   title: ''
   type: SDKs
   url: packages/plunk-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/llms/plunk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plunk-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/overlays/plunk-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/plunk-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/conventions/plunk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plunk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/conventions/plunk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/plunk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/errors/plunk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/plunk-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/lifecycle/plunk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plunk-lifecycle.yml
@@ -160,22 +199,27 @@ common:
   type: StatusPage
   url: https://status.useplunk.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/changelog/plunk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/plunk-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/data-model/plunk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plunk-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/asyncapi/plunk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/plunk-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/conformance/plunk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plunk-conformance.yml
@@ -251,6 +295,41 @@ rate_limits:
 - limit_count: 3
   name: Plunk Rate Limits
   slug: plunk-rate-limits
+score:
+  band: exemplar
+  composite: 74.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 69.5
+    developer_ergonomics: 64.9
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 74.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/screenshots/plunk-2026-06-20T191814.png
 security:
 - kind: authentication

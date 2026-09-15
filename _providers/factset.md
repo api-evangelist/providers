@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -4249,10 +4275,12 @@ common:
   type: Website
   url: https://www.factset.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/capabilities/factset-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/factset-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/overlays/factset-concordance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/factset-concordance-overlay.yaml
@@ -4261,18 +4289,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/factset/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/agentic-access/factset-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/factset-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/security/factset-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/factset-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/authentication/factset-authentication.yml
   title: ''
   type: Authentication
   url: authentication/factset-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/scopes/factset-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/factset-scopes.yml
@@ -4401,58 +4433,72 @@ common:
   type: Resources
   url: https://developer.factset.com/solutions/genai-for-technologists
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/rules/factset-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/factset-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/vocabulary/factset-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/factset-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/packages/factset-packages.yml
   title: ''
   type: Packages
   url: packages/factset-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/well-known/factset-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/factset-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/mcp/factset-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/factset-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/llms/factset-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/factset-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/conformance/factset-conformance.yml
   title: ''
   type: Conformance
   url: conformance/factset-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/errors/factset-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/factset-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/lifecycle/factset-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/factset-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/conventions/factset-conventions.yml
   title: ''
   type: Conventions
   url: conventions/factset-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/sandbox/factset-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/factset-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/components/factset-components.yml
   title: ''
   type: Components
   url: components/factset-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/data-model/factset-data-model.yml
   title: ''
   type: DataModel
   url: data-model/factset-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -18023,6 +18069,47 @@ scopes:
   scope_count: 9
   slug: factset-scopes
   summary_line: 9 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 67.7
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 33.3
+    contract_quality: 68.4
+    developer_ergonomics: 83.9
+    discoverability: 68.5
+    operational_transparency: 28.9
+  previous_composite: 67.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 98.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 446
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 68.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:
 - kind: authentication

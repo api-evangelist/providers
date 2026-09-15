@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 55.4
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth (sk_live_ keys, organization-scoped), JSON bodies, '
@@ -100,34 +125,42 @@ common:
   type: YouTube
   url: https://www.youtube.com/@1LookupApp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/authentication/1lookup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1lookup-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/scopes/1lookup-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1lookup-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/conventions/1lookup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1lookup-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/errors/1lookup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1lookup-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/rate-limits/1lookup-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1lookup-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/plans/1lookup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1lookup-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/lifecycle/1lookup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1lookup-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/conformance/1lookup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1lookup-conformance.yml
@@ -136,6 +169,7 @@ common:
   type: Compliance
   url: https://www.1lookup.io/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/1lookup-trust-center.yml
@@ -144,54 +178,67 @@ common:
   type: Security
   url: https://www.1lookup.io/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/1lookup-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1lookup-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/well-known/1lookup-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1lookup-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/packages/1lookup-packages.yml
   title: ''
   type: Packages
   url: packages/1lookup-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/sandbox/1lookup-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/1lookup-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/mcp/1lookup-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/1lookup-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/mcp/1lookup-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/1lookup-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/llms/1lookup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1lookup-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/conventions/1lookup-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/1lookup-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/asyncapi/1lookup-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/1lookup-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/data-model/1lookup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1lookup-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/examples/1lookup-examples.yml
   title: ''
   type: Examples
   url: examples/1lookup-examples.yml
@@ -232,6 +279,36 @@ scopes:
   scope_count: 1
   slug: 1lookup-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 61.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 66.1
+    discoverability: 92.6
+    operational_transparency: 50.0
+  previous_composite: 61.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/screenshots/1lookup-2026-08-17T080542.png
 security:
 - kind: authentication

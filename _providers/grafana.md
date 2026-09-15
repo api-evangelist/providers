@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -1295,6 +1320,7 @@ common:
   type: Website
   url: https://www.grafana.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/capabilities/grafana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/grafana-capability-edges.yml
@@ -1303,78 +1329,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/grafana/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/agentic-access/grafana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/grafana-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/packages/grafana-packages.yml
   title: ''
   type: Packages
   url: packages/grafana-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/mcp/grafana-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/grafana-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/well-known/grafana-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grafana-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/llms/grafana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grafana-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/overlays/grafana-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/grafana-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/overlays/grafana-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/grafana-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/conformance/grafana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grafana-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/errors/grafana-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/grafana-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/lifecycle/grafana-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/grafana-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/changelog/grafana-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/grafana-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/cli/grafana-cli.yml
   title: ''
   type: CLI
   url: cli/grafana-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/components/grafana-components.yml
   title: ''
   type: Components
   url: components/grafana-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/conventions/grafana-conventions.yml
   title: ''
   type: Conventions
   url: conventions/grafana-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/data-model/grafana-data-model.yml
   title: ''
   type: DataModel
   url: data-model/grafana-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/security/grafana-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/grafana-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/security/grafana-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/grafana-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/security/grafana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grafana-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/authentication/grafana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grafana-authentication.yml
@@ -1431,54 +1476,67 @@ common:
   type: LlmsText
   url: https://grafana.com/llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-provision-datasource-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-provision-datasource-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-query-datasource-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-query-datasource-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-provision-dashboard-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-provision-dashboard-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-dashboard-version-rollback-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-dashboard-version-rollback-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-deployment-annotation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-deployment-annotation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-library-panel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-library-panel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-share-dashboard-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-share-dashboard-snapshot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-publish-public-dashboard-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-publish-public-dashboard-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-provision-alerting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-provision-alerting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-export-alerting-as-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-export-alerting-as-code-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-onboard-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-onboard-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-service-account-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-service-account-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/arazzo/grafana-team-rbac-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/grafana-team-rbac-role-workflow.yml
@@ -1544,6 +1602,40 @@ rules:
     info: 2
     warn: 3
   slug: grafana-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 57.5
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 55.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 14.4
+    contract_quality: 72.4
+    developer_ergonomics: 58.3
+    discoverability: 68.5
+    operational_transparency: 42.1
+  previous_composite: 57.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 78
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:
 - kind: authentication

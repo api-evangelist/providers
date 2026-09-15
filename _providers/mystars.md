@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.mystars.tg
@@ -44,18 +69,22 @@ common:
   type: Website
   url: https://www.mystars.tg/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/security/mystars-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mystars-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/security/mystars-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mystars-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/authentication/mystars-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mystars-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/security/mystars-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/mystars-vulnerability-disclosure.yml
@@ -104,82 +133,102 @@ common:
   type: PrivacyPolicy
   url: https://mystars.tg/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/packages/mystars-packages.yml
   title: ''
   type: Packages
   url: packages/mystars-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/packages/mystars-packages.yml
   title: ''
   type: SDKs
   url: packages/mystars-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/cli/mystars-cli.yml
   title: ''
   type: CLI
   url: cli/mystars-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/well-known/mystars-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mystars-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/well-known/mystars-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mystars-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/llms/mystars-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mystars-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/overlays/mystars-faas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mystars-faas-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/conformance/mystars-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mystars-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/errors/mystars-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mystars-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/errors/mystars-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/mystars-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/lifecycle/mystars-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mystars-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/conventions/mystars-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mystars-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/conventions/mystars-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mystars-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/changelog/mystars-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mystars-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/data-model/mystars-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mystars-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/asyncapi/mystars-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mystars-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/examples/mystars-examples.yml
   title: ''
   type: Examples
   url: examples/mystars-examples.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/plans/mystars-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mystars-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/rate-limits/mystars-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mystars-rate-limits.yml
@@ -207,6 +256,46 @@ rate_limits:
 - limit_count: 3
   name: Mystars Rate Limits
   slug: mystars-rate-limits
+score:
+  band: strong
+  composite: 59.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 64.8
+    developer_ergonomics: 73.2
+    discoverability: 83.3
+    operational_transparency: 68.4
+  previous_composite: 59.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/screenshots/mystars-2026-09-02T150711.png
 security:
 - kind: authentication

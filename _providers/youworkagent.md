@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://scopewise.youworkagent.online/api/v1
@@ -14,26 +39,32 @@ apis:
 artifact_total: 2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/well-known/youworkagent-provider-apis.json
   title: ''
   type: APIsJSON
   url: well-known/youworkagent-provider-apis.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/well-known/youworkagent-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/youworkagent-api-catalog.json
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/well-known/youworkagent-api-onboarding.json
   title: ''
   type: Onboarding
   url: well-known/youworkagent-api-onboarding.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/a2a/youworkagent-agent-card.json
   title: ''
   type: AgentCard
   url: a2a/youworkagent-agent-card.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/skills/youworkagent-agent-skills.json
   title: ''
   type: AgentSkill
   url: skills/youworkagent-agent-skills.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/youworkagent/refs/heads/main/llms/youworkagent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/youworkagent-llms.txt
@@ -59,6 +90,37 @@ nav: Providers
 network: true
 overview: 'YouWork Agent publishes 2 APIs on the [APIs.io](https://apis.io/) network: Overdue Invoice Follow Up API and Project Quote API. Tagged areas include Freelance, Project Pricing, INR, Business, and Deterministic API.'
 random_paper: 4
+score:
+  band: thin
+  composite: 27.3
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 0.0
+    contract_quality: 52.4
+    developer_ergonomics: 26.2
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 27.3
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 slug: youworkagent
 tags:
 - Freelance

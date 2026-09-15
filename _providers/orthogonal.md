@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.orthogonal.com/v1
@@ -368,110 +394,137 @@ common:
   type: GitHubOrganization
   url: https://github.com/orthogonal-sh
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/openapi/_original/orthogonal-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/orthogonal-openapi.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/overlays/orthogonal-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orthogonal-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/packages/orthogonal-packages.yml
   title: ''
   type: Packages
   url: packages/orthogonal-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/packages/orthogonal-packages.yml
   title: ''
   type: SDKs
   url: packages/orthogonal-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/cli/orthogonal-cli.yml
   title: ''
   type: CLI
   url: cli/orthogonal-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/mcp/orthogonal-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/orthogonal-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/llms/orthogonal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orthogonal-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/well-known/orthogonal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/orthogonal-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/authentication/orthogonal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orthogonal-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/scopes/orthogonal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/orthogonal-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/conventions/orthogonal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orthogonal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/errors/orthogonal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orthogonal-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/conformance/orthogonal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orthogonal-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/lifecycle/orthogonal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orthogonal-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/sandbox/orthogonal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orthogonal-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/data-model/orthogonal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orthogonal-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/security/orthogonal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orthogonal-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/security/orthogonal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/orthogonal-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/security/orthogonal-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/orthogonal-vulnerability-disclosure.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/openapi/_original/orthogonal-marketplace-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/orthogonal-marketplace-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/overlays/orthogonal-marketplace-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orthogonal-marketplace-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/a2a/orthogonal-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/orthogonal-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/mcp/orthogonal-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/orthogonal-tool-crosswalk.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/plans/orthogonal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orthogonal-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/rate-limits/orthogonal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orthogonal-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/finops/orthogonal-finops.yml
   title: ''
   type: FinOps
   url: finops/orthogonal-finops.yml
@@ -521,6 +574,46 @@ scopes:
   scope_count: 0
   slug: orthogonal-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 56.8
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 44.0
+    developer_ergonomics: 81.0
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 56.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 4.9
+      total: 61
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 64.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png
 security:
 - kind: authentication

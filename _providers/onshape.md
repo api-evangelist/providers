@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -369,46 +394,57 @@ common:
   type: Website
   url: https://www.onshape.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/capabilities/onshape-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/onshape-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/security/onshape-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onshape-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/agentic-access/onshape-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/onshape-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/scopes/onshape-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/onshape-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/authentication/onshape-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onshape-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/packages/onshape-packages.yml
   title: ''
   type: Packages
   url: packages/onshape-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/packages/onshape-packages.yml
   title: ''
   type: SDKs
   url: packages/onshape-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/mcp/onshape-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/onshape-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/llms/onshape-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onshape-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/overlays/onshape-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/onshape-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/conformance/onshape-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onshape-conformance.yml
@@ -417,10 +453,12 @@ common:
   type: Compliance
   url: https://www.onshape.com/en/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/errors/onshape-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/onshape-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/lifecycle/onshape-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onshape-lifecycle.yml
@@ -433,30 +471,37 @@ common:
   type: Deprecation
   url: https://onshape-public.github.io/docs/api-versions/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/conventions/onshape-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onshape-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/data-model/onshape-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onshape-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/asyncapi/onshape-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/onshape-events-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/rate-limits/onshape-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/onshape-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/changelog/onshape-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onshape-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/security/onshape-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/onshape-vulnerability-disclosure.yml
@@ -465,6 +510,7 @@ common:
   type: Security
   url: https://www.onshape.com/en/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/security/onshape-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/onshape-trust-center.yml
@@ -533,6 +579,41 @@ scopes:
   scope_count: 24
   slug: onshape-scopes
   summary_line: 24 scopes · authorizationCode
+score:
+  band: developing
+  composite: 51.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 60.3
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 51.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/screenshots/onshape-2026-08-07T190412.png
 security:
 - kind: authentication

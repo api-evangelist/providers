@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 61
@@ -502,14 +527,17 @@ collections:
   slug: open-certifyos-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/capabilities/certifyos-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/certifyos-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/overlays/certifyos-api-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/certifyos-api-service-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/agentic-access/certifyos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/certifyos-agentic-access.yml
@@ -566,54 +594,67 @@ common:
   type: Compliance
   url: https://www.certifyos.com/company/news/third-soc2-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/authentication/certifyos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/certifyos-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/security/certifyos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/certifyos-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/llms/certifyos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/certifyos-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/well-known/certifyos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/certifyos-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/mcp/certifyos-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/certifyos-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/json-schema/certifyos-json-schema.yml
   title: ''
   type: JSONSchema
   url: json-schema/certifyos-json-schema.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/asyncapi/certifyos-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/certifyos-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/errors/certifyos-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/certifyos-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/conventions/certifyos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/certifyos-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/conformance/certifyos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/certifyos-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/lifecycle/certifyos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/certifyos-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/data-model/certifyos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/certifyos-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -638,6 +679,52 @@ overview: 'Certifyos publishes 59 APIs on the [APIs.io](https://apis.io/) networ
 
   Certifyos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 18
+score:
+  band: strong
+  composite: 59.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 65.6
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 59.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 59
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/screenshots/certifyos-2026-07-25T205001.png
 security:
 - kind: authentication

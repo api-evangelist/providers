@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 29
@@ -882,10 +907,12 @@ collections:
   slug: open-tenable-workbenches-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/capabilities/tenable-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tenable-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/overlays/tenable-downloads-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tenable-downloads-api-overlay.yaml
@@ -942,6 +969,7 @@ common:
   type: PrivacyPolicy
   url: https://www.tenable.com/privacy-policy
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/changelog/tenable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tenable-changelog.yml
@@ -954,26 +982,32 @@ common:
   type: Deprecation
   url: https://developer.tenable.com/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/lifecycle/tenable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tenable-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/authentication/tenable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tenable-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/conventions/tenable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tenable-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/errors/tenable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tenable-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/data-model/tenable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tenable-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/conformance/tenable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tenable-conformance.yml
@@ -982,6 +1016,7 @@ common:
   type: Compliance
   url: https://www.tenable.com/trust/assurance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/security/tenable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tenable-trust-center.yml
@@ -990,38 +1025,47 @@ common:
   type: Security
   url: https://www.tenable.com/security/report
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/security/tenable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tenable-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/security/tenable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tenable-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/well-known/tenable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tenable-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/packages/tenable-packages.yml
   title: ''
   type: Packages
   url: packages/tenable-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/packages/tenable-packages.yml
   title: ''
   type: SDKs
   url: packages/tenable-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/mcp/tenable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tenable-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/llms/tenable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tenable-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/agentic-access/tenable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tenable-agentic-access.yml
@@ -1042,6 +1086,41 @@ overview: 'Tenable publishes 107 APIs on the [APIs.io](https://apis.io/) network
 
   Tenable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 17
+score:
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 30.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 58.3
+    developer_ergonomics: 61.3
+    discoverability: 63.0
+    operational_transparency: 48.7
+  previous_composite: 53.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 107
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/screenshots/tenable-2026-08-17T082310.png
 security:
 - kind: authentication

@@ -3,6 +3,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accelus/refs/heads/main/security/accelus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accelus-domain-security.yml

@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teachstreet/refs/heads/main/security/teachstreet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teachstreet-domain-security.yml

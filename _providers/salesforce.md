@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -1752,138 +1778,172 @@ common:
   type: Website
   url: https://www.salesforce.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/capabilities/salesforce-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesforce-capability-edges.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/packages/salesforce-packages.yml
   title: ''
   type: SDKs
   url: packages/salesforce-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/plans/salesforce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesforce-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/rate-limits/salesforce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesforce-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/lifecycle/salesforce-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/salesforce-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/security/salesforce-trust-center.yml
   title: ''
   type: Compliance
   url: security/salesforce-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/security/salesforce-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/salesforce-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/mcp/salesforce-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/salesforce-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/agentic-access/salesforce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/security/salesforce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/authentication/salesforce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/scopes/salesforce-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/packages/salesforce-packages.yml
   title: ''
   type: Packages
   url: packages/salesforce-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/well-known/salesforce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/salesforce-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/mcp/salesforce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/salesforce-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/llms/salesforce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salesforce-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/grpc/salesforce-pubsub-api.proto
   title: ''
   type: Protobuf
   url: grpc/salesforce-pubsub-api.proto
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/conformance/salesforce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/salesforce-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/errors/salesforce-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/salesforce-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/lifecycle/salesforce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salesforce-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/security/salesforce-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/salesforce-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/security/salesforce-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/salesforce-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/sandbox/salesforce-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/salesforce-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/conventions/salesforce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/salesforce-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/changelog/salesforce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/salesforce-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/cli/salesforce-cli.yml
   title: ''
   type: CLI
   url: cli/salesforce-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/components/salesforce-components.yml
   title: ''
   type: Components
   url: components/salesforce-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/data-model/salesforce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/salesforce-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/overlays/salesforce-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salesforce-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/overlays/salesforce-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salesforce-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/overlays/salesforce-bulk-api-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salesforce-bulk-api-2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/overlays/salesforce-ui-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salesforce-ui-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/overlays/salesforce-marketing-cloud-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/salesforce-marketing-cloud-rest-overlay.yaml
@@ -1892,94 +1952,117 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-bulk-delete-records-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-bulk-delete-records-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-bulk-insert-records-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-bulk-insert-records-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-bulk-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-bulk-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-bulk-upsert-records-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-bulk-upsert-records-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-create-account-with-contacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-create-account-with-contacts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-create-case-for-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-create-case-for-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-create-lead-and-convert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-create-lead-and-convert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-create-opportunity-with-contact-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-create-opportunity-with-contact-role-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-create-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-create-record-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-delete-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-delete-record-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-describe-sobject-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-describe-sobject-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-get-list-view-records-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-get-list-view-records-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-get-org-limits-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-get-org-limits-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-get-picklist-values-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-get-picklist-values-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-get-record-ui-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-get-record-ui-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-mc-manage-contacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-mc-manage-contacts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-mc-manage-data-extension-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-mc-manage-data-extension-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-mc-manage-journey-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-mc-manage-journey-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-mc-send-triggered-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-mc-send-triggered-email-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-soql-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-soql-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-sosl-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sosl-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-update-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-update-record-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/arazzo/salesforce-upsert-by-external-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-upsert-by-external-id-workflow.yml
@@ -2128,38 +2211,47 @@ common:
   type: Portal
   url: https://developer.salesforce.com/developer-centers/mobile
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-ld/salesforce-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/salesforce-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-sobject-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-sobject-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-query-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-query-result-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-schema/salesforce-bulk-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/salesforce-bulk-job-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-ld/salesforce-rest-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/salesforce-rest-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-ld/salesforce-bulk-2-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/salesforce-bulk-2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/json-ld/salesforce-ui-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/salesforce-ui-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/rules/salesforce-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salesforce-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/vocabulary/salesforce-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-vocabulary.yaml
@@ -18054,6 +18146,41 @@ scopes:
   scope_count: 36
   slug: salesforce-scopes
   summary_line: 36 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 87.5
+  coverage:
+    artifact_dirs: 42
+    catalog_earned: 81.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.9
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 77.7
+    developer_ergonomics: 94.6
+    discoverability: 57.4
+    operational_transparency: 86.8
+  previous_composite: 89.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 256
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:
 - kind: authentication

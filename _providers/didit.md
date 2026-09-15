@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 58.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -220,46 +246,57 @@ common:
   type: StatusPage
   url: https://status.didit.me
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/_original/didit-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/didit-openapi-original.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/authentication/didit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/didit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/scopes/didit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/didit-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/packages/didit-packages.yml
   title: ''
   type: Packages
   url: packages/didit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/packages/didit-packages.yml
   title: ''
   type: SDKs
   url: packages/didit-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/mcp/didit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/didit-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/llms/didit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/didit-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/well-known/didit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/didit-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/overlays/didit-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/didit-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/conformance/didit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/didit-conformance.yml
@@ -268,42 +305,52 @@ common:
   type: Compliance
   url: https://docs.didit.me/getting-started/security-compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/errors/didit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/didit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/lifecycle/didit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/didit-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/changelog/didit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/didit-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/conventions/didit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/didit-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/sandbox/didit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/didit-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/components/didit-components.yml
   title: ''
   type: Components
   url: components/didit-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/data-model/didit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/didit-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/asyncapi/didit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/didit-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/agentic-access/didit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/didit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/security/didit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/didit-domain-security.yml
@@ -332,6 +379,41 @@ scopes:
   scope_count: 5
   slug: didit-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: strong
+  composite: 59.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 60.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 5.9
+      total: 17
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/screenshots/didit-2026-07-25T211951.png
 security:
 - kind: authentication

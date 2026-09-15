@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Content-addressed decentralized object storage on Solana. Create users, upload/download files, resolve deterministic public URLs, and manage prepaid USDC credits. Auth is SIWS (Sign In With Solana -> '
@@ -50,62 +75,77 @@ common:
   type: X
   url: https://x.com/pipenetwork
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/packages/pipe-network-packages.yml
   title: ''
   type: Packages
   url: packages/pipe-network-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/packages/pipe-network-packages.yml
   title: ''
   type: SDKs
   url: packages/pipe-network-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/cli/pipe-network-cli.yml
   title: ''
   type: CLI
   url: cli/pipe-network-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/authentication/pipe-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pipe-network-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/conventions/pipe-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pipe-network-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/changelog/pipe-network-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pipe-network-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/lifecycle/pipe-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pipe-network-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/components/pipe-network-components.yml
   title: ''
   type: Components
   url: components/pipe-network-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/conformance/pipe-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pipe-network-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/data-model/pipe-network-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pipe-network-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/errors/pipe-network-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pipe-network-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/mcp/pipe-network-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pipe-network-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/llms/pipe-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pipe-network-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/security/pipe-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pipe-network-domain-security.yml
@@ -122,6 +162,39 @@ overview: 'Pipe Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
   Pipe Network''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 18 more developer resources.'
 random_paper: 14
+score:
+  band: emerging
+  composite: 17.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 17.5
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipe-network/refs/heads/main/screenshots/pipe-network-2026-09-02T151313.png
 security:
 - kind: authentication

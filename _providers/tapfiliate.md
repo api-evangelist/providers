@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -113,22 +139,27 @@ collections:
   slug: open-tapfiliate-programs-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/capabilities/tapfiliate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tapfiliate-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/agentic-access/tapfiliate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tapfiliate-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/security/tapfiliate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tapfiliate-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/security/tapfiliate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tapfiliate-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/authentication/tapfiliate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tapfiliate-authentication.yml
@@ -165,90 +196,112 @@ common:
   type: X
   url: https://twitter.com/tapfiliate
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/plans/tapfiliate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tapfiliate-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/rate-limits/tapfiliate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tapfiliate-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/finops/tapfiliate-finops.yml
   title: ''
   type: FinOps
   url: finops/tapfiliate-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/vocabulary/tapfiliate-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tapfiliate-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/json-ld/tapfiliate-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/tapfiliate-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/packages/tapfiliate-packages.yml
   title: ''
   type: Packages
   url: packages/tapfiliate-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/packages/tapfiliate-packages.yml
   title: ''
   type: SDKs
   url: packages/tapfiliate-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/mcp/tapfiliate-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tapfiliate-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/mcp/tapfiliate-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tapfiliate-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/scopes/tapfiliate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tapfiliate-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/well-known/tapfiliate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tapfiliate-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/well-known/tapfiliate-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tapfiliate-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/security/tapfiliate-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tapfiliate-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/conventions/tapfiliate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tapfiliate-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/errors/tapfiliate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tapfiliate-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/lifecycle/tapfiliate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tapfiliate-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/conformance/tapfiliate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tapfiliate-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/data-model/tapfiliate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tapfiliate-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/asyncapi/tapfiliate-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tapfiliate-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/sandbox/tapfiliate-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tapfiliate-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/llms/tapfiliate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tapfiliate-llms.txt
@@ -353,6 +406,41 @@ scopes:
   scope_count: 4
   slug: tapfiliate-scopes
   summary_line: 4 scopes
+score:
+  band: exemplar
+  composite: 67.8
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 68.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 29.5
+    contract_quality: 72.0
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 67.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:
 - kind: authentication

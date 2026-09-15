@@ -11,6 +11,31 @@ access_model:
   - security
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -19,6 +44,7 @@ asyncapis:
   slug: supply-wisdom-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/security/supply-wisdom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/supply-wisdom-domain-security.yml
@@ -67,34 +93,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/supplywisdom
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/well-known/supply-wisdom-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/supply-wisdom-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/conformance/supply-wisdom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/supply-wisdom-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/plans/supply-wisdom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/supply-wisdom-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/rate-limits/supply-wisdom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/supply-wisdom-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/asyncapi/supply-wisdom-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/supply-wisdom-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/packages/supply-wisdom-packages.yml
   title: ''
   type: Packages
   url: packages/supply-wisdom-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/lifecycle/supply-wisdom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/supply-wisdom-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/llms/supply-wisdom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/supply-wisdom-llms.txt
@@ -140,6 +174,34 @@ rate_limits:
 - limit_count: 0
   name: Supply Wisdom Rate Limits
   slug: supply-wisdom-rate-limits
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 16.7
+    discoverability: 50.0
+    operational_transparency: 7.9
+  previous_composite: 38.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/screenshots/supply-wisdom-2026-09-02T161305.png
 security:
 - kind: domain-security

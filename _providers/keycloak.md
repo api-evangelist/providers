@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -118,114 +143,142 @@ collections:
   slug: open-keycloak-users-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/mcp/keycloak-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/keycloak-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/overlays/keycloak-admin-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keycloak-admin-rest-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-onboard-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-onboard-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-offboard-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-offboard-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-audit-user-access-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-audit-user-access-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-register-oidc-client-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-register-oidc-client-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-rotate-client-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-rotate-client-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-decommission-client-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-decommission-client-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-upsert-realm-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-upsert-realm-role-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-provision-group-hierarchy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-provision-group-hierarchy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-assign-user-to-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-assign-user-to-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-audit-group-membership-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-audit-group-membership-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-federate-identity-provider-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-federate-identity-provider-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-harden-realm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-harden-realm-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/arazzo/keycloak-inventory-realm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/keycloak-inventory-realm-workflow.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/agentic-access/keycloak-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/keycloak-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/packages/keycloak-packages.yml
   title: ''
   type: Packages
   url: packages/keycloak-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/well-known/keycloak-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/keycloak-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/well-known/keycloak-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/keycloak-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/llms/keycloak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keycloak-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/conformance/keycloak-conformance.yml
   title: ''
   type: Conformance
   url: conformance/keycloak-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/lifecycle/keycloak-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keycloak-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/conventions/keycloak-conventions.yml
   title: ''
   type: Conventions
   url: conventions/keycloak-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/changelog/keycloak-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/keycloak-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/cli/keycloak-cli.yml
   title: ''
   type: CLI
   url: cli/keycloak-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/security/keycloak-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/keycloak-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/security/keycloak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keycloak-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/authentication/keycloak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keycloak-authentication.yml
@@ -292,6 +345,40 @@ rules:
     info: 2
     warn: 3
   slug: keycloak-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 36.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 54.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 28.0
+    contract_quality: 53.9
+    developer_ergonomics: 40.5
+    discoverability: 59.3
+    operational_transparency: 26.3
+  previous_composite: 36.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:
 - kind: authentication

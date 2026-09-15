@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 566
   human_in_the_loop: 29
@@ -53,6 +79,7 @@ collections:
   slug: open-canvas
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/scopes/canvas-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/canvas-scopes.yml
@@ -77,22 +104,27 @@ common:
   type: License
   url: https://github.com/instructure/canvas-lms/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/agentic-access/canvas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/canvas-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/security/canvas-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/canvas-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/security/canvas-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/canvas-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/security/canvas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canvas-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/authentication/canvas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canvas-authentication.yml
@@ -137,30 +169,37 @@ common:
   type: TermsOfService
   url: https://www.instructure.com/policies/acceptable-use
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/packages/canvas-packages.yml
   title: ''
   type: Packages
   url: packages/canvas-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/packages/canvas-packages.yml
   title: ''
   type: SDKs
   url: packages/canvas-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/well-known/canvas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/canvas-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/well-known/canvas-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/canvas-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/llms/canvas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canvas-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/mcp/canvas-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/canvas-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/conformance/canvas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canvas-conformance.yml
@@ -169,10 +208,12 @@ common:
   type: Compliance
   url: https://www.instructure.com/trust-center
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/errors/canvas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/canvas-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/lifecycle/canvas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/canvas-lifecycle.yml
@@ -181,42 +222,52 @@ common:
   type: Deprecation
   url: https://community.canvaslms.com/t5/Change-Log/tkb-p/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/changelog/canvas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/canvas-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/conventions/canvas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/canvas-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/sandbox/canvas-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/canvas-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/cli/canvas-cli.yml
   title: ''
   type: CLI
   url: cli/canvas-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/components/canvas-components.yml
   title: ''
   type: Components
   url: components/canvas-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/data-model/canvas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/canvas-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/asyncapi/canvas-live-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/canvas-live-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/rate-limits/canvas-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/canvas-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/plans/canvas-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/canvas-plans-pricing.yml
@@ -225,10 +276,12 @@ common:
   type: Security
   url: https://www.instructure.com/trust-center/vulnerability-disclosure
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/overlays/canvas-canvas-lms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canvas-canvas-lms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/overlays/canvas-canvas-courses-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canvas-canvas-courses-api-overlay.yaml
@@ -257,6 +310,7 @@ common:
   type: Pricing
   url: https://www.instructure.com/canvas
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/mcp/canvas-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/canvas-mcp.yml
@@ -297,6 +351,50 @@ scopes:
   scope_count: 1117
   slug: canvas-scopes
   summary_line: 1117 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 73.7
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 59.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 24.4
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    operational_transparency: 81.6
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 73.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 85.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/screenshots/canvas-2026-06-20T173929.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -168,22 +193,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/culqi/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/agentic-access/culqi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/culqi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/security/culqi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/culqi-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/security/culqi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/culqi-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/security/culqi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/culqi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/authentication/culqi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/culqi-authentication.yml
@@ -204,14 +234,17 @@ common:
   type: Documentation
   url: https://docs.culqi.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/plans/culqi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/culqi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/rate-limits/culqi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/culqi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/finops/culqi-finops.yml
   title: ''
   type: FinOps
   url: finops/culqi-finops.yml
@@ -256,78 +289,97 @@ common:
   type: PrivacyPolicy
   url: https://culqi.com/politicas-de-privacidad/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/collections/culqi.postman_collection.json
   title: ''
   type: Postman
   url: collections/culqi.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/packages/culqi-packages.yml
   title: ''
   type: Packages
   url: packages/culqi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/packages/culqi-packages.yml
   title: ''
   type: SDKs
   url: packages/culqi-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/sandbox/culqi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/culqi-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/errors/culqi-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/culqi-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/errors/culqi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/culqi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/asyncapi/culqi-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/culqi-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/mcp/culqi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/culqi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/llms/culqi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/culqi-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/overlays/culqi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/culqi-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/conventions/culqi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/culqi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/data-model/culqi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/culqi-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/conformance/culqi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/culqi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/security/culqi-trust-center.yml
   title: ''
   type: Compliance
   url: security/culqi-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/lifecycle/culqi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/culqi-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/lifecycle/culqi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/culqi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/components/culqi-components.yml
   title: ''
   type: Components
   url: components/culqi-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/security/culqi-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/culqi-vulnerability-disclosure.yml
@@ -359,6 +411,52 @@ rate_limits:
 - limit_count: 2
   name: Culqi Rate Limits
   slug: culqi-rate-limits
+score:
+  band: strong
+  composite: 54.6
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 4.5
+    contract_quality: 63.4
+    developer_ergonomics: 41.1
+    discoverability: 68.5
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 54.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 65.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:
 - kind: authentication

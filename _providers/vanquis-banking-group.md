@@ -10,6 +10,31 @@ access_model:
   - onboarding
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -130,22 +155,27 @@ apis:
 artifact_total: 26
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/capabilities/vanquis-banking-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vanquis-banking-group-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/security/vanquis-banking-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vanquis-banking-group-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/agentic-access/vanquis-banking-group-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vanquis-banking-group-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/scopes/vanquis-banking-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vanquis-banking-group-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/authentication/vanquis-banking-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vanquis-banking-group-authentication.yml
@@ -190,58 +220,72 @@ common:
   type: Contact
   url: https://www.vanquis.com/contact-us/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/errors/vanquis-banking-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vanquis-banking-group-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/conformance/vanquis-banking-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vanquis-banking-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/lifecycle/vanquis-banking-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vanquis-banking-group-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/lifecycle/vanquis-banking-group-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/vanquis-banking-group-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/conventions/vanquis-banking-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vanquis-banking-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/conventions/vanquis-banking-group-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vanquis-banking-group-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/mcp/vanquis-banking-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vanquis-banking-group-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/llms/vanquis-banking-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vanquis-banking-group-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/overlays/vanquis-banking-group-aisp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vanquis-banking-group-aisp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/overlays/vanquis-banking-group-pisp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vanquis-banking-group-pisp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/overlays/vanquis-banking-group-cbpii-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vanquis-banking-group-cbpii-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/data-model/vanquis-banking-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vanquis-banking-group-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/skills/vanquis-read-account-transactions.md
   title: ''
   type: AgentSkill
   url: skills/vanquis-read-account-transactions.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/skills/vanquis-initiate-domestic-payment.md
   title: ''
   type: AgentSkill
   url: skills/vanquis-initiate-domestic-payment.md
@@ -264,6 +308,59 @@ scopes:
   scope_count: 3
   slug: vanquis-banking-group-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 49.3
+    developer_ergonomics: 44.6
+    discoverability: 72.2
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 42.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 70.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/screenshots/vanquis-banking-group-2026-09-02T165416.png
 security:
 - kind: authentication

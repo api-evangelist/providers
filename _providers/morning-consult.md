@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,22 +78,27 @@ arazzos:
 artifact_total: 14
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/overlays/morning-consult-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/morning-consult-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/mcp/morning-consult-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/morning-consult-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/security/morning-consult-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/morning-consult-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/security/morning-consult-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/morning-consult-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/security/morning-consult-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morning-consult-domain-security.yml
@@ -93,6 +123,7 @@ common:
   type: GettingStarted
   url: https://api.morningconsult.com/docs/#introduction
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/authentication/morning-consult-authentication.yml
   title: ''
   type: Authentication
   url: authentication/morning-consult-authentication.yml
@@ -133,34 +164,42 @@ common:
   type: Compliance
   url: https://morningconsult.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/llms/morning-consult-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/morning-consult-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/packages/morning-consult-packages.yml
   title: ''
   type: Packages
   url: packages/morning-consult-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/examples/morning-consult-examples.yml
   title: ''
   type: Examples
   url: examples/morning-consult-examples.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/rate-limits/morning-consult-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/morning-consult-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/errors/morning-consult-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/morning-consult-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/data-model/morning-consult-data-model.yml
   title: ''
   type: DataModel
   url: data-model/morning-consult-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/conventions/morning-consult-conventions.yml
   title: ''
   type: Conventions
   url: conventions/morning-consult-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/lifecycle/morning-consult-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/morning-consult-lifecycle.yml
@@ -169,18 +208,22 @@ common:
   type: Deprecation
   url: https://api.morningconsult.com/docs/#migration-guide
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/conformance/morning-consult-conformance.yml
   title: ''
   type: Conformance
   url: conformance/morning-consult-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/agentic-access/morning-consult-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/morning-consult-agentic-access.yml
@@ -205,6 +248,41 @@ rate_limits:
 - limit_count: 5
   name: Morning Consult Rate Limits
   slug: morning-consult-rate-limits
+score:
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 65.2
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 54.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/screenshots/morning-consult-2026-08-07T184308.png
 security:
 - kind: authentication

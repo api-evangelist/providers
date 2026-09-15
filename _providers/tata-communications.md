@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,58 +101,72 @@ collections:
   slug: open-tata-communications-number-intelligence-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/overlays/tata-communications-number-intelligence-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tata-communications-number-intelligence-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/overlays/tata-communications-mobile-messaging-exchange-account-administration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tata-communications-mobile-messaging-exchange-account-administration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/overlays/tata-communications-mobile-messaging-exchange-cdr-report-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tata-communications-mobile-messaging-exchange-cdr-report-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/llms/tata-communications-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tata-communications-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/mcp/tata-communications-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tata-communications-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/mcp/tata-communications-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tata-communications-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/authentication/tata-communications-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tata-communications-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/conventions/tata-communications-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tata-communications-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/errors/tata-communications-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tata-communications-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/examples/tata-communications-examples.yml
   title: ''
   type: Examples
   url: examples/tata-communications-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/data-model/tata-communications-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tata-communications-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/lifecycle/tata-communications-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tata-communications-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/conformance/tata-communications-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tata-communications-conformance.yml
@@ -136,26 +175,32 @@ common:
   type: Compliance
   url: https://www.tatacommunications.com/cloud/cloud-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/security/tata-communications-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tata-communications-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/sandbox/tata-communications-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tata-communications-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/packages/tata-communications-packages.yml
   title: ''
   type: Packages
   url: packages/tata-communications-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/asyncapi/tata-communications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tata-communications-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/agentic-access/tata-communications-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tata-communications-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/security/tata-communications-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tata-communications-domain-security.yml
@@ -240,6 +285,54 @@ overview: 'Tata Communications publishes 6 APIs on the [APIs.io](https://apis.io
 
   Tata Communications'' developer surface includes authentication, code examples, sandbox, documentation, signup flow, engineering blog, developer portal, and 30 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 47.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 43.3
+    developer_ergonomics: 54.2
+    discoverability: 81.5
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 47.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/screenshots/tata-communications-2026-08-17T082254.png
 security:
 - kind: authentication

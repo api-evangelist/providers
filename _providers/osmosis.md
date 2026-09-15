@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,6 +79,7 @@ collections:
   slug: open-osmosis-osmosis-agent-improvement-api-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/overlays/osmosis-agent-improvement-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/osmosis-agent-improvement-overlay.yaml
@@ -106,70 +132,87 @@ common:
   type: TrustCenter
   url: https://trust.osmosis.ai
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/packages/osmosis-packages.yml
   title: ''
   type: Packages
   url: packages/osmosis-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/packages/osmosis-packages.yml
   title: ''
   type: SDKs
   url: packages/osmosis-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/cli/osmosis-cli.yml
   title: ''
   type: CLI
   url: cli/osmosis-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/mcp/osmosis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/osmosis-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/llms/osmosis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/osmosis-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/well-known/osmosis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/osmosis-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/conformance/osmosis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/osmosis-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/errors/osmosis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/osmosis-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/lifecycle/osmosis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/osmosis-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/changelog/osmosis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/osmosis-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/conventions/osmosis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/osmosis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/data-model/osmosis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/osmosis-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/asyncapi/osmosis-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/osmosis-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/security/osmosis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/osmosis-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/agentic-access/osmosis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/osmosis-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/authentication/osmosis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/osmosis-authentication.yml
@@ -193,6 +236,41 @@ overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
   Osmosis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
 random_paper: 4
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 62.0
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 45.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/heads/main/screenshots/osmosis-2026-08-07T191013.png
 security:
 - kind: authentication

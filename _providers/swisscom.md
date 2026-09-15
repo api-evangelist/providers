@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -83,58 +109,72 @@ collections:
   slug: open-swisscom-sign-integration-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/overlays/swisscom-sign-integration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/swisscom-sign-integration-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/overlays/swisscom-all-in-signing-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/swisscom-all-in-signing-service-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/packages/swisscom-packages.yml
   title: ''
   type: Packages
   url: packages/swisscom-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/packages/swisscom-packages.yml
   title: ''
   type: SDKs
   url: packages/swisscom-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/cli/swisscom-cli.yml
   title: ''
   type: CLI
   url: cli/swisscom-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/well-known/swisscom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/swisscom-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/mcp/swisscom-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/swisscom-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/mcp/swisscom-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/swisscom-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/llms/swisscom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/swisscom-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/conventions/swisscom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/swisscom-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/data-model/swisscom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/swisscom-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/errors/swisscom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/swisscom-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/lifecycle/swisscom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/swisscom-lifecycle.yml
@@ -143,18 +183,22 @@ common:
   type: StatusPage
   url: https://trustservices.swisscom.com/en/support/developer-section/service-status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/changelog/swisscom-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/swisscom-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/sandbox/swisscom-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/swisscom-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/asyncapi/swisscom-messaging-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/swisscom-messaging-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/conformance/swisscom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/swisscom-conformance.yml
@@ -163,6 +207,7 @@ common:
   type: Compliance
   url: https://trustservices.swisscom.com/en/esignature-hub/downloads-and-documents
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/security/swisscom-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/swisscom-trust-center.yml
@@ -199,22 +244,27 @@ common:
   type: SignUp
   url: https://sign.swisscom.ch/cockpit/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/agentic-access/swisscom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/swisscom-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/security/swisscom-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/swisscom-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/security/swisscom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swisscom-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/scopes/swisscom-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/swisscom-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/authentication/swisscom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swisscom-authentication.yml
@@ -288,6 +338,59 @@ scopes:
   scope_count: 3
   slug: swisscom-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 67.2
+    developer_ergonomics: 75.6
+    discoverability: 87.0
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 64.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 83.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/screenshots/swisscom-2026-08-17T082213.png
 security:
 - kind: authentication

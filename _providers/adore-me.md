@@ -1,8 +1,34 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adore-me/refs/heads/main/security/adore-me-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adore-me-domain-security.yml
@@ -59,26 +85,32 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/adore-me_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adore-me/refs/heads/main/llms/adore-me-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adore-me-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adore-me/refs/heads/main/lifecycle/adore-me-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adore-me-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adore-me/refs/heads/main/packages/adore-me-packages.yml
   title: ''
   type: Packages
   url: packages/adore-me-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adore-me/refs/heads/main/plans/adore-me-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adore-me-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adore-me/refs/heads/main/rate-limits/adore-me-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adore-me-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adore-me/refs/heads/main/security/adore-me-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adore-me-vulnerability-disclosure.yml
@@ -118,6 +150,32 @@ rate_limits:
 - limit_count: 0
   name: Adore Me Rate Limits
   slug: adore-me-rate-limits
+score:
+  band: minimal
+  composite: 9.4
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 57.4
+    operational_transparency: 21.1
+  previous_composite: 9.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Adore Me Domain Security

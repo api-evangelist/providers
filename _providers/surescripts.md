@@ -11,6 +11,31 @@ access_model:
   - https://surescripts.com/who-we-are/contact-us
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - description: 'Publicly documented HL7 FHIR Release 4 API for retrieving medication history panels and near-real-time Prescription Notifications for enrolled patient populations. Panels and notifications are pulled '
@@ -92,58 +117,72 @@ common:
   type: Compliance
   url: https://surescripts.com/why-surescripts/certifications-and-accreditations
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/security/surescripts-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/surescripts-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/security/surescripts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/surescripts-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/authentication/surescripts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/surescripts-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/conventions/surescripts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/surescripts-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/errors/surescripts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/surescripts-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/lifecycle/surescripts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/surescripts-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/conformance/surescripts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/surescripts-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/changelog/surescripts-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/surescripts-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/rate-limits/surescripts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/surescripts-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/plans/surescripts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/surescripts-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/sandbox/surescripts-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/surescripts-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/data-model/surescripts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/surescripts-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/packages/surescripts-packages.yml
   title: ''
   type: Packages
   url: packages/surescripts-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/llms/surescripts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/surescripts-llms.txt
@@ -169,6 +208,41 @@ rate_limits:
 - limit_count: 6
   name: Surescripts Rate Limits
   slug: surescripts-rate-limits
+score:
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 72.2
+    operational_transparency: 47.4
+  previous_composite: 41.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 45.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/screenshots/surescripts-2026-09-02T161313.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.3
+  scored_at: '2026-09-14'
 api_count: 9
 apis:
 - description: API for building Safari Web Extensions that extend and customize the browsing experience.
@@ -45,10 +70,12 @@ common:
   type: Website
   url: https://www.apple.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/security/apple-safari-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apple-safari-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/security/apple-safari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apple-safari-domain-security.yml
@@ -81,66 +108,82 @@ common:
   type: Support
   url: https://developer.apple.com/forums/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/mcp/apple-safari-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apple-safari-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/well-known/apple-safari-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apple-safari-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/well-known/apple-safari-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apple-safari-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/security/apple-safari-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/apple-safari-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/security/apple-safari-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/apple-safari-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/security/apple-safari-trust-center.yml
   title: ''
   type: Compliance
   url: security/apple-safari-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/conformance/apple-safari-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apple-safari-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/packages/apple-safari-packages.yml
   title: ''
   type: Packages
   url: packages/apple-safari-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/packages/apple-safari-packages.yml
   title: ''
   type: SDKs
   url: packages/apple-safari-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/cli/apple-safari-cli.yml
   title: ''
   type: CLI
   url: cli/apple-safari-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/components/apple-safari-components.yml
   title: ''
   type: Components
   url: components/apple-safari-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/authentication/apple-safari-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apple-safari-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/errors/apple-safari-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apple-safari-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/conventions/apple-safari-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apple-safari-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/lifecycle/apple-safari-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apple-safari-lifecycle.yml
@@ -149,22 +192,27 @@ common:
   type: StatusPage
   url: https://developer.apple.com/system-status/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/changelog/apple-safari-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apple-safari-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/sandbox/apple-safari-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/apple-safari-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/plans/apple-safari-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apple-safari-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/rate-limits/apple-safari-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apple-safari-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/llms/apple-safari-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apple-safari-llms.txt
@@ -221,6 +269,36 @@ rate_limits:
 - limit_count: 6
   name: Apple Safari Rate Limits
   slug: apple-safari-rate-limits
+score:
+  band: strong
+  composite: 57.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 80.4
+    discoverability: 88.9
+    operational_transparency: 76.3
+  previous_composite: 57.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/screenshots/apple-safari-2026-06-20T172321.png
 security:
 - kind: authentication

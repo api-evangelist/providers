@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://imagedetector.online/v1
@@ -30,10 +55,12 @@ common:
   type: Website
   url: https://www.imagedetector.online/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/mcp/anyimagedetector-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/anyimagedetector-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/security/anyimagedetector-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anyimagedetector-domain-security.yml
@@ -90,42 +117,52 @@ common:
   type: About
   url: https://imagedetector.online/about
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/llms/anyimagedetector-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anyimagedetector-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/authentication/anyimagedetector-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anyimagedetector-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/errors/anyimagedetector-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anyimagedetector-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/rate-limits/anyimagedetector-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anyimagedetector-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/plans/anyimagedetector-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anyimagedetector-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/conventions/anyimagedetector-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anyimagedetector-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/lifecycle/anyimagedetector-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anyimagedetector-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/conformance/anyimagedetector-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anyimagedetector-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/data-model/anyimagedetector-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anyimagedetector-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -151,6 +188,40 @@ rate_limits:
 - limit_count: 1
   name: Anyimagedetector Rate Limits
   slug: anyimagedetector-rate-limits
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 15.0
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 38.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
 security:
 - kind: authentication

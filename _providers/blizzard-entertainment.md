@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -186,14 +211,17 @@ collections:
   slug: open-blizzard-world-of-warcraft
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/agentic-access/blizzard-entertainment-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blizzard-entertainment-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/security/blizzard-entertainment-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blizzard-entertainment-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/authentication/blizzard-entertainment-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blizzard-entertainment-authentication.yml
@@ -238,26 +266,32 @@ common:
   type: Forums
   url: https://us.forums.blizzard.com/en/blizzard/c/api-discussion/18
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/rules/blizzard-entertainment-rules.yml
   title: ''
   type: SpectralRules
   url: rules/blizzard-entertainment-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/vocabulary/blizzard-entertainment-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/blizzard-entertainment-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/json-ld/blizzard-entertainment-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blizzard-entertainment-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/plans/blizzard-entertainment-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blizzard-entertainment-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/rate-limits/blizzard-entertainment-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blizzard-entertainment-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/finops/blizzard-entertainment-finops.yml
   title: ''
   type: FinOps
   url: finops/blizzard-entertainment-finops.yml
@@ -330,6 +364,38 @@ rules:
     info: 0
     warn: 3
   slug: blizzard-entertainment-rules
+score:
+  band: developing
+  composite: 47.4
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 91.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 24.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 60.6
+    contract_quality: 59.4
+    developer_ergonomics: 14.3
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 47.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/screenshots/blizzard-entertainment-2026-06-20T173354.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -159,50 +184,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tiktok-for-developers/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/agentic-access/tiktok-for-developers-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tiktok-for-developers-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/security/tiktok-for-developers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tiktok-for-developers-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/authentication/tiktok-for-developers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tiktok-for-developers-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-direct-post-video-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-direct-post-video-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-inbox-draft-upload-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-inbox-draft-upload-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-oauth-login-and-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-oauth-login-and-profile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-refresh-token-and-list-videos-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-refresh-token-and-list-videos-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-research-pinned-video-comments-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-research-pinned-video-comments-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-research-search-and-comments-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-research-search-and-comments-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-research-user-activity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-research-user-activity-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-research-user-social-graph-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-research-user-social-graph-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/arazzo/tiktok-for-developers-user-profile-and-videos-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tiktok-for-developers-user-profile-and-videos-workflow.yml
@@ -358,6 +395,38 @@ rules:
     info: 1
     warn: 5
   slug: tiktok-for-developers-rules
+score:
+  band: developing
+  composite: 47.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 22.4
+    contract_governance: 13.6
+    contract_quality: 67.8
+    developer_ergonomics: 65.5
+    discoverability: 74.1
+    operational_transparency: 34.2
+  previous_composite: 47.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/screenshots/tiktok-for-developers-2026-06-20T195354.png
 security:
 - kind: authentication

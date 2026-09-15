@@ -9,6 +9,31 @@ access_model:
   - https://www.group1auto.com/llms.txt
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: true
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -24,6 +49,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/security/group-1-automotive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/group-1-automotive-domain-security.yml
@@ -48,22 +74,27 @@ common:
   type: Support
   url: https://www.group1auto.com/contact-us/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/llms/group-1-automotive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/group-1-automotive-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/agentic-access/group-1-automotive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/group-1-automotive-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/conventions/group-1-automotive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/group-1-automotive-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/rate-limits/group-1-automotive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/group-1-automotive-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/plans/group-1-automotive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/group-1-automotive-plans-pricing.yml
@@ -104,6 +135,35 @@ rate_limits:
 - limit_count: 1
   name: Group 1 Automotive Rate Limits
   slug: group-1-automotive-rate-limits
+score:
+  band: emerging
+  composite: 15.5
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 15.5
+  provenance:
+    agentic_access: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Group 1 Automotive Domain Security

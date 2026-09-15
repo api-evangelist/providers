@@ -10,6 +10,31 @@ access_model:
   - https://public.zoca.com/swagger.json
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1489
   human_in_the_loop: 37
@@ -991,18 +1016,22 @@ asyncapis:
   slug: zoca-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/overlays/zoca-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoca-platform-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/overlays/zoca-tasks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoca-tasks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/overlays/zoca-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoca-public-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/agentic-access/zoca-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zoca-agentic-access.yml
@@ -1015,6 +1044,7 @@ common:
   type: Pricing
   url: https://zoca.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/plans/zoca-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zoca-plans-pricing.yml
@@ -1055,58 +1085,72 @@ common:
   type: Compliance
   url: https://trust.zoca.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/authentication/zoca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zoca-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/conventions/zoca-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zoca-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/conventions/zoca-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zoca-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/errors/zoca-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zoca-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/rate-limits/zoca-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zoca-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/data-model/zoca-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zoca-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/conformance/zoca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zoca-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/lifecycle/zoca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zoca-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/packages/zoca-packages.yml
   title: ''
   type: Packages
   url: packages/zoca-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/mcp/zoca-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zoca-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/llms/zoca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zoca-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/components/zoca-components.yml
   title: ''
   type: Components
   url: components/zoca-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/security/zoca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoca-domain-security.yml
@@ -1135,6 +1179,41 @@ rate_limits:
 - limit_count: 11
   name: Zoca Rate Limits
   slug: zoca-rate-limits
+score:
+  band: developing
+  composite: 42.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 19.9
+    developer_ergonomics: 20.8
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 42.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 193
+      marker_coverage: 100.0
+      total: 193
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoca/refs/heads/main/screenshots/zoca-2026-08-17T083114.png
 security:
 - kind: authentication

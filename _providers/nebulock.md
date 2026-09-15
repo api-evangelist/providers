@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -97,62 +122,77 @@ common:
   type: TrustCenter
   url: https://trust.nebulock.io/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/_original/nebulock-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/nebulock-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/authentication/nebulock-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nebulock-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/agentic-access/nebulock-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nebulock-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/security/nebulock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nebulock-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/mcp/nebulock-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nebulock-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/overlays/nebulock-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nebulock-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/conformance/nebulock-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nebulock-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/errors/nebulock-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nebulock-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/lifecycle/nebulock-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nebulock-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/conventions/nebulock-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nebulock-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/data-model/nebulock-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nebulock-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/llms/nebulock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nebulock-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/arazzo/nebulock-run-hunt-and-report.yml
   title: ''
   type: Arazzo
   url: arazzo/nebulock-run-hunt-and-report.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/arazzo/nebulock-validate-and-deploy-rule.yml
   title: ''
   type: Arazzo
   url: arazzo/nebulock-validate-and-deploy-rule.yml
@@ -173,6 +213,41 @@ overview: 'Nebulock publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
   Nebulock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 29.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 4.5
+    contract_quality: 54.3
+    developer_ergonomics: 32.7
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 29.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/screenshots/nebulock-2026-08-07T184813.png
 security:
 - kind: authentication

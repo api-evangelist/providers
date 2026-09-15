@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -34,6 +59,7 @@ collections:
   slug: open-runautomat-extract-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/overlays/runautomat-extract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/runautomat-extract-overlay.yaml
@@ -58,6 +84,7 @@ common:
   type: GettingStarted
   url: https://docs.runautomat.com/guides/getting-started/quickstart
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/authentication/runautomat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runautomat-authentication.yml
@@ -94,42 +121,52 @@ common:
   type: Compliance
   url: https://runautomat.com/enterprise
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/llms/runautomat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runautomat-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/mcp/runautomat-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/runautomat-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/errors/runautomat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/runautomat-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/conventions/runautomat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runautomat-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/conformance/runautomat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runautomat-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/lifecycle/runautomat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/runautomat-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/data-model/runautomat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/runautomat-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/agentic-access/runautomat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/runautomat-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/security/runautomat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runautomat-domain-security.yml
@@ -146,6 +183,41 @@ overview: 'Runautomat publishes 1 API on the [APIs.io](https://apis.io/) network
 
   Runautomat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 18 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 44.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 52.4
+    developer_ergonomics: 55.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 44.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/runautomat/refs/heads/main/screenshots/runautomat-2026-08-17T081652.png
 security:
 - kind: authentication

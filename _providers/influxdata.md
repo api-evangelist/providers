@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 0
@@ -386,22 +411,27 @@ collections:
   slug: open-influxdata-write-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/capabilities/influxdata-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/influxdata-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/overlays/influxdata-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/influxdata-cloud-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/security/influxdata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/influxdata-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/agentic-access/influxdata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/influxdata-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/authentication/influxdata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/influxdata-authentication.yml
@@ -462,26 +492,32 @@ common:
   type: PrivacyPolicy
   url: https://www.influxdata.com/legal/privacy-policy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/packages/influxdata-packages.yml
   title: ''
   type: Packages
   url: packages/influxdata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/packages/influxdata-packages.yml
   title: ''
   type: SDKs
   url: packages/influxdata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/cli/influxdata-cli.yml
   title: ''
   type: CLI
   url: cli/influxdata-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/mcp/influxdata-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/influxdata-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/llms/influxdata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/influxdata-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/conformance/influxdata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/influxdata-conformance.yml
@@ -490,10 +526,12 @@ common:
   type: Compliance
   url: https://www.influxdata.com/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/errors/influxdata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/influxdata-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/lifecycle/influxdata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/influxdata-lifecycle.yml
@@ -502,26 +540,32 @@ common:
   type: StatusPage
   url: https://status.influxdata.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/conventions/influxdata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/influxdata-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/changelog/influxdata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/influxdata-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/data-model/influxdata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/influxdata-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/components/influxdata-components.yml
   title: ''
   type: Components
   url: components/influxdata-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/security/influxdata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/influxdata-vulnerability-disclosure.yml
@@ -546,6 +590,41 @@ overview: 'InfluxData publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
 
   InfluxData''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 50.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 51.6
+    developer_ergonomics: 73.2
+    discoverability: 51.9
+    operational_transparency: 44.7
+  previous_composite: 50.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 45
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/influxdata/refs/heads/main/screenshots/influxdata-2026-07-25T222417.png
 security:
 - kind: authentication

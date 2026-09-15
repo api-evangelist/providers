@@ -9,6 +9,32 @@ access_model:
   - probe
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  band_gated_from: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +70,12 @@ common:
   type: License
   url: https://github.com/garethbjohnson/gutendex/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/agentic-access/gutendex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gutendex-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/security/gutendex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gutendex-domain-security.yml
@@ -60,14 +88,17 @@ common:
   type: Documentation
   url: https://gutendex.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/openapi/_original/gutendex-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/gutendex-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/json-schema/gutendex-book-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/gutendex-book-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/json-ld/gutendex-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gutendex-context.jsonld
@@ -80,22 +111,27 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/plans/gutendex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gutendex-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/plans/gutendex-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/gutendex-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/rate-limits/gutendex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gutendex-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/rules/gutendex-rules.yml
   title: ''
   type: SpectralRules
   url: rules/gutendex-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/vocabulary/gutendex-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gutendex-vocabulary.yml
@@ -246,6 +282,45 @@ rules:
     info: 1
     warn: 4
   slug: gutendex-rules
+score:
+  band: developing
+  composite: 45.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 86.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 25.0
+    contract_quality: 69.4
+    developer_ergonomics: 33.3
+    discoverability: 68.5
+    operational_transparency: 36.8
+  previous_composite: 45.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/screenshots/gutendex-2026-06-20T182442.png
 security:
 - kind: domain-security

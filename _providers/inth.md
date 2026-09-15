@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://your-instance.c15t.dev
@@ -60,14 +85,17 @@ collections:
   slug: open-inth-subjects-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/overlays/inth-c15t-consent-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/inth-c15t-consent-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/a2a/inth-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/inth-a2a.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/security/inth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inth-domain-security.yml
@@ -116,74 +144,92 @@ common:
   type: StatusPage
   url: https://status.inth.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/lifecycle/inth-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/inth-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/lifecycle/inth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inth-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/packages/inth-packages.yml
   title: ''
   type: Packages
   url: packages/inth-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/packages/inth-packages.yml
   title: ''
   type: SDKs
   url: packages/inth-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/cli/inth-cli.yml
   title: ''
   type: CLI
   url: cli/inth-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/components/inth-components.yml
   title: ''
   type: Components
   url: components/inth-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/conventions/inth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inth-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/authentication/inth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inth-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/errors/inth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/inth-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/conformance/inth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inth-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/conformance/inth-conformance.yml
   title: ''
   type: Compliance
   url: conformance/inth-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/data-model/inth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/inth-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/changelog/inth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/inth-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/mcp/inth-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/inth-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/llms/inth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inth-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/well-known/inth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/inth-well-known.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/sandbox/inth-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/inth-sandbox.yml
@@ -200,6 +246,40 @@ overview: 'Inth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
   Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 25 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 50.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 49.4
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 50.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:
 - kind: authentication

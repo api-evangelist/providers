@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 45.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -263,6 +288,7 @@ common:
   type: Website
   url: https://www.agentmail.to/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/capabilities/agentmail-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/agentmail-capability-edges.yml
@@ -307,10 +333,12 @@ common:
   type: ChangeLog
   url: https://docs.agentmail.to/changelog
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/openapi/_original/agentmail-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/agentmail-openapi-original.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/asyncapi/agentmail-websockets-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/agentmail-websockets-asyncapi.yml
@@ -319,50 +347,62 @@ common:
   type: Webhooks
   url: https://docs.agentmail.to/webhooks-overview
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/overlays/agentmail-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agentmail-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/authentication/agentmail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentmail-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/agentic-access/agentmail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agentmail-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/security/agentmail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentmail-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/packages/agentmail-packages.yml
   title: ''
   type: Packages
   url: packages/agentmail-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/packages/agentmail-packages.yml
   title: ''
   type: SDKs
   url: packages/agentmail-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/cli/agentmail-cli.yml
   title: ''
   type: CLI
   url: cli/agentmail-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/mcp/agentmail-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agentmail-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/llms/agentmail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentmail-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/well-known/agentmail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agentmail-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/well-known/agentmail-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/agentmail-api-catalog.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/conformance/agentmail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentmail-conformance.yml
@@ -371,34 +411,42 @@ common:
   type: Compliance
   url: https://docs.agentmail.to/documentation/resources/security-privacy/soc-2-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/security/agentmail-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agentmail-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/errors/agentmail-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/agentmail-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/lifecycle/agentmail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentmail-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/conventions/agentmail-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentmail-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/conventions/agentmail-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/agentmail-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/changelog/agentmail-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agentmail-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/data-model/agentmail-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agentmail-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -422,6 +470,41 @@ overview: 'AgentMail publishes 29 APIs on the [APIs.io](https://apis.io/) networ
 
   AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 29 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 50.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 64.2
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 50.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/screenshots/agentmail-2026-07-25T195240.png
 security:
 - kind: authentication

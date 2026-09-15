@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://admin.austin.ownlocal.com
@@ -48,22 +73,27 @@ collections:
   slug: open-ownlocal-reports-data-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/overlays/ownlocal-ads-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ownlocal-ads-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/overlays/ownlocal-businesses-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ownlocal-businesses-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/overlays/ownlocal-categories-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ownlocal-categories-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/overlays/ownlocal-reports-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ownlocal-reports-data-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/mcp/ownlocal-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ownlocal-mcp.yml
@@ -100,50 +130,62 @@ common:
   type: StatusPage
   url: https://status.ownlocal.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/authentication/ownlocal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ownlocal-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/conventions/ownlocal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ownlocal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/data-model/ownlocal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ownlocal-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/errors/ownlocal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ownlocal-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/lifecycle/ownlocal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ownlocal-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/conformance/ownlocal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ownlocal-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/rate-limits/ownlocal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ownlocal-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/plans/ownlocal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ownlocal-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/packages/ownlocal-packages.yml
   title: ''
   type: Packages
   url: packages/ownlocal-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/llms/ownlocal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ownlocal-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/security/ownlocal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ownlocal-domain-security.yml
@@ -169,6 +211,40 @@ rate_limits:
 - limit_count: 0
   name: Ownlocal Rate Limits
   slug: ownlocal-rate-limits
+score:
+  band: thin
+  composite: 33.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 54.4
+    developer_ergonomics: 35.1
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 33.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:
 - kind: authentication

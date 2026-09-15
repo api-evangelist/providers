@@ -20,14 +20,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/tradevela
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-labs/refs/heads/main/packages/vela-fka-sr-labs-packages.yml
   title: ''
   type: Packages
   url: packages/vela-fka-sr-labs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-labs/refs/heads/main/llms/vela-fka-sr-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vela-fka-sr-labs-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vela-fka-sr-labs/refs/heads/main/security/vela-fka-sr-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vela-fka-sr-labs-domain-security.yml

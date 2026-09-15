@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -138,74 +163,92 @@ collections:
   slug: open-octav-wallet-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/security/octav-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octav-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/agentic-access/octav-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/octav-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/authentication/octav-authentication.yml
   title: ''
   type: Authentication
   url: authentication/octav-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/openapi/_original/octav-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/octav-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/overlays/octav-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/octav-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/mcp/octav-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/octav-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/packages/octav-packages.yml
   title: ''
   type: Packages
   url: packages/octav-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/cli/octav-cli.yml
   title: ''
   type: CLI
   url: cli/octav-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/llms/octav-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/octav-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/conventions/octav-conventions.yml
   title: ''
   type: Conventions
   url: conventions/octav-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/errors/octav-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/octav-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/lifecycle/octav-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/octav-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/conformance/octav-conformance.yml
   title: ''
   type: Conformance
   url: conformance/octav-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/conformance/octav-conformance.yml
   title: ''
   type: Compliance
   url: conformance/octav-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/data-model/octav-data-model.yml
   title: ''
   type: DataModel
   url: data-model/octav-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/well-known/octav-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/octav-well-known.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/changelog/octav-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/octav-changelog.yml
@@ -274,6 +317,47 @@ overview: 'Octav publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
   Octav''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 52.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 56.6
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 52.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/screenshots/octav-2026-08-07T185936.png
 security:
 - kind: authentication

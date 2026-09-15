@@ -22,18 +22,22 @@ asyncapis:
   slug: tugboat-yards-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tugboat-yards/refs/heads/main/llms/tugboat-yards-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tugboat-yards-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tugboat-yards/refs/heads/main/packages/tugboat-yards-packages.yml
   title: ''
   type: Packages
   url: packages/tugboat-yards-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tugboat-yards/refs/heads/main/lifecycle/tugboat-yards-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tugboat-yards-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tugboat-yards/refs/heads/main/security/tugboat-yards-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tugboat-yards-domain-security.yml

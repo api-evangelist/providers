@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shoreline-biosciences/refs/heads/main/security/shoreline-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shoreline-biosciences-domain-security.yml

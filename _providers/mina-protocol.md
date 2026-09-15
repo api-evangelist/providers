@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Native GraphQL API served by the Mina daemon (default port 3085) to query blockchain data — accounts, blocks, transactions, pending pool, daemon status — and submit signed transactions including zkApp
@@ -20,6 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/security/mina-protocol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mina-protocol-domain-security.yml
@@ -48,38 +74,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/MinaProtocol
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/changelog/mina-protocol-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mina-protocol-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/packages/mina-protocol-packages.yml
   title: ''
   type: Packages
   url: packages/mina-protocol-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/packages/mina-protocol-packages.yml
   title: ''
   type: SDKs
   url: packages/mina-protocol-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/cli/mina-protocol-cli.yml
   title: ''
   type: CLI
   url: cli/mina-protocol-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/sandbox/mina-protocol-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mina-protocol-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/conventions/mina-protocol-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mina-protocol-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/authentication/mina-protocol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mina-protocol-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/conformance/mina-protocol-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mina-protocol-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/llms/mina-protocol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mina-protocol-llms.txt
@@ -96,6 +131,34 @@ overview: 'Mina Protocol publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
   Mina Protocol''s developer surface includes documentation, API reference, getting-started guide, changelog, CLI, sandbox, authentication, and 9 more developer resources.'
 random_paper: 4
+score:
+  band: emerging
+  composite: 25.5
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 66.7
+    operational_transparency: 18.4
+  previous_composite: 25.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mina-protocol/refs/heads/main/screenshots/mina-protocol-2026-08-07T172922.png
 security:
 - kind: authentication

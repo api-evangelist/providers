@@ -24,10 +24,12 @@ common:
   type: ShutdownNotice
   url: https://www.prnewswire.com/news-releases/dean-foods-company-initiates-voluntary-reorganization-with-new-financial-support-from-existing-lenders-300956285.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dean-foods/refs/heads/main/security/dean-foods-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dean-foods-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dean-foods/refs/heads/main/llms/dean-foods-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dean-foods-llms.txt

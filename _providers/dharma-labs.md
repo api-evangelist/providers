@@ -24,10 +24,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/dharmaprotocol
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dharma-labs/refs/heads/main/packages/dharma-labs-packages.yml
   title: ''
   type: Packages
   url: packages/dharma-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dharma-labs/refs/heads/main/packages/dharma-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/dharma-labs-packages.yml

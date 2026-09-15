@@ -10,6 +10,31 @@ access_model:
   - https://ui.api.rb2b.com/signup
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Credit-metered Identification endpoints that convert anonymous web signals (IP addresses) into business identifiers — POST /ip_to_company, POST /ip_to_hem (hashed email, ranked by confidence) and POST
@@ -107,54 +132,67 @@ common:
   type: Instagram
   url: https://www.instagram.com/retentiondotcom/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/llms/rb2b-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rb2b-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/mcp/rb2b-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rb2b-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/mcp/rb2b-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rb2b-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/packages/rb2b-packages.yml
   title: ''
   type: Packages
   url: packages/rb2b-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/packages/rb2b-packages.yml
   title: ''
   type: SDKs
   url: packages/rb2b-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/cli/rb2b-cli.yml
   title: ''
   type: CLI
   url: cli/rb2b-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/authentication/rb2b-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rb2b-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/errors/rb2b-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/rb2b-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/conventions/rb2b-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rb2b-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/rate-limits/rb2b-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rb2b-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/plans/rb2b-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rb2b-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/lifecycle/rb2b-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rb2b-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/changelog/rb2b-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rb2b-changelog.yml
@@ -163,34 +201,42 @@ common:
   type: ChangeLog
   url: https://support.rb2b.com/en/articles/10442291-changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/conformance/rb2b-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rb2b-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/conformance/rb2b-conformance.yml
   title: ''
   type: Compliance
   url: conformance/rb2b-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/asyncapi/rb2b-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rb2b-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/components/rb2b-components.yml
   title: ''
   type: Components
   url: components/rb2b-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/data-model/rb2b-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rb2b-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/security/rb2b-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rb2b-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/security/rb2b-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rb2b-domain-security.yml
@@ -226,6 +272,36 @@ rate_limits:
 - limit_count: 2
   name: Rb2B Rate Limits
   slug: rb2b-rate-limits
+score:
+  band: strong
+  composite: 58.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 44.7
+  previous_composite: 58.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/screenshots/rb2b-2026-06-20T192625.png
 security:
 - kind: authentication

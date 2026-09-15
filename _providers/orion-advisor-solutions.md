@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.orionadvisor.com/api/v1
@@ -13,10 +38,12 @@ asyncapis:
   slug: orion-advisor-solutions-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/security/orion-advisor-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orion-advisor-solutions-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/authentication/orion-advisor-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orion-advisor-solutions-authentication.yml
@@ -69,50 +96,62 @@ common:
   type: Compliance
   url: https://trustcenter.orion.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/conformance/orion-advisor-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orion-advisor-solutions-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/errors/orion-advisor-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orion-advisor-solutions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/lifecycle/orion-advisor-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orion-advisor-solutions-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/sandbox/orion-advisor-solutions-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orion-advisor-solutions-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/conventions/orion-advisor-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orion-advisor-solutions-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/packages/orion-advisor-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/orion-advisor-solutions-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/llms/orion-advisor-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orion-advisor-solutions-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/mcp/orion-advisor-solutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/orion-advisor-solutions-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/data-model/orion-advisor-solutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orion-advisor-solutions-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/plans/orion-advisor-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orion-advisor-solutions-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orion-advisor-solutions/refs/heads/main/rate-limits/orion-advisor-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orion-advisor-solutions-rate-limits.yml
@@ -123,7 +162,7 @@ modified: '2026-09-10'
 name: Orion Advisor Solutions
 nav: Providers
 network: true
-overview: 'Orion Advisor Solutions publishes 1 API on the [APIs.io](https://apis.io/) network: Orion API. Tagged areas include wealth-management, fintech, financial-advisors, portfolio-accounting, and trading-rebalancing.
+overview: 'Orion Advisor Solutions publishes 1 API on the [APIs.io](https://apis.io/) network: Orion API. Tagged areas include Wealth Management, Fintech, Financial Advisors, portfolio-accounting, and trading-rebalancing.
 
 
   The Orion Advisor Solutions catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -139,6 +178,40 @@ rate_limits:
 - limit_count: 0
   name: Orion Advisor Solutions Rate Limits
   slug: orion-advisor-solutions-rate-limits
+score:
+  band: developing
+  composite: 48.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 51.1
+    developer_ergonomics: 66.1
+    discoverability: 72.2
+    operational_transparency: 26.3
+  previous_composite: 48.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 security:
 - kind: authentication
   name: Orion Advisor Solutions Authentication
@@ -154,15 +227,15 @@ security:
   summary_line: SOC 1 Type 1, SOC 1 Type 2, SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023
 slug: orion-advisor-solutions
 tags:
-- wealth-management
-- fintech
-- financial-advisors
+- Wealth Management
+- Fintech
+- Financial Advisors
 - portfolio-accounting
 - trading-rebalancing
-- financial-planning
-- billing
-- reporting
-- risk
+- Financial Planning
+- Billing
+- Reporting
+- Risk
 - RIA-technology
 website: https://orion.com
 ---

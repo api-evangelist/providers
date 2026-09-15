@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -712,22 +737,27 @@ common:
   type: ContributionGuide
   url: https://github.com/Azure/api-management-self-hosted-gateway/blob/main/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/agentic-access/microsoft-azure-api-management-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-api-management-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/security/microsoft-azure-api-management-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-azure-api-management-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/security/microsoft-azure-api-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-api-management-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/authentication/microsoft-azure-api-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-api-management-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/scopes/microsoft-azure-api-management-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-api-management-scopes.yml
@@ -736,118 +766,147 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-azure-api-management/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-ai-gateway-chat-and-embed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-ai-gateway-chat-and-embed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-apply-api-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-apply-api-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-backup-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-backup-service-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-configure-api-diagnostic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-configure-api-diagnostic-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-configure-graphql-resolver-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-configure-graphql-resolver-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-configure-logger-diagnostic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-configure-logger-diagnostic-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-configure-product-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-configure-product-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-define-api-operation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-define-api-operation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-devportal-discover-and-invoke-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-devportal-discover-and-invoke-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-link-product-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-link-product-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-manage-workspace-named-value-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-manage-workspace-named-value-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-onboard-user-to-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-onboard-user-to-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-provision-backend-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-provision-backend-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-provision-certificate-backend-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-provision-certificate-backend-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-provision-product-link-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-provision-product-link-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-provision-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-provision-service-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-provision-subscription-keys-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-provision-subscription-keys-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-provision-workspace-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-provision-workspace-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-provision-workspace-product-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-provision-workspace-product-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-publish-api-release-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-publish-api-release-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-register-api-schema-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-register-api-schema-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-register-gateway-link-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-register-gateway-link-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-rotate-subscription-keys-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-rotate-subscription-keys-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-set-service-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-set-service-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-tag-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-tag-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-tag-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-tag-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-upsert-api-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-upsert-api-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-upsert-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-upsert-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/arazzo/microsoft-azure-api-management-upsert-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-api-management-upsert-user-workflow.yml
@@ -1020,22 +1079,27 @@ common:
   type: VSCodeExtension
   url: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-apimanagement
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/rules/microsoft-azure-api-management-rules.yaml
   title: ''
   type: SpectralRules
   url: rules/microsoft-azure-api-management-rules.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/vocabulary/microsoft-azure-api-management-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-azure-api-management-vocabulary.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/plans/microsoft-azure-api-management-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-api-management-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/rate-limits/microsoft-azure-api-management-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-api-management-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/finops/microsoft-azure-api-management-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-api-management-finops.yml
@@ -1378,6 +1442,38 @@ scopes:
   scope_count: 1
   slug: microsoft-azure-api-management-scopes
   summary_line: 1 scope · implicit
+score:
+  band: exemplar
+  composite: 67.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 67.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 28.8
+    contract_quality: 57.0
+    developer_ergonomics: 89.3
+    discoverability: 77.8
+    operational_transparency: 52.6
+  previous_composite: 67.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 13
+      marker_coverage: 17.6
+      total: 74
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:
 - kind: authentication

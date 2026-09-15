@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the Solsten assessment and persona platform. Documented operations cover listing users who completed an assessment (paged, 500 per page, one-hour cache), checking a single user's assessme
@@ -51,62 +76,77 @@ common:
   type: PrivacyPolicy
   url: https://solsten.io/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/llms/12traits-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/12traits-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/authentication/12traits-authentication.yml
   title: ''
   type: Authentication
   url: authentication/12traits-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/conventions/12traits-conventions.yml
   title: ''
   type: Conventions
   url: conventions/12traits-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/errors/12traits-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/12traits-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/data-model/12traits-data-model.yml
   title: ''
   type: DataModel
   url: data-model/12traits-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/rate-limits/12traits-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/12traits-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/plans/12traits-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/12traits-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/lifecycle/12traits-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/12traits-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/asyncapi/12traits-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/12traits-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/conformance/12traits-conformance.yml
   title: ''
   type: Conformance
   url: conformance/12traits-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/conformance/12traits-conformance.yml
   title: ''
   type: Compliance
   url: conformance/12traits-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/packages/12traits-packages.yml
   title: ''
   type: Packages
   url: packages/12traits-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/security/12traits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/12traits-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/security/12traits-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/12traits-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/12traits/refs/heads/main/security/12traits-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/12traits-vulnerability-disclosure.yml
@@ -138,6 +178,40 @@ rate_limits:
 - limit_count: 0
   name: 12Traits Rate Limits
   slug: 12traits-rate-limits
+score:
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 45.2
+    discoverability: 75.9
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 39.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: 12Traits Authentication

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -35,18 +60,22 @@ collections:
   slug: open-open-insurance-certificate-of-currency
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/capabilities/open-insurance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/open-insurance-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/overlays/open-insurance-certificate-of-currency-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/open-insurance-certificate-of-currency-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/security/open-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-insurance-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/agentic-access/open-insurance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-insurance-agentic-access.yml
@@ -127,66 +156,82 @@ common:
   type: Compliance
   url: https://www.beopen.com/terms/australia
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/authentication/open-insurance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/open-insurance-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/conventions/open-insurance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/open-insurance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/errors/open-insurance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/open-insurance-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/errors/open-insurance-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/open-insurance-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/lifecycle/open-insurance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/open-insurance-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/conformance/open-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/open-insurance-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/sandbox/open-insurance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/open-insurance-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/components/open-insurance-components.yml
   title: ''
   type: Components
   url: components/open-insurance-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/data-model/open-insurance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/open-insurance-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/packages/open-insurance-packages.yml
   title: ''
   type: Packages
   url: packages/open-insurance-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/packages/open-insurance-packages.yml
   title: ''
   type: SDKs
   url: packages/open-insurance-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/well-known/open-insurance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/open-insurance-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/mcp/open-insurance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/open-insurance-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/mcp/open-insurance-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/open-insurance-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/llms/open-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/open-insurance-llms.txt
@@ -204,6 +249,54 @@ overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Poli
 
   Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 32 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 43.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 45.6
+    developer_ergonomics: 53.0
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 43.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 45.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:
 - kind: authentication

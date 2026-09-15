@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Headless flow-execution API for iX Hello Customer v2. Starts a stateful conversational session against an authored flow, sends user turns into it, reads accumulated session variables, and terminates t
@@ -47,62 +72,77 @@ common:
   type: StatusPage
   url: https://ixhellosidekick.statuspage.io/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/llms/concentrix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/concentrix-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/llms/concentrix-ixhello-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/concentrix-ixhello-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/well-known/concentrix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/concentrix-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/authentication/concentrix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/concentrix-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/conventions/concentrix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/concentrix-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/errors/concentrix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/concentrix-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/lifecycle/concentrix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/concentrix-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/rate-limits/concentrix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/concentrix-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/plans/concentrix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/concentrix-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/asyncapi/concentrix-ix-hello-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/concentrix-ix-hello-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/data-model/concentrix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/concentrix-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/components/concentrix-components.yml
   title: ''
   type: Components
   url: components/concentrix-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/sandbox/concentrix-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/concentrix-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/conformance/concentrix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/concentrix-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/security/concentrix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/concentrix-domain-security.yml
@@ -174,6 +214,35 @@ rate_limits:
 - limit_count: 0
   name: Concentrix Rate Limits
   slug: concentrix-rate-limits
+score:
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 54.8
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 38.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/concentrix/refs/heads/main/screenshots/concentrix-2026-06-20T174841.png
 security:
 - kind: authentication
@@ -195,7 +264,7 @@ tags:
 - Enterprise Services
 - Contact Center
 - Voice
-- Webhooks
+- Webhook
 - Fortune 500
 website: https://www.concentrix.com
 ---

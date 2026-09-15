@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Booksy Public API is a partner-facing REST API for managing Booksy businesses and their booking data. It is organized around resource-oriented URLs, returns JSON, uses standard HTTP verbs and stat
@@ -77,54 +102,67 @@ common:
   type: ChangeLog
   url: https://biz.booksy.com/whats-new
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/authentication/booksy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/booksy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/conventions/booksy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/booksy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/errors/booksy-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/booksy-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/rate-limits/booksy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/booksy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/plans/booksy-plans.yml
   title: ''
   type: Plans
   url: plans/booksy-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/lifecycle/booksy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/booksy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/changelog/booksy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/booksy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/asyncapi/booksy-appointment-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/booksy-appointment-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/data-model/booksy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/booksy-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/sandbox/booksy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/booksy-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/conformance/booksy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/booksy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/security/booksy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/booksy-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/llms/booksy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/booksy-llms.txt
@@ -153,6 +191,40 @@ rate_limits:
 - limit_count: 2
   name: Booksy Rate Limits
   slug: booksy-rate-limits
+score:
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 39.3
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 51.2
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/screenshots/booksy-2026-08-07T162726.png
 security:
 - kind: authentication

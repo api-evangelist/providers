@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,14 +68,17 @@ collections:
   slug: open-eruditus-executive-education-programs-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/capabilities/eruditus-executive-education-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eruditus-executive-education-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/overlays/eruditus-executive-education-leads-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eruditus-executive-education-leads-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/agentic-access/eruditus-executive-education-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eruditus-executive-education-agentic-access.yml
@@ -103,58 +131,72 @@ common:
   type: Security
   url: https://emeritus.org/reporting-a-vulnerabilities/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/security/eruditus-executive-education-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eruditus-executive-education-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/security/eruditus-executive-education-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eruditus-executive-education-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/authentication/eruditus-executive-education-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eruditus-executive-education-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/errors/eruditus-executive-education-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eruditus-executive-education-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/conventions/eruditus-executive-education-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eruditus-executive-education-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/lifecycle/eruditus-executive-education-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eruditus-executive-education-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/sandbox/eruditus-executive-education-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eruditus-executive-education-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/data-model/eruditus-executive-education-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eruditus-executive-education-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/conformance/eruditus-executive-education-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eruditus-executive-education-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/packages/eruditus-executive-education-packages.yml
   title: ''
   type: Packages
   url: packages/eruditus-executive-education-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/mcp/eruditus-executive-education-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eruditus-executive-education-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/mcp/eruditus-executive-education-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/eruditus-executive-education-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/llms/eruditus-executive-education-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eruditus-executive-education-llms.txt
@@ -171,6 +213,54 @@ overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
   Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 15.2
+    developer_ergonomics: 66.1
+    discoverability: 68.5
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 36.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:
 - kind: authentication

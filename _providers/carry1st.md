@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -67,6 +92,7 @@ collections:
   slug: open-carry1st-refunds-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/overlays/carry1st-pay1st-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/carry1st-pay1st-gateway-overlay.yaml
@@ -107,30 +133,37 @@ common:
   type: Support
   url: https://www.carry1st.com/contact
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/changelog/carry1st-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/carry1st-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/authentication/carry1st-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carry1st-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/conventions/carry1st-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/carry1st-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/conventions/carry1st-conventions.yml
   title: ''
   type: Conventions
   url: conventions/carry1st-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/errors/carry1st-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/carry1st-problem-types.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/sandbox/carry1st-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/carry1st-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/lifecycle/carry1st-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carry1st-lifecycle.yml
@@ -139,46 +172,57 @@ common:
   type: Deprecation
   url: https://pay1st-docs.carry1st.com/reference/gateway-migration-guide
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/security/carry1st-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carry1st-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/conformance/carry1st-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carry1st-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/well-known/carry1st-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/carry1st-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/mcp/carry1st-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/carry1st-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/llms/carry1st-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carry1st-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/packages/carry1st-packages.yml
   title: ''
   type: Packages
   url: packages/carry1st-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/data-model/carry1st-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carry1st-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/asyncapi/carry1st-pay1st-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/carry1st-pay1st-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/agentic-access/carry1st-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/carry1st-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/arazzo/carry1st-collect-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/carry1st-collect-payment.yml
@@ -198,6 +242,52 @@ overview: 'Carry1st publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
   Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 22 more developer resources.'
 random_paper: 6
+score:
+  band: thin
+  composite: 31.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 22.6
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 27.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 31.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
 security:
 - kind: authentication

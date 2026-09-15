@@ -11,6 +11,32 @@ access_model:
   - documentation
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.9
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://{customer-host}:8080/OB-API-REST/v2
@@ -60,14 +86,17 @@ asyncapis:
   slug: diebold-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/authentication/diebold-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diebold-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/security/diebold-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/diebold-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/security/diebold-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diebold-domain-security.yml
@@ -84,66 +113,82 @@ common:
   type: Support
   url: https://www.dieboldnixdorf.com/en-us/support
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/security/diebold-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/diebold-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/conventions/diebold-conventions.yml
   title: ''
   type: Conventions
   url: conventions/diebold-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/conventions/diebold-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/diebold-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/errors/diebold-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/diebold-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/errors/diebold-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/diebold-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/conformance/diebold-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diebold-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/lifecycle/diebold-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diebold-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/data-model/diebold-data-model.yml
   title: ''
   type: DataModel
   url: data-model/diebold-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/plans/diebold-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/diebold-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/rate-limits/diebold-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/diebold-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/sandbox/diebold-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/diebold-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/packages/diebold-packages.yml
   title: ''
   type: Packages
   url: packages/diebold-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/llms/diebold-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/diebold-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/mcp/diebold-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/diebold-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/asyncapi/diebold-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/diebold-webhooks.yml
@@ -211,6 +256,50 @@ rate_limits:
 - limit_count: 0
   name: Diebold Rate Limits
   slug: diebold-rate-limits
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 61.6
+    developer_ergonomics: 51.8
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 45.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: berlin-group-nextgenpsd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 67.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/screenshots/diebold-2026-06-20T180010.png
 security:
 - kind: authentication

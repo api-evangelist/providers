@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'REST API for the Acquire (formerly Tagove) customer support platform: conversations/cases, messages, notes, contacts, companies, phone, chatbots, cards, analytics, knowledge base, and account settings'
@@ -65,50 +90,62 @@ common:
   type: Blog
   url: https://acquire.io/blog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/llms/tagove-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tagove-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/authentication/tagove-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tagove-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/conventions/tagove-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tagove-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/errors/tagove-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tagove-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/asyncapi/tagove-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tagove-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/packages/tagove-packages.yml
   title: ''
   type: Packages
   url: packages/tagove-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/packages/tagove-packages.yml
   title: ''
   type: SDKs
   url: packages/tagove-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/components/tagove-components.yml
   title: ''
   type: Components
   url: components/tagove-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/lifecycle/tagove-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tagove-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/conformance/tagove-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tagove-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/data-model/tagove-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tagove-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/security/tagove-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tagove-domain-security.yml
@@ -128,6 +165,34 @@ overview: 'Tagove publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Tagove''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 16 more developer resources.'
 random_paper: 16
+score:
+  band: thin
+  composite: 37.0
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 37.0
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Tagove Authentication

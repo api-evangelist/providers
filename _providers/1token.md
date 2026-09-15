@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,6 +65,7 @@ common:
   type: ChangeLog
   url: https://1token.tech/insights/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/changelog/1token-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/1token-changelog.yml
@@ -52,18 +78,22 @@ common:
   type: Compliance
   url: https://1token.tech/trust-center
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/security/1token-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/1token-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/security/1token-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/1token-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/security/1token-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1token-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/well-known/1token-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1token-well-known.yml
@@ -72,62 +102,77 @@ common:
   type: APICatalog
   url: https://1token.tech/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/llms/1token-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1token-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/authentication/1token-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1token-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/conventions/1token-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1token-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/conformance/1token-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1token-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/errors/1token-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1token-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/lifecycle/1token-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1token-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/data-model/1token-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1token-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/rate-limits/1token-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1token-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/plans/1token-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1token-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/packages/1token-packages.yml
   title: ''
   type: Packages
   url: packages/1token-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/mcp/1token-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/1token-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/agentic-access/1token-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1token-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/overlays/1token-1ndex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/1token-1ndex-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/packages/1token-packages.yml
   title: ''
   type: SDKs
   url: packages/1token-packages.yml
@@ -151,7 +196,7 @@ modified: '2026-09-05'
 name: 1Token
 nav: Providers
 network: true
-overview: '1Token publishes 1 API on the [APIs.io](https://apis.io/) network: 1ndex Public Strategy Overview API. Tagged areas include Digital Assets, Crypto, Portfolio Management, Risk Management, and Fund Administration.
+overview: '1Token publishes 1 API on the [APIs.io](https://apis.io/) network: 1ndex Public Strategy Overview API. Tagged areas include Digital Assets, Crypto, Portfolio-Management, Risk Management, and Fund Administration.
 
 
   1Token''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, support, and 26 more developer resources.'
@@ -164,6 +209,48 @@ rate_limits:
 - limit_count: 0
   name: 1Token Rate Limits
   slug: 1token-rate-limits
+score:
+  band: developing
+  composite: 42.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 22.4
+    contract_governance: 18.2
+    contract_quality: 51.7
+    developer_ergonomics: 44.6
+    discoverability: 87.0
+    operational_transparency: 13.2
+  previous_composite: 42.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 56.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: 1Token Authentication
@@ -185,7 +272,7 @@ slug: 1token
 tags:
 - Digital Assets
 - Crypto
-- Portfolio Management
+- Portfolio-Management
 - Risk Management
 - Fund Administration
 - Reconciliation

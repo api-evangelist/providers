@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: One REST API to detect AI-generated and manipulated images, audio, and documents — and fact-check media against the public record. Bearer API-token auth with per-key detection scopes (image, audio, fa
@@ -17,6 +42,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/security/raid-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raid-ai-domain-security.yml
@@ -69,30 +95,37 @@ common:
   type: PrivacyPolicy
   url: https://raidxai.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/authentication/raid-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/raid-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/scopes/raid-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/raid-ai-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/well-known/raid-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/raid-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/llms/raid-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/raid-ai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/conventions/raid-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/raid-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/errors/raid-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/raid-ai-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/lifecycle/raid-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/raid-ai-lifecycle.yml
@@ -101,14 +134,17 @@ common:
   type: Deprecation
   url: https://docs.raidxai.com/docs/versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/conformance/raid-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/raid-ai-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/mcp/raid-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/raid-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -138,6 +174,36 @@ scopes:
   scope_count: 0
   slug: raid-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 24.7
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 24.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/screenshots/raid-ai-2026-09-02T152809.png
 security:
 - kind: authentication

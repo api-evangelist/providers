@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Create and update projects and organize their contents in folders - the top-level container that takeoffs, plans, and estimates hang off of. Modeled from STACK's developer tutorials (POST/PUT /Project
@@ -32,6 +57,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stack-takeoff/refs/heads/main/security/stack-takeoff-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stack-takeoff-domain-security.yml
@@ -56,14 +82,17 @@ common:
   type: SignUp
   url: https://www.stackct.com/developers/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stack-takeoff/refs/heads/main/plans/stack-takeoff-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stack-takeoff-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stack-takeoff/refs/heads/main/rate-limits/stack-takeoff-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stack-takeoff-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stack-takeoff/refs/heads/main/finops/stack-takeoff-finops.yml
   title: ''
   type: FinOps
   url: finops/stack-takeoff-finops.yml
@@ -96,6 +125,32 @@ rate_limits:
 - limit_count: 4
   name: Stack Takeoff Rate Limits
   slug: stack-takeoff-rate-limits
+score:
+  band: thin
+  composite: 28.2
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 67.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 31.0
+    discoverability: 74.1
+    operational_transparency: 31.6
+  previous_composite: 28.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-takeoff/refs/heads/main/screenshots/stack-takeoff-2026-09-02T160710.png
 security:
 - kind: domain-security

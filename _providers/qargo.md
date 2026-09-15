@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -207,10 +232,12 @@ collections:
   slug: open-qargo-webhooks-outbound-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/capabilities/qargo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qargo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/overlays/qargo-tms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qargo-tms-overlay.yaml
@@ -235,30 +262,37 @@ common:
   type: GettingStarted
   url: https://api-docs.qargo.com/docs/section/authentication/the-api-call-to-request-tokens
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/authentication/qargo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qargo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/authentication/qargo-authentication.yml
   title: ''
   type: OAuthScopes
   url: authentication/qargo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/conventions/qargo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qargo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/errors/qargo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qargo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/lifecycle/qargo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qargo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/lifecycle/qargo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qargo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/changelog/qargo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qargo-changelog.yml
@@ -267,42 +301,52 @@ common:
   type: ChangeLog
   url: https://api-docs.qargo.com/docs/section/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/mcp/qargo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qargo-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/asyncapi/qargo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qargo-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/agentic-access/qargo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qargo-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/data-model/qargo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qargo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/conformance/qargo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qargo-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/security/qargo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qargo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/well-known/qargo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qargo-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/llms/qargo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qargo-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/postman/qargo-postman.json
   title: ''
   type: Postman
   url: postman/qargo-postman.json
@@ -346,6 +390,41 @@ overview: 'Qargo publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
   Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
 random_paper: 13
+score:
+  band: developing
+  composite: 47.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 60.9
+    developer_ergonomics: 60.1
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 47.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/screenshots/qargo-2026-08-17T081412.png
 security:
 - kind: authentication

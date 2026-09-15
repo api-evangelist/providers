@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -114,10 +139,12 @@ collections:
   slug: open-nayya-token-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/capabilities/nayya-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nayya-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/overlays/nayya-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nayya-accounts-overlay.yaml
@@ -166,14 +193,17 @@ common:
   type: Compliance
   url: https://trust.nayya.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/security/nayya-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nayya-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/security/nayya-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nayya-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/security/nayya-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nayya-vulnerability-disclosure.yml
@@ -182,46 +212,57 @@ common:
   type: Security
   url: https://trust.nayya.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/authentication/nayya-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nayya-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/agentic-access/nayya-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nayya-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/conventions/nayya-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nayya-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/errors/nayya-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nayya-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/lifecycle/nayya-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nayya-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/data-model/nayya-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nayya-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/conformance/nayya-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nayya-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/components/nayya-components.yml
   title: ''
   type: Components
   url: components/nayya-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/mcp/nayya-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nayya-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/llms/nayya-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nayya-llms.txt
@@ -238,6 +279,47 @@ overview: 'Nayya publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
   Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 0
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 53.6
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 54.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/screenshots/nayya-2026-08-07T184744.png
 security:
 - kind: authentication

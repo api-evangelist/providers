@@ -10,6 +10,31 @@ access_model:
   - open-data
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -196,46 +221,57 @@ collections:
   slug: open-obie-opendata
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/capabilities/first-direct-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/first-direct-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/mcp/first-direct-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/first-direct-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/agentic-access/first-direct-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/first-direct-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/security/first-direct-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/first-direct-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/scopes/first-direct-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/first-direct-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/authentication/first-direct-authentication.yml
   title: ''
   type: Authentication
   url: authentication/first-direct-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/conventions/first-direct-conventions.yml
   title: ''
   type: Conventions
   url: conventions/first-direct-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/conventions/first-direct-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/first-direct-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/errors/first-direct-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/first-direct-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/conformance/first-direct-conformance.yml
   title: ''
   type: Conformance
   url: conformance/first-direct-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/lifecycle/first-direct-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/first-direct-lifecycle.yml
@@ -244,14 +280,17 @@ common:
   type: Deprecation
   url: https://standards.openbanking.org.uk/operational-guidelines/change-and-communication-management/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/changelog/first-direct-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/first-direct-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/data-model/first-direct-data-model.yml
   title: ''
   type: DataModel
   url: data-model/first-direct-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/sandbox/first-direct-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/first-direct-sandbox.yml
@@ -260,14 +299,17 @@ common:
   type: Postman
   url: https://develop.hsbc.com/knowledge-article/get-started-open-banking-apis
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/well-known/first-direct-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/first-direct-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/well-known/first-direct-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/first-direct-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/security/first-direct-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/first-direct-vulnerability-disclosure.yml
@@ -276,26 +318,32 @@ common:
   type: Security
   url: https://www.hsbc.com/.well-known/security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/llms/first-direct-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/first-direct-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/overlays/first-direct-obie-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/first-direct-obie-account-info-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/overlays/first-direct-obie-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/first-direct-obie-payment-initiation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/overlays/first-direct-obie-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/first-direct-obie-confirmation-funds-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/overlays/first-direct-obie-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/first-direct-obie-opendata-overlay.yaml
@@ -362,6 +410,59 @@ scopes:
   scope_count: 3
   slug: first-direct-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 50.9
+    developer_ergonomics: 68.5
+    discoverability: 81.5
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 53.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 78.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png
 security:
 - kind: authentication

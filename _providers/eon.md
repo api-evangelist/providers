@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 6
@@ -178,70 +203,87 @@ common:
   type: Compliance
   url: https://trust.eon.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/security/eon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/eon-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/security/eon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eon-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/authentication/eon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eon-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/agentic-access/eon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eon-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/packages/eon-packages.yml
   title: ''
   type: Packages
   url: packages/eon-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/packages/eon-packages.yml
   title: ''
   type: SDKs
   url: packages/eon-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/well-known/eon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eon-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/llms/eon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eon-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/conventions/eon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/errors/eon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/errors/eon-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/eon-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/lifecycle/eon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eon-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/conformance/eon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/data-model/eon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eon-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/overlays/eon-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eon-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/mcp/eon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eon-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -258,6 +300,41 @@ overview: 'Eon publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
   Eon''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 43.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 55.9
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 43.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-08-17T123419.png
 security:
 - kind: authentication

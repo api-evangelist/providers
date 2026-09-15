@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -197,18 +222,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/censys/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/agentic-access/censys-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/censys-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/security/censys-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/censys-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/security/censys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/censys-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/authentication/censys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/censys-authentication.yml
@@ -297,26 +326,32 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/plans/censys-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/censys-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/rate-limits/censys-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/censys-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/finops/censys-finops.yml
   title: ''
   type: FinOps
   url: finops/censys-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/rules/censys-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/censys-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/vocabulary/censys-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/censys-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/json-ld/censys-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/censys-context.jsonld
@@ -10789,6 +10824,38 @@ rules:
     info: 1
     warn: 30
   slug: censys-spectral-rules
+score:
+  band: strong
+  composite: 65.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 84.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 28.8
+    contract_quality: 68.1
+    developer_ergonomics: 67.9
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/screenshots/censys-2026-06-20T174122.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - probe
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 32.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,22 +87,27 @@ collections:
   slug: open-infor-m3-api-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/agentic-access/infor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/infor-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/security/infor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/infor-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/security/infor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infor-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/authentication/infor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infor-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/scopes/infor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/infor-scopes.yml
@@ -126,102 +156,127 @@ common:
   type: SDKs
   url: https://github.com/infor-cloud/ion-api-sdk
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/_original/infor-ion-api-gateway-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/infor-ion-api-gateway-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/json-schema/infor-m3-customer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/infor-m3-customer-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/json-ld/infor-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/infor-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/asyncapi/infor-ion-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/infor-ion-events-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/llms/infor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infor-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/packages/infor-packages.yml
   title: ''
   type: Packages
   url: packages/infor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/packages/infor-packages.yml
   title: ''
   type: SDKs
   url: packages/infor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/cli/infor-cli.yml
   title: ''
   type: CLI
   url: cli/infor-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/components/infor-components.yml
   title: ''
   type: Components
   url: components/infor-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/mcp/infor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/infor-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/mcp/infor-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/infor-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/conventions/infor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/errors/infor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/infor-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/lifecycle/infor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infor-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/lifecycle/infor-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/infor-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/conformance/infor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infor-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/conformance/infor-conformance.yml
   title: ''
   type: Compliance
   url: conformance/infor-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/data-model/infor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/infor-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/changelog/infor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/infor-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/asyncapi/infor-ion-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/infor-ion-events-asyncapi.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/plans/infor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/infor-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/rate-limits/infor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/infor-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/finops/infor-finops.yml
   title: ''
   type: FinOps
   url: finops/infor-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/rules/infor-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/infor-jsonschema-spectral-rules.yml
@@ -321,6 +376,41 @@ scopes:
   scope_count: 0
   slug: infor-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 67.8
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 68.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 21.7
+  facets:
+    access_clarity: 78.9
+    contract_governance: 31.8
+    contract_quality: 64.8
+    developer_ergonomics: 82.7
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 46.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: rising
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/screenshots/infor-2026-06-20T183339.png
 security:
 - kind: authentication

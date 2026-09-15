@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
@@ -67,98 +92,122 @@ common:
   type: License
   url: https://github.com/ehrbase/ehrbase/blob/develop/LICENSE
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/changelog/ehrbase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ehrbase-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/lifecycle/ehrbase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ehrbase-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/lifecycle/ehrbase-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ehrbase-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/authentication/ehrbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ehrbase-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/conventions/ehrbase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ehrbase-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/conventions/ehrbase-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ehrbase-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/errors/ehrbase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ehrbase-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/data-model/ehrbase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ehrbase-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/conformance/ehrbase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ehrbase-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/packages/ehrbase-packages.yml
   title: ''
   type: Packages
   url: packages/ehrbase-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/packages/ehrbase-packages.yml
   title: ''
   type: SDKs
   url: packages/ehrbase-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/cli/ehrbase-cli.yml
   title: ''
   type: CLI
   url: cli/ehrbase-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/sandbox/ehrbase-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ehrbase-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/plans/ehrbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ehrbase-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/rate-limits/ehrbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ehrbase-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/llms/ehrbase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ehrbase-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/well-known/ehrbase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ehrbase-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/mcp/ehrbase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ehrbase-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/mcp/ehrbase-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ehrbase-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/asyncapi/ehrbase-event-trigger-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ehrbase-event-trigger-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/security/ehrbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ehrbase-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/security/ehrbase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ehrbase-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/security/ehrbase-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ehrbase-vulnerability-disclosure.yml
@@ -190,6 +239,41 @@ rate_limits:
 - limit_count: 0
   name: Ehrbase Rate Limits
   slug: ehrbase-rate-limits
+score:
+  band: developing
+  composite: 51.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 46.1
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 51.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Ehrbase Authentication
@@ -212,7 +296,7 @@ tags:
 - Clinical Data
 - openEHR
 - Interoperability
-- Open Source
+- Open-Source
 - Databases
 - Standards
 website: https://ehrbase.org/

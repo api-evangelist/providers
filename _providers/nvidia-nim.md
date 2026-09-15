@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -180,18 +205,22 @@ common:
   type: Website
   url: https://www.nvidia.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/agentic-access/nvidia-nim-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nvidia-nim-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/security/nvidia-nim-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nvidia-nim-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/security/nvidia-nim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nvidia-nim-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/authentication/nvidia-nim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nvidia-nim-authentication.yml
@@ -204,30 +233,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/nvidia-nim/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/arazzo/nvidia-nim-bionemo-drug-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nvidia-nim-bionemo-drug-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/arazzo/nvidia-nim-discover-and-chat-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nvidia-nim-discover-and-chat-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/arazzo/nvidia-nim-generate-image-and-caption-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nvidia-nim-generate-image-and-caption-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/arazzo/nvidia-nim-health-gated-completion-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nvidia-nim-health-gated-completion-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/arazzo/nvidia-nim-rag-rerank-answer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nvidia-nim-rag-rerank-answer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/arazzo/nvidia-nim-vision-describe-and-summarize-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nvidia-nim-vision-describe-and-summarize-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/arazzo/nvidia-nim-voice-assistant-loop-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nvidia-nim-voice-assistant-loop-workflow.yml
@@ -364,118 +400,147 @@ common:
   type: Versioning
   url: https://docs.nvidia.com/nim/large-language-models/latest/release-notes.html
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/plans/nvidia-nim-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nvidia-nim-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/rate-limits/nvidia-nim-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nvidia-nim-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/finops/nvidia-nim-finops.yml
   title: ''
   type: FinOps
   url: finops/nvidia-nim-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/packages/nvidia-nim-packages.yml
   title: ''
   type: Packages
   url: packages/nvidia-nim-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/well-known/nvidia-nim-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nvidia-nim-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/mcp/nvidia-nim-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nvidia-nim-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/llms/nvidia-nim-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nvidia-nim-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/conformance/nvidia-nim-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nvidia-nim-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/errors/nvidia-nim-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nvidia-nim-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/lifecycle/nvidia-nim-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nvidia-nim-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/conventions/nvidia-nim-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nvidia-nim-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/changelog/nvidia-nim-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nvidia-nim-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/cli/nvidia-nim-cli.yml
   title: ''
   type: CLI
   url: cli/nvidia-nim-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/data-model/nvidia-nim-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nvidia-nim-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/grpc/nvidia-nim-riva_asr.proto
   title: ''
   type: Protobuf
   url: grpc/nvidia-nim-riva_asr.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/grpc/nvidia-nim-riva_tts.proto
   title: ''
   type: Protobuf
   url: grpc/nvidia-nim-riva_tts.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/grpc/nvidia-nim-riva_nmt.proto
   title: ''
   type: Protobuf
   url: grpc/nvidia-nim-riva_nmt.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/grpc/nvidia-nim-riva_audio.proto
   title: ''
   type: Protobuf
   url: grpc/nvidia-nim-riva_audio.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/grpc/nvidia-nim-riva_common.proto
   title: ''
   type: Protobuf
   url: grpc/nvidia-nim-riva_common.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-chat-completions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-chat-completions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-completions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-completions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-embeddings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-embeddings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-reranking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-reranking-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-models-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-models-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-vision-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-vision-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-image-generation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-image-generation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-speech-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-speech-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-biology-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-biology-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/overlays/nvidia-nim-health-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nvidia-nim-health-overlay.yaml
@@ -554,6 +619,40 @@ rules:
     info: 1
     warn: 5
   slug: nvidia-nim-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 68.3
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 82.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 14.4
+    contract_quality: 70.0
+    developer_ergonomics: 83.3
+    discoverability: 72.2
+    operational_transparency: 57.9
+  previous_composite: 68.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:
 - kind: authentication

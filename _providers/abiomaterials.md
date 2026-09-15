@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 11.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: A live, anonymous, agent-callable WebMCP surface served from the North American storefront and discovered through the site's RFC 9727 api-catalog. Six tools with JSON Schema inputs expose site identit
@@ -13,6 +38,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/security/abiomaterials-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abiomaterials-domain-security.yml
@@ -45,50 +71,62 @@ common:
   type: PrivacyPolicy
   url: https://a-biousa.com/privacy-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/well-known/abiomaterials-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/abiomaterials-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/mcp/abiomaterials-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/abiomaterials-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/mcp/abiomaterials-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/abiomaterials-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/llms/abiomaterials-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abiomaterials-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/conformance/abiomaterials-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abiomaterials-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/errors/abiomaterials-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/abiomaterials-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/conventions/abiomaterials-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abiomaterials-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/data-model/abiomaterials-data-model.yml
   title: ''
   type: DataModel
   url: data-model/abiomaterials-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/lifecycle/abiomaterials-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abiomaterials-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/plans/abiomaterials-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abiomaterials-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/rate-limits/abiomaterials-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abiomaterials-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/abiomaterials/refs/heads/main/packages/abiomaterials-packages.yml
   title: ''
   type: Packages
   url: packages/abiomaterials-packages.yml
@@ -118,6 +156,48 @@ rate_limits:
 - limit_count: 0
   name: Abiomaterials Rate Limits
   slug: abiomaterials-rate-limits
+score:
+  band: emerging
+  composite: 19.4
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 74.1
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 19.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 23.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Abiomaterials Authentication

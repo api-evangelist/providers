@@ -12,14 +12,17 @@ api_count: 0
 artifact_total: 0
 common:
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automatic/refs/heads/main/lifecycle/automatic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/automatic-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automatic/refs/heads/main/packages/automatic-packages.yml
   title: ''
   type: Packages
   url: packages/automatic-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automatic/refs/heads/main/llms/automatic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/automatic-llms.txt

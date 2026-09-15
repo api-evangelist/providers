@@ -30,7 +30,6 @@ tags:
 - Artificial Intelligence
 - Fintech
 - Developer Tools
-- Consumer
 - Enterprise
 - Europe
 - Sweden

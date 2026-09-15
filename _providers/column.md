@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -168,6 +193,7 @@ collections:
   slug: open-column
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/capabilities/column-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/column-capability-edges.yml
@@ -200,14 +226,17 @@ common:
   type: Login
   url: https://dashboard.column.com/login
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/agentic-access/column-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/column-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/security/column-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/column-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/authentication/column-authentication.yml
   title: ''
   type: Authentication
   url: authentication/column-authentication.yml
@@ -224,14 +253,17 @@ common:
   type: Blog
   url: https://column.com/blog
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/plans/column-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/column-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/rate-limits/column-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/column-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/finops/column-finops.yml
   title: ''
   type: FinOps
   url: finops/column-finops.yml
@@ -264,6 +296,44 @@ rate_limits:
 - limit_count: 1
   name: Column Rate Limits
   slug: column-rate-limits
+score:
+  band: thin
+  composite: 37.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 39.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 19.7
+    contract_governance: 0.0
+    contract_quality: 58.4
+    developer_ergonomics: 50.0
+    discoverability: 66.7
+    operational_transparency: 44.7
+  previous_composite: 37.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 15.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Column Authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -167,6 +192,7 @@ common:
   type: Website
   url: https://www.apache.org/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/overlays/apache-kafka-kafka-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apache-kafka-kafka-connect-overlay.yaml
@@ -187,62 +213,77 @@ common:
   type: License
   url: https://github.com/apache/kafka/blob/trunk/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/agentic-access/apache-kafka-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-kafka-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/packages/apache-kafka-packages.yml
   title: ''
   type: Packages
   url: packages/apache-kafka-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/cli/apache-kafka-cli.yml
   title: ''
   type: CLI
   url: cli/apache-kafka-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/mcp/apache-kafka-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apache-kafka-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/llms/apache-kafka-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apache-kafka-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/well-known/apache-kafka-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apache-kafka-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/well-known/apache-kafka-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apache-kafka-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/errors/apache-kafka-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/apache-kafka-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/lifecycle/apache-kafka-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apache-kafka-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/changelog/apache-kafka-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apache-kafka-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/conventions/apache-kafka-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apache-kafka-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/data-model/apache-kafka-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apache-kafka-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/conformance/apache-kafka-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apache-kafka-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/security/apache-kafka-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-kafka-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/security/apache-kafka-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-kafka-domain-security.yml
@@ -275,58 +316,72 @@ common:
   type: Versioning
   url: https://kafka.apache.org/downloads
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-kafka-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/vocabulary/apache-kafka-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-kafka-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-validate-deploy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-validate-deploy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-health-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-health-triage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-config-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-config-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-maintenance-pause-resume-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-maintenance-pause-resume-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-offset-rewind-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-offset-rewind-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-offset-reset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-offset-reset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-decommission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-decommission-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-provision-produce-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-provision-produce-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-capacity-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-capacity-review-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-consumer-group-lag-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-consumer-group-lag-review-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-acl-grant-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-acl-grant-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-decommission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-decommission-workflow.yml
@@ -610,6 +665,43 @@ rules:
     info: 5
     warn: 6
   slug: apache-kafka-spectral-rules
+score:
+  band: developing
+  composite: 45.9
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 33.3
+    contract_quality: 56.5
+    developer_ergonomics: 31.0
+    discoverability: 66.7
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 45.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:
 - kind: domain-security

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -171,26 +196,32 @@ common:
   type: Website
   url: https://www.onfleet.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/capabilities/onfleet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/onfleet-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/agentic-access/onfleet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/onfleet-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/security/onfleet-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/onfleet-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/security/onfleet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/onfleet-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/security/onfleet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onfleet-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/authentication/onfleet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onfleet-authentication.yml
@@ -199,54 +230,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/onfleet/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-assign-task-to-worker-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-assign-task-to-worker-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-auto-assign-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-auto-assign-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-batch-create-and-list-tasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-batch-create-and-list-tasks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-build-route-plan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-build-route-plan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-clone-and-complete-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-clone-and-complete-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-dispatch-team-tasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-dispatch-team-tasks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-fulfill-courier-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-fulfill-courier-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-onboard-worker-to-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-onboard-worker-to-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-optimize-team-routes-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-optimize-team-routes-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-provision-admin-and-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-provision-admin-and-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-provision-delivery-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-provision-delivery-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-register-task-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-register-task-webhook-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/arazzo/onfleet-upsert-recipient-and-create-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/onfleet-upsert-recipient-and-create-task-workflow.yml
@@ -351,26 +395,32 @@ common:
   type: Documentation
   url: https://app.getpostman.com/run-collection/14168007-2dc047db-9556-442a-b643-e913027a74cf
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/plans/onfleet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/onfleet-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/rate-limits/onfleet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/onfleet-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/finops/onfleet-finops.yml
   title: ''
   type: FinOps
   url: finops/onfleet-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/json-ld/onfleet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/onfleet-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/vocabulary/onfleet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/onfleet-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/rules/onfleet-rules.yml
   title: ''
   type: Rules
   url: rules/onfleet-rules.yml
@@ -501,6 +551,39 @@ rules:
     info: 0
     warn: 5
   slug: onfleet-rules
+score:
+  band: strong
+  composite: 61.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 81.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 28.8
+    contract_quality: 78.6
+    developer_ergonomics: 57.1
+    discoverability: 74.1
+    operational_transparency: 26.3
+  previous_composite: 61.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png
 security:
 - kind: authentication

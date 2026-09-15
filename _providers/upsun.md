@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.upsun.com
@@ -572,6 +598,7 @@ collections:
   slug: open-upsun-vouchers-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/capabilities/upsun-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/upsun-capability-edges.yml
@@ -600,50 +627,62 @@ common:
   type: GettingStarted
   url: https://developer.upsun.com/docs/get-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/authentication/upsun-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upsun-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/scopes/upsun-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/upsun-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/packages/upsun-packages.yml
   title: ''
   type: SDKs
   url: packages/upsun-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/packages/upsun-packages.yml
   title: ''
   type: Packages
   url: packages/upsun-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/cli/upsun-cli.yml
   title: ''
   type: CLI
   url: cli/upsun-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/mcp/upsun-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/upsun-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/llms/upsun-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upsun-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/well-known/upsun-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upsun-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/well-known/upsun-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/upsun-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/overlays/upsun-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/upsun-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/conformance/upsun-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upsun-conformance.yml
@@ -652,10 +691,12 @@ common:
   type: Compliance
   url: https://upsun.com/trust-center/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/errors/upsun-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/upsun-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/lifecycle/upsun-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upsun-lifecycle.yml
@@ -664,18 +705,22 @@ common:
   type: StatusPage
   url: https://status.upsun.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/changelog/upsun-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/upsun-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/conventions/upsun-conventions.yml
   title: ''
   type: Conventions
   url: conventions/upsun-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/data-model/upsun-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upsun-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/asyncapi/upsun-activity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/upsun-activity-webhooks.yml
@@ -684,14 +729,17 @@ common:
   type: Security
   url: https://upsun.com/trust-center/security/responsible-disclosure/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/security/upsun-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/upsun-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/security/upsun-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/upsun-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/security/upsun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upsun-domain-security.yml
@@ -752,6 +800,40 @@ scopes:
   scope_count: 1
   slug: upsun-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 57.9
+    developer_ergonomics: 69.6
+    discoverability: 70.4
+    operational_transparency: 44.7
+  previous_composite: 50.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/screenshots/upsun-2026-08-17T082640.png
 security:
 - kind: authentication

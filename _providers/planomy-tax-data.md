@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,14 +60,17 @@ collections:
   slug: open-planomy-tax-data-tax-data-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/overlays/planomy-tax-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/planomy-tax-data-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/agentic-access/planomy-tax-data-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/planomy-tax-data-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/security/planomy-tax-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/planomy-tax-data-domain-security.yml
@@ -71,46 +99,57 @@ common:
   type: PrivacyPolicy
   url: https://planomy.net/legal/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/authentication/planomy-tax-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/planomy-tax-data-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/conventions/planomy-tax-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/planomy-tax-data-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/errors/planomy-tax-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/planomy-tax-data-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/lifecycle/planomy-tax-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/planomy-tax-data-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/conformance/planomy-tax-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/planomy-tax-data-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/data-model/planomy-tax-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/planomy-tax-data-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/vocabulary/planomy-tax-data-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/planomy-tax-data-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/plans/planomy-tax-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/planomy-tax-data-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/components/planomy-tax-data-components.yml
   title: ''
   type: Components
   url: components/planomy-tax-data-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/mcp/planomy-tax-data-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/planomy-tax-data-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -145,6 +184,48 @@ plans:
   plan_count: 5
   slug: planomy-tax-data-plans-pricing
 random_paper: 5
+score:
+  band: developing
+  composite: 40.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 60.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 8.3
+    contract_quality: 23.8
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 40.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/screenshots/planomy-tax-data-2026-09-02T151417.png
 security:
 - kind: authentication

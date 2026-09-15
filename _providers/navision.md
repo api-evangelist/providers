@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -383,6 +408,7 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/capabilities/navision-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/navision-capability-edges.yml
@@ -395,22 +421,27 @@ common:
   type: License
   url: https://github.com/christianbraeunlich/d365bc-api-postman/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/agentic-access/navision-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/navision-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/security/navision-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/navision-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/security/navision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navision-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/authentication/navision-authentication.yml
   title: ''
   type: Authentication
   url: authentication/navision-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/scopes/navision-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/navision-scopes.yml
@@ -419,34 +450,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-dynamics-nav/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-create-journal-and-read-lines-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-create-journal-and-read-lines-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-create-purchase-invoice-for-vendor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-create-purchase-invoice-for-vendor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-create-purchase-order-for-vendor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-create-purchase-order-for-vendor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-create-sales-invoice-for-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-create-sales-invoice-for-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-create-sales-order-for-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-create-sales-order-for-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-onboard-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-onboard-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-onboard-vendor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-onboard-vendor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/arazzo/navision-upsert-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/navision-upsert-item-workflow.yml
@@ -527,86 +566,107 @@ common:
   type: CLI
   url: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-command-line-tools
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/customer.json
   title: Customer Schema
   type: JSONSchema
   url: json-schema/customer.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/vendor.json
   title: Vendor Schema
   type: JSONSchema
   url: json-schema/vendor.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/item.json
   title: Item Schema
   type: JSONSchema
   url: json-schema/item.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/sales-order.json
   title: Sales Order Schema
   type: JSONSchema
   url: json-schema/sales-order.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/purchase-order.json
   title: Purchase Order Schema
   type: JSONSchema
   url: json-schema/purchase-order.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-customer-schema.json
   title: BC v2 Customer Schema
   type: JSONSchema
   url: json-schema/business-central-v2-customer-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-vendor-schema.json
   title: BC v2 Vendor Schema
   type: JSONSchema
   url: json-schema/business-central-v2-vendor-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-item-schema.json
   title: BC v2 Item Schema
   type: JSONSchema
   url: json-schema/business-central-v2-item-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-sales-order-schema.json
   title: BC v2 Sales Order Schema
   type: JSONSchema
   url: json-schema/business-central-v2-sales-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/business-central-v2-purchase-order-schema.json
   title: BC v2 Purchase Order Schema
   type: JSONSchema
   url: json-schema/business-central-v2-purchase-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/admin-center-environment-schema.json
   title: Admin Center Environment Schema
   type: JSONSchema
   url: json-schema/admin-center-environment-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/admin-center-environment-operation-schema.json
   title: Admin Center Environment Operation Schema
   type: JSONSchema
   url: json-schema/admin-center-environment-operation-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/automation-extension-schema.json
   title: Automation Extension Schema
   type: JSONSchema
   url: json-schema/automation-extension-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/automation-user-schema.json
   title: Automation User Schema
   type: JSONSchema
   url: json-schema/automation-user-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-schema/automation-automation-company-schema.json
   title: Automation Company Schema
   type: JSONSchema
   url: json-schema/automation-automation-company-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-ld/context.jsonld
   title: JSON-LD Context
   type: JSONLD
   url: json-ld/context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-ld/business-central-v2-context.jsonld
   title: Business Central v2 JSON-LD Context
   type: JSONLD
   url: json-ld/business-central-v2-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-ld/admin-center-context.jsonld
   title: Admin Center JSON-LD Context
   type: JSONLD
   url: json-ld/admin-center-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/json-ld/automation-context.jsonld
   title: Automation JSON-LD Context
   type: JSONLD
   url: json-ld/automation-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/vocabulary/navision-vocabulary.yaml
   title: Navision Vocabulary
   type: Vocabulary
   url: vocabulary/navision-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/rules/navision-spectral-rules.yml
   title: Spectral Rules
   type: Rules
   url: rules/navision-spectral-rules.yml
@@ -1854,6 +1914,38 @@ scopes:
   scope_count: 1
   slug: navision-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 55.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 60.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 28.8
+    contract_quality: 66.1
+    developer_ergonomics: 60.7
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/screenshots/navision-2026-06-20T190101.png
 security:
 - kind: authentication

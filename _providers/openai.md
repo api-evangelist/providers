@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -514,26 +540,32 @@ common:
   type: Website
   url: https://openai.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/capabilities/openai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openai-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/agentic-access/openai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/security/openai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/openai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/security/openai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/openai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/security/openai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/authentication/openai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openai-authentication.yml
@@ -542,70 +574,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/openai/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-assistant-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-assistant-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-batch-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-batch-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-cancel-fine-tuning-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-cancel-fine-tuning-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-chat-then-speak-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-chat-then-speak-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-create-embedding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-create-embedding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-download-batch-results-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-download-batch-results-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-fine-tuning-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-fine-tuning-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-generate-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-generate-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-list-models-then-chat-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-list-models-then-chat-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-moderate-then-chat-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-moderate-then-chat-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-retrieve-and-delete-model-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-retrieve-and-delete-model-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-thread-and-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-thread-and-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-transcribe-then-summarize-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-transcribe-then-summarize-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-upload-and-verify-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-upload-and-verify-file-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-vector-store-file-batch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-vector-store-file-batch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-vector-store-ingest-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-vector-store-ingest-file-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/arazzo/openai-vector-store-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/openai-vector-store-search-workflow.yml
@@ -670,14 +719,17 @@ common:
   type: Webhooks
   url: https://platform.openai.com/docs/api-reference/webhook_events/response
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-schema/openai-chat-completion-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/openai-chat-completion-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-schema/openai-embedding-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/openai-embedding-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/json-ld/openai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/openai-context.jsonld
@@ -766,6 +818,7 @@ common:
   type: GitHubRepository
   url: https://github.com/openai/openai-openapi
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/_original/openai-openapi-master.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/openai-openapi-master.yml
@@ -898,10 +951,12 @@ common:
   type: GitHubRepository
   url: https://github.com/openai/chatkit-js
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/rules/openai-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/openai-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/vocabulary/openai-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/openai-vocabulary.yaml
@@ -914,10 +969,12 @@ common:
   type: LlmsText
   url: https://developers.openai.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/packages/openai-packages.yml
   title: ''
   type: Packages
   url: packages/openai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/packages/openai-packages.yml
   title: ''
   type: SDKs
   url: packages/openai-packages.yml
@@ -942,62 +999,77 @@ common:
   type: Ruby SDK
   url: https://github.com/openai/openai-ruby
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/well-known/openai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/well-known/openai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/openai-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/mcp/openai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/mcp/openai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/openai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/llms/openai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openai-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/overlays/openai-responses-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openai-responses-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/overlays/openai-chat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openai-chat-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/overlays/openai-embeddings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openai-embeddings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/grpc/openai-grpc.yml
   title: ''
   type: Protobuf
   url: grpc/openai-grpc.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/conformance/openai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/security/openai-trust-center.yml
   title: ''
   type: Compliance
   url: security/openai-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/errors/openai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/lifecycle/openai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openai-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/scopes/openai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openai-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/sandbox/openai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openai-sandbox.yml
@@ -1010,14 +1082,17 @@ common:
   type: Console
   url: https://platform.openai.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/conventions/openai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openai-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/changelog/openai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openai-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/cli/openai-cli.yml
   title: ''
   type: CLI
   url: cli/openai-cli.yml
@@ -1026,30 +1101,37 @@ common:
   type: CLI
   url: https://learn.chatgpt.com/docs/codex/cli
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/components/openai-components.yml
   title: ''
   type: Components
   url: components/openai-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/data-model/openai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openai-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/plans/openai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/rate-limits/openai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openai-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/asyncapi/openai-realtime-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/openai-realtime-asyncapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/examples/
   title: ''
   type: Examples
   url: examples/
@@ -1389,6 +1471,41 @@ scopes:
   scope_count: 0
   slug: openai-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 82.9
+  coverage:
+    artifact_dirs: 38
+    catalog_earned: 86.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 78.9
+    developer_ergonomics: 96.4
+    discoverability: 66.7
+    operational_transparency: 94.7
+  previous_composite: 82.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-08-17T082822.png
 security:
 - kind: authentication

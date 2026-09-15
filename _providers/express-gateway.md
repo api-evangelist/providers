@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -65,14 +90,17 @@ collections:
   slug: open-express-gateway
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/agentic-access/express-gateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/express-gateway-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/security/express-gateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/express-gateway-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/authentication/express-gateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/express-gateway-authentication.yml
@@ -109,62 +137,77 @@ common:
   type: Roadmap
   url: https://www.express-gateway.io/docs/roadmap/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/packages/express-gateway-packages.yml
   title: ''
   type: Packages
   url: packages/express-gateway-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/cli/express-gateway-cli.yml
   title: ''
   type: CLI
   url: cli/express-gateway-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/changelog/express-gateway-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/express-gateway-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/lifecycle/express-gateway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/express-gateway-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/conventions/express-gateway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/express-gateway-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/conformance/express-gateway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/express-gateway-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/errors/express-gateway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/express-gateway-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/scopes/express-gateway-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/express-gateway-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/data-model/express-gateway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/express-gateway-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/llms/express-gateway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/express-gateway-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/overlays/express-gateway-admin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/express-gateway-admin-api-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/plans/express-gateway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/express-gateway-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/rate-limits/express-gateway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/express-gateway-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/mcp/express-gateway-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/express-gateway-mcp.yml
@@ -180,7 +223,7 @@ modified: '2026-09-07'
 name: Express Gateway
 nav: Providers
 network: true
-overview: 'Express Gateway publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Credentials API, Scopes API, and 1 more. Tagged areas include API Composition, API Gateway, BFF, Open Source, and Microservices.
+overview: 'Express Gateway publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Credentials API, Scopes API, and 1 more. Tagged areas include API Composition, API Gateway, BFF, Open-Source, and Microservices.
 
 
   Express Gateway''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 19 more developer resources.'
@@ -198,6 +241,41 @@ scopes:
   scope_count: 0
   slug: express-gateway-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 35.4
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 48.3
+    developer_ergonomics: 56.5
+    discoverability: 59.3
+    operational_transparency: 23.7
+  previous_composite: 35.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/screenshots/express-gateway-2026-06-20T180941.png
 security:
 - kind: authentication
@@ -213,7 +291,7 @@ tags:
 - API Composition
 - API Gateway
 - BFF
-- Open Source
+- Open-Source
 - Microservices
 - Authentication
 - Node.js

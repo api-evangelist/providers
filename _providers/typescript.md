@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -67,6 +92,7 @@ common:
   type: License
   url: https://github.com/microsoft/TypeScript/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/security/typescript-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/typescript-domain-security.yml
@@ -115,22 +141,27 @@ common:
   type: Twitter
   url: https://twitter.com/typescript
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-ld/typescript-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/typescript-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/vocabulary/typescript-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/typescript-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-schema/typescript-diagnostic-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/typescript-diagnostic-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-schema/typescript-compiler-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/typescript-compiler-options-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/json-structure/typescript-diagnostic-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/typescript-diagnostic-structure.json
@@ -193,6 +224,35 @@ rules:
     info: 2
     warn: 3
   slug: typescript-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 68.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 25.0
+    contract_quality: 14.7
+    developer_ergonomics: 56.0
+    discoverability: 81.5
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 44.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/screenshots/typescript-2026-06-20T195902.png
 security:
 - kind: domain-security

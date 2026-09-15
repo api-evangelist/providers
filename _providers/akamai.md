@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 43.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -1372,6 +1398,7 @@ collections:
   slug: open-akamai-watermark-limits-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/scopes/akamai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/akamai-scopes.yml
@@ -1400,102 +1427,127 @@ common:
   type: Postman
   url: https://www.postman.com/akamai/akamai-apis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/packages/akamai-packages.yml
   title: ''
   type: Packages
   url: packages/akamai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/packages/akamai-packages.yml
   title: ''
   type: SDKs
   url: packages/akamai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/well-known/akamai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/akamai-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/well-known/akamai-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/akamai-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/mcp/akamai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/akamai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/mcp/akamai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/akamai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/llms/akamai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/akamai-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/overlays/akamai-ccu-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/akamai-ccu-v3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/overlays/akamai-papi-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/akamai-papi-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/overlays/akamai-edgeworkers-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/akamai-edgeworkers-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/overlays/akamai-config-dns-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/akamai-config-dns-v2-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/conformance/akamai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/akamai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/errors/akamai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/akamai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/lifecycle/akamai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/akamai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/lifecycle/akamai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/akamai-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/security/akamai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/akamai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/security/akamai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/akamai-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/sandbox/akamai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/akamai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/conventions/akamai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/akamai-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/changelog/akamai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/akamai-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/cli/akamai-cli.yml
   title: ''
   type: CLI
   url: cli/akamai-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/data-model/akamai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/akamai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/asyncapi/akamai-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/akamai-event-surface.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/capabilities/akamai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/akamai-capability-edges.yml
@@ -1508,10 +1560,12 @@ common:
   type: License
   url: https://github.com/akamai/akamai-apis/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/agentic-access/akamai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/akamai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/security/akamai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akamai-domain-security.yml
@@ -3480,6 +3534,41 @@ scopes:
   scope_count: 37
   slug: akamai-scopes
   summary_line: 37 scopes · authorizationCode
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 44.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 70.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 13.6
+    contract_quality: 60.6
+    developer_ergonomics: 32.7
+    discoverability: 66.7
+    operational_transparency: 65.8
+  previous_composite: 47.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 139
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:
 - kind: domain-security

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -76,34 +101,42 @@ collections:
   slug: open-alinta-energy-cds-energy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/capabilities/alinta-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alinta-energy-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/security/alinta-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alinta-energy-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/agentic-access/alinta-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alinta-energy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/authentication/alinta-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alinta-energy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/scopes/alinta-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alinta-energy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/conventions/alinta-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alinta-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/errors/alinta-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alinta-energy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/lifecycle/alinta-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alinta-energy-lifecycle.yml
@@ -116,50 +149,62 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/rate-limits/alinta-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alinta-energy-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/changelog/alinta-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alinta-energy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/conformance/alinta-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alinta-energy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/data-model/alinta-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alinta-energy-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/well-known/alinta-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alinta-energy-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/packages/alinta-energy-packages.yml
   title: ''
   type: Packages
   url: packages/alinta-energy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/mcp/alinta-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alinta-energy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/llms/alinta-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alinta-energy-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/overlays/alinta-energy-cds-energy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alinta-energy-cds-energy-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/overlays/alinta-energy-cds-common-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alinta-energy-cds-common-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/skills/alinta-energy-plan-catalogue.md
   title: ''
   type: AgentSkill
   url: skills/alinta-energy-plan-catalogue.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/skills/alinta-energy-cdr-availability.md
   title: ''
   type: AgentSkill
   url: skills/alinta-energy-cdr-availability.md
@@ -242,6 +287,55 @@ scopes:
   scope_count: 11
   slug: alinta-energy-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: developing
+  composite: 45.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 65.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+    - greater-china
+  previous_composite: 45.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Alinta Energy Authentication

@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Rallyware tenant API — identity, task programs, tasks and task units, unit results, badges and KPIs for a customer's field organization. A JSON-LD / Hydra REST API on API Platform (Symfony), secur
@@ -16,6 +41,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/security/rallyware-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rallyware-vulnerability-disclosure.yml
@@ -48,14 +74,17 @@ common:
   type: Compliance
   url: https://www.rallyware.com/security-2
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/security/rallyware-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rallyware-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/security/rallyware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rallyware-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/llms/rallyware-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rallyware-llms.txt
@@ -64,50 +93,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/rallyware
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/packages/rallyware-packages.yml
   title: ''
   type: Packages
   url: packages/rallyware-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/packages/rallyware-packages.yml
   title: ''
   type: SDKs
   url: packages/rallyware-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/components/rallyware-components.yml
   title: ''
   type: Components
   url: components/rallyware-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/authentication/rallyware-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rallyware-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/conventions/rallyware-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rallyware-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/data-model/rallyware-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rallyware-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/errors/rallyware-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rallyware-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/lifecycle/rallyware-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rallyware-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/conformance/rallyware-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rallyware-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/plans/rallyware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rallyware-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/rate-limits/rallyware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rallyware-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -133,6 +174,36 @@ rate_limits:
 - limit_count: 0
   name: Rallyware Rate Limits
   slug: rallyware-rate-limits
+score:
+  band: emerging
+  composite: 22.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 22.8
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/screenshots/rallyware-2026-09-02T152836.png
 security:
 - kind: authentication

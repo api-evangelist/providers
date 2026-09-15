@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -247,6 +273,7 @@ common:
   type: Website
   url: https://www.figma.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/capabilities/figma-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/figma-capability-edges.yml
@@ -263,130 +290,162 @@ common:
   type: License
   url: https://github.com/figma/rest-api-spec/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/agentic-access/figma-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/figma-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/security/figma-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/figma-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/security/figma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/figma-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/authentication/figma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/figma-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/scopes/figma-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/figma-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/packages/figma-packages.yml
   title: ''
   type: Packages
   url: packages/figma-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/well-known/figma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/figma-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/well-known/figma-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/figma-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/mcp/figma-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/figma-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/llms/figma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/figma-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/conformance/figma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/figma-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/errors/figma-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/figma-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/lifecycle/figma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/figma-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/security/figma-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/figma-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/conventions/figma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/figma-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/changelog/figma-changelog.yml
   title: Changelog artifact
   type: ChangeLog
   url: changelog/figma-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/cli/figma-cli.yml
   title: ''
   type: CLI
   url: cli/figma-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/components/figma-components.yml
   title: ''
   type: Components
   url: components/figma-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/data-model/figma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/figma-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-activity-logs-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-activity-logs-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-analytics-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-analytics-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-component-sets-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-component-sets-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-dev-resources-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-dev-resources-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-files-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-files-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-images-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-images-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-me-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-me-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-payments-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-payments-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-projects-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-projects-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-styles-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-styles-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/overlays/figma-teams-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figma-teams-api-overlay.yaml
@@ -395,50 +454,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/figma/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-attach-dev-resource-to-node-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-attach-dev-resource-to-node-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-audit-team-component-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-audit-team-component-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-audit-team-webhooks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-audit-team-webhooks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-browse-project-file-comments-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-browse-project-file-comments-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-catalog-file-components-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-catalog-file-components-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-inventory-team-component-sets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-inventory-team-component-sets-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-inventory-team-styles-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-inventory-team-styles-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-post-and-verify-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-post-and-verify-comment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-react-to-latest-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-react-to-latest-comment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-render-file-node-images-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-render-file-node-images-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-report-library-usage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-report-library-usage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/arazzo/figma-snapshot-team-project-versions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/figma-snapshot-team-project-versions-workflow.yml
@@ -547,10 +618,12 @@ common:
   type: GitHubRepository
   url: https://github.com/figma/mcp-server-guide
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/rules/figma-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/figma-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/vocabulary/figma-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/figma-vocabulary.yaml
@@ -2047,6 +2120,43 @@ scopes:
   scope_count: 9
   slug: figma-scopes
   summary_line: 9 scopes · authorizationCode
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 35
+    catalog_earned: 65.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 33.3
+    contract_quality: 77.0
+    developer_ergonomics: 65.5
+    discoverability: 66.7
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 57.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:
 - kind: authentication

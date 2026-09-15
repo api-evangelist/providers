@@ -13,6 +13,31 @@ access_model:
   - '{''url'': ''https://www.finixpayments.com/'', ''status'': 301, ''note'': ''declared website redirects to https://finix.com/ — a different registrable domain (finixpayments.com -> finix.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -249,6 +274,7 @@ collections:
   slug: open-finix-payments-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/overlays/finix-payments-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finix-payments-openapi-overlay.yaml
@@ -309,38 +335,47 @@ common:
   type: StatusPage
   url: https://status.finix.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/packages/finix-payments-packages.yml
   title: ''
   type: Packages
   url: packages/finix-payments-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/packages/finix-payments-packages.yml
   title: ''
   type: SDKs
   url: packages/finix-payments-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/authentication/finix-payments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finix-payments-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/conventions/finix-payments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finix-payments-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/conventions/finix-payments-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/finix-payments-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/rate-limits/finix-payments-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/finix-payments-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/errors/finix-payments-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finix-payments-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/errors/finix-payments-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/finix-payments-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/lifecycle/finix-payments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finix-payments-lifecycle.yml
@@ -349,58 +384,72 @@ common:
   type: Deprecation
   url: https://docs.finix.com/additional-resources/developers/authentication-and-api-basics/versioning
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/changelog/finix-payments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/finix-payments-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/sandbox/finix-payments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/finix-payments-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/components/finix-payments-components.yml
   title: ''
   type: Components
   url: components/finix-payments-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/data-model/finix-payments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finix-payments-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/conformance/finix-payments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finix-payments-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/conformance/finix-payments-conformance.yml
   title: ''
   type: Compliance
   url: conformance/finix-payments-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/asyncapi/finix-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/finix-payments-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/mcp/finix-payments-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/finix-payments-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/agentic-access/finix-payments-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/finix-payments-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/llms/finix-payments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finix-payments-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/security/finix-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finix-payments-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/arazzo/finix-payments-accept-a-card-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/finix-payments-accept-a-card-payment.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/arazzo/finix-payments-onboard-a-merchant.yml
   title: ''
   type: Arazzo
   url: arazzo/finix-payments-onboard-a-merchant.yml
@@ -424,6 +473,47 @@ rate_limits:
 - limit_count: 2
   name: Finix Payments Rate Limits
   slug: finix-payments-rate-limits
+score:
+  band: strong
+  composite: 62.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 62.5
+    developer_ergonomics: 74.4
+    discoverability: 75.9
+    operational_transparency: 71.1
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 68.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:
 - kind: authentication

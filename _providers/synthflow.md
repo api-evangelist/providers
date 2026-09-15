@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -92,14 +118,17 @@ collections:
   slug: open-synthflow
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/agentic-access/synthflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/synthflow-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/security/synthflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synthflow-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/authentication/synthflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/synthflow-authentication.yml
@@ -140,6 +169,7 @@ common:
   type: LlmsText
   url: https://docs.synthflow.ai/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/llms/synthflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synthflow-llms.txt
@@ -180,78 +210,97 @@ common:
   type: Compliance
   url: https://security.synthflow.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/security/synthflow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/synthflow-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/mcp/synthflow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/synthflow-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/mcp/synthflow-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/synthflow-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/well-known/synthflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/synthflow-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/packages/synthflow-packages.yml
   title: ''
   type: Packages
   url: packages/synthflow-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/asyncapi/synthflow-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/synthflow-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/errors/synthflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/synthflow-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/conventions/synthflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/synthflow-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/lifecycle/synthflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/synthflow-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/changelog/synthflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/synthflow-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/conformance/synthflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/synthflow-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/scopes/synthflow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/synthflow-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/sandbox/synthflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/synthflow-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/data-model/synthflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/synthflow-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/components/synthflow-components.yml
   title: ''
   type: Components
   url: components/synthflow-components.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/overlays/synthflow-default-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/synthflow-default-api-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/plans/synthflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/synthflow-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/rate-limits/synthflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/synthflow-rate-limits.yml
@@ -295,6 +344,41 @@ scopes:
   scope_count: 4
   slug: synthflow-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
+score:
+  band: strong
+  composite: 58.9
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 56.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 62.3
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 58.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/screenshots/synthflow-2026-06-20T194834.png
 security:
 - kind: authentication

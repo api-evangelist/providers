@@ -9,6 +9,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Clutch delivers daily origination datasets to credit union customers over either SFTP or a File Transfer API. The public knowledge base documents the datasets (lending, account opening, funding, NACHA
@@ -65,30 +90,37 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/withclutch_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/llms/withclutch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/withclutch-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/security/withclutch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/withclutch-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/security/withclutch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/withclutch-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/security/withclutch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/withclutch-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/lifecycle/withclutch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/withclutch-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/conformance/withclutch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/withclutch-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/data-model/withclutch-data-exports.yml
   title: ''
   type: DataModel
   url: data-model/withclutch-data-exports.yml
@@ -135,6 +167,46 @@ overview: 'Clutch publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Clutch''s developer surface includes documentation, support, engineering blog, and 16 more developer resources.'
 random_paper: 16
+score:
+  band: emerging
+  composite: 21.3
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 33.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 2.0
+    developer_ergonomics: 16.7
+    discoverability: 66.7
+    operational_transparency: 21.1
+  previous_composite: 21.3
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: glba
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 31.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/withclutch/refs/heads/main/screenshots/withclutch-2026-09-02T170851.png
 security:
 - kind: domain-security

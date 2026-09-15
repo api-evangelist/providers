@@ -10,6 +10,31 @@ access_model:
   - https://superscale.ai/pricing
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The product Model Context Protocol server. Lets an external agent runtime (Claude and similar MCP clients) drive Superscale's creative engine — generating statics, UGC video and scripts from context t
@@ -81,74 +106,92 @@ common:
   type: ChangeLog
   url: https://docs.superscale.ai/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/changelog/superscale-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/superscale-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/lifecycle/superscale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superscale-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/llms/superscale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superscale-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/llms/superscale-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superscale-docs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/well-known/superscale-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/superscale-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/well-known/superscale-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/superscale-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/security/superscale-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/superscale-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/well-known/superscale-security.txt
   title: ''
   type: Security
   url: well-known/superscale-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/security/superscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superscale-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/a2a/superscale-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/superscale-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/mcp/superscale-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/superscale-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/authentication/superscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/superscale-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/scopes/superscale-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/superscale-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/conformance/superscale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superscale-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/conventions/superscale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superscale-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/plans/superscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/superscale-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/rate-limits/superscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/superscale-rate-limits.yml
@@ -182,6 +225,36 @@ scopes:
   scope_count: 7
   slug: superscale-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 54.8
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 38.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/screenshots/superscale-2026-08-17T082204.png
 security:
 - kind: authentication

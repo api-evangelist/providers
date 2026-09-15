@@ -12,10 +12,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/txn-solutions/refs/heads/main/security/txn-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/txn-solutions-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/txn-solutions/refs/heads/main/llms/txn-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/txn-solutions-llms.txt

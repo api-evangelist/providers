@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -305,26 +331,32 @@ collections:
   slug: open-brightedge-webhook-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/capabilities/brightedge-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brightedge-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/skills/brightedge-bulk-export.md
   title: ''
   type: AgentSkill
   url: skills/brightedge-bulk-export.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/mcp/brightedge-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/brightedge-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/overlays/brightedge-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brightedge-platform-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/security/brightedge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/brightedge-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/security/brightedge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brightedge-domain-security.yml
@@ -397,82 +429,102 @@ common:
   type: Compliance
   url: https://www.brightedge.com/trust
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/llms/brightedge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brightedge-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/llms/brightedge-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brightedge-api-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/mcp/brightedge-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/brightedge-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/well-known/brightedge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brightedge-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/authentication/brightedge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brightedge-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/scopes/brightedge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brightedge-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/conventions/brightedge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brightedge-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/errors/brightedge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brightedge-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/lifecycle/brightedge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brightedge-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/data-model/brightedge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brightedge-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/conformance/brightedge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brightedge-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/agentic-access/brightedge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brightedge-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/packages/brightedge-packages.yml
   title: ''
   type: Packages
   url: packages/brightedge-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/plans/brightedge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brightedge-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/rate-limits/brightedge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brightedge-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/changelog/brightedge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brightedge-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/skills/brightedge-connect-mcp.md
   title: ''
   type: AgentSkill
   url: skills/brightedge-connect-mcp.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/skills/brightedge-pull-keyword-rankings.md
   title: ''
   type: AgentSkill
   url: skills/brightedge-pull-keyword-rankings.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/skills/brightedge-query-datacube.md
   title: ''
   type: AgentSkill
   url: skills/brightedge-query-datacube.md
@@ -509,6 +561,41 @@ scopes:
   scope_count: 3
   slug: brightedge-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: developing
+  composite: 49.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 46.9
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 49.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:
 - kind: authentication

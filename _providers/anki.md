@@ -16,14 +16,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/anki
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anki/refs/heads/main/packages/anki-packages.yml
   title: ''
   type: Packages
   url: packages/anki-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anki/refs/heads/main/packages/anki-packages.yml
   title: ''
   type: SDKs
   url: packages/anki-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anki/refs/heads/main/llms/anki-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anki-llms.txt

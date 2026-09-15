@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: true
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,70 +69,87 @@ common:
   type: Documentation
   url: https://voyagefoods.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/llms/voyage-foods-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voyage-foods-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/well-known/voyage-foods-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/voyage-foods-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/mcp/voyage-foods-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/voyage-foods-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/mcp/voyage-foods-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/voyage-foods-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/graphql/voyage-foods-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/voyage-foods-storefront.graphql
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/authentication/voyage-foods-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voyage-foods-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/scopes/voyage-foods-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/voyage-foods-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/well-known/voyage-foods-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/voyage-foods-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/conventions/voyage-foods-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voyage-foods-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/conventions/voyage-foods-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/voyage-foods-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/errors/voyage-foods-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voyage-foods-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/lifecycle/voyage-foods-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voyage-foods-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/conformance/voyage-foods-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voyage-foods-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/security/voyage-foods-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voyage-foods-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/agentic-access/voyage-foods-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/voyage-foods-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/data-model/voyage-foods-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voyage-foods-data-model.yml
@@ -157,6 +199,37 @@ scopes:
   scope_count: 4
   slug: voyage-foods-scopes
   summary_line: 4 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
+score:
+  band: thin
+  composite: 34.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 41.5
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 34.1
+  provenance:
+    agentic_access: first-party
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/screenshots/voyage-foods-2026-09-02T170301.png
 security:
 - kind: authentication

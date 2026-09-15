@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -196,22 +221,27 @@ collections:
   slug: open-amazon-connect
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/agentic-access/amazon-connect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-connect-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/security/amazon-connect-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-connect-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/security/amazon-connect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-connect-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/security/amazon-connect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-connect-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/authentication/amazon-connect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-connect-authentication.yml
@@ -220,50 +250,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-connect/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-create-queue-and-place-call-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-create-queue-and-place-call-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-create-routing-profile-and-assign-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-create-routing-profile-and-assign-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-instance-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-instance-overview-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-provision-queue-with-hours-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-provision-queue-with-hours-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-provision-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-publish-contact-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-publish-contact-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-queue-realtime-health-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-queue-realtime-health-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-search-and-inspect-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-search-and-inspect-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-start-chat-and-set-attributes-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-start-chat-and-set-attributes-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-start-outbound-contact-and-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-start-outbound-contact-and-track-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-start-task-and-stop-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-start-task-and-stop-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/arazzo/amazon-connect-update-user-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-connect-update-user-identity-workflow.yml
@@ -348,10 +390,12 @@ common:
   type: Pricing
   url: https://aws.amazon.com/connect/pricing/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/rules/amazon-connect-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-connect-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/vocabulary/amazon-connect-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-connect-vocabulary.yaml
@@ -1230,6 +1274,38 @@ rules:
     info: 3
     warn: 23
   slug: amazon-connect-spectral-rules
+score:
+  band: strong
+  composite: 54.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 75.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 28.8
+    contract_quality: 36.7
+    developer_ergonomics: 89.3
+    discoverability: 68.5
+    operational_transparency: 36.8
+  previous_composite: 54.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 13
+      marker_coverage: 100.0
+      total: 13
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:
 - kind: authentication

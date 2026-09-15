@@ -12,6 +12,32 @@ access_model:
   - pricing
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 40.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -148,34 +174,42 @@ collections:
   slug: open-dify
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/_original/dify-service-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/dify-service-api-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/overlays/dify-service-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dify-service-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/authentication/dify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dify-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/conventions/dify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dify-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/errors/dify-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dify-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/data-model/dify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dify-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/lifecycle/dify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dify-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/changelog/dify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dify-changelog.yml
@@ -184,90 +218,112 @@ common:
   type: StatusPage
   url: https://status.dify.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/conformance/dify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dify-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/conformance/dify-conformance.yml
   title: ''
   type: Compliance
   url: conformance/dify-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/security/dify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dify-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/security/dify-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/dify-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/security/dify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dify-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/security/dify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dify-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/packages/dify-packages.yml
   title: ''
   type: Packages
   url: packages/dify-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/packages/dify-packages.yml
   title: ''
   type: SDKs
   url: packages/dify-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/cli/dify-cli.yml
   title: ''
   type: CLI
   url: cli/dify-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/components/dify-components.yml
   title: ''
   type: Components
   url: components/dify-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/sandbox/dify-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dify-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/plans/dify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dify-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/rate-limits/dify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dify-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/finops/dify-finops.yml
   title: ''
   type: FinOps
   url: finops/dify-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/asyncapi/dify-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/dify-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/mcp/dify-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dify-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/mcp/dify-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dify-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/a2a/dify-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/dify-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/well-known/dify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dify-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/agentic-access/dify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dify-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/llms/dify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dify-llms.txt
@@ -379,6 +435,41 @@ rate_limits:
 - limit_count: 5
   name: Dify Rate Limits
   slug: dify-rate-limits
+score:
+  band: strong
+  composite: 64.0
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 24.5
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 89.5
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 18
+      marker_coverage: 94.7
+      total: 19
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/screenshots/dify-2026-06-20T180051.png
 security:
 - kind: authentication
@@ -404,10 +495,10 @@ tags:
 - Backend-as-a-Service
 - Agents
 - Workflows
-- Knowledge Management
+- Knowledge-Management
 - RAG
-- Model Context Protocol
-- Low Code
-- Open Source
+- MCP
+- Low-Code
+- Open-Source
 website: https://dify.ai/
 ---

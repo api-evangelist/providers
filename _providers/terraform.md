@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -145,74 +170,92 @@ collections:
   slug: open-terraform-workspaces-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/agentic-access/terraform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/terraform-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/terraform-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/authentication/terraform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/terraform-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/packages/terraform-packages.yml
   title: ''
   type: Packages
   url: packages/terraform-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/well-known/terraform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/terraform-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/mcp/terraform-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/terraform-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/llms/terraform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/terraform-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/overlays/terraform-hcp-terraform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/terraform-hcp-terraform-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/overlays/terraform-terraform-registry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/terraform-terraform-registry-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/conformance/terraform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/terraform-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/errors/terraform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/terraform-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/lifecycle/terraform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/terraform-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/conventions/terraform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/terraform-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/changelog/terraform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/terraform-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/cli/terraform-cli.yml
   title: ''
   type: CLI
   url: cli/terraform-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/data-model/terraform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/terraform-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/terraform-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/terraform-trust-center.yml
@@ -257,54 +300,67 @@ common:
   type: Blog
   url: https://www.hashicorp.com/en/blog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-provision-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-provision-workspace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-plan-and-apply-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-plan-and-apply-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-destroy-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-destroy-workspace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-upsert-workspace-variable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-upsert-workspace-variable-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-cancel-stuck-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-cancel-stuck-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-migrate-state-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-migrate-state-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-onboard-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-onboard-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-onboard-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-onboard-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-onboard-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-onboard-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-audit-organization-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-audit-organization-inventory-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-discover-module-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-discover-module-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-pin-module-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-pin-module-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-audit-namespace-modules-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-audit-namespace-modules-workflow.yml
@@ -385,6 +441,40 @@ rules:
     info: 2
     warn: 3
   slug: terraform-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 72.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 59.1
+    contract_quality: 64.4
+    developer_ergonomics: 52.4
+    discoverability: 68.5
+    operational_transparency: 28.9
+  previous_composite: 48.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:
 - kind: authentication

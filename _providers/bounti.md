@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://bounti.ai
@@ -33,6 +58,7 @@ collections:
   slug: open-bounti-llms-txt-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/overlays/bounti-content-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bounti-content-api-overlay.yaml
@@ -77,70 +103,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/bounti-ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/well-known/bounti-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bounti-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/llms/bounti-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bounti-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/mcp/bounti-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bounti-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/security/bounti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bounti-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/well-known/bounti-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bounti-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/security/bounti-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bounti-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/security/bounti-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bounti-vulnerability-disclosure.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/packages/bounti-packages.yml
   title: ''
   type: Packages
   url: packages/bounti-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/mcp/bounti-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bounti-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/authentication/bounti-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bounti-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/conventions/bounti-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bounti-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/errors/bounti-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bounti-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/lifecycle/bounti-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bounti-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/conformance/bounti-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bounti-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/plans/bounti-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bounti-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/rate-limits/bounti-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bounti-rate-limits.yml
@@ -166,6 +209,41 @@ rate_limits:
 - limit_count: 0
   name: Bounti Rate Limits
   slug: bounti-rate-limits
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 4.5
+    contract_quality: 46.9
+    developer_ergonomics: 33.3
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 41.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/screenshots/bounti-2026-07-25T203646.png
 security:
 - kind: authentication

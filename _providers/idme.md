@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -60,46 +85,57 @@ common:
   type: SignUp
   url: https://developers.id.me
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/llms/idme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/idme-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/well-known/idme-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/idme-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/well-known/idme-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/idme-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/well-known/idme-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/idme-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/authentication/idme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/idme-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/scopes/idme-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/idme-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/mcp/idme-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/idme-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/errors/idme-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/idme-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/lifecycle/idme-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/idme-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/conventions/idme-conventions.yml
   title: ''
   type: Conventions
   url: conventions/idme-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/conformance/idme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/idme-conformance.yml
@@ -108,30 +144,37 @@ common:
   type: Compliance
   url: https://docs.id.me/guides/learn-more/digital-wallet/nist-ial-2
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/sandbox/idme-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/idme-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/packages/idme-packages.yml
   title: ''
   type: Packages
   url: packages/idme-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/packages/idme-packages.yml
   title: ''
   type: SDKs
   url: packages/idme-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/components/idme-components.yml
   title: ''
   type: Components
   url: components/idme-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/asyncapi/idme-services-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/idme-services-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/security/idme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/idme-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/security/idme-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/idme-vulnerability-disclosure.yml
@@ -164,6 +207,41 @@ scopes:
   scope_count: 11
   slug: idme-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: developing
+  composite: 50.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 50.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 70.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/screenshots/idme-2026-08-17T123853.png
 security:
 - kind: authentication

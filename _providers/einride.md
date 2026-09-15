@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,10 +75,12 @@ collections:
   slug: open-einride-shipmentservice-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/capabilities/einride-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/einride-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/overlays/einride-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/einride-auth-overlay.yaml
@@ -78,70 +105,87 @@ common:
   type: License
   url: https://github.com/einride/extend/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/agentic-access/einride-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/einride-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/authentication/einride-authentication.yml
   title: ''
   type: Authentication
   url: authentication/einride-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/conventions/einride-conventions.yml
   title: ''
   type: Conventions
   url: conventions/einride-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/errors/einride-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/einride-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/data-model/einride-data-model.yml
   title: ''
   type: DataModel
   url: data-model/einride-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/lifecycle/einride-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/einride-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/changelog/einride-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/einride-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/conformance/einride-conformance.yml
   title: ''
   type: Conformance
   url: conformance/einride-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/packages/einride-packages.yml
   title: ''
   type: Packages
   url: packages/einride-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/cli/einride-cli.yml
   title: ''
   type: CLI
   url: cli/einride-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/components/einride-components.yml
   title: ''
   type: Components
   url: components/einride-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/mcp/einride-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/einride-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/llms/einride-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/einride-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/well-known/einride-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/einride-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/well-known/einride-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/einride-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/security/einride-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/einride-vulnerability-disclosure.yml
@@ -150,6 +194,7 @@ common:
   type: Security
   url: https://www.einride.tech/security/vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/security/einride-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/einride-domain-security.yml
@@ -206,6 +251,52 @@ overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
   Einride''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 29 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 43.5
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 38.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png
 security:
 - kind: authentication

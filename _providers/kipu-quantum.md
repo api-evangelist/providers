@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API and Python SDK for the Kipu Quantum Hub — submit quantum-classical workflows, run pre-built quantum services against 20+ backends, and manage jobs. Authenticated with API keys and OAuth2/OIDC
@@ -17,6 +42,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/security/kipu-quantum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kipu-quantum-domain-security.yml
@@ -49,34 +75,42 @@ common:
   type: Blog
   url: https://kipu-quantum.com/blog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/packages/kipu-quantum-packages.yml
   title: ''
   type: SDKs
   url: packages/kipu-quantum-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/packages/kipu-quantum-packages.yml
   title: ''
   type: Packages
   url: packages/kipu-quantum-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/authentication/kipu-quantum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kipu-quantum-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/scopes/kipu-quantum-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kipu-quantum-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/well-known/kipu-quantum-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/kipu-quantum-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/well-known/kipu-quantum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kipu-quantum-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/conformance/kipu-quantum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kipu-quantum-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/llms/kipu-quantum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kipu-quantum-llms.txt
@@ -99,6 +133,42 @@ scopes:
   scope_count: 12
   slug: kipu-quantum-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
+score:
+  band: emerging
+  composite: 17.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 31.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 17.8
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/screenshots/kipu-quantum-2026-07-25T223849.png
 security:
 - kind: authentication

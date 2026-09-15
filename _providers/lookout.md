@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: RESTful HTTP interface for streaming and querying mobile threat, device, OS, application, and vulnerability data from a Lookout Mobile Endpoint Security tenant. Uses OAuth 2.0 client-credentials authe
@@ -17,6 +42,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/security/lookout-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lookout-vulnerability-disclosure.yml
@@ -61,34 +87,42 @@ common:
   type: Compliance
   url: https://www.lookout.com/legal/compliance-corner
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/authentication/lookout-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lookout-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/conventions/lookout-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lookout-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/conformance/lookout-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lookout-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/security/lookout-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lookout-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/security/lookout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lookout-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/lifecycle/lookout-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lookout-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/rate-limits/lookout-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lookout-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/llms/lookout-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lookout-llms.txt
@@ -109,6 +143,34 @@ rate_limits:
 - limit_count: 1
   name: Lookout Rate Limits
   slug: lookout-rate-limits
+score:
+  band: thin
+  composite: 27.7
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 32.1
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 27.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lookout/refs/heads/main/screenshots/lookout-2026-07-25T225520.png
 security:
 - kind: authentication

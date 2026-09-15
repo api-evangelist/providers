@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -668,6 +693,7 @@ collections:
   slug: open-crusoe-vpc-subnets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/capabilities/crusoe-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/crusoe-capability-edges.yml
@@ -728,6 +754,7 @@ common:
   type: StatusPage
   url: https://status.crusoecloud.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/changelog/crusoe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crusoe-changelog.yml
@@ -736,6 +763,7 @@ common:
   type: Deprecation
   url: https://docs.crusoecloud.com/resources/deprecation_notices
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/lifecycle/crusoe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crusoe-lifecycle.yml
@@ -744,10 +772,12 @@ common:
   type: Security
   url: https://www.crusoe.ai/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/security/crusoe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crusoe-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/security/crusoe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/crusoe-trust-center.yml
@@ -756,70 +786,87 @@ common:
   type: Compliance
   url: https://trust.crusoe.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/security/crusoe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crusoe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/well-known/crusoe-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crusoe-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/well-known/crusoe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crusoe-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/authentication/crusoe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crusoe-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/conventions/crusoe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crusoe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/conformance/crusoe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crusoe-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/errors/crusoe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crusoe-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/data-model/crusoe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crusoe-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/packages/crusoe-packages.yml
   title: ''
   type: Packages
   url: packages/crusoe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/packages/crusoe-packages.yml
   title: ''
   type: SDKs
   url: packages/crusoe-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/cli/crusoe-cli.yml
   title: ''
   type: CLI
   url: cli/crusoe-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/mcp/crusoe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crusoe-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/asyncapi/crusoe-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/crusoe-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/agentic-access/crusoe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crusoe-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/llms/crusoe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crusoe-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/overlays/crusoe-cloud-api-gateway-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crusoe-cloud-api-gateway-v1-overlay.yaml
@@ -856,6 +903,52 @@ overview: 'Crusoe publishes 108 APIs on the [APIs.io](https://apis.io/) network,
 
   Crusoe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 56.0
+    developer_ergonomics: 73.2
+    discoverability: 70.4
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 53.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 43.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/screenshots/crusoe-2026-08-07T163934.png
 security:
 - kind: authentication

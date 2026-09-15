@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 40.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.bezerocarbonmarkets.com/v3
@@ -80,30 +105,37 @@ common:
   type: PrivacyPolicy
   url: https://legal.bezerocarbon.com/legal-hub/privacy-policy-b92ddd45
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/openapi/_original/bezero-carbon-ratings-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/bezero-carbon-ratings-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/authentication/bezero-carbon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bezero-carbon-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/scopes/bezero-carbon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bezero-carbon-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/security/bezero-carbon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bezero-carbon-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/conventions/bezero-carbon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bezero-carbon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/errors/bezero-carbon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bezero-carbon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/lifecycle/bezero-carbon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bezero-carbon-lifecycle.yml
@@ -112,46 +144,57 @@ common:
   type: Deprecation
   url: https://legal.bezerocarbon.com/legal-hub/product-specific-terms-ffc0b2c9
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/conformance/bezero-carbon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bezero-carbon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/data-model/bezero-carbon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bezero-carbon-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/examples/bezero-carbon-examples.yml
   title: ''
   type: Examples
   url: examples/bezero-carbon-examples.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/rate-limits/bezero-carbon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bezero-carbon-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/packages/bezero-carbon-packages.yml
   title: ''
   type: Packages
   url: packages/bezero-carbon-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/well-known/bezero-carbon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bezero-carbon-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/mcp/bezero-carbon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bezero-carbon-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/mcp/bezero-carbon-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bezero-carbon-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/llms/bezero-carbon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bezero-carbon-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/overlays/bezero-carbon-ratings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bezero-carbon-ratings-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -177,6 +220,41 @@ scopes:
   scope_count: 4
   slug: bezero-carbon-scopes
   summary_line: 4 scopes · clientCredentials
+score:
+  band: developing
+  composite: 41.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 60.8
+    developer_ergonomics: 53.0
+    discoverability: 68.5
+    operational_transparency: 31.6
+  previous_composite: 41.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
 security:
 - kind: authentication

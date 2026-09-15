@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -142,6 +167,7 @@ collections:
   slug: open-hm-land-registry-use-land-property-data
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/overlays/hm-land-registry-land-register-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hm-land-registry-land-register-api-overlay.yaml
@@ -150,18 +176,22 @@ common:
   type: IssueTracker
   url: https://github.com/LandRegistry/bgtechdoc/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/agentic-access/hm-land-registry-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hm-land-registry-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/security/hm-land-registry-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hm-land-registry-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/security/hm-land-registry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hm-land-registry-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/authentication/hm-land-registry-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hm-land-registry-authentication.yml
@@ -242,86 +272,107 @@ common:
   type: Accessibility
   url: https://use-land-property-data.service.gov.uk/accessibility-statement
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/packages/hm-land-registry-packages.yml
   title: ''
   type: Packages
   url: packages/hm-land-registry-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/well-known/hm-land-registry-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hm-land-registry-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/well-known/hm-land-registry-gov-uk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hm-land-registry-gov-uk-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/well-known/hm-land-registry-use-land-property-data-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hm-land-registry-use-land-property-data-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/mcp/hm-land-registry-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hm-land-registry-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/mcp/hm-land-registry-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hm-land-registry-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/llms/hm-land-registry-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hm-land-registry-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/conformance/hm-land-registry-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hm-land-registry-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/errors/hm-land-registry-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hm-land-registry-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/lifecycle/hm-land-registry-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hm-land-registry-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/conventions/hm-land-registry-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hm-land-registry-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/conventions/hm-land-registry-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hm-land-registry-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/sandbox/hm-land-registry-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hm-land-registry-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/changelog/hm-land-registry-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hm-land-registry-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/components/hm-land-registry-components.yml
   title: ''
   type: Components
   url: components/hm-land-registry-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/data-model/hm-land-registry-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hm-land-registry-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/vocabulary/hm-land-registry-ppi.ttl
   title: ''
   type: Vocabulary
   url: vocabulary/hm-land-registry-ppi.ttl
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/vocabulary/hm-land-registry-ukhpi.ttl
   title: ''
   type: Vocabulary
   url: vocabulary/hm-land-registry-ukhpi.ttl
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/vocabulary/hm-land-registry-common.ttl
   title: ''
   type: Vocabulary
   url: vocabulary/hm-land-registry-common.ttl
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -459,6 +510,55 @@ overview: 'HM Land Registry publishes 15 APIs on the [APIs.io](https://apis.io/)
 
   HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 55 more developer resources.'
 random_paper: 11
+score:
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 19.7
+    contract_quality: 64.9
+    developer_ergonomics: 66.1
+    discoverability: 70.4
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 86.7
+      derived: 1
+      marker_coverage: 6.7
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/screenshots/hm-land-registry-2026-08-07T170236.png
 security:
 - kind: authentication

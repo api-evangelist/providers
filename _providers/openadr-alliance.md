@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -83,6 +108,7 @@ asyncapis:
   slug: openadr-alliance-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/capabilities/openadr-alliance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openadr-alliance-capability-edges.yml
@@ -91,18 +117,22 @@ common:
   type: IssueTracker
   url: https://github.com/grid-coordination/openadr3-specification/issues
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-1-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-1-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-1-0-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-0-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-0-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/overlays/openadr-alliance-openadr-3-0-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openadr-alliance-openadr-3-0-0-overlay.yaml
@@ -111,18 +141,22 @@ common:
   type: License
   url: https://github.com/grid-coordination/openadr3-specification/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/agentic-access/openadr-alliance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openadr-alliance-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/security/openadr-alliance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openadr-alliance-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/authentication/openadr-alliance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openadr-alliance-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/scopes/openadr-alliance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openadr-alliance-scopes.yml
@@ -183,50 +217,62 @@ common:
   type: Support
   url: https://www.openadr.org/contact-us
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/packages/openadr-alliance-packages.yml
   title: ''
   type: Packages
   url: packages/openadr-alliance-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/llms/openadr-alliance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openadr-alliance-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/conformance/openadr-alliance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openadr-alliance-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/lifecycle/openadr-alliance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openadr-alliance-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/conventions/openadr-alliance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openadr-alliance-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/changelog/openadr-alliance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openadr-alliance-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/sandbox/openadr-alliance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openadr-alliance-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/vocabulary/openadr-alliance-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openadr-alliance-vocabulary.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/arazzo/openadr-alliance-dispatch-event.yml
   title: ''
   type: Arazzo
   url: arazzo/openadr-alliance-dispatch-event.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/arazzo/openadr-alliance-ven-onboard-and-subscribe.yml
   title: ''
   type: Arazzo
   url: arazzo/openadr-alliance-ven-onboard-and-subscribe.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/plans/openadr-alliance-plans.yml
   title: ''
   type: Plans
   url: plans/openadr-alliance-plans.yml
@@ -283,6 +329,7 @@ common:
   type: SourceCode
   url: https://github.com/grid-coordination/openadr3-specification
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/well-known/openadr-alliance-well-known.yml
   title: ''
   type: Probe
   url: well-known/openadr-alliance-well-known.yml
@@ -312,6 +359,57 @@ scopes:
   scope_count: 9
   slug: openadr-alliance-scopes
   summary_line: 9 scopes · clientCredentials
+score:
+  band: strong
+  composite: 58.5
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 54.3
+    catalog_earned_first_party: 18.0
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 22.0
+    contract_quality: 71.8
+    developer_ergonomics: 66.1
+    discoverability: 64.8
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 58.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 60.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png
 security:
 - kind: authentication

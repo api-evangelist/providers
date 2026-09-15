@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 51.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -87,18 +113,22 @@ asyncapis:
   slug: justt-webhook-events
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/capabilities/justt-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/justt-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/agentic-access/justt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/justt-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/security/justt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/justt-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/authentication/justt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/justt-authentication.yml
@@ -155,38 +185,47 @@ common:
   type: Compliance
   url: https://trust.justt.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/well-known/justt-well-known.yml
   title: ''
   type: APICatalog
   url: well-known/justt-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/well-known/justt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/justt-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/mcp/justt-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/justt-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/mcp/justt-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/justt-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/llms/justt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/justt-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/overlays/justt-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/justt-rest-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/conformance/justt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/justt-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/errors/justt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/justt-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/lifecycle/justt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/justt-lifecycle.yml
@@ -195,38 +234,47 @@ common:
   type: Deprecation
   url: https://developers.justt.ai/docs/legacy-api-to-rest-api-migration-guide
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/scopes/justt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/justt-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/sandbox/justt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/justt-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/conventions/justt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/justt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/data-model/justt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/justt-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/asyncapi/justt-webhook-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/justt-webhook-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/plans/justt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/justt-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/rate-limits/justt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/justt-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
@@ -259,6 +307,47 @@ scopes:
   scope_count: 1
   slug: justt-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 56.1
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 61.8
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 48.7
+  previous_composite: 56.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/screenshots/justt-2026-09-02T150010.png
 security:
 - kind: authentication

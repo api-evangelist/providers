@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -402,30 +427,37 @@ collections:
   slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/capabilities/amazon-codebuild-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-codebuild-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/overlays/amazon-codebuild-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-codebuild-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/agentic-access/amazon-codebuild-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-codebuild-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/security/amazon-codebuild-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-codebuild-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/security/amazon-codebuild-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-codebuild-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/security/amazon-codebuild-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-codebuild-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/authentication/amazon-codebuild-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-codebuild-authentication.yml
@@ -490,42 +522,52 @@ common:
   type: Blog
   url: https://aws.amazon.com/blogs/devops/tag/aws-codebuild/feed/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/rules/amazon-codebuild-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-codebuild-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/vocabulary/amazon-codebuild-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-codebuild-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/json-ld/amazon-codebuild-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-codebuild-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/packages/amazon-codebuild-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-codebuild-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/well-known/amazon-codebuild-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-codebuild-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/well-known/amazon-codebuild-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-codebuild-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/mcp/amazon-codebuild-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-codebuild-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/llms/amazon-codebuild-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-codebuild-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/conformance/amazon-codebuild-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-codebuild-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/lifecycle/amazon-codebuild-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-codebuild-lifecycle.yml
@@ -2564,6 +2606,40 @@ rules:
     info: 2
     warn: 11
   slug: amazon-codebuild-spectral-rules
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 54.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 33.3
+    contract_quality: 71.2
+    developer_ergonomics: 59.5
+    discoverability: 70.4
+    operational_transparency: 18.4
+  previous_composite: 52.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/screenshots/amazon-codebuild-2026-07-25T195953.png
 security:
 - kind: authentication
@@ -2590,7 +2666,6 @@ tags:
 - Continuous Integration
 - DevOps
 - Testing
-- Developer Tools
 use_cases:
 - description: Automatically compile, test, and validate code changes on every commit to catch issues early and maintain code quality across development teams.
   name: Continuous Integration Pipelines

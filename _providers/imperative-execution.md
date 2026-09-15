@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://s3.amazonaws.com/iqx.imperativex.com/
@@ -68,46 +93,57 @@ common:
   type: Profile
   url: https://forgeglobal.com/imperative-execution_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/llms/imperative-execution-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imperative-execution-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/asyncapi/imperative-execution-iqx-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/imperative-execution-iqx-asyncapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/examples/imperative-execution-iqx-sample-data.yml
   title: ''
   type: Examples
   url: examples/imperative-execution-iqx-sample-data.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/sandbox/imperative-execution-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/imperative-execution-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/changelog/imperative-execution-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/imperative-execution-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/conventions/imperative-execution-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imperative-execution-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/authentication/imperative-execution-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imperative-execution-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/conformance/imperative-execution-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imperative-execution-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/lifecycle/imperative-execution-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imperative-execution-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/data-model/imperative-execution-data-model.yml
   title: ''
   type: DataModel
   url: data-model/imperative-execution-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/security/imperative-execution-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imperative-execution-domain-security.yml
@@ -127,6 +163,40 @@ overview: 'Imperative Execution publishes 1 API on the [APIs.io](https://apis.io
 
   Imperative Execution''s developer surface includes documentation, API reference, support, engineering blog, code examples, sandbox, changelog, and 14 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 38.5
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 38.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperative-execution/refs/heads/main/screenshots/imperative-execution-2026-08-07T170628.png
 security:
 - kind: authentication

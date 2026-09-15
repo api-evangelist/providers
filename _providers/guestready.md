@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 37.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://pms.rentalready.io/api/v3/
@@ -327,18 +352,22 @@ apis:
 artifact_total: 68
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/capabilities/guestready-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/guestready-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/security/guestready-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/guestready-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/scopes/guestready-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/guestready-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/authentication/guestready-authentication.yml
   title: ''
   type: Authentication
   url: authentication/guestready-authentication.yml
@@ -383,62 +412,77 @@ common:
   type: FAQ
   url: https://www.guestready.com/faq/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/llms/guestready-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/guestready-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/mcp/guestready-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/guestready-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/mcp/guestready-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/guestready-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/conventions/guestready-conventions.yml
   title: ''
   type: Conventions
   url: conventions/guestready-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/errors/guestready-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/guestready-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/lifecycle/guestready-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/guestready-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/changelog/guestready-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/guestready-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/conformance/guestready-conformance.yml
   title: ''
   type: Conformance
   url: conformance/guestready-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/data-model/guestready-data-model.yml
   title: ''
   type: DataModel
   url: data-model/guestready-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/components/guestready-components.yml
   title: ''
   type: Components
   url: components/guestready-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/packages/guestready-packages.yml
   title: ''
   type: Packages
   url: packages/guestready-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/plans/guestready-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/guestready-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/rate-limits/guestready-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/guestready-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/overlays/guestready-rentalready-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/guestready-rentalready-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -473,6 +517,40 @@ scopes:
   scope_count: 54
   slug: guestready-scopes
   summary_line: 54 scopes · authorizationCode
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 39.9
+    discoverability: 70.4
+    operational_transparency: 39.5
+  previous_composite: 42.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 62
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/screenshots/guestready-2026-09-02T145653.png
 security:
 - kind: authentication

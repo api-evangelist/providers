@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -105,6 +130,7 @@ collections:
   slug: open-polymath-vehicle-operations-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/overlays/polymath-synapse-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/polymath-synapse-v2-overlay.yaml
@@ -153,46 +179,57 @@ common:
   type: SourceCode
   url: https://github.com/polymathrobotics/caladan_examples
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/agentic-access/polymath-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/polymath-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/authentication/polymath-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polymath-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/packages/polymath-packages.yml
   title: ''
   type: Packages
   url: packages/polymath-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/mcp/polymath-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/polymath-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/llms/polymath-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/polymath-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/conformance/polymath-conformance.yml
   title: ''
   type: Conformance
   url: conformance/polymath-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/lifecycle/polymath-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/polymath-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/conventions/polymath-conventions.yml
   title: ''
   type: Conventions
   url: conventions/polymath-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/sandbox/polymath-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/polymath-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/security/polymath-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polymath-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -209,6 +246,41 @@ overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/
 
   Polymath Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
 random_paper: 17
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 53.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 38.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/screenshots/polymath-2026-09-02T151709.png
 security:
 - kind: authentication

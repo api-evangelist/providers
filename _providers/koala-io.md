@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -76,18 +101,22 @@ collections:
   slug: open-koala-io
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/agentic-access/koala-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/koala-io-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/security/koala-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/koala-io-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/security/koala-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koala-io-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/authentication/koala-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koala-io-authentication.yml
@@ -108,14 +137,17 @@ common:
   type: Documentation
   url: https://getkoala.com/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/plans/koala-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/koala-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/rate-limits/koala-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/koala-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/finops/koala-io-finops.yml
   title: ''
   type: FinOps
   url: finops/koala-io-finops.yml
@@ -136,58 +168,72 @@ common:
   type: NPM
   url: https://www.npmjs.com/package/@getkoala/edge-api-client
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/vocabulary/koala-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/koala-io-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/json-ld/koala-io-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/koala-io-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/json-schema/koala-io-profile-batch-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/koala-io-profile-batch-request-schema.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/a2a/koala-io-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/koala-io-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/mcp/koala-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/koala-io-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/mcp/koala-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/koala-io-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/llms/koala-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koala-io-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/packages/koala-io-packages.yml
   title: ''
   type: Packages
   url: packages/koala-io-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/packages/koala-io-packages.yml
   title: ''
   type: SDKs
   url: packages/koala-io-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/conventions/koala-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koala-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/conventions/koala-io-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/koala-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/errors/koala-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/koala-io-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/data-model/koala-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koala-io-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/lifecycle/koala-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koala-io-lifecycle.yml
@@ -196,10 +242,12 @@ common:
   type: StatusPage
   url: https://koala.instatus.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/lifecycle/koala-io-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/koala-io-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/conformance/koala-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koala-io-conformance.yml
@@ -208,6 +256,7 @@ common:
   type: Compliance
   url: https://app.vanta.com/koala/trust/tzb87epi5imm1qbxktj0bn
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/security/koala-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/koala-io-vulnerability-disclosure.yml
@@ -216,34 +265,42 @@ common:
   type: Security
   url: https://getkoala.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/asyncapi/koala-io-auto-outbound-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/koala-io-auto-outbound-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/rules/koala-io-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/koala-io-jsonschema-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/examples/koala-io-profile-batch-identify-example.json
   title: ''
   type: Examples
   url: examples/koala-io-profile-batch-identify-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/examples/koala-io-profile-batch-track-example.json
   title: ''
   type: Examples
   url: examples/koala-io-profile-batch-track-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/examples/koala-io-account-batch-traits-example.json
   title: ''
   type: Examples
   url: examples/koala-io-account-batch-traits-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/examples/koala-io-account-batch-event-example.json
   title: ''
   type: Examples
   url: examples/koala-io-account-batch-event-example.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/json-schema/koala-io-account-batch-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/koala-io-account-batch-request-schema.json
@@ -343,6 +400,41 @@ rules:
     info: 1
     warn: 5
   slug: koala-io-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 64.3
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 80.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 29.5
+    contract_quality: 71.3
+    developer_ergonomics: 55.4
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 64.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/screenshots/koala-io-2026-07-25T224023.png
 security:
 - kind: authentication

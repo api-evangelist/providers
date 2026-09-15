@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Prediko''s public REST API for inventory operations: manage orders and deliveries, read SKUs and procurement suggestions, manage bill-of-materials and production consumption, and sync suppliers and war'
@@ -58,6 +83,7 @@ common:
   type: ChangeLog
   url: https://www.prediko.io/product-updates
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/changelog/prediko-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/prediko-changelog.yml
@@ -66,42 +92,52 @@ common:
   type: PrivacyPolicy
   url: https://www.prediko.io/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/authentication/prediko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prediko-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/lifecycle/prediko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prediko-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/conventions/prediko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prediko-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/errors/prediko-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/prediko-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/data-model/prediko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prediko-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/conformance/prediko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prediko-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/mcp/prediko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/prediko-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/llms/prediko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prediko-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/well-known/prediko-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prediko-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/well-known/prediko-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/prediko-security.txt
@@ -110,10 +146,12 @@ common:
   type: Security
   url: https://www.prediko.io/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/security/prediko-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/prediko-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/security/prediko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prediko-domain-security.yml
@@ -130,6 +168,35 @@ overview: 'Prediko publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Prediko''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, changelog, and 18 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 29.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 29.2
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/prediko/refs/heads/main/screenshots/prediko-2026-09-02T151915.png
 security:
 - kind: authentication

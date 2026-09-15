@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -106,50 +131,62 @@ collections:
   slug: open-moneris-unified-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/capabilities/moneris-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moneris-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/overlays/moneris-unified-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moneris-unified-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/security/moneris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moneris-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/agentic-access/moneris-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moneris-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/scopes/moneris-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/moneris-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/authentication/moneris-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moneris-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/mcp/moneris-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moneris-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/conventions/moneris-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moneris-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/conventions/moneris-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/moneris-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/errors/moneris-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moneris-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/errors/moneris-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/moneris-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/lifecycle/moneris-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moneris-lifecycle.yml
@@ -158,6 +195,7 @@ common:
   type: StatusPage
   url: https://status.moneris.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/conformance/moneris-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moneris-conformance.yml
@@ -166,26 +204,32 @@ common:
   type: Compliance
   url: https://www.moneris.com/en/support/compliance-and-security/pci-data-security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/asyncapi/moneris-subscriptions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moneris-subscriptions-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/data-model/moneris-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moneris-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/sandbox/moneris-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moneris-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/well-known/moneris-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moneris-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/llms/moneris-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moneris-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -271,6 +315,54 @@ scopes:
   scope_count: 14
   slug: moneris-scopes
   summary_line: 14 scopes · clientCredentials
+score:
+  band: developing
+  composite: 44.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 66.8
+    developer_ergonomics: 45.8
+    discoverability: 70.4
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 44.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 64.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png
 security:
 - kind: authentication

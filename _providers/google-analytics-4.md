@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -70,26 +95,32 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/overlays/google-analytics-4-data-v1beta-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-analytics-4-data-v1beta-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/overlays/google-analytics-4-data-v1alpha-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-analytics-4-data-v1alpha-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/overlays/google-analytics-4-admin-v1beta-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-analytics-4-admin-v1beta-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/overlays/google-analytics-4-admin-v1alpha-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-analytics-4-admin-v1alpha-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/agentic-access/google-analytics-4-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-analytics-4-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/security/google-analytics-4-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-analytics-4-vulnerability-disclosure.yml
@@ -98,10 +129,12 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/security/google-analytics-4-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-analytics-4-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/security/google-analytics-4-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/google-analytics-4-trust-center.yml
@@ -110,30 +143,37 @@ common:
   type: Compliance
   url: https://support.google.com/analytics/answer/6004245
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/authentication/google-analytics-4-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-analytics-4-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/scopes/google-analytics-4-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-analytics-4-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/conventions/google-analytics-4-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-analytics-4-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/errors/google-analytics-4-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-analytics-4-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/data-model/google-analytics-4-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-analytics-4-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/conformance/google-analytics-4-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-analytics-4-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/lifecycle/google-analytics-4-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-analytics-4-lifecycle.yml
@@ -142,66 +182,82 @@ common:
   type: StatusPage
   url: https://www.google.com/appsstatus/dashboard/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/changelog/google-analytics-4-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-analytics-4-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/rate-limits/google-analytics-4-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-analytics-4-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/plans/google-analytics-4-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-analytics-4-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/finops/google-analytics-4-finops.yml
   title: ''
   type: FinOps
   url: finops/google-analytics-4-finops.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/sandbox/google-analytics-4-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/google-analytics-4-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/components/google-analytics-4-components.yml
   title: ''
   type: Components
   url: components/google-analytics-4-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/packages/google-analytics-4-packages.yml
   title: ''
   type: Packages
   url: packages/google-analytics-4-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/packages/google-analytics-4-packages.yml
   title: ''
   type: SDKs
   url: packages/google-analytics-4-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/mcp/google-analytics-4-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/google-analytics-4-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/mcp/google-analytics-4-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/google-analytics-4-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/asyncapi/google-analytics-4-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/google-analytics-4-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/well-known/google-analytics-4-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-analytics-4-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/well-known/google-analytics-4-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-analytics-4-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/llms/google-analytics-4-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-analytics-4-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
@@ -298,6 +354,41 @@ scopes:
   scope_count: 5
   slug: google-analytics-4-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: strong
+  composite: 65.3
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 63.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 4.5
+    contract_quality: 63.5
+    developer_ergonomics: 70.8
+    discoverability: 81.5
+    operational_transparency: 84.2
+  previous_composite: 65.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/screenshots/google-analytics-4-2026-06-20T182011.png
 security:
 - kind: authentication

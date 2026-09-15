@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -107,22 +133,27 @@ collections:
   slug: open-cloudbees
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/agentic-access/cloudbees-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudbees-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/security/cloudbees-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudbees-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/security/cloudbees-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudbees-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/security/cloudbees-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudbees-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/authentication/cloudbees-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudbees-authentication.yml
@@ -155,10 +186,12 @@ common:
   type: Plugins
   url: https://docs.cloudbees.com/plugins/ci
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/json-ld/cloudbees-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudbees-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/rules/cloudbees-rules.yml
   title: ''
   type: Spectral
   url: rules/cloudbees-rules.yml
@@ -167,30 +200,37 @@ common:
   type: Blog
   url: https://www.cloudbees.com/blog/rss.xml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/mcp/cloudbees-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cloudbees-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/mcp/cloudbees-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cloudbees-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/llms/cloudbees-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudbees-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/well-known/cloudbees-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudbees-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/well-known/cloudbees-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cloudbees-security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/packages/cloudbees-packages.yml
   title: ''
   type: Packages
   url: packages/cloudbees-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/packages/cloudbees-packages.yml
   title: ''
   type: SDKs
   url: packages/cloudbees-packages.yml
@@ -203,14 +243,17 @@ common:
   type: Compliance
   url: https://www.cloudbees.com/company/trust-center
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/conformance/cloudbees-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudbees-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/errors/cloudbees-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudbees-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/lifecycle/cloudbees-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloudbees-lifecycle.yml
@@ -223,10 +266,12 @@ common:
   type: Deprecation
   url: https://docs.cloudbees.com/docs/cloudbees-common/latest/maintenance-lifecycle
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/conventions/cloudbees-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloudbees-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/changelog/cloudbees-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cloudbees-changelog.yml
@@ -235,34 +280,42 @@ common:
   type: ChangeLog
   url: https://docs.cloudbees.com/docs/cloudbees-unify-changelog/latest/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/cli/cloudbees-cli.yml
   title: ''
   type: CLI
   url: cli/cloudbees-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/asyncapi/cloudbees-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cloudbees-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/data-model/cloudbees-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloudbees-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/scopes/cloudbees-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cloudbees-scopes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/plans/cloudbees-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudbees-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/rate-limits/cloudbees-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudbees-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/finops/cloudbees-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudbees-finops.yml
@@ -344,6 +397,41 @@ scopes:
   scope_count: 4
   slug: cloudbees-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 66.6
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 72.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 72.7
+    contract_quality: 58.1
+    developer_ergonomics: 75.6
+    discoverability: 72.2
+    operational_transparency: 81.6
+  previous_composite: 66.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 22.2
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/screenshots/cloudbees-2026-06-20T174542.png
 security:
 - kind: authentication

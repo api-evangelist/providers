@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: templated
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 57.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -112,6 +137,7 @@ common:
   type: Website
   url: https://www.salesforce.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/capabilities/salesforce-marketing-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesforce-marketing-cloud-capability-edges.yml
@@ -128,18 +154,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce-marketing-cloud/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/agentic-access/salesforce-marketing-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-marketing-cloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/security/salesforce-marketing-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-marketing-cloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/authentication/salesforce-marketing-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-marketing-cloud-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/scopes/salesforce-marketing-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-marketing-cloud-scopes.yml
@@ -204,30 +234,37 @@ common:
   type: Training
   url: https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-marketing-cloud
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/packages/salesforce-marketing-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/salesforce-marketing-cloud-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/packages/salesforce-marketing-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/salesforce-marketing-cloud-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/well-known/salesforce-marketing-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/salesforce-marketing-cloud-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/mcp/salesforce-marketing-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/salesforce-marketing-cloud-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/mcp/salesforce-marketing-cloud-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/salesforce-marketing-cloud-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/llms/salesforce-marketing-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salesforce-marketing-cloud-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/conformance/salesforce-marketing-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/salesforce-marketing-cloud-conformance.yml
@@ -236,10 +273,12 @@ common:
   type: Compliance
   url: https://compliance.salesforce.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/errors/salesforce-marketing-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/salesforce-marketing-cloud-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/lifecycle/salesforce-marketing-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salesforce-marketing-cloud-lifecycle.yml
@@ -248,6 +287,7 @@ common:
   type: Deprecation
   url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/api_rest_eol.htm
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/security/salesforce-marketing-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/salesforce-marketing-cloud-vulnerability-disclosure.yml
@@ -260,38 +300,47 @@ common:
   type: TrustCenter
   url: https://trust.salesforce.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/conventions/salesforce-marketing-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/salesforce-marketing-cloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/conventions/salesforce-marketing-cloud-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/salesforce-marketing-cloud-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/changelog/salesforce-marketing-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/salesforce-marketing-cloud-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/components/salesforce-marketing-cloud-components.yml
   title: ''
   type: Components
   url: components/salesforce-marketing-cloud-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/data-model/salesforce-marketing-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/salesforce-marketing-cloud-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/asyncapi/salesforce-marketing-cloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/salesforce-marketing-cloud-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/plans/salesforce-marketing-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesforce-marketing-cloud-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/rate-limits/salesforce-marketing-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesforce-marketing-cloud-rate-limits.yml
@@ -746,6 +795,47 @@ scopes:
   scope_count: 42
   slug: salesforce-marketing-cloud-scopes
   summary_line: 42 scopes · clientCredentials
+score:
+  band: exemplar
+  composite: 82.6
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 71.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 31.8
+    contract_quality: 74.5
+    developer_ergonomics: 76.8
+    discoverability: 79.6
+    operational_transparency: 84.2
+  previous_composite: 82.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:
 - kind: authentication

@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 0
 common:
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kippt/refs/heads/main/packages/kippt-packages.yml
   title: ''
   type: Packages
   url: packages/kippt-packages.yml

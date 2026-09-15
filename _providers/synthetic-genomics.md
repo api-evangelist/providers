@@ -18,22 +18,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/syntheticgenomics
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/synthetic-genomics/refs/heads/main/packages/synthetic-genomics-packages.yml
   title: ''
   type: Packages
   url: packages/synthetic-genomics-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synthetic-genomics/refs/heads/main/security/synthetic-genomics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synthetic-genomics-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthetic-genomics/refs/heads/main/llms/synthetic-genomics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synthetic-genomics-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synthetic-genomics/refs/heads/main/plans/synthetic-genomics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/synthetic-genomics-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synthetic-genomics/refs/heads/main/rate-limits/synthetic-genomics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/synthetic-genomics-rate-limits.yml

@@ -8,10 +8,36 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/security/bizible-marketing-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bizible-marketing-analytics-domain-security.yml
@@ -24,34 +50,42 @@ common:
   type: Website
   url: https://bizible.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/packages/bizible-marketing-analytics-packages.yml
   title: ''
   type: Packages
   url: packages/bizible-marketing-analytics-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/components/bizible-marketing-analytics-components.yml
   title: ''
   type: Components
   url: components/bizible-marketing-analytics-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/changelog/bizible-marketing-analytics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bizible-marketing-analytics-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/lifecycle/bizible-marketing-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bizible-marketing-analytics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/conformance/bizible-marketing-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bizible-marketing-analytics-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/plans/bizible-marketing-analytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bizible-marketing-analytics-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/rate-limits/bizible-marketing-analytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bizible-marketing-analytics-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/llms/bizible-marketing-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bizible-marketing-analytics-llms.txt
@@ -90,6 +124,34 @@ rate_limits:
 - limit_count: 0
   name: Bizible Marketing Analytics Rate Limits
   slug: bizible-marketing-analytics-rate-limits
+score:
+  band: emerging
+  composite: 11.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 9.5
+    discoverability: 57.4
+    operational_transparency: 15.8
+  previous_composite: 11.9
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizible-marketing-analytics/refs/heads/main/screenshots/bizible-marketing-analytics-2026-07-25T203222.png
 security:
 - kind: domain-security

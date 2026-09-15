@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -70,10 +95,12 @@ collections:
   slug: open-uniuni-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/capabilities/uniuni-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uniuni-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/overlays/uniuni-platform-client-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uniuni-platform-client-api-overlay.yaml
@@ -122,50 +149,62 @@ common:
   type: Postman
   url: https://docs.uniuni.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/llms/uniuni-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uniuni-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/mcp/uniuni-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/uniuni-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/authentication/uniuni-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uniuni-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/sandbox/uniuni-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/uniuni-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/conventions/uniuni-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uniuni-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/errors/uniuni-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uniuni-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/lifecycle/uniuni-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uniuni-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/conformance/uniuni-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uniuni-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/data-model/uniuni-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uniuni-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/asyncapi/uniuni-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uniuni-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/security/uniuni-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uniuni-domain-security.yml
@@ -185,6 +224,40 @@ overview: 'UniUni publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
   UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
 random_paper: 13
+score:
+  band: developing
+  composite: 45.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 65.6
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 45.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/screenshots/uniuni-2026-08-17T082619.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 9
@@ -131,26 +156,32 @@ asyncapis:
   slug: agntcy-events
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/overlays/agntcy-oasf-schema-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agntcy-oasf-schema-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/overlays/agntcy-identity-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agntcy-identity-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/overlays/agntcy-identity-node-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agntcy-identity-node-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/agentic-access/agntcy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agntcy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/security/agntcy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agntcy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/authentication/agntcy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agntcy-authentication.yml
@@ -187,46 +218,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/CiscoDevNet
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/llms/agntcy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agntcy-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/packages/agntcy-packages.yml
   title: ''
   type: Packages
   url: packages/agntcy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/packages/agntcy-packages.yml
   title: ''
   type: SDKs
   url: packages/agntcy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/mcp/agntcy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agntcy-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/mcp/agntcy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/agntcy-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/overlays/agntcy-acp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agntcy-acp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/conformance/agntcy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agntcy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/errors/agntcy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agntcy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/lifecycle/agntcy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agntcy-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/security/agntcy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agntcy-vulnerability-disclosure.yml
@@ -235,6 +277,7 @@ common:
   type: Security
   url: https://github.com/agntcy/dir/blob/main/SECURITY.md
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/sandbox/agntcy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agntcy-sandbox.yml
@@ -243,14 +286,17 @@ common:
   type: Console
   url: https://schema.oasf.outshift.com/doc
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/conventions/agntcy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agntcy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/conventions/agntcy-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/agntcy-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/changelog/agntcy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agntcy-changelog.yml
@@ -259,26 +305,32 @@ common:
   type: ChangeLog
   url: https://agntcy.org/changelog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/cli/agntcy-cli.yml
   title: ''
   type: CLI
   url: cli/agntcy-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/data-model/agntcy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agntcy-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/rate-limits/agntcy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agntcy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/plans/agntcy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agntcy-plans-pricing.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/json-schema/agntcy-oasf-record.json
   title: ''
   type: JSONSchema
   url: json-schema/agntcy-oasf-record.json
@@ -380,6 +432,41 @@ rate_limits:
 - limit_count: 0
   name: Agntcy Rate Limits
   slug: agntcy-rate-limits
+score:
+  band: developing
+  composite: 47.4
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 42.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 63.0
+    developer_ergonomics: 80.4
+    discoverability: 66.7
+    operational_transparency: 28.9
+  previous_composite: 47.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/screenshots/agntcy-2026-09-02T144115.png
 security:
 - kind: authentication

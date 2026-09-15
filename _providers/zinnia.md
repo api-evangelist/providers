@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.7
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - baseURL: https://qa.api.zinnia.io
@@ -54,10 +80,12 @@ apis:
 artifact_total: 15
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/security/zinnia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zinnia-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/authentication/zinnia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zinnia-authentication.yml
@@ -98,38 +126,47 @@ common:
   type: OpenIDConnect
   url: https://login.zinnia.com/.well-known/openid-configuration
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/scopes/zinnia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zinnia-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/conventions/zinnia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zinnia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/errors/zinnia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zinnia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/data-model/zinnia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zinnia-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/lifecycle/zinnia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zinnia-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/changelog/zinnia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zinnia-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/conformance/zinnia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zinnia-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/well-known/zinnia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zinnia-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/llms/zinnia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zinnia-llms.txt
@@ -138,14 +175,17 @@ common:
   type: LLMsTxt
   url: https://developers.zinnia.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/plans/zinnia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zinnia-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/rate-limits/zinnia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zinnia-rate-limits.yml
@@ -175,6 +215,43 @@ scopes:
   scope_count: 0
   slug: zinnia-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 48.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 59.7
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 15.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 63.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: true
+    score: 27.8
 security:
 - kind: authentication
   name: Zinnia Authentication
@@ -191,11 +268,11 @@ tags:
 - Annuities
 - Policy Administration
 - Insurtech
-- Financial Services
+- Financial-Services
 - Third Party Administration
 - New Business
 - Order Entry
-- Document Management
+- Document-Management
 - Underwriting
 - Enterprise
 website: https://zinnia.com/

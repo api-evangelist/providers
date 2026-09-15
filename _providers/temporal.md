@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -123,6 +148,7 @@ common:
   type: Website
   url: https://www.temporal.io/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/capabilities/temporal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/temporal-capability-edges.yml
@@ -135,10 +161,12 @@ common:
   type: Releases
   url: https://github.com/temporalio/api/releases
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/mcp/temporal-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/temporal-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/overlays/temporal-cloud-ops-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/temporal-cloud-ops-api-overlay.yaml
@@ -147,54 +175,67 @@ common:
   type: License
   url: https://github.com/temporalio/api/blob/main/LICENSE
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/packages/temporal-packages.yml
   title: ''
   type: Packages
   url: packages/temporal-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/well-known/temporal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/temporal-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/well-known/temporal-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/temporal-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/llms/temporal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/temporal-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/lifecycle/temporal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/temporal-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/changelog/temporal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/temporal-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/cli/temporal-cli.yml
   title: ''
   type: CLI
   url: cli/temporal-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/sandbox/temporal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/temporal-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/agentic-access/temporal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/temporal-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/security/temporal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/temporal-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/security/temporal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/temporal-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/security/temporal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/temporal-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/authentication/temporal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/temporal-authentication.yml
@@ -203,46 +244,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/temporal/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-audit-api-keys-for-owner-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-audit-api-keys-for-owner-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-delete-namespace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-delete-namespace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-deprovision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-deprovision-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-find-namespace-by-name-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-find-namespace-by-name-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-issue-service-account-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-issue-service-account-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-provision-namespace-in-region-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-provision-namespace-in-region-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-provision-namespace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-provision-namespace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-provision-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-rotate-api-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-rotate-api-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-track-async-operation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-track-async-operation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/arazzo/temporal-update-namespace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/temporal-update-namespace-workflow.yml
@@ -327,6 +379,7 @@ common:
   type: LlmsText
   url: https://docs.temporal.io/llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -524,6 +577,43 @@ rules:
     info: 1
     warn: 6
   slug: temporal-spectral-rules
+score:
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 40.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 74.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 18.2
+    contract_quality: 57.8
+    developer_ergonomics: 82.1
+    discoverability: 48.1
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 53.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:
 - kind: authentication

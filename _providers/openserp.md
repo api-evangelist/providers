@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 36.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -75,10 +100,12 @@ common:
   type: License
   url: https://github.com/karust/openserp/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/agentic-access/openserp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openserp-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/security/openserp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openserp-domain-security.yml
@@ -171,78 +198,97 @@ common:
   type: Community
   url: https://t.me/openserp_cloud
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/authentication/openserp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openserp-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/conventions/openserp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openserp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/errors/openserp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openserp-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/lifecycle/openserp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openserp-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/changelog/openserp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openserp-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/packages/openserp-packages.yml
   title: ''
   type: Packages
   url: packages/openserp-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/packages/openserp-packages.yml
   title: ''
   type: SDKs
   url: packages/openserp-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/cli/openserp-cli.yml
   title: ''
   type: CLI
   url: cli/openserp-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/sandbox/openserp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openserp-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/data-model/openserp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openserp-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/conformance/openserp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openserp-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/well-known/openserp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openserp-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/well-known/openserp-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/openserp-robots.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/llms/openserp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openserp-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/mcp/openserp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openserp-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/mcp/openserp-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/openserp-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/asyncapi/openserp-monitor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openserp-monitor-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/overlays/openserp-oss-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openserp-oss-overlay.yaml
@@ -269,6 +315,44 @@ overview: 'OpenSERP publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
   OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 40 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 49.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 51.3
+    developer_ergonomics: 78.0
+    discoverability: 87.0
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 49.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/screenshots/openserp-2026-08-17T081125.png
 security:
 - kind: authentication

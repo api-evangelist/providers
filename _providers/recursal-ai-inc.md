@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,10 +76,12 @@ collections:
   slug: open-recursal-ai-inc-models-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/overlays/recursal-ai-inc-featherless-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/recursal-ai-inc-featherless-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/security/recursal-ai-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recursal-ai-inc-domain-security.yml
@@ -123,46 +150,57 @@ common:
   type: Models
   url: https://featherless.ai/models
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/llms/recursal-ai-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/recursal-ai-inc-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/authentication/recursal-ai-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recursal-ai-inc-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/conventions/recursal-ai-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/recursal-ai-inc-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/rate-limits/recursal-ai-inc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/recursal-ai-inc-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/errors/recursal-ai-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/recursal-ai-inc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/lifecycle/recursal-ai-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/recursal-ai-inc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/conformance/recursal-ai-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/recursal-ai-inc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/data-model/recursal-ai-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/recursal-ai-inc-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/mcp/recursal-ai-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/recursal-ai-inc-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/agentic-access/recursal-ai-inc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/recursal-ai-inc-agentic-access.yml
@@ -183,6 +221,41 @@ rate_limits:
 - limit_count: 0
   name: Recursal Ai Inc Rate Limits
   slug: recursal-ai-inc-rate-limits
+score:
+  band: thin
+  composite: 33.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 13.8
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 33.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/recursal-ai-inc/refs/heads/main/screenshots/recursal-ai-inc-2026-08-17T081505.png
 security:
 - kind: authentication

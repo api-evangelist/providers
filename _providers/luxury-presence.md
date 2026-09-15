@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -71,6 +96,7 @@ collections:
   slug: open-luxury-presence-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/overlays/luxury-presence-cms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/luxury-presence-cms-overlay.yaml
@@ -119,58 +145,72 @@ common:
   type: PrivacyPolicy
   url: https://www.luxurypresence.com/privacy-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/llms/luxury-presence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/luxury-presence-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/mcp/luxury-presence-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/luxury-presence-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/authentication/luxury-presence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/luxury-presence-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/agentic-access/luxury-presence-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/luxury-presence-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/security/luxury-presence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/luxury-presence-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/conventions/luxury-presence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/luxury-presence-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/errors/luxury-presence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/luxury-presence-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/lifecycle/luxury-presence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/luxury-presence-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/sandbox/luxury-presence-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/luxury-presence-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/conformance/luxury-presence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/luxury-presence-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/data-model/luxury-presence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/luxury-presence-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/asyncapi/luxury-presence-leads-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/luxury-presence-leads-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/asyncapi/luxury-presence-leads-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/luxury-presence-leads-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -194,6 +234,41 @@ overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) n
 
   Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 42.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 62.3
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 42.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
 security:
 - kind: authentication

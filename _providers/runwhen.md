@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 10
@@ -435,58 +461,72 @@ collections:
   slug: open-runwhen-workspaces-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/_original/runwhen-papi-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/runwhen-papi-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/overlays/runwhen-papi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/runwhen-papi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/authentication/runwhen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runwhen-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/scopes/runwhen-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/runwhen-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/agentic-access/runwhen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/runwhen-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/mcp/runwhen-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/runwhen-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/packages/runwhen-packages.yml
   title: ''
   type: Packages
   url: packages/runwhen-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/well-known/runwhen-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/runwhen-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/conventions/runwhen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runwhen-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/errors/runwhen-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/runwhen-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/data-model/runwhen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/runwhen-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/conformance/runwhen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runwhen-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/lifecycle/runwhen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/runwhen-lifecycle.yml
@@ -495,10 +535,12 @@ common:
   type: StatusPage
   url: https://runwhen.statuspage.io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/llms/runwhen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runwhen-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/security/runwhen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runwhen-domain-security.yml
@@ -564,6 +606,41 @@ scopes:
   scope_count: 3
   slug: runwhen-scopes
   summary_line: 3 scopes
+score:
+  band: developing
+  composite: 46.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 56.0
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 46.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 2.0
+      total: 51
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/screenshots/runwhen-2026-08-17T081659.png
 security:
 - kind: authentication

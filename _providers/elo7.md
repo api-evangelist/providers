@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elo7/refs/heads/main/security/elo7-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elo7-domain-security.yml

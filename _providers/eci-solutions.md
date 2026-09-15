@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.8
+  scored_at: '2026-09-14'
 api_count: 15
 apis:
 - baseURL: https://api-erp.integrations.ecimanufacturing.com
@@ -96,98 +122,122 @@ asyncapis:
   slug: eci-solutions-lasso-registrant-webhooks
 common:
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/packages/eci-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/eci-solutions-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/well-known/eci-solutions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eci-solutions-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/well-known/eci-solutions-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/eci-solutions-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/llms/eci-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eci-solutions-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/mcp/eci-solutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eci-solutions-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/conformance/eci-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eci-solutions-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/security/eci-solutions-trust-center.yml
   title: ''
   type: Compliance
   url: security/eci-solutions-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/errors/eci-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eci-solutions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/lifecycle/eci-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eci-solutions-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/authentication/eci-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eci-solutions-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/scopes/eci-solutions-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eci-solutions-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/conventions/eci-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eci-solutions-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/conventions/eci-solutions-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/eci-solutions-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/data-model/eci-solutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eci-solutions-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/changelog/eci-solutions-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eci-solutions-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/asyncapi/eci-solutions-lasso-registrant-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eci-solutions-lasso-registrant-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/plans/eci-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eci-solutions-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/rate-limits/eci-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eci-solutions-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/finops/eci-solutions-finops.yml
   title: ''
   type: FinOps
   url: finops/eci-solutions-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/security/eci-solutions-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/eci-solutions-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/security/eci-solutions-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eci-solutions-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/security/eci-solutions-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/eci-solutions-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/security/eci-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eci-solutions-domain-security.yml
@@ -281,6 +331,46 @@ scopes:
   scope_count: 1
   slug: eci-solutions-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: strong
+  composite: 56.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 55.6
+    developer_ergonomics: 39.9
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 56.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 11.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 64.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/eci-solutions/refs/heads/main/screenshots/eci-solutions-2026-06-20T180423.png
 security:
 - kind: authentication

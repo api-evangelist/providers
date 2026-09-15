@@ -10,6 +10,31 @@ access_model:
   - probe
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 9
 apis:
 - description: 'Person enrichment from an email address, plus the Combined lookup that returns the person and their company in one response. Endpoints: /v2/people/find, /v2/combined/find. Verified live 2026-08-13 (HT'
@@ -98,42 +123,52 @@ common:
   type: Compliance
   url: https://clearbit.com/trust#compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/security/clearbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clearbit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/security/clearbit-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/clearbit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/security/clearbit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clearbit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/security/clearbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clearbit-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/authentication/clearbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clearbit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/conventions/clearbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clearbit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/errors/clearbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clearbit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/data-model/clearbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clearbit-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/conformance/clearbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clearbit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/lifecycle/clearbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clearbit-lifecycle.yml
@@ -146,38 +181,47 @@ common:
   type: Deprecation
   url: https://clearbit.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/changelog/clearbit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clearbit-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/asyncapi/clearbit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/clearbit-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/packages/clearbit-packages.yml
   title: ''
   type: Packages
   url: packages/clearbit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/packages/clearbit-packages.yml
   title: ''
   type: SDKs
   url: packages/clearbit-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/components/clearbit-components.yml
   title: ''
   type: Components
   url: components/clearbit-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/llms/clearbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clearbit-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/plans/clearbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clearbit-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/rate-limits/clearbit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clearbit-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/finops/clearbit-finops.yml
   title: ''
   type: FinOps
   url: finops/clearbit-finops.yml
@@ -213,6 +257,35 @@ rate_limits:
 - limit_count: 9
   name: Clearbit Rate Limits
   slug: clearbit-rate-limits
+score:
+  band: strong
+  composite: 60.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 63.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 82.9
+    contract_governance: 4.5
+    contract_quality: 53.1
+    developer_ergonomics: 52.4
+    discoverability: 74.1
+    operational_transparency: 92.1
+  previous_composite: 60.3
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/screenshots/clearbit-2026-06-20T174455.png
 security:
 - kind: authentication

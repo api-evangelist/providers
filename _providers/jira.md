@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 56.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,6 +100,61 @@ apis:
 - description: Atlassian's official hosted Model Context Protocol server. An OAuth 2.1 protected endpoint that exposes Jira, Jira Service Management, Confluence, Bitbucket, Compass and Loom to MCP-capable AI clients
   name: Atlassian Remote MCP Server
   slug: atlassian-jira-remote-mcp-server
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Read Jira field metadata.
+  name: Atlassian Jira Fields API
+  slug: atlassian-jira-fields-api
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage comments on issues.
+  name: Atlassian Jira Issue Comments API
+  slug: atlassian-jira-issue-comments-api
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Search issues using JQL.
+  name: Atlassian Jira Issue Search API
+  slug: atlassian-jira-issue-search-api
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: List and perform workflow transitions.
+  name: Atlassian Jira Issue Transitions API
+  slug: atlassian-jira-issue-transitions-api
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage worklogs on issues.
+  name: Atlassian Jira Issue Worklogs API
+  slug: atlassian-jira-issue-worklogs-api
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Create, read, update and delete Jira issues.
+  name: Atlassian Jira Issues API
+  slug: atlassian-jira-issues-api
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage Jira projects.
+  name: Atlassian Jira Projects API
+  slug: atlassian-jira-projects-api
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Read user information.
+  name: Atlassian Jira Users API
+  slug: atlassian-jira-users-api
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: declared
+  description: The complete first-party Jira Cloud platform REST API — 617 operations across 421 paths covering issues, projects, users, workflows, fields, screens, permissions, dashboards, filters, webhooks and adm
+  name: Atlassian Jira Cloud Platform REST API v3
+  slug: atlassian-jira-cloud-platform-api
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: declared
+  description: The first-party Jira Software (Agile) REST API at /rest/agile/1.0 — 105 operations covering boards, sprints, epics, backlogs, versions, and the development-information surface for builds, deployments,
+  name: Jira Software Cloud API
+  slug: atlassian-jira-software-cloud-api
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: declared
+  description: The first-party Jira Service Management REST API at /rest/servicedeskapi — 75 operations covering service desks, customer requests, request types, queues, SLAs, organizations, customers and the knowle
+  name: Jira Service Management REST API
+  slug: atlassian-jira-service-management-api
 arazzos:
 - description: Read an issue, page through its comment thread oldest-first, then add a reply.
   name: Jira Read an Issue Comment Thread and Reply
@@ -105,7 +186,7 @@ arazzos:
 - description: Read an issue, discover its legal transitions, apply one, and verify the new status.
   name: Jira Transition an Issue to a New Status
   slug: jira-transition-issue-workflow
-artifact_total: 220
+artifact_total: 231
 asyncapis:
 - description: Jira Cloud webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in your Jira instance. Webhooks can be registered via the Jira REST API or through the Jira administr
   name: Jira Cloud Webhooks
@@ -172,6 +253,16 @@ collections:
   name: Atlassian Jira Cloud Platform REST API v3
   slug: open-jira
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/plans/jira-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jira-plans-pricing.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/finops/jira-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/jira-finops.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -193,6 +284,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/atlassian
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/mcp/jira-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/jira-tool-crosswalk.yml
@@ -205,14 +297,17 @@ common:
   type: Deprecation
   url: https://developer.atlassian.com/platform/marketplace/atlassian-rest-api-policy/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/sandbox/jira-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jira-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/asyncapi/jira-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jira-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -245,10 +340,12 @@ common:
   type: BugBounty
   url: https://bugcrowd.com/atlassian
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/collections/jira.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/jira.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/collections/jira.opencollection.json
   title: ''
   type: OpenCollection
   url: collections/jira.opencollection.json
@@ -261,122 +358,152 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/jira/overview
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/packages/jira-packages.yml
   title: ''
   type: Packages
   url: packages/jira-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/well-known/jira-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jira-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/well-known/jira-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/jira-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/mcp/jira-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jira-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/llms/jira-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jira-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/overlays/jira-cloud-platform-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jira-cloud-platform-rest-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/conformance/jira-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jira-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/errors/jira-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jira-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/lifecycle/jira-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jira-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/conventions/jira-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jira-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/changelog/jira-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jira-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/cli/jira-cli.yml
   title: ''
   type: CLI
   url: cli/jira-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/components/jira-components.yml
   title: ''
   type: Components
   url: components/jira-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/data-model/jira-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jira-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/agentic-access/jira-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jira-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/security/jira-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jira-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/security/jira-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jira-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/security/jira-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jira-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/authentication/jira-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jira-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/scopes/jira-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jira-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-comment-thread-reply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-comment-thread-reply-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-create-issue-read-back-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-create-issue-read-back-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-deduplicate-issue-intake-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-deduplicate-issue-intake-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-edit-issue-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-edit-issue-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-issue-metadata-bootstrap-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-issue-metadata-bootstrap-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-jql-issue-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-jql-issue-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-project-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-project-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-safe-issue-delete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-safe-issue-delete-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-stale-issue-sweep-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-stale-issue-sweep-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/arazzo/jira-transition-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jira-transition-issue-workflow.yml
@@ -433,14 +560,17 @@ common:
   type: Security
   url: https://developer.atlassian.com/cloud/jira/platform/security-overview/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/json-schema/jira-issue-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/jira-issue-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/json-schema/jira-project-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/jira-project-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/json-ld/jira-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/jira-context.jsonld
@@ -906,13 +1036,13 @@ modified: '2026-06-20'
 name: Jira
 nav: Providers
 network: true
-overview: 'Jira publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Issue Comments API, Issue Priorities API, Issue Search API, and 5 more. Tagged areas include Agile, Issue Tracking, ITSM, Project Management, and Service Management.
+overview: 'Jira publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Issue Comments API, Issue Priorities API, Issue Search API, and 16 more. Tagged areas include Agile, Issue Tracking, ITSM, Project Management, and Service Management.
 
 
   The Jira catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Jira''s developer surface includes documentation, pricing, sandbox, API reference, signup flow, changelog, CLI, and 61 more developer resources.'
+  Jira''s developer surface includes documentation, pricing, sandbox, API reference, signup flow, changelog, CLI, and 63 more developer resources.'
 plans:
 - name: Jira Plans Pricing
   plan_count: 4
@@ -960,6 +1090,41 @@ scopes:
   scope_count: 5
   slug: jira-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 68.5
+  coverage:
+    artifact_dirs: 36
+    catalog_earned: 43.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 71.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.4
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 60.9
+    developer_ergonomics: 81.5
+    discoverability: 55.6
+    operational_transparency: 73.7
+  previous_composite: 68.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 72.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Build, run and observe PolyAI voice and chat agents from your own systems. Three REST API families (Agents, Conversations, Webhooks & Alerts) plus Chat, SMS, Outbound Calling, Handoff, DNI, External E
@@ -50,46 +75,57 @@ common:
   type: Compliance
   url: https://docs.poly.ai/legal/compliance
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/llms/polyai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/polyai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/errors/polyai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/polyai-error-codes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/authentication/polyai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polyai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/conventions/polyai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/polyai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/lifecycle/polyai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/polyai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/lifecycle/polyai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/polyai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/asyncapi/polyai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/polyai-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/packages/polyai-packages.yml
   title: ''
   type: Packages
   url: packages/polyai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/cli/polyai-cli.yml
   title: ''
   type: CLI
   url: cli/polyai-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/conformance/polyai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/polyai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/security/polyai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polyai-domain-security.yml
@@ -109,6 +145,34 @@ overview: 'Polyai publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Polyai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 13 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 35.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 35.6
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/screenshots/polyai-2026-09-02T151704.png
 security:
 - kind: authentication

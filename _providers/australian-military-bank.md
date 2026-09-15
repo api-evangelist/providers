@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://public.open.australianmilitarybank.com.au/cds-au/v1/banking/products
@@ -74,6 +99,7 @@ collections:
   slug: open-australian-military-bank-banking-products-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/security/australian-military-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/australian-military-bank-domain-security.yml
@@ -110,22 +136,27 @@ common:
   type: APIReference
   url: https://consumerdatastandardsaustralia.github.io/standards/#get-products
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/authentication/australian-military-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/australian-military-bank-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/scopes/australian-military-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/australian-military-bank-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/conventions/australian-military-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/australian-military-bank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/errors/australian-military-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/australian-military-bank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/conformance/australian-military-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/australian-military-bank-conformance.yml
@@ -134,30 +165,37 @@ common:
   type: Compliance
   url: https://www.australianmilitarybank.com.au/consumer-data-right
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/lifecycle/australian-military-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/australian-military-bank-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/lifecycle/australian-military-bank-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/australian-military-bank-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/data-model/australian-military-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/australian-military-bank-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/mcp/australian-military-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/australian-military-bank-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/llms/australian-military-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/australian-military-bank-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/overlays/australian-military-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/australian-military-bank-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -179,6 +217,57 @@ scopes:
   scope_count: 0
   slug: australian-military-bank-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 12.4
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 36.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 77.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png
 security:
 - kind: authentication

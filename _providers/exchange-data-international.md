@@ -10,6 +10,31 @@ access_model:
   - https://developer.exchange-data.com/p/developers-and-startups
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 24
 apis:
 - description: Worldwide end-of-day equity pricing (open, high, low, close, bid, ask, last trade, volume) queried by MIC, LocalCode, or ISIN via the GetLatestEODPrices endpoint, returned as JSON or pipe-separated va
@@ -87,34 +112,42 @@ apis:
 artifact_total: 26
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/security/exchange-data-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exchange-data-international-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/well-known/exchange-data-international-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/exchange-data-international-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/authentication/exchange-data-international-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exchange-data-international-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/errors/exchange-data-international-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/exchange-data-international-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/conventions/exchange-data-international-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exchange-data-international-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/sandbox/exchange-data-international-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/exchange-data-international-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/conformance/exchange-data-international-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exchange-data-international-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/llms/exchange-data-international-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exchange-data-international-llms.txt
@@ -171,6 +204,46 @@ overview: 'Exchange Data International publishes 24 APIs on the [APIs.io](https:
 
   Exchange Data International''s developer surface includes authentication, sandbox, API reference, developer portal, documentation, signup flow, engineering blog, and 11 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 27.0
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 27.0
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/screenshots/exchange-data-international-2026-07-22T202401.png
 security:
 - kind: authentication

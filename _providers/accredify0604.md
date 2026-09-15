@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://nexus.accredify.io
@@ -70,66 +95,82 @@ common:
   type: Compliance
   url: https://www.accredify.io/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/security/accredify0604-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/accredify0604-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/llms/accredify0604-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accredify0604-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/well-known/accredify0604-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/accredify0604-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/packages/accredify0604-packages.yml
   title: ''
   type: Packages
   url: packages/accredify0604-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/conformance/accredify0604-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accredify0604-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/errors/accredify0604-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/accredify0604-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/lifecycle/accredify0604-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accredify0604-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/scopes/accredify0604-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/accredify0604-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/authentication/accredify0604-authentication.yml
   title: ''
   type: Authentication
   url: authentication/accredify0604-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/security/accredify0604-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accredify0604-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/conventions/accredify0604-conventions.yml
   title: ''
   type: Conventions
   url: conventions/accredify0604-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/sandbox/accredify0604-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/accredify0604-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/data-model/accredify0604-data-model.yml
   title: ''
   type: DataModel
   url: data-model/accredify0604-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/plans/accredify0604-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/accredify0604-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/rate-limits/accredify0604-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/accredify0604-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -160,6 +201,53 @@ scopes:
   scope_count: 20
   slug: accredify0604-scopes
   summary_line: 20 scopes · clientCredentials
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 53.0
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 51.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 65.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Accredify0604 Authentication
@@ -184,7 +272,7 @@ tags:
 - Education
 - Healthcare
 - Trust
-- OpenBadges
+- Open Badges
 - OID4VCI
 - Singapore
 website: https://www.accredify.io/

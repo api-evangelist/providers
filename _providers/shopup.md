@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,6 +76,7 @@ collections:
   slug: open-shopup-pickup-stores-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/capabilities/shopup-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shopup-capability-edges.yml
@@ -87,58 +113,72 @@ common:
   type: PrivacyPolicy
   url: https://redx.com.bd/privacy-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/agentic-access/shopup-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shopup-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/authentication/shopup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopup-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/security/shopup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopup-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/mcp/shopup-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shopup-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/errors/shopup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shopup-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/conventions/shopup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopup-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/sandbox/shopup-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopup-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/data-model/shopup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shopup-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/overlays/shopup-redx-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shopup-redx-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/lifecycle/shopup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopup-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/conformance/shopup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopup-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/packages/shopup-packages.yml
   title: ''
   type: Packages
   url: packages/shopup-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/llms/shopup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopup-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/skills/shopup-create-parcel.md
   title: ''
   type: AgentSkill
   url: skills/shopup-create-parcel.md
@@ -155,6 +195,46 @@ overview: 'ShopUp publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
   ShopUp''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
 random_paper: 20
+score:
+  band: thin
+  composite: 36.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 55.8
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 36.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/screenshots/shopup-2026-09-02T155307.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Web API for submitting files (PE, PDF, Office documents, Flash, Java applets, Android applications, archives) and URLs to the Lastline analysis cloud for high-resolution behavioral malware analysis, t
@@ -30,26 +55,32 @@ common:
   type: Portal
   url: https://user.lastline.com/portal
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/packages/lastline-packages.yml
   title: ''
   type: Packages
   url: packages/lastline-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/packages/lastline-packages.yml
   title: ''
   type: SDKs
   url: packages/lastline-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/lifecycle/lastline-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lastline-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/conformance/lastline-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lastline-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/changelog/lastline-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lastline-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/cli/lastline-cli.yml
   title: ''
   type: CLI
   url: cli/lastline-cli.yml
@@ -70,10 +101,12 @@ common:
   type: Support
   url: https://my.vmware.com/group/vmware/get-help
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/security/lastline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lastline-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/llms/lastline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lastline-llms.txt
@@ -91,6 +124,34 @@ overview: 'Lastline publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Lastline''s developer surface includes developer portal, changelog, CLI, documentation, API reference, getting-started guide, support, and 8 more developer resources.'
 random_paper: 20
+score:
+  band: emerging
+  composite: 23.5
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 66.7
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 23.5
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/screenshots/lastline-2026-07-25T224746.png
 security:
 - kind: authentication

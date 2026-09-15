@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1218
   human_in_the_loop: 20
@@ -1968,30 +1994,37 @@ collections:
   slug: open-automattic-wordpress-com-wpcom-v2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-rest-v1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-rest-v1-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-rest-v1-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-rest-v1-2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-rest-v1-3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-rest-v1-3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-wp-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-wp-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-wordpress-com-wpcom-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-wordpress-com-wpcom-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-akismet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-akismet-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/overlays/automattic-jetpack-ai-plugin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automattic-jetpack-ai-plugin-overlay.yaml
@@ -2064,6 +2097,7 @@ common:
   type: Security
   url: https://automattic.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/security/automattic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/automattic-trust-center.yml
@@ -2072,50 +2106,62 @@ common:
   type: Compliance
   url: https://wpvip.com/trust/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/authentication/automattic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/automattic-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/scopes/automattic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/automattic-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/well-known/automattic-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/automattic-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/well-known/automattic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/automattic-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/well-known/automattic-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/automattic-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/security/automattic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/automattic-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/security/automattic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automattic-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/conformance/automattic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/automattic-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/conventions/automattic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/automattic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/errors/automattic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/automattic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/lifecycle/automattic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/automattic-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/changelog/automattic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/automattic-changelog.yml
@@ -2124,26 +2170,32 @@ common:
   type: ReleaseNotes
   url: https://developer.wordpress.com/changelog/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/data-model/automattic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/automattic-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/packages/automattic-packages.yml
   title: ''
   type: Packages
   url: packages/automattic-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/packages/automattic-packages.yml
   title: ''
   type: SDKs
   url: packages/automattic-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/cli/automattic-cli.yml
   title: ''
   type: CLI
   url: cli/automattic-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/components/automattic-components.yml
   title: ''
   type: Components
   url: components/automattic-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/sandbox/automattic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/automattic-sandbox.yml
@@ -2152,26 +2204,32 @@ common:
   type: Console
   url: https://developer.wordpress.com/docs/api/console/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/asyncapi/automattic-wordpress-com-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/automattic-wordpress-com-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/agentic-access/automattic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/automattic-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/llms/automattic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/automattic-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/mcp/automattic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/automattic-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/mcp/automattic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/automattic-tool-crosswalk.yml
@@ -2205,6 +2263,41 @@ scopes:
   scope_count: 21
   slug: automattic-scopes
   summary_line: 21 scopes · authorizationCode/refreshToken/clientCredentials
+score:
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 23.9
+    developer_ergonomics: 80.4
+    discoverability: 70.4
+    operational_transparency: 52.6
+  previous_composite: 49.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 384
+      marker_coverage: 99.0
+      total: 388
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/screenshots/automattic-2026-08-07T161958.png
 security:
 - kind: authentication

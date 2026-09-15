@@ -20,10 +20,12 @@ common:
   type: Documentation
   url: https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waterfall/refs/heads/main/vocabulary/waterfall-vocabulary.yml
   title: Waterfall Vocabulary
   type: Vocabulary
   url: vocabulary/waterfall-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waterfall/refs/heads/main/json-ld/waterfall-context.jsonld
   title: Waterfall JSON-LD Context
   type: JSONLD
   url: json-ld/waterfall-context.jsonld

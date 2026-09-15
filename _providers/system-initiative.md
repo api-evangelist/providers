@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Workspace-scoped REST API (the "luminork" server) for automating System Initiative: create and apply change sets, model/discover/import components, run functions, and manage actions and secrets. Beare'
@@ -65,6 +90,7 @@ common:
   type: ChangeLog
   url: https://docs.systeminit.com/changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/changelog/system-initiative-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/system-initiative-changelog.yml
@@ -77,38 +103,47 @@ common:
   type: SourceCode
   url: https://github.com/systeminit/si
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/authentication/system-initiative-authentication.yml
   title: ''
   type: Authentication
   url: authentication/system-initiative-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/packages/system-initiative-packages.yml
   title: ''
   type: Packages
   url: packages/system-initiative-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/packages/system-initiative-packages.yml
   title: ''
   type: SDKs
   url: packages/system-initiative-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/mcp/system-initiative-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/system-initiative-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/conventions/system-initiative-conventions.yml
   title: ''
   type: Conventions
   url: conventions/system-initiative-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/lifecycle/system-initiative-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/system-initiative-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/data-model/system-initiative-data-model.yml
   title: ''
   type: DataModel
   url: data-model/system-initiative-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/system-initiative/refs/heads/main/llms/system-initiative-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/system-initiative-llms.txt
@@ -129,6 +164,38 @@ overview: 'System Initiative publishes 1 API on the [APIs.io](https://apis.io/) 
 
   System Initiative''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 18 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 28.0
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 41.1
+    discoverability: 75.9
+    operational_transparency: 10.5
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 28.0
+  provenance:
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: System Initiative Authentication

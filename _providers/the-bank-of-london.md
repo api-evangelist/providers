@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.bankoflondon.com/
@@ -85,70 +110,87 @@ common:
   type: StatusPage
   url: https://status.bankoflondon.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/plans/the-bank-of-london-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-bank-of-london-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/rate-limits/the-bank-of-london-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-bank-of-london-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/authentication/the-bank-of-london-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-bank-of-london-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/conventions/the-bank-of-london-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-bank-of-london-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/conventions/the-bank-of-london-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-bank-of-london-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/lifecycle/the-bank-of-london-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-bank-of-london-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/lifecycle/the-bank-of-london-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/the-bank-of-london-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/errors/the-bank-of-london-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-bank-of-london-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/conformance/the-bank-of-london-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-bank-of-london-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/conformance/the-bank-of-london-conformance.yml
   title: ''
   type: Compliance
   url: conformance/the-bank-of-london-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/data-model/the-bank-of-london-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-bank-of-london-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/sandbox/the-bank-of-london-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/the-bank-of-london-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/asyncapi/the-bank-of-london-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/the-bank-of-london-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/packages/the-bank-of-london-packages.yml
   title: ''
   type: Packages
   url: packages/the-bank-of-london-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/llms/the-bank-of-london-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-bank-of-london-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/security/the-bank-of-london-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-bank-of-london-domain-security.yml
@@ -177,6 +219,49 @@ rate_limits:
 - limit_count: 1
   name: The Bank Of London Rate Limits
   slug: the-bank-of-london-rate-limits
+score:
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 0.0
+    contract_quality: 57.6
+    developer_ergonomics: 66.1
+    discoverability: 68.5
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 52.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 38.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/screenshots/the-bank-of-london-2026-09-02T163320.png
 security:
 - kind: authentication

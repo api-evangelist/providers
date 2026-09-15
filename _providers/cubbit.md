@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The AWS S3-compatible object storage API for Cubbit DS3. Supports bucket create/delete/list, object upload/download/copy/delete, multipart upload, object versioning, object lock (COMPLIANCE and GOVERN
@@ -17,6 +42,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/security/cubbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cubbit-domain-security.yml
@@ -73,42 +99,52 @@ common:
   type: PrivacyPolicy
   url: https://www.cubbit.io/legal/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/authentication/cubbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cubbit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/lifecycle/cubbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cubbit-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/conventions/cubbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cubbit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/errors/cubbit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cubbit-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/packages/cubbit-packages.yml
   title: ''
   type: Packages
   url: packages/cubbit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/cli/cubbit-cli.yml
   title: ''
   type: CLI
   url: cli/cubbit-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/sandbox/cubbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cubbit-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/data-model/cubbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cubbit-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/llms/cubbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cubbit-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/conformance/cubbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cubbit-conformance.yml
@@ -117,10 +153,12 @@ common:
   type: Compliance
   url: https://www.cubbit.io/legal/certifications
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/security/cubbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cubbit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/security/cubbit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cubbit-vulnerability-disclosure.yml
@@ -141,6 +179,34 @@ overview: 'Cubbit publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Cubbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 36.3
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 36.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubbit/refs/heads/main/screenshots/cubbit-2026-07-25T210852.png
 security:
 - kind: authentication

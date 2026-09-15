@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/invisionapp/refs/heads/main/security/invisionapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/invisionapp-domain-security.yml

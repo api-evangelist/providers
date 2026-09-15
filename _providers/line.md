@@ -10,6 +10,31 @@ access_model:
   - authentication/line-authentication.yml
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -103,110 +128,137 @@ collections:
   slug: open-line
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/capabilities/line-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/line-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-messaging-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-messaging-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-webhook-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-webhook-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-channel-access-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-channel-access-token-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-insight-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-insight-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-manage-audience-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-manage-audience-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-liff-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-liff-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-module-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-module-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-module-attach-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-module-attach-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/overlays/line-shop-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/line-shop-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/agentic-access/line-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/line-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/security/line-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/line-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/security/line-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/line-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/security/line-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/line-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/authentication/line-authentication.yml
   title: ''
   type: Authentication
   url: authentication/line-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/scopes/line-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/line-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/packages/line-packages.yml
   title: ''
   type: Packages
   url: packages/line-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/packages/line-packages.yml
   title: ''
   type: SDKs
   url: packages/line-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/cli/line-cli.yml
   title: ''
   type: CLI
   url: cli/line-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/components/line-components.yml
   title: ''
   type: Components
   url: components/line-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/sandbox/line-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/line-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/conventions/line-conventions.yml
   title: ''
   type: Conventions
   url: conventions/line-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/conventions/line-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/line-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/errors/line-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/line-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/rate-limits/line-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/line-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/plans/line-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/line-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/lifecycle/line-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/line-lifecycle.yml
@@ -215,26 +267,32 @@ common:
   type: StatusPage
   url: https://api.line-status.info/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/lifecycle/line-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/line-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/changelog/line-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/line-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/conformance/line-conformance.yml
   title: ''
   type: Conformance
   url: conformance/line-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/data-model/line-data-model.yml
   title: ''
   type: DataModel
   url: data-model/line-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/well-known/line-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/line-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/well-known/line-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/line-security.txt
@@ -243,18 +301,22 @@ common:
   type: MCPServer
   url: https://github.com/line/line-bot-mcp-server
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/mcp/line-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/line-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/mcp/line-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/line-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/llms/line-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/line-llms.txt
@@ -366,6 +428,48 @@ scopes:
   scope_count: 0
   slug: line-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 69.1
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 68.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 31.8
+    contract_quality: 58.0
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    operational_transparency: 92.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - japan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 69.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:
 - kind: authentication

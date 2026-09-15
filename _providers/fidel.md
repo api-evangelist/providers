@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Card-linking REST API — programs, cards, transactions, brands, locations, offers and webhooks. Enroll Visa/Mastercard/Amex cards via PCI-compliant SDKs and receive enriched real-time transactions over
@@ -75,30 +100,37 @@ common:
   type: StatusPage
   url: https://status.fidel.uk
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/packages/fidel-packages.yml
   title: ''
   type: Packages
   url: packages/fidel-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/packages/fidel-packages.yml
   title: ''
   type: SDKs
   url: packages/fidel-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/authentication/fidel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fidel-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/asyncapi/fidel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fidel-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/sandbox/fidel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fidel-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/conventions/fidel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fidel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/conformance/fidel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fidel-conformance.yml
@@ -107,22 +139,27 @@ common:
   type: Compliance
   url: https://fidelapi.com/legal/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/lifecycle/fidel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fidel-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/components/fidel-components.yml
   title: ''
   type: Components
   url: components/fidel-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/data-model/fidel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fidel-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/security/fidel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fidel-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/llms/fidel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fidel-llms.txt
@@ -141,6 +178,40 @@ overview: 'Fidel publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Fidel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 12
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 44.0
+    discoverability: 72.2
+    operational_transparency: 26.3
+  previous_composite: 41.8
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 59.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/screenshots/fidel-2026-07-25T214420.png
 security:
 - kind: authentication

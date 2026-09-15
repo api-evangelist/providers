@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -139,18 +164,22 @@ common:
   type: Website
   url: https://www.socure.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/agentic-access/socure-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/socure-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/security/socure-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/socure-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/security/socure-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/socure-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/authentication/socure-authentication.yml
   title: ''
   type: Authentication
   url: authentication/socure-authentication.yml
@@ -159,38 +188,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/socure/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-bank-account-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-bank-account-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-contact-risk-then-decision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-contact-risk-then-decision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-docv-then-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-docv-then-identity-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-docv-verify-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-docv-verify-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-fraud-device-risk-screen-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-fraud-device-risk-screen-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-identity-decision-branch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-identity-decision-branch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-kyc-watchlist-enroll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-kyc-watchlist-enroll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-monitoring-offboard-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-monitoring-offboard-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/arazzo/socure-watchlist-alert-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/socure-watchlist-alert-triage-workflow.yml
@@ -335,22 +373,27 @@ common:
   type: Documentation
   url: https://developer.socure.us
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/plans/socure-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/socure-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/rate-limits/socure-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/socure-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/finops/socure-finops.yml
   title: ''
   type: FinOps
   url: finops/socure-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/vocabulary/socure-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/socure-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/rules/socure-rules.yml
   title: ''
   type: SpectralRules
   url: rules/socure-rules.yml
@@ -461,6 +504,46 @@ rules:
     info: 1
     warn: 3
   slug: socure-rules
+score:
+  band: strong
+  composite: 63.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 84.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 28.8
+    contract_quality: 70.7
+    developer_ergonomics: 63.1
+    discoverability: 63.0
+    operational_transparency: 60.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 63.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png
 security:
 - kind: authentication

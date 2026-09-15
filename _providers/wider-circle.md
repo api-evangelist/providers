@@ -1,24 +1,54 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 5
 common:
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/plans/wider-circle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wider-circle-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/packages/wider-circle-packages.yml
   title: ''
   type: Packages
   url: packages/wider-circle-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/llms/wider-circle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wider-circle-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/conformance/wider-circle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wider-circle-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/security/wider-circle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wider-circle-trust-center.yml
@@ -31,10 +61,12 @@ common:
   type: Compliance
   url: https://www.widercircle.com/health-plans/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/security/wider-circle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wider-circle-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wider-circle/refs/heads/main/security/wider-circle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wider-circle-domain-security.yml
@@ -111,6 +143,44 @@ rate_limits:
 - limit_count: 0
   name: Wider Circle Rate Limits
   slug: wider-circle-rate-limits
+score:
+  band: emerging
+  composite: 24.3
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 50.0
+    operational_transparency: 13.2
+  previous_composite: 24.3
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 45.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Wider Circle Domain Security

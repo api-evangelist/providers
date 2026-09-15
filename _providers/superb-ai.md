@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.bdai.superb-ai.com
@@ -68,82 +93,102 @@ common:
   type: PrivacyPolicy
   url: https://superbai.notion.site/Privacy-Policy-880523efa01649708e64696332d1ca60
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/security/superb-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/superb-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/security/superb-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superb-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/authentication/superb-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/superb-ai-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/packages/superb-ai-packages.yml
   title: ''
   type: Packages
   url: packages/superb-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/packages/superb-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/superb-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/cli/superb-ai-cli.yml
   title: ''
   type: CLI
   url: cli/superb-ai-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/mcp/superb-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/superb-ai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/mcp/superb-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/superb-ai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/llms/superb-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superb-ai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/conventions/superb-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superb-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/conventions/superb-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/superb-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/errors/superb-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/superb-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/data-model/superb-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/superb-ai-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/rate-limits/superb-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/superb-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/plans/superb-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/superb-ai-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/lifecycle/superb-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superb-ai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/changelog/superb-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/superb-ai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/conformance/superb-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superb-ai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/conformance/superb-ai-conformance.yml
   title: ''
   type: Compliance
   url: conformance/superb-ai-conformance.yml
@@ -172,6 +217,35 @@ rate_limits:
 - limit_count: 0
   name: Superb Ai Rate Limits
   slug: superb-ai-rate-limits
+score:
+  band: developing
+  composite: 44.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 46.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 44.3
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/screenshots/superb-ai-2026-09-02T161212.png
 security:
 - kind: authentication

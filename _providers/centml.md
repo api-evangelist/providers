@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,18 +99,22 @@ collections:
   slug: open-centml
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/capabilities/centml-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/centml-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/agentic-access/centml-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/centml-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/security/centml-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centml-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/authentication/centml-authentication.yml
   title: ''
   type: Authentication
   url: authentication/centml-authentication.yml
@@ -106,14 +135,17 @@ common:
   type: Documentation
   url: https://docs.centml.ai
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/plans/centml-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/centml-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/rate-limits/centml-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/centml-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/finops/centml-finops.yml
   title: ''
   type: FinOps
   url: finops/centml-finops.yml
@@ -157,6 +189,38 @@ rules:
     info: 0
     warn: 4
   slug: centml-asyncapi-spectral-rules
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 67.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 11.4
+    contract_quality: 60.4
+    developer_ergonomics: 29.8
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 40.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/screenshots/centml-2026-07-25T204927.png
 security:
 - kind: authentication

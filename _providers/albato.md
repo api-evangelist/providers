@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -93,30 +118,37 @@ collections:
   slug: open-albato-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/overlays/albato-automations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/albato-automations-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/packages/albato-packages.yml
   title: ''
   type: Packages
   url: packages/albato-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/well-known/albato-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/albato-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/mcp/albato-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/albato-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/conformance/albato-conformance.yml
   title: ''
   type: Conformance
   url: conformance/albato-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/errors/albato-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/albato-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/lifecycle/albato-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/albato-lifecycle.yml
@@ -125,18 +157,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/albato/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/agentic-access/albato-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/albato-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/security/albato-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/albato-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/security/albato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/albato-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/authentication/albato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/albato-authentication.yml
@@ -193,14 +229,17 @@ common:
   type: RoadMap
   url: https://roadmap.albato.com/public
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/rules/albato-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/albato-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/vocabulary/albato-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/albato-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/json-ld/albato-albato-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/albato-albato-context.jsonld
@@ -367,6 +406,40 @@ rules:
     info: 0
     warn: 15
   slug: albato-spectral-rules
+score:
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 73.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 33.3
+    contract_quality: 72.1
+    developer_ergonomics: 36.9
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 49.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/screenshots/albato-2026-06-20T171504.png
 security:
 - kind: authentication

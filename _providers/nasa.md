@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,110 +165,137 @@ collections:
   slug: open-nasa-search-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/agentic-access/nasa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nasa-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/security/nasa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nasa-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/security/nasa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nasa-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/authentication/nasa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nasa-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/packages/nasa-packages.yml
   title: ''
   type: Packages
   url: packages/nasa-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/well-known/nasa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nasa-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/mcp/nasa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nasa-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/llms/nasa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nasa-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/conformance/nasa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nasa-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/errors/nasa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nasa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/lifecycle/nasa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nasa-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/conventions/nasa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nasa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/data-model/nasa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nasa-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/sandbox/nasa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nasa-sandbox.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/overlays/nasa-apod-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nasa-apod-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/overlays/nasa-donki-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nasa-donki-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/overlays/nasa-epic-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nasa-epic-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/overlays/nasa-mars-rover-photos-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nasa-mars-rover-photos-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/overlays/nasa-nasa-image-and-video-library-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nasa-nasa-image-and-video-library-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/overlays/nasa-neo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nasa-neo-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/arazzo/nasa-apod-daily-digest-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nasa-apod-daily-digest-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/arazzo/nasa-media-asset-retrieval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nasa-media-asset-retrieval-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/arazzo/nasa-mars-rover-photo-harvest-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nasa-mars-rover-photo-harvest-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/arazzo/nasa-neo-close-approach-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nasa-neo-close-approach-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/arazzo/nasa-epic-earth-imagery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nasa-epic-earth-imagery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/arazzo/nasa-donki-space-weather-event-chain-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nasa-donki-space-weather-event-chain-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/arazzo/nasa-donki-notification-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nasa-donki-notification-triage-workflow.yml
@@ -346,6 +398,47 @@ rules:
     info: 2
     warn: 3
   slug: nasa-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 33.4
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 44.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.8
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 14.4
+    contract_quality: 53.4
+    developer_ergonomics: 35.7
+    discoverability: 63.0
+    operational_transparency: 13.2
+  previous_composite: 33.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 42.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:
 - kind: authentication

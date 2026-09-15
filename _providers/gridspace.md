@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -126,94 +151,117 @@ common:
   type: ChangeLog
   url: https://goguava.ai/docs/release-notes
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/authentication/gridspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gridspace-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/packages/gridspace-packages.yml
   title: ''
   type: Packages
   url: packages/gridspace-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/packages/gridspace-packages.yml
   title: ''
   type: SDKs
   url: packages/gridspace-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/cli/gridspace-cli.yml
   title: ''
   type: CLI
   url: cli/gridspace-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/conventions/gridspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gridspace-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/errors/gridspace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gridspace-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/data-model/gridspace-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gridspace-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/lifecycle/gridspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gridspace-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/lifecycle/gridspace-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/gridspace-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/changelog/gridspace-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gridspace-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/conformance/gridspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gridspace-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/conformance/gridspace-conformance.yml
   title: ''
   type: Compliance
   url: conformance/gridspace-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/components/gridspace-components.yml
   title: ''
   type: Components
   url: components/gridspace-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/sandbox/gridspace-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gridspace-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/mcp/gridspace-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gridspace-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/llms/gridspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gridspace-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/overlays/gridspace-guava-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gridspace-guava-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/agentic-access/gridspace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gridspace-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/security/gridspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gridspace-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/arazzo/gridspace-pull-call-record.yml
   title: ''
   type: Arazzo
   url: arazzo/gridspace-pull-call-record.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/arazzo/gridspace-send-and-poll-sms.yml
   title: ''
   type: Arazzo
   url: arazzo/gridspace-send-and-poll-sms.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/plans/gridspace-plans.yml
   title: ''
   type: Plans
   url: plans/gridspace-plans.yml
@@ -234,6 +282,47 @@ plans:
   plan_count: 4
   slug: gridspace-plans
 random_paper: 1
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 54.2
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/screenshots/gridspace-2026-07-25T220327.png
 security:
 - kind: authentication

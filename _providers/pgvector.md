@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.8
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,46 +73,57 @@ common:
   type: License
   url: https://github.com/pgvector/pgvector/blob/master/LICENSE
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/packages/pgvector-packages.yml
   title: ''
   type: Packages
   url: packages/pgvector-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/packages/pgvector-packages.yml
   title: ''
   type: SDKs
   url: packages/pgvector-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/changelog/pgvector-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pgvector-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/lifecycle/pgvector-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pgvector-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/data-model/pgvector-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pgvector-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/conventions/pgvector-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pgvector-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/errors/pgvector-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pgvector-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/conformance/pgvector-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pgvector-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/plans/pgvector-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pgvector-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/llms/pgvector-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pgvector-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -108,6 +144,36 @@ plans:
   plan_count: 0
   slug: pgvector-plans-pricing
 random_paper: 13
+score:
+  band: emerging
+  composite: 16.4
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 42.3
+    discoverability: 50.0
+    operational_transparency: 18.4
+  previous_composite: 16.4
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/screenshots/pgvector-2026-09-02T151129.png
 slug: pgvector
 tags:

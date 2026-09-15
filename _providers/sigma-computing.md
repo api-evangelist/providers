@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 45.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Sigma's first-party remote Model Context Protocol server. AI assistants such as Claude, ChatGPT, Codex, Cursor and Snowflake Cortex Code connect over HTTP with OAuth and can then search a Sigma organi
@@ -218,6 +243,7 @@ asyncapis:
   slug: sigma-computing-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/capabilities/sigma-computing-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sigma-computing-capability-edges.yml
@@ -274,6 +300,7 @@ common:
   type: Pricing
   url: https://www.sigmacomputing.com/company/contact-us
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/plans/sigma-computing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sigma-computing-plans-pricing.yml
@@ -290,10 +317,12 @@ common:
   type: StatusPage
   url: https://status.sigmacomputing.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/lifecycle/sigma-computing-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sigma-computing-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/lifecycle/sigma-computing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sigma-computing-lifecycle.yml
@@ -302,6 +331,7 @@ common:
   type: ChangeLog
   url: https://help.sigmacomputing.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/changelog/sigma-computing-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sigma-computing-changelog.yml
@@ -310,98 +340,122 @@ common:
   type: Security
   url: https://www.sigmacomputing.com/product/vdp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/security/sigma-computing-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sigma-computing-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/security/sigma-computing-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sigma-computing-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/security/sigma-computing-trust-center.yml
   title: ''
   type: Compliance
   url: security/sigma-computing-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/security/sigma-computing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sigma-computing-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/authentication/sigma-computing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sigma-computing-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/scopes/sigma-computing-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sigma-computing-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/conventions/sigma-computing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sigma-computing-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/conventions/sigma-computing-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sigma-computing-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/packages/sigma-computing-packages.yml
   title: ''
   type: Packages
   url: packages/sigma-computing-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/packages/sigma-computing-packages.yml
   title: ''
   type: SDKs
   url: packages/sigma-computing-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/cli/sigma-computing-cli.yml
   title: ''
   type: CLI
   url: cli/sigma-computing-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/components/sigma-computing-components.yml
   title: ''
   type: Components
   url: components/sigma-computing-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/mcp/sigma-computing-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sigma-computing-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/well-known/sigma-computing-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sigma-computing-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/well-known/sigma-computing-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/sigma-computing-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/llms/sigma-computing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sigma-computing-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/conformance/sigma-computing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sigma-computing-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/errors/sigma-computing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sigma-computing-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/rate-limits/sigma-computing-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sigma-computing-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/asyncapi/sigma-computing-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sigma-computing-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/sandbox/sigma-computing-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sigma-computing-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/data-model/sigma-computing-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sigma-computing-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/overlays/sigma-computing-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sigma-computing-rest-api-overlay.yaml
@@ -438,6 +492,40 @@ scopes:
   scope_count: 0
   slug: sigma-computing-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 68.8
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 65.1
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 92.1
+  previous_composite: 68.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/screenshots/sigma-computing-2026-09-02T155428.png
 security:
 - kind: authentication

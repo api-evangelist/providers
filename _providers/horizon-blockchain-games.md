@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://horizongames.net/'', ''status'': 301, ''note'': ''declared website redirects to https://sequence.xyz/ — a different registrable domain (horizongames.net -> sequence.xyz), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 1
@@ -72,6 +97,7 @@ collections:
   slug: open-horizon-blockchain-games-secret-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/overlays/horizon-blockchain-games-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/horizon-blockchain-games-analytics-overlay.yaml
@@ -128,74 +154,92 @@ common:
   type: StatusPage
   url: https://status.sequence.info
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/authentication/horizon-blockchain-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/horizon-blockchain-games-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/security/horizon-blockchain-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/horizon-blockchain-games-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/agentic-access/horizon-blockchain-games-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/horizon-blockchain-games-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/packages/horizon-blockchain-games-packages.yml
   title: ''
   type: Packages
   url: packages/horizon-blockchain-games-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/packages/horizon-blockchain-games-packages.yml
   title: ''
   type: SDKs
   url: packages/horizon-blockchain-games-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/llms/horizon-blockchain-games-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/horizon-blockchain-games-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/conformance/horizon-blockchain-games-conformance.yml
   title: ''
   type: Conformance
   url: conformance/horizon-blockchain-games-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/errors/horizon-blockchain-games-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/horizon-blockchain-games-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/lifecycle/horizon-blockchain-games-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/horizon-blockchain-games-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/lifecycle/horizon-blockchain-games-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/horizon-blockchain-games-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/conventions/horizon-blockchain-games-conventions.yml
   title: ''
   type: Conventions
   url: conventions/horizon-blockchain-games-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/changelog/horizon-blockchain-games-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/horizon-blockchain-games-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/sandbox/horizon-blockchain-games-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/horizon-blockchain-games-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/components/horizon-blockchain-games-components.yml
   title: ''
   type: Components
   url: components/horizon-blockchain-games-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/data-model/horizon-blockchain-games-data-model.yml
   title: ''
   type: DataModel
   url: data-model/horizon-blockchain-games-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/mcp/horizon-blockchain-games-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/horizon-blockchain-games-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/asyncapi/horizon-blockchain-games-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/horizon-blockchain-games-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,6 +259,47 @@ overview: 'Horizon Blockchain Games publishes 5 APIs on the [APIs.io](https://ap
 
   Horizon Blockchain Games'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 46.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 52.9
+    developer_ergonomics: 63.7
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 46.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon-blockchain-games/refs/heads/main/screenshots/horizon-blockchain-games-2026-07-25T221424.png
 security:
 - kind: authentication

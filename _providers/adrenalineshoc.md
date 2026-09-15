@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: true
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -20,6 +46,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/security/adrenalineshoc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adrenalineshoc-domain-security.yml
@@ -32,58 +59,72 @@ common:
   type: Documentation
   url: https://www.drinkaccelerator.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/llms/adrenalineshoc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adrenalineshoc-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/well-known/adrenalineshoc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adrenalineshoc-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/well-known/adrenalineshoc-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/adrenalineshoc-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/authentication/adrenalineshoc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adrenalineshoc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/scopes/adrenalineshoc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adrenalineshoc-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/conventions/adrenalineshoc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adrenalineshoc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/conformance/adrenalineshoc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adrenalineshoc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/errors/adrenalineshoc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adrenalineshoc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/lifecycle/adrenalineshoc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adrenalineshoc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/data-model/adrenalineshoc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adrenalineshoc-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/agentic-access/adrenalineshoc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adrenalineshoc-agentic-access.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/plans/adrenalineshoc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adrenalineshoc-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/rate-limits/adrenalineshoc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adrenalineshoc-rate-limits.yml
@@ -138,6 +179,43 @@ scopes:
   scope_count: 4
   slug: adrenalineshoc-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 37.4
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 41.5
+    developer_ergonomics: 28.0
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 37.4
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Adrenalineshoc Authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,18 +78,22 @@ collections:
   slug: open-lets-enhance-video-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/security/lets-enhance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lets-enhance-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/agentic-access/lets-enhance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lets-enhance-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/scopes/lets-enhance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lets-enhance-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/authentication/lets-enhance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lets-enhance-authentication.yml
@@ -125,50 +154,62 @@ common:
   type: StatusPage
   url: https://status.letsenhance.io/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/llms/lets-enhance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lets-enhance-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/conventions/lets-enhance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lets-enhance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/errors/lets-enhance-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lets-enhance-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/errors/lets-enhance-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/lets-enhance-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/rate-limits/lets-enhance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lets-enhance-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/asyncapi/lets-enhance-claid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lets-enhance-claid-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/lifecycle/lets-enhance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lets-enhance-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/conformance/lets-enhance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lets-enhance-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/data-model/lets-enhance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lets-enhance-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/mcp/lets-enhance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lets-enhance-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/overlays/lets-enhance-claid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lets-enhance-claid-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -197,6 +238,41 @@ scopes:
   scope_count: 4
   slug: lets-enhance-scopes
   summary_line: 4 scopes · password
+score:
+  band: developing
+  composite: 45.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 59.4
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 45.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png
 security:
 - kind: authentication

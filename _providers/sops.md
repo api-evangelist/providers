@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The SOPS decrypt Go package provides programmatic access to SOPS-encrypted files from Go applications. It supports decryption of YAML, JSON, ENV, INI, and binary formats using configured key managemen
@@ -29,6 +54,7 @@ common:
   type: ContributionGuide
   url: https://github.com/getsops/sops/blob/main/CONTRIBUTING.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sops/refs/heads/main/security/sops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sops-domain-security.yml
@@ -136,6 +162,32 @@ rules:
     info: 1
     warn: 4
   slug: sops-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 19.5
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 57.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 9.8
+    contract_quality: 10.7
+    developer_ergonomics: 9.5
+    discoverability: 68.5
+    operational_transparency: 28.9
+  previous_composite: 19.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sops/refs/heads/main/screenshots/sops-2026-06-20T194211.png
 security:
 - kind: domain-security

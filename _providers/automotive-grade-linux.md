@@ -9,7 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
-api_count: 3
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
+api_count: 8
 apis:
 - description: The AGL Application Framework provides APIs for managing applications on the AGL platform including installation, lifecycle management, permission enforcement, and inter-application communication. App
   name: AGL Application Framework API
@@ -20,8 +45,163 @@ apis:
 - description: The AGL SoDeV (Software Defined Vehicle) reference platform provides APIs for software-defined vehicle architectures that decouple software from hardware. SoDeV builds on Zephyr RTOS and meta-AGL laye
   name: AGL SoDeV Software Defined Vehicle API
   slug: sodev-api
-artifact_total: 20
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The public event calendar API for automotivelinux.org, serving the AGL All Member Meeting, Automotive Linux Summit, CES and Embedded World appearances, developer meetings and webinars as JSON. Reads a
+  name: AGL Events API
+  slug: agl-events-api
+- baseURL: https://www.automotivelinux.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: The newer generation of the AGL event calendar API, served side by side with tribe/events/v1 on the same host. 17 operations with real operationIds, tags and a Series entity for recurring events, desc
+  name: AGL Events API (tec/v1)
+  slug: agl-events-api-tec-v1
+- description: The REST API of AGL's public LAVA (Linaro Automated Validation Architecture) continuous integration lab, where AGL images are booted and tested on real automotive hardware. Version v0.2 under /api/v0.
+  name: AGL LAVA Test Lab API
+  slug: agl-lava-api
+- description: AGL runs its own Gerrit instance as the authoritative home of the AGL source tree - 263 projects including meta-agl, AGL-repo and the agl-service-* application-framework bindings. Its REST API is anon
+  name: AGL Gerrit Code Review API
+  slug: agl-gerrit-api
+- description: The published interface specification between the Cluster UI in the HMI layer and the IC-Service in the service layer of an AGL instrument cluster. Revision 1.0, officially released 2026-02-04 after f
+  name: AGL Instrument Cluster API
+  slug: agl-instrument-cluster-api
+artifact_total: 28
 common:
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/packages/automotive-grade-linux-packages.yml
+  title: ''
+  type: Packages
+  url: packages/automotive-grade-linux-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/packages/automotive-grade-linux-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/automotive-grade-linux-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/mcp/automotive-grade-linux-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/automotive-grade-linux-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/mcp/automotive-grade-linux-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/automotive-grade-linux-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/llms/automotive-grade-linux-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/automotive-grade-linux-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/well-known/automotive-grade-linux-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/automotive-grade-linux-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/well-known/automotive-grade-linux-api-catalog.json
+  title: ''
+  type: APICatalog
+  url: well-known/automotive-grade-linux-api-catalog.json
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/conventions/automotive-grade-linux-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/automotive-grade-linux-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/lifecycle/automotive-grade-linux-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/automotive-grade-linux-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/changelog/automotive-grade-linux-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/automotive-grade-linux-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/errors/automotive-grade-linux-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/automotive-grade-linux-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/conformance/automotive-grade-linux-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/automotive-grade-linux-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/data-model/automotive-grade-linux-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/automotive-grade-linux-data-model.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/security/automotive-grade-linux-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/automotive-grade-linux-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/security/automotive-grade-linux-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/automotive-grade-linux-vulnerability-disclosure.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/plans/automotive-grade-linux-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/automotive-grade-linux-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/rate-limits/automotive-grade-linux-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/automotive-grade-linux-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/finops/automotive-grade-linux-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/automotive-grade-linux-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.automotivelinux.org/en/master/05_APIs_and_Services/instrument-cluster/AGL-Instrument-Cluster-API-en/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.automotivelinux.org/software/download/get-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://lists.automotivelinux.org/g/agl-main
+- group: operate
+  title: ''
+  type: Community
+  url: https://discord.gg/ZztCaVeQVG
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://lf-automotivelinux.atlassian.net/wiki/spaces/HOME/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://gerrit.automotivelinux.org
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.linuxfoundation.org/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.linuxfoundation.org/privacy
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UC1axavgir413w00rwBHPAtQ
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/authentication/automotive-grade-linux-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/automotive-grade-linux-authentication.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -39,6 +219,7 @@ common:
   type: License
   url: https://github.com/COVESA/vsomeip/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/security/automotive-grade-linux-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automotive-grade-linux-domain-security.yml
@@ -94,29 +275,73 @@ integrations:
 - description: Primary hardware reference platform support for Renesas R-Car SoCs used in production automotive IVI and cluster systems.
   name: Renesas R-Car Platforms
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: Automotive Grade Linux MCP Server
+  slug: automotive-grade-linux-mcp-server
+modified: '2026-09-14'
 name: Automotive Grade Linux
 nav: Providers
 network: true
-overview: 'Automotive Grade Linux publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicles, Embedded Linux, In-Vehicle Infotainment, and IoT.
+overview: 'Automotive Grade Linux publishes 2 APIs on the [APIs.io](https://apis.io/) network: AGL Events API and AGL Events API (tec/v1). Tagged areas include Automotive, Connected Vehicles, Embedded Linux, In-Vehicle Infotainment, and IoT.
 
 
-  Automotive Grade Linux''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
+  Automotive Grade Linux''s developer surface includes changelog, API reference, getting-started guide, support, documentation, YouTube channel, authentication, and 33 more developer resources.'
 plans:
 - name: Automotive Grade Linux Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: automotive-grade-linux-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Automotive Grade Linux Rate Limits
   slug: automotive-grade-linux-rate-limits
+score:
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 24.5
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 48.6
+    developer_ergonomics: 61.9
+    discoverability: 72.2
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 18.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: rising
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/screenshots/automotive-grade-linux-2026-06-20T172702.png
 security:
+- kind: authentication
+  name: Automotive Grade Linux Authentication
+  slug: automotive-grade-linux-authentication
+  summary_line: http/token · 2 schemes
 - kind: domain-security
   name: Automotive Grade Linux Domain Security
   slug: automotive-grade-linux-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Automotive Grade Linux Vulnerability Disclosure
+  slug: automotive-grade-linux-vulnerability-disclosure
+  summary_line: Hackerone
 slug: automotive-grade-linux
 tags:
 - Automotive

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -111,30 +136,37 @@ common:
   type: GettingStarted
   url: https://docs.placer.ai/reference/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/authentication/placer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/placer-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/openapi/_original/placer-papi-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/placer-papi-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/overlays/placer-papi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/placer-papi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/errors/placer-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/placer-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/rate-limits/placer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/placer-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/conventions/placer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/placer-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/lifecycle/placer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/placer-lifecycle.yml
@@ -147,30 +179,37 @@ common:
   type: ChangeLog
   url: https://docs.placer.ai/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/conformance/placer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/placer-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/data-model/placer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/placer-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/mcp/placer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/placer-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/agentic-access/placer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/placer-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/security/placer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/placer-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/llms/placer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/placer-llms.txt
@@ -215,6 +254,41 @@ rate_limits:
 - limit_count: 7
   name: Placer Rate Limits
   slug: placer-rate-limits
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 52.7
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 43.4
+  previous_composite: 40.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/screenshots/placer-2026-08-17T081250.png
 security:
 - kind: authentication

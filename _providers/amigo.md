@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 8
@@ -822,10 +847,12 @@ common:
   type: Website
   url: https://www.amigo.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/capabilities/amigo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amigo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/overlays/amigo-classic-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amigo-classic-overlay.yaml
@@ -834,14 +861,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amigo/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/agentic-access/amigo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amigo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/security/amigo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amigo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/authentication/amigo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amigo-authentication.yml
@@ -902,70 +932,87 @@ common:
   type: Compliance
   url: https://docs.amigo.ai/operations-and-safety/compliance.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/llms/amigo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amigo-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/packages/amigo-packages.yml
   title: ''
   type: Packages
   url: packages/amigo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/packages/amigo-packages.yml
   title: ''
   type: SDKs
   url: packages/amigo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/cli/amigo-cli.yml
   title: ''
   type: CLI
   url: cli/amigo-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/mcp/amigo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amigo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/well-known/amigo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amigo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/scopes/amigo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/amigo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/conventions/amigo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amigo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/conventions/amigo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/amigo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/errors/amigo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amigo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/lifecycle/amigo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amigo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/conformance/amigo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amigo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/data-model/amigo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amigo-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/sandbox/amigo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amigo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/asyncapi/amigo-classic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/amigo-classic-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/security/amigo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amigo-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -994,6 +1041,55 @@ scopes:
   scope_count: 53
   slug: amigo-scopes
   summary_line: 53 scopes
+score:
+  band: exemplar
+  composite: 67.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 62.4
+    developer_ergonomics: 81.5
+    discoverability: 57.4
+    operational_transparency: 26.3
+  previous_composite: 67.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 72
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitrust
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 63.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
 security:
 - kind: authentication

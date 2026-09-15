@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Monzo API is a REST interface over a user's Monzo account. It exposes accounts, balance, savings pots (with deposit/withdraw), transactions (list, retrieve, annotate with metadata, expand merchant
@@ -21,6 +46,7 @@ asyncapis:
   slug: monzo-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/security/monzo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/monzo-vulnerability-disclosure.yml
@@ -29,62 +55,77 @@ common:
   type: Security
   url: https://monzo.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/security/monzo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monzo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/well-known/monzo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/monzo-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/well-known/monzo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monzo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/authentication/monzo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monzo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/conventions/monzo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/monzo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/conventions/monzo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/monzo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/errors/monzo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/monzo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/lifecycle/monzo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monzo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/conformance/monzo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monzo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/data-model/monzo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/monzo-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/sandbox/monzo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/monzo-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/mcp/monzo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/monzo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/llms/monzo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monzo-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/asyncapi/monzo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/monzo-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -152,6 +193,42 @@ overview: 'Monzo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Monzo''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 21 more developer resources.'
 random_paper: 17
+score:
+  band: developing
+  composite: 42.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 42.3
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 39.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/monzo/refs/heads/main/screenshots/monzo-2026-08-07T184225.png
 security:
 - kind: authentication

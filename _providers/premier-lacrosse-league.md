@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Apollo Server GraphQL API that backs premierlacrosseleague.com and stats.premierlacrosseleague.com (teams, players, games, standings, stats). Undocumented and unadvertised: there is no developer porta'
@@ -22,6 +47,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/security/premier-lacrosse-league-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/premier-lacrosse-league-domain-security.yml
@@ -58,46 +84,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/Premier-Lacrosse-League
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/well-known/premier-lacrosse-league-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/premier-lacrosse-league-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/llms/premier-lacrosse-league-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/premier-lacrosse-league-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/mcp/premier-lacrosse-league-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/premier-lacrosse-league-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/authentication/premier-lacrosse-league-authentication.yml
   title: ''
   type: Authentication
   url: authentication/premier-lacrosse-league-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/scopes/premier-lacrosse-league-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/premier-lacrosse-league-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/errors/premier-lacrosse-league-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/premier-lacrosse-league-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/conventions/premier-lacrosse-league-conventions.yml
   title: ''
   type: Conventions
   url: conventions/premier-lacrosse-league-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/conformance/premier-lacrosse-league-conformance.yml
   title: ''
   type: Conformance
   url: conformance/premier-lacrosse-league-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/lifecycle/premier-lacrosse-league-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/premier-lacrosse-league-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/data-model/premier-lacrosse-league-data-model.yml
   title: ''
   type: DataModel
   url: data-model/premier-lacrosse-league-data-model.yml
@@ -124,6 +161,36 @@ scopes:
   scope_count: 4
   slug: premier-lacrosse-league-scopes
   summary_line: 4 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
+score:
+  band: emerging
+  composite: 21.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 20.8
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 21.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/screenshots/premier-lacrosse-league-2026-09-02T151931.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -86,18 +111,22 @@ collections:
   slug: open-steute-technologies-gmbh-and-co-kg-system-status-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/capabilities/steute-technologies-gmbh-and-co-kg-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/steute-technologies-gmbh-and-co-kg-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/overlays/steute-technologies-gmbh-and-co-kg-sensor-bridge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/steute-technologies-gmbh-and-co-kg-sensor-bridge-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/security/steute-technologies-gmbh-and-co-kg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/steute-technologies-gmbh-and-co-kg-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/agentic-access/steute-technologies-gmbh-and-co-kg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/steute-technologies-gmbh-and-co-kg-agentic-access.yml
@@ -118,18 +147,22 @@ common:
   type: GettingStarted
   url: https://docs.nexy.net/docs/getting-started/basic-system-setup
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/authentication/steute-technologies-gmbh-and-co-kg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/steute-technologies-gmbh-and-co-kg-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/conventions/steute-technologies-gmbh-and-co-kg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/steute-technologies-gmbh-and-co-kg-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/errors/steute-technologies-gmbh-and-co-kg-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/steute-technologies-gmbh-and-co-kg-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/lifecycle/steute-technologies-gmbh-and-co-kg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/steute-technologies-gmbh-and-co-kg-lifecycle.yml
@@ -138,26 +171,32 @@ common:
   type: Deprecation
   url: https://docs.nexy.net/docs/sensor-bridge/rest-api/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/changelog/steute-technologies-gmbh-and-co-kg-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/steute-technologies-gmbh-and-co-kg-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/conformance/steute-technologies-gmbh-and-co-kg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/steute-technologies-gmbh-and-co-kg-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/mcp/steute-technologies-gmbh-and-co-kg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/steute-technologies-gmbh-and-co-kg-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/llms/steute-technologies-gmbh-and-co-kg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/steute-technologies-gmbh-and-co-kg-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/data-model/steute-technologies-gmbh-and-co-kg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/steute-technologies-gmbh-and-co-kg-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -193,6 +232,47 @@ overview: 'steute Technologies GmbH & Co. KG publishes 7 APIs on the [APIs.io](h
 
   steute Technologies GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 16 more developer resources.'
 random_paper: 19
+score:
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 58.3
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    operational_transparency: 31.6
+  previous_composite: 38.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 26.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/screenshots/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png
 security:
 - kind: authentication

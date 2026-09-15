@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -175,10 +200,12 @@ common:
   type: Support
   url: https://www.apiman.io/support.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/agentic-access/apiman-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apiman-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/security/apiman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apiman-domain-security.yml
@@ -215,6 +242,7 @@ common:
   type: ChangeLog
   url: https://www.apiman.io/changelog.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/changelog/apiman-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apiman-changelog.yml
@@ -223,62 +251,77 @@ common:
   type: Deprecation
   url: https://github.com/apiman/apiman/blob/master/SECURITY.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/lifecycle/apiman-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apiman-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/authentication/apiman-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apiman-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/conventions/apiman-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apiman-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/errors/apiman-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apiman-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/data-model/apiman-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apiman-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/conformance/apiman-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apiman-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/packages/apiman-packages.yml
   title: ''
   type: Packages
   url: packages/apiman-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/cli/apiman-cli.yml
   title: ''
   type: CLI
   url: cli/apiman-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/sandbox/apiman-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/apiman-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/llms/apiman-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apiman-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/mcp/apiman-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apiman-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/security/apiman-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apiman-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/plans/apiman-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apiman-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/rate-limits/apiman-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apiman-rate-limits.yml
@@ -368,6 +411,44 @@ rules:
     info: 2
     warn: 3
   slug: apiman-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 45.1
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 61.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.1
+  facets:
+    access_clarity: 7.9
+    contract_governance: 28.0
+    contract_quality: 49.9
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 46.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png
 security:
 - kind: authentication
@@ -396,10 +477,6 @@ tags:
 - Developer Portal
 - Java
 - Open-Source
-- Policy Enforcement
-- Self-Hosted
-- Keycloak
-- Developer Tools
 use_cases:
 - description: Deploy Apiman on-premise to manage APIs across internal services with full control over infrastructure.
   name: On-Premise API Management

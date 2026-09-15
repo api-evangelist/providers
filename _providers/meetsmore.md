@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Nittei is MeetsMore's self-hosted calendar and scheduler server, written in Rust (Axum + SQLx + PostgreSQL) and published under the MIT licence. It exposes a multi-tenant REST API under /api/v1 coveri
@@ -63,66 +88,82 @@ common:
   type: PrivacyPolicy
   url: https://meetsmore.com/policies/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/packages/meetsmore-packages.yml
   title: ''
   type: Packages
   url: packages/meetsmore-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/packages/meetsmore-packages.yml
   title: ''
   type: SDKs
   url: packages/meetsmore-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/components/meetsmore-components.yml
   title: ''
   type: Components
   url: components/meetsmore-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/mcp/meetsmore-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/meetsmore-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/llms/meetsmore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meetsmore-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/conformance/meetsmore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meetsmore-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/lifecycle/meetsmore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meetsmore-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/changelog/meetsmore-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meetsmore-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/authentication/meetsmore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meetsmore-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/conventions/meetsmore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meetsmore-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/errors/meetsmore-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meetsmore-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/data-model/meetsmore-data-model.yml
   title: ''
   type: DataModel
   url: data-model/meetsmore-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/asyncapi/meetsmore-nittei-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/meetsmore-nittei-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/plans/meetsmore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meetsmore-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/rate-limits/meetsmore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meetsmore-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/security/meetsmore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meetsmore-domain-security.yml
@@ -155,6 +196,42 @@ rate_limits:
 - limit_count: 0
   name: Meetsmore Rate Limits
   slug: meetsmore-rate-limits
+score:
+  band: developing
+  composite: 47.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 47.6
+    discoverability: 68.5
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - japan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 47.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/screenshots/meetsmore-2026-09-02T150511.png
 security:
 - kind: authentication

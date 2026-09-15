@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -283,6 +308,7 @@ collections:
   slug: open-klaviyo
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/capabilities/klaviyo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/klaviyo-capability-edges.yml
@@ -291,18 +317,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/klaviyo/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/agentic-access/klaviyo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/klaviyo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/security/klaviyo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/klaviyo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/security/klaviyo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klaviyo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/authentication/klaviyo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klaviyo-authentication.yml
@@ -375,30 +405,37 @@ common:
   type: GitHub
   url: https://github.com/klaviyo
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/packages/klaviyo-packages.yml
   title: ''
   type: Packages
   url: packages/klaviyo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/packages/klaviyo-packages.yml
   title: ''
   type: SDKs
   url: packages/klaviyo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/well-known/klaviyo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klaviyo-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/mcp/klaviyo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/klaviyo-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/mcp/klaviyo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/klaviyo-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/llms/klaviyo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klaviyo-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/conformance/klaviyo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klaviyo-conformance.yml
@@ -407,10 +444,12 @@ common:
   type: Compliance
   url: https://trust.klaviyo.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/errors/klaviyo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/klaviyo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/lifecycle/klaviyo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klaviyo-lifecycle.yml
@@ -419,10 +458,12 @@ common:
   type: Deprecation
   url: https://developers.klaviyo.com/en/docs/api_versioning_and_deprecation_policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/scopes/klaviyo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/klaviyo-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/security/klaviyo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/klaviyo-vulnerability-disclosure.yml
@@ -431,30 +472,37 @@ common:
   type: Security
   url: https://www.klaviyo.com/security/bug-reporting
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/sandbox/klaviyo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/klaviyo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/conventions/klaviyo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klaviyo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/conventions/klaviyo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/klaviyo-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/changelog/klaviyo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/klaviyo-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/components/klaviyo-components.yml
   title: ''
   type: Components
   url: components/klaviyo-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/data-model/klaviyo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/klaviyo-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -4157,6 +4205,53 @@ scopes:
   scope_count: 46
   slug: klaviyo-scopes
   summary_line: 46 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 79.1
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 64.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 31.8
+    contract_quality: 71.1
+    developer_ergonomics: 58.3
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 79.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/screenshots/klaviyo-2026-06-20T184103.png
 security:
 - kind: authentication

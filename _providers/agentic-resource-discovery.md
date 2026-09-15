@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The publishing half of the standard — the JSON manifest a domain serves at /.well-known/ai-catalog.json declaring who the host is and what agentic resources it offers, each entry typed by media type, '
@@ -60,10 +85,12 @@ common:
   type: Participants
   url: https://agenticresourcediscovery.org/contributors/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/governance/agentic-resource-discovery-governance.yml
   title: ''
   type: Governance
   url: governance/agentic-resource-discovery-governance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/conformance/agentic-resource-discovery-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentic-resource-discovery-conformance.yml
@@ -76,42 +103,52 @@ common:
   type: ReferenceImplementation
   url: https://agenticresourcediscovery.org/ref_implementations/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/adoption/agentic-resource-discovery-adoption.yml
   title: ''
   type: Adopters
   url: adoption/agentic-resource-discovery-adoption.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/adoption/agentic-resource-discovery-adoption.yml
   title: ''
   type: Adoption
   url: adoption/agentic-resource-discovery-adoption.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/people/agentic-resource-discovery-people.yml
   title: ''
   type: People
   url: people/agentic-resource-discovery-people.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/companies/agentic-resource-discovery-companies.yml
   title: ''
   type: Companies
   url: companies/agentic-resource-discovery-companies.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/leads/agentic-resource-discovery-new-company-leads.yml
   title: ''
   type: Leads
   url: leads/agentic-resource-discovery-new-company-leads.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/repositories/agentic-resource-discovery-repositories.yml
   title: ''
   type: Repositories
   url: repositories/agentic-resource-discovery-repositories.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/releases/agentic-resource-discovery-releases.yml
   title: ''
   type: Releases
   url: releases/agentic-resource-discovery-releases.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/contributors/agentic-resource-discovery-contributors.yml
   title: ''
   type: Contributors
   url: contributors/agentic-resource-discovery-contributors.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/working-groups/agentic-resource-discovery-working-groups.yml
   title: ''
   type: WorkingGroups
   url: working-groups/agentic-resource-discovery-working-groups.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/taxonomy/agentic-resource-discovery-taxonomy.yml
   title: ''
   type: Taxonomy
   url: taxonomy/agentic-resource-discovery-taxonomy.yml
@@ -145,6 +182,38 @@ overview: 'Agentic Resource Discovery (ARD) publishes 3 APIs on the [APIs.io](ht
 
   Agentic Resource Discovery (ARD)''s developer surface includes FAQ, getting-started guide, and 26 more developer resources.'
 random_paper: 10
+score:
+  band: emerging
+  composite: 25.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 49.7
+    developer_ergonomics: 21.4
+    discoverability: 59.3
+    operational_transparency: 28.9
+  previous_composite: 25.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/screenshots/agentic-resource-discovery-2026-08-07T161030.png
 slug: agentic-resource-discovery
 tags:

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -344,6 +369,7 @@ collections:
   slug: open-coinme-widget-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/overlays/coinme-caas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coinme-caas-overlay.yaml
@@ -404,50 +430,62 @@ common:
   type: StatusPage
   url: https://status.coinme.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/authentication/coinme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coinme-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/scopes/coinme-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/coinme-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/conventions/coinme-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coinme-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/errors/coinme-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coinme-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/lifecycle/coinme-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coinme-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/asyncapi/coinme-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coinme-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/packages/coinme-packages.yml
   title: ''
   type: Packages
   url: packages/coinme-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/packages/coinme-packages.yml
   title: ''
   type: SDKs
   url: packages/coinme-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/components/coinme-components.yml
   title: ''
   type: Components
   url: components/coinme-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/data-model/coinme-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coinme-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/sandbox/coinme-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/coinme-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/conformance/coinme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coinme-conformance.yml
@@ -456,26 +494,32 @@ common:
   type: Compliance
   url: https://help.coinme.com/en/articles/9039706-licensing
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/well-known/coinme-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coinme-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/mcp/coinme-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coinme-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/agentic-access/coinme-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coinme-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/security/coinme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coinme-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/llms/coinme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coinme-llms.txt
@@ -500,6 +544,52 @@ scopes:
   scope_count: 3
   slug: coinme-scopes
   summary_line: 3 scopes · authorization_code/refresh_token/client_credentials/device_code
+score:
+  band: strong
+  composite: 56.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 63.5
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 56.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 75.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:
 - kind: authentication

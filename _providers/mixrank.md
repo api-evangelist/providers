@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -160,10 +185,12 @@ collections:
   slug: open-mixrank-websites-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/overlays/mixrank-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mixrank-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/security/mixrank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mixrank-domain-security.yml
@@ -212,62 +239,77 @@ common:
   type: Compliance
   url: https://mixrank.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/authentication/mixrank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mixrank-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/conventions/mixrank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mixrank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/errors/mixrank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mixrank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/lifecycle/mixrank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mixrank-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/conformance/mixrank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mixrank-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/data-model/mixrank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mixrank-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/agentic-access/mixrank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mixrank-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/mcp/mixrank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mixrank-mcp.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/rate-limits/mixrank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mixrank-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/plans/mixrank-plans.yml
   title: ''
   type: Plans
   url: plans/mixrank-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/llms/mixrank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mixrank-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/examples/mixrank-examples.yml
   title: ''
   type: Examples
   url: examples/mixrank-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/asyncapi/mixrank-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mixrank-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/packages/mixrank-packages.yml
   title: ''
   type: Packages
   url: packages/mixrank-packages.yml
@@ -299,6 +341,41 @@ rate_limits:
 - limit_count: 4
   name: Mixrank Rate Limits
   slug: mixrank-rate-limits
+score:
+  band: strong
+  composite: 57.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 59.1
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 57.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/screenshots/mixrank-2026-08-07T183827.png
 security:
 - kind: authentication

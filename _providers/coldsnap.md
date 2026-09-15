@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -112,54 +137,67 @@ common:
   type: YouTube
   url: https://www.youtube.com/coldsnapchill
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/graphql/coldsnap-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/coldsnap-storefront.graphql
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/mcp/coldsnap-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/coldsnap-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/mcp/coldsnap-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/coldsnap-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/agentic-access/coldsnap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coldsnap-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/llms/coldsnap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coldsnap-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/well-known/coldsnap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coldsnap-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/authentication/coldsnap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coldsnap-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/scopes/coldsnap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/coldsnap-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/conformance/coldsnap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coldsnap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/conventions/coldsnap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coldsnap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/errors/coldsnap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coldsnap-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/lifecycle/coldsnap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coldsnap-lifecycle.yml
@@ -172,6 +210,7 @@ common:
   type: StatusPage
   url: https://www.shopifystatus.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/changelog/coldsnap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/coldsnap-changelog.yml
@@ -180,10 +219,12 @@ common:
   type: APIReference
   url: https://shopify.dev/docs/api/storefront
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/data-model/coldsnap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coldsnap-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/security/coldsnap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coldsnap-domain-security.yml
@@ -210,6 +251,37 @@ scopes:
   scope_count: 4
   slug: coldsnap-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 41.5
+    developer_ergonomics: 49.4
+    discoverability: 81.5
+    operational_transparency: 39.5
+  previous_composite: 43.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/screenshots/coldsnap-2026-08-07T163559.png
 security:
 - kind: authentication

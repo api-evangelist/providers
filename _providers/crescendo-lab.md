@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://sms.cresclab.com/api
@@ -63,6 +88,7 @@ collections:
   slug: open-crescendo-lab-teams-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/overlays/crescendo-lab-maacgo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crescendo-lab-maacgo-overlay.yaml
@@ -111,38 +137,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/Crescendo-Lab
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/llms/crescendo-lab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crescendo-lab-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/packages/crescendo-lab-packages.yml
   title: ''
   type: SDKs
   url: packages/crescendo-lab-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/packages/crescendo-lab-packages.yml
   title: ''
   type: Packages
   url: packages/crescendo-lab-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/cli/crescendo-lab-cli.yml
   title: ''
   type: CLI
   url: cli/crescendo-lab-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/mcp/crescendo-lab-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crescendo-lab-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/mcp/crescendo-lab-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/crescendo-lab-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/plans/crescendo-lab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crescendo-lab-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/rate-limits/crescendo-lab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crescendo-lab-rate-limits.yml
@@ -155,22 +190,27 @@ common:
   type: GettingStarted
   url: https://sms.cresclab.com/developers.html
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/sandbox/crescendo-lab-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crescendo-lab-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/authentication/crescendo-lab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crescendo-lab-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/conventions/crescendo-lab-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crescendo-lab-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/conventions/crescendo-lab-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/crescendo-lab-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/security/crescendo-lab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crescendo-lab-domain-security.yml
@@ -202,6 +242,53 @@ rate_limits:
 - limit_count: 2
   name: Crescendo Lab Rate Limits
   slug: crescendo-lab-rate-limits
+score:
+  band: strong
+  composite: 57.6
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 55.6
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - taiwan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 57.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:
 - kind: authentication

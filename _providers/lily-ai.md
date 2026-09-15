@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://lilyapp-api-prd.pub.lilyai.net
@@ -117,42 +142,52 @@ collections:
   slug: open-lily-ai-lilyapp-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/capabilities/lily-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lily-ai-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/overlays/lily-ai-lilyapp-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lily-ai-lilyapp-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/packages/lily-ai-packages.yml
   title: ''
   type: Packages
   url: packages/lily-ai-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/plans/lily-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lily-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/rate-limits/lily-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lily-ai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/conformance/lily-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lily-ai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/security/lily-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lily-ai-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/authentication/lily-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lily-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/security/lily-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lily-ai-domain-security.yml
@@ -201,10 +236,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/lily-ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/llms/lily-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lily-ai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/lifecycle/lily-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lily-ai-lifecycle.yml
@@ -234,6 +271,40 @@ rate_limits:
 - limit_count: 3
   name: Lily Ai Rate Limits
   slug: lily-ai-rate-limits
+score:
+  band: developing
+  composite: 40.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 45.6
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 40.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/screenshots/lily-ai-2026-07-25T225157.png
 security:
 - kind: authentication

@@ -16,18 +16,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/upsight
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upsight/refs/heads/main/packages/upsight-packages.yml
   title: ''
   type: Packages
   url: packages/upsight-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upsight/refs/heads/main/packages/upsight-packages.yml
   title: ''
   type: SDKs
   url: packages/upsight-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upsight/refs/heads/main/llms/upsight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upsight-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upsight/refs/heads/main/lifecycle/upsight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upsight-lifecycle.yml

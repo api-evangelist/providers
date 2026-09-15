@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Logiwa Integration API is an RPC-over-HTTP interface with 81 documented operations covering products and kits, shipment orders and order details, purchase orders, receipt orders and receiving, inv
@@ -63,70 +88,87 @@ common:
   type: PrivacyPolicy
   url: https://www.logiwa.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/authentication/logiwa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/logiwa-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/scopes/logiwa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/logiwa-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/conventions/logiwa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/logiwa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/errors/logiwa-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/logiwa-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/rate-limits/logiwa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/logiwa-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/plans/logiwa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/logiwa-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/lifecycle/logiwa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/logiwa-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/conformance/logiwa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/logiwa-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/security/logiwa-trust-center.yml
   title: ''
   type: Compliance
   url: security/logiwa-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/security/logiwa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/logiwa-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/security/logiwa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/logiwa-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/data-model/logiwa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/logiwa-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/packages/logiwa-packages.yml
   title: ''
   type: Packages
   url: packages/logiwa-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/asyncapi/logiwa-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/logiwa-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/well-known/logiwa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/logiwa-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/llms/logiwa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/logiwa-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -160,6 +202,41 @@ scopes:
   scope_count: 0
   slug: logiwa-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 44.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/screenshots/logiwa-2026-09-02T150306.png
 security:
 - kind: authentication

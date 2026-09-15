@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -188,14 +213,17 @@ collections:
   slug: open-docker
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/agentic-access/docker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/docker-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/security/docker-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/docker-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/security/docker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docker-domain-security.yml
@@ -252,106 +280,132 @@ common:
   type: LlmsText
   url: https://docs.docker.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/packages/docker-packages.yml
   title: ''
   type: Packages
   url: packages/docker-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/well-known/docker-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/docker-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/well-known/docker-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/docker-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/mcp/docker-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/docker-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/llms/docker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docker-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/overlays/docker-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/docker-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/conformance/docker-conformance.yml
   title: ''
   type: Conformance
   url: conformance/docker-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/errors/docker-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/docker-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/lifecycle/docker-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/docker-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/conventions/docker-conventions.yml
   title: ''
   type: Conventions
   url: conventions/docker-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/changelog/docker-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/docker-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/cli/docker-cli.yml
   title: ''
   type: CLI
   url: cli/docker-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/data-model/docker-data-model.yml
   title: ''
   type: DataModel
   url: data-model/docker-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-run-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-run-container-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-stop-and-remove-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-stop-and-remove-container-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-build-and-push-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-build-and-push-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-exec-command-in-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-exec-command-in-container-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-troubleshoot-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-troubleshoot-container-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-search-and-pull-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-search-and-pull-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-provision-network-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-provision-network-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-provision-volume-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-provision-volume-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-deploy-swarm-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-deploy-swarm-service-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-rolling-update-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-rolling-update-service-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-reclaim-disk-space-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-reclaim-disk-space-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-commit-container-to-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-commit-container-to-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-install-plugin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-install-plugin-workflow.yml
@@ -387,6 +441,40 @@ rate_limits:
 - limit_count: 5
   name: Docker Rate Limits
   slug: docker-rate-limits
+score:
+  band: developing
+  composite: 41.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 36.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 42.2
+    developer_ergonomics: 31.0
+    discoverability: 57.4
+    operational_transparency: 42.1
+  previous_composite: 41.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:
 - kind: domain-security

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: flavored
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,18 +79,22 @@ collections:
   slug: open-buywhere
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/a2a/buywhere-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/buywhere-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/agentic-access/buywhere-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/buywhere-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/security/buywhere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buywhere-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/authentication/buywhere-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buywhere-authentication.yml
@@ -110,22 +139,27 @@ common:
   type: GitHub
   url: https://github.com/BuyWhere/buywhere
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/plans/buywhere-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buywhere-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/rate-limits/buywhere-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buywhere-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/finops/buywhere-finops.yml
   title: ''
   type: FinOps
   url: finops/buywhere-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/vocabulary/buywhere-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/buywhere-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/json-ld/buywhere-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/buywhere-context.jsonld
@@ -232,6 +266,44 @@ rules:
     info: 2
     warn: 9
   slug: buywhere-rules
+score:
+  band: developing
+  composite: 45.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 91.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 23.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 28.8
+    contract_quality: 72.7
+    developer_ergonomics: 21.4
+    discoverability: 75.9
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 45.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
 security:
 - kind: authentication

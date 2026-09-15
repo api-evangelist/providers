@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -119,18 +144,22 @@ collections:
   slug: open-amazon-polly
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/agentic-access/amazon-polly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-polly-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/security/amazon-polly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-polly-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/security/amazon-polly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-polly-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/authentication/amazon-polly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-polly-authentication.yml
@@ -139,38 +168,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-polly/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-lexicon-async-task-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-lexicon-async-task-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-lexicon-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-lexicon-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-list-synthesis-tasks-inspect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-list-synthesis-tasks-inspect-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-list-voices-start-synthesis-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-list-voices-start-synthesis-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-list-voices-synthesize-speech-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-list-voices-synthesize-speech-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-paginate-voices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-paginate-voices-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-put-lexicon-synthesize-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-put-lexicon-synthesize-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-replace-lexicon-resynthesize-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-replace-lexicon-resynthesize-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/arazzo/amazon-polly-start-synthesis-task-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-polly-start-synthesis-task-poll-workflow.yml
@@ -243,270 +281,337 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/rules/amazon-polly-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-polly-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/vocabulary/amazon-polly-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-polly-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-ld/amazon-polly-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-polly-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-describe-voices-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-describe-voices-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-engine-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-engine-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-gender-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-gender-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-get-lexicon-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-get-lexicon-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-get-speech-synthesis-task-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-get-speech-synthesis-task-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-language-code-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-language-code-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-lexicon-attributes-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-lexicon-attributes-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-lexicon-description-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-lexicon-description-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-lexicon-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-lexicon-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-list-lexicons-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-list-lexicons-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-list-speech-synthesis-tasks-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-list-speech-synthesis-tasks-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-output-format-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-output-format-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-put-lexicon-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-put-lexicon-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-speech-mark-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-speech-mark-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-start-speech-synthesis-task-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-start-speech-synthesis-task-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-start-speech-synthesis-task-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-start-speech-synthesis-task-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-synthesis-task-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-synthesis-task-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-synthesize-speech-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-synthesize-speech-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-synthesize-speech-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-synthesize-speech-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-task-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-task-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-text-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-text-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-voice-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-voice-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-schema/amazon-polly-voice-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-polly-voice-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-describe-voices-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-describe-voices-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-engine-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-engine-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-gender-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-gender-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-get-lexicon-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-get-lexicon-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-get-speech-synthesis-task-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-get-speech-synthesis-task-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-language-code-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-language-code-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-lexicon-attributes-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-lexicon-attributes-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-lexicon-description-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-lexicon-description-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-lexicon-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-lexicon-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-list-lexicons-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-list-lexicons-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-list-speech-synthesis-tasks-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-list-speech-synthesis-tasks-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-output-format-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-output-format-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-put-lexicon-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-put-lexicon-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-speech-mark-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-speech-mark-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-start-speech-synthesis-task-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-start-speech-synthesis-task-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-start-speech-synthesis-task-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-start-speech-synthesis-task-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-synthesis-task-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-synthesis-task-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-synthesize-speech-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-synthesize-speech-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-synthesize-speech-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-synthesize-speech-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-task-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-task-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-text-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-text-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-voice-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-voice-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/json-structure/amazon-polly-voice-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-polly-voice-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-describe-voices-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-describe-voices-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-get-lexicon-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-get-lexicon-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-get-speech-synthesis-task-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-get-speech-synthesis-task-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-lexicon-attributes-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-lexicon-attributes-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-lexicon-description-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-lexicon-description-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-lexicon-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-lexicon-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-list-lexicons-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-list-lexicons-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-list-speech-synthesis-tasks-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-list-speech-synthesis-tasks-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-put-lexicon-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-put-lexicon-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-start-speech-synthesis-task-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-start-speech-synthesis-task-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-start-speech-synthesis-task-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-start-speech-synthesis-task-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-synthesis-task-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-synthesis-task-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-synthesize-speech-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-synthesize-speech-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-synthesize-speech-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-synthesize-speech-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/examples/amazon-polly-voice-example.json
   title: ''
   type: Examples
   url: examples/amazon-polly-voice-example.json
@@ -788,6 +893,38 @@ rules:
     info: 3
     warn: 11
   slug: amazon-polly-spectral-rules
+score:
+  band: strong
+  composite: 60.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 71.2
+    developer_ergonomics: 72.6
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 60.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:
 - kind: authentication

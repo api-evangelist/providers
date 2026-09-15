@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -140,42 +165,52 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/capabilities/google-tag-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-tag-manager-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/agentic-access/google-tag-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-tag-manager-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/packages/google-tag-manager-packages.yml
   title: ''
   type: Packages
   url: packages/google-tag-manager-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/well-known/google-tag-manager-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-tag-manager-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/mcp/google-tag-manager-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/google-tag-manager-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/mcp/google-tag-manager-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/google-tag-manager-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/sandbox/google-tag-manager-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/google-tag-manager-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/well-known/google-tag-manager-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-tag-manager-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/security/google-tag-manager-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/google-tag-manager-trust-center.yml
@@ -188,10 +223,12 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/plans/google-tag-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-tag-manager-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/rate-limits/google-tag-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-tag-manager-rate-limits.yml
@@ -208,82 +245,102 @@ common:
   type: GitHubOrganization
   url: https://github.com/googleapis
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/llms/google-tag-manager-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-tag-manager-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-accounts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-accounts-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-containers-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-containers-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-tagmanager-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-tagmanager-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-triggers-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-triggers-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-user-permissions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-user-permissions-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-variables-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-variables-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-versions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-versions-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/overlays/google-tag-manager-workspaces-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-tag-manager-workspaces-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/conformance/google-tag-manager-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-tag-manager-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/errors/google-tag-manager-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-tag-manager-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/lifecycle/google-tag-manager-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-tag-manager-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/conventions/google-tag-manager-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-tag-manager-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/data-model/google-tag-manager-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-tag-manager-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/components/google-tag-manager-components.yml
   title: ''
   type: Components
   url: components/google-tag-manager-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/changelog/google-tag-manager-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-tag-manager-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/security/google-tag-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-tag-manager-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/security/google-tag-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-tag-manager-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/authentication/google-tag-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-tag-manager-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/scopes/google-tag-manager-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-tag-manager-scopes.yml
@@ -292,50 +349,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-tag-manager/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-audit-container-versions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-audit-container-versions-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-bootstrap-live-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-bootstrap-live-container-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-build-and-publish-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-build-and-publish-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-grant-user-permission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-grant-user-permission-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-inspect-live-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-inspect-live-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-list-and-get-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-list-and-get-workspace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-provision-tagged-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-provision-tagged-container-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-safe-update-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-safe-update-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-sync-and-version-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-sync-and-version-workspace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-trigger-fired-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-trigger-fired-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-variable-backed-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-variable-backed-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/arazzo/google-tag-manager-version-and-publish-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-tag-manager-version-and-publish-workspace-workflow.yml
@@ -400,6 +469,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/googlemarketingplatform
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/rules/google-tag-manager-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-tag-manager-spectral-rules.yml
@@ -847,6 +917,41 @@ scopes:
   scope_count: 7
   slug: google-tag-manager-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.3
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 74.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 31.8
+    contract_quality: 68.6
+    developer_ergonomics: 69.6
+    discoverability: 83.3
+    operational_transparency: 34.2
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:
 - kind: authentication

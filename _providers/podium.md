@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.3
+  scored_at: '2026-09-14'
 api_count: 24
 apis:
 - baseURL: https://api.podium.com/v4/
@@ -187,58 +212,72 @@ collections:
   slug: open-podium-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/capabilities/podium-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/podium-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-accounts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-appointments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-appointments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-campaigns-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-contacts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-contacts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-conversations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-conversations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-feedback-surveys-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-feedback-surveys-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-messenger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-messenger-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-payments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-phones-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-phones-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-products-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-reviews-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-reviews-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-webhooks-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/security/podium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/podium-domain-security.yml
@@ -279,46 +318,57 @@ common:
   type: X
   url: https://twitter.com/podiumhq/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/plans/podium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/podium-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/rate-limits/podium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/podium-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/finops/podium-finops.yml
   title: ''
   type: FinOps
   url: finops/podium-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/authentication/podium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/podium-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/scopes/podium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/podium-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/conventions/podium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/podium-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/conventions/podium-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/podium-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/errors/podium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/podium-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/lifecycle/podium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/podium-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/changelog/podium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/podium-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/conformance/podium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/podium-conformance.yml
@@ -327,30 +377,37 @@ common:
   type: TrustCenter
   url: https://trust.podium.com
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/sandbox/podium-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/podium-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/data-model/podium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/podium-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/packages/podium-packages.yml
   title: ''
   type: Packages
   url: packages/podium-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/packages/podium-packages.yml
   title: ''
   type: SDKs
   url: packages/podium-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/asyncapi/podium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/podium-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/llms/podium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/podium-llms.txt
@@ -424,6 +481,46 @@ scopes:
   scope_count: 25
   slug: podium-scopes
   summary_line: 25 scopes · authorizationCode
+score:
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 56.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 64.3
+    developer_ergonomics: 45.8
+    discoverability: 68.5
+    operational_transparency: 51.3
+  previous_composite: 51.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 59.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
 security:
 - kind: authentication

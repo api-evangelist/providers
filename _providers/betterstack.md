@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 55.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -88,102 +114,127 @@ common:
   type: Website
   url: https://betterstack.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/agentic-access/betterstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/betterstack-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/mcp/betterstack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/betterstack-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/mcp/betterstack-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/betterstack-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/llms/betterstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/betterstack-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/well-known/betterstack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/betterstack-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/conformance/betterstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/betterstack-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-trust-center.yml
   title: ''
   type: Compliance
   url: security/betterstack-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/betterstack-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/betterstack-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/betterstack-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betterstack-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/authentication/betterstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/betterstack-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/scopes/betterstack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/betterstack-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/conventions/betterstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/betterstack-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/errors/betterstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/betterstack-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/lifecycle/betterstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/betterstack-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/data-model/betterstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/betterstack-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/asyncapi/betterstack-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/betterstack-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/packages/betterstack-packages.yml
   title: ''
   type: Packages
   url: packages/betterstack-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/packages/betterstack-packages.yml
   title: ''
   type: SDKs
   url: packages/betterstack-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/plans/betterstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/betterstack-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/rate-limits/betterstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/betterstack-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/finops/betterstack-finops.yml
   title: ''
   type: FinOps
   url: finops/betterstack-finops.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/changelog/betterstack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/betterstack-changelog.yml
@@ -316,6 +367,41 @@ scopes:
   scope_count: 0
   slug: betterstack-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 57.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 33.3
+    contract_quality: 61.6
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/screenshots/betterstack-2026-06-20T173220.png
 security:
 - kind: authentication
@@ -345,6 +431,6 @@ tags:
 - On-Call
 - Error Tracking
 - OpenTelemetry
-- Model Context Protocol
+- MCP
 website: https://betterstack.com/
 ---

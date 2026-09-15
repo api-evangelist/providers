@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 8
@@ -297,6 +322,7 @@ collections:
   slug: open-wherobots-workos-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/capabilities/wherobots-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wherobots-capability-edges.yml
@@ -353,42 +379,52 @@ common:
   type: StatusPage
   url: https://status.wherobots.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/authentication/wherobots-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wherobots-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/packages/wherobots-packages.yml
   title: ''
   type: Packages
   url: packages/wherobots-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/packages/wherobots-packages.yml
   title: ''
   type: SDKs
   url: packages/wherobots-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/cli/wherobots-cli.yml
   title: ''
   type: CLI
   url: cli/wherobots-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/mcp/wherobots-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wherobots-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/llms/wherobots-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wherobots-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/conventions/wherobots-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wherobots-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/errors/wherobots-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wherobots-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/lifecycle/wherobots-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wherobots-lifecycle.yml
@@ -397,18 +433,22 @@ common:
   type: Deprecation
   url: https://docs.wherobots.com/auto-retirement-community/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/changelog/wherobots-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wherobots-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/data-model/wherobots-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wherobots-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/overlays/wherobots-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wherobots-cloud-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/conformance/wherobots-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wherobots-conformance.yml
@@ -417,14 +457,17 @@ common:
   type: Compliance
   url: https://wherobots.com/security/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/agentic-access/wherobots-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wherobots-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/security/wherobots-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wherobots-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/security/wherobots-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wherobots-vulnerability-disclosure.yml
@@ -433,6 +476,7 @@ common:
   type: Security
   url: https://wherobots.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/security/wherobots-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wherobots-domain-security.yml
@@ -457,6 +501,41 @@ overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) networ
 
   Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 53.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 54.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png
 security:
 - kind: authentication

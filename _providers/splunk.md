@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -137,22 +162,27 @@ common:
   type: License
   url: https://github.com/signalfx/splunk-otel-collector/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/agentic-access/splunk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/splunk-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/security/splunk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/splunk-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/security/splunk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/splunk-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/security/splunk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splunk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/authentication/splunk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/splunk-authentication.yml
@@ -161,26 +191,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/splunk/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/arazzo/splunk-control-and-cleanup-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/splunk-control-and-cleanup-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/arazzo/splunk-hec-ingest-and-acknowledge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/splunk-hec-ingest-and-acknowledge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/arazzo/splunk-provision-index-and-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/splunk-provision-index-and-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/arazzo/splunk-raw-ingest-and-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/splunk-raw-ingest-and-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/arazzo/splunk-run-search-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/splunk-run-search-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/arazzo/splunk-search-events-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/splunk-search-events-workflow.yml
@@ -317,6 +353,7 @@ common:
   type: X
   url: https://twitter.com/splunk
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/rules/splunk-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/splunk-spectral-rules.yml
@@ -790,6 +827,41 @@ rules:
     info: 1
     warn: 7
   slug: splunk-spectral-rules
+score:
+  band: developing
+  composite: 45.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 57.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 13.6
+    contract_quality: 35.4
+    developer_ergonomics: 65.5
+    discoverability: 50.0
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 45.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:
 - kind: authentication

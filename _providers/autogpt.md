@@ -10,6 +10,31 @@ access_model:
   - plans/autogpt-plans-pricing.yml
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://backend.agpt.co/external-api
@@ -81,74 +106,92 @@ common:
   type: PrivacyPolicy
   url: https://agpt.co/legal/platform-privacy-policy
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/changelog/autogpt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/autogpt-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/authentication/autogpt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autogpt-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/scopes/autogpt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/autogpt-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/errors/autogpt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autogpt-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/conventions/autogpt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autogpt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/lifecycle/autogpt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autogpt-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/conformance/autogpt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autogpt-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/data-model/autogpt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autogpt-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/packages/autogpt-packages.yml
   title: ''
   type: Packages
   url: packages/autogpt-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/rate-limits/autogpt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autogpt-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/plans/autogpt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autogpt-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/llms/autogpt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autogpt-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/asyncapi/autogpt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/autogpt-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/security/autogpt-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/autogpt-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/security/autogpt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autogpt-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/security/autogpt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autogpt-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/finops/autogpt-finops.yml
   title: ''
   type: FinOps
   url: finops/autogpt-finops.yml
@@ -186,6 +229,35 @@ scopes:
   scope_count: 0
   slug: autogpt-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 58.1
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 56.3
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 58.1
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/screenshots/autogpt-2026-06-20T172646.png
 security:
 - kind: authentication

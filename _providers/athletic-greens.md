@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API as served from AG1's own storefront host, shop.drinkag1.com. Anonymous schema introspection succeeds, exposing 35 query fields, 41 mutations and 416 types covering p
@@ -28,6 +53,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/security/athletic-greens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athletic-greens-domain-security.yml
@@ -64,58 +90,72 @@ common:
   type: Documentation
   url: https://shop.drinkag1.com/agents.md
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/graphql/athletic-greens-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/athletic-greens-storefront.graphql
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/mcp/athletic-greens-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/athletic-greens-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/mcp/athletic-greens-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/athletic-greens-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/well-known/athletic-greens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/athletic-greens-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/well-known/athletic-greens-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/athletic-greens-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/authentication/athletic-greens-authentication.yml
   title: ''
   type: Authentication
   url: authentication/athletic-greens-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/scopes/athletic-greens-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/athletic-greens-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/conformance/athletic-greens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/athletic-greens-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/conventions/athletic-greens-conventions.yml
   title: ''
   type: Conventions
   url: conventions/athletic-greens-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/errors/athletic-greens-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/athletic-greens-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/lifecycle/athletic-greens-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/athletic-greens-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/data-model/athletic-greens-data-model.yml
   title: ''
   type: DataModel
   url: data-model/athletic-greens-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/llms/athletic-greens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/athletic-greens-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -142,6 +182,42 @@ scopes:
   scope_count: 4
   slug: athletic-greens-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 41.5
+    developer_ergonomics: 28.0
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 34.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 47.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/athletic-greens/refs/heads/main/screenshots/athletic-greens-2026-08-07T161847.png
 security:
 - kind: authentication

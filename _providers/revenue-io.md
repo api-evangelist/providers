@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Revenue.io's programmable surface for guided selling, call analytics, rep performance data, conversation insights, and CRM activity synchronization. Exposed as RDNACadence Apex classes and Flow invoca
@@ -17,10 +42,12 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/security/revenue-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/revenue-io-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/security/revenue-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revenue-io-domain-security.yml
@@ -105,50 +132,62 @@ common:
   type: ChangeLog
   url: https://support.revenue.io/guided-selling/release-notes/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/changelog/revenue-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/revenue-io-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/mcp/revenue-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/revenue-io-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/well-known/revenue-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/revenue-io-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/llms/revenue-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/revenue-io-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/packages/revenue-io-packages.yml
   title: ''
   type: Packages
   url: packages/revenue-io-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/authentication/revenue-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revenue-io-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/scopes/revenue-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/revenue-io-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/conformance/revenue-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/revenue-io-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/errors/revenue-io-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/revenue-io-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/lifecycle/revenue-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/revenue-io-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/conventions/revenue-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/revenue-io-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/data-model/revenue-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/revenue-io-data-model.yml
@@ -186,6 +225,35 @@ scopes:
   scope_count: 1
   slug: revenue-io-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 32.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 32.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenue-io/refs/heads/main/screenshots/revenue-io-2026-06-20T193047.png
 security:
 - kind: authentication

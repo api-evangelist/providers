@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Jit REST API for programmatic access to security findings, artifacts (SBOM, scan results), teams, plans, policies, workflows, integrations, billing metrics, and on-demand scan execution. Authenticates
@@ -73,38 +98,47 @@ common:
   type: Compliance
   url: https://trust.jit.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/authentication/jit-fka-cbrix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jit-fka-cbrix-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/scopes/jit-fka-cbrix-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jit-fka-cbrix-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/well-known/jit-fka-cbrix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jit-fka-cbrix-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/llms/jit-fka-cbrix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jit-fka-cbrix-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/mcp/jit-fka-cbrix-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/jit-fka-cbrix-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/lifecycle/jit-fka-cbrix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jit-fka-cbrix-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/conformance/jit-fka-cbrix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jit-fka-cbrix-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/conventions/jit-fka-cbrix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jit-fka-cbrix-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/security/jit-fka-cbrix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jit-fka-cbrix-domain-security.yml
@@ -126,6 +160,35 @@ scopes:
   scope_count: 0
   slug: jit-fka-cbrix-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 25.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 33.3
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 25.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/screenshots/jit-fka-cbrix-2026-07-25T223206.png
 security:
 - kind: authentication

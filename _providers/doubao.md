@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,18 +98,22 @@ collections:
   slug: open-doubao
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/agentic-access/doubao-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/doubao-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/security/doubao-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/doubao-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/security/doubao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doubao-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/authentication/doubao-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doubao-authentication.yml
@@ -101,14 +130,17 @@ common:
   type: Documentation
   url: https://www.volcengine.com/docs/82379
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/plans/doubao-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/doubao-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/rate-limits/doubao-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/doubao-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/finops/doubao-finops.yml
   title: ''
   type: FinOps
   url: finops/doubao-finops.yml
@@ -137,6 +169,38 @@ rate_limits:
 - limit_count: 3
   name: Doubao Rate Limits
   slug: doubao-rate-limits
+score:
+  band: thin
+  composite: 30.2
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 45.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 50.3
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 7.9
+  previous_composite: 30.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/screenshots/doubao-2026-06-20T180218.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.7
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: Aidbox's HL7 FHIR REST API for creating, reading, updating, deleting, and searching clinical and administrative resources. Supports FHIR R4 (4.0.1), R5, and R6, with standard FHIR interactions, transa
@@ -43,6 +68,7 @@ asyncapis:
   slug: aidbox-subscriptions-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/security/aidbox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aidbox-domain-security.yml
@@ -95,14 +121,17 @@ common:
   type: PrivacyPolicy
   url: https://www.health-samurai.io/legal/privacy-policy
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/fhir/aidbox-smart-configuration.json
   title: ''
   type: SMARTConfiguration
   url: fhir/aidbox-smart-configuration.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/fhir/aidbox-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: fhir/aidbox-openid-configuration.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/fhir/aidbox-capabilitystatement.json
   title: ''
   type: CapabilityStatement
   url: fhir/aidbox-capabilitystatement.json
@@ -119,30 +148,37 @@ common:
   type: Compliance
   url: https://www.health-samurai.io/fhir-server
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/authentication/aidbox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aidbox-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/scopes/aidbox-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aidbox-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/conformance/aidbox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aidbox-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/conventions/aidbox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aidbox-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/conventions/aidbox-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aidbox-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/errors/aidbox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aidbox-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/lifecycle/aidbox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aidbox-lifecycle.yml
@@ -151,54 +187,67 @@ common:
   type: Deprecation
   url: https://www.health-samurai.io/docs/aidbox/overview/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/changelog/aidbox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aidbox-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/packages/aidbox-packages.yml
   title: ''
   type: Packages
   url: packages/aidbox-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/packages/aidbox-packages.yml
   title: ''
   type: SDKs
   url: packages/aidbox-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/mcp/aidbox-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aidbox-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/mcp/aidbox-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aidbox-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/asyncapi/aidbox-subscriptions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/aidbox-subscriptions-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/sandbox/aidbox-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aidbox-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/data-model/aidbox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aidbox-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/well-known/aidbox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aidbox-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/llms/aidbox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aidbox-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/rate-limits/aidbox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aidbox-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/plans/aidbox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aidbox-plans-pricing.yml
@@ -236,6 +285,55 @@ scopes:
   scope_count: 12
   slug: aidbox-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials/implicit/password
+score:
+  band: strong
+  composite: 61.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 46.3
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 60.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 61.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: us-core
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 71.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png
 security:
 - kind: authentication

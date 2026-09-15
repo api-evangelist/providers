@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -154,22 +179,27 @@ collections:
   slug: open-trello-webhooks-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/agentic-access/trello-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trello-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/security/trello-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/trello-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/security/trello-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trello-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/security/trello-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trello-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/authentication/trello-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trello-authentication.yml
@@ -182,34 +212,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/atlassian
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/json-ld/trello-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trello-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/json-schema/trello-board-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trello-board-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/json-schema/trello-card-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trello-card-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/json-schema/trello-webhook-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trello-webhook-payload-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/json-structure/trello-board-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/trello-board-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/json-structure/trello-card-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/trello-card-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/rules/trello-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/trello-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/vocabulary/trello-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/trello-vocabulary.yml
@@ -316,6 +354,41 @@ rules:
     info: 2
     warn: 14
   slug: trello-spectral-rules
+score:
+  band: thin
+  composite: 36.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 50.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 28.8
+    contract_quality: 73.9
+    developer_ergonomics: 21.4
+    discoverability: 44.4
+    operational_transparency: 10.5
+  previous_composite: 36.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/screenshots/trello-2026-06-20T195704.png
 security:
 - kind: authentication

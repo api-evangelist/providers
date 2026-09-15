@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 366
   human_in_the_loop: 7
@@ -45,14 +71,17 @@ asyncapis:
   slug: cohesity-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/agentic-access/cohesity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cohesity-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/authentication/cohesity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cohesity-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/security/cohesity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cohesity-domain-security.yml
@@ -129,46 +158,57 @@ common:
   type: Postman
   url: https://www.postman.com/cohesity/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/openapi/cohesity-cluster-v1-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/cohesity-cluster-v1-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/openapi/cohesity-cluster-v2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/cohesity-cluster-v2-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/openapi/cohesity-helios-reporting-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/cohesity-helios-reporting-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/openapi/cohesity-site-continuity-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/cohesity-site-continuity-openapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/packages/cohesity-packages.yml
   title: ''
   type: Packages
   url: packages/cohesity-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/packages/cohesity-packages.yml
   title: ''
   type: SDKs
   url: packages/cohesity-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/mcp/cohesity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cohesity-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/mcp/cohesity-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cohesity-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/llms/cohesity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cohesity-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/overlays/cohesity-cluster-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cohesity-cluster-v2-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/conformance/cohesity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cohesity-conformance.yml
@@ -177,10 +217,12 @@ common:
   type: Compliance
   url: https://www.cohesity.com/trust/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/errors/cohesity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cohesity-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/lifecycle/cohesity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cohesity-lifecycle.yml
@@ -189,18 +231,22 @@ common:
   type: Deprecation
   url: https://developer.cohesity.com/docs/whats-new-65
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/changelog/cohesity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cohesity-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/scopes/cohesity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cohesity-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/well-known/cohesity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cohesity-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/security/cohesity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cohesity-vulnerability-disclosure.yml
@@ -209,30 +255,37 @@ common:
   type: Security
   url: https://www.cohesity.com/trust/security-profile/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/security/cohesity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cohesity-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/conventions/cohesity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cohesity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/data-model/cohesity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cohesity-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/asyncapi/cohesity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cohesity-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/plans/cohesity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cohesity-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/rate-limits/cohesity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cohesity-rate-limits.yml
@@ -273,6 +326,41 @@ scopes:
   scope_count: 6
   slug: cohesity-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: strong
+  composite: 66.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 59.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 56.9
+    developer_ergonomics: 68.5
+    discoverability: 81.5
+    operational_transparency: 81.6
+  previous_composite: 66.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 25.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohesity/refs/heads/main/screenshots/cohesity-2026-06-20T174720.png
 security:
 - kind: authentication
@@ -306,7 +394,7 @@ tags:
 - Ransomware Recovery
 - Site Continuity
 - Reporting
-- Model Context Protocol
+- MCP
 - Enterprise Storage
 website: https://www.cohesity.com/
 ---

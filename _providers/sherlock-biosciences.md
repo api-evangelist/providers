@@ -10,10 +10,36 @@ access_model:
   - '{''url'': ''https://sherlock.bio/'', ''status'': 301, ''note'': ''declared website redirects to https://orasure.com/ — a different registrable domain (sherlock.bio -> orasure.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sherlock-biosciences/refs/heads/main/security/sherlock-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sherlock-biosciences-domain-security.yml
@@ -30,10 +56,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/SherlockBiosciences
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sherlock-biosciences/refs/heads/main/packages/sherlock-biosciences-packages.yml
   title: ''
   type: Packages
   url: packages/sherlock-biosciences-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sherlock-biosciences/refs/heads/main/llms/sherlock-biosciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sherlock-biosciences-llms.txt
@@ -64,6 +92,38 @@ nav: Providers
 network: true
 overview: Sherlock Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Diagnostics, Molecular Diagnostics, CRISPR, Biotechnology, and Life Sciences.
 random_paper: 5
+score:
+  band: minimal
+  composite: 4.0
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 25.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 53.7
+    operational_transparency: 2.6
+  previous_composite: 4.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 7.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sherlock-biosciences/refs/heads/main/screenshots/sherlock-biosciences-2026-09-02T155136.png
 security:
 - kind: domain-security

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -121,78 +146,97 @@ common:
   type: Compliance
   url: https://shortcut.ai/pricing
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/_original/fundamental-research-labs-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/fundamental-research-labs-openapi-original.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/authentication/fundamental-research-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fundamental-research-labs-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/packages/fundamental-research-labs-packages.yml
   title: ''
   type: Packages
   url: packages/fundamental-research-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/cli/fundamental-research-labs-cli.yml
   title: ''
   type: CLI
   url: cli/fundamental-research-labs-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/mcp/fundamental-research-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fundamental-research-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/llms/fundamental-research-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fundamental-research-labs-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/overlays/fundamental-research-labs-shortcut-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fundamental-research-labs-shortcut-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/conformance/fundamental-research-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fundamental-research-labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/errors/fundamental-research-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fundamental-research-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/lifecycle/fundamental-research-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fundamental-research-labs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/conventions/fundamental-research-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fundamental-research-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/data-model/fundamental-research-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fundamental-research-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/asyncapi/fundamental-research-labs-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fundamental-research-labs-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/changelog/fundamental-research-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fundamental-research-labs-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/rate-limits/fundamental-research-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fundamental-research-labs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/plans/fundamental-research-labs-plans.yml
   title: ''
   type: Plans
   url: plans/fundamental-research-labs-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/agentic-access/fundamental-research-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fundamental-research-labs-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/security/fundamental-research-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fundamental-research-labs-domain-security.yml
@@ -220,6 +264,41 @@ rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits
   slug: fundamental-research-labs-rate-limits
+score:
+  band: strong
+  composite: 60.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 55.7
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 60.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:
 - kind: authentication

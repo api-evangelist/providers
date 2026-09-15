@@ -12,10 +12,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unwind/refs/heads/main/security/unwind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unwind-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unwind/refs/heads/main/llms/unwind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unwind-llms.txt

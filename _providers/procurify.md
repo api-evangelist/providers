@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -162,22 +187,27 @@ collections:
   slug: open-procurify-vendors-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/capabilities/procurify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/procurify-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/agentic-access/procurify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/procurify-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/security/procurify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/procurify-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/authentication/procurify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/procurify-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/scopes/procurify-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/procurify-scopes.yml
@@ -214,14 +244,17 @@ common:
   type: X
   url: https://x.com/procurify
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/plans/procurify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/procurify-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/rate-limits/procurify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/procurify-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/finops/procurify-finops.yml
   title: ''
   type: FinOps
   url: finops/procurify-finops.yml
@@ -230,10 +263,12 @@ common:
   type: KnowledgeBase
   url: https://success.procurify.com/en/articles/9002277-does-procurify-offer-api
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/vocabulary/procurify-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/procurify-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/json-ld/procurify-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/procurify-context.jsonld
@@ -1311,6 +1346,38 @@ scopes:
   scope_count: 2
   slug: procurify-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: developing
+  composite: 46.6
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 82.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 25.0
+    contract_quality: 60.6
+    developer_ergonomics: 23.8
+    discoverability: 68.5
+    operational_transparency: 52.6
+  previous_composite: 46.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/screenshots/procurify-2026-06-20T192129.png
 security:
 - kind: authentication

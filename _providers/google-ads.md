@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -621,10 +647,12 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/capabilities/google-ads-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-ads-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/overlays/google-ads-api-v25-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-ads-api-v25-overlay.yaml
@@ -633,22 +661,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-ads/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/agentic-access/google-ads-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-ads-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/security/google-ads-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-ads-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/security/google-ads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-ads-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/authentication/google-ads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-ads-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/scopes/google-ads-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-ads-scopes.yml
@@ -717,10 +750,12 @@ common:
   type: Developer Tools
   url: https://developers.google.com/google-ads/api/docs/developer-toolkit/ai-assistant
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/json-schema/google-ads-campaign-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/google-ads-campaign-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/json-ld/google-ads-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-ads-context.jsonld
@@ -729,98 +764,122 @@ common:
   type: MCPServer
   url: https://github.com/googleads/google-ads-mcp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/mcp/google-ads-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/google-ads-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/mcp/google-ads-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/google-ads-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/llms/google-ads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-ads-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/packages/google-ads-packages.yml
   title: ''
   type: Packages
   url: packages/google-ads-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/packages/google-ads-packages.yml
   title: ''
   type: SDKs
   url: packages/google-ads-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/cli/google-ads-cli.yml
   title: ''
   type: CLI
   url: cli/google-ads-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/conventions/google-ads-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-ads-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/errors/google-ads-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-ads-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/lifecycle/google-ads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-ads-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/lifecycle/google-ads-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/google-ads-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/changelog/google-ads-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-ads-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/conformance/google-ads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-ads-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/data-model/google-ads-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-ads-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/sandbox/google-ads-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/google-ads-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/plans/google-ads-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-ads-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/rate-limits/google-ads-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-ads-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/well-known/google-ads-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-ads-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/well-known/google-ads-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-ads-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/security/google-ads-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/google-ads-vulnerability-disclosure.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/grpc/google-ads-google-ads-service.proto
   title: ''
   type: Protobuf
   url: grpc/google-ads-google-ads-service.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/discovery/google-ads-api-v25-discovery.json
   title: ''
   type: Discovery
   url: discovery/google-ads-api-v25-discovery.json
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/finops/google-ads-finops.yml
   title: ''
   type: FinOps
   url: finops/google-ads-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/rules/google-ads-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-ads-jsonschema-spectral-rules.yml
@@ -900,6 +959,41 @@ scopes:
   scope_count: 1
   slug: google-ads-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: exemplar
+  composite: 71.5
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 75.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 14.4
+    contract_quality: 65.7
+    developer_ergonomics: 81.5
+    discoverability: 70.4
+    operational_transparency: 84.2
+  previous_composite: 71.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 108
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/screenshots/google-ads-2026-06-20T182011.png
 security:
 - kind: authentication

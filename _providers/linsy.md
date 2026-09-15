@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol (UCP) agent-commerce surface for the LINSY HOME storefront (www.linsyhome.com, Shopify shop linsy-home.myshopify.com). Agents discover the merchant profile at /.well-kn
@@ -22,6 +47,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/security/linsy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linsy-domain-security.yml
@@ -66,38 +92,47 @@ common:
   type: About
   url: https://www.linsyhome.com/pages/about-us
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/llms/linsy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linsy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/mcp/linsy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/linsy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/well-known/linsy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/linsy-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/authentication/linsy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linsy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/scopes/linsy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linsy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/conformance/linsy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linsy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/conventions/linsy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linsy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/lifecycle/linsy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linsy-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -123,6 +158,36 @@ scopes:
   scope_count: 0
   slug: linsy-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 21.1
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 21.1
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/screenshots/linsy-2026-08-07T171724.png
 security:
 - kind: authentication

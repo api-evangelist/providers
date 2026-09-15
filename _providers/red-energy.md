@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,54 +105,67 @@ collections:
   slug: open-red-energy-cds-energy
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/capabilities/red-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/red-energy-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/overlays/red-energy-cds-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-energy-cds-energy-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/red-energy-compare-energy-plans.md
   title: ''
   type: AgentSkill
   url: skills/red-energy-compare-energy-plans.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/overlays/red-energy-cds-common-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/red-energy-cds-common-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/red-energy-check-cdr-availability.md
   title: ''
   type: AgentSkill
   url: skills/red-energy-check-cdr-availability.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/red-energy-share-consumer-energy-data.md
   title: ''
   type: AgentSkill
   url: skills/red-energy-share-consumer-energy-data.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/agentic-access/red-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red-energy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/security/red-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-energy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/authentication/red-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-energy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/scopes/red-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/red-energy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/conventions/red-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/red-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/errors/red-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/red-energy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/lifecycle/red-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/red-energy-lifecycle.yml
@@ -144,14 +182,17 @@ common:
   type: Roadmap
   url: https://consumerdatastandardsaustralia.github.io/standards/#future-dated-obligations
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/changelog/red-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/red-energy-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/rate-limits/red-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red-energy-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/conformance/red-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/red-energy-conformance.yml
@@ -160,34 +201,42 @@ common:
   type: Compliance
   url: https://www.redenergy.com.au/docs/Red-Energy-Consumer-Data-Right-Policy.pdf
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/data-model/red-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/red-energy-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/packages/red-energy-packages.yml
   title: ''
   type: Packages
   url: packages/red-energy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/mcp/red-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/red-energy-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/mcp/red-energy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/red-energy-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/examples/
   title: ''
   type: Examples
   url: examples/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/llms/red-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/red-energy-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/arazzo/red-energy-compare-plans-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/red-energy-compare-plans-workflow.yml
@@ -292,6 +341,54 @@ scopes:
   scope_count: 11
   slug: red-energy-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: strong
+  composite: 55.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 54.4
+    developer_ergonomics: 35.1
+    discoverability: 68.5
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 55.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Red Energy Authentication

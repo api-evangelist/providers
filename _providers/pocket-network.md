@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -210,14 +235,17 @@ common:
   type: License
   url: https://github.com/buildwithgrove/path/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/agentic-access/pocket-network-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pocket-network-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/security/pocket-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pocket-network-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/authentication/pocket-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pocket-network-authentication.yml
@@ -226,34 +254,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/pocket-network/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-cometbft-node-block-inspect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-cometbft-node-block-inspect-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-path-relay-readiness-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-path-relay-readiness-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-shannon-application-balance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-shannon-application-balance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-shannon-application-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-shannon-application-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-shannon-block-explorer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-shannon-block-explorer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-shannon-service-economics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-shannon-service-economics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-shannon-supplier-gateway-survey-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-shannon-supplier-gateway-survey-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/arazzo/pocket-network-shannon-transaction-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pocket-network-shannon-transaction-lookup-workflow.yml
@@ -398,22 +434,27 @@ common:
   type: TermsOfService
   url: https://pocket.network/legal/terms-of-service/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/plans/pocket-network-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pocket-network-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/rate-limits/pocket-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pocket-network-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/finops/pocket-network-finops.yml
   title: ''
   type: FinOps
   url: finops/pocket-network-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/rules/pocket-network-rules.yml
   title: ''
   type: SpectralRules
   url: rules/pocket-network-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/vocabulary/pocket-network-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pocket-network-vocabulary.yml
@@ -510,6 +551,41 @@ rules:
     info: 1
     warn: 5
   slug: pocket-network-rules
+score:
+  band: strong
+  composite: 57.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 86.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 28.8
+    contract_quality: 60.1
+    developer_ergonomics: 67.9
+    discoverability: 64.8
+    operational_transparency: 68.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 57.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 81.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:
 - kind: authentication

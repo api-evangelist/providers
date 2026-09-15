@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://integrators.prod.api.tabsplatform.com
@@ -240,6 +265,7 @@ collections:
   slug: open-tabs-revenue-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/overlays/tabs-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tabs-external-api-overlay.yaml
@@ -264,14 +290,17 @@ common:
   type: GettingStarted
   url: https://docs.tabsplatform.com/docs/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/authentication/tabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tabs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/security/tabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tabs-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/security/tabs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tabs-trust-center.yml
@@ -280,38 +309,47 @@ common:
   type: Compliance
   url: https://trust.tabs.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/mcp/tabs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tabs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/llms/tabs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tabs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/well-known/tabs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tabs-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/conventions/tabs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tabs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/conventions/tabs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tabs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/errors/tabs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tabs-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/rate-limits/tabs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tabs-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/lifecycle/tabs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tabs-lifecycle.yml
@@ -320,18 +358,22 @@ common:
   type: SLA
   url: https://docs.tabsplatform.com/docs/slas-and-uptime
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/changelog/tabs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tabs-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/conformance/tabs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tabs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/data-model/tabs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tabs-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/packages/tabs-packages.yml
   title: ''
   type: Packages
   url: packages/tabs-packages.yml
@@ -396,6 +438,40 @@ rate_limits:
 - limit_count: 1
   name: Tabs Rate Limits
   slug: tabs-rate-limits
+score:
+  band: developing
+  composite: 50.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 46.4
+    developer_ergonomics: 58.9
+    discoverability: 66.7
+    operational_transparency: 39.5
+  previous_composite: 50.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 76.7
+      derived: 2
+      marker_coverage: 76.7
+      total: 30
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/screenshots/tabs-2026-08-17T082234.png
 security:
 - kind: authentication

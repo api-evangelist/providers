@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://www.demisto.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.paloaltonetworks.com/cortex/cortex-xsoar — a different registrable domain (demisto.com -> paloaltonetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -223,6 +248,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/palo-alto-networks/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/overlays/demisto-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demisto-openapi-overlay.yaml
@@ -251,54 +277,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/demisto
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/authentication/demisto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/demisto-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/agentic-access/demisto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/demisto-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/security/demisto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/demisto-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/packages/demisto-packages.yml
   title: ''
   type: Packages
   url: packages/demisto-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/packages/demisto-packages.yml
   title: ''
   type: SDKs
   url: packages/demisto-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/cli/demisto-cli.yml
   title: ''
   type: CLI
   url: cli/demisto-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/mcp/demisto-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/demisto-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/conventions/demisto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/demisto-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/errors/demisto-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/demisto-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/data-model/demisto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/demisto-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/conformance/demisto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/demisto-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/lifecycle/demisto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/demisto-lifecycle.yml
@@ -311,10 +350,12 @@ common:
   type: Deprecation
   url: https://xsoar.pan.dev/docs/reference/integrations/demisto-rest-api
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/changelog/demisto-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/demisto-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/llms/demisto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demisto-llms.txt
@@ -331,6 +372,41 @@ overview: 'Demisto publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
   Demisto''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 19 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 37.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 46.1
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 37.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/screenshots/demisto-2026-07-25T211711.png
 security:
 - kind: authentication

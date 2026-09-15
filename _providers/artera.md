@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Artera's outbound SMS API, marketed to health systems and Artera Marketplace vendors as the SendMessage API. It sends real-time text messages to patients from the health system's trusted Artera number
@@ -55,10 +80,12 @@ common:
   type: Security
   url: https://artera.io/vulnerability-disclosure/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/security/artera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artera-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/security/artera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artera-domain-security.yml
@@ -87,6 +114,7 @@ common:
   type: StatusPage
   url: https://status.artera.io/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/changelog/artera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/artera-changelog.yml
@@ -95,50 +123,62 @@ common:
   type: ReleaseNotes
   url: https://knowledge.artera.io/en_US/release-notes/2026-releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/lifecycle/artera-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/artera-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/lifecycle/artera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artera-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/authentication/artera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artera-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/conventions/artera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/artera-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/errors/artera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/artera-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/asyncapi/artera-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/artera-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/conformance/artera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artera-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/sandbox/artera-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/artera-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/plans/artera-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/artera-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/rate-limits/artera-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/artera-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/packages/artera-packages.yml
   title: ''
   type: Packages
   url: packages/artera-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/llms/artera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artera-llms.txt
@@ -194,6 +234,49 @@ rate_limits:
 - limit_count: 0
   name: Artera Rate Limits
   slug: artera-rate-limits
+score:
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 56.0
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 52.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: fedramp
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitrust
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 45.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/screenshots/artera-2026-07-25T201322.png
 security:
 - kind: authentication

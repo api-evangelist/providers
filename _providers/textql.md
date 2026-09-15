@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 63.6
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://app.textql.com/v2
@@ -88,6 +114,7 @@ common:
   type: TrustCenter
   url: https://trust.textql.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/security/textql-trust-center.yml
   title: ''
   type: Compliance
   url: security/textql-trust-center.yml
@@ -96,98 +123,122 @@ common:
   type: ChangeLog
   url: https://docs.textql.com/product/changelog
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/a2a/textql-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/textql-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/llms/textql-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/textql-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/well-known/textql-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/textql-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/well-known/textql-openid-configuration.json
   title: ''
   type: OpenIDConnectDiscovery
   url: well-known/textql-openid-configuration.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/packages/textql-packages.yml
   title: ''
   type: Packages
   url: packages/textql-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/packages/textql-packages.yml
   title: ''
   type: SDKs
   url: packages/textql-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/lifecycle/textql-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/textql-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/lifecycle/textql-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/textql-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/security/textql-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/textql-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/plans/textql-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/textql-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/rate-limits/textql-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/textql-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/conformance/textql-conformance.yml
   title: ''
   type: Conformance
   url: conformance/textql-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/changelog/textql-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/textql-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/components/textql-components.yml
   title: ''
   type: Components
   url: components/textql-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/cli/textql-cli.yml
   title: ''
   type: CLI
   url: cli/textql-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/conventions/textql-conventions.yml
   title: ''
   type: Conventions
   url: conventions/textql-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/data-model/textql-data-model.yml
   title: ''
   type: DataModel
   url: data-model/textql-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/authentication/textql-authentication.yml
   title: ''
   type: Authentication
   url: authentication/textql-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/scopes/textql-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/textql-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/errors/textql-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/textql-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/mcp/textql-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/textql-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/mcp/textql-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/textql-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/asyncapi/textql-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/textql-webhooks.yml
@@ -224,6 +275,40 @@ scopes:
   scope_count: 0
   slug: textql-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 66.6
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 54.6
+    developer_ergonomics: 73.8
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 66.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 25.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 88.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/screenshots/textql-2026-09-02T163306.png
 security:
 - kind: authentication

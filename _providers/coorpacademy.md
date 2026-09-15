@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.2
+  scored_at: '2026-09-14'
 api_count: 14
 apis:
 - baseURL: https://content.coorpacademy.com/api/v2
@@ -335,38 +360,47 @@ asyncapis:
   slug: coorpacademy-event-surface
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/capabilities/coorpacademy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/coorpacademy-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/overlays/coorpacademy-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coorpacademy-content-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/overlays/coorpacademy-progression-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coorpacademy-progression-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/overlays/coorpacademy-scim-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coorpacademy-scim-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/overlays/coorpacademy-content-scorm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coorpacademy-content-scorm-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/overlays/coorpacademy-mail-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coorpacademy-mail-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/overlays/coorpacademy-review-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coorpacademy-review-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/overlays/coorpacademy-external-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coorpacademy-external-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/security/coorpacademy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coorpacademy-domain-security.yml
@@ -411,50 +445,62 @@ common:
   type: Login
   url: https://connect.coorpacademy.com/login
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/lifecycle/coorpacademy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coorpacademy-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/authentication/coorpacademy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coorpacademy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/conventions/coorpacademy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coorpacademy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/conformance/coorpacademy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coorpacademy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/conformance/coorpacademy-conformance.yml
   title: ''
   type: Compliance
   url: conformance/coorpacademy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/errors/coorpacademy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coorpacademy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/data-model/coorpacademy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coorpacademy-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/packages/coorpacademy-packages.yml
   title: ''
   type: Packages
   url: packages/coorpacademy-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/components/coorpacademy-components.yml
   title: ''
   type: Components
   url: components/coorpacademy-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/llms/coorpacademy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coorpacademy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/plans/coorpacademy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coorpacademy-plans-pricing.yml
@@ -483,6 +529,56 @@ rate_limits:
 - limit_count: 0
   name: Coorpacademy Rate Limits
   slug: coorpacademy-rate-limits
+score:
+  band: developing
+  composite: 44.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 57.0
+    developer_ergonomics: 37.5
+    discoverability: 50.0
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+    - france-iberia
+  previous_composite: 44.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 77.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 63
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png
 security:
 - kind: authentication

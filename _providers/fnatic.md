@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: true
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -29,6 +54,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/security/fnatic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fnatic-domain-security.yml
@@ -41,66 +67,82 @@ common:
   type: Documentation
   url: https://shop.fnatic.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/llms/fnatic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fnatic-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/well-known/fnatic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fnatic-well-known.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/graphql/fnatic-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/fnatic-storefront.graphql
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/mcp/fnatic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fnatic-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/mcp/fnatic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fnatic-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/authentication/fnatic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fnatic-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/scopes/fnatic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fnatic-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/conventions/fnatic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fnatic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/conventions/fnatic-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fnatic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/errors/fnatic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fnatic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/lifecycle/fnatic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fnatic-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/conformance/fnatic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fnatic-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/data-model/fnatic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fnatic-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/agentic-access/fnatic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fnatic-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/packages/fnatic-packages.yml
   title: ''
   type: Packages
   url: packages/fnatic-packages.yml
@@ -227,6 +269,45 @@ scopes:
   scope_count: 4
   slug: fnatic-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 33.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 41.5
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 33.4
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fnatic/refs/heads/main/screenshots/fnatic-2026-08-07T165400.png
 security:
 - kind: authentication

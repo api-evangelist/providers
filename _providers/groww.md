@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -136,82 +161,102 @@ common:
   type: Blog
   url: https://groww.in/blog
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/_original/groww-trade-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/groww-trade-api-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/authentication/groww-authentication.yml
   title: ''
   type: Authentication
   url: authentication/groww-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/scopes/groww-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/groww-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/conventions/groww-conventions.yml
   title: ''
   type: Conventions
   url: conventions/groww-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/conventions/groww-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/groww-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/rate-limits/groww-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/groww-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/errors/groww-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/groww-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/lifecycle/groww-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/groww-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/lifecycle/groww-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/groww-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/conformance/groww-conformance.yml
   title: ''
   type: Conformance
   url: conformance/groww-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/data-model/groww-data-model.yml
   title: ''
   type: DataModel
   url: data-model/groww-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/security/groww-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groww-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/agentic-access/groww-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/groww-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/well-known/groww-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/groww-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/packages/groww-packages.yml
   title: ''
   type: Packages
   url: packages/groww-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/packages/groww-packages.yml
   title: ''
   type: SDKs
   url: packages/groww-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/mcp/groww-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/groww-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/llms/groww-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/groww-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/overlays/groww-trade-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/groww-trade-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -245,6 +290,54 @@ scopes:
   scope_count: 0
   slug: groww-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 57.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 4.5
+    contract_quality: 53.4
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 57.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 68.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:
 - kind: authentication

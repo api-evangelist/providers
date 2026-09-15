@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -52,6 +77,7 @@ collections:
   slug: open-blink-ledger-systems-users-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/mcp/blink-ledger-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/blink-ledger-systems-mcp.yml
@@ -96,66 +122,82 @@ common:
   type: StatusPage
   url: https://status.blink.net
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/openapi/_original/blink-ledger-systems-server-side-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/blink-ledger-systems-server-side-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/overlays/blink-ledger-systems-server-side-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blink-ledger-systems-server-side-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/packages/blink-ledger-systems-packages.yml
   title: ''
   type: Packages
   url: packages/blink-ledger-systems-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/packages/blink-ledger-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/blink-ledger-systems-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/authentication/blink-ledger-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blink-ledger-systems-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/errors/blink-ledger-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blink-ledger-systems-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/conventions/blink-ledger-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blink-ledger-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/lifecycle/blink-ledger-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blink-ledger-systems-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/sandbox/blink-ledger-systems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blink-ledger-systems-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/components/blink-ledger-systems-components.yml
   title: ''
   type: Components
   url: components/blink-ledger-systems-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/data-model/blink-ledger-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blink-ledger-systems-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/asyncapi/blink-ledger-systems-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blink-ledger-systems-notifications-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/conformance/blink-ledger-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blink-ledger-systems-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/llms/blink-ledger-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blink-ledger-systems-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/security/blink-ledger-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blink-ledger-systems-domain-security.yml
@@ -175,6 +217,46 @@ overview: 'Blink Ledger Systems publishes 3 APIs on the [APIs.io](https://apis.i
 
   Blink Ledger Systems'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 20 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 27.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 21.0
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 27.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/screenshots/blink-ledger-systems-2026-07-25T203322.png
 security:
 - kind: authentication

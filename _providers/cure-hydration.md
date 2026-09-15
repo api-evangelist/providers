@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'A live, first-party, anonymously discoverable Model Context Protocol server implementing the Shopify Universal Commerce Protocol shopping service for the CURE storefront. Thirteen tools cover catalog '
@@ -38,6 +63,7 @@ common:
   type: APIReference
   url: https://www.curehydration.com/llms.txt
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/skills/cure-hydration-browse-catalog.md
   title: ''
   type: GettingStarted
   url: skills/cure-hydration-browse-catalog.md
@@ -74,78 +100,97 @@ common:
   type: About
   url: https://www.curehydration.com/pages/about-us
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/llms/cure-hydration-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cure-hydration-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/mcp/cure-hydration-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cure-hydration-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/mcp/cure-hydration-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cure-hydration-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/graphql/cure-hydration-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/cure-hydration-storefront.graphql
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/well-known/cure-hydration-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cure-hydration-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/well-known/cure-hydration-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/cure-hydration-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/authentication/cure-hydration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cure-hydration-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/scopes/cure-hydration-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cure-hydration-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/conventions/cure-hydration-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cure-hydration-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/conventions/cure-hydration-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cure-hydration-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/errors/cure-hydration-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cure-hydration-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/rate-limits/cure-hydration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cure-hydration-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/plans/cure-hydration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cure-hydration-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/lifecycle/cure-hydration-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cure-hydration-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/conformance/cure-hydration-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cure-hydration-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/data-model/cure-hydration-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cure-hydration-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/security/cure-hydration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cure-hydration-domain-security.yml
@@ -189,6 +234,42 @@ scopes:
   scope_count: 0
   slug: cure-hydration-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 54.8
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 47.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cure-hydration/refs/heads/main/screenshots/cure-hydration-2026-08-17T080844.png
 security:
 - kind: authentication

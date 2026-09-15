@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://platform.clearslide.com
@@ -109,34 +134,42 @@ common:
   type: PrivacyPolicy
   url: https://www.clearslide.com/legal/privacy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/llms/clearslide-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clearslide-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/_original/clearslide-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/clearslide-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/overlays/clearslide-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearslide-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/authentication/clearslide-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clearslide-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/scopes/clearslide-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clearslide-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/conventions/clearslide-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clearslide-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/lifecycle/clearslide-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clearslide-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/conformance/clearslide-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clearslide-conformance.yml
@@ -145,6 +178,7 @@ common:
   type: Compliance
   url: https://www.clearslide.com/about/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/security/clearslide-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clearslide-vulnerability-disclosure.yml
@@ -153,50 +187,62 @@ common:
   type: Security
   url: https://www.clearslide.com/about/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/security/clearslide-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clearslide-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/well-known/clearslide-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clearslide-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/mcp/clearslide-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clearslide-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/data-model/clearslide-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clearslide-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/openapi/_original/clearslide-platform-api-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/_original/clearslide-platform-api-swagger.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/overlays/clearslide-platform-api-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/clearslide-platform-api-swagger-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/packages/clearslide-packages.yml
   title: ''
   type: Packages
   url: packages/clearslide-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/errors/clearslide-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clearslide-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/rate-limits/clearslide-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clearslide-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/plans/clearslide-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clearslide-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/components/clearslide-components.yml
   title: ''
   type: Components
   url: components/clearslide-components.yml
@@ -242,6 +288,40 @@ scopes:
   scope_count: 2
   slug: clearslide-scopes
   summary_line: 2 scopes · authorizationCode/refreshToken
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 51.7
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 47.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:
 - kind: authentication

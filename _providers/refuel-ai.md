@@ -10,6 +10,31 @@ access_model:
   - plans/refuel-ai-plans-pricing.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -134,62 +159,77 @@ collections:
   slug: open-refuel-ai
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/overlays/refuel-ai-cloud-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/refuel-ai-cloud-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/agentic-access/refuel-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/refuel-ai-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/mcp/refuel-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/refuel-ai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/mcp/refuel-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/refuel-ai-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/a2a/refuel-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/refuel-ai-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/llms/refuel-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/refuel-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/well-known/refuel-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/refuel-ai-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/packages/refuel-ai-packages.yml
   title: ''
   type: Packages
   url: packages/refuel-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/packages/refuel-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/refuel-ai-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/conventions/refuel-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/refuel-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/data-model/refuel-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/refuel-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/errors/refuel-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/refuel-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/lifecycle/refuel-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/refuel-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/conformance/refuel-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/refuel-ai-conformance.yml
@@ -198,14 +238,17 @@ common:
   type: Compliance
   url: https://www.refuel.ai/security
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/sandbox/refuel-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/refuel-ai-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/security/refuel-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/refuel-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/security/refuel-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/refuel-ai-vulnerability-disclosure.yml
@@ -214,10 +257,12 @@ common:
   type: Security
   url: https://www.refuel.ai/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/security/refuel-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/refuel-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/authentication/refuel-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/refuel-ai-authentication.yml
@@ -278,14 +323,17 @@ common:
   type: PrivacyPolicy
   url: https://www.refuel.ai/privacy-policy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/plans/refuel-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/refuel-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/rate-limits/refuel-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/refuel-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/finops/refuel-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/refuel-ai-finops.yml
@@ -321,6 +369,41 @@ rate_limits:
 - limit_count: 2
   name: Refuel Ai Rate Limits
   slug: refuel-ai-rate-limits
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 63.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 63.3
+    developer_ergonomics: 70.8
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/screenshots/refuel-ai-2026-08-17T080415.png
 security:
 - kind: authentication

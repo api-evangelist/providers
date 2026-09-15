@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -153,30 +179,37 @@ collections:
   slug: open-convertkit-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/capabilities/convertkit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/convertkit-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/agentic-access/convertkit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/convertkit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/security/convertkit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/convertkit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/security/convertkit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/convertkit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/security/convertkit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/convertkit-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/authentication/convertkit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/convertkit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/scopes/convertkit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/convertkit-scopes.yml
@@ -213,54 +246,67 @@ common:
   type: X
   url: https://x.com/kit
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/plans/convertkit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/convertkit-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/rate-limits/convertkit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/convertkit-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/finops/convertkit-finops.yml
   title: ''
   type: FinOps
   url: finops/convertkit-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/a2a/convertkit-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/convertkit-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/well-known/convertkit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/convertkit-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/mcp/convertkit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/convertkit-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/mcp/convertkit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/convertkit-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/llms/convertkit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/convertkit-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/packages/convertkit-packages.yml
   title: ''
   type: Packages
   url: packages/convertkit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/packages/convertkit-packages.yml
   title: ''
   type: SDKs
   url: packages/convertkit-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/conventions/convertkit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/convertkit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/errors/convertkit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/convertkit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/lifecycle/convertkit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/convertkit-lifecycle.yml
@@ -269,10 +315,12 @@ common:
   type: Deprecation
   url: https://developers.kit.com/api-reference/upgrading-to-v4
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/changelog/convertkit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/convertkit-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/conformance/convertkit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/convertkit-conformance.yml
@@ -285,22 +333,27 @@ common:
   type: Security
   url: https://kit.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/asyncapi/convertkit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/convertkit-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/components/convertkit-components.yml
   title: ''
   type: Components
   url: components/convertkit-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/data-model/convertkit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/convertkit-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/vocabulary/vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/vocabulary.json
@@ -337,302 +390,377 @@ common:
   type: SignUp
   url: https://app.kit.com/users/signup
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/rules/convertkit-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/convertkit-jsonschema-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/add-subscriber-to-form-by-email-address.json
   title: ''
   type: Examples
   url: examples/add-subscriber-to-form-by-email-address.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/add-subscriber-to-form.json
   title: ''
   type: Examples
   url: examples/add-subscriber-to-form.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/add-subscriber-to-sequence-by-email-address.json
   title: ''
   type: Examples
   url: examples/add-subscriber-to-sequence-by-email-address.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/add-subscriber-to-sequence.json
   title: ''
   type: Examples
   url: examples/add-subscriber-to-sequence.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/bulk-add-subscribers-to-forms.json
   title: ''
   type: Examples
   url: examples/bulk-add-subscribers-to-forms.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/bulk-create-custom-fields.json
   title: ''
   type: Examples
   url: examples/bulk-create-custom-fields.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/bulk-create-subscribers.json
   title: ''
   type: Examples
   url: examples/bulk-create-subscribers.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/bulk-create-tags.json
   title: ''
   type: Examples
   url: examples/bulk-create-tags.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/bulk-remove-tags-from-subscribers.json
   title: ''
   type: Examples
   url: examples/bulk-remove-tags-from-subscribers.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/bulk-tag-subscribers.json
   title: ''
   type: Examples
   url: examples/bulk-tag-subscribers.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/bulk-update-subscriber-custom-field-values.json
   title: ''
   type: Examples
   url: examples/bulk-update-subscriber-custom-field-values.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-broadcast.json
   title: ''
   type: Examples
   url: examples/create-a-broadcast.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-custom-field.json
   title: ''
   type: Examples
   url: examples/create-a-custom-field.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-purchase.json
   title: ''
   type: Examples
   url: examples/create-a-purchase.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-sequence-email.json
   title: ''
   type: Examples
   url: examples/create-a-sequence-email.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-sequence.json
   title: ''
   type: Examples
   url: examples/create-a-sequence.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-snippet.json
   title: ''
   type: Examples
   url: examples/create-a-snippet.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-subscriber.json
   title: ''
   type: Examples
   url: examples/create-a-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-tag.json
   title: ''
   type: Examples
   url: examples/create-a-tag.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/create-a-webhook.json
   title: ''
   type: Examples
   url: examples/create-a-webhook.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/delete-a-broadcast.json
   title: ''
   type: Examples
   url: examples/delete-a-broadcast.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/delete-a-sequence-email.json
   title: ''
   type: Examples
   url: examples/delete-a-sequence-email.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/delete-a-sequence.json
   title: ''
   type: Examples
   url: examples/delete-a-sequence.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/delete-a-webhook.json
   title: ''
   type: Examples
   url: examples/delete-a-webhook.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/delete-custom-field.json
   title: ''
   type: Examples
   url: examples/delete-custom-field.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/filter-subscribers-based-on-engagement.json
   title: ''
   type: Examples
   url: examples/filter-subscribers-based-on-engagement.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-a-broadcast.json
   title: ''
   type: Examples
   url: examples/get-a-broadcast.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-a-post.json
   title: ''
   type: Examples
   url: examples/get-a-post.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-a-purchase.json
   title: ''
   type: Examples
   url: examples/get-a-purchase.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-a-sequence-email.json
   title: ''
   type: Examples
   url: examples/get-a-sequence-email.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-a-sequence.json
   title: ''
   type: Examples
   url: examples/get-a-sequence.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-a-snippet.json
   title: ''
   type: Examples
   url: examples/get-a-snippet.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-a-subscriber.json
   title: ''
   type: Examples
   url: examples/get-a-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-creator-profile.json
   title: ''
   type: Examples
   url: examples/get-creator-profile.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-current-account.json
   title: ''
   type: Examples
   url: examples/get-current-account.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-email-stats.json
   title: ''
   type: Examples
   url: examples/get-email-stats.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-growth-stats.json
   title: ''
   type: Examples
   url: examples/get-growth-stats.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-link-clicks-for-a-broadcast.json
   title: ''
   type: Examples
   url: examples/get-link-clicks-for-a-broadcast.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-stats-for-a-broadcast.json
   title: ''
   type: Examples
   url: examples/get-stats-for-a-broadcast.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/get-stats-for-a-list-of-broadcasts.json
   title: ''
   type: Examples
   url: examples/get-stats-for-a-list-of-broadcasts.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-broadcasts.json
   title: ''
   type: Examples
   url: examples/list-broadcasts.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-colors.json
   title: ''
   type: Examples
   url: examples/list-colors.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-custom-fields.json
   title: ''
   type: Examples
   url: examples/list-custom-fields.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-email-templates.json
   title: ''
   type: Examples
   url: examples/list-email-templates.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-forms.json
   title: ''
   type: Examples
   url: examples/list-forms.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-posts.json
   title: ''
   type: Examples
   url: examples/list-posts.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-purchases.json
   title: ''
   type: Examples
   url: examples/list-purchases.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-segments.json
   title: ''
   type: Examples
   url: examples/list-segments.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-sequence-emails.json
   title: ''
   type: Examples
   url: examples/list-sequence-emails.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-sequences.json
   title: ''
   type: Examples
   url: examples/list-sequences.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-snippets.json
   title: ''
   type: Examples
   url: examples/list-snippets.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-stats-for-a-subscriber.json
   title: ''
   type: Examples
   url: examples/list-stats-for-a-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-subscribers-for-a-form.json
   title: ''
   type: Examples
   url: examples/list-subscribers-for-a-form.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-subscribers-for-a-sequence.json
   title: ''
   type: Examples
   url: examples/list-subscribers-for-a-sequence.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-subscribers-for-a-tag.json
   title: ''
   type: Examples
   url: examples/list-subscribers-for-a-tag.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-subscribers.json
   title: ''
   type: Examples
   url: examples/list-subscribers.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-tags-for-a-subscriber.json
   title: ''
   type: Examples
   url: examples/list-tags-for-a-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-tags.json
   title: ''
   type: Examples
   url: examples/list-tags.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/list-webhooks.json
   title: ''
   type: Examples
   url: examples/list-webhooks.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/remove-tag-from-subscriber-by-email-address.json
   title: ''
   type: Examples
   url: examples/remove-tag-from-subscriber-by-email-address.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/remove-tag-from-subscriber.json
   title: ''
   type: Examples
   url: examples/remove-tag-from-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/tag-a-subscriber-by-email-address.json
   title: ''
   type: Examples
   url: examples/tag-a-subscriber-by-email-address.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/tag-a-subscriber.json
   title: ''
   type: Examples
   url: examples/tag-a-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/unsubscribe-subscriber.json
   title: ''
   type: Examples
   url: examples/unsubscribe-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-a-broadcast.json
   title: ''
   type: Examples
   url: examples/update-a-broadcast.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-a-custom-field.json
   title: ''
   type: Examples
   url: examples/update-a-custom-field.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-a-sequence-email.json
   title: ''
   type: Examples
   url: examples/update-a-sequence-email.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-a-sequence.json
   title: ''
   type: Examples
   url: examples/update-a-sequence.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-a-snippet.json
   title: ''
   type: Examples
   url: examples/update-a-snippet.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-a-subscriber.json
   title: ''
   type: Examples
   url: examples/update-a-subscriber.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-colors.json
   title: ''
   type: Examples
   url: examples/update-colors.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/examples/update-tag-name.json
   title: ''
   type: Examples
   url: examples/update-tag-name.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/json-ld/api.json
   title: ''
   type: JSONLD
   url: json-ld/api.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/json-ld/context.json
   title: ''
   type: JSONLDContext
   url: json-ld/context.json
@@ -1206,6 +1334,47 @@ scopes:
   scope_count: 3
   slug: convertkit-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 82.8
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 72.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 43.2
+    contract_quality: 66.9
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 92.1
+  previous_composite: 82.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png
 security:
 - kind: authentication

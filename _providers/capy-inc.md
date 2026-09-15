@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.leminnow.com
@@ -27,6 +52,7 @@ collections:
   slug: open-capy-inc-verification-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/overlays/capy-inc-captcha-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/capy-inc-captcha-overlay.yaml
@@ -79,58 +105,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/leminnow
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/packages/capy-inc-packages.yml
   title: ''
   type: Packages
   url: packages/capy-inc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/packages/capy-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/capy-inc-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/components/capy-inc-components.yml
   title: ''
   type: Components
   url: components/capy-inc-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/authentication/capy-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/capy-inc-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/conventions/capy-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/capy-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/errors/capy-inc-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/capy-inc-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/lifecycle/capy-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/capy-inc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/conformance/capy-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/capy-inc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/data-model/capy-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/capy-inc-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/mcp/capy-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/capy-inc-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/llms/capy-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/capy-inc-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/plans/capy-inc-plans.yml
   title: ''
   type: Plans
   url: plans/capy-inc-plans.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/security/capy-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/capy-inc-domain-security.yml
@@ -151,6 +191,41 @@ plans:
   plan_count: 2
   slug: capy-inc-plans
 random_paper: 11
+score:
+  band: thin
+  composite: 36.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 59.2
+    contract_governance: 4.5
+    contract_quality: 13.1
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 36.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/screenshots/capy-inc-2026-08-17T083008.png
 security:
 - kind: authentication

@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
@@ -290,6 +316,7 @@ collections:
   slug: open-leankit-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/overlays/leankit-agileplace-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leankit-agileplace-api-overlay.yaml
@@ -298,6 +325,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/leankit/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/security/leankit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leankit-trust-center.yml
@@ -362,6 +390,7 @@ common:
   type: TrustCenter
   url: https://trust.planview.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/conformance/leankit-conformance.yml
   title: ''
   type: Compliance
   url: conformance/leankit-conformance.yml
@@ -370,70 +399,87 @@ common:
   type: ChangeLog
   url: https://success.planview.com/Planview_AgilePlace/Product_Releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/changelog/leankit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leankit-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/packages/leankit-packages.yml
   title: ''
   type: Packages
   url: packages/leankit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/packages/leankit-packages.yml
   title: ''
   type: SDKs
   url: packages/leankit-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/well-known/leankit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leankit-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/mcp/leankit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/leankit-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/llms/leankit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leankit-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/conformance/leankit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leankit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/errors/leankit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leankit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/lifecycle/leankit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leankit-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/lifecycle/leankit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/leankit-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/authentication/leankit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leankit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/security/leankit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leankit-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/conventions/leankit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leankit-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/conventions/leankit-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/leankit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/asyncapi/leankit-automation-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/leankit-automation-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/data-model/leankit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leankit-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -453,6 +499,40 @@ overview: 'LeanKit publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
   LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 9
+score:
+  band: strong
+  composite: 60.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 70.3
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 60.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/screenshots/leankit-2026-07-25T224738.png
 security:
 - kind: authentication

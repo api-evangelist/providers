@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -83,6 +108,7 @@ common:
   type: License
   url: https://github.com/cloudevents/spec/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/security/events-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/events-domain-security.yml
@@ -95,10 +121,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/api-evangelist
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/vocabulary/events-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/events-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/json-ld/events-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/events-context.jsonld
@@ -198,6 +226,41 @@ rules:
     info: 2
     warn: 3
   slug: events-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 27.3
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 54.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 25.0
+    contract_quality: 14.7
+    developer_ergonomics: 50.0
+    discoverability: 64.8
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 27.3
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 18.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:
 - kind: domain-security

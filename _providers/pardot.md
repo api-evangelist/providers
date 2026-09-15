@@ -10,6 +10,31 @@ access_model:
   - https://www.salesforce.com/marketing/b2b-automation/pricing/
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,22 +72,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/agentic-access/pardot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pardot-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pardot-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pardot-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/authentication/pardot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pardot-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/scopes/pardot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pardot-scopes.yml
@@ -87,30 +117,37 @@ common:
   type: SignUp
   url: https://www.salesforce.com/form/signup/freetrial-b2bma/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/pardot-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pardot-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-trust-center.yml
   title: ''
   type: Compliance
   url: security/pardot-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/conformance/pardot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pardot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/conventions/pardot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pardot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/errors/pardot-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/pardot-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/lifecycle/pardot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pardot-lifecycle.yml
@@ -123,50 +160,62 @@ common:
   type: Deprecation
   url: https://developer.salesforce.com/docs/marketing/pardot/guide/transitioning-v5.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/rate-limits/pardot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pardot-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/plans/pardot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pardot-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/data-model/pardot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pardot-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/packages/pardot-packages.yml
   title: ''
   type: Packages
   url: packages/pardot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/packages/pardot-packages.yml
   title: ''
   type: SDKs
   url: packages/pardot-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/sandbox/pardot-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pardot-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/components/pardot-components.yml
   title: ''
   type: Components
   url: components/pardot-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/mcp/pardot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pardot-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/llms/pardot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pardot-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/well-known/pardot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pardot-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/schemas/pardot-schemas.yml
   title: ''
   type: XMLSchema
   url: schemas/pardot-schemas.yml
@@ -232,6 +281,41 @@ scopes:
   scope_count: 1
   slug: pardot-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 54.8
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 15.3
+    developer_ergonomics: 78.0
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 54.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/screenshots/pardot-2026-06-20T191406.png
 security:
 - kind: authentication

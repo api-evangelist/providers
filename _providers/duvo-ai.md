@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 63.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -367,82 +392,102 @@ collections:
   slug: open-duvo-ai-triggers-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/capabilities/duvo-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/duvo-ai-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/overlays/duvo-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/duvo-ai-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/agentic-access/duvo-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/duvo-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/security/duvo-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/duvo-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/authentication/duvo-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/duvo-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/scopes/duvo-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/duvo-ai-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/packages/duvo-ai-packages.yml
   title: ''
   type: Packages
   url: packages/duvo-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/packages/duvo-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/duvo-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/cli/duvo-ai-cli.yml
   title: ''
   type: CLI
   url: cli/duvo-ai-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/mcp/duvo-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/duvo-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/well-known/duvo-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/duvo-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/llms/duvo-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/duvo-ai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/conventions/duvo-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/duvo-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/conventions/duvo-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/duvo-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/errors/duvo-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/duvo-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/lifecycle/duvo-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/duvo-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/conformance/duvo-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/duvo-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/data-model/duvo-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/duvo-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/asyncapi/duvo-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/duvo-ai-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -519,6 +564,41 @@ scopes:
   scope_count: 8
   slug: duvo-ai-scopes
   summary_line: 8 scopes
+score:
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 62.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 53.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/screenshots/duvo-ai-2026-07-25T212653.png
 security:
 - kind: authentication

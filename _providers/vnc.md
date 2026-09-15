@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -51,22 +76,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/vnc/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/agentic-access/vnc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vnc-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/security/vnc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vnc-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/security/vnc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vnc-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/security/vnc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vnc-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/authentication/vnc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vnc-authentication.yml
@@ -83,26 +113,32 @@ common:
   type: Documentation
   url: https://www.realvnc.com/en/developer/docs/latest/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/openapi/_original/vnc-cloud-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/vnc-cloud-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/json-schema/vnc-cloud-address-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vnc-cloud-address-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/json-structure/vnc-cloud-address-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/vnc-cloud-address-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/json-ld/vnc-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vnc-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/vocabulary/vnc-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vnc-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/rules/vnc-rules.yml
   title: ''
   type: SpectralRules
   url: rules/vnc-rules.yml
@@ -206,6 +242,38 @@ rules:
     info: 1
     warn: 5
   slug: vnc-rules
+score:
+  band: developing
+  composite: 46.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 28.8
+    contract_quality: 72.1
+    developer_ergonomics: 46.4
+    discoverability: 66.7
+    operational_transparency: 7.9
+  previous_composite: 46.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/screenshots/vnc-2026-06-20T201123.png
 security:
 - kind: authentication

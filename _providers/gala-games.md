@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.0
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
@@ -144,34 +169,42 @@ common:
   type: License
   url: https://github.com/GalaChain/sdk/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-galachain-asset-token-contract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-galachain-asset-token-contract-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-galachain-asset-dexv3-contract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-galachain-asset-dexv3-contract-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-galachain-asset-launchpad-contract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-galachain-asset-launchpad-contract-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-galachain-asset-fee-contract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-galachain-asset-fee-contract-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-galachain-asset-public-key-contract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-galachain-asset-public-key-contract-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-galaconnect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-galaconnect-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-block-explorer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-block-explorer-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/overlays/gala-games-defi-backend-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gala-games-defi-backend-overlay.yaml
@@ -212,74 +245,92 @@ common:
   type: SignUp
   url: https://games.gala.com/account
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/authentication/gala-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gala-games-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/security/gala-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gala-games-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/packages/gala-games-packages.yml
   title: ''
   type: Packages
   url: packages/gala-games-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/packages/gala-games-packages.yml
   title: ''
   type: SDKs
   url: packages/gala-games-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/cli/gala-games-cli.yml
   title: ''
   type: CLI
   url: cli/gala-games-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/mcp/gala-games-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gala-games-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/mcp/gala-games-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/gala-games-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/conventions/gala-games-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gala-games-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/conventions/gala-games-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gala-games-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/errors/gala-games-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gala-games-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/rate-limits/gala-games-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gala-games-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/plans/gala-games-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gala-games-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/lifecycle/gala-games-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gala-games-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/changelog/gala-games-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gala-games-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/conformance/gala-games-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gala-games-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/data-model/gala-games-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gala-games-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/llms/gala-games-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gala-games-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -311,6 +362,46 @@ rate_limits:
 - limit_count: 1
   name: Gala Games Rate Limits
   slug: gala-games-rate-limits
+score:
+  band: developing
+  composite: 42.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 50.2
+    developer_ergonomics: 70.8
+    discoverability: 74.1
+    operational_transparency: 39.5
+  previous_composite: 42.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 12.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 38.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/screenshots/gala-games-2026-08-17T080947.png
 security:
 - kind: authentication

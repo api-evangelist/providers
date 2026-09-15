@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.overshoot.ai/v1beta
@@ -88,10 +113,12 @@ common:
   type: Website
   url: https://www.overshoot.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/capabilities/overshoot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/overshoot-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/security/overshoot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/overshoot-domain-security.yml
@@ -132,54 +159,67 @@ common:
   type: PrivacyPolicy
   url: https://platform.overshoot.ai/privacy.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/llms/overshoot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/overshoot-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/authentication/overshoot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/overshoot-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/errors/overshoot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/overshoot-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/lifecycle/overshoot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/overshoot-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/conventions/overshoot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/overshoot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/conformance/overshoot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/overshoot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/data-model/overshoot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/overshoot-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/mcp/overshoot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/overshoot-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/overlays/overshoot-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/overshoot-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/packages/overshoot-packages.yml
   title: ''
   type: Packages
   url: packages/overshoot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/packages/overshoot-packages.yml
   title: ''
   type: SDKs
   url: packages/overshoot-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/rate-limits/overshoot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/overshoot-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -200,6 +240,40 @@ rate_limits:
 - limit_count: 2
   name: Overshoot Rate Limits
   slug: overshoot-rate-limits
+score:
+  band: thin
+  composite: 36.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 50.4
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 36.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/screenshots/overshoot-2026-08-07T191138.png
 security:
 - kind: authentication

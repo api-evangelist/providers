@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -76,14 +101,17 @@ common:
   type: IssueTracker
   url: https://github.com/positron-ai/admin-api-docs/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/mcp/positron-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/positron-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/security/positron-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/positron-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/agentic-access/positron-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/positron-agentic-access.yml
@@ -120,6 +148,7 @@ common:
   type: ChangeLog
   url: https://support.positron.ai/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/changelog/positron-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/positron-changelog.yml
@@ -140,58 +169,72 @@ common:
   type: Twitter
   url: https://twitter.com/positron_ai
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/_original/positron-inference-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/positron-inference-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/openapi/_original/positron-admin-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/positron-admin-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/authentication/positron-authentication.yml
   title: ''
   type: Authentication
   url: authentication/positron-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/conventions/positron-conventions.yml
   title: ''
   type: Conventions
   url: conventions/positron-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/errors/positron-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/positron-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/data-model/positron-data-model.yml
   title: ''
   type: DataModel
   url: data-model/positron-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/lifecycle/positron-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/positron-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/conformance/positron-conformance.yml
   title: ''
   type: Conformance
   url: conformance/positron-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/packages/positron-packages.yml
   title: ''
   type: Packages
   url: packages/positron-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/well-known/positron-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/positron-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/llms/positron-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/positron-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/overlays/positron-inference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/positron-inference-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/overlays/positron-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/positron-admin-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -209,6 +252,46 @@ overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
   Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 25 more developer resources.'
 random_paper: 12
+score:
+  band: thin
+  composite: 35.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 55.0
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 35.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/positron/refs/heads/main/screenshots/positron-2026-09-02T151823.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 376
   human_in_the_loop: 13
@@ -508,26 +533,32 @@ collections:
   slug: open-keboola-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/capabilities/keboola-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/keboola-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/agentic-access/keboola-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/keboola-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/security/keboola-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/keboola-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/security/keboola-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/keboola-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/security/keboola-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keboola-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/authentication/keboola-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keboola-authentication.yml
@@ -588,14 +619,17 @@ common:
   type: ComponentRegistry
   url: https://components.keboola.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/plans/keboola-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/keboola-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/rate-limits/keboola-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/keboola-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/finops/keboola-finops.yml
   title: ''
   type: FinOps
   url: finops/keboola-finops.yml
@@ -1809,6 +1843,39 @@ rules:
     info: 2
     warn: 3
   slug: keboola-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 62.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 9.8
+    contract_quality: 58.6
+    developer_ergonomics: 31.0
+    discoverability: 74.1
+    operational_transparency: 21.1
+  previous_composite: 42.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 92.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 79
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
 security:
 - kind: authentication

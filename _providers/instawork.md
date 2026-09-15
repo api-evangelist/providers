@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server that lets business partners find hourly workers and book shifts on Instawork using natural language via an AI assistant. Secured with OAuth 2.1 (PKCE + dynamic cli
@@ -17,30 +42,37 @@ apis:
 artifact_total: 5
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/mcp/instawork-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/instawork-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/authentication/instawork-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instawork-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/scopes/instawork-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/instawork-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/well-known/instawork-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/instawork-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/conformance/instawork-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instawork-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/security/instawork-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instawork-domain-security.yml
@@ -106,6 +138,36 @@ scopes:
   scope_count: 2
   slug: instawork-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 25.5
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 25.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/screenshots/instawork-2026-07-25T222614.png
 security:
 - kind: authentication

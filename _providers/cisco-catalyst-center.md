@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.4
+  scored_at: '2026-09-14'
 api_count: 27
 apis:
 - description: 'First-party open-source Model Context Protocol server for Catalyst Center, published by Cisco under Apache-2.0 at cisco-en-programmability/catc-mcp-oss. It is self-hosted: the operator builds the Dock'
@@ -177,14 +202,17 @@ common:
   type: License
   url: https://github.com/cisco-en-programmability/catc-mcp-oss/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/capabilities/cisco-catalyst-center-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-catalyst-center-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/security/cisco-catalyst-center-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-catalyst-center-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/security/cisco-catalyst-center-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-catalyst-center-domain-security.yml
@@ -217,34 +245,42 @@ common:
   type: Portal
   url: https://developer.cisco.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/packages/cisco-catalyst-center-packages.yml
   title: ''
   type: Packages
   url: packages/cisco-catalyst-center-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/packages/cisco-catalyst-center-packages.yml
   title: ''
   type: SDKs
   url: packages/cisco-catalyst-center-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/well-known/cisco-catalyst-center-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cisco-catalyst-center-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/well-known/cisco-catalyst-center-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cisco-catalyst-center-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/mcp/cisco-catalyst-center-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cisco-catalyst-center-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/mcp/cisco-catalyst-center-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cisco-catalyst-center-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/llms/cisco-catalyst-center-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cisco-catalyst-center-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/conformance/cisco-catalyst-center-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cisco-catalyst-center-conformance.yml
@@ -253,14 +289,17 @@ common:
   type: Compliance
   url: https://trustportal.cisco.com/c/r/ctp/trust-portal.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/security/cisco-catalyst-center-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cisco-catalyst-center-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/errors/cisco-catalyst-center-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cisco-catalyst-center-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/lifecycle/cisco-catalyst-center-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cisco-catalyst-center-lifecycle.yml
@@ -269,6 +308,7 @@ common:
   type: Deprecation
   url: https://developer.cisco.com/docs/catalyst-center/versioning/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/changelog/cisco-catalyst-center-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cisco-catalyst-center-changelog.yml
@@ -277,10 +317,12 @@ common:
   type: ChangeLog
   url: https://developer.cisco.com/docs/catalyst-center/api-changelog/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/authentication/cisco-catalyst-center-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-catalyst-center-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/conventions/cisco-catalyst-center-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cisco-catalyst-center-conventions.yml
@@ -289,134 +331,167 @@ common:
   type: Security
   url: https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/asyncapi/cisco-catalyst-center-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cisco-catalyst-center-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/sandbox/cisco-catalyst-center-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cisco-catalyst-center-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/data-model/cisco-catalyst-center-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cisco-catalyst-center-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/plans/cisco-catalyst-center-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-catalyst-center-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/rate-limits/cisco-catalyst-center-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-catalyst-center-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-aaaservices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-aaaservices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-application-health-score-definitions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-application-health-score-definitions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-assurance-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-assurance-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-assurance-network-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-assurance-network-devices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-assurance-tasks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-assurance-tasks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-assurance-user-defined-issue-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-assurance-user-defined-issue-apis-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-clients1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-clients1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-device-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-device-energy-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-dhcpservices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-dhcpservices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-dnsservices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-dnsservices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-fabric-site-health-summaries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-fabric-site-health-summaries-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-fabric-summary-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-fabric-summary-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-filter-groups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-filter-groups-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-icap-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-icap-apis-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-icap-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-icap-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-interfaces-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-interfaces-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-issue-and-health-definitions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-issue-and-health-definitions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-issues-lifecycle-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-issues-lifecycle-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-issues-list-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-issues-list-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-network-applications-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-network-applications-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-site-health-summaries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-site-health-summaries-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-site-kpi-summaries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-site-kpi-summaries-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-sites-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-sites-energy-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-thousand-eyes-path-viz-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-thousand-eyes-path-viz-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-thousand-eyes-test-results-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-thousand-eyes-test-results-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-transit-network-health-summaries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-transit-network-health-summaries-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/overlays/cisco-catalyst-center-virtual-network-health-summaries-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-center-virtual-network-health-summaries-overlay.yaml
@@ -496,6 +571,46 @@ rate_limits:
 - limit_count: 1
   name: Cisco Catalyst Center Rate Limits
   slug: cisco-catalyst-center-rate-limits
+score:
+  band: strong
+  composite: 63.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 63.0
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 65.8
+  previous_composite: 63.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 89.7
+      derived: 0
+      marker_coverage: 100.0
+      total: 29
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/screenshots/cisco-catalyst-center-2026-09-02T145042.png
 security:
 - kind: authentication

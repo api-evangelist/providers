@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -156,18 +181,22 @@ collections:
   slug: open-smtp2go-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/capabilities/smtp2go-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smtp2go-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/agentic-access/smtp2go-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smtp2go-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/security/smtp2go-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smtp2go-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/authentication/smtp2go-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smtp2go-authentication.yml
@@ -212,58 +241,72 @@ common:
   type: Support
   url: https://support.smtp2go.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/plans/smtp2go-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smtp2go-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/rate-limits/smtp2go-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smtp2go-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/finops/smtp2go-finops.yml
   title: ''
   type: FinOps
   url: finops/smtp2go-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/packages/smtp2go-packages.yml
   title: ''
   type: Packages
   url: packages/smtp2go-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/packages/smtp2go-packages.yml
   title: ''
   type: SDKs
   url: packages/smtp2go-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/mcp/smtp2go-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/smtp2go-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/mcp/smtp2go-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/smtp2go-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/llms/smtp2go-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smtp2go-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/overlays/smtp2go-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/smtp2go-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/conventions/smtp2go-conventions.yml
   title: ''
   type: Conventions
   url: conventions/smtp2go-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/errors/smtp2go-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/smtp2go-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/lifecycle/smtp2go-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smtp2go-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/changelog/smtp2go-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/smtp2go-changelog.yml
@@ -272,6 +315,7 @@ common:
   type: ChangeLog
   url: https://developers.smtp2go.com/reference/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/conformance/smtp2go-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smtp2go-conformance.yml
@@ -280,14 +324,17 @@ common:
   type: Compliance
   url: https://www.smtp2go.com/blog/security-and-privacy-at-smtp2go/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/asyncapi/smtp2go-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/smtp2go-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/sandbox/smtp2go-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/smtp2go-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/data-model/smtp2go-data-model.yml
   title: ''
   type: DataModel
   url: data-model/smtp2go-data-model.yml
@@ -380,6 +427,47 @@ rules:
     info: 1
     warn: 4
   slug: smtp2go-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 71.7
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 78.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 28.0
+    contract_quality: 74.5
+    developer_ergonomics: 63.1
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 71.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/screenshots/smtp2go-2026-06-20T194102.png
 security:
 - kind: authentication

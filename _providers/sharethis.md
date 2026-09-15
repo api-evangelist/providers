@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Public, unauthenticated GET endpoint returning aggregate social sharing metrics for any URL — clicks and shares broken out per network (facebook, twitter, linkedin, pinterest, whatsapp and dozens more
@@ -54,14 +80,17 @@ apis:
 artifact_total: 14
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/capabilities/sharethis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sharethis-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/overlays/sharethis-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sharethis-platform-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/security/sharethis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sharethis-domain-security.yml
@@ -114,66 +143,82 @@ common:
   type: PrivacyPolicy
   url: https://sharethis.com/privacy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/packages/sharethis-packages.yml
   title: ''
   type: Packages
   url: packages/sharethis-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/packages/sharethis-packages.yml
   title: ''
   type: SDKs
   url: packages/sharethis-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/well-known/sharethis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sharethis-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/llms/sharethis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sharethis-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/conformance/sharethis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sharethis-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/lifecycle/sharethis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sharethis-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/scopes/sharethis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sharethis-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/authentication/sharethis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sharethis-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/conventions/sharethis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sharethis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/components/sharethis-components.yml
   title: ''
   type: Components
   url: components/sharethis-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/data-model/sharethis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sharethis-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/errors/sharethis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sharethis-problem-types.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/plans/sharethis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sharethis-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/rate-limits/sharethis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sharethis-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/mcp/sharethis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sharethis-mcp.yml
@@ -207,6 +252,40 @@ scopes:
   scope_count: 0
   slug: sharethis-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 45.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 66.1
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 45.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/screenshots/sharethis-2026-09-02T155116.png
 security:
 - kind: authentication

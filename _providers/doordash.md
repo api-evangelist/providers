@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -184,6 +209,7 @@ collections:
   slug: open-doordash-stores-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/capabilities/doordash-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/doordash-capability-edges.yml
@@ -192,18 +218,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/doordash/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/agentic-access/doordash-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/doordash-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/security/doordash-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/doordash-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/security/doordash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doordash-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/authentication/doordash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doordash-authentication.yml
@@ -260,42 +290,52 @@ common:
   type: Tools
   url: https://github.com/doordash-oss/oapi-codegen-dd
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/json-ld/doordash-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/doordash-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/json-schema/doordash-delivery-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/doordash-delivery-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/json-schema/doordash-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/doordash-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/json-schema/doordash-menu-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/doordash-menu-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/json-schema/doordash-report-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/doordash-report-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/vocabulary/doordash-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/doordash-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/rules/doordash-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/doordash-spectral-rules.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/plans/doordash-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/doordash-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/rate-limits/doordash-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/doordash-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/finops/doordash-finops.yml
   title: ''
   type: FinOps
   url: finops/doordash-finops.yml
@@ -910,6 +950,41 @@ rules:
     info: 8
     warn: 27
   slug: doordash-spectral-rules
+score:
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 28.8
+    contract_quality: 81.0
+    developer_ergonomics: 46.4
+    discoverability: 64.8
+    operational_transparency: 7.9
+  previous_composite: 52.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png
 security:
 - kind: authentication

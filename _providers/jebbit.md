@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://jebbit.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.blueconic.com/experiences-by-jebbit — a different registrable domain (jebbit.com -> blueconic.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -110,6 +135,7 @@ collections:
   slug: open-jebbit-launch-links-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/overlays/jebbit-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jebbit-openapi-overlay.yaml
@@ -162,98 +188,122 @@ common:
   type: PrivacyPolicy
   url: https://www.blueconic.com/legal/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/authentication/jebbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jebbit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/scopes/jebbit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jebbit-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/conventions/jebbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jebbit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/errors/jebbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jebbit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/asyncapi/jebbit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jebbit-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/mcp/jebbit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/jebbit-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/well-known/jebbit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jebbit-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/lifecycle/jebbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jebbit-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/conformance/jebbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jebbit-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/security/jebbit-trust-center.yml
   title: ''
   type: Compliance
   url: security/jebbit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/security/jebbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jebbit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/security/jebbit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jebbit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/security/jebbit-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/jebbit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/security/jebbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jebbit-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/agentic-access/jebbit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jebbit-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/data-model/jebbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jebbit-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/components/jebbit-components.yml
   title: ''
   type: Components
   url: components/jebbit-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/sandbox/jebbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jebbit-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/llms/jebbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jebbit-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/packages/jebbit-packages.yml
   title: ''
   type: Packages
   url: packages/jebbit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/mcp/jebbit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/jebbit-tool-crosswalk.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/rate-limits/jebbit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jebbit-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/plans/jebbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jebbit-plans-pricing.yml
@@ -286,6 +336,41 @@ scopes:
   scope_count: 6
   slug: jebbit-scopes
   summary_line: 6 scopes
+score:
+  band: developing
+  composite: 48.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 59.0
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 48.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/screenshots/jebbit-2026-07-25T223113.png
 security:
 - kind: authentication

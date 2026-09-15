@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -111,46 +137,57 @@ collections:
   slug: open-phonic-workspace-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/overlays/phonic-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/phonic-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/agentic-access/phonic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/phonic-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/security/phonic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phonic-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/authentication/phonic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/phonic-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/packages/phonic-packages.yml
   title: ''
   type: Packages
   url: packages/phonic-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/packages/phonic-packages.yml
   title: ''
   type: SDKs
   url: packages/phonic-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/mcp/phonic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/phonic-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/llms/phonic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/phonic-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/conformance/phonic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/phonic-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/errors/phonic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/phonic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/lifecycle/phonic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/phonic-lifecycle.yml
@@ -159,14 +196,17 @@ common:
   type: StatusPage
   url: https://status.phonic.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/conventions/phonic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/phonic-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/rate-limits/phonic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/phonic-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/data-model/phonic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/phonic-data-model.yml
@@ -175,6 +215,7 @@ common:
   type: Webhooks
   url: https://docs.phonic.co/webhooks/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -230,6 +271,41 @@ rate_limits:
 - limit_count: 3
   name: Phonic Rate Limits
   slug: phonic-rate-limits
+score:
+  band: developing
+  composite: 52.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 65.1
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 52.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/screenshots/phonic-2026-08-17T081212.png
 security:
 - kind: authentication

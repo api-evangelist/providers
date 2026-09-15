@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -139,18 +164,22 @@ collections:
   slug: open-microsoft-azure-event-hubs-schema-registry-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/agentic-access/microsoft-azure-event-hubs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-event-hubs-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/security/microsoft-azure-event-hubs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-event-hubs-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/authentication/microsoft-azure-event-hubs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-event-hubs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/scopes/microsoft-azure-event-hubs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-event-hubs-scopes.yml
@@ -159,34 +188,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-event-hubs/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-configure-disaster-recovery-pairing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-configure-disaster-recovery-pairing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-configure-event-hub-capture-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-configure-event-hub-capture-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-create-event-hub-with-consumer-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-create-event-hub-with-consumer-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-lock-down-namespace-network-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-lock-down-namespace-network-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-provision-authorization-rule-and-keys-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-provision-authorization-rule-and-keys-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-provision-namespace-with-event-hub-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-provision-namespace-with-event-hub-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-register-schema-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-register-schema-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/arazzo/microsoft-azure-event-hubs-rotate-namespace-keys-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-event-hubs-rotate-namespace-keys-workflow.yml
@@ -275,26 +312,32 @@ common:
   type: Security
   url: https://learn.microsoft.com/en-us/azure/event-hubs/network-security
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/json-schema/azure-event-hubs-namespace.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-event-hubs-namespace.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/json-schema/azure-event-hubs-eventhub.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-event-hubs-eventhub.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/json-schema/azure-event-hubs-consumer-group.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-event-hubs-consumer-group.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/json-schema/azure-event-hubs-event-data.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-event-hubs-event-data.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/json-schema/azure-event-hubs-schema-group.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-event-hubs-schema-group.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/json-ld/azure-event-hubs-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/azure-event-hubs-context.jsonld
@@ -374,6 +417,38 @@ scopes:
   scope_count: 1
   slug: microsoft-azure-event-hubs-scopes
   summary_line: 1 scope · implicit
+score:
+  band: strong
+  composite: 58.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 58.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 13.6
+    contract_quality: 69.4
+    developer_ergonomics: 67.9
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 58.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/screenshots/microsoft-azure-event-hubs-2026-06-20T185412.png
 security:
 - kind: authentication

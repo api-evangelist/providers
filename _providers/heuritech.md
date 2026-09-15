@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,6 +96,7 @@ apis:
 artifact_total: 17
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/agentic-access/heuritech-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/heuritech-agentic-access.yml
@@ -135,70 +161,87 @@ common:
   type: Careers
   url: https://www.welcometothejungle.com/en/companies/luxurynsight
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/plans/heuritech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/heuritech-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/rate-limits/heuritech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/heuritech-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/mcp/heuritech-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/heuritech-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/mcp/heuritech-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/heuritech-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/well-known/heuritech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/heuritech-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/authentication/heuritech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/heuritech-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/scopes/heuritech-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/heuritech-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/security/heuritech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heuritech-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/conventions/heuritech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/heuritech-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/conformance/heuritech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/heuritech-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/errors/heuritech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/heuritech-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/lifecycle/heuritech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/heuritech-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/data-model/heuritech-data-model.yml
   title: ''
   type: DataModel
   url: data-model/heuritech-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/packages/heuritech-packages.yml
   title: ''
   type: Packages
   url: packages/heuritech-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/llms/heuritech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/heuritech-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/overlays/heuritech-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/heuritech-content-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -233,6 +276,48 @@ scopes:
   scope_count: 1
   slug: heuritech-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 28.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 13.1
+    developer_ergonomics: 16.1
+    discoverability: 64.8
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 28.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/screenshots/heuritech-2026-09-02T145723.png
 security:
 - kind: authentication

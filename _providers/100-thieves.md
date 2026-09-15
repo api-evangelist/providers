@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: true
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -32,6 +57,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/security/100-thieves-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/100-thieves-domain-security.yml
@@ -44,50 +70,62 @@ common:
   type: Documentation
   url: https://100thieves.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/llms/100-thieves-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/100-thieves-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/well-known/100-thieves-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/100-thieves-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/authentication/100-thieves-authentication.yml
   title: ''
   type: Authentication
   url: authentication/100-thieves-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/scopes/100-thieves-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/100-thieves-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/well-known/100-thieves-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/100-thieves-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/conventions/100-thieves-conventions.yml
   title: ''
   type: Conventions
   url: conventions/100-thieves-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/conformance/100-thieves-conformance.yml
   title: ''
   type: Conformance
   url: conformance/100-thieves-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/errors/100-thieves-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/100-thieves-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/lifecycle/100-thieves-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/100-thieves-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/data-model/100-thieves-data-model.yml
   title: ''
   type: DataModel
   url: data-model/100-thieves-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/agentic-access/100-thieves-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/100-thieves-agentic-access.yml
@@ -133,6 +171,42 @@ scopes:
   scope_count: 4
   slug: 100-thieves-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 33.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 41.5
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 33.6
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/100-thieves/refs/heads/main/screenshots/100-thieves-2026-08-07T160646.png
 security:
 - kind: authentication

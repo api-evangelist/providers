@@ -9,6 +9,31 @@ access_model:
   - review
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,46 +98,57 @@ collections:
   slug: open-energyaustralia-cds-energy-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/skills/energyaustralia-compare-energy-plans.md
   title: ''
   type: AgentSkill
   url: skills/energyaustralia-compare-energy-plans.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/skills/energyaustralia-check-status-and-outages.md
   title: ''
   type: AgentSkill
   url: skills/energyaustralia-check-status-and-outages.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/skills/energyaustralia-consumer-data-sharing.md
   title: ''
   type: AgentSkill
   url: skills/energyaustralia-consumer-data-sharing.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/skills/energyaustralia-usage-and-der.md
   title: ''
   type: AgentSkill
   url: skills/energyaustralia-usage-and-der.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/agentic-access/energyaustralia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/energyaustralia-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/security/energyaustralia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/energyaustralia-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/authentication/energyaustralia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/energyaustralia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/scopes/energyaustralia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/energyaustralia-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/conventions/energyaustralia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/energyaustralia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/errors/energyaustralia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/energyaustralia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/lifecycle/energyaustralia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/energyaustralia-lifecycle.yml
@@ -125,38 +161,47 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#future-dated-obligations
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/changelog/energyaustralia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/energyaustralia-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/conformance/energyaustralia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/energyaustralia-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/data-model/energyaustralia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/energyaustralia-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/packages/energyaustralia-packages.yml
   title: ''
   type: Packages
   url: packages/energyaustralia-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/overlays/energyaustralia-cds-energy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/energyaustralia-cds-energy-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/overlays/energyaustralia-cds-common-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/energyaustralia-cds-common-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/mcp/energyaustralia-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/energyaustralia-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/llms/energyaustralia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/energyaustralia-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -226,6 +271,54 @@ scopes:
   scope_count: 12
   slug: energyaustralia-scopes
   summary_line: 12 scopes · authorizationCode
+score:
+  band: developing
+  composite: 39.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 22.4
+    contract_governance: 4.5
+    contract_quality: 49.7
+    developer_ergonomics: 32.7
+    discoverability: 72.2
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 39.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 51.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/screenshots/energyaustralia-2026-08-07T164911.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,10 +98,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/holiday-api/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/agentic-access/holidays-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/holidays-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/security/holidays-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/holidays-domain-security.yml
@@ -93,34 +120,42 @@ common:
   type: Documentation
   url: https://holidayapi.com/docs
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/_original/holidays-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/holidays-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/json-schema/holidays-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/holidays-response-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/json-structure/holidays-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/holidays-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/json-ld/holidays-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/holidays-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/rules/holidays-rules.yml
   title: ''
   type: SpectralRules
   url: rules/holidays-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/vocabulary/holidays-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/holidays-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/plans/holidays-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/holidays-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/rate-limits/holidays-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/holidays-rate-limits.yml
@@ -153,6 +188,7 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/examples/holidays-error-example.json
   title: ''
   type: Examples
   url: examples/holidays-error-example.json
@@ -314,6 +350,39 @@ rules:
     info: 0
     warn: 7
   slug: holidays-rules
+score:
+  band: developing
+  composite: 50.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 90.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 24.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 28.8
+    contract_quality: 65.3
+    developer_ergonomics: 36.9
+    discoverability: 68.5
+    operational_transparency: 23.7
+  previous_composite: 50.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/screenshots/holidays-2026-06-20T182809.png
 security:
 - kind: domain-security

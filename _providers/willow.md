@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Willow's storefront agent surface — a JSON-RPC 2.0 Model Context Protocol endpoint implementing the Universal Commerce Protocol 2026-08-25 shopping service. tools/list answers unauthenticated and retu
@@ -7,6 +32,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/security/willow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/willow-domain-security.yml
@@ -19,58 +45,72 @@ common:
   type: Documentation
   url: https://onewillow.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/llms/willow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/willow-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/mcp/willow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/willow-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/well-known/willow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/willow-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/authentication/willow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/willow-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/scopes/willow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/willow-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/conventions/willow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/willow-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/conventions/willow-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/willow-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/errors/willow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/willow-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/conformance/willow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/willow-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/lifecycle/willow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/willow-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/data-model/willow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/willow-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/rate-limits/willow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/willow-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/willow/refs/heads/main/plans/willow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/willow-plans-pricing.yml
@@ -128,6 +168,42 @@ scopes:
   scope_count: 0
   slug: willow-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 27.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 27.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Willow Authentication
@@ -144,7 +220,7 @@ tags:
 - Breast Pumps
 - Maternal Health
 - Medical Devices
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - MCP
 - UCP

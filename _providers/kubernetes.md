@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bound
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -164,66 +189,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/kubernetes/overview
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/packages/kubernetes-packages.yml
   title: ''
   type: Packages
   url: packages/kubernetes-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/well-known/kubernetes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kubernetes-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/mcp/kubernetes-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kubernetes-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/llms/kubernetes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kubernetes-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/overlays/kubernetes-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kubernetes-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/conformance/kubernetes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kubernetes-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/errors/kubernetes-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kubernetes-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/lifecycle/kubernetes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kubernetes-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/conventions/kubernetes-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kubernetes-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/changelog/kubernetes-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kubernetes-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/cli/kubernetes-cli.yml
   title: ''
   type: CLI
   url: cli/kubernetes-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/data-model/kubernetes-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kubernetes-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/agentic-access/kubernetes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kubernetes-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/security/kubernetes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kubernetes-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/security/kubernetes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kubernetes-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/authentication/kubernetes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kubernetes-authentication.yml
@@ -348,74 +389,92 @@ common:
   type: DeprecationPolicy
   url: https://kubernetes.io/docs/reference/using-api/deprecation-policy/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/json-schema/kubernetes-resource-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/kubernetes-resource-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/json-ld/kubernetes-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kubernetes-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-deploy-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-deploy-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-scale-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-scale-deployment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-rolling-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-rolling-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-troubleshoot-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-troubleshoot-pod-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-restart-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-restart-pod-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-run-one-off-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-run-one-off-pod-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-teardown-namespace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-teardown-namespace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-autoscale-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-autoscale-deployment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-cluster-capacity-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-cluster-capacity-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-provision-cluster-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-provision-cluster-role-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-expose-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-expose-deployment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-rotate-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-rotate-secret-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-config-rollout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-config-rollout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-namespace-labeling-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-namespace-labeling-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-quarantine-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-quarantine-pod-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-retire-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-retire-application-workflow.yml
@@ -478,6 +537,40 @@ rules:
     info: 2
     warn: 4
   slug: kubernetes-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 50.4
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 75.8
+    developer_ergonomics: 56.0
+    discoverability: 68.5
+    operational_transparency: 47.4
+  previous_composite: 50.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:
 - kind: authentication

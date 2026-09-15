@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Web API (OpenAPI) exposing 100+ Meitu AI vision capabilities — image generation/editing, portrait beautification, face/body analysis, cutout, virtual try-on, and image/text-to-video — via an async sub
@@ -38,38 +63,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/meitu
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/packages/meitu-packages.yml
   title: ''
   type: Packages
   url: packages/meitu-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/packages/meitu-packages.yml
   title: ''
   type: SDKs
   url: packages/meitu-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/cli/meitu-cli.yml
   title: ''
   type: CLI
   url: cli/meitu-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/authentication/meitu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meitu-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/conventions/meitu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meitu-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/lifecycle/meitu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meitu-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/mcp/meitu-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/meitu-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/llms/meitu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meitu-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/security/meitu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meitu-domain-security.yml
@@ -86,6 +120,34 @@ overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Meitu''s developer surface includes documentation, API reference, CLI, authentication, and 10 more developer resources.'
 random_paper: 2
+score:
+  band: emerging
+  composite: 15.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 39.3
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 15.8
+  provenance:
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/screenshots/meitu-2026-08-07T172444.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.hevyapp.com
@@ -52,6 +77,7 @@ apis:
 artifact_total: 11
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/overlays/hevy-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hevy-public-api-overlay.yaml
@@ -116,54 +142,67 @@ common:
   type: ChangeLog
   url: https://www.hevyapp.com/community-updates/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/changelog/hevy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hevy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/lifecycle/hevy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hevy-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/authentication/hevy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hevy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/conventions/hevy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hevy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/errors/hevy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hevy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/data-model/hevy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hevy-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/conformance/hevy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hevy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/security/hevy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hevy-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/packages/hevy-packages.yml
   title: ''
   type: Packages
   url: packages/hevy-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/rate-limits/hevy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hevy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/plans/hevy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hevy-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/llms/hevy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hevy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -188,6 +227,46 @@ rate_limits:
 - limit_count: 0
   name: Hevy Rate Limits
   slug: hevy-rate-limits
+score:
+  band: developing
+  composite: 50.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 4.5
+    contract_quality: 45.9
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 50.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 57.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 47.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/screenshots/hevy-2026-09-02T145726.png
 security:
 - kind: authentication

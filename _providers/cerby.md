@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The public Cerby REST API. Programmatic access to accounts, secrets, collections, users, teams, integrations, jobs, and vaults in a Cerby workspace. Requests are authenticated with a scoped API key se
@@ -29,6 +54,7 @@ asyncapis:
   slug: cerby-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/security/cerby-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cerby-domain-security.yml
@@ -73,62 +99,77 @@ common:
   type: StatusPage
   url: https://status.cerby.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/changelog/cerby-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cerby-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/cli/cerby-cli.yml
   title: ''
   type: CLI
   url: cli/cerby-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/llms/cerby-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cerby-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/lifecycle/cerby-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cerby-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/conformance/cerby-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cerby-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/packages/cerby-packages.yml
   title: ''
   type: Packages
   url: packages/cerby-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/security/cerby-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cerby-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/security/cerby-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cerby-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/authentication/cerby-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cerby-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/scopes/cerby-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cerby-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/conventions/cerby-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cerby-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/conventions/cerby-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cerby-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/errors/cerby-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cerby-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/asyncapi/cerby-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cerby-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/data-model/cerby-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cerby-data-model.yml
@@ -157,6 +198,34 @@ scopes:
   scope_count: 17
   slug: cerby-scopes
   summary_line: 17 scopes
+score:
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 60.7
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 44.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerby/refs/heads/main/screenshots/cerby-2026-08-17T083439.png
 security:
 - kind: authentication

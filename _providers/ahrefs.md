@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.8
+  scored_at: '2026-09-14'
 api_count: 15
 apis:
 - description: Ahrefs' hosted, remote Model Context Protocol server, which lets AI agents query the Ahrefs API on behalf of a signed-in Ahrefs account. Streamable HTTP transport, OAuth 2.0 with PKCE (scope apiv3-mcp
@@ -272,10 +298,12 @@ collections:
   slug: open-ahrefs-web-analytics
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/capabilities/ahrefs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ahrefs-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/overlays/ahrefs-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ahrefs-api-v3-overlay.yaml
@@ -328,42 +356,52 @@ common:
   type: PrivacyPolicy
   url: https://ahrefs.com/privacy-policy
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/changelog/ahrefs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ahrefs-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/authentication/ahrefs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ahrefs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/scopes/ahrefs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ahrefs-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/rate-limits/ahrefs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ahrefs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/plans/ahrefs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ahrefs-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/packages/ahrefs-packages.yml
   title: ''
   type: Packages
   url: packages/ahrefs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/packages/ahrefs-packages.yml
   title: ''
   type: SDKs
   url: packages/ahrefs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/well-known/ahrefs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ahrefs-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/llms/ahrefs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ahrefs-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/conformance/ahrefs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ahrefs-conformance.yml
@@ -372,14 +410,17 @@ common:
   type: Compliance
   url: https://trust.ahrefs.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/security/ahrefs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ahrefs-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/security/ahrefs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ahrefs-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/lifecycle/ahrefs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ahrefs-lifecycle.yml
@@ -388,18 +429,22 @@ common:
   type: Deprecation
   url: https://docs.ahrefs.com/ahrefs-connect/docs/legacy-developers
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/conventions/ahrefs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ahrefs-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/sandbox/ahrefs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ahrefs-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/components/ahrefs-components.yml
   title: ''
   type: Components
   url: components/ahrefs-components.yml
@@ -433,6 +478,40 @@ scopes:
   scope_count: 2
   slug: ahrefs-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 62.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 55.1
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 47.4
+  previous_composite: 62.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -130,10 +155,12 @@ collections:
   slug: open-tradeverifyd-verifiable-credentials-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/capabilities/tradeverifyd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tradeverifyd-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/overlays/tradeverifyd-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tradeverifyd-openapi-overlay.yaml
@@ -182,66 +209,82 @@ common:
   type: PrivacyPolicy
   url: https://tradeverifyd.com/privacy-policy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/postman/tradeverifyd-shipments-cbp-postman-collection.json
   title: ''
   type: Postman
   url: postman/tradeverifyd-shipments-cbp-postman-collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/examples/tradeverifyd-entities-by-flag-type-guide.md
   title: ''
   type: Examples
   url: examples/tradeverifyd-entities-by-flag-type-guide.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/authentication/tradeverifyd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tradeverifyd-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/security/tradeverifyd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tradeverifyd-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/security/tradeverifyd-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tradeverifyd-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/agentic-access/tradeverifyd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tradeverifyd-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/lifecycle/tradeverifyd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tradeverifyd-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/conventions/tradeverifyd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tradeverifyd-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/errors/tradeverifyd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tradeverifyd-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/conformance/tradeverifyd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tradeverifyd-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/data-model/tradeverifyd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tradeverifyd-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/mcp/tradeverifyd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tradeverifyd-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/llms/tradeverifyd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tradeverifyd-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/well-known/tradeverifyd-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tradeverifyd-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/openapi/_original/tradeverifyd-transparency-service-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/tradeverifyd-transparency-service-openapi.yaml
@@ -258,6 +301,41 @@ overview: 'Tradeverifyd publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
   Tradeverifyd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, authentication, and 22 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 40.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 4.5
+    contract_quality: 64.0
+    developer_ergonomics: 38.7
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 40.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/screenshots/tradeverifyd-2026-08-17T082420.png
 security:
 - kind: authentication

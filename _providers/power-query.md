@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.7
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: API and language reference for the M formula language used in Power Query for data transformation expressions and custom functions.
@@ -35,6 +60,7 @@ common:
   type: Website
   url: https://powerquery.microsoft.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/security/power-query-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/power-query-vulnerability-disclosure.yml
@@ -59,6 +85,7 @@ common:
   type: License
   url: https://github.com/Microsoft/DataConnectors/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/security/power-query-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/power-query-domain-security.yml
@@ -131,118 +158,147 @@ common:
   type: Roadmap
   url: https://roadmap.fabric.microsoft.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-fabric-dataflow-swagger.json
   title: ''
   type: OpenAPI
   url: openapi/power-query-fabric-dataflow-swagger.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/examples/fabric-dataflow/
   title: ''
   type: Examples
   url: examples/fabric-dataflow/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/overlays/power-query-fabric-dataflow-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/power-query-fabric-dataflow-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/packages/power-query-packages.yml
   title: ''
   type: Packages
   url: packages/power-query-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/packages/power-query-packages.yml
   title: ''
   type: SDKs
   url: packages/power-query-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/cli/power-query-cli.yml
   title: ''
   type: CLI
   url: cli/power-query-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/well-known/power-query-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/power-query-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/well-known/power-query-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/power-query-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/mcp/power-query-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/power-query-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/mcp/power-query-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/power-query-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/llms/power-query-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/power-query-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/authentication/power-query-authentication.yml
   title: ''
   type: Authentication
   url: authentication/power-query-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/scopes/power-query-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/power-query-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/conventions/power-query-conventions.yml
   title: ''
   type: Conventions
   url: conventions/power-query-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/errors/power-query-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/power-query-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/data-model/power-query-data-model.yml
   title: ''
   type: DataModel
   url: data-model/power-query-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/lifecycle/power-query-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/power-query-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/lifecycle/power-query-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/power-query-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/conformance/power-query-conformance.yml
   title: ''
   type: Conformance
   url: conformance/power-query-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/conformance/power-query-conformance.yml
   title: ''
   type: Compliance
   url: conformance/power-query-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/security/power-query-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/power-query-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/security/power-query-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/power-query-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/sandbox/power-query-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/power-query-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/plans/power-query-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/power-query-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/rate-limits/power-query-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/power-query-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/finops/power-query-finops.yml
   title: ''
   type: FinOps
   url: finops/power-query-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/vocabulary/power-query-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/power-query-vocabulary.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/changelog/power-query-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/power-query-changelog.yml
@@ -312,6 +368,49 @@ scopes:
   scope_count: 0
   slug: power-query-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 80.0
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 83.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 32.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 19.7
+    contract_quality: 54.9
+    developer_ergonomics: 80.4
+    discoverability: 88.9
+    operational_transparency: 89.5
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 80.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 33.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 71.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/screenshots/power-query-2026-06-20T192025.png
 security:
 - kind: authentication

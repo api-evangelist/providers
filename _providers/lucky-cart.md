@@ -10,6 +10,31 @@ access_model:
   - https://github.com/lucky-cart/luckycart-js-sdk#initialization
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: 'The core Lucky Cart API. POST /cart/ticket submits a validated shopping cart — cart identifier, shopper identifier, gross and net amounts, and product lines — and Lucky Cart determines whether a game '
@@ -33,6 +58,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/security/lucky-cart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lucky-cart-domain-security.yml
@@ -69,26 +95,32 @@ common:
   type: Login
   url: https://app.luckycart.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/packages/lucky-cart-packages.yml
   title: ''
   type: Packages
   url: packages/lucky-cart-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/packages/lucky-cart-packages.yml
   title: ''
   type: SDKs
   url: packages/lucky-cart-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/authentication/lucky-cart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lucky-cart-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/conventions/lucky-cart-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lucky-cart-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/components/lucky-cart-components.yml
   title: ''
   type: Components
   url: components/lucky-cart-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/conformance/lucky-cart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lucky-cart-conformance.yml
@@ -97,18 +129,22 @@ common:
   type: Compliance
   url: https://www.luckycart.com/en/certifications
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/lifecycle/lucky-cart-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lucky-cart-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/plans/lucky-cart-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lucky-cart-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/rate-limits/lucky-cart-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lucky-cart-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/llms/lucky-cart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lucky-cart-llms.txt
@@ -133,6 +169,42 @@ rate_limits:
 - limit_count: 0
   name: Lucky Cart Rate Limits
   slug: lucky-cart-rate-limits
+score:
+  band: emerging
+  composite: 24.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 74.1
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 24.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucky-cart/refs/heads/main/screenshots/lucky-cart-2026-07-25T225646.png
 security:
 - kind: authentication

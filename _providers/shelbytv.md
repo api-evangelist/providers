@@ -12,14 +12,17 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shelbytv/refs/heads/main/security/shelbytv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shelbytv-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shelbytv/refs/heads/main/well-known/shelbytv-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shelbytv-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shelbytv/refs/heads/main/well-known/shelbytv-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/shelbytv-security.txt

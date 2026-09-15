@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.5
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - description: The EoX API returns Cisco end-of-life and end-of-support milestones for hardware and software, queried by product ID, serial number, software release string, or a date range across all products. It is
@@ -46,10 +71,12 @@ common:
   type: Website
   url: https://www.cisco.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/security/cisco-support-apis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-support-apis-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/security/cisco-support-apis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-support-apis-domain-security.yml
@@ -110,74 +137,92 @@ common:
   type: TrustCenter
   url: https://trustportal.cisco.com/c/r/ctp/trust-portal.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/security/cisco-support-apis-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cisco-support-apis-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/well-known/cisco-support-apis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cisco-support-apis-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/well-known/cisco-support-apis-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cisco-support-apis-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/authentication/cisco-support-apis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-support-apis-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/errors/cisco-support-apis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cisco-support-apis-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/conventions/cisco-support-apis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cisco-support-apis-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/rate-limits/cisco-support-apis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-support-apis-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/plans/cisco-support-apis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-support-apis-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/changelog/cisco-support-apis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cisco-support-apis-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/lifecycle/cisco-support-apis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cisco-support-apis-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/packages/cisco-support-apis-packages.yml
   title: ''
   type: Packages
   url: packages/cisco-support-apis-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/conformance/cisco-support-apis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cisco-support-apis-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/data-model/cisco-support-apis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cisco-support-apis-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/llms/cisco-support-apis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cisco-support-apis-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/postman/cisco-support-apis-postman.yml
   title: ''
   type: PostmanCollection
   url: postman/cisco-support-apis-postman.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/contracts/cisco-support-apis-published-contracts.yml
   title: ''
   type: x-ContractAvailability
   url: contracts/cisco-support-apis-published-contracts.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/sandbox/cisco-support-apis-sandbox.yml
   title: ''
   type: x-SandboxAbsence
   url: sandbox/cisco-support-apis-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/security/cisco-support-apis-trust-center.yml
   title: ''
   type: x-TrustCenterProbe
   url: security/cisco-support-apis-trust-center.yml
@@ -202,6 +247,35 @@ rate_limits:
 - limit_count: 0
   name: Cisco Support Apis Rate Limits
   slug: cisco-support-apis-rate-limits
+score:
+  band: thin
+  composite: 33.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 74.1
+    operational_transparency: 36.8
+  previous_composite: 33.1
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/screenshots/cisco-support-apis-2026-09-02T145048.png
 security:
 - kind: authentication

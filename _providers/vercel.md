@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -129,66 +154,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/vercel/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/agentic-access/vercel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vercel-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/security/vercel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vercel-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/security/vercel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vercel-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/security/vercel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vercel-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/authentication/vercel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vercel-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-chat-completion-with-fallback-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-chat-completion-with-fallback-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-cost-routed-conversation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-cost-routed-conversation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-discover-model-then-complete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-discover-model-then-complete-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-discover-model-then-embed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-discover-model-then-embed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-embed-then-summarize-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-embed-then-summarize-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-generate-app-then-explain-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-generate-app-then-explain-code-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-generate-app-then-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-generate-app-then-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-generate-then-refine-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-generate-then-refine-app-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-iterative-app-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-iterative-app-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-prompt-with-gateway-then-build-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-prompt-with-gateway-then-build-app-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/arazzo/vercel-resume-and-refine-chat-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/vercel-resume-and-refine-chat-workflow.yml
@@ -364,7 +405,7 @@ modified: '2026-05-30'
 name: Vercel
 nav: Providers
 network: true
-overview: 'Vercel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Chat API, Chats API, and 2 more. Tagged areas include AI Gateways, Developer Tools, Gateways, Observability, and Webhook.
+overview: 'Vercel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Chat API, Chats API, and 2 more. Tagged areas include AI Gateways, Gateways, Observability, and Webhook.
 
 
   The Vercel catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -413,6 +454,39 @@ rules:
     info: 0
     warn: 6
   slug: vercel-rules
+score:
+  band: strong
+  composite: 56.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 48.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 13.6
+    contract_quality: 68.2
+    developer_ergonomics: 63.1
+    discoverability: 50.0
+    operational_transparency: 52.6
+  previous_composite: 56.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:
 - kind: authentication
@@ -434,7 +508,6 @@ security:
 slug: vercel
 tags:
 - AI Gateways
-- Developer Tools
 - Gateways
 - Observability
 - Webhook

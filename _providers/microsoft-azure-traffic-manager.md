@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -96,6 +121,7 @@ collections:
   slug: open-microsoft-azure-traffic-manager
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/capabilities/microsoft-azure-traffic-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-traffic-manager-capability-edges.yml
@@ -104,18 +130,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-traffic-manager/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/agentic-access/microsoft-azure-traffic-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-traffic-manager-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/security/microsoft-azure-traffic-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-traffic-manager-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/authentication/microsoft-azure-traffic-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-traffic-manager-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/scopes/microsoft-azure-traffic-manager-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-traffic-manager-scopes.yml
@@ -265,6 +295,38 @@ scopes:
   scope_count: 1
   slug: microsoft-azure-traffic-manager-scopes
   summary_line: 1 scope · implicit
+score:
+  band: developing
+  composite: 51.3
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 46.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 0.0
+    contract_quality: 48.0
+    developer_ergonomics: 63.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 51.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/screenshots/microsoft-azure-traffic-manager-2026-06-20T185440.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -239,10 +264,12 @@ common:
   type: License
   url: https://github.com/WhatsApp/WhatsApp-Flows-Tools/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/agentic-access/whatsapp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/whatsapp-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/authentication/whatsapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whatsapp-authentication.yml
@@ -251,58 +278,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/whatsapp/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-create-qr-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-create-qr-code-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-create-template-then-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-create-template-then-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-publish-flow-and-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-publish-flow-and-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-register-phone-number-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-register-phone-number-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-and-react-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-and-react-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-interactive-buttons-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-interactive-buttons-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-location-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-location-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-template-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-template-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-text-and-mark-read-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-text-and-mark-read-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-subscribe-webhooks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-subscribe-webhooks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-update-business-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-update-business-profile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-update-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-update-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-upload-media-send-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-upload-media-send-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-upload-media-send-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-upload-media-send-image-workflow.yml
@@ -379,10 +420,12 @@ common:
   type: Pricing
   url: https://business.whatsapp.com/products/platform-pricing
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/json-ld/whatsapp-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/whatsapp-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/json-schema/whatsapp-webhook-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/whatsapp-webhook-payload-schema.json
@@ -842,6 +885,44 @@ rules:
     info: 1
     warn: 8
   slug: whatsapp-spectral-rules
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 52.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 13.6
+    contract_quality: 77.2
+    developer_ergonomics: 76.2
+    discoverability: 35.2
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
 security:
 - kind: authentication

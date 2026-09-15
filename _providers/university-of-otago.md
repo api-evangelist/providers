@@ -9,6 +9,31 @@ access_model:
   - probed
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.3
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The University's AI guidance site runs on WordPress that Otago self-hosts on its own domain behind Cloudflare, and it exposes the full WordPress REST API without credentials. Confirmed live 2026-08-30
@@ -73,46 +98,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-otago/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/conformance/university-of-otago-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/university-of-otago-education-standards.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/authentication/university-of-otago-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-otago-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/vocabulary/university-of-otago-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-otago-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/examples/university-of-otago-examples.yml
   title: ''
   type: Examples
   url: examples/university-of-otago-examples.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/security/university-of-otago-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-otago-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/plans/university-of-otago-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-otago-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/rate-limits/university-of-otago-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-otago-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/finops/university-of-otago-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-otago-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/json-ld/university-of-otago-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-otago-context.jsonld
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/blogs/blogs.json
   title: ''
   type: Blog
   url: blogs/blogs.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -157,6 +193,45 @@ rate_limits:
 - limit_count: 1
   name: University Of Otago Rate Limits
   slug: university-of-otago-rate-limits
+score:
+  band: thin
+  composite: 29.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 68.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 3.8
+    contract_quality: 20.5
+    developer_ergonomics: 35.7
+    discoverability: 74.1
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 29.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-otago/refs/heads/main/screenshots/university-of-otago-2026-06-20T200216.png
 security:
 - kind: authentication

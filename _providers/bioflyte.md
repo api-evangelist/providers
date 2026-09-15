@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -196,18 +221,22 @@ collections:
   slug: open-bioflyte-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/overlays/bioflyte-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bioflyte-content-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/security/bioflyte-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bioflyte-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/agentic-access/bioflyte-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bioflyte-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/authentication/bioflyte-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bioflyte-authentication.yml
@@ -272,38 +301,47 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCyQX9veCJkSi6pIgQ9dA1PQ
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/packages/bioflyte-packages.yml
   title: ''
   type: Packages
   url: packages/bioflyte-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/llms/bioflyte-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bioflyte-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/well-known/bioflyte-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bioflyte-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/conventions/bioflyte-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bioflyte-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/conformance/bioflyte-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bioflyte-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/lifecycle/bioflyte-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bioflyte-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/mcp/bioflyte-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bioflyte-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/mcp/bioflyte-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/bioflyte-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -324,6 +362,41 @@ overview: 'BioFlyte publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
   BioFlyte''s developer surface includes authentication, engineering blog, product news, YouTube channel, and 24 more developer resources.'
 random_paper: 1
+score:
+  band: emerging
+  composite: 25.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 38.6
+    developer_ergonomics: 16.1
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 25.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 57.1
+      total: 21
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:
 - kind: authentication

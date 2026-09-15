@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://developer.bitpanda.com
@@ -51,10 +76,12 @@ collections:
   slug: open-bitpanda-wallets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/overlays/bitpanda-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bitpanda-platform-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/security/bitpanda-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bitpanda-trust-center.yml
@@ -119,58 +146,72 @@ common:
   type: StatusPage
   url: https://status.bitpanda.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/lifecycle/bitpanda-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bitpanda-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/lifecycle/bitpanda-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitpanda-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/mcp/bitpanda-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bitpanda-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/cli/bitpanda-cli.yml
   title: ''
   type: CLI
   url: cli/bitpanda-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/packages/bitpanda-packages.yml
   title: ''
   type: Packages
   url: packages/bitpanda-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/authentication/bitpanda-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitpanda-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/conventions/bitpanda-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitpanda-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/errors/bitpanda-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bitpanda-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/data-model/bitpanda-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitpanda-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/conformance/bitpanda-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitpanda-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/security/bitpanda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitpanda-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/well-known/bitpanda-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bitpanda-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/llms/bitpanda-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitpanda-llms.txt
@@ -191,6 +232,51 @@ overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
   Bitpanda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 48.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 57.1
+    developer_ergonomics: 33.3
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 48.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:
 - kind: authentication

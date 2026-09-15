@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The CBS Sports Fantasy Platform REST API, version 3.0. Opened to third-party developers in January 2012 so apps could read league, team, player, draft, transaction and scoring data out of CBS Sports f
@@ -19,50 +44,62 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/security/cbs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cbs-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/well-known/cbs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cbs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/authentication/cbs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cbs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/conformance/cbs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cbs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/conventions/cbs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cbs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/errors/cbs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cbs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/lifecycle/cbs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cbs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/data-model/cbs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cbs-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/packages/cbs-packages.yml
   title: ''
   type: Packages
   url: packages/cbs-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/plans/cbs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cbs-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/rate-limits/cbs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cbs-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/llms/cbs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cbs-llms.txt
@@ -179,6 +216,35 @@ rate_limits:
 - limit_count: 0
   name: Cbs Rate Limits
   slug: cbs-rate-limits
+score:
+  band: emerging
+  composite: 21.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 21.9
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cbs/refs/heads/main/screenshots/cbs-2026-06-20T174059.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -120,6 +145,7 @@ collections:
   slug: open-github-copilot
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/capabilities/github-copilot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/github-copilot-capability-edges.yml
@@ -148,78 +174,97 @@ common:
   type: License
   url: https://github.com/github/github-mcp-server/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/agentic-access/github-copilot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/github-copilot-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/authentication/github-copilot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/github-copilot-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/scopes/github-copilot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/github-copilot-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/packages/github-copilot-packages.yml
   title: ''
   type: Packages
   url: packages/github-copilot-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/well-known/github-copilot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/github-copilot-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/well-known/github-copilot-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/github-copilot-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/mcp/github-copilot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/github-copilot-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/llms/github-copilot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/github-copilot-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/overlays/github-copilot-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/github-copilot-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/conformance/github-copilot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/github-copilot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/errors/github-copilot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/github-copilot-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/lifecycle/github-copilot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/github-copilot-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/conventions/github-copilot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/github-copilot-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/changelog/github-copilot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/github-copilot-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/cli/github-copilot-cli.yml
   title: ''
   type: CLI
   url: cli/github-copilot-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/data-model/github-copilot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/github-copilot-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/security/github-copilot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/github-copilot-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/security/github-copilot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/github-copilot-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/security/github-copilot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/github-copilot-trust-center.yml
@@ -228,30 +273,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/github-copilot/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/arazzo/github-copilot-audit-seats-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-copilot-audit-seats-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/arazzo/github-copilot-deprovision-users-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-copilot-deprovision-users-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/arazzo/github-copilot-enterprise-metrics-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-copilot-enterprise-metrics-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/arazzo/github-copilot-org-metrics-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-copilot-org-metrics-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/arazzo/github-copilot-provision-teams-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-copilot-provision-teams-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/arazzo/github-copilot-provision-users-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-copilot-provision-users-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/arazzo/github-copilot-team-metrics-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/github-copilot-team-metrics-report-workflow.yml
@@ -822,6 +874,43 @@ scopes:
   scope_count: 5
   slug: github-copilot-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: strong
+  composite: 64.1
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 60.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 73.8
+    developer_ergonomics: 65.5
+    discoverability: 66.7
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:
 - kind: authentication

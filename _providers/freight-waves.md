@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -101,66 +127,82 @@ common:
   type: PrivacyPolicy
   url: https://firecrown.com/privacy-policy/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/_original/freight-waves-sonar-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/freight-waves-sonar-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/overlays/freight-waves-sonar-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/freight-waves-sonar-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/mcp/freight-waves-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/freight-waves-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/well-known/freight-waves-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/freight-waves-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/llms/freight-waves-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/freight-waves-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/authentication/freight-waves-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freight-waves-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/scopes/freight-waves-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/freight-waves-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/conventions/freight-waves-conventions.yml
   title: ''
   type: Conventions
   url: conventions/freight-waves-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/rate-limits/freight-waves-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freight-waves-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/errors/freight-waves-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/freight-waves-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/lifecycle/freight-waves-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/freight-waves-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/conformance/freight-waves-conformance.yml
   title: ''
   type: Conformance
   url: conformance/freight-waves-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/security/freight-waves-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freight-waves-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/data-model/freight-waves-data-model.yml
   title: ''
   type: DataModel
   url: data-model/freight-waves-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/agentic-access/freight-waves-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/freight-waves-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -190,6 +232,47 @@ scopes:
   scope_count: 1
   slug: freight-waves-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 14.5
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 23.7
+  previous_composite: 38.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 58.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/screenshots/freight-waves-2026-07-25T215152.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -317,26 +342,32 @@ collections:
   slug: open-ripple-labs-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/capabilities/ripple-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ripple-labs-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/security/ripple-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ripple-labs-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/security/ripple-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ripple-labs-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/agentic-access/ripple-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ripple-labs-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/scopes/ripple-labs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ripple-labs-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/authentication/ripple-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ripple-labs-authentication.yml
@@ -385,34 +416,42 @@ common:
   type: Compliance
   url: https://ripple.com/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/conformance/ripple-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ripple-labs-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/packages/ripple-labs-packages.yml
   title: ''
   type: Packages
   url: packages/ripple-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/packages/ripple-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/ripple-labs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/well-known/ripple-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ripple-labs-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/mcp/ripple-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ripple-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/llms/ripple-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ripple-labs-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/errors/ripple-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ripple-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/lifecycle/ripple-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ripple-labs-lifecycle.yml
@@ -421,50 +460,62 @@ common:
   type: Deprecation
   url: https://docs.ripple.com/products/stablecoin/api/change-history
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/sandbox/ripple-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ripple-labs-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/conventions/ripple-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ripple-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/conventions/ripple-labs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ripple-labs-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/changelog/ripple-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ripple-labs-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/data-model/ripple-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ripple-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/asyncapi/ripple-labs-stablecoin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ripple-labs-stablecoin-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/overlays/ripple-labs-rlusd-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripple-labs-rlusd-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/overlays/ripple-labs-ripplenet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripple-labs-ripplenet-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/overlays/ripple-labs-report-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripple-labs-report-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/overlays/ripple-labs-smart-liquidation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripple-labs-smart-liquidation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/overlays/ripple-labs-palisade-wallet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripple-labs-palisade-wallet-overlay.yaml
@@ -493,6 +544,47 @@ scopes:
   scope_count: 2
   slug: ripple-labs-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 30.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 65.2
+    developer_ergonomics: 73.2
+    discoverability: 63.0
+    operational_transparency: 34.2
+  previous_composite: 57.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/screenshots/ripple-labs-2026-08-17T081609.png
 security:
 - kind: authentication

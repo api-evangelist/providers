@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'VIA''s OpenID Connect / OAuth 2.0 identity layer, operated on a VIA-run Keycloak server. It is the only machine-readable contract VIA publishes: each product realm serves an anonymous OIDC discovery do'
@@ -7,6 +32,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/security/via-science-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/via-science-domain-security.yml
@@ -63,50 +89,62 @@ common:
   type: Pricing
   url: https://aws.amazon.com/marketplace/pp/prodview-4occdwn5sc7w4
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/sandbox/via-science-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/via-science-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/authentication/via-science-authentication.yml
   title: ''
   type: Authentication
   url: authentication/via-science-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/scopes/via-science-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/via-science-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/well-known/via-science-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/via-science-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/conformance/via-science-conformance.yml
   title: ''
   type: Conformance
   url: conformance/via-science-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/lifecycle/via-science-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/via-science-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/conventions/via-science-conventions.yml
   title: ''
   type: Conventions
   url: conventions/via-science-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/components/via-science-components.yml
   title: ''
   type: Components
   url: components/via-science-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/packages/via-science-packages.yml
   title: ''
   type: Packages
   url: packages/via-science-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/plans/via-science-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/via-science-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/rate-limits/via-science-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/via-science-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/llms/via-science-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/via-science-llms.txt
@@ -137,6 +175,35 @@ scopes:
   scope_count: 0
   slug: via-science-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 33.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 45.2
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 33.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Via Science Authentication

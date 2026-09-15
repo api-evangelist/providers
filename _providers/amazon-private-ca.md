@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -284,22 +309,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-private-ca/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/agentic-access/amazon-private-ca-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-private-ca-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/security/amazon-private-ca-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-private-ca-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/security/amazon-private-ca-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-private-ca-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/security/amazon-private-ca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-private-ca-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/authentication/amazon-private-ca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-private-ca-authentication.yml
@@ -344,858 +374,1072 @@ common:
   type: StatusPage
   url: https://health.aws.amazon.com/health/status
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/rules/amazon-private-ca-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-private-ca-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/vocabulary/amazon-private-ca-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-private-ca-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-ld/amazon-private-ca-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-private-ca-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-access-description-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-access-description-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-access-method-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-access-method-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-access-method-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-access-method-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-action-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-action-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-api-passthrough-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-api-passthrough-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-asn1subject-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-asn1subject-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-audit-report-response-format-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-audit-report-response-format-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-audit-report-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-audit-report-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-certificate-authority-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-certificate-authority-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-certificate-authority-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-certificate-authority-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-certificate-authority-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-certificate-authority-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-certificate-authority-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-certificate-authority-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-certificate-authority-usage-mode-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-certificate-authority-usage-mode-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-certificate-authority-audit-report-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-create-certificate-authority-audit-report-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-certificate-authority-audit-report-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-create-certificate-authority-audit-report-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-certificate-authority-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-create-certificate-authority-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-certificate-authority-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-create-certificate-authority-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-create-permission-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-create-permission-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-crl-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-crl-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-csr-extensions-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-csr-extensions-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-custom-attribute-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-custom-attribute-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-custom-extension-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-custom-extension-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-delete-certificate-authority-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-delete-certificate-authority-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-delete-permission-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-delete-permission-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-delete-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-delete-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-describe-certificate-authority-audit-report-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-describe-certificate-authority-audit-report-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-describe-certificate-authority-audit-report-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-describe-certificate-authority-audit-report-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-describe-certificate-authority-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-describe-certificate-authority-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-describe-certificate-authority-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-describe-certificate-authority-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-edi-party-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-edi-party-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-extended-key-usage-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-extended-key-usage-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-extended-key-usage-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-extended-key-usage-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-extensions-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-extensions-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-failure-reason-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-failure-reason-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-general-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-general-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-certificate-authority-certificate-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-certificate-authority-certificate-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-certificate-authority-certificate-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-certificate-authority-certificate-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-certificate-authority-csr-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-certificate-authority-csr-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-certificate-authority-csr-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-certificate-authority-csr-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-certificate-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-certificate-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-certificate-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-certificate-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-get-policy-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-get-policy-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-import-certificate-authority-certificate-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-import-certificate-authority-certificate-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-issue-certificate-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-issue-certificate-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-issue-certificate-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-issue-certificate-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-key-algorithm-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-key-algorithm-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-key-storage-security-standard-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-key-storage-security-standard-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-key-usage-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-key-usage-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-list-certificate-authorities-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-list-certificate-authorities-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-list-certificate-authorities-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-list-certificate-authorities-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-list-permissions-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-list-permissions-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-list-permissions-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-list-permissions-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-list-tags-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-list-tags-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-list-tags-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-list-tags-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-ocsp-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-ocsp-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-other-name-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-other-name-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-permission-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-permission-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-policy-information-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-policy-information-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-policy-qualifier-id-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-policy-qualifier-id-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-policy-qualifier-info-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-policy-qualifier-info-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-put-policy-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-put-policy-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-qualifier-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-qualifier-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-resource-owner-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-resource-owner-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-restore-certificate-authority-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-restore-certificate-authority-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-revocation-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-revocation-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-revocation-reason-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-revocation-reason-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-revoke-certificate-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-revoke-certificate-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-s3object-acl-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-s3object-acl-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-signing-algorithm-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-signing-algorithm-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-tag-certificate-authority-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-tag-certificate-authority-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-tag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-tag-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-untag-certificate-authority-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-untag-certificate-authority-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-update-certificate-authority-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-update-certificate-authority-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-validity-period-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-validity-period-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-schema/amazon-private-ca-validity-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-private-ca-validity-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-access-description-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-access-description-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-access-method-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-access-method-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-access-method-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-access-method-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-action-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-action-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-api-passthrough-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-api-passthrough-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-asn1subject-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-asn1subject-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-audit-report-response-format-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-audit-report-response-format-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-audit-report-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-audit-report-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-certificate-authority-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-certificate-authority-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-certificate-authority-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-certificate-authority-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-certificate-authority-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-certificate-authority-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-certificate-authority-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-certificate-authority-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-certificate-authority-usage-mode-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-certificate-authority-usage-mode-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-create-certificate-authority-audit-report-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-create-certificate-authority-audit-report-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-create-certificate-authority-audit-report-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-create-certificate-authority-audit-report-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-create-certificate-authority-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-create-certificate-authority-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-create-certificate-authority-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-create-certificate-authority-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-create-permission-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-create-permission-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-crl-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-crl-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-csr-extensions-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-csr-extensions-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-custom-attribute-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-custom-attribute-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-custom-extension-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-custom-extension-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-delete-certificate-authority-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-delete-certificate-authority-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-delete-permission-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-delete-permission-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-delete-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-delete-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-describe-certificate-authority-audit-report-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-describe-certificate-authority-audit-report-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-describe-certificate-authority-audit-report-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-describe-certificate-authority-audit-report-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-describe-certificate-authority-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-describe-certificate-authority-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-describe-certificate-authority-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-describe-certificate-authority-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-edi-party-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-edi-party-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-extended-key-usage-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-extended-key-usage-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-extended-key-usage-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-extended-key-usage-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-extensions-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-extensions-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-failure-reason-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-failure-reason-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-general-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-general-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-certificate-authority-certificate-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-certificate-authority-certificate-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-certificate-authority-certificate-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-certificate-authority-certificate-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-certificate-authority-csr-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-certificate-authority-csr-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-certificate-authority-csr-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-certificate-authority-csr-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-certificate-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-certificate-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-certificate-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-certificate-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-get-policy-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-get-policy-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-import-certificate-authority-certificate-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-import-certificate-authority-certificate-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-issue-certificate-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-issue-certificate-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-issue-certificate-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-issue-certificate-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-key-algorithm-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-key-algorithm-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-key-storage-security-standard-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-key-storage-security-standard-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-key-usage-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-key-usage-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-list-certificate-authorities-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-list-certificate-authorities-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-list-certificate-authorities-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-list-certificate-authorities-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-list-permissions-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-list-permissions-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-list-permissions-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-list-permissions-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-list-tags-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-list-tags-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-list-tags-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-list-tags-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-ocsp-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-ocsp-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-other-name-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-other-name-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-permission-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-permission-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-policy-information-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-policy-information-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-policy-qualifier-id-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-policy-qualifier-id-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-policy-qualifier-info-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-policy-qualifier-info-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-put-policy-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-put-policy-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-qualifier-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-qualifier-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-resource-owner-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-resource-owner-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-restore-certificate-authority-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-restore-certificate-authority-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-revocation-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-revocation-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-revocation-reason-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-revocation-reason-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-revoke-certificate-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-revoke-certificate-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-s3object-acl-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-s3object-acl-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-signing-algorithm-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-signing-algorithm-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-tag-certificate-authority-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-tag-certificate-authority-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-tag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-tag-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-untag-certificate-authority-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-untag-certificate-authority-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-update-certificate-authority-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-update-certificate-authority-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-validity-period-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-validity-period-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/json-structure/amazon-private-ca-validity-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-private-ca-validity-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-access-description-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-access-description-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-access-method-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-access-method-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-api-passthrough-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-api-passthrough-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-asn1subject-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-asn1subject-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-certificate-authority-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-certificate-authority-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-certificate-authority-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-certificate-authority-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-create-certificate-authority-audit-report-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-create-certificate-authority-audit-report-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-create-certificate-authority-audit-report-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-create-certificate-authority-audit-report-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-create-certificate-authority-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-create-certificate-authority-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-create-certificate-authority-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-create-certificate-authority-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-create-permission-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-create-permission-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-crl-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-crl-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-csr-extensions-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-csr-extensions-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-custom-attribute-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-custom-attribute-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-custom-extension-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-custom-extension-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-delete-certificate-authority-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-delete-certificate-authority-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-delete-permission-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-delete-permission-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-delete-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-delete-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-describe-certificate-authority-audit-report-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-describe-certificate-authority-audit-report-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-describe-certificate-authority-audit-report-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-describe-certificate-authority-audit-report-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-describe-certificate-authority-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-describe-certificate-authority-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-describe-certificate-authority-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-describe-certificate-authority-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-edi-party-name-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-edi-party-name-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-extended-key-usage-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-extended-key-usage-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-extensions-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-extensions-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-general-name-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-general-name-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-certificate-authority-certificate-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-certificate-authority-certificate-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-certificate-authority-certificate-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-certificate-authority-certificate-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-certificate-authority-csr-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-certificate-authority-csr-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-certificate-authority-csr-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-certificate-authority-csr-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-certificate-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-certificate-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-certificate-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-certificate-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-get-policy-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-get-policy-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-import-certificate-authority-certificate-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-import-certificate-authority-certificate-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-issue-certificate-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-issue-certificate-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-issue-certificate-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-issue-certificate-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-key-usage-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-key-usage-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-list-certificate-authorities-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-list-certificate-authorities-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-list-certificate-authorities-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-list-certificate-authorities-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-list-permissions-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-list-permissions-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-list-permissions-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-list-permissions-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-list-tags-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-list-tags-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-list-tags-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-list-tags-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-ocsp-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-ocsp-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-other-name-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-other-name-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-permission-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-permission-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-policy-information-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-policy-information-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-policy-qualifier-info-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-policy-qualifier-info-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-put-policy-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-put-policy-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-qualifier-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-qualifier-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-restore-certificate-authority-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-restore-certificate-authority-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-revocation-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-revocation-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-revoke-certificate-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-revoke-certificate-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-tag-certificate-authority-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-tag-certificate-authority-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-tag-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-tag-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-untag-certificate-authority-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-untag-certificate-authority-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-update-certificate-authority-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-update-certificate-authority-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/examples/amazon-private-ca-validity-example.json
   title: ''
   type: Examples
   url: examples/amazon-private-ca-validity-example.json
@@ -1907,6 +2151,38 @@ rules:
     info: 2
     warn: 10
   slug: amazon-private-ca-spectral-rules
+score:
+  band: strong
+  composite: 54.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 68.7
+    developer_ergonomics: 56.0
+    discoverability: 63.0
+    operational_transparency: 26.3
+  previous_composite: 54.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/screenshots/amazon-private-ca-2026-06-20T171803.png
 security:
 - kind: authentication

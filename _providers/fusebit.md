@@ -31,6 +31,7 @@ common:
   type: ChangeLog
   url: https://fivequarters.github.io/q5/release-notes/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/changelog/fusebit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fusebit-changelog.yml
@@ -39,58 +40,72 @@ common:
   type: SourceCode
   url: https://github.com/fivequarters/q5
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/authentication/fusebit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fusebit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/conventions/fusebit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fusebit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/errors/fusebit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fusebit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/data-model/fusebit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fusebit-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/lifecycle/fusebit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fusebit-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/conformance/fusebit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fusebit-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/packages/fusebit-packages.yml
   title: ''
   type: Packages
   url: packages/fusebit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/packages/fusebit-packages.yml
   title: ''
   type: SDKs
   url: packages/fusebit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/cli/fusebit-cli.yml
   title: ''
   type: CLI
   url: cli/fusebit-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/components/fusebit-components.yml
   title: ''
   type: Components
   url: components/fusebit-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/llms/fusebit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fusebit-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/rate-limits/fusebit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fusebit-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/plans/fusebit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fusebit-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/security/fusebit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fusebit-domain-security.yml
@@ -106,7 +121,7 @@ modified: '2026-09-10'
 name: Fusebit
 nav: Providers
 network: true
-overview: 'Fusebit publishes 1 API on the [APIs.io](https://apis.io/) network: HTTP API. Tagged areas include Developer Tools, Embedded iPaaS, Integration, Serverless, and OAuth.
+overview: 'Fusebit publishes 1 API on the [APIs.io](https://apis.io/) network: HTTP API. Tagged areas include Developer Tools, Embedded iPaaS, Integration, Serverless, and Authentication.
 
 
   Fusebit''s developer surface includes changelog, authentication, CLI, and 16 more developer resources.'
@@ -134,6 +149,6 @@ tags:
 - Embedded iPaaS
 - Integration
 - Serverless
-- OAuth
+- Authentication
 - Acquired
 ---

@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Uncountable External API is the authenticated REST surface of the Uncountable R&D platform. Its documented entry point is the list_entities endpoint, which returns rows from a Listing Configuratio
@@ -48,6 +73,7 @@ common:
   type: GettingStarted
   url: https://www.support.uncountable.com/article-categories/getting-started/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/changelog/uncountable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uncountable-changelog.yml
@@ -72,70 +98,87 @@ common:
   type: Compliance
   url: https://www.uncountable.com/uncountable-security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/mcp/uncountable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/uncountable-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/authentication/uncountable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uncountable-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/scopes/uncountable-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/uncountable-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/well-known/uncountable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uncountable-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/llms/uncountable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uncountable-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/conventions/uncountable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uncountable-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/errors/uncountable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uncountable-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/conformance/uncountable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uncountable-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/security/uncountable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uncountable-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/security/uncountable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/uncountable-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/security/uncountable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uncountable-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/lifecycle/uncountable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uncountable-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/rate-limits/uncountable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uncountable-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/plans/uncountable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uncountable-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/data-model/uncountable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uncountable-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/packages/uncountable-packages.yml
   title: ''
   type: Packages
   url: packages/uncountable-packages.yml
@@ -169,6 +212,36 @@ scopes:
   scope_count: 0
   slug: uncountable-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 32.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 5.3
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 32.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/screenshots/uncountable-2026-09-02T164847.png
 security:
 - kind: authentication

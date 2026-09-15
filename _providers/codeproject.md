@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -144,18 +169,22 @@ common:
   type: Releases
   url: https://github.com/codeproject/CodeProject.AI-Server/releases
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/agentic-access/codeproject-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/codeproject-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/security/codeproject-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/codeproject-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/authentication/codeproject-authentication.yml
   title: ''
   type: Authentication
   url: authentication/codeproject-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/scopes/codeproject-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/codeproject-scopes.yml
@@ -208,10 +237,12 @@ common:
   type: GitHub
   url: https://github.com/codeproject
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/json-ld/codeproject-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/codeproject-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/rules/codeproject-rules.yml
   title: ''
   type: Spectral
   url: rules/codeproject-rules.yml
@@ -265,6 +296,38 @@ scopes:
   scope_count: 1
   slug: codeproject-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode/implicit
+score:
+  band: developing
+  composite: 45.9
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 69.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 54.5
+    contract_quality: 53.9
+    developer_ergonomics: 42.9
+    discoverability: 68.5
+    operational_transparency: 28.9
+  previous_composite: 45.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/screenshots/codeproject-2026-06-20T174804.png
 security:
 - kind: authentication

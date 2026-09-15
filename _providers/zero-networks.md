@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://portal.zeronetworks.com/api/v1
@@ -13,6 +38,7 @@ asyncapis:
   slug: zero-networks-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/security/zero-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zero-networks-domain-security.yml
@@ -53,50 +79,62 @@ common:
   type: StatusPage
   url: https://status.zeronetworks.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/llms/zero-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zero-networks-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/packages/zero-networks-packages.yml
   title: ''
   type: Packages
   url: packages/zero-networks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/packages/zero-networks-packages.yml
   title: ''
   type: SDKs
   url: packages/zero-networks-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/mcp/zero-networks-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zero-networks-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/conformance/zero-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zero-networks-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/conformance/zero-networks-conformance.yml
   title: ''
   type: Compliance
   url: conformance/zero-networks-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/lifecycle/zero-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zero-networks-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/conventions/zero-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zero-networks-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/plans/zero-networks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zero-networks-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/rate-limits/zero-networks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zero-networks-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/well-known/zero-networks-well-known.yml
   title: ''
   type: X-WellKnownProbe
   url: well-known/zero-networks-well-known.yml
@@ -124,6 +162,40 @@ rate_limits:
 - limit_count: 0
   name: Zero Networks Rate Limits
   slug: zero-networks-rate-limits
+score:
+  band: developing
+  composite: 44.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 65.8
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 44.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Zero Networks Authentication

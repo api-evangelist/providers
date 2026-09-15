@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.realself.com/v1
@@ -50,58 +75,72 @@ common:
   type: Security
   url: https://www.realself.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/well-known/realself-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/realself-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/well-known/realself-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/realself-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/security/realself-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/realself-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/security/realself-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/realself-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/authentication/realself-authentication.yml
   title: ''
   type: Authentication
   url: authentication/realself-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/conventions/realself-conventions.yml
   title: ''
   type: Conventions
   url: conventions/realself-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/errors/realself-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/realself-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/lifecycle/realself-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/realself-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/conformance/realself-conformance.yml
   title: ''
   type: Conformance
   url: conformance/realself-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/data-model/realself-data-model.yml
   title: ''
   type: DataModel
   url: data-model/realself-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/packages/realself-packages.yml
   title: ''
   type: Packages
   url: packages/realself-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/plans/realself-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/realself-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/rate-limits/realself-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/realself-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/llms/realself-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/realself-llms.txt
@@ -145,6 +184,46 @@ rate_limits:
 - limit_count: 0
   name: Realself Rate Limits
   slug: realself-rate-limits
+score:
+  band: thin
+  composite: 33.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 47.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 55.2
+    developer_ergonomics: 23.8
+    discoverability: 75.9
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 33.8
+  provenance:
+    conformance: derived
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Realself Authentication

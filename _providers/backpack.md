@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -195,10 +220,12 @@ common:
   type: License
   url: https://github.com/coral-xyz/backpack/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/agentic-access/backpack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/backpack-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/security/backpack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/backpack-domain-security.yml
@@ -207,34 +234,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/backpack/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-balance-checked-market-buy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-balance-checked-market-buy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-balance-checked-withdrawal-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-balance-checked-withdrawal-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-cancel-replace-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-cancel-replace-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-deposit-address-and-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-deposit-address-and-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-flatten-market-orders-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-flatten-market-orders-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-market-trade-analytics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-market-trade-analytics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-place-limit-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-place-limit-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/arazzo/backpack-position-take-profit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backpack-position-take-profit-workflow.yml
@@ -323,22 +358,27 @@ common:
   type: Authentication
   url: https://docs.backpack.exchange/#section/Authentication
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/rules/backpack-rules.yml
   title: ''
   type: SpectralRules
   url: rules/backpack-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/vocabulary/backpack-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/backpack-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/plans/backpack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/backpack-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/rate-limits/backpack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/backpack-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/finops/backpack-finops.yml
   title: ''
   type: FinOps
   url: finops/backpack-finops.yml
@@ -481,6 +521,47 @@ rules:
     info: 3
     warn: 3
   slug: backpack-rules
+score:
+  band: strong
+  composite: 54.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 89.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 25.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 28.8
+    contract_quality: 76.1
+    developer_ergonomics: 31.0
+    discoverability: 59.3
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 54.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:
 - kind: domain-security

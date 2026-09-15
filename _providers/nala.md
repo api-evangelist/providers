@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,10 +97,12 @@ collections:
   slug: open-nala-wallet-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/agentic-access/nala-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nala-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/security/nala-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nala-domain-security.yml
@@ -124,74 +151,92 @@ common:
   type: PrivacyPolicy
   url: https://www.nala.com/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/llms/nala-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nala-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/mcp/nala-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nala-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/authentication/nala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nala-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/scopes/nala-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nala-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/conventions/nala-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nala-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/conventions/nala-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/nala-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/errors/nala-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nala-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/errors/nala-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/nala-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/lifecycle/nala-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nala-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/sandbox/nala-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nala-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/asyncapi/nala-rafiki-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nala-rafiki-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/conformance/nala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nala-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/data-model/nala-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nala-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/packages/nala-packages.yml
   title: ''
   type: Packages
   url: packages/nala-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/packages/nala-packages.yml
   title: ''
   type: SDKs
   url: packages/nala-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/overlays/nala-rafiki-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nala-rafiki-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/skills/nala-create-account-and-send-payout.md
   title: ''
   type: AgentSkill
   url: skills/nala-create-account-and-send-payout.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/skills/nala-lookup-recipient-account.md
   title: ''
   type: AgentSkill
   url: skills/nala-lookup-recipient-account.md
@@ -228,6 +273,52 @@ scopes:
   scope_count: 9
   slug: nala-scopes
   summary_line: 9 scopes
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 57.9
+    developer_ergonomics: 57.7
+    discoverability: 75.9
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 47.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/screenshots/nala-2026-08-07T184612.png
 security:
 - kind: authentication

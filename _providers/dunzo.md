@@ -13,10 +13,12 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dunzo/refs/heads/main/security/dunzo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dunzo-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dunzo/refs/heads/main/lifecycle/dunzo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dunzo-lifecycle.yml

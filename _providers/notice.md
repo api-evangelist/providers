@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: RESTful enterprise API for real-time private market data across 6,000+ companies - Notice Price, verified trades and indications of interest - retrievable up to once per minute. Sold as a 12-month ent
@@ -24,6 +49,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/security/notice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/notice-domain-security.yml
@@ -44,50 +70,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/notice-co
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/llms/notice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/notice-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/well-known/notice-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/notice-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/mcp/notice-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/notice-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/authentication/notice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/notice-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/scopes/notice-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/notice-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/conformance/notice-conformance.yml
   title: ''
   type: Conformance
   url: conformance/notice-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/conventions/notice-conventions.yml
   title: ''
   type: Conventions
   url: conventions/notice-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/lifecycle/notice-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/notice-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/changelog/notice-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/notice-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/plans/notice-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/notice-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/rate-limits/notice-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/notice-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/components/notice-components.yml
   title: ''
   type: Components
   url: components/notice-components.yml
@@ -120,6 +158,41 @@ scopes:
   scope_count: 0
   slug: notice-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 29.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 55.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 26.2
+    discoverability: 72.2
+    operational_transparency: 39.5
+  previous_composite: 29.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 55.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/notice/refs/heads/main/screenshots/notice-2026-09-02T150805.png
 security:
 - kind: authentication

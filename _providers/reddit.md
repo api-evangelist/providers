@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -150,26 +175,32 @@ collections:
   slug: open-reddit-wiki-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/capabilities/reddit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/reddit-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/agentic-access/reddit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reddit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/security/reddit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/reddit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/security/reddit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reddit-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/authentication/reddit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reddit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/scopes/reddit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/reddit-scopes.yml
@@ -218,42 +249,52 @@ common:
   type: Signup
   url: https://www.reddit.com/register
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/_original/reddit-data-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/reddit-data-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-ads-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/reddit-ads-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/_original/reddit-embeds-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/reddit-embeds-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/json-schema/reddit-post-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/reddit-post-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/json-schema/reddit-comment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/reddit-comment-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/json-schema/reddit-subreddit-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/reddit-subreddit-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/json-ld/reddit-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/reddit-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/json-structure/reddit-post-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/reddit-post-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/rules/reddit-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/reddit-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/vocabulary/reddit-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/reddit-vocabulary.yml
@@ -342,6 +383,38 @@ scopes:
   scope_count: 20
   slug: reddit-scopes
   summary_line: 20 scopes · authorizationCode
+score:
+  band: developing
+  composite: 42.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 58.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 28.8
+    contract_quality: 60.3
+    developer_ergonomics: 38.1
+    discoverability: 68.5
+    operational_transparency: 23.7
+  previous_composite: 42.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/screenshots/reddit-2026-08-17T081506.png
 security:
 - kind: authentication

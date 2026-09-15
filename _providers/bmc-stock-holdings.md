@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bmc-stock-holdings/refs/heads/main/security/bmc-stock-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bmc-stock-holdings-domain-security.yml

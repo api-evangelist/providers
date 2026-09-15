@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 27.2
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://platform-api.nabis.pro
@@ -110,14 +135,17 @@ collections:
   slug: postman-nabis-platform-api-v2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/capabilities/nabis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nabis-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/overlays/nabis-platform-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nabis-platform-api-v2-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/security/nabis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nabis-domain-security.yml
@@ -142,6 +170,7 @@ common:
   type: GettingStarted
   url: https://developers.nabis.com/v2/docs/overview/introduction
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/authentication/nabis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nabis-authentication.yml
@@ -182,54 +211,67 @@ common:
   type: StatusPage
   url: https://status.nabis.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/changelog/nabis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nabis-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/lifecycle/nabis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nabis-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/rate-limits/nabis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nabis-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/errors/nabis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nabis-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/conventions/nabis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nabis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/data-model/nabis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nabis-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/conformance/nabis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nabis-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/packages/nabis-packages.yml
   title: ''
   type: Packages
   url: packages/nabis-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/plans/nabis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nabis-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/mcp/nabis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nabis-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/llms/nabis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nabis-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/examples/nabis-examples.yml
   title: ''
   type: Examples
   url: examples/nabis-examples.yml
@@ -254,6 +296,40 @@ rate_limits:
 - limit_count: 1
   name: Nabis Rate Limits
   slug: nabis-rate-limits
+score:
+  band: developing
+  composite: 49.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 50.0
+    developer_ergonomics: 63.7
+    discoverability: 74.1
+    operational_transparency: 63.2
+  previous_composite: 49.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 83.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/screenshots/nabis-2026-09-02T150717.png
 security:
 - kind: authentication

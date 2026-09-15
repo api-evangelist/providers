@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -212,66 +237,82 @@ common:
   type: ChangeLog
   url: https://docs.dinari.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/changelog/dinari-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dinari-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/packages/dinari-packages.yml
   title: ''
   type: Packages
   url: packages/dinari-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/packages/dinari-packages.yml
   title: ''
   type: SDKs
   url: packages/dinari-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/mcp/dinari-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dinari-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/llms/dinari-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dinari-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/overlays/dinari-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dinari-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/conformance/dinari-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dinari-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/errors/dinari-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/dinari-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/lifecycle/dinari-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dinari-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/conventions/dinari-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dinari-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/data-model/dinari-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dinari-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/sandbox/dinari-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dinari-sandbox.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/asyncapi/dinari-streaming-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/dinari-streaming-asyncapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/authentication/dinari-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dinari-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/security/dinari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dinari-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/security/dinari-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dinari-vulnerability-disclosure.yml
@@ -280,18 +321,22 @@ common:
   type: Security
   url: https://docs.dinari.com/docs/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/agentic-access/dinari-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dinari-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/arazzo/dinari-onboard-and-trade.yml
   title: ''
   type: Arazzo
   url: arazzo/dinari-onboard-and-trade.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/arazzo/dinari-connect-wallet-and-fund.yml
   title: ''
   type: Arazzo
   url: arazzo/dinari-connect-wallet-and-fund.yml
@@ -311,6 +356,47 @@ overview: 'Dinari publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
   Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 66.4
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 47.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
 security:
 - kind: authentication

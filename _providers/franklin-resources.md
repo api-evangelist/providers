@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''http://developer.franklintempleton.com/user/register'', ''status'': 0, ''note'': ''the only documented API onboarding path; host has no DNS A record as of 2026-09-10 — archived 2019-07-21 through 2023-03-13''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.franklintempleton.com/v1
@@ -20,6 +45,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/security/franklin-resources-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/franklin-resources-domain-security.yml
@@ -40,6 +66,7 @@ common:
   type: Website
   url: https://digitalassets.franklintempleton.com/benji/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/llms/franklin-resources-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/franklin-resources-llms.txt
@@ -48,50 +75,62 @@ common:
   type: LLMsTxt
   url: https://www.franklintempleton.com/llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/authentication/franklin-resources-authentication.yml
   title: ''
   type: Authentication
   url: authentication/franklin-resources-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/conventions/franklin-resources-conventions.yml
   title: ''
   type: Conventions
   url: conventions/franklin-resources-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/errors/franklin-resources-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/franklin-resources-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/data-model/franklin-resources-data-model.yml
   title: ''
   type: DataModel
   url: data-model/franklin-resources-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/conformance/franklin-resources-conformance.yml
   title: ''
   type: Conformance
   url: conformance/franklin-resources-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/lifecycle/franklin-resources-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/franklin-resources-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/rate-limits/franklin-resources-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/franklin-resources-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/plans/franklin-resources-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/franklin-resources-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/packages/franklin-resources-packages.yml
   title: ''
   type: Packages
   url: packages/franklin-resources-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/overlays/franklin-resources-detailed-product-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/franklin-resources-detailed-product-apis-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/mcp/franklin-resources-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/franklin-resources-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/well-known/franklin-resources-well-known.yml
   title: ''
   type: X-WellKnownProbe
   url: well-known/franklin-resources-well-known.yml
@@ -152,6 +191,46 @@ rate_limits:
 - limit_count: 0
   name: Franklin Resources Rate Limits
   slug: franklin-resources-rate-limits
+score:
+  band: thin
+  composite: 30.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 49.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 30.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/franklin-resources/refs/heads/main/screenshots/franklin-resources-2026-06-20T181511.png
 security:
 - kind: authentication
@@ -169,7 +248,7 @@ tags:
 - Asset Management
 - Financial-Services
 - Mutual Funds
-- Exchange Traded Funds
+- Exchange-Traded Funds
 - Fund Data
 - Market Data
 website: https://www.franklinresources.com/

@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.dni.gov/'', ''status'': 301, ''note'': ''the previously declared website redirects to https://www.odni.gov/ — a different registrable domain (dni.gov -> odni.gov); Website pointer moved to odni.gov on 2026-09-06''}'
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.odni.gov/?rest_route=/
@@ -20,62 +45,77 @@ apis:
 artifact_total: 7
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-wp-content-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/director-of-national-intelligence-wp-content-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/authentication/director-of-national-intelligence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/director-of-national-intelligence-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/conventions/director-of-national-intelligence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/director-of-national-intelligence-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/errors/director-of-national-intelligence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/director-of-national-intelligence-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/lifecycle/director-of-national-intelligence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/director-of-national-intelligence-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/conformance/director-of-national-intelligence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/director-of-national-intelligence-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/data-model/director-of-national-intelligence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/director-of-national-intelligence-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/rate-limits/director-of-national-intelligence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/director-of-national-intelligence-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/plans/director-of-national-intelligence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/director-of-national-intelligence-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/packages/director-of-national-intelligence-packages.yml
   title: ''
   type: Packages
   url: packages/director-of-national-intelligence-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/mcp/director-of-national-intelligence-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/director-of-national-intelligence-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/llms/director-of-national-intelligence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/director-of-national-intelligence-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/overlays/director-of-national-intelligence-wp-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/director-of-national-intelligence-wp-content-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/security/director-of-national-intelligence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/director-of-national-intelligence-domain-security.yml
@@ -118,7 +158,7 @@ modified: '2026-09-06'
 name: Director of National Intelligence
 nav: Providers
 network: true
-overview: 'Director of National Intelligence publishes 1 API on the [APIs.io](https://apis.io/) network: ODNI Public Content API. Tagged areas include Federal-Government, Intelligence, National-Security, Government, and Public-Sector.
+overview: 'Director of National Intelligence publishes 1 API on the [APIs.io](https://apis.io/) network: ODNI Public Content API. Tagged areas include Federal-Government, Intelligence, National Security, Government, and Public Sector.
 
 
   Director of National Intelligence''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
@@ -131,6 +171,47 @@ rate_limits:
 - limit_count: 0
   name: Director Of National Intelligence Rate Limits
   slug: director-of-national-intelligence-rate-limits
+score:
+  band: emerging
+  composite: 17.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 16.5
+    developer_ergonomics: 13.7
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 17.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/screenshots/director-of-national-intelligence-2026-06-20T180032.png
 security:
 - kind: authentication
@@ -145,9 +226,9 @@ slug: director-of-national-intelligence
 tags:
 - Federal-Government
 - Intelligence
-- National-Security
+- National Security
 - Government
-- Public-Sector
+- Public Sector
 - Transparency
 - News
 - Publications

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -24,42 +49,52 @@ common:
   type: Website
   url: https://www.geocitation.io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/agentic-access/geocitation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/geocitation-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/security/geocitation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/geocitation-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/security/geocitation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/geocitation-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/authentication/geocitation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/geocitation-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/errors/geocitation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/geocitation-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/rate-limits/geocitation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/geocitation-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/plans/geocitation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/geocitation-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/conventions/geocitation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/geocitation-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/lifecycle/geocitation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/geocitation-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/conformance/geocitation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/geocitation-conformance.yml
@@ -68,22 +103,27 @@ common:
   type: Compliance
   url: https://www.geocitation.io/en/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/data-model/geocitation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/geocitation-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/asyncapi/geocitation-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/geocitation-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/llms/geocitation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/geocitation-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/overlays/geocitation-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/geocitation-openapi-overlay.yaml
@@ -127,7 +167,7 @@ modified: '2026-09-10'
 name: GEOCitation
 nav: Providers
 network: true
-overview: 'GEOCitation publishes 1 API on the [APIs.io](https://apis.io/) network: Audit API. Tagged areas include SEO, GEO, AEO, AI Search Visibility, and Content Intelligence.
+overview: 'GEOCitation publishes 1 API on the [APIs.io](https://apis.io/) network: Audit API. Tagged areas include SEO, Geo, AEO, AI Search Visibility, and Content Intelligence.
 
 
   The GEOCitation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -143,6 +183,36 @@ rate_limits:
 - limit_count: 2
   name: Geocitation Rate Limits
   slug: geocitation-rate-limits
+score:
+  band: strong
+  composite: 55.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 54.4
+    developer_ergonomics: 56.5
+    discoverability: 68.5
+    operational_transparency: 28.9
+  previous_composite: 55.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Geocitation Authentication
@@ -159,14 +229,14 @@ security:
 slug: geocitation
 tags:
 - SEO
-- GEO
+- Geo
 - AEO
 - AI Search Visibility
 - Content Intelligence
 - Competitive Intelligence
 - Marketing
 - MarTech
-- White-label
+- White Label
 - Agency Tooling
 - Web Data & Analytics
 website: https://www.geocitation.io

@@ -10,6 +10,31 @@ access_model:
   - https://dataportal.dol.gov/registration
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 12.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: ILAB's datasets are served through the U.S. Department of Labor Open Data Portal API (https://apiprod.dol.gov/v4) under the agency segment 'ilab'. The catalogue route /v4/datasets answers anonymously;
@@ -21,6 +46,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bureau-of-international-labor-affairs-domain-security.yml
@@ -73,54 +99,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/USDepartmentofLabor
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/authentication/bureau-of-international-labor-affairs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bureau-of-international-labor-affairs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/conventions/bureau-of-international-labor-affairs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bureau-of-international-labor-affairs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/errors/bureau-of-international-labor-affairs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bureau-of-international-labor-affairs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/lifecycle/bureau-of-international-labor-affairs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bureau-of-international-labor-affairs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/conformance/bureau-of-international-labor-affairs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bureau-of-international-labor-affairs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/data-model/bureau-of-international-labor-affairs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bureau-of-international-labor-affairs-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/packages/bureau-of-international-labor-affairs-packages.yml
   title: ''
   type: Packages
   url: packages/bureau-of-international-labor-affairs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/llms/bureau-of-international-labor-affairs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bureau-of-international-labor-affairs-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/rate-limits/bureau-of-international-labor-affairs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bureau-of-international-labor-affairs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/plans/bureau-of-international-labor-affairs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bureau-of-international-labor-affairs-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bureau-of-international-labor-affairs-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/mcp/bureau-of-international-labor-affairs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bureau-of-international-labor-affairs-mcp.yml
@@ -149,6 +188,46 @@ rate_limits:
 - limit_count: 1
   name: Bureau Of International Labor Affairs Rate Limits
   slug: bureau-of-international-labor-affairs-rate-limits
+score:
+  band: thin
+  composite: 30.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 56.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 11.9
+    discoverability: 75.9
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - global
+  previous_composite: 30.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-international-labor-affairs/refs/heads/main/screenshots/bureau-of-international-labor-affairs-2026-06-20T173810.png
 security:
 - kind: authentication

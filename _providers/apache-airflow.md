@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -272,6 +297,7 @@ common:
   type: Website
   url: https://www.apache.org/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/overlays/apache-airflow-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apache-airflow-openapi-overlay.yaml
@@ -304,62 +330,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/apache-airflow/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/agentic-access/apache-airflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-airflow-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/packages/apache-airflow-packages.yml
   title: ''
   type: Packages
   url: packages/apache-airflow-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/well-known/apache-airflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apache-airflow-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/well-known/apache-airflow-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apache-airflow-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/mcp/apache-airflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apache-airflow-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/llms/apache-airflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apache-airflow-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/conformance/apache-airflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apache-airflow-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/lifecycle/apache-airflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apache-airflow-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/conventions/apache-airflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apache-airflow-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/changelog/apache-airflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apache-airflow-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/cli/apache-airflow-cli.yml
   title: ''
   type: CLI
   url: cli/apache-airflow-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/data-model/apache-airflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apache-airflow-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/security/apache-airflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-airflow-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/security/apache-airflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-airflow-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/authentication/apache-airflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-airflow-authentication.yml
@@ -412,62 +453,77 @@ common:
   type: ChangeLog
   url: https://airflow.apache.org/docs/apache-airflow/stable/release_notes.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/rules/apache-airflow-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-airflow-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/vocabulary/apache-airflow-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-airflow-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-trigger-dag-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-trigger-dag-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-collect-dag-run-results-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-collect-dag-run-results-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-diagnose-failed-dag-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-diagnose-failed-dag-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-retry-failed-tasks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-retry-failed-tasks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-force-task-instance-state-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-force-task-instance-state-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-upsert-variable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-upsert-variable-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-register-connection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-register-connection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-upsert-pool-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-upsert-pool-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-onboard-dag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-onboard-dag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-deployment-preflight-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-deployment-preflight-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-audit-dag-runs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-audit-dag-runs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-dataset-lineage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-dataset-lineage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/arazzo/apache-airflow-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-airflow-provision-user-workflow.yml
@@ -1161,6 +1217,43 @@ rules:
     info: 2
     warn: 19
   slug: apache-airflow-spectral-rules
+score:
+  band: developing
+  composite: 45.4
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 33.3
+    contract_quality: 59.7
+    developer_ergonomics: 56.0
+    discoverability: 59.3
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 45.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:
 - kind: authentication

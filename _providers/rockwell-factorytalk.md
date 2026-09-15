@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,18 +98,22 @@ collections:
   slug: open-rockwell-factorytalk-trenddata-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/agentic-access/rockwell-factorytalk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rockwell-factorytalk-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/security/rockwell-factorytalk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rockwell-factorytalk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/authentication/rockwell-factorytalk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rockwell-factorytalk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/scopes/rockwell-factorytalk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rockwell-factorytalk-scopes.yml
@@ -117,30 +146,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/rockwellautomation
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/_original/rockwell-factorytalk-optix-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/rockwell-factorytalk-optix-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/json-schema/rockwell-factorytalk-tag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/rockwell-factorytalk-tag-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/json-ld/rockwell-factorytalk-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/rockwell-factorytalk-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/json-structure/rockwell-factorytalk-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/rockwell-factorytalk-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/vocabulary/rockwell-factorytalk-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rockwell-factorytalk-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/rules/rockwell-factorytalk-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/rockwell-factorytalk-rules.yml
@@ -229,6 +265,41 @@ scopes:
   scope_count: 3
   slug: rockwell-factorytalk-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 28.8
+    contract_quality: 64.3
+    developer_ergonomics: 45.2
+    discoverability: 59.3
+    operational_transparency: 10.5
+  previous_composite: 39.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/screenshots/rockwell-factorytalk-2026-06-20T193201.png
 security:
 - kind: authentication

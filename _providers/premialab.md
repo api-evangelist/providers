@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Client-facing REST API for PremiaLab's portfolio analytics, quantitative strategy database, and risk reporting platform. Protected by OAuth2/OpenID Connect; access is provisioned for institutional cli
@@ -17,18 +42,22 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/security/premialab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/premialab-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/authentication/premialab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/premialab-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/scopes/premialab-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/premialab-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/well-known/premialab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/premialab-well-known.yml
@@ -71,6 +100,32 @@ scopes:
   scope_count: 7
   slug: premialab-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 14.9
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 14.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/premialab/refs/heads/main/screenshots/premialab-2026-09-02T151927.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -200,42 +225,52 @@ common:
   type: About
   url: https://www.library.upenn.edu/about/policies/open-metadata
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/agentic-access/university-of-pennsylvania-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-pennsylvania-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/security/university-of-pennsylvania-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-pennsylvania-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/plans/university-of-pennsylvania-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-pennsylvania-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/rate-limits/university-of-pennsylvania-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-pennsylvania-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/finops/university-of-pennsylvania-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-pennsylvania-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/conformance/university-of-pennsylvania-conformance.yml
   title: ''
   type: x-conformance
   url: conformance/university-of-pennsylvania-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/authentication/university-of-pennsylvania-authentication.yml
   title: ''
   type: x-authentication
   url: authentication/university-of-pennsylvania-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/errors/university-of-pennsylvania-errors.yml
   title: ''
   type: x-errors
   url: errors/university-of-pennsylvania-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/lifecycle/university-of-pennsylvania-lifecycle.yml
   title: ''
   type: x-lifecycle
   url: lifecycle/university-of-pennsylvania-lifecycle.yml
@@ -319,6 +354,52 @@ rules:
     info: 0
     warn: 3
   slug: university-of-pennsylvania-rules
+score:
+  band: developing
+  composite: 40.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 13.6
+    contract_quality: 54.2
+    developer_ergonomics: 19.0
+    discoverability: 64.8
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 40.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 6.5
+      total: 31
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 35.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png
 security:
 - kind: authentication

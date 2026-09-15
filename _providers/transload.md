@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.transload.io
@@ -195,14 +220,17 @@ collections:
   slug: open-transload-sites-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/overlays/transload-pipeline-backend-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/transload-pipeline-backend-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/security/transload-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transload-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/authentication/transload-authentication.yml
   title: ''
   type: Authentication
   url: authentication/transload-authentication.yml
@@ -231,30 +259,37 @@ common:
   type: APIReference
   url: https://api.transload.io/docs
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/mcp/transload-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/transload-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/llms/transload-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/transload-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/errors/transload-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/transload-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/conventions/transload-conventions.yml
   title: ''
   type: Conventions
   url: conventions/transload-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/conformance/transload-conformance.yml
   title: ''
   type: Conformance
   url: conformance/transload-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/data-model/transload-data-model.yml
   title: ''
   type: DataModel
   url: data-model/transload-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -271,6 +306,40 @@ overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
   Transload''s developer surface includes authentication, support, documentation, API reference, and 12 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 30.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 4.5
+    contract_quality: 40.2
+    developer_ergonomics: 35.1
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 30.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/screenshots/transload-2026-09-02T164130.png
 security:
 - kind: authentication

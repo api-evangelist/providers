@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -508,6 +533,7 @@ common:
   type: Website
   url: https://www.squareup.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/capabilities/square-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/square-capability-edges.yml
@@ -520,18 +546,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/square/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/agentic-access/square-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/square-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/security/square-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/square-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/authentication/square-authentication.yml
   title: ''
   type: Authentication
   url: authentication/square-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/scopes/square-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/square-scopes.yml
@@ -576,6 +606,7 @@ common:
   type: Webhooks
   url: https://developer.squareup.com/docs/webhooks/webhook-subscriptions-api
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/asyncapi/square-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/square-webhooks-asyncapi.yml
@@ -664,34 +695,42 @@ common:
   type: Support
   url: https://discord.com/invite/squaredev
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-schema/payment.json
   title: ''
   type: JSONSchema
   url: json-schema/payment.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-schema/money.json
   title: ''
   type: JSONSchema
   url: json-schema/money.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-schema/order.json
   title: ''
   type: JSONSchema
   url: json-schema/order.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-schema/catalog-item.json
   title: ''
   type: JSONSchema
   url: json-schema/catalog-item.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-schema/customer.json
   title: ''
   type: JSONSchema
   url: json-schema/customer.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-schema/location.json
   title: ''
   type: JSONSchema
   url: json-schema/location.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-schema/subscription.json
   title: ''
   type: JSONSchema
   url: json-schema/subscription.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-ld/square-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/square-context.jsonld
@@ -764,10 +803,12 @@ common:
   type: OpenAPI
   url: https://github.com/square/connect-api-specification
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/rules/square-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/square-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/vocabulary/square-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/square-vocabulary.yaml
@@ -796,98 +837,122 @@ common:
   type: LlmsText
   url: https://developer.squareup.com/llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-structure/catalog-item-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/catalog-item-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-structure/customer-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/customer-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-structure/location-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/location-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-structure/money-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/money-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-structure/order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/order-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-structure/payment-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/payment-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/json-structure/subscription-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/subscription-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/examples/catalog-item-example.json
   title: ''
   type: Examples
   url: examples/catalog-item-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/examples/customer-example.json
   title: ''
   type: Examples
   url: examples/customer-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/examples/location-example.json
   title: ''
   type: Examples
   url: examples/location-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/examples/money-example.json
   title: ''
   type: Examples
   url: examples/money-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/examples/order-example.json
   title: ''
   type: Examples
   url: examples/order-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/examples/payment-example.json
   title: ''
   type: Examples
   url: examples/payment-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/examples/subscription-example.json
   title: ''
   type: Examples
   url: examples/subscription-example.json
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/plans/square-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/square-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/rate-limits/square-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/square-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/finops/square-finops.yml
   title: ''
   type: FinOps
   url: finops/square-finops.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/sandbox/square-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/square-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/conventions/square-conventions.yml
   title: ''
   type: Conventions
   url: conventions/square-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/changelog/square-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/square-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/components/square-components.yml
   title: ''
   type: Components
   url: components/square-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/data-model/square-data-model.yml
   title: ''
   type: DataModel
   url: data-model/square-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/errors/square-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/square-decline-codes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/security/square-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/square-trust-center.yml
@@ -1062,6 +1127,45 @@ scopes:
   scope_count: 58
   slug: square-scopes
   summary_line: 58 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 75.7
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 50.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 73.1
+    developer_ergonomics: 82.1
+    discoverability: 51.9
+    operational_transparency: 60.5
+  previous_composite: 75.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 68.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:
 - kind: authentication

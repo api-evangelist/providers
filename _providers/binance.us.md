@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
@@ -36,14 +61,17 @@ asyncapis:
   slug: binance.us-websocket-streams-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/binance.us-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/binance.us-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/security/binance.us-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/binance.us-domain-security.yml
@@ -112,50 +140,62 @@ common:
   type: Security
   url: https://www.binance.us/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/well-known/binance.us-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/binance.us-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/well-known/binance.us-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/binance.us-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/authentication/binance.us-authentication.yml
   title: ''
   type: Authentication
   url: authentication/binance.us-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/conventions/binance.us-conventions.yml
   title: ''
   type: Conventions
   url: conventions/binance.us-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/errors/binance.us-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/binance.us-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/rate-limits/binance.us-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/binance.us-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/lifecycle/binance.us-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/binance.us-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/changelog/binance.us-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/binance.us-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/conformance/binance.us-conformance.yml
   title: ''
   type: Conformance
   url: conformance/binance.us-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/packages/binance.us-packages.yml
   title: ''
   type: Packages
   url: packages/binance.us-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/llms/binance.us-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/binance.us-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/asyncapi/binance.us-websocket-streams-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/binance.us-websocket-streams-asyncapi.yml
@@ -179,6 +219,40 @@ rate_limits:
 - limit_count: 0
   name: Binance.Us Rate Limits
   slug: binance.us-rate-limits
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 44.3
+    developer_ergonomics: 47.6
+    discoverability: 81.5
+    operational_transparency: 44.7
+  previous_composite: 52.6
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/screenshots/binance.us-2026-08-07T162440.png
 security:
 - kind: authentication

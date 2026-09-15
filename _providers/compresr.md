@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -246,6 +271,7 @@ common:
   type: Website
   url: https://www.compresr.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/capabilities/compresr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/compresr-capability-edges.yml
@@ -294,90 +320,112 @@ common:
   type: ChangeLog
   url: https://compresr.ai/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/llms/compresr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/compresr-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/authentication/compresr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/compresr-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/_original/compresr-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/compresr-openapi-original.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/packages/compresr-packages.yml
   title: ''
   type: Packages
   url: packages/compresr-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/packages/compresr-packages.yml
   title: ''
   type: SDKs
   url: packages/compresr-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/cli/compresr-cli.yml
   title: ''
   type: CLI
   url: cli/compresr-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/mcp/compresr-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/compresr-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/conventions/compresr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/compresr-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/conventions/compresr-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/compresr-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/errors/compresr-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/compresr-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/lifecycle/compresr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/compresr-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/lifecycle/compresr-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/compresr-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/conformance/compresr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/compresr-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/data-model/compresr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/compresr-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/sandbox/compresr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/compresr-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/security/compresr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/compresr-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/agentic-access/compresr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/compresr-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/overlays/compresr-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/compresr-openapi-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/rate-limits/compresr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/compresr-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/plans/compresr-plans.yml
   title: ''
   type: Plans
   url: plans/compresr-plans.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/finops/compresr-finops.yml
   title: ''
   type: FinOps
   url: finops/compresr-finops.yml
@@ -406,6 +454,41 @@ rate_limits:
 - limit_count: 5
   name: Compresr Rate Limits
   slug: compresr-rate-limits
+score:
+  band: strong
+  composite: 62.8
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 54.7
+    developer_ergonomics: 83.3
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://ckm.openehr.org/ckm/rest/v1
@@ -45,62 +70,77 @@ common:
   type: PrivacyPolicy
   url: https://oceanhealthsystems.com/privacy-policy/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/openapi/ocean-health-systems-ckm-rest-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/ocean-health-systems-ckm-rest-api-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/overlays/ocean-health-systems-ckm-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ocean-health-systems-ckm-rest-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/authentication/ocean-health-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ocean-health-systems-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/conventions/ocean-health-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ocean-health-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/errors/ocean-health-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ocean-health-systems-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/data-model/ocean-health-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ocean-health-systems-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/conformance/ocean-health-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ocean-health-systems-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/lifecycle/ocean-health-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ocean-health-systems-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/changelog/ocean-health-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ocean-health-systems-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/packages/ocean-health-systems-packages.yml
   title: ''
   type: Packages
   url: packages/ocean-health-systems-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/plans/ocean-health-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ocean-health-systems-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/rate-limits/ocean-health-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ocean-health-systems-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/llms/ocean-health-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ocean-health-systems-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ocean-health-systems/refs/heads/main/security/ocean-health-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ocean-health-systems-domain-security.yml
@@ -126,6 +166,41 @@ rate_limits:
 - limit_count: 0
   name: Ocean Health Systems Rate Limits
   slug: ocean-health-systems-rate-limits
+score:
+  band: thin
+  composite: 31.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 33.3
+    developer_ergonomics: 37.5
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 31.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Ocean Health Systems Authentication
@@ -148,6 +223,6 @@ tags:
 - Terminology
 - Archetypes
 - Infection Prevention
-- Immunisation
+- immunisation
 website: https://oceanhealthsystems.com/
 ---

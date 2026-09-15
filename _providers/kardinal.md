@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 4
@@ -65,6 +90,7 @@ apis:
 artifact_total: 14
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/capabilities/kardinal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kardinal-capability-edges.yml
@@ -125,70 +151,87 @@ common:
   type: FAQ
   url: https://kardinal.ai/fr/faq-route-optimization/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/mcp/kardinal-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kardinal-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/mcp/kardinal-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/kardinal-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/a2a/kardinal-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/kardinal-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/llms/kardinal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kardinal-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/authentication/kardinal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kardinal-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/conventions/kardinal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kardinal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/conventions/kardinal-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kardinal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/errors/kardinal-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kardinal-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/lifecycle/kardinal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kardinal-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/conformance/kardinal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kardinal-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/data-model/kardinal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kardinal-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/sandbox/kardinal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kardinal-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/plans/kardinal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kardinal-plans-pricing.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/overlays/kardinal-aro-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kardinal-aro-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/agentic-access/kardinal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kardinal-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/security/kardinal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kardinal-domain-security.yml
@@ -217,6 +260,47 @@ rate_limits:
 - limit_count: 0
   name: Kardinal Rate Limits
   slug: kardinal-rate-limits
+score:
+  band: developing
+  composite: 47.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 50.4
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 47.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/screenshots/kardinal-2026-09-02T150130.png
 security:
 - kind: authentication

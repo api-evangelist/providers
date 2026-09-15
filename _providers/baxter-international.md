@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -17,10 +42,12 @@ apis:
 artifact_total: 23
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/security/baxter-international-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/baxter-international-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/security/baxter-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/baxter-international-domain-security.yml
@@ -53,14 +80,17 @@ common:
   type: TermsOfService
   url: https://www.baxter.com/terms-use
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/rules/baxter-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/baxter-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/vocabulary/baxter-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/baxter-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/json-ld/baxter-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/baxter-context.jsonld
@@ -69,38 +99,47 @@ common:
   type: Blog
   url: https://www.baxter.com/rss.xml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/security/baxter-international-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/baxter-international-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/conformance/baxter-international-conformance.yml
   title: ''
   type: Conformance
   url: conformance/baxter-international-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/packages/baxter-international-packages.yml
   title: ''
   type: Packages
   url: packages/baxter-international-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/packages/baxter-international-packages.yml
   title: ''
   type: SDKs
   url: packages/baxter-international-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/lifecycle/baxter-international-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/baxter-international-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/llms/baxter-international-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/baxter-international-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/plans/baxter-international-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/baxter-international-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/rate-limits/baxter-international-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/baxter-international-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/finops/baxter-international-finops.yml
   title: ''
   type: FinOps
   url: finops/baxter-international-finops.yml
@@ -192,6 +231,41 @@ rules:
     info: 0
     warn: 2
   slug: baxter-spectral-rules
+score:
+  band: thin
+  composite: 34.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 58.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 63.6
+    contract_quality: 10.7
+    developer_ergonomics: 23.8
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 34.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 32.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
 security:
 - kind: domain-security

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -200,14 +225,17 @@ common:
   type: Roadmap
   url: https://zuplo.com/roadmap
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/agentic-access/zuplo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zuplo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/security/zuplo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zuplo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/authentication/zuplo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zuplo-authentication.yml
@@ -220,74 +248,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zuplo/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-add-consumer-manager-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-add-consumer-manager-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-bulk-issue-consumer-keys-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-bulk-issue-consumer-keys-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-create-consumer-and-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-create-consumer-and-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-deactivate-consumer-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-deactivate-consumer-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-discover-account-and-buckets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-discover-account-and-buckets-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-find-and-update-bucket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-find-and-update-bucket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-find-consumer-update-metadata-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-find-consumer-update-metadata-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-find-then-delete-consumer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-find-then-delete-consumer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-map-custom-domain-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-map-custom-domain-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-onboard-consumer-with-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-onboard-consumer-with-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-provision-api-key-bucket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-provision-api-key-bucket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-provision-tunnel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-provision-tunnel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-redeploy-project-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-redeploy-project-deployment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-repoint-custom-domain-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-repoint-custom-domain-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-rotate-consumer-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-rotate-consumer-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-rotate-tunnel-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-rotate-tunnel-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-set-variable-and-redeploy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-set-variable-and-redeploy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/arazzo/zuplo-update-variable-and-redeploy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zuplo-update-variable-and-redeploy-workflow.yml
@@ -547,6 +593,38 @@ rules:
     info: 1
     warn: 6
   slug: zuplo-rules
+score:
+  band: strong
+  composite: 59.4
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 72.7
+    developer_ergonomics: 56.0
+    discoverability: 57.4
+    operational_transparency: 60.5
+  previous_composite: 59.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - plans/bynder-plans-pricing.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -537,142 +562,177 @@ collections:
   slug: open-bynder
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/capabilities/bynder-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bynder-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-access-rights-and-options-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-access-rights-and-options-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-access-rights-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-access-rights-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-account-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-account-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-antivirus-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-antivirus-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-asset-download-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-asset-download-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-asset-upload-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-asset-upload-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-asset-usage-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-asset-usage-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-asset-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-asset-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-automation-workflow-svc-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-automation-workflow-svc-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-avs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-avs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-brands-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-brands-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-brandstore-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-brandstore-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-collections-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-collections-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-dat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-dat-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-derivative-presets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-derivative-presets-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-groups-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-groups-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-metaproperty-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-metaproperty-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-modern-stack-upload-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-modern-stack-upload-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-oauth2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-oauth2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-options-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-options-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-product-layer-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-product-layer-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-securityroles-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-securityroles-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-similar-assets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-similar-assets-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-smartfilter-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-smartfilter-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-taxonomy-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-taxonomy-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-tea-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-tea-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-trash-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-trash-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-users-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-users-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-webhooks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-wf-campaigns-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-wf-campaigns-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-wf-jobs-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-wf-jobs-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-wf-metaproperties-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-wf-metaproperties-v4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/overlays/bynder-wf-users-groups-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bynder-wf-users-groups-v4-overlay.yaml
@@ -733,6 +793,7 @@ common:
   type: PrivacyPolicy
   url: https://www.bynder.com/en/legal/privacy-policy/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/collections/bynder.postman_collection.json
   title: ''
   type: Postman
   url: collections/bynder.postman_collection.json
@@ -741,6 +802,7 @@ common:
   type: PostmanCollection
   url: https://dam.bynder.com/m/5f2d178f1d6308bf/original/Bynder-Postman-Collection.json
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/changelog/bynder-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bynder-changelog.yml
@@ -753,6 +815,7 @@ common:
   type: StatusPage
   url: https://status.bynder.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/lifecycle/bynder-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bynder-lifecycle.yml
@@ -761,34 +824,42 @@ common:
   type: SLA
   url: https://www.bynder.com/en/legal/service-level-agreement-v12/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/authentication/bynder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bynder-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/scopes/bynder-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bynder-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/conventions/bynder-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bynder-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/errors/bynder-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bynder-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/data-model/bynder-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bynder-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/rate-limits/bynder-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bynder-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/plans/bynder-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bynder-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/conformance/bynder-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bynder-conformance.yml
@@ -797,6 +868,7 @@ common:
   type: Compliance
   url: https://trust.bynder.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/security/bynder-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bynder-trust-center.yml
@@ -805,30 +877,37 @@ common:
   type: Security
   url: https://www.bynder.com/en/legal/responsible-disclosure-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/security/bynder-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bynder-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/security/bynder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bynder-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/well-known/bynder-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bynder-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/well-known/bynder-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bynder-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/llms/bynder-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bynder-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/packages/bynder-packages.yml
   title: ''
   type: Packages
   url: packages/bynder-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/packages/bynder-packages.yml
   title: ''
   type: SDKs
   url: packages/bynder-packages.yml
@@ -853,18 +932,22 @@ common:
   type: C# SDK
   url: https://github.com/Bynder/bynder-c-sharp-sdk
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/components/bynder-components.yml
   title: ''
   type: Components
   url: components/bynder-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/asyncapi/bynder-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bynder-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/agentic-access/bynder-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bynder-agentic-access.yml
@@ -897,6 +980,41 @@ scopes:
   scope_count: 29
   slug: bynder-scopes
   summary_line: 29 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 57.2
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 63.5
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 57.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 45.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 81
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png
 security:
 - kind: authentication

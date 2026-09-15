@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,14 +111,17 @@ common:
   type: Website
   url: https://dotnet.microsoft.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/packages/microsoft-net-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-net-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/well-known/microsoft-net-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-net-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/well-known/microsoft-net-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-net-security.txt
@@ -102,6 +130,7 @@ common:
   type: Security
   url: https://www.microsoft.com/en-us/msrc/cvd
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/security/microsoft-net-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-net-trust-center.yml
@@ -110,30 +139,37 @@ common:
   type: Compliance
   url: https://www.microsoft.com/en-us/trust-center
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/mcp/microsoft-net-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/microsoft-net-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/mcp/microsoft-net-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/microsoft-net-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/llms/microsoft-net-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-net-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/conformance/microsoft-net-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-net-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/errors/microsoft-net-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-net-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/lifecycle/microsoft-net-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-net-lifecycle.yml
@@ -146,50 +182,62 @@ common:
   type: Deprecation
   url: https://learn.microsoft.com/en-us/dotnet/core/compatibility/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/conventions/microsoft-net-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-net-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/changelog/microsoft-net-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-net-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/cli/microsoft-net-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-net-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/sandbox/microsoft-net-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-net-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/data-model/microsoft-net-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-net-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/rate-limits/microsoft-net-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-net-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/plans/microsoft-net-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-net-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/finops/microsoft-net-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-net-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/overlays/microsoft-net-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-net-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/overlays/microsoft-net-serviceindex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-net-serviceindex-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/overlays/microsoft-net-registration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-net-registration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/overlays/microsoft-net-packagecontent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-net-packagecontent-overlay.yaml
@@ -210,18 +258,22 @@ common:
   type: Community
   url: https://dotnet.microsoft.com/en-us/platform/community
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/agentic-access/microsoft-net-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-net-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/security/microsoft-net-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-net-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/security/microsoft-net-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-net-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/authentication/microsoft-net-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-net-authentication.yml
@@ -336,6 +388,42 @@ rate_limits:
 - limit_count: 8
   name: Microsoft Net Rate Limits
   slug: microsoft-net-rate-limits
+score:
+  band: strong
+  composite: 60.9
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 18.2
+    contract_quality: 49.0
+    developer_ergonomics: 80.4
+    discoverability: 72.2
+    operational_transparency: 89.5
+  previous_composite: 60.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/screenshots/microsoft-net-2026-06-20T185509.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: RESTful JSON API to build and manage backstitch topics — content feeds assembled from social, RSS, video, deals, subreddit, and custom sources with include/exclude/NSFW filters — and to retrieve norma
@@ -20,6 +45,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/security/backstitch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/backstitch-domain-security.yml
@@ -56,34 +82,42 @@ common:
   type: TrustCenter
   url: https://trust.backstitch.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/authentication/backstitch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/backstitch-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/errors/backstitch-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/backstitch-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/lifecycle/backstitch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/backstitch-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/conventions/backstitch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/backstitch-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/data-model/backstitch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/backstitch-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/components/backstitch-components.yml
   title: ''
   type: Components
   url: components/backstitch-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/mcp/backstitch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/backstitch-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/llms/backstitch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/backstitch-llms.txt
@@ -108,10 +142,12 @@ common:
   type: Login
   url: https://studio.backstit.ch/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/conformance/backstitch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/backstitch-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/security/backstitch-trust-center.yml
   title: ''
   type: Compliance
   url: security/backstitch-trust-center.yml
@@ -136,6 +172,35 @@ rate_limits:
 - limit_count: 0
   name: Backstitch Rate Limits
   slug: backstitch-rate-limits
+score:
+  band: thin
+  composite: 30.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 30.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/screenshots/backstitch-2026-07-25T202231.png
 security:
 - kind: authentication

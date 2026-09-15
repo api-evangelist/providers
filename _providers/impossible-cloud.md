@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,50 +75,62 @@ collections:
   slug: open-impossible-cloud-partners-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/_original/impossible-cloud-management-console-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/impossible-cloud-management-console-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/llms/impossible-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impossible-cloud-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/mcp/impossible-cloud-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/impossible-cloud-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/overlays/impossible-cloud-management-console-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-cloud-management-console-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/conformance/impossible-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impossible-cloud-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/lifecycle/impossible-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impossible-cloud-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/conventions/impossible-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impossible-cloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/data-model/impossible-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/impossible-cloud-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/security/impossible-cloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/impossible-cloud-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/security/impossible-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/impossible-cloud-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/agentic-access/impossible-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/impossible-cloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/authentication/impossible-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impossible-cloud-authentication.yml
@@ -174,6 +211,46 @@ overview: 'Impossible Cloud publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
   Impossible Cloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 45.9
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 49.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 45.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/screenshots/impossible-cloud-2026-07-25T222158.png
 security:
 - kind: authentication

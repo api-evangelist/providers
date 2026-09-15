@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,18 +111,22 @@ collections:
   slug: open-gotham-greens-taxonomy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/capabilities/gotham-greens-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gotham-greens-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/mcp/gotham-greens-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gotham-greens-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/agentic-access/gotham-greens-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gotham-greens-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/security/gotham-greens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gotham-greens-domain-security.yml
@@ -158,46 +187,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/gotham-greens-farms/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/authentication/gotham-greens-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gotham-greens-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/errors/gotham-greens-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gotham-greens-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/conventions/gotham-greens-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gotham-greens-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/data-model/gotham-greens-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gotham-greens-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/conformance/gotham-greens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gotham-greens-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/lifecycle/gotham-greens-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gotham-greens-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/well-known/gotham-greens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gotham-greens-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/llms/gotham-greens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gotham-greens-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/mcp/gotham-greens-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/gotham-greens-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/examples/gotham-greens-examples.yml
   title: ''
   type: Examples
   url: examples/gotham-greens-examples.yml
@@ -215,6 +255,42 @@ overview: 'Gotham Greens publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
   Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 25 more developer resources.'
 random_paper: 6
+score:
+  band: thin
+  composite: 37.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 55.4
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 0.0
+  previous_composite: 37.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: SCE's Customer Data Access (CDA) platform, through which a customer can authorize a registered third party to receive their electric usage and billing data. SCE states on its public third-party page t
@@ -42,10 +67,12 @@ collections:
   slug: open-southern-california-edison-drpep-arcgis
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/overlays/southern-california-edison-drpep-arcgis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/southern-california-edison-drpep-arcgis-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/security/southern-california-edison-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/southern-california-edison-domain-security.yml
@@ -94,46 +121,57 @@ common:
   type: Newsroom
   url: https://newsroom.edison.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/authentication/southern-california-edison-authentication.yml
   title: ''
   type: Authentication
   url: authentication/southern-california-edison-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/conventions/southern-california-edison-conventions.yml
   title: ''
   type: Conventions
   url: conventions/southern-california-edison-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/errors/southern-california-edison-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/southern-california-edison-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/lifecycle/southern-california-edison-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/southern-california-edison-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/conformance/southern-california-edison-conformance.yml
   title: ''
   type: Conformance
   url: conformance/southern-california-edison-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/data-model/southern-california-edison-data-model.yml
   title: ''
   type: DataModel
   url: data-model/southern-california-edison-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/well-known/southern-california-edison-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/southern-california-edison-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/llms/southern-california-edison-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/southern-california-edison-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-drpep-arcgis-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/southern-california-edison-drpep-arcgis-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/json-schema/southern-california-edison-drpep-layers-schema.json
   title: ''
   type: JsonSchema
   url: json-schema/southern-california-edison-drpep-layers-schema.json
@@ -155,6 +193,53 @@ overview: 'Southern California Edison publishes 4 APIs on the [APIs.io](https://
 
   Southern California Edison''s developer surface includes developer portal, signup flow, documentation, support, authentication, and 19 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 30.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 13.1
+    developer_ergonomics: 44.6
+    discoverability: 59.3
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 30.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 51.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/screenshots/southern-california-edison-2026-09-02T160255.png
 security:
 - kind: authentication

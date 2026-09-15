@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -102,34 +127,42 @@ collections:
   slug: open-optus-sms-suite-status
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/capabilities/optus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/optus-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-rest-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optus-sms-suite-rest-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-rest-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optus-sms-suite-rest-v2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/optus-send-and-reconcile-sms.md
   title: ''
   type: AgentSkill
   url: skills/optus-send-and-reconcile-sms.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-campaign-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optus-sms-suite-campaign-manager-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/optus-run-sms-campaign.md
   title: ''
   type: AgentSkill
   url: skills/optus-run-sms-campaign.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/overlays/optus-sms-suite-status-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optus-sms-suite-status-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/optus-check-service-health.md
   title: ''
   type: AgentSkill
   url: skills/optus-check-service-health.md
@@ -178,18 +211,22 @@ common:
   type: PrivacyPolicy
   url: https://www.optus.com.au/about/legal/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/authentication/optus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/optus-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/conventions/optus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/optus-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/errors/optus-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/optus-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/lifecycle/optus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/optus-lifecycle.yml
@@ -198,14 +235,17 @@ common:
   type: StatusPage
   url: https://status.sms.optus.com.au/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/lifecycle/optus-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/optus-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/changelog/optus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/optus-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/conformance/optus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/optus-conformance.yml
@@ -214,6 +254,7 @@ common:
   type: Compliance
   url: https://sms.optus.com.au/docs/en/solution-sheets/safe-secure/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/security/optus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/optus-trust-center.yml
@@ -222,46 +263,57 @@ common:
   type: Security
   url: https://bugcrowd.com/optus-vdp-pro
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/security/optus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/optus-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/security/optus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/optus-domain-security.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/asyncapi/optus-sms-suite-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/optus-sms-suite-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/asyncapi/optus-sms-suite-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/optus-sms-suite-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/data-model/optus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/optus-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/mcp/optus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/optus-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/mcp/optus-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/optus-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/agentic-access/optus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/optus-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/llms/optus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/optus-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/packages/optus-packages.yml
   title: ''
   type: Packages
   url: packages/optus-packages.yml
@@ -290,6 +342,54 @@ overview: 'Optus publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
   Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 36 more developer resources.'
 random_paper: 4
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 51.9
+    developer_ergonomics: 56.5
+    discoverability: 64.8
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 52.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:
 - kind: authentication

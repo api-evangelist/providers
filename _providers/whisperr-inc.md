@@ -11,6 +11,31 @@ access_model:
   - https://whisperr.net/get-access
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.whisperr.net
@@ -55,6 +80,7 @@ common:
   type: License
   url: https://github.com/WhisperrAI/whisperr-spec/blob/main/LICENSE
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/openapi/whisperr-inc-runtime-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/whisperr-inc-runtime-openapi.json
@@ -79,66 +105,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/WhisperrAI
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/authentication/whisperr-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whisperr-inc-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/conventions/whisperr-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/whisperr-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/conventions/whisperr-inc-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/whisperr-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/errors/whisperr-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/whisperr-inc-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/rate-limits/whisperr-inc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/whisperr-inc-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/data-model/whisperr-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/whisperr-inc-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/overlays/whisperr-inc-runtime-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/whisperr-inc-runtime-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/conformance/whisperr-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/whisperr-inc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/lifecycle/whisperr-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/whisperr-inc-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/packages/whisperr-inc-packages.yml
   title: ''
   type: Packages
   url: packages/whisperr-inc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/packages/whisperr-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/whisperr-inc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/cli/whisperr-inc-cli.yml
   title: ''
   type: CLI
   url: cli/whisperr-inc-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/llms/whisperr-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/whisperr-inc-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/plans/whisperr-inc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/whisperr-inc-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/security/whisperr-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whisperr-inc-domain-security.yml
@@ -197,6 +239,40 @@ rate_limits:
 - limit_count: 0
   name: Whisperr Inc Rate Limits
   slug: whisperr-inc-rate-limits
+score:
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 47.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 58.2
+    developer_ergonomics: 68.5
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 44.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 77.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/screenshots/whisperr-inc-2026-09-02T170705.png
 security:
 - kind: authentication

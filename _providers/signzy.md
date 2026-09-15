@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -76,22 +101,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/signzy/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/agentic-access/signzy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/signzy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/signzy-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/signzy-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signzy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/authentication/signzy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/signzy-authentication.yml
@@ -112,14 +142,17 @@ common:
   type: Documentation
   url: https://docs.signzy.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/plans/signzy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/signzy-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/rate-limits/signzy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/signzy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/finops/signzy-finops.yml
   title: ''
   type: FinOps
   url: finops/signzy-finops.yml
@@ -128,42 +161,52 @@ common:
   type: Blog
   url: https://www.signzy.com/blogs
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/llms/signzy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signzy-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/packages/signzy-packages.yml
   title: ''
   type: Packages
   url: packages/signzy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/packages/signzy-packages.yml
   title: ''
   type: SDKs
   url: packages/signzy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/well-known/signzy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/signzy-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/mcp/signzy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/signzy-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/overlays/signzy-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/signzy-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/conformance/signzy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/signzy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/security/signzy-trust-center.yml
   title: ''
   type: Compliance
   url: security/signzy-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/errors/signzy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/signzy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/lifecycle/signzy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/signzy-lifecycle.yml
@@ -172,18 +215,22 @@ common:
   type: StatusPage
   url: https://status.signzy.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/conventions/signzy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/signzy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/data-model/signzy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/signzy-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/sandbox/signzy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/signzy-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -216,6 +263,7 @@ common:
   type: SignUp
   url: https://www.signzy.com/contact
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/collections/signzy.postman_collection.json
   title: ''
   type: Postman
   url: collections/signzy.postman_collection.json
@@ -244,6 +292,41 @@ rate_limits:
 - limit_count: 3
   name: Signzy Rate Limits
   slug: signzy-rate-limits
+score:
+  band: strong
+  composite: 57.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 4.5
+    contract_quality: 54.8
+    developer_ergonomics: 62.5
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 57.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/screenshots/signzy-2026-08-17T081859.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -78,58 +103,72 @@ collections:
   slug: open-medigo-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/capabilities/medigo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/medigo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/overlays/medigo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medigo-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/agentic-access/medigo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/medigo-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/conventions/medigo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medigo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/errors/medigo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medigo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/lifecycle/medigo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medigo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/data-model/medigo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medigo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/asyncapi/medigo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/medigo-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/mcp/medigo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/medigo-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/conformance/medigo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medigo-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/llms/medigo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medigo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/security/medigo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medigo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/authentication/medigo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medigo-authentication.yml
@@ -169,6 +208,53 @@ overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
   Medigo''s developer surface includes authentication, support, and 17 more developer resources.'
 random_paper: 20
+score:
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 54.7
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 38.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/screenshots/medigo-2026-08-07T172347.png
 security:
 - kind: authentication

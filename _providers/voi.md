@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Deep-integration Mobility-as-a-Service API for partners to complete full user journeys inside their own apps - register users, discover vehicles by zone, get per-vehicle pricing, start and end rentals
@@ -27,6 +52,7 @@ common:
   type: License
   url: https://github.com/voiapp/mobility-data-specification/blob/dev/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/security/voi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voi-domain-security.yml
@@ -71,38 +97,47 @@ common:
   type: PrivacyPolicy
   url: https://www.voi.com/legal/privacy-policy/uk
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/authentication/voi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/errors/voi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/voi-error-codes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/sandbox/voi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/voi-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/conventions/voi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/lifecycle/voi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/conformance/voi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/data-model/voi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voi-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/packages/voi-packages.yml
   title: ''
   type: Packages
   url: packages/voi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/llms/voi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voi-llms.txt
@@ -171,6 +206,42 @@ overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
   Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
 random_paper: 19
+score:
+  band: thin
+  composite: 29.1
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 74.1
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 29.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-2026-06-20T201128.png
 security:
 - kind: authentication

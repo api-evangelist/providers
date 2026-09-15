@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The off-chain Gondi GraphQL API (api.gondi.xyz/graphql) is the order/offer book and indexing layer behind the Gondi NFT lending protocol. It exposes 76 queries and 48 mutations across 325 types: Sign-'
@@ -62,58 +87,72 @@ common:
   type: PrivacyPolicy
   url: https://www.gondi.xyz/privacy
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/graphql/gondi-graphql.md
   title: ''
   type: GraphQL
   url: graphql/gondi-graphql.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/packages/gondi-packages.yml
   title: ''
   type: Packages
   url: packages/gondi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/packages/gondi-packages.yml
   title: ''
   type: SDKs
   url: packages/gondi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/llms/gondi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gondi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/mcp/gondi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gondi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/authentication/gondi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gondi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/conventions/gondi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gondi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/conformance/gondi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gondi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/lifecycle/gondi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gondi-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/changelog/gondi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gondi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/data-model/gondi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gondi-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/security/gondi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gondi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/security/gondi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gondi-vulnerability-disclosure.yml
@@ -138,6 +177,36 @@ overview: 'Gondi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Gondi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
 random_paper: 4
+score:
+  band: thin
+  composite: 35.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 37.2
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 35.4
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/screenshots/gondi-2026-07-25T220037.png
 security:
 - kind: authentication

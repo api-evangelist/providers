@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Acorn Finance partner REST API. Basic-authenticated JSON endpoints on api.acornfinance.com let point-of-sale and contractor-software partners create companies and company users, retrieve loan appl
@@ -67,66 +92,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/headwaysales
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/security/acorn-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acorn-finance-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/authentication/acorn-finance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acorn-finance-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/conventions/acorn-finance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acorn-finance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/errors/acorn-finance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/acorn-finance-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/lifecycle/acorn-finance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acorn-finance-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/conformance/acorn-finance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acorn-finance-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/conformance/acorn-finance-conformance.yml
   title: ''
   type: Compliance
   url: conformance/acorn-finance-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/asyncapi/acorn-finance-postback-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/acorn-finance-postback-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/sandbox/acorn-finance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/acorn-finance-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/components/acorn-finance-components.yml
   title: ''
   type: Components
   url: components/acorn-finance-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/data-model/acorn-finance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acorn-finance-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/packages/acorn-finance-packages.yml
   title: ''
   type: Packages
   url: packages/acorn-finance-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/plans/acorn-finance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acorn-finance-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/rate-limits/acorn-finance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acorn-finance-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/llms/acorn-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acorn-finance-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acorn-finance/refs/heads/main/mcp/acorn-finance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/acorn-finance-mcp.yml
@@ -138,7 +179,7 @@ modified: '2026-09-06'
 name: Acorn Finance
 nav: Providers
 network: true
-overview: 'Acorn Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Loans, and Home Improvement.
+overview: 'Acorn Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Lending, Loans, and Home Improvement.
 
 
   The Acorn Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -154,6 +195,35 @@ rate_limits:
 - limit_count: 0
   name: Acorn Finance Rate Limits
   slug: acorn-finance-rate-limits
+score:
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 26.2
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 37.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Acorn Finance Authentication
@@ -166,14 +236,14 @@ security:
 slug: acorn-finance
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Lending
 - Loans
 - Home Improvement
 - Embedded Finance
-- Point of Sale
+- Point-of-Sale
 - Consumer Finance
 - Fintech
-- Webhooks
+- Webhook
 website: https://www.acornfinance.com/
 ---

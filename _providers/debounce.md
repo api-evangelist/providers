@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,98 +186,122 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/debounce/overview
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/a2a/debounce-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/debounce-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/mcp/debounce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/debounce-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/mcp/debounce-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/debounce-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/llms/debounce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/debounce-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/well-known/debounce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/debounce-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/agentic-access/debounce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/debounce-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/authentication/debounce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/debounce-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/scopes/debounce-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/debounce-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/conventions/debounce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/debounce-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/errors/debounce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/debounce-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/lifecycle/debounce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/debounce-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/conformance/debounce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/debounce-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/data-model/debounce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/debounce-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/components/debounce-components.yml
   title: ''
   type: Components
   url: components/debounce-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/packages/debounce-packages.yml
   title: ''
   type: Packages
   url: packages/debounce-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/changelog/debounce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/debounce-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/security/debounce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/debounce-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/plans/debounce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/debounce-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/rate-limits/debounce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/debounce-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/finops/debounce-finops.yml
   title: ''
   type: FinOps
   url: finops/debounce-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/vocabulary/debounce-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/debounce-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/json-ld/debounce-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/debounce-context.jsonld
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
@@ -317,6 +366,42 @@ scopes:
   scope_count: 1
   slug: debounce-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: exemplar
+  composite: 70.3
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 92.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 22.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 43.2
+    contract_quality: 68.8
+    developer_ergonomics: 65.5
+    discoverability: 81.5
+    operational_transparency: 63.2
+  previous_composite: 70.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/screenshots/debounce-2026-06-20T175751.png
 security:
 - kind: authentication

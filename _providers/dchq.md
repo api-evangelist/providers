@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dchq/refs/heads/main/security/dchq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dchq-domain-security.yml

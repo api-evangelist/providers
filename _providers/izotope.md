@@ -10,6 +10,31 @@ access_model:
   - https://www.izotope.com/llms.txt
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -28,70 +53,87 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/security/izotope-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/izotope-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/mcp/izotope-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/izotope-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/llms/izotope-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/izotope-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/well-known/izotope-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/izotope-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/authentication/izotope-authentication.yml
   title: ''
   type: Authentication
   url: authentication/izotope-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/scopes/izotope-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/izotope-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/conventions/izotope-conventions.yml
   title: ''
   type: Conventions
   url: conventions/izotope-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/conventions/izotope-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/izotope-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/errors/izotope-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/izotope-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/rate-limits/izotope-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/izotope-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/plans/izotope-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/izotope-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/lifecycle/izotope-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/izotope-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/conformance/izotope-conformance.yml
   title: ''
   type: Conformance
   url: conformance/izotope-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/data-model/izotope-data-model.yml
   title: ''
   type: DataModel
   url: data-model/izotope-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/agentic-access/izotope-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/izotope-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/packages/izotope-packages.yml
   title: ''
   type: Packages
   url: packages/izotope-packages.yml
@@ -219,6 +261,37 @@ scopes:
   scope_count: 4
   slug: izotope-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 27.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 27.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/screenshots/izotope-2026-08-07T170937.png
 security:
 - kind: authentication

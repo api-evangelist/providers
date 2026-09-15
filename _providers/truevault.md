@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: TrueVault Safe is a REST API and secure datastore for sensitive personal data. Resources include Users, Groups (with policy-based Access Grid permissions), Vaults, BLOBs, Documents, Schemas, Search (f
@@ -74,50 +99,62 @@ common:
   type: StatusPage
   url: https://status.truevault.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/authentication/truevault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truevault-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/packages/truevault-packages.yml
   title: ''
   type: Packages
   url: packages/truevault-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/packages/truevault-packages.yml
   title: ''
   type: SDKs
   url: packages/truevault-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/conventions/truevault-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truevault-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/errors/truevault-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/truevault-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/lifecycle/truevault-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truevault-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/changelog/truevault-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/truevault-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/conformance/truevault-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truevault-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/mcp/truevault-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/truevault-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/llms/truevault-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truevault-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/well-known/truevault-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/truevault-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/security/truevault-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truevault-domain-security.yml
@@ -134,6 +171,35 @@ overview: 'TrueVault publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   TrueVault''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 17
+score:
+  band: thin
+  composite: 31.4
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 54.8
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 31.4
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/screenshots/truevault-2026-09-02T164359.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -1459,50 +1484,62 @@ common:
   type: Website
   url: https://www.adyen.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/capabilities/adyen-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adyen-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/agentic-access/adyen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adyen-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/security/adyen-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adyen-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/security/adyen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adyen-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/security/adyen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adyen-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/authentication/adyen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adyen-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/sandbox/adyen-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adyen-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/conventions/adyen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adyen-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/changelog/adyen-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adyen-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/components/adyen-components.yml
   title: ''
   type: Components
   url: components/adyen-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/data-model/adyen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adyen-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/errors/adyen-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/adyen-decline-codes.yml
@@ -1511,70 +1548,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adyen/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-checkout-payment-and-amount-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-checkout-payment-and-amount-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-checkout-payment-and-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-checkout-payment-and-cancel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-checkout-payment-and-capture-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-checkout-payment-and-capture-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-checkout-payment-and-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-checkout-payment-and-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-checkout-payment-and-reverse-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-checkout-payment-and-reverse-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-checkout-session-create-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-checkout-session-create-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-classic-authorise-and-cancel-or-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-classic-authorise-and-cancel-or-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-classic-authorise-and-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-classic-authorise-and-cancel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-classic-authorise-and-capture-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-classic-authorise-and-capture-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-classic-authorise-and-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-classic-authorise-and-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-management-merchant-create-and-activate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-management-merchant-create-and-activate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-management-payment-method-add-and-get-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-management-payment-method-add-and-get-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-management-webhook-create-hmac-and-test-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-management-webhook-create-hmac-and-test-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-payment-link-create-and-expire-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-payment-link-create-and-expire-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-payment-link-create-and-get-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-payment-link-create-and-get-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-payout-store-submit-and-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-payout-store-submit-and-confirm-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/arazzo/adyen-recurring-list-and-disable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adyen-recurring-list-and-disable-workflow.yml
@@ -1715,10 +1769,12 @@ common:
   type: Tools
   url: https://github.com/Adyen/adyen-postman
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/rules/adyen-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/adyen-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/vocabulary/adyen-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/adyen-vocabulary.yaml
@@ -22421,6 +22477,44 @@ rules:
     info: 6
     warn: 14
   slug: adyen-spectral-rules
+score:
+  band: strong
+  composite: 65.4
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 28.8
+    contract_quality: 75.3
+    developer_ergonomics: 65.5
+    discoverability: 72.2
+    operational_transparency: 44.7
+  previous_composite: 65.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 138
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:
 - kind: authentication

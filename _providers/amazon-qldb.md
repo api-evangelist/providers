@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -64,22 +89,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-qldb/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/agentic-access/amazon-qldb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-qldb-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/security/amazon-qldb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-qldb-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/security/amazon-qldb-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-qldb-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/security/amazon-qldb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-qldb-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/authentication/amazon-qldb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-qldb-authentication.yml
@@ -132,470 +162,587 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-ld/amazon-qldb-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-qldb-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-cancel-journal-kinesis-stream-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-cancel-journal-kinesis-stream-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-create-ledger-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-create-ledger-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-create-ledger-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-create-ledger-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-describe-journal-kinesis-stream-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-describe-journal-kinesis-stream-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-describe-journal-s3export-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-describe-journal-s3export-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-describe-ledger-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-describe-ledger-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-encryption-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-encryption-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-error-cause-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-error-cause-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-export-journal-to-s3request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-export-journal-to-s3request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-export-journal-to-s3response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-export-journal-to-s3response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-export-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-export-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-get-block-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-get-block-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-get-block-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-get-block-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-get-digest-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-get-digest-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-get-revision-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-get-revision-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-get-revision-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-get-revision-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-journal-kinesis-stream-description-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-journal-kinesis-stream-description-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-journal-s3export-description-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-journal-s3export-description-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-kinesis-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-kinesis-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-ledger-encryption-description-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-ledger-encryption-description-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-ledger-state-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-ledger-state-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-ledger-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-ledger-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-list-journal-kinesis-streams-for-ledger-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-list-journal-kinesis-streams-for-ledger-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-list-journal-s3exports-for-ledger-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-list-journal-s3exports-for-ledger-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-list-journal-s3exports-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-list-journal-s3exports-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-list-ledgers-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-list-ledgers-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-list-tags-for-resource-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-list-tags-for-resource-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-output-format-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-output-format-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-permissions-mode-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-permissions-mode-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-s3encryption-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-s3encryption-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-s3export-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-s3export-configuration-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-s3object-encryption-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-s3object-encryption-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-stream-journal-to-kinesis-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-stream-journal-to-kinesis-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-stream-journal-to-kinesis-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-stream-journal-to-kinesis-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-stream-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-stream-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-tag-resource-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-tag-resource-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-update-ledger-permissions-mode-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-update-ledger-permissions-mode-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-update-ledger-permissions-mode-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-update-ledger-permissions-mode-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-update-ledger-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-update-ledger-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-update-ledger-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-update-ledger-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-schema/amazon-qldb-value-holder-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-qldb-value-holder-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-cancel-journal-kinesis-stream-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-cancel-journal-kinesis-stream-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-create-ledger-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-create-ledger-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-create-ledger-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-create-ledger-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-describe-journal-kinesis-stream-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-describe-journal-kinesis-stream-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-describe-journal-s3export-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-describe-journal-s3export-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-describe-ledger-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-describe-ledger-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-encryption-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-encryption-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-error-cause-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-error-cause-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-export-journal-to-s3request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-export-journal-to-s3request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-export-journal-to-s3response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-export-journal-to-s3response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-export-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-export-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-get-block-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-get-block-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-get-block-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-get-block-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-get-digest-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-get-digest-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-get-revision-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-get-revision-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-get-revision-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-get-revision-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-journal-kinesis-stream-description-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-journal-kinesis-stream-description-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-journal-s3export-description-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-journal-s3export-description-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-kinesis-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-kinesis-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-ledger-encryption-description-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-ledger-encryption-description-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-ledger-state-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-ledger-state-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-ledger-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-ledger-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-list-journal-kinesis-streams-for-ledger-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-list-journal-kinesis-streams-for-ledger-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-list-journal-s3exports-for-ledger-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-list-journal-s3exports-for-ledger-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-list-journal-s3exports-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-list-journal-s3exports-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-list-ledgers-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-list-ledgers-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-list-tags-for-resource-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-list-tags-for-resource-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-output-format-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-output-format-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-permissions-mode-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-permissions-mode-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-s3encryption-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-s3encryption-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-s3export-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-s3export-configuration-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-s3object-encryption-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-s3object-encryption-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-stream-journal-to-kinesis-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-stream-journal-to-kinesis-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-stream-journal-to-kinesis-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-stream-journal-to-kinesis-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-stream-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-stream-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-tag-resource-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-tag-resource-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-update-ledger-permissions-mode-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-update-ledger-permissions-mode-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-update-ledger-permissions-mode-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-update-ledger-permissions-mode-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-update-ledger-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-update-ledger-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-update-ledger-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-update-ledger-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/json-structure/amazon-qldb-value-holder-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-qldb-value-holder-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-cancel-journal-kinesis-stream-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-cancel-journal-kinesis-stream-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-create-ledger-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-create-ledger-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-create-ledger-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-create-ledger-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-describe-journal-kinesis-stream-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-describe-journal-kinesis-stream-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-describe-journal-s3export-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-describe-journal-s3export-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-describe-ledger-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-describe-ledger-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-export-journal-to-s3request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-export-journal-to-s3request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-export-journal-to-s3response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-export-journal-to-s3response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-get-block-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-get-block-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-get-block-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-get-block-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-get-digest-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-get-digest-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-get-revision-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-get-revision-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-get-revision-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-get-revision-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-journal-kinesis-stream-description-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-journal-kinesis-stream-description-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-journal-s3export-description-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-journal-s3export-description-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-kinesis-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-kinesis-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-ledger-encryption-description-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-ledger-encryption-description-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-ledger-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-ledger-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-list-journal-kinesis-streams-for-ledger-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-list-journal-kinesis-streams-for-ledger-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-list-journal-s3exports-for-ledger-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-list-journal-s3exports-for-ledger-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-list-journal-s3exports-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-list-journal-s3exports-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-list-ledgers-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-list-ledgers-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-list-tags-for-resource-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-list-tags-for-resource-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-s3encryption-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-s3encryption-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-s3export-configuration-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-s3export-configuration-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-stream-journal-to-kinesis-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-stream-journal-to-kinesis-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-stream-journal-to-kinesis-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-stream-journal-to-kinesis-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-tag-resource-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-tag-resource-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-update-ledger-permissions-mode-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-update-ledger-permissions-mode-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-update-ledger-permissions-mode-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-update-ledger-permissions-mode-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-update-ledger-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-update-ledger-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-update-ledger-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-update-ledger-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/examples/amazon-qldb-value-holder-example.json
   title: ''
   type: Examples
   url: examples/amazon-qldb-value-holder-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/rules/amazon-qldb-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-qldb-spectral-rules.yml
@@ -1002,6 +1149,38 @@ rules:
     info: 2
     warn: 10
   slug: amazon-qldb-spectral-rules
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 13.6
+    contract_quality: 68.5
+    developer_ergonomics: 27.4
+    discoverability: 66.7
+    operational_transparency: 26.3
+  previous_composite: 46.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/screenshots/amazon-qldb-2026-06-20T171803.png
 security:
 - kind: authentication

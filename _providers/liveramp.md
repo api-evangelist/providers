@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 43.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -296,18 +321,22 @@ collections:
   slug: open-liveramp
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/capabilities/liveramp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/liveramp-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/overlays/liveramp-activation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liveramp-activation-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/overlays/liveramp-clean-room-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liveramp-clean-room-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/overlays/liveramp-privacy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liveramp-privacy-api-overlay.yaml
@@ -380,14 +409,17 @@ common:
   type: StatusPage
   url: https://status.liveramp.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/lifecycle/liveramp-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/liveramp-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/lifecycle/liveramp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liveramp-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/changelog/liveramp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/liveramp-changelog.yml
@@ -396,6 +428,7 @@ common:
   type: Security
   url: https://liveramp.com/security/bug-bounty
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/security/liveramp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/liveramp-trust-center.yml
@@ -404,74 +437,92 @@ common:
   type: Compliance
   url: https://trust.liveramp.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/security/liveramp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/liveramp-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/security/liveramp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liveramp-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/conformance/liveramp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liveramp-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/authentication/liveramp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liveramp-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/scopes/liveramp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/liveramp-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/agentic-access/liveramp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/liveramp-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/conventions/liveramp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liveramp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/conventions/liveramp-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/liveramp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/errors/liveramp-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/liveramp-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/data-model/liveramp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/liveramp-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/rate-limits/liveramp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/liveramp-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/plans/liveramp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/liveramp-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/finops/liveramp-finops.yml
   title: ''
   type: FinOps
   url: finops/liveramp-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/packages/liveramp-packages.yml
   title: ''
   type: Packages
   url: packages/liveramp-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/packages/liveramp-packages.yml
   title: ''
   type: SDKs
   url: packages/liveramp-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/components/liveramp-components.yml
   title: ''
   type: Components
   url: components/liveramp-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/sandbox/liveramp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/liveramp-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/well-known/liveramp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liveramp-well-known.yml
@@ -480,14 +531,17 @@ common:
   type: APICatalog
   url: https://developers.liveramp.com/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/mcp/liveramp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/liveramp-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/mcp/liveramp-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/liveramp-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -496,14 +550,17 @@ common:
   type: LLMsTxt
   url: https://developers.liveramp.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/llms/liveramp-llms.txt
   title: ''
   type: LlmsText
   url: llms/liveramp-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/collections/liveramp.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/liveramp.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/collections/liveramp.opencollection.json
   title: ''
   type: OpenCollection
   url: collections/liveramp.opencollection.json
@@ -545,6 +602,41 @@ scopes:
   scope_count: 1
   slug: liveramp-scopes
   summary_line: 1 scope · clientCredentials/password
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 59.3
+    developer_ergonomics: 45.8
+    discoverability: 77.8
+    operational_transparency: 68.4
+  previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 51
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/screenshots/liveramp-2026-06-20T184618.png
 security:
 - kind: authentication

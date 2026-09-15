@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.wayflyer.com/financing/
@@ -116,6 +141,7 @@ collections:
   slug: open-wayflyer-user-details-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/overlays/wayflyer-embedded-finance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wayflyer-embedded-finance-overlay.yaml
@@ -140,6 +166,7 @@ common:
   type: GettingStarted
   url: https://docs.wayflyer.com/embedded-journey-v5-overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/authentication/wayflyer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wayflyer-authentication.yml
@@ -148,30 +175,37 @@ common:
   type: RateLimits
   url: https://docs.wayflyer.com/embedded-journey-v5-overview/shared/rate-limiting
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/sandbox/wayflyer-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wayflyer-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/packages/wayflyer-packages.yml
   title: ''
   type: Packages
   url: packages/wayflyer-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/packages/wayflyer-packages.yml
   title: ''
   type: SDKs
   url: packages/wayflyer-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/components/wayflyer-components.yml
   title: ''
   type: Components
   url: components/wayflyer-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/conventions/wayflyer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wayflyer-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/errors/wayflyer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wayflyer-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/lifecycle/wayflyer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wayflyer-lifecycle.yml
@@ -180,30 +214,37 @@ common:
   type: StatusPage
   url: https://status.wayflyer.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/conformance/wayflyer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wayflyer-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/data-model/wayflyer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wayflyer-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/mcp/wayflyer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wayflyer-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/llms/wayflyer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wayflyer-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/security/wayflyer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wayflyer-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/security/wayflyer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wayflyer-trust-center.yml
@@ -252,6 +293,40 @@ overview: 'Wayflyer publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
   Wayflyer''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 24 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 46.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 54.8
+    developer_ergonomics: 73.2
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 46.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/screenshots/wayflyer-2026-08-17T082841.png
 security:
 - kind: authentication

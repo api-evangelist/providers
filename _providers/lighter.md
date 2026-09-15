@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://mainnet.zklighter.elliot.ai
@@ -127,6 +152,7 @@ collections:
   slug: open-lighter-transaction-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/overlays/lighter-zklighter-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lighter-zklighter-overlay.yaml
@@ -179,78 +205,97 @@ common:
   type: Security
   url: https://docs.lighter.xyz/security/security-vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/security/lighter-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lighter-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/security/lighter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lighter-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/authentication/lighter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lighter-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/conventions/lighter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lighter-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/conventions/lighter-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lighter-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/lifecycle/lighter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lighter-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/conformance/lighter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lighter-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/errors/lighter-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lighter-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/errors/lighter-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/lighter-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/packages/lighter-packages.yml
   title: ''
   type: Packages
   url: packages/lighter-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/packages/lighter-packages.yml
   title: ''
   type: SDKs
   url: packages/lighter-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/mcp/lighter-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lighter-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/llms/lighter-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lighter-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/well-known/lighter-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lighter-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/data-model/lighter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lighter-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/sandbox/lighter-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lighter-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/rate-limits/lighter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lighter-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/plans/lighter-plans.yml
   title: ''
   type: Plans
   url: plans/lighter-plans.yml
@@ -279,6 +324,46 @@ rate_limits:
 - limit_count: 4
   name: Lighter Rate Limits
   slug: lighter-rate-limits
+score:
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 59.6
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 54.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 55.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/screenshots/lighter-2026-07-25T225116.png
 security:
 - kind: authentication

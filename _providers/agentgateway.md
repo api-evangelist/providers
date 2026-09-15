@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -103,10 +128,12 @@ common:
   type: JSONSchema
   url: https://agentgateway.dev/schema/config
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/json-schema/agentgateway-config-schema.json
   title: Configuration Schema (LocalConfig) - verbatim capture of https://agentgateway.dev/schema/config
   type: JSONSchema
   url: json-schema/agentgateway-config-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/json-structure/agentgateway-route-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/agentgateway-route-structure.json
@@ -115,46 +142,57 @@ common:
   type: Examples
   url: https://github.com/agentgateway/agentgateway/tree/main/examples
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/rules/agentgateway-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/agentgateway-jsonschema-spectral-rules.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/plans/agentgateway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agentgateway-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/rate-limits/agentgateway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentgateway-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/finops/agentgateway-finops.yml
   title: ''
   type: FinOps
   url: finops/agentgateway-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/packages/agentgateway-packages.yml
   title: ''
   type: Packages
   url: packages/agentgateway-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/cli/agentgateway-cli.yml
   title: ''
   type: CLI
   url: cli/agentgateway-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/authentication/agentgateway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentgateway-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/conventions/agentgateway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentgateway-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/conformance/agentgateway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentgateway-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/errors/agentgateway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agentgateway-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/lifecycle/agentgateway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentgateway-lifecycle.yml
@@ -163,18 +201,22 @@ common:
   type: Deprecation
   url: https://agentgateway.dev/docs/standalone/latest/reference/release-notes/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/changelog/agentgateway-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agentgateway-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/data-model/agentgateway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agentgateway-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/sandbox/agentgateway-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agentgateway-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/webhooks/agentgateway-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/agentgateway-webhooks.yml
@@ -183,22 +225,27 @@ common:
   type: Security
   url: https://github.com/agentgateway/agentgateway/blob/main/SECURITY.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/security/agentgateway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agentgateway-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/llms/agentgateway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentgateway-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/well-known/agentgateway-well-known.yml
   title: ''
   type: WellKnown-probe
   url: well-known/agentgateway-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/mcp/agentgateway-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/agentgateway-mcp.yml
@@ -223,10 +270,12 @@ common:
   type: License
   url: https://github.com/agentgateway/agentgateway/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/agentic-access/agentgateway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agentgateway-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/security/agentgateway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentgateway-domain-security.yml
@@ -395,6 +444,44 @@ rules:
     info: 2
     warn: 3
   slug: agentgateway-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 65.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 43.2
+    contract_quality: 53.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 54.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/screenshots/agentgateway-2026-06-20T170015.png
 security:
 - kind: authentication

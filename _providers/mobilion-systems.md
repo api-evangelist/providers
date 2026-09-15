@@ -10,10 +10,36 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/security/mobilion-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mobilion-systems-domain-security.yml
@@ -50,54 +76,67 @@ common:
   type: PrivacyPolicy
   url: https://www.mobilionsystems.com/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/packages/mobilion-systems-packages.yml
   title: ''
   type: Packages
   url: packages/mobilion-systems-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/packages/mobilion-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/mobilion-systems-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/changelog/mobilion-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mobilion-systems-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/errors/mobilion-systems-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mobilion-systems-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/conventions/mobilion-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mobilion-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/data-model/mobilion-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mobilion-systems-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/lifecycle/mobilion-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mobilion-systems-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/lifecycle/mobilion-systems-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/mobilion-systems-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/conformance/mobilion-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mobilion-systems-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/conformance/mobilion-systems-conformance.yml
   title: ''
   type: Compliance
   url: conformance/mobilion-systems-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/llms/mobilion-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mobilion-systems-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/plans/mobilion-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mobilion-systems-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/rate-limits/mobilion-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mobilion-systems-rate-limits.yml
@@ -126,6 +165,40 @@ rate_limits:
 - limit_count: 0
   name: Mobilion Systems Rate Limits
   slug: mobilion-systems-rate-limits
+score:
+  band: thin
+  composite: 26.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 50.0
+    operational_transparency: 26.3
+  previous_composite: 26.7
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 30.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobilion-systems/refs/heads/main/screenshots/mobilion-systems-2026-09-02T150607.png
 security:
 - kind: domain-security

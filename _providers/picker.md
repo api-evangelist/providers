@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -540,54 +565,67 @@ collections:
   slug: open-picker-vtex-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/capabilities/picker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/picker-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/security/picker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/picker-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/agentic-access/picker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/picker-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/authentication/picker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/picker-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/conventions/picker-conventions.yml
   title: ''
   type: Conventions
   url: conventions/picker-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/conformance/picker-conformance.yml
   title: ''
   type: Conformance
   url: conformance/picker-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/data-model/picker-data-model.yml
   title: ''
   type: DataModel
   url: data-model/picker-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/mcp/picker-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/picker-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/asyncapi/picker-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/picker-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/sandbox/picker-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/picker-sandbox.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/overlays/picker-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/picker-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/llms/picker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/picker-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/skills/picker-create-and-track-delivery.md
   title: ''
   type: AgentSkill
   url: skills/picker-create-and-track-delivery.md
@@ -643,6 +681,46 @@ overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, 
 
   Picker''s developer surface includes authentication, sandbox, documentation, API reference, pricing, signup flow, engineering blog, and 15 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 28.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 4.5
+    contract_quality: 43.8
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 28.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 64
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/screenshots/picker-2026-09-02T151222.png
 security:
 - kind: authentication

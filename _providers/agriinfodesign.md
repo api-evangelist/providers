@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://datastore.agribus-connect.net
@@ -64,62 +89,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/agri-info-design
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/authentication/agriinfodesign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agriinfodesign-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/scopes/agriinfodesign-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agriinfodesign-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/conventions/agriinfodesign-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agriinfodesign-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/data-model/agriinfodesign-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agriinfodesign-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/errors/agriinfodesign-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agriinfodesign-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/lifecycle/agriinfodesign-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agriinfodesign-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/conformance/agriinfodesign-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agriinfodesign-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/well-known/agriinfodesign-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agriinfodesign-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/llms/agriinfodesign-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agriinfodesign-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/packages/agriinfodesign-packages.yml
   title: ''
   type: Packages
   url: packages/agriinfodesign-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/plans/agriinfodesign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agriinfodesign-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/rate-limits/agriinfodesign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agriinfodesign-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/security/agriinfodesign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agriinfodesign-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/mcp/agriinfodesign-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agriinfodesign-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agriinfodesign/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -153,6 +193,47 @@ scopes:
   scope_count: 14
   slug: agriinfodesign-scopes
   summary_line: 14 scopes
+score:
+  band: developing
+  composite: 39.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 49.2
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - japan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 39.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Agriinfodesign Authentication

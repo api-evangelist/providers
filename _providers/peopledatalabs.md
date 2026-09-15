@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -145,10 +170,12 @@ collections:
   slug: open-peopledatalabs
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/agentic-access/peopledatalabs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/peopledatalabs-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/authentication/peopledatalabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/peopledatalabs-authentication.yml
@@ -169,14 +196,17 @@ common:
   type: Documentation
   url: https://docs.peopledatalabs.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/plans/peopledatalabs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/peopledatalabs-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/rate-limits/peopledatalabs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/peopledatalabs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/finops/peopledatalabs-finops.yml
   title: ''
   type: FinOps
   url: finops/peopledatalabs-finops.yml
@@ -185,10 +215,12 @@ common:
   type: Blog
   url: https://www.peopledatalabs.com/blog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/security/peopledatalabs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/peopledatalabs-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/security/peopledatalabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peopledatalabs-domain-security.yml
@@ -229,38 +261,47 @@ common:
   type: LlmsText
   url: https://docs.peopledatalabs.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/packages/peopledatalabs-packages.yml
   title: ''
   type: Packages
   url: packages/peopledatalabs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/packages/peopledatalabs-packages.yml
   title: ''
   type: SDKs
   url: packages/peopledatalabs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/well-known/peopledatalabs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/peopledatalabs-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/mcp/peopledatalabs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/peopledatalabs-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/mcp/peopledatalabs-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/peopledatalabs-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/a2a/peopledatalabs-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/peopledatalabs-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/llms/peopledatalabs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peopledatalabs-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/conformance/peopledatalabs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peopledatalabs-conformance.yml
@@ -269,34 +310,42 @@ common:
   type: Compliance
   url: https://www.peopledatalabs.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/errors/peopledatalabs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/peopledatalabs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/lifecycle/peopledatalabs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/peopledatalabs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/conventions/peopledatalabs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/peopledatalabs-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/changelog/peopledatalabs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/peopledatalabs-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/components/peopledatalabs-components.yml
   title: ''
   type: Components
   url: components/peopledatalabs-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/data-model/peopledatalabs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/peopledatalabs-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/sandbox/peopledatalabs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/peopledatalabs-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/asyncapi/peopledatalabs-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/peopledatalabs-webhooks.yml
@@ -352,6 +401,41 @@ rate_limits:
 - limit_count: 7
   name: Peopledatalabs Rate Limits
   slug: peopledatalabs-rate-limits
+score:
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 82.9
+    contract_governance: 18.2
+    contract_quality: 58.4
+    developer_ergonomics: 81.0
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 66.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/screenshots/peopledatalabs-2026-06-20T191552.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'OAuth2 client-credentials REST API for B2B BNPL: checkout sessions, hosted payment page, backend order creation, order management, captures (invoices), payment confirmation, refunds/credit notes, and '
@@ -21,6 +46,7 @@ asyncapis:
   slug: billie-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/security/billie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/billie-vulnerability-disclosure.yml
@@ -29,6 +55,7 @@ common:
   type: Security
   url: https://billie.io/coordinated-vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/security/billie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/billie-domain-security.yml
@@ -53,58 +80,72 @@ common:
   type: GettingStarted
   url: https://docs.billie.io/docs/get-started-with-billies-api-integration
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/authentication/billie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/billie-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/packages/billie-packages.yml
   title: ''
   type: SDKs
   url: packages/billie-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/packages/billie-packages.yml
   title: ''
   type: Packages
   url: packages/billie-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/sandbox/billie-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/billie-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/asyncapi/billie-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/billie-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/mcp/billie-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/billie-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/llms/billie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/billie-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/well-known/billie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/billie-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/well-known/billie-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/billie-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/conventions/billie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/billie-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/errors/billie-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/billie-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/errors/billie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/billie-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/lifecycle/billie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/billie-lifecycle.yml
@@ -113,14 +154,17 @@ common:
   type: StatusPage
   url: https://status.billie.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/conformance/billie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/billie-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/data-model/billie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/billie-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/components/billie-components.yml
   title: ''
   type: Components
   url: components/billie-components.yml
@@ -172,6 +216,50 @@ overview: 'Billie publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Billie''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 27 more developer resources.'
 random_paper: 16
+score:
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 38.4
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 42.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/screenshots/billie-2026-07-25T202942.png
 security:
 - kind: authentication

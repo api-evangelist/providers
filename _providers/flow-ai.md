@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.4
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
@@ -67,46 +92,57 @@ common:
   type: YouTube
   url: https://youtube.com/@flowaicom
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/llms/flow-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flow-ai-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/packages/flow-ai-packages.yml
   title: ''
   type: Packages
   url: packages/flow-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/packages/flow-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/flow-ai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/mcp/flow-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flow-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/changelog/flow-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flow-ai-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/cli/flow-ai-cli.yml
   title: ''
   type: CLI
   url: cli/flow-ai-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/authentication/flow-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flow-ai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/conventions/flow-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flow-ai-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/sandbox/flow-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/flow-ai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/conformance/flow-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flow-ai-conformance.yml
@@ -115,6 +151,7 @@ common:
   type: Compliance
   url: https://flow-ai.com/legal
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/security/flow-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flow-ai-domain-security.yml
@@ -135,6 +172,36 @@ overview: 'Flow AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Flow AI''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, YouTube channel, and 19 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 32.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 80.4
+    discoverability: 57.4
+    operational_transparency: 18.4
+  previous_composite: 32.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-ai/refs/heads/main/screenshots/flow-ai-2026-07-25T214827.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -171,26 +196,32 @@ collections:
   slug: open-cloudformation-templates-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/capabilities/cloudformation-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudformation-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/agentic-access/cloudformation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudformation-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/security/cloudformation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudformation-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/security/cloudformation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudformation-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/security/cloudformation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudformation-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/authentication/cloudformation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudformation-authentication.yml
@@ -199,38 +230,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/aws-cloudformation/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-audit-exports-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-audit-exports-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-change-set-deploy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-change-set-deploy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-deploy-stack-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-deploy-stack-set-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-detect-stack-drift-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-detect-stack-drift-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-inspect-stack-resource-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-inspect-stack-resource-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-provision-stack-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-provision-stack-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-review-change-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-review-change-set-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-safe-stack-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-safe-stack-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/arazzo/cloudformation-teardown-stack-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudformation-teardown-stack-workflow.yml
@@ -311,86 +351,107 @@ common:
   type: CLI
   url: https://github.com/aws-cloudformation/rain
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/stack.json
   title: Stack Schema
   type: JSONSchema
   url: json-schema/stack.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/template.json
   title: Template Schema
   type: JSONSchema
   url: json-schema/template.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/resource.json
   title: Resource Schema
   type: JSONSchema
   url: json-schema/resource.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/change-set.json
   title: Change Set Schema
   type: JSONSchema
   url: json-schema/change-set.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-change-schema.json
   title: Change Schema
   type: JSONSchema
   url: json-schema/cloudformation-change-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-change-set-detail-schema.json
   title: Change Set Detail Schema
   type: JSONSchema
   url: json-schema/cloudformation-change-set-detail-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-change-set-summary-schema.json
   title: Change Set Summary Schema
   type: JSONSchema
   url: json-schema/cloudformation-change-set-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-error-response-schema.json
   title: Error Response Schema
   type: JSONSchema
   url: json-schema/cloudformation-error-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-stack-schema.json
   title: Stack Detail Schema
   type: JSONSchema
   url: json-schema/cloudformation-stack-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-stack-event-schema.json
   title: Stack Event Schema
   type: JSONSchema
   url: json-schema/cloudformation-stack-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-stack-resource-schema.json
   title: Stack Resource Schema
   type: JSONSchema
   url: json-schema/cloudformation-stack-resource-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-stack-summary-schema.json
   title: Stack Summary Schema
   type: JSONSchema
   url: json-schema/cloudformation-stack-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloudformation-tag-schema.json
   title: Tag Schema
   type: JSONSchema
   url: json-schema/cloudformation-tag-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloud-control-progress-event-schema.json
   title: Cloud Control Progress Event Schema
   type: JSONSchema
   url: json-schema/cloud-control-progress-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloud-control-resource-description-schema.json
   title: Cloud Control Resource Description Schema
   type: JSONSchema
   url: json-schema/cloud-control-resource-description-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-schema/cloud-control-error-response-schema.json
   title: Cloud Control Error Response Schema
   type: JSONSchema
   url: json-schema/cloud-control-error-response-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-ld/context.jsonld
   title: JSON-LD Context
   type: JSONLD
   url: json-ld/context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-ld/cloudformation-context.jsonld
   title: CloudFormation JSON-LD Context
   type: JSONLD
   url: json-ld/cloudformation-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/json-ld/cloud-control-context.jsonld
   title: Cloud Control JSON-LD Context
   type: JSONLD
   url: json-ld/cloud-control-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/vocabulary/cloudformation-vocabulary.yaml
   title: CloudFormation Vocabulary
   type: Vocabulary
   url: vocabulary/cloudformation-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/rules/cloudformation-spectral-rules.yml
   title: Spectral Rules
   type: Rules
   url: rules/cloudformation-spectral-rules.yml
@@ -806,6 +867,38 @@ rules:
     info: 0
     warn: 9
   slug: cloudformation-spectral-rules
+score:
+  band: strong
+  composite: 61.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 55.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 64.1
+    developer_ergonomics: 84.5
+    discoverability: 66.7
+    operational_transparency: 42.1
+  previous_composite: 61.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -80,14 +105,17 @@ collections:
   slug: open-revel-systems-scheduling-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/agentic-access/revel-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/revel-systems-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/security/revel-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revel-systems-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/authentication/revel-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revel-systems-authentication.yml
@@ -112,22 +140,27 @@ common:
   type: FAQ
   url: https://developer.revelsystems.com/revelsystems/docs/frequently-asked-questions
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/rules/revel-systems-rules.yml
   title: ''
   type: SpectralRules
   url: rules/revel-systems-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/vocabulary/revel-systems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/revel-systems-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/plans/revel-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/revel-systems-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/rate-limits/revel-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/revel-systems-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/finops/revel-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/revel-systems-finops.yml
@@ -388,6 +421,38 @@ rules:
     info: 8
     warn: 18
   slug: revel-systems-rules
+score:
+  band: emerging
+  composite: 22.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 67.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 28.8
+    contract_quality: 40.5
+    developer_ergonomics: 1.2
+    discoverability: 55.6
+    operational_transparency: 7.9
+  previous_composite: 22.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
 security:
 - kind: authentication

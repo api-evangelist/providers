@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Public SPARQL 1.1 query endpoint backed by OpenLink Virtuoso over the DBpedia knowledge graph derived from Wikipedia. Supports up to 10,000 result rows, 120-second query timeout, and 100 requests/seco
@@ -32,6 +57,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dbpedia/refs/heads/main/security/dbpedia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dbpedia-domain-security.yml
@@ -56,14 +82,17 @@ common:
   type: Blog
   url: https://www.dbpedia.org/blog/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dbpedia/refs/heads/main/plans/dbpedia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dbpedia-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dbpedia/refs/heads/main/rate-limits/dbpedia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dbpedia-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dbpedia/refs/heads/main/finops/dbpedia-finops.yml
   title: ''
   type: FinOps
   url: finops/dbpedia-finops.yml
@@ -92,6 +121,38 @@ rate_limits:
 - limit_count: 7
   name: Dbpedia Rate Limits
   slug: dbpedia-rate-limits
+score:
+  band: emerging
+  composite: 21.1
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 63.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 15.5
+    discoverability: 74.1
+    operational_transparency: 36.8
+  previous_composite: 21.1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 14.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbpedia/refs/heads/main/screenshots/dbpedia-2026-06-20T175737.png
 security:
 - kind: domain-security

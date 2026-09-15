@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://hathora.dev/'', ''status'': 301, ''note'': ''declared website redirects to https://gamefabric.com/ — a different registrable domain (hathora.dev -> gamefabric.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -118,18 +143,22 @@ collections:
   slug: open-hathora
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/capabilities/hathora-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hathora-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/agentic-access/hathora-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hathora-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/security/hathora-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hathora-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/authentication/hathora-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hathora-authentication.yml
@@ -150,14 +179,17 @@ common:
   type: Documentation
   url: https://hathora.dev/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/plans/hathora-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hathora-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/rate-limits/hathora-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hathora-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/finops/hathora-finops.yml
   title: ''
   type: FinOps
   url: finops/hathora-finops.yml
@@ -190,6 +222,38 @@ rate_limits:
 - limit_count: 5
   name: Hathora Rate Limits
   slug: hathora-rate-limits
+score:
+  band: thin
+  composite: 33.1
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 46.0
+    developer_ergonomics: 15.5
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 33.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/screenshots/hathora-2026-07-25T220753.png
 security:
 - kind: authentication

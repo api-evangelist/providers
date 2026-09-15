@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'insurancecouncil.com.au runs on WordPress and leaves the standard WordPress REST API reachable anonymously at /wp-json/, returning JSON for pages, media (the PDF publication corpus of media releases, '
@@ -25,54 +50,67 @@ apis:
 artifact_total: 16
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/security/insurance-council-australia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insurance-council-australia-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/authentication/insurance-council-australia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insurance-council-australia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/scopes/insurance-council-australia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/insurance-council-australia-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/well-known/insurance-council-australia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/insurance-council-australia-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/well-known/insurance-council-australia-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/insurance-council-australia-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/conventions/insurance-council-australia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/insurance-council-australia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/errors/insurance-council-australia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/insurance-council-australia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/data-model/insurance-council-australia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/insurance-council-australia-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/conformance/insurance-council-australia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insurance-council-australia-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/lifecycle/insurance-council-australia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/insurance-council-australia-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/mcp/insurance-council-australia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/insurance-council-australia-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/llms/insurance-council-australia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insurance-council-australia-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/discovery/insurance-council-australia-wp-json-root.json
   title: ''
   type: DiscoveryDocument
   url: discovery/insurance-council-australia-wp-json-root.json
@@ -199,6 +237,48 @@ scopes:
   scope_count: 1
   slug: insurance-council-australia-scopes
   summary_line: 1 scope · authorizationCode/implicit
+score:
+  band: thin
+  composite: 33.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 50.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 13.3
+    developer_ergonomics: 45.2
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 33.4
+  provenance:
+    conformance: derived
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 63.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png
 security:
 - kind: authentication

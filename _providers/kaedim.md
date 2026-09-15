@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.kaedim3d.com/api/v1
@@ -56,30 +81,37 @@ collections:
   slug: open-kaedim-webhooks-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/security/kaedim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kaedim-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/authentication/kaedim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kaedim-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/conventions/kaedim-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kaedim-conventions.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/asyncapi/kaedim-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/kaedim-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/asyncapi/kaedim-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/kaedim-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/errors/kaedim-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kaedim-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/lifecycle/kaedim-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kaedim-lifecycle.yml
@@ -88,34 +120,42 @@ common:
   type: StatusPage
   url: https://github.com/Kaedim/kaedim_status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/changelog/kaedim-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kaedim-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/mcp/kaedim-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kaedim-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/llms/kaedim-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kaedim-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/packages/kaedim-packages.yml
   title: ''
   type: Packages
   url: packages/kaedim-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/packages/kaedim-packages.yml
   title: ''
   type: SDKs
   url: packages/kaedim-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/data-model/kaedim-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kaedim-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/sandbox/kaedim-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kaedim-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/conformance/kaedim-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kaedim-conformance.yml
@@ -124,10 +164,12 @@ common:
   type: Compliance
   url: https://www.kaedim3d.com/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/overlays/kaedim-web-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kaedim-web-api-overlay.yaml
@@ -179,6 +221,40 @@ overview: 'Kaedim publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
   Kaedim''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 20 more developer resources.'
 random_paper: 10
+score:
+  band: developing
+  composite: 39.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 22.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 39.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/screenshots/kaedim-2026-07-25T223407.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -82,22 +107,27 @@ collections:
   slug: open-news-break-monetization-reporting
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/capabilities/news-break-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/news-break-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/overlays/news-break-advertising-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/news-break-advertising-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/overlays/news-break-monetization-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/news-break-monetization-reporting-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/agentic-access/news-break-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/news-break-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/security/news-break-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/news-break-domain-security.yml
@@ -150,58 +180,72 @@ common:
   type: PrivacyPolicy
   url: https://www.newsbreak.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/authentication/news-break-authentication.yml
   title: ''
   type: Authentication
   url: authentication/news-break-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/rate-limits/news-break-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/news-break-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/errors/news-break-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/news-break-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/conventions/news-break-conventions.yml
   title: ''
   type: Conventions
   url: conventions/news-break-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/data-model/news-break-data-model.yml
   title: ''
   type: DataModel
   url: data-model/news-break-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/lifecycle/news-break-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/news-break-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/changelog/news-break-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/news-break-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/conformance/news-break-conformance.yml
   title: ''
   type: Conformance
   url: conformance/news-break-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/well-known/news-break-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/news-break-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/llms/news-break-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/news-break-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/mcp/news-break-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/news-break-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/arazzo/news-break-launch-campaign.yml
   title: ''
   type: Arazzo
   url: arazzo/news-break-launch-campaign.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/arazzo/news-break-pause-and-report.yml
   title: ''
   type: Arazzo
   url: arazzo/news-break-pause-and-report.yml
@@ -223,6 +267,41 @@ rate_limits:
 - limit_count: 9
   name: News Break Rate Limits
   slug: news-break-rate-limits
+score:
+  band: developing
+  composite: 46.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 58.4
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
 security:
 - kind: authentication

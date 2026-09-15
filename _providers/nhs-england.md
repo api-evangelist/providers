@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -131,34 +156,42 @@ asyncapis:
   slug: nhs-england-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/capabilities/nhs-england-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nhs-england-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/overlays/nhs-e-referral-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nhs-e-referral-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/overlays/nhs-booking-and-referral-fhir-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nhs-booking-and-referral-fhir-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/overlays/nhs-immunisation-history-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nhs-immunisation-history-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/overlays/nhs-organisation-data-service-fhir-r4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nhs-organisation-data-service-fhir-r4-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/overlays/nhs-app-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nhs-app-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/overlays/nhs-communications-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nhs-communications-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/overlays/nhs-service-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nhs-service-search-overlay.yaml
@@ -183,18 +216,22 @@ common:
   type: ContributionGuide
   url: https://github.com/NHSDigital/e-referrals-service-api/blob/develop/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/agentic-access/nhs-england-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nhs-england-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/security/nhs-england-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nhs-england-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/security/nhs-england-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nhs-england-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/authentication/nhs-england-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nhs-england-authentication.yml
@@ -219,10 +256,12 @@ common:
   type: Support
   url: https://digital.nhs.uk/developer/help-and-support
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/well-known/nhs-england-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nhs-england-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/well-known/nhs-england-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nhs-england-well-known.yml
@@ -231,18 +270,22 @@ common:
   type: Security
   url: https://www.england.nhs.uk/security-vulnerability-disclosure/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/mcp/nhs-england-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nhs-england-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/mcp/nhs-england-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/nhs-england-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/llms/nhs-england-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nhs-england-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/conformance/nhs-england-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nhs-england-conformance.yml
@@ -251,10 +294,12 @@ common:
   type: Compliance
   url: https://www.england.nhs.uk/long-read/digital-clinical-safety-assurance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/errors/nhs-england-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nhs-england-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/lifecycle/nhs-england-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nhs-england-lifecycle.yml
@@ -263,22 +308,27 @@ common:
   type: Deprecation
   url: https://digital.nhs.uk/services/e-referral-service/api/updates-and-releases/sunsetting-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/conventions/nhs-england-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nhs-england-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/asyncapi/nhs-england-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nhs-england-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/sandbox/nhs-england-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nhs-england-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/data-model/nhs-england-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nhs-england-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -311,6 +361,55 @@ overview: 'NHS England publishes 19 APIs on the [APIs.io](https://apis.io/) netw
 
   NHS England''s developer surface includes authentication, API reference, support, sandbox, documentation, getting-started guide, engineering blog, and 34 more developer resources.'
 random_paper: 11
+score:
+  band: developing
+  composite: 49.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 58.8
+    developer_ergonomics: 66.1
+    discoverability: 72.2
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 49.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png
 security:
 - kind: authentication

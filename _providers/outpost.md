@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://outpostnow.com'', ''status'': 301, ''note'': ''declared website redirects to https://outpost.ai/ — a different registrable domain (outpostnow.com -> outpost.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -60,50 +85,62 @@ common:
   type: PrivacyPolicy
   url: https://outpostnow.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/authentication/outpost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/outpost-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/conventions/outpost-conventions.yml
   title: ''
   type: Conventions
   url: conventions/outpost-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/conventions/outpost-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/outpost-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/errors/outpost-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/outpost-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/asyncapi/outpost-merchant-of-record-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/outpost-merchant-of-record-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/lifecycle/outpost-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/outpost-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/sandbox/outpost-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/outpost-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/data-model/outpost-data-model.yml
   title: ''
   type: DataModel
   url: data-model/outpost-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/conformance/outpost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/outpost-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/mcp/outpost-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/outpost-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/llms/outpost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/outpost-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/security/outpost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/outpost-domain-security.yml
@@ -123,6 +160,41 @@ overview: 'Outpost publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
   Outpost''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 14 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 37.5
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 52.4
+    discoverability: 81.5
+    operational_transparency: 7.9
+  previous_composite: 37.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/screenshots/outpost-2026-08-07T191059.png
 security:
 - kind: authentication

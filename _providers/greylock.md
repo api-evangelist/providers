@@ -31,6 +31,5 @@ tags:
 - Cybersecurity
 - Fintech
 - Infrastructure
-- Consumer
 - Silicon Valley
 ---

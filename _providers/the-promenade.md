@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://simcluster.ai
@@ -43,6 +68,7 @@ collections:
   slug: open-the-promenade-signup-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/security/the-promenade-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-promenade-domain-security.yml
@@ -59,34 +85,42 @@ common:
   type: Support
   url: https://discord.gg/simcluster
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/mcp/the-promenade-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-promenade-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/llms/simcluster-agent.md
   title: ''
   type: LLMsTxt
   url: llms/simcluster-agent.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/authentication/the-promenade-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-promenade-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/conventions/the-promenade-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-promenade-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/conventions/the-promenade-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-promenade-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/conformance/the-promenade-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-promenade-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/well-known/the-promenade-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-promenade-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -107,6 +141,40 @@ overview: 'The Promenade publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
   The Promenade''s developer surface includes documentation, support, authentication, and 9 more developer resources.'
 random_paper: 19
+score:
+  band: emerging
+  composite: 25.2
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 52.6
+    developer_ergonomics: 23.2
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 25.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/screenshots/the-promenade-2026-09-02T163411.png
 security:
 - kind: authentication

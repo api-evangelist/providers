@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 44.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -124,6 +149,7 @@ collections:
   slug: open-paywithmybank-verifycustomer-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/capabilities/paywithmybank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paywithmybank-capability-edges.yml
@@ -176,86 +202,107 @@ common:
   type: PrivacyPolicy
   url: https://www.trustly.com/us/privacy-policy
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/_original/paywithmybank-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/paywithmybank-openapi-original.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/authentication/paywithmybank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paywithmybank-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/agentic-access/paywithmybank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paywithmybank-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/security/paywithmybank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paywithmybank-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/packages/paywithmybank-packages.yml
   title: ''
   type: Packages
   url: packages/paywithmybank-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/packages/paywithmybank-packages.yml
   title: ''
   type: SDKs
   url: packages/paywithmybank-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/components/paywithmybank-components.yml
   title: ''
   type: Components
   url: components/paywithmybank-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/mcp/paywithmybank-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/paywithmybank-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/llms/paywithmybank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paywithmybank-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/well-known/paywithmybank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paywithmybank-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/well-known/paywithmybank-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/paywithmybank-api-catalog.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/conventions/paywithmybank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paywithmybank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/conventions/paywithmybank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/paywithmybank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/errors/paywithmybank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paywithmybank-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/lifecycle/paywithmybank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paywithmybank-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/conformance/paywithmybank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paywithmybank-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/data-model/paywithmybank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paywithmybank-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/sandbox/paywithmybank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/paywithmybank-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/asyncapi/paywithmybank-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paywithmybank-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/overlays/paywithmybank-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paywithmybank-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -279,6 +326,47 @@ overview: 'PayWithMyBank (Trustly) publishes 12 APIs on the [APIs.io](https://ap
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
 random_paper: 9
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 59.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 31.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:
 - kind: authentication

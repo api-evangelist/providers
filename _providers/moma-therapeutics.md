@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - baseURL: https://momatx.com/wp-json
@@ -130,50 +155,62 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/moma-therapeutics_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/authentication/moma-therapeutics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moma-therapeutics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/conventions/moma-therapeutics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moma-therapeutics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/conformance/moma-therapeutics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moma-therapeutics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/errors/moma-therapeutics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moma-therapeutics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/lifecycle/moma-therapeutics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moma-therapeutics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/data-model/moma-therapeutics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moma-therapeutics-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/packages/moma-therapeutics-packages.yml
   title: ''
   type: Packages
   url: packages/moma-therapeutics-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/security/moma-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moma-therapeutics-domain-security.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/rate-limits/moma-therapeutics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moma-therapeutics-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/plans/moma-therapeutics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moma-therapeutics-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/llms/moma-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moma-therapeutics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -199,6 +236,47 @@ rate_limits:
 - limit_count: 0
   name: Moma Therapeutics Rate Limits
   slug: moma-therapeutics-rate-limits
+score:
+  band: thin
+  composite: 32.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 53.4
+    developer_ergonomics: 16.1
+    discoverability: 74.1
+    operational_transparency: 0.0
+  previous_composite: 32.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/screenshots/moma-therapeutics-2026-09-02T150619.png
 security:
 - kind: authentication

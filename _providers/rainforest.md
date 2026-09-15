@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -343,6 +368,7 @@ common:
   type: StatusPage
   url: https://status.rainforestpay.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/changelog/rainforest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rainforest-changelog.yml
@@ -351,18 +377,22 @@ common:
   type: Glossary
   url: https://www.rainforestpay.com/glossary
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/authentication/rainforest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rainforest-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/agentic-access/rainforest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rainforest-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/security/rainforest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rainforest-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/security/rainforest-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rainforest-trust-center.yml
@@ -371,34 +401,42 @@ common:
   type: Compliance
   url: https://www.rainforestpay.com/data-security-compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/conformance/rainforest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rainforest-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/packages/rainforest-packages.yml
   title: ''
   type: Packages
   url: packages/rainforest-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/packages/rainforest-packages.yml
   title: ''
   type: SDKs
   url: packages/rainforest-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/mcp/rainforest-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rainforest-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/llms/rainforest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rainforest-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/errors/rainforest-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rainforest-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/errors/rainforest-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/rainforest-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/lifecycle/rainforest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rainforest-lifecycle.yml
@@ -407,42 +445,52 @@ common:
   type: Deprecation
   url: https://docs.rainforestpay.com/docs/api-version-upgrades
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/sandbox/rainforest-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rainforest-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/conventions/rainforest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rainforest-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/conventions/rainforest-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rainforest-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/components/rainforest-components.yml
   title: ''
   type: Components
   url: components/rainforest-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/data-model/rainforest-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rainforest-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/asyncapi/rainforest-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rainforest-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/overlays/rainforest-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rainforest-payments-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/arazzo/rainforest-collect-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/rainforest-collect-payment.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/arazzo/rainforest-onboard-merchant.yml
   title: ''
   type: Arazzo
   url: arazzo/rainforest-onboard-merchant.yml
@@ -462,6 +510,47 @@ overview: 'Rainforest publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 
   Rainforest''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
 random_paper: 14
+score:
+  band: strong
+  composite: 58.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 63.7
+    developer_ergonomics: 50.6
+    discoverability: 81.5
+    operational_transparency: 46.1
+  previous_composite: 58.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 59.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/screenshots/rainforest-2026-08-17T081441.png
 security:
 - kind: authentication

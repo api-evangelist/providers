@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: HTTP/JSON API for Advanced Navigation's Kinematica cloud GNSS/INS post-processing kinematic (PPK) service. Eleven documented calls let a customer application create a data set, upload primary and seco
@@ -7,6 +32,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/security/advancednavigation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advancednavigation-domain-security.yml
@@ -59,54 +85,67 @@ common:
   type: SignUp
   url: https://hq.advancednavigation.com.au/kinematica/home.jsp
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/packages/advancednavigation-packages.yml
   title: ''
   type: Packages
   url: packages/advancednavigation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/packages/advancednavigation-packages.yml
   title: ''
   type: SDKs
   url: packages/advancednavigation-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/authentication/advancednavigation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advancednavigation-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/rate-limits/advancednavigation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advancednavigation-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/plans/advancednavigation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advancednavigation-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/errors/advancednavigation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/advancednavigation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/lifecycle/advancednavigation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advancednavigation-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/lifecycle/advancednavigation-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/advancednavigation-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/conventions/advancednavigation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advancednavigation-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/changelog/advancednavigation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/advancednavigation-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/data-model/advancednavigation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/advancednavigation-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/conformance/advancednavigation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advancednavigation-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advancednavigation/refs/heads/main/llms/advancednavigation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advancednavigation-llms.txt
@@ -131,6 +170,35 @@ rate_limits:
 - limit_count: 1
   name: Advancednavigation Rate Limits
   slug: advancednavigation-rate-limits
+score:
+  band: developing
+  composite: 41.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 41.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Advancednavigation Authentication
@@ -151,7 +219,7 @@ tags:
 - Defense
 - Subsea
 - Geospatial
-- Post Processing
+- Post-Processing
 - Hardware
 website: https://www.advancednavigation.com/
 ---

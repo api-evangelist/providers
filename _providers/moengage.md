@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 67.8
+  scored_at: '2026-09-14'
 api_count: 30
 apis:
 - description: Hosted, OAuth-secured Model Context Protocol server that lets AI assistants build campaign drafts, author content, create and count segments, read and analyze flows, browse dashboards, search campaign
@@ -339,130 +364,162 @@ collections:
   slug: open-moengage-subscription-categories
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/capabilities/moengage-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moengage-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-gdpr-ccpa-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-gdpr-ccpa-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-business-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-business-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-cohort-audience-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-cohort-audience-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-campaign-draft-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-campaign-draft-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-campaigns-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-stats-report-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-stats-report-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-message-archival-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-message-archival-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-push-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-push-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-push-v2-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-push-v2-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-custom-segments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-custom-segments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-email-templates-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-email-templates-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-email-templates-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-email-templates-2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-push-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-push-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-sms-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-sms-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-in-app-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-in-app-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-osm-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-osm-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-content-blocks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-content-blocks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-catalog-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-catalog-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-recommendations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-recommendations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-coupons-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-coupons-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-email-subscription-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-email-subscription-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-subscription-categories-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-subscription-categories-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-flows-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-flows-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-inform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-inform-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-cards-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-cards-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-live-activities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-live-activities-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-personalize-experience-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-personalize-experience-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/overlays/moengage-offerings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moengage-offerings-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/security/moengage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/moengage-vulnerability-disclosure.yml
@@ -535,66 +592,82 @@ common:
   type: Compliance
   url: https://trust.moengage.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/changelog/moengage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moengage-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/llms/moengage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moengage-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/packages/moengage-packages.yml
   title: ''
   type: Packages
   url: packages/moengage-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/packages/moengage-packages.yml
   title: ''
   type: SDKs
   url: packages/moengage-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/well-known/moengage-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moengage-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/authentication/moengage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moengage-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/scopes/moengage-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/moengage-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/conventions/moengage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moengage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/conventions/moengage-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/moengage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/errors/moengage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moengage-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/lifecycle/moengage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moengage-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/conformance/moengage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moengage-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/data-model/moengage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moengage-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/rate-limits/moengage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moengage-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/security/moengage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moengage-domain-security.yml
@@ -603,22 +676,27 @@ common:
   type: Security
   url: https://www.moengage.com/responsible-disclosure/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/mcp/moengage-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moengage-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/mcp/moengage-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/moengage-tool-crosswalk.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/sandbox/moengage-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moengage-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/plans/moengage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moengage-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/asyncapi/moengage-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moengage-webhooks.yml
@@ -656,6 +734,52 @@ scopes:
   scope_count: 5
   slug: moengage-scopes
   summary_line: 5 scopes
+score:
+  band: exemplar
+  composite: 71.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 42.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 67.0
+    developer_ergonomics: 75.6
+    discoverability: 63.0
+    operational_transparency: 52.6
+  previous_composite: 71.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 45
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:
 - kind: authentication

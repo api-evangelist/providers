@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The JSON API behind StoryTap's embeddable video widgets. Brands load a first-party loader script from StoryTap's CDN, and that script POSTs to api.storytap.com/w/* to fetch an embed's configuration an
@@ -60,62 +85,77 @@ common:
   type: Security
   url: https://storytap.com/responsible-disclosure-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/lifecycle/storytap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/storytap-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/security/storytap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/storytap-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/security/storytap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/storytap-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/llms/storytap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/storytap-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/authentication/storytap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/storytap-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/packages/storytap-packages.yml
   title: ''
   type: Packages
   url: packages/storytap-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/components/storytap-components.yml
   title: ''
   type: Components
   url: components/storytap-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/conventions/storytap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/storytap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/errors/storytap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/storytap-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/rate-limits/storytap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/storytap-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/plans/storytap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/storytap-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/conformance/storytap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/storytap-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/conformance/storytap-conformance.yml
   title: ''
   type: Compliance
   url: conformance/storytap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/asyncapi/storytap-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/storytap-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/mcp/storytap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/storytap-mcp.yml
@@ -147,6 +187,35 @@ rate_limits:
 - limit_count: 0
   name: Storytap Rate Limits
   slug: storytap-rate-limits
+score:
+  band: thin
+  composite: 37.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 37.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/storytap/refs/heads/main/screenshots/storytap-2026-08-17T082128.png
 security:
 - kind: authentication

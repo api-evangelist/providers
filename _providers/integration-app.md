@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 57.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -163,94 +189,117 @@ common:
   type: Website
   url: https://getmembrane.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/packages/integration-app-packages.yml
   title: ''
   type: Packages
   url: packages/integration-app-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/packages/integration-app-packages.yml
   title: ''
   type: SDKs
   url: packages/integration-app-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/cli/integration-app-cli.yml
   title: ''
   type: CLI
   url: cli/integration-app-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/components/integration-app-components.yml
   title: ''
   type: Components
   url: components/integration-app-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/mcp/integration-app-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/integration-app-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/mcp/integration-app-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/integration-app-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/a2a/integration-app-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/integration-app-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/llms/integration-app-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/integration-app-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/well-known/integration-app-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/integration-app-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/overlays/integration-app-membrane-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/integration-app-membrane-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/conventions/integration-app-conventions.yml
   title: ''
   type: Conventions
   url: conventions/integration-app-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/errors/integration-app-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/integration-app-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/data-model/integration-app-data-model.yml
   title: ''
   type: DataModel
   url: data-model/integration-app-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/lifecycle/integration-app-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/integration-app-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/lifecycle/integration-app-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/integration-app-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/changelog/integration-app-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/integration-app-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/conformance/integration-app-conformance.yml
   title: ''
   type: Conformance
   url: conformance/integration-app-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/conformance/integration-app-conformance.yml
   title: ''
   type: Compliance
   url: conformance/integration-app-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/asyncapi/integration-app-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/integration-app-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/rate-limits/integration-app-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/integration-app-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/plans/integration-app-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/integration-app-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/sandbox/integration-app-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/integration-app-sandbox.yml
@@ -267,18 +316,22 @@ common:
   type: Support
   url: https://docs.getmembrane.com/docs/support
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/agentic-access/integration-app-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/integration-app-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/security/integration-app-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/integration-app-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/security/integration-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/integration-app-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/authentication/integration-app-authentication.yml
   title: ''
   type: Authentication
   url: authentication/integration-app-authentication.yml
@@ -389,6 +442,41 @@ rules:
     info: 0
     warn: 0
   slug: integration-app-rules
+score:
+  band: strong
+  composite: 61.0
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 6.2
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 61.0
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 54.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: rising
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/screenshots/integration-app-2026-06-20T183430.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: 'The CIP Kernel is a Super Long-Term Support (SLTS) Linux kernel branch maintained for ten or more years, providing a stable base for industrial systems that must remain in service across multi-decade '
@@ -34,10 +59,12 @@ apis:
 artifact_total: 14
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/authentication/civil-infrastructure-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/civil-infrastructure-platform-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/security/civil-infrastructure-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/civil-infrastructure-platform-domain-security.yml
@@ -66,10 +93,12 @@ common:
   type: Mailing List
   url: https://lists.cip-project.org/g/cip-dev
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/json-ld/civil-infrastructure-platform-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/civil-infrastructure-platform-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/rules/civil-infrastructure-platform-rules.yml
   title: ''
   type: Spectral
   url: rules/civil-infrastructure-platform-rules.yml
@@ -78,10 +107,12 @@ common:
   type: Blog
   url: https://cip-project.org/blog/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/openapi/civil-infrastructure-platform-tec-v1-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/civil-infrastructure-platform-tec-v1-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/well-known/civil-infrastructure-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/civil-infrastructure-platform-well-known.yml
@@ -90,26 +121,32 @@ common:
   type: APICatalog
   url: https://www.cip-project.org/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/llms/civil-infrastructure-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/civil-infrastructure-platform-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/conventions/civil-infrastructure-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/civil-infrastructure-platform-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/errors/civil-infrastructure-platform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/civil-infrastructure-platform-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/data-model/civil-infrastructure-platform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/civil-infrastructure-platform-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/lifecycle/civil-infrastructure-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/civil-infrastructure-platform-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/conformance/civil-infrastructure-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/civil-infrastructure-platform-conformance.yml
@@ -118,6 +155,7 @@ common:
   type: Compliance
   url: https://www.bestpractices.dev/projects/10564
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/security/civil-infrastructure-platform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/civil-infrastructure-platform-vulnerability-disclosure.yml
@@ -126,22 +164,27 @@ common:
   type: Security
   url: https://wiki.linuxfoundation.org/civilinfrastructureplatform/cipkernelmaintenance#security_fixes
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/packages/civil-infrastructure-platform-packages.yml
   title: ''
   type: Packages
   url: packages/civil-infrastructure-platform-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/plans/civil-infrastructure-platform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/civil-infrastructure-platform-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/rate-limits/civil-infrastructure-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/civil-infrastructure-platform-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/finops/civil-infrastructure-platform-finops.yml
   title: ''
   type: FinOps
   url: finops/civil-infrastructure-platform-finops.yml
@@ -178,10 +221,12 @@ common:
   type: Twitter
   url: https://twitter.com/cip_project
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/changelog/civil-infrastructure-platform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/civil-infrastructure-platform-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/mcp/civil-infrastructure-platform-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/civil-infrastructure-platform-mcp.yml
@@ -238,6 +283,35 @@ rules:
     info: 0
     warn: 3
   slug: civil-infrastructure-platform-rules
+score:
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 63.6
+    contract_quality: 65.8
+    developer_ergonomics: 37.5
+    discoverability: 83.3
+    operational_transparency: 28.9
+  previous_composite: 52.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/screenshots/civil-infrastructure-platform-2026-06-20T174430.png
 security:
 - kind: authentication

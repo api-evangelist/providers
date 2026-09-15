@@ -13,14 +13,17 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/security/adludio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adludio-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/packages/adludio-packages.yml
   title: ''
   type: Packages
   url: packages/adludio-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/llms/adludio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adludio-llms.txt

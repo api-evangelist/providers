@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 52.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.withallo.com
@@ -126,42 +151,52 @@ collections:
   slug: open-the-mobile-first-company-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/capabilities/the-mobile-first-company-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/the-mobile-first-company-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/security/the-mobile-first-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-mobile-first-company-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/authentication/the-mobile-first-company-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-mobile-first-company-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/_original/the-mobile-first-company-allo-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/the-mobile-first-company-allo-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/overlays/the-mobile-first-company-allo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-mobile-first-company-allo-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/scopes/the-mobile-first-company-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/the-mobile-first-company-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/conventions/the-mobile-first-company-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-mobile-first-company-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/conventions/the-mobile-first-company-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-mobile-first-company-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/errors/the-mobile-first-company-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-mobile-first-company-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/lifecycle/the-mobile-first-company-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-mobile-first-company-lifecycle.yml
@@ -170,34 +205,42 @@ common:
   type: StatusPage
   url: https://status.withallo.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/conformance/the-mobile-first-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-mobile-first-company-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/data-model/the-mobile-first-company-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-mobile-first-company-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/changelog/the-mobile-first-company-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-mobile-first-company-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/asyncapi/the-mobile-first-company-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/the-mobile-first-company-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/mcp/the-mobile-first-company-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-mobile-first-company-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/llms/the-mobile-first-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-mobile-first-company-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/well-known/the-mobile-first-company-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-mobile-first-company-well-known.yml
@@ -277,6 +320,46 @@ scopes:
   scope_count: 0
   slug: the-mobile-first-company-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 57.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 68.5
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 57.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 58.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/screenshots/the-mobile-first-company-2026-08-17T082339.png
 security:
 - kind: authentication

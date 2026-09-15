@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Game API is the primary client-side interface integrated into game builds for communication between the game and the LootLocker backend. It handles player session management, inventory, characters
@@ -23,6 +48,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lootlocker/refs/heads/main/security/lootlocker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lootlocker-domain-security.yml
@@ -67,14 +93,17 @@ common:
   type: SDKs
   url: https://lootlocker.com/sdk
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lootlocker/refs/heads/main/plans/lootlocker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lootlocker-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lootlocker/refs/heads/main/rate-limits/lootlocker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lootlocker-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lootlocker/refs/heads/main/finops/lootlocker-finops.yml
   title: ''
   type: FinOps
   url: finops/lootlocker-finops.yml
@@ -115,6 +144,32 @@ rate_limits:
 - limit_count: 0
   name: Lootlocker Rate Limits
   slug: lootlocker-rate-limits
+score:
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 63.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 50.0
+    developer_ergonomics: 26.2
+    discoverability: 74.1
+    operational_transparency: 36.8
+  previous_composite: 39.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lootlocker/refs/heads/main/screenshots/lootlocker-2026-06-20T184721.png
 security:
 - kind: domain-security

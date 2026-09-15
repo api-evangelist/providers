@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -200,114 +226,142 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-photoshop/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/agentic-access/adobe-photoshop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-photoshop-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/security/adobe-photoshop-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-photoshop-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/security/adobe-photoshop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-photoshop-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/authentication/adobe-photoshop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-photoshop-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/packages/adobe-photoshop-packages.yml
   title: ''
   type: Packages
   url: packages/adobe-photoshop-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/well-known/adobe-photoshop-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adobe-photoshop-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/well-known/adobe-photoshop-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adobe-photoshop-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/mcp/adobe-photoshop-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/adobe-photoshop-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/llms/adobe-photoshop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adobe-photoshop-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/overlays/adobe-photoshop-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-photoshop-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/conformance/adobe-photoshop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adobe-photoshop-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/errors/adobe-photoshop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adobe-photoshop-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/lifecycle/adobe-photoshop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adobe-photoshop-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/conventions/adobe-photoshop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adobe-photoshop-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/changelog/adobe-photoshop-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adobe-photoshop-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/data-model/adobe-photoshop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adobe-photoshop-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-remove-background-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-remove-background-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-product-photo-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-product-photo-pipeline-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-smart-object-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-smart-object-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-text-layer-personalization-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-text-layer-personalization-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-generative-fill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-generative-fill-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-document-create-and-render-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-document-create-and-render-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-layer-edit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-layer-edit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-photoshop-action-batch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-photoshop-action-batch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-action-json-composite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-action-json-composite-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-action-json-document-create-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-action-json-document-create-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-depth-blur-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-depth-blur-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/arazzo/adobe-photoshop-artboard-create-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-photoshop-artboard-create-workflow.yml
@@ -638,6 +692,40 @@ rules:
     info: 2
     warn: 13
   slug: adobe-photoshop-spectral-rules
+score:
+  band: developing
+  composite: 52.1
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 76.8
+    developer_ergonomics: 46.4
+    discoverability: 68.5
+    operational_transparency: 52.6
+  previous_composite: 52.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:
 - kind: authentication

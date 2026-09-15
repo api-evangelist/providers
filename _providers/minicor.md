@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,6 +98,7 @@ common:
   type: GettingStarted
   url: https://docs.laminar.run/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/authentication/minicor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/minicor-authentication.yml
@@ -109,46 +135,57 @@ common:
   type: ChangeLog
   url: https://docs.laminar.run/get-in-touch/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/changelog/minicor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/minicor-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/lifecycle/minicor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/minicor-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/mcp/minicor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/minicor-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/packages/minicor-packages.yml
   title: ''
   type: Packages
   url: packages/minicor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/cli/minicor-cli.yml
   title: ''
   type: CLI
   url: cli/minicor-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/llms/minicor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/minicor-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/well-known/minicor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/minicor-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/well-known/minicor-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/minicor-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/security/minicor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/minicor-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/security/minicor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/minicor-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/security/minicor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/minicor-domain-security.yml
@@ -161,34 +198,42 @@ common:
   type: Compliance
   url: https://app.mycroft.io/trust/laminar
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/conformance/minicor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/minicor-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/conventions/minicor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/minicor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/errors/minicor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/minicor-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/data-model/minicor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/minicor-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/overlays/minicor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/minicor-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/asyncapi/minicor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/minicor-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/agentic-access/minicor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/minicor-agentic-access.yml
@@ -212,6 +257,51 @@ overview: 'Minicor publishes 1 API on the [APIs.io](https://apis.io/) network: e
 
   Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 28 more developer resources.'
 random_paper: 18
+score:
+  band: strong
+  composite: 56.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 63.1
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 56.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/screenshots/minicor-2026-08-07T172954.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 35.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST API for machine-verifiable capture and preflight verification of public web sources, with x402 payment-gated access. Includes capture, preflight/guard, guarded-action pilot, quote, proofs, and de
@@ -16,70 +41,87 @@ common:
   type: Website
   url: https://delta-witness-api.ruphussten.workers.dev
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/security/delta-witness-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/delta-witness-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/packages/delta-witness-packages.yml
   title: ''
   type: SDKs
   url: packages/delta-witness-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/packages/delta-witness-packages.yml
   title: ''
   type: Packages
   url: packages/delta-witness-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/mcp/delta-witness-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/delta-witness-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/mcp/delta-witness-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/delta-witness-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/a2a/delta-witness-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/delta-witness-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/well-known/delta-witness-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/delta-witness-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/overlays/delta-witness-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/delta-witness-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/conformance/delta-witness-conformance.yml
   title: ''
   type: Conformance
   url: conformance/delta-witness-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/errors/delta-witness-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/delta-witness-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/lifecycle/delta-witness-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/delta-witness-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/authentication/delta-witness-authentication.yml
   title: ''
   type: Authentication
   url: authentication/delta-witness-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/conventions/delta-witness-conventions.yml
   title: ''
   type: Conventions
   url: conventions/delta-witness-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/conventions/delta-witness-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/delta-witness-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/plans/delta-witness-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/delta-witness-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/rate-limits/delta-witness-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/delta-witness-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/delta-witness/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -111,6 +153,41 @@ rate_limits:
 - limit_count: 0
   name: Delta Witness Rate Limits
   slug: delta-witness-rate-limits
+score:
+  band: thin
+  composite: 29.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 37.4
+    developer_ergonomics: 40.5
+    discoverability: 72.2
+    operational_transparency: 2.6
+  previous_composite: 29.7
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: unknown
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Delta Witness Authentication
@@ -129,12 +206,12 @@ tags:
 - agent-guardrails
 - preflight-checks
 - x402-payments
-- pay-per-use
+- Pay-Per-Use
 - base-usdc
-- autonomous-agents
-- mcp
-- a2a
-- agent-skill
-- trust-and-safety
+- Autonomous Agents
+- MCP
+- A2A
+- AgentSkill
+- Trust and Safety
 website: https://delta-witness-api.ruphussten.workers.dev
 ---

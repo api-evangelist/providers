@@ -9,6 +9,31 @@ access_model:
   - https://developer.sempra.com/portals/api/sites/sempra-prod/liveportal/apis
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Sempra runs a Google Apigee API program. api.sempra.com is the Apigee runtime gateway and developer.sempra.com is an Apigee integrated developer portal (Apigee organization "sempra", site id "sempra-p
@@ -49,42 +74,52 @@ common:
   type: TermsOfService
   url: https://www.sempra.com/terms-and-conditions
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/security/sempra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sempra-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/authentication/sempra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sempra-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/errors/sempra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sempra-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/conventions/sempra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sempra-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/lifecycle/sempra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sempra-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/conformance/sempra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sempra-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/plans/sempra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sempra-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/rate-limits/sempra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sempra-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/packages/sempra-packages.yml
   title: ''
   type: Packages
   url: packages/sempra-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/llms/sempra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sempra-llms.txt
@@ -127,6 +162,45 @@ rate_limits:
 - limit_count: 0
   name: Sempra Rate Limits
   slug: sempra-rate-limits
+score:
+  band: emerging
+  composite: 20.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 20.5
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/screenshots/sempra-2026-06-20T193648.png
 security:
 - kind: authentication

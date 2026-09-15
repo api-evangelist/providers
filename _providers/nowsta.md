@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,10 +82,12 @@ collections:
   slug: open-nowsta-integration
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/overlays/nowsta-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nowsta-integration-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/agentic-access/nowsta-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nowsta-agentic-access.yml
@@ -117,30 +144,37 @@ common:
   type: CookiePolicy
   url: https://www.nowsta.com/cookie-policy/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/lifecycle/nowsta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nowsta-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/conformance/nowsta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nowsta-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/well-known/nowsta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nowsta-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/security/nowsta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nowsta-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/mcp/nowsta-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nowsta-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/llms/nowsta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nowsta-llms.txt
@@ -182,6 +216,41 @@ overview: 'Nowsta publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
   Nowsta''s developer surface includes API reference, support, engineering blog, and 25 more developer resources.'
 random_paper: 17
+score:
+  band: thin
+  composite: 33.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 4.5
+    contract_quality: 60.5
+    developer_ergonomics: 32.7
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 33.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
 security:
 - kind: authentication

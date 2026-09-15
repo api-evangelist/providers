@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://www.env0.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.envzero.com/ — a different registrable domain (env0.com -> envzero.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -126,14 +151,17 @@ collections:
   slug: open-env0
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/agentic-access/env0-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/env0-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/security/env0-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/env0-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/authentication/env0-authentication.yml
   title: ''
   type: Authentication
   url: authentication/env0-authentication.yml
@@ -198,70 +226,87 @@ common:
   type: Compliance
   url: https://docs.envzero.com/guides/overview/security-overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/llms/env0-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/env0-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/a2a/env0-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/env0-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/well-known/env0-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/env0-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/mcp/env0-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/env0-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/packages/env0-packages.yml
   title: ''
   type: Packages
   url: packages/env0-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/packages/env0-packages.yml
   title: ''
   type: SDKs
   url: packages/env0-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/cli/env0-cli.yml
   title: ''
   type: CLI
   url: cli/env0-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/changelog/env0-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/env0-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/lifecycle/env0-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/env0-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/conventions/env0-conventions.yml
   title: ''
   type: Conventions
   url: conventions/env0-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/conformance/env0-conformance.yml
   title: ''
   type: Conformance
   url: conformance/env0-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/security/env0-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/env0-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/asyncapi/env0-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/env0-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/data-model/env0-data-model.yml
   title: ''
   type: DataModel
   url: data-model/env0-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/plans/env0-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/env0-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/rate-limits/env0-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/env0-rate-limits.yml
@@ -297,6 +342,41 @@ rate_limits:
 - limit_count: 0
   name: Env0 Rate Limits
   slug: env0-rate-limits
+score:
+  band: strong
+  composite: 63.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 18.2
+    contract_quality: 60.3
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 63.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/screenshots/env0-2026-06-20T180838.png
 security:
 - kind: authentication

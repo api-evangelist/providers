@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,14 +182,17 @@ collections:
   slug: open-energyx-videos-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/capabilities/energyx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/energyx-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/overlays/energyx-press-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/energyx-press-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/overlays/energyx-careers-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/energyx-careers-api-overlay.yaml
@@ -257,62 +285,77 @@ common:
   type: YouTube
   url: https://www.youtube.com/@EnergyXOfficial
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/authentication/energyx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/energyx-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/errors/energyx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/energyx-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/conventions/energyx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/energyx-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/data-model/energyx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/energyx-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/conformance/energyx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/energyx-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/lifecycle/energyx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/energyx-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/rate-limits/energyx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/energyx-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/plans/energyx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/energyx-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/packages/energyx-packages.yml
   title: ''
   type: Packages
   url: packages/energyx-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/llms/energyx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/energyx-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/mcp/energyx-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/energyx-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/examples/energyx-examples.yml
   title: ''
   type: Examples
   url: examples/energyx-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/agentic-access/energyx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/energyx-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/security/energyx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/energyx-domain-security.yml
@@ -338,6 +381,53 @@ rate_limits:
 - limit_count: 0
   name: Energyx Rate Limits
   slug: energyx-rate-limits
+score:
+  band: emerging
+  composite: 19.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 16.5
+    developer_ergonomics: 16.1
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 19.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 20
+      marker_coverage: 100.0
+      total: 20
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 28.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/screenshots/energyx-2026-09-02T145402.png
 security:
 - kind: authentication

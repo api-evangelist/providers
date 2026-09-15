@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST API to create a person, upload front and side photos, and asynchronously retrieve 80+ calculated body measurements for made-to-measure apparel, uniforms, and size recommendation.
@@ -57,42 +82,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/3dlook-me
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/authentication/3d-look-authentication.yml
   title: ''
   type: Authentication
   url: authentication/3d-look-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/packages/3d-look-packages.yml
   title: ''
   type: Packages
   url: packages/3d-look-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/packages/3d-look-packages.yml
   title: ''
   type: SDKs
   url: packages/3d-look-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/components/3d-look-components.yml
   title: ''
   type: Components
   url: components/3d-look-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/errors/3d-look-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/3d-look-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/conventions/3d-look-conventions.yml
   title: ''
   type: Conventions
   url: conventions/3d-look-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/mcp/3d-look-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/3d-look-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/lifecycle/3d-look-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/3d-look-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/security/3d-look-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/3d-look-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/llms/3d-look-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/3d-look-llms.txt
@@ -109,6 +144,40 @@ overview: '3D Look publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
   3D Look''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
 random_paper: 3
+score:
+  band: emerging
+  composite: 24.7
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 24.7
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 25.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/3d-look/refs/heads/main/screenshots/3d-look-2026-07-25T181146.png
 security:
 - kind: authentication

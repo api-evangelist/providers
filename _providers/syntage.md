@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -551,6 +576,7 @@ collections:
   slug: open-syntage-webhook-requests-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/capabilities/syntage-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/syntage-capability-edges.yml
@@ -571,26 +597,32 @@ common:
   type: GettingStarted
   url: https://docs.syntage.com/using-syntage/get-started/quick-start
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/openapi/_original/syntage-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/syntage-openapi-original.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/authentication/syntage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/syntage-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/conventions/syntage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/syntage-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/conventions/syntage-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/syntage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/errors/syntage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/syntage-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/lifecycle/syntage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/syntage-lifecycle.yml
@@ -599,10 +631,12 @@ common:
   type: StatusPage
   url: https://status.syntage.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/changelog/syntage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/syntage-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/conformance/syntage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/syntage-conformance.yml
@@ -615,46 +649,57 @@ common:
   type: TrustCenter
   url: https://trust.syntage.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/security/syntage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syntage-domain-security.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/sandbox/syntage-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/syntage-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/data-model/syntage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/syntage-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/asyncapi/syntage-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/syntage-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/well-known/syntage-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/syntage-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/well-known/syntage-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/syntage-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/mcp/syntage-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/syntage-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/agentic-access/syntage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/syntage-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/overlays/syntage-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syntage-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/llms/syntage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/syntage-llms.txt
@@ -706,6 +751,48 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 
   Syntage''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 28 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 50.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 4.5
+    contract_quality: 68.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - mexico
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 50.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 65
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/screenshots/syntage-2026-08-17T082234.png
 security:
 - kind: authentication

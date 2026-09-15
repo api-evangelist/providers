@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.kargo.zone/public_graphql
@@ -41,6 +66,7 @@ collections:
   slug: postman-kargo-public-graphql
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/overlays/kargo-document-intake-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kargo-document-intake-overlay.yaml
@@ -65,6 +91,7 @@ common:
   type: GettingStarted
   url: https://docs.kargo.ai/basic_examples
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/authentication/kargo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kargo-authentication.yml
@@ -101,78 +128,97 @@ common:
   type: Postman
   url: https://docs.kargo.ai/kargo-public-graphql.postman_collection.json
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/sandbox/kargo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kargo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/asyncapi/kargo-push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kargo-push-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/conventions/kargo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kargo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/errors/kargo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kargo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/lifecycle/kargo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kargo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/conformance/kargo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kargo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/data-model/kargo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kargo-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/security/kargo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kargo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/well-known/kargo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kargo-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/well-known/kargo-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/kargo-openid-configuration.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/packages/kargo-packages.yml
   title: ''
   type: Packages
   url: packages/kargo-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/rate-limits/kargo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kargo-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/plans/kargo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kargo-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/llms/kargo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kargo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/conventions/kargo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kargo-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/mcp/kargo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/kargo-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/examples/kargo-request-examples.yml
   title: ''
   type: Examples
   url: examples/kargo-request-examples.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/graphql/kargo-public-graphql.graphql
   title: ''
   type: GraphQL
   url: graphql/kargo-public-graphql.graphql
@@ -213,6 +259,40 @@ scopes:
   scope_count: 0
   slug: kargo-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 69.6
+    developer_ergonomics: 70.8
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 51.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/screenshots/kargo-2026-09-02T150020.png
 security:
 - kind: authentication

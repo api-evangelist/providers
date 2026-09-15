@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -243,34 +268,42 @@ collections:
   slug: open-egym-user-connect
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/capabilities/egym-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/egym-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-mms-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-mms-api-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-data-hub-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-data-hub-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-data-export-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-data-export-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-equipment-vendor-standalone-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-equipment-vendor-standalone-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-equipment-vendor-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-equipment-vendor-server-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-user-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-user-connect-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/agentic-access/egym-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/egym-agentic-access.yml
@@ -331,118 +364,147 @@ common:
   type: ChangeLog
   url: https://developer.egym.com/mms-api-v2/change-log
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/llms/egym-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/egym-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/authentication/egym-authentication.yml
   title: ''
   type: Authentication
   url: authentication/egym-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/scopes/egym-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/egym-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/conventions/egym-conventions.yml
   title: ''
   type: Conventions
   url: conventions/egym-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/rate-limits/egym-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/egym-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/plans/egym-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/egym-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/errors/egym-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/egym-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/errors/egym-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/egym-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/lifecycle/egym-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/egym-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/lifecycle/egym-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/egym-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/changelog/egym-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/egym-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/asyncapi/egym-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/egym-events-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/asyncapi/egym-mms-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/egym-mms-events-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/conformance/egym-conformance.yml
   title: ''
   type: Conformance
   url: conformance/egym-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/data-model/egym-data-model.yml
   title: ''
   type: DataModel
   url: data-model/egym-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/packages/egym-packages.yml
   title: ''
   type: Packages
   url: packages/egym-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/packages/egym-packages.yml
   title: ''
   type: SDKs
   url: packages/egym-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/components/egym-components.yml
   title: ''
   type: Components
   url: components/egym-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/well-known/egym-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/egym-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/security/egym-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/egym-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/conventions/egym-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/egym-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/sandbox/egym-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/egym-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/errors/egym-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/egym-decline-codes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-mms-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-mms-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/overlays/egym-canonical-groupx-classes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/egym-canonical-groupx-classes-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/mcp/egym-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/egym-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/mcp/egym-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/egym-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-mms-api-v2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/egym-mms-api-v2-openapi.yml
@@ -480,6 +542,55 @@ scopes:
   scope_count: 0
   slug: egym-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 61.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 66.4
+    developer_ergonomics: 73.2
+    discoverability: 66.7
+    operational_transparency: 71.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 61.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 94.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/screenshots/egym-2026-08-17T080915.png
 security:
 - kind: authentication

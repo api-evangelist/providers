@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.9
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - description: Core API for defining and executing distributed tasks in Celery. Supports task decorators, retries, timeouts, rate limiting, and custom task classes.
@@ -42,6 +67,7 @@ asyncapis:
   slug: celery-events-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/security/celery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/celery-domain-security.yml
@@ -106,70 +132,87 @@ common:
   type: Deprecation
   url: https://docs.celeryq.dev/en/stable/internals/deprecation.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/packages/celery-packages.yml
   title: ''
   type: Packages
   url: packages/celery-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/packages/celery-packages.yml
   title: ''
   type: SDKs
   url: packages/celery-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/cli/celery-cli.yml
   title: ''
   type: CLI
   url: cli/celery-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/authentication/celery-authentication.yml
   title: ''
   type: Authentication
   url: authentication/celery-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/conventions/celery-conventions.yml
   title: ''
   type: Conventions
   url: conventions/celery-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/errors/celery-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/celery-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/lifecycle/celery-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/celery-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/changelog/celery-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/celery-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/conformance/celery-conformance.yml
   title: ''
   type: Conformance
   url: conformance/celery-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/sandbox/celery-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/celery-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/security/celery-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/celery-vulnerability-disclosure.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/asyncapi/celery-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/celery-events-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/llms/celery-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/celery-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/mcp/celery-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/celery-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/plans/celery-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/celery-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/rate-limits/celery-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/celery-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/finops/celery-finops.yml
   title: ''
   type: FinOps
   url: finops/celery-finops.yml
@@ -201,6 +244,35 @@ rate_limits:
 - limit_count: 0
   name: Celery Rate Limits
   slug: celery-rate-limits
+score:
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 64.8
+    operational_transparency: 42.1
+  previous_composite: 39.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/screenshots/celery-2026-06-20T174110.png
 security:
 - kind: authentication

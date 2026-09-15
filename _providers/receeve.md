@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -141,14 +166,17 @@ collections:
   slug: open-receeve-security-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/capabilities/receeve-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/receeve-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/security/receeve-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/receeve-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/agentic-access/receeve-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/receeve-agentic-access.yml
@@ -173,62 +201,77 @@ common:
   type: TrustCenter
   url: https://trust.indebted.co/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/authentication/receeve-authentication.yml
   title: ''
   type: Authentication
   url: authentication/receeve-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/asyncapi/receeve-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/receeve-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/asyncapi/receeve-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/receeve-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/mcp/receeve-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/receeve-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/llms/receeve-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/receeve-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/overlays/receeve-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/receeve-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/conformance/receeve-conformance.yml
   title: ''
   type: Conformance
   url: conformance/receeve-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/errors/receeve-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/receeve-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/errors/receeve-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/receeve-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/lifecycle/receeve-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/receeve-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/conventions/receeve-conventions.yml
   title: ''
   type: Conventions
   url: conventions/receeve-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/conventions/receeve-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/receeve-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/data-model/receeve-data-model.yml
   title: ''
   type: DataModel
   url: data-model/receeve-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/sandbox/receeve-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/receeve-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -248,6 +291,47 @@ overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
   Receeve''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 18 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 35.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 4.5
+    contract_quality: 60.3
+    developer_ergonomics: 32.7
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 35.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 34.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/screenshots/receeve-2026-09-02T153040.png
 security:
 - kind: authentication

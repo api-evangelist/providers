@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.preauth.io/v1
@@ -32,10 +57,12 @@ collections:
   slug: open-preauth-instacash-orders-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/overlays/preauth-instacash-orders-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/preauth-instacash-orders-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/security/preauth-instacash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/preauth-instacash-domain-security.yml
@@ -68,70 +95,87 @@ common:
   type: SignUp
   url: https://dashboard.preauth.io/register
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/authentication/preauth-instacash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/preauth-instacash-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/packages/preauth-instacash-packages.yml
   title: ''
   type: Packages
   url: packages/preauth-instacash-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/packages/preauth-instacash-packages.yml
   title: ''
   type: SDKs
   url: packages/preauth-instacash-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/components/preauth-instacash-components.yml
   title: ''
   type: Components
   url: components/preauth-instacash-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/sandbox/preauth-instacash-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/preauth-instacash-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/mcp/preauth-instacash-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/preauth-instacash-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/llms/preauth-instacash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/preauth-instacash-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/asyncapi/preauth-instacash-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/preauth-instacash-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/conventions/preauth-instacash-conventions.yml
   title: ''
   type: Conventions
   url: conventions/preauth-instacash-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/errors/preauth-instacash-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/preauth-instacash-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/lifecycle/preauth-instacash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/preauth-instacash-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/data-model/preauth-instacash-data-model.yml
   title: ''
   type: DataModel
   url: data-model/preauth-instacash-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/conformance/preauth-instacash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/preauth-instacash-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/security/preauth-instacash-trust-center.yml
   title: ''
   type: Compliance
   url: security/preauth-instacash-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/security/preauth-instacash-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/preauth-instacash-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/well-known/preauth-instacash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/preauth-instacash-well-known.yml
@@ -151,6 +195,51 @@ overview: 'PreAuth (Instacash) publishes 1 API on the [APIs.io](https://apis.io/
 
   PreAuth (Instacash)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 19 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 25.7
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 38.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/screenshots/preauth-instacash-2026-08-17T124847.png
 security:
 - kind: authentication

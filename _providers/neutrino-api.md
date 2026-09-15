@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://neutrinoapi.net/
@@ -75,26 +100,32 @@ collections:
   slug: open-neutrino-api-www-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/overlays/neutrino-api-openapi-3.1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/neutrino-api-openapi-3.1-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/security/neutrino-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neutrino-api-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/authentication/neutrino-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/neutrino-api-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/packages/neutrino-api-packages.yml
   title: ''
   type: Packages
   url: packages/neutrino-api-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/packages/neutrino-api-packages.yml
   title: ''
   type: SDKs
   url: packages/neutrino-api-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/well-known/neutrino-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/neutrino-api-well-known.yml
@@ -103,14 +134,17 @@ common:
   type: APICatalog
   url: https://www.neutrinoapi.com/.well-known/api-catalog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/conventions/neutrino-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/neutrino-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/errors/neutrino-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/neutrino-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/conformance/neutrino-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/neutrino-api-conformance.yml
@@ -119,14 +153,17 @@ common:
   type: Compliance
   url: https://www.neutrinoapi.com/data-processing-agreement/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/data-model/neutrino-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/neutrino-api-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/lifecycle/neutrino-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/neutrino-api-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/lifecycle/neutrino-api-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/neutrino-api-lifecycle.yml
@@ -135,42 +172,52 @@ common:
   type: StatusPage
   url: https://status.neutrinoapi.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/changelog/neutrino-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/neutrino-api-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/mcp/neutrino-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/neutrino-api-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/llms/neutrino-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/neutrino-api-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/json-schema/neutrino-api-ip-info-response.json
   title: ''
   type: JSONSchema
   url: json-schema/neutrino-api-ip-info-response.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/json-schema/neutrino-api-ip-blocklist-response.json
   title: ''
   type: JSONSchema
   url: json-schema/neutrino-api-ip-blocklist-response.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/json-schema/neutrino-api-email-verify-response.json
   title: ''
   type: JSONSchema
   url: json-schema/neutrino-api-email-verify-response.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/json-schema/neutrino-api-phone-validate-response.json
   title: ''
   type: JSONSchema
   url: json-schema/neutrino-api-phone-validate-response.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/json-schema/neutrino-api-bin-lookup-response.json
   title: ''
   type: JSONSchema
   url: json-schema/neutrino-api-bin-lookup-response.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/json-schema/neutrino-api-error.json
   title: ''
   type: JSONSchema
   url: json-schema/neutrino-api-error.json
@@ -271,6 +318,57 @@ overview: 'Neutrino API publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
   Neutrino API''s developer surface includes authentication, changelog, getting-started guide, pricing, signup flow, support, and 35 more developer resources.'
 random_paper: 4
+score:
+  band: strong
+  composite: 57.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 62.3
+    developer_ergonomics: 68.5
+    discoverability: 79.6
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 57.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: UK
+      standard: uk-gdpr
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 48.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/screenshots/neutrino-api-2026-08-17T081114.png
 security:
 - kind: authentication

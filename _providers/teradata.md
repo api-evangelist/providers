@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -159,14 +184,17 @@ common:
   type: Website
   url: https://www.teradata.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/agentic-access/teradata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teradata-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/security/teradata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teradata-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/authentication/teradata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teradata-authentication.yml
@@ -175,46 +203,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/teradata/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-auto-install-node-software-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-auto-install-node-software-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-build-data-fabric-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-build-data-fabric-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-cancel-running-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-cancel-running-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-import-and-verify-system-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-import-and-verify-system-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-poll-query-results-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-poll-query-results-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-provision-cross-system-link-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-provision-cross-system-link-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-register-system-in-datacenter-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-register-system-in-datacenter-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-review-environment-health-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-review-environment-health-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-run-connectivity-diagnostic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-run-connectivity-diagnostic-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-run-query-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-run-query-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/arazzo/teradata-session-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/teradata-session-lifecycle-workflow.yml
@@ -295,10 +334,12 @@ common:
   type: Tools
   url: https://github.com/Teradata/teradata-qg-mcp-server
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/rules/teradata-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/teradata-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/vocabulary/teradata-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/teradata-vocabulary.yaml
@@ -471,6 +512,38 @@ rules:
     info: 4
     warn: 15
   slug: teradata-spectral-rules
+score:
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 69.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 28.8
+    contract_quality: 21.9
+    developer_ergonomics: 75.0
+    discoverability: 88.9
+    operational_transparency: 10.5
+  previous_composite: 40.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 13
+      marker_coverage: 100.0
+      total: 13
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the Gausium Cloud platform. Authenticated with OAuth 2.0 bearer tokens (custom open-access grant), it exposes robot information, robot status, task reports, robot maps and subareas, robot
@@ -61,38 +86,47 @@ common:
   type: ChangeLog
   url: https://developer-us.gs-robot.com/en_US/Release%20Notes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/mcp/gaussian-robotics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gaussian-robotics-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/llms/gaussian-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gaussian-robotics-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/authentication/gaussian-robotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gaussian-robotics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/conventions/gaussian-robotics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gaussian-robotics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/conformance/gaussian-robotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gaussian-robotics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/lifecycle/gaussian-robotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gaussian-robotics-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/lifecycle/gaussian-robotics-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/gaussian-robotics-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/changelog/gaussian-robotics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gaussian-robotics-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/security/gaussian-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gaussian-robotics-domain-security.yml
@@ -113,6 +147,40 @@ overview: 'Gaussian Robotics publishes 1 API on the [APIs.io](https://apis.io/) 
 
   Gaussian Robotics'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, changelog, and 13 more developer resources.'
 random_paper: 9
+score:
+  band: thin
+  composite: 29.5
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 29.5
+  provenance:
+    conformance: derived
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/gaussian-robotics/refs/heads/main/screenshots/gaussian-robotics-2026-07-25T215503.png
 security:
 - kind: authentication

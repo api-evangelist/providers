@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -109,6 +134,7 @@ collections:
   slug: open-general-translation-translation-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/overlays/general-translation-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/general-translation-openapi-overlay.yaml
@@ -173,70 +199,87 @@ common:
   type: StatusPage
   url: https://gt-status.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/packages/general-translation-packages.yml
   title: ''
   type: Packages
   url: packages/general-translation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/packages/general-translation-packages.yml
   title: ''
   type: SDKs
   url: packages/general-translation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/cli/general-translation-cli.yml
   title: ''
   type: CLI
   url: cli/general-translation-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/mcp/general-translation-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/general-translation-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/llms/general-translation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/general-translation-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/authentication/general-translation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/general-translation-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/conventions/general-translation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/general-translation-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/rate-limits/general-translation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/general-translation-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/errors/general-translation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/general-translation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/lifecycle/general-translation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/general-translation-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/changelog/general-translation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/general-translation-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/sandbox/general-translation-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/general-translation-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/components/general-translation-components.yml
   title: ''
   type: Components
   url: components/general-translation-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/data-model/general-translation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/general-translation-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/asyncapi/general-translation-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/general-translation-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/conformance/general-translation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/general-translation-conformance.yml
@@ -245,14 +288,17 @@ common:
   type: Compliance
   url: https://generaltranslation.com/en-US/pricing
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/agentic-access/general-translation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/general-translation-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/security/general-translation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/general-translation-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/well-known/general-translation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/general-translation-well-known.yml
@@ -276,6 +322,41 @@ rate_limits:
 - limit_count: 4
   name: General Translation Rate Limits
   slug: general-translation-rate-limits
+score:
+  band: strong
+  composite: 64.3
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 62.2
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 64.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/screenshots/general-translation-2026-07-25T215549.png
 security:
 - kind: authentication

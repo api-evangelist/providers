@@ -17,10 +17,12 @@ common:
   type: Website
   url: https://caterwings.de/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/caterwings/refs/heads/main/security/caterwings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caterwings-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/caterwings/refs/heads/main/well-known/caterwings-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/caterwings-well-known.yml

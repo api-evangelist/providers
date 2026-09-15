@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -301,14 +326,17 @@ collections:
   slug: open-seekr-wake-up-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/capabilities/seekr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/seekr-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/agentic-access/seekr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/seekr-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/security/seekr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seekr-trust-center.yml
@@ -369,6 +397,7 @@ common:
   type: ChangeLog
   url: https://docs.seekr.com/flow/changelog/seekr-managed/2026
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/changelog/seekr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/seekr-changelog.yml
@@ -377,6 +406,7 @@ common:
   type: Deprecation
   url: https://docs.seekr.com/flow/reference/getting-started-with-your-api#versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/lifecycle/seekr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seekr-lifecycle.yml
@@ -385,74 +415,92 @@ common:
   type: Compliance
   url: https://www.seekr.com/security-compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/conformance/seekr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seekr-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/authentication/seekr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seekr-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/conventions/seekr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seekr-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/errors/seekr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/seekr-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/data-model/seekr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seekr-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/packages/seekr-packages.yml
   title: ''
   type: Packages
   url: packages/seekr-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/packages/seekr-packages.yml
   title: ''
   type: SDKs
   url: packages/seekr-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/mcp/seekr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/seekr-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/mcp/seekr-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/seekr-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/a2a/seekr-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/seekr-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/llms/seekr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seekr-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/well-known/seekr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/seekr-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/security/seekr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seekr-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-llm-training-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-llm-training-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-agents-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-explainability-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-explainability-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/overlays/seekr-serving-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seekr-serving-overlay.yaml
@@ -485,6 +533,51 @@ overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, i
 
   Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 random_paper: 13
+score:
+  band: strong
+  composite: 61.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 53.7
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 61.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: cmmc
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 55.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
 security:
 - kind: authentication

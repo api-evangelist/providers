@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -242,86 +267,107 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ipinfo/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/agentic-access/ipinfo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ipinfo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/security/ipinfo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ipinfo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/authentication/ipinfo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ipinfo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-abuse-reporting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-abuse-reporting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-asn-prefix-recon-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-asn-prefix-recon-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-batch-then-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-batch-then-detail-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-ip-to-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-ip-to-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-my-ip-enrichment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-my-ip-enrichment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-summarize-and-map-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-summarize-and-map-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/arazzo/ipinfo-threat-screening-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ipinfo-threat-screening-workflow.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/packages/ipinfo-packages.yml
   title: ''
   type: Packages
   url: packages/ipinfo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/mcp/ipinfo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ipinfo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/llms/ipinfo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ipinfo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/well-known/ipinfo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ipinfo-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/overlays/ipinfo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ipinfo-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/conformance/ipinfo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ipinfo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/errors/ipinfo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ipinfo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/lifecycle/ipinfo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ipinfo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/conventions/ipinfo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ipinfo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/data-model/ipinfo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ipinfo-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/cli/ipinfo-cli.yml
   title: IPinfo CLI command surface
   type: CLI
   url: cli/ipinfo-cli.yml
@@ -751,6 +797,46 @@ rules:
     info: 2
     warn: 24
   slug: ipinfo-spectral-rules
+score:
+  band: exemplar
+  composite: 67.5
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 87.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 33.3
+    contract_quality: 70.1
+    developer_ergonomics: 89.3
+    discoverability: 70.4
+    operational_transparency: 42.1
+  previous_composite: 67.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
 security:
 - kind: authentication

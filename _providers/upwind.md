@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.upwind.io
@@ -154,6 +180,7 @@ collections:
   slug: open-upwind-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/overlays/upwind-management-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/upwind-management-v1-overlay.yaml
@@ -210,30 +237,37 @@ common:
   type: StatusPage
   url: https://status.upwind.io/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/changelog/upwind-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/upwind-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/lifecycle/upwind-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upwind-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/authentication/upwind-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upwind-authentication.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/well-known/upwind-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/upwind-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/scopes/upwind-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/upwind-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/well-known/upwind-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upwind-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/security/upwind-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/upwind-trust-center.yml
@@ -242,54 +276,67 @@ common:
   type: Compliance
   url: https://trust.upwind.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/security/upwind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upwind-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/conventions/upwind-conventions.yml
   title: ''
   type: Conventions
   url: conventions/upwind-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/errors/upwind-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/upwind-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/rate-limits/upwind-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/upwind-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/examples/upwind-request-examples.yml
   title: ''
   type: Examples
   url: examples/upwind-request-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/data-model/upwind-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upwind-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/conformance/upwind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upwind-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/asyncapi/upwind-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/upwind-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/packages/upwind-packages.yml
   title: ''
   type: Packages
   url: packages/upwind-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/cli/upwind-cli.yml
   title: ''
   type: CLI
   url: cli/upwind-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/mcp/upwind-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/upwind-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/llms/upwind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upwind-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -318,6 +365,40 @@ scopes:
   scope_count: 0
   slug: upwind-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 65.3
+    developer_ergonomics: 60.1
+    discoverability: 75.9
+    operational_transparency: 63.2
+  previous_composite: 53.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/screenshots/upwind-2026-08-17T082651.png
 security:
 - kind: authentication

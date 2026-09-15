@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 57.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -253,46 +278,57 @@ collections:
   slug: open-moloco-commerce-media-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/capabilities/moloco-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moloco-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/overlays/moloco-ads-campaign-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moloco-ads-campaign-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/overlays/moloco-cloud-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moloco-cloud-auth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/overlays/moloco-commerce-media-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moloco-commerce-media-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/overlays/moloco-commerce-media-decision-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moloco-commerce-media-decision-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/overlays/moloco-commerce-media-event-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moloco-commerce-media-event-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/overlays/moloco-commerce-media-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moloco-commerce-media-webhooks-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/agentic-access/moloco-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moloco-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/security/moloco-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/moloco-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/security/moloco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moloco-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/authentication/moloco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moloco-authentication.yml
@@ -357,6 +393,7 @@ common:
   type: Postman
   url: https://github.com/moloco-mcm/mcm-postman-templates
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/changelog/moloco-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moloco-changelog.yml
@@ -365,90 +402,112 @@ common:
   type: Deprecation
   url: https://developer.moloco.cloud/page/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/rate-limits/moloco-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moloco-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/llms/moloco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moloco-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/packages/moloco-packages.yml
   title: ''
   type: Packages
   url: packages/moloco-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/packages/moloco-packages.yml
   title: ''
   type: SDKs
   url: packages/moloco-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/cli/moloco-cli.yml
   title: ''
   type: CLI
   url: cli/moloco-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/mcp/moloco-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moloco-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/mcp/moloco-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/moloco-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/well-known/moloco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moloco-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/scopes/moloco-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/moloco-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/conventions/moloco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moloco-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/conventions/moloco-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/moloco-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/errors/moloco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moloco-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/errors/moloco-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/moloco-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/lifecycle/moloco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moloco-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/conformance/moloco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moloco-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/sandbox/moloco-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moloco-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/components/moloco-components.yml
   title: ''
   type: Components
   url: components/moloco-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/data-model/moloco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moloco-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/asyncapi/moloco-commerce-media-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moloco-commerce-media-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/llms/moloco-commerce-media-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moloco-commerce-media-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/plans/moloco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moloco-plans-pricing.yml
@@ -489,6 +548,41 @@ scopes:
   scope_count: 2
   slug: moloco-scopes
   summary_line: 2 scopes
+score:
+  band: strong
+  composite: 62.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 72.1
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 72.4
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 56.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 66.7
 screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:
 - kind: authentication

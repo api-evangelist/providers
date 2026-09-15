@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://playcanvas.com/api
@@ -92,6 +117,7 @@ collections:
   slug: open-playcanvas-splats-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/overlays/playcanvas-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/playcanvas-rest-overlay.yaml
@@ -144,66 +170,82 @@ common:
   type: PrivacyPolicy
   url: https://playcanvas.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/authentication/playcanvas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/playcanvas-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/security/playcanvas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/playcanvas-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/packages/playcanvas-packages.yml
   title: ''
   type: Packages
   url: packages/playcanvas-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/packages/playcanvas-packages.yml
   title: ''
   type: SDKs
   url: packages/playcanvas-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/components/playcanvas-components.yml
   title: ''
   type: Components
   url: components/playcanvas-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/well-known/playcanvas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/playcanvas-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/mcp/playcanvas-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/playcanvas-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/llms/playcanvas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/playcanvas-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/conformance/playcanvas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/playcanvas-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/lifecycle/playcanvas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/playcanvas-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/changelog/playcanvas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/playcanvas-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/rate-limits/playcanvas-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/playcanvas-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/conventions/playcanvas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/playcanvas-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/errors/playcanvas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/playcanvas-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/data-model/playcanvas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/playcanvas-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -224,6 +266,40 @@ rate_limits:
 - limit_count: 6
   name: Playcanvas Rate Limits
   slug: playcanvas-rate-limits
+score:
+  band: developing
+  composite: 50.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 59.2
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 50.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/screenshots/playcanvas-2026-08-17T081259.png
 security:
 - kind: authentication

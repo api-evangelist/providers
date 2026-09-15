@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.4
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://api-sandbox.koin.com.br
@@ -156,10 +181,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/despegar/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/capabilities/koin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/koin-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/overlays/koin-antifraud-ato-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koin-antifraud-ato-overlay.yaml
@@ -216,30 +243,37 @@ common:
   type: PrivacyPolicy
   url: https://www.koin.com.br/politica-de-privacidade
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/authentication/koin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koin-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/conventions/koin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koin-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/conventions/koin-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/koin-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/errors/koin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/koin-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/errors/koin-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/koin-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/asyncapi/koin-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/koin-payments-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/lifecycle/koin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koin-lifecycle.yml
@@ -248,46 +282,57 @@ common:
   type: StatusPage
   url: https://koin.statuspage.io/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/changelog/koin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/koin-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/sandbox/koin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/koin-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/packages/koin-packages.yml
   title: ''
   type: Packages
   url: packages/koin-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/packages/koin-packages.yml
   title: ''
   type: SDKs
   url: packages/koin-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/components/koin-components.yml
   title: ''
   type: Components
   url: components/koin-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/data-model/koin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koin-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/conformance/koin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koin-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/mcp/koin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/koin-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/llms/koin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koin-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/security/koin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koin-domain-security.yml
@@ -307,6 +352,53 @@ overview: 'Koin publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
   Koin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 13
+score:
+  band: developing
+  composite: 51.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 62.2
+    developer_ergonomics: 57.7
+    discoverability: 81.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 51.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:
 - kind: authentication

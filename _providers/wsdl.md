@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 41
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/security/wsdl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wsdl-domain-security.yml
@@ -48,74 +49,92 @@ common:
   type: Community
   url: https://lists.w3.org/Archives/Public/public-ws-desc/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-description.json
   title: WSDL Description
   type: JSONSchema
   url: json-schema/wsdl-description.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-types.json
   title: WSDL Types
   type: JSONSchema
   url: json-schema/wsdl-types.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-interface.json
   title: WSDL Interface
   type: JSONSchema
   url: json-schema/wsdl-interface.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-operation.json
   title: WSDL Operation
   type: JSONSchema
   url: json-schema/wsdl-operation.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-interface-fault.json
   title: WSDL Interface Fault
   type: JSONSchema
   url: json-schema/wsdl-interface-fault.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-binding.json
   title: WSDL Binding
   type: JSONSchema
   url: json-schema/wsdl-binding.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-service.json
   title: WSDL Service
   type: JSONSchema
   url: json-schema/wsdl-service.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-schema/wsdl-endpoint.json
   title: WSDL Endpoint
   type: JSONSchema
   url: json-schema/wsdl-endpoint.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-ld/wsdl-context.jsonld
   title: WSDL JSON-LD Context
   type: JSONLDContext
   url: json-ld/wsdl-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-description-structure.json
   title: WSDL Description Structure
   type: JSONStructure
   url: json-structure/wsdl-description-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-types-structure.json
   title: WSDL Types Structure
   type: JSONStructure
   url: json-structure/wsdl-types-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-interface-structure.json
   title: WSDL Interface Structure
   type: JSONStructure
   url: json-structure/wsdl-interface-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-operation-structure.json
   title: WSDL Operation Structure
   type: JSONStructure
   url: json-structure/wsdl-operation-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-interface-fault-structure.json
   title: WSDL Interface Fault Structure
   type: JSONStructure
   url: json-structure/wsdl-interface-fault-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-binding-structure.json
   title: WSDL Binding Structure
   type: JSONStructure
   url: json-structure/wsdl-binding-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-service-structure.json
   title: WSDL Service Structure
   type: JSONStructure
   url: json-structure/wsdl-service-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/json-structure/wsdl-endpoint-structure.json
   title: WSDL Endpoint Structure
   type: JSONStructure
   url: json-structure/wsdl-endpoint-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wsdl/refs/heads/main/vocabulary/wsdl-vocabulary.yaml
   title: WSDL Vocabulary
   type: Vocabulary
   url: vocabulary/wsdl-vocabulary.yaml

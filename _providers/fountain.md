@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Fountain's REST API for managing hiring and frontline workforce data — applicants, openings, positions, locations, interview slots and sessions, workers, secure documents, labels, notes, custom attrib
@@ -25,10 +50,12 @@ common:
   type: Website
   url: https://www.fountain.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/security/fountain-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fountain-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/security/fountain-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fountain-domain-security.yml
@@ -85,54 +112,67 @@ common:
   type: Deprecation
   url: https://developer.fountain.com/reference/deprecations
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/authentication/fountain-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fountain-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/lifecycle/fountain-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fountain-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/conventions/fountain-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fountain-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/rate-limits/fountain-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fountain-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/errors/fountain-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fountain-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/conformance/fountain-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fountain-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/asyncapi/fountain-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fountain-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/mcp/fountain-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fountain-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/data-model/fountain-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fountain-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/llms/fountain-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fountain-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/well-known/fountain-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fountain-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/well-known/fountain-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fountain-well-known.yml
@@ -156,6 +196,36 @@ rate_limits:
 - limit_count: 1
   name: Fountain Rate Limits
   slug: fountain-rate-limits
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 14.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 55.4
+    discoverability: 75.9
+    operational_transparency: 63.2
+  previous_composite: 42.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/screenshots/fountain-2026-07-25T215050.png
 security:
 - kind: authentication

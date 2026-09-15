@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -167,6 +192,7 @@ collections:
   slug: open-bakkt-transfers-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/overlays/bakkt-crypto-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bakkt-crypto-overlay.yaml
@@ -211,74 +237,92 @@ common:
   type: Website
   url: https://bakkt.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/authentication/bakkt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bakkt-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/conventions/bakkt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bakkt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/conventions/bakkt-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bakkt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/errors/bakkt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bakkt-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/errors/bakkt-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/bakkt-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/errors/bakkt-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/bakkt-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/lifecycle/bakkt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bakkt-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/changelog/bakkt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bakkt-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/asyncapi/bakkt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bakkt-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/mcp/bakkt-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bakkt-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/conformance/bakkt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bakkt-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/data-model/bakkt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bakkt-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/sandbox/bakkt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bakkt-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/llms/bakkt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bakkt-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/well-known/bakkt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bakkt-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/agentic-access/bakkt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bakkt-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/security/bakkt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bakkt-domain-security.yml
@@ -298,6 +342,47 @@ overview: 'Bakkt publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
   Bakkt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 22 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 60.6
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 41.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/screenshots/bakkt-2026-07-25T202255.png
 security:
 - kind: authentication

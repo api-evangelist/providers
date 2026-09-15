@@ -10,6 +10,31 @@ access_model:
   - https://help.workwithopal.com/article/17imdltzi1-opal-api
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: https://login.ouropal.com
@@ -420,26 +445,32 @@ collections:
   slug: open-opal-v3
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/capabilities/opal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opal-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/overlays/opal-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opal-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/overlays/opal-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opal-v3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/overlays/opal-asgard-bff-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opal-asgard-bff-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/scopes/opal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/opal-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/authentication/opal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opal-authentication.yml
@@ -484,46 +515,57 @@ common:
   type: ChangeLog
   url: https://help.workwithopal.com/article/42ysdzfa2y-change-log
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/changelog/opal-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opal-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/lifecycle/opal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opal-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/lifecycle/opal-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/opal-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/conventions/opal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/errors/opal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opal-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/data-model/opal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opal-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/conformance/opal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opal-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/llms/opal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opal-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/rate-limits/opal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opal-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/plans/opal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opal-plans-pricing.yml
@@ -544,6 +586,7 @@ common:
   type: License
   url: https://workwithopal.com/api-license/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/security/opal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/opal-trust-center.yml
@@ -552,6 +595,7 @@ common:
   type: Compliance
   url: https://workwithopal.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/security/opal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opal-domain-security.yml
@@ -582,6 +626,40 @@ scopes:
   scope_count: 2
   slug: opal-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 47.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 4.5
+    contract_quality: 55.0
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 23.7
+  previous_composite: 47.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 79
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/screenshots/opal-2026-08-07T190443.png
 security:
 - kind: authentication

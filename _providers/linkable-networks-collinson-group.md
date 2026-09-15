@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://linkablenetworks.com/'', ''status'': 308, ''note'': ''declared website redirects to https://www.absolute-sway.com/ — a different registrable domain (linkablenetworks.com -> absolute-sway.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: RESTful consumer API for building applications on top of the Linkable card-linked-offer platform. Per the provider developer page it exposes consumer registration, view and opt-out (consumerapi/consum
@@ -18,6 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/security/linkable-networks-collinson-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linkable-networks-collinson-group-domain-security.yml
@@ -66,30 +92,37 @@ common:
   type: Facebook
   url: https://www.facebook.com/pages/Linkable-Networks/300275889988840
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/authentication/linkable-networks-collinson-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linkable-networks-collinson-group-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/conventions/linkable-networks-collinson-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linkable-networks-collinson-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/conformance/linkable-networks-collinson-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linkable-networks-collinson-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/lifecycle/linkable-networks-collinson-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linkable-networks-collinson-group-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/mcp/linkable-networks-collinson-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/linkable-networks-collinson-group-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/llms/linkable-networks-collinson-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linkable-networks-collinson-group-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/packages/linkable-networks-collinson-group-packages.yml
   title: ''
   type: Packages
   url: packages/linkable-networks-collinson-group-packages.yml
@@ -107,6 +140,46 @@ overview: 'Linkable Networks (Collinson Group) publishes 1 API on the [APIs.io](
 
   Linkable Networks (Collinson Group)''s developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
 random_paper: 15
+score:
+  band: emerging
+  composite: 21.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 21.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkable-networks-collinson-group/refs/heads/main/screenshots/linkable-networks-collinson-group-2026-07-25T225253.png
 security:
 - kind: authentication

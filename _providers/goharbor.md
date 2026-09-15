@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -176,14 +201,17 @@ common:
   type: License
   url: https://github.com/goharbor/harbor/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/agentic-access/goharbor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/goharbor-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/security/goharbor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goharbor-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/authentication/goharbor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goharbor-authentication.yml
@@ -232,78 +260,97 @@ common:
   type: StatusPage
   url: https://status.goharbor.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/security/goharbor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/goharbor-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/security/goharbor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/goharbor-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/conformance/goharbor-conformance.yml
   title: ''
   type: Compliance
   url: conformance/goharbor-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/conformance/goharbor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goharbor-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/lifecycle/goharbor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goharbor-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/changelog/goharbor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/goharbor-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/conventions/goharbor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goharbor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/errors/goharbor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/goharbor-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/data-model/goharbor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goharbor-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/scopes/goharbor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/goharbor-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/packages/goharbor-packages.yml
   title: ''
   type: Packages
   url: packages/goharbor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/packages/goharbor-packages.yml
   title: ''
   type: SDKs
   url: packages/goharbor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/cli/goharbor-cli.yml
   title: ''
   type: CLI
   url: cli/goharbor-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/sandbox/goharbor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/goharbor-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/asyncapi/goharbor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/goharbor-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/llms/goharbor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goharbor-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/overlays/goharbor-harbor-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goharbor-harbor-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/mcp/goharbor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/goharbor-mcp.yml
@@ -340,6 +387,44 @@ scopes:
   scope_count: 0
   slug: goharbor-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 57.5
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/screenshots/goharbor-2026-06-20T181946.png
 security:
 - kind: authentication
@@ -362,7 +447,7 @@ tags:
 - Vulnerability Scanning
 - Supply Chain Security
 - OCI
-- Open Source
+- Open-Source
 - Kubernetes
 - DevOps
 - Replication

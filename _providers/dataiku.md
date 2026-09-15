@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -345,22 +370,27 @@ common:
   type: Website
   url: https://www.dataiku.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/capabilities/dataiku-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dataiku-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/agentic-access/dataiku-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dataiku-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/security/dataiku-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dataiku-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/security/dataiku-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dataiku-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/authentication/dataiku-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dataiku-authentication.yml
@@ -369,74 +399,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dataiku/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-audit-recipe-and-jobs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-audit-recipe-and-jobs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-bootstrap-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-bootstrap-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-browse-managed-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-browse-managed-folder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-build-dataset-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-build-dataset-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-create-dataset-set-schema-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-create-dataset-set-schema-build-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-create-govern-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-create-govern-artifact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-create-govern-blueprint-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-create-govern-blueprint-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-export-project-bundle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-export-project-bundle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-import-and-preload-generation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-import-and-preload-generation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-inspect-and-read-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-inspect-and-read-dataset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-inspect-saved-model-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-inspect-saved-model-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-promote-apinode-generation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-promote-apinode-generation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-provision-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-review-artifact-signoff-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-review-artifact-signoff-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-run-scenario-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-run-scenario-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-run-sql-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-run-sql-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-tag-project-metadata-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-tag-project-metadata-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-teardown-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-teardown-project-workflow.yml
@@ -521,22 +569,27 @@ common:
   type: X
   url: https://twitter.com/dataiku
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/json-ld/dataiku-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dataiku-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/json-schema/dataiku-project-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/dataiku-project-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/json-schema/dataiku-dataset-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/dataiku-dataset-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/vocabulary/dataiku-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dataiku-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rules/dataiku-rules.yml
   title: ''
   type: Rules
   url: rules/dataiku-rules.yml
@@ -816,6 +869,38 @@ rules:
     info: 0
     warn: 3
   slug: dataiku-rules
+score:
+  band: developing
+  composite: 46.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 53.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 28.8
+    contract_quality: 66.3
+    developer_ergonomics: 46.4
+    discoverability: 50.0
+    operational_transparency: 39.5
+  previous_composite: 46.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/screenshots/dataiku-2026-06-20T175643.png
 security:
 - kind: authentication

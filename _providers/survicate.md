@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,22 +93,27 @@ collections:
   slug: open-survicate-surveys-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/agentic-access/survicate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/survicate-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/security/survicate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/survicate-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/security/survicate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/survicate-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/security/survicate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/survicate-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/authentication/survicate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/survicate-authentication.yml
@@ -120,22 +150,27 @@ common:
   type: X
   url: https://x.com/Survicate
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/plans/survicate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/survicate-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/rate-limits/survicate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/survicate-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/finops/survicate-finops.yml
   title: ''
   type: FinOps
   url: finops/survicate-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/vocabulary/survicate-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/survicate-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/json-ld/survicate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/survicate-context.jsonld
@@ -197,6 +232,40 @@ rules:
     info: 1
     warn: 4
   slug: survicate-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 46.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 76.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 25.0
+    contract_quality: 59.4
+    developer_ergonomics: 23.8
+    discoverability: 68.5
+    operational_transparency: 42.1
+  previous_composite: 46.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/screenshots/survicate-2026-06-20T194742.png
 security:
 - kind: authentication

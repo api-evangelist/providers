@@ -11,6 +11,32 @@ access_model:
   - https://data.crunchbase.com/docs/using-the-api
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 46.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 0
@@ -82,26 +108,32 @@ collections:
   slug: open-crunchbase-data
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/overlays/crunchbase-data-firmographic-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crunchbase-data-firmographic-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/overlays/crunchbase-data-core-financials-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crunchbase-data-core-financials-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/overlays/crunchbase-data-advanced-financials-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crunchbase-data-advanced-financials-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/overlays/crunchbase-data-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crunchbase-data-insights-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/overlays/crunchbase-data-predictions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crunchbase-data-predictions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/overlays/crunchbase-data-predictions-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crunchbase-data-predictions-insights-overlay.yaml
@@ -162,50 +194,62 @@ common:
   type: ChangeLog
   url: https://about.crunchbase.com/product-updates/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/changelog/crunchbase-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crunchbase-data-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/authentication/crunchbase-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crunchbase-data-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/scopes/crunchbase-data-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/crunchbase-data-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/conventions/crunchbase-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crunchbase-data-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/errors/crunchbase-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crunchbase-data-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/lifecycle/crunchbase-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crunchbase-data-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/conformance/crunchbase-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crunchbase-data-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/data-model/crunchbase-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crunchbase-data-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/packages/crunchbase-data-packages.yml
   title: ''
   type: Packages
   url: packages/crunchbase-data-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/well-known/crunchbase-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crunchbase-data-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/well-known/crunchbase-data-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/crunchbase-data-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/well-known/crunchbase-data-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crunchbase-data-security.txt
@@ -214,42 +258,52 @@ common:
   type: Security
   url: https://www.crunchbase.com/.well-known/security-policy.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/security/crunchbase-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crunchbase-data-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/security/crunchbase-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crunchbase-data-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/llms/crunchbase-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crunchbase-data-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/mcp/crunchbase-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crunchbase-data-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/mcp/crunchbase-data-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/crunchbase-data-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/agentic-access/crunchbase-data-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crunchbase-data-agentic-access.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/plans/crunchbase-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crunchbase-data-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/rate-limits/crunchbase-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crunchbase-data-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/finops/crunchbase-data-finops.yml
   title: ''
   type: FinOps
   url: finops/crunchbase-data-finops.yml
@@ -292,6 +346,41 @@ scopes:
   scope_count: 2
   slug: crunchbase-data-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: developing
+  composite: 47.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 73.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 42.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 31.2
+    developer_ergonomics: 33.9
+    discoverability: 81.5
+    operational_transparency: 60.5
+  previous_composite: 47.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/screenshots/crunchbase-data-2026-07-25T210816.png
 security:
 - kind: authentication

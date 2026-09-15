@@ -16,10 +16,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Placenote
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/placenote/refs/heads/main/packages/placenote-packages.yml
   title: ''
   type: Packages
   url: packages/placenote-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/placenote/refs/heads/main/packages/placenote-packages.yml
   title: ''
   type: SDKs
   url: packages/placenote-packages.yml

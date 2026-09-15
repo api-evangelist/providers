@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://api.loudcrowd.com
@@ -61,10 +86,12 @@ asyncapis:
   slug: loudcrowd-attribution-events
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/security/loudcrowd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loudcrowd-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/authentication/loudcrowd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loudcrowd-authentication.yml
@@ -129,78 +156,97 @@ common:
   type: Compliance
   url: https://loudcrowd.com/legal/dpa/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/packages/loudcrowd-packages.yml
   title: ''
   type: Packages
   url: packages/loudcrowd-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/packages/loudcrowd-packages.yml
   title: ''
   type: SDKs
   url: packages/loudcrowd-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/llms/loudcrowd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loudcrowd-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/conventions/loudcrowd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loudcrowd-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/conventions/loudcrowd-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/loudcrowd-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/errors/loudcrowd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/loudcrowd-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/lifecycle/loudcrowd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loudcrowd-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/conformance/loudcrowd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loudcrowd-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/data-model/loudcrowd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loudcrowd-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/components/loudcrowd-components.yml
   title: ''
   type: Components
   url: components/loudcrowd-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/mcp/loudcrowd-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/loudcrowd-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/asyncapi/loudcrowd-attribution-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/loudcrowd-attribution-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/plans/loudcrowd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loudcrowd-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/rate-limits/loudcrowd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loudcrowd-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/overlays/loudcrowd-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/loudcrowd-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/overlays/loudcrowd-creator-storefronts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/loudcrowd-creator-storefronts-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/well-known/loudcrowd-well-known.yml
   title: ''
   type: WellKnown-Probe
   url: well-known/loudcrowd-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/mcp/loudcrowd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/loudcrowd-mcp.yml
@@ -228,6 +274,40 @@ rate_limits:
 - limit_count: 0
   name: Loudcrowd Rate Limits
   slug: loudcrowd-rate-limits
+score:
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 61.7
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 52.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/screenshots/loudcrowd-2026-09-02T150320.png
 security:
 - kind: authentication

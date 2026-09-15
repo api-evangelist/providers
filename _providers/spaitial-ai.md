@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.spaitial.ai
@@ -59,10 +84,12 @@ common:
   type: Website
   url: https://www.spaitial.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/security/spaitial-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spaitial-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/authentication/spaitial-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spaitial-ai-authentication.yml
@@ -127,70 +154,87 @@ common:
   type: ChangeLog
   url: https://docs.spaitial.ai/overview/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/changelog/spaitial-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spaitial-ai-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/llms/spaitial-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spaitial-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/mcp/spaitial-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spaitial-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/well-known/spaitial-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spaitial-ai-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/errors/spaitial-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spaitial-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/lifecycle/spaitial-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spaitial-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/conventions/spaitial-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spaitial-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/conventions/spaitial-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spaitial-ai-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/rate-limits/spaitial-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spaitial-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/plans/spaitial-ai-plans.yml
   title: ''
   type: Plans
   url: plans/spaitial-ai-plans.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/asyncapi/spaitial-ai-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/spaitial-ai-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/asyncapi/spaitial-ai-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/spaitial-ai-webhooks-asyncapi.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/sandbox/spaitial-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/spaitial-ai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/data-model/spaitial-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spaitial-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/conformance/spaitial-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spaitial-ai-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/overlays/spaitial-ai-developer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spaitial-ai-developer-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -222,6 +266,40 @@ rate_limits:
 - limit_count: 0
   name: Spaitial Ai Rate Limits
   slug: spaitial-ai-rate-limits
+score:
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 55.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 53.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/screenshots/spaitial-ai-2026-08-17T125411.png
 security:
 - kind: authentication

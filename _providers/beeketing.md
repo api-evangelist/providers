@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://{shop}.onshopbase.com/admin
@@ -153,6 +178,7 @@ asyncapis:
   slug: beeketing-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/capabilities/beeketing-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/beeketing-capability-edges.yml
@@ -213,82 +239,102 @@ common:
   type: StatusPage
   url: https://www.shopbasestatus.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/authentication/beeketing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beeketing-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/scopes/beeketing-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beeketing-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/asyncapi/beeketing-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/beeketing-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/rate-limits/beeketing-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/beeketing-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/errors/beeketing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beeketing-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/conventions/beeketing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beeketing-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/lifecycle/beeketing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beeketing-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/sandbox/beeketing-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/beeketing-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/components/beeketing-components.yml
   title: ''
   type: Components
   url: components/beeketing-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/conformance/beeketing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beeketing-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/security/beeketing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beeketing-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/llms/beeketing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beeketing-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-shopbase-admin-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/beeketing-shopbase-admin-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/overlays/beeketing-shopbase-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beeketing-shopbase-admin-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/data-model/beeketing-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beeketing-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/packages/beeketing-packages.yml
   title: ''
   type: Packages
   url: packages/beeketing-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/cli/beeketing-cli.yml
   title: ''
   type: CLI
   url: cli/beeketing-cli.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/plans/beeketing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/beeketing-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/changelog/beeketing-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beeketing-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -329,6 +375,46 @@ scopes:
   scope_count: 24
   slug: beeketing-scopes
   summary_line: 24 scopes · authorizationCode
+score:
+  band: strong
+  composite: 62.5
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 47.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 59.9
+    developer_ergonomics: 73.2
+    discoverability: 57.4
+    operational_transparency: 47.4
+  previous_composite: 62.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:
 - kind: authentication

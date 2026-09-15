@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,14 +90,17 @@ common:
   type: IssueTracker
   url: https://github.com/withgraphite/agent-skills/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/agentic-access/graphite-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/graphite-com-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/security/graphite-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphite-com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/authentication/graphite-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/graphite-com-authentication.yml
@@ -93,14 +121,17 @@ common:
   type: Documentation
   url: https://graphite.com/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/plans/graphite-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/graphite-com-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/rate-limits/graphite-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/graphite-com-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/finops/graphite-com-finops.yml
   title: ''
   type: FinOps
   url: finops/graphite-com-finops.yml
@@ -117,6 +148,7 @@ common:
   type: Guides
   url: https://graphite.com/guides
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/cli/graphite-com-cli.yml
   title: ''
   type: CLI
   url: cli/graphite-com-cli.yml
@@ -125,30 +157,37 @@ common:
   type: CLIDocumentation
   url: https://graphite.com/docs/command-reference
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/mcp/graphite-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/graphite-com-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/llms/graphite-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/graphite-com-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/packages/graphite-com-packages.yml
   title: ''
   type: Packages
   url: packages/graphite-com-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/conventions/graphite-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/graphite-com-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/conventions/graphite-com-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/graphite-com-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/lifecycle/graphite-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/graphite-com-lifecycle.yml
@@ -157,14 +196,17 @@ common:
   type: StatusPage
   url: https://status.graphite.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/changelog/graphite-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/graphite-com-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/conformance/graphite-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/graphite-com-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/security/graphite-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/graphite-com-trust-center.yml
@@ -173,6 +215,7 @@ common:
   type: Security
   url: https://graphite.com/docs/privacy-and-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/security/graphite-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/graphite-com-vulnerability-disclosure.yml
@@ -257,6 +300,41 @@ rate_limits:
 - limit_count: 4
   name: Graphite Com Rate Limits
   slug: graphite-com-rate-limits
+score:
+  band: strong
+  composite: 62.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 54.3
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 62.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/screenshots/graphite-com-2026-06-20T182329.png
 security:
 - kind: authentication

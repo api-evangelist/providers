@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -21,6 +47,7 @@ common:
   type: Website
   url: https://www.archive.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/security/archive-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archive-technologies-domain-security.yml
@@ -65,54 +92,67 @@ common:
   type: ChangeLog
   url: https://feedback.archive.com/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/mcp/archive-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/archive-technologies-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/authentication/archive-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archive-technologies-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/scopes/archive-technologies-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/archive-technologies-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/conventions/archive-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/archive-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/errors/archive-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/archive-technologies-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/rate-limits/archive-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/archive-technologies-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/lifecycle/archive-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/archive-technologies-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/changelog/archive-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/archive-technologies-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/well-known/archive-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/archive-technologies-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/conformance/archive-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archive-technologies-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/data-model/archive-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/archive-technologies-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/llms/archive-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archive-technologies-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -129,18 +169,22 @@ common:
   type: Pricing
   url: https://archive.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/plans/archive-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/archive-technologies-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/examples/archive-technologies-graphql-examples.yml
   title: ''
   type: Examples
   url: examples/archive-technologies-graphql-examples.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/mcp/archive-technologies-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/archive-technologies-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/graphql/archive-technologies.graphql
   title: ''
   type: GraphQL
   url: graphql/archive-technologies.graphql
@@ -175,6 +219,41 @@ scopes:
   scope_count: 1
   slug: archive-technologies-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 51.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 4.5
+    contract_quality: 46.8
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 51.0
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:
 - kind: authentication

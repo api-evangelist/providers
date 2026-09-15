@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 4.7
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
@@ -57,46 +82,57 @@ common:
   type: PrivacyPolicy
   url: https://minimus.io/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/cli/minimus-cli.yml
   title: ''
   type: CLI
   url: cli/minimus-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/packages/minimus-packages.yml
   title: ''
   type: Packages
   url: packages/minimus-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/authentication/minimus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/minimus-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/conventions/minimus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/minimus-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/lifecycle/minimus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/minimus-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/conformance/minimus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/minimus-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/security/minimus-trust-center.yml
   title: ''
   type: Compliance
   url: security/minimus-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/security/minimus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/minimus-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/security/minimus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/minimus-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/well-known/minimus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/minimus-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/llms/minimus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/minimus-llms.txt
@@ -113,6 +149,35 @@ overview: 'Minimus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Minimus'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 15 more developer resources.'
 random_paper: 14
+score:
+  band: thin
+  composite: 31.4
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 57.4
+    operational_transparency: 0.0
+  previous_composite: 31.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/minimus/refs/heads/main/screenshots/minimus-2026-08-07T172951.png
 security:
 - kind: authentication

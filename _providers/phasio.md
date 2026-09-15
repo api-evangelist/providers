@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://m-api.eu.phas.io/api/manufacturer/v1
@@ -758,10 +783,12 @@ collections:
   slug: open-phasio-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/capabilities/phasio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/phasio-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/overlays/phasio-manufacturer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/phasio-manufacturer-overlay.yaml
@@ -814,34 +841,42 @@ common:
   type: Support
   url: https://phas.io/contact
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/authentication/phasio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/phasio-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/well-known/phasio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/phasio-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/conventions/phasio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/phasio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/conventions/phasio-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/phasio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/errors/phasio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/phasio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/lifecycle/phasio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/phasio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/data-model/phasio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/phasio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/conformance/phasio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/phasio-conformance.yml
@@ -850,30 +885,37 @@ common:
   type: Compliance
   url: https://phas.io/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/security/phasio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/phasio-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/security/phasio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phasio-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/asyncapi/phasio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/phasio-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/mcp/phasio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/phasio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/llms/phasio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/phasio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/skills/phasio-create-and-track-order.md
   title: ''
   type: AgentSkill
   url: skills/phasio-create-and-track-order.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/skills/phasio-subscribe-to-webhooks.md
   title: ''
   type: AgentSkill
   url: skills/phasio-subscribe-to-webhooks.md
@@ -893,6 +935,40 @@ overview: 'Phasio publishes 92 APIs on the [APIs.io](https://apis.io/) network, 
 
   Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 23 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 63.4
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 53.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 92
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/screenshots/phasio-2026-08-17T081204.png
 security:
 - kind: authentication

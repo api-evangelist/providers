@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -223,6 +248,7 @@ collections:
   slug: open-athenahealth-subscription-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/capabilities/athenahealth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/athenahealth-capability-edges.yml
@@ -235,6 +261,7 @@ common:
   type: License
   url: https://github.com/athenahealth/aone-fhir-subscriptions/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/security/athenahealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athenahealth-domain-security.yml
@@ -279,30 +306,37 @@ common:
   type: Marketplace
   url: https://www.athenahealth.com/solutions/marketplace-partners
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/plans/athenahealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/athenahealth-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/rate-limits/athenahealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/athenahealth-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/finops/athenahealth-finops.yml
   title: ''
   type: FinOps
   url: finops/athenahealth-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/agentic-access/athenahealth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/athenahealth-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/security/athenahealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athenahealth-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/authentication/athenahealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/athenahealth-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/scopes/athenahealth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/athenahealth-scopes.yml
@@ -363,22 +397,27 @@ common:
   type: Documentation
   url: https://mydata.athenahealth.com/fhirapidoc/r4
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/plans/athenahealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/athenahealth-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/rate-limits/athenahealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/athenahealth-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/finops/athenahealth-finops.yml
   title: ''
   type: FinOps
   url: finops/athenahealth-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/vocabulary/athenahealth-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/athenahealth-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/rules/athenahealth-rules.yml
   title: ''
   type: Spectral
   url: rules/athenahealth-rules.yml
@@ -403,110 +442,137 @@ common:
   type: SDKs
   url: https://github.com/eleanorhealth/go-athenahealth
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/agentic-access/athenahealth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/athenahealth-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/security/athenahealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athenahealth-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/authentication/athenahealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/athenahealth-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/scopes/athenahealth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/athenahealth-scopes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/plans/athenahealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/athenahealth-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/rate-limits/athenahealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/athenahealth-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/finops/athenahealth-finops.yml
   title: ''
   type: FinOps
   url: finops/athenahealth-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/vocabulary/athenahealth-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/athenahealth-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/rules/athenahealth-rules.yml
   title: ''
   type: Spectral
   url: rules/athenahealth-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/packages/athenahealth-packages.yml
   title: ''
   type: Packages
   url: packages/athenahealth-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/well-known/athenahealth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/athenahealth-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/mcp/athenahealth-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/athenahealth-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/mcp/athenahealth-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/athenahealth-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/llms/athenahealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/athenahealth-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/conformance/athenahealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/athenahealth-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/security/athenahealth-trust-center.yml
   title: ''
   type: Compliance
   url: security/athenahealth-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/security/athenahealth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/athenahealth-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/errors/athenahealth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/athenahealth-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/lifecycle/athenahealth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/athenahealth-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/conventions/athenahealth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/athenahealth-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/changelog/athenahealth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/athenahealth-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/data-model/athenahealth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/athenahealth-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/sandbox/athenahealth-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/athenahealth-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/asyncapi/athenahealth-fhir-subscriptions-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/athenahealth-fhir-subscriptions-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/asyncapi/athenahealth-fhir-subscriptions-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/athenahealth-fhir-subscriptions-asyncapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/conformance/athenahealth-fhir-capabilitystatement.json
   title: ''
   type: CapabilityStatement
   url: conformance/athenahealth-fhir-capabilitystatement.json
@@ -633,6 +699,47 @@ scopes:
   scope_count: 1
   slug: athenahealth-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
+score:
+  band: exemplar
+  composite: 76.7
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 70.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 76.8
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 76.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 95.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 82.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:
 - kind: authentication

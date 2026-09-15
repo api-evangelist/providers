@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Public Hasura GraphQL API for the VoyceMe platform — 332 queries, 21 public insert mutations, and 493 subscriptions across the voyce_ (comics platform), storypack_/storytech_ (AI characters), and blog
@@ -18,42 +43,52 @@ apis:
 artifact_total: 3
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/graphql/voyceme-graphql.graphql
   title: ''
   type: GraphQL
   url: graphql/voyceme-graphql.graphql
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/authentication/voyceme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voyceme-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/conventions/voyceme-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voyceme-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/errors/voyceme-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voyceme-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/conformance/voyceme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voyceme-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/data-model/voyceme-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voyceme-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/mcp/voyceme-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/voyceme-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/llms/voyceme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voyceme-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/security/voyceme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voyceme-domain-security.yml
@@ -102,6 +137,36 @@ overview: 'VoyceMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   VoyceMe''s developer surface includes authentication, documentation, developer portal, engineering blog, support, and 13 more developer resources.'
 random_paper: 4
+score:
+  band: thin
+  composite: 29.6
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 37.2
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 29.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/screenshots/voyceme-2026-09-02T170317.png
 security:
 - kind: authentication

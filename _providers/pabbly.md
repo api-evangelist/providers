@@ -10,6 +10,31 @@ access_model:
   - https://buy.pabbly.com/content/pabbly-plus-pricing.md
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.5
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: REST API for Pabbly Subscription Billing — 95 documented operations across customers, subscriptions, products, plans, multiplans, coupons, invoices, payment methods, transactions and refunds, add-ons,
@@ -64,70 +89,87 @@ common:
   type: GettingStarted
   url: https://apidocs.pabbly.com/subscription-billing/reference/guides/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/authentication/pabbly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pabbly-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/llms/pabbly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pabbly-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/mcp/pabbly-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pabbly-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/packages/pabbly-packages.yml
   title: ''
   type: Packages
   url: packages/pabbly-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/packages/pabbly-packages.yml
   title: ''
   type: SDKs
   url: packages/pabbly-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/asyncapi/pabbly-subscription-billing-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pabbly-subscription-billing-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/errors/pabbly-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/pabbly-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/conventions/pabbly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pabbly-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/data-model/pabbly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pabbly-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/components/pabbly-components.yml
   title: ''
   type: Components
   url: components/pabbly-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/lifecycle/pabbly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pabbly-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/conformance/pabbly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pabbly-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/rate-limits/pabbly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pabbly-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/plans/pabbly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pabbly-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/security/pabbly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pabbly-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/security/pabbly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pabbly-vulnerability-disclosure.yml
@@ -136,6 +178,7 @@ common:
   type: Security
   url: https://www.pabbly.com/security-vulnerability-disclosure/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/security/pabbly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pabbly-trust-center.yml
@@ -235,6 +278,42 @@ rate_limits:
 - limit_count: 0
   name: Pabbly Rate Limits
   slug: pabbly-rate-limits
+score:
+  band: strong
+  composite: 57.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 68.5
+    discoverability: 72.2
+    operational_transparency: 26.3
+  previous_composite: 57.5
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/screenshots/pabbly-2026-06-20T191303.png
 security:
 - kind: authentication

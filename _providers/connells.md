@@ -10,6 +10,31 @@ access_model:
   - website
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,50 +71,62 @@ collections:
   slug: open-connells-website
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/mcp/connells-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/connells-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/agentic-access/connells-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/connells-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/security/connells-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/connells-domain-security.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-website-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/connells-website-openapi.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/authentication/connells-authentication.yml
   title: ''
   type: Authentication
   url: authentication/connells-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/rate-limits/connells-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/connells-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/errors/connells-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/connells-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/conventions/connells-conventions.yml
   title: ''
   type: Conventions
   url: conventions/connells-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/data-model/connells-data-model.yml
   title: ''
   type: DataModel
   url: data-model/connells-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/lifecycle/connells-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/connells-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/conformance/connells-conformance.yml
   title: ''
   type: Conformance
   url: conformance/connells-conformance.yml
@@ -98,14 +135,17 @@ common:
   type: Compliance
   url: https://www.connellsgroup.co.uk/required-disclosures-inc-modern-slavery-act-statement/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/packages/connells-packages.yml
   title: ''
   type: Packages
   url: packages/connells-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/llms/connells-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/connells-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -213,6 +253,56 @@ rate_limits:
 - limit_count: 0
   name: Connells Rate Limits
   slug: connells-rate-limits
+score:
+  band: emerging
+  composite: 24.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 15.2
+    developer_ergonomics: 16.1
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 24.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:
 - kind: authentication

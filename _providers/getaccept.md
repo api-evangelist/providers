@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -125,6 +150,7 @@ collections:
   slug: open-getaccept-videos-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/overlays/getaccept-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/getaccept-openapi-overlay.yaml
@@ -185,58 +211,72 @@ common:
   type: Compliance
   url: https://www.getaccept.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/authentication/getaccept-authentication.yml
   title: ''
   type: Authentication
   url: authentication/getaccept-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/scopes/getaccept-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/getaccept-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/conventions/getaccept-conventions.yml
   title: ''
   type: Conventions
   url: conventions/getaccept-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/errors/getaccept-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/getaccept-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/data-model/getaccept-data-model.yml
   title: ''
   type: DataModel
   url: data-model/getaccept-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/lifecycle/getaccept-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/getaccept-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/conformance/getaccept-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getaccept-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/asyncapi/getaccept-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/getaccept-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/mcp/getaccept-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/getaccept-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/agentic-access/getaccept-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/getaccept-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/llms/getaccept-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getaccept-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/security/getaccept-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/getaccept-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/security/getaccept-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getaccept-domain-security.yml
@@ -257,18 +297,22 @@ common:
   type: ChangeLog
   url: https://www.getaccept.com/whats-new
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/changelog/getaccept-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/getaccept-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/plans/getaccept-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/getaccept-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/rate-limits/getaccept-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/getaccept-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/packages/getaccept-packages.yml
   title: ''
   type: Packages
   url: packages/getaccept-packages.yml
@@ -301,6 +345,41 @@ scopes:
   scope_count: 1
   slug: getaccept-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 64.8
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/screenshots/getaccept-2026-07-25T215711.png
 security:
 - kind: authentication

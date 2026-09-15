@@ -20,6 +20,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/causera
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/causera/refs/heads/main/security/causera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/causera-domain-security.yml

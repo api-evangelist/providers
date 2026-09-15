@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.amerco.com/'', ''status'': 301, ''note'': ''declared website redirects to https://investors.uhaul.com/overview/default.aspx — a different registrable domain (amerco.com -> uhaul.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'U-Haul provides do-it-yourself moving and storage services including truck and trailer rentals, self-storage, moving supplies, and U-Box portable storage containers. Partners access dealer management '
@@ -23,10 +48,12 @@ apis:
 artifact_total: 20
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/authentication/amerco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amerco-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/security/amerco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amerco-domain-security.yml
@@ -47,6 +74,7 @@ common:
   type: Portal
   url: https://www.uhaul.com/Dealer/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/amerco-webselfstorage-affiliate-api-v4-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/amerco-webselfstorage-affiliate-api-v4-openapi.yml
@@ -59,22 +87,27 @@ common:
   type: APIReference
   url: https://api.webselfstorage.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/conventions/amerco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amerco-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/errors/amerco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amerco-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/data-model/amerco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amerco-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/overlays/amerco-webselfstorage-affiliate-api-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amerco-webselfstorage-affiliate-api-v4-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/lifecycle/amerco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amerco-lifecycle.yml
@@ -83,26 +116,32 @@ common:
   type: StatusPage
   url: https://status.uhaul.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/conformance/amerco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amerco-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/conformance/amerco-conformance.yml
   title: ''
   type: Compliance
   url: conformance/amerco-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/packages/amerco-packages.yml
   title: ''
   type: Packages
   url: packages/amerco-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/plans/amerco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amerco-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/llms/amerco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amerco-llms.txt
@@ -191,6 +230,40 @@ rate_limits:
 - limit_count: 0
   name: Amerco Rate Limits
   slug: amerco-rate-limits
+score:
+  band: developing
+  composite: 49.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 18.2
+    contract_quality: 48.5
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 49.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/screenshots/amerco-2026-06-20T171904.png
 security:
 - kind: authentication

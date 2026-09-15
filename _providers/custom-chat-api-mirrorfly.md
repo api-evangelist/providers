@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for building in-app chat, split into User APIs and Admin APIs (users, contacts, recent/history chat, groups, media, metadata, presence, block/unblock, call logs, device to
@@ -11,38 +36,47 @@ common:
   type: Website
   url: https://www.mirrorfly.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/security/custom-chat-api-mirrorfly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/custom-chat-api-mirrorfly-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/llms/custom-chat-api-mirrorfly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/custom-chat-api-mirrorfly-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/packages/custom-chat-api-mirrorfly-packages.yml
   title: ''
   type: Packages
   url: packages/custom-chat-api-mirrorfly-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/packages/custom-chat-api-mirrorfly-packages.yml
   title: ''
   type: SDKs
   url: packages/custom-chat-api-mirrorfly-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/authentication/custom-chat-api-mirrorfly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/custom-chat-api-mirrorfly-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/conventions/custom-chat-api-mirrorfly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/custom-chat-api-mirrorfly-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/errors/custom-chat-api-mirrorfly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/custom-chat-api-mirrorfly-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/changelog/custom-chat-api-mirrorfly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/custom-chat-api-mirrorfly-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/conformance/custom-chat-api-mirrorfly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/custom-chat-api-mirrorfly-conformance.yml
@@ -51,18 +85,22 @@ common:
   type: Compliance
   url: https://www.mirrorfly.com/chat-security.php
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/plans/custom-chat-api-mirrorfly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/custom-chat-api-mirrorfly-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/rate-limits/custom-chat-api-mirrorfly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/custom-chat-api-mirrorfly-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/components/custom-chat-api-mirrorfly-components.yml
   title: ''
   type: Components
   url: components/custom-chat-api-mirrorfly-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/lifecycle/custom-chat-api-mirrorfly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/custom-chat-api-mirrorfly-lifecycle.yml
@@ -130,6 +168,46 @@ rate_limits:
 - limit_count: 0
   name: Custom Chat Api Mirrorfly Rate Limits
   slug: custom-chat-api-mirrorfly-rate-limits
+score:
+  band: thin
+  composite: 26.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 66.7
+    operational_transparency: 18.4
+  previous_composite: 26.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 23.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/screenshots/custom-chat-api-mirrorfly-2026-07-25T211005.png
 security:
 - kind: authentication

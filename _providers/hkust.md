@@ -11,6 +11,31 @@ access_model:
   - plans
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://pathadvisor.ust.hk/api
@@ -92,46 +117,57 @@ common:
   type: AITooling
   url: https://itso.hkust.edu.hk/services/it-infrastructure/azure-openai-api-service
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/security/hkust-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hkust-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/authentication/hkust-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hkust-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/scopes/hkust-scopes.yml
   title: ''
   type: Scopes
   url: scopes/hkust-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/conformance/hkust-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hkust-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/lifecycle/hkust-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hkust-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/vocabulary/hkust-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hkust-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/json-ld/hkust-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hkust-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/plans/hkust-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hkust-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/rate-limits/hkust-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hkust-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/finops/hkust-finops.yml
   title: ''
   type: FinOps
   url: finops/hkust-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -204,6 +240,52 @@ scopes:
   scope_count: 0
   slug: hkust-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 49.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 70.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 3.8
+    contract_quality: 63.4
+    developer_ergonomics: 42.9
+    discoverability: 59.3
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 49.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png
 security:
 - kind: authentication

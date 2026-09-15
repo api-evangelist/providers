@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: 'Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://mudwtr.com/api/ucp/mcp. Server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-18 and UCP '
@@ -29,6 +54,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/security/mud-wtr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mud-wtr-domain-security.yml
@@ -61,70 +87,87 @@ common:
   type: Wholesale
   url: https://mudwtr.com/pages/wholesale
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/llms/mud-wtr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mud-wtr-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/llms/mud-wtr-agents.md
   title: ''
   type: AgentInstructions
   url: llms/mud-wtr-agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/well-known/mud-wtr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mud-wtr-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/authentication/mud-wtr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mud-wtr-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/scopes/mud-wtr-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mud-wtr-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/conformance/mud-wtr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mud-wtr-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/lifecycle/mud-wtr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mud-wtr-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/conventions/mud-wtr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mud-wtr-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/conventions/mud-wtr-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mud-wtr-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/errors/mud-wtr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mud-wtr-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/rate-limits/mud-wtr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mud-wtr-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/plans/mud-wtr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mud-wtr-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/data-model/mud-wtr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mud-wtr-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/mcp/mud-wtr-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mud-wtr-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/mcp/mud-wtr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mud-wtr-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/graphql/mud-wtr-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/mud-wtr-storefront.graphql
@@ -158,6 +201,36 @@ scopes:
   scope_count: 0
   slug: mud-wtr-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 29.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 37.2
+    developer_ergonomics: 16.1
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 29.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/screenshots/mud-wtr-2026-09-02T150657.png
 security:
 - kind: authentication

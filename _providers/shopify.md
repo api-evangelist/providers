@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: self
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 55.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -1745,22 +1770,27 @@ collections:
   slug: open-shopify-zones-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/capabilities/shopify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shopify-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/security/shopify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/shopify-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/agentic-access/shopify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shopify-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/security/shopify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopify-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/authentication/shopify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopify-authentication.yml
@@ -1769,90 +1799,112 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/shopify/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-add-variant-to-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-add-variant-to-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-archive-stale-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-archive-stale-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-cancel-and-refund-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-cancel-and-refund-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-close-and-archive-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-close-and-archive-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-create-collection-with-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-create-collection-with-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-create-customer-with-address-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-create-customer-with-address-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-create-order-and-fulfill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-create-order-and-fulfill-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-create-product-with-variant-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-create-product-with-variant-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-find-collection-and-list-products-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-find-collection-and-list-products-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-fulfill-existing-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-fulfill-existing-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-launch-product-with-stock-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-launch-product-with-stock-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-quote-to-paid-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-quote-to-paid-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-register-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-register-webhook-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-restock-product-variant-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-restock-product-variant-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-set-inventory-at-location-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-set-inventory-at-location-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-tag-order-by-fulfillment-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-tag-order-by-fulfillment-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-update-fulfillment-tracking-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-update-fulfillment-tracking-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-update-inventory-item-cost-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-update-inventory-item-cost-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-upsert-customer-by-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-upsert-customer-by-email-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-upsert-customer-then-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-upsert-customer-then-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-upsert-product-by-title-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-upsert-product-by-title-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/arazzo/shopify-upsert-webhook-by-topic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shopify-upsert-webhook-by-topic-workflow.yml
@@ -1925,6 +1977,7 @@ common:
   type: Webhooks
   url: https://shopify.dev/docs/apps/build/webhooks
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/security/shopify-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/shopify-vulnerability-disclosure.yml
@@ -2013,62 +2066,77 @@ common:
   type: SDKs
   url: https://shopify.dev/docs/storefronts/headless/additional-sdks
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/llms/shopify-llms.txt
   title: ''
   type: LlmsText
   url: llms/shopify-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/packages/shopify-packages.yml
   title: ''
   type: Packages
   url: packages/shopify-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/packages/shopify-packages.yml
   title: ''
   type: SDKs
   url: packages/shopify-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/well-known/shopify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shopify-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/well-known/shopify-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/shopify-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/mcp/shopify-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shopify-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/mcp/shopify-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/shopify-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/overlays/shopify-admin-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shopify-admin-rest-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/overlays/shopify-ajax-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shopify-ajax-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/conformance/shopify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopify-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/security/shopify-trust-center.yml
   title: ''
   type: Compliance
   url: security/shopify-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/security/shopify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shopify-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/errors/shopify-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shopify-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/lifecycle/shopify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopify-lifecycle.yml
@@ -2077,50 +2145,62 @@ common:
   type: Deprecation
   url: https://shopify.dev/docs/api/usage/versioning#deprecation-practices
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/scopes/shopify-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shopify-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/conventions/shopify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopify-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/conventions/shopify-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shopify-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/sandbox/shopify-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopify-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/changelog/shopify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shopify-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/cli/shopify-cli.yml
   title: ''
   type: CLI
   url: cli/shopify-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/components/shopify-components.yml
   title: ''
   type: Components
   url: components/shopify-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/data-model/shopify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shopify-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/asyncapi/shopify-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shopify-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/plans/shopify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shopify-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/rate-limits/shopify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shopify-rate-limits.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/graphql/shopify-storefront-api.graphql
   title: ''
   type: GraphQL
   url: graphql/shopify-storefront-api.graphql
@@ -2260,6 +2340,47 @@ scopes:
   scope_count: 0
   slug: shopify-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 90.2
+  coverage:
+    artifact_dirs: 38
+    catalog_earned: 89.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 25.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 84.3
+    developer_ergonomics: 96.4
+    discoverability: 66.7
+    operational_transparency: 94.7
+  previous_composite: 90.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 197
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:
 - kind: authentication

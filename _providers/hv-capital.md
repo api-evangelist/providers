@@ -32,7 +32,6 @@ tags:
 - Deep Tech
 - Enterprise
 - Artificial Intelligence
-- Consumer
 - Climate & Energy
 - Europe
 - Germany

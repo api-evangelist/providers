@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -143,18 +169,22 @@ common:
   type: Website
   url: https://www.apollo.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/authentication/apollo-api-documentation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apollo-api-documentation-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/agentic-access/apollo-api-documentation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apollo-api-documentation-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/security/apollo-api-documentation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/apollo-api-documentation-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/security/apollo-api-documentation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apollo-api-documentation-domain-security.yml
@@ -191,34 +221,42 @@ common:
   type: LlmsText
   url: https://docs.apollo.io/llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/_original/apollo-api-documentation-apollo-rest-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/apollo-api-documentation-apollo-rest-api-openapi.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/packages/apollo-api-documentation-packages.yml
   title: ''
   type: Packages
   url: packages/apollo-api-documentation-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/well-known/apollo-api-documentation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apollo-api-documentation-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/mcp/apollo-api-documentation-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apollo-api-documentation-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/mcp/apollo-api-documentation-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/apollo-api-documentation-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/llms/apollo-api-documentation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apollo-api-documentation-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/overlays/apollo-api-documentation-enrichment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apollo-api-documentation-enrichment-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/conformance/apollo-api-documentation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apollo-api-documentation-conformance.yml
@@ -227,10 +265,12 @@ common:
   type: Compliance
   url: https://trust.apollo.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/errors/apollo-api-documentation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apollo-api-documentation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/lifecycle/apollo-api-documentation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apollo-api-documentation-lifecycle.yml
@@ -239,42 +279,52 @@ common:
   type: StatusPage
   url: https://status.apollo.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/scopes/apollo-api-documentation-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/apollo-api-documentation-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/conventions/apollo-api-documentation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apollo-api-documentation-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/cli/apollo-api-documentation-cli.yml
   title: ''
   type: CLI
   url: cli/apollo-api-documentation-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/data-model/apollo-api-documentation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apollo-api-documentation-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/asyncapi/apollo-api-documentation-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/apollo-api-documentation-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/plans/apollo-api-documentation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apollo-api-documentation-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/rate-limits/apollo-api-documentation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apollo-api-documentation-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/finops/apollo-api-documentation-finops.yml
   title: ''
   type: FinOps
   url: finops/apollo-api-documentation-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/collections/apollo-api-documentation.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/apollo-api-documentation.postman_collection.json
@@ -381,6 +431,41 @@ scopes:
   scope_count: 0
   slug: apollo-api-documentation-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 60.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 67.1
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 60.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png
 security:
 - kind: authentication

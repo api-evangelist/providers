@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -68,14 +93,17 @@ collections:
   slug: open-schema-registry
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/agentic-access/confluent-schema-registry-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/confluent-schema-registry-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/security/confluent-schema-registry-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/confluent-schema-registry-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/security/confluent-schema-registry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/confluent-schema-registry-domain-security.yml
@@ -116,10 +144,12 @@ common:
   type: Pricing
   url: https://www.confluent.io/pricing/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/json-ld/confluent-schema-registry-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/confluent-schema-registry-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/rules/confluent-schema-registry-rules.yml
   title: ''
   type: Spectral
   url: rules/confluent-schema-registry-rules.yml
@@ -186,6 +216,38 @@ rules:
     info: 0
     warn: 6
   slug: confluent-schema-registry-rules
+score:
+  band: thin
+  composite: 34.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 13.6
+    contract_quality: 50.2
+    developer_ergonomics: 38.1
+    discoverability: 66.7
+    operational_transparency: 13.2
+  previous_composite: 34.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/screenshots/confluent-schema-registry-2026-06-20T174859.png
 security:
 - kind: domain-security

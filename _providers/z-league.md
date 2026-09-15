@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,14 +82,17 @@ collections:
   slug: open-z-league-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/capabilities/z-league-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/z-league-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/mcp/z-league-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/z-league-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/overlays/z-league-crm-lead-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/z-league-crm-lead-overlay.yaml
@@ -121,34 +149,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/zleague
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/changelog/z-league-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/z-league-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/lifecycle/z-league-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/z-league-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/rate-limits/z-league-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/z-league-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/llms/z-league-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/z-league-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/security/z-league-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/z-league-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/arazzo/z-league-incremental-lead-sync.yml
   title: ''
   type: Arazzo
   url: arazzo/z-league-incremental-lead-sync.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/arazzo/z-league-capture-and-notify.yml
   title: ''
   type: Arazzo
   url: arazzo/z-league-capture-and-notify.yml
@@ -172,6 +208,41 @@ rate_limits:
 - limit_count: 0
   name: Z League Rate Limits
   slug: z-league-rate-limits
+score:
+  band: developing
+  composite: 40.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 66.1
+    developer_ergonomics: 20.8
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 40.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/screenshots/z-league-2026-08-17T083228.png
 security:
 - kind: authentication

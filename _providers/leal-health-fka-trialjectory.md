@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Private platform API host backing the Leal Health patient-matching web application and the Patient Match Optimizer dashboard. Verified live on 2026-07-19: the root path returns HTTP 200 with a {"succe'
@@ -16,14 +41,17 @@ apis:
 artifact_total: 2
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leal-health-fka-trialjectory/refs/heads/main/security/leal-health-fka-trialjectory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leal-health-fka-trialjectory-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leal-health-fka-trialjectory/refs/heads/main/conformance/leal-health-fka-trialjectory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leal-health-fka-trialjectory-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leal-health-fka-trialjectory/refs/heads/main/llms/leal-health-fka-trialjectory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leal-health-fka-trialjectory-llms.txt
@@ -81,6 +109,44 @@ overview: 'Leal Health (fka TrialJectory) publishes 1 API on the [APIs.io](https
 
   Leal Health (fka TrialJectory)''s developer surface includes signup flow, support, FAQ, and 10 more developer resources.'
 random_paper: 0
+score:
+  band: emerging
+  composite: 16.1
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 16.1
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 23.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/leal-health-fka-trialjectory/refs/heads/main/screenshots/leal-health-fka-trialjectory-2026-07-25T224729.png
 security:
 - kind: domain-security

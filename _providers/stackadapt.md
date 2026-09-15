@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -33,6 +58,7 @@ asyncapis:
   slug: stackadapt-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/security/stackadapt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stackadapt-domain-security.yml
@@ -65,14 +91,17 @@ common:
   type: X
   url: https://x.com/stackadapt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/plans/stackadapt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stackadapt-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/rate-limits/stackadapt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stackadapt-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/finops/stackadapt-finops.yml
   title: ''
   type: FinOps
   url: finops/stackadapt-finops.yml
@@ -109,42 +138,52 @@ common:
   type: PrivacyPolicy
   url: https://www.stackadapt.com/legal-document-centre/platform-and-services-privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/llms/stackadapt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stackadapt-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/mcp/stackadapt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stackadapt-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/well-known/stackadapt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stackadapt-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/packages/stackadapt-packages.yml
   title: ''
   type: Packages
   url: packages/stackadapt-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/packages/stackadapt-packages.yml
   title: ''
   type: SDKs
   url: packages/stackadapt-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/authentication/stackadapt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stackadapt-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/scopes/stackadapt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stackadapt-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/conventions/stackadapt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stackadapt-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/errors/stackadapt-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/stackadapt-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/lifecycle/stackadapt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stackadapt-lifecycle.yml
@@ -153,6 +192,7 @@ common:
   type: Deprecation
   url: https://www.stackadapt.com/legal-document-centre/api-terms-and-conditions
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/conformance/stackadapt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stackadapt-conformance.yml
@@ -165,6 +205,7 @@ common:
   type: TrustCenter
   url: https://www.stackadapt.com/trust-and-security-center
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/security/stackadapt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stackadapt-vulnerability-disclosure.yml
@@ -173,22 +214,27 @@ common:
   type: Security
   url: https://www.stackadapt.com/trust-and-security-center
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/sandbox/stackadapt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stackadapt-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/components/stackadapt-components.yml
   title: ''
   type: Components
   url: components/stackadapt-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/data-model/stackadapt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stackadapt-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/asyncapi/stackadapt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/stackadapt-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -233,6 +279,36 @@ scopes:
   scope_count: 2
   slug: stackadapt-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 53.1
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 28.9
+  previous_composite: 62.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackadapt/refs/heads/main/screenshots/stackadapt-2026-06-20T194444.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: 'Schema.org is a collaborative, community-driven vocabulary for structured data on the internet. It provides a collection of shared vocabularies that webmasters and developers can use to mark up pages '
@@ -34,6 +59,7 @@ common:
   type: License
   url: https://github.com/schemaorg/schemaorg/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/security/schema-org-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/schema-org-domain-security.yml
@@ -54,14 +80,17 @@ common:
   type: Support
   url: https://github.com/schemaorg/schemaorg/issues
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/rules/schema-org-rules.yml
   title: ''
   type: SpectralRules
   url: rules/schema-org-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/json-ld/schema-org-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/schema-org-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/vocabulary/schema-org-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/schema-org-vocabulary.yml
@@ -82,42 +111,52 @@ common:
   type: TermsOfService
   url: https://schema.org/docs/terms.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/packages/schema-org-packages.yml
   title: ''
   type: Packages
   url: packages/schema-org-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/llms/schema-org-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/schema-org-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/changelog/schema-org-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/schema-org-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/lifecycle/schema-org-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/schema-org-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/lifecycle/schema-org-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/schema-org-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/conventions/schema-org-conventions.yml
   title: ''
   type: Conventions
   url: conventions/schema-org-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/conformance/schema-org-conformance.yml
   title: ''
   type: Conformance
   url: conformance/schema-org-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/data-model/schema-org-data-model.yml
   title: ''
   type: DataModel
   url: data-model/schema-org-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/plans/schema-org-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/schema-org-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/rate-limits/schema-org-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/schema-org-rate-limits.yml
@@ -424,6 +463,37 @@ rules:
     info: 0
     warn: 5
   slug: schema-org-rules
+score:
+  band: thin
+  composite: 31.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 62.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 43.2
+    contract_quality: 14.7
+    developer_ergonomics: 45.2
+    discoverability: 74.1
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 31.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/screenshots/schema-org-2026-06-20T193515.png
 security:
 - kind: domain-security

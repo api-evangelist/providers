@@ -9,6 +9,32 @@ access_model:
   - probe
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 0
@@ -391,42 +417,52 @@ common:
   type: Facebook
   url: https://www.facebook.com/p/Harbinger-Health-61555320668795/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/authentication/harbinger-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/harbinger-health-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/scopes/harbinger-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/harbinger-health-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/well-known/harbinger-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/harbinger-health-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/mcp/harbinger-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/harbinger-health-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/mcp/harbinger-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/harbinger-health-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/llms/harbinger-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/harbinger-health-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/conventions/harbinger-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/harbinger-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/errors/harbinger-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/harbinger-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/lifecycle/harbinger-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/harbinger-health-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/conformance/harbinger-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/harbinger-health-conformance.yml
@@ -435,30 +471,37 @@ common:
   type: Compliance
   url: https://harbinger-health.com/resolve/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/security/harbinger-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harbinger-health-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/data-model/harbinger-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/harbinger-health-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/packages/harbinger-health-packages.yml
   title: ''
   type: Packages
   url: packages/harbinger-health-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/agentic-access/harbinger-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/harbinger-health-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/overlays/harbinger-health-wordpress-wp-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/harbinger-health-wordpress-wp-v2-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
@@ -501,6 +544,54 @@ scopes:
   scope_count: 1
   slug: harbinger-health-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 19.0
+    developer_ergonomics: 20.8
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 31.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 36
+      marker_coverage: 100.0
+      total: 36
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 75.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png
 security:
 - kind: authentication

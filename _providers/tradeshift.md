@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://api.tradeshift.com/tradeshift
@@ -335,18 +360,22 @@ collections:
   slug: open-tradeshift-tools-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/capabilities/tradeshift-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tradeshift-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/security/tradeshift-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tradeshift-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/security/tradeshift-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tradeshift-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/security/tradeshift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tradeshift-domain-security.yml
@@ -431,86 +460,107 @@ common:
   type: Compliance
   url: https://tradeshift.com/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/conventions/tradeshift-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tradeshift-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/packages/tradeshift-packages.yml
   title: ''
   type: SDKs
   url: packages/tradeshift-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/packages/tradeshift-packages.yml
   title: ''
   type: Packages
   url: packages/tradeshift-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/components/tradeshift-components.yml
   title: ''
   type: Components
   url: components/tradeshift-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/mcp/tradeshift-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tradeshift-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/llms/tradeshift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tradeshift-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/well-known/tradeshift-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tradeshift-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/authentication/tradeshift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tradeshift-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/scopes/tradeshift-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tradeshift-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/conventions/tradeshift-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tradeshift-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/lifecycle/tradeshift-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tradeshift-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/conformance/tradeshift-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tradeshift-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/errors/tradeshift-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tradeshift-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/data-model/tradeshift-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tradeshift-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/asyncapi/tradeshift-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tradeshift-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/sandbox/tradeshift-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tradeshift-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/changelog/tradeshift-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tradeshift-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/mcp/tradeshift-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tradeshift-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/json-schema/_index.yml
   title: ''
   type: JSONSchema
   url: json-schema/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/overlays/tradeshift-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tradeshift-external-api-overlay.yaml
@@ -572,6 +622,40 @@ scopes:
   scope_count: 7
   slug: tradeshift-scopes
   summary_line: 7 scopes · clientCredentials/implicit
+score:
+  band: strong
+  composite: 55.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 43.0
+    catalog_earned_first_party: 6.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 66.1
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 55.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/screenshots/tradeshift-2026-08-17T082420.png
 security:
 - kind: authentication

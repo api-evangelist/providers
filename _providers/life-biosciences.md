@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://www.lifebiosciences.com/wp-json
@@ -146,54 +171,67 @@ common:
   type: Robots
   url: https://www.lifebiosciences.com/robots.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/authentication/life-biosciences-authentication.yml
   title: ''
   type: Authentication
   url: authentication/life-biosciences-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/conventions/life-biosciences-conventions.yml
   title: ''
   type: Conventions
   url: conventions/life-biosciences-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/errors/life-biosciences-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/life-biosciences-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/data-model/life-biosciences-data-model.yml
   title: ''
   type: DataModel
   url: data-model/life-biosciences-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/examples/life-biosciences-wordpress-content-examples.yml
   title: ''
   type: Examples
   url: examples/life-biosciences-wordpress-content-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/conformance/life-biosciences-conformance.yml
   title: ''
   type: Conformance
   url: conformance/life-biosciences-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/lifecycle/life-biosciences-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/life-biosciences-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/well-known/life-biosciences-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/life-biosciences-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/security/life-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/life-biosciences-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/llms/life-biosciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/life-biosciences-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/mcp/life-biosciences-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/life-biosciences-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/overlays/life-biosciences-wordpress-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/life-biosciences-wordpress-content-overlay.yaml
@@ -211,6 +249,52 @@ overview: 'Life Biosciences publishes 8 APIs on the [APIs.io](https://apis.io/) 
 
   Life Biosciences'' developer surface includes engineering blog, authentication, code examples, and 26 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 55.8
+    developer_ergonomics: 16.1
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 39.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 40.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:
 - kind: authentication

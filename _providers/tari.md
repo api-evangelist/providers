@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Self-hosted gRPC interfaces (proto3, package tari.rpc) to a Tari base node and wallet, for querying the chain and controlling a wallet. Servers run locally on the operator's node rather than at a sing
@@ -44,46 +69,57 @@ common:
   type: ChangeLog
   url: https://github.com/tari-project/tari/releases
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/packages/tari-packages.yml
   title: ''
   type: Packages
   url: packages/tari-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/packages/tari-packages.yml
   title: ''
   type: SDKs
   url: packages/tari-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/cli/tari-cli.yml
   title: ''
   type: CLI
   url: cli/tari-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/mcp/tari-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tari-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/llms/tari-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tari-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/conformance/tari-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tari-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/conventions/tari-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tari-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/lifecycle/tari-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tari-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/security/tari-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tari-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/well-known/tari-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tari-well-known.yml
@@ -101,6 +137,41 @@ overview: 'Tari publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
   Tari''s developer surface includes documentation, getting-started guide, engineering blog, changelog, CLI, and 13 more developer resources.'
 random_paper: 12
+score:
+  band: emerging
+  composite: 24.4
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 24.4
+  provenance:
+    conformance: derived
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 17.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/screenshots/tari-2026-09-02T162544.png
 security:
 - kind: domain-security

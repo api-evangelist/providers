@@ -8,6 +8,32 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Chord's hosted Model Context Protocol server — a remote, OAuth-protected, read-only window into a customer's Chord data warehouse. Fourteen documented tools cover schema search, saved views, prior que
@@ -30,6 +56,7 @@ common:
   type: License
   url: https://github.com/chordcommerce/chord-copilot/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/security/chord-commerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chord-commerce-domain-security.yml
@@ -86,50 +113,62 @@ common:
   type: AnthropicIntegration
   url: https://docs.chord.co/chord-ai-models-powered-by-anthropic
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/mcp/chord-commerce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chord-commerce-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/llms/chord-commerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chord-commerce-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/packages/chord-commerce-packages.yml
   title: ''
   type: Packages
   url: packages/chord-commerce-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/packages/chord-commerce-packages.yml
   title: ''
   type: SDKs
   url: packages/chord-commerce-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/authentication/chord-commerce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chord-commerce-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/scopes/chord-commerce-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/chord-commerce-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/well-known/chord-commerce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chord-commerce-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/conventions/chord-commerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chord-commerce-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/errors/chord-commerce-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/chord-commerce-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/conformance/chord-commerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chord-commerce-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/lifecycle/chord-commerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chord-commerce-lifecycle.yml
@@ -138,6 +177,7 @@ common:
   type: StatusPage
   url: https://status.chord.co
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/changelog/chord-commerce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chord-commerce-changelog.yml
@@ -146,22 +186,27 @@ common:
   type: ReleaseNotes
   url: https://chord.launchnotes.io
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/asyncapi/chord-commerce-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/chord-commerce-events.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/components/chord-commerce-components.yml
   title: ''
   type: Components
   url: components/chord-commerce-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/data-model/chord-commerce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chord-commerce-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/plans/chord-commerce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chord-commerce-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/rate-limits/chord-commerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chord-commerce-rate-limits.yml
@@ -260,6 +305,36 @@ scopes:
   scope_count: 0
   slug: chord-commerce-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 61.9
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 46.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png
 security:
 - kind: authentication

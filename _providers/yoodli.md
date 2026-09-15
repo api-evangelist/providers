@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.yoodli.ai/api
@@ -33,6 +58,7 @@ common:
   type: GettingStarted
   url: https://developers.yoodli.ai/docs/quickstart
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/authentication/yoodli-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yoodli-authentication.yml
@@ -85,62 +111,77 @@ common:
   type: ChangeLog
   url: https://developers.yoodli.ai/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/mcp/yoodli-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/yoodli-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/mcp/yoodli-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/yoodli-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/llms/yoodli-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yoodli-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/plans/yoodli-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yoodli-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/rate-limits/yoodli-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yoodli-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/conventions/yoodli-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yoodli-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/errors/yoodli-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/yoodli-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/lifecycle/yoodli-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yoodli-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/conformance/yoodli-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yoodli-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/data-model/yoodli-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yoodli-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/packages/yoodli-packages.yml
   title: ''
   type: Packages
   url: packages/yoodli-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/components/yoodli-components.yml
   title: ''
   type: Components
   url: components/yoodli-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/security/yoodli-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yoodli-domain-security.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/changelog/yoodli-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/yoodli-changelog.yml
@@ -156,7 +197,7 @@ modified: '2026-09-04'
 name: Yoodli
 nav: Providers
 network: true
-overview: 'Yoodli publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Communication, Coaching, Learning and Development, and Sales Enablement.
+overview: 'Yoodli publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Communications, Coaching, Learning and Development, and Sales Enablement.
 
 
   The Yoodli catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,6 +213,45 @@ rate_limits:
 - limit_count: 3
   name: Yoodli Rate Limits
   slug: yoodli-rate-limits
+score:
+  band: strong
+  composite: 54.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 4.5
+    contract_quality: 59.1
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 54.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Yoodli Authentication
@@ -188,14 +268,14 @@ security:
 slug: yoodli
 tags:
 - Artificial Intelligence
-- Communication
+- Communications
 - Coaching
 - Learning and Development
 - Sales Enablement
 - Speech Analysis
 - Human Resources
 - Enterprise Software
-- SaaS
+- Software-as-a-Service
 - Identity Management
 website: https://yoodli.ai/
 ---

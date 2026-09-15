@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -85,6 +110,7 @@ collections:
   slug: open-palla-transfers-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/overlays/palla-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/palla-platform-overlay.yaml
@@ -125,6 +151,7 @@ common:
   type: PrivacyPolicy
   url: https://palla.app/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/security/palla-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/palla-trust-center.yml
@@ -133,70 +160,87 @@ common:
   type: Compliance
   url: https://trust.palla.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/packages/palla-packages.yml
   title: ''
   type: SDKs
   url: packages/palla-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/packages/palla-packages.yml
   title: ''
   type: Packages
   url: packages/palla-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/components/palla-components.yml
   title: ''
   type: Components
   url: components/palla-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/mcp/palla-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/palla-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/llms/palla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/palla-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/asyncapi/palla-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/palla-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/conventions/palla-conventions.yml
   title: ''
   type: Conventions
   url: conventions/palla-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/conventions/palla-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/palla-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/errors/palla-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/palla-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/lifecycle/palla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/palla-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/conformance/palla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/palla-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/data-model/palla-data-model.yml
   title: ''
   type: DataModel
   url: data-model/palla-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/well-known/palla-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/palla-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/authentication/palla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/palla-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/agentic-access/palla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/palla-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/security/palla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/palla-domain-security.yml
@@ -216,6 +260,51 @@ overview: 'Palla publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
   Palla''s developer surface includes documentation, API reference, authentication, and 26 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 36.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 10.6
+    developer_ergonomics: 51.8
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 36.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 12.5
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 59.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/screenshots/palla-2026-08-07T191320.png
 security:
 - kind: authentication

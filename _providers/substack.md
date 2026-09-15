@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'Narrowly scoped official API that returns public Substack profile data for a given LinkedIn handle. Access requires accepting the Developer API Terms of Use, applying via form, and generating a token '
@@ -22,10 +47,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/security/substack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/substack-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/security/substack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/substack-domain-security.yml
@@ -34,34 +61,42 @@ common:
   type: Security
   url: https://substack.com/vulnerability-disclosure
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/mcp/substack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/substack-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/well-known/substack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/substack-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/authentication/substack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/substack-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/scopes/substack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/substack-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/conformance/substack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/substack-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/errors/substack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/substack-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/conventions/substack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/substack-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/lifecycle/substack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/substack-lifecycle.yml
@@ -70,26 +105,32 @@ common:
   type: StatusPage
   url: https://status.substack.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/changelog/substack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/substack-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/rate-limits/substack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/substack-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/plans/substack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/substack-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/packages/substack-packages.yml
   title: ''
   type: Packages
   url: packages/substack-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/components/substack-components.yml
   title: ''
   type: Components
   url: components/substack-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/llms/substack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/substack-llms.txt
@@ -212,6 +253,40 @@ scopes:
   scope_count: 8
   slug: substack-scopes
   summary_line: 8 scopes · authorizationCode/deviceCode/implicit
+score:
+  band: thin
+  composite: 37.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 74.1
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 37.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png
 security:
 - kind: authentication

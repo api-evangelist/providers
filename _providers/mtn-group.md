@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -1082,482 +1107,602 @@ collections:
   slug: open-mtn-group-withdrawals-v1
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/capabilities/mtn-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mtn-group-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-account-decisioning-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-account-decisioning-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-customer-bill-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-customer-bill-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-loans-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-loans-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-subscriber-details-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-subscriber-details-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-subscriber-type-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-subscriber-type-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-provisioning-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-provisioning-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-unified-balance-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-unified-balance-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-resourceinventorymanagement-tmf639-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-resourceinventorymanagement-tmf639-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-sales-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-sales-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-service-activation-and-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-service-activation-and-configuration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-service-ordering-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-service-ordering-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-bss-tt-oauth-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-bss-tt-oauth-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-balance-management-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-balance-management-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-callmeback-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-callmeback-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-callmeback-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-callmeback-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-rcs-communication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-rcs-communication-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-communication-management-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-communication-management-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf681-communication-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf681-communication-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-ayo-preapproval-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-ayo-preapproval-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-content-push-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-content-push-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-bill-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-bill-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-billing-token-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-billing-token-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-nigeria-data-gifting-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-nigeria-data-gifting-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-nigeria-customer-datashare-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-nigeria-customer-datashare-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-delivery-booking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-delivery-booking-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-identification-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-identification-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-kyc-consent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-kyc-consent-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-loyalty-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-loyalty-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-management-coe-za-preprod-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-management-coe-za-preprod-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-pin-management-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-pin-management-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-promotion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-promotion-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-survey-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-survey-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-data-transfer-ng-prod-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-data-transfer-ng-prod-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-datatransfer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-datatransfer-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-device-swap-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-device-swap-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-720-digital-identity-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-720-digital-identity-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-digital-partner-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-digital-partner-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-document-managment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-document-managment-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-document-management-tmf667-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-document-management-tmf667-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf688-event-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf688-event-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-eec-token-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-eec-token-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-insurance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-insurance-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-iot-device-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-iot-device-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-hcm-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-hcm-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-logback-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-logback-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-loyalty-management-tmf658-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-loyalty-management-tmf658-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-rcs-capability-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-rcs-capability-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-medallia-sms-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-medallia-sms-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-advertising-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-advertising-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-advertising-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-advertising-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mobile-customer-information-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mobile-customer-information-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-withdrawals-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-withdrawals-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-momo-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-momo-verification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-ayoaccountholderinfo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-ayoaccountholderinfo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-agent-profile-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-agent-profile-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-account-management-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-account-management-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-kyc-api-v1-product-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-kyc-api-v1-product-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-kyc-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-kyc-verification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-loans-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-loans-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-locations-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-locations-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-customer-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-customer-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-plans-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-plans-api-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-profiles-api-v2-product-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-profiles-api-v2-product-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-risk-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-risk-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-customer-score-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-customer-score-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-simverification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-simverification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-subscription-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-subscription-api-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-g2m-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-g2m-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-oauth-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-oauth-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-merchant-provisioning-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-merchant-provisioning-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-sms-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-sms-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-ussd-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-ussd-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-product-offering-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-product-offering-api-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-product-offering-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-product-offering-api-v3-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-ng-retailer-productivity-tracking-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-ng-retailer-productivity-tracking-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf633-shopping-cart-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf633-shopping-cart-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-siebel-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-siebel-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-party-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-party-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-usage-management-tmf635-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-usage-management-tmf635-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-usage-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-usage-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtnid-getinfo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtnid-getinfo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-notification-production-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-notification-production-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-notification-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-notification-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-order-fulfillment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-order-fulfillment-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-party-interaction-tmf683-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-party-interaction-tmf683-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-party-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-party-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-rwanda-party-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-rwanda-party-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-payment-methods-management-sa-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-payment-methods-management-sa-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-payments-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-payments-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-prepay-balance-management-tmf654-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-prepay-balance-management-tmf654-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-product-catalog-coe-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-product-catalog-coe-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-product-catalog-management-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-product-catalog-management-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-product-catalogue-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-product-catalogue-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-product-catalog-tmf620-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-product-catalog-tmf620-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-product-ordering-coe-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-product-ordering-coe-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-product-ordering-tmf622-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-product-ordering-tmf622-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-resource-config-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-resource-config-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-resource-ordering-tmf652-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-resource-ordering-tmf652-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-service-activation-tmf678-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-service-activation-tmf678-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-job-card-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-job-card-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-ticket-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-ticket-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-mtn-sms-interface-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-mtn-sms-interface-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-sms-v3-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-sms-v3-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-sim-management-staging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-sim-management-staging-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-sim-swap-verification-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-sim-swap-verification-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-subscriber-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-subscriber-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-taxation-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-taxation-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-trouble-ticket-tmf621-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-trouble-ticket-tmf621-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf629-customer-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf629-customer-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf637-product-inventory-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf637-product-inventory-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-account-management-coe-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-account-management-coe-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-payment-management-tmf676-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-payment-management-tmf676-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-resource-pool-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-resource-pool-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-tmf-usage-consumption-tmf677-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-tmf-usage-consumption-tmf677-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/overlays/mtn-group-usage-consumption-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mtn-group-usage-consumption-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/agentic-access/mtn-group-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mtn-group-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/security/mtn-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mtn-group-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/scopes/mtn-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mtn-group-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/authentication/mtn-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mtn-group-authentication.yml
@@ -1662,34 +1807,42 @@ common:
   type: ErrorCodes
   url: https://developers.mtn.com/getting-started/response-and-error-codes
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/packages/mtn-group-packages.yml
   title: ''
   type: Packages
   url: packages/mtn-group-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/mcp/mtn-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mtn-group-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/mcp/mtn-group-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mtn-group-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/llms/mtn-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mtn-group-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/conformance/mtn-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mtn-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/errors/mtn-group-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mtn-group-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/errors/mtn-group-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/mtn-group-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/lifecycle/mtn-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mtn-group-lifecycle.yml
@@ -1698,50 +1851,62 @@ common:
   type: Deprecation
   url: https://developers.mtn.com/getting-started/things-every-developer-should-know
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/sandbox/mtn-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mtn-group-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/conventions/mtn-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mtn-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/conventions/mtn-group-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mtn-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/components/mtn-group-components.yml
   title: ''
   type: Components
   url: components/mtn-group-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/data-model/mtn-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mtn-group-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/asyncapi/mtn-group-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mtn-group-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/skills/mtn-group-send-sms.md
   title: ''
   type: AgentSkill
   url: skills/mtn-group-send-sms.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/skills/mtn-group-collect-a-payment.md
   title: ''
   type: AgentSkill
   url: skills/mtn-group-collect-a-payment.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/skills/mtn-group-momo-request-to-pay.md
   title: ''
   type: AgentSkill
   url: skills/mtn-group-momo-request-to-pay.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/skills/mtn-group-place-a-product-order.md
   title: ''
   type: AgentSkill
   url: skills/mtn-group-place-a-product-order.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/skills/mtn-group-manage-subscriptions.md
   title: ''
   type: AgentSkill
   url: skills/mtn-group-manage-subscriptions.md
@@ -1767,6 +1932,52 @@ scopes:
   scope_count: 2
   slug: mtn-group-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: strong
+  composite: 55.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 58.3
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 91.6
+      derived: 0
+      marker_coverage: 0.0
+      total: 144
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png
 security:
 - kind: authentication

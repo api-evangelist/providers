@@ -16,6 +16,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/fitstar
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fitstar/refs/heads/main/security/fitstar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fitstar-domain-security.yml

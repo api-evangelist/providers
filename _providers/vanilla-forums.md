@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://vanillaforums.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.higherlogic.com/vanilla/ — a different registrable domain (vanillaforums.com -> higherlogic.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://open.vanillaforums.com/api/v2
@@ -489,10 +514,12 @@ collections:
   slug: open-vanilla-forums-widgets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/capabilities/vanilla-forums-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vanilla-forums-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/overlays/vanilla-forums-vanilla-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vanilla-forums-vanilla-api-overlay.yaml
@@ -549,66 +576,82 @@ common:
   type: Login
   url: https://success.vanillaforums.com/entry/signin
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/changelog/vanilla-forums-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vanilla-forums-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/packages/vanilla-forums-packages.yml
   title: ''
   type: Packages
   url: packages/vanilla-forums-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/packages/vanilla-forums-packages.yml
   title: ''
   type: SDKs
   url: packages/vanilla-forums-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/well-known/vanilla-forums-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vanilla-forums-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/mcp/vanilla-forums-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vanilla-forums-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/llms/vanilla-forums-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vanilla-forums-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/conformance/vanilla-forums-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vanilla-forums-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/errors/vanilla-forums-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vanilla-forums-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/lifecycle/vanilla-forums-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vanilla-forums-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/authentication/vanilla-forums-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vanilla-forums-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/security/vanilla-forums-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vanilla-forums-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/conventions/vanilla-forums-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vanilla-forums-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/rate-limits/vanilla-forums-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vanilla-forums-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/asyncapi/vanilla-forums-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vanilla-forums-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/data-model/vanilla-forums-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vanilla-forums-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -636,6 +679,40 @@ rate_limits:
 - limit_count: 3
   name: Vanilla Forums Rate Limits
   slug: vanilla-forums-rate-limits
+score:
+  band: developing
+  composite: 51.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 51.4
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 51.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 58
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/screenshots/vanilla-forums-2026-08-17T082714.png
 security:
 - kind: authentication

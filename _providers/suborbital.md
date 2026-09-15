@@ -20,22 +20,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/suborbital
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/suborbital/refs/heads/main/packages/suborbital-packages.yml
   title: ''
   type: Packages
   url: packages/suborbital-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/suborbital/refs/heads/main/packages/suborbital-packages.yml
   title: ''
   type: SDKs
   url: packages/suborbital-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/suborbital/refs/heads/main/cli/suborbital-cli.yml
   title: ''
   type: CLI
   url: cli/suborbital-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/suborbital/refs/heads/main/components/suborbital-components.yml
   title: ''
   type: Components
   url: components/suborbital-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/suborbital/refs/heads/main/security/suborbital-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/suborbital-domain-security.yml

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -68,10 +93,12 @@ collections:
   slug: open-pimloc-projects-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/agentic-access/pimloc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pimloc-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/security/pimloc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pimloc-domain-security.yml
@@ -128,22 +155,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/pimloc
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/authentication/pimloc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pimloc-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/conventions/pimloc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pimloc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/errors/pimloc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pimloc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/lifecycle/pimloc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pimloc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/conformance/pimloc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pimloc-conformance.yml
@@ -152,42 +184,52 @@ common:
   type: Compliance
   url: https://www.secureredact.ai/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/packages/pimloc-packages.yml
   title: ''
   type: Packages
   url: packages/pimloc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/packages/pimloc-packages.yml
   title: ''
   type: SDKs
   url: packages/pimloc-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/mcp/pimloc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pimloc-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/llms/pimloc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pimloc-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/overlays/pimloc-secureredact-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pimloc-secureredact-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/data-model/pimloc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pimloc-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/sandbox/pimloc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pimloc-sandbox.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/asyncapi/pimloc-secureredact-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/pimloc-secureredact-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/asyncapi/pimloc-secureredact-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/pimloc-secureredact-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -207,6 +249,41 @@ overview: 'Pimloc publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
   Pimloc''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 48.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 58.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 48.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/screenshots/pimloc-2026-08-17T081234.png
 security:
 - kind: authentication

@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 11
@@ -540,14 +566,17 @@ asyncapis:
   slug: mavenlink-event-surface
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/capabilities/mavenlink-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mavenlink-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/agentic-access/mavenlink-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mavenlink-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/security/mavenlink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mavenlink-domain-security.yml
@@ -604,6 +633,7 @@ common:
   type: PrivacyPolicy
   url: https://www.kantata.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/security/mavenlink-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mavenlink-trust-center.yml
@@ -612,86 +642,107 @@ common:
   type: StatusPage
   url: https://status.mavenlink.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/changelog/mavenlink-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mavenlink-changelog.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/openapi/mavenlink-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/mavenlink-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/grpc/mavenlink-connector.proto
   title: ''
   type: Protobuf
   url: grpc/mavenlink-connector.proto
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/llms/mavenlink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mavenlink-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/well-known/mavenlink-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mavenlink-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/a2a/mavenlink-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/mavenlink-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/mcp/mavenlink-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mavenlink-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/mcp/mavenlink-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mavenlink-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/authentication/mavenlink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mavenlink-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/scopes/mavenlink-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mavenlink-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/conventions/mavenlink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mavenlink-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/lifecycle/mavenlink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mavenlink-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/conformance/mavenlink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mavenlink-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/errors/mavenlink-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mavenlink-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/data-model/mavenlink-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mavenlink-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/overlays/mavenlink-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mavenlink-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/packages/mavenlink-packages.yml
   title: ''
   type: Packages
   url: packages/mavenlink-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/packages/mavenlink-packages.yml
   title: ''
   type: SDKs
   url: packages/mavenlink-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/plans/mavenlink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mavenlink-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/rate-limits/mavenlink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mavenlink-rate-limits.yml
@@ -735,6 +786,41 @@ scopes:
   scope_count: 6
   slug: mavenlink-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 50.5
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 4.5
+    contract_quality: 61.1
+    developer_ergonomics: 66.1
+    discoverability: 51.9
+    operational_transparency: 34.2
+  previous_composite: 50.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 101
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/screenshots/mavenlink-2026-09-02T150445.png
 security:
 - kind: authentication

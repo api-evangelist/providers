@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -85,6 +110,7 @@ collections:
   slug: open-tropic
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/capabilities/tropic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tropic-capability-edges.yml
@@ -93,18 +119,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tropic/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/agentic-access/tropic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tropic-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/security/tropic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tropic-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/security/tropic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tropic-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/authentication/tropic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tropic-authentication.yml
@@ -212,6 +242,38 @@ rules:
     info: 0
     warn: 4
   slug: tropic-rules
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 73.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 70.6
+    developer_ergonomics: 25.0
+    discoverability: 68.5
+    operational_transparency: 7.9
+  previous_composite: 41.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/screenshots/tropic-2026-06-20T195744.png
 security:
 - kind: authentication

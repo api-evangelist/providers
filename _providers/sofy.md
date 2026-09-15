@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://public.sofy.ai
@@ -39,6 +64,7 @@ collections:
   slug: open-sofy-scheduled-runs-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/security/sofy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sofy-domain-security.yml
@@ -63,58 +89,72 @@ common:
   type: GettingStarted
   url: https://docs.sofy.ai/getting-started
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/openapi/_original/sofy-public-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sofy-public-api-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/authentication/sofy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sofy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/conventions/sofy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sofy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/errors/sofy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sofy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/asyncapi/sofy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sofy-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/changelog/sofy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sofy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/lifecycle/sofy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sofy-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/conformance/sofy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sofy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/data-model/sofy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sofy-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/mcp/sofy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sofy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/skills/sofy-upload-and-run-tests.md
   title: ''
   type: AgentSkill
   url: skills/sofy-upload-and-run-tests.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/skills/sofy-monitor-and-abort-run.md
   title: ''
   type: AgentSkill
   url: skills/sofy-monitor-and-abort-run.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/overlays/sofy-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sofy-public-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/llms/sofy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sofy-llms.txt
@@ -158,6 +198,40 @@ overview: 'SOFY publishes 2 APIs on the [APIs.io](https://apis.io/) network: App
 
   SOFY''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 19 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 44.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 65.1
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 44.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/screenshots/sofy-2026-08-17T081948.png
 security:
 - kind: authentication

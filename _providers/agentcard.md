@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 68.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -79,10 +104,12 @@ collections:
   slug: open-agentcard-withdrawals-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/overlays/agentcard-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agentcard-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/a2a/agentcard-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/agentcard-a2a.yml
@@ -147,90 +174,112 @@ common:
   type: StatusPage
   url: https://agentcard.checkly-status-page.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/authentication/agentcard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentcard-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/agentic-access/agentcard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agentcard-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/security/agentcard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentcard-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/packages/agentcard-packages.yml
   title: ''
   type: Packages
   url: packages/agentcard-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/packages/agentcard-packages.yml
   title: ''
   type: SDKs
   url: packages/agentcard-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/cli/agentcard-cli.yml
   title: ''
   type: CLI
   url: cli/agentcard-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/mcp/agentcard-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agentcard-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/llms/agentcard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentcard-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/well-known/agentcard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agentcard-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/well-known/agentcard-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/agentcard-api-catalog.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/errors/agentcard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agentcard-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/conventions/agentcard-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentcard-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/conventions/agentcard-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/agentcard-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/lifecycle/agentcard-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentcard-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/sandbox/agentcard-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agentcard-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/conformance/agentcard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentcard-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/data-model/agentcard-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agentcard-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/asyncapi/agentcard-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/agentcard-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/asyncapi/agentcard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agentcard-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/arazzo/agentcard-connect-and-verify.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/agentcard-connect-and-verify.arazzo.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/arazzo/agentcard-fund-wallet.arazzo.yml
   title: ''
   type: Arazzo
   url: arazzo/agentcard-fund-wallet.arazzo.yml
@@ -254,6 +303,47 @@ overview: 'Agentcard publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
   Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 32 more developer resources.'
 random_paper: 13
+score:
+  band: strong
+  composite: 55.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 64.8
+    developer_ergonomics: 90.5
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 55.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/screenshots/agentcard-2026-07-25T181800.png
 security:
 - kind: authentication

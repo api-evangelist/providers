@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: conformant
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Genspark's hosted (remote) Model Context Protocol server, exposing Genspark's AI agent tools, resources, and prompts to MCP-capable clients over HTTP under OAuth 2.1.
@@ -17,6 +42,7 @@ apis:
 artifact_total: 5
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/a2a/genspark-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/genspark-a2a.yml
@@ -25,30 +51,37 @@ common:
   type: Website
   url: https://www.genspark.ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/mcp/genspark-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/genspark-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/authentication/genspark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/genspark-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/scopes/genspark-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/genspark-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/well-known/genspark-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/genspark-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/conformance/genspark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genspark-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/security/genspark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genspark-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/llms/genspark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/genspark-llms.txt
@@ -90,6 +123,35 @@ scopes:
   scope_count: 4
   slug: genspark-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 17.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 17.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/screenshots/genspark-2026-07-25T215631.png
 security:
 - kind: authentication

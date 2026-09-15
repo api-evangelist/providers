@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.8
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - description: Real-time account and balance retrieval across fiat, digital assets and traditional securities held at Sygnum, with role-based permissions, exposed to B2B partners as REST.
@@ -108,78 +133,97 @@ common:
   type: Pricing
   url: https://www.sygnum.com/help/accounts/custody-fees-at-sygnum/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/plans/sygnum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sygnum-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/rate-limits/sygnum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sygnum-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/authentication/sygnum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sygnum-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/scopes/sygnum-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sygnum-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/well-known/sygnum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sygnum-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/well-known/sygnum-auth-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/sygnum-auth-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/conformance/sygnum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sygnum-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/conformance/sygnum-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sygnum-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/errors/sygnum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sygnum-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/conventions/sygnum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sygnum-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/lifecycle/sygnum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sygnum-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/sandbox/sygnum-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sygnum-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/asyncapi/sygnum-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sygnum-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/security/sygnum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sygnum-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/packages/sygnum-packages.yml
   title: ''
   type: Packages
   url: packages/sygnum-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/llms/sygnum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sygnum-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/well-known/sygnum-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sygnum-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/security/sygnum-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/sygnum-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/security/sygnum-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sygnum-vulnerability-disclosure.yml
@@ -224,6 +268,51 @@ scopes:
   scope_count: 0
   slug: sygnum-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 81.5
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+    - southeast-asia
+  previous_composite: 53.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 74.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/screenshots/sygnum-2026-09-02T161443.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -123,38 +148,47 @@ common:
   type: Website
   url: https://reasonblocks.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/authentication/reasonblocks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reasonblocks-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/packages/reasonblocks-packages.yml
   title: ''
   type: Packages
   url: packages/reasonblocks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/packages/reasonblocks-packages.yml
   title: ''
   type: SDKs
   url: packages/reasonblocks-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/llms/reasonblocks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reasonblocks-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/mcp/reasonblocks-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/reasonblocks-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/overlays/reasonblocks-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reasonblocks-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/conformance/reasonblocks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reasonblocks-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/errors/reasonblocks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reasonblocks-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/lifecycle/reasonblocks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reasonblocks-lifecycle.yml
@@ -163,26 +197,32 @@ common:
   type: Deprecation
   url: https://docs.reasonblocks.com/api-reference/rest-api/versioning
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/conventions/reasonblocks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reasonblocks-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/data-model/reasonblocks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reasonblocks-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/sandbox/reasonblocks-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/reasonblocks-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/security/reasonblocks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reasonblocks-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/agentic-access/reasonblocks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reasonblocks-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -199,6 +239,41 @@ overview: 'ReasonBlocks publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 
   ReasonBlocks'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 35.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 54.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 35.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/screenshots/reasonblocks-2026-09-02T153021.png
 security:
 - kind: authentication

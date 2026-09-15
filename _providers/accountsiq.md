@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'The current AIQ SOAP 1.1 integration web service. 219 operations covering customers, suppliers, stock items, sales and purchase invoices, credit and debit notes, orders, deliveries, general journals, '
@@ -10,6 +35,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/security/accountsiq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/accountsiq-trust-center.yml
@@ -74,6 +100,7 @@ common:
   type: TrustCenter
   url: https://trust.accountsiq.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/conformance/accountsiq-conformance.yml
   title: ''
   type: Compliance
   url: conformance/accountsiq-conformance.yml
@@ -82,6 +109,7 @@ common:
   type: StatusPage
   url: https://status.accountsiq.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/llms/accountsiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accountsiq-llms.txt
@@ -90,38 +118,47 @@ common:
   type: Examples
   url: https://uk1.accountsiq.com/system/dashboard/integration/integration_1_1.asmx
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/lifecycle/accountsiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accountsiq-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/conformance/accountsiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accountsiq-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/sandbox/accountsiq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/accountsiq-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/plans/accountsiq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/accountsiq-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/rate-limits/accountsiq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/accountsiq-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/packages/accountsiq-packages.yml
   title: ''
   type: Packages
   url: packages/accountsiq-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/security/accountsiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accountsiq-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accountsiq/refs/heads/main/mcp/accountsiq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/accountsiq-mcp.yml
@@ -146,6 +183,44 @@ rate_limits:
 - limit_count: 0
   name: Accountsiq Rate Limits
   slug: accountsiq-rate-limits
+score:
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 33.3
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - ireland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 53.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Accountsiq Authentication

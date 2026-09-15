@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -101,46 +127,57 @@ collections:
   slug: open-landmark-information-order-experience-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/capabilities/landmark-information-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/landmark-information-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/overlays/landmark-information-order-experience-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landmark-information-order-experience-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/skills/landmark-information-order-compliance-check.md
   title: ''
   type: AgentSkill
   url: skills/landmark-information-order-compliance-check.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/overlays/landmark-information-conveyancing-experience-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landmark-information-conveyancing-experience-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/skills/landmark-information-quote-and-instruct-conveyancing.md
   title: ''
   type: AgentSkill
   url: skills/landmark-information-quote-and-instruct-conveyancing.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/overlays/landmark-information-intelliworks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landmark-information-intelliworks-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/skills/landmark-information-create-intelliworks-case.md
   title: ''
   type: AgentSkill
   url: skills/landmark-information-create-intelliworks-case.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/overlays/landmark-information-document-vault-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landmark-information-document-vault-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/skills/landmark-information-build-contract-pack-vault.md
   title: ''
   type: AgentSkill
   url: skills/landmark-information-build-contract-pack-vault.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/overlays/landmark-information-milestone-notification-service-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landmark-information-milestone-notification-service-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/skills/landmark-information-subscribe-valuation-milestones.md
   title: ''
   type: AgentSkill
   url: skills/landmark-information-subscribe-valuation-milestones.md
@@ -161,74 +198,92 @@ common:
   type: Support
   url: https://www.landmark.co.uk/our-group/contact/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/conventions/landmark-information-conventions.yml
   title: ''
   type: Conventions
   url: conventions/landmark-information-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/errors/landmark-information-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/landmark-information-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/lifecycle/landmark-information-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landmark-information-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/changelog/landmark-information-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/landmark-information-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/sandbox/landmark-information-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/landmark-information-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/rate-limits/landmark-information-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/landmark-information-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/conformance/landmark-information-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landmark-information-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/data-model/landmark-information-data-model.yml
   title: ''
   type: DataModel
   url: data-model/landmark-information-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/well-known/landmark-information-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/landmark-information-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/asyncapi/landmark-information-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/landmark-information-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/mcp/landmark-information-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/landmark-information-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/llms/landmark-information-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landmark-information-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/agentic-access/landmark-information-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/landmark-information-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/security/landmark-information-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landmark-information-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/scopes/landmark-information-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/landmark-information-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/authentication/landmark-information-authentication.yml
   title: ''
   type: Authentication
   url: authentication/landmark-information-authentication.yml
@@ -241,6 +296,7 @@ common:
   type: Documentation
   url: https://www.landmarkcloudservices.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/authentication/landmark-information-openid-configuration.json
   title: ''
   type: Authentication
   url: authentication/landmark-information-openid-configuration.json
@@ -307,6 +363,49 @@ scopes:
   scope_count: 0
   slug: landmark-information-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 43.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 65.7
+    developer_ergonomics: 66.1
+    discoverability: 64.8
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/screenshots/landmark-information-2026-08-07T171441.png
 security:
 - kind: authentication

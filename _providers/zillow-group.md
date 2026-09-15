@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://www.zillowgroup.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.zillow.com/news/ — a different registrable domain (zillowgroup.com -> zillow.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 17
 apis:
 - description: RESTful JSON API returning Zillow property, rental and foreclosure Zestimates for approximately 100 million US properties. Zillow Group documents it on its own developer portal and routes the referenc
@@ -75,6 +100,7 @@ common:
   type: Website
   url: https://www.zillowgroup.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/security/zillow-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zillow-group-domain-security.yml
@@ -103,42 +129,52 @@ common:
   type: APIReference
   url: https://bridgedataoutput.com/docs/platform
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/authentication/zillow-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zillow-group-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/conventions/zillow-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zillow-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/conformance/zillow-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zillow-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/lifecycle/zillow-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zillow-group-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/packages/zillow-group-packages.yml
   title: ''
   type: Packages
   url: packages/zillow-group-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/plans/zillow-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zillow-group-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/rate-limits/zillow-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zillow-group-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/asyncapi/zillow-group-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zillow-group-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/llms/zillow-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zillow-group-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/security/zillow-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zillow-group-vulnerability-disclosure.yml
@@ -186,6 +222,35 @@ rate_limits:
 - limit_count: 0
   name: Zillow Group Rate Limits
   slug: zillow-group-rate-limits
+score:
+  band: developing
+  composite: 41.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 45.2
+    discoverability: 72.2
+    operational_transparency: 21.1
+  previous_composite: 41.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow-group/refs/heads/main/screenshots/zillow-group-2026-06-20T201913.png
 security:
 - kind: authentication

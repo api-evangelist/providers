@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,10 +83,12 @@ common:
   type: ContributionGuide
   url: https://github.com/ManuCastrillonM/disney-api/blob/main/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/agentic-access/disney-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/disney-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/security/disney-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/disney-domain-security.yml
@@ -102,62 +129,77 @@ common:
   type: GitHubRepository
   url: https://github.com/ManuCastrillonM/disneyapi.dev
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/rules/disney-rules.yml
   title: ''
   type: SpectralRules
   url: rules/disney-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/vocabulary/disney-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/disney-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-ld/disney-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/disney-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-schema/disney-character-schema.json
   title: Character
   type: JSONSchema
   url: json-schema/disney-character-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-schema/disney-character-page-schema.json
   title: CharacterPage
   type: JSONSchema
   url: json-schema/disney-character-page-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-schema/disney-page-info-schema.json
   title: PageInfo
   type: JSONSchema
   url: json-schema/disney-page-info-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-schema/disney-service-index-schema.json
   title: ServiceIndex
   type: JSONSchema
   url: json-schema/disney-service-index-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-structure/disney-character-structure.json
   title: Character
   type: JSONStructure
   url: json-structure/disney-character-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-structure/disney-character-page-structure.json
   title: CharacterPage
   type: JSONStructure
   url: json-structure/disney-character-page-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-structure/disney-page-info-structure.json
   title: PageInfo
   type: JSONStructure
   url: json-structure/disney-page-info-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/json-structure/disney-service-index-structure.json
   title: ServiceIndex
   type: JSONStructure
   url: json-structure/disney-service-index-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/examples/disney-character-example.json
   title: Character Example
   type: Examples
   url: examples/disney-character-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/examples/disney-character-page-example.json
   title: CharacterPage Example
   type: Examples
   url: examples/disney-character-page-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/examples/disney-service-index-example.json
   title: ServiceIndex Example
   type: Examples
   url: examples/disney-service-index-example.json
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/rate-limits/disney-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/disney-rate-limits.yml
@@ -248,6 +290,39 @@ rules:
     info: 9
     warn: 20
   slug: disney-rules
+score:
+  band: thin
+  composite: 31.7
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 72.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 28.8
+    contract_quality: 23.6
+    developer_ergonomics: 28.6
+    discoverability: 81.5
+    operational_transparency: 44.7
+  previous_composite: 31.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png
 security:
 - kind: domain-security

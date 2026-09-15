@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.luno.com
@@ -73,6 +98,7 @@ common:
   type: StatusPage
   url: https://status.luno.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/security/luno-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/luno-trust-center.yml
@@ -81,62 +107,77 @@ common:
   type: Security
   url: https://www.luno.com/.well-known/security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/packages/luno-packages.yml
   title: ''
   type: Packages
   url: packages/luno-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/packages/luno-packages.yml
   title: ''
   type: SDKs
   url: packages/luno-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/mcp/luno-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/luno-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/llms/luno-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/luno-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/well-known/luno-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/luno-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/well-known/luno-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/luno-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/authentication/luno-authentication.yml
   title: ''
   type: Authentication
   url: authentication/luno-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/conventions/luno-conventions.yml
   title: ''
   type: Conventions
   url: conventions/luno-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/errors/luno-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/luno-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/rate-limits/luno-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/luno-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/lifecycle/luno-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/luno-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/conformance/luno-conformance.yml
   title: ''
   type: Conformance
   url: conformance/luno-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/security/luno-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/luno-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/security/luno-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/luno-vulnerability-disclosure.yml
@@ -164,6 +205,42 @@ rate_limits:
 - limit_count: 1
   name: Luno Rate Limits
   slug: luno-rate-limits
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 37.5
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 52.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/screenshots/luno-2026-07-25T225732.png
 security:
 - kind: authentication

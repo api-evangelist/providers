@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,14 +138,17 @@ collections:
   slug: open-fred
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/agentic-access/fred-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fred-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/security/fred-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fred-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/authentication/fred-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fred-authentication.yml
@@ -229,42 +257,52 @@ common:
   type: SDKs
   url: https://hex.pm/packages/fred
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/rules/fred-rules.yml
   title: ''
   type: Rules
   url: rules/fred-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/vocabulary/fred-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/fred-vocabulary.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/rate-limits/fred-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fred-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/plans/fred-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fred-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/json-ld/fred-context.jsonld
   title: Unified FRED + GeoFRED context
   type: JSONLD
   url: json-ld/fred-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/json-ld/fred-api-context.jsonld
   title: FRED API context
   type: JSONLD
   url: json-ld/fred-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/json-ld/fred-geofred-api-context.jsonld
   title: GeoFRED Maps API context
   type: JSONLD
   url: json-ld/fred-geofred-api-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/json-schema/
   title: JSON Schema directory (21 schemas)
   type: JSONSchema
   url: json-schema/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/json-structure/
   title: JSON Structure directory (21 structures)
   type: JSONStructure
   url: json-structure/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/examples/
   title: Example payloads directory (21 examples)
   type: Examples
   url: examples/
@@ -519,6 +557,45 @@ rules:
     info: 6
     warn: 18
   slug: fred-rules
+score:
+  band: developing
+  composite: 39.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 80.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 28.8
+    contract_quality: 24.1
+    developer_ergonomics: 40.5
+    discoverability: 81.5
+    operational_transparency: 36.8
+  previous_composite: 39.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 12
+      marker_coverage: 100.0
+      total: 12
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 38.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/screenshots/fred-2026-06-20T181515.png
 security:
 - kind: authentication

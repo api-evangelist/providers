@@ -14,6 +14,32 @@ access_model:
   - '{''url'': ''https://www.gimbal.com'', ''status'': 301, ''note'': ''declared website redirects to https://infillion.com/ — a different registrable domain (gimbal.com -> infillion.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://manager.gimbal.com/api
@@ -67,14 +93,17 @@ collections:
   slug: open-paedae-places-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/mcp/paedae-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/paedae-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/security/paedae-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paedae-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/scopes/paedae-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/paedae-scopes.yml
@@ -111,42 +140,52 @@ common:
   type: StatusPage
   url: http://status.gimbal.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/packages/paedae-packages.yml
   title: ''
   type: Packages
   url: packages/paedae-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/packages/paedae-packages.yml
   title: ''
   type: SDKs
   url: packages/paedae-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/lifecycle/paedae-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paedae-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/well-known/paedae-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paedae-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/mcp/paedae-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/paedae-tool-crosswalk.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/changelog/paedae-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/paedae-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/plans/paedae-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paedae-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/rate-limits/paedae-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paedae-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/llms/paedae-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paedae-llms.txt
@@ -195,6 +234,40 @@ scopes:
   scope_count: 0
   slug: paedae-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 60.5
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 46.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png
 security:
 - kind: authentication

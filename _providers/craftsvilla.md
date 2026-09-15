@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/craftsvilla/refs/heads/main/security/craftsvilla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/craftsvilla-domain-security.yml

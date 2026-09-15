@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: templated
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Databricks Asset Bundles API provides CLI-driven endpoints for initializing, validating, deploying, running, and destroying bundles of Databricks resources. Bundles define infrastructure and works
@@ -29,10 +54,12 @@ common:
   type: SecurityPolicy
   url: https://github.com/databricks/cli/blob/main/SECURITY.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/security/databricks-asset-bundles-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/databricks-asset-bundles-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/security/databricks-asset-bundles-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/databricks-asset-bundles-domain-security.yml
@@ -61,6 +88,7 @@ common:
   type: CLI Reference
   url: https://docs.databricks.com/aws/en/dev-tools/cli/bundle-commands
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/authentication/databricks-asset-bundles-authentication.yml
   title: ''
   type: Authentication
   url: authentication/databricks-asset-bundles-authentication.yml
@@ -113,6 +141,7 @@ common:
   type: FAQ
   url: https://docs.databricks.com/aws/en/dev-tools/bundles/faqs
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/changelog/databricks-asset-bundles-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/databricks-asset-bundles-changelog.yml
@@ -185,14 +214,17 @@ common:
   type: Contact
   url: https://www.databricks.com/company/contact
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/json-ld/databricks-asset-bundles-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/databricks-asset-bundles-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/vocabulary/databricks-asset-bundles-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/databricks-asset-bundles-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/rules/databricks-asset-bundles-rules.yml
   title: ''
   type: Rules
   url: rules/databricks-asset-bundles-rules.yml
@@ -201,82 +233,102 @@ common:
   type: LlmsText
   url: https://docs.databricks.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/well-known/databricks-asset-bundles-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/databricks-asset-bundles-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/well-known/databricks-asset-bundles-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/databricks-asset-bundles-security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/packages/databricks-asset-bundles-packages.yml
   title: ''
   type: Packages
   url: packages/databricks-asset-bundles-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/packages/databricks-asset-bundles-packages.yml
   title: ''
   type: SDKs
   url: packages/databricks-asset-bundles-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/cli/databricks-asset-bundles-cli.yml
   title: ''
   type: CLI
   url: cli/databricks-asset-bundles-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/mcp/databricks-asset-bundles-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/databricks-asset-bundles-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/llms/databricks-asset-bundles-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/databricks-asset-bundles-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/conventions/databricks-asset-bundles-conventions.yml
   title: ''
   type: Conventions
   url: conventions/databricks-asset-bundles-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/conventions/databricks-asset-bundles-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/databricks-asset-bundles-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/lifecycle/databricks-asset-bundles-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/databricks-asset-bundles-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/lifecycle/databricks-asset-bundles-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/databricks-asset-bundles-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/scopes/databricks-asset-bundles-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/databricks-asset-bundles-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/conformance/databricks-asset-bundles-conformance.yml
   title: ''
   type: Conformance
   url: conformance/databricks-asset-bundles-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/conformance/databricks-asset-bundles-conformance.yml
   title: ''
   type: Compliance
   url: conformance/databricks-asset-bundles-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/security/databricks-asset-bundles-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/databricks-asset-bundles-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/sandbox/databricks-asset-bundles-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/databricks-asset-bundles-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/data-model/databricks-asset-bundles-data-model.yml
   title: ''
   type: DataModel
   url: data-model/databricks-asset-bundles-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/plans/databricks-asset-bundles-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/databricks-asset-bundles-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/rate-limits/databricks-asset-bundles-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/databricks-asset-bundles-rate-limits.yml
@@ -308,7 +360,7 @@ modified: '2026-09-05'
 name: Databricks Asset Bundles
 nav: Providers
 network: true
-overview: 'Databricks Asset Bundles publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CI/CD, Data Engineering, Databricks, Deployment, and Developer Tools.
+overview: 'Databricks Asset Bundles publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CI/CD, Data Engineering, Databricks, Deployment, and Infrastructure as Code.
 
 
   The Databricks Asset Bundles catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -351,6 +403,36 @@ scopes:
   scope_count: 0
   slug: databricks-asset-bundles-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 63.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 84.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 47.0
+    contract_quality: 14.7
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 84.2
+  previous_composite: 63.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/screenshots/databricks-asset-bundles-2026-06-20T175631.png
 security:
 - kind: authentication
@@ -375,7 +457,6 @@ tags:
 - Data Engineering
 - Databricks
 - Deployment
-- Developer Tools
 - Infrastructure as Code
 - Job
 - Machine-Learning

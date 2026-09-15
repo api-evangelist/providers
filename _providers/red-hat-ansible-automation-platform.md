@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.0
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - baseURL: https://controller-host/api/v2/
@@ -59,14 +84,17 @@ common:
   type: Website
   url: https://www.redhat.com/en/technologies/management/ansible
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/packages/red-hat-ansible-automation-platform-packages.yml
   title: ''
   type: SDKs
   url: packages/red-hat-ansible-automation-platform-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/lifecycle/red-hat-ansible-automation-platform-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/red-hat-ansible-automation-platform-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/security/red-hat-ansible-automation-platform-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/red-hat-ansible-automation-platform-vulnerability-disclosure.yml
@@ -79,94 +107,117 @@ common:
   type: Console
   url: https://www.redhat.com/en/interactive-labs/ansible
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/plans/red-hat-ansible-automation-platform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/red-hat-ansible-automation-platform-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/rate-limits/red-hat-ansible-automation-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red-hat-ansible-automation-platform-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/sandbox/red-hat-ansible-automation-platform-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/red-hat-ansible-automation-platform-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/asyncapi/red-hat-ansible-automation-platform-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/red-hat-ansible-automation-platform-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/data-model/red-hat-ansible-automation-platform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/red-hat-ansible-automation-platform-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/cli/red-hat-ansible-automation-platform-cli.yml
   title: ''
   type: CLI
   url: cli/red-hat-ansible-automation-platform-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/changelog/red-hat-ansible-automation-platform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/red-hat-ansible-automation-platform-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/conventions/red-hat-ansible-automation-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/red-hat-ansible-automation-platform-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/security/red-hat-ansible-automation-platform-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/red-hat-ansible-automation-platform-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/lifecycle/red-hat-ansible-automation-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/red-hat-ansible-automation-platform-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/errors/red-hat-ansible-automation-platform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/red-hat-ansible-automation-platform-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/conformance/red-hat-ansible-automation-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/red-hat-ansible-automation-platform-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/llms/red-hat-ansible-automation-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/red-hat-ansible-automation-platform-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/mcp/red-hat-ansible-automation-platform-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/red-hat-ansible-automation-platform-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/mcp/red-hat-ansible-automation-platform-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/red-hat-ansible-automation-platform-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/well-known/red-hat-ansible-automation-platform-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/red-hat-ansible-automation-platform-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/well-known/red-hat-ansible-automation-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/red-hat-ansible-automation-platform-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/packages/red-hat-ansible-automation-platform-packages.yml
   title: ''
   type: Packages
   url: packages/red-hat-ansible-automation-platform-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/authentication/red-hat-ansible-automation-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-hat-ansible-automation-platform-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/scopes/red-hat-ansible-automation-platform-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/red-hat-ansible-automation-platform-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/security/red-hat-ansible-automation-platform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/red-hat-ansible-automation-platform-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/security/red-hat-ansible-automation-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-hat-ansible-automation-platform-domain-security.yml
@@ -281,6 +332,40 @@ scopes:
   scope_count: 3
   slug: red-hat-ansible-automation-platform-scopes
   summary_line: 3 scopes · authorizationCode/password
+score:
+  band: strong
+  composite: 63.2
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 51.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 52.9
+    developer_ergonomics: 80.4
+    discoverability: 81.5
+    operational_transparency: 60.5
+  previous_composite: 63.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 16.7
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/screenshots/red-hat-ansible-automation-platform-2026-06-20T192716.png
 security:
 - kind: authentication

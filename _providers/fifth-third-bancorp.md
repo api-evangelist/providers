@@ -11,6 +11,32 @@ access_model:
   - authentication
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -96,14 +122,17 @@ collections:
   slug: open-newline-platform-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/capabilities/fifth-third-bancorp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fifth-third-bancorp-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/agentic-access/fifth-third-bancorp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fifth-third-bancorp-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/authentication/fifth-third-bancorp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fifth-third-bancorp-authentication.yml
@@ -160,70 +189,87 @@ common:
   type: EmbeddedFinance
   url: https://newline53.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/security/fifth-third-bancorp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fifth-third-bancorp-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/mcp/fifth-third-bancorp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fifth-third-bancorp-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/mcp/fifth-third-bancorp-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fifth-third-bancorp-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/packages/fifth-third-bancorp-packages.yml
   title: ''
   type: Packages
   url: packages/fifth-third-bancorp-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/packages/fifth-third-bancorp-packages.yml
   title: ''
   type: SDKs
   url: packages/fifth-third-bancorp-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/asyncapi/fifth-third-bancorp-newline-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fifth-third-bancorp-newline-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/llms/fifth-third-bancorp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fifth-third-bancorp-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/overlays/fifth-third-bancorp-newline-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fifth-third-bancorp-newline-platform-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/conformance/fifth-third-bancorp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fifth-third-bancorp-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/errors/fifth-third-bancorp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fifth-third-bancorp-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/errors/fifth-third-bancorp-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/fifth-third-bancorp-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/lifecycle/fifth-third-bancorp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fifth-third-bancorp-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/conventions/fifth-third-bancorp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fifth-third-bancorp-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/changelog/fifth-third-bancorp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fifth-third-bancorp-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/sandbox/fifth-third-bancorp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fifth-third-bancorp-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/data-model/fifth-third-bancorp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fifth-third-bancorp-data-model.yml
@@ -271,6 +317,54 @@ press:
   title: Fifth Third Bank Welcomes Back Art Weston
   url: https://ir.53.com/news/news-details/2022/Fifth-Third-Bank-Welcomes-Back-Art-Weston/default.aspx
 random_paper: 9
+score:
+  band: developing
+  composite: 39.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 29.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 86.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 5.3
+    contract_governance: 4.5
+    contract_quality: 61.0
+    developer_ergonomics: 61.9
+    discoverability: 61.1
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 39.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 29.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png
 security:
 - kind: authentication

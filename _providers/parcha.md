@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.parcha.ai/api/v1
@@ -552,18 +577,22 @@ collections:
   slug: open-parcha-uploadb64document-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/capabilities/parcha-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/parcha-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/overlays/parcha-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/parcha-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/security/parcha-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parcha-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/authentication/parcha-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parcha-authentication.yml
@@ -588,6 +617,7 @@ common:
   type: GettingStarted
   url: https://docs.parcha.ai/introduction
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/llms/parcha-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parcha-llms.txt
@@ -636,42 +666,52 @@ common:
   type: Compliance
   url: https://trust.parcha.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/lifecycle/parcha-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parcha-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/conventions/parcha-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parcha-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/errors/parcha-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parcha-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/conformance/parcha-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parcha-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/data-model/parcha-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parcha-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/sandbox/parcha-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/parcha-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/asyncapi/parcha-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/parcha-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/mcp/parcha-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parcha-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/security/parcha-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/parcha-trust-center.yml
@@ -691,6 +731,40 @@ overview: 'Parcha publishes 66 APIs on the [APIs.io](https://apis.io/) network, 
 
   Parcha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 44.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 60.2
+    developer_ergonomics: 66.1
+    discoverability: 57.4
+    operational_transparency: 26.3
+  previous_composite: 44.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 66
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/screenshots/parcha-2026-08-07T191435.png
 security:
 - kind: authentication

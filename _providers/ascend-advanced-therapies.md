@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.ascend-adv.com/wp-json
@@ -83,18 +108,22 @@ collections:
   slug: open-ascend-advanced-therapies-taxonomy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/capabilities/ascend-advanced-therapies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ascend-advanced-therapies-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/skills/ascend-advanced-therapies-monitor-news-insights.md
   title: ''
   type: AgentSkill
   url: skills/ascend-advanced-therapies-monitor-news-insights.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/mcp/ascend-advanced-therapies-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ascend-advanced-therapies-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/overlays/ascend-advanced-therapies-wp-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ascend-advanced-therapies-wp-rest-overlay.yaml
@@ -139,14 +168,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/ascend-advanced-therapies/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/well-known/ascend-advanced-therapies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ascend-advanced-therapies-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/security/ascend-advanced-therapies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ascend-advanced-therapies-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/llms/ascend-advanced-therapies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ascend-advanced-therapies-llms.txt
@@ -164,6 +196,47 @@ overview: 'Ascend Advanced Therapies publishes 8 APIs on the [APIs.io](https://a
 
   Ascend Advanced Therapies'' developer surface includes engineering blog and 16 more developer resources.'
 random_paper: 0
+score:
+  band: thin
+  composite: 31.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 51.2
+    developer_ergonomics: 16.1
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 31.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/screenshots/ascend-advanced-therapies-2026-07-25T201402.png
 security:
 - kind: authentication

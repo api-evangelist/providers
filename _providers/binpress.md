@@ -20,6 +20,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/Binpress
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binpress/refs/heads/main/security/binpress-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/binpress-domain-security.yml

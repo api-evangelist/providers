@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -174,62 +199,77 @@ common:
   type: Careers
   url: https://agoradata.com/careers/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/security/agora-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agora-data-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/agentic-access/agora-data-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agora-data-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/authentication/agora-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agora-data-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/scopes/agora-data-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agora-data-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/well-known/agora-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agora-data-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/conventions/agora-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agora-data-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/errors/agora-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agora-data-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/lifecycle/agora-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agora-data-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/conformance/agora-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agora-data-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/data-model/agora-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agora-data-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/asyncapi/agora-data-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agora-data-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/mcp/agora-data-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/agora-data-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/llms/agora-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agora-data-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/overlays/agora-data-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agora-data-openapi-overlay.yaml
@@ -254,6 +294,41 @@ scopes:
   scope_count: 6
   slug: agora-data-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 53.2
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 38.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/screenshots/agora-data-2026-08-07T161038.png
 security:
 - kind: authentication

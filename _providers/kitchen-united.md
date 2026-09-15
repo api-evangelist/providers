@@ -12,18 +12,22 @@ api_count: 0
 artifact_total: 1
 common:
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/lifecycle/kitchen-united-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kitchen-united-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/well-known/kitchen-united-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kitchen-united-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/llms/kitchen-united-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kitchen-united-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/security/kitchen-united-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kitchen-united-domain-security.yml

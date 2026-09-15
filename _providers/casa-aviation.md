@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Open, unauthenticated bulk data files covering every current Australian Airworthiness Directive (AD). combinedadweb.json lists all current ADs with aircraft and equipment references; adweb.csv lists a
@@ -24,18 +49,22 @@ apis:
 artifact_total: 12
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/mcp/casa-aviation-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/casa-aviation-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/vocabulary/casa-aviation-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/casa-aviation-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/examples/casa-aviation-aircraft-register-examples.json
   title: ''
   type: Examples
   url: examples/casa-aviation-aircraft-register-examples.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -44,10 +73,12 @@ common:
   type: GettingStarted
   url: https://www.casa.gov.au/aircraft/aircraft-registration/data-files-registered-aircraft/downloading-and-using-our-data-files
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/security/casa-aviation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/casa-aviation-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/security/casa-aviation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/casa-aviation-vulnerability-disclosure.yml
@@ -56,14 +87,17 @@ common:
   type: Security
   url: https://www.casa.gov.au/about-us/reporting-and-accountability/external-security-vulnerability-disclosure-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/authentication/casa-aviation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/casa-aviation-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/conventions/casa-aviation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/casa-aviation-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/lifecycle/casa-aviation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/casa-aviation-lifecycle.yml
@@ -72,22 +106,27 @@ common:
   type: StatusPage
   url: https://my.casa.gov.au/outage/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/conformance/casa-aviation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/casa-aviation-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/errors/casa-aviation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/casa-aviation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/data-model/casa-aviation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/casa-aviation-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/packages/casa-aviation-packages.yml
   title: ''
   type: Packages
   url: packages/casa-aviation-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/llms/casa-aviation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/casa-aviation-llms.txt
@@ -178,6 +217,49 @@ overview: 'Civil Aviation Safety Authority (CASA) publishes 3 APIs on the [APIs.
 
   Civil Aviation Safety Authority (CASA)''s developer surface includes code examples, getting-started guide, authentication, documentation, developer portal, support, engineering blog, and 23 more developer resources.'
 random_paper: 10
+score:
+  band: thin
+  composite: 30.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 51.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 8.3
+    contract_quality: 20.0
+    developer_ergonomics: 37.5
+    discoverability: 74.1
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 30.0
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/screenshots/casa-aviation-2026-08-07T163248.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://prodapi.omniful.com
@@ -295,14 +320,17 @@ collections:
   slug: open-omniful-inc-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/capabilities/omniful-inc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/omniful-inc-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/mcp/omniful-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/omniful-inc-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/overlays/omniful-inc-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/omniful-inc-openapi-overlay.yaml
@@ -327,14 +355,17 @@ common:
   type: Postman
   url: https://docs.omniful.tech
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/asyncapi/omniful-inc-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/omniful-inc-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/authentication/omniful-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/omniful-inc-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/lifecycle/omniful-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/omniful-inc-lifecycle.yml
@@ -343,14 +374,17 @@ common:
   type: StatusPage
   url: https://status.omniful.ai
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/lifecycle/omniful-inc-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/omniful-inc-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/security/omniful-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/omniful-inc-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/packages/omniful-inc-packages.yml
   title: ''
   type: Packages
   url: packages/omniful-inc-packages.yml
@@ -379,6 +413,7 @@ common:
   type: PrivacyPolicy
   url: https://www.omniful.ai/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/llms/omniful-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/omniful-inc-llms.txt
@@ -398,6 +433,38 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
 
   Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 16 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 59.0
+    developer_ergonomics: 34.5
+    discoverability: 57.4
+    operational_transparency: 26.3
+  previous_composite: 38.6
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:
 - kind: authentication

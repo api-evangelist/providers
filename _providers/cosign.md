@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.8
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -35,6 +60,7 @@ common:
   type: ContributionGuide
   url: https://github.com/sigstore/cosign/blob/main/CONTRIBUTING.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/security/cosign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cosign-domain-security.yml
@@ -99,22 +125,27 @@ common:
   type: DeveloperPortal
   url: https://docs.sigstore.dev/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/packages/cosign-packages.yml
   title: ''
   type: Packages
   url: packages/cosign-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/packages/cosign-packages.yml
   title: ''
   type: SDKs
   url: packages/cosign-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/cli/cosign-cli.yml
   title: ''
   type: CLI
   url: cli/cosign-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/changelog/cosign-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cosign-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/lifecycle/cosign-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cosign-lifecycle.yml
@@ -127,50 +158,62 @@ common:
   type: Deprecation
   url: https://github.com/sigstore/cosign/blob/main/VERSIONING.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/security/cosign-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cosign-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/conformance/cosign-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cosign-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/sandbox/cosign-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cosign-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/conventions/cosign-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cosign-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/errors/cosign-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cosign-error-codes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/authentication/cosign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cosign-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/data-model/cosign-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cosign-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/llms/cosign-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cosign-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/mcp/cosign-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cosign-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/plans/cosign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cosign-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/rate-limits/cosign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cosign-rate-limits.yml
@@ -199,6 +242,36 @@ rate_limits:
 - limit_count: 0
   name: Cosign Rate Limits
   slug: cosign-rate-limits
+score:
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 26.7
+    developer_ergonomics: 78.0
+    discoverability: 72.2
+    operational_transparency: 50.0
+  previous_composite: 39.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/screenshots/cosign-2026-06-20T175045.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: WebSocket API for the Crypto.com Exchange, split into a Market Data stream (public channels for book, ticker, trade, candlestick, index, mark price, settlement, funding and open interest) and a User A
@@ -87,10 +112,12 @@ collections:
   slug: open-crypto-com-exchange
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/security/crypto-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/crypto-com-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/security/crypto-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crypto-com-domain-security.yml
@@ -155,6 +182,7 @@ common:
   type: StatusPage
   url: https://status.crypto.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/changelog/crypto-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crypto-com-changelog.yml
@@ -171,78 +199,97 @@ common:
   type: Compliance
   url: https://crypto.com/en/security
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/openapi/crypto-com-exchange-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/crypto-com-exchange-openapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/mcp/crypto-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crypto-com-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/mcp/crypto-com-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/crypto-com-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/cli/crypto-com-cli.yml
   title: ''
   type: CLI
   url: cli/crypto-com-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/packages/crypto-com-packages.yml
   title: ''
   type: Packages
   url: packages/crypto-com-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/packages/crypto-com-packages.yml
   title: ''
   type: SDKs
   url: packages/crypto-com-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/llms/crypto-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crypto-com-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/authentication/crypto-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crypto-com-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/conventions/crypto-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crypto-com-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/conventions/crypto-com-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/crypto-com-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/errors/crypto-com-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/crypto-com-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/rate-limits/crypto-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crypto-com-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/plans/crypto-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crypto-com-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/lifecycle/crypto-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crypto-com-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/sandbox/crypto-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crypto-com-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/asyncapi/crypto-com-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/crypto-com-event-surface.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/conformance/crypto-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crypto-com-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/security/crypto-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crypto-com-vulnerability-disclosure.yml
@@ -251,14 +298,17 @@ common:
   type: TrustCenter
   url: https://crypto.com/en/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/security/crypto-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crypto-com-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/data-model/crypto-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crypto-com-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/overlays/crypto-com-exchange-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crypto-com-exchange-overlay.yaml
@@ -290,6 +340,46 @@ rate_limits:
 - limit_count: 11
   name: Crypto Com Rate Limits
   slug: crypto-com-rate-limits
+score:
+  band: exemplar
+  composite: 68.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 36.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 60.4
+    developer_ergonomics: 85.7
+    discoverability: 51.9
+    operational_transparency: 92.1
+  previous_composite: 68.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 70.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/screenshots/crypto-com-2026-08-17T080411.png
 security:
 - kind: authentication

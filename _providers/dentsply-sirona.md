@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,66 +68,82 @@ asyncapis:
   slug: dentsply-sirona-event-surface
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/agentic-access/dentsply-sirona-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dentsply-sirona-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/authentication/dentsply-sirona-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dentsply-sirona-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/changelog/dentsply-sirona-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dentsply-sirona-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/conformance/dentsply-sirona-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dentsply-sirona-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/conventions/dentsply-sirona-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dentsply-sirona-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/data-model/dentsply-sirona-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dentsply-sirona-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/security/dentsply-sirona-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dentsply-sirona-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/errors/dentsply-sirona-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dentsply-sirona-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/lifecycle/dentsply-sirona-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dentsply-sirona-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/llms/dentsply-sirona-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dentsply-sirona-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/mcp/dentsply-sirona-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dentsply-sirona-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/packages/dentsply-sirona-packages.yml
   title: ''
   type: Packages
   url: packages/dentsply-sirona-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/packages/dentsply-sirona-packages.yml
   title: ''
   type: SDKs
   url: packages/dentsply-sirona-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/sandbox/dentsply-sirona-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dentsply-sirona-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/well-known/dentsply-sirona-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dentsply-sirona-security.txt
@@ -111,10 +152,12 @@ common:
   type: Security
   url: https://www.dentsplysirona.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/security/dentsply-sirona-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dentsply-sirona-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/well-known/dentsply-sirona-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dentsply-sirona-well-known.yml
@@ -211,10 +254,12 @@ common:
   type: PrivacyPolicy
   url: https://www.dentsplysirona.com/en-us/legal/privacy-policy.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/json-ld/dentsply-sirona-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dentsply-sirona-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/vocabulary/dentsply-sirona-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dentsply-sirona-vocabulary.yml
@@ -268,6 +313,47 @@ rate_limits:
 - limit_count: 0
   name: Dentsply Sirona Rate Limits
   slug: dentsply-sirona-rate-limits
+score:
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 60.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 19.7
+    contract_quality: 66.8
+    developer_ergonomics: 75.6
+    discoverability: 64.8
+    operational_transparency: 44.7
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/screenshots/dentsply-sirona-2026-06-20T175914.png
 security:
 - kind: authentication

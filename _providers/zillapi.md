@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 59.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -93,66 +119,82 @@ common:
   type: Website
   url: https://www.zillapi.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/capabilities/zillapi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zillapi-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/skills/zillapi-get-zestimate.md
   title: ''
   type: AgentSkill
   url: skills/zillapi-get-zestimate.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/mcp/zillapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/zillapi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/mcp/zillapi-server.json
   title: ''
   type: MCPServer
   url: mcp/zillapi-server.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/overlays/zillapi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zillapi-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/security/zillapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zillapi-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/agentic-access/zillapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zillapi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/authentication/zillapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zillapi-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/scopes/zillapi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zillapi-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/conventions/zillapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zillapi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/errors/zillapi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zillapi-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/lifecycle/zillapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zillapi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/conformance/zillapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zillapi-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/packages/zillapi-packages.yml
   title: ''
   type: Packages
   url: packages/zillapi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/well-known/zillapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zillapi-well-known.yml
@@ -161,18 +203,22 @@ common:
   type: APICatalog
   url: https://zillapi.com/.well-known/api-catalog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/asyncapi/zillapi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zillapi-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/rate-limits/zillapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zillapi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/plans/zillapi-plans.yml
   title: ''
   type: Plans
   url: plans/zillapi-plans.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/security/zillapi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zillapi-vulnerability-disclosure.yml
@@ -264,6 +310,41 @@ scopes:
   scope_count: 1
   slug: zillapi-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 61.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 66.3
+    developer_ergonomics: 64.3
+    discoverability: 87.0
+    operational_transparency: 52.6
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/screenshots/zillapi-2026-08-17T083106.png
 security:
 - kind: authentication

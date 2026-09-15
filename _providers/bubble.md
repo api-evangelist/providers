@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -116,18 +141,22 @@ common:
   type: Forums
   url: https://forum.bubble.io
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/agentic-access/bubble-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bubble-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/security/bubble-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bubble-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/security/bubble-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bubble-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/authentication/bubble-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bubble-authentication.yml
@@ -136,42 +165,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bubble/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-bulk-create-then-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-bulk-create-then-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-create-and-get-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-create-and-get-thing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-create-thing-then-trigger-workflow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-create-thing-then-trigger-workflow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-discover-types-then-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-discover-types-then-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-get-then-replace-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-get-then-replace-thing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-initialize-then-trigger-workflow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-initialize-then-trigger-workflow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-search-then-delete-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-search-then-delete-thing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-search-then-update-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-search-then-update-thing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-trigger-workflow-then-log-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-trigger-workflow-then-log-thing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-upsert-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-upsert-thing-workflow.yml
@@ -196,10 +235,12 @@ common:
   type: Pricing
   url: https://bubble.io/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/plans/bubble-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bubble-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/rate-limits/bubble-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bubble-rate-limits.yml
@@ -300,38 +341,47 @@ common:
   type: KnowledgeCenter
   url: https://manual.bubble.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/json-ld/bubble-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bubble-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/rules/bubble-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bubble-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/vocabulary/bubble-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bubble-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-search-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-search-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-create-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-modify-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-modify-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-bulk-create-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-bulk-create-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-workflow-trigger-example.json
   title: ''
   type: Examples
   url: examples/bubble-workflow-trigger-example.json
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/finops/bubble-finops.yml
   title: ''
   type: FinOps
   url: finops/bubble-finops.yml
@@ -461,6 +511,38 @@ rules:
     info: 2
     warn: 6
   slug: bubble-rules
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 81.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 64.5
+    contract_governance: 28.8
+    contract_quality: 54.9
+    developer_ergonomics: 58.3
+    discoverability: 68.5
+    operational_transparency: 76.3
+  previous_composite: 57.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 33.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:
 - kind: authentication

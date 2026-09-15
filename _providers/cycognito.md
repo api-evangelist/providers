@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -166,30 +192,37 @@ common:
   type: Postman
   url: https://www.postman.com/joint-operations-participant-24342014/workspace/cycognito
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/openapi/_original/cycognito-v1-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/cycognito-v1-openapi-original.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/authentication/cycognito-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cycognito-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/well-known/cycognito-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cycognito-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/mcp/cycognito-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cycognito-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/llms/cycognito-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cycognito-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/overlays/cycognito-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cycognito-v1-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/conformance/cycognito-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cycognito-conformance.yml
@@ -198,46 +231,57 @@ common:
   type: Compliance
   url: https://www.cycognito.com/company/trust.php
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/errors/cycognito-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cycognito-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/lifecycle/cycognito-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cycognito-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/lifecycle/cycognito-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cycognito-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/conventions/cycognito-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cycognito-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/data-model/cycognito-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cycognito-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/security/cycognito-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cycognito-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/security/cycognito-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cycognito-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/security/cycognito-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cycognito-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/security/cycognito-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cycognito-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/agentic-access/cycognito-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cycognito-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -254,6 +298,41 @@ overview: 'CyCognito publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
   CyCognito''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 24 more developer resources.'
 random_paper: 9
+score:
+  band: developing
+  composite: 45.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 51.4
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 45.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/screenshots/cycognito-2026-07-25T211040.png
 security:
 - kind: authentication

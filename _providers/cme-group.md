@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.5
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: A set of JSON RESTful web service APIs that provide access to product and instrument reference data for CME Group, BrokerTec, EBS, hosted partners, and CME Group-cleared markets. Supports OAuth-secure
@@ -36,6 +61,7 @@ apis:
 artifact_total: 14
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/security/cme-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cme-group-domain-security.yml
@@ -44,54 +70,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/CMEGroupPublic
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/packages/cme-group-packages.yml
   title: ''
   type: Packages
   url: packages/cme-group-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/packages/cme-group-packages.yml
   title: ''
   type: SDKs
   url: packages/cme-group-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/well-known/cme-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cme-group-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/authentication/cme-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cme-group-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/scopes/cme-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cme-group-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/errors/cme-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cme-group-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/conventions/cme-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cme-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/lifecycle/cme-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cme-group-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/changelog/cme-group-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cme-group-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/sandbox/cme-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cme-group-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/conformance/cme-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cme-group-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/llms/cme-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cme-group-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/security/cme-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cme-group-vulnerability-disclosure.yml
@@ -205,6 +244,40 @@ scopes:
   scope_count: 5
   slug: cme-group-scopes
   summary_line: 5 scopes · clientCredentials
+score:
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 44.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 64.8
+    operational_transparency: 36.8
+  previous_composite: 46.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 91.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png
 security:
 - kind: authentication

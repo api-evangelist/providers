@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -569,6 +594,7 @@ common:
   type: Website
   url: https://www.leantech.me/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/capabilities/lean-technologies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lean-technologies-capability-edges.yml
@@ -629,82 +655,102 @@ common:
   type: Compliance
   url: https://leantech.me/uae/en/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/llms/lean-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lean-technologies-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/mcp/lean-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lean-technologies-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/packages/lean-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/lean-technologies-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/packages/lean-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/lean-technologies-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/components/lean-technologies-components.yml
   title: ''
   type: Components
   url: components/lean-technologies-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/well-known/lean-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lean-technologies-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/authentication/lean-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lean-technologies-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/scopes/lean-technologies-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lean-technologies-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/conventions/lean-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lean-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/conventions/lean-technologies-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lean-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/errors/lean-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lean-technologies-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/errors/lean-technologies-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/lean-technologies-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/lifecycle/lean-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lean-technologies-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/conformance/lean-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lean-technologies-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/data-model/lean-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lean-technologies-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/sandbox/lean-technologies-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lean-technologies-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/asyncapi/lean-technologies-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lean-technologies-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/agentic-access/lean-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lean-technologies-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/security/lean-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lean-technologies-domain-security.yml
@@ -733,6 +779,54 @@ scopes:
   scope_count: 2
   slug: lean-technologies-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: developing
+  composite: 53.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 66.0
+    developer_ergonomics: 62.5
+    discoverability: 81.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - saudi-arabia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  previous_composite: 53.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 67
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 67.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:
 - kind: authentication

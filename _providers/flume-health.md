@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: A remote Model Context Protocol endpoint served by the Flume Console at /api/v1/context/mcp. It is protected by OAuth 2.0 and advertises RFC 9728 protected-resource metadata, returning a 401 with a WW
@@ -116,10 +141,12 @@ apis:
 artifact_total: 28
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/capabilities/flume-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flume-health-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/security/flume-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flume-health-trust-center.yml
@@ -164,78 +191,97 @@ common:
   type: GitHubOrganization
   url: https://github.com/flumehealth
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-console-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/flume-health-console-api-openapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/mcp/flume-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flume-health-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/mcp/flume-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/flume-health-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/well-known/flume-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flume-health-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/authentication/flume-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flume-health-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/scopes/flume-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flume-health-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/conventions/flume-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flume-health-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/errors/flume-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flume-health-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/data-model/flume-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flume-health-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/lifecycle/flume-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flume-health-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/conformance/flume-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flume-health-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/conformance/flume-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/flume-health-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/security/flume-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flume-health-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/overlays/flume-health-console-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flume-health-console-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/llms/flume-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flume-health-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/packages/flume-health-packages.yml
   title: ''
   type: Packages
   url: packages/flume-health-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/plans/flume-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flume-health-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/rate-limits/flume-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flume-health-rate-limits.yml
@@ -272,6 +318,46 @@ scopes:
   scope_count: 14
   slug: flume-health-scopes
   summary_line: 14 scopes · implicit
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 52.0
+    developer_ergonomics: 44.6
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 48.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 65.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png
 security:
 - kind: authentication

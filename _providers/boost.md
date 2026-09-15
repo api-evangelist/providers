@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,70 +146,87 @@ common:
   type: SignUp
   url: https://app.boost.xyz
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/packages/boost-packages.yml
   title: ''
   type: Packages
   url: packages/boost-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/packages/boost-packages.yml
   title: ''
   type: SDKs
   url: packages/boost-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/cli/boost-cli.yml
   title: ''
   type: CLI
   url: cli/boost-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/components/boost-components.yml
   title: ''
   type: Components
   url: components/boost-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/mcp/boost-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/boost-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/llms/boost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boost-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/well-known/boost-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/boost-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/conventions/boost-conventions.yml
   title: ''
   type: Conventions
   url: conventions/boost-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/errors/boost-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/boost-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/conformance/boost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boost-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/authentication/boost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boost-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/data-model/boost-data-model.yml
   title: ''
   type: DataModel
   url: data-model/boost-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/overlays/boost-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/boost-v2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/lifecycle/boost-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/boost-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/agentic-access/boost-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/boost-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/security/boost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boost-domain-security.yml
@@ -205,6 +247,42 @@ overview: 'Boost publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
   Boost''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 18 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 4.5
+    contract_quality: 53.1
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 38.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/screenshots/boost-2026-07-25T203625.png
 security:
 - kind: authentication

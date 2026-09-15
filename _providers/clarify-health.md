@@ -8,10 +8,36 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.1
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/security/clarify-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clarify-health-domain-security.yml
@@ -68,42 +94,52 @@ common:
   type: Compliance
   url: https://clarifyhealth.com/qe-public-reports
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/well-known/clarify-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clarify-health-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/authentication/clarify-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clarify-health-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/scopes/clarify-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clarify-health-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/lifecycle/clarify-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clarify-health-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/mcp/clarify-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/clarify-health-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/packages/clarify-health-packages.yml
   title: ''
   type: Packages
   url: packages/clarify-health-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/conformance/clarify-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clarify-health-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/llms/clarify-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clarify-health-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/plans/clarify-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clarify-health-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/rate-limits/clarify-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clarify-health-rate-limits.yml
@@ -153,6 +189,41 @@ scopes:
   scope_count: 0
   slug: clarify-health-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 24.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 50.0
+    operational_transparency: 18.4
+  previous_composite: 24.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarify-health/refs/heads/main/screenshots/clarify-health-2026-07-25T205504.png
 security:
 - kind: authentication

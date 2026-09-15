@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 42.0
+  scored_at: '2026-09-14'
 api_count: 14
 apis:
 - description: Bi-directional JSON-RPC 2.0 interface between a Live App (dApp) and a wallet implementing the Wallet API Server, such as Ledger Wallet. Currency-agnostic modules for accounts, currencies, transactions
@@ -227,10 +252,12 @@ asyncapis:
   slug: ledger-exchange-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/overlays/ledger-swap-provider-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ledger-swap-provider-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/overlays/ledger-enterprise-vault-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ledger-enterprise-vault-overlay.yaml
@@ -295,50 +322,62 @@ common:
   type: ChangeLog
   url: https://developers.ledger.com/docs/news
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/llms/ledger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ledger-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/well-known/ledger-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ledger-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/well-known/ledger-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/ledger-api-catalog.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/packages/ledger-packages.yml
   title: ''
   type: Packages
   url: packages/ledger-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/packages/ledger-packages.yml
   title: ''
   type: SDKs
   url: packages/ledger-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/cli/ledger-cli.yml
   title: ''
   type: CLI
   url: cli/ledger-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/authentication/ledger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ledger-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/conventions/ledger-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ledger-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/conventions/ledger-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ledger-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/errors/ledger-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ledger-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/lifecycle/ledger-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ledger-lifecycle.yml
@@ -347,22 +386,27 @@ common:
   type: Deprecation
   url: https://developers.ledger.com/docs/news
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/conformance/ledger-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ledger-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/security/ledger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ledger-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/security/ledger-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ledger-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/data-model/ledger-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ledger-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/security/ledger-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ledger-trust-center.yml
@@ -371,30 +415,37 @@ common:
   type: Compliance
   url: https://enterprise.ledger.com/about
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/rate-limits/ledger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ledger-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/plans/ledger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ledger-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/changelog/ledger-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ledger-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/sandbox/ledger-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ledger-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/components/ledger-components.yml
   title: ''
   type: Components
   url: components/ledger-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/mcp/ledger-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ledger-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/asyncapi/ledger-exchange-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ledger-exchange-webhooks.yml
@@ -423,6 +474,52 @@ rate_limits:
 - limit_count: 1
   name: Ledger Rate Limits
   slug: ledger-rate-limits
+score:
+  band: strong
+  composite: 59.9
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 57.3
+    developer_ergonomics: 85.7
+    discoverability: 57.4
+    operational_transparency: 81.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 59.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+    mcp: derived
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/screenshots/ledger-2026-09-02T150235.png
 security:
 - kind: authentication

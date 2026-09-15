@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 58.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -155,6 +181,7 @@ common:
   type: ChangeLog
   url: https://docs.gc.ai/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/changelog/gc-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gc-ai-changelog.yml
@@ -163,62 +190,77 @@ common:
   type: Compliance
   url: https://trust.gc.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/security/gc-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gc-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/security/gc-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gc-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/authentication/gc-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gc-ai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/conventions/gc-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gc-ai-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/rate-limits/gc-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gc-ai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/errors/gc-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gc-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/lifecycle/gc-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gc-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/data-model/gc-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gc-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/conformance/gc-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gc-ai-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/overlays/gc-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gc-ai-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/mcp/gc-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gc-ai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/well-known/gc-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gc-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/llms/gc-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gc-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/agentic-access/gc-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gc-ai-agentic-access.yml
@@ -247,6 +289,41 @@ rate_limits:
 - limit_count: 2
   name: Gc Ai Rate Limits
   slug: gc-ai-rate-limits
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 63.7
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
 security:
 - kind: authentication

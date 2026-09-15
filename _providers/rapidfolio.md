@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Runner API and Dashboard API for programmatically running procedures, managing runs, submitting human-review decisions, managing API keys, and subscribing to run events via webhooks.
@@ -23,14 +48,17 @@ asyncapis:
   slug: rapidfolio-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/security/rapidfolio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rapidfolio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/security/rapidfolio-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/rapidfolio-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/security/rapidfolio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rapidfolio-domain-security.yml
@@ -75,50 +103,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/rapidfolio
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/llms/rapidfolio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rapidfolio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/well-known/rapidfolio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rapidfolio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/well-known/rapidfolio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/rapidfolio-security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/packages/rapidfolio-packages.yml
   title: ''
   type: Packages
   url: packages/rapidfolio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/packages/rapidfolio-packages.yml
   title: ''
   type: SDKs
   url: packages/rapidfolio-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/authentication/rapidfolio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rapidfolio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/conventions/rapidfolio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rapidfolio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/conventions/rapidfolio-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rapidfolio-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/sandbox/rapidfolio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rapidfolio-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/asyncapi/rapidfolio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rapidfolio-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/conformance/rapidfolio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rapidfolio-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/conformance/rapidfolio-conformance.yml
   title: ''
   type: Compliance
   url: conformance/rapidfolio-conformance.yml
@@ -138,6 +178,39 @@ overview: 'Rapidfolio publishes 1 API on the [APIs.io](https://apis.io/) network
 
   Rapidfolio''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 18 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 40.5
+    discoverability: 66.7
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 38.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidfolio/refs/heads/main/screenshots/rapidfolio-2026-08-17T124927.png
 security:
 - kind: authentication

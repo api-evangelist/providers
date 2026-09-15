@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -105,6 +130,7 @@ collections:
   slug: open-state-street-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/capabilities/state-street-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/state-street-capability-edges.yml
@@ -113,18 +139,22 @@ common:
   type: Blog
   url: https://www.statestreet.com/content/statestreet/us/en/insights
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/agentic-access/state-street-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/state-street-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/security/state-street-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/state-street-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/authentication/state-street-authentication.yml
   title: ''
   type: Authentication
   url: authentication/state-street-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/scopes/state-street-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/state-street-scopes.yml
@@ -185,34 +215,42 @@ common:
   type: TermsOfService
   url: https://www.statestreet.com/us/en/individual-investor/tools-and-resources/terms-and-conditions
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/_original/state-street-alpha-data-platform-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/state-street-alpha-data-platform-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/_original/state-street-fund-connect-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/state-street-fund-connect-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/json-schema/state-street-portfolio-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/state-street-portfolio-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/json-schema/state-street-position-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/state-street-position-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/json-structure/state-street-portfolio-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/state-street-portfolio-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/json-ld/state-street-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/state-street-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/vocabulary/state-street-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/state-street-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/rules/state-street-rules.yml
   title: ''
   type: SpectralRules
   url: rules/state-street-rules.yml
@@ -349,6 +387,43 @@ scopes:
   scope_count: 8
   slug: state-street-scopes
   summary_line: 8 scopes · clientCredentials
+score:
+  band: thin
+  composite: 37.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 28.8
+    contract_quality: 63.3
+    developer_ergonomics: 50.0
+    discoverability: 53.7
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 37.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png
 security:
 - kind: authentication

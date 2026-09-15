@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -226,18 +251,22 @@ collections:
   slug: open-lightspeed-pos-tax-breakdown-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/agentic-access/lightspeed-pos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lightspeed-pos-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/security/lightspeed-pos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightspeed-pos-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/authentication/lightspeed-pos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lightspeed-pos-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/scopes/lightspeed-pos-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lightspeed-pos-scopes.yml
@@ -1135,6 +1164,38 @@ scopes:
   scope_count: 24
   slug: lightspeed-pos-scopes
   summary_line: 24 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 24.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 50.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 13.6
+    contract_quality: 26.8
+    developer_ergonomics: 23.8
+    discoverability: 50.0
+    operational_transparency: 7.9
+  previous_composite: 24.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 19
+      marker_coverage: 79.2
+      total: 24
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png
 security:
 - kind: authentication

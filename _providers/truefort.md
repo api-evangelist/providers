@@ -24,10 +24,12 @@ common:
   type: PrivacyPolicy
   url: https://truefort.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/truefort/refs/heads/main/security/truefort-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truefort-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/truefort/refs/heads/main/llms/truefort-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truefort-llms.txt

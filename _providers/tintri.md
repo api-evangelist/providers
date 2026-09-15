@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 3.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
@@ -25,6 +50,7 @@ common:
   type: License
   url: https://github.com/Tintri/tintri-rest-api/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/security/tintri-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tintri-domain-security.yml
@@ -69,46 +95,57 @@ common:
   type: GettingStarted
   url: https://github.com/Tintri/tintri-rest-api
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/packages/tintri-packages.yml
   title: ''
   type: Packages
   url: packages/tintri-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/packages/tintri-packages.yml
   title: ''
   type: SDKs
   url: packages/tintri-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/authentication/tintri-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tintri-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/conventions/tintri-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tintri-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/lifecycle/tintri-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tintri-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/data-model/tintri-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tintri-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/conformance/tintri-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tintri-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/well-known/tintri-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tintri-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/mcp/tintri-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tintri-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/llms/tintri-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tintri-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -125,6 +162,39 @@ overview: 'Tintri publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Tintri''s developer surface includes documentation, API reference, engineering blog, support, getting-started guide, authentication, and 18 more developer resources.'
 random_paper: 15
+score:
+  band: emerging
+  composite: 22.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 2.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 22.5
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/screenshots/tintri-2026-09-02T163809.png
 security:
 - kind: authentication

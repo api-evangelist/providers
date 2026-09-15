@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 6
 common:
@@ -27,38 +52,47 @@ common:
   type: Careers
   url: https://www.aervivo.com/careers
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/llms/aervivo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aervivo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/mcp/aervivo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aervivo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/well-known/aervivo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aervivo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/authentication/aervivo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aervivo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/scopes/aervivo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aervivo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/conformance/aervivo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aervivo-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/security/aervivo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aervivo-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/plans/aervivo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aervivo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aervivo/refs/heads/main/rate-limits/aervivo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aervivo-rate-limits.yml
@@ -106,6 +140,41 @@ scopes:
   scope_count: 36
   slug: aervivo-scopes
   summary_line: 36 scopes
+score:
+  band: emerging
+  composite: 18.9
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 57.4
+    operational_transparency: 0.0
+  previous_composite: 18.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 61.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Aervivo Authentication
@@ -122,10 +191,10 @@ tags:
 - Internet Service Provider
 - Fixed Wireless
 - Networking
-- WiFi
+- Wi-Fi
 - OSS BSS
 - Connectivity
-- Real Estate
+- Real-Estate
 - Cloud
 website: https://www.aervivo.com/
 ---

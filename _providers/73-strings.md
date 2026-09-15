@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -76,14 +101,17 @@ collections:
   slug: open-73-strings-transaction-api-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/security/73-strings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/73-strings-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/agentic-access/73-strings-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/73-strings-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/authentication/73-strings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/73-strings-authentication.yml
@@ -136,70 +164,87 @@ common:
   type: Compliance
   url: https://www.73strings.com/resources/about/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/conventions/73-strings-conventions.yml
   title: ''
   type: Conventions
   url: conventions/73-strings-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/errors/73-strings-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/73-strings-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/lifecycle/73-strings-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/73-strings-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/conformance/73-strings-conformance.yml
   title: ''
   type: Conformance
   url: conformance/73-strings-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/data-model/73-strings-data-model.yml
   title: ''
   type: DataModel
   url: data-model/73-strings-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/rate-limits/73-strings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/73-strings-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/plans/73-strings-plans.yml
   title: ''
   type: Plans
   url: plans/73-strings-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/mcp/73-strings-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/73-strings-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/mcp/73-strings-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/73-strings-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/llms/73-strings-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/73-strings-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/overlays/73-strings-asset-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/73-strings-asset-info-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/overlays/73-strings-captable-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/73-strings-captable-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/overlays/73-strings-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/73-strings-documents-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/overlays/73-strings-financial-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/73-strings-financial-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/overlays/73-strings-qualitative-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/73-strings-qualitative-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/overlays/73-strings-transaction-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/73-strings-transaction-api-overlay.yaml
@@ -225,6 +270,47 @@ rate_limits:
 - limit_count: 5
   name: 73 Strings Rate Limits
   slug: 73-strings-rate-limits
+score:
+  band: developing
+  composite: 52.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 4.5
+    contract_quality: 58.5
+    developer_ergonomics: 47.0
+    discoverability: 74.1
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 52.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:
 - kind: authentication

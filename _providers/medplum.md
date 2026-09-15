@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -84,6 +109,7 @@ collections:
   slug: open-medplum-fhir-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/capabilities/medplum-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/medplum-capability-edges.yml
@@ -100,26 +126,32 @@ common:
   type: SecurityPolicy
   url: https://github.com/medplum/medplum/blob/main/SECURITY.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/mcp/medplum-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/medplum-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/agentic-access/medplum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/medplum-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/security/medplum-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/medplum-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/security/medplum-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/medplum-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/security/medplum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medplum-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/authentication/medplum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medplum-authentication.yml
@@ -128,34 +160,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/medplum/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-amend-resource-with-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-amend-resource-with-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-create-diagnostic-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-create-diagnostic-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-deploy-and-run-bot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-deploy-and-run-bot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-finalize-observation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-finalize-observation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-find-and-delete-resource-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-find-and-delete-resource-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-register-patient-with-observation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-register-patient-with-observation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-schedule-encounter-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-schedule-encounter-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/arazzo/medplum-upsert-patient-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/medplum-upsert-patient-workflow.yml
@@ -236,50 +276,62 @@ common:
   type: License
   url: https://www.apache.org/licenses/LICENSE-2.0
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/rules/medplum-rules.yml
   title: ''
   type: SpectralRules
   url: rules/medplum-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/vocabulary/medplum-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/medplum-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/json-ld/medplum-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/medplum-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/plans/medplum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/medplum-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/rate-limits/medplum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medplum-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/finops/medplum-finops.yml
   title: ''
   type: FinOps
   url: finops/medplum-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/packages/medplum-packages.yml
   title: ''
   type: Packages
   url: packages/medplum-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/well-known/medplum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medplum-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/mcp/medplum-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/medplum-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/llms/medplum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medplum-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/overlays/medplum-fhir-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medplum-fhir-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/conformance/medplum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medplum-conformance.yml
@@ -288,10 +340,12 @@ common:
   type: Compliance
   url: https://www.medplum.com/docs/compliance
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/errors/medplum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medplum-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/lifecycle/medplum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medplum-lifecycle.yml
@@ -304,38 +358,47 @@ common:
   type: Deprecation
   url: https://www.medplum.com/docs/compliance/alpha-beta
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/scopes/medplum-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/medplum-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/conventions/medplum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medplum-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/conventions/medplum-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/medplum-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/changelog/medplum-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/medplum-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/cli/medplum-cli.yml
   title: ''
   type: CLI
   url: cli/medplum-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/components/medplum-components.yml
   title: ''
   type: Components
   url: components/medplum-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/data-model/medplum-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medplum-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/asyncapi/medplum-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/medplum-webhooks.yml
@@ -499,6 +562,47 @@ scopes:
   scope_count: 12
   slug: medplum-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 87.4
+  coverage:
+    artifact_dirs: 35
+    catalog_earned: 86.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 47.0
+    contract_quality: 79.2
+    developer_ergonomics: 74.4
+    discoverability: 66.7
+    operational_transparency: 97.4
+  previous_composite: 87.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 92.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:
 - kind: authentication

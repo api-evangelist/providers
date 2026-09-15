@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/security/trooly-airbnb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trooly-airbnb-domain-security.yml
@@ -24,14 +25,17 @@ common:
   type: Archive
   url: https://web.archive.org/web/20170301/https://www.trooly.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/lifecycle/trooly-airbnb-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trooly-airbnb-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/well-known/trooly-airbnb-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/trooly-airbnb-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/llms/trooly-airbnb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trooly-airbnb-llms.txt

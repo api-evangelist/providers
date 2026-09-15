@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -185,10 +211,12 @@ collections:
   slug: open-salesflare-workflows-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/agentic-access/salesflare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesflare-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/security/salesflare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesflare-domain-security.yml
@@ -225,14 +253,17 @@ common:
   type: X
   url: https://twitter.com/salesflare
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/plans/salesflare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesflare-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/rate-limits/salesflare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/salesflare-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/finops/salesflare-finops.yml
   title: ''
   type: FinOps
   url: finops/salesflare-finops.yml
@@ -265,54 +296,67 @@ common:
   type: SignUp
   url: https://salesflare.com/signup
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/authentication/salesflare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesflare-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/scopes/salesflare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesflare-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/conventions/salesflare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/salesflare-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/errors/salesflare-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/salesflare-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/lifecycle/salesflare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/salesflare-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/conformance/salesflare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/salesflare-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/data-model/salesflare-data-model.yml
   title: ''
   type: DataModel
   url: data-model/salesflare-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/packages/salesflare-packages.yml
   title: ''
   type: Packages
   url: packages/salesflare-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/well-known/salesflare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/salesflare-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/mcp/salesflare-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/salesflare-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/mcp/salesflare-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/salesflare-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/llms/salesflare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/salesflare-llms.txt
@@ -386,6 +430,41 @@ scopes:
   scope_count: 2
   slug: salesflare-scopes
   summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
+score:
+  band: strong
+  composite: 59.4
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 82.3
+    catalog_earned_first_party: 20.0
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 29.5
+    contract_quality: 54.4
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    operational_transparency: 42.1
+  previous_composite: 59.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png
 security:
 - kind: authentication

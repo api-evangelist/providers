@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -504,6 +529,7 @@ collections:
   slug: open-salesforce-sales-cloud-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/capabilities/salesforce-sales-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/salesforce-sales-cloud-capability-edges.yml
@@ -512,18 +538,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/agentic-access/salesforce-sales-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-sales-cloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/security/salesforce-sales-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-sales-cloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/authentication/salesforce-sales-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-sales-cloud-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/scopes/salesforce-sales-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-sales-cloud-scopes.yml
@@ -532,74 +562,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce-sales-cloud/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-account-360-enrichment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-account-360-enrichment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-account-tree-with-contacts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-account-tree-with-contacts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-bulk-import-accounts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-bulk-import-accounts-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-close-opportunity-won-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-close-opportunity-won-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-create-and-convert-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-create-and-convert-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-create-then-retrieve-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-create-then-retrieve-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-delete-stale-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-delete-stale-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-describe-then-create-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-describe-then-create-record-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-log-task-on-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-log-task-on-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-new-customer-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-new-customer-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-opportunity-with-contact-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-opportunity-with-contact-role-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-paginated-soql-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-paginated-soql-export-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-query-then-update-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-query-then-update-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-reparent-contact-to-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-reparent-contact-to-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-schedule-event-with-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-schedule-event-with-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-search-then-retrieve-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-search-then-retrieve-record-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-submit-opportunity-for-approval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-submit-opportunity-for-approval-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/arazzo/salesforce-sales-cloud-upsert-account-by-external-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/salesforce-sales-cloud-upsert-account-by-external-id-workflow.yml
@@ -696,42 +744,52 @@ common:
   type: SOQL and SOSL Reference
   url: https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_sosl_intro.htm
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-ld/salesforce-sales-cloud-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/salesforce-sales-cloud-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/rules/salesforce-sales-cloud-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salesforce-sales-cloud-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/vocabulary/salesforce-sales-cloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-sales-cloud-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-account-schema.json
   title: Account Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-account-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-contact-schema.json
   title: Contact Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-contact-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-lead-schema.json
   title: Lead Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-lead-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-opportunity-schema.json
   title: Opportunity Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-opportunity-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-task-schema.json
   title: Task Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-task-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-case-schema.json
   title: Case Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-case-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/json-schema/salesforce-sales-cloud-campaign-schema.json
   title: Campaign Schema
   type: JSONSchema
   url: json-schema/salesforce-sales-cloud-campaign-schema.json
@@ -978,6 +1036,38 @@ scopes:
   scope_count: 4
   slug: salesforce-sales-cloud-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 55.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 45.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 25.0
+    contract_quality: 69.6
+    developer_ergonomics: 76.2
+    discoverability: 48.1
+    operational_transparency: 31.6
+  previous_composite: 55.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:
 - kind: authentication

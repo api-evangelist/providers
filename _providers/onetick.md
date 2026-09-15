@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.7
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: HTTPS REST access to OneTick Cloud market data and analytics queries, authenticated with an OAuth2 client-credentials Bearer token issued by the OneTick Keycloak realm (https://cloud-auth.parent.oneti
@@ -28,42 +53,52 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/security/onetick-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onetick-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/well-known/onetick-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/onetick-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/llms/onetick-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onetick-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/packages/onetick-packages.yml
   title: ''
   type: Packages
   url: packages/onetick-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/packages/onetick-packages.yml
   title: ''
   type: SDKs
   url: packages/onetick-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/authentication/onetick-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onetick-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/scopes/onetick-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/onetick-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/conformance/onetick-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onetick-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/lifecycle/onetick-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onetick-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/changelog/onetick-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onetick-changelog.yml
@@ -137,6 +172,41 @@ scopes:
   scope_count: 28
   slug: onetick-scopes
   summary_line: 28 scopes · clientCredentials/authorizationCode
+score:
+  band: thin
+  composite: 36.0
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 54.8
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 36.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 58.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/screenshots/onetick-2026-07-22T202525.png
 security:
 - kind: authentication

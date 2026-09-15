@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'REST API for Perk travel, expense, invoice, trip, cost-center, event, and card data. Authenticate with an account API key (customers) or OAuth 2.0 (partners); send Api-Version: 1.'
@@ -68,78 +93,97 @@ common:
   type: StatusPage
   url: https://status.perk.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/mcp/perk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/perk-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/llms/perk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perk-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/authentication/perk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/scopes/perk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/perk-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/conventions/perk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/perk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/errors/perk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/perk-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/lifecycle/perk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perk-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/lifecycle/perk-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/perk-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/changelog/perk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/perk-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/sandbox/perk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/perk-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/asyncapi/perk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/perk-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/conformance/perk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/perk-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/data-model/perk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/perk-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/security/perk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perk-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/well-known/perk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/perk-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/well-known/perk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/perk-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/security/perk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/perk-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/security/perk-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/perk-vulnerability-disclosure.yml
@@ -168,6 +212,36 @@ scopes:
   scope_count: 0
   slug: perk-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 43.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/screenshots/perk-2026-08-17T081158.png
 security:
 - kind: authentication

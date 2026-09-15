@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -144,10 +169,12 @@ collections:
   slug: open-propelplm-variants-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/agentic-access/propelplm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/propelplm-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/security/propelplm-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/propelplm-trust-center.yml
@@ -172,10 +199,12 @@ common:
   type: GettingStarted
   url: https://developer.propelplm.com/docs/available-apis/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/authentication/propelplm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/propelplm-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/scopes/propelplm-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/propelplm-scopes.yml
@@ -216,62 +245,77 @@ common:
   type: Postman
   url: https://api-docs.propelplm.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/packages/propelplm-packages.yml
   title: ''
   type: Packages
   url: packages/propelplm-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/well-known/propelplm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/propelplm-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/mcp/propelplm-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/propelplm-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/llms/propelplm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/propelplm-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/overlays/propelplm-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/propelplm-core-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/conformance/propelplm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/propelplm-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/errors/propelplm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/propelplm-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/lifecycle/propelplm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/propelplm-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/security/propelplm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/propelplm-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/conventions/propelplm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/propelplm-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/data-model/propelplm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/propelplm-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/changelog/propelplm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/propelplm-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/asyncapi/propelplm-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/propelplm-events.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/sandbox/propelplm-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/propelplm-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -296,6 +340,41 @@ scopes:
   scope_count: 4
   slug: propelplm-scopes
   summary_line: 4 scopes · implicit/authorizationCode
+score:
+  band: strong
+  composite: 55.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 58.5
+    developer_ergonomics: 70.8
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 55.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/screenshots/propelplm-2026-08-17T081348.png
 security:
 - kind: authentication

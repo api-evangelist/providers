@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,6 +92,7 @@ collections:
   slug: open-revenuebase-organization-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/agentic-access/revenuebase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/revenuebase-agentic-access.yml
@@ -95,42 +121,52 @@ common:
   type: Quickstart
   url: https://docs.revenuebase.ai/api-reference/v2/make-first-call
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/authentication/revenuebase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revenuebase-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/security/revenuebase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revenuebase-domain-security.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/_original/revenuebase-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/revenuebase-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/overlays/revenuebase-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/revenuebase-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/mcp/revenuebase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/revenuebase-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/errors/revenuebase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/revenuebase-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/conventions/revenuebase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/revenuebase-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/conformance/revenuebase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/revenuebase-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/lifecycle/revenuebase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/revenuebase-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/lifecycle/revenuebase-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/revenuebase-lifecycle.yml
@@ -139,34 +175,42 @@ common:
   type: StatusPage
   url: https://status.revenuebase.ai/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/changelog/revenuebase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/revenuebase-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/data-model/revenuebase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/revenuebase-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/packages/revenuebase-packages.yml
   title: ''
   type: Packages
   url: packages/revenuebase-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/packages/revenuebase-packages.yml
   title: ''
   type: SDKs
   url: packages/revenuebase-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/well-known/revenuebase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/revenuebase-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/llms/revenuebase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/revenuebase-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/rate-limits/revenuebase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/revenuebase-rate-limits.yml
@@ -211,18 +255,22 @@ common:
   type: Twitter
   url: https://x.com/revenuebase
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/a2a/revenuebase-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/revenuebase-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/mcp/revenuebase-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/revenuebase-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/skills/revenuebase-provider-skill.md
   title: ''
   type: AgentSkill
   url: skills/revenuebase-provider-skill.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/plans/revenuebase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/revenuebase-plans-pricing.yml
@@ -255,6 +303,41 @@ rate_limits:
 - limit_count: 2
   name: Revenuebase Rate Limits
   slug: revenuebase-rate-limits
+score:
+  band: strong
+  composite: 57.3
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 51.4
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 57.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 66.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/screenshots/revenuebase-2026-08-17T081544.png
 security:
 - kind: authentication

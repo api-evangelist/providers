@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,14 +93,17 @@ collections:
   slug: open-rtbhouse-user-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/agentic-access/rtbhouse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rtbhouse-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/security/rtbhouse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rtbhouse-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/authentication/rtbhouse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rtbhouse-authentication.yml
@@ -120,58 +148,72 @@ common:
   type: PrivacyPolicy
   url: https://www.rtbhouse.com/privacy-center/web-privacy-policy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/plans/rtbhouse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rtbhouse-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/rate-limits/rtbhouse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rtbhouse-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/finops/rtbhouse-finops.yml
   title: ''
   type: FinOps
   url: finops/rtbhouse-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/packages/rtbhouse-packages.yml
   title: ''
   type: Packages
   url: packages/rtbhouse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/packages/rtbhouse-packages.yml
   title: ''
   type: SDKs
   url: packages/rtbhouse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/cli/rtbhouse-cli.yml
   title: ''
   type: CLI
   url: cli/rtbhouse-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/llms/rtbhouse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rtbhouse-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/conventions/rtbhouse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rtbhouse-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/errors/rtbhouse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rtbhouse-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/lifecycle/rtbhouse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rtbhouse-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/changelog/rtbhouse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rtbhouse-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/data-model/rtbhouse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rtbhouse-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/conformance/rtbhouse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rtbhouse-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -230,6 +272,41 @@ rules:
     info: 2
     warn: 3
   slug: rtbhouse-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 43.8
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 62.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 14.4
+    contract_quality: 51.6
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 43.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/screenshots/rtbhouse-2026-06-20T193241.png
 security:
 - kind: authentication

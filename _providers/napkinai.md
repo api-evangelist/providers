@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -37,6 +62,7 @@ collections:
   slug: open-napkinai-visuals-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/security/napkinai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/napkinai-vulnerability-disclosure.yml
@@ -45,18 +71,22 @@ common:
   type: Security
   url: https://vdp.napkin.ai
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/security/napkinai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/napkinai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/agentic-access/napkinai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/napkinai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/scopes/napkinai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/napkinai-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/authentication/napkinai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/napkinai-authentication.yml
@@ -81,6 +111,7 @@ common:
   type: GettingStarted
   url: https://api.napkin.ai/api/napkin-api-documentation
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/openapi/_original/napkinai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/napkinai-openapi.yml
@@ -109,54 +140,67 @@ common:
   type: Blog
   url: https://www.napkin.ai/blog/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/llms/napkinai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/napkinai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/well-known/napkinai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/napkinai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/well-known/napkinai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/napkinai-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/mcp/napkinai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/napkinai-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/conformance/napkinai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/napkinai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/errors/napkinai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/napkinai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/lifecycle/napkinai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/napkinai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/conventions/napkinai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/napkinai-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/changelog/napkinai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/napkinai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/data-model/napkinai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/napkinai-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/overlays/napkinai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/napkinai-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/arazzo/napkinai-generate-visual.yml
   title: ''
   type: Arazzo
   url: arazzo/napkinai-generate-visual.yml
@@ -178,6 +222,41 @@ scopes:
   scope_count: 2
   slug: napkinai-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: thin
+  composite: 31.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 14.5
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 31.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/screenshots/napkinai-2026-08-07T184624.png
 security:
 - kind: authentication

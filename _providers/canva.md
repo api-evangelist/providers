@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -231,26 +257,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/canva/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/agentic-access/canva-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/canva-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/security/canva-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/canva-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/security/canva-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/canva-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/security/canva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canva-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/authentication/canva-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canva-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/scopes/canva-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/canva-scopes.yml
@@ -367,6 +399,7 @@ common:
   type: CLI
   url: https://www.npmjs.com/package/@canva/cli
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/rules/canva-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/canva-spectral-rules.yml
@@ -375,62 +408,77 @@ common:
   type: AgentSkills
   url: https://github.com/canva-sdks/canva-claude-skills
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/packages/canva-packages.yml
   title: ''
   type: Packages
   url: packages/canva-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/packages/canva-packages.yml
   title: ''
   type: SDKs
   url: packages/canva-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/well-known/canva-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/canva-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/well-known/canva-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/canva-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/security/canva-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/canva-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/security/canva-trust-center.yml
   title: ''
   type: Compliance
   url: security/canva-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/conformance/canva-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canva-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/mcp/canva-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/canva-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/mcp/canva-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/canva-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/llms/canva-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canva-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/conventions/canva-conventions.yml
   title: ''
   type: Conventions
   url: conventions/canva-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/errors/canva-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/canva-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/lifecycle/canva-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/canva-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/lifecycle/canva-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/canva-lifecycle.yml
@@ -439,38 +487,47 @@ common:
   type: StatusPage
   url: https://www.canvastatus.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/changelog/canva-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/canva-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/rate-limits/canva-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/canva-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/plans/canva-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/canva-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/finops/canva-finops.yml
   title: ''
   type: FinOps
   url: finops/canva-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/cli/canva-cli.yml
   title: ''
   type: CLI
   url: cli/canva-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/components/canva-components.yml
   title: ''
   type: Components
   url: components/canva-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/data-model/canva-data-model.yml
   title: ''
   type: DataModel
   url: data-model/canva-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/asyncapi/canva-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/canva-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/overlays/canva-connect-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canva-connect-api-overlay.yaml
@@ -1097,6 +1154,41 @@ scopes:
   scope_count: 18
   slug: canva-scopes
   summary_line: 18 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 67.1
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 55.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 31.8
+    contract_quality: 80.8
+    developer_ergonomics: 79.8
+    discoverability: 77.8
+    operational_transparency: 60.5
+  previous_composite: 67.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:
 - kind: authentication

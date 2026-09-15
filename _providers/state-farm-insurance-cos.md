@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,22 +84,27 @@ collections:
   slug: open-state-farm-insurance-cos-renters
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/agentic-access/state-farm-insurance-cos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/state-farm-insurance-cos-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/security/state-farm-insurance-cos-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/state-farm-insurance-cos-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/security/state-farm-insurance-cos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/state-farm-insurance-cos-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/authentication/state-farm-insurance-cos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/state-farm-insurance-cos-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/scopes/state-farm-insurance-cos-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/state-farm-insurance-cos-scopes.yml
@@ -115,26 +145,32 @@ common:
   type: TermsOfService
   url: https://www.statefarm.com/customer-care/legal-disclaimer
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/openapi/_original/state-farm-insurance-cos-renters-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/state-farm-insurance-cos-renters-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/json-schema/state-farm-insurance-cos-renters-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/state-farm-insurance-cos-renters-policy-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/json-structure/state-farm-insurance-cos-renters-policy-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/state-farm-insurance-cos-renters-policy-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/json-ld/state-farm-insurance-cos-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/state-farm-insurance-cos-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/vocabulary/state-farm-insurance-cos-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/state-farm-insurance-cos-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/rules/state-farm-insurance-cos-rules.yml
   title: ''
   type: SpectralRules
   url: rules/state-farm-insurance-cos-rules.yml
@@ -225,6 +261,41 @@ scopes:
   scope_count: 3
   slug: state-farm-insurance-cos-scopes
   summary_line: 3 scopes · clientCredentials
+score:
+  band: thin
+  composite: 36.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 53.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 28.8
+    contract_quality: 58.3
+    developer_ergonomics: 26.2
+    discoverability: 53.7
+    operational_transparency: 10.5
+  previous_composite: 36.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/screenshots/state-farm-insurance-cos-2026-06-20T194526.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -110,14 +135,17 @@ collections:
   slug: open-openpipe
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/agentic-access/openpipe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openpipe-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/security/openpipe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openpipe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/authentication/openpipe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openpipe-authentication.yml
@@ -138,14 +166,17 @@ common:
   type: Documentation
   url: https://docs.openpipe.ai/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/plans/openpipe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openpipe-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/rate-limits/openpipe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openpipe-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/finops/openpipe-finops.yml
   title: ''
   type: FinOps
   url: finops/openpipe-finops.yml
@@ -178,6 +209,38 @@ rate_limits:
 - limit_count: 1
   name: Openpipe Rate Limits
   slug: openpipe-rate-limits
+score:
+  band: thin
+  composite: 28.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 44.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 0.0
+    contract_quality: 42.9
+    developer_ergonomics: 21.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 28.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/screenshots/openpipe-2026-06-20T191022.png
 security:
 - kind: authentication

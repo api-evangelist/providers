@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -173,6 +198,7 @@ collections:
   slug: open-qonto-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/capabilities/qonto-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qonto-capability-edges.yml
@@ -181,18 +207,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/qonto/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/scopes/qonto-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/qonto-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/agentic-access/qonto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qonto-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/security/qonto-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qonto-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/security/qonto-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qonto-vulnerability-disclosure.yml
@@ -201,30 +231,37 @@ common:
   type: Security
   url: https://qonto.com/en/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/security/qonto-trust-center.yml
   title: ''
   type: Compliance
   url: security/qonto-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/security/qonto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qonto-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/authentication/qonto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qonto-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/conventions/qonto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qonto-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/conventions/qonto-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/qonto-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/errors/qonto-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qonto-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/lifecycle/qonto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qonto-lifecycle.yml
@@ -233,58 +270,72 @@ common:
   type: StatusPage
   url: https://status.qonto.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/changelog/qonto-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qonto-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/conformance/qonto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qonto-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/data-model/qonto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qonto-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/asyncapi/qonto-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qonto-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/mcp/qonto-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qonto-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/packages/qonto-packages.yml
   title: ''
   type: Packages
   url: packages/qonto-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/packages/qonto-packages.yml
   title: ''
   type: SDKs
   url: packages/qonto-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/components/qonto-components.yml
   title: ''
   type: Components
   url: components/qonto-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/sandbox/qonto-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/qonto-sandbox.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/overlays/qonto-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qonto-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/llms/qonto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qonto-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/well-known/qonto-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qonto-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/well-known/qonto-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/qonto-security.txt
@@ -321,6 +372,7 @@ common:
   type: Support
   url: https://help.qonto.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/collections/qonto.postman_collection.json
   title: ''
   type: Postman
   url: collections/qonto.postman_collection.json
@@ -341,14 +393,17 @@ common:
   type: PrivacyPolicy
   url: https://legal.qonto.com/en
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/plans/qonto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qonto-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/rate-limits/qonto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qonto-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/finops/qonto-finops.yml
   title: ''
   type: FinOps
   url: finops/qonto-finops.yml
@@ -393,6 +448,58 @@ scopes:
   scope_count: 35
   slug: qonto-scopes
   summary_line: 35 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 71.7
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 61.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 4.5
+    contract_quality: 62.2
+    developer_ergonomics: 72.0
+    discoverability: 70.4
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+  previous_composite: 71.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 74.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/screenshots/qonto-2026-08-17T075403.png
 security:
 - kind: authentication

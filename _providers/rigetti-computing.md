@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -99,62 +124,77 @@ collections:
   slug: open-rigetti-computing-rigetti-qcs-api-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/agentic-access/rigetti-computing-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rigetti-computing-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/security/rigetti-computing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rigetti-computing-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/authentication/rigetti-computing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rigetti-computing-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/packages/rigetti-computing-packages.yml
   title: ''
   type: Packages
   url: packages/rigetti-computing-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/packages/rigetti-computing-packages.yml
   title: ''
   type: SDKs
   url: packages/rigetti-computing-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/mcp/rigetti-computing-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rigetti-computing-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/llms/rigetti-computing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rigetti-computing-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/overlays/rigetti-computing-qcs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rigetti-computing-qcs-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/conformance/rigetti-computing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rigetti-computing-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/errors/rigetti-computing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rigetti-computing-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/lifecycle/rigetti-computing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rigetti-computing-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/conventions/rigetti-computing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rigetti-computing-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/data-model/rigetti-computing-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rigetti-computing-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/sandbox/rigetti-computing-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rigetti-computing-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,6 +255,41 @@ overview: 'Rigetti Computing publishes 9 APIs on the [APIs.io](https://apis.io/)
 
   Rigetti Computing''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 39.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 55.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 39.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/screenshots/rigetti-computing-2026-08-17T081601.png
 security:
 - kind: authentication

@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -144,22 +170,27 @@ collections:
   slug: open-meltwater-owned-analytics-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/overlays/meltwater-api-v4-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meltwater-api-v4-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/agentic-access/meltwater-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/meltwater-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/security/meltwater-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meltwater-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/security/meltwater-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meltwater-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/authentication/meltwater-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meltwater-authentication.yml
@@ -196,22 +227,27 @@ common:
   type: X
   url: https://x.com/Meltwater
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/plans/meltwater-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meltwater-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/rate-limits/meltwater-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meltwater-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/finops/meltwater-finops.yml
   title: ''
   type: FinOps
   url: finops/meltwater-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/well-known/meltwater-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meltwater-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/well-known/meltwater-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/meltwater-security.txt
@@ -220,82 +256,102 @@ common:
   type: Security
   url: https://www.meltwater.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/security/meltwater-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/meltwater-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/mcp/meltwater-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/meltwater-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/mcp/meltwater-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/meltwater-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/llms/meltwater-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meltwater-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/scopes/meltwater-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/meltwater-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/conformance/meltwater-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meltwater-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/errors/meltwater-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meltwater-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/lifecycle/meltwater-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meltwater-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/conventions/meltwater-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meltwater-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/changelog/meltwater-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meltwater-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/data-model/meltwater-data-model.yml
   title: ''
   type: DataModel
   url: data-model/meltwater-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/asyncapi/meltwater-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/meltwater-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/sandbox/meltwater-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/meltwater-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/packages/meltwater-packages.yml
   title: ''
   type: Packages
   url: packages/meltwater-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/examples/meltwater-api-examples.json
   title: ''
   type: Examples
   url: examples/meltwater-api-examples.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/vocabulary/meltwater-vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/meltwater-vocabulary.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/json-schema/meltwater-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/meltwater-schemas.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/rules/meltwater-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/meltwater-jsonschema-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/json-ld/meltwater-api.jsonld
   title: ''
   type: JSONLD
   url: json-ld/meltwater-api.jsonld
@@ -400,6 +456,41 @@ scopes:
   scope_count: 5
   slug: meltwater-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 70.2
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 83.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 29.5
+    contract_quality: 71.8
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 84.2
+  previous_composite: 70.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/screenshots/meltwater-2026-06-20T185137.png
 security:
 - kind: authentication

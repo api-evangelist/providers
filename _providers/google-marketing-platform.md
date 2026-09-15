@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,22 +73,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-marketing-platform-admin/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/agentic-access/google-marketing-platform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-marketing-platform-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/security/google-marketing-platform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-marketing-platform-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/security/google-marketing-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-marketing-platform-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/authentication/google-marketing-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-marketing-platform-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/scopes/google-marketing-platform-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-marketing-platform-scopes.yml
@@ -112,6 +142,7 @@ common:
   type: Support
   url: https://developers.google.com/marketing-platform/support
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/json-ld/json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/json-ld.yml
@@ -120,18 +151,22 @@ common:
   type: Blog
   url: https://blog.google/products/marketingplatform/rss/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/packages/google-marketing-platform-packages.yml
   title: ''
   type: Packages
   url: packages/google-marketing-platform-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/packages/google-marketing-platform-packages.yml
   title: ''
   type: SDKs
   url: packages/google-marketing-platform-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/well-known/google-marketing-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-marketing-platform-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/well-known/google-marketing-platform-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-marketing-platform-security.txt
@@ -140,38 +175,47 @@ common:
   type: Security
   url: https://g.co/vrp
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/llms/google-marketing-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-marketing-platform-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/overlays/google-marketing-platform-v1alpha-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-marketing-platform-v1alpha-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/conformance/google-marketing-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-marketing-platform-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/errors/google-marketing-platform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-marketing-platform-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/lifecycle/google-marketing-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-marketing-platform-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/conventions/google-marketing-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-marketing-platform-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/data-model/google-marketing-platform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-marketing-platform-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/changelog/google-marketing-platform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-marketing-platform-changelog.yml
@@ -180,18 +224,22 @@ common:
   type: ChangeLog
   url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/rate-limits/google-marketing-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-marketing-platform-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/plans/google-marketing-platform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-marketing-platform-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/finops/google-marketing-platform-finops.yml
   title: ''
   type: FinOps
   url: finops/google-marketing-platform-finops.yml
@@ -354,6 +402,41 @@ scopes:
   scope_count: 2
   slug: google-marketing-platform-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 57.0
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 67.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 68.1
+    developer_ergonomics: 62.5
+    discoverability: 68.5
+    operational_transparency: 76.3
+  previous_composite: 57.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/screenshots/google-marketing-platform-2026-06-20T182213.png
 security:
 - kind: authentication

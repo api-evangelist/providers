@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://connect.agendapro.com
@@ -69,62 +94,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/agendapro
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/llms/agendapro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agendapro-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/authentication/agendapro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agendapro-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/scopes/agendapro-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agendapro-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/conventions/agendapro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agendapro-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/errors/agendapro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agendapro-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/data-model/agendapro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agendapro-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/lifecycle/agendapro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agendapro-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/conformance/agendapro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agendapro-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/rate-limits/agendapro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agendapro-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/plans/agendapro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agendapro-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/packages/agendapro-packages.yml
   title: ''
   type: Packages
   url: packages/agendapro-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/asyncapi/agendapro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agendapro-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/security/agendapro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agendapro-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/overlays/agendapro-connect-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agendapro-connect-v3-overlay.yaml
@@ -137,7 +177,7 @@ modified: '2026-09-12'
 name: AgendaPro
 nav: Providers
 network: true
-overview: 'AgendaPro publishes 1 API on the [APIs.io](https://apis.io/) network: Connect v3 API. Tagged areas include Appointment Scheduling, Booking, Salon Software, Spa and Wellness, and Point of Sale.
+overview: 'AgendaPro publishes 1 API on the [APIs.io](https://apis.io/) network: Connect v3 API. Tagged areas include Appointment Scheduling, Booking, Salon Software, Spa and Wellness, and Point-of-Sale.
 
 
   The AgendaPro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -158,6 +198,51 @@ scopes:
   scope_count: 0
   slug: agendapro-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 59.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 64.4
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 59.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Agendapro Authentication
@@ -173,11 +258,11 @@ tags:
 - Booking
 - Salon Software
 - Spa and Wellness
-- Point of Sale
+- Point-of-Sale
 - Clinic Management
 - CRM
 - Payments
-- Webhooks
+- Webhook
 - Vertical SaaS
 - Latin America
 - SMB Software

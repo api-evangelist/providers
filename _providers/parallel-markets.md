@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'REST/JSON server-side API for investor accreditation, KYC/KYB/AML, identity, risk monitoring, and case management. v2 (current) authenticates with a Bearer API key; v1 (legacy) and the JavaScript SDK '
@@ -41,6 +66,7 @@ common:
   type: GettingStarted
   url: https://developer.parallelmarkets.com/docs/sandbox-quickstart
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/sandbox/parallel-markets-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/parallel-markets-sandbox.yml
@@ -61,6 +87,7 @@ common:
   type: StatusPage
   url: https://status.parallelmarkets.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/lifecycle/parallel-markets-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/parallel-markets-lifecycle.yml
@@ -77,62 +104,77 @@ common:
   type: TermsOfService
   url: https://parallelmarkets.com/terms-of-service
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/packages/parallel-markets-packages.yml
   title: ''
   type: Packages
   url: packages/parallel-markets-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/packages/parallel-markets-packages.yml
   title: ''
   type: SDKs
   url: packages/parallel-markets-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/components/parallel-markets-components.yml
   title: ''
   type: Components
   url: components/parallel-markets-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/authentication/parallel-markets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parallel-markets-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/scopes/parallel-markets-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/parallel-markets-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/errors/parallel-markets-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parallel-markets-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/conventions/parallel-markets-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parallel-markets-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/lifecycle/parallel-markets-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parallel-markets-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/changelog/parallel-markets-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/parallel-markets-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/asyncapi/parallel-markets-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/parallel-markets-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/conformance/parallel-markets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parallel-markets-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/data-model/parallel-markets-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parallel-markets-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/mcp/parallel-markets-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parallel-markets-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/llms/parallel-markets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parallel-markets-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/security/parallel-markets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parallel-markets-domain-security.yml
@@ -157,6 +199,35 @@ scopes:
   scope_count: 4
   slug: parallel-markets-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 43.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 43.5
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/screenshots/parallel-markets-2026-08-07T191421.png
 security:
 - kind: authentication

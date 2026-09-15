@@ -36,10 +36,12 @@ common:
   type: License
   url: https://github.com/cline/cline/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/security/clinerules-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clinerules-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/security/clinerules-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clinerules-domain-security.yml
@@ -56,10 +58,12 @@ common:
   type: GitHubRepository
   url: https://github.com/cline/cline
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/json-schema/clinerules-rule-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clinerules-rule-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/json-ld/clinerules-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/clinerules-context.jsonld

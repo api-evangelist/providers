@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -196,30 +221,37 @@ collections:
   slug: open-obie-opendata-swagger
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/capabilities/coventry-building-society-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/coventry-building-society-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/agentic-access/coventry-building-society-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coventry-building-society-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/conventions/coventry-building-society-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coventry-building-society-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/conventions/coventry-building-society-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/coventry-building-society-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/errors/coventry-building-society-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coventry-building-society-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/lifecycle/coventry-building-society-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coventry-building-society-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/conformance/coventry-building-society-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coventry-building-society-conformance.yml
@@ -228,38 +260,47 @@ common:
   type: Compliance
   url: https://www.coventrybuildingsociety.co.uk/member/help/savings/open-banking.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/data-model/coventry-building-society-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coventry-building-society-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/llms/coventry-building-society-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coventry-building-society-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/mcp/coventry-building-society-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coventry-building-society-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/mcp/coventry-building-society-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/coventry-building-society-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-account-info-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-payment-initiation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-confirmation-funds-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-opendata-overlay.yaml
@@ -272,14 +313,17 @@ common:
   type: PrivacyPolicy
   url: https://www.coventrybuildingsociety.co.uk/consumer/help/privacy-policy.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/security/coventry-building-society-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coventry-building-society-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/scopes/coventry-building-society-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/coventry-building-society-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/authentication/coventry-building-society-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coventry-building-society-authentication.yml
@@ -326,6 +370,61 @@ scopes:
   scope_count: 3
   slug: coventry-building-society-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 50.9
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 41.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 77.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:
 - kind: authentication

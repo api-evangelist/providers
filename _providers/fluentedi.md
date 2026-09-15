@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 39.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -18,30 +43,37 @@ common:
   type: Website
   url: https://www.fluentedi.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/security/fluentedi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fluentedi-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/well-known/fluentedi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fluentedi-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/authentication/fluentedi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fluentedi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/errors/fluentedi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fluentedi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/conventions/fluentedi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fluentedi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/conventions/fluentedi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fluentedi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/lifecycle/fluentedi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fluentedi-lifecycle.yml
@@ -50,22 +82,27 @@ common:
   type: StatusPage
   url: https://fluentedi.com/health
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/conformance/fluentedi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fluentedi-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/plans/fluentedi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fluentedi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/rate-limits/fluentedi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fluentedi-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/agentic-access/fluentedi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fluentedi-agentic-access.yml
@@ -109,6 +146,41 @@ rate_limits:
 - limit_count: 0
   name: Fluentedi Rate Limits
   slug: fluentedi-rate-limits
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 40.0
+    developer_ergonomics: 39.9
+    discoverability: 81.5
+    operational_transparency: 13.2
+  previous_composite: 34.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Fluentedi Authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -163,54 +188,67 @@ collections:
   slug: open-gocardless
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/capabilities/gocardless-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gocardless-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/agentic-access/gocardless-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gocardless-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/security/gocardless-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gocardless-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/security/gocardless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gocardless-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/authentication/gocardless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gocardless-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/security/gocardless-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gocardless-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/scopes/gocardless-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gocardless-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/sandbox/gocardless-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gocardless-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/conventions/gocardless-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gocardless-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/changelog/gocardless-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gocardless-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/components/gocardless-components.yml
   title: ''
   type: Components
   url: components/gocardless-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/data-model/gocardless-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gocardless-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/errors/gocardless-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/gocardless-decline-codes.yml
@@ -287,6 +325,45 @@ scopes:
   scope_count: 1
   slug: gocardless-scopes
   summary_line: 1 scope
+score:
+  band: developing
+  composite: 45.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 74.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 11.4
+    contract_quality: 57.7
+    developer_ergonomics: 45.2
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 45.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 50.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png
 security:
 - kind: authentication

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.1
+  scored_at: '2026-09-14'
 api_count: 34
 apis:
 - description: KPN Grip is a KPN identity and access management solution that acts as a central identity hub, letting developers integrate user registration, authentication and authorization (SAML 2.0, OpenID Connec
@@ -633,186 +658,232 @@ collections:
   slug: open-xdroid-speech-to-text
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/capabilities/kpn-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kpn-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-number-verify-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-number-verify-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-sim-swap-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-sim-swap-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/kpn-sim-swap-check.md
   title: ''
   type: AgentSkill
   url: skills/kpn-sim-swap-check.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-match-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-match-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-sms-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/kpn-send-sms.md
   title: ''
   type: AgentSkill
   url: skills/kpn-send-sms.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-sms-inbound-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-sms-inbound-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-mobile-services-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-mobile-services-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-fiam-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-fiam-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-fiam-eneco-data-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-fiam-eneco-data-products-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-disturbance-check-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-disturbance-check-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/kpn-address-service-check.md
   title: ''
   type: AgentSkill
   url: skills/kpn-address-service-check.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-internet-speed-check-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-internet-speed-check-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-high-level-design-ftth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-high-level-design-ftth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-lora-device-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-lora-device-management-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/kpn-lora-device-onboarding.md
   title: ''
   type: AgentSkill
   url: skills/kpn-lora-device-onboarding.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-sd-lan-sd-wan-network-view-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-sd-lan-sd-wan-network-view-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-servicenow-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-servicenow-connect-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/kpn-servicenow-ticket.md
   title: ''
   type: AgentSkill
   url: skills/kpn-servicenow-ticket.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-ise-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-ise-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-tv-guide-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-tv-guide-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-webhook-signing-keys-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-webhook-signing-keys-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/kpn-rotate-webhook-signing-key.md
   title: ''
   type: AgentSkill
   url: skills/kpn-rotate-webhook-signing-key.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-webhook-privacy-config-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-webhook-privacy-config-manager-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/kpn-configure-webhook-privacy.md
   title: ''
   type: AgentSkill
   url: skills/kpn-configure-webhook-privacy.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-wholesale-wba-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-wholesale-wba-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-wholesale-broadband-access-fpi-cip-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-wholesale-broadband-access-fpi-cip-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-pollyhelp-knowledge-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-pollyhelp-knowledge-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-xdroid-speech-to-text-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-xdroid-speech-to-text-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-parley-secure-messenger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-parley-secure-messenger-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-tracebuzz-social-media-webcare-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-tracebuzz-social-media-webcare-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-weseedo-direct-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-weseedo-direct-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-weseedo-personal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-weseedo-personal-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-vonage-messages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-vonage-messages-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-vonage-voice-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-vonage-voice-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-vonage-phone-numbers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-vonage-phone-numbers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-vonage-number-insight-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-vonage-number-insight-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-vonage-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-vonage-sms-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-vonage-verify-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-vonage-verify-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-apidaze-voice-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-apidaze-voice-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/overlays/kpn-registered-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kpn-registered-email-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/security/kpn-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kpn-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/security/kpn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kpn-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/scopes/kpn-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kpn-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/authentication/kpn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kpn-authentication.yml
@@ -897,14 +968,17 @@ common:
   type: Standard
   url: https://coin.nl/camara
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/packages/kpn-packages.yml
   title: ''
   type: Packages
   url: packages/kpn-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/well-known/kpn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kpn-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/well-known/kpn-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kpn-security.txt
@@ -913,26 +987,32 @@ common:
   type: Security
   url: https://developer.kpn.com/page/responsible-disclosure
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/mcp/kpn-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kpn-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/llms/kpn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kpn-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/conformance/kpn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kpn-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/errors/kpn-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kpn-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/errors/kpn-sms-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kpn-sms-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/lifecycle/kpn-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kpn-lifecycle.yml
@@ -941,30 +1021,37 @@ common:
   type: Deprecation
   url: https://developer.kpn.com/documentation-response-headers
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/conventions/kpn-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kpn-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/rate-limits/kpn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kpn-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/changelog/kpn-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kpn-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/sandbox/kpn-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kpn-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/data-model/kpn-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kpn-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/asyncapi/kpn-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kpn-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -1006,6 +1093,54 @@ scopes:
   scope_count: 0
   slug: kpn-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 62.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 63.8
+    developer_ergonomics: 60.1
+    discoverability: 66.7
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
+  previous_composite: 62.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 100
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 78.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: USTC's institution-operated authorization server, run by the Network Information Center and the hub every other campus system authenticates against. It speaks CAS 3.0, OAuth 2.0 authorization code (re
@@ -51,6 +76,7 @@ common:
   type: DeveloperPortal
   url: https://id.ustc.edu.cn/doc/developer/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/identity-federation/ustc-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity-federation/ustc-identity-federation.yml
@@ -75,26 +101,32 @@ common:
   type: AIPolicy
   url: https://chat.ustc.edu.cn/ustchat/policies/ustchat-terms-of-use.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/conformance/ustc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ustc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/vocabulary/ustc-identity-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ustc-identity-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/examples/index.yml
   title: ''
   type: Examples
   url: examples/index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/authentication/ustc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ustc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/scopes/ustc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ustc-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/lifecycle/ustc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ustc-lifecycle.yml
@@ -119,26 +151,32 @@ common:
   type: Blog
   url: https://news.ustc.edu.cn/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/security/ustc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ustc-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/plans/ustc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ustc-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/rate-limits/ustc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ustc-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/finops/ustc-finops.yml
   title: ''
   type: FinOps
   url: finops/ustc-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/json-ld/ustc-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ustc-context.jsonld
@@ -244,6 +282,51 @@ scopes:
   scope_count: 0
   slug: ustc-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 37.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 71.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 3.8
+    contract_quality: 30.6
+    developer_ergonomics: 45.2
+    discoverability: 68.5
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 37.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/screenshots/ustc-2026-06-20T200827.png
 security:
 - kind: authentication

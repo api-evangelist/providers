@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the CipherTrust Manager control plane. Manages encryption keys, secrets, certificates, tokenization, users, connections, and policies. Base path /api/v1 with JWT bearer authentication obt
@@ -18,10 +43,12 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/security/ciphertrust-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ciphertrust-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/security/ciphertrust-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ciphertrust-domain-security.yml
@@ -50,22 +77,27 @@ common:
   type: Support
   url: https://supportportal.thalesgroup.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/authentication/ciphertrust-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ciphertrust-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/packages/ciphertrust-packages.yml
   title: ''
   type: Packages
   url: packages/ciphertrust-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/packages/ciphertrust-packages.yml
   title: ''
   type: SDKs
   url: packages/ciphertrust-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/well-known/ciphertrust-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ciphertrust-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/well-known/ciphertrust-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ciphertrust-security.txt
@@ -74,6 +106,7 @@ common:
   type: Security
   url: https://cpl.thalesgroup.com/technical-support/how-to-report-a-security-vulnerability
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/conformance/ciphertrust-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ciphertrust-conformance.yml
@@ -82,6 +115,7 @@ common:
   type: Compliance
   url: https://cpl.thalesgroup.com/encryption/ciphertrust-manager
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/llms/ciphertrust-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ciphertrust-llms.txt
@@ -98,6 +132,34 @@ overview: 'CipherTrust publishes 1 API on the [APIs.io](https://apis.io/) networ
 
   CipherTrust''s developer surface includes documentation, API reference, support, authentication, and 13 more developer resources.'
 random_paper: 16
+score:
+  band: emerging
+  composite: 22.2
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 66.7
+    operational_transparency: 13.2
+  previous_composite: 22.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciphertrust/refs/heads/main/screenshots/ciphertrust-2026-07-25T205401.png
 security:
 - kind: authentication

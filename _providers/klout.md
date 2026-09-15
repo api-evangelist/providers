@@ -28,14 +28,17 @@ common:
   type: ArchivedSite
   url: https://web.archive.org/web/*/klout.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/klout/refs/heads/main/packages/klout-packages.yml
   title: ''
   type: Packages
   url: packages/klout-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/klout/refs/heads/main/lifecycle/klout-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klout-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/klout/refs/heads/main/security/klout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klout-domain-security.yml

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Daylight's partner/product API surface at api.daylight.ai, protected by OAuth2 / OpenID Connect (Bearer token, authorization server at auth.app.daylight.ai). Access is authenticated (returns 401 witho
@@ -57,34 +82,42 @@ common:
   type: PrivacyPolicy
   url: https://daylight.ai/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/mcp/daylight-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/daylight-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/authentication/daylight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/daylight-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/scopes/daylight-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/daylight-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/well-known/daylight-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/daylight-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/security/daylight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/daylight-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/conformance/daylight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/daylight-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/conformance/daylight-conformance.yml
   title: ''
   type: Compliance
   url: conformance/daylight-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/llms/daylight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/daylight-llms.txt
@@ -111,6 +144,35 @@ scopes:
   scope_count: 2
   slug: daylight-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: emerging
+  composite: 19.4
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 19.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/daylight/refs/heads/main/screenshots/daylight-2026-07-25T211450.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://web.trailapp.com/api
@@ -82,18 +107,22 @@ collections:
   slug: open-trail-tasks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/overlays/trail-areas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trail-areas-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/security/trail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trail-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/scopes/trail-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trail-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/authentication/trail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trail-authentication.yml
@@ -154,50 +183,62 @@ common:
   type: ChangeLog
   url: https://answers.trailapp.com/en/collections/19359271-release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/changelog/trail-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trail-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/llms/trail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trail-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/well-known/trail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trail-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/errors/trail-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trail-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/lifecycle/trail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trail-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/conformance/trail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trail-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/conventions/trail-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trail-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/rate-limits/trail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trail-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/mcp/trail-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trail-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/data-model/trail-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trail-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/examples/trail-examples.yml
   title: ''
   type: Examples
   url: examples/trail-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -223,6 +264,40 @@ scopes:
   scope_count: 4
   slug: trail-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 43.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 52.8
+    developer_ergonomics: 49.4
+    discoverability: 81.5
+    operational_transparency: 39.5
+  previous_composite: 43.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/screenshots/trail-2026-08-17T082424.png
 security:
 - kind: authentication

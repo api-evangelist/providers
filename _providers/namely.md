@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://{company}.namely.com/api/v1
@@ -113,6 +138,7 @@ apis:
 artifact_total: 23
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/security/namely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/namely-domain-security.yml
@@ -137,6 +163,7 @@ common:
   type: GettingStarted
   url: https://developers.namely.com/docs/namely-api/72f9086e4f0e7-introduction
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/authentication/namely-authentication.yml
   title: ''
   type: Authentication
   url: authentication/namely-authentication.yml
@@ -173,58 +200,72 @@ common:
   type: StatusPage
   url: https://status.namely.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/changelog/namely-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/namely-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/lifecycle/namely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/namely-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/conventions/namely-conventions.yml
   title: ''
   type: Conventions
   url: conventions/namely-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/conformance/namely-conformance.yml
   title: ''
   type: Conformance
   url: conformance/namely-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/data-model/namely-data-model.yml
   title: ''
   type: DataModel
   url: data-model/namely-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/errors/namely-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/namely-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/rate-limits/namely-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/namely-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/plans/namely-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/namely-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/packages/namely-packages.yml
   title: ''
   type: Packages
   url: packages/namely-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/packages/namely-packages.yml
   title: ''
   type: SDKs
   url: packages/namely-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/sandbox/namely-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/namely-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/mcp/namely-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/namely-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/overlays/namely-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/namely-api-overlay.yaml
@@ -233,6 +274,7 @@ common:
   type: LLMsTxt
   url: https://namely.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/llms/namely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/namely-llms.txt
@@ -258,6 +300,40 @@ rate_limits:
 - limit_count: 1
   name: Namely Rate Limits
   slug: namely-rate-limits
+score:
+  band: strong
+  composite: 56.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 48.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 55.3
+  previous_composite: 56.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/screenshots/namely-2026-09-02T150721.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -177,14 +202,17 @@ common:
   type: Website
   url: https://www.hunter.io/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/agentic-access/hunter-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hunter-io-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/security/hunter-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hunter-io-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/authentication/hunter-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hunter-io-authentication.yml
@@ -193,46 +221,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/hunter/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-add-verified-lead-to-list-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-add-verified-lead-to-list-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-author-finder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-author-finder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-campaign-lead-builder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-campaign-lead-builder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-count-gated-domain-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-count-gated-domain-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-credit-guarded-domain-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-credit-guarded-domain-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-discover-to-domain-emails-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-discover-to-domain-emails-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-domain-to-verified-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-domain-to-verified-email-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-enrich-email-to-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-enrich-email-to-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-find-verify-create-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-find-verify-create-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-reverify-lead-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-reverify-lead-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/arazzo/hunter-io-verify-existing-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/hunter-io-verify-existing-email-workflow.yml
@@ -357,26 +396,32 @@ common:
   type: SDKs
   url: https://github.com/hunter-io/sentry-ruby
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/plans/hunter-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hunter-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/rate-limits/hunter-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hunter-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/finops/hunter-io-finops.yml
   title: ''
   type: FinOps
   url: finops/hunter-io-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/vocabulary/hunter-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hunter-io-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/rules/hunter-io-rules.yml
   title: ''
   type: SpectralRules
   url: rules/hunter-io-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/json-structure/hunter-io-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/hunter-io-structure.json
@@ -481,6 +526,38 @@ rules:
     info: 1
     warn: 4
   slug: hunter-io-rules
+score:
+  band: strong
+  composite: 59.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 86.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 28.8
+    contract_quality: 72.8
+    developer_ergonomics: 58.3
+    discoverability: 64.8
+    operational_transparency: 57.9
+  previous_composite: 59.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/screenshots/hunter-io-2026-06-20T182944.png
 security:
 - kind: authentication

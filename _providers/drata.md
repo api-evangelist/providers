@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 93
@@ -280,26 +306,32 @@ apis:
 artifact_total: 62
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/capabilities/drata-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/drata-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/agentic-access/drata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/drata-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/drata-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/drata-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drata-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/authentication/drata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drata-authentication.yml
@@ -320,74 +352,92 @@ common:
   type: Developer
   url: https://developers.drata.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/plans/drata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drata-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/rate-limits/drata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drata-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/finops/drata-finops.yml
   title: ''
   type: FinOps
   url: finops/drata-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/mcp/drata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/drata-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/mcp/drata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/drata-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/scopes/drata-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/drata-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/well-known/drata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/drata-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/conventions/drata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/drata-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/errors/drata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/drata-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/lifecycle/drata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/drata-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/changelog/drata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/drata-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/conformance/drata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/drata-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/data-model/drata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/drata-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/packages/drata-packages.yml
   title: ''
   type: Packages
   url: packages/drata-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/llms/drata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drata-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/overlays/drata-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/drata-api-v2-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/examples/drata-examples.yml
   title: ''
   type: Examples
   url: examples/drata-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -396,6 +446,7 @@ common:
   type: StatusPage
   url: https://status.drata.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/drata-vulnerability-disclosure.yml
@@ -481,6 +532,41 @@ scopes:
   scope_count: 0
   slug: drata-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 65.4
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 46.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 4.5
+    contract_quality: 65.0
+    developer_ergonomics: 58.9
+    discoverability: 50.0
+    operational_transparency: 65.8
+  previous_composite: 65.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/screenshots/drata-2026-06-20T180244.png
 security:
 - kind: authentication

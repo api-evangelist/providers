@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -93,70 +118,87 @@ common:
   type: PrivacyPolicy
   url: https://www.topi.eu/en/privacy-policy
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/_original/topi-seller-api-openapi-original.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/topi-seller-api-openapi-original.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/authentication/topi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/topi-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/scopes/topi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/topi-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/agentic-access/topi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/topi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/security/topi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/topi-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/errors/topi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/topi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/conventions/topi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/topi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/lifecycle/topi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/topi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/conformance/topi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/topi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/data-model/topi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/topi-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/sandbox/topi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/topi-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/components/topi-components.yml
   title: ''
   type: Components
   url: components/topi-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/asyncapi/topi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/topi-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/mcp/topi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/topi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/llms/topi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/topi-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/overlays/topi-seller-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/topi-seller-api-overlay.yaml
@@ -185,6 +227,55 @@ scopes:
   scope_count: 13
   slug: topi-scopes
   summary_line: 13 scopes · clientCredentials
+score:
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 65.1
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 42.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/screenshots/topi-2026-08-17T082405.png
 security:
 - kind: authentication

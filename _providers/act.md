@@ -12,6 +12,31 @@ access_model:
   - https://www.act.com/trial/act/
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - description: 'JSON-based REST API for the Act! CRM database exposing contacts, companies, groups, opportunities, tasks, activity series, calendar, notes, history, documents, attachments, users, teams, preferences, '
@@ -168,38 +193,47 @@ collections:
   slug: open-act-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/capabilities/act-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/act-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/authentication/act-authentication.yml
   title: ''
   type: Authentication
   url: authentication/act-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/act-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/act-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/act-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/act-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/security/act-trust-center.yml
   title: ''
   type: Compliance
   url: security/act-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/conformance/act-conformance.yml
   title: ''
   type: Conformance
   url: conformance/act-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/lifecycle/act-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/act-lifecycle.yml
@@ -212,22 +246,27 @@ common:
   type: StatusPage
   url: https://status.act.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/changelog/act-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/act-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/plans/act-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/act-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/packages/act-packages.yml
   title: ''
   type: Packages
   url: packages/act-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/llms/act-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/act-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -315,6 +354,40 @@ rate_limits:
 - limit_count: 0
   name: Act Rate Limits
   slug: act-rate-limits
+score:
+  band: exemplar
+  composite: 70.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 67.2
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    operational_transparency: 60.5
+  previous_composite: 70.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/screenshots/act-2026-08-17T121405.png
 security:
 - kind: authentication

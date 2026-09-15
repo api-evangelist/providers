@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 21.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -60,42 +85,52 @@ common:
   type: Website
   url: https://www.trip.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/overlays/tripcom-plugin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tripcom-plugin-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/security/tripcom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tripcom-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/agentic-access/tripcom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tripcom-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/llms/tripcom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tripcom-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/well-known/tripcom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tripcom-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/mcp/tripcom-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tripcom-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/conformance/tripcom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tripcom-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/lifecycle/tripcom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tripcom-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/conventions/tripcom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tripcom-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -132,6 +167,41 @@ overview: 'Trip.com publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
   Trip.com''s developer surface includes engineering blog, support, and 14 more developer resources.'
 random_paper: 10
+score:
+  band: emerging
+  composite: 25.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 48.3
+    developer_ergonomics: 18.5
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 25.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/screenshots/tripcom-2026-09-02T164241.png
 security:
 - kind: domain-security

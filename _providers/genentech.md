@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: FHIR R4 (v4.3.0) Universal API for Genentech Patient Support Services, documented in the Universal API Implementation Guide. Supports Access Solutions patient enrollment, Copay enrollment, Patient Fou
@@ -49,34 +74,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/Genentech
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/well-known/genentech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/genentech-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/well-known/genentech-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/genentech-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/authentication/genentech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/genentech-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/scopes/genentech-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/genentech-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/conformance/genentech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genentech-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/conventions/genentech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/genentech-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/lifecycle/genentech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/genentech-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/security/genentech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/genentech-vulnerability-disclosure.yml
@@ -85,10 +118,12 @@ common:
   type: Security
   url: https://www.gene.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/security/genentech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genentech-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/llms/genentech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/genentech-llms.txt
@@ -110,6 +145,45 @@ scopes:
   scope_count: 36
   slug: genentech-scopes
   summary_line: 36 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 26.1
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 5.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 36.9
+    discoverability: 75.9
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 26.1
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/genentech/refs/heads/main/screenshots/genentech-2026-07-25T215539.png
 security:
 - kind: authentication

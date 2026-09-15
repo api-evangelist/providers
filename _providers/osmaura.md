@@ -11,6 +11,31 @@ access_model:
   - https://dashboard.osmaura.com/signals/docs
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +68,27 @@ apis:
 artifact_total: 9
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/capabilities/osmaura-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/osmaura-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/overlays/osmaura-prospect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/osmaura-prospect-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/agentic-access/osmaura-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/osmaura-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/authentication/osmaura-authentication.yml
   title: ''
   type: Authentication
   url: authentication/osmaura-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/security/osmaura-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/osmaura-domain-security.yml
@@ -95,22 +125,27 @@ common:
   type: Pricing
   url: https://dashboard.osmaura.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/plans/osmaura-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/osmaura-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/rate-limits/osmaura-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/osmaura-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/conventions/osmaura-conventions.yml
   title: ''
   type: Conventions
   url: conventions/osmaura-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/errors/osmaura-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/osmaura-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/lifecycle/osmaura-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/osmaura-lifecycle.yml
@@ -119,18 +154,22 @@ common:
   type: Deprecation
   url: https://dashboard.osmaura.com/signals/docs#legacy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/conformance/osmaura-conformance.yml
   title: ''
   type: Conformance
   url: conformance/osmaura-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/data-model/osmaura-data-model.yml
   title: ''
   type: DataModel
   url: data-model/osmaura-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/llms/osmaura-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/osmaura-llms.txt
@@ -156,6 +195,48 @@ rate_limits:
 - limit_count: 0
   name: Osmaura Rate Limits
   slug: osmaura-rate-limits
+score:
+  band: developing
+  composite: 44.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 53.6
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 44.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/screenshots/osmaura-2026-08-07T191010.png
 security:
 - kind: authentication

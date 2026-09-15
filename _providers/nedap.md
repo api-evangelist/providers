@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.ons.io
@@ -16,10 +41,12 @@ asyncapis:
   slug: nedap-ons-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/security/nedap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nedap-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/security/nedap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nedap-domain-security.yml
@@ -84,74 +111,92 @@ common:
   type: Deprecation
   url: https://ons-api.nl/english/technical/APIS-deprecated.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/packages/nedap-packages.yml
   title: ''
   type: Packages
   url: packages/nedap-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/packages/nedap-packages.yml
   title: ''
   type: SDKs
   url: packages/nedap-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/well-known/nedap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nedap-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/well-known/nedap-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nedap-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/llms/nedap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nedap-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/overlays/nedap-ons-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nedap-ons-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/conformance/nedap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nedap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/errors/nedap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nedap-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/lifecycle/nedap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nedap-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/changelog/nedap-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nedap-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/authentication/nedap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nedap-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/conventions/nedap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nedap-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/sandbox/nedap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nedap-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/data-model/nedap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nedap-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/plans/nedap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nedap-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/rate-limits/nedap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nedap-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nedap/refs/heads/main/asyncapi/nedap-ons-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nedap-ons-webhooks.yml
@@ -180,6 +225,54 @@ rate_limits:
 - limit_count: 3
   name: Nedap Rate Limits
   slug: nedap-rate-limits
+score:
+  band: strong
+  composite: 63.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 54.8
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 97.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
+  previous_composite: 63.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 66.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 security:
 - kind: authentication
   name: Nedap Authentication
@@ -206,6 +299,6 @@ tags:
 - Physical Security
 - Livestock
 - Netherlands
-- Webhooks
+- Webhook
 website: https://www.nedap.com/en
 ---

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -271,90 +296,112 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/pipedream/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/agentic-access/pipedream-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pipedream-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/security/pipedream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pipedream-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/authentication/pipedream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pipedream-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/scopes/pipedream-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pipedream-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-account-audit-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-account-audit-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-app-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-app-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-configure-component-prop-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-configure-component-prop-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-connect-account-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-connect-account-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-deploy-trigger-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-deploy-trigger-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-pause-deployed-trigger-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-pause-deployed-trigger-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-project-environment-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-project-environment-webhook-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-provision-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-provision-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-reload-component-props-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-reload-component-props-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-rotate-trigger-webhook-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-rotate-trigger-webhook-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-run-action-for-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-run-action-for-app-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-set-trigger-webhooks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-set-trigger-webhooks-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-set-trigger-workflows-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-set-trigger-workflows-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-token-validation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-token-validation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-trigger-events-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-trigger-events-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-update-project-settings-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-update-project-settings-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-usage-and-users-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-usage-and-users-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/arazzo/pipedream-user-offboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/pipedream-user-offboarding-workflow.yml
@@ -467,26 +514,32 @@ common:
   type: SamplesRepo
   url: https://github.com/PipedreamHQ/mcp-chat
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/plans/pipedream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pipedream-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/rate-limits/pipedream-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pipedream-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/finops/pipedream-finops.yml
   title: ''
   type: FinOps
   url: finops/pipedream-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/json-ld/pipedream-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/pipedream-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/vocabulary/pipedream-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pipedream-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/rules/pipedream-rules.yml
   title: ''
   type: SpectralRules
   url: rules/pipedream-rules.yml
@@ -1041,6 +1094,38 @@ scopes:
   scope_count: 16
   slug: pipedream-scopes
   summary_line: 16 scopes · clientCredentials
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 70.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 22.4
+    contract_governance: 28.8
+    contract_quality: 76.8
+    developer_ergonomics: 70.2
+    discoverability: 70.4
+    operational_transparency: 55.3
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png
 security:
 - kind: authentication

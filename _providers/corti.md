@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://api.eu.corti.app/v2
@@ -42,6 +67,7 @@ apis:
 artifact_total: 13
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/security/corti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/corti-domain-security.yml
@@ -114,74 +140,92 @@ common:
   type: Compliance
   url: https://corti.ai/safety
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/llms/corti-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/corti-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/well-known/corti-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/corti-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/authentication/corti-authentication.yml
   title: ''
   type: Authentication
   url: authentication/corti-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/scopes/corti-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/corti-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/packages/corti-packages.yml
   title: ''
   type: Packages
   url: packages/corti-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/packages/corti-packages.yml
   title: ''
   type: SDKs
   url: packages/corti-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/conformance/corti-conformance.yml
   title: ''
   type: Conformance
   url: conformance/corti-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/security/corti-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/corti-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/lifecycle/corti-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/corti-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/changelog/corti-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/corti-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/conventions/corti-conventions.yml
   title: ''
   type: Conventions
   url: conventions/corti-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/components/corti-components.yml
   title: ''
   type: Components
   url: components/corti-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/sandbox/corti-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/corti-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/data-model/corti-data-model.yml
   title: ''
   type: DataModel
   url: data-model/corti-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/errors/corti-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/corti-error-codes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/mcp/corti-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/corti-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/asyncapi/corti-transcribe-asyncapi.json
   title: ''
   type: AsyncAPI
   url: asyncapi/corti-transcribe-asyncapi.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/asyncapi/corti-stream-asyncapi.json
   title: ''
   type: AsyncAPI
   url: asyncapi/corti-stream-asyncapi.json
@@ -190,10 +234,12 @@ common:
   type: Webhooks
   url: https://docs.corti.ai/assistant/events
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/skills/corti-realtime-transcription.md
   title: ''
   type: AgentSkill
   url: skills/corti-realtime-transcription.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/skills/corti-ambient-documentation.md
   title: ''
   type: AgentSkill
   url: skills/corti-ambient-documentation.md
@@ -219,6 +265,42 @@ scopes:
   scope_count: 44
   slug: corti-scopes
   summary_line: 44 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 61.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 41.7
+    developer_ergonomics: 73.2
+    discoverability: 81.5
+    operational_transparency: 57.9
+  previous_composite: 61.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/screenshots/corti-2026-07-25T210446.png
 security:
 - kind: authentication

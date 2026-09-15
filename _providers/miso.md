@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -301,38 +326,47 @@ collections:
   slug: open-miso-windsolar-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/overlays/miso-data-exchange-lgi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/miso-data-exchange-lgi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/agentic-access/miso-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/miso-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/security/miso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/miso-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/authentication/miso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/miso-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/conventions/miso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/miso-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/rate-limits/miso-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/miso-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/plans/miso-plans.yml
   title: ''
   type: Plans
   url: plans/miso-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/errors/miso-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/miso-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/lifecycle/miso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/miso-lifecycle.yml
@@ -345,34 +379,42 @@ common:
   type: Roadmap
   url: https://www.misoenergy.org/markets-and-operations/MSE/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/conformance/miso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/miso-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/data-model/miso-data-model.yml
   title: ''
   type: DataModel
   url: data-model/miso-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/packages/miso-packages.yml
   title: ''
   type: Packages
   url: packages/miso-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/sandbox/miso-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/miso-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/mcp/miso-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/miso-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/llms/miso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/miso-llms.txt
@@ -648,6 +690,54 @@ rate_limits:
 - limit_count: 3
   name: Miso Rate Limits
   slug: miso-rate-limits
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 56.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 4.5
+    contract_quality: 33.5
+    developer_ergonomics: 66.1
+    discoverability: 66.7
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 51.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 96.9
+      derived: 16
+      marker_coverage: 53.1
+      total: 32
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 44.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,14 +103,17 @@ common:
   type: License
   url: https://github.com/TonicAI/tonic_validate/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/agentic-access/tonic-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tonic-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/security/tonic-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tonic-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/authentication/tonic-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tonic-ai-authentication.yml
@@ -106,14 +134,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/tonicfakedata
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/plans/tonic-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tonic-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/rate-limits/tonic-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tonic-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/finops/tonic-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/tonic-ai-finops.yml
@@ -146,6 +177,41 @@ rate_limits:
 - limit_count: 2
   name: Tonic Ai Rate Limits
   slug: tonic-ai-rate-limits
+score:
+  band: thin
+  composite: 36.5
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 56.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 50.3
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 36.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/screenshots/tonic-ai-2026-06-20T195451.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: HIPAA-compliant REST API providing cloud access to patient ECG data via KardiaPro — account management, patient provisioning, and webhook notifications for new ECG availability. Access is gated behind
@@ -58,6 +83,7 @@ common:
   type: Compliance
   url: https://alivecor.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/security/alivecor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alivecor-trust-center.yml
@@ -66,38 +92,47 @@ common:
   type: Security
   url: https://alivecor.com/vulnerability-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/security/alivecor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alivecor-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/conformance/alivecor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alivecor-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/security/alivecor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alivecor-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/authentication/alivecor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alivecor-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/conventions/alivecor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alivecor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/asyncapi/alivecor-kardiapro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/alivecor-kardiapro-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/packages/alivecor-packages.yml
   title: ''
   type: Packages
   url: packages/alivecor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/packages/alivecor-packages.yml
   title: ''
   type: SDKs
   url: packages/alivecor-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/llms/alivecor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alivecor-llms.txt
@@ -117,6 +152,46 @@ overview: 'Alivecor publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Alivecor''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 28.5
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 23.8
+    discoverability: 66.7
+    operational_transparency: 10.5
+  previous_composite: 28.5
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 28.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/screenshots/alivecor-2026-07-25T195625.png
 security:
 - kind: authentication

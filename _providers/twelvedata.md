@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 58.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,18 +176,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/twelve-data/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/security/twelvedata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/twelvedata-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/security/twelvedata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/twelvedata-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/agentic-access/twelvedata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/twelvedata-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/authentication/twelvedata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/twelvedata-authentication.yml
@@ -178,14 +208,17 @@ common:
   type: Documentation
   url: https://twelvedata.com/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/plans/twelvedata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/twelvedata-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/rate-limits/twelvedata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/twelvedata-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/finops/twelvedata-finops.yml
   title: ''
   type: FinOps
   url: finops/twelvedata-finops.yml
@@ -198,34 +231,42 @@ common:
   type: Blog
   url: https://twelvedata.com/blog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/packages/twelvedata-packages.yml
   title: ''
   type: Packages
   url: packages/twelvedata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/packages/twelvedata-packages.yml
   title: ''
   type: SDKs
   url: packages/twelvedata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/cli/twelvedata-cli.yml
   title: ''
   type: CLI
   url: cli/twelvedata-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/well-known/twelvedata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/twelvedata-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/mcp/twelvedata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/twelvedata-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/mcp/twelvedata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/twelvedata-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/llms/twelvedata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/twelvedata-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/conformance/twelvedata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/twelvedata-conformance.yml
@@ -234,10 +275,12 @@ common:
   type: Compliance
   url: https://security.twelvedata.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/errors/twelvedata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/twelvedata-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/lifecycle/twelvedata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/twelvedata-lifecycle.yml
@@ -250,26 +293,32 @@ common:
   type: Roadmap
   url: https://roadmap.twelvedata.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/changelog/twelvedata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/twelvedata-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/conventions/twelvedata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/twelvedata-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/sandbox/twelvedata-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/twelvedata-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/components/twelvedata-components.yml
   title: ''
   type: Components
   url: components/twelvedata-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/data-model/twelvedata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/twelvedata-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -349,6 +398,51 @@ rules:
     info: 0
     warn: 7
   slug: twelvedata-asyncapi-spectral-rules
+score:
+  band: exemplar
+  composite: 73.3
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 67.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 15.9
+    contract_quality: 62.3
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 73.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-08-17T130124.png
 security:
 - kind: authentication

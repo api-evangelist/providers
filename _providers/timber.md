@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Vector ships with a local gRPC API that lets you interact with a running Vector instance — inspect component topology, read internal metrics and health, and tap live events flowing through the pipelin
@@ -21,6 +46,7 @@ common:
   type: Website
   url: https://www.vector.dev/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/security/timber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/timber-domain-security.yml
@@ -57,42 +83,52 @@ common:
   type: Download
   url: https://vector.dev/download/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/grpc/timber-observability.proto
   title: ''
   type: Protobuf
   url: grpc/timber-observability.proto
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/cli/timber-cli.yml
   title: ''
   type: CLI
   url: cli/timber-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/authentication/timber-authentication.yml
   title: ''
   type: Authentication
   url: authentication/timber-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/conventions/timber-conventions.yml
   title: ''
   type: Conventions
   url: conventions/timber-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/packages/timber-packages.yml
   title: ''
   type: Packages
   url: packages/timber-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/well-known/timber-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/timber-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/mcp/timber-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/timber-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/conformance/timber-conformance.yml
   title: ''
   type: Conformance
   url: conformance/timber-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/data-model/timber-data-model.yml
   title: ''
   type: DataModel
   url: data-model/timber-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/lifecycle/timber-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/timber-lifecycle.yml
@@ -101,14 +137,17 @@ common:
   type: Deprecation
   url: https://vector.dev/highlights/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/changelog/timber-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/timber-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/llms/timber-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/timber-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/security/timber-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/timber-vulnerability-disclosure.yml
@@ -129,6 +168,35 @@ overview: 'Timber publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Timber''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, CLI, authentication, and 18 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 32.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 32.4
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/screenshots/timber-2026-09-02T163748.png
 security:
 - kind: authentication

@@ -16,6 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/home-depot/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-beacon/refs/heads/main/security/red-beacon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-beacon-domain-security.yml

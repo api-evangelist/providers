@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -951,6 +976,7 @@ collections:
   slug: open-amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/capabilities/amazon-proton-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-proton-capability-edges.yml
@@ -959,22 +985,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-proton/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/agentic-access/amazon-proton-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-proton-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/security/amazon-proton-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-proton-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/security/amazon-proton-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-proton-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/security/amazon-proton-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-proton-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/authentication/amazon-proton-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-proton-authentication.yml
@@ -1019,2146 +1050,2682 @@ common:
   type: StatusPage
   url: https://health.aws.amazon.com/health/status
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/rules/amazon-proton-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-proton-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/vocabulary/amazon-proton-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-proton-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-ld/amazon-proton-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-proton-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-accept-environment-account-connection-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-accept-environment-account-connection-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-accept-environment-account-connection-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-accept-environment-account-connection-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-account-settings-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-account-settings-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-blocker-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-blocker-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-blocker-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-blocker-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-component-deployment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-component-deployment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-component-deployment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-component-deployment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-environment-deployment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-environment-deployment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-environment-deployment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-environment-deployment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-service-instance-deployment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-service-instance-deployment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-service-instance-deployment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-service-instance-deployment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-service-pipeline-deployment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-service-pipeline-deployment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-service-pipeline-deployment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-cancel-service-pipeline-deployment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-compatible-environment-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-compatible-environment-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-compatible-environment-template-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-compatible-environment-template-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-component-deployment-update-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-component-deployment-update-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-component-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-component-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-component-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-component-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-counts-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-counts-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-component-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-component-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-component-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-component-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-account-connection-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-account-connection-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-account-connection-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-account-connection-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-environment-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-repository-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-repository-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-repository-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-repository-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-instance-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-instance-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-instance-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-instance-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-sync-config-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-service-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-template-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-template-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-template-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-create-template-sync-config-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-component-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-component-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-component-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-component-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-account-connection-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-account-connection-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-account-connection-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-account-connection-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-environment-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-repository-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-repository-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-repository-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-repository-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-sync-config-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-service-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-template-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-template-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-template-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-delete-template-sync-config-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-deployment-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-deployment-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-deployment-update-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-deployment-update-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-requester-account-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-account-connection-requester-account-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-account-connection-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-account-connection-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-account-connection-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-template-filter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-template-filter-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-template-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-template-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-template-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-template-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-template-version-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-template-version-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-template-version-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-environment-template-version-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-account-settings-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-account-settings-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-component-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-component-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-component-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-component-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-account-connection-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-account-connection-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-account-connection-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-account-connection-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-environment-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-repository-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-repository-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-repository-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-repository-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-repository-sync-status-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-repository-sync-status-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-repository-sync-status-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-repository-sync-status-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-resources-summary-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-resources-summary-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-instance-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-instance-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-instance-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-instance-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-instance-sync-status-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-instance-sync-status-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-instance-sync-status-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-instance-sync-status-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-sync-blocker-summary-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-sync-blocker-summary-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-sync-blocker-summary-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-sync-blocker-summary-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-sync-config-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-service-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-template-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-template-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-template-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-template-sync-config-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-template-sync-status-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-template-sync-status-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-template-sync-status-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-get-template-sync-status-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-component-outputs-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-component-outputs-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-component-outputs-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-component-outputs-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-component-provisioned-resources-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-component-provisioned-resources-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-component-provisioned-resources-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-component-provisioned-resources-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-components-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-components-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-components-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-components-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-account-connections-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-account-connections-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-account-connections-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-account-connections-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-outputs-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-outputs-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-outputs-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-outputs-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-provisioned-resources-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-provisioned-resources-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-provisioned-resources-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-provisioned-resources-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-template-versions-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-template-versions-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-template-versions-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-template-versions-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-templates-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-templates-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-templates-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environment-templates-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environments-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environments-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environments-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-environments-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-repositories-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-repositories-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-repositories-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-repositories-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-repository-sync-definitions-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-repository-sync-definitions-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-repository-sync-definitions-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-repository-sync-definitions-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instance-outputs-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instance-outputs-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instance-outputs-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instance-outputs-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instance-provisioned-resources-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instance-provisioned-resources-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instance-provisioned-resources-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instance-provisioned-resources-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instances-filter-by-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instances-filter-by-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instances-filter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instances-filter-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instances-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instances-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instances-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instances-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instances-sort-by-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-instances-sort-by-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-pipeline-outputs-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-pipeline-outputs-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-pipeline-outputs-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-pipeline-outputs-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-pipeline-provisioned-resources-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-pipeline-provisioned-resources-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-pipeline-provisioned-resources-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-pipeline-provisioned-resources-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-template-versions-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-template-versions-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-template-versions-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-template-versions-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-templates-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-templates-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-templates-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-service-templates-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-services-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-services-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-services-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-services-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-tags-for-resource-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-tags-for-resource-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-tags-for-resource-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-list-tags-for-resource-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-notify-resource-deployment-status-change-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-notify-resource-deployment-status-change-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-provisioned-resource-engine-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-provisioned-resource-engine-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-provisioned-resource-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-provisioned-resource-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-provisioning-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-provisioning-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-reject-environment-account-connection-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-reject-environment-account-connection-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-reject-environment-account-connection-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-reject-environment-account-connection-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-branch-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-branch-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-branch-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-branch-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-provider-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-provider-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-sync-attempt-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-sync-attempt-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-sync-definition-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-sync-definition-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-sync-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-sync-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-sync-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-repository-sync-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-counts-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-resource-counts-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-deployment-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-resource-deployment-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-sync-attempt-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-resource-sync-attempt-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-sync-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-resource-sync-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-sync-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-resource-sync-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-revision-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-revision-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-s3object-source-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-s3object-source-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-instance-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-instance-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-instance-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-instance-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-pipeline-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-pipeline-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-sync-blocker-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-sync-blocker-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-sync-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-sync-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-template-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-template-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-template-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-template-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-template-supported-component-source-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-template-supported-component-source-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-template-version-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-template-version-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-template-version-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-service-template-version-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-sort-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-sort-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-sync-blocker-context-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-sync-blocker-context-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-sync-blocker-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-sync-blocker-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-sync-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-sync-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-tag-resource-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-tag-resource-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-tag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-tag-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-template-sync-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-template-sync-config-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-template-type-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-template-type-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-template-version-source-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-template-version-source-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-template-version-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-template-version-status-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-untag-resource-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-untag-resource-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-account-settings-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-account-settings-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-account-settings-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-account-settings-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-component-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-component-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-component-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-component-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-account-connection-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-account-connection-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-account-connection-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-account-connection-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-environment-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-instance-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-instance-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-instance-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-instance-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-pipeline-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-pipeline-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-pipeline-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-pipeline-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-sync-blocker-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-sync-blocker-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-sync-blocker-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-sync-blocker-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-sync-config-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-template-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-template-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-template-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-template-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-template-version-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-template-version-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-template-version-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-service-template-version-output-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-template-sync-config-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-template-sync-config-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-template-sync-config-output-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-proton-update-template-sync-config-output-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-accept-environment-account-connection-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-accept-environment-account-connection-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-accept-environment-account-connection-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-accept-environment-account-connection-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-account-settings-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-account-settings-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-blocker-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-blocker-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-blocker-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-blocker-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-component-deployment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-component-deployment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-component-deployment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-component-deployment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-environment-deployment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-environment-deployment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-environment-deployment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-environment-deployment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-service-instance-deployment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-service-instance-deployment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-service-instance-deployment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-service-instance-deployment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-service-pipeline-deployment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-service-pipeline-deployment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-service-pipeline-deployment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-cancel-service-pipeline-deployment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-compatible-environment-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-compatible-environment-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-compatible-environment-template-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-compatible-environment-template-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-component-deployment-update-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-component-deployment-update-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-component-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-component-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-component-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-component-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-counts-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-counts-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-component-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-component-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-component-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-component-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-account-connection-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-account-connection-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-account-connection-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-account-connection-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-environment-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-repository-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-repository-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-repository-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-repository-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-instance-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-instance-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-instance-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-instance-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-sync-config-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-service-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-template-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-template-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-template-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-create-template-sync-config-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-component-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-component-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-component-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-component-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-account-connection-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-account-connection-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-account-connection-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-account-connection-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-environment-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-repository-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-repository-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-repository-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-repository-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-sync-config-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-service-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-template-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-template-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-template-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-delete-template-sync-config-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-deployment-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-deployment-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-deployment-update-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-deployment-update-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-account-connection-requester-account-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-account-connection-requester-account-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-account-connection-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-account-connection-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-account-connection-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-account-connection-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-account-connection-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-account-connection-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-template-filter-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-template-filter-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-template-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-template-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-template-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-template-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-template-version-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-template-version-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-template-version-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-environment-template-version-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-account-settings-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-account-settings-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-component-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-component-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-component-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-component-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-account-connection-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-account-connection-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-account-connection-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-account-connection-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-environment-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-repository-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-repository-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-repository-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-repository-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-repository-sync-status-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-repository-sync-status-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-repository-sync-status-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-repository-sync-status-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-resources-summary-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-resources-summary-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-instance-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-instance-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-instance-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-instance-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-instance-sync-status-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-instance-sync-status-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-instance-sync-status-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-instance-sync-status-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-sync-blocker-summary-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-sync-blocker-summary-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-sync-blocker-summary-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-sync-blocker-summary-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-sync-config-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-service-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-template-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-template-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-template-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-template-sync-config-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-template-sync-status-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-template-sync-status-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-template-sync-status-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-get-template-sync-status-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-component-outputs-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-component-outputs-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-component-outputs-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-component-outputs-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-component-provisioned-resources-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-component-provisioned-resources-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-component-provisioned-resources-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-component-provisioned-resources-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-components-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-components-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-components-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-components-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-account-connections-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-account-connections-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-account-connections-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-account-connections-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-outputs-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-outputs-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-outputs-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-outputs-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-provisioned-resources-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-provisioned-resources-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-provisioned-resources-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-provisioned-resources-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-template-versions-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-template-versions-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-template-versions-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-template-versions-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-templates-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-templates-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-templates-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environment-templates-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environments-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environments-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environments-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-environments-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-repositories-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-repositories-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-repositories-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-repositories-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-repository-sync-definitions-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-repository-sync-definitions-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-repository-sync-definitions-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-repository-sync-definitions-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instance-outputs-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instance-outputs-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instance-outputs-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instance-outputs-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instance-provisioned-resources-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instance-provisioned-resources-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instance-provisioned-resources-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instance-provisioned-resources-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instances-filter-by-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instances-filter-by-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instances-filter-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instances-filter-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instances-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instances-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instances-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instances-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instances-sort-by-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-instances-sort-by-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-pipeline-outputs-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-pipeline-outputs-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-pipeline-outputs-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-pipeline-outputs-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-pipeline-provisioned-resources-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-pipeline-provisioned-resources-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-pipeline-provisioned-resources-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-pipeline-provisioned-resources-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-template-versions-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-template-versions-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-template-versions-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-template-versions-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-templates-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-templates-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-templates-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-service-templates-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-services-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-services-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-services-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-services-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-tags-for-resource-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-tags-for-resource-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-tags-for-resource-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-list-tags-for-resource-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-notify-resource-deployment-status-change-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-notify-resource-deployment-status-change-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-provisioned-resource-engine-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-provisioned-resource-engine-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-provisioned-resource-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-provisioned-resource-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-provisioning-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-provisioning-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-reject-environment-account-connection-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-reject-environment-account-connection-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-reject-environment-account-connection-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-reject-environment-account-connection-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-branch-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-branch-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-branch-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-branch-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-provider-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-provider-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-sync-attempt-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-sync-attempt-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-sync-definition-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-sync-definition-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-sync-event-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-sync-event-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-sync-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-repository-sync-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-resource-counts-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-resource-counts-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-resource-deployment-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-resource-deployment-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-resource-sync-attempt-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-resource-sync-attempt-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-resource-sync-event-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-resource-sync-event-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-resource-sync-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-resource-sync-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-revision-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-revision-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-s3object-source-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-s3object-source-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-instance-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-instance-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-instance-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-instance-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-pipeline-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-pipeline-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-sync-blocker-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-sync-blocker-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-sync-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-sync-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-template-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-template-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-supported-component-source-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-template-supported-component-source-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-version-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-template-version-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-version-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-service-template-version-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-sort-order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-sort-order-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-sync-blocker-context-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-sync-blocker-context-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-sync-blocker-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-sync-blocker-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-sync-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-sync-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-tag-resource-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-tag-resource-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-tag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-tag-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-template-sync-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-template-sync-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-template-type-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-template-type-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-template-version-source-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-template-version-source-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-template-version-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-template-version-status-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-untag-resource-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-untag-resource-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-account-settings-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-account-settings-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-account-settings-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-account-settings-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-component-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-component-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-component-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-component-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-account-connection-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-account-connection-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-account-connection-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-account-connection-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-environment-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-instance-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-instance-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-instance-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-instance-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-pipeline-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-pipeline-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-pipeline-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-pipeline-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-sync-blocker-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-sync-blocker-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-sync-blocker-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-sync-blocker-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-sync-config-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-template-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-template-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-template-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-template-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-template-version-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-template-version-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-template-version-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-service-template-version-output-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-template-sync-config-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-template-sync-config-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-template-sync-config-output-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-proton-update-template-sync-config-output-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-cancel-service-instance-deployment-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-cancel-service-instance-deployment-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-compatible-environment-template-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-compatible-environment-template-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-component-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-component-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-component-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-component-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-environment-account-connection-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-environment-account-connection-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-environment-template-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-environment-template-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-repository-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-repository-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-service-instance-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-service-instance-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-service-sync-config-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-service-sync-config-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-service-sync-config-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-service-sync-config-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-create-template-sync-config-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-create-template-sync-config-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-component-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-component-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-environment-account-connection-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-environment-account-connection-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-environment-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-environment-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-environment-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-environment-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-environment-template-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-environment-template-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-environment-template-version-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-environment-template-version-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-repository-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-repository-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-delete-service-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-delete-service-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-environment-account-connection-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-environment-account-connection-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-environment-template-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-environment-template-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-account-settings-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-account-settings-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-component-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-component-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-environment-template-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-environment-template-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-environment-template-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-environment-template-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-environment-template-version-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-environment-template-version-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-service-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-service-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-service-sync-blocker-summary-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-service-sync-blocker-summary-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-get-service-template-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-get-service-template-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-components-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-components-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-environment-account-connections-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-environment-account-connections-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-environment-outputs-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-environment-outputs-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-environment-provisioned-resources-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-environment-provisioned-resources-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-environment-provisioned-resources-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-environment-provisioned-resources-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-environment-template-versions-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-environment-template-versions-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-repositories-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-repositories-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-repository-sync-definitions-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-repository-sync-definitions-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-repository-sync-definitions-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-repository-sync-definitions-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-instance-outputs-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-instance-outputs-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-instance-provisioned-resources-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-instance-provisioned-resources-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-instance-provisioned-resources-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-instance-provisioned-resources-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-instances-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-instances-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-pipeline-outputs-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-pipeline-outputs-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-pipeline-outputs-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-pipeline-outputs-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-pipeline-provisioned-resources-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-pipeline-provisioned-resources-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-service-template-versions-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-service-template-versions-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-list-services-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-list-services-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-reject-environment-account-connection-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-reject-environment-account-connection-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-reject-environment-account-connection-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-reject-environment-account-connection-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-repository-sync-attempt-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-repository-sync-attempt-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-repository-sync-definition-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-repository-sync-definition-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-resource-counts-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-resource-counts-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-resource-sync-attempt-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-resource-sync-attempt-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-resource-sync-event-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-resource-sync-event-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-service-instance-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-service-instance-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-service-pipeline-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-service-pipeline-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-service-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-service-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-service-sync-config-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-service-sync-config-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-service-template-version-summary-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-service-template-version-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-sync-blocker-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-sync-blocker-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-tag-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-tag-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-untag-resource-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-untag-resource-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-component-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-component-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-component-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-component-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-environment-account-connection-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-environment-account-connection-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-environment-template-version-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-environment-template-version-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-service-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-service-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-service-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-service-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-service-sync-blocker-output-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-service-sync-blocker-output-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-service-sync-config-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-service-sync-config-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-service-template-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-service-template-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/examples/amazon-proton-update-service-template-version-input-example.json
   title: ''
   type: Examples
   url: examples/amazon-proton-update-service-template-version-input-example.json
@@ -4836,6 +5403,38 @@ rules:
     info: 1
     warn: 9
   slug: amazon-proton-spectral-rules
+score:
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 53.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 68.7
+    developer_ergonomics: 58.3
+    discoverability: 44.4
+    operational_transparency: 26.3
+  previous_composite: 53.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 84
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/screenshots/amazon-proton-2026-06-20T171801.png
 security:
 - kind: authentication

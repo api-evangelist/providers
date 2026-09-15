@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://{oxide-control-plane-host}
@@ -170,10 +195,12 @@ asyncapis:
   slug: oxide-computer-alerts-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/capabilities/oxide-computer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oxide-computer-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/overlays/oxide-computer-region-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oxide-computer-region-api-overlay.yaml
@@ -214,6 +241,7 @@ common:
   type: PrivacyPolicy
   url: https://oxide.computer/privacy-policy
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/changelog/oxide-computer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oxide-computer-changelog.yml
@@ -222,70 +250,87 @@ common:
   type: ReleaseNotes
   url: https://docs.oxide.computer/release-notes/system
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/lifecycle/oxide-computer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oxide-computer-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/packages/oxide-computer-packages.yml
   title: ''
   type: Packages
   url: packages/oxide-computer-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/packages/oxide-computer-packages.yml
   title: ''
   type: SDKs
   url: packages/oxide-computer-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/cli/oxide-computer-cli.yml
   title: ''
   type: CLI
   url: cli/oxide-computer-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/llms/oxide-computer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oxide-computer-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/well-known/oxide-computer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/oxide-computer-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/well-known/oxide-computer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/oxide-computer-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/security/oxide-computer-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/oxide-computer-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/security/oxide-computer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oxide-computer-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/security/oxide-computer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oxide-computer-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/conformance/oxide-computer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oxide-computer-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/conventions/oxide-computer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oxide-computer-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/data-model/oxide-computer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oxide-computer-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/plans/oxide-computer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oxide-computer-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/rate-limits/oxide-computer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oxide-computer-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/asyncapi/oxide-computer-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/oxide-computer-alerts-webhooks.yml
@@ -314,6 +359,40 @@ rate_limits:
 - limit_count: 0
   name: Oxide Computer Rate Limits
   slug: oxide-computer-rate-limits
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 51.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 45.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/screenshots/oxide-computer-2026-09-02T150902.png
 security:
 - kind: authentication

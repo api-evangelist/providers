@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ThunderCore mainnet (chain ID 108, TT gas token). Supports the standard eth_/net_/web3_ method surface over HTTPS, with WebSocket endpoints for subscriptio
@@ -30,6 +55,7 @@ asyncapis:
   slug: thundercore-ws-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/security/thundercore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thundercore-domain-security.yml
@@ -82,50 +108,62 @@ common:
   type: Whitepaper
   url: https://docs.thundercore.com/thunder-whitepaper.pdf
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/packages/thundercore-packages.yml
   title: ''
   type: Packages
   url: packages/thundercore-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/packages/thundercore-packages.yml
   title: ''
   type: SDKs
   url: packages/thundercore-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/mcp/thundercore-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/thundercore-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/llms/thundercore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thundercore-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/conformance/thundercore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thundercore-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/errors/thundercore-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thundercore-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/lifecycle/thundercore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thundercore-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/authentication/thundercore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thundercore-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/sandbox/thundercore-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thundercore-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/conventions/thundercore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thundercore-conventions.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/asyncapi/thundercore-ws-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/thundercore-ws-asyncapi.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/rate-limits/thundercore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thundercore-rate-limits.yml
@@ -149,6 +187,35 @@ rate_limits:
 - limit_count: 4
   name: Thundercore Rate Limits
   slug: thundercore-rate-limits
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 76.2
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 40.9
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/screenshots/thundercore-2026-08-17T082355.png
 security:
 - kind: authentication

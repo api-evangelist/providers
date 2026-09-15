@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,22 +83,27 @@ common:
   type: License
   url: https://github.com/rybbit-io/rybbit/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/agentic-access/rybbit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rybbit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/security/rybbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rybbit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/security/rybbit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rybbit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/security/rybbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rybbit-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/authentication/rybbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rybbit-authentication.yml
@@ -97,54 +128,67 @@ common:
   type: Documentation
   url: https://rybbit.com/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/plans/rybbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rybbit-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/rate-limits/rybbit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rybbit-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/finops/rybbit-finops.yml
   title: ''
   type: FinOps
   url: finops/rybbit-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/well-known/rybbit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rybbit-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/well-known/rybbit-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/rybbit-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/mcp/rybbit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rybbit-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/mcp/rybbit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rybbit-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/llms/rybbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rybbit-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/scopes/rybbit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rybbit-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/conventions/rybbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rybbit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/errors/rybbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rybbit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/lifecycle/rybbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rybbit-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/changelog/rybbit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rybbit-changelog.yml
@@ -153,14 +197,17 @@ common:
   type: ChangeLog
   url: https://github.com/rybbit-io/rybbit/releases
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/packages/rybbit-packages.yml
   title: ''
   type: Packages
   url: packages/rybbit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/packages/rybbit-packages.yml
   title: ''
   type: SDKs
   url: packages/rybbit-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/conformance/rybbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rybbit-conformance.yml
@@ -173,30 +220,37 @@ common:
   type: Security
   url: https://rybbit.com/security
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/sandbox/rybbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rybbit-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/components/rybbit-components.yml
   title: ''
   type: Components
   url: components/rybbit-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/data-model/rybbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rybbit-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/overlays/rybbit-analytics-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rybbit-analytics-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/overlays/rybbit-sessions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rybbit-sessions-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/overlays/rybbit-event-tracking-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rybbit-event-tracking-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -278,6 +332,41 @@ scopes:
   scope_count: 29
   slug: rybbit-scopes
   summary_line: 29 scopes · authorizationCode
+score:
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 53.5
+    developer_ergonomics: 74.4
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/screenshots/rybbit-2026-08-17T080417.png
 security:
 - kind: authentication

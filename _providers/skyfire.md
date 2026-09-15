@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for AI-agent identity and payments. Buyer agents create kya, pay, and kya-pay tokens; seller agents introspect and charge tokens and manage seller services; enterprises manage users. Authenti
@@ -67,62 +92,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/skyfire-xyz
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/authentication/skyfire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skyfire-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/mcp/skyfire-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/skyfire-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/llms/skyfire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skyfire-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/packages/skyfire-packages.yml
   title: ''
   type: Packages
   url: packages/skyfire-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/packages/skyfire-packages.yml
   title: ''
   type: SDKs
   url: packages/skyfire-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/well-known/skyfire-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skyfire-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/errors/skyfire-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/skyfire-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/conformance/skyfire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skyfire-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/lifecycle/skyfire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skyfire-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/conventions/skyfire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skyfire-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/sandbox/skyfire-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/skyfire-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/components/skyfire-components.yml
   title: ''
   type: Components
   url: components/skyfire-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/data-model/skyfire-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skyfire-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/security/skyfire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyfire-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/skills/skyfire-skyfire.md
   title: ''
   type: AgentSkill
   url: skills/skyfire-skyfire.md
@@ -143,6 +183,42 @@ overview: 'Skyfire publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
   Skyfire''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 20 more developer resources.'
 random_paper: 9
+score:
+  band: thin
+  composite: 27.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 27.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/screenshots/skyfire-2026-09-02T155756.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - https://app.moogsoft.ai/ (302 to Auth0 sign-in, no registration)
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.2
+  scored_at: '2026-09-14'
 api_count: 17
 apis:
 - baseURL: https://api.moogsoft.ai
@@ -157,94 +182,117 @@ common:
   type: StatusPage
   url: https://status.moogsoft.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/authentication/moogsoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moogsoft-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/conventions/moogsoft-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moogsoft-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/errors/moogsoft-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moogsoft-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/lifecycle/moogsoft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moogsoft-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/lifecycle/moogsoft-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/moogsoft-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/changelog/moogsoft-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moogsoft-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/conformance/moogsoft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moogsoft-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/security/moogsoft-trust-center.yml
   title: ''
   type: Compliance
   url: security/moogsoft-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/security/moogsoft-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/moogsoft-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/security/moogsoft-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/moogsoft-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/security/moogsoft-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/moogsoft-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/security/moogsoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moogsoft-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/data-model/moogsoft-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moogsoft-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/packages/moogsoft-packages.yml
   title: ''
   type: Packages
   url: packages/moogsoft-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/packages/moogsoft-packages.yml
   title: ''
   type: SDKs
   url: packages/moogsoft-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/mcp/moogsoft-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moogsoft-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/llms/moogsoft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moogsoft-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/asyncapi/moogsoft-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moogsoft-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/sandbox/moogsoft-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moogsoft-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/rate-limits/moogsoft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moogsoft-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/plans/moogsoft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moogsoft-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/finops/moogsoft-finops.yml
   title: ''
   type: FinOps
   url: finops/moogsoft-finops.yml
@@ -277,6 +325,40 @@ rate_limits:
 - limit_count: 0
   name: Moogsoft Rate Limits
   slug: moogsoft-rate-limits
+score:
+  band: strong
+  composite: 61.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 18.2
+    contract_quality: 66.9
+    developer_ergonomics: 73.2
+    discoverability: 74.1
+    operational_transparency: 60.5
+  previous_composite: 61.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/screenshots/moogsoft-2026-06-20T185754.png
 security:
 - kind: authentication

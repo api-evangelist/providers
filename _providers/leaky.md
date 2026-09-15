@@ -16,10 +16,12 @@ common:
   type: Website
   url: https://leaky.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leaky/refs/heads/main/security/leaky-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leaky-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leaky/refs/heads/main/llms/leaky-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leaky-llms.txt

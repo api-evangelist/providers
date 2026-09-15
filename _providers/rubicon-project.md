@@ -10,6 +10,31 @@ access_model:
   - https://springserve.atlassian.net/wiki/spaces/SSD/pages/1573617663/API+-+Getting+Started
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 1
@@ -417,18 +442,22 @@ collections:
   slug: open-rubicon-project-springserve-v1
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/capabilities/rubicon-project-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rubicon-project-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/overlays/rubicon-project-springserve-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rubicon-project-springserve-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/overlays/rubicon-project-springserve-v0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rubicon-project-springserve-v0-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/agentic-access/rubicon-project-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rubicon-project-agentic-access.yml
@@ -469,6 +498,7 @@ common:
   type: Login
   url: https://console.springserve.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/security/rubicon-project-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rubicon-project-trust-center.yml
@@ -485,62 +515,77 @@ common:
   type: Legal
   url: https://www.magnite.com/legal/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/security/rubicon-project-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rubicon-project-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/llms/rubicon-project-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rubicon-project-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/packages/rubicon-project-packages.yml
   title: ''
   type: Packages
   url: packages/rubicon-project-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/packages/rubicon-project-packages.yml
   title: ''
   type: SDKs
   url: packages/rubicon-project-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/authentication/rubicon-project-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rubicon-project-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/conventions/rubicon-project-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rubicon-project-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/rate-limits/rubicon-project-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rubicon-project-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/plans/rubicon-project-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rubicon-project-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/errors/rubicon-project-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rubicon-project-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/lifecycle/rubicon-project-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rubicon-project-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/conformance/rubicon-project-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rubicon-project-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/data-model/rubicon-project-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rubicon-project-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/mcp/rubicon-project-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rubicon-project-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/examples/rubicon-project-request-examples.yml
   title: ''
   type: Examples
   url: examples/rubicon-project-request-examples.yml
@@ -570,6 +615,46 @@ rate_limits:
 - limit_count: 3
   name: Rubicon Project Rate Limits
   slug: rubicon-project-rate-limits
+score:
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 4.5
+    contract_quality: 58.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 46.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 95.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 81
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/screenshots/rubicon-project-2026-08-17T081658.png
 security:
 - kind: authentication

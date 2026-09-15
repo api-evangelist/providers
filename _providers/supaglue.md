@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -373,38 +398,47 @@ common:
   type: License
   url: https://github.com/supaglue-labs/supaglue/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/capabilities/supaglue-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/supaglue-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/agentic-access/supaglue-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/supaglue-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/authentication/supaglue-authentication.yml
   title: ''
   type: Authentication
   url: authentication/supaglue-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/conventions/supaglue-conventions.yml
   title: ''
   type: Conventions
   url: conventions/supaglue-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/errors/supaglue-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/supaglue-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/data-model/supaglue-data-model.yml
   title: ''
   type: DataModel
   url: data-model/supaglue-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/lifecycle/supaglue-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/supaglue-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/changelog/supaglue-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/supaglue-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/conformance/supaglue-conformance.yml
   title: ''
   type: Conformance
   url: conformance/supaglue-conformance.yml
@@ -413,30 +447,37 @@ common:
   type: Compliance
   url: https://github.com/supaglue-labs/supaglue/blob/main/docs/docs/security_legal/security.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/components/supaglue-components.yml
   title: ''
   type: Components
   url: components/supaglue-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/packages/supaglue-packages.yml
   title: ''
   type: Packages
   url: packages/supaglue-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/asyncapi/supaglue-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/supaglue-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/llms/supaglue-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/supaglue-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/security/supaglue-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/supaglue-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/security/supaglue-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/supaglue-vulnerability-disclosure.yml
@@ -445,50 +486,62 @@ common:
   type: Security
   url: https://github.com/supaglue-labs/supaglue/blob/main/SECURITY.md
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/rate-limits/supaglue-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/supaglue-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/plans/supaglue-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/supaglue-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/finops/supaglue-finops.yml
   title: ''
   type: FinOps
   url: finops/supaglue-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-actions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-actions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-crm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-crm-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-engagement-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-engagement-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-enrichment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-enrichment-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-marketing-automation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-marketing-automation-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-metadata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-metadata-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/overlays/supaglue-ticketing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/supaglue-ticketing-overlay.yaml
@@ -604,6 +657,41 @@ rules:
     info: 6
     warn: 4
   slug: supaglue-rules
+score:
+  band: strong
+  composite: 56.4
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 63.5
+    catalog_earned_first_party: 8.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 31.8
+    contract_quality: 68.2
+    developer_ergonomics: 42.3
+    discoverability: 74.1
+    operational_transparency: 42.1
+  previous_composite: 56.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 41
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png
 security:
 - kind: authentication

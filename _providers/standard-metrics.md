@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -137,6 +162,7 @@ collections:
   slug: open-standard-metrics-whoami-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/overlays/standard-metrics-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/standard-metrics-auth-overlay.yaml
@@ -185,50 +211,62 @@ common:
   type: ChangeLog
   url: https://docs.standardmetrics.io/changelog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/authentication/standard-metrics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/standard-metrics-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/scopes/standard-metrics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/standard-metrics-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/mcp/standard-metrics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/standard-metrics-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/llms/standard-metrics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/standard-metrics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/well-known/standard-metrics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/standard-metrics-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/errors/standard-metrics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/standard-metrics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/lifecycle/standard-metrics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/standard-metrics-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/lifecycle/standard-metrics-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/standard-metrics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/conventions/standard-metrics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/standard-metrics-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/rate-limits/standard-metrics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/standard-metrics-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/changelog/standard-metrics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/standard-metrics-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/conformance/standard-metrics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/standard-metrics-conformance.yml
@@ -237,22 +275,27 @@ common:
   type: Compliance
   url: https://standardmetrics.io/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/data-model/standard-metrics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/standard-metrics-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/agentic-access/standard-metrics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/standard-metrics-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/security/standard-metrics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/standard-metrics-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/security/standard-metrics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/standard-metrics-domain-security.yml
@@ -282,6 +325,41 @@ scopes:
   scope_count: 3
   slug: standard-metrics-scopes
   summary_line: 3 scopes
+score:
+  band: strong
+  composite: 56.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 52.2
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 44.7
+  previous_composite: 56.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/screenshots/standard-metrics-2026-08-17T082103.png
 security:
 - kind: authentication

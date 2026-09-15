@@ -13,6 +13,31 @@ access_model:
   - '{''url'': ''https://polygon.io/'', ''status'': 301, ''note'': ''declared website redirects to https://massive.com/ — a different registrable domain (polygon.io -> massive.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 63.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -530,78 +555,97 @@ collections:
   slug: open-polygon-tickers-api
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/polygon-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/overlays/polygon-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/polygon-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/mcp/polygon-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/polygon-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/mcp/polygon-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/polygon-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/llms/polygon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/polygon-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/well-known/polygon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/polygon-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/packages/polygon-packages.yml
   title: ''
   type: Packages
   url: packages/polygon-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/conformance/polygon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/polygon-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/errors/polygon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/polygon-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/lifecycle/polygon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/polygon-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/changelog/polygon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/polygon-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/conventions/polygon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/polygon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/conventions/polygon-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/polygon-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/data-model/polygon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/polygon-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/scopes/polygon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/polygon-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/agentic-access/polygon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/polygon-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/security/polygon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polygon-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/authentication/polygon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polygon-authentication.yml
@@ -610,50 +654,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/polygon/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-corporate-actions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-corporate-actions-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-crypto-daily-comparison-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-crypto-daily-comparison-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-crypto-pair-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-crypto-pair-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-forex-pair-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-forex-pair-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-grouped-market-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-grouped-market-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-index-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-index-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-market-gated-stock-daily-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-market-gated-stock-daily-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-options-chain-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-options-chain-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-options-contract-deep-dive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-options-contract-deep-dive-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-stock-research-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-stock-research-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-ticker-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-ticker-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/arazzo/polygon-ticker-news-context-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/polygon-ticker-news-context-workflow.yml
@@ -738,26 +794,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/polygon-io
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/plans/polygon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/polygon-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/rate-limits/polygon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/polygon-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/finops/polygon-finops.yml
   title: ''
   type: FinOps
   url: finops/polygon-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/rules/polygon-rules.yml
   title: ''
   type: SpectralRules
   url: rules/polygon-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/vocabulary/polygon-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/polygon-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/json-ld/polygon-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/polygon-context.jsonld
@@ -898,6 +960,48 @@ scopes:
   scope_count: 6
   slug: polygon-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 68.3
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 94.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 33.3
+    contract_quality: 72.5
+    developer_ergonomics: 53.0
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 68.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 70
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 68.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:
 - kind: authentication

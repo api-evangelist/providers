@@ -16,10 +16,12 @@ common:
   type: Website
   url: https://letitrain.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/letitrain/refs/heads/main/security/letitrain-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/letitrain-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/letitrain/refs/heads/main/lifecycle/letitrain-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/letitrain-lifecycle.yml

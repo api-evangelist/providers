@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,10 +87,12 @@ collections:
   slug: open-gumgum-contextual-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/overlays/gumgum-contextual-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gumgum-contextual-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/mcp/gumgum-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gumgum-mcp.yml
@@ -134,10 +161,12 @@ common:
   type: StatusPage
   url: https://status.contextual.gumgum.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/changelog/gumgum-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gumgum-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/asyncapi/gumgum-contextual-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gumgum-contextual-webhooks.yml
@@ -146,54 +175,67 @@ common:
   type: Compliance
   url: https://gumgum.com/accreditation
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/llms/gumgum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gumgum-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/authentication/gumgum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gumgum-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/conventions/gumgum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gumgum-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/errors/gumgum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gumgum-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/lifecycle/gumgum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gumgum-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/conformance/gumgum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gumgum-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/data-model/gumgum-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gumgum-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/packages/gumgum-packages.yml
   title: ''
   type: Packages
   url: packages/gumgum-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/components/gumgum-components.yml
   title: ''
   type: Components
   url: components/gumgum-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/security/gumgum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gumgum-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/agentic-access/gumgum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gumgum-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/arazzo/gumgum-classify-video.yml
   title: ''
   type: Arazzo
   url: arazzo/gumgum-classify-video.yml
@@ -214,6 +256,49 @@ overview: 'GumGum publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
   GumGum''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 27 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 40.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 22.6
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 40.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/screenshots/gumgum-2026-08-07T165907.png
 security:
 - kind: authentication

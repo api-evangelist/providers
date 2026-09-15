@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -307,10 +332,12 @@ common:
   type: Website
   url: https://www.brightedge.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/capabilities/brightedge-technologies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brightedge-technologies-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/overlays/brightedge-technologies-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brightedge-technologies-platform-overlay.yaml
@@ -347,50 +374,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/brightedge
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/agentic-access/brightedge-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brightedge-technologies-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/authentication/brightedge-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brightedge-technologies-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/conventions/brightedge-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brightedge-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/errors/brightedge-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brightedge-technologies-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/lifecycle/brightedge-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brightedge-technologies-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/mcp/brightedge-technologies-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brightedge-technologies-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/conformance/brightedge-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brightedge-technologies-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/data-model/brightedge-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brightedge-technologies-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/llms/brightedge-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brightedge-technologies-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/well-known/brightedge-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brightedge-technologies-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/security/brightedge-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brightedge-technologies-domain-security.yml
@@ -407,6 +446,41 @@ overview: 'BrightEdge Technologies publishes 29 APIs on the [APIs.io](https://ap
 
   BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 35.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 46.9
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 35.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/screenshots/brightedge-technologies-2026-07-25T203841.png
 security:
 - kind: authentication

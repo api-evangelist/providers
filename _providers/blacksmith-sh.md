@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.blacksmith.sh
@@ -43,18 +68,22 @@ collections:
   slug: open-blacksmith-sh
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/security/blacksmith-sh-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blacksmith-sh-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/security/blacksmith-sh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blacksmith-sh-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/authentication/blacksmith-sh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blacksmith-sh-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/scopes/blacksmith-sh-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blacksmith-sh-scopes.yml
@@ -83,14 +112,17 @@ common:
   type: Status
   url: https://status.blacksmith.sh
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/plans/blacksmith-sh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blacksmith-sh-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/rate-limits/blacksmith-sh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blacksmith-sh-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/finops/blacksmith-sh-finops.yml
   title: ''
   type: FinOps
   url: finops/blacksmith-sh-finops.yml
@@ -128,6 +160,32 @@ scopes:
   scope_count: 0
   slug: blacksmith-sh-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 0.0
+    contract_quality: 27.9
+    developer_ergonomics: 31.0
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 34.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/screenshots/blacksmith-sh-2026-06-20T173338.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -295,10 +320,12 @@ collections:
   slug: open-vicai-webhook-subscriptions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/capabilities/vicai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vicai-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/overlays/vicai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vicai-overlay.yaml
@@ -351,62 +378,77 @@ common:
   type: Compliance
   url: https://www.vic.ai/trust-and-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/security/vicai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vicai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/security/vicai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vicai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/authentication/vicai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vicai-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/agentic-access/vicai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vicai-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/conventions/vicai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vicai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/lifecycle/vicai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vicai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/changelog/vicai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vicai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/asyncapi/vicai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vicai-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/errors/vicai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vicai-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/conformance/vicai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vicai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/data-model/vicai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vicai-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/rate-limits/vicai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vicai-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/mcp/vicai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vicai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/llms/vicai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vicai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -434,6 +476,47 @@ rate_limits:
 - limit_count: 1
   name: Vicai Rate Limits
   slug: vicai-rate-limits
+score:
+  band: strong
+  composite: 59.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 32.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 66.0
+    developer_ergonomics: 58.9
+    discoverability: 51.9
+    operational_transparency: 47.4
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png
 security:
 - kind: authentication

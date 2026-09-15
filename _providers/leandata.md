@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -106,14 +132,17 @@ collections:
   slug: open-leandata-scheduling-inputs-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leandata-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/agentic-access/leandata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leandata-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leandata-domain-security.yml
@@ -150,14 +179,17 @@ common:
   type: Pricing
   url: https://www.leandata.com/pricing/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/plans/leandata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leandata-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/rate-limits/leandata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leandata-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/finops/leandata-finops.yml
   title: ''
   type: FinOps
   url: finops/leandata-finops.yml
@@ -226,6 +258,7 @@ common:
   type: TrustCenter
   url: https://trust.leandata.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leandata-trust-center.yml
@@ -254,6 +287,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/leandata
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/authentication/leandata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leandata-authentication.yml
@@ -286,38 +320,47 @@ common:
   type: SignUp
   url: https://www.leandata.com/demo-request/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/mcp/leandata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/leandata-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/mcp/leandata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/leandata-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/well-known/leandata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leandata-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/llms/leandata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leandata-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/scopes/leandata-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/leandata-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/conventions/leandata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leandata-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/errors/leandata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leandata-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/data-model/leandata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leandata-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/lifecycle/leandata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leandata-lifecycle.yml
@@ -326,10 +369,12 @@ common:
   type: StatusPage
   url: https://status.leandata.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/changelog/leandata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leandata-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/conformance/leandata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leandata-conformance.yml
@@ -338,6 +383,7 @@ common:
   type: Compliance
   url: https://trust.leandata.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/security/leandata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/leandata-vulnerability-disclosure.yml
@@ -346,18 +392,22 @@ common:
   type: Security
   url: https://trust.leandata.com/?itemUid=64c9680b-ef79-4c92-baa0-13b541954bef
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/packages/leandata-packages.yml
   title: ''
   type: Packages
   url: packages/leandata-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/components/leandata-components.yml
   title: ''
   type: Components
   url: components/leandata-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/overlays/leandata-availability-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/leandata-availability-overlay.yaml
@@ -397,6 +447,41 @@ scopes:
   scope_count: 4
   slug: leandata-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 57.9
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 63.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 44.7
+    developer_ergonomics: 61.3
+    discoverability: 81.5
+    operational_transparency: 50.0
+  previous_composite: 57.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/screenshots/leandata-2026-06-20T184358.png
 security:
 - kind: authentication

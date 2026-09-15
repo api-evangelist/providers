@@ -32,14 +32,17 @@ common:
   type: SourceCode
   url: https://github.com/beme/abide
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/packages/beme-packages.yml
   title: ''
   type: Packages
   url: packages/beme-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/lifecycle/beme-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beme-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/llms/beme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beme-llms.txt

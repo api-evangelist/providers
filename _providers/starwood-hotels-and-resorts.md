@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,10 +83,12 @@ collections:
   slug: open-starwood-hotels-and-resorts-properties-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/agentic-access/starwood-hotels-and-resorts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/starwood-hotels-and-resorts-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/security/starwood-hotels-and-resorts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/starwood-hotels-and-resorts-domain-security.yml
@@ -98,26 +125,32 @@ common:
   type: PrivacyPolicy
   url: https://www.starwoodhotels.com/corporate/privacy.html
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/_original/starwood-hotel-search-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/starwood-hotel-search-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/json-schema/starwood-hotel-search-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/starwood-hotel-search-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/json-structure/starwood-hotel-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/starwood-hotel-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/json-ld/starwood-hotels-and-resorts-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/starwood-hotels-and-resorts-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/vocabulary/starwood-hotels-and-resorts-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/starwood-hotels-and-resorts-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/rules/starwood-hotels-and-resorts-rules.yml
   title: ''
   type: SpectralRules
   url: rules/starwood-hotels-and-resorts-rules.yml
@@ -203,6 +236,42 @@ rules:
     info: 0
     warn: 9
   slug: starwood-hotels-and-resorts-rules
+score:
+  band: thin
+  composite: 27.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 48.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 28.8
+    contract_quality: 56.5
+    developer_ergonomics: 19.0
+    discoverability: 53.7
+    operational_transparency: 5.3
+  previous_composite: 27.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+  regulatory:
+    note: provider declares no identity tags; regime could not be determined
+    undetermined: true
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:
 - kind: domain-security

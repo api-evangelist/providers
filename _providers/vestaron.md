@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -170,70 +195,87 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/vestaron_stock/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/openapi/_original/vestaron-content-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/vestaron-content-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/overlays/vestaron-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vestaron-content-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/mcp/vestaron-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vestaron-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/mcp/vestaron-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/vestaron-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/authentication/vestaron-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vestaron-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/scopes/vestaron-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vestaron-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/well-known/vestaron-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vestaron-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/conventions/vestaron-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vestaron-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/conformance/vestaron-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vestaron-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/errors/vestaron-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vestaron-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/examples/vestaron-examples.yml
   title: ''
   type: Examples
   url: examples/vestaron-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/data-model/vestaron-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vestaron-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/lifecycle/vestaron-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vestaron-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/security/vestaron-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vestaron-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/agentic-access/vestaron-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vestaron-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/llms/vestaron-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vestaron-llms.txt
@@ -260,6 +302,52 @@ scopes:
   scope_count: 1
   slug: vestaron-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 26.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 19.6
+    developer_ergonomics: 18.5
+    discoverability: 74.1
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 26.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 10
+      marker_coverage: 100.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/screenshots/vestaron-2026-09-02T165821.png
 security:
 - kind: authentication

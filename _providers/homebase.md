@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Homebase REST API provides programmatic access to employee scheduling, time tracking, payroll synchronization, and team management features. Authenticated via API key, it enables third-party devel
@@ -17,14 +42,17 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/homebase-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/homebase-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/homebase-domain-security.yml
@@ -61,22 +89,27 @@ common:
   type: Support
   url: https://support.joinhomebase.com/s/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/plans/homebase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/homebase-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/rate-limits/homebase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/homebase-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/finops/homebase-finops.yml
   title: ''
   type: FinOps
   url: finops/homebase-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/json-ld/homebase-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/homebase-context.jsonld
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
@@ -113,6 +146,37 @@ rate_limits:
 - limit_count: 2
   name: Homebase Rate Limits
   slug: homebase-rate-limits
+score:
+  band: thin
+  composite: 31.6
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 68.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 47.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 0.0
+    contract_quality: 10.7
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 31.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/screenshots/homebase-2026-06-20T182820.png
 security:
 - kind: domain-security

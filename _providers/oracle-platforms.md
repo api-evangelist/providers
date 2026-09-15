@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 45.0
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: REST API for Oracle Fusion Cloud ERP providing access to financial management, procurement, and project management capabilities.
@@ -69,70 +94,87 @@ asyncapis:
   slug: oracle-platforms-events
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/capabilities/oracle-platforms-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oracle-platforms-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/overlays/oracle-platforms-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-platforms-core-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/overlays/oracle-platforms-database-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-platforms-database-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/overlays/oracle-platforms-integration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-platforms-integration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/overlays/oracle-platforms-content-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-platforms-content-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/overlays/oracle-platforms-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-platforms-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/overlays/oracle-platforms-data-science-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-platforms-data-science-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/security/oracle-platforms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-platforms-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/packages/oracle-platforms-packages.yml
   title: ''
   type: Packages
   url: packages/oracle-platforms-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/packages/oracle-platforms-packages.yml
   title: ''
   type: SDKs
   url: packages/oracle-platforms-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/mcp/oracle-platforms-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/oracle-platforms-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/mcp/oracle-platforms-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/oracle-platforms-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/llms/oracle-platforms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oracle-platforms-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/conformance/oracle-platforms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oracle-platforms-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/security/oracle-platforms-trust-center.yml
   title: ''
   type: Compliance
   url: security/oracle-platforms-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/errors/oracle-platforms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oracle-platforms-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/lifecycle/oracle-platforms-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oracle-platforms-lifecycle.yml
@@ -145,58 +187,72 @@ common:
   type: Deprecation
   url: https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/authentication/oracle-platforms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-platforms-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/security/oracle-platforms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oracle-platforms-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/security/oracle-platforms-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/oracle-platforms-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/security/oracle-platforms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oracle-platforms-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/sandbox/oracle-platforms-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/oracle-platforms-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/conventions/oracle-platforms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oracle-platforms-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/conventions/oracle-platforms-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/oracle-platforms-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/changelog/oracle-platforms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oracle-platforms-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/cli/oracle-platforms-cli.yml
   title: ''
   type: CLI
   url: cli/oracle-platforms-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/data-model/oracle-platforms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oracle-platforms-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/asyncapi/oracle-platforms-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/oracle-platforms-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/rate-limits/oracle-platforms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-platforms-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/plans/oracle-platforms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-platforms-plans-pricing.yml
@@ -272,6 +328,40 @@ rate_limits:
 - limit_count: 13
   name: Oracle Platforms Rate Limits
   slug: oracle-platforms-rate-limits
+score:
+  band: exemplar
+  composite: 69.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 4.5
+    contract_quality: 61.5
+    developer_ergonomics: 87.5
+    discoverability: 74.1
+    operational_transparency: 92.1
+  previous_composite: 69.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/screenshots/oracle-platforms-2026-06-20T191139.png
 security:
 - kind: authentication

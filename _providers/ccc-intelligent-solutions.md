@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'CCC''s only publicly named API product. Secure Share is described by CCC as "a network using cloud-based APIs to permit more than 22,000 collision repairers to connect to apps using the CIECA BMS data '
@@ -101,50 +126,62 @@ common:
   type: Login
   url: https://connect.cccis.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/llms/ccc-intelligent-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ccc-intelligent-solutions-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/well-known/ccc-intelligent-solutions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ccc-intelligent-solutions-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/authentication/ccc-intelligent-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ccc-intelligent-solutions-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/scopes/ccc-intelligent-solutions-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ccc-intelligent-solutions-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/conformance/ccc-intelligent-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ccc-intelligent-solutions-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/errors/ccc-intelligent-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ccc-intelligent-solutions-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/lifecycle/ccc-intelligent-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ccc-intelligent-solutions-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/conventions/ccc-intelligent-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ccc-intelligent-solutions-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/packages/ccc-intelligent-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/ccc-intelligent-solutions-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/security/ccc-intelligent-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ccc-intelligent-solutions-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/security/ccc-intelligent-solutions-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ccc-intelligent-solutions-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/security/ccc-intelligent-solutions-security-policy.yml
   title: ''
   type: Security
   url: security/ccc-intelligent-solutions-security-policy.yml
@@ -167,6 +204,47 @@ scopes:
   scope_count: 9
   slug: ccc-intelligent-solutions-scopes
   summary_line: 9 scopes · authorizationCode/implicit/deviceCode/clientCredentials
+score:
+  band: thin
+  composite: 33.8
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 81.5
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 33.8
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 71.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccc-intelligent-solutions/refs/heads/main/screenshots/ccc-intelligent-solutions-2026-07-25T204826.png
 security:
 - kind: authentication

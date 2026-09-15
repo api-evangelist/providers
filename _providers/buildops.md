@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The BuildOps Public API, named by the BuildOps Dev Center as the REST + webhook-callback integration surface for customers, software partners and vendors. The Dev Center gates its reference behind "In
@@ -56,6 +81,7 @@ common:
   type: PrivacyPolicy
   url: https://www.buildops.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/security/buildops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buildops-domain-security.yml
@@ -76,10 +102,12 @@ common:
   type: Security
   url: https://buildops.com/security-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/security/buildops-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/buildops-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/security/buildops-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/buildops-trust-center.yml
@@ -88,18 +116,22 @@ common:
   type: Compliance
   url: https://trust.buildops.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/plans/buildops-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buildops-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/rate-limits/buildops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buildops-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/packages/buildops-packages.yml
   title: ''
   type: Packages
   url: packages/buildops-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/llms/buildops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buildops-llms.txt
@@ -146,6 +178,34 @@ rate_limits:
 - limit_count: 0
   name: Buildops Rate Limits
   slug: buildops-rate-limits
+score:
+  band: thin
+  composite: 34.2
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 11.9
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 34.2
+  provenance:
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/screenshots/buildops-2026-07-25T204050.png
 security:
 - kind: domain-security

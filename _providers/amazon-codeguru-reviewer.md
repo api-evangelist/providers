@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,10 +91,12 @@ collections:
   slug: open-.refine-report
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/mcp/amazon-codeguru-reviewer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-codeguru-reviewer-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/overlays/amazon-codeguru-reviewer-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-codeguru-reviewer-openapi-overlay.yaml
@@ -78,22 +105,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-codeguru-reviewer/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/agentic-access/amazon-codeguru-reviewer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-codeguru-reviewer-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/security/amazon-codeguru-reviewer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-codeguru-reviewer-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/security/amazon-codeguru-reviewer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-codeguru-reviewer-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/security/amazon-codeguru-reviewer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-codeguru-reviewer-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/authentication/amazon-codeguru-reviewer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-codeguru-reviewer-authentication.yml
@@ -142,30 +174,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/rules/amazon-codeguru-reviewer-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-codeguru-reviewer-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/vocabulary/amazon-codeguru-reviewer-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-codeguru-reviewer-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/json-ld/amazon-codeguru-reviewer-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-codeguru-reviewer-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/packages/amazon-codeguru-reviewer-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-codeguru-reviewer-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/well-known/amazon-codeguru-reviewer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-codeguru-reviewer-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/well-known/amazon-codeguru-reviewer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-codeguru-reviewer-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/llms/amazon-codeguru-reviewer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-codeguru-reviewer-llms.txt
@@ -1140,6 +1179,40 @@ rules:
     info: 1
     warn: 10
   slug: amazon-codeguru-reviewer-spectral-rules
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 57.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 33.3
+    contract_quality: 68.0
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 45.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:
 - kind: authentication

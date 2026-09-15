@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -306,6 +331,7 @@ collections:
   slug: open-ghost-org
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/capabilities/ghost-org-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ghost-org-capability-edges.yml
@@ -334,14 +360,17 @@ common:
   type: License
   url: https://github.com/TryGhost/Ghost/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/agentic-access/ghost-org-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ghost-org-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/security/ghost-org-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ghost-org-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/authentication/ghost-org-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ghost-org-authentication.yml
@@ -362,14 +391,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/TryGhost
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/plans/ghost-org-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ghost-org-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/rate-limits/ghost-org-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ghost-org-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/finops/ghost-org-finops.yml
   title: ''
   type: FinOps
   url: finops/ghost-org-finops.yml
@@ -402,62 +434,77 @@ common:
   type: LlmsText
   url: https://docs.ghost.org/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/llms/ghost-org-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ghost-org-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/well-known/ghost-org-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ghost-org-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/mcp/ghost-org-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ghost-org-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/mcp/ghost-org-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ghost-org-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/a2a/ghost-org-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/ghost-org-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/packages/ghost-org-packages.yml
   title: ''
   type: Packages
   url: packages/ghost-org-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/packages/ghost-org-packages.yml
   title: ''
   type: SDKs
   url: packages/ghost-org-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/cli/ghost-org-cli.yml
   title: ''
   type: CLI
   url: cli/ghost-org-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/components/ghost-org-components.yml
   title: ''
   type: Components
   url: components/ghost-org-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/changelog/ghost-org-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ghost-org-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/conventions/ghost-org-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ghost-org-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/errors/ghost-org-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ghost-org-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/lifecycle/ghost-org-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ghost-org-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/lifecycle/ghost-org-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ghost-org-lifecycle.yml
@@ -466,30 +513,37 @@ common:
   type: StatusPage
   url: https://status.ghost.org
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/conformance/ghost-org-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ghost-org-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/data-model/ghost-org-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ghost-org-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/sandbox/ghost-org-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ghost-org-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/security/ghost-org-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ghost-org-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/security/ghost-org-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ghost-org-vulnerability-disclosure.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/asyncapi/ghost-org-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/ghost-org-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/asyncapi/ghost-org-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/ghost-org-webhooks-asyncapi.yml
@@ -672,6 +726,44 @@ rules:
     info: 1
     warn: 5
   slug: ghost-org-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 75.7
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 63.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 31.8
+    contract_quality: 73.5
+    developer_ergonomics: 86.9
+    discoverability: 57.4
+    operational_transparency: 89.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 75.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://transcriptfetch.com
@@ -17,50 +42,62 @@ common:
   type: Website
   url: https://transcriptfetch.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/security/transcriptfetch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/transcriptfetch-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/security/transcriptfetch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/transcriptfetch-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/security/transcriptfetch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transcriptfetch-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/authentication/transcriptfetch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/transcriptfetch-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/security/transcriptfetch-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/transcriptfetch-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/well-known/transcriptfetch-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/transcriptfetch-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/well-known/transcriptfetch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/transcriptfetch-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/packages/transcriptfetch-packages.yml
   title: ''
   type: Packages
   url: packages/transcriptfetch-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/packages/transcriptfetch-packages.yml
   title: ''
   type: SDKs
   url: packages/transcriptfetch-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/conformance/transcriptfetch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/transcriptfetch-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/errors/transcriptfetch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/transcriptfetch-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/lifecycle/transcriptfetch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/transcriptfetch-lifecycle.yml
@@ -73,14 +110,17 @@ common:
   type: Deprecation
   url: https://transcriptfetch.com/docs/v1
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/scopes/transcriptfetch-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/transcriptfetch-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/conventions/transcriptfetch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/transcriptfetch-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/conventions/transcriptfetch-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/transcriptfetch-conventions.yml
@@ -89,26 +129,32 @@ common:
   type: ChangeLog
   url: https://transcriptfetch.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/changelog/transcriptfetch-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/transcriptfetch-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/data-model/transcriptfetch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/transcriptfetch-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/asyncapi/transcriptfetch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/transcriptfetch-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/plans/transcriptfetch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/transcriptfetch-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/rate-limits/transcriptfetch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/transcriptfetch-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -174,7 +220,7 @@ modified: '2026-09-09'
 name: TranscriptFetch
 nav: Providers
 network: true
-overview: 'TranscriptFetch publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include transcripts, speech-to-text, captions, youtube, and tiktok.
+overview: 'TranscriptFetch publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Transcripts, Speech-to-Text, Captions, YouTube, and TikTok.
 
 
   The TranscriptFetch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -195,6 +241,35 @@ scopes:
   scope_count: 0
   slug: transcriptfetch-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 63.1
+    developer_ergonomics: 58.9
+    discoverability: 72.2
+    operational_transparency: 89.5
+  previous_composite: 64.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Transcriptfetch Authentication
@@ -214,30 +289,24 @@ security:
   summary_line: trust center published
 slug: transcriptfetch
 tags:
-- transcripts
-- speech-to-text
-- captions
-- youtube
-- tiktok
-- instagram
-- podcasts
-- mcp
-- llms-txt
-- openapi
-- Transcription
+- Transcripts
 - Speech-to-Text
-- Video
-- Podcasts
-- AI/LLM
-- RAG
-- Agents
-- MCP
-- Developer Tools
-- Media
-- Content
+- Captions
 - YouTube
 - TikTok
 - Instagram
+- Podcasts
+- MCP
+- llms-txt
+- OpenAPI
+- Transcription
+- Video
+- AI/LLM
+- RAG
+- Agents
+- Developer Tools
+- Media
+- Content
 - Spotify
 - Apple Podcasts
 website: https://transcriptfetch.com

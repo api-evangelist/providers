@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 33.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -695,6 +720,7 @@ collections:
   slug: open-the-things-stack-packet-broker-agent
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/capabilities/the-things-network-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/the-things-network-capability-edges.yml
@@ -707,18 +733,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/the-things-network--the-things-stack/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/agentic-access/the-things-network-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/the-things-network-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/security/the-things-network-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/the-things-network-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/security/the-things-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-things-network-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/authentication/the-things-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-things-network-authentication.yml
@@ -811,30 +841,37 @@ common:
   type: Plans
   url: https://www.thethingsindustries.com/stack/plans/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/plans/the-things-network-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-things-network-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/rate-limits/the-things-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-things-network-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/finops/the-things-network-finops.yml
   title: ''
   type: FinOps
   url: finops/the-things-network-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/vocabulary/the-things-network-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/the-things-network-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/json-ld/the-things-network-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/the-things-network-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/json-structure/the-things-network-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/the-things-network-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/rules/the-things-network-rules.yml
   title: ''
   type: Spectral
   url: rules/the-things-network-rules.yml
@@ -855,162 +892,202 @@ common:
   type: Blog
   url: https://www.thethingsindustries.com/news/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/packages/the-things-network-packages.yml
   title: ''
   type: Packages
   url: packages/the-things-network-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/packages/the-things-network-packages.yml
   title: ''
   type: SDKs
   url: packages/the-things-network-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/llms/the-things-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-things-network-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/conformance/the-things-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-things-network-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/errors/the-things-network-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-things-network-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/lifecycle/the-things-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-things-network-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/lifecycle/the-things-network-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/the-things-network-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/scopes/the-things-network-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/the-things-network-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/security/the-things-network-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/the-things-network-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/sandbox/the-things-network-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/the-things-network-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/conventions/the-things-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-things-network-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/changelog/the-things-network-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-things-network-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/cli/the-things-network-cli.yml
   title: ''
   type: CLI
   url: cli/the-things-network-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/data-model/the-things-network-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-things-network-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/asyncapi/the-things-network-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/the-things-network-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-identity-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-identity-server-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-application-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-application-server-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-end-device-registry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-end-device-registry-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-gateway-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-gateway-server-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-integrations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-join-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-join-server-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-network-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-network-server-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/overlays/the-things-network-packet-broker-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-things-network-packet-broker-agent-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-applicationserver.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-applicationserver.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-configuration_services.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-configuration_services.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-deviceclaimingserver.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-deviceclaimingserver.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-devicerepository.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-devicerepository.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-error.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-error.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-events.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-events.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-gatewayserver.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-gatewayserver.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-identityserver.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-identityserver.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-joinserver.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-joinserver.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-networkserver.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-networkserver.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-notification_service.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-notification_service.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-oauth_services.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-oauth_services.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-packetbrokeragent.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-packetbrokeragent.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-qrcodegenerator.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-qrcodegenerator.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/grpc/the-things-network-rights.proto
   title: ''
   type: Protobuf
   url: grpc/the-things-network-rights.proto
@@ -1208,6 +1285,41 @@ scopes:
   scope_count: 0
   slug: the-things-network-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 78.1
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 89.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 25.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 47.0
+    contract_quality: 72.4
+    developer_ergonomics: 81.5
+    discoverability: 72.2
+    operational_transparency: 92.1
+  previous_composite: 78.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 58
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:
 - kind: authentication

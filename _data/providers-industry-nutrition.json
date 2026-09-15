@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -177,7 +177,7 @@
       "developer_ergonomics": 77.4,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -220,7 +220,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -281,7 +281,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -324,14 +324,21 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 27.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -374,7 +381,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -424,7 +431,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -474,7 +481,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -524,7 +531,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -567,7 +574,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -610,7 +617,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -660,7 +667,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -710,7 +717,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -760,7 +767,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -810,7 +817,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -871,7 +878,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -914,7 +921,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -957,7 +964,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1006,7 +1013,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1056,7 +1063,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -1099,7 +1106,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1142,7 +1149,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1185,7 +1192,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1235,7 +1242,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -1278,7 +1285,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1327,7 +1334,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1376,7 +1383,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1426,7 +1433,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 27.4,
      "agent_band": "agent-aware",
@@ -1469,7 +1476,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1519,7 +1526,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1569,7 +1576,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1619,7 +1626,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1669,7 +1676,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1712,7 +1719,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1762,7 +1769,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1812,7 +1819,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -1855,7 +1862,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1905,7 +1912,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1955,7 +1962,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2005,7 +2012,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2055,7 +2062,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2105,7 +2112,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2148,7 +2155,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2191,7 +2198,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2241,7 +2248,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2291,7 +2298,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2341,7 +2348,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2391,7 +2398,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 45.0,
      "agent_band": "agent-native",
@@ -2434,7 +2441,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2484,7 +2491,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -2537,7 +2544,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2580,7 +2587,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2630,14 +2637,29 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "ccpa-cpra",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       },
+       {
+        "standard": "hitrust",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2680,7 +2702,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2730,7 +2752,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -2773,7 +2795,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2823,7 +2845,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2873,7 +2895,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -2916,7 +2938,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2966,14 +2988,25 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 30.0,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3016,7 +3049,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3066,7 +3099,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
@@ -3109,7 +3142,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3159,7 +3192,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 5.6,
      "agent_band": "agent-aware",
@@ -3202,7 +3235,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -3245,7 +3278,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 32.6,
      "agent_band": "agent-ready",
@@ -3288,7 +3321,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -3331,7 +3364,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3381,7 +3414,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3424,7 +3457,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3474,7 +3507,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3524,7 +3557,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 18.7,
      "agent_band": "agent-aware",
@@ -3567,7 +3600,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -3609,7 +3642,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -3652,7 +3685,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3702,7 +3735,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -3749,7 +3782,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3799,7 +3832,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3849,7 +3882,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3899,7 +3932,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3942,7 +3975,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3992,7 +4025,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4042,7 +4075,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -4085,7 +4118,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4135,7 +4168,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4178,7 +4211,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4221,7 +4254,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4271,7 +4304,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4321,7 +4354,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4371,7 +4404,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4421,7 +4454,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4471,7 +4504,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4514,7 +4547,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4557,7 +4590,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4607,7 +4640,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4657,7 +4690,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4707,7 +4740,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4757,7 +4790,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4807,7 +4840,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4850,7 +4883,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4900,7 +4933,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4943,7 +4976,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4993,7 +5026,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5043,7 +5076,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5093,7 +5126,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5143,7 +5176,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5193,7 +5226,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -5236,7 +5269,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5286,7 +5319,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5336,7 +5369,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5379,7 +5412,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5422,7 +5455,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5472,7 +5505,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5522,7 +5555,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5572,7 +5605,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5621,7 +5654,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5671,7 +5704,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5721,7 +5754,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5771,7 +5804,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5821,7 +5854,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -5864,7 +5897,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5907,7 +5940,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5957,7 +5990,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6007,7 +6040,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6057,7 +6090,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6100,7 +6133,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6143,7 +6176,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6186,7 +6219,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6236,7 +6269,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6286,7 +6319,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6336,7 +6369,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6377,8 +6410,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 73,
-   "shown": 73,
+   "count": 74,
+   "shown": 74,
    "providers": [
     {
      "name": "ElCoach",
@@ -6396,7 +6429,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6446,7 +6479,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6496,7 +6529,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6539,7 +6572,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6582,7 +6615,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6625,7 +6658,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6675,7 +6708,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6725,7 +6758,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6775,7 +6808,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6825,7 +6858,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6868,7 +6901,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6918,7 +6951,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -6961,7 +6994,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7011,7 +7044,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7061,7 +7094,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7111,7 +7144,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7161,7 +7194,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7204,7 +7237,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7247,7 +7280,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7297,7 +7330,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7347,7 +7380,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7390,7 +7423,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7433,7 +7466,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7483,7 +7516,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7533,7 +7566,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7583,7 +7616,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7633,7 +7666,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7676,7 +7709,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -7719,7 +7752,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7754,182 +7787,9 @@
      "rank": 162
     },
     {
-     "name": "Chomp",
-     "slug": "chomp",
-     "description": "Data about various grocery products and foods",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chomp/refs/heads/main/screenshots/chomp-2026-06-20T174322.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 163
-    },
-    {
-     "name": "Edamam nutrition",
-     "slug": "edamam-nutrition",
-     "description": "Nutrition Analysis",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edamam-nutrition/refs/heads/main/screenshots/edamam-nutrition-2026-06-20T180522.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 164
-    },
-    {
-     "name": "Fruityvice",
-     "slug": "fruityvice",
-     "description": "Data about all kinds of fruit",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fruityvice/refs/heads/main/screenshots/fruityvice-2026-06-20T181559.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 165
-    },
-    {
-     "name": "Tasty",
-     "slug": "tasty",
-     "description": "API to query data about recipe, plan, ingredients",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tasty/refs/heads/main/screenshots/tasty-2026-06-20T194928.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 166
-    },
-    {
-     "name": "THG",
-     "slug": "thg",
-     "description": "THG plc (formerly The Hut Group) is a UK-based consumer brands group founded in 2004 in Manchester and listed on the London Stock Exchange. Following the 2025 demerger of its Ingenuity technology and fulfilment division, THG is a pure-play consumer brands business operating two divisions: THG Beauty (home to Lookfantastic, Cult Beauty, Dermstore and prestige brand partners) and THG Nutrition (led by Myprotein, one of the world's largest online sports-nutrition brands). THG designs, manufactures and sells beauty and nutrition products direct-to-consumer across global markets. It was surfaced in the API Evangelist network as a portfolio company of Balderton Capital, an early investor. THG operates corporate, investor-relations and careers web properties but publishes no public developer API, developer portal, or API documentation; this profile captures its identity and a live domain-security probe.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thg/refs/heads/main/screenshots/thg-2026-09-02T163526.png",
+     "name": "AHARA",
+     "slug": "ahara",
+     "description": "AHARA is a Los Angeles personalized-nutrition company founded in 2022 by physician nutritionist Dr. Melina Jampolis and The RealReal founder Julie Wainwright, funded with a $10.25M seed round led by Greycroft. It pairs a health questionnaire and at-home genetic, epigenetic and blood-biomarker testing with registered-dietitian guidance and a consumer app (Food Health Rx) that turns the results into a personalized food-as-medicine plan, sold direct to consumers and through employers, health plans and providers. In late 2024 the company rebranded as Food Health Collective and moved its web presence to foodhealthcollective.org; the original ahara.com domain is now registrar-suspended (clientHold, NXDOMAIN) and the ahara.health Squarespace site has expired. AHARA operates no developer program: there is no portal, no documentation, no API reference, no public package, no GitHub organization and no machine-readable contract on any host it controls.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7938,53 +7798,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 167
-    },
-    {
-     "name": "Helaina",
-     "slug": "helaina",
-     "description": "Helaina is a New York based biotechnology and nutrition company that uses precision fermentation to produce bio-identical human proteins. Its flagship ingredient, effera(R), is described by the company as the world's first bio-identical human lactoferrin, designed to match the lactoferrin naturally found in mother's milk and in the human body rather than being extracted from cow's milk. Helaina sells effera(R) as a business-to-business ingredient to supplement and nutrition formulators across women's health, gut health, longevity, hair and skin, active nutrition, and infant and child nutrition, and has announced a partnership with Nestle to advance science-based early-life nutrition. Helaina is an ingredient manufacturer, not a software vendor: it publishes no public API, developer portal, SDK, or machine-readable API specification. The only machine-readable surface it publishes is an llms.txt at its website root, alongside a robots.txt that explicitly allows AI answer engines.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helaina/refs/heads/main/screenshots/helaina-2026-09-02T145714.png",
-     "score": 7.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8016,7 +7833,272 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 163
+    },
+    {
+     "name": "Chomp",
+     "slug": "chomp",
+     "description": "Data about various grocery products and foods",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chomp/refs/heads/main/screenshots/chomp-2026-06-20T174322.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 164
+    },
+    {
+     "name": "Edamam nutrition",
+     "slug": "edamam-nutrition",
+     "description": "Nutrition Analysis",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edamam-nutrition/refs/heads/main/screenshots/edamam-nutrition-2026-06-20T180522.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 165
+    },
+    {
+     "name": "Fruityvice",
+     "slug": "fruityvice",
+     "description": "Data about all kinds of fruit",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fruityvice/refs/heads/main/screenshots/fruityvice-2026-06-20T181559.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 166
+    },
+    {
+     "name": "Tasty",
+     "slug": "tasty",
+     "description": "API to query data about recipe, plan, ingredients",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tasty/refs/heads/main/screenshots/tasty-2026-06-20T194928.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 167
+    },
+    {
+     "name": "THG",
+     "slug": "thg",
+     "description": "THG plc (formerly The Hut Group) is a UK-based consumer brands group founded in 2004 in Manchester and listed on the London Stock Exchange. Following the 2025 demerger of its Ingenuity technology and fulfilment division, THG is a pure-play consumer brands business operating two divisions: THG Beauty (home to Lookfantastic, Cult Beauty, Dermstore and prestige brand partners) and THG Nutrition (led by Myprotein, one of the world's largest online sports-nutrition brands). THG designs, manufactures and sells beauty and nutrition products direct-to-consumer across global markets. It was surfaced in the API Evangelist network as a portfolio company of Balderton Capital, an early investor. THG operates corporate, investor-relations and careers web properties but publishes no public developer API, developer portal, or API documentation; this profile captures its identity and a live domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thg/refs/heads/main/screenshots/thg-2026-09-02T163526.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 168
+    },
+    {
+     "name": "Helaina",
+     "slug": "helaina",
+     "description": "Helaina is a New York based biotechnology and nutrition company that uses precision fermentation to produce bio-identical human proteins. Its flagship ingredient, effera(R), is described by the company as the world's first bio-identical human lactoferrin, designed to match the lactoferrin naturally found in mother's milk and in the human body rather than being extracted from cow's milk. Helaina sells effera(R) as a business-to-business ingredient to supplement and nutrition formulators across women's health, gut health, longevity, hair and skin, active nutrition, and infant and child nutrition, and has announced a partnership with Nestle to advance science-based early-life nutrition. Helaina is an ingredient manufacturer, not a software vendor: it publishes no public API, developer portal, SDK, or machine-readable API specification. The only machine-readable surface it publishes is an llms.txt at its website root, alongside a robots.txt that explicitly allows AI answer engines.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helaina/refs/heads/main/screenshots/helaina-2026-09-02T145714.png",
+     "score": 7.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 169
     },
     {
      "name": "Revolution Foods",
@@ -8034,7 +8116,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8066,7 +8148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Monell Chemical Senses Center",
@@ -8084,50 +8166,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 170
-    },
-    {
-     "name": "Jow",
-     "slug": "jow",
-     "description": "Jow is a consumer meal-planning and grocery-shopping application that turns personalized menu selection into an automated shopping list. From a catalog of thousands of recipes tailored to household size, dietary preferences and goals (keto, vegetarian, high-protein, gluten-free, kid-friendly, low-calorie), Jow builds a weekly menu and generates the matching grocery order, which users check out through integrated grocery-retail partnerships at optimized prices. Founded in France and available as iOS and Android mobile apps, Jow serves millions of active users. It is a portfolio company of Northzone. No public developer API or documentation surface was found during enrichment; this profile captures the company identity and its probed domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jow/refs/heads/main/screenshots/jow-2026-07-25T223247.png",
-     "score": 6.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8155,10 +8194,10 @@
      "rank": 171
     },
     {
-     "name": "Sun Basket",
-     "slug": "sun-basket",
-     "description": "Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface was found during enrichment probing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/screenshots/sun-basket-2026-09-02T161127.png",
+     "name": "Jow",
+     "slug": "jow",
+     "description": "Jow is a consumer meal-planning and grocery-shopping application that turns personalized menu selection into an automated shopping list. From a catalog of thousands of recipes tailored to household size, dietary preferences and goals (keto, vegetarian, high-protein, gluten-free, kid-friendly, low-calorie), Jow builds a weekly menu and generates the matching grocery order, which users check out through integrated grocery-retail partnerships at optimized prices. Founded in France and available as iOS and Android mobile apps, Jow serves millions of active users. It is a portfolio company of Northzone. No public developer API or documentation surface was found during enrichment; this profile captures the company identity and its probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jow/refs/heads/main/screenshots/jow-2026-07-25T223247.png",
      "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8166,11 +8205,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8198,6 +8237,49 @@
      "rank": 172
     },
     {
+     "name": "Sun Basket",
+     "slug": "sun-basket",
+     "description": "Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface was found during enrichment probing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/screenshots/sun-basket-2026-09-02T161127.png",
+     "score": 6.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 173
+    },
+    {
      "name": "Bota Biosciences",
      "slug": "bota-biosciences",
      "description": "Bota Biosciences (Bota Bio, 恩和科技) is an industrial and synthetic biology company that applies AI-driven computation and laboratory automation to bio-manufacturing. Its in-house Bota Biofoundry and Cell2Cloud platforms combine computational algorithms, non-model industrial strain engineering, rapid iterative enzyme engineering and performance protein design to shorten design-build-test-learn cycles, and in March 2026 it launched SAION AI, a three-layer \"Physical AI\" platform (cognition, orchestration, execution) that drives laboratory hardware through a proprietary Biological Protocol Language. Bota commercializes this work as physical ingredients rather than software: Purtect bio-preservatives (nisin, natamycin, ε-poly-lysine, lysozyme), Prorylia biomimetic proteins and Re² Coffea Arabica peptides, sold through its HeliaGenesis food and nutrition brand and its YuccaElements personal care brand, with partnerships including BASF, Proya, Syensqo and Puratos. Founded in 2019 with operations in Hangzhou, China and the San Francisco Bay Area, Bota publishes no developer portal, no public API documentation, no SDKs and no machine-readable specification; its computational software is internal laboratory tooling and its SAION AI application is reachable only through a login with an administrator-managed account whitelist.",
@@ -8213,7 +8295,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -8238,7 +8320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "CHS Inc.",
@@ -8256,7 +8338,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8288,7 +8370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "ConAgra Foods",
@@ -8305,50 +8387,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 175
-    },
-    {
-     "name": "HelloFresh",
-     "slug": "hellofresh",
-     "description": "HelloFresh SE is a publicly listed (Frankfurt Stock Exchange: HFG), Berlin-headquartered global meal-kit and food-solutions company that ships recipes and pre-portioned ingredients to households across North America, Europe, and Asia-Pacific. Its brand portfolio includes HelloFresh, Factor, Green Chef, EveryPlate, Chefs Plate, Youfoodz, and Good Chop. HelloFresh does not publish a public consumer developer API; its engineering organization is active in open source on GitHub, maintaining widely used infrastructure tooling such as the Janus API gateway, the health-go healthcheck library, and the goengine event-sourcing framework. This profile was surfaced as a portfolio company of HV Capital and Insight Partners and enriched by the API Evangelist pipeline.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hellofresh/refs/heads/main/screenshots/hellofresh-2026-07-25T220936.png",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8376,6 +8415,49 @@
      "rank": 176
     },
     {
+     "name": "HelloFresh",
+     "slug": "hellofresh",
+     "description": "HelloFresh SE is a publicly listed (Frankfurt Stock Exchange: HFG), Berlin-headquartered global meal-kit and food-solutions company that ships recipes and pre-portioned ingredients to households across North America, Europe, and Asia-Pacific. Its brand portfolio includes HelloFresh, Factor, Green Chef, EveryPlate, Chefs Plate, Youfoodz, and Good Chop. HelloFresh does not publish a public consumer developer API; its engineering organization is active in open source on GitHub, maintaining widely used infrastructure tooling such as the Janus API gateway, the health-go healthcheck library, and the goengine event-sourcing framework. This profile was surfaced as a portfolio company of HV Capital and Insight Partners and enriched by the API Evangelist pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hellofresh/refs/heads/main/screenshots/hellofresh-2026-07-25T220936.png",
+     "score": 5.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 177
+    },
+    {
      "name": "Limbo",
      "slug": "limbo",
      "description": "Limbo is a direct-to-consumer digital weight-loss and metabolic-health program operated by Vitals in View, Inc., with subsidiaries in the UK (company no. 15047668) and Ireland (company no. 725671). Members wear a body-worn \"energy sensor\" that reads metabolic signals, and a companion app turns those readings into personalized, nudge-based guidance intended to change eating habits without calorie counting. The company is Seedcamp-backed, raised a seed round in September 2022, and is mid-rebrand from Limbo (limborevolution.com) to Viv (viv.co), with the marketing site now served from content.viv.co. Limbo publishes no public API, developer portal, SDK, or /.well-known/ discovery surface; this profile captures its identity and probed security posture only.",
@@ -8390,7 +8472,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8422,7 +8504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "NBTY",
@@ -8440,50 +8522,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 178
-    },
-    {
-     "name": "CucumberTown",
-     "slug": "cucumbertown",
-     "description": "Cucumbertown was a recipe network and food-blogging platform (\"a Tumblr for recipes\") founded around 2011-2012 in Palo Alto, California by Cherian Thomas, Chris Luscher, Arun Prabhakar and Dan Hauk, and backed by 500 Startups (now 500 Global) among other angel investors. It let home cooks and food bloggers publish, structure, and share recipes on a hosted network. Cucumbertown was acquired by the Japanese recipe network Cookpad in June 2015 and was fully shut down by March 31, 2017 for lack of a sustainable business model. The company is defunct and operates no public API or developer program. The cucumbertown.com domain now 302-redirects to Samsung Food (app.samsungfood.com, formerly Whisk), an unrelated successor product; none of the artifacts served on that host belong to Cucumbertown.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cucumbertown/refs/heads/main/screenshots/cucumbertown-2026-07-25T210905.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8509,6 +8548,49 @@
       "agentic_commerce": false
      },
      "rank": 179
+    },
+    {
+     "name": "CucumberTown",
+     "slug": "cucumbertown",
+     "description": "Cucumbertown was a recipe network and food-blogging platform (\"a Tumblr for recipes\") founded around 2011-2012 in Palo Alto, California by Cherian Thomas, Chris Luscher, Arun Prabhakar and Dan Hauk, and backed by 500 Startups (now 500 Global) among other angel investors. It let home cooks and food bloggers publish, structure, and share recipes on a hosted network. Cucumbertown was acquired by the Japanese recipe network Cookpad in June 2015 and was fully shut down by March 31, 2017 for lack of a sustainable business model. The company is defunct and operates no public API or developer program. The cucumbertown.com domain now 302-redirects to Samsung Food (app.samsungfood.com, formerly Whisk), an unrelated successor product; none of the artifacts served on that host belong to Cucumbertown.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cucumbertown/refs/heads/main/screenshots/cucumbertown-2026-07-25T210905.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 180
     },
     {
      "name": "FreshDish",
@@ -8552,7 +8634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Land O'Lakes",
@@ -8569,49 +8651,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 181
-    },
-    {
-     "name": "McCormick",
-     "slug": "mccormick",
-     "description": "McCormick spices and products have been kitchen must-haves since 1889. Learn about seasoning and cuisine while discovering tons of delicious recipes today. No public developer APIs are currently documented.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8639,10 +8679,9 @@
      "rank": 182
     },
     {
-     "name": "MealPal",
-     "slug": "mealpal",
-     "description": "MealPal is a consumer meal subscription service that lets members reserve lunch or dinner from a rotating selection of local restaurants at a discounted, fixed membership price, ordering ahead through its iOS and Android apps to skip the line at pickup. The service is organized around its MealPass lunch/dinner subscription and MealFix offering, alongside a partner program that restaurants join to reach members. MealPal operates as a business-to-consumer mobile application and website and does not publish a public developer API, developer portal, or API documentation. This record was surfaced as a portfolio company of Bessemer Venture Partners and Menlo Ventures and is tracked in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mealpal/refs/heads/main/screenshots/mealpal-2026-08-07T172258.png",
+     "name": "McCormick",
+     "slug": "mccormick",
+     "description": "McCormick spices and products have been kitchen must-haves since 1889. Learn about seasoning and cuisine while discovering tons of delicious recipes today. No public developer APIs are currently documented.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8654,7 +8693,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8682,9 +8721,10 @@
      "rank": 183
     },
     {
-     "name": "plated",
-     "slug": "plated",
-     "description": "Plated was a meal-kit delivery company surfaced as a portfolio company of Slow Ventures and Techstars and added to the API Evangelist network for enrichment. The company was acquired by Albertsons in 2017 and later wound down; the plated.com domain now 301-redirects to safeway.com, and no independent developer portal, API reference, SDK, or well-known surface remains. This profile records the honest state of a defunct provider with no active API surface.",
+     "name": "MealPal",
+     "slug": "mealpal",
+     "description": "MealPal is a consumer meal subscription service that lets members reserve lunch or dinner from a rotating selection of local restaurants at a discounted, fixed membership price, ordering ahead through its iOS and Android apps to skip the line at pickup. The service is organized around its MealPass lunch/dinner subscription and MealFix offering, alongside a partner program that restaurants join to reach members. MealPal operates as a business-to-consumer mobile application and website and does not publish a public developer API, developer portal, or API documentation. This record was surfaced as a portfolio company of Bessemer Venture Partners and Menlo Ventures and is tracked in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mealpal/refs/heads/main/screenshots/mealpal-2026-08-07T172258.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8696,7 +8736,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8722,6 +8762,48 @@
       "agentic_commerce": false
      },
      "rank": 184
+    },
+    {
+     "name": "plated",
+     "slug": "plated",
+     "description": "Plated was a meal-kit delivery company surfaced as a portfolio company of Slow Ventures and Techstars and added to the API Evangelist network for enrichment. The company was acquired by Albertsons in 2017 and later wound down; the plated.com domain now 301-redirects to safeway.com, and no independent developer portal, API reference, SDK, or well-known surface remains. This profile records the honest state of a defunct provider with no active API surface.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 185
     },
     {
      "name": "Simple Feast",
@@ -8765,7 +8847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "SimplyCook",
@@ -8782,58 +8864,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 186
-    },
-    {
-     "name": "LemonBox",
-     "slug": "lemonbox",
-     "description": "LemonBox (来檬) is a health-technology brand working in AI-generative personalized nutrition. Founded in 2016 in Silicon Valley, incubated at the University of Chicago Polsky Center in 2017, and accepted into Y Combinator in 2018, it entered the Chinese market that year and is now headquartered in Shanghai. LemonBox builds individualized daily vitamin and supplement packs from a three-minute FFQ (food frequency questionnaire) nutrition assessment scored by its LemonAlgo adaptive engine, then fulfills them one pack at a time (MOQ=1) through its Personalization Fulfillment Center in Hong Kong. The company reports serving more than 10 million cumulative users as of 2026 and sells both direct-to-consumer and B2B. Investors include Y Combinator and Partech. LemonBox operates a consumer web and WeChat mini-program experience and publishes no public developer API, SDK, or developer portal; its agent-facing surface is limited to a published /llms.txt and a robots.txt that explicitly allow-lists generative-AI crawlers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonbox/refs/heads/main/screenshots/lemonbox-2026-07-25T224911.png",
-     "score": 4.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8860,22 +8892,22 @@
      "rank": 187
     },
     {
-     "name": "Reckitt Benckiser",
-     "slug": "reckitt",
-     "description": "Reckitt Benckiser is a British multinational consumer-goods company focused on health, hygiene, and nutrition. Its portfolio includes globally recognised brands such as Lysol, Dettol, Mucinex, Strepsils, Nurofen, Veet, Finish, Vanish, Air Wick, Calgon, Durex, and Enfamil/Mead Johnson infant nutrition, sold in nearly 200 markets. Reckitt operates as a pure consumer packaged-goods company with retail and e-commerce distribution; it does not publish a public developer API or open partner integration portal at the corporate level. B2B trading-partner connectivity with retailers and distributors is handled via standard EDI / GDSN flows rather than a public REST API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reckitt/refs/heads/main/screenshots/reckitt-2026-06-20T192658.png",
-     "score": 4.4,
+     "name": "LemonBox",
+     "slug": "lemonbox",
+     "description": "LemonBox (来檬) is a health-technology brand working in AI-generative personalized nutrition. Founded in 2016 in Silicon Valley, incubated at the University of Chicago Polsky Center in 2017, and accepted into Y Combinator in 2018, it entered the Chinese market that year and is now headquartered in Shanghai. LemonBox builds individualized daily vitamin and supplement packs from a three-minute FFQ (food frequency questionnaire) nutrition assessment scored by its LemonAlgo adaptive engine, then fulfills them one pack at a time (MOQ=1) through its Personalization Fulfillment Center in Hong Kong. The company reports serving more than 10 million cumulative users as of 2026 and sells both direct-to-consumer and B2B. Investors include Y Combinator and Partech. LemonBox operates a consumer web and WeChat mini-program experience and publishes no public developer API, SDK, or developer portal; its agent-facing surface is limited to a published /llms.txt and a robots.txt that explicitly allow-lists generative-AI crawlers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonbox/refs/heads/main/screenshots/lemonbox-2026-07-25T224911.png",
+     "score": 4.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8910,207 +8942,22 @@
      "rank": 188
     },
     {
-     "name": "Mead Johnson Nutrition",
-     "slug": "mead-johnson-nutrition",
-     "description": "Mead Johnson Nutrition was a manufacturer of infant formula and other pediatric nutrition products before being acquired by Reckitt Benckiser in 2017. No public developer APIs are currently documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mead-johnson-nutrition/refs/heads/main/screenshots/mead-johnson-nutrition-2026-06-20T185108.png",
-     "score": 4.1,
+     "name": "Reckitt Benckiser",
+     "slug": "reckitt",
+     "description": "Reckitt Benckiser is a British multinational consumer-goods company focused on health, hygiene, and nutrition. Its portfolio includes globally recognised brands such as Lysol, Dettol, Mucinex, Strepsils, Nurofen, Veet, Finish, Vanish, Air Wick, Calgon, Durex, and Enfamil/Mead Johnson infant nutrition, sold in nearly 200 markets. Reckitt operates as a pure consumer packaged-goods company with retail and e-commerce distribution; it does not publish a public developer API or open partner integration portal at the corporate level. B2B trading-partner connectivity with retailers and distributors is handled via standard EDI / GDSN flows rather than a public REST API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reckitt/refs/heads/main/screenshots/reckitt-2026-06-20T192658.png",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 189
-    },
-    {
-     "name": "Nu Skin Enterprises",
-     "slug": "nu-skin-enterprises",
-     "description": "Nu Skin Enterprises is a global multilevel marketing company that develops and distributes personal care products and dietary supplements through a network of independent distributors. No public APIs have been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nu-skin-enterprises/refs/heads/main/screenshots/nu-skin-enterprises-2026-06-20T190512.png",
-     "score": 4.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 190
-    },
-    {
-     "name": "Ample",
-     "slug": "ample",
-     "description": "Ample Foods is a nutrition company that makes single-serving meal-replacement shakes sold direct-to-consumer at amplemeal.com. Its lineup includes Ample Original, a low-carb meal shake with roughly 25g protein and 4g net carbs per 400-calorie serving, and Ample Recover, a higher-carb performance shake with about 31g protein and 33g carbs per 400-calorie serving, sold in ready-to-drink bottles and bulk canisters. Ample is a consumer packaged-goods brand running on a Shopify storefront; enrichment probing found no public developer API, OpenAPI specification, SDK, developer portal, or API reference. This profile is a portfolio lead backed by 500 Global and is retained as a company record with no API surface to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ample/refs/heads/main/screenshots/ample-2026-08-07T161342.png",
-     "score": 4.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 191
-    },
-    {
-     "name": "Hims & Hers Health",
-     "slug": "hims-and-hers",
-     "description": "Hims & Hers Health, Inc. (NYSE: HIMS) is a direct-to-consumer telehealth platform headquartered in San Francisco that connects consumers with licensed providers and ships personalized treatments across men's and women's health categories. Hims serves men with offerings spanning sexual health, hair loss, mental health, dermatology, and weight loss; Hers serves women with birth control, hair, skin, mental health, and weight management; both brands include compounded GLP-1 weight-loss programs. International expansion has been driven by the acquisitions of ZAVA (Europe, 2025) and Eucalyptus Health (Australia, 2026). Hims & Hers is primarily a consumer D2C product; no public developer API has been identified, and B2B and partner integrations are gated. This entry catalogs the company surface for the API Evangelist index.",
-     "score": 3.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 15.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 192
-    },
-    {
-     "name": "Purmeo",
-     "slug": "purmeo",
-     "description": "PURMEO GmbH is a German (\"Made in Germany\") manufacturer and direct-to-consumer retailer of high-quality nutritional supplements, vitamins, and minerals, with a focus on digestive health (including H. pylori support), energy, immunity, cognitive function, vision, bone and joint support, and cardiovascular health. Products are formulated without artificial additives, GMOs, or magnesium stearate and are distributed via the company's own online shop as well as Amazon, DocMorris, Medpex, and Shop-Apotheke. Surfaced as a portfolio company of point-nine and added to the API Evangelist network. As of the enrichment pass this is a B2C e-commerce business with no public API, developer portal, or developer documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/purmeo/refs/heads/main/screenshots/purmeo-2026-09-02T152339.png",
-     "score": 3.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9142,13 +8989,100 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 189
     },
     {
-     "name": "besunyen",
-     "slug": "besunyen",
-     "description": "Besunyen is a Chinese consumer-health company known for herbal weight-management, functional and detox teas plus related wellness and nutrition products, surfaced as a portfolio company of Qiming and added to the API Evangelist network as a stub. Enrichment on 2026-07-18 found no public developer, API, or documentation surface — besunyen.com serves only an nginx 404 and its TLS certificate is issued for besunyen.co (hostname mismatch); the only real artifact captured is a domain-security probe.",
-     "score": 3.3,
+     "name": "Mead Johnson Nutrition",
+     "slug": "mead-johnson-nutrition",
+     "description": "Mead Johnson Nutrition was a manufacturer of infant formula and other pediatric nutrition products before being acquired by Reckitt Benckiser in 2017. No public developer APIs are currently documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mead-johnson-nutrition/refs/heads/main/screenshots/mead-johnson-nutrition-2026-06-20T185108.png",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 190
+    },
+    {
+     "name": "Nu Skin Enterprises",
+     "slug": "nu-skin-enterprises",
+     "description": "Nu Skin Enterprises is a global multilevel marketing company that develops and distributes personal care products and dietary supplements through a network of independent distributors. No public APIs have been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nu-skin-enterprises/refs/heads/main/screenshots/nu-skin-enterprises-2026-06-20T190512.png",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 191
+    },
+    {
+     "name": "Ample",
+     "slug": "ample",
+     "description": "Ample Foods is a nutrition company that makes single-serving meal-replacement shakes sold direct-to-consumer at amplemeal.com. Its lineup includes Ample Original, a low-carb meal shake with roughly 25g protein and 4g net carbs per 400-calorie serving, and Ample Recover, a higher-carb performance shake with about 31g protein and 33g carbs per 400-calorie serving, sold in ready-to-drink bottles and bulk canisters. Ample is a consumer packaged-goods brand running on a Shopify storefront; enrichment probing found no public developer API, OpenAPI specification, SDK, developer portal, or API reference. This profile is a portfolio lead backed by 500 Global and is retained as a company record with no API surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ample/refs/heads/main/screenshots/ample-2026-08-07T161342.png",
+     "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -9156,10 +9090,109 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 192
+    },
+    {
+     "name": "Hims & Hers Health",
+     "slug": "hims-and-hers",
+     "description": "Hims & Hers Health, Inc. (NYSE: HIMS) is a direct-to-consumer telehealth platform headquartered in San Francisco that connects consumers with licensed providers and ships personalized treatments across men's and women's health categories. Hims serves men with offerings spanning sexual health, hair loss, mental health, dermatology, and weight loss; Hers serves women with birth control, hair, skin, mental health, and weight management; both brands include compounded GLP-1 weight-loss programs. International expansion has been driven by the acquisitions of ZAVA (Europe, 2025) and Eucalyptus Health (Australia, 2026). Hims & Hers is primarily a consumer D2C product; no public developer API has been identified, and B2B and partner integrations are gated. This entry catalogs the company surface for the API Evangelist index.",
+     "score": 3.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 193
+    },
+    {
+     "name": "Purmeo",
+     "slug": "purmeo",
+     "description": "PURMEO GmbH is a German (\"Made in Germany\") manufacturer and direct-to-consumer retailer of high-quality nutritional supplements, vitamins, and minerals, with a focus on digestive health (including H. pylori support), energy, immunity, cognitive function, vision, bone and joint support, and cardiovascular health. Products are formulated without artificial additives, GMOs, or magnesium stearate and are distributed via the company's own online shop as well as Amazon, DocMorris, Medpex, and Shop-Apotheke. Surfaced as a portfolio company of point-nine and added to the API Evangelist network. As of the enrichment pass this is a B2C e-commerce business with no public API, developer portal, or developer documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/purmeo/refs/heads/main/screenshots/purmeo-2026-09-02T152339.png",
+     "score": 3.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9194,10 +9227,9 @@
      "rank": 194
     },
     {
-     "name": "Boohee",
-     "slug": "boohee",
-     "description": "Boohee (薄荷健康) is a Chinese consumer health-technology company focused on scientific weight management, serving a cumulative 180 million users over its ~17-year history. Its portfolio spans the Boohee Health mobile app (calorie and food tracking, diet and exercise logging, AI weight-management coaching, meal plans, smart body scales, community), Boohee Life nutritional foods and subscription services, the Boohee Life Internet Hospital (Tianjin-based telemedicine for internal and traditional Chinese medicine), and a Boohee weight-loss SaaS platform that helps hospitals stand up weight-management clinics. The company operates as a consumer mobile and content platform and does not publish a public developer API or open platform; this profile is maintained in the API Evangelist network as a portfolio lead of DCM Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boohee/refs/heads/main/screenshots/boohee-2026-07-25T203611.png",
+     "name": "besunyen",
+     "slug": "besunyen",
+     "description": "Besunyen is a Chinese consumer-health company known for herbal weight-management, functional and detox teas plus related wellness and nutrition products, surfaced as a portfolio company of Qiming and added to the API Evangelist network as a stub. Enrichment on 2026-07-18 found no public developer, API, or documentation surface — besunyen.com serves only an nginx 404 and its TLS certificate is issued for besunyen.co (hostname mismatch); the only real artifact captured is a domain-security probe.",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9209,7 +9241,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9244,9 +9276,10 @@
      "rank": 195
     },
     {
-     "name": "PlateJoy",
-     "slug": "platejoy",
-     "description": "PlateJoy is a personalized digital meal-planning and nutrition subscription service that generates customized weekly meal plans, recipes, and auto-built grocery lists from a detailed dietary and lifestyle questionnaire, with grocery-delivery hand-off. Founded in 2012 and later acquired into the Health.com / Dotdash Meredith consumer-health portfolio, it operates as a consumer-facing web and mobile app. As of this enrichment pass PlateJoy exposes no public developer API, OpenAPI, or documentation surface. The apex domain has no live web host and the www endpoint resolves to a dangling AWS load balancer, so only domain-level DNS/email security could be probed.",
+     "name": "Boohee",
+     "slug": "boohee",
+     "description": "Boohee (薄荷健康) is a Chinese consumer health-technology company focused on scientific weight management, serving a cumulative 180 million users over its ~17-year history. Its portfolio spans the Boohee Health mobile app (calorie and food tracking, diet and exercise logging, AI weight-management coaching, meal plans, smart body scales, community), Boohee Life nutritional foods and subscription services, the Boohee Life Internet Hospital (Tianjin-based telemedicine for internal and traditional Chinese medicine), and a Boohee weight-loss SaaS platform that helps hospitals stand up weight-management clinics. The company operates as a consumer mobile and content platform and does not publish a public developer API or open platform; this profile is maintained in the API Evangelist network as a portfolio lead of DCM Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boohee/refs/heads/main/screenshots/boohee-2026-07-25T203611.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9258,7 +9291,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9293,10 +9326,9 @@
      "rank": 196
     },
     {
-     "name": "SCIWIND",
-     "slug": "sciwind",
-     "description": "Sciwind Biosciences (Hangzhou Sciwind Biosciences Co., Ltd.) is a commercial-stage biopharmaceutical company headquartered in Hangzhou, China, with a US office in San Ramon, California, focused on discovering, developing, and delivering innovative therapeutics for weight management and metabolic disease. Its pipeline spans obesity, type 2 diabetes, and non-alcoholic steatohepatitis (NASH), led by the GLP-1 receptor agonist Ecnoglutide (advancing through Phase III trials). The company operates proprietary drug-discovery platforms including BiasVantage (biased agonist discovery), OralVantage (oral peptide delivery), and HaleVantage (half-life extension), with 14+ pipeline programs, 120+ researchers, and 110+ patents. Surfaced as a portfolio company of IDG Capital and added to the API Evangelist network; enrichment found no public API or developer platform surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sciwind/refs/heads/main/screenshots/sciwind-2026-09-02T154541.png",
+     "name": "PlateJoy",
+     "slug": "platejoy",
+     "description": "PlateJoy is a personalized digital meal-planning and nutrition subscription service that generates customized weekly meal plans, recipes, and auto-built grocery lists from a detailed dietary and lifestyle questionnaire, with grocery-delivery hand-off. Founded in 2012 and later acquired into the Health.com / Dotdash Meredith consumer-health portfolio, it operates as a consumer-facing web and mobile app. As of this enrichment pass PlateJoy exposes no public developer API, OpenAPI, or documentation surface. The apex domain has no live web host and the www endpoint resolves to a dangling AWS load balancer, so only domain-level DNS/email security could be probed.",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9308,7 +9340,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9343,6 +9375,56 @@
      "rank": 197
     },
     {
+     "name": "SCIWIND",
+     "slug": "sciwind",
+     "description": "Sciwind Biosciences (Hangzhou Sciwind Biosciences Co., Ltd.) is a commercial-stage biopharmaceutical company headquartered in Hangzhou, China, with a US office in San Ramon, California, focused on discovering, developing, and delivering innovative therapeutics for weight management and metabolic disease. Its pipeline spans obesity, type 2 diabetes, and non-alcoholic steatohepatitis (NASH), led by the GLP-1 receptor agonist Ecnoglutide (advancing through Phase III trials). The company operates proprietary drug-discovery platforms including BiasVantage (biased agonist discovery), OralVantage (oral peptide delivery), and HaleVantage (half-life extension), with 14+ pipeline programs, 120+ researchers, and 110+ patents. Surfaced as a portfolio company of IDG Capital and added to the API Evangelist network; enrichment found no public API or developer platform surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sciwind/refs/heads/main/screenshots/sciwind-2026-09-02T154541.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 198
+    },
+    {
      "name": "Yacob",
      "slug": "yacob",
      "description": "Yacob was a Dubai-based Intelligent Nutrition platform and 500 Global portfolio company that combined cashless school-meal payments with nutrition monitoring. Pupils paid for school meals with a stored-value card while parents topped up accounts online, tracked transactions in real time, set spend and food limits, flagged allergies, and reviewed the nutritional value of their children's meals. The company appears dormant, with yacob.com no longer resolving as of 2026, and no public API surface was ever found.",
@@ -9358,7 +9440,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9390,7 +9472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Endo Health",
@@ -9408,56 +9490,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 199
-    },
-    {
-     "name": "Getsupp",
-     "slug": "getsupp",
-     "description": "Getsupp was an India-based digital health and wellness platform offering supplement and nutrition product discovery, personalized health recommendations, and online consultations with certified experts (nutritionists, dietitians, and coaches). The company was a General Catalyst portfolio company and was subsequently absorbed into Eka.care. As of this enrichment pass the getsupp.in and getsupp.com domains no longer serve a standalone site: both resolve to Eka.io infrastructure (65.0.57.69, TLS cert altnames *.eka.io) and return HTTP 404 for all paths. No public developer portal, API documentation, OpenAPI, /.well-known/ discovery, or /llms.txt could be found. This profile is retained as a portfolio lead with no enrichable API surface.",
-     "score": 2.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9492,9 +9525,9 @@
      "rank": 200
     },
     {
-     "name": "MycroFriends",
-     "slug": "mycrofriends",
-     "description": "MycroFriends is a consumer health and wellness company that helps people become healthier through education and coaching centered on the connection between the human microbiome, nutrition, and overall health. Founded by George Cigale (previously founder of the online tutoring company Tutor.com) and headquartered in New York City, the company launched via a 2017 crowdfunding campaign and works with scientists, physicians, dietitians, and technologists to deliver microbiome education, personalized nutritional and lifestyle guidance, and access to expert health coaches. It was surfaced in the API Evangelist network as a portfolio company of Bloomberg Beta. As of this enrichment pass MycroFriends publishes no public API, developer portal, SDK, or machine-readable API surface, and its former website resolves only to a default (unconfigured) Azure App Service host.",
+     "name": "Getsupp",
+     "slug": "getsupp",
+     "description": "Getsupp was an India-based digital health and wellness platform offering supplement and nutrition product discovery, personalized health recommendations, and online consultations with certified experts (nutritionists, dietitians, and coaches). The company was a General Catalyst portfolio company and was subsequently absorbed into Eka.care. As of this enrichment pass the getsupp.in and getsupp.com domains no longer serve a standalone site: both resolve to Eka.io infrastructure (65.0.57.69, TLS cert altnames *.eka.io) and return HTTP 404 for all paths. No public developer portal, API documentation, OpenAPI, /.well-known/ discovery, or /llms.txt could be found. This profile is retained as a portfolio lead with no enrichable API surface.",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9506,7 +9539,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9541,10 +9574,9 @@
      "rank": 201
     },
     {
-     "name": "Pine Medical",
-     "slug": "pine-medical",
-     "description": "Pine Medical was a telehealth provider that offered a medication-supported weight-loss program pairing licensed clinicians with prescription therapies and ongoing patient coaching. The company was surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. An enrichment probe on 2026-07-20 found the public website (pinemedical.com) announcing that Pine Medical wound down its medication-supported weight-loss program effective March 30, 2024, and redirects former patients to alternative providers and insurance-covered options. No public API, developer portal, documentation, or machine-readable API surface was found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pine-medical/refs/heads/main/screenshots/pine-medical-2026-09-02T151257.png",
+     "name": "MycroFriends",
+     "slug": "mycrofriends",
+     "description": "MycroFriends is a consumer health and wellness company that helps people become healthier through education and coaching centered on the connection between the human microbiome, nutrition, and overall health. Founded by George Cigale (previously founder of the online tutoring company Tutor.com) and headquartered in New York City, the company launched via a 2017 crowdfunding campaign and works with scientists, physicians, dietitians, and technologists to deliver microbiome education, personalized nutritional and lifestyle guidance, and access to expert health coaches. It was surfaced in the API Evangelist network as a portfolio company of Bloomberg Beta. As of this enrichment pass MycroFriends publishes no public API, developer portal, SDK, or machine-readable API surface, and its former website resolves only to a default (unconfigured) Azure App Service host.",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9556,7 +9588,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9591,10 +9623,10 @@
      "rank": 202
     },
     {
-     "name": "Wecare Probiotics",
-     "slug": "wecare-bio",
-     "description": "Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic strain research, intelligent manufacturing, and application solutions for the food, nutrition, and agriculture industries. It operates three research institutes and five intelligent manufacturing facilities across Suzhou, Luohe, and Wuhan, producing product lines including WecLac probiotics, WecPro formula, and WecCul. Its BLa80 strain became the first probiotic strain approved for infant food in mainland China. The company presents a corporate information website only; no public developer portal, API, or technical documentation is published, so this profile carries company identity rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wecare-bio/refs/heads/main/screenshots/wecare-bio-2026-09-02T170548.png",
+     "name": "Pine Medical",
+     "slug": "pine-medical",
+     "description": "Pine Medical was a telehealth provider that offered a medication-supported weight-loss program pairing licensed clinicians with prescription therapies and ongoing patient coaching. The company was surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. An enrichment probe on 2026-07-20 found the public website (pinemedical.com) announcing that Pine Medical wound down its medication-supported weight-loss program effective March 30, 2024, and redirects former patients to alternative providers and insurance-covered options. No public API, developer portal, documentation, or machine-readable API surface was found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pine-medical/refs/heads/main/screenshots/pine-medical-2026-09-02T151257.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9606,7 +9638,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9641,9 +9673,10 @@
      "rank": 203
     },
     {
-     "name": "Weilos",
-     "slug": "weilos",
-     "description": "Weilos was a health and wellness startup surfaced as an a16z portfolio company and added to the API Evangelist network as a stub for enrichment. As of the 2026-07-21 enrichment pass the company no longer operates independently — weilos.com issues a 301 redirect to weightwatchers.com, indicating Weilos has been absorbed into WeightWatchers (WW). No independent developer surface exists — the hosts api.weilos.com, developer.weilos.com, and docs.weilos.com do not resolve in DNS, and there is no public API, OpenAPI specification, SDK, or developer portal to catalog. This profile is retained as an acquired/defunct lead with no API artifacts.",
+     "name": "Wecare Probiotics",
+     "slug": "wecare-bio",
+     "description": "Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic strain research, intelligent manufacturing, and application solutions for the food, nutrition, and agriculture industries. It operates three research institutes and five intelligent manufacturing facilities across Suzhou, Luohe, and Wuhan, producing product lines including WecLac probiotics, WecPro formula, and WecCul. Its BLa80 strain became the first probiotic strain approved for infant food in mainland China. The company presents a corporate information website only; no public developer portal, API, or technical documentation is published, so this profile carries company identity rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wecare-bio/refs/heads/main/screenshots/wecare-bio-2026-09-02T170548.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9655,7 +9688,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9690,9 +9723,9 @@
      "rank": 204
     },
     {
-     "name": "Your Super",
-     "slug": "your-superfoods",
-     "description": "Your Super (Your Superfoods, Inc.) is a direct-to-consumer plant-based superfoods brand founded in 2015 in Venice, California by Michael Kuech and Kristel de Groot. It sells functional superfood and protein mixes and bars made from five to six nutrient-dense whole-food ingredients that are certified organic, Non-GMO, glyphosate-free, and gluten-free, sold through Shopify storefronts in the US and Europe and via Amazon. The company raised roughly $22.5M across five rounds from investors including 500 Global and PowerPlant Ventures, and was acquired by The Healing Company in October 2022. It is a consumer e-commerce brand and publishes no public developer API, developer portal, or API documentation.",
+     "name": "Weilos",
+     "slug": "weilos",
+     "description": "Weilos was a health and wellness startup surfaced as an a16z portfolio company and added to the API Evangelist network as a stub for enrichment. As of the 2026-07-21 enrichment pass the company no longer operates independently — weilos.com issues a 301 redirect to weightwatchers.com, indicating Weilos has been absorbed into WeightWatchers (WW). No independent developer surface exists — the hosts api.weilos.com, developer.weilos.com, and docs.weilos.com do not resolve in DNS, and there is no public API, OpenAPI specification, SDK, or developer portal to catalog. This profile is retained as an acquired/defunct lead with no API artifacts.",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9704,7 +9737,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9739,21 +9772,21 @@
      "rank": 205
     },
     {
-     "name": "Before Brands",
-     "slug": "before-brands",
-     "description": "Before Brands, Inc. was a Menlo Park, California science-based food and nutrition company founded on Stanford allergy research by Dr. Kari Nadeau, best known for SpoonfulOne — a consumer early-allergen-introduction product line that blended sixteen commonly allergenic proteins into daily servings for infants and toddlers. Nestle Health Science took a minority stake plus ex-US licensing rights in 2019 and later absorbed the business outright. It was a consumer packaged goods company, not a software company: it never operated a developer program, published no API, SDK or webhook surface, and its own domain is now controlled by Nestle and no longer serves a site.",
-     "score": 1.8,
+     "name": "Your Super",
+     "slug": "your-superfoods",
+     "description": "Your Super (Your Superfoods, Inc.) is a direct-to-consumer plant-based superfoods brand founded in 2015 in Venice, California by Michael Kuech and Kristel de Groot. It sells functional superfood and protein mixes and bars made from five to six nutrient-dense whole-food ingredients that are certified organic, Non-GMO, glyphosate-free, and gluten-free, sold through Shopify storefronts in the US and Europe and via Amazon. The company raised roughly $22.5M across five rounds from investors including 500 Global and PowerPlant Ventures, and was acquired by The Healing Company in October 2022. It is a consumer e-commerce brand and publishes no public developer API, developer portal, or API documentation.",
+     "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 46.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9786,6 +9819,55 @@
       "agentic_commerce": false
      },
      "rank": 206
+    },
+    {
+     "name": "Before Brands",
+     "slug": "before-brands",
+     "description": "Before Brands, Inc. was a Menlo Park, California science-based food and nutrition company founded on Stanford allergy research by Dr. Kari Nadeau, best known for SpoonfulOne — a consumer early-allergen-introduction product line that blended sixteen commonly allergenic proteins into daily servings for infants and toddlers. Nestle Health Science took a minority stake plus ex-US licensing rights in 2019 and later absorbed the business outright. It was a consumer packaged goods company, not a software company: it never operated a developer program, published no API, SDK or webhook surface, and its own domain is now controlled by Nestle and no longer serves a site.",
+     "score": 1.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 207
     }
    ]
   },
@@ -9794,19 +9876,13 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Advanced Bio Development",
      "slug": "advancedbiodevelopment",
      "description": "Advanced Bio Development, Inc. (ABD) was a New Jersey beverage and dietary-supplement company headquartered in Englewood Cliffs, NJ. It developed, produced and marketed X2PERFORMANCE, a patented all-natural liquid sports-energy supplement built around ATP, created by founder Dr. Ralph Ferrante as an alternative to conventional performance stimulants, and distributed in part through Anheuser-Busch InBev's AB ONE network. The company sold consumer packaged goods through retail and e-commerce; software was never its product and it never operated a developer program, public API, SDK or developer portal. In March 2023 X2 Performance merged into the Don't Quit! beverage platform — ABD and existing X2 investors became shareholders in Don't Quit!, X2 CEO Mark French took the same role at the combined company, and Keurig Dr Pepper remained majority owner — after which the X2 brand was wound down. The brand domain x2performance.com is no longer controlled by the company: WHOIS lists the registrant organization as HugeDomains.com and the site 302s to a domain-resale listing, while advancedbiodevelopment.com does not resolve. This record is retained as an honest zero — a consumer-packaged-goods company with no API surface, whose only remaining public presence is third-party listings.",
-     "rank": 207
-    },
-    {
-     "name": "AHARA",
-     "slug": "ahara",
-     "description": "AHARA is a Los Angeles personalized-nutrition company founded in 2022 by physician nutritionist Dr. Melina Jampolis and The RealReal founder Julie Wainwright, funded with a $10.25M seed round led by Greycroft. It pairs a health questionnaire and at-home genetic, epigenetic and blood-biomarker testing with registered-dietitian guidance and a consumer app (Food Health Rx) that turns the results into a personalized food-as-medicine plan, sold direct to consumers and through employers, health plans and providers. In late 2024 the company rebranded as Food Health Collective and moved its web presence to foodhealthcollective.org; the original ahara.com domain is now registrar-suspended (clientHold, NXDOMAIN) and the ahara.health Squarespace site has expired. AHARA operates no developer program: there is no portal, no documentation, no API reference, no public package, no GitHub organization and no machine-readable contract on any host it controls.",
      "rank": 208
     }
    ]

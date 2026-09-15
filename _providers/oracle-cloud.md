@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -333,14 +358,17 @@ common:
   type: ContributionGuide
   url: https://github.com/oracle/oci-cli/blob/master/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/agentic-access/oracle-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oracle-cloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/security/oracle-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-cloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/authentication/oracle-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-cloud-authentication.yml
@@ -349,74 +377,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oracle-cloud-infrastructure/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-add-secured-subnet-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-add-secured-subnet-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-create-bucket-and-upload-object-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-create-bucket-and-upload-object-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-create-metric-alarm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-create-metric-alarm-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-deploy-and-invoke-function-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-deploy-and-invoke-function-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-find-image-and-launch-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-find-image-and-launch-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-launch-instance-with-volume-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-launch-instance-with-volume-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-onboard-iam-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-onboard-iam-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-provision-autonomous-database-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-provision-autonomous-database-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-provision-oke-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-provision-oke-cluster-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-provision-vcn-network-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-provision-vcn-network-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-resize-instance-shape-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-resize-instance-shape-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-restart-autonomous-database-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-restart-autonomous-database-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-share-object-via-par-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-share-object-via-par-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-stop-and-terminate-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-stop-and-terminate-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-summarize-instance-cpu-metrics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-summarize-instance-cpu-metrics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-teardown-functions-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-teardown-functions-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-teardown-oke-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-teardown-oke-cluster-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/arazzo/oracle-cloud-teardown-vcn-network-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-cloud-teardown-vcn-network-workflow.yml
@@ -525,182 +571,227 @@ common:
   type: GitHubRepository
   url: https://github.com/oracle/terraform-provider-oci
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/rules/oracle-cloud-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/oracle-cloud-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/vocabulary/oracle-cloud-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/oracle-cloud-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-iam-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-iam-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-database-create-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-database-create-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-monitoring-summarize-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-monitoring-summarize-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-iam-update-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-iam-update-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-oke-create-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-oke-create-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-oke-node-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-oke-node-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-functions-function-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-functions-function-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-networking-update-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-networking-update-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-database-db-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-database-db-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-functions-application-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-functions-application-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-functions-create-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-functions-create-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-object-storage-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-object-storage-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-compute-update-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-compute-update-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-database-autonomous-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-database-autonomous-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-oke-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-oke-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-monitoring-update-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-monitoring-update-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-networking-route-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-networking-route-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-compute-launch-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-compute-launch-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-compute-volume-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-compute-volume-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-monitoring-create-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-monitoring-create-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-monitoring-metric-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-monitoring-metric-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-compute-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-compute-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-functions-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-functions-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-oke-cluster-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-oke-cluster-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-networking-internet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-networking-internet-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-monitoring-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-monitoring-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-compute-attach-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-compute-attach-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-iam-create-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-iam-create-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-database-update-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-database-update-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-networking-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-networking-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-networking-create-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-networking-create-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-oke-update-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-oke-update-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-networking-security-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-networking-security-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/json-ld/oracle-cloud-monitoring-alarm-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-monitoring-alarm-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-core-services-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-core-services-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-identity-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-identity-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-object-storage-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-object-storage-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-database-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-database-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-kubernetes-engine-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-kubernetes-engine-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-monitoring-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-monitoring-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-functions-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-functions-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-events-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-events-openapi.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/_original/oracle-cloud-notifications-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/oracle-cloud-notifications-openapi.yaml
@@ -713,118 +804,147 @@ common:
   type: SignUp
   url: https://www.oracle.com/cloud/free/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/packages/oracle-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/oracle-cloud-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/packages/oracle-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/oracle-cloud-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/mcp/oracle-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/oracle-cloud-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/mcp/oracle-cloud-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/oracle-cloud-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/llms/oracle-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oracle-cloud-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/conventions/oracle-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oracle-cloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/conventions/oracle-cloud-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/oracle-cloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/errors/oracle-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oracle-cloud-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/lifecycle/oracle-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oracle-cloud-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/lifecycle/oracle-cloud-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/oracle-cloud-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/changelog/oracle-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oracle-cloud-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/cli/oracle-cloud-cli.yml
   title: ''
   type: CLI
   url: cli/oracle-cloud-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/data-model/oracle-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oracle-cloud-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/asyncapi/oracle-cloud-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/oracle-cloud-events-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/conformance/oracle-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oracle-cloud-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/conformance/oracle-cloud-conformance.yml
   title: ''
   type: Compliance
   url: conformance/oracle-cloud-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/security/oracle-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oracle-cloud-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/security/oracle-cloud-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/oracle-cloud-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/security/oracle-cloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oracle-cloud-trust-center.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-core-services-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-core-services-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-identity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-identity-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-object-storage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-object-storage-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-database-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-database-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-kubernetes-engine-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-kubernetes-engine-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-monitoring-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-monitoring-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-functions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-functions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/overlays/oracle-cloud-notifications-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-cloud-notifications-overlay.yaml
@@ -1993,6 +2113,41 @@ rules:
     info: 5
     warn: 12
   slug: oracle-cloud-spectral-rules
+score:
+  band: exemplar
+  composite: 71.1
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 82.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 42.3
+    developer_ergonomics: 83.9
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 71.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 33
+      marker_coverage: 100.0
+      total: 33
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:
 - kind: authentication

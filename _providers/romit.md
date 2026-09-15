@@ -94,38 +94,47 @@ common:
   type: Website
   url: https://romit.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/authentication/romit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/romit-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/scopes/romit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/romit-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/errors/romit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/romit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/conventions/romit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/romit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/data-model/romit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/romit-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/packages/romit-packages.yml
   title: ''
   type: Packages
   url: packages/romit-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/sandbox/romit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/romit-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/conformance/romit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/romit-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/security/romit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/romit-domain-security.yml

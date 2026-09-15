@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -141,50 +167,62 @@ common:
   type: Website
   url: https://www.demandbase.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-b2b-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-b2b-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-data-export-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-data-export-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-data-import-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-data-import-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-intent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-intent-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-admin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-usage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-usage-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-custom-sources-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-custom-sources-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/overlays/demandbase-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demandbase-auth-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/agentic-access/demandbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/demandbase-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/security/demandbase-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/demandbase-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/security/demandbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/demandbase-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/authentication/demandbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/demandbase-authentication.yml
@@ -237,34 +275,42 @@ common:
   type: Signup
   url: https://www.demandbase.com/products/data/api-integration/api-trial/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/vocabulary/demandbase-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/demandbase-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/packages/demandbase-packages.yml
   title: ''
   type: Packages
   url: packages/demandbase-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/packages/demandbase-packages.yml
   title: ''
   type: SDKs
   url: packages/demandbase-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/well-known/demandbase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/demandbase-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/mcp/demandbase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/demandbase-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/mcp/demandbase-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/demandbase-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/llms/demandbase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demandbase-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/conformance/demandbase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/demandbase-conformance.yml
@@ -273,14 +319,17 @@ common:
   type: Compliance
   url: https://trust.demandbase.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/errors/demandbase-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/demandbase-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/errors/demandbase-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/demandbase-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/lifecycle/demandbase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/demandbase-lifecycle.yml
@@ -289,38 +338,47 @@ common:
   type: Deprecation
   url: https://developer.demandbase.com/docs/migrating-from-legacy-tokens-to-api-keysets
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/scopes/demandbase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/demandbase-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/conventions/demandbase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/demandbase-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/changelog/demandbase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/demandbase-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/data-model/demandbase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/demandbase-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/asyncapi/demandbase-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/demandbase-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/rate-limits/demandbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/demandbase-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/plans/demandbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/demandbase-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/finops/demandbase-finops.yml
   title: ''
   type: FinOps
   url: finops/demandbase-finops.yml
@@ -401,6 +459,41 @@ scopes:
   scope_count: 4
   slug: demandbase-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 53.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 61.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 22.0
+    contract_quality: 63.2
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    operational_transparency: 69.7
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 87.5
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
 security:
 - kind: authentication

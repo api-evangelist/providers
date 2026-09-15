@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
@@ -141,6 +166,7 @@ collections:
   slug: open-venminder-digital-comply-venmonitor-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/capabilities/venminder-digital-comply-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/venminder-digital-comply-capability-edges.yml
@@ -193,38 +219,47 @@ common:
   type: StatusPage
   url: https://status.venminder.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/postman/venminder-digital-comply-postman-collection.json
   title: ''
   type: Postman
   url: postman/venminder-digital-comply-postman-collection.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/authentication/venminder-digital-comply-authentication.yml
   title: ''
   type: Authentication
   url: authentication/venminder-digital-comply-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/scopes/venminder-digital-comply-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/venminder-digital-comply-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/well-known/venminder-digital-comply-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/venminder-digital-comply-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/well-known/venminder-digital-comply-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/venminder-digital-comply-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/mcp/venminder-digital-comply-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/venminder-digital-comply-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/llms/venminder-digital-comply-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/venminder-digital-comply-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/overlays/venminder-digital-comply-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/venminder-digital-comply-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/conformance/venminder-digital-comply-conformance.yml
   title: ''
   type: Conformance
   url: conformance/venminder-digital-comply-conformance.yml
@@ -233,26 +268,32 @@ common:
   type: Compliance
   url: https://www.venminder.com/about/legal
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/errors/venminder-digital-comply-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/venminder-digital-comply-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/lifecycle/venminder-digital-comply-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/venminder-digital-comply-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/conventions/venminder-digital-comply-conventions.yml
   title: ''
   type: Conventions
   url: conventions/venminder-digital-comply-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/data-model/venminder-digital-comply-data-model.yml
   title: ''
   type: DataModel
   url: data-model/venminder-digital-comply-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/security/venminder-digital-comply-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/venminder-digital-comply-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -274,6 +315,40 @@ scopes:
   scope_count: 1
   slug: venminder-digital-comply-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: developing
+  composite: 44.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 49.4
+    developer_ergonomics: 60.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 44.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/screenshots/venminder-digital-comply-2026-08-17T082723.png
 security:
 - kind: authentication

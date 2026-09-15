@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -95,6 +120,7 @@ common:
   type: License
   url: https://github.com/seranking/openapi/blob/main/LICENSE
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/_original/se-ranking-data-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/se-ranking-data-api-openapi.yml
@@ -103,66 +129,82 @@ common:
   type: SourceCode
   url: https://github.com/seranking/openapi
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/mcp/se-ranking-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/se-ranking-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/mcp/se-ranking-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/se-ranking-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/well-known/se-ranking-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/se-ranking-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/scopes/se-ranking-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/se-ranking-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/conventions/se-ranking-conventions.yml
   title: ''
   type: Conventions
   url: conventions/se-ranking-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/errors/se-ranking-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/se-ranking-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/lifecycle/se-ranking-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/se-ranking-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/conformance/se-ranking-conformance.yml
   title: ''
   type: Conformance
   url: conformance/se-ranking-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/data-model/se-ranking-data-model.yml
   title: ''
   type: DataModel
   url: data-model/se-ranking-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/packages/se-ranking-packages.yml
   title: ''
   type: Packages
   url: packages/se-ranking-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/changelog/se-ranking-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/se-ranking-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/llms/se-ranking-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/se-ranking-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/agentic-access/se-ranking-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/se-ranking-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/security/se-ranking-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/se-ranking-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/authentication/se-ranking-authentication.yml
   title: ''
   type: Authentication
   url: authentication/se-ranking-authentication.yml
@@ -235,14 +277,17 @@ common:
   type: StatusPage
   url: https://status.seranking.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/plans/se-ranking-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/se-ranking-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/rate-limits/se-ranking-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/se-ranking-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/finops/se-ranking-finops.yml
   title: ''
   type: FinOps
   url: finops/se-ranking-finops.yml
@@ -328,6 +373,41 @@ scopes:
   scope_count: 1
   slug: se-ranking-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 60.4
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 75.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 14.4
+    contract_quality: 59.2
+    developer_ergonomics: 66.7
+    discoverability: 68.5
+    operational_transparency: 57.9
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
 security:
 - kind: authentication

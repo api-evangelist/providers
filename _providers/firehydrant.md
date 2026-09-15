@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 1
@@ -161,18 +186,22 @@ collections:
   slug: open-firehydrant
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/agentic-access/firehydrant-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/firehydrant-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/security/firehydrant-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/firehydrant-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/security/firehydrant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firehydrant-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/authentication/firehydrant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/firehydrant-authentication.yml
@@ -197,10 +226,12 @@ common:
   type: Blog
   url: https://firehydrant.com/rss.xml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/firehydrant-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/overlays/firehydrant-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firehydrant-api-overlay.yaml
@@ -241,6 +272,7 @@ common:
   type: StatusPage
   url: https://status.firehydrant.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/lifecycle/firehydrant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/firehydrant-lifecycle.yml
@@ -249,6 +281,7 @@ common:
   type: ChangeLog
   url: https://firehydrant.com/changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/changelog/firehydrant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/firehydrant-changelog.yml
@@ -257,6 +290,7 @@ common:
   type: Security
   url: https://firehydrant.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/security/firehydrant-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/firehydrant-vulnerability-disclosure.yml
@@ -265,62 +299,77 @@ common:
   type: Compliance
   url: https://firehydrant.com/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/conformance/firehydrant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/firehydrant-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/packages/firehydrant-packages.yml
   title: ''
   type: Packages
   url: packages/firehydrant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/packages/firehydrant-packages.yml
   title: ''
   type: SDKs
   url: packages/firehydrant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/cli/firehydrant-cli.yml
   title: ''
   type: CLI
   url: cli/firehydrant-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/mcp/firehydrant-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/firehydrant-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/mcp/firehydrant-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/firehydrant-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/llms/firehydrant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/firehydrant-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/asyncapi/firehydrant-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/firehydrant-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/conventions/firehydrant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/firehydrant-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/errors/firehydrant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/firehydrant-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/data-model/firehydrant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/firehydrant-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/rate-limits/firehydrant-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/firehydrant-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/plans/firehydrant-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/firehydrant-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/finops/firehydrant-finops.yml
   title: ''
   type: FinOps
   url: finops/firehydrant-finops.yml
@@ -360,6 +409,41 @@ rate_limits:
 - limit_count: 1
   name: Firehydrant Rate Limits
   slug: firehydrant-rate-limits
+score:
+  band: strong
+  composite: 65.5
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 65.5
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 65.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 94.1
+      derived: 0
+      marker_coverage: 5.9
+      total: 17
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/screenshots/firehydrant-2026-06-20T181235.png
 security:
 - kind: authentication

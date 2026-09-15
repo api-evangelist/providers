@@ -9,6 +9,31 @@ access_model:
   - https://www.orum.com/pricing
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 7
 asyncapis:
@@ -17,26 +42,32 @@ asyncapis:
   slug: orum-com-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/security/orum-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/orum-com-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/security/orum-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orum-com-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/asyncapi/orum-com-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/orum-com-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/authentication/orum-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orum-com-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/conventions/orum-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orum-com-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/changelog/orum-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orum-com-changelog.yml
@@ -45,38 +76,47 @@ common:
   type: ChangeLog
   url: https://www.orum.com/product-updates
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/lifecycle/orum-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orum-com-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/security/orum-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/orum-com-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/conformance/orum-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orum-com-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/plans/orum-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orum-com-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/rate-limits/orum-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orum-com-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/sandbox/orum-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orum-com-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/packages/orum-com-packages.yml
   title: ''
   type: Packages
   url: packages/orum-com-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/components/orum-com-components.yml
   title: ''
   type: Components
   url: components/orum-com-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/llms/orum-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orum-com-llms.txt
@@ -193,6 +233,34 @@ rate_limits:
 - limit_count: 0
   name: Orum Com Rate Limits
   slug: orum-com-rate-limits
+score:
+  band: developing
+  composite: 47.6
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 47.6
+    discoverability: 50.0
+    operational_transparency: 52.6
+  previous_composite: 47.6
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/orum-com/refs/heads/main/screenshots/orum-com-2026-08-07T190956.png
 security:
 - kind: authentication

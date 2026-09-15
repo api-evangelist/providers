@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,10 +71,12 @@ common:
   type: Website
   url: https://www.ketryx.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/overlays/ketryx-build-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ketryx-build-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/agentic-access/ketryx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ketryx-agentic-access.yml
@@ -106,38 +133,47 @@ common:
   type: Compliance
   url: https://trust.ketryx.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/llms/ketryx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ketryx-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/packages/ketryx-packages.yml
   title: ''
   type: Packages
   url: packages/ketryx-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/packages/ketryx-packages.yml
   title: ''
   type: SDKs
   url: packages/ketryx-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/authentication/ketryx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ketryx-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/conformance/ketryx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ketryx-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/lifecycle/ketryx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ketryx-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/security/ketryx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ketryx-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/mcp/ketryx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ketryx-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,6 +190,51 @@ overview: 'Ketryx publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
   Ketryx''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 7
+score:
+  band: thin
+  composite: 35.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 14.3
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 35.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 43.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
 security:
 - kind: authentication

@@ -40,6 +40,7 @@ common:
   type: JSONSchema
   url: https://raw.githubusercontent.com/api-evangelist/rest/refs/heads/main/json-schema/rest-api-schema.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rest-services/refs/heads/main/security/rest-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rest-services-domain-security.yml

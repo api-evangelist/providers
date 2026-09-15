@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 37.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.agentpaid.io/api/v2
@@ -200,6 +225,7 @@ collections:
   slug: open-paid-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/overlays/paid-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paid-v1-overlay.yaml
@@ -248,70 +274,87 @@ common:
   type: PrivacyPolicy
   url: https://paid.ai/legal/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/authentication/paid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paid-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/security/paid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paid-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/packages/paid-packages.yml
   title: ''
   type: Packages
   url: packages/paid-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/packages/paid-packages.yml
   title: ''
   type: SDKs
   url: packages/paid-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/cli/paid-cli.yml
   title: ''
   type: CLI
   url: cli/paid-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/components/paid-components.yml
   title: ''
   type: Components
   url: components/paid-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/well-known/paid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paid-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/mcp/paid-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/paid-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/llms/paid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paid-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/conformance/paid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paid-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/errors/paid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paid-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/lifecycle/paid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paid-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/conventions/paid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paid-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/data-model/paid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paid-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/sandbox/paid-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/paid-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/asyncapi/paid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paid-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -335,6 +378,46 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
   Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 15
+score:
+  band: strong
+  composite: 59.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 62.9
+    developer_ergonomics: 81.0
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 59.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:
 - kind: authentication

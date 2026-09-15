@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -209,6 +235,7 @@ collections:
   slug: open-happyrobot-public-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/capabilities/happyrobot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/happyrobot-capability-edges.yml
@@ -281,98 +308,122 @@ common:
   type: Security
   url: https://happyrobot.ai/.well-known/security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/packages/happyrobot-packages.yml
   title: ''
   type: Packages
   url: packages/happyrobot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/packages/happyrobot-packages.yml
   title: ''
   type: SDKs
   url: packages/happyrobot-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/well-known/happyrobot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/happyrobot-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/well-known/happyrobot-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/happyrobot-security.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/well-known/happyrobot-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/happyrobot-openid-configuration.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/authentication/happyrobot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/happyrobot-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/scopes/happyrobot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/happyrobot-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/conventions/happyrobot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/happyrobot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/errors/happyrobot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/happyrobot-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/lifecycle/happyrobot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/happyrobot-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/conformance/happyrobot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/happyrobot-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/security/happyrobot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/happyrobot-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/security/happyrobot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/happyrobot-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/security/happyrobot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/happyrobot-trust-center.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/sandbox/happyrobot-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/happyrobot-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/data-model/happyrobot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/happyrobot-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/asyncapi/happyrobot-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/happyrobot-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/mcp/happyrobot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/happyrobot-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/mcp/happyrobot-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/happyrobot-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/agentic-access/happyrobot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/happyrobot-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/llms/happyrobot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/happyrobot-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/components/happyrobot-components.yml
   title: ''
   type: Components
   url: components/happyrobot-components.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/overlays/happyrobot-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/happyrobot-public-api-overlay.yaml
@@ -412,6 +463,41 @@ scopes:
   scope_count: 8
   slug: happyrobot-scopes
   summary_line: 8 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 42.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 57.9
+    developer_ergonomics: 35.1
+    discoverability: 70.4
+    operational_transparency: 31.6
+  previous_composite: 42.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 33
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png
 security:
 - kind: authentication

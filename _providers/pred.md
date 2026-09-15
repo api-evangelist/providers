@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -89,14 +114,17 @@ collections:
   slug: open-pred-websocket-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/security/pred-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pred-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/agentic-access/pred-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pred-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/authentication/pred-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pred-authentication.yml
@@ -145,50 +173,62 @@ common:
   type: PrivacyPolicy
   url: https://www.pred.app/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/llms/pred-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pred-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/conventions/pred-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pred-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/errors/pred-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pred-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/lifecycle/pred-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pred-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/conformance/pred-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pred-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/data-model/pred-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pred-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/mcp/pred-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pred-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/overlays/pred-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pred-openapi-overlay.yaml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/sandbox/pred-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pred-sandbox.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/asyncapi/pred-realtime-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/pred-realtime-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/arazzo/pred-trading.yml
   title: ''
   type: Arazzo
   url: arazzo/pred-trading.yml
@@ -220,6 +260,47 @@ overview: 'Pred publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
   Pred''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 43.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 60.8
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 43.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 41.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/screenshots/pred-2026-08-17T081353.png
 security:
 - kind: authentication

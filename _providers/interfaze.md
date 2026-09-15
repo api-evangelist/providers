@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: near-conformant
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -38,6 +63,7 @@ common:
   type: Website
   url: https://www.interfaze.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/a2a/interfaze-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/interfaze-a2a.yml
@@ -90,62 +116,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/InterfazeAI
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/llms/interfaze-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/interfaze-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/well-known/interfaze-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/interfaze-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/mcp/interfaze-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/interfaze-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/overlays/interfaze-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/interfaze-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/conformance/interfaze-conformance.yml
   title: ''
   type: Conformance
   url: conformance/interfaze-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/errors/interfaze-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/interfaze-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/lifecycle/interfaze-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/interfaze-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/conventions/interfaze-conventions.yml
   title: ''
   type: Conventions
   url: conventions/interfaze-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/conventions/interfaze-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/interfaze-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/changelog/interfaze-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/interfaze-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/data-model/interfaze-data-model.yml
   title: ''
   type: DataModel
   url: data-model/interfaze-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/agentic-access/interfaze-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/interfaze-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/authentication/interfaze-authentication.yml
   title: ''
   type: Authentication
   url: authentication/interfaze-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/security/interfaze-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interfaze-domain-security.yml
@@ -162,6 +203,46 @@ overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network:
 
   Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 46.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 56.5
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/screenshots/interfaze-2026-07-25T222700.png
 security:
 - kind: authentication

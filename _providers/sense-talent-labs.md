@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://partner-api.sensehq.com/v1
@@ -78,10 +103,12 @@ asyncapis:
   slug: sense-talent-labs-writeback-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/capabilities/sense-talent-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sense-talent-labs-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/overlays/sense-talent-labs-sense-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sense-talent-labs-sense-api-overlay.yaml
@@ -130,6 +157,7 @@ common:
   type: Security
   url: https://www.sensehq.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/security/sense-talent-labs-trust-center.yml
   title: ''
   type: Compliance
   url: security/sense-talent-labs-trust-center.yml
@@ -138,70 +166,87 @@ common:
   type: TrustCenter
   url: https://trust.warden-ai.com/sense/candidate-matching
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/security/sense-talent-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sense-talent-labs-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/lifecycle/sense-talent-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sense-talent-labs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/changelog/sense-talent-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sense-talent-labs-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/conventions/sense-talent-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sense-talent-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/conventions/sense-talent-labs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sense-talent-labs-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/authentication/sense-talent-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sense-talent-labs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/scopes/sense-talent-labs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sense-talent-labs-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/conformance/sense-talent-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sense-talent-labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/errors/sense-talent-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sense-talent-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/data-model/sense-talent-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sense-talent-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/asyncapi/sense-talent-labs-writeback-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sense-talent-labs-writeback-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/plans/sense-talent-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sense-talent-labs-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/rate-limits/sense-talent-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sense-talent-labs-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/packages/sense-talent-labs-packages.yml
   title: ''
   type: Packages
   url: packages/sense-talent-labs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/llms/sense-talent-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sense-talent-labs-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/security/sense-talent-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sense-talent-labs-domain-security.yml
@@ -234,6 +279,40 @@ scopes:
   scope_count: 1
   slug: sense-talent-labs-scopes
   summary_line: 1 scope
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 4.5
+    contract_quality: 63.9
+    developer_ergonomics: 47.0
+    discoverability: 68.5
+    operational_transparency: 81.6
+  previous_composite: 60.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/screenshots/sense-talent-labs-2026-09-02T154856.png
 security:
 - kind: authentication

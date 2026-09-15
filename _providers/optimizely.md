@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -2365,62 +2391,77 @@ collections:
   slug: open-optimizely-web-experimentation
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/capabilities/optimizely-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/optimizely-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-feature-experimentation-flags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-feature-experimentation-flags-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-flags-scheduling-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-flags-scheduling-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-permission-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-permission-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-agent-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-event-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-event-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-edge-decider-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-edge-decider-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-odp-advanced-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-odp-advanced-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-graph-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-graph-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-cmp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-cmp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-campaign-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-campaign-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-configured-commerce-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-configured-commerce-admin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-cms-content-delivery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-cms-content-delivery-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-content-recommendations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-content-recommendations-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/well-known/optimizely-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/optimizely-well-known.yml
@@ -2429,54 +2470,67 @@ common:
   type: APICatalog
   url: https://docs.developers.optimizely.com/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/mcp/optimizely-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/optimizely-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/mcp/optimizely-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/optimizely-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/llms/optimizely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/optimizely-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/packages/optimizely-packages.yml
   title: ''
   type: Packages
   url: packages/optimizely-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/packages/optimizely-packages.yml
   title: ''
   type: SDKs
   url: packages/optimizely-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/cli/optimizely-cli.yml
   title: ''
   type: CLI
   url: cli/optimizely-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/components/optimizely-components.yml
   title: ''
   type: Components
   url: components/optimizely-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/sandbox/optimizely-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/optimizely-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/conventions/optimizely-conventions.yml
   title: ''
   type: Conventions
   url: conventions/optimizely-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/errors/optimizely-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/optimizely-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/data-model/optimizely-data-model.yml
   title: ''
   type: DataModel
   url: data-model/optimizely-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/conformance/optimizely-conformance.yml
   title: ''
   type: Conformance
   url: conformance/optimizely-conformance.yml
@@ -2489,6 +2543,7 @@ common:
   type: Security
   url: https://www.optimizely.com/trust-center/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/lifecycle/optimizely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/optimizely-lifecycle.yml
@@ -2497,26 +2552,32 @@ common:
   type: StatusPage
   url: https://status.optimizely.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/changelog/optimizely-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/optimizely-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/asyncapi/optimizely-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/optimizely-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/asyncapi/optimizely-feature-experimentation-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/optimizely-feature-experimentation-asyncapi.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/rate-limits/optimizely-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/optimizely-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/plans/optimizely-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/optimizely-plans-pricing.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/overlays/optimizely-experimentation-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/optimizely-experimentation-v2-overlay.yaml
@@ -2549,6 +2610,7 @@ common:
   type: Community
   url: https://world.optimizely.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/vocabulary/optimizely-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/optimizely-vocabulary.yml
@@ -2557,26 +2619,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/optimizely/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/agentic-access/optimizely-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/optimizely-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/security/optimizely-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/optimizely-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/security/optimizely-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/optimizely-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/security/optimizely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/optimizely-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/authentication/optimizely-authentication.yml
   title: ''
   type: Authentication
   url: authentication/optimizely-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/scopes/optimizely-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/optimizely-scopes.yml
@@ -2934,6 +3002,41 @@ scopes:
   scope_count: 6
   slug: optimizely-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: exemplar
+  composite: 77.4
+  coverage:
+    artifact_dirs: 35
+    catalog_earned: 72.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 66.9
+    developer_ergonomics: 67.9
+    discoverability: 87.0
+    operational_transparency: 84.2
+  previous_composite: 77.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 97.1
+      derived: 0
+      marker_coverage: 0.0
+      total: 419
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png
 security:
 - kind: authentication

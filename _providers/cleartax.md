@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: Generate, cancel, and retrieve GST e-invoices (IRN) and e-waybills, including government IRP/NIC-compatible endpoints, DSC PDF signing, and bulk operations.
@@ -31,14 +56,17 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/security/cleartax-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cleartax-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/well-known/cleartax-security.txt
   title: ''
   type: Security
   url: well-known/cleartax-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/security/cleartax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cleartax-domain-security.yml
@@ -87,34 +115,42 @@ common:
   type: Postman
   url: https://docs.cleartax.in/cleartax-docs/max-itc-api/max-itc-api-reference/max-itc-apis/postman-collection
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/llms/cleartax-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cleartax-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/well-known/cleartax-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cleartax-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/well-known/cleartax-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cleartax-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/authentication/cleartax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cleartax-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/sandbox/cleartax-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cleartax-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/conventions/cleartax-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cleartax-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/lifecycle/cleartax-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cleartax-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/errors/cleartax-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/cleartax-error-codes.yml
@@ -131,6 +167,45 @@ overview: 'Cleartax publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
   Cleartax''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 15 more developer resources.'
 random_paper: 12
+score:
+  band: thin
+  composite: 36.1
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 66.7
+    discoverability: 81.5
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 36.1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 48.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png
 security:
 - kind: authentication

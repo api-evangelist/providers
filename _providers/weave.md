@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -89,14 +114,17 @@ collections:
   slug: open-weave-scheduling-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/capabilities/weave-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/weave-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/weave-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weave-domain-security.yml
@@ -157,58 +185,72 @@ common:
   type: Compliance
   url: https://www.getweave.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/authentication/weave-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weave-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/scopes/weave-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/weave-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/well-known/weave-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/weave-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/well-known/weave-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/weave-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/weave-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/conformance/weave-conformance.yml
   title: ''
   type: Conformance
   url: conformance/weave-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/lifecycle/weave-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/weave-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/llms/weave-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/weave-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/agentic-access/weave-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weave-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/weave-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/weave-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weave-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/authentication/weave-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weave-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/scopes/weave-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/weave-scopes.yml
@@ -229,50 +271,62 @@ common:
   type: Documentation
   url: https://dp.getweave.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/plans/weave-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/weave-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/rate-limits/weave-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/weave-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/finops/weave-finops.yml
   title: ''
   type: FinOps
   url: finops/weave-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/agentic-access/weave-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weave-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/weave-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/weave-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/security/weave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weave-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/authentication/weave-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weave-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/scopes/weave-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/weave-scopes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/plans/weave-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/weave-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/rate-limits/weave-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/weave-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/finops/weave-finops.yml
   title: ''
   type: FinOps
   url: finops/weave-finops.yml
@@ -306,6 +360,49 @@ scopes:
   scope_count: 3
   slug: weave-scopes
   summary_line: 3 scopes
+score:
+  band: strong
+  composite: 64.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 53.3
+    developer_ergonomics: 33.3
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 64.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 66.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/screenshots/weave-2026-08-17T082900.png
 security:
 - kind: authentication

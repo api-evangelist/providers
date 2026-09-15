@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 api_count: 35
 apis:
 - baseURL: https://apis.creatoriq.com
@@ -174,6 +199,7 @@ collections:
   slug: open-creatoriq-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/capabilities/creatoriq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/creatoriq-capability-edges.yml
@@ -198,6 +224,7 @@ common:
   type: GettingStarted
   url: https://apidocs.creatoriq.com/docs/ciq-api-documentation/05lf89tv60rvy-introduction-to-api-keys
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/authentication/creatoriq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/creatoriq-authentication.yml
@@ -214,6 +241,7 @@ common:
   type: Pricing
   url: https://www.creatoriq.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/plans/creatoriq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/creatoriq-plans-pricing.yml
@@ -234,10 +262,12 @@ common:
   type: Security
   url: https://www.creatoriq.com/legal/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/security/creatoriq-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/creatoriq-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/security/creatoriq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/creatoriq-trust-center.yml
@@ -246,6 +276,7 @@ common:
   type: Compliance
   url: https://www.creatoriq.com/trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/security/creatoriq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/creatoriq-domain-security.yml
@@ -258,6 +289,7 @@ common:
   type: Deprecation
   url: https://apidocs.creatoriq.com/docs/ciq-api-documentation/o5yqwvpp1lbnb-overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/lifecycle/creatoriq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/creatoriq-lifecycle.yml
@@ -266,46 +298,57 @@ common:
   type: ChangeLog
   url: https://apidocs.creatoriq.com/docs/ciq-api-documentation/6b7999d265a29-changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/changelog/creatoriq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/creatoriq-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/rate-limits/creatoriq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/creatoriq-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/conventions/creatoriq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/creatoriq-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/errors/creatoriq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/creatoriq-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/conformance/creatoriq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/creatoriq-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/data-model/creatoriq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/creatoriq-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/sandbox/creatoriq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/creatoriq-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/asyncapi/creatoriq-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/creatoriq-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/llms/creatoriq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/creatoriq-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/overlays/_index.yml
   title: ''
   type: Overlay
   url: overlays/_index.yml
@@ -334,6 +377,52 @@ rate_limits:
 - limit_count: 2
   name: Creatoriq Rate Limits
   slug: creatoriq-rate-limits
+score:
+  band: strong
+  composite: 65.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 69.4
+    developer_ergonomics: 66.1
+    discoverability: 68.5
+    operational_transparency: 78.9
+  previous_composite: 65.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/screenshots/creatoriq-2026-08-17T080838.png
 security:
 - kind: authentication

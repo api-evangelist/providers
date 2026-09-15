@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -168,6 +193,7 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/overlays/microsoft-power-automate-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-power-automate-management-api-overlay.yaml
@@ -176,78 +202,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-power-automate/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/agentic-access/microsoft-power-automate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-power-automate-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/security/microsoft-power-automate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-power-automate-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/authentication/microsoft-power-automate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-power-automate-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/scopes/microsoft-power-automate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-power-automate-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/packages/microsoft-power-automate-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-power-automate-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/well-known/microsoft-power-automate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-power-automate-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/well-known/microsoft-power-automate-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-power-automate-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/mcp/microsoft-power-automate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/microsoft-power-automate-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/llms/microsoft-power-automate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-power-automate-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/conformance/microsoft-power-automate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-power-automate-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/errors/microsoft-power-automate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-power-automate-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/lifecycle/microsoft-power-automate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-power-automate-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/security/microsoft-power-automate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-power-automate-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/security/microsoft-power-automate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-power-automate-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/conventions/microsoft-power-automate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-power-automate-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/changelog/microsoft-power-automate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-power-automate-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/cli/microsoft-power-automate-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-power-automate-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/components/microsoft-power-automate-components.yml
   title: ''
   type: Components
   url: components/microsoft-power-automate-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/data-model/microsoft-power-automate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-power-automate-data-model.yml
@@ -292,50 +337,62 @@ common:
   type: GitHubRepository
   url: https://github.com/microsoft/PowerApps-Samples
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/json-ld/microsoft-power-automate-management-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-power-automate-management-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/rules/microsoft-power-automate-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-power-automate-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/vocabulary/microsoft-power-automate-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-power-automate-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-environment-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-environment-inventory-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-provision-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-provision-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-safe-update-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-safe-update-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-retire-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-retire-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-triage-failed-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-triage-failed-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-cancel-running-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-cancel-running-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-manage-flow-owners-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-manage-flow-owners-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-connector-dependency-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-connector-dependency-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-flow-callback-url-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-flow-callback-url-workflow.yml
@@ -472,6 +529,46 @@ scopes:
   scope_count: 1
   slug: microsoft-power-automate-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 54.8
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 74.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 33.3
+    contract_quality: 31.7
+    developer_ergonomics: 60.7
+    discoverability: 72.2
+    operational_transparency: 36.8
+  previous_composite: 54.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 71.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-08-17T083607.png
 security:
 - kind: authentication

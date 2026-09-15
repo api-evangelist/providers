@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -174,18 +199,22 @@ common:
   type: Website
   url: https://www.civitai.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/agentic-access/civitai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/civitai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/security/civitai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/civitai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/security/civitai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/civitai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/authentication/civitai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/civitai-authentication.yml
@@ -194,54 +223,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/civitai/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-batch-hash-reconcile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-batch-hash-reconcile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-blob-upload-img2img-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-blob-upload-img2img-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-creator-models-gallery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-creator-models-gallery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-image-generation-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-image-generation-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-model-images-explorer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-model-images-explorer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-model-version-by-hash-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-model-version-by-hash-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-model-version-to-generation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-model-version-to-generation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-permission-gated-download-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-permission-gated-download-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-presigned-blob-generate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-presigned-blob-generate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-search-models-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-search-models-detail-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-tag-models-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-tag-models-discovery-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-vault-toggle-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-vault-toggle-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/arazzo/civitai-workflow-query-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/civitai-workflow-query-cancel-workflow.yml
@@ -366,14 +408,17 @@ common:
   type: Documentation
   url: https://developer.civitai.com/llms-full.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/plans/civitai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/civitai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/rate-limits/civitai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/civitai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/finops/civitai-finops.yml
   title: ''
   type: FinOps
   url: finops/civitai-finops.yml
@@ -476,6 +521,38 @@ rules:
     info: 0
     warn: 7
   slug: civitai-rules
+score:
+  band: strong
+  composite: 55.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 81.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 13.6
+    contract_quality: 70.2
+    developer_ergonomics: 58.3
+    discoverability: 53.7
+    operational_transparency: 42.1
+  previous_composite: 55.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/screenshots/civitai-2026-06-20T174434.png
 security:
 - kind: authentication

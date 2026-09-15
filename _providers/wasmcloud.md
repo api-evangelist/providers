@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.5
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The wasmCloud control interface provides a NATS-based API for managing the wasmCloud lattice. It supports operations for starting and stopping actors and providers, establishing links between componen
@@ -55,6 +80,7 @@ common:
   type: License
   url: https://github.com/wasmCloud/wadm/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/security/wasmcloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wasmcloud-domain-security.yml
@@ -99,54 +125,67 @@ common:
   type: Slack
   url: https://slack.wasmcloud.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/asyncapi/wasmcloud-control-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/wasmcloud-control-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/asyncapi/wasmcloud-wadm-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/wasmcloud-wadm-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/asyncapi/wasmcloud-lattice-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/wasmcloud-lattice-events-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/json-schema/wasmcloud-manifest-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/wasmcloud-manifest-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/json-schema/wasmcloud-oam-manifest-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/wasmcloud-oam-manifest-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/json-ld/wasmcloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/wasmcloud-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/json-structure/wasmcloud-oam-manifest-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/wasmcloud-oam-manifest-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/vocabulary/wasmcloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wasmcloud-vocabulary.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/crd/runtime.wasmcloud.dev_hosts.yaml
   title: ''
   type: KubernetesCRD
   url: crd/runtime.wasmcloud.dev_hosts.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/crd/runtime.wasmcloud.dev_artifacts.yaml
   title: ''
   type: KubernetesCRD
   url: crd/runtime.wasmcloud.dev_artifacts.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/crd/runtime.wasmcloud.dev_workloads.yaml
   title: ''
   type: KubernetesCRD
   url: crd/runtime.wasmcloud.dev_workloads.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/crd/runtime.wasmcloud.dev_workloaddeployments.yaml
   title: ''
   type: KubernetesCRD
   url: crd/runtime.wasmcloud.dev_workloaddeployments.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/crd/runtime.wasmcloud.dev_workloadreplicasets.yaml
   title: ''
   type: KubernetesCRD
   url: crd/runtime.wasmcloud.dev_workloadreplicasets.yaml
@@ -241,6 +280,35 @@ rules:
     info: 1
     warn: 5
   slug: wasmcloud-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 44.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 74.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 28.8
+    contract_quality: 66.1
+    developer_ergonomics: 33.3
+    discoverability: 79.6
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 44.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/screenshots/wasmcloud-2026-06-20T201238.png
 security:
 - kind: domain-security

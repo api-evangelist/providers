@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: GraphQL Content Graph API that indexes CMS/Commerce content for fast, federated querying across the Optimizely platform.
@@ -83,6 +108,7 @@ common:
   type: Compliance
   url: https://www.optimizely.com/trust-center/compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/security/episerver-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/episerver-trust-center.yml
@@ -91,50 +117,62 @@ common:
   type: Security
   url: https://www.optimizely.com/trust-center/security
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/packages/episerver-packages.yml
   title: ''
   type: Packages
   url: packages/episerver-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/packages/episerver-packages.yml
   title: ''
   type: SDKs
   url: packages/episerver-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/llms/episerver-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/episerver-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/well-known/episerver-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/episerver-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/authentication/episerver-authentication.yml
   title: ''
   type: Authentication
   url: authentication/episerver-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/lifecycle/episerver-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/episerver-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/changelog/episerver-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/episerver-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/conventions/episerver-conventions.yml
   title: ''
   type: Conventions
   url: conventions/episerver-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/conformance/episerver-conformance.yml
   title: ''
   type: Conformance
   url: conformance/episerver-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/asyncapi/episerver-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/episerver-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/security/episerver-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/episerver-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/security/episerver-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/episerver-vulnerability-disclosure.yml
@@ -154,6 +192,35 @@ overview: 'Episerver publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
   Episerver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 47.8
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 51.2
+    discoverability: 81.5
+    operational_transparency: 56.6
+  previous_composite: 47.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/screenshots/episerver-2026-07-25T213522.png
 security:
 - kind: authentication

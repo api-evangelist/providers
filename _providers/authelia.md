@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -74,18 +99,22 @@ common:
   type: License
   url: https://github.com/authelia/authelia/blob/master/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/agentic-access/authelia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/authelia-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/security/authelia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authelia-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/authentication/authelia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/authelia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/scopes/authelia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/authelia-scopes.yml
@@ -118,86 +147,107 @@ common:
   type: Community
   url: https://discord.gg/authelia
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/packages/authelia-packages.yml
   title: ''
   type: Packages
   url: packages/authelia-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/llms/authelia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/authelia-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/mcp/authelia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/authelia-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/conformance/authelia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/authelia-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/errors/authelia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/authelia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/lifecycle/authelia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/authelia-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/lifecycle/authelia-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/authelia-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/conventions/authelia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/authelia-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/changelog/authelia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/authelia-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/cli/authelia-cli.yml
   title: ''
   type: CLI
   url: cli/authelia-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/data-model/authelia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/authelia-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/plans/authelia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/authelia-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/rate-limits/authelia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/authelia-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/security/authelia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/authelia-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/security/authelia-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/authelia-vulnerability-disclosure.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/json-schema/authelia-configuration.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/authelia-configuration.schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/json-schema/authelia-user-database.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/authelia-user-database.schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/json-schema/authelia-exports.identifiers.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/authelia-exports.identifiers.schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/json-schema/authelia-exports.totp.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/authelia-exports.totp.schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/json-schema/authelia-exports.webauthn.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/authelia-exports.webauthn.schema.json
@@ -301,6 +351,44 @@ scopes:
   scope_count: 9
   slug: authelia-scopes
   summary_line: 9 scopes
+score:
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 18.2
+    contract_quality: 56.2
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 73.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 52.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/screenshots/authelia-2026-06-20T172602.png
 security:
 - kind: authentication

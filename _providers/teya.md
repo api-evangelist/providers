@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -153,6 +178,7 @@ collections:
   slug: open-teya-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/overlays/teya-fx-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/teya-fx-overlay.yaml
@@ -205,74 +231,92 @@ common:
   type: PrivacyPolicy
   url: https://teya.com/legal/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/authentication/teya-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teya-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/scopes/teya-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/teya-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/conventions/teya-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/teya-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/conventions/teya-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teya-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/packages/teya-packages.yml
   title: ''
   type: SDKs
   url: packages/teya-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/packages/teya-packages.yml
   title: ''
   type: Packages
   url: packages/teya-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/components/teya-components.yml
   title: ''
   type: Components
   url: components/teya-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/sandbox/teya-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/teya-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/errors/teya-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/teya-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/lifecycle/teya-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/teya-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/conformance/teya-conformance.yml
   title: ''
   type: Conformance
   url: conformance/teya-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/data-model/teya-data-model.yml
   title: ''
   type: DataModel
   url: data-model/teya-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/mcp/teya-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/teya-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/well-known/teya-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/teya-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/llms/teya-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teya-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/agentic-access/teya-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teya-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/security/teya-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teya-domain-security.yml
@@ -294,6 +338,52 @@ scopes:
   scope_count: 2
   slug: teya-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 45.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 54.7
+    developer_ergonomics: 35.1
+    discoverability: 81.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+  previous_composite: 45.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 67.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/screenshots/teya-2026-08-17T082330.png
 security:
 - kind: authentication

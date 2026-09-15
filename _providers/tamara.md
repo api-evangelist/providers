@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -155,14 +180,17 @@ common:
   type: Website
   url: https://www.tamara.co/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/agentic-access/tamara-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tamara-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/security/tamara-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tamara-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/authentication/tamara-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tamara-authentication.yml
@@ -171,38 +199,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tamara/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-authorise-and-capture-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-authorise-and-capture-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-authorise-capture-refund-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-authorise-capture-refund-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-capture-and-legacy-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-capture-and-legacy-refund-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-capture-and-refund-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-capture-and-refund-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-create-and-authorise-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-create-and-authorise-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-eligibility-gated-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-eligibility-gated-checkout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-full-bnpl-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-full-bnpl-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-order-status-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-order-status-cancel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-order-status-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-order-status-refund-workflow.yml
@@ -267,22 +304,27 @@ common:
   type: Instagram
   url: https://www.instagram.com/tamara/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/plans/tamara-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tamara-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/rate-limits/tamara-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tamara-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/finops/tamara-finops.yml
   title: ''
   type: FinOps
   url: finops/tamara-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/json-ld/tamara-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tamara-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/vocabulary/tamara-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tamara-vocabulary.yml
@@ -428,6 +470,51 @@ rules:
     info: 0
     warn: 6
   slug: tamara-rules
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 87.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 28.8
+    contract_quality: 63.7
+    developer_ergonomics: 46.4
+    discoverability: 74.1
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - saudi-arabia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  previous_composite: 47.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
 security:
 - kind: authentication

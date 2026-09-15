@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -841,6 +866,7 @@ collections:
   slug: open-slack-workflows
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/capabilities/slack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/slack-capability-edges.yml
@@ -849,26 +875,32 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/agentic-access/slack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/slack-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/security/slack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/slack-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/security/slack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/slack-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/security/slack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/slack-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/authentication/slack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/slack-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/scopes/slack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/slack-scopes.yml
@@ -877,90 +909,112 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/slack/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-add-bookmark-announce-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-add-bookmark-announce-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-add-reminder-for-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-add-reminder-for-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-archive-channel-announce-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-archive-channel-announce-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-audit-channels-post-summary-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-audit-channels-post-summary-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-create-channel-invite-announce-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-create-channel-invite-announce-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-create-usergroup-assign-members-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-create-usergroup-assign-members-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-find-user-dm-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-find-user-dm-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-lookup-invite-to-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-lookup-invite-to-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-permalink-share-to-dm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-permalink-share-to-dm-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-post-message-get-reactions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-post-message-get-reactions-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-post-react-pin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-post-react-pin-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-post-thread-reply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-post-thread-reply-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-post-update-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-post-update-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-read-history-mark-read-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-read-history-mark-read-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-remove-member-announce-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-remove-member-announce-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-rename-channel-announce-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-rename-channel-announce-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-schedule-message-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-schedule-message-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-search-message-react-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-search-message-react-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-set-channel-topic-purpose-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-set-channel-topic-purpose-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-set-status-snooze-notify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-set-status-snooze-notify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-upload-file-share-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-upload-file-share-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/arazzo/slack-user-info-dm-greeting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/slack-user-info-dm-greeting-workflow.yml
@@ -1201,10 +1255,12 @@ common:
   type: SCIMAPIReference
   url: https://docs.slack.dev/reference/scim-api
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/rules/slack-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/slack-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/vocabulary/slack-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/slack-vocabulary.yaml
@@ -1387,6 +1443,38 @@ scopes:
   scope_count: 13
   slug: slack-scopes
   summary_line: 13 scopes · authorizationCode
+score:
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 65.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 28.8
+    contract_quality: 68.6
+    developer_ergonomics: 82.1
+    discoverability: 66.7
+    operational_transparency: 63.2
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 48.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 41
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:
 - kind: authentication

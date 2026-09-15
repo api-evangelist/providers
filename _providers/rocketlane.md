@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -135,6 +160,7 @@ collections:
   slug: open-rocketlane-users-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/agentic-access/rocketlane-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rocketlane-agentic-access.yml
@@ -199,78 +225,97 @@ common:
   type: Security
   url: https://www.rocketlane.com/responsible-disclosure
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/llms/rocketlane-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rocketlane-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/well-known/rocketlane-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rocketlane-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/packages/rocketlane-packages.yml
   title: ''
   type: Packages
   url: packages/rocketlane-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/cli/rocketlane-cli.yml
   title: ''
   type: CLI
   url: cli/rocketlane-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/mcp/rocketlane-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rocketlane-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/authentication/rocketlane-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rocketlane-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/conventions/rocketlane-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rocketlane-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/asyncapi/rocketlane-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rocketlane-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/lifecycle/rocketlane-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rocketlane-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/conformance/rocketlane-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rocketlane-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/data-model/rocketlane-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rocketlane-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/_original/rocketlane-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/rocketlane-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/overlays/rocketlane-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rocketlane-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/errors/rocketlane-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rocketlane-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/rate-limits/rocketlane-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rocketlane-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/security/rocketlane-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rocketlane-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/security/rocketlane-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rocketlane-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/security/rocketlane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rocketlane-domain-security.yml
@@ -298,6 +343,41 @@ rate_limits:
 - limit_count: 2
   name: Rocketlane Rate Limits
   slug: rocketlane-rate-limits
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 64.4
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 54.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/screenshots/rocketlane-2026-08-17T081626.png
 security:
 - kind: authentication

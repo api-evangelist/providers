@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The account-based marketing platform API behind Terminus (now the DemandScience ABM Platform). The API host api.terminusplatform.com is live and answers every anonymous request with HTTP 401 "Authenti
@@ -62,10 +87,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/demandscience
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/authentication/terminus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/terminus-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/lifecycle/terminus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/terminus-lifecycle.yml
@@ -74,18 +101,22 @@ common:
   type: Deprecation
   url: https://support.demandscience.com/hc/en-us/articles/46047614705811-Chat-Experiences-Deprecation-December-31-2025
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/conformance/terminus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/terminus-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/security/terminus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/terminus-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/security/terminus-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/terminus-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/llms/terminus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/terminus-llms.txt
@@ -106,30 +137,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/GetTerminus
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/packages/terminus-packages.yml
   title: ''
   type: Packages
   url: packages/terminus-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/conventions/terminus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/terminus-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/data-model/terminus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/terminus-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/errors/terminus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/terminus-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/rate-limits/terminus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/terminus-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/plans/terminus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/terminus-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/sandbox/terminus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/terminus-sandbox.yml
@@ -155,6 +193,34 @@ rate_limits:
 - limit_count: 0
   name: Terminus Rate Limits
   slug: terminus-rate-limits
+score:
+  band: thin
+  composite: 31.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 54.8
+    discoverability: 74.1
+    operational_transparency: 10.5
+  previous_composite: 31.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/screenshots/terminus-2026-09-02T163148.png
 security:
 - kind: authentication

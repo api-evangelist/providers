@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: The Cloudability v3 API is the modern REST interface for the platform. It exposes resource-oriented endpoints for reporting, dimensions and metrics, business mappings, anomalies, rightsizing recommend
@@ -35,6 +60,7 @@ apis:
 artifact_total: 16
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudability-domain-security.yml
@@ -55,10 +81,12 @@ common:
   type: Training
   url: https://education.apptio.com/courses/ibm-cloudability-api
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/json-ld/cloudability-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudability-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/rules/cloudability-rules.yml
   title: ''
   type: Spectral
   url: rules/cloudability-rules.yml
@@ -115,86 +143,107 @@ common:
   type: StatusPage
   url: https://status.cloudability.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/packages/cloudability-packages.yml
   title: ''
   type: Packages
   url: packages/cloudability-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/packages/cloudability-packages.yml
   title: ''
   type: SDKs
   url: packages/cloudability-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/well-known/cloudability-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudability-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/well-known/cloudability-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cloudability-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cloudability-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudability-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudability-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-trust-center.yml
   title: ''
   type: Compliance
   url: security/cloudability-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/conformance/cloudability-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudability-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/authentication/cloudability-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudability-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/conventions/cloudability-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloudability-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/errors/cloudability-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudability-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/lifecycle/cloudability-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloudability-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/lifecycle/cloudability-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cloudability-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/changelog/cloudability-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cloudability-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/plans/cloudability-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudability-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/rate-limits/cloudability-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudability-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/finops/cloudability-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudability-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/llms/cloudability-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudability-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/mcp/cloudability-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cloudability-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/data-model/cloudability-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloudability-data-model.yml
@@ -243,6 +292,35 @@ rules:
     info: 1
     warn: 6
   slug: cloudability-rules
+score:
+  band: developing
+  composite: 50.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 66.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 49.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 72.7
+    contract_quality: 6.7
+    developer_ergonomics: 69.0
+    discoverability: 74.1
+    operational_transparency: 57.9
+  previous_composite: 50.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/screenshots/cloudability-2026-06-20T174542.png
 security:
 - kind: authentication

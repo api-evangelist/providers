@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://ironcorelabs.com
@@ -59,6 +84,7 @@ collections:
   slug: open-ironcore-labs-tenant-secret-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/overlays/ironcore-labs-vendor-bridge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ironcore-labs-vendor-bridge-overlay.yaml
@@ -107,22 +133,27 @@ common:
   type: PrivacyPolicy
   url: https://ironcorelabs.com/trust-center/privacy/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/_original/ironcore-labs-vendor-bridge-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ironcore-labs-vendor-bridge-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/authentication/ironcore-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ironcore-labs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/conventions/ironcore-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ironcore-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/errors/ironcore-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ironcore-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/lifecycle/ironcore-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ironcore-labs-lifecycle.yml
@@ -135,50 +166,62 @@ common:
   type: Deprecation
   url: https://ironcorelabs.com/docs/saas-shield/vendor-api/changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/changelog/ironcore-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ironcore-labs-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/data-model/ironcore-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ironcore-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/conformance/ironcore-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ironcore-labs-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/packages/ironcore-labs-packages.yml
   title: ''
   type: Packages
   url: packages/ironcore-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/packages/ironcore-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/ironcore-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/cli/ironcore-labs-cli.yml
   title: ''
   type: CLI
   url: cli/ironcore-labs-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/mcp/ironcore-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ironcore-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/llms/ironcore-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ironcore-labs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/well-known/ironcore-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ironcore-labs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/well-known/ironcore-labs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ironcore-labs-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/security/ironcore-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ironcore-labs-vulnerability-disclosure.yml
@@ -187,6 +230,7 @@ common:
   type: Security
   url: https://ironcorelabs.com/trust-center/bug-bounty-program/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/security/ironcore-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ironcore-labs-domain-security.yml
@@ -211,6 +255,40 @@ overview: 'IronCore Labs publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
   IronCore Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 56.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 52.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
 security:
 - kind: authentication

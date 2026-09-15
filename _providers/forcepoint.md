@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Config, Log export, and IP APIs plus SCIM 2.0 user/group provisioning for Forcepoint ONE / Data Security Cloud (SSE). OAuth 2.0 bearer authentication with configurable permission scopes.
@@ -66,6 +91,7 @@ common:
   type: StatusPage
   url: https://status.forcepoint.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/security/forcepoint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/forcepoint-trust-center.yml
@@ -74,30 +100,37 @@ common:
   type: Compliance
   url: https://trust.forcepoint.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/authentication/forcepoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forcepoint-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/packages/forcepoint-packages.yml
   title: ''
   type: Packages
   url: packages/forcepoint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/packages/forcepoint-packages.yml
   title: ''
   type: SDKs
   url: packages/forcepoint-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/conformance/forcepoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forcepoint-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/lifecycle/forcepoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forcepoint-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/security/forcepoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forcepoint-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/llms/forcepoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forcepoint-llms.txt
@@ -114,6 +147,34 @@ overview: 'Forcepoint publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
   Forcepoint''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 14 more developer resources.'
 random_paper: 10
+score:
+  band: thin
+  composite: 29.6
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 29.6
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/screenshots/forcepoint-2026-07-25T214926.png
 security:
 - kind: authentication

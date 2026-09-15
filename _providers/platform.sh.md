@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://api.upsun.com
@@ -320,6 +346,7 @@ asyncapis:
   slug: platform.sh-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/capabilities/platform.sh-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/platform.sh-capability-edges.yml
@@ -384,106 +411,132 @@ common:
   type: TrustCenter
   url: https://upsun.com/trust-center/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/authentication/platform.sh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/platform.sh-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/scopes/platform.sh-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/platform.sh-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/packages/platform.sh-packages.yml
   title: ''
   type: Packages
   url: packages/platform.sh-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/packages/platform.sh-packages.yml
   title: ''
   type: SDKs
   url: packages/platform.sh-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/cli/platform.sh-cli.yml
   title: ''
   type: CLI
   url: cli/platform.sh-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/llms/platform.sh-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/platform.sh-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/well-known/platform.sh-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/platform.sh-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/well-known/platform.sh-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/platform.sh-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/security/platform.sh-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/platform.sh-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/security/platform.sh-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/platform.sh-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/security/platform.sh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/platform.sh-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/conformance/platform.sh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/platform.sh-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/conformance/platform.sh-conformance.yml
   title: ''
   type: Compliance
   url: conformance/platform.sh-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/lifecycle/platform.sh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/platform.sh-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/lifecycle/platform.sh-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/platform.sh-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/changelog/platform.sh-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/platform.sh-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/errors/platform.sh-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/platform.sh-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/conventions/platform.sh-conventions.yml
   title: ''
   type: Conventions
   url: conventions/platform.sh-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/data-model/platform.sh-data-model.yml
   title: ''
   type: DataModel
   url: data-model/platform.sh-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/overlays/platform.sh-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/platform.sh-rest-api-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/plans/platform.sh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/platform.sh-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/rate-limits/platform.sh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/platform.sh-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/mcp/platform.sh-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/platform.sh-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/asyncapi/platform.sh-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/platform.sh-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/mcp/platform.sh-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/platform.sh-tool-crosswalk.yml
@@ -521,6 +574,46 @@ scopes:
   scope_count: 1
   slug: platform.sh-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 58.6
+    developer_ergonomics: 73.2
+    discoverability: 57.4
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 52.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 60
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/screenshots/platform.sh-2026-09-02T151433.png
 security:
 - kind: authentication

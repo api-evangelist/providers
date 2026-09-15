@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: FBS's proprietary REST API over Flexmls MLS content. Documented services include Listings (plus photos, documents, floor plans, videos, virtual tours, open houses, rooms, units, history and rules), Co
@@ -35,6 +60,7 @@ collections:
   slug: postman-spark-platform-spark-web-api-queries
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/security/spark-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spark-platform-domain-security.yml
@@ -87,30 +113,37 @@ common:
   type: Authentication
   url: https://sparkplatform.com/docs/authentication/authentication
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/authentication/spark-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spark-platform-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/scopes/spark-platform-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spark-platform-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/authentication/spark-platform-openid-configuration.json
   title: ''
   type: OpenIDConnectDiscovery
   url: authentication/spark-platform-openid-configuration.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/authentication/spark-platform-openid-jwks.json
   title: ''
   type: JSONWebKeySet
   url: authentication/spark-platform-openid-jwks.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/well-known/spark-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spark-platform-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/packages/spark-platform-packages.yml
   title: ''
   type: Packages
   url: packages/spark-platform-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/packages/spark-platform-packages.yml
   title: ''
   type: SDKs
   url: packages/spark-platform-packages.yml
@@ -119,42 +152,52 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/25548936/2s935snM26
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/postman/spark-platform-spark-web-api-queries.postman_collection.json
   title: ''
   type: PostmanCollection
   url: postman/spark-platform-spark-web-api-queries.postman_collection.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/examples/spark-platform-request-examples.yml
   title: ''
   type: Examples
   url: examples/spark-platform-request-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/conventions/spark-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spark-platform-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/errors/spark-platform-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/spark-platform-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/rate-limits/spark-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spark-platform-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/lifecycle/spark-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spark-platform-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/data-model/spark-platform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spark-platform-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/components/spark-platform-components.yml
   title: ''
   type: Components
   url: components/spark-platform-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/asyncapi/spark-platform-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spark-platform-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/conformance/spark-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spark-platform-conformance.yml
@@ -163,6 +206,7 @@ common:
   type: Compliance
   url: https://services.reso.org/orgs?showStats=true&showEndorsements=true
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/llms/spark-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spark-platform-llms.txt
@@ -208,6 +252,41 @@ scopes:
   scope_count: 7
   slug: spark-platform-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 69.0
+    discoverability: 81.5
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 52.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/screenshots/spark-platform-2026-08-17T082017.png
 security:
 - kind: authentication

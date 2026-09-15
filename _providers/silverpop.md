@@ -10,6 +10,31 @@ access_model:
   - https://developer.goacoustic.com/acoustic-campaign/reference/api-developers-guide-and-legal-information
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 25.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -77,18 +102,22 @@ collections:
   slug: open-silverpop
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/capabilities/silverpop-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/silverpop-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/agentic-access/silverpop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/silverpop-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/security/silverpop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silverpop-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/authentication/silverpop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/silverpop-authentication.yml
@@ -157,62 +186,77 @@ common:
   type: PrivacyPolicy
   url: https://www.acoustic.com/privacy-notice
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/packages/silverpop-packages.yml
   title: ''
   type: Packages
   url: packages/silverpop-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/packages/silverpop-packages.yml
   title: ''
   type: SDKs
   url: packages/silverpop-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/well-known/silverpop-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/silverpop-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/well-known/silverpop-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/silverpop-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/mcp/silverpop-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/silverpop-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/llms/silverpop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/silverpop-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/conformance/silverpop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/silverpop-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/conformance/silverpop-conformance.yml
   title: ''
   type: Compliance
   url: conformance/silverpop-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/errors/silverpop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/silverpop-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/lifecycle/silverpop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/silverpop-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/lifecycle/silverpop-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/silverpop-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/conventions/silverpop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/silverpop-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/plans/silverpop-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/silverpop-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/rate-limits/silverpop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/silverpop-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/finops/silverpop-finops.yml
   title: ''
   type: FinOps
   url: finops/silverpop-finops.yml
@@ -284,6 +328,46 @@ rules:
     info: 0
     warn: 6
   slug: silverpop-rules
+score:
+  band: strong
+  composite: 63.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 72.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 31.8
+    contract_quality: 59.9
+    developer_ergonomics: 48.8
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 63.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 51.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/screenshots/silverpop-2026-06-20T193920.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.cledara.com
@@ -22,10 +47,12 @@ apis:
 artifact_total: 11
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/security/cledara-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cledara-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/security/cledara-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cledara-domain-security.yml
@@ -102,74 +129,92 @@ common:
   type: BlogRSS
   url: https://www.cledara.com/blog/rss.xml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/conformance/cledara-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cledara-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/conformance/cledara-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cledara-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/lifecycle/cledara-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cledara-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/conventions/cledara-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cledara-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/authentication/cledara-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cledara-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/scopes/cledara-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cledara-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/errors/cledara-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cledara-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/data-model/cledara-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cledara-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/rate-limits/cledara-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cledara-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/plans/cledara-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cledara-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/packages/cledara-packages.yml
   title: ''
   type: Packages
   url: packages/cledara-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/llms/cledara-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cledara-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/well-known/cledara-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cledara-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/mcp/cledara-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cledara-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/openapi/cledara-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/cledara-api-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/overlays/cledara-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cledara-api-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/changelog/cledara-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cledara-changelog.yml
@@ -207,6 +252,47 @@ scopes:
   scope_count: 0
   slug: cledara-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 50.3
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 65.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 76.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/screenshots/cledara-2026-06-20T174501.png
 security:
 - kind: authentication

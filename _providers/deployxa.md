@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: self
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 56.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -20,18 +46,22 @@ common:
   type: Website
   url: https://deployxa.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/agentic-access/deployxa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deployxa-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/security/deployxa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/deployxa-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/security/deployxa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/deployxa-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/security/deployxa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deployxa-domain-security.yml
@@ -84,70 +114,87 @@ common:
   type: StatusPage
   url: https://deployxa.com/status
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/lifecycle/deployxa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deployxa-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/lifecycle/deployxa-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/deployxa-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/well-known/deployxa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deployxa-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/a2a/deployxa-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/deployxa-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/llms/deployxa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deployxa-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/authentication/deployxa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deployxa-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/scopes/deployxa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/deployxa-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/conformance/deployxa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deployxa-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/errors/deployxa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/deployxa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/conventions/deployxa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deployxa-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/packages/deployxa-packages.yml
   title: ''
   type: Packages
   url: packages/deployxa-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/cli/deployxa-cli.yml
   title: ''
   type: CLI
   url: cli/deployxa-cli.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/plans/deployxa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deployxa-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/rate-limits/deployxa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/deployxa-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/overlays/deployxa-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/deployxa-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/data-model/deployxa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/deployxa-data-model.yml
@@ -163,7 +210,7 @@ modified: '2026-09-05'
 name: Deployxa
 nav: Providers
 network: true
-overview: 'Deployxa publishes 1 API on the [APIs.io](https://apis.io/) network: Platform. Tagged areas include platform-as-a-service, cloud-deployment, devops, ci-cd, and containers-docker.
+overview: 'Deployxa publishes 1 API on the [APIs.io](https://apis.io/) network: Platform. Tagged areas include Platform-as-a-Service, Cloud Deployment, DevOps, CI/CD, and containers-docker.
 
 
   Deployxa''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, changelog, authentication, and 27 more developer resources.'
@@ -181,6 +228,36 @@ scopes:
   scope_count: 11
   slug: deployxa-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: strong
+  composite: 56.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 40.1
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 56.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Deployxa Authentication
@@ -200,14 +277,14 @@ security:
   summary_line: trust center published
 slug: deployxa
 tags:
-- platform-as-a-service
-- cloud-deployment
-- devops
-- ci-cd
+- Platform-as-a-Service
+- Cloud Deployment
+- DevOps
+- CI/CD
 - containers-docker
 - edge-hosting
-- managed-databases
-- ai-ops
-- developer-tools
+- Managed Databases
+- AIOps
+- Developer Tools
 website: https://deployxa.com
 ---

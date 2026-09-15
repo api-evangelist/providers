@@ -20,6 +20,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/generalgalactic
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/general-galactic-corporation/refs/heads/main/packages/general-galactic-corporation-packages.yml
   title: ''
   type: Packages
   url: packages/general-galactic-corporation-packages.yml

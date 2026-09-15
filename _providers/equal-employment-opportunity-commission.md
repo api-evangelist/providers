@@ -8,10 +8,36 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/security/equal-employment-opportunity-commission-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/equal-employment-opportunity-commission-domain-security.yml
@@ -48,26 +74,32 @@ common:
   type: Blog
   url: https://www.eeoc.gov/rss.xml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/data-catalog/equal-employment-opportunity-commission-data-json.json
   title: ''
   type: X-DCAT
   url: data-catalog/equal-employment-opportunity-commission-data-json.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/data-catalog/equal-employment-opportunity-commission-data-catalog.yml
   title: ''
   type: X-DataCatalog
   url: data-catalog/equal-employment-opportunity-commission-data-catalog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/conformance/equal-employment-opportunity-commission-conformance.yml
   title: ''
   type: Conformance
   url: conformance/equal-employment-opportunity-commission-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/llms/equal-employment-opportunity-commission-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/equal-employment-opportunity-commission-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/plans/equal-employment-opportunity-commission-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/equal-employment-opportunity-commission-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/rate-limits/equal-employment-opportunity-commission-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/equal-employment-opportunity-commission-rate-limits.yml
@@ -128,6 +160,40 @@ rate_limits:
 - limit_count: 0
   name: Equal Employment Opportunity Commission Rate Limits
   slug: equal-employment-opportunity-commission-rate-limits
+score:
+  band: emerging
+  composite: 11.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
+    discoverability: 57.4
+    operational_transparency: 2.6
+  previous_composite: 11.8
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 27.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/screenshots/equal-employment-opportunity-commission-2026-06-20T180800.png
 security:
 - kind: domain-security

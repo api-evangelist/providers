@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Live REST/JSON API behind Agerpoint Cloud and the Agerpoint Capture apps, served from cloudapi.agerpoint.com on ASP.NET Core (Kestrel). Resource families observed on the public first-party web client '
@@ -39,46 +64,57 @@ common:
   type: TermsOfService
   url: https://www.agerpoint.com/contracts
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/well-known/agerpoint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agerpoint-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/authentication/agerpoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agerpoint-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/scopes/agerpoint-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agerpoint-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/conventions/agerpoint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agerpoint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/conformance/agerpoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agerpoint-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/security/agerpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agerpoint-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/packages/agerpoint-packages.yml
   title: ''
   type: Packages
   url: packages/agerpoint-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/llms/agerpoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agerpoint-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/plans/agerpoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agerpoint-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/rate-limits/agerpoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agerpoint-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/lifecycle/agerpoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agerpoint-lifecycle.yml
@@ -125,6 +161,34 @@ scopes:
   scope_count: 0
   slug: agerpoint-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 18.7
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 18.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Agerpoint Authentication
@@ -144,7 +208,7 @@ tags:
 - Point Cloud
 - Carbon Measurement
 - Forestry
-- Machine Learning
+- Machine-Learning
 - Spatial Analytics
 - Company
 website: https://www.agerpoint.com

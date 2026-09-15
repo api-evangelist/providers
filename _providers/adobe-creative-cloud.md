@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -233,18 +258,22 @@ common:
   type: ContributionGuide
   url: https://github.com/AdobeDocs/creative-cloud-libraries/blob/main/.github/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/agentic-access/adobe-creative-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-creative-cloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/security/adobe-creative-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-creative-cloud-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/security/adobe-creative-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-creative-cloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/authentication/adobe-creative-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-creative-cloud-authentication.yml
@@ -253,66 +282,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-creative-cloud/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-generate-similar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-generate-similar-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-generative-expand-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-generative-expand-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-generative-fill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-generative-fill-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-object-composite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-object-composite-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-firefly-text-to-image-generate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-firefly-text-to-image-generate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-libraries-create-and-add-element-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-libraries-create-and-add-element-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-libraries-list-and-inspect-element-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-libraries-list-and-inspect-element-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-libraries-purge-element-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-libraries-purge-element-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-compress-and-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-compress-and-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-create-and-download-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-create-and-download-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-export-to-format-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-export-to-format-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-extract-content-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-extract-content-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-pdf-ocr-then-protect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-pdf-ocr-then-protect-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-stock-license-history-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-stock-license-history-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-stock-quota-aware-license-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-stock-quota-aware-license-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/arazzo/adobe-creative-cloud-stock-search-license-download-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-cloud-stock-search-license-download-workflow.yml
@@ -693,6 +738,38 @@ rules:
     info: 3
     warn: 7
   slug: adobe-creative-cloud-spectral-rules
+score:
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 70.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 13.6
+    contract_quality: 72.7
+    developer_ergonomics: 58.3
+    discoverability: 74.1
+    operational_transparency: 39.5
+  previous_composite: 52.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:
 - kind: authentication

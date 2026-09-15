@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://developer-api.quadratichq.com
@@ -132,6 +157,7 @@ collections:
   slug: open-quadratic-validations-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/overlays/quadratic-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/quadratic-openapi-overlay.yaml
@@ -184,58 +210,72 @@ common:
   type: StatusPage
   url: https://status.quadratichq.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/lifecycle/quadratic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quadratic-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/mcp/quadratic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/quadratic-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/llms/quadratic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quadratic-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/packages/quadratic-packages.yml
   title: ''
   type: Packages
   url: packages/quadratic-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/packages/quadratic-packages.yml
   title: ''
   type: SDKs
   url: packages/quadratic-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/conventions/quadratic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quadratic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/data-model/quadratic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quadratic-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/conformance/quadratic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quadratic-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/authentication/quadratic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quadratic-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/security/quadratic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quadratic-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/security/quadratic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/quadratic-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/security/quadratic-trust-center.yml
   title: ''
   type: Compliance
   url: security/quadratic-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/well-known/quadratic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quadratic-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -256,6 +296,40 @@ overview: 'Quadratic publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
   Quadratic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
 random_paper: 13
+score:
+  band: developing
+  composite: 49.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 53.7
+    developer_ergonomics: 68.5
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 49.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/screenshots/quadratic-2026-08-17T081429.png
 security:
 - kind: authentication

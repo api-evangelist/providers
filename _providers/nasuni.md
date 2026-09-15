@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.7
+  scored_at: '2026-09-14'
 api_count: 14
 apis:
 - baseURL: https://hostname/mobileapi/1
@@ -169,18 +194,22 @@ asyncapis:
   slug: nasuni-file-iq-alerts-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/capabilities/nasuni-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nasuni-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/security/nasuni-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nasuni-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/scopes/nasuni-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nasuni-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/authentication/nasuni-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nasuni-authentication.yml
@@ -241,78 +270,97 @@ common:
   type: TrustCenter
   url: https://trust.nasuni.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/conformance/nasuni-conformance.yml
   title: ''
   type: Compliance
   url: conformance/nasuni-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/packages/nasuni-packages.yml
   title: ''
   type: Packages
   url: packages/nasuni-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/packages/nasuni-packages.yml
   title: ''
   type: SDKs
   url: packages/nasuni-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/llms/nasuni-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nasuni-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/overlays/nasuni-nmc-v1-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nasuni-nmc-v1-2-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/conformance/nasuni-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nasuni-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/errors/nasuni-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nasuni-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/lifecycle/nasuni-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nasuni-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/changelog/nasuni-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nasuni-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/conventions/nasuni-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nasuni-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/data-model/nasuni-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nasuni-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/asyncapi/nasuni-file-iq-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nasuni-file-iq-alerts-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/json-schema/nasuni-file-iq-alert-webhook-payload.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/nasuni-file-iq-alert-webhook-payload.schema.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/plans/nasuni-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nasuni-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/rate-limits/nasuni-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nasuni-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/security/nasuni-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nasuni-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/mcp/nasuni-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nasuni-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/mcp/nasuni-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/nasuni-tool-crosswalk.yml
@@ -354,6 +402,40 @@ scopes:
   scope_count: 0
   slug: nasuni-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 61.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 54.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 61.0
+    developer_ergonomics: 66.1
+    discoverability: 63.0
+    operational_transparency: 57.9
+  previous_composite: 61.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 75.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/screenshots/nasuni-2026-09-02T150723.png
 security:
 - kind: authentication

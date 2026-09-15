@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 941
   human_in_the_loop: 3
@@ -208,26 +234,32 @@ collections:
   slug: open-lytics-api-v2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/capabilities/lytics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lytics-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/overlays/lytics-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lytics-api-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/overlays/lytics-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lytics-api-v1-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/agentic-access/lytics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lytics-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/security/lytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lytics-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/authentication/lytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lytics-authentication.yml
@@ -272,14 +304,17 @@ common:
   type: Support
   url: https://support.lytics.com/hc/en-us
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/plans/lytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lytics-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/rate-limits/lytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lytics-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/finops/lytics-finops.yml
   title: ''
   type: FinOps
   url: finops/lytics-finops.yml
@@ -288,98 +323,122 @@ common:
   type: OpenAPI Source
   url: https://dash.readme.com/api/v1/api-registry/1y876emrv8pb2i
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/packages/lytics-packages.yml
   title: ''
   type: Packages
   url: packages/lytics-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/packages/lytics-packages.yml
   title: ''
   type: SDKs
   url: packages/lytics-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/mcp/lytics-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/lytics-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/llms/lytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lytics-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/conventions/lytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lytics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/errors/lytics-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lytics-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/lifecycle/lytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lytics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/conformance/lytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lytics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/data-model/lytics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lytics-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/cli/lytics-cli.yml
   title: ''
   type: CLI
   url: cli/lytics-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/components/lytics-components.yml
   title: ''
   type: Components
   url: components/lytics-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/asyncapi/lytics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lytics-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/security/lytics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lytics-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/vocabulary/lytics-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/lytics-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/rules/lytics-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/lytics-jsonschema-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/json-ld/lytics-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/lytics-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/json-schema/lytics-user-profile-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/lytics-user-profile-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/json-schema/lytics-collect-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/lytics-collect-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/json-schema/lytics-segment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/lytics-segment-schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/examples/lytics-user-profile-example.json
   title: ''
   type: Examples
   url: examples/lytics-user-profile-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/examples/lytics-collect-event-example.json
   title: ''
   type: Examples
   url: examples/lytics-collect-event-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/examples/lytics-segment-scan-request-example.json
   title: ''
   type: Examples
   url: examples/lytics-segment-scan-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/examples/lytics-segment-scan-response-example.json
   title: ''
   type: Examples
   url: examples/lytics-segment-scan-response-example.json
@@ -498,6 +557,41 @@ rules:
     info: 1
     warn: 4
   slug: lytics-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 58.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 29.5
+    contract_quality: 69.5
+    developer_ergonomics: 67.9
+    discoverability: 51.9
+    operational_transparency: 34.2
+  previous_composite: 64.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/screenshots/lytics-2026-06-20T184816.png
 security:
 - kind: authentication

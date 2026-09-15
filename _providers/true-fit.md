@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -198,18 +223,22 @@ collections:
   slug: open-true-fit-token-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/overlays/true-fit-consumer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/true-fit-consumer-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/agentic-access/true-fit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/true-fit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/security/true-fit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/true-fit-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/authentication/true-fit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/true-fit-authentication.yml
@@ -274,34 +303,42 @@ common:
   type: ChangeLog
   url: https://techdocs.truefitcorp.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/changelog/true-fit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/true-fit-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/lifecycle/true-fit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/true-fit-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/conventions/true-fit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/true-fit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/conformance/true-fit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/true-fit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/errors/true-fit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/true-fit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/errors/true-fit-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/true-fit-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/packages/true-fit-packages.yml
   title: ''
   type: Packages
   url: packages/true-fit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/packages/true-fit-packages.yml
   title: ''
   type: SDKs
   url: packages/true-fit-packages.yml
@@ -310,38 +347,47 @@ common:
   type: CDN
   url: https://cdn.truefitcorp.com/fitrec/global/js/tf-integration.js
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/components/true-fit-components.yml
   title: ''
   type: Components
   url: components/true-fit-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/sandbox/true-fit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/true-fit-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/data-model/true-fit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/true-fit-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/mcp/true-fit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/true-fit-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/mcp/true-fit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/true-fit-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/llms/true-fit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/true-fit-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/llms/true-fit-techdocs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/true-fit-techdocs-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/well-known/true-fit-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/true-fit-robots.txt
@@ -358,6 +404,41 @@ overview: 'True Fit publishes 21 APIs on the [APIs.io](https://apis.io/) network
 
   True Fit''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 30 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 46.3
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 39.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 23.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/screenshots/true-fit-2026-08-17T082444.png
 security:
 - kind: authentication

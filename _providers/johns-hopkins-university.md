@@ -11,6 +11,31 @@ access_model:
   - probes
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,6 +93,7 @@ collections:
   slug: open-johns-hopkins-university-codes-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/capabilities/johns-hopkins-university-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/johns-hopkins-university-capability-edges.yml
@@ -92,6 +118,7 @@ common:
   type: CourseCatalog
   url: https://sis.jhu.edu/api/help
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/identity-federation/johns-hopkins-university-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity-federation/johns-hopkins-university-identity-federation.yml
@@ -136,42 +163,52 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/johns-hopkins-university/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/agentic-access/johns-hopkins-university-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/johns-hopkins-university-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/security/johns-hopkins-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/johns-hopkins-university-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/authentication/johns-hopkins-university-authentication.yml
   title: ''
   type: Authentication
   url: authentication/johns-hopkins-university-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/conformance/johns-hopkins-university-education-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/johns-hopkins-university-education-standards-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/errors/johns-hopkins-university-errors.yml
   title: ''
   type: Errors
   url: errors/johns-hopkins-university-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/lifecycle/johns-hopkins-university-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/johns-hopkins-university-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/plans/johns-hopkins-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/johns-hopkins-university-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/rate-limits/johns-hopkins-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/johns-hopkins-university-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/finops/johns-hopkins-university-finops.yml
   title: ''
   type: FinOps
   url: finops/johns-hopkins-university-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -248,6 +285,53 @@ rules:
     info: 1
     warn: 2
   slug: johns-hopkins-university-rules
+score:
+  band: thin
+  composite: 36.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 64.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 9.8
+    contract_quality: 61.5
+    developer_ergonomics: 40.5
+    discoverability: 74.1
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 36.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 50.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 31.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/screenshots/johns-hopkins-university-2026-06-20T183755.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -34,14 +59,17 @@ collections:
   slug: open-synthego-order-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/capabilities/synthego-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/synthego-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/overlays/synthego-order-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/synthego-order-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/agentic-access/synthego-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/synthego-agentic-access.yml
@@ -82,46 +110,57 @@ common:
   type: Compliance
   url: https://www.synthego.com/legal/iso-certification/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/authentication/synthego-authentication.yml
   title: ''
   type: Authentication
   url: authentication/synthego-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/security/synthego-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synthego-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/conventions/synthego-conventions.yml
   title: ''
   type: Conventions
   url: conventions/synthego-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/errors/synthego-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/synthego-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/data-model/synthego-data-model.yml
   title: ''
   type: DataModel
   url: data-model/synthego-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/lifecycle/synthego-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/synthego-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/conformance/synthego-conformance.yml
   title: ''
   type: Conformance
   url: conformance/synthego-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/well-known/synthego-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/synthego-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/mcp/synthego-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/synthego-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/llms/synthego-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synthego-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/skills/synthego-place-order.md
   title: ''
   type: AgentSkill
   url: skills/synthego-place-order.md
@@ -138,6 +177,47 @@ overview: 'Synthego publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
   Synthego''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
 random_paper: 20
+score:
+  band: thin
+  composite: 35.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 0.0
+    contract_quality: 47.6
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 35.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/screenshots/synthego-2026-09-02T161631.png
 security:
 - kind: authentication

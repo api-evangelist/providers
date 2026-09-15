@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,6 +94,7 @@ apis:
 artifact_total: 14
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/agentic-access/geoinsight-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/geoinsight-agentic-access.yml
@@ -105,66 +131,82 @@ common:
   type: Support
   url: mailto:info@geoinsight.ai
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-ogc-api-dggs-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/geoinsight-ogc-api-dggs-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/authentication/geoinsight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/geoinsight-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/conventions/geoinsight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/geoinsight-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/data-model/geoinsight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/geoinsight-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/errors/geoinsight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/geoinsight-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/lifecycle/geoinsight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/geoinsight-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/conformance/geoinsight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/geoinsight-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/overlays/geoinsight-ogc-api-dggs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/geoinsight-ogc-api-dggs-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/packages/geoinsight-packages.yml
   title: ''
   type: Packages
   url: packages/geoinsight-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/packages/geoinsight-packages.yml
   title: ''
   type: SDKs
   url: packages/geoinsight-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/mcp/geoinsight-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/geoinsight-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/llms/geoinsight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/geoinsight-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/plans/geoinsight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/geoinsight-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/rate-limits/geoinsight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/geoinsight-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/security/geoinsight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/geoinsight-domain-security.yml
@@ -190,6 +232,48 @@ rate_limits:
 - limit_count: 0
   name: Geoinsight Rate Limits
   slug: geoinsight-rate-limits
+score:
+  band: thin
+  composite: 28.8
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 12.9
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 28.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/screenshots/geoinsight-2026-09-02T145559.png
 security:
 - kind: authentication

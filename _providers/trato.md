@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.3
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://enterprise.api.trato.io
@@ -120,62 +145,77 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/tratolegaltech/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/authentication/trato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trato-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/asyncapi/trato-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/trato-webhooks-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/asyncapi/trato-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/trato-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/mcp/trato-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trato-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/sandbox/trato-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trato-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/conventions/trato-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trato-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/errors/trato-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trato-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/data-model/trato-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trato-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/lifecycle/trato-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trato-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/conformance/trato-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trato-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/security/trato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trato-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/well-known/trato-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trato-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/llms/trato-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trato-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/overlays/trato-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trato-openapi-overlay.yaml
@@ -195,6 +235,40 @@ overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
   Trato''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 36.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 4.5
+    contract_quality: 20.5
+    developer_ergonomics: 64.9
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 36.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/screenshots/trato-2026-08-17T082426.png
 security:
 - kind: authentication

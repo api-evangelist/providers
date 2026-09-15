@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.marketaux.com/v1
@@ -34,10 +59,12 @@ collections:
   slug: open-marketaux
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/overlays/marketaux-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/marketaux-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/mcp/marketaux-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/marketaux-mcp.yml
@@ -86,58 +113,72 @@ common:
   type: PrivacyPolicy
   url: https://www.marketaux.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/authentication/marketaux-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marketaux-authentication.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/plans/marketaux-plans.yml
   title: ''
   type: Plans
   url: plans/marketaux-plans.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/rate-limits/marketaux-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marketaux-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/errors/marketaux-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/marketaux-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/conventions/marketaux-conventions.yml
   title: ''
   type: Conventions
   url: conventions/marketaux-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/lifecycle/marketaux-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/marketaux-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/conformance/marketaux-conformance.yml
   title: ''
   type: Conformance
   url: conformance/marketaux-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/data-model/marketaux-data-model.yml
   title: ''
   type: DataModel
   url: data-model/marketaux-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/examples/marketaux-examples.yml
   title: ''
   type: Examples
   url: examples/marketaux-examples.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/packages/marketaux-packages.yml
   title: ''
   type: Packages
   url: packages/marketaux-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/well-known/marketaux-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/marketaux-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/llms/marketaux-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/marketaux-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/security/marketaux-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marketaux-domain-security.yml
@@ -166,6 +207,47 @@ rate_limits:
 - limit_count: 6
   name: Marketaux Rate Limits
   slug: marketaux-rate-limits
+score:
+  band: developing
+  composite: 43.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 17.0
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 43.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:
 - kind: authentication

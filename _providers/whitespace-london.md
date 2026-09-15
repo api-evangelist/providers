@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -151,18 +176,22 @@ collections:
   slug: open-whitespace-london-platform
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/capabilities/whitespace-london-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/whitespace-london-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/agentic-access/whitespace-london-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/whitespace-london-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/security/whitespace-london-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whitespace-london-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/authentication/whitespace-london-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whitespace-london-authentication.yml
@@ -215,22 +244,27 @@ common:
   type: ParentCompany
   url: https://www.verisk.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/packages/whitespace-london-packages.yml
   title: ''
   type: Packages
   url: packages/whitespace-london-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/cli/whitespace-london-cli.yml
   title: ''
   type: CLI
   url: cli/whitespace-london-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/conventions/whitespace-london-conventions.yml
   title: ''
   type: Conventions
   url: conventions/whitespace-london-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/errors/whitespace-london-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/whitespace-london-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/lifecycle/whitespace-london-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/whitespace-london-lifecycle.yml
@@ -239,6 +273,7 @@ common:
   type: Deprecation
   url: https://apidocs.whitespace.co.uk/How_does_API_versioning_work.pdf
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/changelog/whitespace-london-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/whitespace-london-changelog.yml
@@ -247,34 +282,42 @@ common:
   type: ChangeLog
   url: https://www.whitespace.co.uk/release-notes
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/sandbox/whitespace-london-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/whitespace-london-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/conformance/whitespace-london-conformance.yml
   title: ''
   type: Conformance
   url: conformance/whitespace-london-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/data-model/whitespace-london-data-model.yml
   title: ''
   type: DataModel
   url: data-model/whitespace-london-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/asyncapi/whitespace-london-queues-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/whitespace-london-queues-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/mcp/whitespace-london-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/whitespace-london-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/llms/whitespace-london-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/whitespace-london-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/overlays/whitespace-london-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/whitespace-london-platform-overlay.yaml
@@ -311,6 +354,55 @@ overview: 'Whitespace publishes 24 APIs on the [APIs.io](https://apis.io/) netwo
 
   Whitespace''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 29 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 46.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 55.3
+    developer_ergonomics: 73.2
+    discoverability: 63.0
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/screenshots/whitespace-london-2026-08-17T082915.png
 security:
 - kind: authentication

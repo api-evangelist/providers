@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: near-conformant
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 52.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 3
@@ -505,34 +531,42 @@ collections:
   slug: open-activecampaign-whatsapp-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-segments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activecampaign-segments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-segment-matching-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activecampaign-segment-matching-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-segment-match-one-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activecampaign-segment-match-one-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activecampaign-partners-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-whatsapp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activecampaign-whatsapp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-trackcmp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activecampaign-trackcmp-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activecampaign-v2-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/security/activecampaign-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/activecampaign-trust-center.yml
@@ -553,102 +587,127 @@ common:
   type: SignUp
   url: https://www.activecampaign.com/signup/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/a2a/activecampaign-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/activecampaign-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/agentic-access/activecampaign-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/activecampaign-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/security/activecampaign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/activecampaign-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/authentication/activecampaign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/activecampaign-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-account-add-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-account-add-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-account-add-note-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-account-add-note-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-contact-add-to-automation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-contact-add-to-automation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-contact-add-to-list-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-contact-add-to-list-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-contact-associate-account-by-name-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-contact-associate-account-by-name-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-contact-set-custom-field-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-contact-set-custom-field-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-custom-field-set-on-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-custom-field-set-on-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-deal-add-note-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-deal-add-note-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-deal-add-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-deal-add-task-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-deal-for-contact-by-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-deal-for-contact-by-email-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-deal-set-custom-field-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-deal-set-custom-field-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-list-add-contact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-list-add-contact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-create-pipeline-stage-deal-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-create-pipeline-stage-deal-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-enroll-contact-in-automation-by-name-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-enroll-contact-in-automation-by-name-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-find-deal-add-note-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-find-deal-add-note-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-find-or-create-contact-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-find-or-create-contact-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-find-or-create-tag-and-apply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-find-or-create-tag-and-apply-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-subscribe-contact-to-list-by-name-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-subscribe-contact-to-list-by-name-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-sync-contact-add-to-list-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-sync-contact-add-to-list-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-sync-contact-set-custom-field-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-sync-contact-set-custom-field-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/arazzo/activecampaign-tag-contact-and-enroll-automation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/activecampaign-tag-contact-and-enroll-automation-workflow.yml
@@ -705,18 +764,22 @@ common:
   type: SDKs
   url: https://github.com/ActiveCampaign/activecampaign-api-nodejs
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/rules/activecampaign-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/activecampaign-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/vocabulary/activecampaign-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/activecampaign-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/json-ld/activecampaign-sms-context.jsonld
   title: SMS API Context
   type: JSONLD
   url: json-ld/activecampaign-sms-context.jsonld
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/mcp/activecampaign-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/activecampaign-mcp.yml
@@ -729,6 +792,7 @@ common:
   type: LlmsText
   url: https://developers.activecampaign.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/well-known/activecampaign-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/activecampaign-well-known.yml
@@ -737,22 +801,27 @@ common:
   type: APICatalog
   url: https://developers.activecampaign.com/.well-known/api-catalog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/mcp/activecampaign-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/activecampaign-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/llms/activecampaign-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/activecampaign-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/packages/activecampaign-packages.yml
   title: ''
   type: Packages
   url: packages/activecampaign-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/packages/activecampaign-packages.yml
   title: ''
   type: SDKs
   url: packages/activecampaign-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/conformance/activecampaign-conformance.yml
   title: ''
   type: Conformance
   url: conformance/activecampaign-conformance.yml
@@ -765,46 +834,57 @@ common:
   type: TrustCenter
   url: https://www.activecampaign.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/errors/activecampaign-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/activecampaign-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/lifecycle/activecampaign-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/activecampaign-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/sandbox/activecampaign-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/activecampaign-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/conventions/activecampaign-conventions.yml
   title: ''
   type: Conventions
   url: conventions/activecampaign-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/changelog/activecampaign-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/activecampaign-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/data-model/activecampaign-data-model.yml
   title: ''
   type: DataModel
   url: data-model/activecampaign-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/plans/activecampaign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/activecampaign-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/rate-limits/activecampaign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/activecampaign-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/finops/activecampaign-finops.yml
   title: ''
   type: FinOps
   url: finops/activecampaign-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/security/activecampaign-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/activecampaign-vulnerability-disclosure.yml
@@ -813,10 +893,12 @@ common:
   type: Security
   url: https://hackerone.com/activecampaign
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/asyncapi/activecampaign-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/activecampaign-webhooks-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/asyncapi/activecampaign-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/activecampaign-webhooks-asyncapi.yml
@@ -1124,6 +1206,41 @@ rules:
     info: 2
     warn: 12
   slug: activecampaign-spectral-rules
+score:
+  band: exemplar
+  composite: 74.6
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 80.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 33.3
+    contract_quality: 61.1
+    developer_ergonomics: 71.4
+    discoverability: 68.5
+    operational_transparency: 76.3
+  previous_composite: 74.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 35
+      marker_coverage: 61.4
+      total: 57
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:
 - kind: authentication

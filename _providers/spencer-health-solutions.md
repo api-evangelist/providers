@@ -10,10 +10,36 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spencer-health-solutions/refs/heads/main/security/spencer-health-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spencer-health-solutions-domain-security.yml
@@ -70,10 +96,12 @@ common:
   type: Facebook
   url: https://www.facebook.com/spencerhealthsolutions
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spencer-health-solutions/refs/heads/main/packages/spencer-health-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/spencer-health-solutions-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spencer-health-solutions/refs/heads/main/conformance/spencer-health-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spencer-health-solutions-conformance.yml
@@ -82,14 +110,17 @@ common:
   type: Compliance
   url: https://spencerhealthsolutions.com/platform/certifications-compliance-and-data-standards/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spencer-health-solutions/refs/heads/main/llms/spencer-health-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spencer-health-solutions-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spencer-health-solutions/refs/heads/main/plans/spencer-health-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spencer-health-solutions-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spencer-health-solutions/refs/heads/main/rate-limits/spencer-health-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spencer-health-solutions-rate-limits.yml
@@ -129,6 +160,40 @@ rate_limits:
 - limit_count: 0
   name: Spencer Health Solutions Rate Limits
   slug: spencer-health-solutions-rate-limits
+score:
+  band: minimal
+  composite: 4.3
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 50.0
+    operational_transparency: 0.0
+  previous_composite: 4.3
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 13.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/spencer-health-solutions/refs/heads/main/screenshots/spencer-health-solutions-2026-09-02T160411.png
 security:
 - kind: domain-security

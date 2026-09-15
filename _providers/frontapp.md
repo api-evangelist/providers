@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Front Core API is a REST API over Front's shared-inbox platform. It exposes conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge base
@@ -77,14 +103,17 @@ common:
   type: StatusPage
   url: https://status.frontapp.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/llms/frontapp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/frontapp-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/well-known/frontapp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/frontapp-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/well-known/frontapp-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/frontapp-security.txt
@@ -93,54 +122,67 @@ common:
   type: MCPServer
   url: https://mcp.frontapp.com/mcp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/authentication/frontapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/frontapp-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/scopes/frontapp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/frontapp-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/conventions/frontapp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/frontapp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/lifecycle/frontapp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/frontapp-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/changelog/frontapp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/frontapp-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/rate-limits/frontapp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/frontapp-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/asyncapi/frontapp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/frontapp-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/packages/frontapp-packages.yml
   title: ''
   type: Packages
   url: packages/frontapp-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/packages/frontapp-packages.yml
   title: ''
   type: SDKs
   url: packages/frontapp-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/components/frontapp-components.yml
   title: ''
   type: Components
   url: components/frontapp-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/conformance/frontapp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/frontapp-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/security/frontapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frontapp-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/security/frontapp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/frontapp-vulnerability-disclosure.yml
@@ -149,6 +191,7 @@ common:
   type: Security
   url: https://front.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/security/frontapp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/frontapp-trust-center.yml
@@ -185,6 +228,35 @@ scopes:
   scope_count: 57
   slug: frontapp-scopes
   summary_line: 57 scopes · authorizationCode
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 53.6
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 47.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/screenshots/frontapp-2026-07-25T215228.png
 security:
 - kind: authentication

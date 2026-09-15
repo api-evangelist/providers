@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://testfairy.com'', ''status'': 301, ''note'': ''declared website redirects to https://saucelabs.com/products/testfairy-sauce-labs — a different registrable domain (testfairy.com -> saucelabs.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for managing TestFairy projects, builds, testers, tester groups, sites, webhooks, permissions, feedback, and audit trails. Authenticated with HTTP Basic (email:api-key) or OIDC bearer tokens.
@@ -75,50 +100,62 @@ common:
   type: Support
   url: https://docs.saucelabs.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/authentication/testfairy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/testfairy-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/packages/testfairy-packages.yml
   title: ''
   type: Packages
   url: packages/testfairy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/packages/testfairy-packages.yml
   title: ''
   type: SDKs
   url: packages/testfairy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/cli/testfairy-cli.yml
   title: ''
   type: CLI
   url: cli/testfairy-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/mcp/testfairy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/testfairy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/llms/testfairy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/testfairy-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/conventions/testfairy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/testfairy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/lifecycle/testfairy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/testfairy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/lifecycle/testfairy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/testfairy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/changelog/testfairy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/testfairy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/errors/testfairy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/testfairy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/conformance/testfairy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/testfairy-conformance.yml
@@ -127,26 +164,32 @@ common:
   type: Compliance
   url: https://trust.saucelabs.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/security/testfairy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/testfairy-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/data-model/testfairy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/testfairy-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/asyncapi/testfairy-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/testfairy-webhooks-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/asyncapi/testfairy-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/testfairy-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/well-known/testfairy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/testfairy-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/security/testfairy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/testfairy-domain-security.yml
@@ -166,6 +209,35 @@ overview: 'TestFairy publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   TestFairy''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 25 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 52.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/testfairy/refs/heads/main/screenshots/testfairy-2026-08-17T082325.png
 security:
 - kind: authentication

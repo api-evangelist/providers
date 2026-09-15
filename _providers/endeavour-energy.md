@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,26 +67,32 @@ collections:
   slug: open-endeavour-energy-open-data-explore-api-v2-1
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/overlays/endeavour-energy-open-data-explore-api-v2-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/endeavour-energy-open-data-explore-api-v2-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/overlays/endeavour-energy-open-data-explore-api-v2-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/endeavour-energy-open-data-explore-api-v2-0-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/agentic-access/endeavour-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/endeavour-energy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/security/endeavour-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/endeavour-energy-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/security/endeavour-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/endeavour-energy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/authentication/endeavour-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/endeavour-energy-authentication.yml
@@ -90,6 +121,7 @@ common:
   type: SecurityTxt
   url: https://www.endeavourenergy.com.au/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/well-known/endeavour-energy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/endeavour-energy-security.txt
@@ -98,6 +130,7 @@ common:
   type: Security
   url: https://www.endeavourenergy.com.au/.well-known/security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/well-known/endeavour-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/endeavour-energy-well-known.yml
@@ -138,34 +171,42 @@ common:
   type: Login
   url: https://data.endeavourenergy.com.au/login/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/packages/endeavour-energy-packages.yml
   title: ''
   type: Packages
   url: packages/endeavour-energy-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/components/endeavour-energy-components.yml
   title: ''
   type: Components
   url: components/endeavour-energy-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/mcp/endeavour-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/endeavour-energy-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/mcp/endeavour-energy-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/endeavour-energy-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/llms/endeavour-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/endeavour-energy-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/conformance/endeavour-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/endeavour-energy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/errors/endeavour-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/endeavour-energy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/lifecycle/endeavour-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/endeavour-energy-lifecycle.yml
@@ -174,34 +215,42 @@ common:
   type: Deprecation
   url: https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html#section/Versioning/Deprecation-warnings
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/changelog/endeavour-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/endeavour-energy-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/scopes/endeavour-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/endeavour-energy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/conventions/endeavour-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/endeavour-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/conventions/endeavour-energy-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/endeavour-energy-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/rate-limits/endeavour-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/endeavour-energy-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/data-model/endeavour-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/endeavour-energy-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/sandbox/endeavour-energy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/endeavour-energy-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -228,6 +277,55 @@ scopes:
   scope_count: 1
   slug: endeavour-energy-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 54.3
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 4.5
+    contract_quality: 57.2
+    developer_ergonomics: 66.1
+    discoverability: 87.0
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 54.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 70.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:
 - kind: authentication

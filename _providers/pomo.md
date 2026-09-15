@@ -10,6 +10,31 @@ access_model:
   - https://usepomo.ai/llms.txt
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.usepomo.ai
@@ -519,14 +544,17 @@ asyncapis:
   slug: pomo-event-surface
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/capabilities/pomo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pomo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/overlays/pomo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pomo-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/security/pomo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pomo-domain-security.yml
@@ -535,18 +563,22 @@ common:
   type: Website
   url: https://usepomo.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/llms/pomo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pomo-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/plans/pomo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pomo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/rate-limits/pomo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pomo-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -611,6 +643,45 @@ rate_limits:
 - limit_count: 1
   name: Pomo Rate Limits
   slug: pomo-rate-limits
+score:
+  band: strong
+  composite: 57.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 54.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 4.5
+    contract_quality: 61.4
+    developer_ergonomics: 37.5
+    discoverability: 70.4
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 57.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 100
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/screenshots/pomo-2026-08-17T081321.png
 security:
 - kind: authentication

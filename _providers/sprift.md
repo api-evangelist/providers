@@ -11,6 +11,31 @@ access_model:
   - openapi
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -85,82 +110,102 @@ collections:
   slug: open-sprift
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/agentic-access/sprift-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sprift-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/security/sprift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sprift-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/authentication/sprift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sprift-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/conventions/sprift-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sprift-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/errors/sprift-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sprift-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/lifecycle/sprift-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sprift-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/conformance/sprift-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sprift-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/data-model/sprift-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sprift-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/components/sprift-components.yml
   title: ''
   type: Components
   url: components/sprift-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/asyncapi/sprift-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sprift-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/mcp/sprift-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sprift-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/mcp/sprift-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sprift-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/llms/sprift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sprift-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/overlays/sprift-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sprift-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/arazzo/sprift-property-report.yml
   title: ''
   type: Arazzo
   url: arazzo/sprift-property-report.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/arazzo/sprift-material-information.yml
   title: ''
   type: Arazzo
   url: arazzo/sprift-material-information.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/arazzo/sprift-valuation-evidence.yml
   title: ''
   type: Arazzo
   url: arazzo/sprift-valuation-evidence.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/arazzo/sprift-market-intelligence.yml
   title: ''
   type: Arazzo
   url: arazzo/sprift-market-intelligence.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/arazzo/sprift-crm-enrichment.yml
   title: ''
   type: Arazzo
   url: arazzo/sprift-crm-enrichment.yml
@@ -265,6 +310,49 @@ overview: 'Sprift publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
   Sprift''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, support, engineering blog, and 34 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 30.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 54.5
+    developer_ergonomics: 49.4
+    discoverability: 63.0
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 38.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/screenshots/sprift-2026-08-17T082046.png
 security:
 - kind: authentication

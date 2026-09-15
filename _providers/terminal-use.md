@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 2
@@ -254,10 +279,12 @@ collections:
   slug: open-terminal-use-versions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/capabilities/terminal-use-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/terminal-use-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/agentic-access/terminal-use-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/terminal-use-agentic-access.yml
@@ -290,66 +317,82 @@ common:
   type: SignUp
   url: https://app.terminaluse.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/authentication/terminal-use-authentication.yml
   title: ''
   type: Authentication
   url: authentication/terminal-use-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/packages/terminal-use-packages.yml
   title: ''
   type: Packages
   url: packages/terminal-use-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/packages/terminal-use-packages.yml
   title: ''
   type: SDKs
   url: packages/terminal-use-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/cli/terminal-use-cli.yml
   title: ''
   type: CLI
   url: cli/terminal-use-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/llms/terminal-use-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/terminal-use-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/conventions/terminal-use-conventions.yml
   title: ''
   type: Conventions
   url: conventions/terminal-use-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/conventions/terminal-use-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/terminal-use-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/errors/terminal-use-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/terminal-use-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/lifecycle/terminal-use-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/terminal-use-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/conformance/terminal-use-conformance.yml
   title: ''
   type: Conformance
   url: conformance/terminal-use-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/data-model/terminal-use-data-model.yml
   title: ''
   type: DataModel
   url: data-model/terminal-use-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/mcp/terminal-use-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/terminal-use-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/overlays/terminal-use-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/terminal-use-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/asyncapi/terminal-use-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/terminal-use-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/security/terminal-use-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/terminal-use-domain-security.yml
@@ -369,6 +412,41 @@ overview: 'Terminal Use publishes 28 APIs on the [APIs.io](https://apis.io/) net
 
   Terminal Use''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 18 more developer resources.'
 random_paper: 20
+score:
+  band: developing
+  composite: 44.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 61.2
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 44.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 66.7
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/screenshots/terminal-use-2026-09-02T163149.png
 security:
 - kind: authentication

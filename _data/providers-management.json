@@ -8,53 +8,9 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
-    {
-     "name": "Amazon API Gateway",
-     "slug": "aws-api-gateway",
-     "description": "Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authorization, monitoring, and API version management. API Gateway integrates natively with AWS Lambda, CloudWatch, CloudFront, IAM, and Cognito, and (as of December 2025) can expose REST APIs as MCP-compatible tools for Amazon Bedrock AgentCore Gateway for agent-driven API consumption.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png",
-     "score": 68.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 80.0,
-      "contract_governance": 28.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 67.9,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 23.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 1
-    },
     {
      "name": "Microsoft Azure API Management",
      "slug": "microsoft-azure-api-management",
@@ -71,7 +27,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
@@ -97,7 +53,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 2
+     "rank": 1
     }
    ],
    "open": true
@@ -107,9 +63,53 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
+    {
+     "name": "Amazon API Gateway",
+     "slug": "aws-api-gateway",
+     "description": "Amazon API Gateway is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. It acts as the front door for applications to access backend services, supporting REST APIs, HTTP APIs, and WebSocket APIs with built-in traffic management, authorization, monitoring, and API version management. API Gateway integrates natively with AWS Lambda, CloudWatch, CloudFront, IAM, and Cognito, and (as of December 2025) can expose REST APIs as MCP-compatible tools for Amazon Bedrock AgentCore Gateway for agent-driven API consumption.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png",
+     "score": 64.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 74.1,
+      "contract_governance": 28.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 67.9,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 23.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Gateways, Ingress and the Data Plane",
+     "rank": 2
+    },
     {
      "name": "Solo.io",
      "slug": "solo-io",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -214,7 +214,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -258,7 +258,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -302,7 +302,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -346,7 +346,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -390,7 +390,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -434,7 +434,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -489,7 +489,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -533,7 +533,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -577,7 +577,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -621,7 +621,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -665,7 +665,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -709,7 +709,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -753,7 +753,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -797,7 +797,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -841,7 +841,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -874,7 +874,7 @@
      "slug": "apiman",
      "description": "Apiman is an open source API management platform featuring a REST API, manager UI, and standalone developer portal with multi-tenancy, events, notifications, permissions, and approval workflows. It provides extensible API gateway capabilities through a simple Java plugin architecture with support for policies, plans, organizations, and client management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png",
-     "score": 46.2,
+     "score": 45.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -885,15 +885,8 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 34.8,
-      "matched_via": "tags"
-     },
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -936,7 +929,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -980,7 +973,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -1013,18 +1006,18 @@
      "slug": "ibm-api-connect",
      "description": "IBM API Connect is a comprehensive end-to-end API management solution that enables organizations to create, secure, manage, share, monetize, and analyze APIs across clouds. It provides an API gateway, developer portal, and lifecycle management capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/screenshots/ibm-api-connect-2026-06-20T183145.png",
-     "score": 42.9,
+     "score": 43.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 74.1,
       "contract_quality": 41.5,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 47.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.4,
      "agent_band": "agent-aware",
@@ -1068,7 +1061,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1112,7 +1105,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1166,7 +1159,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
@@ -1199,18 +1192,18 @@
      "slug": "sap-api-management",
      "description": "SAP API Management is an API platform that enables organizations to design, import, publish, secure, and monitor APIs. It provides a self-service developer portal (API Business Hub Enterprise), OpenAPI-based API design tools, policy management, and access to the SAP Business Accelerator Hub for discovering and consuming SAP and partner APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/screenshots/sap-api-management-2026-06-20T193414.png",
-     "score": 37.2,
+     "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 59.3,
       "contract_quality": 61.9,
       "contract_governance": 25.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 22.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1254,7 +1247,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1298,7 +1291,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1342,7 +1335,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1386,7 +1379,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1430,7 +1423,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1474,7 +1467,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1528,7 +1521,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1572,7 +1565,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1616,7 +1609,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",

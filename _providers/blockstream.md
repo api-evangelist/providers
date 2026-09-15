@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - baseURL: https://blockstream.info/api
@@ -86,66 +111,82 @@ common:
   type: Blog
   url: https://blockstream.com/blog/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/_original/blockstream-esplora-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/blockstream-esplora-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/overlays/blockstream-esplora-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blockstream-esplora-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/authentication/blockstream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blockstream-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/conventions/blockstream-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blockstream-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/errors/blockstream-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blockstream-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/data-model/blockstream-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blockstream-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/lifecycle/blockstream-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blockstream-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/conformance/blockstream-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blockstream-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/packages/blockstream-packages.yml
   title: ''
   type: Packages
   url: packages/blockstream-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/packages/blockstream-packages.yml
   title: ''
   type: SDKs
   url: packages/blockstream-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/mcp/blockstream-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/blockstream-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/llms/blockstream-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blockstream-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/well-known/blockstream-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blockstream-well-known.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/sandbox/blockstream-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blockstream-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/security/blockstream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blockstream-domain-security.yml
@@ -162,6 +203,40 @@ overview: 'Blockstream publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
   Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 15 more developer resources.'
 random_paper: 20
+score:
+  band: emerging
+  composite: 20.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 11.5
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 20.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/screenshots/blockstream-2026-07-25T203345.png
 security:
 - kind: authentication

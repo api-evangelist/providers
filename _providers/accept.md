@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -216,6 +241,7 @@ common:
   type: Website
   url: https://www.accept.io/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/overlays/accept-midas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/accept-midas-overlay.yaml
@@ -236,62 +262,77 @@ common:
   type: ContributionGuide
   url: https://github.com/accept-io/midas/blob/main/CONTRIBUTING.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/security/accept-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accept-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/agentic-access/accept-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/accept-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/authentication/accept-authentication.yml
   title: ''
   type: Authentication
   url: authentication/accept-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/asyncapi/accept-midas-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/accept-midas-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/conventions/accept-conventions.yml
   title: ''
   type: Conventions
   url: conventions/accept-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/conventions/accept-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/accept-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/errors/accept-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/accept-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/conformance/accept-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accept-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/lifecycle/accept-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accept-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/packages/accept-packages.yml
   title: ''
   type: Packages
   url: packages/accept-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/well-known/accept-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/accept-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/mcp/accept-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/accept-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/llms/accept-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accept-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/cli/accept-cli.yml
   title: ''
   type: CLI
   url: cli/accept-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/changelog/accept-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/accept-changelog.yml
@@ -300,6 +341,7 @@ common:
   type: ChangeLog
   url: https://github.com/accept-io/midas/blob/main/CHANGELOG.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/security/accept-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/accept-vulnerability-disclosure.yml
@@ -308,6 +350,7 @@ common:
   type: Security
   url: https://github.com/accept-io/midas/blob/main/SECURITY.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -352,6 +395,7 @@ common:
   type: License
   url: https://github.com/accept-io/midas/blob/main/LICENSE
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/sandbox/accept-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/accept-sandbox.yml
@@ -375,6 +419,41 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
   Accept''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 57.2
+    developer_ergonomics: 73.2
+    discoverability: 68.5
+    operational_transparency: 42.1
+  previous_composite: 41.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 23
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:
 - kind: authentication

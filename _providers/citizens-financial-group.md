@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,6 +97,7 @@ apis:
 artifact_total: 21
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/agentic-access/citizens-financial-group-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/citizens-financial-group-agentic-access.yml
@@ -132,90 +158,112 @@ common:
   type: TermsOfService
   url: https://www.citizensbank.com/account-safeguards/terms-of-use.aspx
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/authentication/citizens-financial-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/citizens-financial-group-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/scopes/citizens-financial-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/citizens-financial-group-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/conventions/citizens-financial-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/citizens-financial-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/conventions/citizens-financial-group-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/citizens-financial-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/conformance/citizens-financial-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/citizens-financial-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/lifecycle/citizens-financial-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/citizens-financial-group-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/data-model/citizens-financial-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/citizens-financial-group-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/errors/citizens-financial-group-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/citizens-financial-group-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/errors/citizens-financial-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/citizens-financial-group-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/errors/citizens-financial-group-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/citizens-financial-group-decline-codes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/plans/citizens-financial-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/citizens-financial-group-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/rate-limits/citizens-financial-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/citizens-financial-group-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/sandbox/citizens-financial-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/citizens-financial-group-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/security/citizens-financial-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/citizens-financial-group-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/security/citizens-financial-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/citizens-financial-group-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/security/citizens-financial-group-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/citizens-financial-group-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/llms/citizens-financial-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/citizens-financial-group-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/mcp/citizens-financial-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/citizens-financial-group-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/finops/citizens-financial-group-finops.yml
   title: ''
   type: FinOps
   url: finops/citizens-financial-group-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/json-ld/citizens-financial-group-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/citizens-financial-group-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/rules/citizens-financial-group-rules.yml
   title: ''
   type: Spectral
   url: rules/citizens-financial-group-rules.yml
@@ -269,6 +317,47 @@ scopes:
   scope_count: 5
   slug: citizens-financial-group-scopes
   summary_line: 5 scopes
+score:
+  band: exemplar
+  composite: 67.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 85.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 30.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 63.6
+    contract_quality: 52.0
+    developer_ergonomics: 51.8
+    discoverability: 64.8
+    operational_transparency: 42.1
+  previous_composite: 67.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 12
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 88.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/screenshots/citizens-financial-group-2026-06-20T174413.png
 security:
 - kind: authentication

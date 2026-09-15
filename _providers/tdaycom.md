@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Model Context Protocol server for tday, and the agent-facing entry point to the platform. It ships in two deployments that front the same nine tools: a hosted remote endpoint at https://tday.com/api/m'
@@ -17,6 +42,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/security/tdaycom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tdaycom-domain-security.yml
@@ -57,70 +83,87 @@ common:
   type: TermsOfService
   url: https://tday.com/terms
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/mcp/tdaycom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tdaycom-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/mcp/tdaycom-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tdaycom-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/well-known/tdaycom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tdaycom-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/authentication/tdaycom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tdaycom-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/scopes/tdaycom-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tdaycom-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/packages/tdaycom-packages.yml
   title: ''
   type: Packages
   url: packages/tdaycom-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/cli/tdaycom-cli.yml
   title: ''
   type: CLI
   url: cli/tdaycom-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/conventions/tdaycom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tdaycom-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/errors/tdaycom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tdaycom-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/rate-limits/tdaycom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tdaycom-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/data-model/tdaycom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tdaycom-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/conformance/tdaycom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tdaycom-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/lifecycle/tdaycom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tdaycom-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/changelog/tdaycom-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tdaycom-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/plans/tdaycom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tdaycom-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tdaycom/refs/heads/main/llms/tdaycom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tdaycom-llms.txt
@@ -155,6 +198,36 @@ scopes:
   scope_count: 1
   slug: tdaycom-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: thin
+  composite: 35.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 35.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Tdaycom Authentication

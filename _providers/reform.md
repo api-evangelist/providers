@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
@@ -21,6 +46,7 @@ asyncapis:
   slug: reform-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/security/reform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reform-domain-security.yml
@@ -77,46 +103,57 @@ common:
   type: X
   url: https://x.com/heyreform
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/llms/reform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reform-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/asyncapi/reform-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/reform-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/components/reform-components.yml
   title: ''
   type: Components
   url: components/reform-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/packages/reform-packages.yml
   title: ''
   type: Packages
   url: packages/reform-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/conventions/reform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reform-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/authentication/reform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reform-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/data-model/reform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reform-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/conformance/reform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reform-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/lifecycle/reform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reform-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/security/reform-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/reform-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/security/reform-trust-center.yml
   title: ''
   type: Compliance
   url: security/reform-trust-center.yml
@@ -165,6 +202,34 @@ rate_limits:
 - limit_count: 0
   name: Reform Rate Limits
   slug: reform-rate-limits
+score:
+  band: developing
+  composite: 49.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 60.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 51.9
+    developer_ergonomics: 40.5
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 49.8
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/reform/refs/heads/main/screenshots/reform-2026-06-20T192748.png
 security:
 - kind: authentication

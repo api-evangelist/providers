@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'REST API for tax compliance and information reporting: account owners, accounts, transactions, inventory, realized gains, tax documentation (W-8/W-9), filers, form items, disposition methods, transfer'
@@ -66,66 +91,82 @@ common:
   type: PrivacyPolicy
   url: https://www.taxbit.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/security/taxbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/taxbit-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/security/taxbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taxbit-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/llms/taxbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taxbit-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/mcp/taxbit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/taxbit-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/authentication/taxbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taxbit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/conventions/taxbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taxbit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/conventions/taxbit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/taxbit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/conformance/taxbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taxbit-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/conformance/taxbit-conformance.yml
   title: ''
   type: Compliance
   url: conformance/taxbit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/lifecycle/taxbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taxbit-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/packages/taxbit-packages.yml
   title: ''
   type: Packages
   url: packages/taxbit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/packages/taxbit-packages.yml
   title: ''
   type: SDKs
   url: packages/taxbit-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/components/taxbit-components.yml
   title: ''
   type: Components
   url: components/taxbit-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/data-model/taxbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/taxbit-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/asyncapi/taxbit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/taxbit-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -149,6 +190,36 @@ overview: 'TaxBit publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   TaxBit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 40.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 40.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxbit/refs/heads/main/screenshots/taxbit-2026-08-17T082251.png
 security:
 - kind: authentication

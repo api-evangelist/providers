@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -246,58 +271,72 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/distru
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/_original/distru-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/distru-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/authentication/distru-authentication.yml
   title: ''
   type: Authentication
   url: authentication/distru-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/conventions/distru-conventions.yml
   title: ''
   type: Conventions
   url: conventions/distru-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/errors/distru-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/distru-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/lifecycle/distru-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/distru-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/changelog/distru-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/distru-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/data-model/distru-data-model.yml
   title: ''
   type: DataModel
   url: data-model/distru-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/conformance/distru-conformance.yml
   title: ''
   type: Conformance
   url: conformance/distru-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/overlays/distru-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/distru-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/mcp/distru-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/distru-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/llms/distru-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/distru-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/agentic-access/distru-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/distru-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/security/distru-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/distru-domain-security.yml
@@ -314,6 +353,41 @@ overview: 'Distru publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
   Distru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
 random_paper: 16
+score:
+  band: thin
+  composite: 33.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 12.9
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 33.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 21
+      marker_coverage: 100.0
+      total: 21
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/screenshots/distru-2026-07-25T212123.png
 security:
 - kind: authentication

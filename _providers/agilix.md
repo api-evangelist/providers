@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Buzz API is the programmable surface of the Agilix Learning Suite. It is a command-style HTTP API rather than a path-and-method REST API: every one of its 291 documented operations is issued as PO'
@@ -11,10 +36,12 @@ asyncapis:
   slug: agilix-datastream-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agilix-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agilix-domain-security.yml
@@ -43,10 +70,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/AgilixLabs
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/packages/agilix-packages.yml
   title: ''
   type: SDKs
   url: packages/agilix-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/packages/agilix-packages.yml
   title: ''
   type: Packages
   url: packages/agilix-packages.yml
@@ -71,26 +100,32 @@ common:
   type: PrivacyPolicy
   url: https://www.agilix.com/privacy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/plans/agilix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agilix-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/conformance/agilix-conformance.yml
   title: ''
   type: Compliance
   url: conformance/agilix-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/conformance/agilix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agilix-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/well-known/agilix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agilix-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/llms/agilix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agilix-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/lifecycle/agilix-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/agilix-lifecycle.yml
@@ -107,14 +142,17 @@ common:
   type: News
   url: https://www.agilix.com/news-and-press
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agilix-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/security/agilix-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/agilix-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agilix/refs/heads/main/asyncapi/agilix-datastream-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agilix-datastream-webhooks.yml
@@ -143,6 +181,42 @@ rate_limits:
 - limit_count: 5
   name: Agilix Rate Limits
   slug: agilix-rate-limits
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 52.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 59.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Agilix Authentication
@@ -173,6 +247,6 @@ tags:
 - LTI
 - SCORM
 - Artificial Intelligence
-- Events
+- Event
 website: https://www.agilix.com/
 ---

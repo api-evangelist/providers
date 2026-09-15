@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
@@ -34,10 +59,12 @@ asyncapis:
   slug: cision-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/authentication/cision-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cision-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/security/cision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cision-domain-security.yml
@@ -74,14 +101,17 @@ common:
   type: X
   url: https://x.com/cision
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/plans/cision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cision-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/rate-limits/cision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cision-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/finops/cision-finops.yml
   title: ''
   type: FinOps
   url: finops/cision-finops.yml
@@ -122,54 +152,67 @@ common:
   type: Compliance
   url: https://www.cision.com/legal/security-statement/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-cisionone-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/cision-cisionone-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/overlays/cision-cisionone-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cision-cisionone-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/conventions/cision-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cision-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/errors/cision-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cision-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/data-model/cision-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cision-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/lifecycle/cision-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cision-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/changelog/cision-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cision-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/conformance/cision-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cision-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/packages/cision-packages.yml
   title: ''
   type: Packages
   url: packages/cision-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/components/cision-components.yml
   title: ''
   type: Components
   url: components/cision-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/asyncapi/cision-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cision-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/llms/cision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cision-llms.txt
@@ -206,6 +249,41 @@ rate_limits:
 - limit_count: 2
   name: Cision Rate Limits
   slug: cision-rate-limits
+score:
+  band: developing
+  composite: 48.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 65.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 24.7
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    operational_transparency: 47.4
+  previous_composite: 48.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:
 - kind: authentication

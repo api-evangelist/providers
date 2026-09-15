@@ -32,22 +32,27 @@ common:
   type: XProfile
   url: https://x.com/unlonely_app
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/graphql/unlonely-graphql.md
   title: ''
   type: GraphQL
   url: graphql/unlonely-graphql.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/llms/unlonely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unlonely-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/lifecycle/unlonely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unlonely-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/well-known/unlonely-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unlonely-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unlonely/refs/heads/main/data-model/unlonely-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unlonely-data-model.yml

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: OAuth-protected remote Model Context Protocol endpoint served from the AgentSmyth Kong Enterprise gateway. An unauthenticated POST of an MCP tools/list request returns HTTP 401 with an RFC 9728 WWW-Au
@@ -31,50 +56,62 @@ common:
   type: TrustCenter
   url: https://agentsmyth.com/institutional-trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/conformance/agentsmyth-conformance.yml
   title: ''
   type: Compliance
   url: conformance/agentsmyth-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/llms/agentsmyth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentsmyth-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/well-known/agentsmyth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agentsmyth-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/mcp/agentsmyth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agentsmyth-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/authentication/agentsmyth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentsmyth-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/scopes/agentsmyth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agentsmyth-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/conformance/agentsmyth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentsmyth-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/conventions/agentsmyth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentsmyth-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/lifecycle/agentsmyth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentsmyth-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/security/agentsmyth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentsmyth-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/plans/agentsmyth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agentsmyth-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/rate-limits/agentsmyth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentsmyth-rate-limits.yml
@@ -91,7 +128,7 @@ modified: '2026-09-12'
 name: AgentSmyth
 nav: Providers
 network: true
-overview: 'AgentSmyth publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Capital Markets, Artificial Intelligence, AI Agents, and Trading.
+overview: 'AgentSmyth publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Capital Markets, Artificial Intelligence, AI Agents, and Trading.
 
 
   AgentSmyth''s developer surface includes signup flow, authentication, and 16 more developer resources.'
@@ -109,6 +146,41 @@ scopes:
   scope_count: 0
   slug: agentsmyth-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 25.7
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 11.9
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 25.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 76.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Agentsmyth Authentication
@@ -120,7 +192,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: agentsmyth
 tags:
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Artificial Intelligence
 - AI Agents
@@ -129,6 +201,6 @@ tags:
 - Market Intelligence
 - MCP
 - agent-native
-- FinTech
+- Fintech
 website: https://agentsmyth.com/
 ---

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: near-conformant
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Vidyard Dashboard API provides full CRUD access to your Vidyard account assets including players, videos, chapters, organizations, teams, users, roles, events, campaigns, tags, webhooks, embeds, a
@@ -27,14 +52,17 @@ asyncapis:
   slug: vidyard-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/security/vidyard-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vidyard-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/security/vidyard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vidyard-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/security/vidyard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vidyard-domain-security.yml
@@ -71,74 +99,92 @@ common:
   type: X
   url: https://x.com/vidyard
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/plans/vidyard-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vidyard-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/rate-limits/vidyard-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vidyard-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/finops/vidyard-finops.yml
   title: ''
   type: FinOps
   url: finops/vidyard-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/a2a/vidyard-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/vidyard-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/llms/vidyard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vidyard-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/well-known/vidyard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vidyard-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/authentication/vidyard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vidyard-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/errors/vidyard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vidyard-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/conventions/vidyard-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vidyard-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/data-model/vidyard-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vidyard-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/asyncapi/vidyard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vidyard-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/conformance/vidyard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vidyard-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/lifecycle/vidyard-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vidyard-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/changelog/vidyard-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vidyard-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/packages/vidyard-packages.yml
   title: ''
   type: Packages
   url: packages/vidyard-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/packages/vidyard-packages.yml
   title: ''
   type: SDKs
   url: packages/vidyard-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/cli/vidyard-cli.yml
   title: ''
   type: CLI
   url: cli/vidyard-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/components/vidyard-components.yml
   title: ''
   type: Components
   url: components/vidyard-components.yml
@@ -223,6 +269,35 @@ rate_limits:
 - limit_count: 3
   name: Vidyard Rate Limits
   slug: vidyard-rate-limits
+score:
+  band: exemplar
+  composite: 69.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 78.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 37.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 55.8
+    developer_ergonomics: 76.2
+    discoverability: 81.5
+    operational_transparency: 76.3
+  previous_composite: 69.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/screenshots/vidyard-2026-06-20T201023.png
 security:
 - kind: authentication

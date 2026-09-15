@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 662
   human_in_the_loop: 9
@@ -553,6 +578,7 @@ common:
   type: Website
   url: https://galileo.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/capabilities/galileo-technologies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/galileo-technologies-capability-edges.yml
@@ -597,70 +623,87 @@ common:
   type: PrivacyPolicy
   url: https://galileo.ai/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/mcp/galileo-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/galileo-technologies-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/packages/galileo-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/galileo-technologies-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/packages/galileo-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/galileo-technologies-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/llms/galileo-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/galileo-technologies-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/overlays/galileo-technologies-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/galileo-technologies-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/conformance/galileo-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/galileo-technologies-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/errors/galileo-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/galileo-technologies-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/lifecycle/galileo-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/galileo-technologies-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/conventions/galileo-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/galileo-technologies-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/changelog/galileo-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/galileo-technologies-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/data-model/galileo-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/galileo-technologies-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/asyncapi/galileo-technologies-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/galileo-technologies-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/agentic-access/galileo-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/galileo-technologies-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/authentication/galileo-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/galileo-technologies-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/scopes/galileo-technologies-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/galileo-technologies-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/security/galileo-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/galileo-technologies-domain-security.yml
@@ -706,6 +749,41 @@ scopes:
   scope_count: 0
   slug: galileo-technologies-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 65.2
+    contract_quality: 62.2
+    developer_ergonomics: 51.8
+    discoverability: 51.9
+    operational_transparency: 26.3
+  previous_composite: 54.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 68
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-08-17T123543.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Action-based RPC API covering every UCloud product (compute, networking, storage, databases, Kubernetes, monitoring, AI) through a single signed gateway. Requests carry an Action name plus PublicKey/S
@@ -21,10 +46,12 @@ asyncapis:
   slug: ucloud-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/security/ucloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ucloud-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/security/ucloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ucloud-vulnerability-disclosure.yml
@@ -81,54 +108,67 @@ common:
   type: PrivacyPolicy
   url: https://www.ucloud-global.com/en/docs/agreement/PrivacyPolicy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/cli/ucloud-cli.yml
   title: ''
   type: CLI
   url: cli/ucloud-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/packages/ucloud-packages.yml
   title: ''
   type: Packages
   url: packages/ucloud-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/packages/ucloud-packages.yml
   title: ''
   type: SDKs
   url: packages/ucloud-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/llms/ucloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ucloud-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/conformance/ucloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ucloud-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/errors/ucloud-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ucloud-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/lifecycle/ucloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ucloud-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/authentication/ucloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ucloud-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/sandbox/ucloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ucloud-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/conventions/ucloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ucloud-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/changelog/ucloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ucloud-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/asyncapi/ucloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ucloud-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/skills/ucloud-cli-SKILL.md
   title: ''
   type: AgentSkill
   url: skills/ucloud-cli-SKILL.md
@@ -148,6 +188,42 @@ overview: 'UCloud publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   UCloud''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 35.1
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 31.0
+    discoverability: 68.5
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 35.1
+  provenance:
+    conformance: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/screenshots/ucloud-2026-08-17T082534.png
 security:
 - kind: authentication

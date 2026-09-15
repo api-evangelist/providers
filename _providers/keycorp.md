@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,10 +173,12 @@ collections:
   slug: open-keycorp
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/capabilities/keycorp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/keycorp-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/skills/keycorp-originate-ach-payment.md
   title: ''
   type: AgentSkill
   url: skills/keycorp-originate-ach-payment.md
@@ -168,66 +195,82 @@ common:
   type: Signup
   url: https://developer.key.com/secure/signup
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/agentic-access/keycorp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/keycorp-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/security/keycorp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keycorp-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/authentication/keycorp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keycorp-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/conventions/keycorp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/keycorp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/conventions/keycorp-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/keycorp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/errors/keycorp-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/keycorp-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/conformance/keycorp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/keycorp-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/lifecycle/keycorp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keycorp-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/sandbox/keycorp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/keycorp-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/data-model/keycorp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/keycorp-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/asyncapi/keycorp-payment-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/keycorp-payment-alerts-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/mcp/keycorp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/keycorp-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/mcp/keycorp-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/keycorp-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/overlays/keycorp-ach-originations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/keycorp-ach-originations-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/llms/keycorp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keycorp-llms.txt
@@ -299,6 +342,54 @@ rate_limits:
 - limit_count: 1
   name: Keycorp Rate Limits
   slug: keycorp-rate-limits
+score:
+  band: developing
+  composite: 44.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 47.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 68.4
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 44.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 34.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:
 - kind: authentication

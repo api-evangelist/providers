@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,58 +119,72 @@ common:
   type: TrustCenter
   url: https://trust.databook.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/security/databook-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/databook-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/security/databook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/databook-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/conformance/databook-conformance.yml
   title: ''
   type: Conformance
   url: conformance/databook-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/authentication/databook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/databook-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/conventions/databook-conventions.yml
   title: ''
   type: Conventions
   url: conventions/databook-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/errors/databook-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/databook-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/data-model/databook-data-model.yml
   title: ''
   type: DataModel
   url: data-model/databook-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/rate-limits/databook-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/databook-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/plans/databook-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/databook-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/lifecycle/databook-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/databook-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/agentic-access/databook-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/databook-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/llms/databook-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/databook-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/overlays/databook-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/databook-openapi-overlay.yaml
@@ -171,6 +210,41 @@ rate_limits:
 - limit_count: 0
   name: Databook Rate Limits
   slug: databook-rate-limits
+score:
+  band: thin
+  composite: 35.9
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 14.5
+    contract_governance: 18.2
+    contract_quality: 54.4
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 35.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/screenshots/databook-2026-07-25T211258.png
 security:
 - kind: authentication

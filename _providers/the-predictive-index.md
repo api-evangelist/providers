@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://integrations.predictiveindex.com
@@ -59,10 +84,12 @@ common:
   type: Website
   url: https://www.predictiveindex.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/mcp/the-predictive-index-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-predictive-index-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/security/the-predictive-index-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-predictive-index-domain-security.yml
@@ -83,18 +110,22 @@ common:
   type: GettingStarted
   url: https://developers.predictiveindex.com/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/authentication/the-predictive-index-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-predictive-index-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/conventions/the-predictive-index-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-predictive-index-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/asyncapi/the-predictive-index-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/the-predictive-index-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -107,18 +138,22 @@ common:
   type: Security
   url: https://www.predictiveindex.com/security/responsible-disclosure/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/security/the-predictive-index-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/the-predictive-index-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/well-known/the-predictive-index-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/the-predictive-index-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/well-known/the-predictive-index-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-predictive-index-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/llms/the-predictive-index-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-predictive-index-llms.txt
@@ -166,6 +201,39 @@ overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.i
 
   The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 17 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 44.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 57.4
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 44.1
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/screenshots/the-predictive-index-2026-08-17T082339.png
 security:
 - kind: authentication

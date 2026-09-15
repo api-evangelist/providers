@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
@@ -21,14 +46,17 @@ asyncapis:
   slug: campaignmonitor-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/security/campaignmonitor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/campaignmonitor-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/security/campaignmonitor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/campaignmonitor-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/security/campaignmonitor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/campaignmonitor-domain-security.yml
@@ -65,22 +93,27 @@ common:
   type: X
   url: https://x.com/campaignmonitor
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/plans/campaignmonitor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/campaignmonitor-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/rate-limits/campaignmonitor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/campaignmonitor-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/finops/campaignmonitor-finops.yml
   title: ''
   type: FinOps
   url: finops/campaignmonitor-finops.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/json-ld/campaignmonitor-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/campaignmonitor-context.jsonld
@@ -113,70 +146,87 @@ common:
   type: PrivacyPolicy
   url: https://www.campaignmonitor.com/policies/#privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/packages/campaignmonitor-packages.yml
   title: ''
   type: Packages
   url: packages/campaignmonitor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/packages/campaignmonitor-packages.yml
   title: ''
   type: SDKs
   url: packages/campaignmonitor-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/well-known/campaignmonitor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/campaignmonitor-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/well-known/campaignmonitor-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/campaignmonitor-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/security/campaignmonitor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/campaignmonitor-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/conformance/campaignmonitor-conformance.yml
   title: ''
   type: Compliance
   url: conformance/campaignmonitor-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/conformance/campaignmonitor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/campaignmonitor-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/authentication/campaignmonitor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/campaignmonitor-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/scopes/campaignmonitor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/campaignmonitor-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/conventions/campaignmonitor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/campaignmonitor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/errors/campaignmonitor-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/campaignmonitor-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/lifecycle/campaignmonitor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/campaignmonitor-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/changelog/campaignmonitor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/campaignmonitor-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/data-model/campaignmonitor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/campaignmonitor-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/asyncapi/campaignmonitor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/campaignmonitor-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/mcp/campaignmonitor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/campaignmonitor-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/llms/campaignmonitor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/campaignmonitor-llms.txt
@@ -218,6 +268,45 @@ scopes:
   scope_count: 0
   slug: campaignmonitor-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 70.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 68.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 47.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 51.9
+    developer_ergonomics: 57.1
+    discoverability: 68.5
+    operational_transparency: 76.3
+  previous_composite: 70.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/screenshots/campaignmonitor-2026-06-20T173912.png
 security:
 - kind: authentication

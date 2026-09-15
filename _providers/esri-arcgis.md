@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 56.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,122 +106,152 @@ collections:
   slug: open-esri-arcgis-portal-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/agentic-access/esri-arcgis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/esri-arcgis-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/security/esri-arcgis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/esri-arcgis-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/authentication/esri-arcgis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/esri-arcgis-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/scopes/esri-arcgis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/esri-arcgis-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/mcp/esri-arcgis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/esri-arcgis-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/mcp/esri-arcgis-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/esri-arcgis-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/well-known/esri-arcgis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/esri-arcgis-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/llms/esri-arcgis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/esri-arcgis-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/packages/esri-arcgis-packages.yml
   title: ''
   type: Packages
   url: packages/esri-arcgis-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/packages/esri-arcgis-packages.yml
   title: ''
   type: SDKs
   url: packages/esri-arcgis-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/components/esri-arcgis-components.yml
   title: ''
   type: Components
   url: components/esri-arcgis-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/conformance/esri-arcgis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/esri-arcgis-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/conformance/esri-arcgis-conformance.yml
   title: ''
   type: Compliance
   url: conformance/esri-arcgis-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/errors/esri-arcgis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/esri-arcgis-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/lifecycle/esri-arcgis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/esri-arcgis-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/lifecycle/esri-arcgis-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/esri-arcgis-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/lifecycle/esri-arcgis-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/esri-arcgis-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/conventions/esri-arcgis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/esri-arcgis-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/changelog/esri-arcgis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/esri-arcgis-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/data-model/esri-arcgis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/esri-arcgis-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/asyncapi/esri-arcgis-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/esri-arcgis-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/security/esri-arcgis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/esri-arcgis-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/security/esri-arcgis-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/esri-arcgis-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/security/esri-arcgis-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/esri-arcgis-trust-center.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/rate-limits/esri-arcgis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/esri-arcgis-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/plans/esri-arcgis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/esri-arcgis-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/finops/esri-arcgis-finops.yml
   title: ''
   type: FinOps
   url: finops/esri-arcgis-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/vocabulary/esri-arcgis-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/esri-arcgis-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/rules/esri-arcgis-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/esri-arcgis-jsonschema-spectral-rules.yml
@@ -317,6 +372,42 @@ scopes:
   scope_count: 2
   slug: esri-arcgis-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 65.8
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 83.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 43.2
+    contract_quality: 74.2
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 89.5
+  previous_composite: 65.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/screenshots/esri-arcgis-2026-06-20T180823.png
 security:
 - kind: authentication

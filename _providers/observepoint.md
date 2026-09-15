@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.2
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://api.observepoint.com
@@ -345,26 +370,32 @@ asyncapis:
   slug: observepoint-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/capabilities/observepoint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/observepoint-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/overlays/observepoint-v3-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/observepoint-v3-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/overlays/observepoint-grid-reports-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/observepoint-grid-reports-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/overlays/observepoint-v2-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/observepoint-v2-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/security/observepoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/observepoint-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/authentication/observepoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/observepoint-authentication.yml
@@ -429,58 +460,72 @@ common:
   type: TrustCenter
   url: https://trust.observepoint.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/llms/observepoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/observepoint-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/llms/observepoint-site-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/observepoint-site-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/conventions/observepoint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/observepoint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/errors/observepoint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/observepoint-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/lifecycle/observepoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/observepoint-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/conformance/observepoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/observepoint-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/data-model/observepoint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/observepoint-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/packages/observepoint-packages.yml
   title: ''
   type: Packages
   url: packages/observepoint-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/rate-limits/observepoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/observepoint-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/plans/observepoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/observepoint-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/changelog/observepoint-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/observepoint-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/asyncapi/observepoint-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/observepoint-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/json-schema/observepoint-data-dictionary-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/observepoint-data-dictionary-schemas.json
@@ -525,6 +570,40 @@ rate_limits:
 - limit_count: 3
   name: Observepoint Rate Limits
   slug: observepoint-rate-limits
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 68.6
+    developer_ergonomics: 58.9
+    discoverability: 57.4
+    operational_transparency: 57.9
+  previous_composite: 51.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 65
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/screenshots/observepoint-2026-09-02T150820.png
 security:
 - kind: authentication

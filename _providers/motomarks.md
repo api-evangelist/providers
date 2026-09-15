@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Bearer-authenticated REST/JSON API for listing brands and retrieving full brand detail including color palettes, website, social links, and metadata.
@@ -17,38 +42,47 @@ common:
   type: Website
   url: https://motomarks.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/security/motomarks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/motomarks-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/well-known/motomarks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/motomarks-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/authentication/motomarks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/motomarks-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/scopes/motomarks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/motomarks-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/conformance/motomarks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/motomarks-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/errors/motomarks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/motomarks-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/lifecycle/motomarks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/motomarks-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/conventions/motomarks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/motomarks-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/changelog/motomarks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/motomarks-changelog.yml
@@ -57,26 +91,32 @@ common:
   type: ChangeLog
   url: https://motomarks.io/changelog
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/plans/motomarks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/motomarks-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/rate-limits/motomarks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/motomarks-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/data-model/motomarks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/motomarks-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/packages/motomarks-packages.yml
   title: ''
   type: Packages
   url: packages/motomarks-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/security/motomarks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/motomarks-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/security/motomarks-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/motomarks-vulnerability-disclosure.yml
@@ -119,7 +159,7 @@ modified: '2026-09-09'
 name: Motomarks
 nav: Providers
 network: true
-overview: 'Motomarks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include automotive, logo, image-cdn, manufacturer, and brand-assets.
+overview: 'Motomarks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Logo, Image CDN, Manufacturer, and Brand Assets.
 
 
   Motomarks'' developer surface includes authentication, changelog, API reference, getting-started guide, pricing, and 18 more developer resources.'
@@ -137,6 +177,36 @@ scopes:
   scope_count: 0
   slug: motomarks-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 38.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 81.5
+    operational_transparency: 60.5
+  previous_composite: 38.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Motomarks Authentication
@@ -152,16 +222,16 @@ security:
   summary_line: Hackerone
 slug: motomarks
 tags:
-- automotive
-- logo
-- image-cdn
-- manufacturer
-- brand-assets
-- images
+- Automotive
+- Logo
+- Image CDN
+- Manufacturer
+- Brand Assets
+- Image
 - CDN
-- developer-tools
+- Developer Tools
 - agent-native
 - MCP
-- reference-data
+- Reference Data
 website: https://motomarks.io
 ---

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://developers.opercredits.com/
@@ -439,6 +464,7 @@ collections:
   slug: open-oper-credits-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/capabilities/oper-credits-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oper-credits-capability-edges.yml
@@ -479,26 +505,32 @@ common:
   type: PrivacyPolicy
   url: https://www.opercredits.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/authentication/oper-credits-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oper-credits-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/conventions/oper-credits-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oper-credits-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/errors/oper-credits-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oper-credits-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/data-model/oper-credits-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oper-credits-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/lifecycle/oper-credits-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oper-credits-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/conformance/oper-credits-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oper-credits-conformance.yml
@@ -507,10 +539,12 @@ common:
   type: Compliance
   url: https://www.opercredits.com/compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/security/oper-credits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oper-credits-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/security/oper-credits-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oper-credits-vulnerability-disclosure.yml
@@ -519,26 +553,32 @@ common:
   type: Security
   url: https://www.opercredits.com/reporting-a-security-issue
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/security/oper-credits-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oper-credits-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/asyncapi/oper-credits-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/oper-credits-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/mcp/oper-credits-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/oper-credits-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/llms/oper-credits-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oper-credits-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/overlays/oper-credits-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oper-credits-api-overlay.yaml
@@ -558,6 +598,50 @@ overview: 'Oper Credits publishes 52 APIs on the [APIs.io](https://apis.io/) net
 
   Oper Credits'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 21 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 42.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 56.3
+    developer_ergonomics: 20.8
+    discoverability: 81.5
+    operational_transparency: 21.1
+  previous_composite: 42.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 45.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/screenshots/oper-credits-2026-08-07T190702.png
 security:
 - kind: authentication

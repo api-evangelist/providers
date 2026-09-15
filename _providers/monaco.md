@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -129,6 +154,7 @@ collections:
   slug: open-monaco-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/overlays/monaco-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/monaco-openapi-overlay.yaml
@@ -185,58 +211,72 @@ common:
   type: Security
   url: https://www.monaco.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/security/monaco-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/monaco-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/security/monaco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monaco-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/well-known/monaco-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/monaco-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/well-known/monaco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monaco-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/authentication/monaco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monaco-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/mcp/monaco-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/monaco-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/llms/monaco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monaco-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/lifecycle/monaco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monaco-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/agentic-access/monaco-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monaco-agentic-access.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/a2a/monaco-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/monaco-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/mcp/monaco-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/monaco-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/scopes/monaco-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/monaco-scopes.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/plans/monaco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/monaco-plans-pricing.yml
@@ -270,6 +310,41 @@ scopes:
   scope_count: 0
   slug: monaco-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 48.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 56.2
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 48.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/screenshots/monaco-2026-08-07T184130.png
 security:
 - kind: authentication

@@ -17,6 +17,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cryptingup/refs/heads/main/security/cryptingup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cryptingup-domain-security.yml

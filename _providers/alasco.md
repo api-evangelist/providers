@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -346,10 +372,12 @@ collections:
   slug: open-alasco-utility-meters-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/capabilities/alasco-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alasco-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/overlays/alasco-capex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alasco-capex-overlay.yaml
@@ -378,34 +406,42 @@ common:
   type: ChangeLog
   url: https://developer.alasco.de/changelog.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/mcp/alasco-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/alasco-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/llms/alasco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alasco-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/well-known/alasco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alasco-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/authentication/alasco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alasco-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/conventions/alasco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alasco-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/errors/alasco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alasco-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/lifecycle/alasco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alasco-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/conformance/alasco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alasco-conformance.yml
@@ -414,26 +450,32 @@ common:
   type: Compliance
   url: https://www.alasco.com/security-trust
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/data-model/alasco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alasco-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/packages/alasco-packages.yml
   title: ''
   type: Packages
   url: packages/alasco-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/agentic-access/alasco-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alasco-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/security/alasco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alasco-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/security/alasco-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alasco-vulnerability-disclosure.yml
@@ -442,10 +484,12 @@ common:
   type: Security
   url: https://www.alasco.com/security-trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/security/alasco-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alasco-trust-center.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/changelog/alasco-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alasco-changelog.yml
@@ -494,6 +538,47 @@ overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
 
   Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 26 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 52.6
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 40
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
 security:
 - kind: authentication

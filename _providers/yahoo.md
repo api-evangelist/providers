@@ -10,6 +10,31 @@ access_model:
   - docs
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.2
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The Fantasy Sports APIs provide URIs used to access fantasy sports data, supporting retrieval of Fantasy Football, Baseball, Basketball and Hockey data including game, league, team, player, roster and
@@ -78,78 +103,97 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/yahoo
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/security/yahoo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/yahoo-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/security/yahoo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yahoo-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/security/yahoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yahoo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/well-known/yahoo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/yahoo-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/well-known/yahoo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yahoo-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/llms/yahoo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yahoo-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/authentication/yahoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yahoo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/scopes/yahoo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/yahoo-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/rate-limits/yahoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yahoo-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/plans/yahoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yahoo-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/errors/yahoo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/yahoo-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/lifecycle/yahoo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yahoo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/lifecycle/yahoo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/yahoo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/changelog/yahoo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/yahoo-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/conventions/yahoo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yahoo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/conformance/yahoo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yahoo-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/packages/yahoo-packages.yml
   title: ''
   type: Packages
   url: packages/yahoo-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/data-model/yahoo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yahoo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/components/yahoo-components.yml
   title: ''
   type: Components
   url: components/yahoo-components.yml
@@ -200,6 +244,35 @@ scopes:
   scope_count: 0
   slug: yahoo-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 39.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 81.5
+    operational_transparency: 68.4
+  previous_composite: 39.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/screenshots/yahoo-2026-06-20T201726.png
 security:
 - kind: authentication

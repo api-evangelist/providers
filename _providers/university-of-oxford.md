@@ -10,6 +10,31 @@ access_model:
   - probed
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: A SAML 2.0 identity provider serving live machine-readable metadata, with Redirect/SSO, POST/SSO, POST-SimpleSign/SSO, POST/SLO and SOAP/Redirect/SLO bindings and a signing certificate rotated 2026-05
@@ -133,90 +158,112 @@ common:
   type: Blog
   url: https://blog.oxrse.uk/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-search-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/university-of-oxford-ora-search-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/university-of-oxford-ora-oai-pmh-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-bodleian-iiif-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/university-of-oxford-bodleian-iiif-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/json-schema/university-of-oxford-ora-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-oxford-ora-search-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/json-schema/university-of-oxford-ora-object-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-oxford-ora-object-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/json-schema/university-of-oxford-bodleian-iiif-image-info-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-oxford-bodleian-iiif-image-info-schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/examples/index.yml
   title: ''
   type: Examples
   url: examples/index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/rules/university-of-oxford-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-oxford-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/vocabulary/university-of-oxford-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-oxford-vocabulary.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/authentication/university-of-oxford-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-oxford-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/scopes/university-of-oxford-scopes.yml
   title: ''
   type: Scopes
   url: scopes/university-of-oxford-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/errors/university-of-oxford-errors.yml
   title: ''
   type: Errors
   url: errors/university-of-oxford-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/conformance/university-of-oxford-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/university-of-oxford-domain-standards.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/lifecycle/university-of-oxford-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-oxford-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/security/university-of-oxford-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-oxford-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/plans/university-of-oxford-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-oxford-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/rate-limits/university-of-oxford-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-oxford-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/finops/university-of-oxford-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-oxford-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/json-ld/university-of-oxford-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-oxford-context.jsonld
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/blogs/blogs.json
   title: ''
   type: Blogs
   url: blogs/blogs.json
@@ -302,6 +349,53 @@ scopes:
   scope_count: 0
   slug: university-of-oxford-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 82.5
+    catalog_earned_first_party: 17.0
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 22.7
+    contract_quality: 29.1
+    developer_ergonomics: 35.7
+    discoverability: 74.1
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 41.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/screenshots/university-of-oxford-2026-06-20T200220.png
 security:
 - kind: authentication

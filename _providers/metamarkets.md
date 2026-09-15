@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: HTTPS event-ingestion API for streaming batches of newline-delimited JSON, OpenRTB 2.5-based ad-tech event records (e.g. MmxAuctionSummary) to the Metamarkets platform for near-real-time dashboarding.
@@ -20,6 +45,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/security/metamarkets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metamarkets-domain-security.yml
@@ -40,46 +66,57 @@ common:
   type: Support
   url: mailto:support@metamarkets.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/llms/metamarkets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metamarkets-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/packages/metamarkets-packages.yml
   title: ''
   type: Packages
   url: packages/metamarkets-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/packages/metamarkets-packages.yml
   title: ''
   type: SDKs
   url: packages/metamarkets-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/cli/metamarkets-cli.yml
   title: ''
   type: CLI
   url: cli/metamarkets-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/authentication/metamarkets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metamarkets-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/errors/metamarkets-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/metamarkets-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/conventions/metamarkets-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metamarkets-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/rate-limits/metamarkets-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metamarkets-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/sandbox/metamarkets-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/metamarkets-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/conformance/metamarkets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metamarkets-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/components/metamarkets-components.yml
   title: ''
   type: Components
   url: components/metamarkets-components.yml
@@ -88,22 +125,27 @@ common:
   type: APIReference
   url: https://docs.metamarkets.com/docs/real-time-data-delivery
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/vocabulary/metamarkets-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/metamarkets-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/data-model/metamarkets-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metamarkets-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/examples/metamarkets-rdi-examples.yml
   title: ''
   type: Examples
   url: examples/metamarkets-rdi-examples.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/plans/metamarkets-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/metamarkets-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/lifecycle/metamarkets-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metamarkets-lifecycle.yml
@@ -138,6 +180,34 @@ rate_limits:
 - limit_count: 0
   name: Metamarkets Rate Limits
   slug: metamarkets-rate-limits
+score:
+  band: emerging
+  composite: 24.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 42.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 33.3
+    contract_quality: 6.7
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 24.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/screenshots/metamarkets-2026-08-07T172649.png
 security:
 - kind: authentication

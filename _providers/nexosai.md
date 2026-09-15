@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -182,42 +207,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/nexos-ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/llms/nexosai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nexosai-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/openapi/_original/nexosai-gateway-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/nexosai-gateway-openapi-original.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/overlays/nexosai-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nexosai-gateway-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/authentication/nexosai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nexosai-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/agentic-access/nexosai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nexosai-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/conventions/nexosai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nexosai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/errors/nexosai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nexosai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/lifecycle/nexosai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nexosai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/data-model/nexosai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nexosai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/conformance/nexosai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nexosai-conformance.yml
@@ -226,22 +261,27 @@ common:
   type: Compliance
   url: https://trust.nexos.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/security/nexosai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nexosai-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/mcp/nexosai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nexosai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/well-known/nexosai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nexosai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/security/nexosai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nexosai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -258,6 +298,41 @@ overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
   nexos.ai''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 18 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 4.5
+    contract_quality: 54.0
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 39.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/screenshots/nexosai-2026-08-07T185156.png
 security:
 - kind: authentication

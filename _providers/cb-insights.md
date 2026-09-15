@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -119,6 +144,7 @@ common:
   type: IssueTracker
   url: https://github.com/cbinsights/cbi-mcp-server/issues
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/security/cb-insights-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cb-insights-domain-security.yml
@@ -175,6 +201,7 @@ common:
   type: PrivacyPolicy
   url: https://www.cbinsights.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/security/cb-insights-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cb-insights-trust-center.yml
@@ -183,6 +210,7 @@ common:
   type: TrustCenter
   url: https://trust.cbinsights.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/conformance/cb-insights-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cb-insights-conformance.yml
@@ -191,78 +219,97 @@ common:
   type: Compliance
   url: https://www.cbinsights.com/security-and-privacy/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/_original/cb-insights-api-v2-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/cb-insights-api-v2-openapi.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/mcp/cb-insights-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cb-insights-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/mcp/cb-insights-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cb-insights-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/authentication/cb-insights-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cb-insights-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/conventions/cb-insights-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cb-insights-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/errors/cb-insights-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cb-insights-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/rate-limits/cb-insights-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cb-insights-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/lifecycle/cb-insights-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cb-insights-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/changelog/cb-insights-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cb-insights-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/conformance/cb-insights-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cb-insights-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/well-known/cb-insights-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cb-insights-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/data-model/cb-insights-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cb-insights-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/overlays/cb-insights-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cb-insights-api-v2-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/packages/cb-insights-packages.yml
   title: ''
   type: Packages
   url: packages/cb-insights-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/vocabulary/cb-insights-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cb-insights-vocabulary.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/llms/cb-insights-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cb-insights-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/plans/cb-insights-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cb-insights-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/scopes/cb-insights-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cb-insights-scopes.yml
@@ -300,6 +347,45 @@ scopes:
   scope_count: 3
   slug: cb-insights-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 50.0
+    catalog_earned_first_party: 13.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 33.3
+    contract_quality: 52.8
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 52.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/screenshots/cb-insights-2026-08-17T080811.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - https://api.basis.net/swagger.json
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,14 +60,17 @@ collections:
   slug: open-basis-analytics-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/agentic-access/basis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/basis-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/security/basis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/basis-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/authentication/basis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/basis-authentication.yml
@@ -71,70 +99,87 @@ common:
   type: X
   url: https://twitter.com/basisglobaltech
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/plans/basis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/basis-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/rate-limits/basis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/basis-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/finops/basis-finops.yml
   title: ''
   type: FinOps
   url: finops/basis-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/scopes/basis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/basis-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/conventions/basis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/basis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/errors/basis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/basis-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/lifecycle/basis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/basis-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/conformance/basis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/basis-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/conformance/basis-conformance.yml
   title: ''
   type: Compliance
   url: conformance/basis-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/data-model/basis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/basis-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/sandbox/basis-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/basis-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/well-known/basis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/basis-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/mcp/basis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/basis-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/llms/basis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/basis-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/packages/basis-packages.yml
   title: ''
   type: Packages
   url: packages/basis-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/vocabulary/basis-vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/basis-vocabulary.json
@@ -255,6 +300,42 @@ scopes:
   scope_count: 0
   slug: basis-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 82.3
+    catalog_earned_first_party: 20.0
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 43.2
+    contract_quality: 59.2
+    developer_ergonomics: 44.6
+    discoverability: 68.5
+    operational_transparency: 31.6
+  previous_composite: 51.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/screenshots/basis-2026-06-20T173036.png
 security:
 - kind: authentication

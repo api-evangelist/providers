@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 38.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -188,70 +213,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/moodys/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/agentic-access/moodys-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moodys-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/security/moodys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moodys-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/authentication/moodys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moodys-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/scopes/moodys-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/moodys-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/packages/moodys-packages.yml
   title: ''
   type: Packages
   url: packages/moodys-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/packages/moodys-packages.yml
   title: ''
   type: SDKs
   url: packages/moodys-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/cli/moodys-cli.yml
   title: ''
   type: CLI
   url: cli/moodys-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/well-known/moodys-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moodys-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/mcp/moodys-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moodys-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/llms/moodys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moodys-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/conformance/moodys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moodys-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/errors/moodys-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moodys-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/lifecycle/moodys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moodys-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/conventions/moodys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moodys-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/data-model/moodys-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moodys-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/sandbox/moodys-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moodys-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -578,6 +620,47 @@ scopes:
   scope_count: 0
   slug: moodys-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 55.3
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 62.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 52.8
+    developer_ergonomics: 76.8
+    discoverability: 74.1
+    operational_transparency: 34.2
+  previous_composite: 55.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 71.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:
 - kind: authentication

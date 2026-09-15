@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -100,6 +126,7 @@ collections:
   slug: open-archera-well-known-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/overlays/archera-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/archera-openapi-overlay.yaml
@@ -124,34 +151,42 @@ common:
   type: GettingStarted
   url: https://docs.archera.ai/getting-started/how-to-sign-up-with-archera
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/authentication/archera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archera-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/scopes/archera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/archera-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/mcp/archera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/archera-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/well-known/archera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/archera-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/conventions/archera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/archera-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/errors/archera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/archera-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/lifecycle/archera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/archera-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/conformance/archera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archera-conformance.yml
@@ -160,26 +195,32 @@ common:
   type: Compliance
   url: https://www.archera.ai/trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/security/archera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/archera-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/security/archera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archera-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/data-model/archera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/archera-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/agentic-access/archera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/archera-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/llms/archera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archera-llms.txt
@@ -233,6 +274,41 @@ scopes:
   scope_count: 4
   slug: archera-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 42.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:
 - kind: authentication

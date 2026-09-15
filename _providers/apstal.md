@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -32,42 +58,52 @@ common:
   type: Website
   url: https://www.apstal.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/security/apstal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apstal-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/well-known/apstal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apstal-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/a2a/apstal-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/apstal-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/llms/apstal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apstal-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/authentication/apstal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apstal-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/scopes/apstal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/apstal-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/errors/apstal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apstal-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/conventions/apstal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apstal-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/lifecycle/apstal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apstal-lifecycle.yml
@@ -76,30 +112,37 @@ common:
   type: StatusPage
   url: https://status.apstal.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/plans/apstal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apstal-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/rate-limits/apstal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apstal-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/packages/apstal-packages.yml
   title: ''
   type: Packages
   url: packages/apstal-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/packages/apstal-packages.yml
   title: ''
   type: SDKs
   url: packages/apstal-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/components/apstal-components.yml
   title: ''
   type: Components
   url: components/apstal-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/data-model/apstal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apstal-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/conformance/apstal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apstal-conformance.yml
@@ -108,6 +151,7 @@ common:
   type: Compliance
   url: https://apstal.com/dpa
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/asyncapi/apstal-realtime-events.yml
   title: ''
   type: EventSurface
   url: asyncapi/apstal-realtime-events.yml
@@ -196,6 +240,36 @@ scopes:
   scope_count: 3
   slug: apstal-scopes
   summary_line: 3 scopes · authorizationCode/refreshToken
+score:
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 58.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 70.4
+    operational_transparency: 42.1
+  previous_composite: 53.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 security:
 - kind: authentication

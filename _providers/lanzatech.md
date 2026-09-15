@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -314,10 +339,12 @@ collections:
   slug: open-lanzatech-widgets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/overlays/lanzatech-wordpress-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lanzatech-wordpress-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/agentic-access/lanzatech-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lanzatech-agentic-access.yml
@@ -374,46 +401,57 @@ common:
   type: YouTube
   url: https://www.youtube.com/user/LanzaTech/videos
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/authentication/lanzatech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lanzatech-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/conventions/lanzatech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lanzatech-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/errors/lanzatech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lanzatech-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/data-model/lanzatech-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lanzatech-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/lifecycle/lanzatech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lanzatech-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/conformance/lanzatech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lanzatech-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/well-known/lanzatech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lanzatech-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/mcp/lanzatech-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lanzatech-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/llms/lanzatech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lanzatech-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/security/lanzatech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lanzatech-domain-security.yml
@@ -430,6 +468,47 @@ overview: 'LanzaTech publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
   LanzaTech''s developer surface includes engineering blog, support, YouTube channel, authentication, and 22 more developer resources.'
 random_paper: 9
+score:
+  band: emerging
+  composite: 22.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 16.5
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 2.6
+  previous_composite: 22.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 37
+      marker_coverage: 100.0
+      total: 37
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png
 security:
 - kind: authentication

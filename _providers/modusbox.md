@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: ORCA is PortX's universal, standards-based REST contract for US banking core connectivity — an ISO 20022-aligned JSON/REST specification covering bank account opening, maintenance, closing and reporti
@@ -20,6 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/security/modusbox-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/modusbox-trust-center.yml
@@ -72,46 +98,57 @@ common:
   type: StatusPage
   url: https://status.portx.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/conformance/modusbox-conformance.yml
   title: ''
   type: Compliance
   url: conformance/modusbox-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/conformance/modusbox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/modusbox-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/changelog/modusbox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/modusbox-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/lifecycle/modusbox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modusbox-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/authentication/modusbox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modusbox-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/packages/modusbox-packages.yml
   title: ''
   type: Packages
   url: packages/modusbox-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/llms/modusbox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modusbox-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/rate-limits/modusbox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/modusbox-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/plans/modusbox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/modusbox-plans-pricing.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/security/modusbox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modusbox-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/conventions/modusbox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modusbox-conventions.yml
@@ -136,6 +173,41 @@ rate_limits:
 - limit_count: 0
   name: Modusbox Rate Limits
   slug: modusbox-rate-limits
+score:
+  band: developing
+  composite: 44.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 26.7
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 44.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 45.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/screenshots/modusbox-2026-09-02T150611.png
 security:
 - kind: authentication

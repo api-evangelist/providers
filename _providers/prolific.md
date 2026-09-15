@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.prolific.com
@@ -198,6 +223,7 @@ collections:
   slug: open-prolific-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/capabilities/prolific-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/prolific-capability-edges.yml
@@ -254,78 +280,97 @@ common:
   type: StatusPage
   url: https://status.prolific.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/openapi/_original/prolific-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/prolific-openapi-original.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/authentication/prolific-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prolific-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/llms/prolific-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prolific-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/packages/prolific-packages.yml
   title: ''
   type: Packages
   url: packages/prolific-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/packages/prolific-packages.yml
   title: ''
   type: SDKs
   url: packages/prolific-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/cli/prolific-cli.yml
   title: ''
   type: CLI
   url: cli/prolific-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/mcp/prolific-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prolific-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/well-known/prolific-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prolific-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/asyncapi/prolific-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/prolific-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/conventions/prolific-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prolific-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/conventions/prolific-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/prolific-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/errors/prolific-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/prolific-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/lifecycle/prolific-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prolific-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/conformance/prolific-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prolific-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/data-model/prolific-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prolific-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/sandbox/prolific-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prolific-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/security/prolific-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prolific-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/overlays/prolific-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/prolific-openapi-overlay.yaml
@@ -353,6 +398,40 @@ overview: 'Prolific publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
   Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 47.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 63.3
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 28.9
+  previous_composite: 47.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/screenshots/prolific-2026-08-17T081352.png
 security:
 - kind: authentication

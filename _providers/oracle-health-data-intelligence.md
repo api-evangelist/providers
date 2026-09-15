@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,14 +69,17 @@ common:
   type: Website
   url: https://www.oracle.com/health/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/agentic-access/oracle-health-data-intelligence-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oracle-health-data-intelligence-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/security/oracle-health-data-intelligence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-health-data-intelligence-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/authentication/oracle-health-data-intelligence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-health-data-intelligence-authentication.yml
@@ -96,70 +124,87 @@ common:
   type: Compliance
   url: https://www.oracle.com/corporate/cloud-compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/security/oracle-health-data-intelligence-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oracle-health-data-intelligence-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/security/oracle-health-data-intelligence-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/oracle-health-data-intelligence-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/security/oracle-health-data-intelligence-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oracle-health-data-intelligence-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/conformance/oracle-health-data-intelligence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oracle-health-data-intelligence-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/errors/oracle-health-data-intelligence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oracle-health-data-intelligence-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/lifecycle/oracle-health-data-intelligence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oracle-health-data-intelligence-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/lifecycle/oracle-health-data-intelligence-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/oracle-health-data-intelligence-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/conventions/oracle-health-data-intelligence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oracle-health-data-intelligence-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/sandbox/oracle-health-data-intelligence-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/oracle-health-data-intelligence-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/packages/oracle-health-data-intelligence-packages.yml
   title: ''
   type: Packages
   url: packages/oracle-health-data-intelligence-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/components/oracle-health-data-intelligence-components.yml
   title: ''
   type: Components
   url: components/oracle-health-data-intelligence-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/data-model/oracle-health-data-intelligence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oracle-health-data-intelligence-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/llms/oracle-health-data-intelligence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oracle-health-data-intelligence-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/plans/oracle-health-data-intelligence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-health-data-intelligence-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/rate-limits/oracle-health-data-intelligence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-health-data-intelligence-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/finops/oracle-health-data-intelligence-finops.yml
   title: ''
   type: FinOps
   url: finops/oracle-health-data-intelligence-finops.yml
@@ -188,6 +233,48 @@ rate_limits:
 - limit_count: 0
   name: Oracle Health Data Intelligence Rate Limits
   slug: oracle-health-data-intelligence-rate-limits
+score:
+  band: developing
+  composite: 51.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 18.2
+    contract_quality: 53.1
+    developer_ergonomics: 55.4
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 51.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/screenshots/oracle-health-data-intelligence-2026-06-20T191145.png
 security:
 - kind: authentication

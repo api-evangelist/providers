@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -76,34 +101,42 @@ collections:
   slug: open-simply-energy-cds-energy
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/overlays/simply-energy-cds-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/simply-energy-cds-energy-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/simply-energy-compare-energy-plans.md
   title: ''
   type: AgentSkill
   url: skills/simply-energy-compare-energy-plans.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/overlays/simply-energy-cds-common-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/simply-energy-cds-common-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/simply-energy-check-data-holder-health.md
   title: ''
   type: AgentSkill
   url: skills/simply-energy-check-data-holder-health.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/simply-energy-retrieve-consumer-energy-data.md
   title: ''
   type: AgentSkill
   url: skills/simply-energy-retrieve-consumer-energy-data.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/mcp/simply-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/simply-energy-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/security/simply-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simply-energy-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/agentic-access/simply-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simply-energy-agentic-access.yml
@@ -148,26 +181,32 @@ common:
   type: TermsOfService
   url: https://engie.com.au/help-centre/policies-and-commitments/terms-of-use
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/authentication/simply-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simply-energy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/scopes/simply-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/simply-energy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/conventions/simply-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simply-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/errors/simply-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simply-energy-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/rate-limits/simply-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simply-energy-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/lifecycle/simply-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simply-energy-lifecycle.yml
@@ -180,30 +219,37 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#endpoint-version-schedule
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/changelog/simply-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simply-energy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/conformance/simply-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simply-energy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/data-model/simply-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simply-energy-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/packages/simply-energy-packages.yml
   title: ''
   type: Packages
   url: packages/simply-energy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/well-known/simply-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simply-energy-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/well-known/simply-energy-engie-group-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/simply-energy-engie-group-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/security/simply-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/simply-energy-vulnerability-disclosure.yml
@@ -212,10 +258,12 @@ common:
   type: Security
   url: https://www.engie.com/en/cert/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/llms/simply-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simply-energy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -241,6 +289,54 @@ scopes:
   scope_count: 13
   slug: simply-energy-scopes
   summary_line: 13 scopes · authorizationCode
+score:
+  band: developing
+  composite: 48.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 37.5
+    discoverability: 64.8
+    operational_transparency: 73.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 48.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 64.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/screenshots/simply-energy-2026-08-17T125320.png
 security:
 - kind: authentication

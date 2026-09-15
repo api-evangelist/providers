@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
@@ -89,18 +114,22 @@ collections:
   slug: open-diagnostic-robotics-symptom-search
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/capabilities/diagnostic-robotics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/diagnostic-robotics-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/overlays/diagnostic-robotics-precision-population-health-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diagnostic-robotics-precision-population-health-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/overlays/diagnostic-robotics-patient-questionnaire-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diagnostic-robotics-patient-questionnaire-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/overlays/diagnostic-robotics-symptom-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diagnostic-robotics-symptom-search-overlay.yaml
@@ -149,6 +178,7 @@ common:
   type: StatusPage
   url: https://diagnosticrobotics.statuspage.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/security/diagnostic-robotics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/diagnostic-robotics-trust-center.yml
@@ -165,58 +195,72 @@ common:
   type: Twitter
   url: https://x.com/DiagnosticRobo
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/authentication/diagnostic-robotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diagnostic-robotics-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/scopes/diagnostic-robotics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/diagnostic-robotics-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/conventions/diagnostic-robotics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/diagnostic-robotics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/errors/diagnostic-robotics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/diagnostic-robotics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/lifecycle/diagnostic-robotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diagnostic-robotics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/conformance/diagnostic-robotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diagnostic-robotics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/data-model/diagnostic-robotics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/diagnostic-robotics-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/components/diagnostic-robotics-components.yml
   title: ''
   type: Components
   url: components/diagnostic-robotics-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/sandbox/diagnostic-robotics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/diagnostic-robotics-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/security/diagnostic-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diagnostic-robotics-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/plans/diagnostic-robotics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/diagnostic-robotics-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/rate-limits/diagnostic-robotics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/diagnostic-robotics-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/llms/diagnostic-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/diagnostic-robotics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -246,6 +290,50 @@ scopes:
   scope_count: 0
   slug: diagnostic-robotics-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 46.3
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    operational_transparency: 18.4
+  previous_composite: 51.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 58.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 68.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
 security:
 - kind: authentication

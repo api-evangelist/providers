@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -499,118 +524,147 @@ collections:
   slug: open-microsoft-purview-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/capabilities/microsoft-purview-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-purview-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/agentic-access/microsoft-purview-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-purview-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/security/microsoft-purview-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-purview-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/security/microsoft-purview-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-purview-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/authentication/microsoft-purview-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-purview-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/scopes/microsoft-purview-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-purview-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/packages/microsoft-purview-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-purview-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/well-known/microsoft-purview-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-purview-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/mcp/microsoft-purview-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/microsoft-purview-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/llms/microsoft-purview-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-purview-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/conformance/microsoft-purview-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-purview-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/errors/microsoft-purview-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-purview-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/lifecycle/microsoft-purview-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-purview-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/conventions/microsoft-purview-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-purview-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/data-model/microsoft-purview-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-purview-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/cli/microsoft-purview-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-purview-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/changelog/microsoft-purview-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-purview-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-account-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-account-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-catalog-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-catalog-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-data-map-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-data-map-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-data-quality-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-data-quality-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-data-security-governance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-data-security-governance-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-ediscovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-ediscovery-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-information-protection-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-information-protection-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-metadata-policies-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-metadata-policies-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-records-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-records-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-scanning-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-scanning-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-unified-catalog-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-unified-catalog-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/overlays/microsoft-purview-workflow-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-purview-workflow-overlay.yaml
@@ -619,70 +673,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-purview/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-assign-term-to-entities-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-assign-term-to-entities-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-categorize-glossary-term-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-categorize-glossary-term-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-classify-entity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-classify-entity-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-define-and-apply-classification-type-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-define-and-apply-classification-type-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-define-rule-and-scan-quality-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-define-rule-and-scan-quality-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-move-entities-to-collection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-move-entities-to-collection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-onboard-entity-to-collection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-onboard-entity-to-collection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-profile-asset-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-profile-asset-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-provision-scan-ruleset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-provision-scan-ruleset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-publish-data-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-publish-data-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-publish-glossary-term-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-publish-glossary-term-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-register-source-and-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-register-source-and-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-relate-entities-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-relate-entities-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-run-and-poll-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-run-and-poll-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-schedule-recurring-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-schedule-recurring-scan-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-search-and-classify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-search-and-classify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/arazzo/microsoft-purview-trace-asset-lineage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-purview-trace-asset-lineage-workflow.yml
@@ -759,6 +830,7 @@ common:
   type: Signup
   url: https://azure.microsoft.com/en-us/products/purview/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/json-ld/microsoft-purview-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-purview-context.jsonld
@@ -1234,6 +1306,40 @@ scopes:
   scope_count: 8
   slug: microsoft-purview-scopes
   summary_line: 8 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 60.2
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 52.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 14.4
+    contract_quality: 69.2
+    developer_ergonomics: 72.6
+    discoverability: 74.1
+    operational_transparency: 42.1
+  previous_composite: 60.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-08-17T124207.png
 security:
 - kind: authentication

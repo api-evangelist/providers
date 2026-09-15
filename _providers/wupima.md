@@ -16,6 +16,7 @@ common:
   type: Website
   url: https://hookmobile.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wupima/refs/heads/main/llms/wupima-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wupima-llms.txt

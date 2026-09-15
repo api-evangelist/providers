@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -1220,78 +1246,97 @@ common:
   type: Website
   url: https://www.benchling.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/capabilities/benchling-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/benchling-capability-edges.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-v3-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/benchling-v3-openapi.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/overlays/benchling-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/benchling-v3-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/packages/benchling-packages.yml
   title: ''
   type: Packages
   url: packages/benchling-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/packages/benchling-packages.yml
   title: ''
   type: SDKs
   url: packages/benchling-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/mcp/benchling-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/benchling-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/llms/benchling-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/benchling-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/conventions/benchling-conventions.yml
   title: ''
   type: Conventions
   url: conventions/benchling-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/errors/benchling-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/benchling-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/data-model/benchling-data-model.yml
   title: ''
   type: DataModel
   url: data-model/benchling-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/asyncapi/benchling-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/benchling-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/lifecycle/benchling-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/benchling-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/lifecycle/benchling-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/benchling-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/lifecycle/benchling-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/benchling-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/changelog/benchling-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/benchling-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/conformance/benchling-conformance.yml
   title: ''
   type: Conformance
   url: conformance/benchling-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/security/benchling-trust-center.yml
   title: ''
   type: Compliance
   url: security/benchling-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/security/benchling-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/benchling-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -1332,18 +1377,22 @@ common:
   type: Community
   url: https://community.benchling.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/agentic-access/benchling-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/benchling-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/security/benchling-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/benchling-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/authentication/benchling-authentication.yml
   title: ''
   type: Authentication
   url: authentication/benchling-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/scopes/benchling-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/benchling-scopes.yml
@@ -1408,14 +1457,17 @@ common:
   type: RateLimits
   url: https://docs.benchling.com/docs/rate-limiting
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/plans/benchling-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/benchling-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/rate-limits/benchling-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/benchling-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/finops/benchling-finops.yml
   title: ''
   type: FinOps
   url: finops/benchling-finops.yml
@@ -4080,6 +4132,53 @@ scopes:
   scope_count: 0
   slug: benchling-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 69.6
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 64.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 28.0
+    contract_quality: 61.4
+    developer_ergonomics: 49.4
+    discoverability: 70.4
+    operational_transparency: 69.7
+  previous_composite: 69.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 203
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:
 - kind: authentication

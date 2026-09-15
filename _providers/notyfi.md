@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -70,6 +95,7 @@ collections:
   slug: open-notyfi-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/overlays/notyfi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/notyfi-openapi-overlay.yaml
@@ -102,54 +128,67 @@ common:
   type: PrivacyPolicy
   url: https://notyfi.com/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/mcp/notyfi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/notyfi-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/authentication/notyfi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/notyfi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/conventions/notyfi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/notyfi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/conventions/notyfi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/notyfi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/errors/notyfi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/notyfi-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/lifecycle/notyfi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/notyfi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/asyncapi/notyfi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/notyfi-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/conformance/notyfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/notyfi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/data-model/notyfi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/notyfi-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/llms/notyfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/notyfi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/agentic-access/notyfi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/notyfi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/security/notyfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/notyfi-domain-security.yml
@@ -173,6 +212,41 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
   Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 16 more developer resources.'
 random_paper: 14
+score:
+  band: emerging
+  composite: 25.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 58.9
+    developer_ergonomics: 13.7
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 25.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:
 - kind: authentication

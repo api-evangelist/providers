@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.3
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - baseURL: https://www.aerofarms.com/wp-json
@@ -76,62 +101,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/AeroFarms
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/llms/aerofarms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aerofarms-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/well-known/aerofarms-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aerofarms-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/mcp/aerofarms-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aerofarms-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/mcp/aerofarms-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aerofarms-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/authentication/aerofarms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aerofarms-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/scopes/aerofarms-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aerofarms-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/conformance/aerofarms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aerofarms-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/conventions/aerofarms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aerofarms-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/errors/aerofarms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aerofarms-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/lifecycle/aerofarms-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aerofarms-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/data-model/aerofarms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aerofarms-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/plans/aerofarms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aerofarms-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/rate-limits/aerofarms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aerofarms-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/security/aerofarms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aerofarms-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -165,6 +205,46 @@ scopes:
   scope_count: 0
   slug: aerofarms-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 22.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 13.2
+    developer_ergonomics: 20.8
+    discoverability: 81.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 22.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Aerofarms Authentication

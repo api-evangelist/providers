@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -148,70 +173,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-container-apps/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/agentic-access/azure-container-apps-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-container-apps-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/security/azure-container-apps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-container-apps-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/authentication/azure-container-apps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-container-apps-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/scopes/azure-container-apps-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-container-apps-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-activate-latest-revision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-activate-latest-revision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-audit-app-security-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-audit-app-security-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-decommission-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-decommission-app-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-deploy-app-into-new-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-deploy-app-into-new-environment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-enable-dapr-sidecar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-enable-dapr-sidecar-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-provision-and-run-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-provision-and-run-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-provision-container-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-provision-container-app-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-provision-managed-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-provision-managed-environment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-restart-active-revision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-restart-active-revision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-rotate-and-verify-secrets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-rotate-and-verify-secrets-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-run-existing-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-run-existing-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-shift-revision-traffic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-shift-revision-traffic-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-update-app-and-list-revisions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-update-app-and-list-revisions-workflow.yml
@@ -486,6 +528,41 @@ scopes:
   scope_count: 1
   slug: azure-container-apps-scopes
   summary_line: 1 scope · implicit
+score:
+  band: strong
+  composite: 61.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 71.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 28.8
+    contract_quality: 69.5
+    developer_ergonomics: 56.0
+    discoverability: 74.1
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 61.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/screenshots/azure-container-apps-2026-06-20T172841.png
 security:
 - kind: authentication

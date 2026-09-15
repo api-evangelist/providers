@@ -11,6 +11,32 @@ access_model:
   - https://help.reevo.ai/AI-and-productivity/Reevo-MCP
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 56.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Reevo's permission-scoped public REST API. Endpoints cover account and contact upsert, accounts (create/update/get/search-by-domain), contacts (get/search), opportunities (create/update/get/search/shi
@@ -58,6 +84,7 @@ common:
   type: ChangeLog
   url: https://www.reevo.ai/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/changelog/reevo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/reevo-changelog.yml
@@ -82,70 +109,87 @@ common:
   type: Compliance
   url: https://www.reevo.ai/pricing
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/mcp/reevo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/reevo-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/mcp/reevo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/reevo-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/a2a/reevo-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/reevo-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/llms/reevo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reevo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/well-known/reevo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/reevo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/authentication/reevo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reevo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/scopes/reevo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/reevo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/conventions/reevo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reevo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/errors/reevo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reevo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/data-model/reevo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reevo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/conformance/reevo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reevo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/lifecycle/reevo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reevo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/asyncapi/reevo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/reevo-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/plans/reevo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reevo-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/rate-limits/reevo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reevo-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/security/reevo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reevo-domain-security.yml
@@ -183,6 +227,36 @@ scopes:
   scope_count: 22
   slug: reevo-scopes
   summary_line: 22 scopes · authorizationCode
+score:
+  band: developing
+  composite: 50.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 54.8
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 50.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/reevo/refs/heads/main/screenshots/reevo-2026-08-17T081502.png
 security:
 - kind: authentication

@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 7
 asyncapis:
@@ -84,26 +109,32 @@ common:
   type: VulnerabilityDisclosure
   url: https://www.rox.com/vulnerability-disclosure-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/llms/rox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rox-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/changelog/rox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rox-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/lifecycle/rox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rox-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/security/rox-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rox-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/security/rox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rox-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/security/rox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rox-domain-security.yml
@@ -112,18 +143,22 @@ common:
   type: GettingStarted
   url: https://docs.rox.com/development/product/getting-started
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/plans/rox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rox-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/asyncapi/rox-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rox-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/conformance/rox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rox-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/packages/rox-packages.yml
   title: ''
   type: Packages
   url: packages/rox-packages.yml
@@ -172,6 +207,34 @@ rate_limits:
 - limit_count: 0
   name: Rox Rate Limits
   slug: rox-rate-limits
+score:
+  band: developing
+  composite: 45.0
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 38.1
+    discoverability: 50.0
+    operational_transparency: 44.7
+  previous_composite: 45.0
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/screenshots/rox-2026-08-17T081645.png
 security:
 - kind: authentication

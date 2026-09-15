@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 60.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.upstox.com
@@ -80,14 +106,17 @@ common:
   type: StatusPage
   url: https://status.upstox.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/changelog/upstox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/upstox-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/lifecycle/upstox-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/upstox-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/lifecycle/upstox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upstox-lifecycle.yml
@@ -96,86 +125,107 @@ common:
   type: Security
   url: https://upstox.com/bug-bounty/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/security/upstox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/upstox-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/security/upstox-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/upstox-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/conformance/upstox-conformance.yml
   title: ''
   type: Compliance
   url: conformance/upstox-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/conformance/upstox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upstox-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/security/upstox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upstox-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/authentication/upstox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upstox-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/scopes/upstox-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/upstox-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/packages/upstox-packages.yml
   title: ''
   type: Packages
   url: packages/upstox-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/packages/upstox-packages.yml
   title: ''
   type: SDKs
   url: packages/upstox-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/well-known/upstox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upstox-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/llms/upstox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upstox-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/mcp/upstox-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/upstox-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/mcp/upstox-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/upstox-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/conventions/upstox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/upstox-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/errors/upstox-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/upstox-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/rate-limits/upstox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/upstox-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/plans/upstox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/upstox-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/sandbox/upstox-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/upstox-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/data-model/upstox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upstox-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/asyncapi/upstox-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/upstox-webhooks.yml
@@ -192,7 +242,7 @@ modified: '2026-09-02'
 name: Upstox
 nav: Providers
 network: true
-overview: 'Upstox publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API. Tagged areas include Company, Financial Services, Stock Trading, Brokerage, and Market Data.
+overview: 'Upstox publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API. Tagged areas include Company, Financial-Services, Stock Trading, Brokerage, and Market Data.
 
 
   The Upstox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -213,6 +263,53 @@ scopes:
   scope_count: 2
   slug: upstox-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 79.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 62.6
+    developer_ergonomics: 83.3
+    discoverability: 75.9
+    operational_transparency: 92.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 79.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 86.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Upstox Authentication
@@ -233,7 +330,7 @@ security:
 slug: upstox
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Stock Trading
 - Brokerage
 - Market Data

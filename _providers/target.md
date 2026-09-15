@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,22 +108,27 @@ collections:
   slug: open-target-target-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/capabilities/target-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/target-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/agentic-access/target-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/target-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/security/target-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/target-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/security/target-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/target-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/authentication/target-authentication.yml
   title: ''
   type: Authentication
   url: authentication/target-authentication.yml
@@ -127,22 +157,27 @@ common:
   type: Open Source
   url: https://tech.target.com/open-source
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/json-schema/target-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/target-product-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/json-schema/target-store-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/target-store-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/json-structure/target-product-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/target-product-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/json-ld/target-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/target-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/vocabulary/target-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/target-vocabulary.yml
@@ -151,34 +186,42 @@ common:
   type: LLMsTxt
   url: https://www.target.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/llms/target-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/target-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/well-known/target-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/target-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/security/target-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/target-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/scopes/target-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/target-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/conformance/target-conformance.yml
   title: ''
   type: Conformance
   url: conformance/target-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/lifecycle/target-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/target-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/conventions/target-conventions.yml
   title: ''
   type: Conventions
   url: conventions/target-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/packages/target-packages.yml
   title: ''
   type: Packages
   url: packages/target-packages.yml
@@ -298,6 +341,41 @@ scopes:
   scope_count: 0
   slug: target-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.2
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 47.0
+    contract_quality: 19.9
+    developer_ergonomics: 14.3
+    discoverability: 81.5
+    operational_transparency: 21.1
+  previous_composite: 31.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/screenshots/target-2026-08-17T082249.png
 security:
 - kind: authentication

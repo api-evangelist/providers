@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.8
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://data.southampton.ac.uk/
@@ -98,58 +123,72 @@ common:
   type: BlogRSS
   url: https://blog.soton.ac.uk/data/feed/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/security/university-of-southampton-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-southampton-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/plans/university-of-southampton-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-southampton-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/rate-limits/university-of-southampton-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-southampton-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/finops/university-of-southampton-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-southampton-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/authentication/university-of-southampton-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-southampton-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/conformance/university-of-southampton-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-southampton-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/vocabulary/university-of-southampton-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-southampton-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/rules/university-of-southampton-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-southampton-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/errors/university-of-southampton-errors.yml
   title: ''
   type: Errors
   url: errors/university-of-southampton-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/lifecycle/university-of-southampton-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-southampton-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/scopes/university-of-southampton-scopes.yml
   title: ''
   type: Scopes
   url: scopes/university-of-southampton-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/blogs/blogs.json
   title: ''
   type: x-blogs
   url: blogs/blogs.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/json-ld/university-of-southampton-context.jsonld
   title: ''
   type: x-json-ld
   url: json-ld/university-of-southampton-context.jsonld
@@ -204,6 +243,53 @@ scopes:
   scope_count: 0
   slug: university-of-southampton-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 76.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 3.8
+    contract_quality: 20.2
+    developer_ergonomics: 28.6
+    discoverability: 74.1
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 40.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/screenshots/university-of-southampton-2026-06-20T200226.png
 security:
 - kind: authentication

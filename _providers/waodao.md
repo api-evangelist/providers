@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 39.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,6 +122,7 @@ common:
   type: Disclaimer
   url: https://waodao.gitbook.io/docs/disclaimer
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/postman/waodao-agent-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/waodao-agent-api.postman_collection.json
@@ -109,86 +135,107 @@ common:
   type: APICatalog
   url: https://waodao.ai/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/well-known/waodao-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/waodao-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/llms/waodao-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/waodao-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/authentication/waodao-authentication.yml
   title: ''
   type: Authentication
   url: authentication/waodao-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/conventions/waodao-conventions.yml
   title: ''
   type: Conventions
   url: conventions/waodao-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/errors/waodao-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/waodao-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/lifecycle/waodao-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/waodao-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/conformance/waodao-conformance.yml
   title: ''
   type: Conformance
   url: conformance/waodao-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/data-model/waodao-data-model.yml
   title: ''
   type: DataModel
   url: data-model/waodao-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/mcp/waodao-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/waodao-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/overlays/waodao-agent-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/waodao-agent-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/examples/waodao-token-day-1-example.json
   title: ''
   type: Examples
   url: examples/waodao-token-day-1-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/examples/waodao-pools-example.json
   title: ''
   type: Examples
   url: examples/waodao-pools-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/examples/waodao-schema-example.json
   title: ''
   type: Examples
   url: examples/waodao-schema-example.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/json-schema/waodao-token.json
   title: ''
   type: JSONSchema
   url: json-schema/waodao-token.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/json-schema/waodao-index.json
   title: ''
   type: JSONSchema
   url: json-schema/waodao-index.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/json-schema/waodao-pools.json
   title: ''
   type: JSONSchema
   url: json-schema/waodao-pools.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/json-schema/waodao-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/waodao-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/json-schema/waodao-error.json
   title: ''
   type: JSONSchema
   url: json-schema/waodao-error.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/agentic-access/waodao-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/waodao-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/security/waodao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/waodao-domain-security.yml
@@ -232,6 +279,42 @@ overview: 'WAODAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
   WAODAO''s developer surface includes documentation, support, authentication, code examples, and 29 more developer resources.'
 random_paper: 5
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 59.0
+    developer_ergonomics: 61.3
+    discoverability: 87.0
+    operational_transparency: 5.3
+  previous_composite: 38.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/screenshots/waodao-2026-09-02T170429.png
 security:
 - kind: authentication

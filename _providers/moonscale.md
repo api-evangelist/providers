@@ -10,6 +10,31 @@ access_model:
   - https://vidlab7-d7584a5d.mintlify.app/api-reference/endpoint/createApiKey
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -36,10 +61,12 @@ asyncapis:
   slug: moonscale-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/agentic-access/moonscale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moonscale-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/security/moonscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moonscale-domain-security.yml
@@ -84,58 +111,72 @@ common:
   type: Login
   url: https://app.moonscale.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/llms/moonscale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moonscale-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/authentication/moonscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moonscale-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/conventions/moonscale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moonscale-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/errors/moonscale-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moonscale-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/data-model/moonscale-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moonscale-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/examples/moonscale-examples.yml
   title: ''
   type: Examples
   url: examples/moonscale-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/asyncapi/moonscale-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moonscale-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/lifecycle/moonscale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moonscale-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/conformance/moonscale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moonscale-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/packages/moonscale-packages.yml
   title: ''
   type: Packages
   url: packages/moonscale-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/plans/moonscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moonscale-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/rate-limits/moonscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moonscale-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/overlays/moonscale-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moonscale-api-overlay.yaml
@@ -164,6 +205,49 @@ rate_limits:
 - limit_count: 0
   name: Moonscale Rate Limits
   slug: moonscale-rate-limits
+score:
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 53.7
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 37.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonscale/refs/heads/main/screenshots/moonscale-2026-08-07T184246.png
 security:
 - kind: authentication

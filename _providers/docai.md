@@ -16,14 +16,17 @@ common:
   type: Website
   url: https://doc.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docai/refs/heads/main/lifecycle/docai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/docai-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docai/refs/heads/main/security/docai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docai/refs/heads/main/llms/docai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docai-llms.txt

@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Management API for an Edgee organization: export AI Gateway usage and cost data as CSV or JSON, create/list/update/delete AI Gateway API keys, and configure custom BYOK provider keys. Bearer-token aut'
@@ -50,10 +75,12 @@ apis:
 artifact_total: 13
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/overlays/edgee-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/edgee-gateway-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/security/edgee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edgee-domain-security.yml
@@ -122,70 +149,87 @@ common:
   type: Compliance
   url: https://trust.edgee.ai/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/packages/edgee-packages.yml
   title: ''
   type: Packages
   url: packages/edgee-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/packages/edgee-packages.yml
   title: ''
   type: SDKs
   url: packages/edgee-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/cli/edgee-cli.yml
   title: ''
   type: CLI
   url: cli/edgee-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/mcp/edgee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/edgee-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/mcp/edgee-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/edgee-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/llms/edgee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/edgee-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/authentication/edgee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/edgee-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/conventions/edgee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/edgee-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/errors/edgee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/edgee-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/errors/edgee-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/edgee-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/lifecycle/edgee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/edgee-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/conformance/edgee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/edgee-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/data-model/edgee-data-model.yml
   title: ''
   type: DataModel
   url: data-model/edgee-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/changelog/edgee-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/edgee-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/plans/edgee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/edgee-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/rate-limits/edgee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/edgee-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -214,6 +258,40 @@ rate_limits:
 - limit_count: 0
   name: Edgee Rate Limits
   slug: edgee-rate-limits
+score:
+  band: strong
+  composite: 58.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 56.6
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 58.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/screenshots/edgee-2026-09-02T145329.png
 security:
 - kind: authentication

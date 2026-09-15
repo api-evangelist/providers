@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol endpoint that exposes DoubleVerify's media quality, verification and performance data to an AI assistant as the DV Neura Insight Agent. DoubleVerify states that cl
@@ -19,10 +44,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/security/doubleverify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/doubleverify-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/security/doubleverify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doubleverify-domain-security.yml
@@ -107,22 +134,27 @@ common:
   type: Blog
   url: https://doubleverify.com/blog/rss.xml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/mcp/doubleverify-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/doubleverify-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/authentication/doubleverify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doubleverify-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/scopes/doubleverify-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/doubleverify-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/conventions/doubleverify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/doubleverify-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/conformance/doubleverify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/doubleverify-conformance.yml
@@ -131,6 +163,7 @@ common:
   type: Compliance
   url: https://trust.doubleverify.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/lifecycle/doubleverify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/doubleverify-lifecycle.yml
@@ -139,26 +172,32 @@ common:
   type: StatusPage
   url: https://status.doubleverify.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/well-known/doubleverify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/doubleverify-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/packages/doubleverify-packages.yml
   title: ''
   type: Packages
   url: packages/doubleverify-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/llms/doubleverify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doubleverify-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/security/doubleverify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/doubleverify-vulnerability-disclosure.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/plans/doubleverify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/doubleverify-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/rate-limits/doubleverify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/doubleverify-rate-limits.yml
@@ -194,6 +233,40 @@ scopes:
   scope_count: 21
   slug: doubleverify-scopes
   summary_line: 21 scopes · authorizationCode/clientCredentials/deviceCode
+score:
+  band: emerging
+  composite: 24.5
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 24.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubleverify/refs/heads/main/screenshots/doubleverify-2026-06-20T180204.png
 security:
 - kind: authentication

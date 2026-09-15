@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 61.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -145,110 +171,137 @@ common:
   type: Compliance
   url: https://hightouch.com/platform/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/security/hightouch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hightouch-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/security/hightouch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hightouch-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/authentication/hightouch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hightouch-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/scopes/hightouch-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hightouch-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/conventions/hightouch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hightouch-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/conformance/hightouch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hightouch-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/errors/hightouch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hightouch-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/errors/hightouch-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/hightouch-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/lifecycle/hightouch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hightouch-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/data-model/hightouch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hightouch-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/packages/hightouch-packages.yml
   title: ''
   type: Packages
   url: packages/hightouch-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/packages/hightouch-packages.yml
   title: ''
   type: SDKs
   url: packages/hightouch-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/cli/hightouch-cli.yml
   title: ''
   type: CLI
   url: cli/hightouch-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/components/hightouch-components.yml
   title: ''
   type: Components
   url: components/hightouch-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/sandbox/hightouch-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hightouch-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/asyncapi/hightouch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hightouch-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/well-known/hightouch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hightouch-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/mcp/hightouch-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hightouch-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/mcp/hightouch-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hightouch-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/a2a/hightouch-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/hightouch-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/agentic-access/hightouch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hightouch-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/llms/hightouch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hightouch-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/plans/hightouch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hightouch-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/rate-limits/hightouch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hightouch-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/finops/hightouch-finops.yml
   title: ''
   type: FinOps
   url: finops/hightouch-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/overlays/hightouch-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hightouch-api-overlay.yaml
@@ -293,6 +346,41 @@ scopes:
   scope_count: 4
   slug: hightouch-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 66.9
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 93.4
+    contract_governance: 18.2
+    contract_quality: 71.4
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 66.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/screenshots/hightouch-2026-06-20T182738.png
 security:
 - kind: authentication

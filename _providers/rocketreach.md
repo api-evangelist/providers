@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 42.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,18 +91,22 @@ collections:
   slug: open-rocketreach-people-search-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/agentic-access/rocketreach-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rocketreach-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/security/rocketreach-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rocketreach-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/security/rocketreach-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rocketreach-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/authentication/rocketreach-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rocketreach-authentication.yml
@@ -181,54 +211,67 @@ common:
   type: YouTube
   url: https://www.youtube.com/@rocketreach
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/mcp/rocketreach-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rocketreach-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/mcp/rocketreach-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rocketreach-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/llms/rocketreach-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rocketreach-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/well-known/rocketreach-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rocketreach-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/well-known/rocketreach-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/rocketreach-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/well-known/rocketreach-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/rocketreach-security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/packages/rocketreach-packages.yml
   title: ''
   type: Packages
   url: packages/rocketreach-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/packages/rocketreach-packages.yml
   title: ''
   type: SDKs
   url: packages/rocketreach-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/rate-limits/rocketreach-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rocketreach-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/plans/rocketreach-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rocketreach-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/errors/rocketreach-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rocketreach-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/lifecycle/rocketreach-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rocketreach-lifecycle.yml
@@ -237,34 +280,42 @@ common:
   type: StatusPage
   url: https://status.rocketreach.co
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/lifecycle/rocketreach-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/rocketreach-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/conventions/rocketreach-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rocketreach-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/conformance/rocketreach-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rocketreach-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/scopes/rocketreach-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rocketreach-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/data-model/rocketreach-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rocketreach-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/asyncapi/rocketreach-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rocketreach-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/security/rocketreach-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/rocketreach-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/security/rocketreach-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rocketreach-trust-center.yml
@@ -330,6 +381,46 @@ scopes:
   scope_count: 0
   slug: rocketreach-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 59.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 66.4
+    developer_ergonomics: 57.1
+    discoverability: 81.5
+    operational_transparency: 40.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 59.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png
 security:
 - kind: authentication

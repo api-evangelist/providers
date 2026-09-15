@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -414,22 +439,27 @@ collections:
   slug: open-oneatlas-worlddem-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/capabilities/airbus-oneatlas-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/airbus-oneatlas-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/agentic-access/airbus-oneatlas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/airbus-oneatlas-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/security/airbus-oneatlas-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/airbus-oneatlas-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/security/airbus-oneatlas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airbus-oneatlas-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/authentication/airbus-oneatlas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airbus-oneatlas-authentication.yml
@@ -470,974 +500,1217 @@ common:
   type: Website
   url: https://www.airbus.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/rules/oneatlas-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/oneatlas-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/vocabulary/oneatlas-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/oneatlas-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-ld/oneatlas-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oneatlas-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-acquisition-date-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-acquisition-date-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-activity-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-activity-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-activity-search-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-activity-search-options-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-activity-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-activity-search-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-activity-small-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-activity-small-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-activity-stage-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-activity-stage-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-activity-stages-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-activity-stages-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-api-key-page-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-api-key-page-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-api-key-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-api-key-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-associated-data-link-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-associated-data-link-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-band-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-band-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-bbox-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-bbox-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-buffer-description-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-buffer-description-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-catalog-delete-expired-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-catalog-delete-expired-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-catalog-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-catalog-item-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-control-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-control-job-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-delete-operation-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-delete-operation-result-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-deleted-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-deleted-item-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-delivery-pneo-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-delivery-pneo-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-delivery-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-delivery-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-dem-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-dem-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-describe-process-input-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-describe-process-input-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-describe-process-links-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-describe-process-links-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-describe-process-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-describe-process-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-dimap-v2-packaging-parameters-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-dimap-v2-packaging-parameters-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-email-notification-parameters-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-email-notification-parameters-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-feasibility-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-feasibility-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-features-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-features-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-footprint-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-footprint-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-format-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-format-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geo-json-linestring-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geo-json-linestring-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geo-json-multilinestring-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geo-json-multilinestring-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geo-json-multipoint-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geo-json-multipoint-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geo-json-multipolygon-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geo-json-multipolygon-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geo-json-point-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geo-json-point-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geo-json-polygon-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geo-json-polygon-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geojson-geometry-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geojson-geometry-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-geometry-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-geometry-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-get-domain-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-get-domain-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-histogram-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-histogram-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-human-readable-operation-summary-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-human-readable-operation-summary-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-image-size-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-image-size-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-ingestion-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-ingestion-job-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-link-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-link-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-md5-checksum-parameters-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-md5-checksum-parameters-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-messagequeue-notification-parameters-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-messagequeue-notification-parameters-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-metadata-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-notification-search-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-notification-search-options-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-notification-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-notification-search-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-notification-subscription-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-notification-subscription-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-optical-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-optical-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-pixel-coding-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-pixel-coding-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-point-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-point-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-privilege-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-privilege-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-privilege-search-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-privilege-search-options-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-privilege-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-privilege-search-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-process-hal-catalog-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-process-hal-catalog-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-process-hal-link-catalog-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-process-hal-link-catalog-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-process-hal-link-common-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-process-hal-link-common-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-process-hal-link-describe-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-process-hal-link-describe-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-process-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-process-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-processes-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-processes-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-response-buffer-information-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-response-buffer-information-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-search-deleted-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-search-deleted-options-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-search-deleted-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-search-deleted-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-search-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-search-options-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-search-options-v2-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-search-options-v2-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-search-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-segment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-segment-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-srs-expression-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-srs-expression-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-srs-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-srs-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-step-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-step-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-target-workspace-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-target-workspace-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-tasking-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-tasking-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-update-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-update-options-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-update-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-update-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-webhook-notification-parameters-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-webhook-notification-parameters-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-workspace-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-workspace-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-workspace-search-options-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-workspace-search-options-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-schema/oneatlas-workspace-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/oneatlas-workspace-search-response-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-acquisition-date-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-acquisition-date-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-activity-search-options-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-activity-search-options-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-activity-search-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-activity-search-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-activity-small-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-activity-small-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-activity-stage-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-activity-stage-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-activity-stages-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-activity-stages-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-activity-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-activity-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-api-key-page-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-api-key-page-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-api-key-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-api-key-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-associated-data-link-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-associated-data-link-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-band-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-band-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-bbox-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-bbox-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-buffer-description-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-buffer-description-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-catalog-delete-expired-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-catalog-delete-expired-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-catalog-item-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-catalog-item-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-control-job-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-control-job-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-delete-operation-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-delete-operation-result-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-deleted-item-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-deleted-item-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-delivery-pneo-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-delivery-pneo-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-delivery-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-delivery-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-dem-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-dem-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-describe-process-input-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-describe-process-input-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-describe-process-links-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-describe-process-links-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-describe-process-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-describe-process-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-dimap-v2-packaging-parameters-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-dimap-v2-packaging-parameters-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-email-notification-parameters-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-email-notification-parameters-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-feasibility-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-feasibility-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-features-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-features-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-footprint-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-footprint-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-format-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-format-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geo-json-linestring-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geo-json-linestring-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geo-json-multilinestring-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geo-json-multilinestring-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geo-json-multipoint-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geo-json-multipoint-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geo-json-multipolygon-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geo-json-multipolygon-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geo-json-point-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geo-json-point-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geo-json-polygon-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geo-json-polygon-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geojson-geometry-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geojson-geometry-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-geometry-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-geometry-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-get-domain-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-get-domain-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-histogram-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-histogram-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-human-readable-operation-summary-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-human-readable-operation-summary-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-image-size-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-image-size-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-ingestion-job-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-ingestion-job-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-link-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-link-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-md5-checksum-parameters-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-md5-checksum-parameters-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-messagequeue-notification-parameters-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-messagequeue-notification-parameters-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-metadata-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-metadata-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-notification-search-options-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-notification-search-options-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-notification-search-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-notification-search-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-notification-subscription-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-notification-subscription-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-optical-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-optical-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-pixel-coding-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-pixel-coding-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-point-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-point-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-privilege-search-options-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-privilege-search-options-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-privilege-search-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-privilege-search-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-privilege-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-privilege-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-process-hal-catalog-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-process-hal-catalog-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-process-hal-link-catalog-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-process-hal-link-catalog-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-process-hal-link-common-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-process-hal-link-common-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-process-hal-link-describe-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-process-hal-link-describe-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-process-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-process-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-processes-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-processes-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-response-buffer-information-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-response-buffer-information-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-search-deleted-options-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-search-deleted-options-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-search-deleted-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-search-deleted-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-search-options-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-search-options-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-search-options-v2-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-search-options-v2-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-search-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-search-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-segment-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-segment-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-srs-expression-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-srs-expression-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-srs-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-srs-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-step-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-step-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-target-workspace-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-target-workspace-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-tasking-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-tasking-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-update-options-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-update-options-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-update-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-update-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-webhook-notification-parameters-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-webhook-notification-parameters-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-workspace-search-options-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-workspace-search-options-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-workspace-search-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-workspace-search-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/json-structure/oneatlas-workspace-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/oneatlas-workspace-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-acquisition-date-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-acquisition-date-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-activity-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-activity-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-activity-search-options-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-activity-search-options-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-activity-search-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-activity-search-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-activity-small-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-activity-small-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-activity-stage-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-activity-stage-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-activity-stages-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-activity-stages-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-api-key-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-api-key-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-api-key-page-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-api-key-page-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-associated-data-link-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-associated-data-link-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-band-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-band-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-bbox-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-bbox-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-buffer-description-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-buffer-description-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-catalog-delete-expired-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-catalog-delete-expired-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-catalog-item-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-catalog-item-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-control-job-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-control-job-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-delete-operation-result-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-delete-operation-result-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-deleted-item-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-deleted-item-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-delivery-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-delivery-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-delivery-pneo-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-delivery-pneo-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-dem-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-dem-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-describe-process-input-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-describe-process-input-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-describe-process-links-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-describe-process-links-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-describe-process-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-describe-process-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-dimap-v2-packaging-parameters-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-dimap-v2-packaging-parameters-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-email-notification-parameters-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-email-notification-parameters-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-feasibility-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-feasibility-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-features-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-features-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-footprint-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-footprint-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-format-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-format-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geo-json-linestring-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geo-json-linestring-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geo-json-multilinestring-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geo-json-multilinestring-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geo-json-multipoint-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geo-json-multipoint-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geo-json-multipolygon-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geo-json-multipolygon-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geo-json-point-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geo-json-point-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geo-json-polygon-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geo-json-polygon-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geojson-geometry-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geojson-geometry-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-geometry-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-geometry-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-get-domain-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-get-domain-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-histogram-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-histogram-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-human-readable-operation-summary-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-human-readable-operation-summary-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-image-size-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-image-size-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-ingestion-job-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-ingestion-job-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-link-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-link-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-md5-checksum-parameters-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-md5-checksum-parameters-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-messagequeue-notification-parameters-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-messagequeue-notification-parameters-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-metadata-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-metadata-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-notification-search-options-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-notification-search-options-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-notification-search-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-notification-search-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-notification-subscription-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-notification-subscription-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-optical-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-optical-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-pixel-coding-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-pixel-coding-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-point-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-point-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-privilege-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-privilege-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-privilege-search-options-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-privilege-search-options-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-privilege-search-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-privilege-search-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-process-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-process-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-process-hal-catalog-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-process-hal-catalog-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-process-hal-link-catalog-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-process-hal-link-catalog-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-process-hal-link-common-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-process-hal-link-common-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-process-hal-link-describe-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-process-hal-link-describe-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-processes-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-processes-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-response-buffer-information-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-response-buffer-information-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-search-deleted-options-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-search-deleted-options-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-search-deleted-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-search-deleted-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-search-options-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-search-options-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-search-options-v2-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-search-options-v2-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-search-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-search-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-segment-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-segment-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-srs-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-srs-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-srs-expression-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-srs-expression-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-step-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-step-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-target-workspace-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-target-workspace-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-tasking-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-tasking-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-update-options-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-update-options-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-update-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-update-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-webhook-notification-parameters-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-webhook-notification-parameters-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-workspace-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-workspace-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-workspace-search-options-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-workspace-search-options-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/examples/oneatlas-workspace-search-response-example.json
   title: ''
   type: Examples
   url: examples/oneatlas-workspace-search-response-example.json
@@ -2238,6 +2511,38 @@ rules:
     info: 0
     warn: 8
   slug: oneatlas-spectral-rules
+score:
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 53.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 28.8
+    contract_quality: 56.4
+    developer_ergonomics: 38.1
+    discoverability: 50.0
+    operational_transparency: 44.7
+  previous_composite: 38.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The modern Jamf Pro API, built on the OpenAPI 3.0 standard, for programmatically managing computers, mobile devices, policies, groups, inventory, and configuration on a Jamf Pro instance. Authenticate
@@ -27,10 +52,12 @@ asyncapis:
   slug: jamf-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jamf-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jamf-domain-security.yml
@@ -91,54 +118,67 @@ common:
   type: ChangeLog
   url: https://developer.jamf.com/jamf-pro/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/llms/jamf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jamf-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/well-known/jamf-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jamf-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/well-known/jamf-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/jamf-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/well-known/jamf-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/jamf-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/mcp/jamf-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jamf-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/asyncapi/jamf-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jamf-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/authentication/jamf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jamf-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/conventions/jamf-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jamf-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/lifecycle/jamf-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jamf-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/lifecycle/jamf-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/jamf-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/conformance/jamf-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jamf-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-trust-center.yml
   title: ''
   type: Compliance
   url: security/jamf-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/security/jamf-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jamf-trust-center.yml
@@ -166,6 +206,35 @@ overview: 'JAMF publishes 1 API on the [APIs.io](https://apis.io/) network: Pro 
 
   JAMF''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 42.9
+    discoverability: 81.5
+    operational_transparency: 52.6
+  previous_composite: 48.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jamf/refs/heads/main/screenshots/jamf-2026-07-25T223052.png
 security:
 - kind: authentication

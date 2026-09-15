@@ -10,6 +10,32 @@ access_model:
   - https://ai.kissmetrics.io/get-started
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,70 +66,87 @@ collections:
   slug: open-kissmetrics-queries-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/agentic-access/kissmetrics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kissmetrics-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/authentication/kissmetrics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kissmetrics-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/security/kissmetrics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kissmetrics-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/conventions/kissmetrics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kissmetrics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/conformance/kissmetrics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kissmetrics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/lifecycle/kissmetrics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kissmetrics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/errors/kissmetrics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kissmetrics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/data-model/kissmetrics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kissmetrics-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/examples/kissmetrics-rest-api-examples.yml
   title: ''
   type: Examples
   url: examples/kissmetrics-rest-api-examples.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/rate-limits/kissmetrics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kissmetrics-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/plans/kissmetrics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kissmetrics-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/packages/kissmetrics-packages.yml
   title: ''
   type: Packages
   url: packages/kissmetrics-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/packages/kissmetrics-packages.yml
   title: ''
   type: SDKs
   url: packages/kissmetrics-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/mcp/kissmetrics-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kissmetrics-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/mcp/kissmetrics-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/kissmetrics-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/llms/kissmetrics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kissmetrics-llms.txt
@@ -204,6 +247,41 @@ rate_limits:
 - limit_count: 1
   name: Kissmetrics Rate Limits
   slug: kissmetrics-rate-limits
+score:
+  band: developing
+  composite: 52.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 59.9
+    developer_ergonomics: 53.6
+    discoverability: 81.5
+    operational_transparency: 28.9
+  previous_composite: 52.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/screenshots/kissmetrics-2026-06-20T184049.png
 security:
 - kind: authentication

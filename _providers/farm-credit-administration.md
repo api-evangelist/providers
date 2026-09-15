@@ -11,6 +11,31 @@ access_model:
   - https://www.fca.gov/data
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Public, anonymous Esri ArcGIS Server 12.0 REST services publishing the geography of the Farm Credit System: 55 ACA/FLCA institution headquarters (charter address, phone, county, CEO and chair surnames'
@@ -19,6 +44,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/security/farm-credit-administration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/farm-credit-administration-domain-security.yml
@@ -51,10 +77,12 @@ common:
   type: PrivacyPolicy
   url: https://www.fca.gov/required-notices/web-site-notices-and-policies
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/security/farm-credit-administration-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/farm-credit-administration-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/security/farm-credit-administration-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/farm-credit-administration-vulnerability-disclosure.yml
@@ -131,50 +159,62 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCMLBjEdJAom6CaT3xRWV6oQ
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/llms/farm-credit-administration-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/farm-credit-administration-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/authentication/farm-credit-administration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/farm-credit-administration-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/conventions/farm-credit-administration-conventions.yml
   title: ''
   type: Conventions
   url: conventions/farm-credit-administration-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/errors/farm-credit-administration-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/farm-credit-administration-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/data-model/farm-credit-administration-data-model.yml
   title: ''
   type: DataModel
   url: data-model/farm-credit-administration-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/conformance/farm-credit-administration-conformance.yml
   title: ''
   type: Conformance
   url: conformance/farm-credit-administration-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/rate-limits/farm-credit-administration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/farm-credit-administration-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/plans/farm-credit-administration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/farm-credit-administration-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/lifecycle/farm-credit-administration-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/farm-credit-administration-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/packages/farm-credit-administration-packages.yml
   title: ''
   type: Packages
   url: packages/farm-credit-administration-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/examples/farm-credit-administration-hq-query-geojson.json
   title: ''
   type: Examples
   url: examples/farm-credit-administration-hq-query-geojson.json
@@ -209,6 +249,42 @@ rate_limits:
 - limit_count: 0
   name: Farm Credit Administration Rate Limits
   slug: farm-credit-administration-rate-limits
+score:
+  band: emerging
+  composite: 24.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 25.6
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 24.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/screenshots/farm-credit-administration-2026-06-20T181040.png
 security:
 - kind: authentication
@@ -235,7 +311,7 @@ tags:
 - Finance
 - Regulations
 - Geospatial
-- Open-Data
+- Open Data
 - Banking
 - Lending
 - Government

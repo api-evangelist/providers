@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,14 +78,17 @@ common:
   type: Website
   url: https://www.exactly.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/capabilities/exactly-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/exactly-ai-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/agentic-access/exactly-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/exactly-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/security/exactly-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exactly-ai-domain-security.yml
@@ -109,58 +137,72 @@ common:
   type: Compliance
   url: https://exactly.ai/help-center/data-protection-privacy-ico-registered-private-by-default
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/authentication/exactly-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exactly-ai-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/openapi/_original/exactly-ai-public-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/exactly-ai-public-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/llms/exactly-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exactly-ai-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/errors/exactly-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/exactly-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/conventions/exactly-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exactly-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/data-model/exactly-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/exactly-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/lifecycle/exactly-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exactly-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/conformance/exactly-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exactly-ai-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/mcp/exactly-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/exactly-ai-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/overlays/exactly-ai-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/exactly-ai-public-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/skills/exactly-ai-train-style-model.md
   title: ''
   type: AgentSkill
   url: skills/exactly-ai-train-style-model.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/skills/exactly-ai-generate-images.md
   title: ''
   type: AgentSkill
   url: skills/exactly-ai-generate-images.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/arazzo/exactly-ai-train-and-generate.yml
   title: ''
   type: Arazzo
   url: arazzo/exactly-ai-train-and-generate.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/arazzo/exactly-ai-generate-and-postprocess.yml
   title: ''
   type: Arazzo
   url: arazzo/exactly-ai-generate-and-postprocess.yml
@@ -177,6 +219,41 @@ overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
   Exactly Ai''s developer surface includes documentation, API reference, pricing, support, signup flow, getting-started guide, authentication, and 22 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 44.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 51.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 44.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
 security:
 - kind: authentication

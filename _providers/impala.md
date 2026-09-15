@@ -43,58 +43,72 @@ collections:
   slug: open-impala-rate-calendar-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/capabilities/impala-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/impala-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/overlays/impala-hotels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impala-hotels-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/authentication/impala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impala-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/packages/impala-packages.yml
   title: ''
   type: Packages
   url: packages/impala-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/packages/impala-packages.yml
   title: ''
   type: SDKs
   url: packages/impala-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/mcp/impala-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/impala-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/llms/impala-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impala-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/conventions/impala-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impala-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/errors/impala-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/impala-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/lifecycle/impala-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impala-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/conformance/impala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impala-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/data-model/impala-data-model.yml
   title: ''
   type: DataModel
   url: data-model/impala-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/sandbox/impala-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/impala-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml

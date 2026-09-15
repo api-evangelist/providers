@@ -11,6 +11,31 @@ access_model:
   - https://webscraping.ai/docs
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 65.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,90 +103,112 @@ common:
   type: Releases
   url: https://github.com/webscraping-ai/webscraping-ai-mcp-server/releases
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/openapi/_original/webscraping-ai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/webscraping-ai-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/overlays/webscraping-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/webscraping-ai-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/agentic-access/webscraping-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/webscraping-ai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/authentication/webscraping-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webscraping-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/security/webscraping-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webscraping-ai-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/conventions/webscraping-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webscraping-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/conventions/webscraping-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/webscraping-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/errors/webscraping-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/webscraping-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/lifecycle/webscraping-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webscraping-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/conformance/webscraping-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webscraping-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/data-model/webscraping-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/webscraping-ai-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/rate-limits/webscraping-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/webscraping-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/plans/webscraping-ai-plans.yml
   title: ''
   type: Plans
   url: plans/webscraping-ai-plans.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/packages/webscraping-ai-packages.yml
   title: ''
   type: Packages
   url: packages/webscraping-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/packages/webscraping-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/webscraping-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/cli/webscraping-ai-cli.yml
   title: ''
   type: CLI
   url: cli/webscraping-ai-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/sandbox/webscraping-ai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/webscraping-ai-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/mcp/webscraping-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/webscraping-ai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/mcp/webscraping-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/webscraping-ai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/well-known/webscraping-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/webscraping-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/llms/webscraping-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webscraping-ai-llms.txt
@@ -254,6 +301,42 @@ rate_limits:
 - limit_count: 4
   name: Webscraping Ai Rate Limits
   slug: webscraping-ai-rate-limits
+score:
+  band: strong
+  composite: 60.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 57.8
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 60.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/screenshots/webscraping-ai-2026-06-20T201335.png
 security:
 - kind: authentication

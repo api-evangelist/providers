@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 57.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 5
@@ -80,6 +106,7 @@ common:
   type: StatusPage
   url: https://status.aembit.io/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/lifecycle/aembit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/aembit-lifecycle.yml
@@ -96,10 +123,12 @@ common:
   type: Security
   url: https://docs.aembit.io/get-started/security-posture/security-compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/security/aembit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aembit-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/security/aembit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aembit-domain-security.yml
@@ -108,70 +137,87 @@ common:
   type: ChangeLog
   url: https://docs.aembit.io/changelog/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/cli/aembit-cli.yml
   title: ''
   type: CLI
   url: cli/aembit-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/packages/aembit-packages.yml
   title: ''
   type: Packages
   url: packages/aembit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/packages/aembit-packages.yml
   title: ''
   type: SDKs
   url: packages/aembit-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/mcp/aembit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aembit-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/mcp/aembit-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aembit-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/llms/aembit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aembit-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/agentic-access/aembit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aembit-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/authentication/aembit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aembit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/conventions/aembit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aembit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/errors/aembit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aembit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/lifecycle/aembit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aembit-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/conformance/aembit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aembit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/data-model/aembit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aembit-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/plans/aembit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aembit-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/rate-limits/aembit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aembit-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/sandbox/aembit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aembit-sandbox.yml
@@ -180,10 +226,12 @@ common:
   type: Console
   url: https://useast2.aembit.io/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/overlays/aembit-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aembit-cloud-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aembit/refs/heads/main/overlays/aembit-edge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aembit-edge-overlay.yaml
@@ -216,6 +264,41 @@ rate_limits:
 - limit_count: 3
   name: Aembit Rate Limits
   slug: aembit-rate-limits
+score:
+  band: exemplar
+  composite: 71.5
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 65.1
+    developer_ergonomics: 76.8
+    discoverability: 75.9
+    operational_transparency: 84.2
+  previous_composite: 71.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 security:
 - kind: authentication
   name: Aembit Authentication
@@ -243,7 +326,7 @@ tags:
 - Secrets Management
 - Zero Trust
 - Agentic AI
-- Model Context Protocol
+- MCP
 - Authentication
 - Authorization
 - DevSecOps

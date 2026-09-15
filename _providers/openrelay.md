@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
@@ -174,10 +199,12 @@ common:
   type: Website
   url: https://www.openrelay.inc/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/capabilities/openrelay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openrelay-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/overlays/openrelay-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openrelay-openapi-overlay.yaml
@@ -222,6 +249,7 @@ common:
   type: StatusPage
   url: https://openrelay.inc/status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/changelog/openrelay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openrelay-changelog.yml
@@ -234,70 +262,87 @@ common:
   type: PrivacyPolicy
   url: https://openrelay.inc/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/authentication/openrelay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openrelay-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/security/openrelay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openrelay-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/security/openrelay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/openrelay-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/security/openrelay-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/openrelay-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/conformance/openrelay-conformance.yml
   title: ''
   type: Compliance
   url: conformance/openrelay-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/conformance/openrelay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openrelay-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/well-known/openrelay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openrelay-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/mcp/openrelay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openrelay-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/llms/openrelay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openrelay-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/cli/openrelay-cli.yml
   title: ''
   type: CLI
   url: cli/openrelay-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/packages/openrelay-packages.yml
   title: ''
   type: Packages
   url: packages/openrelay-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/lifecycle/openrelay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openrelay-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/conventions/openrelay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openrelay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/errors/openrelay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openrelay-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/data-model/openrelay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openrelay-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/asyncapi/openrelay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openrelay-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -321,6 +366,40 @@ overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
   OpenRelay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
 random_paper: 9
+score:
+  band: developing
+  composite: 47.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 57.8
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 47.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/screenshots/openrelay-2026-08-07T190635.png
 security:
 - kind: authentication

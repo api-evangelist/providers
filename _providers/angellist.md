@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The AngelList Investor Management API is a GraphQL API that enables programmatic access to the AngelList investor portal, supporting fund managers and investors in managing transactions, documents, an
@@ -17,6 +42,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/security/angellist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/angellist-domain-security.yml
@@ -65,6 +91,7 @@ common:
   type: TrustCenter
   url: https://trust-portal.angellist.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/security/angellist-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/angellist-trust-center.yml
@@ -93,6 +120,7 @@ common:
   type: Announcement
   url: https://wellfound.com/blog/angellist-talent-is-now-wellfound
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/llms/angellist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/angellist-llms.txt
@@ -101,62 +129,77 @@ common:
   type: LLMsTxt
   url: https://support.angellist.com/llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/a2a/angellist-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/angellist-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/skills/angellist-investor-management-platform.md
   title: ''
   type: AgentSkill
   url: skills/angellist-investor-management-platform.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/well-known/angellist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/angellist-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/authentication/angellist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/angellist-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/scopes/angellist-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/angellist-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/conventions/angellist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/angellist-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/errors/angellist-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/angellist-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/lifecycle/angellist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/angellist-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/conformance/angellist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/angellist-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/sandbox/angellist-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/angellist-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/packages/angellist-packages.yml
   title: ''
   type: Packages
   url: packages/angellist-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/plans/angellist-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/angellist-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/rate-limits/angellist-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/angellist-rate-limits.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/graphql/angellist-graphql-probe.yml
   title: ''
   type: GraphQL
   url: graphql/angellist-graphql-probe.yml
@@ -218,6 +261,36 @@ scopes:
   scope_count: 4
   slug: angellist-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 5.3
+  previous_composite: 44.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/screenshots/angellist-2026-06-20T171953.png
 security:
 - kind: authentication

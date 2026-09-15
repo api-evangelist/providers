@@ -10,6 +10,32 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.8
+  scored_at: '2026-09-14'
 api_count: 134
 apis:
 - baseURL: https://api.impact.com/Advertisers/
@@ -526,22 +552,27 @@ collections:
   slug: open-impact-radius-partner-withdrawalsettings-v15
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/capabilities/impact-radius-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/impact-radius-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/overlays/impact-radius-brand-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impact-radius-brand-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/overlays/impact-radius-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impact-radius-partner-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/overlays/impact-radius-agency-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impact-radius-agency-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/overlays/impact-radius-advocate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impact-radius-advocate-overlay.yaml
@@ -562,6 +593,7 @@ common:
   type: GettingStarted
   url: https://integrations.impact.com/rest-apis/api-quick-start.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/authentication/impact-radius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impact-radius-authentication.yml
@@ -602,22 +634,27 @@ common:
   type: StatusPage
   url: https://status.impact.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/mcp/impact-radius-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/impact-radius-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/llms/impact-radius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impact-radius-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/well-known/impact-radius-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/impact-radius-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/well-known/impact-radius-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/impact-radius-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/security/impact-radius-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/impact-radius-vulnerability-disclosure.yml
@@ -626,82 +663,102 @@ common:
   type: Security
   url: https://impact.responsibledisclosure.com/hc/en-us
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/security/impact-radius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/impact-radius-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/asyncapi/impact-radius-advocate-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/impact-radius-advocate-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/packages/impact-radius-packages.yml
   title: ''
   type: Packages
   url: packages/impact-radius-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/packages/impact-radius-packages.yml
   title: ''
   type: SDKs
   url: packages/impact-radius-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/changelog/impact-radius-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/impact-radius-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/lifecycle/impact-radius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impact-radius-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/lifecycle/impact-radius-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/impact-radius-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/conventions/impact-radius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impact-radius-conventions.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/graphql/impact-radius-advocate-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/impact-radius-advocate-schema.graphql
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/mcp/impact-radius-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/impact-radius-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/errors/impact-radius-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/impact-radius-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/rate-limits/impact-radius-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/impact-radius-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/plans/impact-radius-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/impact-radius-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/data-model/impact-radius-data-model.yml
   title: ''
   type: DataModel
   url: data-model/impact-radius-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/sandbox/impact-radius-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/impact-radius-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/components/impact-radius-components.yml
   title: ''
   type: Components
   url: components/impact-radius-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/conformance/impact-radius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impact-radius-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/security/impact-radius-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/impact-radius-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/security/impact-radius-trust-center.yml
   title: ''
   type: Compliance
   url: security/impact-radius-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -741,6 +798,40 @@ rate_limits:
 - limit_count: 4
   name: Impact Radius Rate Limits
   slug: impact-radius-rate-limits
+score:
+  band: exemplar
+  composite: 68.4
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 4.5
+    contract_quality: 64.2
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 92.1
+  previous_composite: 68.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:
 - kind: authentication

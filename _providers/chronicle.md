@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API to list templates, create presentations from templates, generate presentations from a prompt (asynchronous, poll-to-complete), upload reference files to ground generation, fe
@@ -17,10 +42,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/security/chronicle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/chronicle-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/security/chronicle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chronicle-domain-security.yml
@@ -85,62 +112,77 @@ common:
   type: Compliance
   url: https://security.chroniclehq.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/mcp/chronicle-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chronicle-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/llms/chronicle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chronicle-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/well-known/chronicle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chronicle-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/well-known/chronicle-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chronicle-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/authentication/chronicle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chronicle-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/errors/chronicle-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/chronicle-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/rate-limits/chronicle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chronicle-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/conventions/chronicle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chronicle-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/lifecycle/chronicle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chronicle-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/changelog/chronicle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chronicle-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/conformance/chronicle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chronicle-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/data-model/chronicle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chronicle-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/security/chronicle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chronicle-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/well-known/chronicle-security.txt
   title: ''
   type: Security
   url: well-known/chronicle-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -165,6 +207,36 @@ rate_limits:
 - limit_count: 1
   name: Chronicle Rate Limits
   slug: chronicle-rate-limits
+score:
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 38.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/screenshots/chronicle-2026-07-25T205309.png
 security:
 - kind: authentication

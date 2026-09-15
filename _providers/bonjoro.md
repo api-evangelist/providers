@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://www.bonjoro.com/api/v2
@@ -235,10 +260,12 @@ collections:
   slug: open-bonjoro-api-v2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/capabilities/bonjoro-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bonjoro-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/overlays/bonjoro-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bonjoro-api-v2-overlay.yaml
@@ -287,54 +314,67 @@ common:
   type: PrivacyPolicy
   url: https://www.bonjoro.com/privacy-policy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/plans/bonjoro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bonjoro-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/rate-limits/bonjoro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bonjoro-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/authentication/bonjoro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bonjoro-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/conventions/bonjoro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bonjoro-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/errors/bonjoro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bonjoro-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/lifecycle/bonjoro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bonjoro-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/data-model/bonjoro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bonjoro-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/conformance/bonjoro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bonjoro-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/packages/bonjoro-packages.yml
   title: ''
   type: Packages
   url: packages/bonjoro-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/asyncapi/bonjoro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bonjoro-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/llms/bonjoro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bonjoro-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/security/bonjoro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bonjoro-domain-security.yml
@@ -362,6 +402,47 @@ rate_limits:
 - limit_count: 1
   name: Bonjoro Rate Limits
   slug: bonjoro-rate-limits
+score:
+  band: developing
+  composite: 47.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 54.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 56.5
+    developer_ergonomics: 37.5
+    discoverability: 70.4
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 47.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png
 security:
 - kind: authentication

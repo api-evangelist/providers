@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -107,74 +132,92 @@ collections:
   slug: open-ava-protocol-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/overlays/ava-protocol-avs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ava-protocol-avs-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/agentic-access/ava-protocol-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ava-protocol-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/authentication/ava-protocol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ava-protocol-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/security/ava-protocol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ava-protocol-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/packages/ava-protocol-packages.yml
   title: ''
   type: Packages
   url: packages/ava-protocol-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/packages/ava-protocol-packages.yml
   title: ''
   type: SDKs
   url: packages/ava-protocol-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/mcp/ava-protocol-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ava-protocol-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/llms/ava-protocol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ava-protocol-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/grpc/ava-protocol-avs.proto
   title: ''
   type: Protobuf
   url: grpc/ava-protocol-avs.proto
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/errors/ava-protocol-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ava-protocol-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/conventions/ava-protocol-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ava-protocol-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/conventions/ava-protocol-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ava-protocol-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/conformance/ava-protocol-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ava-protocol-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/lifecycle/ava-protocol-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ava-protocol-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/data-model/ava-protocol-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ava-protocol-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/sandbox/ava-protocol-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ava-protocol-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/cli/ava-protocol-cli.yml
   title: ''
   type: CLI
   url: cli/ava-protocol-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -247,6 +290,47 @@ overview: 'Ava Protocol publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
   Ava Protocol''s developer surface includes authentication, sandbox, CLI, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 45.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 46.7
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 45.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:
 - kind: authentication

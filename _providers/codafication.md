@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Unity Cloud (Unity Platform) developer surface, documented publicly at docs.unitycloud.io as the Unity Platform SDK reference. A single GraphQL endpoint collates the schemas of every installed ext
@@ -75,42 +100,52 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/codafication/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/asyncapi/codafication-unity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/codafication-unity-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/authentication/codafication-authentication.yml
   title: ''
   type: Authentication
   url: authentication/codafication-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/conventions/codafication-conventions.yml
   title: ''
   type: Conventions
   url: conventions/codafication-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/data-model/codafication-data-model.yml
   title: ''
   type: DataModel
   url: data-model/codafication-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/packages/codafication-packages.yml
   title: ''
   type: Packages
   url: packages/codafication-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/packages/codafication-packages.yml
   title: ''
   type: SDKs
   url: packages/codafication-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/cli/codafication-cli.yml
   title: ''
   type: CLI
   url: cli/codafication-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/components/codafication-components.yml
   title: ''
   type: Components
   url: components/codafication-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/sandbox/codafication-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/codafication-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/conformance/codafication-conformance.yml
   title: ''
   type: Conformance
   url: conformance/codafication-conformance.yml
@@ -119,14 +154,17 @@ common:
   type: Compliance
   url: https://blog.codafication.com/codafication-secures-soc-2-type-ii-certification
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/lifecycle/codafication-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/codafication-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/llms/codafication-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/codafication-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/security/codafication-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/codafication-domain-security.yml
@@ -148,6 +186,47 @@ overview: 'Codafication publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
   Codafication''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 20 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 35.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 63.1
+    discoverability: 66.7
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 35.7
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 33.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png
 security:
 - kind: authentication

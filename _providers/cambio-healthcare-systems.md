@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.3
+  scored_at: '2026-09-14'
 api_count: 19
 apis:
 - baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
@@ -102,10 +128,12 @@ apis:
 artifact_total: 25
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/security/cambio-healthcare-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cambio-healthcare-systems-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/authentication/cambio-healthcare-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cambio-healthcare-systems-authentication.yml
@@ -166,10 +194,12 @@ common:
   type: ChangeLog
   url: https://developer.openservices.cambio.se/api-changelog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/scopes/cambio-healthcare-systems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cambio-healthcare-systems-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/well-known/cambio-healthcare-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cambio-healthcare-systems-well-known.yml
@@ -178,66 +208,82 @@ common:
   type: OpenIDConnect
   url: https://api.openservices.cambio.se/auth/realms/COS/.well-known/openid-configuration
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/errors/cambio-healthcare-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cambio-healthcare-systems-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/lifecycle/cambio-healthcare-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cambio-healthcare-systems-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/lifecycle/cambio-healthcare-systems-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cambio-healthcare-systems-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/conventions/cambio-healthcare-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cambio-healthcare-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/conformance/cambio-healthcare-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cambio-healthcare-systems-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/packages/cambio-healthcare-systems-packages.yml
   title: ''
   type: Packages
   url: packages/cambio-healthcare-systems-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/mcp/cambio-healthcare-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cambio-healthcare-systems-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/llms/cambio-healthcare-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cambio-healthcare-systems-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/data-model/cambio-healthcare-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cambio-healthcare-systems-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/examples/cambio-healthcare-systems-examples.yml
   title: ''
   type: Examples
   url: examples/cambio-healthcare-systems-examples.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/plans/cambio-healthcare-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cambio-healthcare-systems-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/rate-limits/cambio-healthcare-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cambio-healthcare-systems-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/sandbox/cambio-healthcare-systems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cambio-healthcare-systems-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/changelog/cambio-healthcare-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cambio-healthcare-systems-changelog.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/fhir/cambio-healthcare-systems-fhir.yml
   title: ''
   type: CapabilityStatement
   url: fhir/cambio-healthcare-systems-fhir.yml
@@ -271,6 +317,54 @@ scopes:
   scope_count: 0
   slug: cambio-healthcare-systems-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 59.1
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 54.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 67.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Cambio Healthcare Systems Authentication

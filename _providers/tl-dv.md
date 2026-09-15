@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,18 +87,22 @@ collections:
   slug: open-tl-dv-transcripts-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/agentic-access/tl-dv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tl-dv-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/skills/tl-dv-import-and-retrieve.md
   title: ''
   type: AgentSkill
   url: skills/tl-dv-import-and-retrieve.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/mcp/tl-dv-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tl-dv-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/overlays/tl-dv-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tl-dv-overlay.yaml
@@ -137,38 +167,47 @@ common:
   type: Compliance
   url: https://tldv.io/features/security-commitment/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/llms/tl-dv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tl-dv-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/security/tl-dv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tl-dv-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/well-known/tl-dv-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tl-dv-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/mcp/tl-dv-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tl-dv-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/scopes/tl-dv-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tl-dv-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/packages/tl-dv-packages.yml
   title: ''
   type: Packages
   url: packages/tl-dv-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/plans/tl-dv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tl-dv-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/rate-limits/tl-dv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tl-dv-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/skills/tl-dv-pull-meeting-intelligence.md
   title: ''
   type: AgentSkill
   url: skills/tl-dv-pull-meeting-intelligence.md
@@ -213,6 +252,41 @@ scopes:
   scope_count: 1
   slug: tl-dv-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 45.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 21.6
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 45.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/screenshots/tl-dv-2026-08-17T082359.png
 security:
 - kind: authentication

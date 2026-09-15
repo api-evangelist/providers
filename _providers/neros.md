@@ -10,6 +10,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: APEX is Neros Technologies' open, MIT-licensed plug-and-play protocol for connecting drone platforms (hosts) and payloads (devices) over a standard 10-pin connector. The core protocol is class-agnosti
@@ -46,50 +71,62 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/neros_stock/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/packages/neros-packages.yml
   title: ''
   type: Packages
   url: packages/neros-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/packages/neros-packages.yml
   title: ''
   type: SDKs
   url: packages/neros-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/conventions/neros-conventions.yml
   title: ''
   type: Conventions
   url: conventions/neros-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/errors/neros-apex-status-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/neros-apex-status-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/lifecycle/neros-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/neros-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/changelog/neros-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/neros-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/data-model/neros-data-model.yml
   title: ''
   type: DataModel
   url: data-model/neros-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/conformance/neros-conformance.yml
   title: ''
   type: Conformance
   url: conformance/neros-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/conformance/neros-conformance.yml
   title: ''
   type: Compliance
   url: conformance/neros-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/sandbox/neros-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/neros-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/llms/neros-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/neros-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/security/neros-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neros-domain-security.yml
@@ -106,6 +143,39 @@ overview: 'Neros publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Neros'' developer surface includes engineering blog, support, changelog, sandbox, and 15 more developer resources.'
 random_paper: 5
+score:
+  band: emerging
+  composite: 19.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 21.4
+    discoverability: 66.7
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 19.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/screenshots/neros-2026-08-07T184905.png
 security:
 - kind: domain-security

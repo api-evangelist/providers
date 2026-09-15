@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.dispatch.me
@@ -110,6 +135,7 @@ collections:
   slug: open-dispatch-work-orders-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/overlays/dispatch-files-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dispatch-files-v1-overlay.yaml
@@ -158,62 +184,77 @@ common:
   type: StatusPage
   url: https://status.dispatch.me
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/authentication/dispatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dispatch-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/conventions/dispatch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dispatch-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/errors/dispatch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dispatch-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/lifecycle/dispatch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dispatch-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/sandbox/dispatch-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dispatch-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/data-model/dispatch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dispatch-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/conformance/dispatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dispatch-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/asyncapi/dispatch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dispatch-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/well-known/dispatch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dispatch-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/packages/dispatch-packages.yml
   title: ''
   type: Packages
   url: packages/dispatch-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/packages/dispatch-packages.yml
   title: ''
   type: SDKs
   url: packages/dispatch-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/mcp/dispatch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dispatch-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/llms/dispatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dispatch-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/security/dispatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dispatch-domain-security.yml
@@ -233,6 +274,40 @@ overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
   Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 37.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 23.5
+    developer_ergonomics: 63.7
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 37.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png
 security:
 - kind: authentication

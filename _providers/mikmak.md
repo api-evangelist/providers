@@ -10,6 +10,31 @@ access_model:
   - https://docs.mikmak.ai/reference/mikmak-headless-commerce-api
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: MikMak Aura provides real-time intelligence, fueled by AI, to connect marketing spend across channels to actual sales performance at retailers.
@@ -138,10 +163,12 @@ common:
   type: ChangeLog
   url: https://www.mikmak.com/product-updates
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/changelog/mikmak-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mikmak-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/llms/mikmak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mikmak-llms.txt
@@ -150,62 +177,77 @@ common:
   type: LLMsTxt
   url: https://docs.mikmak.ai/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/mcp/mikmak-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mikmak-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/authentication/mikmak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mikmak-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/scopes/mikmak-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mikmak-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/conventions/mikmak-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mikmak-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/lifecycle/mikmak-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mikmak-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/conformance/mikmak-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mikmak-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/security/mikmak-trust-center.yml
   title: ''
   type: Compliance
   url: security/mikmak-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/security/mikmak-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mikmak-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/security/mikmak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mikmak-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/errors/mikmak-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mikmak-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/data-model/mikmak-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mikmak-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/components/mikmak-components.yml
   title: ''
   type: Components
   url: components/mikmak-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/packages/mikmak-packages.yml
   title: ''
   type: Packages
   url: packages/mikmak-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/rate-limits/mikmak-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mikmak-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -226,22 +268,27 @@ common:
   type: Subprocessors
   url: https://www.mikmak.com/legal/subprocessors
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/mcp/mikmak-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mikmak-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/overlays/mikmak-commerce-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mikmak-commerce-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/overlays/mikmak-insights-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mikmak-insights-api-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-commerce-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/mikmak-commerce-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-insights-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/mikmak-insights-api-openapi.yml
@@ -282,6 +329,40 @@ scopes:
   scope_count: 0
   slug: mikmak-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 45.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 4.5
+    contract_quality: 54.5
+    developer_ergonomics: 41.1
+    discoverability: 72.2
+    operational_transparency: 50.0
+  previous_composite: 45.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:
 - kind: authentication

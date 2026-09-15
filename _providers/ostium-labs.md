@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://builder.ostium.io
@@ -83,58 +108,72 @@ common:
   type: ChangeLog
   url: https://docs.ostium.com/developer/sdk/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/llms/ostium-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ostium-labs-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/packages/ostium-labs-packages.yml
   title: ''
   type: Packages
   url: packages/ostium-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/packages/ostium-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/ostium-labs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/well-known/ostium-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ostium-labs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/authentication/ostium-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ostium-labs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/conventions/ostium-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ostium-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/errors/ostium-labs-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ostium-labs-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/lifecycle/ostium-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ostium-labs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/changelog/ostium-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ostium-labs-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/sandbox/ostium-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ostium-labs-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/data-model/ostium-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ostium-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/conformance/ostium-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ostium-labs-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/security/ostium-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ostium-labs-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/security/ostium-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ostium-labs-vulnerability-disclosure.yml
@@ -143,18 +182,22 @@ common:
   type: Security
   url: https://immunefi.com/bug-bounty/ostium/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/security/ostium-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ostium-labs-trust-center.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/asyncapi/ostium-labs-prices-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/ostium-labs-prices-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/mcp/ostium-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ostium-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -174,6 +217,42 @@ overview: 'Ostium Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
   Ostium Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 27 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 41.7
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 28.9
+  previous_composite: 51.2
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/screenshots/ostium-labs-2026-08-07T191021.png
 security:
 - kind: authentication

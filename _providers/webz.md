@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Token-authenticated REST endpoints under https://api.webz.io covering seven products: News, Blogs and Forums (/api/news, /api/blogs, /api/forums plus /seg_api/* segmentation), Reviews (/reviewFilter, '
@@ -28,50 +53,62 @@ common:
   type: Website
   url: https://www.webz.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/security/webz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webz-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/well-known/webz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/webz-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/mcp/webz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/webz-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/llms/webz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webz-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/packages/webz-packages.yml
   title: ''
   type: Packages
   url: packages/webz-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/packages/webz-packages.yml
   title: ''
   type: SDKs
   url: packages/webz-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/conformance/webz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webz-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/conformance/webz-conformance.yml
   title: ''
   type: Compliance
   url: conformance/webz-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/errors/webz-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/webz-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/lifecycle/webz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webz-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/lifecycle/webz-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/webz-lifecycle.yml
@@ -80,30 +117,37 @@ common:
   type: StatusPage
   url: https://status.webz.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/scopes/webz-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/webz-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/authentication/webz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webz-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/security/webz-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/webz-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/conventions/webz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webz-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/data-model/webz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/webz-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/plans/webz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/webz-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/rate-limits/webz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/webz-rate-limits.yml
@@ -188,6 +232,36 @@ scopes:
   scope_count: 0
   slug: webz-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 50.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 50.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/screenshots/webz-2026-09-02T170544.png
 security:
 - kind: authentication

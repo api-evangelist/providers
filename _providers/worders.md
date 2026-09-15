@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -106,50 +131,62 @@ common:
   type: Twitter
   url: https://twitter.com/WordersNET
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/authentication/worders-authentication.yml
   title: ''
   type: Authentication
   url: authentication/worders-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/security/worders-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/worders-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/agentic-access/worders-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/worders-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/errors/worders-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/worders-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/conventions/worders-conventions.yml
   title: ''
   type: Conventions
   url: conventions/worders-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/lifecycle/worders-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/worders-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/conformance/worders-conformance.yml
   title: ''
   type: Conformance
   url: conformance/worders-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/mcp/worders-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/worders-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/llms/worders-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/worders-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/overlays/worders-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/worders-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/data-model/worders-data-model.yml
   title: ''
   type: DataModel
   url: data-model/worders-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,6 +203,41 @@ overview: 'Worders publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
   Worders'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 33.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 4.5
+    contract_quality: 49.1
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 33.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 66.7
 screenshot: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/screenshots/worders-2026-09-02T170926.png
 security:
 - kind: authentication

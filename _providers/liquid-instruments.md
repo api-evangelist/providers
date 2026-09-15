@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Moku Scripting API is a RESTful HTTP interface served by the Moku device itself. A client first POSTs an empty JSON object to moku/claim_ownership to mint a Moku-Client-Key, then POSTs JSON parame
@@ -22,6 +47,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/security/liquid-instruments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liquid-instruments-domain-security.yml
@@ -102,54 +128,67 @@ common:
   type: ChangeLog
   url: https://apis.liquidinstruments.com/api/changelog/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/changelog/liquid-instruments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/liquid-instruments-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/packages/liquid-instruments-packages.yml
   title: ''
   type: Packages
   url: packages/liquid-instruments-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/packages/liquid-instruments-packages.yml
   title: ''
   type: SDKs
   url: packages/liquid-instruments-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/cli/liquid-instruments-cli.yml
   title: ''
   type: CLI
   url: cli/liquid-instruments-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/authentication/liquid-instruments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liquid-instruments-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/scopes/liquid-instruments-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/liquid-instruments-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/well-known/liquid-instruments-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liquid-instruments-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/conformance/liquid-instruments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liquid-instruments-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/errors/liquid-instruments-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/liquid-instruments-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/lifecycle/liquid-instruments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liquid-instruments-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/conventions/liquid-instruments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liquid-instruments-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/data-model/liquid-instruments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/liquid-instruments-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/llms/liquid-instruments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liquid-instruments-llms.txt
@@ -171,6 +210,39 @@ scopes:
   scope_count: 5
   slug: liquid-instruments-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials/deviceCode/implicit/password
+score:
+  band: thin
+  composite: 34.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 6.7
+    developer_ergonomics: 71.4
+    discoverability: 68.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 34.7
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-instruments/refs/heads/main/screenshots/liquid-instruments-2026-08-07T171731.png
 security:
 - kind: authentication

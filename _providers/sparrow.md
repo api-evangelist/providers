@@ -12,10 +12,36 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/security/sparrow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sparrow-domain-security.yml
@@ -64,46 +90,57 @@ common:
   type: StatusPage
   url: https://status.trysparrow.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/lifecycle/sparrow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sparrow-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/security/sparrow-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/sparrow-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/security/sparrow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sparrow-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/security/sparrow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sparrow-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/security/sparrow-trust-center.yml
   title: ''
   type: Compliance
   url: security/sparrow-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/conformance/sparrow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sparrow-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/llms/sparrow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sparrow-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/well-known/sparrow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sparrow-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/authentication/sparrow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sparrow-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/scopes/sparrow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sparrow-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/conventions/sparrow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sparrow-conventions.yml
@@ -147,6 +184,34 @@ scopes:
   scope_count: 0
   slug: sparrow-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 22.5
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 50.0
+    operational_transparency: 28.9
+  previous_composite: 22.5
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparrow/refs/heads/main/screenshots/sparrow-2026-09-02T160337.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: GraphQL API for fetching feedback entries and group taxonomy, batch-importing feedback, and building classification groups. Authenticated with a personal API key sent as an HTTP Bearer token, scoped t
@@ -17,10 +42,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/security/unwrap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unwrap-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/security/unwrap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unwrap-domain-security.yml
@@ -77,38 +104,47 @@ common:
   type: ChangeLog
   url: https://docs.unwrap.ai/collections/1750160942-unwrap_changelog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/authentication/unwrap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unwrap-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/scopes/unwrap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/unwrap-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/conventions/unwrap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unwrap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/conventions/unwrap-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/unwrap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/errors/unwrap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unwrap-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/rate-limits/unwrap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unwrap-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/lifecycle/unwrap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unwrap-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/data-model/unwrap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unwrap-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/conformance/unwrap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unwrap-conformance.yml
@@ -117,26 +153,32 @@ common:
   type: Compliance
   url: https://www.unwrap.ai/why-unwrap
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/well-known/unwrap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unwrap-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/mcp/unwrap-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/unwrap-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/llms/unwrap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unwrap-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/packages/unwrap-packages.yml
   title: ''
   type: Packages
   url: packages/unwrap-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/packages/unwrap-packages.yml
   title: ''
   type: SDKs
   url: packages/unwrap-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,6 +208,36 @@ scopes:
   scope_count: 5
   slug: unwrap-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
+score:
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 38.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/screenshots/unwrap-2026-08-17T082635.png
 security:
 - kind: authentication

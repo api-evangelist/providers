@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Open-beta public REST API for programmatic access to a user's Read AI meeting data. Three documented meeting endpoints — list meetings with cursor pagination and epoch-millisecond time filters, retrie
@@ -28,6 +54,7 @@ asyncapis:
   slug: read-ai-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/security/read-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/read-ai-domain-security.yml
@@ -80,6 +107,7 @@ common:
   type: PrivacyPolicy
   url: https://www.read.ai/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/security/read-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/read-ai-trust-center.yml
@@ -92,66 +120,82 @@ common:
   type: StatusPage
   url: https://status.read.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/llms/read-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/read-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/well-known/read-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/read-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/mcp/read-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/read-ai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/mcp/read-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/read-ai-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/authentication/read-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/read-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/scopes/read-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/read-ai-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/conventions/read-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/read-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/errors/read-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/read-ai-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/rate-limits/read-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/read-ai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/lifecycle/read-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/read-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/conformance/read-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/read-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/data-model/read-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/read-ai-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/packages/read-ai-packages.yml
   title: ''
   type: Packages
   url: packages/read-ai-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/asyncapi/read-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/read-ai-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/plans/read-ai-plans.yml
   title: ''
   type: Plans
   url: plans/read-ai-plans.yml
@@ -188,6 +232,36 @@ scopes:
   scope_count: 7
   slug: read-ai-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: strong
+  composite: 55.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 55.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/read-ai/refs/heads/main/screenshots/read-ai-2026-08-17T081449.png
 security:
 - kind: authentication

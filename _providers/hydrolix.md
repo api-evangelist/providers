@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Configure and manage a Hydrolix cluster — orgs, projects, tables, transforms, functions, jobs, and service accounts.
@@ -48,46 +73,57 @@ common:
   type: SignUp
   url: https://hydrolix.io/aws-marketplace
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/packages/hydrolix-packages.yml
   title: ''
   type: Packages
   url: packages/hydrolix-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/packages/hydrolix-packages.yml
   title: ''
   type: SDKs
   url: packages/hydrolix-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/cli/hydrolix-cli.yml
   title: ''
   type: CLI
   url: cli/hydrolix-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/mcp/hydrolix-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hydrolix-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/authentication/hydrolix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hydrolix-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/lifecycle/hydrolix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hydrolix-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/conformance/hydrolix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hydrolix-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/conventions/hydrolix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hydrolix-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/llms/hydrolix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hydrolix-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/security/hydrolix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hydrolix-domain-security.yml
@@ -108,6 +144,36 @@ overview: 'Hydrolix publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
   Hydrolix''s developer surface includes documentation, API reference, signup flow, CLI, authentication, and 12 more developer resources.'
 random_paper: 1
+score:
+  band: emerging
+  composite: 20.1
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 81.5
+    operational_transparency: 10.5
+  previous_composite: 20.1
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/screenshots/hydrolix-2026-07-25T221832.png
 security:
 - kind: authentication

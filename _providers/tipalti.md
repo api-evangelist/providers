@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'Modern RESTful API for payee onboarding, payment processing, invoice management, and procurement workflows. Uses JSON encoding, OAuth 2.0 authentication, and supports operations across 200+ countries '
@@ -35,6 +60,7 @@ common:
   type: OpenIDConnect
   url: https://tipalti.com/.well-known/oauth-authorization-server
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/security/tipalti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tipalti-domain-security.yml
@@ -67,22 +93,27 @@ common:
   type: Pricing
   url: https://tipalti.com/pricing/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/plans/tipalti-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tipalti-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/rate-limits/tipalti-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tipalti-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/finops/tipalti-finops.yml
   title: ''
   type: FinOps
   url: finops/tipalti-finops.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/json-ld/tipalti-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/tipalti-context.jsonld
@@ -123,6 +154,38 @@ rate_limits:
 - limit_count: 4
   name: Tipalti Rate Limits
   slug: tipalti-rate-limits
+score:
+  band: developing
+  composite: 40.3
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 78.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 37.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 0.0
+    contract_quality: 48.9
+    developer_ergonomics: 16.7
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 40.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/screenshots/tipalti-2026-06-20T195413.png
 security:
 - kind: domain-security

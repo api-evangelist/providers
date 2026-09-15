@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -81,18 +106,22 @@ collections:
   slug: open-cms-energy
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/agentic-access/cms-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cms-energy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/security/cms-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cms-energy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/authentication/cms-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cms-energy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/scopes/cms-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cms-energy-scopes.yml
@@ -129,78 +158,97 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/cms-energy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/well-known/cms-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cms-energy-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/well-known/cms-energy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cms-energy-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/security/cms-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cms-energy-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/security/cms-energy-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cms-energy-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/conformance/cms-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cms-energy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/conformance/cms-energy-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cms-energy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/errors/cms-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cms-energy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/lifecycle/cms-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cms-energy-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/conventions/cms-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cms-energy-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/sandbox/cms-energy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cms-energy-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/data-model/cms-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cms-energy-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/packages/cms-energy-packages.yml
   title: ''
   type: Packages
   url: packages/cms-energy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/mcp/cms-energy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cms-energy-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/asyncapi/cms-energy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cms-energy-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/llms/cms-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cms-energy-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/rate-limits/cms-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cms-energy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/plans/cms-energy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cms-energy-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/finops/cms-energy-finops.yml
   title: ''
   type: FinOps
   url: finops/cms-energy-finops.yml
@@ -285,6 +333,48 @@ scopes:
   scope_count: 10
   slug: cms-energy-scopes
   summary_line: 10 scopes
+score:
+  band: strong
+  composite: 62.2
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 64.5
+    contract_governance: 0.0
+    contract_quality: 51.7
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 16.7
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 89.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png
 security:
 - kind: authentication

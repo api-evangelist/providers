@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -86,38 +111,47 @@ collections:
   slug: open-ordo-smart-request-manager
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/capabilities/ordo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ordo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/overlays/ordo-single-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordo-single-payments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/overlays/ordo-smart-request-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordo-smart-request-manager-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/overlays/ordo-recurring-payment-mandates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordo-recurring-payment-mandates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/overlays/ordo-account-data-client-hosted-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordo-account-data-client-hosted-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/overlays/ordo-registry-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordo-registry-manager-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/security/ordo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ordo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/agentic-access/ordo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ordo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/authentication/ordo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ordo-authentication.yml
@@ -158,34 +192,42 @@ common:
   type: Support
   url: https://ordopay.com/contact
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/conventions/ordo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ordo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/errors/ordo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ordo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/conformance/ordo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ordo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/lifecycle/ordo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ordo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/data-model/ordo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ordo-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/mcp/ordo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ordo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/llms/ordo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ordo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -203,6 +245,61 @@ overview: 'Ordo publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
   Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 22 more developer resources.'
 random_paper: 16
+score:
+  band: thin
+  composite: 34.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 56.4
+    developer_ergonomics: 35.1
+    discoverability: 81.5
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 34.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    - jurisdiction: UK
+      standard: uk-open-banking
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 50.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png
 security:
 - kind: authentication

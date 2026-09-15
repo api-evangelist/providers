@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://listenlabs.ai
@@ -27,10 +53,12 @@ collections:
   slug: open-listen-labs-public-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/overlays/listen-labs-study-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/listen-labs-study-data-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/security/listen-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/listen-labs-trust-center.yml
@@ -91,54 +119,67 @@ common:
   type: YouTube
   url: https://www.youtube.com/@ListenLabsAI
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/authentication/listen-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/listen-labs-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/mcp/listen-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/listen-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/llms/listen-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/listen-labs-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/well-known/listen-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/listen-labs-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/packages/listen-labs-packages.yml
   title: ''
   type: Packages
   url: packages/listen-labs-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/conventions/listen-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/listen-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/errors/listen-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/listen-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/lifecycle/listen-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/listen-labs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/lifecycle/listen-labs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/listen-labs-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/conformance/listen-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/listen-labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/data-model/listen-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/listen-labs-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/security/listen-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/listen-labs-domain-security.yml
@@ -159,6 +200,40 @@ overview: 'Listen Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
   Listen Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, YouTube channel, and 22 more developer resources.'
 random_paper: 5
+score:
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 53.6
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 49.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/screenshots/listen-labs-2026-07-25T225342.png
 security:
 - kind: authentication

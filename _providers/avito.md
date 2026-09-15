@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -433,22 +459,27 @@ collections:
   slug: open-avito-xdelivery-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/capabilities/avito-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/avito-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/security/avito-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avito-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/agentic-access/avito-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/avito-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/scopes/avito-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/avito-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/authentication/avito-authentication.yml
   title: ''
   type: Authentication
   url: authentication/avito-authentication.yml
@@ -505,158 +536,197 @@ common:
   type: Business
   url: https://www.avito.ru/business
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/rate-limits/avito-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/avito-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/errors/avito-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/avito-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/conventions/avito-conventions.yml
   title: ''
   type: Conventions
   url: conventions/avito-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/lifecycle/avito-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/avito-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/conformance/avito-conformance.yml
   title: ''
   type: Conformance
   url: conformance/avito-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/data-model/avito-data-model.yml
   title: ''
   type: DataModel
   url: data-model/avito-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/mcp/avito-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/avito-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/llms/avito-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avito-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/well-known/avito-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/avito-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/skills/avito-manage-listings.md
   title: ''
   type: AgentSkill
   url: skills/avito-manage-listings.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/skills/avito-respond-in-messenger.md
   title: ''
   type: AgentSkill
   url: skills/avito-respond-in-messenger.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/skills/avito-autoload-feed.md
   title: ''
   type: AgentSkill
   url: skills/avito-autoload-feed.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-accounts-hierarchy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-accounts-hierarchy-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-ads-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-ads-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-auction-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-auction-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-auth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-autoload-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-autoload-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-autostrategy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-autostrategy-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-autoteka-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-autoteka-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-calltracking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-calltracking-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-cpa-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-cpa-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-cpxpromo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-cpxpromo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-delivery-sandbox-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-delivery-sandbox-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-item-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-item-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-job-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-job-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-messenger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-messenger-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-order-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-order-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-promo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-promo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-promotion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-promotion-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-ratings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-ratings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-realty-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-realty-reports-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-sbc-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-sbc-gateway-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-stock-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-stock-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-str-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-str-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-tariff-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-tariff-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-trxpromo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-trxpromo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/overlays/avito-user-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avito-user-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/openapi/_original/avito-messenger-openapi.json
   title: ''
   type: Webhooks
   url: openapi/_original/avito-messenger-openapi.json
@@ -682,6 +752,49 @@ scopes:
   scope_count: 26
   slug: avito-scopes
   summary_line: 26 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 48.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 54.3
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - russia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - cee
+    - europe
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    conformance: unknown
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 51
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:
 - kind: authentication

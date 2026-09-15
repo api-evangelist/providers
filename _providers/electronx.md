@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The ElectronX FIX API provides programmatic access to the exchange through three session types: Order Entry (submit, modify, cancel orders and receive execution reports), Market Data (real-time prices'
@@ -17,6 +42,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/security/electronx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/electronx-domain-security.yml
@@ -61,26 +87,32 @@ common:
   type: Compliance
   url: https://www.electronx.com/regulatory
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/llms/electronx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/electronx-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/authentication/electronx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/electronx-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/conventions/electronx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/electronx-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/conformance/electronx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/electronx-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/lifecycle/electronx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/electronx-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/changelog/electronx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/electronx-changelog.yml
@@ -97,6 +129,40 @@ overview: 'Electronx publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   Electronx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 10 more developer resources.'
 random_paper: 14
+score:
+  band: thin
+  composite: 31.3
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 66.7
+    operational_transparency: 15.8
+  previous_composite: 31.3
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 40.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/screenshots/electronx-2026-07-25T213109.png
 security:
 - kind: authentication

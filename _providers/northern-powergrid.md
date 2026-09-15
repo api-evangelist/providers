@@ -10,6 +10,31 @@ access_model:
   - portal
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,46 +67,57 @@ collections:
   slug: open-northern-powergrid-open-data-explore-api-v2-1
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/overlays/northern-powergrid-open-data-explore-api-v2-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northern-powergrid-open-data-explore-api-v2-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/overlays/northern-powergrid-open-data-explore-api-v2-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/northern-powergrid-open-data-explore-api-v2-0-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/agentic-access/northern-powergrid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/northern-powergrid-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/security/northern-powergrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/northern-powergrid-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/authentication/northern-powergrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/northern-powergrid-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/scopes/northern-powergrid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/northern-powergrid-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/conventions/northern-powergrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/northern-powergrid-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/conventions/northern-powergrid-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/northern-powergrid-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/errors/northern-powergrid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/northern-powergrid-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/rate-limits/northern-powergrid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/northern-powergrid-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/lifecycle/northern-powergrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/northern-powergrid-lifecycle.yml
@@ -90,62 +126,77 @@ common:
   type: Deprecation
   url: https://help.huwise.com/apis/ods-explore-v2/#section/Versioning
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/changelog/northern-powergrid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/northern-powergrid-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/conformance/northern-powergrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/northern-powergrid-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/data-model/northern-powergrid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/northern-powergrid-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/examples/northern-powergrid-examples.yml
   title: ''
   type: Examples
   url: examples/northern-powergrid-examples.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/sandbox/northern-powergrid-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/northern-powergrid-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/packages/northern-powergrid-packages.yml
   title: ''
   type: Packages
   url: packages/northern-powergrid-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/packages/northern-powergrid-packages.yml
   title: ''
   type: SDKs
   url: packages/northern-powergrid-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/components/northern-powergrid-components.yml
   title: ''
   type: Components
   url: components/northern-powergrid-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/mcp/northern-powergrid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/northern-powergrid-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/mcp/northern-powergrid-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/northern-powergrid-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/llms/northern-powergrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/northern-powergrid-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/well-known/northern-powergrid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/northern-powergrid-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/well-known/northern-powergrid-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/northern-powergrid-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/security/northern-powergrid-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/northern-powergrid-vulnerability-disclosure.yml
@@ -252,6 +303,56 @@ scopes:
   scope_count: 1
   slug: northern-powergrid-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 60.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 59.9
+    developer_ergonomics: 70.8
+    discoverability: 68.5
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 75.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/screenshots/northern-powergrid-2026-08-07T185523.png
 security:
 - kind: authentication

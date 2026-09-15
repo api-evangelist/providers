@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Kubit's hosted Model Context Protocol server. Exposes five tools — getUserContext, getSchema, createReport, getRawData, and searchKubit — that let an MCP-compatible IDE or assistant explore schemas, e
@@ -73,54 +98,67 @@ common:
   type: Support
   url: https://kubit.ai/about/#contact-block
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/mcp/kubit-ai-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kubit-ai-inc-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/packages/kubit-ai-inc-packages.yml
   title: ''
   type: Packages
   url: packages/kubit-ai-inc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/packages/kubit-ai-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/kubit-ai-inc-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/cli/kubit-ai-inc-cli.yml
   title: ''
   type: CLI
   url: cli/kubit-ai-inc-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/components/kubit-ai-inc-components.yml
   title: ''
   type: Components
   url: components/kubit-ai-inc-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/authentication/kubit-ai-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kubit-ai-inc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/scopes/kubit-ai-inc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kubit-ai-inc-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/well-known/kubit-ai-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kubit-ai-inc-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/llms/kubit-ai-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kubit-ai-inc-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/conventions/kubit-ai-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kubit-ai-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/data-model/kubit-ai-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kubit-ai-inc-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/conformance/kubit-ai-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kubit-ai-inc-conformance.yml
@@ -129,18 +167,22 @@ common:
   type: Compliance
   url: https://kubit.ai/gdpr-compliance-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/security/kubit-ai-inc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kubit-ai-inc-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/security/kubit-ai-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kubit-ai-inc-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/lifecycle/kubit-ai-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kubit-ai-inc-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/changelog/kubit-ai-inc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kubit-ai-inc-changelog.yml
@@ -166,6 +208,36 @@ scopes:
   scope_count: 0
   slug: kubit-ai-inc-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 34.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 56.0
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 34.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/screenshots/kubit-ai-inc-2026-07-25T224318.png
 security:
 - kind: authentication

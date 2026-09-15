@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -80,6 +105,7 @@ collections:
   slug: open-shopmy-profile-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/overlays/shopmy-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shopmy-partners-overlay.yaml
@@ -100,42 +126,52 @@ common:
   type: GettingStarted
   url: https://docs.shopmy.us/reference/getting-started-with-your-api
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/authentication/shopmy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopmy-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/scopes/shopmy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shopmy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/conventions/shopmy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopmy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/errors/shopmy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shopmy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/errors/shopmy-outcome-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/shopmy-outcome-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/conventions/shopmy-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shopmy-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/rate-limits/shopmy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shopmy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/plans/shopmy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shopmy-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/packages/shopmy-packages.yml
   title: ''
   type: Packages
   url: packages/shopmy-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/asyncapi/shopmy-tracking-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/shopmy-tracking-events.yml
@@ -144,38 +180,47 @@ common:
   type: Compliance
   url: https://docs.shopmy.us/reference/privacy-and-data-handling
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/lifecycle/shopmy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopmy-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/data-model/shopmy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shopmy-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/sandbox/shopmy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopmy-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/conformance/shopmy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopmy-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/mcp/shopmy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shopmy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/agentic-access/shopmy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shopmy-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/llms/shopmy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopmy-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/security/shopmy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopmy-domain-security.yml
@@ -232,6 +277,41 @@ scopes:
   scope_count: 5
   slug: shopmy-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: developing
+  composite: 40.7
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 25.0
+    contract_governance: 18.2
+    contract_quality: 64.4
+    developer_ergonomics: 38.7
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 40.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/screenshots/shopmy-2026-08-17T081840.png
 security:
 - kind: authentication

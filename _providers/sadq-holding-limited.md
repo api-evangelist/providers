@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 50.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -177,74 +203,92 @@ common:
   type: Support
   url: mailto:support@sadq.sa
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/openapi/_original/sadq-holding-limited-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/sadq-holding-limited-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/llms/sadq-holding-limited-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sadq-holding-limited-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/mcp/sadq-holding-limited-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sadq-holding-limited-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/well-known/sadq-holding-limited-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sadq-holding-limited-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/well-known/sadq-holding-limited-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/sadq-holding-limited-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/authentication/sadq-holding-limited-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sadq-holding-limited-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/scopes/sadq-holding-limited-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sadq-holding-limited-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/well-known/sadq-holding-limited-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/sadq-holding-limited-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/asyncapi/sadq-holding-limited-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sadq-holding-limited-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/errors/sadq-holding-limited-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sadq-holding-limited-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/lifecycle/sadq-holding-limited-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sadq-holding-limited-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/conventions/sadq-holding-limited-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sadq-holding-limited-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/conformance/sadq-holding-limited-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sadq-holding-limited-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/sandbox/sadq-holding-limited-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sadq-holding-limited-sandbox.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/overlays/sadq-holding-limited-openapi-original-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sadq-holding-limited-openapi-original-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/agentic-access/sadq-holding-limited-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sadq-holding-limited-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/security/sadq-holding-limited-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sadq-holding-limited-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -273,6 +317,48 @@ scopes:
   scope_count: 4
   slug: sadq-holding-limited-scopes
   summary_line: 4 scopes
+score:
+  band: thin
+  composite: 35.8
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 58.3
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - saudi-arabia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  previous_composite: 35.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/screenshots/sadq-holding-limited-2026-08-17T081705.png
 security:
 - kind: authentication

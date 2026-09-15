@@ -29,7 +29,6 @@ tags:
 - Series A
 - Gaming
 - Fintech
-- Consumer
 - Marketplaces
 - Commerce
 - Health

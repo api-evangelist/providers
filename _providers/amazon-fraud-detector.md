@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -114,26 +139,32 @@ collections:
   slug: open-amazon-fraud-detector
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/capabilities/amazon-fraud-detector-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-fraud-detector-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/agentic-access/amazon-fraud-detector-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-fraud-detector-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/security/amazon-fraud-detector-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-fraud-detector-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/security/amazon-fraud-detector-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-fraud-detector-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/security/amazon-fraud-detector-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-fraud-detector-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/authentication/amazon-fraud-detector-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-fraud-detector-authentication.yml
@@ -142,34 +173,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-fraud-detector/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-author-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-author-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-bootstrap-event-type-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-bootstrap-event-type-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-decommission-detector-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-decommission-detector-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-detector-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-detector-pipeline-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-inventory-models-detectors-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-inventory-models-detectors-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-provision-model-detector-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-provision-model-detector-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-score-event-and-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-score-event-and-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-tag-and-audit-resource-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-tag-and-audit-resource-workflow.yml
@@ -226,14 +265,17 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/amazon-fraud-detector
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/rules/amazon-fraud-detector-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-fraud-detector-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/vocabulary/amazon-fraud-detector-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-fraud-detector-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/json-ld/amazon-fraud-detector-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-fraud-detector-context.jsonld
@@ -355,6 +397,38 @@ rules:
     info: 3
     warn: 25
   slug: amazon-fraud-detector-spectral-rules
+score:
+  band: strong
+  composite: 55.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 71.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 75.9
+    developer_ergonomics: 53.6
+    discoverability: 59.3
+    operational_transparency: 26.3
+  previous_composite: 55.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/screenshots/amazon-fraud-detector-2026-06-20T171653.png
 security:
 - kind: authentication

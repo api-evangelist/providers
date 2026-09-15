@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Public GraphQL API for Fireflies.ai — query transcripts, users, channels, bites, analytics, and AskFred threads; upload audio; control the live-meeting bot; and subscribe to webhooks. Single endpoint,
@@ -25,6 +51,7 @@ common:
   type: Website
   url: https://www.fireflies.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/security/fireflies-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fireflies-ai-domain-security.yml
@@ -77,34 +104,42 @@ common:
   type: TrustCenter
   url: https://trust.fireflies.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/llms/fireflies-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fireflies-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/well-known/fireflies-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fireflies-ai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/mcp/fireflies-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fireflies-ai-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/authentication/fireflies-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fireflies-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/scopes/fireflies-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fireflies-ai-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/errors/fireflies-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/fireflies-ai-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/rate-limits/fireflies-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fireflies-ai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/lifecycle/fireflies-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fireflies-ai-lifecycle.yml
@@ -113,34 +148,42 @@ common:
   type: Deprecation
   url: https://docs.fireflies.ai/additional-info/deprecated
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/changelog/fireflies-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fireflies-ai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/conventions/fireflies-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fireflies-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/conformance/fireflies-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fireflies-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/asyncapi/fireflies-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fireflies-ai-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/data-model/fireflies-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fireflies-ai-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/packages/fireflies-ai-packages.yml
   title: ''
   type: Packages
   url: packages/fireflies-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/packages/fireflies-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/fireflies-ai-packages.yml
@@ -173,6 +216,36 @@ scopes:
   scope_count: 2
   slug: fireflies-ai-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 52.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/screenshots/fireflies-ai-2026-07-25T214552.png
 security:
 - kind: authentication

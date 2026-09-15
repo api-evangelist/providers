@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Kleio platform API, served from api.kleio.ai behind a Google Cloud API Gateway and protected by OAuth 2.0 authorization-code + PKCE against an Auth0 tenant at auth.kleio.ai. Kleio publishes no pub
@@ -57,46 +82,57 @@ common:
   type: Twitter
   url: https://x.com/kleio_ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/llms/kleio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kleio-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/well-known/kleio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kleio-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/authentication/kleio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kleio-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/scopes/kleio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kleio-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/conformance/kleio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kleio-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/security/kleio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kleio-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/lifecycle/kleio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kleio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/conventions/kleio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kleio-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/plans/kleio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kleio-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/rate-limits/kleio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kleio-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/packages/kleio-packages.yml
   title: ''
   type: Packages
   url: packages/kleio-packages.yml
@@ -145,6 +181,43 @@ scopes:
   scope_count: 14
   slug: kleio-scopes
   summary_line: 14 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 19.5
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 19.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kleio/refs/heads/main/screenshots/kleio-2026-09-02T150157.png
 security:
 - kind: authentication

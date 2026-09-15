@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 53.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 24
@@ -257,26 +283,32 @@ common:
   type: Website
   url: https://www.acquia.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/agentic-access/acquia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/acquia-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/security/acquia-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/acquia-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/security/acquia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/acquia-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/security/acquia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acquia-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/authentication/acquia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acquia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/scopes/acquia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/acquia-scopes.yml
@@ -333,90 +365,112 @@ common:
   type: Signup
   url: https://accounts.acquia.com/sign-up
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/packages/acquia-packages.yml
   title: ''
   type: Packages
   url: packages/acquia-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/packages/acquia-packages.yml
   title: ''
   type: SDKs
   url: packages/acquia-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/cli/acquia-cli.yml
   title: ''
   type: CLI
   url: cli/acquia-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/well-known/acquia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/acquia-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/well-known/acquia-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/acquia-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/security/acquia-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/acquia-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/security/acquia-trust-center.yml
   title: ''
   type: Compliance
   url: security/acquia-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/mcp/acquia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/acquia-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/mcp/acquia-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/acquia-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/llms/acquia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acquia-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/conformance/acquia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acquia-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/errors/acquia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/acquia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/lifecycle/acquia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acquia-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/lifecycle/acquia-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/acquia-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/conventions/acquia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acquia-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/changelog/acquia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/acquia-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/components/acquia-components.yml
   title: ''
   type: Components
   url: components/acquia-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/data-model/acquia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acquia-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/asyncapi/acquia-source-cms-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/acquia-source-cms-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/plans/acquia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acquia-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/rate-limits/acquia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acquia-rate-limits.yml
@@ -645,6 +699,41 @@ scopes:
   scope_count: 1
   slug: acquia-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: exemplar
+  composite: 75.8
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 70.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 72.5
+    developer_ergonomics: 73.8
+    discoverability: 72.2
+    operational_transparency: 65.8
+  previous_composite: 75.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 94.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/screenshots/acquia-2026-06-20T163944.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://culturebiz-xianxia-lock.onrender.com
@@ -13,18 +38,22 @@ common:
   type: Website
   url: https://culturebiz-xianxia-lock.onrender.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/security/chinese-narrative-chapter-lock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chinese-narrative-chapter-lock-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/llms/chinese-narrative-chapter-lock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chinese-narrative-chapter-lock-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/plans/chinese-narrative-chapter-lock-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chinese-narrative-chapter-lock-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/rate-limits/chinese-narrative-chapter-lock-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chinese-narrative-chapter-lock-rate-limits.yml
@@ -40,7 +69,7 @@ modified: '2026-09-05'
 name: Chinese Narrative Chapter Lock
 nav: Providers
 network: true
-overview: 'Chinese Narrative Chapter Lock publishes 1 API on the [APIs.io](https://apis.io/) network: cultureBiz chapter-lock. Tagged areas include localization, translation, NLP, terminology-management, and CAT.
+overview: 'Chinese Narrative Chapter Lock publishes 1 API on the [APIs.io](https://apis.io/) network: cultureBiz chapter-lock. Tagged areas include Localization, Translation, NLP, terminology-management, and Cat.
 
 
   Chinese Narrative Chapter Lock''s developer surface includes pricing and 5 more developer resources.'
@@ -53,6 +82,40 @@ rate_limits:
 - limit_count: 0
   name: Chinese Narrative Chapter Lock Rate Limits
   slug: chinese-narrative-chapter-lock-rate-limits
+score:
+  band: emerging
+  composite: 25.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 34.7
+    developer_ergonomics: 18.5
+    discoverability: 70.4
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 25.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Chinese Narrative Chapter Lock Authentication
@@ -64,15 +127,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: chinese-narrative-chapter-lock
 tags:
-- localization
-- translation
+- Localization
+- Translation
 - NLP
 - terminology-management
-- CAT
+- Cat
 - MT-preprocessing
 - chinese-language
-- webnovels
-- publishing
-- entertainment
+- Web Novels
+- Publishing
+- Entertainment
 website: https://culturebiz-xianxia-lock.onrender.com
 ---

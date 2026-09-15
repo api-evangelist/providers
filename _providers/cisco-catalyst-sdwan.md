@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 api_count: 13
 apis:
 - baseURL: https://{sdwan-manager-host}:8443/dataservice
@@ -1939,62 +1964,77 @@ common:
   type: License
   url: https://github.com/CiscoDevNet/sastre/blob/master/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/capabilities/cisco-catalyst-sdwan-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-catalyst-sdwan-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-administration-and-settings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-administration-and-settings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-ux-1-0-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-ux-1-0-configuration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-ux-2-0-configuration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-ux-2-0-configuration-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-feature-profiles-sd-wan-system-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-feature-profiles-sd-wan-system-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-feature-profiles-sd-wan-transport-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-feature-profiles-sd-wan-transport-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-feature-profiles-sd-wan-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-feature-profiles-sd-wan-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-feature-profiles-others-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-feature-profiles-others-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-feature-profiles-sd-routing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-feature-profiles-sd-routing-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-feature-profiles-mobility-and-nfv-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-feature-profiles-mobility-and-nfv-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-monitoring-and-troubleshooting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-monitoring-and-troubleshooting-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-sd-wan-services-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-sd-wan-services-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-partner-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-partner-integrations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/overlays/cisco-catalyst-sdwan-others-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cisco-catalyst-sdwan-others-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/security/cisco-catalyst-sdwan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-catalyst-sdwan-domain-security.yml
@@ -2067,22 +2107,27 @@ common:
   type: Training
   url: https://developer.cisco.com/learning/tracks/sd-wan_programmability/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/authentication/cisco-catalyst-sdwan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-catalyst-sdwan-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/conventions/cisco-catalyst-sdwan-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cisco-catalyst-sdwan-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/rate-limits/cisco-catalyst-sdwan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-catalyst-sdwan-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/plans/cisco-catalyst-sdwan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-catalyst-sdwan-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/lifecycle/cisco-catalyst-sdwan-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cisco-catalyst-sdwan-lifecycle.yml
@@ -2091,34 +2136,42 @@ common:
   type: Deprecation
   url: https://developer.cisco.com/docs/sdwan/versioning-and-deprecation/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/changelog/cisco-catalyst-sdwan-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cisco-catalyst-sdwan-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/errors/cisco-catalyst-sdwan-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cisco-catalyst-sdwan-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/conformance/cisco-catalyst-sdwan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cisco-catalyst-sdwan-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/data-model/cisco-catalyst-sdwan-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cisco-catalyst-sdwan-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/packages/cisco-catalyst-sdwan-packages.yml
   title: ''
   type: Packages
   url: packages/cisco-catalyst-sdwan-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/packages/cisco-catalyst-sdwan-packages.yml
   title: ''
   type: SDKs
   url: packages/cisco-catalyst-sdwan-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/cli/cisco-catalyst-sdwan-cli.yml
   title: ''
   type: CLI
   url: cli/cisco-catalyst-sdwan-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/sandbox/cisco-catalyst-sdwan-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cisco-catalyst-sdwan-sandbox.yml
@@ -2127,22 +2180,27 @@ common:
   type: Sandbox
   url: https://devnetsandbox.cisco.com/RM/Diagram/Index/ed2c839d-621e-4c55-b176-db2457baf4c8?diagramType=Topology
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/mcp/cisco-catalyst-sdwan-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cisco-catalyst-sdwan-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/mcp/cisco-catalyst-sdwan-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cisco-catalyst-sdwan-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/asyncapi/cisco-catalyst-sdwan-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cisco-catalyst-sdwan-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/llms/cisco-catalyst-sdwan-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cisco-catalyst-sdwan-llms.txt
@@ -2151,10 +2209,12 @@ common:
   type: Security
   url: https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/security/cisco-catalyst-sdwan-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-catalyst-sdwan-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/security/cisco-catalyst-sdwan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cisco-catalyst-sdwan-trust-center.yml
@@ -2207,6 +2267,46 @@ scopes:
   scope_count: 0
   slug: cisco-catalyst-sdwan-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 67.6
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 57.0
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 67.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 382
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 80.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-sdwan/refs/heads/main/screenshots/cisco-catalyst-sdwan-2026-09-02T145118.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: GraphQL API to programmatically manage Shopify Hydrogen storefront content — pages, product pages, collection pages, blogs, articles, sections, templates, site settings, schedules, and revisions — wit
@@ -18,6 +43,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/security/packdigital-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/packdigital-domain-security.yml
@@ -74,46 +100,57 @@ common:
   type: PrivacyPolicy
   url: https://packdigital.com/pages/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/mcp/packdigital-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/packdigital-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/llms/packdigital-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/packdigital-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/packages/packdigital-packages.yml
   title: ''
   type: Packages
   url: packages/packdigital-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/packages/packdigital-packages.yml
   title: ''
   type: SDKs
   url: packages/packdigital-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/authentication/packdigital-authentication.yml
   title: ''
   type: Authentication
   url: authentication/packdigital-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/conventions/packdigital-conventions.yml
   title: ''
   type: Conventions
   url: conventions/packdigital-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/data-model/packdigital-data-model.yml
   title: ''
   type: DataModel
   url: data-model/packdigital-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/conformance/packdigital-conformance.yml
   title: ''
   type: Conformance
   url: conformance/packdigital-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/errors/packdigital-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/packdigital-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/components/packdigital-components.yml
   title: ''
   type: Components
   url: components/packdigital-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -134,6 +171,36 @@ overview: 'Packdigital publishes 1 API on the [APIs.io](https://apis.io/) networ
 
   Packdigital''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 15
+score:
+  band: thin
+  composite: 29.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 29.3
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/screenshots/packdigital-2026-08-07T191242.png
 security:
 - kind: authentication

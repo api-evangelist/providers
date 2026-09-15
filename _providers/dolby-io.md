@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -196,70 +221,87 @@ collections:
   slug: open-dolby-io-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/capabilities/dolby-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dolby-io-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/overlays/dolby-io-realtime-streaming-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dolby-io-realtime-streaming-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/agentic-access/dolby-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dolby-io-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/packages/dolby-io-packages.yml
   title: ''
   type: Packages
   url: packages/dolby-io-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/well-known/dolby-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dolby-io-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/well-known/dolby-io-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dolby-io-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/mcp/dolby-io-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dolby-io-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/llms/dolby-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dolby-io-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/conformance/dolby-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dolby-io-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/lifecycle/dolby-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dolby-io-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/conventions/dolby-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dolby-io-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/cli/dolby-io-cli.yml
   title: ''
   type: CLI
   url: cli/dolby-io-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/components/dolby-io-components.yml
   title: ''
   type: Components
   url: components/dolby-io-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/data-model/dolby-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dolby-io-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/security/dolby-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dolby-io-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/security/dolby-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dolby-io-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/authentication/dolby-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dolby-io-authentication.yml
@@ -268,46 +310,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dolbyio/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-attach-ingest-engine-and-go-live-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-attach-ingest-engine-and-go-live-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-audit-channel-run-history-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-audit-channel-run-history-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-enable-recording-webhook-and-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-enable-recording-webhook-and-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-inspect-engine-last-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-inspect-engine-last-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-provision-and-start-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-provision-and-start-channel-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-provision-broadcast-token-with-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-provision-broadcast-token-with-cluster-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-provision-viewer-token-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-provision-viewer-token-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-publish-distribution-with-security-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-publish-distribution-with-security-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-start-single-engine-and-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-start-single-engine-and-confirm-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-stop-channel-and-confirm-idle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-stop-channel-and-confirm-idle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/arazzo/dolby-io-teardown-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dolby-io-teardown-channel-workflow.yml
@@ -344,14 +397,17 @@ common:
   type: Pricing
   url: https://optiview.dolby.com/plans/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/plans/dolby-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dolby-io-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/rate-limits/dolby-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dolby-io-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/finops/dolby-io-finops.yml
   title: ''
   type: FinOps
   url: finops/dolby-io-finops.yml
@@ -531,6 +587,40 @@ rules:
     info: 0
     warn: 5
   slug: dolby-io-rules
+score:
+  band: strong
+  composite: 63.1
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 78.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 67.1
+    contract_governance: 18.2
+    contract_quality: 64.8
+    developer_ergonomics: 75.0
+    discoverability: 66.7
+    operational_transparency: 57.9
+  previous_composite: 63.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:
 - kind: authentication

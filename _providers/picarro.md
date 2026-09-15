@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: grpc://localhost:3343
@@ -35,6 +60,7 @@ asyncapis:
   slug: picarro-sam-foup-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/security/picarro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/picarro-domain-security.yml
@@ -127,86 +153,107 @@ common:
   type: Partners
   url: https://www.picarro.com/partners
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/packages/picarro-packages.yml
   title: ''
   type: Packages
   url: packages/picarro-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/packages/picarro-packages.yml
   title: ''
   type: SDKs
   url: packages/picarro-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/cli/picarro-cli.yml
   title: ''
   type: CLI
   url: cli/picarro-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/sandbox/picarro-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/picarro-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/well-known/picarro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/picarro-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/authentication/picarro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/picarro-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/scopes/picarro-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/picarro-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/conventions/picarro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/picarro-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/errors/picarro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/picarro-problem-types.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/asyncapi/picarro-sam-foup-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/picarro-sam-foup-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/conformance/picarro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/picarro-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/lifecycle/picarro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/picarro-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/changelog/picarro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/picarro-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/data-model/picarro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/picarro-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/mcp/picarro-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/picarro-tool-crosswalk.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/security/picarro-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/picarro-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/llms/picarro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/picarro-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/picarro-run-foup-measurement.md
   title: ''
   type: AgentSkill
   url: skills/picarro-run-foup-measurement.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/picarro-manage-measurement-sets.md
   title: ''
   type: AgentSkill
   url: skills/picarro-manage-measurement-sets.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/skills/picarro-monitor-analyzer-health.md
   title: ''
   type: AgentSkill
   url: skills/picarro-monitor-analyzer-health.md
@@ -232,6 +279,42 @@ scopes:
   scope_count: 9
   slug: picarro-scopes
   summary_line: 9 scopes · authorizationCode/implicit/password/clientCredentials
+score:
+  band: developing
+  composite: 49.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 41.7
+    developer_ergonomics: 42.3
+    discoverability: 64.8
+    operational_transparency: 34.2
+  previous_composite: 49.1
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/screenshots/picarro-2026-08-17T081215.png
 security:
 - kind: authentication

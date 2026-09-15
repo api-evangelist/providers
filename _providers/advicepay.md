@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The AdvicePay REST API (v1.0.1) exposes the fee-for-service billing platform to integrators: admins, advisors, agreements, clients, custom attributes, deliverables, engagements, invoices, notification'
@@ -7,14 +32,17 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/security/advicepay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/advicepay-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/security/advicepay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advicepay-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/security/advicepay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/advicepay-vulnerability-disclosure.yml
@@ -87,62 +115,77 @@ common:
   type: Compliance
   url: https://advicepay.com/security/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/plans/advicepay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advicepay-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/rate-limits/advicepay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advicepay-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/authentication/advicepay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advicepay-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/scopes/advicepay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/advicepay-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/errors/advicepay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/advicepay-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/conventions/advicepay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advicepay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/lifecycle/advicepay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advicepay-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/lifecycle/advicepay-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/advicepay-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/conformance/advicepay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advicepay-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/data-model/advicepay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/advicepay-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/sandbox/advicepay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/advicepay-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/changelog/advicepay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/advicepay-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/packages/advicepay-packages.yml
   title: ''
   type: Packages
   url: packages/advicepay-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/mcp/advicepay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/advicepay-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/llms/advicepay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advicepay-llms.txt
@@ -154,7 +197,7 @@ modified: '2026-09-09'
 name: AdvicePay
 nav: Providers
 network: true
-overview: 'AdvicePay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Payments, Billing, Invoicing, and Financial Planning.
+overview: 'AdvicePay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Payments, Billing, Invoicing, and Financial Planning.
 
 
   AdvicePay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -172,6 +215,41 @@ scopes:
   scope_count: 1
   slug: advicepay-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 53.6
+    discoverability: 68.5
+    operational_transparency: 71.1
+  previous_composite: 53.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Advicepay Authentication
@@ -191,15 +269,15 @@ security:
   summary_line: SOC 2 Type II, PCI SAQ A
 slug: advicepay
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Billing
 - Invoicing
 - Financial Planning
 - Wealth Management
-- Subscriptions
-- eSignature
+- Subscription
+- E-Signature
 - Compliance
-- FinTech
+- Fintech
 website: https://advicepay.com/
 ---

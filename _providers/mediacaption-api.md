@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for fetching public YouTube transcripts synchronously and in bulk, with account/balance endpoints, job polling, and completion webhooks. Bearer API key or X-API-Key auth.
@@ -15,42 +40,52 @@ common:
   type: Website
   url: https://mediacaption.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/security/mediacaption-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mediacaption-api-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/authentication/mediacaption-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mediacaption-api-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/well-known/mediacaption-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mediacaption-api-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/asyncapi/mediacaption-api-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mediacaption-api-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/mcp/mediacaption-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mediacaption-api-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/llms/mediacaption-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mediacaption-api-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/conformance/mediacaption-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mediacaption-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/errors/mediacaption-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mediacaption-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/lifecycle/mediacaption-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mediacaption-api-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/changelog/mediacaption-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mediacaption-api-changelog.yml
@@ -59,22 +94,27 @@ common:
   type: ChangeLog
   url: https://www.mediacaption.io/docs/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/conventions/mediacaption-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mediacaption-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/data-model/mediacaption-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mediacaption-api-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/plans/mediacaption-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mediacaption-api-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/rate-limits/mediacaption-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mediacaption-api-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -122,6 +162,40 @@ rate_limits:
 - limit_count: 4
   name: Mediacaption Api Rate Limits
   slug: mediacaption-api-rate-limits
+score:
+  band: developing
+  composite: 48.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 54.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 47.0
+    discoverability: 63.0
+    operational_transparency: 55.3
+  previous_composite: 48.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/screenshots/mediacaption-api-2026-08-07T172332.png
 security:
 - kind: authentication

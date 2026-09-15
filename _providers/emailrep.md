@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,14 +89,17 @@ common:
   type: IssueTracker
   url: https://github.com/sublime-security/emailrep.io/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/agentic-access/emailrep-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emailrep-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/security/emailrep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emailrep-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/authentication/emailrep-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emailrep-authentication.yml
@@ -80,14 +108,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/emailrep/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/arazzo/emailrep-screen-and-report-malicious-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/emailrep-screen-and-report-malicious-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/arazzo/emailrep-triage-inbound-sender-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/emailrep-triage-inbound-sender-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/arazzo/emailrep-verify-before-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/emailrep-verify-before-report-workflow.yml
@@ -184,134 +215,167 @@ common:
   type: Tutorials
   url: https://github.com/sublime-security/detection-workshop
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/plans/emailrep-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emailrep-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/rate-limits/emailrep-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emailrep-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/finops/emailrep-finops.yml
   title: ''
   type: FinOps
   url: finops/emailrep-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/vocabulary/emailrep-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/emailrep-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/rules/emailrep-spectral-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/emailrep-spectral-rules.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-schema/api-email-reputation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/api-email-reputation-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-schema/api-email-reputation-details-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/api-email-reputation-details-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-schema/api-report-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/api-report-request-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-schema/api-report-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/api-report-response-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-structure/api-email-reputation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/api-email-reputation-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-structure/api-email-reputation-details-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/api-email-reputation-details-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-structure/api-report-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/api-report-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-structure/api-report-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/api-report-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/json-ld/emailrep-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/emailrep-api-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/examples/api-email-reputation-example.json
   title: ''
   type: Examples
   url: examples/api-email-reputation-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/examples/api-email-reputation-details-example.json
   title: ''
   type: Examples
   url: examples/api-email-reputation-details-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/examples/api-report-request-example.json
   title: ''
   type: Examples
   url: examples/api-report-request-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/examples/api-report-response-example.json
   title: ''
   type: Examples
   url: examples/api-report-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/packages/emailrep-packages.yml
   title: ''
   type: Packages
   url: packages/emailrep-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/packages/emailrep-packages.yml
   title: ''
   type: SDKs
   url: packages/emailrep-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/cli/emailrep-cli.yml
   title: ''
   type: CLI
   url: cli/emailrep-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/mcp/emailrep-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/emailrep-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/mcp/emailrep-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/emailrep-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/llms/emailrep-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emailrep-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/conventions/emailrep-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emailrep-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/errors/emailrep-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/emailrep-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/lifecycle/emailrep-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emailrep-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/conformance/emailrep-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emailrep-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/data-model/emailrep-data-model.yml
   title: ''
   type: DataModel
   url: data-model/emailrep-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/security/emailrep-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/emailrep-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/overlays/emailrep-reputation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emailrep-reputation-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/overlays/emailrep-reports-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emailrep-reports-api-overlay.yaml
@@ -413,6 +477,41 @@ rules:
     info: 3
     warn: 27
   slug: emailrep-spectral-rules
+score:
+  band: developing
+  composite: 47.5
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 81.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 33.3
+    contract_quality: 22.8
+    developer_ergonomics: 62.5
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 47.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 3
+      marker_coverage: 100.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:
 - kind: authentication

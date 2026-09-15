@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -70,10 +95,12 @@ collections:
   slug: open-refersion-reporting-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/agentic-access/refersion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/refersion-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/security/refersion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/refersion-domain-security.yml
@@ -110,70 +137,87 @@ common:
   type: X
   url: https://x.com/refersion
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/plans/refersion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/refersion-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/rate-limits/refersion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/refersion-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/finops/refersion-finops.yml
   title: ''
   type: FinOps
   url: finops/refersion-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/vocabulary/refersion-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/refersion-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/packages/refersion-packages.yml
   title: ''
   type: Packages
   url: packages/refersion-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/llms/refersion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/refersion-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/authentication/refersion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/refersion-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/conventions/refersion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/refersion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/errors/refersion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/refersion-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/data-model/refersion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/refersion-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/lifecycle/refersion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/refersion-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/conformance/refersion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/refersion-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/components/refersion-components.yml
   title: ''
   type: Components
   url: components/refersion-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/asyncapi/refersion-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/refersion-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/mcp/refersion-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/refersion-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/mcp/refersion-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/refersion-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -210,6 +254,7 @@ common:
   type: PrivacyPolicy
   url: https://www.refersion.com/privacy/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/json-ld/refersion-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/refersion-context.jsonld
@@ -284,6 +329,41 @@ rules:
     info: 1
     warn: 4
   slug: refersion-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 61.1
+  coverage:
+    artifact_dirs: 29
+    catalog_earned: 83.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 29.5
+    contract_quality: 72.0
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png
 security:
 - kind: authentication

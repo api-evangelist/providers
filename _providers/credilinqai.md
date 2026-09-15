@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -105,6 +130,7 @@ collections:
   slug: open-credilinqai-report-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/capabilities/credilinqai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/credilinqai-capability-edges.yml
@@ -153,78 +179,97 @@ common:
   type: ChangeLog
   url: https://docs.credilinq.ai/docs/change-logs
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/openapi/_original/credilinqai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/credilinqai-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/overlays/credilinqai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/credilinqai-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/authentication/credilinqai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/credilinqai-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/agentic-access/credilinqai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/credilinqai-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/security/credilinqai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/credilinqai-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/errors/credilinqai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/credilinqai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/conventions/credilinqai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/credilinqai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/lifecycle/credilinqai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/credilinqai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/changelog/credilinqai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/credilinqai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/conformance/credilinqai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/credilinqai-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/sandbox/credilinqai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/credilinqai-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/data-model/credilinqai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/credilinqai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/asyncapi/credilinqai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/credilinqai-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/asyncapi/credilinqai-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/credilinqai-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/mcp/credilinqai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/credilinqai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/llms/credilinqai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/credilinqai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/arazzo/credilinqai-onboard-and-kyc.yml
   title: ''
   type: Arazzo
   url: arazzo/credilinqai-onboard-and-kyc.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/arazzo/credilinqai-create-and-disburse-loan.yml
   title: ''
   type: Arazzo
   url: arazzo/credilinqai-create-and-disburse-loan.yml
@@ -244,6 +289,47 @@ overview: 'Credilinq.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
   Credilinq.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 24 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 42.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 61.2
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 42.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 45.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/screenshots/credilinqai-2026-07-25T210714.png
 security:
 - kind: authentication

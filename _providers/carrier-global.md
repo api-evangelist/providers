@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://api.fleet.lynx.carrier.io
@@ -104,82 +130,102 @@ common:
   type: Compliance
   url: https://www.carrier.com/us/en/product-security.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/authentication/carrier-global-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carrier-global-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/conventions/carrier-global-conventions.yml
   title: ''
   type: Conventions
   url: conventions/carrier-global-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/errors/carrier-global-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/carrier-global-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/lifecycle/carrier-global-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carrier-global-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/conformance/carrier-global-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carrier-global-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/data-model/carrier-global-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carrier-global-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/rate-limits/carrier-global-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/carrier-global-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/plans/carrier-global-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carrier-global-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/finops/carrier-global-finops.yml
   title: ''
   type: FinOps
   url: finops/carrier-global-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/sandbox/carrier-global-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/carrier-global-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/asyncapi/carrier-global-lynx-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/carrier-global-lynx-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/packages/carrier-global-packages.yml
   title: ''
   type: Packages
   url: packages/carrier-global-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/mcp/carrier-global-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/carrier-global-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/mcp/carrier-global-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/carrier-global-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/well-known/carrier-global-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/carrier-global-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/security/carrier-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carrier-global-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/security/carrier-global-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/carrier-global-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/llms/carrier-global-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carrier-global-llms.txt
@@ -228,6 +274,40 @@ rate_limits:
 - limit_count: 1
   name: Carrier Global Rate Limits
   slug: carrier-global-rate-limits
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 62.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 19.7
+    contract_quality: 64.2
+    developer_ergonomics: 54.2
+    discoverability: 72.2
+    operational_transparency: 39.5
+  previous_composite: 52.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/screenshots/carrier-global-2026-06-20T174016.png
 security:
 - kind: authentication

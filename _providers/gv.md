@@ -30,7 +30,6 @@ tags:
 - Artificial Intelligence
 - Life Sciences
 - Enterprise
-- Consumer
 - Developer Tools
 - Infrastructure
 - Healthcare

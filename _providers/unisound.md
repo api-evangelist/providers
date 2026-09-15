@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'Multi-modal MaaS API for Unisound U2 models: OpenAI-compatible chat completions and Anthropic-compatible messages for the U2 and U2-Med LLMs (streaming, function calling, structured output, context ca'
@@ -27,6 +52,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/security/unisound-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unisound-domain-security.yml
@@ -75,6 +101,7 @@ common:
   type: SignUp
   url: https://maas.unisound.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/rate-limits/unisound-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unisound-rate-limits.yml
@@ -87,46 +114,57 @@ common:
   type: ChangeLog
   url: https://maas.unisound.com/docs/release/notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/changelog/unisound-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unisound-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/packages/unisound-packages.yml
   title: ''
   type: Packages
   url: packages/unisound-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/packages/unisound-packages.yml
   title: ''
   type: SDKs
   url: packages/unisound-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/llms/unisound-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unisound-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/conformance/unisound-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unisound-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/errors/unisound-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unisound-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/lifecycle/unisound-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unisound-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/authentication/unisound-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unisound-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/sandbox/unisound-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/unisound-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/conventions/unisound-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unisound-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/plans/unisound-plans.yml
   title: ''
   type: Plans
   url: plans/unisound-plans.yml
@@ -151,6 +189,40 @@ rate_limits:
 - limit_count: 9
   name: Unisound Rate Limits
   slug: unisound-rate-limits
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 69.0
+    discoverability: 74.1
+    operational_transparency: 50.0
+  previous_composite: 47.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/unisound/refs/heads/main/screenshots/unisound-2026-08-17T082618.png
 security:
 - kind: authentication

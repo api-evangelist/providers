@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Prizeout partner integration surface. A partner loads the first-party JavaScript publisher SDK (prizeout-publisher-sdk.js), or the native iOS/Android SDK, and passes partner credentials plus a use
@@ -60,66 +85,82 @@ common:
   type: SignUp
   url: https://partners.prizeout.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/security/prizeout-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/prizeout-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/llms/prizeout-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prizeout-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/packages/prizeout-packages.yml
   title: ''
   type: Packages
   url: packages/prizeout-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/packages/prizeout-packages.yml
   title: ''
   type: SDKs
   url: packages/prizeout-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/conformance/prizeout-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prizeout-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/errors/prizeout-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/prizeout-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/lifecycle/prizeout-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prizeout-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/authentication/prizeout-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prizeout-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/security/prizeout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prizeout-domain-security.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/sandbox/prizeout-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prizeout-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/conventions/prizeout-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prizeout-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/components/prizeout-components.yml
   title: ''
   type: Components
   url: components/prizeout-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/changelog/prizeout-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/prizeout-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/plans/prizeout-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prizeout-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/rate-limits/prizeout-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prizeout-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/asyncapi/prizeout-partner-callbacks.yml
   title: ''
   type: Webhooks
   url: asyncapi/prizeout-partner-callbacks.yml
@@ -147,6 +188,41 @@ rate_limits:
 - limit_count: 0
   name: Prizeout Rate Limits
   slug: prizeout-rate-limits
+score:
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 40.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 46.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/screenshots/prizeout-2026-09-02T152054.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - https://www.karumi.ai/mcp-documentation
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,6 +65,7 @@ apis:
 artifact_total: 13
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/agentic-access/karumi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/karumi-agentic-access.yml
@@ -56,74 +82,92 @@ common:
   type: APIReference
   url: https://api.karumi.ai/api/v1/redoc
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/mcp/karumi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/karumi-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/mcp/karumi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/karumi-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-public-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/karumi-public-api-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/overlays/karumi-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/karumi-public-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/authentication/karumi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/karumi-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/scopes/karumi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/karumi-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/conventions/karumi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/karumi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/data-model/karumi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/karumi-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/errors/karumi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/karumi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/lifecycle/karumi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/karumi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/conformance/karumi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/karumi-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/well-known/karumi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/karumi-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/llms/karumi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/karumi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/components/karumi-components.yml
   title: ''
   type: Components
   url: components/karumi-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/packages/karumi-packages.yml
   title: ''
   type: Packages
   url: packages/karumi-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/plans/karumi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/karumi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/rate-limits/karumi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/karumi-rate-limits.yml
@@ -152,10 +196,12 @@ common:
   type: PrivacyPolicy
   url: https://www.karumi.ai/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/security/karumi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/karumi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/security/karumi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/karumi-trust-center.yml
@@ -196,6 +242,42 @@ scopes:
   scope_count: 5
   slug: karumi-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: developing
+  composite: 41.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 4.5
+    contract_quality: 48.3
+    developer_ergonomics: 32.7
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 41.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/screenshots/karumi-2026-07-25T223528.png
 security:
 - kind: authentication

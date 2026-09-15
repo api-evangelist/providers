@@ -31,6 +31,7 @@ common:
   type: Press
   url: https://agfundernews.com/another-blow-for-indoor-farm-robotics-as-iron-ox-lays-off-nearly-half-its-staff
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/iron-ox/refs/heads/main/well-known/iron-ox-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/iron-ox-well-known.yml

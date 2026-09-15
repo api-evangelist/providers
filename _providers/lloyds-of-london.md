@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: 'Market API for electronic placement in the London subscription market — create submissions and submission versions, upload Market Reform Contract and quote documents, add carriers and underwriters to '
@@ -29,6 +54,7 @@ apis:
 artifact_total: 30
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/security/lloyds-of-london-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lloyds-of-london-vulnerability-disclosure.yml
@@ -37,58 +63,72 @@ common:
   type: Security
   url: https://www.lloyds.com/security-reports
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/well-known/lloyds-of-london-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lloyds-of-london-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/security/lloyds-of-london-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lloyds-of-london-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/well-known/lloyds-of-london-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lloyds-of-london-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/authentication/lloyds-of-london-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lloyds-of-london-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/scopes/lloyds-of-london-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lloyds-of-london-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/conventions/lloyds-of-london-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lloyds-of-london-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/errors/lloyds-of-london-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lloyds-of-london-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/data-model/lloyds-of-london-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lloyds-of-london-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/lifecycle/lloyds-of-london-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lloyds-of-london-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/changelog/lloyds-of-london-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lloyds-of-london-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/conformance/lloyds-of-london-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lloyds-of-london-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/sandbox/lloyds-of-london-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lloyds-of-london-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/llms/lloyds-of-london-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lloyds-of-london-llms.txt
@@ -223,6 +263,48 @@ scopes:
   scope_count: 1
   slug: lloyds-of-london-scopes
   summary_line: 1 scope · authorizationCode/on-behalf-of
+score:
+  band: thin
+  composite: 35.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 42.9
+    discoverability: 83.3
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 35.6
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 72.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/screenshots/lloyds-of-london-2026-07-25T225413.png
 security:
 - kind: authentication

@@ -20,18 +20,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/LeToteTeam
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/le-tote/refs/heads/main/packages/le-tote-packages.yml
   title: ''
   type: Packages
   url: packages/le-tote-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/le-tote/refs/heads/main/lifecycle/le-tote-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/le-tote-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/le-tote/refs/heads/main/security/le-tote-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/le-tote-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/le-tote/refs/heads/main/llms/le-tote-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/le-tote-llms.txt

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 42.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://account.shieldlabs.ai/api
@@ -45,6 +70,7 @@ common:
   type: License
   url: https://github.com/ShieldLabs-ai/shieldlabs-openapi/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/overlays/shieldlabs-server-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shieldlabs-server-api-overlay.yaml
@@ -113,38 +139,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/shieldlabs-ai
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/authentication/shieldlabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shieldlabs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/conventions/shieldlabs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shieldlabs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/conventions/shieldlabs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shieldlabs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/errors/shieldlabs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shieldlabs-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/rate-limits/shieldlabs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shieldlabs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/plans/shieldlabs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shieldlabs-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/lifecycle/shieldlabs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shieldlabs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/lifecycle/shieldlabs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/shieldlabs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/changelog/shieldlabs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shieldlabs-changelog.yml
@@ -153,26 +188,32 @@ common:
   type: ChangeLog
   url: https://docs.shieldlabs.ai/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/asyncapi/shieldlabs-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shieldlabs-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/sandbox/shieldlabs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shieldlabs-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/components/shieldlabs-components.yml
   title: ''
   type: Components
   url: components/shieldlabs-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/packages/shieldlabs-packages.yml
   title: ''
   type: Packages
   url: packages/shieldlabs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/packages/shieldlabs-packages.yml
   title: ''
   type: SDKs
   url: packages/shieldlabs-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/conformance/shieldlabs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shieldlabs-conformance.yml
@@ -181,34 +222,42 @@ common:
   type: Security
   url: https://docs.shieldlabs.ai/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/security/shieldlabs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/shieldlabs-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/security/shieldlabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shieldlabs-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/well-known/shieldlabs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shieldlabs-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/mcp/shieldlabs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shieldlabs-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/mcp/shieldlabs-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/shieldlabs-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/a2a/shieldlabs-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/shieldlabs-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/llms/shieldlabs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shieldlabs-llms.txt
@@ -261,6 +310,41 @@ rate_limits:
 - limit_count: 7
   name: Shieldlabs Rate Limits
   slug: shieldlabs-rate-limits
+score:
+  band: strong
+  composite: 64.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 4.5
+    contract_quality: 65.8
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 76.3
+  previous_composite: 64.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/screenshots/shieldlabs-2026-09-02T155148.png
 security:
 - kind: authentication

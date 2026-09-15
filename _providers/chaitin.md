@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.7
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: https://docs.waf.chaitin.com
@@ -4467,6 +4492,7 @@ collections:
   slug: open-chaitin-whois-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/capabilities/chaitin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/chaitin-capability-edges.yml
@@ -4503,62 +4529,77 @@ common:
   type: Support
   url: https://stack.chaitin.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/authentication/chaitin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chaitin-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/security/chaitin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chaitin-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/packages/chaitin-packages.yml
   title: ''
   type: Packages
   url: packages/chaitin-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/packages/chaitin-packages.yml
   title: ''
   type: SDKs
   url: packages/chaitin-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/cli/chaitin-cli.yml
   title: ''
   type: CLI
   url: cli/chaitin-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/changelog/chaitin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chaitin-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/lifecycle/chaitin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chaitin-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/conventions/chaitin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chaitin-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/errors/chaitin-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/chaitin-error-codes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/mcp/chaitin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chaitin-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/conformance/chaitin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chaitin-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/data-model/chaitin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chaitin-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/overlays/chaitin-safeline-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chaitin-safeline-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/llms/chaitin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chaitin-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -4575,6 +4616,40 @@ overview: 'Chaitin Tech publishes 556 APIs on the [APIs.io](https://apis.io/) ne
 
   Chaitin Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 17 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 33.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 57.4
+    operational_transparency: 18.4
+  previous_composite: 33.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 556
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:
 - kind: authentication

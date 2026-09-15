@@ -17,6 +17,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/linkedin/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapportive/refs/heads/main/security/rapportive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rapportive-domain-security.yml

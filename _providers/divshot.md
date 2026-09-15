@@ -29,38 +29,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/divshot
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/packages/divshot-packages.yml
   title: ''
   type: Packages
   url: packages/divshot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/packages/divshot-packages.yml
   title: ''
   type: SDKs
   url: packages/divshot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/cli/divshot-cli.yml
   title: ''
   type: CLI
   url: cli/divshot-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/authentication/divshot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/divshot-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/data-model/divshot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/divshot-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/asyncapi/divshot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/divshot-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/lifecycle/divshot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/divshot-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/security/divshot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/divshot-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/llms/divshot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/divshot-llms.txt

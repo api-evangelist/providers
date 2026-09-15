@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,22 +80,27 @@ collections:
   slug: open-amazon-nova
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/agentic-access/amazon-nova-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-nova-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/security/amazon-nova-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-nova-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/security/amazon-nova-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-nova-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/security/amazon-nova-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-nova-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/authentication/amazon-nova-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-nova-authentication.yml
@@ -151,90 +181,112 @@ common:
   type: Deprecation
   url: https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/packages/amazon-nova-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-nova-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/packages/amazon-nova-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-nova-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/well-known/amazon-nova-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-nova-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/well-known/amazon-nova-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-nova-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/mcp/amazon-nova-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-nova-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/mcp/amazon-nova-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-nova-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/llms/amazon-nova-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-nova-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/conformance/amazon-nova-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-nova-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/errors/amazon-nova-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-nova-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/lifecycle/amazon-nova-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-nova-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/conventions/amazon-nova-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-nova-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/conventions/amazon-nova-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/amazon-nova-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/changelog/amazon-nova-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-nova-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/cli/amazon-nova-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-nova-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/sandbox/amazon-nova-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amazon-nova-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/data-model/amazon-nova-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-nova-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/asyncapi/amazon-nova-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/amazon-nova-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/plans/amazon-nova-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-nova-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/rate-limits/amazon-nova-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-nova-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/overlays/amazon-nova-inference-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-nova-inference-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/overlays/amazon-nova-async-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-nova-async-api-overlay.yaml
@@ -304,6 +356,41 @@ rate_limits:
 - limit_count: 20
   name: Amazon Nova Rate Limits
   slug: amazon-nova-rate-limits
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 42.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 18.2
+    contract_quality: 57.7
+    developer_ergonomics: 80.4
+    discoverability: 57.4
+    operational_transparency: 81.6
+  previous_composite: 60.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/screenshots/amazon-nova-2026-06-20T171754.png
 security:
 - kind: authentication

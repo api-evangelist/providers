@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Tour Amigo''s bookable two-way partner API powers its API-powered channel manager. Operators expose tours, availability, and bookings either directly to their own distribution partners or through Tour '
@@ -52,14 +77,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/touramigo
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/touramigo/refs/heads/main/llms/touramigo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/touramigo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/touramigo/refs/heads/main/well-known/touramigo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/touramigo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/touramigo/refs/heads/main/security/touramigo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/touramigo-domain-security.yml
@@ -76,6 +104,32 @@ overview: 'TourAmigo publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   TourAmigo''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
 random_paper: 17
+score:
+  band: emerging
+  composite: 14.9
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 14.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/touramigo/refs/heads/main/screenshots/touramigo-2026-09-02T163951.png
 security:
 - kind: domain-security

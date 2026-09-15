@@ -9,6 +9,31 @@ access_model:
   - https://www.xfactor.io/get-a-demo/
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.6
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - baseURL: https://api.xfactor.io
@@ -337,6 +362,7 @@ collections:
   slug: open-decisionlink-value-proposition
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/security/decisionlink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/decisionlink-domain-security.yml
@@ -377,62 +403,77 @@ common:
   type: Login
   url: https://app.xfactor.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/authentication/decisionlink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/decisionlink-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/conventions/decisionlink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/decisionlink-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/errors/decisionlink-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/decisionlink-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/data-model/decisionlink-data-model.yml
   title: ''
   type: DataModel
   url: data-model/decisionlink-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/lifecycle/decisionlink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/decisionlink-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/conformance/decisionlink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/decisionlink-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/llms/decisionlink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/decisionlink-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/plans/decisionlink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/decisionlink-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/rate-limits/decisionlink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/decisionlink-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/packages/decisionlink-packages.yml
   title: ''
   type: Packages
   url: packages/decisionlink-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/overlays/decisionlink-value-proposition-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisionlink-value-proposition-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/overlays/decisionlink-value-facts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisionlink-value-facts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/overlays/decisionlink-value-chat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisionlink-value-chat-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/overlays/decisionlink-collaboration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/decisionlink-collaboration-overlay.yaml
@@ -458,6 +499,40 @@ rate_limits:
 - limit_count: 0
   name: Decisionlink Rate Limits
   slug: decisionlink-rate-limits
+score:
+  band: thin
+  composite: 33.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 22.4
+    contract_governance: 18.2
+    contract_quality: 56.1
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 33.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 62
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/screenshots/decisionlink-2026-07-25T211527.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://bpsoftware.net/'', ''status'': 301, ''note'': ''declared website redirects to https://bestpracticesoftware.com/ — a different registrable domain (bpsoftware.net -> bestpracticesoftware.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -59,18 +84,22 @@ collections:
   slug: open-haloconnect-integrator
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/capabilities/best-practice-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/best-practice-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/agentic-access/best-practice-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/best-practice-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/security/best-practice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/best-practice-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/authentication/best-practice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/best-practice-authentication.yml
@@ -115,62 +144,77 @@ common:
   type: PrivacyPolicy
   url: https://bpsoftware.net/privacy-policy/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/conventions/best-practice-conventions.yml
   title: ''
   type: Conventions
   url: conventions/best-practice-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/errors/best-practice-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/best-practice-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/lifecycle/best-practice-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/best-practice-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/lifecycle/best-practice-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/best-practice-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/conformance/best-practice-conformance.yml
   title: ''
   type: Conformance
   url: conformance/best-practice-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/data-model/best-practice-data-model.yml
   title: ''
   type: DataModel
   url: data-model/best-practice-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/well-known/best-practice-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/best-practice-well-known.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/sandbox/best-practice-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/best-practice-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/changelog/best-practice-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/best-practice-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/asyncapi/best-practice-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/best-practice-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/mcp/best-practice-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/best-practice-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/llms/best-practice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/best-practice-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/overlays/best-practice-integrator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/best-practice-integrator-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/overlays/best-practice-desktop-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/best-practice-desktop-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -191,6 +235,54 @@ overview: 'Best Practice Software publishes 5 APIs on the [APIs.io](https://apis
 
   Best Practice Software''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 22 more developer resources.'
 random_paper: 16
+score:
+  band: developing
+  composite: 50.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 63.2
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 50.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png
 security:
 - kind: authentication

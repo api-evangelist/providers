@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 61.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Hosted Model Context Protocol server exposing 30 Paubox tools across email, forms and email marketing to MCP-compatible AI clients. Reachable over streamable HTTP at https://mcp.paubox.com/mcp with OA
@@ -84,18 +110,22 @@ asyncapis:
   slug: paubox-email-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/capabilities/paubox-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paubox-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/overlays/paubox-email-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paubox-email-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/overlays/paubox-marketing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paubox-marketing-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/overlays/paubox-forms-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paubox-forms-api-overlay.yaml
@@ -164,78 +194,97 @@ common:
   type: Compliance
   url: https://www.paubox.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/security/paubox-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paubox-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/llms/paubox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paubox-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/a2a/paubox-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/paubox-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/mcp/paubox-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/paubox-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/packages/paubox-packages.yml
   title: ''
   type: Packages
   url: packages/paubox-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/packages/paubox-packages.yml
   title: ''
   type: SDKs
   url: packages/paubox-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/cli/paubox-cli.yml
   title: ''
   type: CLI
   url: cli/paubox-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/authentication/paubox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paubox-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/conventions/paubox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paubox-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/errors/paubox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paubox-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/lifecycle/paubox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paubox-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/conformance/paubox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paubox-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/security/paubox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paubox-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/plans/paubox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paubox-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/rate-limits/paubox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paubox-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/data-model/paubox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paubox-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/asyncapi/paubox-email-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paubox-email-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/well-known/paubox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paubox-well-known.yml
@@ -268,6 +317,54 @@ rate_limits:
 - limit_count: 4
   name: Paubox Rate Limits
   slug: paubox-rate-limits
+score:
+  band: exemplar
+  composite: 71.5
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 65.7
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 57.9
+  previous_composite: 71.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitech
+    - jurisdiction: US
+      standard: hitrust
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 43.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/screenshots/paubox-2026-09-02T150917.png
 security:
 - kind: authentication

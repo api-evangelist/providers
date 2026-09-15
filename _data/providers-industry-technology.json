@@ -27,7 +27,7 @@
       "developer_ergonomics": 96.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,14 +77,21 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 93.8,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2-sca",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 45.7,
      "agent_band": "agent-native",
@@ -127,7 +134,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -177,7 +184,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -227,7 +234,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 44.2,
      "agent_band": "agent-ready",
@@ -281,7 +288,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -324,7 +331,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -367,7 +374,7 @@
       "developer_ergonomics": 96.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 49.6,
      "agent_band": "agent-ready",
@@ -410,7 +417,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 48.7,
      "agent_band": "agent-ready",
@@ -453,7 +460,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -503,7 +510,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -546,7 +553,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -589,7 +596,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -632,7 +639,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 37.3,
      "agent_band": "agent-ready",
@@ -675,7 +682,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -718,7 +725,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -768,7 +775,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -811,7 +818,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -854,7 +861,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -897,7 +904,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -940,7 +947,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -983,7 +990,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -1026,7 +1033,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -1069,7 +1076,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -1112,7 +1119,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -1155,7 +1162,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -1190,8 +1197,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 33,
-   "shown": 33,
+   "count": 34,
+   "shown": 34,
    "providers": [
     {
      "name": "NewTqnia | Technology News, AI and Innovation",
@@ -1209,7 +1216,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 44.4,
      "agent_band": "agent-native",
@@ -1252,7 +1259,7 @@
       "developer_ergonomics": 53.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
@@ -1295,7 +1302,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -1342,7 +1349,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -1385,7 +1392,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1435,7 +1442,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 60.1,
      "agent_band": "agent-ready",
@@ -1478,7 +1485,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -1521,7 +1528,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 35.5,
      "agent_band": "agent-ready",
@@ -1564,7 +1571,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1607,7 +1614,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -1650,7 +1657,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -1693,7 +1700,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 32.0,
      "agent_band": "agent-ready",
@@ -1736,7 +1743,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1779,7 +1786,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1829,7 +1836,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -1872,7 +1879,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 36.7,
      "agent_band": "agent-ready",
@@ -1915,7 +1922,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -1958,7 +1965,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -2001,7 +2008,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
@@ -2044,7 +2051,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2094,7 +2101,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -2141,7 +2148,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -2184,7 +2191,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -2227,7 +2234,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.4,
      "agent_band": "agent-ready",
@@ -2255,6 +2262,56 @@
      "rank": 50
     },
     {
+     "name": "Booz Allen Hamilton",
+     "slug": "booz-allen-hamilton",
+     "description": "Booz Allen Hamilton is a leading management and technology consulting firm providing services primarily to U.S. government agencies in defense, intelligence, and civil markets. The firm employs over 2,500 AI specialists and 8,000 cybersecurity professionals, and maintains a significant open source presence on GitHub with projects including the Solutions Delivery Platform, Open Data Platform, and Cognition data fusion platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/booz-allen-hamilton/refs/heads/main/screenshots/booz-allen-hamilton-2026-06-20T173608.png",
+     "score": 42.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 38.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 45.2,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 55.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 51
+    },
+    {
      "name": "SAS Institute",
      "slug": "sas",
      "description": "SAS Institute is a global leader in analytics, AI, and data management software. SAS Viya, its cloud-native platform, exposes a comprehensive catalog of REST APIs covering data management, machine learning, decisions, reports, identities, and platform administration. The Viya REST API surface enables embedding analytics, automating model lifecycles, and integrating governed AI into business workflows.",
@@ -2270,7 +2327,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -2295,7 +2352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Analog Devices",
@@ -2313,7 +2370,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
@@ -2338,7 +2395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Ciena",
@@ -2356,7 +2413,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2388,7 +2445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "KPMG",
@@ -2406,7 +2463,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2431,7 +2488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Rapid7",
@@ -2449,7 +2506,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -2474,7 +2531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Dell Technologies",
@@ -2492,7 +2549,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2517,7 +2574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Linear",
@@ -2535,7 +2592,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2560,7 +2617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Western Digital",
@@ -2578,7 +2635,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2603,7 +2660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "NetApp",
@@ -2621,7 +2678,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -2646,7 +2703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     }
    ]
   },
@@ -2674,7 +2731,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2699,7 +2756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "KrakenD",
@@ -2717,7 +2774,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
@@ -2742,7 +2799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Texas Instruments",
@@ -2760,7 +2817,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
@@ -2785,7 +2842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Vertiv",
@@ -2803,7 +2860,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2835,7 +2892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Webull",
@@ -2853,7 +2910,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2885,7 +2942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Univers",
@@ -2903,14 +2960,21 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 40.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -2935,7 +2999,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Samsung",
@@ -2953,7 +3017,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -2978,7 +3042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "TD SYNNEX",
@@ -2996,7 +3060,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -3021,7 +3085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Synopsys",
@@ -3039,7 +3103,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3064,7 +3128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Cadence Design Systems",
@@ -3082,7 +3146,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -3107,7 +3171,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Kurly",
@@ -3125,7 +3189,7 @@
       "developer_ergonomics": 31.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -3150,7 +3214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Delivery Hero",
@@ -3168,7 +3232,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 25.3,
      "agent_band": "agent-aware",
@@ -3193,7 +3257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "FedEx",
@@ -3211,7 +3275,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -3236,7 +3300,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "HTX",
@@ -3254,7 +3318,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3286,7 +3350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Broadcom",
@@ -3304,50 +3368,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 74
-    },
-    {
-     "name": "CommScope Holding",
-     "slug": "commscope-holding",
-     "description": "CommScope is a global provider of communications-network infrastructure, including fiber-optic and copper cabling, antenna systems, and cloud- managed enterprise networking. Following its acquisitions of ARRIS (2019) and the Ruckus Wi-Fi business, CommScope's primary public developer surface is the RUCKUS One API, a JSON REST surface for managing Wi-Fi networks, ICX switches, access points, venues, and managed-service-provider delegation. Companion product lines (RUCKUS Cloud, RUCKUS IoT, ICX RESTCONF, SmartZone, Cloudpath, Unleashed Multi- Site Manager, SmartCell Insight) ship their own REST/RESTCONF APIs and are documented through the CommScope and RUCKUS Networks developer centers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/screenshots/commscope-holding-2026-06-20T174823.png",
-     "score": 32.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 54.8,
-      "contract_governance": 13.6,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3375,22 +3396,22 @@
      "rank": 75
     },
     {
-     "name": "Arrow Electronics",
-     "slug": "arrow-electronics",
-     "description": "Arrow Electronics is a global provider of products, services, and solutions to industrial and commercial users of electronic components and enterprise computing solutions. With over 2,200 suppliers and more than 200,000 customers worldwide, Arrow serves as a vital link in the technology supply chain, enabling the design, manufacture, and operation of electronic components. Arrow provides REST APIs for pricing and availability lookups, order placement, and supply chain automation, enabling distributors, OEMs, and procurement teams to integrate electronic component sourcing directly into their systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/screenshots/arrow-electronics-2026-06-20T172438.png",
-     "score": 32.2,
+     "name": "CommScope Holding",
+     "slug": "commscope-holding",
+     "description": "CommScope is a global provider of communications-network infrastructure, including fiber-optic and copper cabling, antenna systems, and cloud- managed enterprise networking. Following its acquisitions of ARRIS (2019) and the Ruckus Wi-Fi business, CommScope's primary public developer surface is the RUCKUS One API, a JSON REST surface for managing Wi-Fi networks, ICX switches, access points, venues, and managed-service-provider delegation. Companion product lines (RUCKUS Cloud, RUCKUS IoT, ICX RESTCONF, SmartZone, Cloudpath, Unleashed Multi- Site Manager, SmartCell Insight) ship their own REST/RESTCONF APIs and are documented through the CommScope and RUCKUS Networks developer centers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/screenshots/commscope-holding-2026-06-20T174823.png",
+     "score": 32.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 42.9,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 47.6,
+      "discoverability": 59.3,
+      "contract_quality": 54.8,
+      "contract_governance": 13.6,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3418,6 +3439,49 @@
      "rank": 76
     },
     {
+     "name": "Arrow Electronics",
+     "slug": "arrow-electronics",
+     "description": "Arrow Electronics is a global provider of products, services, and solutions to industrial and commercial users of electronic components and enterprise computing solutions. With over 2,200 suppliers and more than 200,000 customers worldwide, Arrow serves as a vital link in the technology supply chain, enabling the design, manufacture, and operation of electronic components. Arrow provides REST APIs for pricing and availability lookups, order placement, and supply chain automation, enabling distributors, OEMs, and procurement teams to integrate electronic component sourcing directly into their systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/screenshots/arrow-electronics-2026-06-20T172438.png",
+     "score": 32.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 42.9,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 47.6,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
+    },
+    {
      "name": "Lobsters",
      "slug": "lobsters",
      "description": "Lobsters is a technology-focused link aggregation and community discussion platform. Its public REST API provides access to stories, comments, tags, and user profiles, returning JSON representations of community-submitted technology links, ranked and filtered by the community.",
@@ -3433,7 +3497,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -3458,7 +3522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Equinix",
@@ -3476,7 +3540,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 35.3,
      "agent_band": "agent-ready",
@@ -3501,7 +3565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "UPS",
@@ -3519,7 +3583,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -3544,7 +3608,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Comcast",
@@ -3562,7 +3626,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.6,
      "agent_band": "agent-aware",
@@ -3587,7 +3651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "GoDaddy",
@@ -3605,7 +3669,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3637,7 +3701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Change Healthcare",
@@ -3655,7 +3719,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3687,7 +3751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "LegalOn",
@@ -3705,7 +3769,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3730,7 +3794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Microcks",
@@ -3748,7 +3812,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -3773,7 +3837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Super Micro Computer",
@@ -3791,7 +3855,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3816,7 +3880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "DHL",
@@ -3834,7 +3898,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
@@ -3859,7 +3923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "42Crunch",
@@ -3877,7 +3941,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -3902,7 +3966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Amphenol",
@@ -3920,7 +3984,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -3945,7 +4009,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Applied Materials",
@@ -3962,7 +4026,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -3987,7 +4051,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "Booking Holdings",
@@ -4005,7 +4069,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -4030,7 +4094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "EcoFlow",
@@ -4048,7 +4112,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4080,7 +4144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Science Museum Group",
@@ -4098,7 +4162,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4130,7 +4194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Ernst & Young (EY)",
@@ -4148,7 +4212,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4173,7 +4237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Palantir",
@@ -4191,7 +4255,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4223,7 +4287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Travelport",
@@ -4241,7 +4305,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4273,7 +4337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     }
    ]
   },
@@ -4301,7 +4365,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4333,7 +4397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "HP",
@@ -4351,7 +4415,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -4376,7 +4440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Qualcomm",
@@ -4394,7 +4458,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -4419,7 +4483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Deloitte",
@@ -4437,7 +4501,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4462,7 +4526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Lenovo",
@@ -4480,7 +4544,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -4505,7 +4569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "National Institute of Standards and Technology",
@@ -4523,7 +4587,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4555,7 +4619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Web Summit",
@@ -4573,7 +4637,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -4598,7 +4662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "CrowdStrike",
@@ -4616,50 +4680,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 103
-    },
-    {
-     "name": "Nvidia",
-     "slug": "nvidia",
-     "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/screenshots/nvidia-2026-06-20T190538.png",
-     "score": 24.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4687,6 +4708,49 @@
      "rank": 104
     },
     {
+     "name": "Nvidia",
+     "slug": "nvidia",
+     "description": "Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/screenshots/nvidia-2026-06-20T190538.png",
+     "score": 24.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 41.5,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 15.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 105
+    },
+    {
      "name": "Intel",
      "slug": "intel",
      "description": "Discover Intel® Trust Authority, the independent attestation service for securing your confidential computing workloads.",
@@ -4702,7 +4766,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -4727,7 +4791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Futu",
@@ -4745,7 +4809,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4777,7 +4841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "ANDPAD",
@@ -4795,7 +4859,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -4820,7 +4884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Nasdaq",
@@ -4838,7 +4902,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 14.0,
      "agent_band": "agent-aware",
@@ -4863,7 +4927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Amkor Technology",
@@ -4881,7 +4945,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4906,7 +4970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Baidu",
@@ -4924,7 +4988,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -4949,7 +5013,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Sony",
@@ -4967,7 +5031,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 1.3,
      "agent_band": "human-only",
@@ -4992,7 +5056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "KaBum!",
@@ -5010,7 +5074,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 5.8,
      "agent_band": "agent-aware",
@@ -5035,7 +5099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Whirlpool Corporation",
@@ -5053,7 +5117,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5078,7 +5142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Vishay Intertechnology",
@@ -5096,7 +5160,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5128,7 +5192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Hackernoon",
@@ -5146,7 +5210,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5171,7 +5235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Peloton",
@@ -5189,7 +5253,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -5214,7 +5278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Honeywell",
@@ -5232,7 +5296,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5257,7 +5321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Accenture",
@@ -5275,7 +5339,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5300,7 +5364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Ziff Davis Enterprise",
@@ -5318,7 +5382,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5343,7 +5407,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Roper Technologies",
@@ -5360,7 +5424,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5392,7 +5456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Thomson Reuters",
@@ -5410,7 +5474,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5435,7 +5499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Bitmain",
@@ -5453,7 +5517,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5478,7 +5542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "CDW",
@@ -5496,7 +5560,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5521,7 +5585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Bosch",
@@ -5539,7 +5603,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5564,7 +5628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "JD Technology",
@@ -5582,7 +5646,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5607,7 +5671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Tamr",
@@ -5625,7 +5689,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5650,7 +5714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Fortinet",
@@ -5668,7 +5732,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5693,7 +5757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "Grover",
@@ -5711,50 +5775,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 128
-    },
-    {
-     "name": "iQIYI",
-     "slug": "iqiyi",
-     "description": "iQIYI is one of China's largest online video streaming and entertainment platforms, delivering movies, TV dramas, variety shows, animation, documentaries, and original content across web, mobile (Android/iOS), and OTT/smart-TV devices. Beyond its consumer service, iQIYI runs a SaaS / OTT developer platform that lets partners launch their own branded streaming service with a RESTful API covering Video, Channel, Album, Search, and Player resources, plus AVOD/SVOD/TVOD monetization, analytics, audience management, and DRM. iQIYI also operates the QIYU XR developer platform for VR/AR device applications and maintains an active open-source GitHub organization. This profile entered the API Evangelist network as a portfolio lead of Hongshan and has been enriched from iQIYI's public developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iqiyi/refs/heads/main/screenshots/iqiyi-2026-07-25T222858.png",
-     "score": 12.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5782,6 +5803,49 @@
      "rank": 129
     },
     {
+     "name": "iQIYI",
+     "slug": "iqiyi",
+     "description": "iQIYI is one of China's largest online video streaming and entertainment platforms, delivering movies, TV dramas, variety shows, animation, documentaries, and original content across web, mobile (Android/iOS), and OTT/smart-TV devices. Beyond its consumer service, iQIYI runs a SaaS / OTT developer platform that lets partners launch their own branded streaming service with a RESTful API covering Video, Channel, Album, Search, and Player resources, plus AVOD/SVOD/TVOD monetization, analytics, audience management, and DRM. iQIYI also operates the QIYU XR developer platform for VR/AR device applications and maintains an active open-source GitHub organization. This profile entered the API Evangelist network as a portfolio lead of Hongshan and has been enriched from iQIYI's public developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iqiyi/refs/heads/main/screenshots/iqiyi-2026-07-25T222858.png",
+     "score": 12.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 130
+    },
+    {
      "name": "Linux Foundation",
      "slug": "linux-foundation",
      "description": "The Linux Foundation is a nonprofit technology consortium that supports open source projects and ecosystems. It provides a neutral home for collaboration on open source software, hardware, standards, and data, and hosts hundreds of projects including the Linux kernel, Kubernetes, Node.js, PyTorch, OpenSSF, CNCF, RISC-V, and FINOS. The LFX platform offers tooling and insights for open source contributors and member organizations.",
@@ -5797,7 +5861,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5822,7 +5886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Collibra",
@@ -5840,7 +5904,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5865,7 +5929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Cubic Corporation",
@@ -5883,7 +5947,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5908,7 +5972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Xpeng",
@@ -5926,7 +5990,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5951,7 +6015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "xTool",
@@ -5969,7 +6033,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -5994,7 +6058,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Robert Half International",
@@ -6012,7 +6076,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6037,7 +6101,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Sykes Enterprises",
@@ -6055,50 +6119,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 136
-    },
-    {
-     "name": "TTEC Holdings",
-     "slug": "teletech",
-     "description": "TTEC Holdings is a major US corporation and Fortune 1000 company. The TTEC Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teletech/refs/heads/main/screenshots/teletech-2026-06-20T195045.png",
-     "score": 11.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6126,21 +6147,22 @@
      "rank": 137
     },
     {
-     "name": "EPAM Systems",
-     "slug": "epam-systems",
-     "description": "EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "score": 11.5,
+     "name": "TTEC Holdings",
+     "slug": "teletech",
+     "description": "TTEC Holdings is a major US corporation and Fortune 1000 company. The TTEC Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teletech/refs/heads/main/screenshots/teletech-2026-06-20T195045.png",
+     "score": 11.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6168,6 +6190,48 @@
      "rank": 138
     },
     {
+     "name": "EPAM Systems",
+     "slug": "epam-systems",
+     "description": "EPAM Systems is a major US corporation and Fortune 1000 company. The EPAM Systems API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "score": 11.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 139
+    },
+    {
      "name": "KLA",
      "slug": "kla-tencor",
      "description": "KLA Corporation (formerly KLA-Tencor) is a leader in process control and process-enabling solutions for manufacturing wafers and reticles, integrated circuits, packaging, printed circuit boards and flat panel displays. KLA delivers advanced inspection tools, metrology systems, and computational analytics for the semiconductor industry. KLA does not publish a public developer portal or open API program; customer-facing software and tool APIs are provided to KLA customers under contract and are not publicly available.",
@@ -6183,50 +6247,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 139
-    },
-    {
-     "name": "Segway-Ninebot",
-     "slug": "segway-ninebot",
-     "description": "Segway-Ninebot is a global personal-transportation and robotics company, formed when Ninebot acquired Segway in 2015. It designs and manufactures electric kickscooters (the world's top-selling e-kickscooter brand, 13M+ units sold across 100+ countries), self-balancing personal transporters, e-bikes, and — through its Robotics division — RMP mobile-robot chassis and delivery/service robots (Nova Carter, NVIDIA Isaac-powered developer kits). Backed by HongShan. Its public developer surface is limited to Segway Robotics' open-source ROS / NVIDIA Isaac integration packages on GitHub; no first-party REST or OpenAPI product API is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/segway-ninebot/refs/heads/main/screenshots/segway-ninebot-2026-09-02T154803.png",
-     "score": 11.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6254,6 +6275,49 @@
      "rank": 140
     },
     {
+     "name": "Segway-Ninebot",
+     "slug": "segway-ninebot",
+     "description": "Segway-Ninebot is a global personal-transportation and robotics company, formed when Ninebot acquired Segway in 2015. It designs and manufactures electric kickscooters (the world's top-selling e-kickscooter brand, 13M+ units sold across 100+ countries), self-balancing personal transporters, e-bikes, and — through its Robotics division — RMP mobile-robot chassis and delivery/service robots (Nova Carter, NVIDIA Isaac-powered developer kits). Backed by HongShan. Its public developer surface is limited to Segway Robotics' open-source ROS / NVIDIA Isaac integration packages on GitHub; no first-party REST or OpenAPI product API is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/segway-ninebot/refs/heads/main/screenshots/segway-ninebot-2026-09-02T154803.png",
+     "score": 11.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 141
+    },
+    {
      "name": "Collision (now Web Summit Vancouver)",
      "slug": "collision",
      "description": "Collision was the major annual North American technology conference organized by Web Summit, held in Toronto from 2019 through 2024 and widely dubbed the \"Olympics of Tech.\" Beginning in 2025, the event was relocated to the Vancouver Convention Centre and rebranded as Web Summit Vancouver, aligning with the global Web Summit family (Lisbon, Rio, Doha, Qatar). Web Summit Vancouver is contracted through at least 2027 and was held May 27-30, 2025; Web Summit Vancouver 2026 is scheduled for May 11-14, 2026. The Collision brand is retired but this profile is preserved for historical reference. Collision/Web Summit does not publish a public developer REST API; the conference operates speaker, partner, attendee, and press portals.",
@@ -6269,7 +6333,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6294,7 +6358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "R1 RCM",
@@ -6312,7 +6376,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6344,7 +6408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Agile Robots",
@@ -6362,7 +6426,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6387,7 +6451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Conduent",
@@ -6405,7 +6469,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6430,7 +6494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     }
    ]
   },
@@ -6439,8 +6503,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 71,
-   "shown": 71,
+   "count": 70,
+   "shown": 70,
    "providers": [
     {
      "name": "B612",
@@ -6458,50 +6522,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 145
-    },
-    {
-     "name": "Leapmotor",
-     "slug": "leapmotor",
-     "description": "Leapmotor (Zhejiang Leapmotor Technology Co., Ltd., HKEX: 9863) is a Chinese intelligent electric vehicle manufacturer founded in 2015 and headquartered in Hangzhou, China, which sold its first vehicles in 2019. Leapmotor designs and builds battery-electric and range-extended (REEV) passenger vehicles — including the T03 city car and the B03X, B05, B10 and C10 SUVs — on its own vertically integrated LEAP platform, developing its electric drive, battery, and intelligent cockpit and driving systems in house. Stellantis took a stake in the company in 2023 and, through the Leapmotor International joint venture, distributes Leapmotor vehicles across Europe and other export markets via leapmotor.net. Leapmotor operates connected-vehicle services — the Leapmotor mobile app, OTA software updates, and the Leapmotor Connected Experience — but publishes no public developer API program, developer portal, or API documentation; the vehicle cloud interfaces used by its mobile app are private and only reached through unofficial, reverse-engineered community clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leapmotor/refs/heads/main/screenshots/leapmotor-2026-08-07T171530.png",
-     "score": 10.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6529,65 +6550,22 @@
      "rank": 146
     },
     {
-     "name": "Aptiv",
-     "slug": "aptiv",
-     "description": "Aptiv is a major US corporation and Fortune 1000 company. The Aptiv API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aptiv/refs/heads/main/screenshots/aptiv-2026-06-20T172341.png",
-     "score": 10.6,
+     "name": "Leapmotor",
+     "slug": "leapmotor",
+     "description": "Leapmotor (Zhejiang Leapmotor Technology Co., Ltd., HKEX: 9863) is a Chinese intelligent electric vehicle manufacturer founded in 2015 and headquartered in Hangzhou, China, which sold its first vehicles in 2019. Leapmotor designs and builds battery-electric and range-extended (REEV) passenger vehicles — including the T03 city car and the B03X, B05, B10 and C10 SUVs — on its own vertically integrated LEAP platform, developing its electric drive, battery, and intelligent cockpit and driving systems in house. Stellantis took a stake in the company in 2023 and, through the Leapmotor International joint venture, distributes Leapmotor vehicles across Europe and other export markets via leapmotor.net. Leapmotor operates connected-vehicle services — the Leapmotor mobile app, OTA software updates, and the Leapmotor Connected Experience — but publishes no public developer API program, developer portal, or API documentation; the vehicle cloud interfaces used by its mobile app are private and only reached through unofficial, reverse-engineered community clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leapmotor/refs/heads/main/screenshots/leapmotor-2026-08-07T171530.png",
+     "score": 10.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 147
-    },
-    {
-     "name": "Marlin Equity Partners",
-     "slug": "marlinequity",
-     "description": "Marlin Equity Partners (marlinequity.com) is a global investment firm founded in 2005 and headquartered in Hermosa Beach, California, with an additional office in London. The firm acquires and builds software and technology businesses, partnering with management teams to create strategic value through operational support, organic growth, and add-on acquisitions, with particular focus on financial technology and e-commerce segments. Its portfolio has included companies such as Bazaarvoice, Medius, StarCompliance, Exegy, and Learning Pool. This profile was surfaced as a portfolio-network lead and enriched by the API Evangelist pipeline; as a private equity investor rather than a technology service provider, Marlin publishes no public API, developer portal, or technical documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marlinequity/refs/heads/main/screenshots/marlinequity-2026-07-25T230248.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6612,25 +6590,68 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
-     "name": "Skyworks Solutions",
-     "slug": "skyworks-solutions",
-     "description": "Skyworks Solutions, Inc. is an American semiconductor company headquartered in Irvine, California that designs, develops, and markets proprietary semiconductor products for wireless communications, automotive, broadband, connected home, industrial, defense, and consumer electronics applications. Skyworks is a leading provider of analog and mixed-signal semiconductors, with dominant market share in 5G RF front-end modules (35% market share). Products span amplifiers, filters, front-end modules, isolators, switches, and power management ICs serving mobile, automotive, IoT, and infrastructure markets. The company does not publish a public developer API but provides datasheets, evaluation tools, and design resources for hardware engineers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skyworks-solutions/refs/heads/main/screenshots/skyworks-solutions-2026-06-20T194022.png",
-     "score": 10.3,
+     "name": "Aptiv",
+     "slug": "aptiv",
+     "description": "Aptiv is a major US corporation and Fortune 1000 company. The Aptiv API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aptiv/refs/heads/main/screenshots/aptiv-2026-06-20T172341.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 6.7,
-      "contract_governance": 15.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 148
+    },
+    {
+     "name": "Marlin Equity Partners",
+     "slug": "marlinequity",
+     "description": "Marlin Equity Partners (marlinequity.com) is a global investment firm founded in 2005 and headquartered in Hermosa Beach, California, with an additional office in London. The firm acquires and builds software and technology businesses, partnering with management teams to create strategic value through operational support, organic growth, and add-on acquisitions, with particular focus on financial technology and e-commerce segments. Its portfolio has included companies such as Bazaarvoice, Medius, StarCompliance, Exegy, and Learning Pool. This profile was surfaced as a portfolio-network lead and enriched by the API Evangelist pipeline; as a private equity investor rather than a technology service provider, Marlin publishes no public API, developer portal, or technical documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marlinequity/refs/heads/main/screenshots/marlinequity-2026-07-25T230248.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6658,22 +6679,22 @@
      "rank": 149
     },
     {
-     "name": "Guazi",
-     "slug": "guazi",
-     "description": "Guazi is a China-based used-car export, auction, and trading platform founded in 2015 and headquartered in Beijing. It connects international dealers and buyers with used vehicles sourced across China, offering sealed-bid online auctions, Buy It Now direct sales, a 200-plus-point vehicle inspection process, direct sourcing on request, and global logistics shipping to more than 50 countries via container and Ro-Ro. Backed by SoftBank Vision Fund, HongShan (Sequoia China), and Tencent, Guazi handles over 200,000 vehicles annually. This API Evangelist profile currently tracks the company's public web presence; no public developer program, API, or SDK has been found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guazi/refs/heads/main/screenshots/guazi-2026-07-25T220422.png",
-     "score": 10.2,
+     "name": "Skyworks Solutions",
+     "slug": "skyworks-solutions",
+     "description": "Skyworks Solutions, Inc. is an American semiconductor company headquartered in Irvine, California that designs, develops, and markets proprietary semiconductor products for wireless communications, automotive, broadband, connected home, industrial, defense, and consumer electronics applications. Skyworks is a leading provider of analog and mixed-signal semiconductors, with dominant market share in 5G RF front-end modules (35% market share). Products span amplifiers, filters, front-end modules, isolators, switches, and power management ICs serving mobile, automotive, IoT, and infrastructure markets. The company does not publish a public developer API but provides datasheets, evaluation tools, and design resources for hardware engineers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skyworks-solutions/refs/heads/main/screenshots/skyworks-solutions-2026-06-20T194022.png",
+     "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
+      "contract_quality": 6.7,
+      "contract_governance": 15.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6701,11 +6722,11 @@
      "rank": 150
     },
     {
-     "name": "Cheddar",
-     "slug": "cheddar",
-     "description": "Cheddar is a business and technology news media company producing live and on-demand video, articles, and newsletters covering financial markets, technology, innovation, entrepreneurship, and culture for a modern digital audience. Founded as a millennial-focused financial news network and backed by Lightspeed Venture Partners, Ribbit Capital, Comcast Ventures, and Altice USA, Cheddar streams programming such as Opening Bell, Big Business This Week, and NYSE TV Live across its website, connected-TV apps, and social platforms. It operates as a digital media and content publisher rather than an API or developer-platform company; this profile tracks Cheddar within the API Evangelist network and carries no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheddar/refs/heads/main/screenshots/cheddar-2026-07-25T205135.png",
-     "score": 9.7,
+     "name": "Guazi",
+     "slug": "guazi",
+     "description": "Guazi is a China-based used-car export, auction, and trading platform founded in 2015 and headquartered in Beijing. It connects international dealers and buyers with used vehicles sourced across China, offering sealed-bid online auctions, Buy It Now direct sales, a 200-plus-point vehicle inspection process, direct sourcing on request, and global logistics shipping to more than 50 countries via container and Ro-Ro. Backed by SoftBank Vision Fund, HongShan (Sequoia China), and Tencent, Guazi handles over 200,000 vehicles annually. This API Evangelist profile currently tracks the company's public web presence; no public developer program, API, or SDK has been found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guazi/refs/heads/main/screenshots/guazi-2026-07-25T220422.png",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6713,10 +6734,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6744,22 +6765,22 @@
      "rank": 151
     },
     {
-     "name": "Belden",
-     "slug": "belden",
-     "description": "Belden Inc. designs, manufactures, and markets networking, connectivity, and cable products and solutions for industrial automation, smart buildings, and broadcast markets. The company delivers end-to-end signal transmission solutions for mission-critical applications, including industrial Ethernet infrastructure, cybersecurity, and IIoT connectivity. Belden's Hirschmann brand is a leading provider of industrial network switches and management software with CLI, SNMP, and REST API interfaces for network device management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/belden/refs/heads/main/screenshots/belden-2026-06-20T173137.png",
-     "score": 9.6,
+     "name": "Cheddar",
+     "slug": "cheddar",
+     "description": "Cheddar is a business and technology news media company producing live and on-demand video, articles, and newsletters covering financial markets, technology, innovation, entrepreneurship, and culture for a modern digital audience. Founded as a millennial-focused financial news network and backed by Lightspeed Venture Partners, Ribbit Capital, Comcast Ventures, and Altice USA, Cheddar streams programming such as Opening Bell, Big Business This Week, and NYSE TV Live across its website, connected-TV apps, and social platforms. It operates as a digital media and content publisher rather than an API or developer-platform company; this profile tracks Cheddar within the API Evangelist network and carries no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheddar/refs/heads/main/screenshots/cheddar-2026-07-25T205135.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 10.7,
+      "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
+      "developer_ergonomics": 2.4,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6787,6 +6808,49 @@
      "rank": 152
     },
     {
+     "name": "Belden",
+     "slug": "belden",
+     "description": "Belden Inc. designs, manufactures, and markets networking, connectivity, and cable products and solutions for industrial automation, smart buildings, and broadcast markets. The company delivers end-to-end signal transmission solutions for mission-critical applications, including industrial Ethernet infrastructure, cybersecurity, and IIoT connectivity. Belden's Hirschmann brand is a leading provider of industrial network switches and management software with CLI, SNMP, and REST API interfaces for network device management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/belden/refs/heads/main/screenshots/belden-2026-06-20T173137.png",
+     "score": 9.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 10.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 153
+    },
+    {
      "name": "Corning",
      "slug": "corning",
      "description": "Corning Incorporated is a Fortune 500 American technology company that specializes in glass science, ceramic science, and optical physics. Founded in 1851, Corning manufactures specialty glass, ceramics, and related materials and technologies for industrial and scientific applications. Corning's businesses include Optical Communications (fiber optic cable and hardware), Display Technologies (LCD and OLED glass substrates), Specialty Materials (Gorilla Glass for mobile devices), Environmental Technologies (ceramic substrates and filters for emissions control), and Life Sciences (laboratory glassware, cell culture, and bioprocess products). Corning does not publish a public developer API.",
@@ -6802,7 +6866,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6834,7 +6898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "MEQ Solutions",
@@ -6852,50 +6916,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 154
-    },
-    {
-     "name": "Blavity",
-     "slug": "blavity",
-     "description": "Blavity Inc. is a Black-owned digital media and technology company founded in 2014 by Morgan DeBaun, operating a portfolio of premium content brands and events for Black millennials and Gen Z around culture, technology, travel, and lifestyle. Its properties include Blavity.com (news and culture), AfroTech (the largest Black tech conference and media brand), Travel Noire (travel), Shadow and Act (film and entertainment), and 21Ninety (women's lifestyle). Blavity Inc. monetizes through advertising, branded content, events, and its Blavity Media Group agency. It is a privately held company backed by investors including 500 Global and GV, and does not currently publish a public developer API, developer portal, or machine-readable API specifications. This profile tracks Blavity as a company in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blavity/refs/heads/main/screenshots/blavity-2026-07-25T203302.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6923,10 +6944,10 @@
      "rank": 155
     },
     {
-     "name": "Business Insider",
-     "slug": "business-insider",
-     "description": "Business Insider is a global business and financial news media company founded in 2007 and headquartered in New York City, operating as part of Axel Springer. It publishes fast-paced coverage of markets, technology, finance, the economy, retail, media, and careers across its flagship Business Insider brand and verticals such as Markets Insider. The organization was surfaced in the API Evangelist network as a portfolio company of the venture firm IVP. It operates consumer news properties and content syndication feeds rather than a public developer API program, so this profile tracks its public web presence and domain security posture rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/business-insider/refs/heads/main/screenshots/business-insider-2026-07-25T204115.png",
+     "name": "Blavity",
+     "slug": "blavity",
+     "description": "Blavity Inc. is a Black-owned digital media and technology company founded in 2014 by Morgan DeBaun, operating a portfolio of premium content brands and events for Black millennials and Gen Z around culture, technology, travel, and lifestyle. Its properties include Blavity.com (news and culture), AfroTech (the largest Black tech conference and media brand), Travel Noire (travel), Shadow and Act (film and entertainment), and 21Ninety (women's lifestyle). Blavity Inc. monetizes through advertising, branded content, events, and its Blavity Media Group agency. It is a privately held company backed by investors including 500 Global and GV, and does not currently publish a public developer API, developer portal, or machine-readable API specifications. This profile tracks Blavity as a company in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blavity/refs/heads/main/screenshots/blavity-2026-07-25T203302.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6938,7 +6959,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6966,22 +6987,22 @@
      "rank": 156
     },
     {
-     "name": "Emerson Electric",
-     "slug": "emerson-electric",
-     "description": "Emerson Electric is a Fortune 500 global automation leader with more than 135 years of innovation history. Its portfolio spans automation systems, discrete automation, final control, measurement instrumentation, and test and measurement, marketed through brands such as Fisher, Rosemount, DeltaV, Micro Motion, ASCO, Bettis, PACSystems, Flexim, and NI. Emerson serves industries including power, oil and gas, chemical, life sciences, food and beverage, automotive, data centers, mining, and marine. This repository captures the public APIs, developer resources, and machine-readable artifacts associated with Emerson Electric.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/screenshots/emerson-electric-2026-06-20T180635.png",
-     "score": 9.0,
+     "name": "Business Insider",
+     "slug": "business-insider",
+     "description": "Business Insider is a global business and financial news media company founded in 2007 and headquartered in New York City, operating as part of Axel Springer. It publishes fast-paced coverage of markets, technology, finance, the economy, retail, media, and careers across its flagship Business Insider brand and verticals such as Markets Insider. The organization was surfaced in the API Evangelist network as a portfolio company of the venture firm IVP. It operates consumer news properties and content syndication feeds rather than a public developer API program, so this profile tracks its public web presence and domain security posture rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/business-insider/refs/heads/main/screenshots/business-insider-2026-07-25T204115.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 14.7,
+      "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7009,6 +7030,49 @@
      "rank": 157
     },
     {
+     "name": "Emerson Electric",
+     "slug": "emerson-electric",
+     "description": "Emerson Electric is a Fortune 500 global automation leader with more than 135 years of innovation history. Its portfolio spans automation systems, discrete automation, final control, measurement instrumentation, and test and measurement, marketed through brands such as Fisher, Rosemount, DeltaV, Micro Motion, ASCO, Bettis, PACSystems, Flexim, and NI. Emerson serves industries including power, oil and gas, chemical, life sciences, food and beverage, automotive, data centers, mining, and marine. This repository captures the public APIs, developer resources, and machine-readable artifacts associated with Emerson Electric.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emerson-electric/refs/heads/main/screenshots/emerson-electric-2026-06-20T180635.png",
+     "score": 9.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 14.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 158
+    },
+    {
      "name": "Maximus",
      "slug": "maximus",
      "description": "Maximus is a major US corporation and Fortune 1000 company. The Maximus API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
@@ -7024,7 +7088,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7056,7 +7120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Woowa Brothers",
@@ -7073,7 +7137,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -7098,7 +7162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "CohnReznick",
@@ -7116,7 +7180,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7148,7 +7212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Pool",
@@ -7166,7 +7230,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7198,7 +7262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "ThatGameCompany",
@@ -7216,49 +7280,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 162
-    },
-    {
-     "name": "CMC Materials",
-     "slug": "cmc-materials",
-     "description": "CMC Materials is a global supplier of consumable materials primarily to the semiconductor industry, including chemical mechanical planarization (CMP) slurries and polishing pads. Acquired by Entegris in 2022, CMC's materials portfolio is now part of the Entegris specialty chemicals and CMP solutions business, serving semiconductor manufacturers through advanced materials and process technologies.",
-     "score": 8.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7286,65 +7308,21 @@
      "rank": 163
     },
     {
-     "name": "Dewu (POIZON)",
-     "slug": "dewu-poizon",
-     "description": "Dewu (POIZON) is a leading Chinese online marketplace for sneakers, streetwear, luxury goods, and collectibles, distinguished by its integrated product authentication (legit-check) service that verifies items before they ship to buyers. Operated by Shanghai-based Poizon and backed by Hongshan (formerly Sequoia China), it runs both the domestic Dewu (得物) app and the global POIZON marketplace. For developers it operates the POIZON / Dewu Open Platform (open.poizon.com and open.dewu.com), a partner program that lets sellers, ISVs, and ERP integrators connect to the marketplace over an app-key plus request-signature authenticated API covering product data, pricing, catalog search, delivery modes, and vendor information.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dewu-poizon/refs/heads/main/screenshots/dewu-poizon-2026-07-25T211934.png",
-     "score": 8.1,
+     "name": "CMC Materials",
+     "slug": "cmc-materials",
+     "description": "CMC Materials is a global supplier of consumable materials primarily to the semiconductor industry, including chemical mechanical planarization (CMP) slurries and polishing pads. Acquired by Entegris in 2022, CMC's materials portfolio is now part of the Entegris specialty chemicals and CMP solutions business, serving semiconductor manufacturers through advanced materials and process technologies.",
+     "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 164
-    },
-    {
-     "name": "MKS Instruments",
-     "slug": "mks-instruments",
-     "description": "MKS Instruments is a global provider of foundational technology solutions for semiconductor manufacturing, electronics and packaging, and specialty industrial markets. Its product portfolio spans vacuum and gas delivery systems, photonics, lasers, optics, motion control, and process control. No public developer API or developer portal has been identified at the corporate level; technical integration is typically handled through product-level documentation, sales engineering, and partner channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mks-instruments/refs/heads/main/screenshots/mks-instruments-2026-06-20T185623.png",
-     "score": 8.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 14.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7369,14 +7347,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
-     "name": "Meituan",
-     "slug": "meituan",
-     "description": "Meituan (美团) is a Chinese technology-retail company operating one of the world's largest on-demand local-services and food-delivery super-apps. Its platform spans restaurant food delivery, in-store dining and group buying (Dianping), grocery and instant retail, hotel and travel booking, bike and moped sharing, and payments. Meituan runs a partner/developer cooperation center exposing merchant, delivery/logistics, and local-services integration APIs to business partners; these are partner-gated and documented in Chinese, with no public OpenAPI specification, SDK registry, or self-serve developer signup surfaced at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meituan/refs/heads/main/screenshots/meituan-2026-08-07T172447.png",
-     "score": 7.6,
+     "name": "Dewu (POIZON)",
+     "slug": "dewu-poizon",
+     "description": "Dewu (POIZON) is a leading Chinese online marketplace for sneakers, streetwear, luxury goods, and collectibles, distinguished by its integrated product authentication (legit-check) service that verifies items before they ship to buyers. Operated by Shanghai-based Poizon and backed by Hongshan (formerly Sequoia China), it runs both the domestic Dewu (得物) app and the global POIZON marketplace. For developers it operates the POIZON / Dewu Open Platform (open.poizon.com and open.dewu.com), a partner program that lets sellers, ISVs, and ERP integrators connect to the marketplace over an app-key plus request-signature authenticated API covering product data, pricing, catalog search, delivery modes, and vendor information.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dewu-poizon/refs/heads/main/screenshots/dewu-poizon-2026-07-25T211934.png",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -7384,10 +7362,53 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 165
+    },
+    {
+     "name": "MKS Instruments",
+     "slug": "mks-instruments",
+     "description": "MKS Instruments is a global provider of foundational technology solutions for semiconductor manufacturing, electronics and packaging, and specialty industrial markets. Its product portfolio spans vacuum and gas delivery systems, photonics, lasers, optics, motion control, and process control. No public developer API or developer portal has been identified at the corporate level; technical integration is typically handled through product-level documentation, sales engineering, and partner channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mks-instruments/refs/heads/main/screenshots/mks-instruments-2026-06-20T185623.png",
+     "score": 8.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 14.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7415,22 +7436,22 @@
      "rank": 166
     },
     {
-     "name": "RIVR",
-     "slug": "rivr",
-     "description": "RIVR (RIVR Technologies AG, formerly Swiss-Mile) is a Swiss robotics and AI company spun out of ETH Zurich that develops autonomous legged-wheeled robots for doorstep delivery across parcel, grocery, and instant food/convenience segments. RIVR pursues \"General Physical AI\" by combining large-scale reinforcement learning in simulation with real-world self-supervised learning from live delivery operations, owning the full stack from software to hardware for reliability, safety, and cost efficiency. The company operates commercial deployments with partners including Just Eat Takeaway.com, Swiss Post, Migros Online, Evri, and Veho, and is backed by investors including Hongshan and Bezos Expeditions. This profile is maintained as an API Evangelist network company record; RIVR publishes no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rivr/refs/heads/main/screenshots/rivr-2026-09-02T153938.png",
+     "name": "Meituan",
+     "slug": "meituan",
+     "description": "Meituan (美团) is a Chinese technology-retail company operating one of the world's largest on-demand local-services and food-delivery super-apps. Its platform spans restaurant food delivery, in-store dining and group buying (Dianping), grocery and instant retail, hotel and travel booking, bike and moped sharing, and payments. Meituan runs a partner/developer cooperation center exposing merchant, delivery/logistics, and local-services integration APIs to business partners; these are partner-gated and documented in Chinese, with no public OpenAPI specification, SDK registry, or self-serve developer signup surfaced at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meituan/refs/heads/main/screenshots/meituan-2026-08-07T172447.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7458,11 +7479,11 @@
      "rank": 167
     },
     {
-     "name": "Beike",
-     "slug": "beike",
-     "description": "Beike (KE Holdings Inc.) is China's largest integrated online-and-offline platform for housing transactions and services, connecting home buyers, sellers, renters, and real estate agents. It operates the Beike (贝壳) platform and the Lianjia (链家) brokerage brand, along with businesses spanning existing-home and new-home transactions, home rentals, and home renovation and furnishing. Its Agent Cooperation Network (ACN) lets brokerages and agents share listings and commissions across a standardized workflow. KE Holdings is dual-listed on the New York Stock Exchange (NYSE: BEKE) and the Hong Kong Stock Exchange (HKEX: 2423) and is headquartered in Beijing. This API Evangelist profile was created from venture-portfolio sourcing and enriched via the pipeline; Beike operates consumer-facing housing web and mobile properties and does not currently publish a public developer API program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/beike/refs/heads/main/screenshots/beike-2026-07-25T202712.png",
-     "score": 7.1,
+     "name": "RIVR",
+     "slug": "rivr",
+     "description": "RIVR (RIVR Technologies AG, formerly Swiss-Mile) is a Swiss robotics and AI company spun out of ETH Zurich that develops autonomous legged-wheeled robots for doorstep delivery across parcel, grocery, and instant food/convenience segments. RIVR pursues \"General Physical AI\" by combining large-scale reinforcement learning in simulation with real-world self-supervised learning from live delivery operations, owning the full stack from software to hardware for reliability, safety, and cost efficiency. The company operates commercial deployments with partners including Just Eat Takeaway.com, Swiss Post, Migros Online, Evri, and Veho, and is backed by investors including Hongshan and Bezos Expeditions. This profile is maintained as an API Evangelist network company record; RIVR publishes no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rivr/refs/heads/main/screenshots/rivr-2026-09-02T153938.png",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -7470,10 +7491,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7501,6 +7522,49 @@
      "rank": 168
     },
     {
+     "name": "Beike",
+     "slug": "beike",
+     "description": "Beike (KE Holdings Inc.) is China's largest integrated online-and-offline platform for housing transactions and services, connecting home buyers, sellers, renters, and real estate agents. It operates the Beike (贝壳) platform and the Lianjia (链家) brokerage brand, along with businesses spanning existing-home and new-home transactions, home rentals, and home renovation and furnishing. Its Agent Cooperation Network (ACN) lets brokerages and agents share listings and commissions across a standardized workflow. KE Holdings is dual-listed on the New York Stock Exchange (NYSE: BEKE) and the Hong Kong Stock Exchange (HKEX: 2423) and is headquartered in Beijing. This API Evangelist profile was created from venture-portfolio sourcing and enriched via the pipeline; Beike operates consumer-facing housing web and mobile properties and does not currently publish a public developer API program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/beike/refs/heads/main/screenshots/beike-2026-07-25T202712.png",
+     "score": 7.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 169
+    },
+    {
      "name": "Digg",
      "slug": "digg",
      "description": "Digg is a technology news aggregation and community curation platform, relaunched under new ownership and backed by Andreessen Horowitz (a16z) and True Ventures. It surfaces trending stories, discussions, and video signals drawn largely from X/Twitter, ranking them by community engagement and editorial signals. The platform tracks contributor rankings, rising stories, today's highlights, and GitHub repository activity, positioning itself as an AI-assisted discovery hub for technology, startups, and AI news. As surfaced here, Digg is a consumer web product with no public developer API, SDKs, or documentation; this profile captures its identity and web/domain-security posture for the API Evangelist network.",
@@ -7516,7 +7580,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -7541,7 +7605,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "CHINT",
@@ -7559,7 +7623,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7591,7 +7655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "PwC (PricewaterhouseCoopers)",
@@ -7609,50 +7673,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 171
-    },
-    {
-     "name": "Market Vibe",
-     "slug": "market-vibe",
-     "description": "MarketVibe (marketvibe.com) is a finance and technology news blog that publishes ongoing coverage under the tagline \"The Financial Status of the World\" — market trends, startup funding, and developer-focused technology news (for example, recurring roundups of Replit funding talks, feature releases, and AI developments). It is a WordPress.com / Newspack-hosted publication organized into Tech, Finance, and Lifestyle categories, offering articles and an RSS feed rather than a developer API product. It was surfaced as a 500 Global portfolio lead and added to the API Evangelist network; enrichment found a content/media site with no product API surface (only the default WordPress REST API at /wp-json/).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/market-vibe/refs/heads/main/screenshots/market-vibe-2026-07-25T230213.png",
-     "score": 6.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7680,22 +7701,22 @@
      "rank": 172
     },
     {
-     "name": "Avnet",
-     "slug": "avnet",
-     "description": "Avnet is a global technology distributor and solutions provider that delivers electronic components, embedded solutions, and design and supply chain services to industrial and commercial customers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/screenshots/avnet-2026-07-25T202003.png",
-     "score": 6.3,
+     "name": "Market Vibe",
+     "slug": "market-vibe",
+     "description": "MarketVibe (marketvibe.com) is a finance and technology news blog that publishes ongoing coverage under the tagline \"The Financial Status of the World\" — market trends, startup funding, and developer-focused technology news (for example, recurring roundups of Replit funding talks, feature releases, and AI developments). It is a WordPress.com / Newspack-hosted publication organized into Tech, Finance, and Lifestyle categories, offering articles and an RSS feed rather than a developer API product. It was surfaced as a 500 Global portfolio lead and added to the API Evangelist network; enrichment found a content/media site with no product API surface (only the default WordPress REST API at /wp-json/).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/market-vibe/refs/heads/main/screenshots/market-vibe-2026-07-25T230213.png",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 9.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7723,6 +7744,49 @@
      "rank": 173
     },
     {
+     "name": "Avnet",
+     "slug": "avnet",
+     "description": "Avnet is a global technology distributor and solutions provider that delivers electronic components, embedded solutions, and design and supply chain services to industrial and commercial customers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avnet/refs/heads/main/screenshots/avnet-2026-07-25T202003.png",
+     "score": 6.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 174
+    },
+    {
      "name": "BYD",
      "slug": "byd",
      "description": "BYD Company Ltd. is a Chinese multinational manufacturing conglomerate headquartered in Shenzhen, founded in 1995 by Wang Chuanfu and publicly listed in Hong Kong (1211) and Shenzhen (002594). Originally a rechargeable-battery maker, BYD has grown into one of the world's largest producers of new-energy vehicles (battery-electric and plug-in hybrid cars, buses, and trucks), power batteries (including the Blade Battery), consumer and automotive electronics, rail transit systems (SkyRail/SkyShuttle), forklifts, and solar and energy-storage products. It was surfaced as a portfolio company of hongshan and added to the API Evangelist network for enrichment; BYD is a hardware and manufacturing company and does not publish a public developer or API program.",
@@ -7738,7 +7802,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7770,7 +7834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Marvell Technology",
@@ -7788,50 +7852,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 175
-    },
-    {
-     "name": "MUSINSA",
-     "slug": "musinsa",
-     "description": "MUSINSA is South Korea's leading online fashion platform, founded in 2001 by Cho Man-ho as a streetwear community and now operating a marketplace that connects more than 10,000 brands with over 16 million members. The company reported roughly USD 3.3 billion in GMV and USD 907 million in revenue for 2024, returned to operating profit, and is pursuing a KOSPI IPO. MUSINSA runs domestic and global storefronts (musinsa.com, global.musinsa.com), a partner/seller program for K-fashion brands, and an engineering organization that publishes on the MUSINSA tech blog. It has raised funding from investors including KKR, Sequoia/Peak XV (formerly Sequoia Capital China / HongShan) and IMM Investment. No genuine public product/developer API or OpenAPI-backed developer portal was found during enrichment; a corporate CMS Swagger UI at dev-api.corp.musinsa.com is an internal tool (its public spec still points at the Swagger petstore demo), so this profile captures company identity and domain-security posture only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/musinsa/refs/heads/main/screenshots/musinsa-2026-08-07T184449.png",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7859,22 +7880,22 @@
      "rank": 176
     },
     {
-     "name": "Meta Platforms",
-     "slug": "meta-platforms",
-     "description": "Meta Platforms is a multinational technology conglomerate that builds technologies that help people connect, find communities, and grow businesses, including Facebook, Instagram, WhatsApp, Messenger, and Reality Labs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta-platforms/refs/heads/main/screenshots/meta-platforms-2026-06-20T185237.png",
-     "score": 5.7,
+     "name": "MUSINSA",
+     "slug": "musinsa",
+     "description": "MUSINSA is South Korea's leading online fashion platform, founded in 2001 by Cho Man-ho as a streetwear community and now operating a marketplace that connects more than 10,000 brands with over 16 million members. The company reported roughly USD 3.3 billion in GMV and USD 907 million in revenue for 2024, returned to operating profit, and is pursuing a KOSPI IPO. MUSINSA runs domestic and global storefronts (musinsa.com, global.musinsa.com), a partner/seller program for K-fashion brands, and an engineering organization that publishes on the MUSINSA tech blog. It has raised funding from investors including KKR, Sequoia/Peak XV (formerly Sequoia Capital China / HongShan) and IMM Investment. No genuine public product/developer API or OpenAPI-backed developer portal was found during enrichment; a corporate CMS Swagger UI at dev-api.corp.musinsa.com is an internal tool (its public spec still points at the Swagger petstore demo), so this profile captures company identity and domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/musinsa/refs/heads/main/screenshots/musinsa-2026-08-07T184449.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7902,10 +7923,10 @@
      "rank": 177
     },
     {
-     "name": "PKO Inc.",
-     "slug": "pko-inc",
-     "description": "PKO is a collective and investment group operating at the intersection of technology and entertainment. Describing itself as a community of founders, creators, execs, artists, angels and investors with more than 700 members, PKO runs online and offline networking events, mixers and collaborations, and invests in startups across metaverse, virtual worlds, VR/AR, web3 (crypto, NFTs, DAOs), the creator economy, gaming and esports, social media, platforms, marketplaces, communities, streaming video, and content and media. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. PKO publishes no public API, SDK, or developer surface; founders submit pitches by email.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pko-inc/refs/heads/main/screenshots/pko-inc-2026-09-02T151346.png",
+     "name": "Meta Platforms",
+     "slug": "meta-platforms",
+     "description": "Meta Platforms is a multinational technology conglomerate that builds technologies that help people connect, find communities, and grow businesses, including Facebook, Instagram, WhatsApp, Messenger, and Reality Labs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta-platforms/refs/heads/main/screenshots/meta-platforms-2026-06-20T185237.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7917,7 +7938,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7945,21 +7966,22 @@
      "rank": 178
     },
     {
-     "name": "Iron Mountain",
-     "slug": "iron-mountain",
-     "description": "Iron Mountain is a global leader in storage and information management services, providing records management, data centers, secure shredding, digital transformation, and asset lifecycle management for organizations worldwide. Iron Mountain helps customers protect and unlock value from their physical and digital information assets.",
-     "score": 5.5,
+     "name": "PKO Inc.",
+     "slug": "pko-inc",
+     "description": "PKO is a collective and investment group operating at the intersection of technology and entertainment. Describing itself as a community of founders, creators, execs, artists, angels and investors with more than 700 members, PKO runs online and offline networking events, mixers and collaborations, and invests in startups across metaverse, virtual worlds, VR/AR, web3 (crypto, NFTs, DAOs), the creator economy, gaming and esports, social media, platforms, marketplaces, communities, streaming video, and content and media. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. PKO publishes no public API, SDK, or developer surface; founders submit pitches by email.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pko-inc/refs/heads/main/screenshots/pko-inc-2026-09-02T151346.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7987,30 +8009,22 @@
      "rank": 179
     },
     {
-     "name": "Booz Allen Hamilton",
-     "slug": "booz-allen-hamilton",
-     "description": "Booz Allen Hamilton is a leading management and technology consulting firm providing services primarily to U.S. government agencies in defense, intelligence, and civil markets. The firm employs over 2,500 AI specialists and 8,000 cybersecurity professionals, and maintains a significant open source presence on GitHub with projects including the Solutions Delivery Platform, Open Data Platform, and Cognition data fusion platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/booz-allen-hamilton/refs/heads/main/screenshots/booz-allen-hamilton-2026-06-20T173608.png",
-     "score": 5.3,
+     "name": "Iron Mountain",
+     "slug": "iron-mountain",
+     "description": "Iron Mountain is a global leader in storage and information management services, providing records management, data centers, secure shredding, digital transformation, and asset lifecycle management for organizations worldwide. Iron Mountain helps customers protect and unlock value from their physical and digital information assets.",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8052,7 +8066,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8095,7 +8109,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8138,7 +8152,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8180,7 +8194,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8223,7 +8237,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8266,7 +8280,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8309,7 +8323,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8352,7 +8366,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8395,7 +8409,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8438,7 +8452,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8481,7 +8495,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8524,7 +8538,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8567,7 +8581,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8610,7 +8624,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8660,7 +8674,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8703,7 +8717,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8746,7 +8760,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8788,7 +8802,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8830,7 +8844,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8872,7 +8886,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8915,7 +8929,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8958,7 +8972,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9001,7 +9015,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -9048,7 +9062,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9091,7 +9105,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9141,7 +9155,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9184,7 +9198,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -9231,7 +9245,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9280,7 +9294,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9323,7 +9337,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -9370,7 +9384,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -9417,7 +9431,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9460,7 +9474,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -9506,7 +9520,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -9553,7 +9567,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

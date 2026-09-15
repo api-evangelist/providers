@@ -12,6 +12,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -653,6 +679,7 @@ common:
   type: Website
   url: https://www.ashbyhq.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/capabilities/ashby-hq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ashby-hq-capability-edges.yml
@@ -661,134 +688,167 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ashby/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/mcp/ashby-hq-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ashby-hq-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/packages/ashby-hq-packages.yml
   title: ''
   type: Packages
   url: packages/ashby-hq-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/llms/ashby-hq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ashby-hq-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/well-known/ashby-hq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ashby-hq-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/overlays/ashby-hq-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ashby-hq-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/conformance/ashby-hq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ashby-hq-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/errors/ashby-hq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ashby-hq-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/conventions/ashby-hq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ashby-hq-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/lifecycle/ashby-hq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ashby-hq-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/changelog/ashby-hq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ashby-hq-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/data-model/ashby-hq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ashby-hq-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/sandbox/ashby-hq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ashby-hq-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/agentic-access/ashby-hq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ashby-hq-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/security/ashby-hq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ashby-hq-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/security/ashby-hq-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ashby-hq-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/security/ashby-hq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ashby-hq-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/authentication/ashby-hq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ashby-hq-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-candidate-intake-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-candidate-intake-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-candidate-resume-upload-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-candidate-resume-upload-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-candidate-tagging-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-candidate-tagging-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-application-create-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-application-create-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-application-advance-stage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-application-advance-stage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-application-archive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-application-archive-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-interview-schedule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-interview-schedule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-interview-feedback-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-interview-feedback-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-offer-process-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-offer-process-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-job-create-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-job-create-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-job-posting-sync-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-job-posting-sync-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-opening-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-opening-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-custom-field-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-custom-field-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-survey-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-survey-request-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-report-generate-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-report-generate-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/arazzo/ashby-hq-webhook-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ashby-hq-webhook-lifecycle-workflow.yml
@@ -925,14 +985,17 @@ common:
   type: BaseURL
   url: https://api.ashbyhq.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/plans/ashby-hq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ashby-hq-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/rate-limits/ashby-hq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ashby-hq-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/finops/ashby-hq-finops.yml
   title: ''
   type: FinOps
   url: finops/ashby-hq-finops.yml
@@ -1023,6 +1086,40 @@ rules:
     info: 2
     warn: 3
   slug: ashby-hq-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 62.7
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 77.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 81.6
+    contract_governance: 14.4
+    contract_quality: 69.4
+    developer_ergonomics: 58.3
+    discoverability: 61.1
+    operational_transparency: 78.9
+  previous_composite: 62.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/screenshots/ashby-hq-2026-06-20T172500.png
 security:
 - kind: authentication

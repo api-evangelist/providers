@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://api.prod.upland.me/developers-api
@@ -58,62 +83,77 @@ common:
   type: PrivacyPolicy
   url: https://upland.me/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/llms/upland-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upland-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/authentication/upland-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upland-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/conventions/upland-conventions.yml
   title: ''
   type: Conventions
   url: conventions/upland-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/errors/upland-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/upland-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/data-model/upland-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upland-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/lifecycle/upland-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upland-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/changelog/upland-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/upland-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/conformance/upland-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upland-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/security/upland-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upland-domain-security.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/sandbox/upland-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/upland-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/asyncapi/upland-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/upland-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/packages/upland-packages.yml
   title: ''
   type: Packages
   url: packages/upland-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/plans/upland-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/upland-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/rate-limits/upland-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/upland-rate-limits.yml
@@ -142,6 +182,45 @@ rate_limits:
 - limit_count: 0
   name: Upland Rate Limits
   slug: upland-rate-limits
+score:
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 56.2
+    developer_ergonomics: 54.2
+    discoverability: 81.5
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 40.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Upland Authentication
@@ -163,7 +242,7 @@ tags:
 - Escrow
 - Tournaments
 - Antelope
-- Webhooks
+- Webhook
 - Developer Platform
 website: https://upland.me/
 ---

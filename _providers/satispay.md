@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://authservices.satispay.com/g_business/v1
@@ -47,14 +72,17 @@ asyncapis:
   slug: satispay-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/security/satispay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/satispay-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/security/satispay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/satispay-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/authentication/satispay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/satispay-authentication.yml
@@ -111,98 +139,122 @@ common:
   type: ChangeLog
   url: https://developers.satispay.com/changelog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/packages/satispay-packages.yml
   title: ''
   type: Packages
   url: packages/satispay-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/packages/satispay-packages.yml
   title: ''
   type: SDKs
   url: packages/satispay-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/well-known/satispay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/satispay-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/well-known/satispay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/satispay-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/security/satispay-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/satispay-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/mcp/satispay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/satispay-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/mcp/satispay-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/satispay-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/llms/satispay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/satispay-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/conformance/satispay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/satispay-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/errors/satispay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/satispay-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/lifecycle/satispay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/satispay-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/conventions/satispay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/satispay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/conventions/satispay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/satispay-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/sandbox/satispay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/satispay-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/changelog/satispay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/satispay-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/components/satispay-components.yml
   title: ''
   type: Components
   url: components/satispay-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/data-model/satispay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/satispay-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/asyncapi/satispay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/satispay-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/plans/satispay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/satispay-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/rate-limits/satispay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/satispay-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/overlays/satispay-gbusiness-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/satispay-gbusiness-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/overlays/satispay-production-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/satispay-production-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/overlays/satispay-sandbox-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/satispay-sandbox-overlay.yaml
@@ -231,6 +283,54 @@ rate_limits:
 - limit_count: 0
   name: Satispay Rate Limits
   slug: satispay-rate-limits
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 58.1
+    developer_ergonomics: 54.2
+    discoverability: 81.5
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - italy
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - italy-southern-europe
+  previous_composite: 51.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 57.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/screenshots/satispay-2026-09-02T154428.png
 security:
 - kind: authentication

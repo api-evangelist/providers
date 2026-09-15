@@ -10,6 +10,31 @@ access_model:
   - https://devdocs.instapage.com/
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -117,58 +142,72 @@ collections:
   slug: open-instapage
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-team-members-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-team-members-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-pages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-pages-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-groups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-groups-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-personalizations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-personalizations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-collections-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-collections-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-experiments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-experiments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-form-submissions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-form-submissions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-domains-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-domains-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/overlays/instapage-assets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instapage-assets-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/agentic-access/instapage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instapage-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/security/instapage-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/instapage-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/security/instapage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instapage-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/authentication/instapage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instapage-authentication.yml
@@ -209,50 +248,62 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/instapage
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/packages/instapage-packages.yml
   title: ''
   type: Packages
   url: packages/instapage-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/llms/instapage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instapage-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/conventions/instapage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instapage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/errors/instapage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/instapage-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/lifecycle/instapage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instapage-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/changelog/instapage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/instapage-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/data-model/instapage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instapage-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/conformance/instapage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instapage-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/plans/instapage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instapage-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/rate-limits/instapage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instapage-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/security/instapage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/instapage-vulnerability-disclosure.yml
@@ -321,6 +372,41 @@ rate_limits:
 - limit_count: 2
   name: Instapage Rate Limits
   slug: instapage-rate-limits
+score:
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 4.5
+    contract_quality: 17.8
+    developer_ergonomics: 50.6
+    discoverability: 74.1
+    operational_transparency: 57.9
+  previous_composite: 42.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/screenshots/instapage-2026-06-20T183418.png
 security:
 - kind: authentication

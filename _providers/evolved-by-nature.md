@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The agent-callable commerce surface of the Evolved By Nature direct-to-consumer skincare store. A UCP 2026-04-08 MCP endpoint exposes 13 catalog, cart, checkout and order tools; a second Shopify store
@@ -23,6 +48,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/security/evolved-by-nature-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evolved-by-nature-domain-security.yml
@@ -55,58 +81,72 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/evolved-by-nature_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/well-known/evolved-by-nature-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/evolved-by-nature-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/mcp/evolved-by-nature-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/evolved-by-nature-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/graphql/evolved-by-nature-graphql.yml
   title: ''
   type: GraphQL
   url: graphql/evolved-by-nature-graphql.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/llms/evolved-by-nature-skincare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/evolved-by-nature-skincare-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/authentication/evolved-by-nature-authentication.yml
   title: ''
   type: Authentication
   url: authentication/evolved-by-nature-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/scopes/evolved-by-nature-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/evolved-by-nature-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/conformance/evolved-by-nature-conformance.yml
   title: ''
   type: Conformance
   url: conformance/evolved-by-nature-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/conventions/evolved-by-nature-conventions.yml
   title: ''
   type: Conventions
   url: conventions/evolved-by-nature-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/errors/evolved-by-nature-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/evolved-by-nature-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/lifecycle/evolved-by-nature-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/evolved-by-nature-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/data-model/evolved-by-nature-data-model.yml
   title: ''
   type: DataModel
   url: data-model/evolved-by-nature-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/plans/evolved-by-nature-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/evolved-by-nature-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/rate-limits/evolved-by-nature-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/evolved-by-nature-rate-limits.yml
@@ -140,6 +180,36 @@ scopes:
   scope_count: 0
   slug: evolved-by-nature-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 21.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 35.7
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 21.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolved-by-nature/refs/heads/main/screenshots/evolved-by-nature-2026-09-02T145440.png
 security:
 - kind: authentication

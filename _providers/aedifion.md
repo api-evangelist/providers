@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.aedifion.io
@@ -85,82 +111,102 @@ common:
   type: Compliance
   url: https://www.aedifion.com/sicherheit
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/aedifion-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/asyncapi/aedifion-mqtt-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/aedifion-mqtt-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/llms/aedifion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aedifion-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/well-known/aedifion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aedifion-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/authentication/aedifion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aedifion-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/scopes/aedifion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aedifion-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/conventions/aedifion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aedifion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/conventions/aedifion-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aedifion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/errors/aedifion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aedifion-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/lifecycle/aedifion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aedifion-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/conformance/aedifion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aedifion-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/security/aedifion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aedifion-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/data-model/aedifion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aedifion-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/changelog/aedifion-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aedifion-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/rate-limits/aedifion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aedifion-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/plans/aedifion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aedifion-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/packages/aedifion-packages.yml
   title: ''
   type: Packages
   url: packages/aedifion-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/overlays/aedifion-http-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aedifion-http-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/security/aedifion-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aedifion-trust-center.yml
@@ -169,10 +215,12 @@ common:
   type: Console
   url: https://api.aedifion.io/ui/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/asyncapi/aedifion-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/aedifion-event-surface.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/components/aedifion-components.yml
   title: ''
   type: Components
   url: components/aedifion-components.yml
@@ -185,7 +233,7 @@ modified: '2026-09-09'
 name: Aedifion
 nav: Providers
 network: true
-overview: 'Aedifion publishes 2 APIs on the [APIs.io](https://apis.io/) network: HTTP API and MQTT API. Tagged areas include Building Automation, Smart Buildings, Energy Management, Internet of Things, and Real Estate.
+overview: 'Aedifion publishes 2 APIs on the [APIs.io](https://apis.io/) network: HTTP API and MQTT API. Tagged areas include Building Automation, Smart Buildings, Energy Management, Internet of Things, and Real-Estate.
 
 
   The Aedifion catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -206,6 +254,54 @@ scopes:
   scope_count: 13
   slug: aedifion-scopes
   summary_line: 13 scopes · implicit/authorizationCode/password/clientCredentials
+score:
+  band: strong
+  composite: 65.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 55.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 65.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 security:
 - kind: authentication
   name: Aedifion Authentication
@@ -225,7 +321,7 @@ tags:
 - Smart Buildings
 - Energy Management
 - Internet of Things
-- Real Estate
+- Real-Estate
 - HVAC
 - Sustainability
 - Time Series

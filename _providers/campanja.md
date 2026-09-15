@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/campanja/refs/heads/main/security/campanja-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/campanja-domain-security.yml

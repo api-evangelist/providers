@@ -36,10 +36,12 @@ common:
   type: SourceCode
   url: https://github.com/computablelabs/computable
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/computable/refs/heads/main/packages/computable-packages.yml
   title: ''
   type: Packages
   url: packages/computable-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/computable/refs/heads/main/packages/computable-packages.yml
   title: ''
   type: SDKs
   url: packages/computable-packages.yml

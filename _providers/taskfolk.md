@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: self
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 69.2
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://taskfolk.ai/api
@@ -182,6 +207,7 @@ asyncapis:
   slug: taskfolk-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/capabilities/taskfolk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/taskfolk-capability-edges.yml
@@ -190,14 +216,17 @@ common:
   type: MCPServer
   url: https://taskfolk.ai/api/mcp/v1
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/mcp/taskfolk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/taskfolk-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/security/taskfolk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taskfolk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/authentication/taskfolk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taskfolk-authentication.yml
@@ -262,14 +291,17 @@ common:
   type: ChangeLog
   url: https://taskfolk.ai/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/changelog/taskfolk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/taskfolk-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/llms/taskfolk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taskfolk-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/well-known/taskfolk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/taskfolk-well-known.yml
@@ -278,62 +310,77 @@ common:
   type: APICatalog
   url: https://taskfolk.ai/.well-known/api-catalog
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/a2a/taskfolk-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/taskfolk-a2a.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/scopes/taskfolk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/taskfolk-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/conventions/taskfolk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taskfolk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/conventions/taskfolk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/taskfolk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/errors/taskfolk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/taskfolk-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/lifecycle/taskfolk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taskfolk-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/conformance/taskfolk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taskfolk-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/data-model/taskfolk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/taskfolk-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/packages/taskfolk-packages.yml
   title: ''
   type: Packages
   url: packages/taskfolk-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/asyncapi/taskfolk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/taskfolk-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/rate-limits/taskfolk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/taskfolk-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/plans/taskfolk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/taskfolk-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/overlays/taskfolk-product-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/taskfolk-product-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/overlays/taskfolk-agent-commerce-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/taskfolk-agent-commerce-overlay.yaml
@@ -374,6 +421,40 @@ scopes:
   scope_count: 47
   slug: taskfolk-scopes
   summary_line: 47 scopes · authorizationCode
+score:
+  band: strong
+  composite: 61.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 56.5
+    developer_ergonomics: 58.9
+    discoverability: 77.8
+    operational_transparency: 52.6
+  previous_composite: 61.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/screenshots/taskfolk-2026-09-02T162549.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: REST/JSON administration API for a GroupWise system, served by the GroupWise Administration Service that installs alongside the GroupWise agents. Introduced under the "Windermere" codename for GroupWi
@@ -29,34 +54,42 @@ common:
   type: APIReference
   url: https://www.novell.com/documentation/developer/groupwise_sdk/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/packages/novell-packages.yml
   title: ''
   type: Packages
   url: packages/novell-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/packages/novell-packages.yml
   title: ''
   type: SDKs
   url: packages/novell-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/authentication/novell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/novell-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/conformance/novell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/novell-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/conventions/novell-conventions.yml
   title: ''
   type: Conventions
   url: conventions/novell-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/errors/novell-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/novell-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/data-model/novell-data-model.yml
   title: ''
   type: DataModel
   url: data-model/novell-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/lifecycle/novell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/novell-lifecycle.yml
@@ -65,26 +98,32 @@ common:
   type: Deprecation
   url: https://www.microfocus.com/lifecycle/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/changelog/novell-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/novell-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/llms/novell-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/novell-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/plans/novell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/novell-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/rate-limits/novell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/novell-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/security/novell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/novell-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/novell/refs/heads/main/security/novell-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/novell-vulnerability-disclosure.yml
@@ -105,7 +144,7 @@ modified: '2026-09-13'
 name: Novell
 nav: Providers
 network: true
-overview: 'Novell publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, enterprise_software, collaboration, email, and directory_services.
+overview: 'Novell publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Collaboration, Email, and Directory Services.
 
 
   Novell''s developer surface includes documentation, API reference, authentication, changelog, getting-started guide, and 16 more developer resources.'
@@ -118,6 +157,31 @@ rate_limits:
 - limit_count: 0
   name: Novell Rate Limits
   slug: novell-rate-limits
+score:
+  band: emerging
+  composite: 24.5
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 64.8
+    operational_transparency: 34.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Novell Authentication
@@ -134,16 +198,16 @@ security:
 slug: novell
 tags:
 - Company
-- enterprise_software
-- collaboration
-- email
-- directory_services
-- identity
+- Enterprise Software
+- Collaboration
+- Email
+- Directory Services
+- Identity
 - groupware
-- ldap
-- soap
-- legacy
-- self_hosted
-- endpoint_management
+- LDAP
+- SOAP
+- Legacy
+- Self-Hosted
+- Endpoint Management
 website: https://www.novell.com/
 ---

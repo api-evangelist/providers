@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,22 +102,27 @@ collections:
   slug: open-apicbase
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/capabilities/apicbase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apicbase-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/agentic-access/apicbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apicbase-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/security/apicbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apicbase-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/authentication/apicbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apicbase-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/scopes/apicbase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/apicbase-scopes.yml
@@ -113,14 +143,17 @@ common:
   type: Documentation
   url: https://developers.apicbase.com/docs/welcome
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/plans/apicbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apicbase-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/rate-limits/apicbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apicbase-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/finops/apicbase-finops.yml
   title: ''
   type: FinOps
   url: finops/apicbase-finops.yml
@@ -154,6 +187,39 @@ scopes:
   scope_count: 2
   slug: apicbase-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: thin
+  composite: 36.5
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 54.8
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 36.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/screenshots/apicbase-2026-07-25T200623.png
 security:
 - kind: authentication

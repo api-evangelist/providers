@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://altair.com/altair-rapidminer'', ''status'': 307, ''note'': ''declared website redirects to https://www.siemens.com/en-us/products/rapidminer/ — a different registrable domain (altair.com -> siemens.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 2
 common:
@@ -46,26 +71,32 @@ common:
   type: ChangeLog
   url: https://github.com/rapidminer/python-rapidminer/blob/master/CHANGES.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/packages/rapidminer-packages.yml
   title: ''
   type: Packages
   url: packages/rapidminer-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/packages/rapidminer-packages.yml
   title: ''
   type: SDKs
   url: packages/rapidminer-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/changelog/rapidminer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rapidminer-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/authentication/rapidminer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rapidminer-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/security/rapidminer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rapidminer-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/llms/rapidminer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rapidminer-llms.txt
@@ -82,6 +113,35 @@ overview: 'Rapidminer is profiled on the [APIs.io](https://apis.io/) network. Ta
 
   Rapidminer''s developer surface includes documentation, changelog, authentication, and 11 more developer resources.'
 random_paper: 17
+score:
+  band: emerging
+  composite: 14.2
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 57.4
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 14.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/screenshots/rapidminer-2026-09-02T152855.png
 security:
 - kind: authentication

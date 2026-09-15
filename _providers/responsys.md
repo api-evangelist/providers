@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The Event Notification API pushes real-time campaign event data to a customer-owned callback URL. Register a callback, verify it, then subscribe it to any of the 26 supported event types across email,
@@ -155,6 +180,7 @@ collections:
   slug: open-responsys
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/capabilities/responsys-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/responsys-capability-edges.yml
@@ -163,6 +189,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/security/responsys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/responsys-domain-security.yml
@@ -207,18 +234,22 @@ common:
   type: SOAP
   url: https://docs.oracle.com/en/cloud/saas/marketing/responsys-soap-api/index.html
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/openapi/responsys-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/responsys-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/overlays/responsys-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/responsys-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/authentication/responsys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/responsys-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/conformance/responsys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/responsys-conformance.yml
@@ -227,10 +258,12 @@ common:
   type: Compliance
   url: https://www.oracle.com/corporate/cloud-compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/security/responsys-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/responsys-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/security/responsys-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/responsys-vulnerability-disclosure.yml
@@ -239,50 +272,62 @@ common:
   type: Security
   url: https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/lifecycle/responsys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/responsys-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/changelog/responsys-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/responsys-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/conventions/responsys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/responsys-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/errors/responsys-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/responsys-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/data-model/responsys-data-model.yml
   title: ''
   type: DataModel
   url: data-model/responsys-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/rate-limits/responsys-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/responsys-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/plans/responsys-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/responsys-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/packages/responsys-packages.yml
   title: ''
   type: Packages
   url: packages/responsys-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/packages/responsys-packages.yml
   title: ''
   type: SDKs
   url: packages/responsys-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/asyncapi/responsys-event-notification-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/responsys-event-notification-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/llms/responsys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/responsys-llms.txt
@@ -310,6 +355,46 @@ rate_limits:
 - limit_count: 7
   name: Responsys Rate Limits
   slug: responsys-rate-limits
+score:
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 48.8
+    developer_ergonomics: 63.7
+    discoverability: 68.5
+    operational_transparency: 68.4
+  previous_composite: 53.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/screenshots/responsys-2026-08-17T081535.png
 security:
 - kind: authentication

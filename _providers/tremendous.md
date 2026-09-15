@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -105,22 +130,27 @@ common:
   type: IssueTracker
   url: https://github.com/tremendous-rewards/api-docs/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/agentic-access/tremendous-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tremendous-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/security/tremendous-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tremendous-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/security/tremendous-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tremendous-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/authentication/tremendous-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tremendous-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/scopes/tremendous-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tremendous-scopes.yml
@@ -157,26 +187,32 @@ common:
   type: ChangeLog
   url: https://developers.tremendous.com/changelog
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/json-schema/tremendous-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tremendous-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/json-schema/tremendous-product-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tremendous-product-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/json-structure/tremendous-order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/tremendous-order-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/json-ld/tremendous-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tremendous-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/rules/tremendous-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tremendous-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/vocabulary/tremendous-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tremendous-vocabulary.yml
@@ -263,6 +299,38 @@ scopes:
   scope_count: 3
   slug: tremendous-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: developing
+  composite: 45.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 28.8
+    contract_quality: 64.9
+    developer_ergonomics: 40.5
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 45.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/screenshots/tremendous-2026-06-20T195654.png
 security:
 - kind: authentication

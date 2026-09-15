@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -202,42 +227,52 @@ collections:
   slug: open-ordnance-survey-vector-tile
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-ngd-features-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-ngd-features-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-ngd-tiles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-ngd-tiles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-downloads-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-downloads-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-osnet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-osnet-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-places-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-places-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-names-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-names-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-linked-identifiers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-linked-identifiers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-features-wfs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-features-wfs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-maps-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-maps-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/overlays/ordnance-survey-vector-tile-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ordnance-survey-vector-tile-overlay.yaml
@@ -246,18 +281,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ordnance-survey/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/agentic-access/ordnance-survey-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ordnance-survey-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/security/ordnance-survey-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ordnance-survey-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/authentication/ordnance-survey-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ordnance-survey-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/scopes/ordnance-survey-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ordnance-survey-scopes.yml
@@ -306,42 +345,52 @@ common:
   type: LLMsTxt
   url: https://docs.os.uk/os-apis/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/packages/ordnance-survey-packages.yml
   title: ''
   type: Packages
   url: packages/ordnance-survey-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/packages/ordnance-survey-packages.yml
   title: ''
   type: SDKs
   url: packages/ordnance-survey-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/well-known/ordnance-survey-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ordnance-survey-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/well-known/ordnance-survey-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/ordnance-survey-api-catalog.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/well-known/ordnance-survey-docs-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/ordnance-survey-docs-robots.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/mcp/ordnance-survey-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ordnance-survey-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/llms/ordnance-survey-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ordnance-survey-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/conformance/ordnance-survey-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ordnance-survey-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/errors/ordnance-survey-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ordnance-survey-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/lifecycle/ordnance-survey-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ordnance-survey-lifecycle.yml
@@ -354,6 +403,7 @@ common:
   type: Deprecation
   url: https://docs.os.uk/os-apis/accessing-os-apis/os-match-and-cleanse-api/end-of-life-information
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/security/ordnance-survey-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ordnance-survey-vulnerability-disclosure.yml
@@ -362,14 +412,17 @@ common:
   type: Security
   url: https://www.ordnancesurvey.co.uk/governance/policies/vulnerability-disclosure
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/sandbox/ordnance-survey-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ordnance-survey-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/conventions/ordnance-survey-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ordnance-survey-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/changelog/ordnance-survey-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ordnance-survey-changelog.yml
@@ -378,38 +431,47 @@ common:
   type: ChangeLog
   url: https://docs.os.uk/os-apis/service-and-data-status/change-log
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/components/ordnance-survey-components.yml
   title: ''
   type: Components
   url: components/ordnance-survey-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/data-model/ordnance-survey-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ordnance-survey-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/rate-limits/ordnance-survey-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ordnance-survey-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/plans/ordnance-survey-plans.yml
   title: ''
   type: Plans
   url: plans/ordnance-survey-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/skills/ordnance-survey-authenticate.md
   title: ''
   type: AgentSkill
   url: skills/ordnance-survey-authenticate.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/skills/ordnance-survey-resolve-address-to-uprn.md
   title: ''
   type: AgentSkill
   url: skills/ordnance-survey-resolve-address-to-uprn.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/skills/ordnance-survey-join-property-identifiers.md
   title: ''
   type: AgentSkill
   url: skills/ordnance-survey-join-property-identifiers.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/skills/ordnance-survey-query-ngd-features.md
   title: ''
   type: AgentSkill
   url: skills/ordnance-survey-query-ngd-features.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/skills/ordnance-survey-download-opendata.md
   title: ''
   type: AgentSkill
   url: skills/ordnance-survey-download-opendata.md
@@ -491,6 +553,55 @@ scopes:
   scope_count: 1
   slug: ordnance-survey-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: strong
+  composite: 57.9
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 48.7
+    contract_governance: 18.2
+    contract_quality: 42.3
+    developer_ergonomics: 64.9
+    discoverability: 72.2
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 57.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 52.2
+      total: 23
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 68.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png
 security:
 - kind: authentication

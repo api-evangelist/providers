@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.webscale.com/v2
@@ -13,6 +38,7 @@ asyncapis:
   slug: webscale-networks-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/security/webscale-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webscale-networks-domain-security.yml
@@ -73,54 +99,67 @@ common:
   type: ServiceLevelAgreement
   url: https://www.webscale.com/sla/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/security/webscale-networks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/webscale-networks-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/conformance/webscale-networks-conformance.yml
   title: ''
   type: Compliance
   url: conformance/webscale-networks-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/conformance/webscale-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webscale-networks-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/authentication/webscale-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webscale-networks-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/conventions/webscale-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webscale-networks-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/lifecycle/webscale-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webscale-networks-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/changelog/webscale-networks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/webscale-networks-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/plans/webscale-networks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/webscale-networks-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/rate-limits/webscale-networks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/webscale-networks-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/packages/webscale-networks-packages.yml
   title: ''
   type: Packages
   url: packages/webscale-networks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/packages/webscale-networks-packages.yml
   title: ''
   type: SDKs
   url: packages/webscale-networks-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/cli/webscale-networks-cli.yml
   title: ''
   type: CLI
   url: cli/webscale-networks-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/llms/webscale-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webscale-networks-llms.txt
@@ -129,22 +168,27 @@ common:
   type: LLMsTxt
   url: https://www.webscale.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/mcp/webscale-networks-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/webscale-networks-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/asyncapi/webscale-networks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/webscale-networks-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/data-model/webscale-networks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/webscale-networks-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/errors/webscale-networks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/webscale-networks-problem-types.yml
@@ -156,7 +200,7 @@ modified: '2026-09-04'
 name: Webscale Networks
 nav: Providers
 network: true
-overview: 'Webscale Networks publishes 1 API on the [APIs.io](https://apis.io/) network: Webscale APIs. Tagged areas include Ecommerce, Cloud Hosting, Content Delivery Network, Application Delivery, and Web Application Firewall.
+overview: 'Webscale Networks publishes 1 API on the [APIs.io](https://apis.io/) network: Webscale APIs. Tagged areas include E-Commerce, Cloud Hosting, Content Delivery Network, Application Delivery, and Web Application Firewall.
 
 
   The Webscale Networks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,6 +216,40 @@ rate_limits:
 - limit_count: 0
   name: Webscale Networks Rate Limits
   slug: webscale-networks-rate-limits
+score:
+  band: strong
+  composite: 61.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 60.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 61.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Webscale Networks Authentication
@@ -191,7 +269,7 @@ security:
   summary_line: SOC 2 Type 2
 slug: webscale-networks
 tags:
-- Ecommerce
+- E-Commerce
 - Cloud Hosting
 - Content Delivery Network
 - Application Delivery

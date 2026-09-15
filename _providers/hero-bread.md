@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The agent-facing commerce interface for the Hero Bread online store. An MCP server at https://shop.hero.co/api/ucp/mcp implements the Universal Commerce Protocol shopping service (dev.ucp.shopping) wi
@@ -52,70 +77,87 @@ common:
   type: PrivacyPolicy
   url: https://www.hero.co/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/mcp/hero-bread-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hero-bread-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/mcp/hero-bread-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hero-bread-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/llms/hero-bread-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hero-bread-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/well-known/hero-bread-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hero-bread-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/authentication/hero-bread-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hero-bread-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/scopes/hero-bread-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hero-bread-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/conventions/hero-bread-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hero-bread-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/conventions/hero-bread-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hero-bread-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/errors/hero-bread-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hero-bread-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/data-model/hero-bread-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hero-bread-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/conformance/hero-bread-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hero-bread-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/lifecycle/hero-bread-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hero-bread-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/plans/hero-bread-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hero-bread-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/rate-limits/hero-bread-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hero-bread-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/packages/hero-bread-packages.yml
   title: ''
   type: Packages
   url: packages/hero-bread-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/security/hero-bread-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hero-bread-domain-security.yml
@@ -149,6 +191,36 @@ scopes:
   scope_count: 4
   slug: hero-bread-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 23.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 23.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hero-bread/refs/heads/main/screenshots/hero-bread-2026-09-02T145725.png
 security:
 - kind: authentication

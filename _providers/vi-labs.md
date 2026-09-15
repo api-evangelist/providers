@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol endpoint served from the vi.co host and advertised through RFC 9728 protected resource metadata. It is the WordPress MCP adapter running on the Vi Labs corpor
@@ -7,10 +32,12 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/security/vi-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vi-labs-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/security/vi-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vi-labs-domain-security.yml
@@ -59,50 +86,62 @@ common:
   type: Careers
   url: https://vi.co/careers/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/security/vi-labs-trust-center.yml
   title: ''
   type: Compliance
   url: security/vi-labs-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/mcp/vi-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vi-labs-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/well-known/vi-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vi-labs-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/authentication/vi-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vi-labs-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/scopes/vi-labs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vi-labs-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/conformance/vi-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vi-labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/conventions/vi-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vi-labs-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/rate-limits/vi-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vi-labs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/plans/vi-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vi-labs-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/lifecycle/vi-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vi-labs-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/packages/vi-labs-packages.yml
   title: ''
   type: Packages
   url: packages/vi-labs-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vi-labs/refs/heads/main/llms/vi-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vi-labs-llms.txt
@@ -137,6 +176,46 @@ scopes:
   scope_count: 0
   slug: vi-labs-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 26.3
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 14.3
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 26.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Vi Labs Authentication
@@ -161,7 +240,7 @@ tags:
 - Patient Engagement
 - Enterprise AI
 - AI Agents
-- Model Context Protocol
+- MCP
 - Data
 website: https://vi.co/
 ---

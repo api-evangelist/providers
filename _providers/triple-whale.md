@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 59.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -79,6 +104,7 @@ common:
   type: IssueTracker
   url: https://github.com/Triple-Whale/triple-whale-public-apis/issues
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-bi-benchmarks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-bi-benchmarks-overlay.yaml
@@ -87,18 +113,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/triple-whale/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/agentic-access/triple-whale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/triple-whale-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/triple-whale-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/triple-whale-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/authentication/triple-whale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/triple-whale-authentication.yml
@@ -135,18 +165,22 @@ common:
   type: X
   url: https://x.com/triplewhale
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/plans/triple-whale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/triple-whale-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/rate-limits/triple-whale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/triple-whale-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/finops/triple-whale-finops.yml
   title: ''
   type: FinOps
   url: finops/triple-whale-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/json-ld/triple-whale-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/triple-whale-context.jsonld
@@ -187,58 +221,72 @@ common:
   type: GitHubRepository
   url: https://github.com/Triple-Whale/triple-whale-public-apis
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/packages/triple-whale-packages.yml
   title: ''
   type: Packages
   url: packages/triple-whale-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/packages/triple-whale-packages.yml
   title: ''
   type: SDKs
   url: packages/triple-whale-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/cli/triple-whale-cli.yml
   title: ''
   type: CLI
   url: cli/triple-whale-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/mcp/triple-whale-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/triple-whale-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/mcp/triple-whale-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/triple-whale-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/llms/triple-whale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/triple-whale-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/well-known/triple-whale-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/triple-whale-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/scopes/triple-whale-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/triple-whale-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/conventions/triple-whale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/triple-whale-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/conventions/triple-whale-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/triple-whale-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/errors/triple-whale-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/triple-whale-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/lifecycle/triple-whale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/triple-whale-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/changelog/triple-whale-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/triple-whale-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/conformance/triple-whale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/triple-whale-conformance.yml
@@ -247,26 +295,32 @@ common:
   type: Compliance
   url: https://trust.triplewhale.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/data-model/triple-whale-data-model.yml
   title: ''
   type: DataModel
   url: data-model/triple-whale-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-api-keys-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-api-keys-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-compliance-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-compliance-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-data-in-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-data-in-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/overlays/triple-whale-data-out-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/triple-whale-data-out-api-overlay.yaml
@@ -330,6 +384,41 @@ scopes:
   scope_count: 0
   slug: triple-whale-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 66.7
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 88.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 26.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 86.8
+    contract_governance: 14.4
+    contract_quality: 67.1
+    developer_ergonomics: 60.1
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 66.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:
 - kind: authentication

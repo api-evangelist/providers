@@ -17,6 +17,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/styvio/refs/heads/main/security/styvio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/styvio-domain-security.yml

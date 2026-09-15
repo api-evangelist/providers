@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Production REST API covering 14 spiritual intelligence domains with 210+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -11,58 +36,72 @@ common:
   type: Website
   url: https://roxyapi.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/security/roxyapi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/roxyapi-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/security/roxyapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/roxyapi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/authentication/roxyapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/roxyapi-authentication.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/a2a/roxyapi-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/roxyapi-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/packages/roxyapi-packages.yml
   title: ''
   type: Packages
   url: packages/roxyapi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/packages/roxyapi-packages.yml
   title: ''
   type: SDKs
   url: packages/roxyapi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/well-known/roxyapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/roxyapi-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/well-known/roxyapi-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/roxyapi-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/mcp/roxyapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/roxyapi-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/mcp/roxyapi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/roxyapi-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/llms/roxyapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/roxyapi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/overlays/roxyapi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/roxyapi-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/conformance/roxyapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/roxyapi-conformance.yml
@@ -71,10 +110,12 @@ common:
   type: Compliance
   url: https://roxyapi.com/policy/dpa
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/errors/roxyapi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/roxyapi-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/lifecycle/roxyapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/roxyapi-lifecycle.yml
@@ -83,26 +124,32 @@ common:
   type: StatusPage
   url: https://stats.uptimerobot.com/T0kPZKlAjf
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/changelog/roxyapi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/roxyapi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/conventions/roxyapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/roxyapi-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/sandbox/roxyapi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/roxyapi-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/components/roxyapi-components.yml
   title: ''
   type: Components
   url: components/roxyapi-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/plans/roxyapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/roxyapi-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/rate-limits/roxyapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/roxyapi-rate-limits.yml
@@ -166,7 +213,7 @@ modified: '2026-09-03'
 name: RoxyAPI
 nav: Providers
 network: true
-overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include Astrology, Vedic Astrology, numerology, tarot, and human-design.
+overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include Astrology, Vedic Astrology, Numerology, Tarot, and Human Design.
 
 
   RoxyAPI''s developer surface includes authentication, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 30 more developer resources.'
@@ -179,6 +226,35 @@ rate_limits:
 - limit_count: 4
   name: Roxyapi Rate Limits
   slug: roxyapi-rate-limits
+score:
+  band: strong
+  composite: 55.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 58.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 81.0
+    discoverability: 70.4
+    operational_transparency: 76.3
+  previous_composite: 55.2
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/screenshots/roxyapi-2026-09-02T154145.png
 security:
 - kind: authentication
@@ -197,9 +273,9 @@ slug: roxyapi
 tags:
 - Astrology
 - Vedic Astrology
-- numerology
-- tarot
-- human-design
+- Numerology
+- Tarot
+- Human Design
 - Forecast
 - biorhythm
 - iching

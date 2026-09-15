@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -227,6 +252,7 @@ collections:
   slug: open-shodan-utility-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/capabilities/shodan-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shodan-capability-edges.yml
@@ -239,14 +265,17 @@ common:
   type: Releases
   url: https://github.com/achillean/shodan-python/releases
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/agentic-access/shodan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shodan-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/security/shodan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shodan-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/authentication/shodan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shodan-authentication.yml
@@ -255,62 +284,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/shodan/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-account-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-account-overview-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-alert-with-notifier-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-alert-with-notifier-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-cve-enrichment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-cve-enrichment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-domain-recon-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-domain-recon-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-internetdb-vuln-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-internetdb-vuln-triage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-network-alert-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-network-alert-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-notifier-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-notifier-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-query-directory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-query-directory-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-resolve-and-host-info-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-resolve-and-host-info-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-reverse-dns-to-host-info-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-reverse-dns-to-host-info-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-scan-then-inspect-host-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-scan-then-inspect-host-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-search-builder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-search-builder-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-search-to-host-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-search-to-host-detail-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-submit-scan-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-submit-scan-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/arazzo/shodan-trends-vs-live-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/shodan-trends-vs-live-workflow.yml
@@ -335,10 +379,12 @@ common:
   type: Pricing
   url: https://account.shodan.io/billing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/plans/shodan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shodan-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/rate-limits/shodan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shodan-rate-limits.yml
@@ -551,14 +597,17 @@ common:
   type: Tools
   url: https://github.com/mohdhaji87/Shodan-MCP
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/rules/shodan-rules.yml
   title: ''
   type: SpectralRules
   url: rules/shodan-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/vocabulary/shodan-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shodan-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/finops/shodan-finops.yml
   title: ''
   type: FinOps
   url: finops/shodan-finops.yml
@@ -745,6 +794,38 @@ rules:
     info: 0
     warn: 5
   slug: shodan-rules
+score:
+  band: exemplar
+  composite: 67.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 94.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 56.6
+    contract_governance: 28.8
+    contract_quality: 79.5
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 67.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:
 - kind: authentication

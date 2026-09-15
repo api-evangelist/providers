@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 40.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://aggregator-api.kyberswap.com
@@ -58,6 +84,7 @@ collections:
   slug: open-kyber-network-taker-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/overlays/kyber-network-aggregator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kyber-network-aggregator-overlay.yaml
@@ -102,82 +129,102 @@ common:
   type: Pricing
   url: https://docs.kyberswap.com/getting-started/fee-schedule
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/lifecycle/kyber-network-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/kyber-network-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/lifecycle/kyber-network-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kyber-network-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/lifecycle/kyber-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kyber-network-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/rate-limits/kyber-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kyber-network-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/authentication/kyber-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kyber-network-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/conventions/kyber-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kyber-network-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/errors/kyber-network-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kyber-network-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/packages/kyber-network-packages.yml
   title: ''
   type: Packages
   url: packages/kyber-network-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/packages/kyber-network-packages.yml
   title: ''
   type: SDKs
   url: packages/kyber-network-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/components/kyber-network-components.yml
   title: ''
   type: Components
   url: components/kyber-network-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/mcp/kyber-network-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kyber-network-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/llms/kyber-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kyber-network-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/well-known/kyber-network-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kyber-network-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/well-known/kyber-network-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/kyber-network-api-catalog.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/well-known/kyber-network-content-signals.txt
   title: ''
   type: ContentSignal
   url: well-known/kyber-network-content-signals.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/grpc/kyber-network-zaas.proto
   title: ''
   type: Protobuf
   url: grpc/kyber-network-zaas.proto
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/conformance/kyber-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kyber-network-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/conformance/kyber-network-conformance.yml
   title: ''
   type: Compliance
   url: conformance/kyber-network-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/security/kyber-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kyber-network-domain-security.yml
@@ -202,6 +249,46 @@ rate_limits:
 - limit_count: 3
   name: Kyber Network Rate Limits
   slug: kyber-network-rate-limits
+score:
+  band: developing
+  composite: 50.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 48.4
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 57.9
+  previous_composite: 50.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 36.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/screenshots/kyber-network-2026-07-25T224353.png
 security:
 - kind: authentication

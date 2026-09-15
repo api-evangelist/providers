@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -1546,126 +1571,157 @@ collections:
   slug: open-datadog-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/capabilities/datadog-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datadog-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/agentic-access/datadog-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datadog-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/security/datadog-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datadog-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/security/datadog-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/datadog-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/security/datadog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datadog-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/authentication/datadog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datadog-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/scopes/datadog-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/datadog-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-bulk-mute-monitors-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-bulk-mute-monitors-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-cleanup-stale-monitors-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-cleanup-stale-monitors-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-incident-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-log-archive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-log-archive-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-log-metric-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-log-metric-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-log-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-log-pipeline-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-monitor-config-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-monitor-config-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-role-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-service-account-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-service-account-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-create-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-create-team-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-declare-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-declare-incident-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-ingest-and-search-logs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-ingest-and-search-logs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-invite-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-invite-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-manage-api-keys-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-manage-api-keys-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-manage-incident-attachments-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-manage-incident-attachments-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-manage-metric-metadata-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-manage-metric-metadata-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-mute-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-mute-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-post-and-search-events-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-post-and-search-events-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-resolve-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-resolve-incident-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-schedule-downtime-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-schedule-downtime-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-search-incidents-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-search-incidents-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-submit-and-query-metrics-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-submit-and-query-metrics-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/arazzo/datadog-tune-monitor-thresholds-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datadog-tune-monitor-thresholds-workflow.yml
@@ -1718,22 +1774,27 @@ common:
   type: Signup
   url: https://www.datadoghq.com/free-datadog-trial/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/json-ld/datadog-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/datadog-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/json-schema/datadog-metric-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/datadog-metric-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/json-schema/datadog-monitor-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/datadog-monitor-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/json-schema/datadog-log-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/datadog-log-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/json-schema/datadog-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/datadog-event-schema.json
@@ -2536,6 +2597,38 @@ scopes:
   scope_count: 68
   slug: datadog-scopes
   summary_line: 68 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 13.6
+    contract_quality: 76.5
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 63.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 107
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png
 security:
 - kind: authentication

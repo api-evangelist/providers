@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.3
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The one machine-readable contract École des Ponts ParisTech operates on its own infrastructure. A live SAML 2.0 EntityDescriptor served as application/xml from idp.enpc.fr, declaring SingleSignOnServi
@@ -94,30 +119,37 @@ common:
   type: Instagram
   url: https://www.instagram.com/ecoledesponts/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/authentication/ecole-des-ponts-paristech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ecole-des-ponts-paristech-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/conformance/ecole-des-ponts-paristech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ecole-des-ponts-paristech-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/security/ecole-des-ponts-paristech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ecole-des-ponts-paristech-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/plans/ecole-des-ponts-paristech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ecole-des-ponts-paristech-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/rate-limits/ecole-des-ponts-paristech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ecole-des-ponts-paristech-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/finops/ecole-des-ponts-paristech-finops.yml
   title: ''
   type: FinOps
   url: finops/ecole-des-ponts-paristech-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -194,6 +226,48 @@ rate_limits:
 - limit_count: 1
   name: Ecole Des Ponts Paristech Rate Limits
   slug: ecole-des-ponts-paristech-rate-limits
+score:
+  band: thin
+  composite: 33.2
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 67.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 20.5
+    developer_ergonomics: 23.8
+    discoverability: 74.1
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 33.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png
 security:
 - kind: authentication

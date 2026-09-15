@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,18 +103,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/thoughtly/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/agentic-access/thoughtly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thoughtly-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/security/thoughtly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/thoughtly-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/security/thoughtly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thoughtly-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/authentication/thoughtly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thoughtly-authentication.yml
@@ -130,14 +159,17 @@ common:
   type: Pricing
   url: https://docs.thoughtly.com/platform/billing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/plans/thoughtly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/thoughtly-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/rate-limits/thoughtly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thoughtly-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/finops/thoughtly-finops.yml
   title: ''
   type: FinOps
   url: finops/thoughtly-finops.yml
@@ -214,6 +246,7 @@ common:
   type: Promptbooks
   url: https://docs.thoughtly.com/promptbooks/browse
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/vocabulary/thoughtly-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/thoughtly-vocabulary.yml
@@ -322,6 +355,45 @@ rules:
     info: 0
     warn: 4
   slug: thoughtly-rules
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 84.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 64.5
+    contract_governance: 28.8
+    contract_quality: 65.8
+    developer_ergonomics: 48.8
+    discoverability: 68.5
+    operational_transparency: 44.7
+  previous_composite: 54.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 30.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/screenshots/thoughtly-2026-06-20T195315.png
 security:
 - kind: authentication

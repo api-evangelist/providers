@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Hypernative REST API exposes the platform's monitoring, detection, screening and automated-response surface — including Screener address reputation (/assets/reputation/addresses), asset and watchl
@@ -24,6 +49,7 @@ asyncapis:
   slug: hypernative-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/security/hypernative-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hypernative-domain-security.yml
@@ -56,30 +82,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/Hypernative-Labs
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/llms/hypernative-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hypernative-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/lifecycle/hypernative-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/hypernative-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/lifecycle/hypernative-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hypernative-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/asyncapi/hypernative-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hypernative-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/conformance/hypernative-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hypernative-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/packages/hypernative-packages.yml
   title: ''
   type: Packages
   url: packages/hypernative-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/plans/hypernative-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hypernative-plans-pricing.yml
@@ -108,6 +141,34 @@ rate_limits:
 - limit_count: 0
   name: Hypernative Rate Limits
   slug: hypernative-rate-limits
+score:
+  band: thin
+  composite: 30.8
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 30.8
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/screenshots/hypernative-2026-09-02T145811.png
 security:
 - kind: authentication

@@ -16,6 +16,7 @@ common:
   type: Documentation
   url: https://code.visualstudio.com/docs/copilot/customization/custom-instructions
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/json-schema/instructions-md-frontmatter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instructions-md-frontmatter-schema.json

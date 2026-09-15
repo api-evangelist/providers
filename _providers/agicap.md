@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -601,10 +627,12 @@ collections:
   slug: open-agicap-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/capabilities/agicap-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/agicap-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/overlays/agicap-ar-clients-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agicap-ar-clients-v1-overlay.yaml
@@ -665,10 +693,12 @@ common:
   type: Security
   url: https://agicap.com/en/bug-bounty/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/security/agicap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agicap-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/security/agicap-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agicap-trust-center.yml
@@ -677,66 +707,82 @@ common:
   type: Compliance
   url: https://trust.agicap.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/security/agicap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agicap-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/authentication/agicap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agicap-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/scopes/agicap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agicap-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/well-known/agicap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agicap-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/well-known/agicap-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/agicap-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/mcp/agicap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/agicap-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/agentic-access/agicap-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agicap-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/llms/agicap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agicap-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/lifecycle/agicap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agicap-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/conventions/agicap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agicap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/errors/agicap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agicap-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/conformance/agicap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agicap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/data-model/agicap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agicap-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/sandbox/agicap-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agicap-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/asyncapi/agicap-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agicap-events-webhooks.yml
@@ -765,6 +811,53 @@ scopes:
   scope_count: 5
   slug: agicap-scopes
   summary_line: 5 scopes · clientCredentials/implicit
+score:
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 59.8
+    developer_ergonomics: 25.6
+    discoverability: 81.5
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 54.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 52
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 74.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/screenshots/agicap-2026-07-25T195300.png
 security:
 - kind: authentication

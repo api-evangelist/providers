@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -1145,22 +1170,27 @@ common:
   type: Website
   url: https://www.docusign.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/capabilities/docusign-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/docusign-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/agentic-access/docusign-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/docusign-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/security/docusign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docusign-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/authentication/docusign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/docusign-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/scopes/docusign-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/docusign-scopes.yml
@@ -1169,74 +1199,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/docusign/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-bulk-send-from-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-bulk-send-from-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-correct-recipient-email-and-resend-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-correct-recipient-email-and-resend-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-create-template-and-send-envelope-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-create-template-and-send-envelope-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-download-completed-documents-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-download-completed-documents-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-draft-envelope-add-recipients-and-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-draft-envelope-add-recipients-and-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-draft-envelope-sender-view-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-draft-envelope-sender-view-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-embedded-signing-view-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-embedded-signing-view-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-find-template-and-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-find-template-and-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-inspect-recipient-tabs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-inspect-recipient-tabs-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-list-sent-envelopes-and-check-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-list-sent-envelopes-and-check-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-multi-signer-routing-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-multi-signer-routing-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-prefill-text-tabs-and-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-prefill-text-tabs-and-send-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-resend-envelope-to-pending-recipients-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-resend-envelope-to-pending-recipients-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-send-envelope-and-track-status-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-send-envelope-and-track-status-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-send-envelope-with-custom-fields-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-send-envelope-with-custom-fields-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-send-from-template-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-send-from-template-and-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-update-template-recipients-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-update-template-recipients-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/arazzo/docusign-void-envelope-if-not-completed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docusign-void-envelope-if-not-completed-workflow.yml
@@ -1877,6 +1925,38 @@ scopes:
   scope_count: 13
   slug: docusign-scopes
   summary_line: 13 scopes · authorizationCode/implicit
+score:
+  band: strong
+  composite: 64.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 13.6
+    contract_quality: 75.9
+    developer_ergonomics: 75.0
+    discoverability: 59.3
+    operational_transparency: 55.3
+  previous_composite: 64.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 128
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:
 - kind: authentication

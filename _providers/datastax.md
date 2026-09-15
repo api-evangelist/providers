@@ -11,6 +11,31 @@ access_model:
   - '{''url'': ''https://www.datastax.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.ibm.com/products/datastax — a different registrable domain (datastax.com -> ibm.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -227,74 +252,92 @@ common:
   type: Postman
   url: https://www.postman.com/datastax
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/packages/datastax-packages.yml
   title: ''
   type: Packages
   url: packages/datastax-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/packages/datastax-packages.yml
   title: ''
   type: SDKs
   url: packages/datastax-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/cli/datastax-cli.yml
   title: ''
   type: CLI
   url: cli/datastax-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/mcp/datastax-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/datastax-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/llms/datastax-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datastax-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/authentication/datastax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datastax-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/scopes/datastax-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/datastax-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/security/datastax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datastax-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/conventions/datastax-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datastax-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/errors/datastax-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datastax-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/lifecycle/datastax-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datastax-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/changelog/datastax-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datastax-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/conformance/datastax-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datastax-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/data-model/datastax-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datastax-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/overlays/datastax-devops-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datastax-devops-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/agentic-access/datastax-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datastax-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/arazzo/datastax-provision-database.yml
   title: ''
   type: Arazzo
   url: arazzo/datastax-provision-database.yml
@@ -320,6 +363,41 @@ scopes:
   scope_count: 15
   slug: datastax-scopes
   summary_line: 15 scopes
+score:
+  band: developing
+  composite: 46.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 4.5
+    contract_quality: 60.5
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 46.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:
 - kind: authentication

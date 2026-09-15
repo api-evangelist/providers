@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: OAuth2-secured GraphQL API for PlayerData sports performance data — clubs, athletes, sessions, devices, metrics, reports and real-time subscription events.
@@ -21,6 +46,7 @@ asyncapis:
   slug: playerdata-events-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/security/playerdata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/playerdata-domain-security.yml
@@ -29,46 +55,57 @@ common:
   type: Website
   url: https://www.playerdata.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/authentication/playerdata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/playerdata-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/packages/playerdata-packages.yml
   title: ''
   type: Packages
   url: packages/playerdata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/packages/playerdata-packages.yml
   title: ''
   type: SDKs
   url: packages/playerdata-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/conventions/playerdata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/playerdata-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/data-model/playerdata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/playerdata-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/asyncapi/playerdata-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/playerdata-events-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/mcp/playerdata-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/playerdata-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/llms/playerdata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/playerdata-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/conformance/playerdata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/playerdata-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/well-known/playerdata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/playerdata-well-known.yml
@@ -77,6 +114,7 @@ common:
   type: Documentation
   url: https://github.com/PlayerData/playerdatapy/blob/main/docs/auth.md
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/graphql/playerdata-schema.graphql
   title: ''
   type: APIReference
   url: graphql/playerdata-schema.graphql
@@ -120,6 +158,36 @@ overview: 'PlayerData publishes 1 API on the [APIs.io](https://apis.io/) network
 
   PlayerData''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 16 more developer resources.'
 random_paper: 13
+score:
+  band: thin
+  composite: 35.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 25.0
+    contract_governance: 4.5
+    contract_quality: 53.1
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 35.7
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/playerdata/refs/heads/main/screenshots/playerdata-2026-09-02T151456.png
 security:
 - kind: authentication

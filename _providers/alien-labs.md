@@ -16,10 +16,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/alien-labs
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alien-labs/refs/heads/main/lifecycle/alien-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alien-labs-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alien-labs/refs/heads/main/llms/alien-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alien-labs-llms.txt

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -46,10 +71,12 @@ common:
   type: ContributionGuide
   url: https://github.com/aklivity/zilla/blob/develop/.github/CONTRIBUTING.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/security/aklivity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aklivity-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/security/aklivity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aklivity-domain-security.yml
@@ -110,82 +137,102 @@ common:
   type: Deprecation
   url: https://docs.aklivity.io/latest/deployment/migrating-to-2.x/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/json-schema/aklivity-zilla-engine.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/aklivity-zilla-engine.schema.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/packages/aklivity-packages.yml
   title: ''
   type: Packages
   url: packages/aklivity-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/llms/aklivity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aklivity-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/conformance/aklivity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aklivity-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/errors/aklivity-event-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/aklivity-event-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/lifecycle/aklivity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aklivity-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/authentication/aklivity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aklivity-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/sandbox/aklivity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aklivity-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/conventions/aklivity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aklivity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/conventions/aklivity-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aklivity-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/changelog/aklivity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aklivity-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/cli/aklivity-cli.yml
   title: ''
   type: CLI
   url: cli/aklivity-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/data-model/aklivity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aklivity-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/vocabulary/aklivity-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aklivity-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/rules/aklivity-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/aklivity-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/json-ld/aklivity-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/aklivity-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/plans/aklivity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aklivity-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/rate-limits/aklivity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aklivity-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/finops/aklivity-finops.yml
   title: ''
   type: FinOps
   url: finops/aklivity-finops.yml
@@ -258,6 +305,36 @@ rules:
     info: 1
     warn: 2
   slug: aklivity-spectral-rules
+score:
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 79.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 72.7
+    contract_quality: 14.7
+    developer_ergonomics: 71.4
+    discoverability: 64.8
+    operational_transparency: 36.8
+  previous_composite: 52.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: unknown
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png
 security:
 - kind: authentication

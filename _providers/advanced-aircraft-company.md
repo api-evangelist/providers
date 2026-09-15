@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The public WordPress REST API served from the Advanced Aircraft Company corporate site at https://advancedaircraftcompany.com/wp-json. The self-describing route index advertises 647 routes across 46 n
@@ -19,54 +44,67 @@ common:
   type: Support
   url: https://advancedaircraftcompany.com/contact/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/llms/advanced-aircraft-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advanced-aircraft-company-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/mcp/advanced-aircraft-company-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/advanced-aircraft-company-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/well-known/advanced-aircraft-company-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/advanced-aircraft-company-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/authentication/advanced-aircraft-company-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advanced-aircraft-company-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/scopes/advanced-aircraft-company-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/advanced-aircraft-company-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/conformance/advanced-aircraft-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advanced-aircraft-company-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/errors/advanced-aircraft-company-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/advanced-aircraft-company-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/conventions/advanced-aircraft-company-conventions.yml
   title: ''
   type: Conventions
   url: conventions/advanced-aircraft-company-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/lifecycle/advanced-aircraft-company-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advanced-aircraft-company-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/rate-limits/advanced-aircraft-company-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advanced-aircraft-company-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/plans/advanced-aircraft-company-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advanced-aircraft-company-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/packages/advanced-aircraft-company-packages.yml
   title: ''
   type: Packages
   url: packages/advanced-aircraft-company-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/advanced-aircraft-company/refs/heads/main/security/advanced-aircraft-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advanced-aircraft-company-domain-security.yml
@@ -99,6 +137,35 @@ scopes:
   scope_count: 0
   slug: advanced-aircraft-company-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 13.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 72.2
+    operational_transparency: 0.0
+  previous_composite: 13.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Advanced Aircraft Company Authentication

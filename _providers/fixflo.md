@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -153,50 +178,62 @@ collections:
   slug: open-fixflo-api-v2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/capabilities/fixflo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fixflo-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/security/fixflo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fixflo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/agentic-access/fixflo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fixflo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/authentication/fixflo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fixflo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/scopes/fixflo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fixflo-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/well-known/fixflo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fixflo-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/packages/fixflo-packages.yml
   title: ''
   type: Packages
   url: packages/fixflo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/packages/fixflo-packages.yml
   title: ''
   type: SDKs
   url: packages/fixflo-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/conventions/fixflo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fixflo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/conventions/fixflo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fixflo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/errors/fixflo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fixflo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/lifecycle/fixflo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fixflo-lifecycle.yml
@@ -205,38 +242,47 @@ common:
   type: Deprecation
   url: https://api-docs.fixflo.com/72b66de24898e-welcome-to-fixflo
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/conformance/fixflo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fixflo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/data-model/fixflo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fixflo-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/sandbox/fixflo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fixflo-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/rate-limits/fixflo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fixflo-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/asyncapi/fixflo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fixflo-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/mcp/fixflo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fixflo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/llms/fixflo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fixflo-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/overlays/fixflo-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fixflo-api-v2-overlay.yaml
@@ -334,6 +380,49 @@ scopes:
   scope_count: 4
   slug: fixflo-scopes
   summary_line: 4 scopes
+score:
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 58.3
+    developer_ergonomics: 32.7
+    discoverability: 63.0
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 41.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/screenshots/fixflo-2026-08-07T165332.png
 security:
 - kind: authentication

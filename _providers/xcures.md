@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 59.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://partner.xcures.com
@@ -73,90 +99,112 @@ common:
   type: Postman
   url: https://docs.xcures.com/downloads/xCures_SDK_Workflows.postman_collection.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/llms/xcures-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xcures-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/a2a/xcures-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/xcures-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/mcp/xcures-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/xcures-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/mcp/xcures-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/xcures-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/well-known/xcures-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xcures-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/conventions/xcures-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xcures-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/conformance/xcures-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xcures-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/lifecycle/xcures-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xcures-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/changelog/xcures-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/xcures-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/authentication/xcures-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xcures-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/security/xcures-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xcures-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/plans/xcures-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xcures-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/rate-limits/xcures-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xcures-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/sandbox/xcures-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/xcures-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/packages/xcures-packages.yml
   title: ''
   type: Packages
   url: packages/xcures-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/errors/xcures-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xcures-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/data-model/xcures-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xcures-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/asyncapi/xcures-application-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/xcures-application-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/conventions/xcures-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/xcures-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/lifecycle/xcures-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/xcures-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
@@ -193,6 +241,51 @@ rate_limits:
 - limit_count: 1
   name: Xcures Rate Limits
   slug: xcures-rate-limits
+score:
+  band: strong
+  composite: 64.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 62.4
+    developer_ergonomics: 76.2
+    discoverability: 75.9
+    operational_transparency: 71.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 64.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Xcures Authentication
@@ -214,7 +307,7 @@ tags:
 - Interoperability
 - FHIR
 - Oncology
-- Real World Data
+- Real-World Data
 - Clinical Data
 - Artificial Intelligence
 - TEFCA

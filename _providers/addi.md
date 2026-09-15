@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API that lets e-commerce merchants create Addi buy-now-pay-later credit applications at checkout. Authentication is handled through Auth0 using the OAuth2 client-credentials flow (client_id + cli
@@ -53,30 +78,37 @@ common:
   type: SignUp
   url: https://co.addi.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/packages/addi-packages.yml
   title: ''
   type: Packages
   url: packages/addi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/packages/addi-packages.yml
   title: ''
   type: SDKs
   url: packages/addi-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/authentication/addi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/addi-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/sandbox/addi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/addi-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/conformance/addi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/addi-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/llms/addi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/addi-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/security/addi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/addi-domain-security.yml
@@ -93,6 +125,45 @@ overview: 'Addi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
   Addi''s developer surface includes documentation, engineering blog, support, signup flow, authentication, sandbox, and 10 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 26.8
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 26.8
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/screenshots/addi-2026-07-25T181615.png
 security:
 - kind: authentication

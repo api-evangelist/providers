@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,22 +87,27 @@ collections:
   slug: open-unitedhealth-provider-directory-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/capabilities/unitedhealth-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unitedhealth-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/agentic-access/unitedhealth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unitedhealth-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/security/unitedhealth-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/unitedhealth-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/security/unitedhealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unitedhealth-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/authentication/unitedhealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unitedhealth-authentication.yml
@@ -198,6 +228,45 @@ rules:
     info: 4
     warn: 13
   slug: unitedhealth-spectral-rules
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 13.6
+    contract_quality: 66.9
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    operational_transparency: 5.3
+  previous_composite: 34.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 34.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png
 security:
 - kind: authentication

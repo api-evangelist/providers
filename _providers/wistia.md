@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -309,70 +334,87 @@ collections:
   slug: open-wistia
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/capabilities/wistia-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wistia-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/agentic-access/wistia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wistia-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/security/wistia-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wistia-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/security/wistia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wistia-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/authentication/wistia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wistia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/scopes/wistia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wistia-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/well-known/wistia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wistia-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/packages/wistia-packages.yml
   title: ''
   type: Packages
   url: packages/wistia-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/packages/wistia-packages.yml
   title: ''
   type: SDKs
   url: packages/wistia-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/cli/wistia-cli.yml
   title: ''
   type: CLI
   url: cli/wistia-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/components/wistia-components.yml
   title: ''
   type: Components
   url: components/wistia-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/conventions/wistia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wistia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/errors/wistia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wistia-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/data-model/wistia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wistia-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/rate-limits/wistia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wistia-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/plans/wistia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wistia-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/lifecycle/wistia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wistia-lifecycle.yml
@@ -385,10 +427,12 @@ common:
   type: Deprecation
   url: https://docs.wistia.com/docs/wistia-deprecation-schedule
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/changelog/wistia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wistia-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/conformance/wistia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wistia-conformance.yml
@@ -397,18 +441,22 @@ common:
   type: Compliance
   url: https://security.wistia.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/mcp/wistia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wistia-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/mcp/wistia-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/wistia-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/overlays/wistia-data-api-2026-01-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wistia-data-api-2026-01-overlay.yaml
@@ -469,6 +517,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/wistia
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/llms/wistia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wistia-llms.txt
@@ -517,6 +566,41 @@ scopes:
   scope_count: 0
   slug: wistia-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 54.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 60.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 29.5
+    contract_quality: 66.6
+    developer_ergonomics: 54.2
+    discoverability: 57.4
+    operational_transparency: 69.7
+  previous_composite: 64.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 47
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png
 security:
 - kind: authentication

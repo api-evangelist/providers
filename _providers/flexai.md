@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -109,10 +134,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/flexai/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/security/flexai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flexai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/agentic-access/flexai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flexai-agentic-access.yml
@@ -169,54 +196,67 @@ common:
   type: TrustCenter
   url: https://security.flex.ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/llms/flexai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flexai-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/_original/flexai-token-factory-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/flexai-token-factory-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/authentication/flexai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flexai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/conventions/flexai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flexai-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/rate-limits/flexai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flexai-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/errors/flexai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flexai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/lifecycle/flexai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flexai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/conformance/flexai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flexai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/data-model/flexai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flexai-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/mcp/flexai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/flexai-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/overlays/flexai-token-factory-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flexai-token-factory-overlay.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/plans/flexai-plans.yml
   title: ''
   type: Plans
   url: plans/flexai-plans.yml
@@ -241,6 +281,41 @@ rate_limits:
 - limit_count: 3
   name: Flexai Rate Limits
   slug: flexai-rate-limits
+score:
+  band: developing
+  composite: 43.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 13.9
+    developer_ergonomics: 60.1
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 43.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:
 - kind: authentication

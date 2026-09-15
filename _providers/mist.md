@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -1728,6 +1753,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/juniper-networks/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/capabilities/mist-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mist-capability-edges.yml
@@ -1776,74 +1802,92 @@ common:
   type: Deprecation
   url: https://www.juniper.net/documentation/us/en/software/mist/automation-integration/topics/task/create-token-for-rest-api.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/authentication/mist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mist-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/openapi/_original/mist-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/mist-openapi-original.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/overlays/mist-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mist-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/lifecycle/mist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mist-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/changelog/mist-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mist-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/rate-limits/mist-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mist-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/conventions/mist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mist-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/errors/mist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mist-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/data-model/mist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mist-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/conformance/mist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mist-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/packages/mist-packages.yml
   title: ''
   type: Packages
   url: packages/mist-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/packages/mist-packages.yml
   title: ''
   type: SDKs
   url: packages/mist-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/mcp/mist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mist-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/asyncapi/mist-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mist-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/llms/mist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mist-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/agentic-access/mist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mist-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/security/mist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mist-domain-security.yml
@@ -1867,6 +1911,41 @@ rate_limits:
 - limit_count: 2
   name: Mist Rate Limits
   slug: mist-rate-limits
+score:
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 32.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 17.1
+    contract_governance: 4.5
+    contract_quality: 69.1
+    developer_ergonomics: 61.3
+    discoverability: 51.9
+    operational_transparency: 71.1
+  previous_composite: 50.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 212
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
 security:
 - kind: authentication

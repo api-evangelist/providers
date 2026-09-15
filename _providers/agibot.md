@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The AimDK protocol is AgiBot's first-party Protocol Buffers definition of its robots' interfaces, published as the aimrt_protocol repository of Link-U OS. It defines 33 gRPC services and 175 RPCs acro
@@ -31,6 +56,7 @@ common:
   type: IssueTracker
   url: https://github.com/Link-U-OS/aimrt_protocol/issues
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/security/agibot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agibot-domain-security.yml
@@ -83,82 +109,102 @@ common:
   type: PrivacyPolicy
   url: https://www.agibot.com/AGIBOT%20Website%20Privacy%20Policy.pdf
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/grpc/agibot-aimdk-protocol-index.yml
   title: ''
   type: Protobuf
   url: grpc/agibot-aimdk-protocol-index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/packages/agibot-packages.yml
   title: ''
   type: Packages
   url: packages/agibot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/packages/agibot-packages.yml
   title: ''
   type: SDKs
   url: packages/agibot-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/mcp/agibot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agibot-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/llms/agibot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agibot-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/well-known/agibot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agibot-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/authentication/agibot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agibot-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/scopes/agibot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agibot-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/conformance/agibot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agibot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/errors/agibot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agibot-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/conventions/agibot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agibot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/lifecycle/agibot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agibot-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/lifecycle/agibot-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/agibot-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/changelog/agibot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agibot-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/security/agibot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/agibot-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/security/agibot-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/agibot-vulnerability-disclosure.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/rate-limits/agibot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agibot-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/sandbox/agibot-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agibot-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/cli/agibot-cli.yml
   title: ''
   type: CLI
   url: cli/agibot-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -189,6 +235,43 @@ scopes:
   scope_count: 0
   slug: agibot-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 44.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 33.3
+    developer_ergonomics: 80.4
+    discoverability: 72.2
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 44.6
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/screenshots/agibot-2026-08-07T161032.png
 security:
 - kind: authentication

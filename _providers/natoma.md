@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.1
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
@@ -49,6 +74,7 @@ common:
   type: StatusPage
   url: https://natomalabs.statuspage.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/security/natoma-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/natoma-trust-center.yml
@@ -57,10 +83,12 @@ common:
   type: Compliance
   url: https://natoma.ai/trust
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/llms/natoma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/natoma-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/security/natoma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/natoma-domain-security.yml
@@ -77,34 +105,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/natomalabs
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/mcp/natoma-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/natoma-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/packages/natoma-packages.yml
   title: ''
   type: Packages
   url: packages/natoma-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/cli/natoma-cli.yml
   title: ''
   type: CLI
   url: cli/natoma-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/authentication/natoma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/natoma-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/conformance/natoma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/natoma-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/data-model/natoma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/natoma-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/lifecycle/natoma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/natoma-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/well-known/natoma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/natoma-well-known.yml
@@ -125,6 +161,35 @@ overview: 'Natoma is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Natoma''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
 random_paper: 10
+score:
+  band: thin
+  composite: 33.8
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 57.4
+    operational_transparency: 18.4
+  previous_composite: 33.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/screenshots/natoma-2026-08-07T184657.png
 security:
 - kind: authentication

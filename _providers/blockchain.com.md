@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -179,38 +204,47 @@ collections:
   slug: open-blockchain
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/mcp/blockchain.com-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/blockchain.com-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/overlays/blockchain.com-exchange-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blockchain.com-exchange-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/packages/blockchain.com-packages.yml
   title: ''
   type: Packages
   url: packages/blockchain.com-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/packages/blockchain.com-packages.yml
   title: ''
   type: SDKs
   url: packages/blockchain.com-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/well-known/blockchain.com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blockchain.com-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/well-known/blockchain.com-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/blockchain.com-security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/conventions/blockchain.com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blockchain.com-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/lifecycle/blockchain.com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blockchain.com-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/conformance/blockchain.com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blockchain.com-conformance.yml
@@ -219,46 +253,57 @@ common:
   type: Compliance
   url: https://www.blockchain.com/legal/licenses
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/errors/blockchain.com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blockchain.com-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/data-model/blockchain.com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blockchain.com-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/scopes/blockchain.com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blockchain.com-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/components/blockchain.com-components.yml
   title: ''
   type: Components
   url: components/blockchain.com-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/rate-limits/blockchain.com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blockchain.com-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/asyncapi/blockchain.com-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/blockchain.com-event-surface.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/agentic-access/blockchain.com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blockchain.com-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/security/blockchain.com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blockchain.com-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/security/blockchain.com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blockchain.com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/authentication/blockchain.com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blockchain.com-authentication.yml
@@ -319,6 +364,7 @@ common:
   type: Security
   url: https://www.blockchain.com/.well-known/security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/llms/blockchain.com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blockchain.com-llms.txt
@@ -355,6 +401,47 @@ scopes:
   scope_count: 2
   slug: blockchain.com-scopes
   summary_line: 2 scopes
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 54.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 42.4
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 52.6
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 47.1
+      total: 17
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:
 - kind: authentication

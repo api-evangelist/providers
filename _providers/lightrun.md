@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -239,6 +265,7 @@ common:
   type: Deprecation
   url: https://docs.lightrun.com/release_notes/functionality-changes-deprecations/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/changelog/lightrun-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lightrun-changelog.yml
@@ -247,58 +274,72 @@ common:
   type: ReleaseNotes
   url: https://docs.lightrun.com/release_notes/lightrun-release-notes/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/lifecycle/lightrun-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lightrun-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/mcp/lightrun-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lightrun-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/agentic-access/lightrun-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lightrun-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/cli/lightrun-cli.yml
   title: ''
   type: CLI
   url: cli/lightrun-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/packages/lightrun-packages.yml
   title: ''
   type: Packages
   url: packages/lightrun-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/packages/lightrun-packages.yml
   title: ''
   type: SDKs
   url: packages/lightrun-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/asyncapi/lightrun-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lightrun-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/authentication/lightrun-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lightrun-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/scopes/lightrun-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lightrun-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/conventions/lightrun-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lightrun-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/errors/lightrun-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lightrun-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/data-model/lightrun-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lightrun-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/conformance/lightrun-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lightrun-conformance.yml
@@ -307,26 +348,32 @@ common:
   type: Compliance
   url: https://trust.lightrun.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/security/lightrun-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lightrun-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/security/lightrun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightrun-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/well-known/lightrun-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lightrun-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/well-known/lightrun-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/lightrun-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/llms/lightrun-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lightrun-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/overlays/lightrun-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lightrun-public-api-overlay.yaml
@@ -355,6 +402,41 @@ scopes:
   scope_count: 0
   slug: lightrun-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 59.5
+    developer_ergonomics: 73.8
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 54.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/screenshots/lightrun-2026-07-25T225125.png
 security:
 - kind: authentication

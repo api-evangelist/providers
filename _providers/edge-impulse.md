@@ -13,6 +13,31 @@ access_model:
   - https://studio.edgeimpulse.com/openapi.yml
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://studio.edgeimpulse.com/v1
@@ -309,18 +334,22 @@ collections:
   slug: open-edge-impulse-whitelabels-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/authentication/edge-impulse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/edge-impulse-authentication.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/capabilities/edge-impulse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/edge-impulse-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/security/edge-impulse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/edge-impulse-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/security/edge-impulse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edge-impulse-domain-security.yml
@@ -389,50 +418,62 @@ common:
   type: LlmsText
   url: https://docs.edgeimpulse.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/packages/edge-impulse-packages.yml
   title: ''
   type: Packages
   url: packages/edge-impulse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/packages/edge-impulse-packages.yml
   title: ''
   type: SDKs
   url: packages/edge-impulse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/cli/edge-impulse-cli.yml
   title: ''
   type: CLI
   url: cli/edge-impulse-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/mcp/edge-impulse-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/edge-impulse-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/mcp/edge-impulse-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/edge-impulse-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/a2a/edge-impulse-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/edge-impulse-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/well-known/edge-impulse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/edge-impulse-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/conformance/edge-impulse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/edge-impulse-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/conformance/edge-impulse-conformance.yml
   title: ''
   type: Compliance
   url: conformance/edge-impulse-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/errors/edge-impulse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/edge-impulse-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/lifecycle/edge-impulse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/edge-impulse-lifecycle.yml
@@ -441,22 +482,27 @@ common:
   type: StatusPage
   url: https://edgeimpulse.statuspage.io
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/scopes/edge-impulse-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/edge-impulse-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/conventions/edge-impulse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/edge-impulse-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/data-model/edge-impulse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/edge-impulse-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/asyncapi/edge-impulse-remote-management-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/edge-impulse-remote-management-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/asyncapi/edge-impulse-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/edge-impulse-webhooks.yml
@@ -516,7 +562,7 @@ modified: '2026-09-06'
 name: Edge Impulse
 nav: Providers
 network: true
-overview: 'Edge Impulse publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Canary API, and 32 more. Tagged areas include Artificial Intelligence, Machine Learning, Embedded Machine Learning, Edge AI, and MLOps.
+overview: 'Edge Impulse publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Canary API, and 32 more. Tagged areas include Artificial Intelligence, Machine-Learning, Embedded Machine Learning, Edge AI, and MLOps.
 
 
   The Edge Impulse catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -537,6 +583,40 @@ scopes:
   scope_count: 0
   slug: edge-impulse-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 68.0
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 57.8
+    developer_ergonomics: 90.5
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 68.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/screenshots/edge-impulse-2026-06-20T180450.png
 security:
 - kind: authentication
@@ -558,11 +638,11 @@ security:
 slug: edge-impulse
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Embedded Machine Learning
 - Edge AI
 - MLOps
-- Computer Vision
+- Computer-Vision
 - Internet of Things
 - Model Deployment
 - Developer Tools

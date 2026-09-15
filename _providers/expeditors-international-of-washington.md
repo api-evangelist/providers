@@ -9,6 +9,31 @@ access_model:
   - https://help.expeditors.com/globalhelp/shipment_api/getting_started.htm
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Read-only REST/JSON API that lets a contracted Expeditors customer pull real-time shipment, container, order-management container, consignment and cross-dock tracking data into its own enterprise and '
@@ -65,54 +90,67 @@ common:
   type: Deprecation
   url: https://help.expeditors.com/globalhelp/shipment_api/Version_Policy.htm
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/changelog/expeditors-international-of-washington-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/expeditors-international-of-washington-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/authentication/expeditors-international-of-washington-authentication.yml
   title: ''
   type: Authentication
   url: authentication/expeditors-international-of-washington-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/scopes/expeditors-international-of-washington-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/expeditors-international-of-washington-scopes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/rate-limits/expeditors-international-of-washington-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/expeditors-international-of-washington-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/errors/expeditors-international-of-washington-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/expeditors-international-of-washington-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/lifecycle/expeditors-international-of-washington-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/expeditors-international-of-washington-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/conventions/expeditors-international-of-washington-conventions.yml
   title: ''
   type: Conventions
   url: conventions/expeditors-international-of-washington-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/data-model/expeditors-international-of-washington-data-model.yml
   title: ''
   type: DataModel
   url: data-model/expeditors-international-of-washington-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/conformance/expeditors-international-of-washington-conformance.yml
   title: ''
   type: Conformance
   url: conformance/expeditors-international-of-washington-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/plans/expeditors-international-of-washington-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/expeditors-international-of-washington-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/llms/expeditors-international-of-washington-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/expeditors-international-of-washington-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/well-known/expeditors-international-of-washington-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/expeditors-international-of-washington-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/security/expeditors-international-of-washington-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/expeditors-international-of-washington-domain-security.yml
@@ -158,6 +196,35 @@ scopes:
   scope_count: 1
   slug: expeditors-international-of-washington-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: thin
+  composite: 31.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 68.5
+    operational_transparency: 44.7
+  previous_composite: 31.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/screenshots/expeditors-international-of-washington-2026-06-20T180935.png
 security:
 - kind: authentication

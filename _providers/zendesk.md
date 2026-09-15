@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -1172,82 +1197,102 @@ common:
   type: Website
   url: https://www.zendesk.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/capabilities/zendesk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zendesk-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/agentic-access/zendesk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zendesk-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/security/zendesk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zendesk-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/security/zendesk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zendesk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/authentication/zendesk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zendesk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/scopes/zendesk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zendesk-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/security/zendesk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zendesk-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/packages/zendesk-packages.yml
   title: ''
   type: Packages
   url: packages/zendesk-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/well-known/zendesk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zendesk-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/mcp/zendesk-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zendesk-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/llms/zendesk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zendesk-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/overlays/zendesk-support-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zendesk-support-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/conformance/zendesk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zendesk-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/errors/zendesk-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zendesk-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/lifecycle/zendesk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zendesk-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/conventions/zendesk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zendesk-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/changelog/zendesk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zendesk-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/cli/zendesk-cli.yml
   title: ''
   type: CLI
   url: cli/zendesk-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/components/zendesk-components.yml
   title: ''
   type: Components
   url: components/zendesk-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/data-model/zendesk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zendesk-data-model.yml
@@ -1256,78 +1301,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zendesk/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-add-comment-to-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-add-comment-to-ticket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-apply-macro-to-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-apply-macro-to-ticket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-assign-organization-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-assign-organization-ticket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-create-custom-ticket-field-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-create-custom-ticket-field-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-create-macro-and-preview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-create-macro-and-preview-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-create-organization-and-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-create-organization-and-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-create-ticket-assign-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-create-ticket-assign-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-create-user-and-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-create-user-and-ticket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-escalate-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-escalate-ticket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-find-macro-and-apply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-find-macro-and-apply-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-find-user-and-open-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-find-user-and-open-ticket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-merge-duplicate-organizations-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-merge-duplicate-organizations-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-onboard-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-onboard-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-reassign-ticket-to-agent-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-reassign-ticket-to-agent-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-solve-ticket-from-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-solve-ticket-from-search-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-tag-and-prioritize-ticket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-tag-and-prioritize-ticket-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-triage-tickets-from-view-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-triage-tickets-from-view-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-upsert-organization-by-name-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-upsert-organization-by-name-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/arazzo/zendesk-upsert-user-by-email-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/zendesk-upsert-user-by-email-workflow.yml
@@ -1681,6 +1745,40 @@ scopes:
   scope_count: 0
   slug: zendesk-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 61.1
+  coverage:
+    artifact_dirs: 35
+    catalog_earned: 55.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 56.6
+    developer_ergonomics: 58.3
+    discoverability: 68.5
+    operational_transparency: 55.3
+  previous_composite: 61.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 80
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:
 - kind: authentication

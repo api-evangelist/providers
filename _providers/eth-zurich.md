@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -340,6 +365,7 @@ collections:
   slug: open-eth-zurich-util-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/capabilities/eth-zurich-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eth-zurich-capability-edges.yml
@@ -352,18 +378,22 @@ common:
   type: License
   url: https://github.com/eth-library/opendata-apis/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/agentic-access/eth-zurich-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eth-zurich-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/security/eth-zurich-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eth-zurich-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/security/eth-zurich-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eth-zurich-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/authentication/eth-zurich-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eth-zurich-authentication.yml
@@ -400,46 +430,57 @@ common:
   type: Authentication
   url: https://developer.library.ethz.ch
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/plans/eth-zurich-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eth-zurich-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/rate-limits/eth-zurich-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eth-zurich-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/finops/eth-zurich-finops.yml
   title: ''
   type: FinOps
   url: finops/eth-zurich-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/json-schema/eth-zurich-research-collection-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/eth-zurich-research-collection-item-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/json-structure/eth-zurich-research-collection-item-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/eth-zurich-research-collection-item-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/examples/eth-zurich-research-collection-search-example.json
   title: ''
   type: x-example
   url: examples/eth-zurich-research-collection-search-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/examples/eth-zurich-discovery-resources-example.json
   title: ''
   type: x-example
   url: examples/eth-zurich-discovery-resources-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/rules/eth-zurich-rules.yml
   title: ''
   type: Spectral
   url: rules/eth-zurich-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/vocabulary/eth-zurich-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/eth-zurich-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/json-ld/eth-zurich-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/eth-zurich-context.jsonld
@@ -480,6 +521,7 @@ common:
   type: LibraryCatalog
   url: https://eth.swisscovery.slsp.ch/discovery/search?vid=41SLSP_ETH:ETH
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/authentication/eth-zurich-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: authentication/eth-zurich-identity-federation.yml
@@ -500,14 +542,17 @@ common:
   type: AITooling
   url: https://ethz.ch/en/the-eth-zurich/education/ai-in-education/tools.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/conformance/eth-zurich-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/eth-zurich-domain-standards.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/rules/eth-zurich-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/eth-zurich-jsonschema-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/lifecycle/eth-zurich-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eth-zurich-lifecycle.yml
@@ -581,6 +626,53 @@ rules:
     info: 1
     warn: 3
   slug: eth-zurich-rules
+score:
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 62.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 25.0
+    contract_quality: 56.9
+    developer_ergonomics: 23.8
+    discoverability: 61.1
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 44.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png
 security:
 - kind: authentication

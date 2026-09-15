@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,14 +105,17 @@ common:
   type: IssueTracker
   url: https://github.com/4chan/4chan-JS/issues
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/agentic-access/4chan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/4chan-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/security/4chan-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/4chan-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/security/4chan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/4chan-domain-security.yml
@@ -148,22 +176,27 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/plans/4chan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/4chan-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/rate-limits/4chan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/4chan-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/vocabulary/4chan-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/4chan-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/rules/4chan-rules.yml
   title: ''
   type: SpectralRules
   url: rules/4chan-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/json-ld/4chan-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/4chan-context.jsonld
@@ -329,6 +362,39 @@ rules:
     info: 8
     warn: 23
   slug: 4chan-rules
+score:
+  band: thin
+  composite: 35.8
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 80.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 28.8
+    contract_quality: 21.3
+    developer_ergonomics: 31.0
+    discoverability: 74.1
+    operational_transparency: 34.2
+  previous_composite: 35.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:
 - kind: domain-security

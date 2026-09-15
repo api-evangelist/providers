@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://uplimit.com/api/organization
@@ -62,10 +87,12 @@ collections:
   slug: open-uplimit-user-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/capabilities/uplimit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uplimit-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/security/uplimit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uplimit-domain-security.yml
@@ -102,38 +129,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/uplimit
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/packages/uplimit-packages.yml
   title: ''
   type: Packages
   url: packages/uplimit-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/packages/uplimit-packages.yml
   title: ''
   type: SDKs
   url: packages/uplimit-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/well-known/uplimit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uplimit-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/mcp/uplimit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/uplimit-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/llms/uplimit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uplimit-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/overlays/uplimit-organization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uplimit-organization-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/conformance/uplimit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uplimit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/errors/uplimit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uplimit-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/lifecycle/uplimit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uplimit-lifecycle.yml
@@ -142,18 +178,22 @@ common:
   type: StatusPage
   url: https://status.uplimit.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/authentication/uplimit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uplimit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/conventions/uplimit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uplimit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/data-model/uplimit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uplimit-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -170,6 +210,46 @@ overview: 'Uplimit publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
   Uplimit''s developer surface includes engineering blog, authentication, and 22 more developer resources.'
 random_paper: 16
+score:
+  band: thin
+  composite: 35.0
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 51.2
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 35.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/screenshots/uplimit-2026-09-02T165038.png
 security:
 - kind: authentication

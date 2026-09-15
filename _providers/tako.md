@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 43.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -91,78 +117,97 @@ common:
   type: Support
   url: https://docs.tako.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/llms/tako-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tako-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/mcp/tako-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tako-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/packages/tako-packages.yml
   title: ''
   type: Packages
   url: packages/tako-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/packages/tako-packages.yml
   title: ''
   type: SDKs
   url: packages/tako-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/authentication/tako-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tako-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/errors/tako-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tako-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/conventions/tako-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tako-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/rate-limits/tako-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tako-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/finops/tako-finops.yml
   title: ''
   type: FinOps
   url: finops/tako-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/lifecycle/tako-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tako-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/conformance/tako-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tako-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/data-model/tako-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tako-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/overlays/tako-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tako-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/components/tako-components.yml
   title: ''
   type: Components
   url: components/tako-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/well-known/tako-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tako-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/well-known/tako-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/tako-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/security/tako-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tako-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/agentic-access/tako-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tako-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -192,6 +237,41 @@ rate_limits:
 - limit_count: 1
   name: Tako Rate Limits
   slug: tako-rate-limits
+score:
+  band: developing
+  composite: 50.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 57.1
+    developer_ergonomics: 75.0
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 50.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/screenshots/tako-2026-08-17T082243.png
 security:
 - kind: authentication

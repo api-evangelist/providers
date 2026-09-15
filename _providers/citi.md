@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.8
+  scored_at: '2026-09-14'
 api_count: 118
 apis:
 - baseURL: https://tts.apib2b.citi.com/citiconnect/prod
@@ -133,6 +158,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/citi
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/sandbox/citi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/citi-sandbox.yml
@@ -141,86 +167,107 @@ common:
   type: Documentation
   url: https://www.citigroup.com/global/insights/citiconnect-api-portal
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/authentication/citi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/citi-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/scopes/citi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/citi-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/conventions/citi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/citi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/conventions/citi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/citi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/conformance/citi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/citi-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/conformance/citi-conformance.yml
   title: ''
   type: Compliance
   url: conformance/citi-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/errors/citi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/citi-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/errors/citi-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/citi-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/lifecycle/citi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/citi-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/lifecycle/citi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/citi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/data-model/citi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/citi-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/rate-limits/citi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/citi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/plans/citi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/citi-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/packages/citi-packages.yml
   title: ''
   type: Packages
   url: packages/citi-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/asyncapi/citi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/citi-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/llms/citi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/citi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/mcp/citi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/citi-mcp.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/changelog/citi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/citi-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/security/citi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/citi-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/security/citi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/citi-vulnerability-disclosure.yml
@@ -261,6 +308,46 @@ scopes:
   scope_count: 24
   slug: citi-scopes
   summary_line: 24 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 62.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 66.5
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    operational_transparency: 44.7
+  previous_composite: 62.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 91.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 118
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 84.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/screenshots/citi-2026-06-20T174409.png
 security:
 - kind: authentication

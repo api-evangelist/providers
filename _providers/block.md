@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -133,18 +159,22 @@ common:
   type: ChangeLog
   url: https://developer.squareup.com/docs/release-notes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/agentic-access/block-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/block-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/security/block-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/block-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/authentication/block-authentication.yml
   title: ''
   type: Authentication
   url: authentication/block-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/scopes/block-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/block-scopes.yml
@@ -153,54 +183,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/block/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-catalog-browse-and-order-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-catalog-browse-and-order-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-catalog-driven-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-catalog-driven-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-catalog-to-customer-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-catalog-to-customer-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-customer-order-then-pay-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-customer-order-then-pay-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-customer-payment-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-customer-payment-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-full-commerce-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-full-commerce-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-location-first-sale-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-location-first-sale-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-location-payment-reconciliation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-location-payment-reconciliation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-new-customer-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-new-customer-checkout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-onboard-customer-and-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-onboard-customer-and-charge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-reconcile-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-reconcile-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-returning-customer-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-returning-customer-checkout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/arazzo/block-take-payment-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/block-take-payment-and-verify-workflow.yml
@@ -253,10 +296,12 @@ common:
   type: SDKs
   url: https://developer.squareup.com/docs/sdks
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/rules/block-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/block-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/vocabulary/block-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/block-vocabulary.yaml
@@ -387,6 +432,44 @@ scopes:
   scope_count: 6
   slug: block-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: developing
+  composite: 44.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 28.8
+    contract_quality: 19.6
+    developer_ergonomics: 56.0
+    discoverability: 72.2
+    operational_transparency: 50.0
+  previous_composite: 44.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png
 security:
 - kind: authentication

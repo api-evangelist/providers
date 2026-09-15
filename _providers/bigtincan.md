@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -111,26 +136,32 @@ apis:
 artifact_total: 26
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/capabilities/bigtincan-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bigtincan-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/agentic-access/bigtincan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bigtincan-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/scopes/bigtincan-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bigtincan-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/authentication/bigtincan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bigtincan-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/security/bigtincan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bigtincan-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/security/bigtincan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bigtincan-domain-security.yml
@@ -147,58 +178,72 @@ common:
   type: APIReference
   url: https://pubapi.bigtincan.com/doc/interactive/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/bigtincan-hub-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/bigtincan-hub-api-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/overlays/bigtincan-hub-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bigtincan-hub-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/conventions/bigtincan-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bigtincan-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/errors/bigtincan-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bigtincan-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/data-model/bigtincan-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bigtincan-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/lifecycle/bigtincan-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bigtincan-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/changelog/bigtincan-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bigtincan-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/conformance/bigtincan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bigtincan-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/conformance/bigtincan-conformance.yml
   title: ''
   type: Compliance
   url: conformance/bigtincan-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/packages/bigtincan-packages.yml
   title: ''
   type: Packages
   url: packages/bigtincan-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/packages/bigtincan-packages.yml
   title: ''
   type: SDKs
   url: packages/bigtincan-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/mcp/bigtincan-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bigtincan-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/llms/bigtincan-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bigtincan-llms.txt
@@ -247,14 +292,17 @@ common:
   type: X
   url: https://x.com/bigtincan
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/plans/bigtincan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bigtincan-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/rate-limits/bigtincan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bigtincan-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/finops/bigtincan-finops.yml
   title: ''
   type: FinOps
   url: finops/bigtincan-finops.yml
@@ -288,6 +336,41 @@ scopes:
   scope_count: 0
   slug: bigtincan-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 54.6
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 48.6
+    developer_ergonomics: 44.6
+    discoverability: 68.5
+    operational_transparency: 31.6
+  previous_composite: 54.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/screenshots/bigtincan-2026-06-20T173235.png
 security:
 - kind: authentication

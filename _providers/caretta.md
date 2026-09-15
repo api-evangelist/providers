@@ -9,6 +9,31 @@ access_model:
   - https://www.caretta.so/docs/caretta-mcp
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: near-conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server that gives compatible AI clients OAuth-scoped access to the Caretta calls, transcripts and todos the signed-in user can already see. Seven documented tools cover l
@@ -21,6 +46,7 @@ asyncapis:
   slug: caretta-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/security/caretta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caretta-domain-security.yml
@@ -33,6 +59,7 @@ common:
   type: Blog
   url: https://www.caretta.so/blog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/security/caretta-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/caretta-trust-center.yml
@@ -73,66 +100,82 @@ common:
   type: GettingStarted
   url: https://www.caretta.so/docs/webhooks
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/mcp/caretta-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/caretta-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/asyncapi/caretta-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/caretta-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/a2a/caretta-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/caretta-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/llms/caretta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/caretta-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/well-known/caretta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/caretta-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/authentication/caretta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/caretta-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/scopes/caretta-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/caretta-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/conventions/caretta-conventions.yml
   title: ''
   type: Conventions
   url: conventions/caretta-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/conventions/caretta-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/caretta-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/errors/caretta-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/caretta-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/conformance/caretta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/caretta-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/lifecycle/caretta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/caretta-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/data-model/caretta-data-model.yml
   title: ''
   type: DataModel
   url: data-model/caretta-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/plans/caretta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/caretta-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/rate-limits/caretta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/caretta-rate-limits.yml
@@ -170,6 +213,36 @@ scopes:
   scope_count: 4
   slug: caretta-scopes
   summary_line: 4 scopes
+score:
+  band: developing
+  composite: 40.1
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 40.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/screenshots/caretta-2026-07-25T204603.png
 security:
 - kind: authentication

@@ -20,14 +20,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/changecoin
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/changetip/refs/heads/main/packages/changetip-packages.yml
   title: ''
   type: Packages
   url: packages/changetip-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/changetip/refs/heads/main/packages/changetip-packages.yml
   title: ''
   type: SDKs
   url: packages/changetip-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/changetip/refs/heads/main/security/changetip-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/changetip-domain-security.yml

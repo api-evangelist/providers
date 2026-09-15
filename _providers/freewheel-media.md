@@ -11,6 +11,31 @@ access_model:
   - https://www.freewheel.com/legal/master-services-agreement
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 0
@@ -364,34 +389,42 @@ collections:
   slug: open-freewheel-media-demand-deal-sync-openapi-original
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/capabilities/freewheel-media-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/freewheel-media-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/overlays/freewheel-media-advertiser-buzz-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/freewheel-media-advertiser-buzz-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/overlays/freewheel-media-demand-audience-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/freewheel-media-demand-audience-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/overlays/freewheel-media-demand-deal-sync-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/freewheel-media-demand-deal-sync-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/overlays/freewheel-media-demand-creative-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/freewheel-media-demand-creative-management-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/agentic-access/freewheel-media-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/freewheel-media-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/authentication/freewheel-media-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freewheel-media-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/security/freewheel-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freewheel-media-domain-security.yml
@@ -428,6 +461,7 @@ common:
   type: Login
   url: https://mrm.freewheel.tv/system/account/login
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/llms/freewheel-media-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/freewheel-media-llms.txt
@@ -448,58 +482,72 @@ common:
   type: GettingStarted
   url: https://api-docs.freewheel.tv/advertiser/docs/getting-started
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/changelog/freewheel-media-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/freewheel-media-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/lifecycle/freewheel-media-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/freewheel-media-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/conventions/freewheel-media-conventions.yml
   title: ''
   type: Conventions
   url: conventions/freewheel-media-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/errors/freewheel-media-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/freewheel-media-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/rate-limits/freewheel-media-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freewheel-media-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/plans/freewheel-media-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/freewheel-media-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/sandbox/freewheel-media-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/freewheel-media-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/conformance/freewheel-media-conformance.yml
   title: ''
   type: Conformance
   url: conformance/freewheel-media-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/data-model/freewheel-media-data-model.yml
   title: ''
   type: DataModel
   url: data-model/freewheel-media-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/packages/freewheel-media-packages.yml
   title: ''
   type: Packages
   url: packages/freewheel-media-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/well-known/freewheel-media-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/freewheel-media-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/mcp/freewheel-media-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/freewheel-media-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/mcp/freewheel-media-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/freewheel-media-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -524,6 +572,41 @@ rate_limits:
 - limit_count: 1
   name: Freewheel Media Rate Limits
   slug: freewheel-media-rate-limits
+score:
+  band: developing
+  composite: 40.6
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 40.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 53.5
+    developer_ergonomics: 44.6
+    discoverability: 66.7
+    operational_transparency: 39.5
+  previous_composite: 40.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 65
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/freewheel-media/refs/heads/main/screenshots/freewheel-media-2026-07-25T215145.png
 security:
 - kind: authentication

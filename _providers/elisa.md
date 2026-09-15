@@ -9,6 +9,31 @@ access_model:
   - probe
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 24.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: BASIL — "The FuSa Spice" — is ELISA's own software quality management tool. It decomposes a software component specification into snippets, maps work items (software requirements, test specifications,
@@ -119,70 +144,87 @@ common:
   type: Community
   url: http://chat.elisa.tech/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-events-calendar-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/elisa-events-calendar-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/overlays/elisa-events-calendar-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elisa-events-calendar-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/well-known/elisa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elisa-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/well-known/elisa-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/elisa-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/llms/elisa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elisa-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/authentication/elisa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elisa-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/conventions/elisa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elisa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/errors/elisa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elisa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/data-model/elisa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elisa-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/lifecycle/elisa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elisa-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/conformance/elisa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elisa-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/changelog/elisa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elisa-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/packages/elisa-packages.yml
   title: ''
   type: Packages
   url: packages/elisa-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/security/elisa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elisa-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/plans/elisa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elisa-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/finops/elisa-finops.yml
   title: ''
   type: FinOps
   url: finops/elisa-finops.yml
@@ -211,6 +253,46 @@ rate_limits:
 - limit_count: 0
   name: Elisa Rate Limits
   slug: elisa-rate-limits
+score:
+  band: developing
+  composite: 49.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 37.3
+    developer_ergonomics: 58.9
+    discoverability: 66.7
+    operational_transparency: 21.1
+  previous_composite: 49.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png
 security:
 - kind: authentication

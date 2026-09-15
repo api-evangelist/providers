@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 59.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -165,14 +191,17 @@ collections:
   slug: open-explorium
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/security/explorium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/explorium-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/agentic-access/explorium-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/explorium-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/authentication/explorium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/explorium-authentication.yml
@@ -197,14 +226,17 @@ common:
   type: Documentation
   url: https://developers.explorium.ai/mcp-docs/agentsource-mcp
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/plans/explorium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/explorium-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/rate-limits/explorium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/explorium-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/finops/explorium-finops.yml
   title: ''
   type: FinOps
   url: finops/explorium-finops.yml
@@ -213,42 +245,52 @@ common:
   type: Blog
   url: https://www.explorium.ai/blog/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/_original/explorium-agentsource-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/explorium-agentsource-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/overlays/explorium-agentsource-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/explorium-agentsource-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/packages/explorium-packages.yml
   title: ''
   type: Packages
   url: packages/explorium-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/well-known/explorium-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/explorium-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/well-known/explorium-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/explorium-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/mcp/explorium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/explorium-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/mcp/explorium-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/explorium-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/a2a/explorium-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/explorium-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/llms/explorium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/explorium-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/conformance/explorium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/explorium-conformance.yml
@@ -257,42 +299,52 @@ common:
   type: Compliance
   url: https://www.explorium.ai/data-security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/security/explorium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/explorium-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/errors/explorium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/explorium-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/lifecycle/explorium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/explorium-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/conventions/explorium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/explorium-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/changelog/explorium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/explorium-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/data-model/explorium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/explorium-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/sandbox/explorium-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/explorium-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/asyncapi/explorium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/explorium-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/skills/explorium-agentsource.md
   title: ''
   type: AgentSkill
   url: skills/explorium-agentsource.md
@@ -372,6 +424,41 @@ rate_limits:
 - limit_count: 6
   name: Explorium Rate Limits
   slug: explorium-rate-limits
+score:
+  band: strong
+  composite: 65.9
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 59.9
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 65.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/screenshots/explorium-2026-07-25T213931.png
 security:
 - kind: authentication

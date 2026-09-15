@@ -33,7 +33,6 @@ tags:
 - Fintech
 - Defense
 - Enterprise
-- Consumer
 - North America
 - Europe
 ---

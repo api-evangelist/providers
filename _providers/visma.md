@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.3
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://api.finance.visma.net
@@ -74,102 +100,127 @@ common:
   type: Deprecation
   url: https://docs.vismasoftware.no/vismanetapi/end-of-life-notices/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/security/visma-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/visma-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/security/visma-trust-center.yml
   title: ''
   type: Compliance
   url: security/visma-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/llms/visma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/visma-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/mcp/visma-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/visma-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/well-known/visma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/visma-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/well-known/visma-connect-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/visma-connect-security.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/packages/visma-packages.yml
   title: ''
   type: Packages
   url: packages/visma-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/components/visma-components.yml
   title: ''
   type: Components
   url: components/visma-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/authentication/visma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/visma-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/scopes/visma-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/visma-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/conventions/visma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/visma-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/conformance/visma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/visma-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/errors/visma-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/visma-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/lifecycle/visma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/visma-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/changelog/visma-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/visma-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/rate-limits/visma-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/visma-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/plans/visma-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/visma-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/sandbox/visma-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/visma-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/data-model/visma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/visma-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/asyncapi/visma-net-erp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/visma-net-erp-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/security/visma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/visma-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/security/visma-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/visma-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/security/visma-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/visma-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/mcp/visma-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/visma-tool-crosswalk.yml
@@ -178,18 +229,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/Visma-Software-AS-Product
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/skills/visma-create-customer-and-sales-order.md
   title: ''
   type: AgentSkill
   url: skills/visma-create-customer-and-sales-order.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/skills/visma-invoice-and-reverse.md
   title: ''
   type: AgentSkill
   url: skills/visma-invoice-and-reverse.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/skills/visma-supplier-invoice-approval.md
   title: ''
   type: AgentSkill
   url: skills/visma-supplier-invoice-approval.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/skills/visma-business-nxt-mcp-session.md
   title: ''
   type: AgentSkill
   url: skills/visma-business-nxt-mcp-session.md
@@ -206,7 +261,7 @@ modified: '2026-09-13'
 name: Visma
 nav: Providers
 network: true
-overview: 'Visma publishes 3 APIs on the [APIs.io](https://apis.io/) network: Visma.net ERP API, Bookkeeping & Invoicing / eAccounting API, and Cloud Payroll (Spiris Lon) API. Tagged areas include Accounting, Business-Software, ERP, Enterprise, and Financial-Services.
+overview: 'Visma publishes 3 APIs on the [APIs.io](https://apis.io/) network: Visma.net ERP API, Bookkeeping & Invoicing / eAccounting API, and Cloud Payroll (Spiris Lon) API. Tagged areas include Accounting, Business Software, ERP, Enterprise, and Financial-Services.
 
 
   The Visma catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,6 +282,43 @@ scopes:
   scope_count: 5
   slug: visma-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 61.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 57.8
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Visma Authentication
@@ -247,14 +339,14 @@ security:
 slug: visma
 tags:
 - Accounting
-- Business-Software
+- Business Software
 - ERP
 - Enterprise
 - Financial-Services
-- Human-Resources
+- Human Resources
 - Invoicing
 - Nordic
 - Payroll
-- SaaS
+- Software-as-a-Service
 website: https://www.visma.com/
 ---

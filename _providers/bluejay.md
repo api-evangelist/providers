@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -515,6 +540,7 @@ collections:
   slug: open-bluejay-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/capabilities/bluejay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bluejay-capability-edges.yml
@@ -567,70 +593,87 @@ common:
   type: TrustCenter
   url: https://compliance.getbluejay.ai/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/changelog/bluejay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bluejay-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/authentication/bluejay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bluejay-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/openapi/_original/bluejay-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/bluejay-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/mcp/bluejay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bluejay-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/packages/bluejay-packages.yml
   title: ''
   type: Packages
   url: packages/bluejay-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/packages/bluejay-packages.yml
   title: ''
   type: SDKs
   url: packages/bluejay-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/asyncapi/bluejay-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bluejay-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/errors/bluejay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bluejay-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/conventions/bluejay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bluejay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/lifecycle/bluejay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bluejay-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/conformance/bluejay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bluejay-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/data-model/bluejay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bluejay-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/overlays/bluejay-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bluejay-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/agentic-access/bluejay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bluejay-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/security/bluejay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bluejay-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/llms/bluejay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bluejay-llms.txt
@@ -654,6 +697,41 @@ overview: 'Bluejay publishes 61 APIs on the [APIs.io](https://apis.io/) network,
 
   Bluejay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
 random_paper: 13
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 4.5
+    contract_quality: 61.4
+    developer_ergonomics: 61.3
+    discoverability: 51.9
+    operational_transparency: 23.7
+  previous_composite: 48.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png
 security:
 - kind: authentication

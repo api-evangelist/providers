@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -105,6 +130,7 @@ common:
   type: Website
   url: https://www.shipfinder.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/capabilities/shipfinder-ais-data-api-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shipfinder-ais-data-api-capability-edges.yml
@@ -153,94 +179,117 @@ common:
   type: Console
   url: https://open.shipfinder.com/v1/console/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/llms/shipfinder-ais-data-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shipfinder-ais-data-api-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/plans/shipfinder-ais-data-api-plans.yml
   title: ''
   type: Plans
   url: plans/shipfinder-ais-data-api-plans.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/rate-limits/shipfinder-ais-data-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shipfinder-ais-data-api-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/authentication/shipfinder-ais-data-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shipfinder-ais-data-api-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/conventions/shipfinder-ais-data-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shipfinder-ais-data-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/errors/shipfinder-ais-data-api-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/shipfinder-ais-data-api-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/vocabulary/shipfinder-ais-data-api-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shipfinder-ais-data-api-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/examples/shipfinder-ais-data-api-examples.yml
   title: ''
   type: Examples
   url: examples/shipfinder-ais-data-api-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/data-model/shipfinder-ais-data-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shipfinder-ais-data-api-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/lifecycle/shipfinder-ais-data-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shipfinder-ais-data-api-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/conformance/shipfinder-ais-data-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shipfinder-ais-data-api-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/overlays/shipfinder-ais-data-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shipfinder-ais-data-api-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/packages/shipfinder-ais-data-api-packages.yml
   title: ''
   type: Packages
   url: packages/shipfinder-ais-data-api-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/well-known/shipfinder-ais-data-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shipfinder-ais-data-api-well-known.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/asyncapi/shipfinder-ais-data-api-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/shipfinder-ais-data-api-events-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/asyncapi/shipfinder-ais-data-api-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shipfinder-ais-data-api-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/mcp/shipfinder-ais-data-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shipfinder-ais-data-api-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/arazzo/track-a-vessel.yml
   title: ''
   type: Arazzo
   url: arazzo/track-a-vessel.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/arazzo/port-congestion-snapshot.yml
   title: ''
   type: Arazzo
   url: arazzo/port-congestion-snapshot.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/arazzo/voyage-plan-and-eta.yml
   title: ''
   type: Arazzo
   url: arazzo/voyage-plan-and-eta.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/agentic-access/shipfinder-ais-data-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shipfinder-ais-data-api-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/security/shipfinder-ais-data-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipfinder-ais-data-api-domain-security.yml
@@ -269,6 +318,41 @@ rate_limits:
 - limit_count: 0
   name: Shipfinder Ais Data Api Rate Limits
   slug: shipfinder-ais-data-api-rate-limits
+score:
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 54.0
+    catalog_earned_first_party: 17.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 19.7
+    contract_quality: 62.0
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/screenshots/shipfinder-ais-data-api-2026-08-17T081834.png
 security:
 - kind: authentication

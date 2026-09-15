@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Elium's single GraphQL endpoint, served per tenant at https://{platform}.elium.com/graphql. 17 queries, 206 mutations and 18 subscriptions over 1128 type definitions, covering stories (content), space
@@ -84,6 +109,7 @@ common:
   type: ChangeLog
   url: https://elium.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/changelog/elium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elium-changelog.yml
@@ -96,66 +122,82 @@ common:
   type: Compliance
   url: https://elium.com/trust
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/mcp/elium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elium-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/llms/elium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elium-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/authentication/elium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elium-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/scopes/elium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/elium-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/conventions/elium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elium-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/errors/elium-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/elium-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/lifecycle/elium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elium-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/conformance/elium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elium-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/data-model/elium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elium-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/packages/elium-packages.yml
   title: ''
   type: Packages
   url: packages/elium-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/plans/elium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elium-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/rate-limits/elium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elium-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/security/elium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/elium-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/security/elium-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/elium-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/security/elium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elium-domain-security.yml
@@ -193,6 +235,41 @@ scopes:
   scope_count: 1
   slug: elium-scopes
   summary_line: 1 scope · authorizationCode/password
+score:
+  band: developing
+  composite: 50.8
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 33.9
+    discoverability: 75.9
+    operational_transparency: 42.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+  previous_composite: 50.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/elium/refs/heads/main/screenshots/elium-2026-09-02T145347.png
 security:
 - kind: authentication

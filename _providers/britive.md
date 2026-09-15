@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: https://demo.britive-app.com/api/v1
@@ -651,6 +676,7 @@ collections:
   slug: open-britive-workload-service-identity-providers-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/capabilities/britive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/britive-capability-edges.yml
@@ -703,70 +729,87 @@ common:
   type: StatusPage
   url: https://status.britive.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/llms/britive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/britive-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/packages/britive-packages.yml
   title: ''
   type: Packages
   url: packages/britive-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/packages/britive-packages.yml
   title: ''
   type: SDKs
   url: packages/britive-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/cli/britive-cli.yml
   title: ''
   type: CLI
   url: cli/britive-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/well-known/britive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/britive-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/authentication/britive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/britive-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/scopes/britive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/britive-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/conventions/britive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/britive-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/errors/britive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/britive-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/lifecycle/britive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/britive-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/changelog/britive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/britive-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/conformance/britive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/britive-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/security/britive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/britive-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/data-model/britive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/britive-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/asyncapi/britive-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/britive-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/overlays/britive-services-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/britive-services-api-overlay.yaml
@@ -803,6 +846,40 @@ scopes:
   scope_count: 0
   slug: britive-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 60.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 52.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 78
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/screenshots/britive-2026-08-17T080708.png
 security:
 - kind: authentication

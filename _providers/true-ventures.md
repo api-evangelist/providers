@@ -30,7 +30,6 @@ tags:
 - Series A
 - Developer Tools
 - Infrastructure
-- Consumer
 - Healthcare
 - Hardware
 - Artificial Intelligence

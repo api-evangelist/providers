@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.interhyp.de/submission/v2
@@ -84,10 +109,12 @@ collections:
   slug: open-interhyp-submissions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/capabilities/interhyp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/interhyp-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/overlays/interhyp-submission-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/interhyp-submission-documents-overlay.yaml
@@ -128,58 +155,72 @@ common:
   type: PrivacyPolicy
   url: https://www.interhyp.de/datenschutz.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/authentication/interhyp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/interhyp-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/conventions/interhyp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/interhyp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/conventions/interhyp-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/interhyp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/errors/interhyp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/interhyp-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/errors/interhyp-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/interhyp-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/lifecycle/interhyp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/interhyp-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/lifecycle/interhyp-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/interhyp-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/data-model/interhyp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/interhyp-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/conformance/interhyp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/interhyp-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/mcp/interhyp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/interhyp-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/llms/interhyp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/interhyp-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/security/interhyp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interhyp-domain-security.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/sandbox/interhyp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/interhyp-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -196,6 +237,54 @@ overview: 'Interhyp publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 18 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 43.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 58.1
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 43.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 31.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:
 - kind: authentication

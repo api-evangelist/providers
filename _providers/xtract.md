@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 0
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/xtract/refs/heads/main/llms/xtract-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xtract-llms.txt

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -200,82 +225,102 @@ common:
   type: Training
   url: https://academy.kurrent.io
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/packages/kurrent-packages.yml
   title: ''
   type: Packages
   url: packages/kurrent-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/packages/kurrent-packages.yml
   title: ''
   type: SDKs
   url: packages/kurrent-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/cli/kurrent-cli.yml
   title: ''
   type: CLI
   url: cli/kurrent-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/mcp/kurrent-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kurrent-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/llms/kurrent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kurrent-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/well-known/kurrent-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kurrent-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/authentication/kurrent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kurrent-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/scopes/kurrent-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kurrent-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/conventions/kurrent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kurrent-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/conventions/kurrent-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kurrent-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/errors/kurrent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kurrent-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/errors/kurrent-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kurrent-error-codes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/sandbox/kurrent-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kurrent-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/conformance/kurrent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kurrent-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/lifecycle/kurrent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kurrent-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/lifecycle/kurrent-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kurrent-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/changelog/kurrent-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kurrent-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/data-model/kurrent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kurrent-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/asyncapi/kurrent-connectors-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kurrent-connectors-webhooks.yml
@@ -284,22 +329,27 @@ common:
   type: TrustCenter
   url: https://trust.kurrent.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/security/kurrent-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kurrent-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/security/kurrent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kurrent-domain-security.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/grpc/kurrent-streams.proto
   title: ''
   type: Protobuf
   url: grpc/kurrent-streams.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/overlays/kurrent-kurrentdb-http-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kurrent-kurrentdb-http-api-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/_original/kurrent-kurrentdb-http-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/kurrent-kurrentdb-http-api-openapi.yml
@@ -329,6 +379,40 @@ scopes:
   scope_count: 14
   slug: kurrent-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
+score:
+  band: developing
+  composite: 44.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 21.4
+    developer_ergonomics: 86.9
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 44.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:
 - kind: authentication

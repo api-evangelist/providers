@@ -28,7 +28,6 @@ tags:
 - Seed
 - Pre-Seed
 - Early Stage
-- Consumer
 - Consumer AI
 - Consumer Health
 - Consumer Fintech

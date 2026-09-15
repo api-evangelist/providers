@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,86 +148,107 @@ common:
   type: PrivacyPolicy
   url: https://atmospore.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/authentication/atmospore-pollen-forecasts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/atmospore-pollen-forecasts-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/conventions/atmospore-pollen-forecasts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/atmospore-pollen-forecasts-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/errors/atmospore-pollen-forecasts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/atmospore-pollen-forecasts-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/lifecycle/atmospore-pollen-forecasts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/atmospore-pollen-forecasts-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/rate-limits/atmospore-pollen-forecasts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/atmospore-pollen-forecasts-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/plans/atmospore-pollen-forecasts-plans.yml
   title: ''
   type: Plans
   url: plans/atmospore-pollen-forecasts-plans.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/packages/atmospore-pollen-forecasts-packages.yml
   title: ''
   type: Packages
   url: packages/atmospore-pollen-forecasts-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/packages/atmospore-pollen-forecasts-packages.yml
   title: ''
   type: SDKs
   url: packages/atmospore-pollen-forecasts-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/sandbox/atmospore-pollen-forecasts-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/atmospore-pollen-forecasts-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/components/atmospore-pollen-forecasts-components.yml
   title: ''
   type: Components
   url: components/atmospore-pollen-forecasts-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/conformance/atmospore-pollen-forecasts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atmospore-pollen-forecasts-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/security/atmospore-pollen-forecasts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atmospore-pollen-forecasts-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/mcp/atmospore-pollen-forecasts-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/atmospore-pollen-forecasts-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/overlays/atmospore-pollen-forecasts-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/atmospore-pollen-forecasts-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/data-model/atmospore-pollen-forecasts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/atmospore-pollen-forecasts-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/agentic-access/atmospore-pollen-forecasts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/atmospore-pollen-forecasts-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/llms/atmospore-pollen-forecasts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atmospore-pollen-forecasts-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/arazzo/atmospore-pollen-forecasts-allergy-week-plan.yml
   title: ''
   type: Arazzo
   url: arazzo/atmospore-pollen-forecasts-allergy-week-plan.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/arazzo/atmospore-pollen-forecasts-regional-risk-board.yml
   title: ''
   type: Arazzo
   url: arazzo/atmospore-pollen-forecasts-regional-risk-board.yml
@@ -241,6 +287,56 @@ rate_limits:
 - limit_count: 4
   name: Atmospore Pollen Forecasts Rate Limits
   slug: atmospore-pollen-forecasts-rate-limits
+score:
+  band: strong
+  composite: 56.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 4.5
+    contract_quality: 58.5
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - norway
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 56.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/screenshots/atmospore-pollen-forecasts-2026-08-17T080606.png
 security:
 - kind: authentication

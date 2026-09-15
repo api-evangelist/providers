@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://core-v1.carbon.prod.andersonopt.com
@@ -37,10 +62,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/authentication/pvcase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pvcase-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/security/pvcase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pvcase-domain-security.yml
@@ -93,50 +120,62 @@ common:
   type: Compliance
   url: https://pvcase.com/trust-center
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/llms/pvcase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pvcase-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/conventions/pvcase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pvcase-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/errors/pvcase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pvcase-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/lifecycle/pvcase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pvcase-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/changelog/pvcase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pvcase-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/rate-limits/pvcase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pvcase-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/plans/pvcase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pvcase-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/conformance/pvcase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pvcase-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/data-model/pvcase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pvcase-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/packages/pvcase-packages.yml
   title: ''
   type: Packages
   url: packages/pvcase-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/overlays/pvcase-anderson-optimization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pvcase-anderson-optimization-overlay.yaml
@@ -161,6 +200,46 @@ rate_limits:
 - limit_count: 0
   name: Pvcase Rate Limits
   slug: pvcase-rate-limits
+score:
+  band: developing
+  composite: 47.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 0.0
+    contract_quality: 51.4
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 47.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 35.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/screenshots/pvcase-2026-09-02T152352.png
 security:
 - kind: authentication

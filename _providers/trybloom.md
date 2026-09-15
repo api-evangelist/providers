@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 51.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -54,14 +80,17 @@ common:
   type: Website
   url: https://www.trybloom.ai/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/overlays/trybloom-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trybloom-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/agentic-access/trybloom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trybloom-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/security/trybloom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trybloom-domain-security.yml
@@ -114,14 +143,17 @@ common:
   type: XTwitter
   url: https://x.com/trybloom
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/mcp/trybloom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/trybloom-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/mcp/trybloom-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/trybloom-tool-crosswalk.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/changelog/trybloom-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/trybloom-changelog.yml
@@ -134,54 +166,67 @@ common:
   type: SignUp
   url: https://www.trybloom.ai/auth/sign-up
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/llms/trybloom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trybloom-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/well-known/trybloom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/trybloom-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/authentication/trybloom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trybloom-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/scopes/trybloom-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/trybloom-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/conventions/trybloom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trybloom-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/errors/trybloom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trybloom-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/lifecycle/trybloom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trybloom-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/conformance/trybloom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trybloom-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/data-model/trybloom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trybloom-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/rate-limits/trybloom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trybloom-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/plans/trybloom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trybloom-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/packages/trybloom-packages.yml
   title: ''
   type: Packages
   url: packages/trybloom-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,6 +260,41 @@ scopes:
   scope_count: 2
   slug: trybloom-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 54.4
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 51.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/trybloom/refs/heads/main/screenshots/trybloom-2026-08-17T082456.png
 security:
 - kind: authentication

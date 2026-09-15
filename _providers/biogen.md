@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,14 +76,17 @@ collections:
   slug: open-biogen-services-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/agentic-access/biogen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/biogen-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/security/biogen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biogen-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/authentication/biogen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/biogen-authentication.yml
@@ -91,50 +119,62 @@ common:
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/vocabulary/biogen-vocabulary.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/llms/biogen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biogen-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/packages/biogen-packages.yml
   title: ''
   type: Packages
   url: packages/biogen-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/conventions/biogen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/biogen-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/errors/biogen-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/biogen-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/lifecycle/biogen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/biogen-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/conformance/biogen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biogen-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/data-model/biogen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/biogen-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/sandbox/biogen-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/biogen-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/mcp/biogen-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/biogen-mcp.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/rate-limits/biogen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/biogen-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/plans/biogen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/biogen-plans-pricing.yml
@@ -298,6 +338,47 @@ rules:
     info: 0
     warn: 21
   slug: biogen-spectral-rules
+score:
+  band: developing
+  composite: 43.0
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 73.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 33.3
+    contract_quality: 20.4
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 43.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 48.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Biogen Authentication

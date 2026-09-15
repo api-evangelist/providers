@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 122
@@ -198,18 +224,22 @@ common:
   type: License
   url: https://github.com/gitroomhq/postiz-app/blob/main/LICENSE
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/capabilities/postiz-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/postiz-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/agentic-access/postiz-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/postiz-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/security/postiz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/postiz-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/authentication/postiz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/postiz-authentication.yml
@@ -234,74 +264,92 @@ common:
   type: Blog
   url: https://postiz.com/blog
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/plans/postiz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/postiz-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/rate-limits/postiz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/postiz-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/finops/postiz-finops.yml
   title: ''
   type: FinOps
   url: finops/postiz-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/packages/postiz-packages.yml
   title: ''
   type: Packages
   url: packages/postiz-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/packages/postiz-packages.yml
   title: ''
   type: SDKs
   url: packages/postiz-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/cli/postiz-cli.yml
   title: ''
   type: CLI
   url: cli/postiz-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/mcp/postiz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/postiz-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/mcp/postiz-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/postiz-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/a2a/postiz-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/postiz-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/llms/postiz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/postiz-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/well-known/postiz-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/postiz-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/scopes/postiz-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/postiz-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/conventions/postiz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/postiz-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/errors/postiz-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/postiz-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/data-model/postiz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/postiz-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/conformance/postiz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/postiz-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/lifecycle/postiz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/postiz-lifecycle.yml
@@ -310,22 +358,27 @@ common:
   type: StatusPage
   url: https://status.postiz.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/changelog/postiz-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/postiz-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/sandbox/postiz-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/postiz-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/asyncapi/postiz-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/postiz-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/overlays/postiz-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/postiz-public-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/security/postiz-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/postiz-vulnerability-disclosure.yml
@@ -414,6 +467,41 @@ scopes:
   scope_count: 2
   slug: postiz-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.1
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 48.5
+    developer_ergonomics: 85.7
+    discoverability: 81.5
+    operational_transparency: 89.5
+  previous_composite: 63.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 22.2
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png
 security:
 - kind: authentication

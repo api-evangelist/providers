@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,22 +180,27 @@ collections:
   slug: open-amazon-ec2
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/agentic-access/amazon-ec2-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-ec2-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/security/amazon-ec2-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-ec2-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/security/amazon-ec2-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-ec2-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/security/amazon-ec2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-ec2-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/authentication/amazon-ec2-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-ec2-authentication.yml
@@ -179,78 +209,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-ec2/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-allocate-and-associate-eip-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-allocate-and-associate-eip-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-audit-security-group-usage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-audit-security-group-usage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-bind-eip-to-new-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-bind-eip-to-new-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-clone-instance-via-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-clone-instance-via-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-deprovision-secured-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-deprovision-secured-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-deregister-image-and-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-deregister-image-and-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-harden-existing-security-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-harden-existing-security-group-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-launch-and-await-running-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-launch-and-await-running-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-launch-secured-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-launch-secured-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-paginate-instances-then-tag-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-paginate-instances-then-tag-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-place-instance-in-zone-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-place-instance-in-zone-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-prepare-key-and-launch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-prepare-key-and-launch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-rebuild-image-from-launch-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-rebuild-image-from-launch-template-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-release-eip-on-terminate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-release-eip-on-terminate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-request-spot-and-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-request-spot-and-track-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-restart-and-verify-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-restart-and-verify-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-rotate-key-pair-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-rotate-key-pair-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-stop-and-create-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-stop-and-create-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/arazzo/amazon-ec2-stop-start-instance-cycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-ec2-stop-start-instance-cycle-workflow.yml
@@ -327,10 +376,12 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/rules/amazon-ec2-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-ec2-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/vocabulary/amazon-ec2-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-ec2-vocabulary.yaml
@@ -463,6 +514,39 @@ rules:
     info: 5
     warn: 18
   slug: amazon-ec2-spectral-rules
+score:
+  band: strong
+  composite: 62.8
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 72.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 28.8
+    contract_quality: 74.1
+    developer_ergonomics: 72.6
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 62.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/screenshots/amazon-ec2-2026-06-20T171637.png
 security:
 - kind: authentication

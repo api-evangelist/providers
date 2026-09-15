@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'REST API for IBM StreamSets Control Hub — the cloud-native control plane for designing, deploying, orchestrating, and monitoring StreamSets data pipelines and jobs across engines. Programmatic access '
@@ -20,6 +45,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/security/streamsets-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/streamsets-vulnerability-disclosure.yml
@@ -28,6 +54,7 @@ common:
   type: Security
   url: https://www.ibm.com/trust/security-psirt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/security/streamsets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/streamsets-domain-security.yml
@@ -60,14 +87,17 @@ common:
   type: StatusPage
   url: https://status.streamsets.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/packages/streamsets-packages.yml
   title: ''
   type: Packages
   url: packages/streamsets-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/packages/streamsets-packages.yml
   title: ''
   type: SDKs
   url: packages/streamsets-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/lifecycle/streamsets-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/streamsets-lifecycle.yml
@@ -84,6 +114,32 @@ overview: 'StreamSets publishes 1 API on the [APIs.io](https://apis.io/) network
 
   StreamSets'' developer surface includes documentation, pricing, support, signup flow, and 10 more developer resources.'
 random_paper: 7
+score:
+  band: emerging
+  composite: 21.2
+  coverage:
+    artifact_dirs: 4
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 31.0
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 21.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamsets/refs/heads/main/screenshots/streamsets-2026-09-02T161011.png
 security:
 - kind: domain-security

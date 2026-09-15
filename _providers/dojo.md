@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -138,18 +163,22 @@ collections:
   slug: open-dojo-transactions-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/agentic-access/dojo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dojo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/security/dojo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dojo-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/security/dojo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dojo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/authentication/dojo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dojo-authentication.yml
@@ -194,70 +223,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/dojo-tech
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/packages/dojo-packages.yml
   title: ''
   type: SDKs
   url: packages/dojo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/packages/dojo-packages.yml
   title: ''
   type: Packages
   url: packages/dojo-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/conventions/dojo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dojo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/conventions/dojo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/dojo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/errors/dojo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dojo-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/lifecycle/dojo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dojo-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/mcp/dojo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dojo-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/overlays/dojo-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dojo-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/conformance/dojo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dojo-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/sandbox/dojo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dojo-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/data-model/dojo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dojo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/components/dojo-components.yml
   title: ''
   type: Components
   url: components/dojo-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/llms/dojo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dojo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/asyncapi/dojo-epos-data-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/dojo-epos-data-asyncapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/security/dojo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/dojo-vulnerability-disclosure.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/changelog/dojo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dojo-changelog.yml
@@ -306,6 +352,55 @@ overview: 'Dojo publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
   Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 31 more developer resources.'
 random_paper: 8
+score:
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 65.4
+    developer_ergonomics: 61.3
+    discoverability: 81.5
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 68.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
 security:
 - kind: authentication

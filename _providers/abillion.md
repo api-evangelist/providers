@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/abillion/refs/heads/main/security/abillion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abillion-domain-security.yml

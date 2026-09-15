@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.workspot.com
@@ -16,6 +42,7 @@ asyncapis:
   slug: workspot-siem-events
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/security/workspot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workspot-trust-center.yml
@@ -68,62 +95,77 @@ common:
   type: StatusPage
   url: https://status.workspot.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/changelog/workspot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/workspot-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/lifecycle/workspot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workspot-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/authentication/workspot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workspot-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/conventions/workspot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workspot-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/rate-limits/workspot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/workspot-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/plans/workspot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/workspot-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/conformance/workspot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workspot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/errors/workspot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workspot-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/data-model/workspot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/workspot-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/well-known/workspot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workspot-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/mcp/workspot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/workspot-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/llms/workspot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workspot-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/security/workspot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workspot-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/packages/workspot-packages.yml
   title: ''
   type: Packages
   url: packages/workspot-packages.yml
@@ -132,18 +174,22 @@ common:
   type: Pricing
   url: https://go.workspot.com/231025-Request-Product-Pricing
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/asyncapi/workspot-siem-events.yml
   title: ''
   type: Events
   url: asyncapi/workspot-siem-events.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/overlays/workspot-control-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workspot-control-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-control-openapi-original.json
   title: ''
   type: Swagger
   url: openapi/workspot-control-openapi-original.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-control-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/workspot-control-openapi.json
@@ -179,6 +225,40 @@ rate_limits:
 - limit_count: 2
   name: Workspot Rate Limits
   slug: workspot-rate-limits
+score:
+  band: developing
+  composite: 51.5
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 54.5
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 51.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Workspot Authentication
@@ -205,6 +285,6 @@ tags:
 - Cloud Infrastructure
 - Enterprise IT
 - Workspace Management
-- SaaS
+- Software-as-a-Service
 website: https://www.workspot.com/
 ---

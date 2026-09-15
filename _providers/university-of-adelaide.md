@@ -9,6 +9,31 @@ access_model:
   - probed
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.3
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: DSpace 7.6.1 HAL/JSON REST API for the University of Adelaide institutional repository "Adelaide Research & Scholarship", exposing communities, collections, items, bundles, bitstreams, discovery searc
@@ -85,18 +110,22 @@ common:
   type: Authentication
   url: https://login.adelaide.edu.au/cas/login
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/authentication/university-of-adelaide-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-adelaide-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/conformance/university-of-adelaide-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/university-of-adelaide-education-standards.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/vocabulary/university-of-adelaide-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-adelaide-vocabulary.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/examples/university-of-adelaide-examples.yml
   title: ''
   type: Examples
   url: examples/university-of-adelaide-examples.yml
@@ -113,22 +142,27 @@ common:
   type: Blog
   url: https://adelaide.edu.au/about/news/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/security/university-of-adelaide-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-adelaide-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/plans/university-of-adelaide-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-adelaide-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/rate-limits/university-of-adelaide-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-adelaide-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/finops/university-of-adelaide-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-adelaide-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -162,6 +196,47 @@ rate_limits:
 - limit_count: 1
   name: University Of Adelaide Rate Limits
   slug: university-of-adelaide-rate-limits
+score:
+  band: thin
+  composite: 31.2
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 60.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 3.8
+    contract_quality: 10.6
+    developer_ergonomics: 23.8
+    discoverability: 74.1
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 31.2
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/screenshots/university-of-adelaide-2026-06-20T200125.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,14 +101,17 @@ collections:
   slug: open-badger-maps
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/agentic-access/badger-maps-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/badger-maps-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/security/badger-maps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/badger-maps-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/authentication/badger-maps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/badger-maps-authentication.yml
@@ -104,14 +132,17 @@ common:
   type: Documentation
   url: https://badgerupdatedapi.docs.apiary.io/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/plans/badger-maps-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/badger-maps-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/rate-limits/badger-maps-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/badger-maps-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/finops/badger-maps-finops.yml
   title: ''
   type: FinOps
   url: finops/badger-maps-finops.yml
@@ -120,26 +151,32 @@ common:
   type: Blog
   url: https://www.badgermapping.com/blog/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/_original/badger-maps-apiary-blueprint.apib
   title: ''
   type: APIBlueprint
   url: openapi/_original/badger-maps-apiary-blueprint.apib
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/asyncapi/badger-maps-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/badger-maps-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/conventions/badger-maps-conventions.yml
   title: ''
   type: Conventions
   url: conventions/badger-maps-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/errors/badger-maps-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/badger-maps-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/data-model/badger-maps-data-model.yml
   title: ''
   type: DataModel
   url: data-model/badger-maps-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/lifecycle/badger-maps-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/badger-maps-lifecycle.yml
@@ -148,26 +185,32 @@ common:
   type: StatusPage
   url: https://status.badgermapping.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/conformance/badger-maps-conformance.yml
   title: ''
   type: Conformance
   url: conformance/badger-maps-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/sandbox/badger-maps-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/badger-maps-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/packages/badger-maps-packages.yml
   title: ''
   type: Packages
   url: packages/badger-maps-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/mcp/badger-maps-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/badger-maps-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/llms/badger-maps-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/badger-maps-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -235,6 +278,41 @@ rate_limits:
 - limit_count: 3
   name: Badger Maps Rate Limits
   slug: badger-maps-rate-limits
+score:
+  band: strong
+  composite: 57.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 66.8
+    developer_ergonomics: 48.2
+    discoverability: 68.5
+    operational_transparency: 57.9
+  previous_composite: 57.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png
 security:
 - kind: authentication

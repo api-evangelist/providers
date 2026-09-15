@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://app.tandoor.dev/api/
@@ -28,10 +53,12 @@ apis:
 artifact_total: 7
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/overlays/tandoor-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tandoor-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/security/tandoor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tandoor-domain-security.yml
@@ -96,6 +123,7 @@ common:
   type: ChangeLog
   url: https://github.com/TandoorRecipes/recipes/releases
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/changelog/tandoor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tandoor-changelog.yml
@@ -104,46 +132,57 @@ common:
   type: Security
   url: https://github.com/TandoorRecipes/recipes/security/policy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/plans/tandoor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tandoor-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/rate-limits/tandoor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tandoor-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/packages/tandoor-packages.yml
   title: ''
   type: Packages
   url: packages/tandoor-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/lifecycle/tandoor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tandoor-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/conformance/tandoor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tandoor-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/llms/tandoor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tandoor-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/authentication/tandoor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tandoor-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/conventions/tandoor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tandoor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/data-model/tandoor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tandoor-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/security/tandoor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tandoor-vulnerability-disclosure.yml
@@ -169,6 +208,46 @@ rate_limits:
 - limit_count: 3
   name: Tandoor Rate Limits
   slug: tandoor-rate-limits
+score:
+  band: strong
+  composite: 60.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 4.5
+    contract_quality: 41.2
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    operational_transparency: 76.3
+  previous_composite: 60.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 57.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/screenshots/tandoor-2026-09-02T162516.png
 security:
 - kind: authentication

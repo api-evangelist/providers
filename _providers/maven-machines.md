@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.1
+  scored_at: '2026-09-14'
 api_count: 21
 apis:
 - baseURL: https://integrations.mavenmachines.com
@@ -161,10 +186,12 @@ asyncapis:
   slug: maven-machines-return-events
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/capabilities/maven-machines-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/maven-machines-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/security/maven-machines-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maven-machines-domain-security.yml
@@ -221,70 +248,87 @@ common:
   type: StatusPage
   url: https://mavenmachines.statuspage.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/lifecycle/maven-machines-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/maven-machines-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/authentication/maven-machines-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maven-machines-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/conventions/maven-machines-conventions.yml
   title: ''
   type: Conventions
   url: conventions/maven-machines-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/conventions/maven-machines-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/maven-machines-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/errors/maven-machines-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/maven-machines-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/conformance/maven-machines-conformance.yml
   title: ''
   type: Conformance
   url: conformance/maven-machines-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/data-model/maven-machines-data-model.yml
   title: ''
   type: DataModel
   url: data-model/maven-machines-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/sandbox/maven-machines-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/maven-machines-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/packages/maven-machines-packages.yml
   title: ''
   type: Packages
   url: packages/maven-machines-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/llms/maven-machines-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/maven-machines-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/mcp/maven-machines-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/maven-machines-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/plans/maven-machines-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/maven-machines-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/rate-limits/maven-machines-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/maven-machines-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/asyncapi/maven-machines-return-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/maven-machines-return-events.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/overlays/_index.yml
   title: ''
   type: Overlay
   url: overlays/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/well-known/maven-machines-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/maven-machines-well-known.yml
@@ -313,6 +357,40 @@ rate_limits:
 - limit_count: 0
   name: Maven Machines Rate Limits
   slug: maven-machines-rate-limits
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 65.0
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 18.4
+  previous_composite: 41.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 96.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/screenshots/maven-machines-2026-09-02T150440.png
 security:
 - kind: authentication

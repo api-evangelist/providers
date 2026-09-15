@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://alloplexbio.com/wp-json
@@ -75,6 +100,7 @@ collections:
   slug: open-alloplex-biotherapeutics-taxonomy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/overlays/alloplex-biotherapeutics-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alloplex-biotherapeutics-content-overlay.yaml
@@ -159,46 +185,57 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/alloplex-biotherapeutics_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/authentication/alloplex-biotherapeutics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alloplex-biotherapeutics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/conventions/alloplex-biotherapeutics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alloplex-biotherapeutics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/conformance/alloplex-biotherapeutics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alloplex-biotherapeutics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/errors/alloplex-biotherapeutics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alloplex-biotherapeutics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/lifecycle/alloplex-biotherapeutics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alloplex-biotherapeutics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/data-model/alloplex-biotherapeutics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alloplex-biotherapeutics-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/json-ld/alloplex-biotherapeutics-json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/alloplex-biotherapeutics-json-ld.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/well-known/alloplex-biotherapeutics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alloplex-biotherapeutics-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/security/alloplex-biotherapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alloplex-biotherapeutics-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/llms/alloplex-biotherapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alloplex-biotherapeutics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -224,6 +261,51 @@ overview: 'Alloplex Biotherapeutics publishes 7 APIs on the [APIs.io](https://ap
 
   Alloplex Biotherapeutics'' developer surface includes product news, engineering blog, FAQ, support, authentication, and 27 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 42.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 56.1
+    developer_ergonomics: 20.8
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 38.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/screenshots/alloplex-biotherapeutics-2026-08-07T161225.png
 security:
 - kind: authentication

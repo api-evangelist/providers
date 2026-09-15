@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/streamloan/refs/heads/main/security/streamloan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/streamloan-domain-security.yml

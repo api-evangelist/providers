@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://visibility.gleefulai.com
@@ -152,6 +177,7 @@ collections:
   slug: open-gleefulai-status-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/security/gleefulai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gleefulai-domain-security.yml
@@ -168,38 +194,47 @@ common:
   type: Pricing
   url: https://visibility.gleefulai.com/api/pricing
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/llms/gleefulai-llms.txt
   title: ''
   type: LlmsText
   url: llms/gleefulai-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/authentication/gleefulai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gleefulai-authentication.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/plans/gleefulai-plans.yml
   title: ''
   type: Plans
   url: plans/gleefulai-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/lifecycle/gleefulai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gleefulai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/errors/gleefulai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gleefulai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/conventions/gleefulai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gleefulai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/conformance/gleefulai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gleefulai-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/packages/gleefulai-packages.yml
   title: ''
   type: Packages
   url: packages/gleefulai-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/rate-limits/gleefulai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gleefulai-rate-limits.yml
@@ -240,6 +275,39 @@ rate_limits:
 - limit_count: 0
   name: Gleefulai Rate Limits
   slug: gleefulai-rate-limits
+score:
+  band: emerging
+  composite: 21.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 5.3
+    contract_governance: 4.5
+    contract_quality: 39.9
+    developer_ergonomics: 16.7
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 21.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/screenshots/gleefulai-2026-08-07T165729.png
 security:
 - kind: authentication

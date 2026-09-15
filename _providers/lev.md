@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 54.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -202,10 +227,12 @@ collections:
   slug: open-lev-term-sheets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/capabilities/lev-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lev-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/overlays/lev-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lev-api-overlay.yaml
@@ -214,6 +241,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/lev/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/security/lev-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lev-trust-center.yml
@@ -278,82 +306,102 @@ common:
   type: ChangeLog
   url: https://www.lev.com/docs/changelog
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/_original/lev-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/lev-openapi-original.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/llms/lev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lev-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/mcp/lev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lev-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/well-known/lev-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lev-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/authentication/lev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lev-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/scopes/lev-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lev-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/conventions/lev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lev-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/conventions/lev-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lev-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/errors/lev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lev-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/rate-limits/lev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lev-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/plans/lev-plans.yml
   title: ''
   type: Plans
   url: plans/lev-plans.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/lifecycle/lev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lev-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/changelog/lev-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lev-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/cli/lev-cli.yml
   title: ''
   type: CLI
   url: cli/lev-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/packages/lev-packages.yml
   title: ''
   type: Packages
   url: packages/lev-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/conformance/lev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lev-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/data-model/lev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lev-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/security/lev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lev-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/agentic-access/lev-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lev-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -388,6 +436,47 @@ scopes:
   scope_count: 11
   slug: lev-scopes
   summary_line: 11 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 67.9
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 4.5
+    contract_quality: 56.3
+    developer_ergonomics: 67.3
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 67.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 76.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:
 - kind: authentication

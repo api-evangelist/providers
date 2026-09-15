@@ -10,6 +10,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.3
+  scored_at: '2026-09-14'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -70,6 +95,7 @@ asyncapis:
   slug: green-dot-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/skills/green-dot-disburse-funds.md
   title: ''
   type: AgentSkill
   url: skills/green-dot-disburse-funds.md
@@ -78,6 +104,7 @@ common:
   type: Login
   url: https://secure.greendot.com/greendot/login
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/security/green-dot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/green-dot-domain-security.yml
@@ -118,6 +145,7 @@ common:
   type: LlmsText
   url: https://developer.greendot.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/llms/green-dot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/green-dot-llms.txt
@@ -134,30 +162,37 @@ common:
   type: ChangeLog
   url: https://developer.greendot.com/embedded-finance/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/conventions/green-dot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/green-dot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/conventions/green-dot-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/green-dot-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/authentication/green-dot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/green-dot-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/scopes/green-dot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/green-dot-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/sandbox/green-dot-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/green-dot-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/errors/green-dot-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/green-dot-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/lifecycle/green-dot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/green-dot-lifecycle.yml
@@ -166,22 +201,27 @@ common:
   type: DeprecationPolicy
   url: https://developer.greendot.com/embedded-finance/docs/release-notes
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/asyncapi/green-dot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/green-dot-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/conformance/green-dot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/green-dot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/data-model/green-dot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/green-dot-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/changelog/green-dot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/green-dot-changelog.yml
@@ -218,6 +258,52 @@ scopes:
   scope_count: 3
   slug: green-dot-scopes
   summary_line: 3 scopes
+score:
+  band: thin
+  composite: 36.5
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 42.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 30.3
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 11.3
+    discoverability: 72.2
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 36.5
+  provenance:
+    conformance: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: glba
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 60.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png
 security:
 - kind: authentication

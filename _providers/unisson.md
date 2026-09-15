@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -390,22 +415,27 @@ collections:
   slug: open-unisson-widget-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/capabilities/unisson-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unisson-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/overlays/unisson-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unisson-platform-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/security/unisson-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unisson-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/agentic-access/unisson-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unisson-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/authentication/unisson-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unisson-authentication.yml
@@ -438,42 +468,52 @@ common:
   type: Compliance
   url: https://trust.unisson.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/mcp/unisson-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unisson-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/llms/unisson-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unisson-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/conformance/unisson-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unisson-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/errors/unisson-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unisson-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/lifecycle/unisson-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unisson-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/conventions/unisson-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unisson-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/asyncapi/unisson-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unisson-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/components/unisson-components.yml
   title: ''
   type: Components
   url: components/unisson-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/data-model/unisson-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unisson-data-model.yml
@@ -492,6 +532,41 @@ overview: 'Unisson publishes 45 APIs on the [APIs.io](https://apis.io/) network,
 
   Unisson''s developer surface includes authentication, support, and 20 more developer resources.'
 random_paper: 6
+score:
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 63.1
+    developer_ergonomics: 18.5
+    discoverability: 64.8
+    operational_transparency: 7.9
+  previous_composite: 38.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 45
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/screenshots/unisson-2026-09-02T164911.png
 security:
 - kind: authentication

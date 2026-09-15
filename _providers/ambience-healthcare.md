@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: 'Partner-facing integration APIs for EHRs, telehealth platforms and healthcare applications, covering medical encounter transcription, clinical note generation, integrated CDI with ICD-10 suggestions, '
@@ -46,34 +71,42 @@ common:
   type: Twitter
   url: https://twitter.com/AmbienceHQ
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/authentication/ambience-healthcare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ambience-healthcare-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/scopes/ambience-healthcare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ambience-healthcare-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/well-known/ambience-healthcare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ambience-healthcare-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/conformance/ambience-healthcare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ambience-healthcare-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/packages/ambience-healthcare-packages.yml
   title: ''
   type: Packages
   url: packages/ambience-healthcare-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/llms/ambience-healthcare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ambience-healthcare-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/security/ambience-healthcare-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ambience-healthcare-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/security/ambience-healthcare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ambience-healthcare-domain-security.yml
@@ -148,6 +181,46 @@ scopes:
   scope_count: 14
   slug: ambience-healthcare-scopes
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
+score:
+  band: thin
+  composite: 34.5
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 33.3
+    discoverability: 66.7
+    operational_transparency: 2.6
+  previous_composite: 34.5
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 76.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/screenshots/ambience-healthcare-2026-08-07T161310.png
 security:
 - kind: authentication

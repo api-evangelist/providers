@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The NodeZero API is a publicly accessible GraphQL API that exposes a subset of the Horizon3.ai Portal: schedule and control autonomous pentest operations, and read pentests, ops, weaknesses, attack pa'
@@ -93,70 +119,87 @@ common:
   type: Security
   url: https://horizon3.ai/vulnerability-disclosure-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/mcp/horizon3ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/horizon3ai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/cli/horizon3ai-cli.yml
   title: ''
   type: CLI
   url: cli/horizon3ai-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/packages/horizon3ai-packages.yml
   title: ''
   type: Packages
   url: packages/horizon3ai-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/authentication/horizon3ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/horizon3ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/scopes/horizon3ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/horizon3ai-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/well-known/horizon3ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/horizon3ai-well-known.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/changelog/horizon3ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/horizon3ai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/lifecycle/horizon3ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/horizon3ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/conventions/horizon3ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/horizon3ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/errors/horizon3ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/horizon3ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/conformance/horizon3ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/horizon3ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/data-model/horizon3ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/horizon3ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/asyncapi/horizon3ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/horizon3ai-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/security/horizon3ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/horizon3ai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/security/horizon3ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/horizon3ai-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/llms/horizon3ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/horizon3ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -185,6 +228,36 @@ scopes:
   scope_count: 2
   slug: horizon3ai-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 46.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/screenshots/horizon3ai-2026-07-25T221429.png
 security:
 - kind: authentication

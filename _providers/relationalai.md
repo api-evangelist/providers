@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.1
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 3
 common:
@@ -57,6 +82,7 @@ common:
   type: PrivacyPolicy
   url: https://relational.ai/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/security/relationalai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/relationalai-trust-center.yml
@@ -65,54 +91,67 @@ common:
   type: Compliance
   url: https://trust.relational.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/security/relationalai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/relationalai-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/packages/relationalai-packages.yml
   title: ''
   type: Packages
   url: packages/relationalai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/packages/relationalai-packages.yml
   title: ''
   type: SDKs
   url: packages/relationalai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/cli/relationalai-cli.yml
   title: ''
   type: CLI
   url: cli/relationalai-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/authentication/relationalai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/relationalai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/conventions/relationalai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/relationalai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/lifecycle/relationalai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/relationalai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/changelog/relationalai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/relationalai-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/conformance/relationalai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/relationalai-conformance.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/grpc/relationalai-lqp.yml
   title: ''
   type: Protobuf
   url: grpc/relationalai-lqp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/llms/relationalai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/relationalai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/well-known/relationalai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/relationalai-well-known.yml
@@ -129,6 +168,35 @@ overview: 'RelationalAI is profiled on the [APIs.io](https://apis.io/) network. 
 
   RelationalAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 19 more developer resources.'
 random_paper: 9
+score:
+  band: developing
+  composite: 43.9
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 26.7
+    developer_ergonomics: 73.8
+    discoverability: 57.4
+    operational_transparency: 18.4
+  previous_composite: 43.9
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/relationalai/refs/heads/main/screenshots/relationalai-2026-09-02T153306.png
 security:
 - kind: authentication

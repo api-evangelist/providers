@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -514,10 +539,12 @@ collections:
   slug: open-methodfi-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/capabilities/methodfi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/methodfi-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/overlays/methodfi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/methodfi-openapi-overlay.yaml
@@ -526,42 +553,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/methodfi/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/security/methodfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/methodfi-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/agentic-access/methodfi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/methodfi-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/authentication/methodfi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/methodfi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/conventions/methodfi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/methodfi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/conventions/methodfi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/methodfi-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/packages/methodfi-packages.yml
   title: ''
   type: Packages
   url: packages/methodfi-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/packages/methodfi-packages.yml
   title: ''
   type: SDKs
   url: packages/methodfi-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/components/methodfi-components.yml
   title: ''
   type: Components
   url: components/methodfi-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/sandbox/methodfi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/methodfi-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/lifecycle/methodfi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/methodfi-lifecycle.yml
@@ -570,10 +607,12 @@ common:
   type: StatusPage
   url: https://methodfi.statuspage.io
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/lifecycle/methodfi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/methodfi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/conformance/methodfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/methodfi-conformance.yml
@@ -582,38 +621,47 @@ common:
   type: Compliance
   url: https://methodfi.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/errors/methodfi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/methodfi-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/errors/methodfi-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/methodfi-decline-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/changelog/methodfi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/methodfi-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/data-model/methodfi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/methodfi-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/asyncapi/methodfi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/methodfi-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/rate-limits/methodfi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/methodfi-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/mcp/methodfi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/methodfi-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/llms/methodfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/methodfi-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -662,6 +710,7 @@ common:
   type: PrivacyPolicy
   url: https://methodfi.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/security/methodfi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/methodfi-trust-center.yml
@@ -670,10 +719,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/methodfi
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/plans/methodfi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/methodfi-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/finops/methodfi-finops.yml
   title: ''
   type: FinOps
   url: finops/methodfi-finops.yml
@@ -705,6 +756,47 @@ rate_limits:
 - limit_count: 6
   name: Methodfi Rate Limits
   slug: methodfi-rate-limits
+score:
+  band: exemplar
+  composite: 71.4
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 60.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 68.3
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 71.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 59.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/screenshots/methodfi-2026-08-07T172708.png
 security:
 - kind: authentication

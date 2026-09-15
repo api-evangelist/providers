@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.8
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: The Veradigm FHIR R4 API provides RESTful access to clinical, demographic, and facility data using the HL7 FHIR R4 standard. It supports 28 FHIR resources including Patient, Condition, Observation, Me
@@ -23,66 +48,82 @@ apis:
 artifact_total: 13
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/security/allscripts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allscripts-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/authentication/allscripts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allscripts-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/scopes/allscripts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allscripts-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/conformance/allscripts-fhir-r4-capabilitystatement.json
   title: ''
   type: CapabilityStatement
   url: conformance/allscripts-fhir-r4-capabilitystatement.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/conformance/allscripts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allscripts-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/well-known/allscripts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allscripts-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/packages/allscripts-packages.yml
   title: ''
   type: Packages
   url: packages/allscripts-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/mcp/allscripts-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/allscripts-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/llms/allscripts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allscripts-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/errors/allscripts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allscripts-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/lifecycle/allscripts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allscripts-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/lifecycle/allscripts-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/allscripts-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/conventions/allscripts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/allscripts-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/data-model/allscripts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/allscripts-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/sandbox/allscripts-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/allscripts-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/skills/allscripts-fhir-patient-summary.md
   title: ''
   type: AgentSkill
   url: skills/allscripts-fhir-patient-summary.md
@@ -190,6 +231,42 @@ scopes:
   scope_count: 0
   slug: allscripts-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 56.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 63.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 52.7
+    developer_ergonomics: 54.2
+    discoverability: 81.5
+    operational_transparency: 10.5
+  previous_composite: 56.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 60.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png
 security:
 - kind: authentication

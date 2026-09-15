@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simple-feast/refs/heads/main/security/simple-feast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simple-feast-domain-security.yml

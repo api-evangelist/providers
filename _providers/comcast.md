@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.comcast.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.xfinity.com/ — a different registrable domain (comcast.com -> xfinity.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 15.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Firebolt is Comcast's application platform for building apps that run on TVs, set-top boxes, and other connected home devices. The Firebolt SDK exposes a family of JavaScript APIs (Lifecycle, Metrics,
@@ -24,6 +49,7 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/security/comcast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/comcast-domain-security.yml
@@ -72,6 +98,7 @@ common:
   type: TermsOfService
   url: https://developers.xfinity.com/TOS.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/llms/comcast-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/comcast-llms.txt
@@ -104,82 +131,102 @@ common:
   type: GitHubOrganization
   url: https://github.com/rdkcentral
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/well-known/comcast-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/comcast-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/packages/comcast-packages.yml
   title: ''
   type: Packages
   url: packages/comcast-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/packages/comcast-packages.yml
   title: ''
   type: SDKs
   url: packages/comcast-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/authentication/comcast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/comcast-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/scopes/comcast-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/comcast-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/conformance/comcast-conformance.yml
   title: ''
   type: Conformance
   url: conformance/comcast-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/conventions/comcast-conventions.yml
   title: ''
   type: Conventions
   url: conventions/comcast-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/lifecycle/comcast-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/comcast-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/lifecycle/comcast-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/comcast-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/errors/comcast-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/comcast-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/data-model/comcast-data-model.yml
   title: ''
   type: DataModel
   url: data-model/comcast-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/sandbox/comcast-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/comcast-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/changelog/comcast-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/comcast-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/components/comcast-components.yml
   title: ''
   type: Components
   url: components/comcast-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/plans/comcast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/comcast-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/rate-limits/comcast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/comcast-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/finops/comcast-finops.yml
   title: ''
   type: FinOps
   url: finops/comcast-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/security/comcast-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/comcast-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/security/comcast-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/comcast-vulnerability-disclosure.yml
@@ -229,6 +276,36 @@ scopes:
   scope_count: 0
   slug: comcast-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 30.6
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 38.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 61.3
+    discoverability: 72.2
+    operational_transparency: 36.8
+  previous_composite: 30.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Unified B2B API giving platforms, travel agencies, airlines, and GDSs access to TourRadar's network of 2,500+ organized adventure operators and 50,000+ experiences. Offered in three tiers - a Search &
@@ -17,6 +42,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/security/tourradar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tourradar-domain-security.yml
@@ -61,38 +87,47 @@ common:
   type: About
   url: https://www.tourradar.com/about
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/authentication/tourradar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tourradar-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/scopes/tourradar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tourradar-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/well-known/tourradar-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/tourradar-openid-configuration.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/well-known/tourradar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tourradar-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/well-known/tourradar-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tourradar-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/llms/tourradar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tourradar-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/conformance/tourradar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tourradar-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/components/tourradar-components.yml
   title: ''
   type: Components
   url: components/tourradar-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/security/tourradar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tourradar-vulnerability-disclosure.yml
@@ -118,6 +153,40 @@ scopes:
   scope_count: 24
   slug: tourradar-scopes
   summary_line: 24 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 20.1
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 20.1
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/screenshots/tourradar-2026-09-02T163955.png
 security:
 - kind: authentication

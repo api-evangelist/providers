@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://orderbook.filament.finance/sei
@@ -51,42 +76,52 @@ common:
   type: X
   url: https://twitter.com/FilamentFinance
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/sandbox/filament-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/filament-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/authentication/filament-authentication.yml
   title: ''
   type: Authentication
   url: authentication/filament-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/conventions/filament-conventions.yml
   title: ''
   type: Conventions
   url: conventions/filament-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/mcp/filament-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/filament-mcp.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/asyncapi/filament-orderbook-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/filament-orderbook-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/lifecycle/filament-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/filament-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/data-model/filament-data-model.yml
   title: ''
   type: DataModel
   url: data-model/filament-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/llms/filament-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/filament-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/security/filament-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/filament-domain-security.yml
@@ -114,6 +149,41 @@ overview: 'Filament publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Filament''s developer surface includes documentation, API reference, getting-started guide, engineering blog, sandbox, authentication, and 13 more developer resources.'
 random_paper: 8
+score:
+  band: emerging
+  composite: 24.2
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 41.7
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 24.2
+  provenance:
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 20.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png
 security:
 - kind: authentication

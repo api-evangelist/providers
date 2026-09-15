@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 62.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 1
@@ -140,14 +166,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/losant/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/agentic-access/losant-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/losant-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/security/losant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/losant-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/authentication/losant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/losant-authentication.yml
@@ -272,38 +301,47 @@ common:
   type: Twitter
   url: https://x.com/losantiot
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/plans/losant-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/losant-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/rate-limits/losant-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/losant-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/finops/losant-finops.yml
   title: ''
   type: FinOps
   url: finops/losant-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/vocabulary/losant-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/losant-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/rules/losant-rules.yml
   title: ''
   type: SpectralRules
   url: rules/losant-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/json-ld/losant-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/losant-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/packages/losant-packages.yml
   title: ''
   type: Packages
   url: packages/losant-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/well-known/losant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/losant-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/mcp/losant-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/losant-mcp.yml
@@ -312,14 +350,17 @@ common:
   type: MCPServer
   url: https://mcp.losant.com/mcp
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/mcp/losant-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/losant-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/llms/losant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/losant-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/conformance/losant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/losant-conformance.yml
@@ -328,10 +369,12 @@ common:
   type: Compliance
   url: https://docs.losant.com/references/security/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/errors/losant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/losant-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/lifecycle/losant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/losant-lifecycle.yml
@@ -340,10 +383,12 @@ common:
   type: Deprecation
   url: https://docs.losant.com/edge-compute/gateway-edge-agent/changelog/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/scopes/losant-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/losant-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/security/losant-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/losant-vulnerability-disclosure.yml
@@ -352,66 +397,82 @@ common:
   type: Security
   url: https://github.com/Losant/losant-mcp-server/blob/main/SECURITY.md
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/sandbox/losant-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/losant-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/conventions/losant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/losant-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/changelog/losant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/losant-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/cli/losant-cli.yml
   title: ''
   type: CLI
   url: cli/losant-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/data-model/losant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/losant-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/asyncapi/losant-event-surface.yml
   title: ''
   type: Webhooks
   url: asyncapi/losant-event-surface.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-application-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-application-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-authentication-and-account-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-authentication-and-account-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-data-and-data-tables-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-data-and-data-tables-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-device-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-device-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-edge-and-embedded-compute-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-edge-and-embedded-compute-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-enterprise-instance-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-enterprise-instance-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-experience-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-experience-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-notebooks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-notebooks-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/overlays/losant-workflow-engine-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/losant-workflow-engine-api-overlay.yaml
@@ -590,6 +651,41 @@ scopes:
   scope_count: 7
   slug: losant-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 79.5
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 90.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 24.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 47.0
+    contract_quality: 73.0
+    developer_ergonomics: 91.1
+    discoverability: 74.1
+    operational_transparency: 94.7
+  previous_composite: 79.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/screenshots/losant-2026-06-20T184729.png
 security:
 - kind: authentication

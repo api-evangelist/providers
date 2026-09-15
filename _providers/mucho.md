@@ -16,6 +16,7 @@ common:
   type: Website
   url: https://mucho.asia
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mucho/refs/heads/main/security/mucho-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mucho-domain-security.yml

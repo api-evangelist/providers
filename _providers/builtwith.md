@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -329,10 +354,12 @@ collections:
   slug: open-builtwith-technology-trends-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/capabilities/builtwith-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/builtwith-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/skills/builtwith-pay-per-call-with-x402.md
   title: ''
   type: AgentSkill
   url: skills/builtwith-pay-per-call-with-x402.md
@@ -349,18 +376,22 @@ common:
   type: License
   url: https://github.com/builtwith/builtwith-mcp/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/agentic-access/builtwith-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/builtwith-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/security/builtwith-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/builtwith-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/security/builtwith-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/builtwith-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/authentication/builtwith-authentication.yml
   title: ''
   type: Authentication
   url: authentication/builtwith-authentication.yml
@@ -397,42 +428,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/builtwithcom/builtwith/overview
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/plans/builtwith-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/builtwith-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/rate-limits/builtwith-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/builtwith-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/finops/builtwith-finops.yml
   title: ''
   type: FinOps
   url: finops/builtwith-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/a2a/builtwith-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/builtwith-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/mcp/builtwith-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/builtwith-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/mcp/builtwith-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/builtwith-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/llms/builtwith-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/builtwith-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/well-known/builtwith-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/builtwith-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/well-known/builtwith-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/builtwith-api-catalog.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/well-known/builtwith-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/builtwith-security.txt
@@ -441,106 +482,132 @@ common:
   type: Security
   url: https://builtwith.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/scopes/builtwith-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/builtwith-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/packages/builtwith-packages.yml
   title: ''
   type: Packages
   url: packages/builtwith-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/packages/builtwith-packages.yml
   title: ''
   type: SDKs
   url: packages/builtwith-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/cli/builtwith-cli.yml
   title: ''
   type: CLI
   url: cli/builtwith-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/conventions/builtwith-conventions.yml
   title: ''
   type: Conventions
   url: conventions/builtwith-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/conventions/builtwith-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/builtwith-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/errors/builtwith-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/builtwith-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/errors/builtwith-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/builtwith-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/lifecycle/builtwith-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/builtwith-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/conformance/builtwith-conformance.yml
   title: ''
   type: Conformance
   url: conformance/builtwith-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/data-model/builtwith-data-model.yml
   title: ''
   type: DataModel
   url: data-model/builtwith-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/components/builtwith-components.yml
   title: ''
   type: Components
   url: components/builtwith-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/asyncapi/builtwith-live-feed-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/builtwith-live-feed-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/vocabulary/builtwith-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/builtwith-vocabulary.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/json-schema/builtwith-domain-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/builtwith-domain-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/json-schema/builtwith-change-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/builtwith-change-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/json-schema/builtwith-lists-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/builtwith-lists-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/json-ld/builtwith-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/builtwith-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/rules/builtwith-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/builtwith-jsonschema-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/examples/builtwith-domain-example.json
   title: ''
   type: Examples
   url: examples/builtwith-domain-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/examples/builtwith-lists-example.json
   title: ''
   type: Examples
   url: examples/builtwith-lists-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/examples/builtwith-trends-example.json
   title: ''
   type: Examples
   url: examples/builtwith-trends-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/examples/builtwith-change-example.json
   title: ''
   type: Examples
   url: examples/builtwith-change-example.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/overlays/builtwith-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/builtwith-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/overlays/builtwith-x402-pay-per-call-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/builtwith-x402-pay-per-call-overlay.yaml
@@ -656,6 +723,44 @@ scopes:
   scope_count: 2
   slug: builtwith-scopes
   summary_line: 2 scopes
+score:
+  band: developing
+  composite: 53.8
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 71.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 43.2
+    contract_quality: 69.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 53.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/screenshots/builtwith-2026-06-20T173756.png
 security:
 - kind: authentication

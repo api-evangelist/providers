@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.moosend.com/v3
@@ -38,14 +63,17 @@ collections:
   slug: open-moosend
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/authentication/moosend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moosend-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/moosend-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moosend-domain-security.yml
@@ -114,62 +142,77 @@ common:
   type: X
   url: https://x.com/moosend
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/plans/moosend-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moosend-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/rate-limits/moosend-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moosend-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/finops/moosend-finops.yml
   title: ''
   type: FinOps
   url: finops/moosend-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/json-ld/moosend-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/moosend-context.jsonld
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/packages/moosend-packages.yml
   title: ''
   type: Packages
   url: packages/moosend-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/packages/moosend-packages.yml
   title: ''
   type: SDKs
   url: packages/moosend-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/llms/moosend-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moosend-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/mcp/moosend-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moosend-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/conventions/moosend-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moosend-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/errors/moosend-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moosend-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/lifecycle/moosend-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moosend-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/data-model/moosend-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moosend-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/components/moosend-components.yml
   title: ''
   type: Components
   url: components/moosend-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/conformance/moosend-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moosend-conformance.yml
@@ -178,6 +221,7 @@ common:
   type: Compliance
   url: https://moosend.com/trust/compliance/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/security/moosend-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/moosend-vulnerability-disclosure.yml
@@ -186,6 +230,7 @@ common:
   type: Security
   url: https://moosend.com/privacy-policy/disclosure/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/overlays/moosend-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moosend-openapi-overlay.yaml
@@ -222,6 +267,46 @@ rate_limits:
 - limit_count: 10
   name: Moosend Rate Limits
   slug: moosend-rate-limits
+score:
+  band: strong
+  composite: 65.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 72.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 4.5
+    contract_quality: 60.5
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    operational_transparency: 60.5
+  previous_composite: 65.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 56.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
 security:
 - kind: authentication

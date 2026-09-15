@@ -31,6 +31,5 @@ tags:
 - Artificial Intelligence
 - Fintech
 - Healthcare
-- Consumer
 - North America
 ---

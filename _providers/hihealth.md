@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.8
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -80,54 +105,67 @@ common:
   type: Deprecation
   url: https://partner.getpliant.com/docs/versioning.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/authentication/hihealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hihealth-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/scopes/hihealth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hihealth-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/conventions/hihealth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hihealth-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/rate-limits/hihealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hihealth-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/errors/hihealth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hihealth-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/lifecycle/hihealth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hihealth-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/sandbox/hihealth-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hihealth-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/asyncapi/hihealth-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hihealth-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/mcp/hihealth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hihealth-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/llms/hihealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hihealth-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/well-known/hihealth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hihealth-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/well-known/hihealth-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hihealth-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/security/hihealth-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hihealth-vulnerability-disclosure.yml
@@ -136,18 +174,22 @@ common:
   type: Security
   url: https://www.getpliant.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/security/hihealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hihealth-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/conformance/hihealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hihealth-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/conformance/hihealth-conformance.yml
   title: ''
   type: Compliance
   url: conformance/hihealth-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/changelog/hihealth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hihealth-changelog.yml
@@ -180,6 +222,41 @@ scopes:
   scope_count: 3
   slug: hihealth-scopes
   summary_line: 3 scopes
+score:
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 39.3
+    discoverability: 75.9
+    operational_transparency: 69.7
+  previous_composite: 53.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 80.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/screenshots/hihealth-2026-07-25T221215.png
 security:
 - kind: authentication

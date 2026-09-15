@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Standards-based NTRIP interface to the Point One Polaris RTK corrections network. Clients connect over NTRIP 1.0 or 2.0 to a regional caster, authenticate with Basic auth using a unique per-connection
@@ -36,6 +61,7 @@ common:
   type: License
   url: https://github.com/PointOneNav/polaris/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/security/point-one-navigation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/point-one-navigation-domain-security.yml
@@ -108,58 +134,72 @@ common:
   type: SecondaryMarketListing
   url: https://forgeglobal.com/point-one-navigation_stock/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/graphql/point-one-navigation-graphql-surface.yml
   title: ''
   type: GraphQL
   url: graphql/point-one-navigation-graphql-surface.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/authentication/point-one-navigation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/point-one-navigation-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/packages/point-one-navigation-packages.yml
   title: ''
   type: Packages
   url: packages/point-one-navigation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/packages/point-one-navigation-packages.yml
   title: ''
   type: SDKs
   url: packages/point-one-navigation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/cli/point-one-navigation-cli.yml
   title: ''
   type: CLI
   url: cli/point-one-navigation-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/well-known/point-one-navigation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/point-one-navigation-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/conventions/point-one-navigation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/point-one-navigation-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/errors/point-one-navigation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/point-one-navigation-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/lifecycle/point-one-navigation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/point-one-navigation-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/conformance/point-one-navigation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/point-one-navigation-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/data-model/point-one-navigation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/point-one-navigation-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/changelog/point-one-navigation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/point-one-navigation-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/llms/point-one-navigation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/point-one-navigation-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -176,6 +216,38 @@ overview: 'Point One Navigation publishes 3 APIs on the [APIs.io](https://apis.i
 
   Point One Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 34.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.2
+  provenance:
+    conformance: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/screenshots/point-one-navigation-2026-09-02T151621.png
 security:
 - kind: authentication

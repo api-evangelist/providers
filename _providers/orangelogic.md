@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: Authenticate against an Orange Logic instance and obtain tokens for subsequent calls. Supports OAuth 2.0 (client ID and secret), non-expiring bearer tokens, and basic username/password login. The OAut
@@ -35,10 +60,12 @@ apis:
 artifact_total: 12
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/security/orangelogic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/orangelogic-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/security/orangelogic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orangelogic-domain-security.yml
@@ -55,14 +82,17 @@ common:
   type: Documentation
   url: https://developer.orangelogic.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/plans/orangelogic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orangelogic-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/rate-limits/orangelogic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orangelogic-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/finops/orangelogic-finops.yml
   title: ''
   type: FinOps
   url: finops/orangelogic-finops.yml
@@ -91,6 +121,32 @@ rate_limits:
 - limit_count: 5
   name: Orangelogic Rate Limits
   slug: orangelogic-rate-limits
+score:
+  band: emerging
+  composite: 21.3
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 63.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 11.9
+    discoverability: 74.1
+    operational_transparency: 31.6
+  previous_composite: 21.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/screenshots/orangelogic-2026-08-07T190828.png
 security:
 - kind: domain-security

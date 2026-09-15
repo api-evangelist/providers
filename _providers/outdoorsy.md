@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 2
@@ -527,10 +552,12 @@ collections:
   slug: open-outdoorsy-wishlists-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/capabilities/outdoorsy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/outdoorsy-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/overlays/outdoorsy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/outdoorsy-api-overlay.yaml
@@ -583,66 +610,82 @@ common:
   type: PrivacyPolicy
   url: https://support.outdoorsy.com/hc/en-us/articles/37423118744987-Privacy-Policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/authentication/outdoorsy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/outdoorsy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/conventions/outdoorsy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/outdoorsy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/errors/outdoorsy-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/outdoorsy-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/rate-limits/outdoorsy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/outdoorsy-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/lifecycle/outdoorsy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/outdoorsy-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/conformance/outdoorsy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/outdoorsy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/data-model/outdoorsy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/outdoorsy-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/components/outdoorsy-components.yml
   title: ''
   type: Components
   url: components/outdoorsy-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/sandbox/outdoorsy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/outdoorsy-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/packages/outdoorsy-packages.yml
   title: ''
   type: Packages
   url: packages/outdoorsy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/packages/outdoorsy-packages.yml
   title: ''
   type: SDKs
   url: packages/outdoorsy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/well-known/outdoorsy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/outdoorsy-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/llms/outdoorsy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/outdoorsy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/agentic-access/outdoorsy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/outdoorsy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/security/outdoorsy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/outdoorsy-domain-security.yml
@@ -663,6 +706,52 @@ rate_limits:
 - limit_count: 1
   name: Outdoorsy Rate Limits
   slug: outdoorsy-rate-limits
+score:
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 32.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 47.4
+    developer_ergonomics: 73.2
+    discoverability: 51.9
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 43.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 12.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 62
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 37.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/screenshots/outdoorsy-2026-08-17T124435.png
 security:
 - kind: authentication

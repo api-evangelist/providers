@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -122,34 +147,42 @@ common:
   type: GettingStarted
   url: https://developer.fin.com/index
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/openapi/_original/fin-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/fin-openapi-original.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/overlays/fin-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fin-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/authentication/fin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fin-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/conventions/fin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fin-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/errors/fin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fin-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/asyncapi/fin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fin-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/conformance/fin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fin-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/lifecycle/fin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fin-lifecycle.yml
@@ -162,34 +195,42 @@ common:
   type: Deprecation
   url: https://developer.fin.com/changelogs/2026-04-20
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/changelog/fin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fin-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/sandbox/fin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fin-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/data-model/fin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fin-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/mcp/fin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fin-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/agentic-access/fin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fin-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/security/fin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fin-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/llms/fin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fin-llms.txt
@@ -221,6 +262,47 @@ overview: 'Fin publishes 10 APIs on the [APIs.io](https://apis.io/) network, inc
 
   Fin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 18 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 59.6
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 38.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/screenshots/fin-2026-07-25T214454.png
 security:
 - kind: authentication

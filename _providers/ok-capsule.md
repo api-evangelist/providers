@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: A production remote MCP server that exposes the OK Capsule platform — catalog, product intelligence, pack builder, recommendation validation, consumers, orders and fulfillments — as OAuth 2.1 scoped t
@@ -232,10 +258,12 @@ apis:
 artifact_total: 50
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/capabilities/ok-capsule-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ok-capsule-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/overlays/ok-capsule-core-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ok-capsule-core-api-v2-overlay.yaml
@@ -296,74 +324,92 @@ common:
   type: MCPServer
   url: https://storefront.okcapsule.app/mcp
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/packages/ok-capsule-packages.yml
   title: ''
   type: Packages
   url: packages/ok-capsule-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/well-known/ok-capsule-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ok-capsule-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/llms/ok-capsule-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ok-capsule-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/conformance/ok-capsule-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ok-capsule-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/conformance/ok-capsule-conformance.yml
   title: ''
   type: Compliance
   url: conformance/ok-capsule-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/errors/ok-capsule-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ok-capsule-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/lifecycle/ok-capsule-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ok-capsule-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/lifecycle/ok-capsule-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ok-capsule-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/scopes/ok-capsule-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ok-capsule-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/authentication/ok-capsule-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ok-capsule-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/security/ok-capsule-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ok-capsule-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/conventions/ok-capsule-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ok-capsule-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/sandbox/ok-capsule-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ok-capsule-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/data-model/ok-capsule-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ok-capsule-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/components/ok-capsule-components.yml
   title: ''
   type: Components
   url: components/ok-capsule-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/plans/ok-capsule-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ok-capsule-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/rate-limits/ok-capsule-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ok-capsule-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -400,6 +446,46 @@ scopes:
   scope_count: 0
   slug: ok-capsule-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 58.9
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 60.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 65.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/screenshots/ok-capsule-2026-09-02T150831.png
 security:
 - kind: authentication

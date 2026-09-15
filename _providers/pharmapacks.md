@@ -13,6 +13,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pharmapacks/refs/heads/main/security/pharmapacks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pharmapacks-domain-security.yml
@@ -33,6 +34,7 @@ common:
   type: Support
   url: https://www.packable.com/contact-us/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pharmapacks/refs/heads/main/llms/pharmapacks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pharmapacks-llms.txt

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://public-api.backup.net
@@ -106,10 +131,12 @@ collections:
   slug: open-unitrends-domainusersv2-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/security/unitrends-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unitrends-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/authentication/unitrends-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unitrends-authentication.yml
@@ -158,46 +185,57 @@ common:
   type: Login
   url: https://portal.backup.net/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/well-known/unitrends-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unitrends-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/mcp/unitrends-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unitrends-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/llms/unitrends-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unitrends-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/overlays/unitrends-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unitrends-public-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/conformance/unitrends-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unitrends-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/lifecycle/unitrends-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unitrends-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/scopes/unitrends-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/unitrends-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/packages/unitrends-packages.yml
   title: ''
   type: Packages
   url: packages/unitrends-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/conventions/unitrends-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unitrends-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/data-model/unitrends-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unitrends-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -219,6 +257,41 @@ scopes:
   scope_count: 3
   slug: unitrends-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 39.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 48.4
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 39.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/screenshots/unitrends-2026-09-02T164925.png
 security:
 - kind: authentication

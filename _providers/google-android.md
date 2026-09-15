@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -130,110 +155,137 @@ collections:
   slug: open-google-android
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/capabilities/google-android-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-android-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/agentic-access/google-android-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-android-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/security/google-android-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-android-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/authentication/google-android-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-android-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/scopes/google-android-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-android-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/packages/google-android-packages.yml
   title: ''
   type: Packages
   url: packages/google-android-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/well-known/google-android-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-android-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/well-known/google-android-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-android-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/mcp/google-android-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/google-android-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/llms/google-android-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-android-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/overlays/google-android-android-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-android-android-management-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/conformance/google-android-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-android-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/errors/google-android-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-android-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/lifecycle/google-android-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-android-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/conventions/google-android-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-android-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/changelog/google-android-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-android-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/data-model/google-android-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-android-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/security/google-android-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-android-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/security/google-android-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/google-android-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-enterprise-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-enterprise-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-device-enrollment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-device-enrollment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-policy-rollout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-policy-rollout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-remote-device-command-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-remote-device-command-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-fleet-inventory-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-fleet-inventory-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-web-app-publishing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-web-app-publishing-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-notification-configuration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-notification-configuration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/arazzo/google-android-enterprise-offboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-android-enterprise-offboarding-workflow.yml
@@ -346,6 +398,40 @@ scopes:
   scope_count: 9
   slug: google-android-scopes
   summary_line: 9 scopes
+score:
+  band: developing
+  composite: 44.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 44.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 48.4
+    developer_ergonomics: 45.2
+    discoverability: 72.2
+    operational_transparency: 42.1
+  previous_composite: 44.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/screenshots/google-android-2026-06-20T182012.png
 security:
 - kind: authentication

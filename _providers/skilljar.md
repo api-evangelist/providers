@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -653,10 +678,12 @@ collections:
   slug: open-skilljar-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/capabilities/skilljar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/skilljar-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/overlays/skilljar-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skilljar-openapi-overlay.yaml
@@ -713,62 +740,77 @@ common:
   type: StatusPage
   url: https://status.skilljar.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/authentication/skilljar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skilljar-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/scopes/skilljar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/skilljar-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/conventions/skilljar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skilljar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/conventions/skilljar-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/skilljar-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/errors/skilljar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skilljar-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/lifecycle/skilljar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skilljar-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/well-known/skilljar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skilljar-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/conformance/skilljar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skilljar-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/security/skilljar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skilljar-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/agentic-access/skilljar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/skilljar-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/mcp/skilljar-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/skilljar-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/llms/skilljar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skilljar-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/data-model/skilljar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skilljar-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/asyncapi/skilljar-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/skilljar-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -793,6 +835,47 @@ scopes:
   scope_count: 89
   slug: skilljar-scopes
   summary_line: 89 scopes · authorizationCode
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 58.6
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 52.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 78
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 64.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/skilljar/refs/heads/main/screenshots/skilljar-2026-08-17T081918.png
 security:
 - kind: authentication

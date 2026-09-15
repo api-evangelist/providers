@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: HTTP and WebSocket speech synthesis. A non-streaming POST /api/v1/tts/generate returns a complete wav/mp3 for up to 300 characters; a WebSocket /api/v2/tts/stream_generate streams base64 PCM chunks wi
@@ -78,62 +103,77 @@ common:
   type: PrivacyPolicy
   url: https://www.mthreads.com/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/authentication/moore-threads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moore-threads-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/errors/moore-threads-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moore-threads-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/conventions/moore-threads-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moore-threads-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/rate-limits/moore-threads-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moore-threads-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/plans/moore-threads-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moore-threads-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/packages/moore-threads-packages.yml
   title: ''
   type: Packages
   url: packages/moore-threads-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/packages/moore-threads-packages.yml
   title: ''
   type: SDKs
   url: packages/moore-threads-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/llms/moore-threads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moore-threads-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/lifecycle/moore-threads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moore-threads-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/changelog/moore-threads-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moore-threads-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/conformance/moore-threads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moore-threads-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/security/moore-threads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moore-threads-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/asyncapi/moore-threads-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moore-threads-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/sandbox/moore-threads-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moore-threads-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/components/moore-threads-components.yml
   title: ''
   type: Components
   url: components/moore-threads-components.yml
@@ -162,6 +202,42 @@ rate_limits:
 - limit_count: 13
   name: Moore Threads Rate Limits
   slug: moore-threads-rate-limits
+score:
+  band: developing
+  composite: 46.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 48.7
+    contract_governance: 0.0
+    contract_quality: 41.6
+    developer_ergonomics: 58.3
+    discoverability: 74.1
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
+  previous_composite: 46.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/screenshots/moore-threads-2026-09-02T150738.png
 security:
 - kind: authentication

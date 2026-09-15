@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: EVM-compatible Ethereum JSON-RPC interface to the Mezo chain (eth_* methods) for reading chain state and submitting transactions. Mainnet EVM chain ID 31612, testnet 31611; BTC is the native gas token
@@ -71,18 +96,22 @@ common:
   type: Explorer
   url: https://explorer.mezo.org
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/well-known/mezo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mezo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/well-known/mezo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mezo-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/security/mezo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mezo-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/security/mezo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mezo-vulnerability-disclosure.yml
@@ -91,34 +120,42 @@ common:
   type: Security
   url: https://mezo.org/SECURITY.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/packages/mezo-packages.yml
   title: ''
   type: Packages
   url: packages/mezo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/packages/mezo-packages.yml
   title: ''
   type: SDKs
   url: packages/mezo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/cli/mezo-cli.yml
   title: ''
   type: CLI
   url: cli/mezo-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/llms/mezo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mezo-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/lifecycle/mezo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mezo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/conventions/mezo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mezo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/conformance/mezo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mezo-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/changelog/mezo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mezo-changelog.yml
@@ -135,6 +172,34 @@ overview: 'Mezo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
   Mezo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 32.7
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 32.7
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezo/refs/heads/main/screenshots/mezo-2026-08-07T172807.png
 security:
 - kind: domain-security

@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://platform.arthur.ai/api
@@ -716,6 +742,7 @@ collections:
   slug: open-arthurai-workspaces-v1-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/capabilities/arthurai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/arthurai-capability-edges.yml
@@ -768,70 +795,87 @@ common:
   type: StatusPage
   url: https://status.arthur.ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/llms/arthur-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arthur-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/packages/arthurai-packages.yml
   title: ''
   type: Packages
   url: packages/arthurai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/packages/arthurai-packages.yml
   title: ''
   type: SDKs
   url: packages/arthurai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/well-known/arthurai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arthurai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/mcp/arthurai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/arthurai-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/overlays/arthurai-scope-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/arthurai-scope-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/conformance/arthurai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arthurai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/errors/arthurai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/arthurai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/lifecycle/arthurai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arthurai-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/lifecycle/arthurai-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/arthurai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/conventions/arthurai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/arthurai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/data-model/arthurai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/arthurai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/asyncapi/arthurai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/arthurai-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/security/arthurai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arthurai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/scopes/arthurai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/arthurai-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/authentication/arthurai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arthurai-authentication.yml
@@ -856,6 +900,40 @@ scopes:
   scope_count: 191
   slug: arthurai-scopes
   summary_line: 191 scopes · authorizationCode
+score:
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 62.1
+    developer_ergonomics: 56.5
+    discoverability: 70.4
+    operational_transparency: 34.2
+  previous_composite: 48.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 98
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/screenshots/arthurai-2026-07-25T201328.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: CDN-backed hosted basemap tile API serving OpenStreetMap-derived vector tiles in MVT format. Provides Style JSON, TileJSON, and ZXY tile endpoints. Free for non-commercial use; commercial use requires
@@ -35,6 +60,7 @@ common:
   type: License
   url: https://github.com/protomaps/go-pmtiles/blob/main/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/security/protomaps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/protomaps-domain-security.yml
@@ -63,14 +89,17 @@ common:
   type: X
   url: https://twitter.com/protomaps
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/plans/protomaps-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/protomaps-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/rate-limits/protomaps-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/protomaps-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/finops/protomaps-finops.yml
   title: ''
   type: FinOps
   url: finops/protomaps-finops.yml
@@ -107,6 +136,35 @@ rate_limits:
 - limit_count: 5
   name: Protomaps Rate Limits
   slug: protomaps-rate-limits
+score:
+  band: thin
+  composite: 34.9
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 75.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 40.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 37.3
+    developer_ergonomics: 11.9
+    discoverability: 74.1
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/screenshots/protomaps-2026-06-20T192223.png
 security:
 - kind: domain-security

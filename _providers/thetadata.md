@@ -11,6 +11,31 @@ access_model:
   - https://docs.thetadata.us/Articles/Getting-Started/Sample-Data.html
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:25520/v1/events
@@ -129,30 +154,37 @@ collections:
   slug: open-thetadata-year-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-at-time-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-at-time-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-flatfile-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-flatfile-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-history-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-history-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-list-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-list-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-single-day-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-single-day-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-snapshot-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-snapshot-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/overlays/thetadata-year-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/thetadata-year-api-overlay.yaml
@@ -161,6 +193,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/thetadata/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/security/thetadata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thetadata-domain-security.yml
@@ -229,30 +262,37 @@ common:
   type: SampleData
   url: https://docs.thetadata.us/Articles/Getting-Started/Sample-Data.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/packages/thetadata-packages.yml
   title: ''
   type: Packages
   url: packages/thetadata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/packages/thetadata-packages.yml
   title: ''
   type: SDKs
   url: packages/thetadata-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/well-known/thetadata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thetadata-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/llms/thetadata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thetadata-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/conformance/thetadata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thetadata-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/errors/thetadata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thetadata-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/lifecycle/thetadata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thetadata-lifecycle.yml
@@ -261,42 +301,52 @@ common:
   type: Deprecation
   url: https://docs.thetadata.us/Articles/Getting-Started/v2-migration-guide.html
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/authentication/thetadata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thetadata-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/sandbox/thetadata-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thetadata-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/conventions/thetadata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thetadata-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/conventions/thetadata-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/thetadata-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/changelog/thetadata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/thetadata-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/components/thetadata-components.yml
   title: ''
   type: Components
   url: components/thetadata-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/data-model/thetadata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thetadata-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/rate-limits/thetadata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thetadata-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/plans/thetadata-plans.yml
   title: ''
   type: Plans
   url: plans/thetadata-plans.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -324,6 +374,47 @@ rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits
   slug: thetadata-rate-limits
+score:
+  band: strong
+  composite: 62.4
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 52.2
+    developer_ergonomics: 69.6
+    discoverability: 68.5
+    operational_transparency: 78.9
+  previous_composite: 62.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:
 - kind: authentication

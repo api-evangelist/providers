@@ -3,6 +3,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/againstgravity/refs/heads/main/security/againstgravity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/againstgravity-domain-security.yml
@@ -27,6 +28,7 @@ common:
   type: Support
   url: https://recroom.zendesk.com/hc/en-us
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/againstgravity/refs/heads/main/lifecycle/againstgravity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/againstgravity-lifecycle.yml

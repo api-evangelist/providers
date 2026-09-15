@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,74 +72,92 @@ collections:
   slug: open-capitalist
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/agentic-access/capitalist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/capitalist-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/security/capitalist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/capitalist-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/authentication/capitalist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/capitalist-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/conventions/capitalist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/capitalist-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/conventions/capitalist-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/capitalist-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/data-model/capitalist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/capitalist-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/errors/capitalist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/capitalist-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/conformance/capitalist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/capitalist-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/lifecycle/capitalist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/capitalist-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/rate-limits/capitalist-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/capitalist-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/plans/capitalist-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/capitalist-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/finops/capitalist-finops.yml
   title: ''
   type: FinOps
   url: finops/capitalist-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/asyncapi/capitalist-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/capitalist-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/packages/capitalist-packages.yml
   title: ''
   type: Packages
   url: packages/capitalist-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/packages/capitalist-packages.yml
   title: ''
   type: SDKs
   url: packages/capitalist-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/llms/capitalist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/capitalist-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/mcp/capitalist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/capitalist-mcp.yml
@@ -198,6 +241,47 @@ rate_limits:
 - limit_count: 1
   name: Capitalist Rate Limits
   slug: capitalist-rate-limits
+score:
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 46.1
+    contract_governance: 18.2
+    contract_quality: 58.4
+    developer_ergonomics: 54.2
+    discoverability: 68.5
+    operational_transparency: 31.6
+  previous_composite: 49.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/screenshots/capitalist-2026-06-20T173944.png
 security:
 - kind: authentication

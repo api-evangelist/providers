@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -72,10 +97,12 @@ collections:
   slug: open-liveintent-privacy
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/agentic-access/liveintent-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/liveintent-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/authentication/liveintent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liveintent-authentication.yml
@@ -108,18 +135,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/LiveIntent
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/packages/liveintent-packages.yml
   title: ''
   type: Packages
   url: packages/liveintent-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/packages/liveintent-packages.yml
   title: ''
   type: SDKs
   url: packages/liveintent-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/security/liveintent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liveintent-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/llms/liveintent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liveintent-llms.txt
@@ -136,54 +167,67 @@ common:
   type: StatusPage
   url: https://status.liveintent.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/lifecycle/liveintent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liveintent-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/conventions/liveintent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liveintent-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/errors/liveintent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/liveintent-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/conformance/liveintent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liveintent-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/data-model/liveintent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/liveintent-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/sandbox/liveintent-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/liveintent-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/cli/liveintent-cli.yml
   title: ''
   type: CLI
   url: cli/liveintent-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/components/liveintent-components.yml
   title: ''
   type: Components
   url: components/liveintent-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/plans/liveintent-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/liveintent-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/rate-limits/liveintent-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/liveintent-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/overlays/liveintent-audiences-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liveintent-audiences-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/overlays/liveintent-privacy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liveintent-privacy-overlay.yaml
@@ -212,6 +256,40 @@ rate_limits:
 - limit_count: 0
   name: Liveintent Rate Limits
   slug: liveintent-rate-limits
+score:
+  band: developing
+  composite: 41.3
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 18.2
+    contract_quality: 54.7
+    developer_ergonomics: 58.9
+    discoverability: 72.2
+    operational_transparency: 18.4
+  previous_composite: 41.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/screenshots/liveintent-2026-07-25T225352.png
 security:
 - kind: authentication

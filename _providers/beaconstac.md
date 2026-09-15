@@ -11,6 +11,32 @@ access_model:
   - rate-limits
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 53.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API (v2.0) to programmatically create static and dynamic QR Codes across 20+ campaign types, apply design templates, generate codes in bulk from CSV/XLSX, manage Digital Business Cards, leads and
@@ -47,6 +73,7 @@ common:
   type: Postman
   url: https://apidocs.uniqode.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/collections/beaconstac-uniqode-api.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/beaconstac-uniqode-api.postman_collection.json
@@ -67,6 +94,7 @@ common:
   type: Pricing
   url: https://www.uniqode.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/plans/beaconstac-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/beaconstac-plans-pricing.yml
@@ -95,6 +123,7 @@ common:
   type: StatusPage
   url: https://status.uniqode.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/changelog/beaconstac-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/beaconstac-changelog.yml
@@ -103,22 +132,27 @@ common:
   type: Compliance
   url: https://www.uniqode.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/security/beaconstac-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/beaconstac-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/conformance/beaconstac-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beaconstac-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/security/beaconstac-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beaconstac-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/authentication/beaconstac-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beaconstac-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/scopes/beaconstac-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beaconstac-scopes.yml
@@ -127,50 +161,62 @@ common:
   type: OpenIDConnect
   url: https://auth.uniqode.com/.well-known/openid-configuration
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/mcp/beaconstac-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/beaconstac-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/lifecycle/beaconstac-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beaconstac-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/conventions/beaconstac-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beaconstac-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/data-model/beaconstac-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beaconstac-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/errors/beaconstac-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beaconstac-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/rate-limits/beaconstac-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/beaconstac-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/asyncapi/beaconstac-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/beaconstac-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/packages/beaconstac-packages.yml
   title: ''
   type: Packages
   url: packages/beaconstac-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/components/beaconstac-components.yml
   title: ''
   type: Components
   url: components/beaconstac-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/well-known/beaconstac-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beaconstac-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/llms/beaconstac-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beaconstac-llms.txt
@@ -207,6 +253,48 @@ scopes:
   scope_count: 6
   slug: beaconstac-scopes
   summary_line: 6 scopes
+score:
+  band: strong
+  composite: 57.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 57.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/screenshots/beaconstac-2026-07-25T202531.png
 security:
 - kind: authentication

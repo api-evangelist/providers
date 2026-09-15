@@ -12,6 +12,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 52.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
@@ -68,14 +94,17 @@ collections:
   slug: open-asknicely-surveys-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/capabilities/asknicely-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/asknicely-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/overlays/asknicely-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/asknicely-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/security/asknicely-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/asknicely-trust-center.yml
@@ -136,10 +165,12 @@ common:
   type: StatusPage
   url: https://status.asknicely.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/changelog/asknicely-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/asknicely-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/lifecycle/asknicely-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/asknicely-lifecycle.yml
@@ -148,58 +179,72 @@ common:
   type: Deprecation
   url: https://demo.asknice.ly/help/apidocs/changelog
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/authentication/asknicely-authentication.yml
   title: ''
   type: Authentication
   url: authentication/asknicely-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/scopes/asknicely-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/asknicely-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/conventions/asknicely-conventions.yml
   title: ''
   type: Conventions
   url: conventions/asknicely-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/errors/asknicely-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/asknicely-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/rate-limits/asknicely-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/asknicely-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/conformance/asknicely-conformance.yml
   title: ''
   type: Conformance
   url: conformance/asknicely-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/well-known/asknicely-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/asknicely-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/security/asknicely-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asknicely-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/data-model/asknicely-data-model.yml
   title: ''
   type: DataModel
   url: data-model/asknicely-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/asyncapi/asknicely-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/asknicely-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/packages/asknicely-packages.yml
   title: ''
   type: Packages
   url: packages/asknicely-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/components/asknicely-components.yml
   title: ''
   type: Components
   url: components/asknicely-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/llms/asknicely-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/asknicely-llms.txt
@@ -232,6 +277,50 @@ scopes:
   scope_count: 1
   slug: asknicely-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: strong
+  composite: 66.1
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 69.5
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    operational_transparency: 81.6
+  previous_composite: 66.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 65.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:
 - kind: authentication

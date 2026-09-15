@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: true
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.8
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://mylocalinfusion.com/wp-json/
@@ -41,14 +67,17 @@ apis:
 artifact_total: 11
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/security/local-infusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/local-infusion-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/scopes/local-infusion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/local-infusion-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/authentication/local-infusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/local-infusion-authentication.yml
@@ -93,66 +122,82 @@ common:
   type: SecondaryMarket
   url: https://www.nasdaqprivatemarket.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/_original/local-infusion-wp-rest-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/local-infusion-wp-rest-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/overlays/local-infusion-wp-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/local-infusion-wp-rest-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/mcp/local-infusion-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/local-infusion-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/mcp/local-infusion-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/local-infusion-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/llms/local-infusion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/local-infusion-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/well-known/local-infusion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/local-infusion-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/well-known/local-infusion-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/local-infusion-robots.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/conventions/local-infusion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/local-infusion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/errors/local-infusion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/local-infusion-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/data-model/local-infusion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/local-infusion-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/lifecycle/local-infusion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/local-infusion-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/conformance/local-infusion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/local-infusion-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/packages/local-infusion-packages.yml
   title: ''
   type: Packages
   url: packages/local-infusion-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/plans/local-infusion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/local-infusion-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/rate-limits/local-infusion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/local-infusion-rate-limits.yml
@@ -187,6 +232,46 @@ scopes:
   scope_count: 1
   slug: local-infusion-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: emerging
+  composite: 24.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 16.6
+    developer_ergonomics: 16.1
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 24.4
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 65.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/screenshots/local-infusion-2026-09-02T150317.png
 security:
 - kind: authentication

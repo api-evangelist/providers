@@ -20,6 +20,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/TrueFlip
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/trueflip/refs/heads/main/llms/trueflip-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trueflip-llms.txt

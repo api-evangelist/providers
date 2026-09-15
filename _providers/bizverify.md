@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
@@ -102,6 +127,7 @@ common:
   type: Documentation
   url: https://docs.bizverify.co
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/llms/bizverify-llms.txt
   title: ''
   type: LLMSTxt
   url: llms/bizverify-llms.txt
@@ -110,6 +136,7 @@ common:
   type: LLMSTxt
   url: https://bizverify.co/llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/well-known/bizverify-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/bizverify-api-catalog.json
@@ -149,6 +176,38 @@ overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
   BizVerify''s developer surface includes documentation and 11 more developer resources.'
 random_paper: 20
+score:
+  band: thin
+  composite: 29.9
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 47.8
+    developer_ergonomics: 16.7
+    discoverability: 77.8
+    operational_transparency: 5.3
+  previous_composite: 29.9
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify
 tags:

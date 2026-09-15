@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Programmatic access to the Lumigo observability platform, authenticated with an API token (x-api-key header) generated in Lumigo Settings. Host confirmed live (returns 401 without credentials); no pub
@@ -74,54 +99,67 @@ common:
   type: Compliance
   url: https://lumigo.io/security/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/packages/lumigo-packages.yml
   title: ''
   type: Packages
   url: packages/lumigo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/packages/lumigo-packages.yml
   title: ''
   type: SDKs
   url: packages/lumigo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/cli/lumigo-cli.yml
   title: ''
   type: CLI
   url: cli/lumigo-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/mcp/lumigo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lumigo-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/llms/lumigo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lumigo-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/asyncapi/lumigo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lumigo-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/authentication/lumigo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lumigo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/conformance/lumigo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lumigo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/lifecycle/lumigo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lumigo-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/conventions/lumigo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lumigo-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/changelog/lumigo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lumigo-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/security/lumigo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lumigo-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/security/lumigo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lumigo-domain-security.yml
@@ -145,6 +183,35 @@ overview: 'Lumigo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Lumigo''s developer surface includes documentation, engineering blog, pricing, support, CLI, authentication, changelog, and 19 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 46.4
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 52.6
+  previous_composite: 46.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumigo/refs/heads/main/screenshots/lumigo-2026-07-25T225711.png
 security:
 - kind: authentication

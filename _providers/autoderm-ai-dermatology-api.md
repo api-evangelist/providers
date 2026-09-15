@@ -12,6 +12,31 @@ access_model:
   - security
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,6 +85,7 @@ collections:
   slug: open-autoderm-ai-dermatology-api-utils-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/mcp/autoderm-ai-dermatology-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/autoderm-ai-dermatology-api-mcp.yml
@@ -128,70 +154,87 @@ common:
   type: Versioning
   url: https://docs.autoderm.ai/en/support/api-versioning
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/authentication/autoderm-ai-dermatology-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autoderm-ai-dermatology-api-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/conventions/autoderm-ai-dermatology-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autoderm-ai-dermatology-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/errors/autoderm-ai-dermatology-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autoderm-ai-dermatology-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/lifecycle/autoderm-ai-dermatology-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autoderm-ai-dermatology-api-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/conformance/autoderm-ai-dermatology-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autoderm-ai-dermatology-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/data-model/autoderm-ai-dermatology-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autoderm-ai-dermatology-api-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/rate-limits/autoderm-ai-dermatology-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autoderm-ai-dermatology-api-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/plans/autoderm-ai-dermatology-api-plans.yml
   title: ''
   type: Plans
   url: plans/autoderm-ai-dermatology-api-plans.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/packages/autoderm-ai-dermatology-api-packages.yml
   title: ''
   type: Packages
   url: packages/autoderm-ai-dermatology-api-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/packages/autoderm-ai-dermatology-api-packages.yml
   title: ''
   type: SDKs
   url: packages/autoderm-ai-dermatology-api-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/json-schema/
   title: ''
   type: JSONSchema
   url: json-schema/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/overlays/autoderm-ai-dermatology-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autoderm-ai-dermatology-api-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/llms/autoderm-ai-dermatology-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autoderm-ai-dermatology-api-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/agentic-access/autoderm-ai-dermatology-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/autoderm-ai-dermatology-api-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/security/autoderm-ai-dermatology-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autoderm-ai-dermatology-api-domain-security.yml
@@ -285,6 +328,47 @@ rate_limits:
 - limit_count: 3
   name: Autoderm Ai Dermatology Api Rate Limits
   slug: autoderm-ai-dermatology-api-rate-limits
+score:
+  band: strong
+  composite: 63.5
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 56.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 63.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/screenshots/autoderm-ai-dermatology-api-2026-08-17T080622.png
 security:
 - kind: authentication

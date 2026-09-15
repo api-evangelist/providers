@@ -27,7 +27,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -88,7 +88,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -138,7 +138,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
@@ -181,7 +181,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -231,7 +231,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -281,7 +281,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -331,7 +331,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -381,7 +381,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -431,7 +431,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -485,7 +485,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -535,7 +535,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -585,7 +585,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -635,7 +635,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -685,7 +685,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -735,7 +735,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.5,
      "agent_band": "agent-ready",
@@ -778,14 +778,21 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 31.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -828,14 +835,21 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 27.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -878,7 +892,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -928,7 +942,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -978,7 +992,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1028,7 +1042,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1078,7 +1092,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
@@ -1121,7 +1135,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1171,7 +1185,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1221,7 +1235,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1271,7 +1285,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1321,7 +1335,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1371,7 +1385,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1421,7 +1435,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1471,7 +1485,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1521,7 +1535,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1571,7 +1585,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1621,7 +1635,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1681,7 +1695,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1724,7 +1738,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1774,7 +1788,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1824,7 +1838,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -1867,7 +1881,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1910,7 +1924,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1953,7 +1967,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2003,7 +2017,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2053,7 +2067,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2103,7 +2117,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2153,7 +2167,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2203,7 +2217,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2253,7 +2267,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2303,7 +2317,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2353,7 +2367,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2403,7 +2417,7 @@
       "developer_ergonomics": 17.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2453,7 +2467,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2496,7 +2510,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2556,7 +2570,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2606,7 +2620,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2656,7 +2670,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2706,7 +2720,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2756,14 +2770,25 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 30.0,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2806,7 +2831,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2856,7 +2881,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2899,7 +2924,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2948,7 +2973,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2991,7 +3016,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3034,7 +3059,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3077,7 +3102,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3127,7 +3152,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3177,7 +3202,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3227,7 +3252,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -3270,7 +3295,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3320,7 +3345,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3370,7 +3395,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3420,14 +3445,21 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 36.4,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3470,7 +3502,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3513,7 +3545,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3563,7 +3595,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -3606,7 +3638,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3656,7 +3688,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3706,7 +3738,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3749,7 +3781,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3799,7 +3831,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3842,7 +3874,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3891,7 +3923,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3941,7 +3973,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3984,7 +4016,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.1,
      "agent_band": "agent-aware",
@@ -4027,7 +4059,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4070,7 +4102,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4120,7 +4152,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4170,7 +4202,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4220,7 +4252,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4270,7 +4302,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -4313,7 +4345,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -4356,7 +4388,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4406,7 +4438,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4456,7 +4488,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4506,7 +4538,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4556,7 +4588,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -4599,7 +4631,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4649,7 +4681,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4691,7 +4723,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4741,7 +4773,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4791,7 +4823,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4841,7 +4873,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4891,7 +4923,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4934,7 +4966,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4977,7 +5009,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5027,7 +5059,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5077,7 +5109,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5127,7 +5159,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5177,7 +5209,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5227,7 +5259,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5277,7 +5309,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5327,7 +5359,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5377,7 +5409,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5427,7 +5459,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5470,7 +5502,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5520,7 +5552,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5570,7 +5602,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5620,7 +5652,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5663,7 +5695,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5713,7 +5745,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5763,7 +5795,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5813,7 +5845,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5863,7 +5895,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5913,7 +5945,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5963,7 +5995,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6013,7 +6045,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6063,7 +6095,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6113,7 +6145,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6156,7 +6188,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -6199,7 +6231,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6249,7 +6281,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6299,7 +6331,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6349,7 +6381,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6398,7 +6430,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6448,7 +6480,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6498,7 +6530,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6548,7 +6580,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6591,7 +6623,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6641,7 +6673,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6691,7 +6723,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6741,7 +6773,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6791,7 +6823,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6841,7 +6873,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6884,7 +6916,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6934,7 +6966,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6984,7 +7016,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7034,7 +7066,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7077,7 +7109,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7127,7 +7159,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7177,7 +7209,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7227,7 +7259,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7277,7 +7309,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7318,8 +7350,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 129,
-   "shown": 129,
+   "count": 130,
+   "shown": 130,
    "providers": [
     {
      "name": "ElCoach",
@@ -7337,7 +7369,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7387,7 +7419,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7437,7 +7469,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -7480,7 +7512,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7523,7 +7555,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7573,7 +7605,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7623,7 +7655,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7673,7 +7705,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7723,7 +7755,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7773,7 +7805,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7823,7 +7855,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7873,7 +7905,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7923,7 +7955,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7973,7 +8005,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8016,7 +8048,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8066,7 +8098,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8116,7 +8148,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8166,7 +8198,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8216,7 +8248,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8266,7 +8298,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8315,7 +8347,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8365,7 +8397,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8415,7 +8447,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8465,7 +8497,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8508,7 +8540,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8558,7 +8590,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8608,7 +8640,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8658,7 +8690,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8701,7 +8733,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8744,7 +8776,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8794,7 +8826,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8844,7 +8876,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8887,7 +8919,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8937,7 +8969,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8987,7 +9019,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9037,7 +9069,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9087,7 +9119,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9137,7 +9169,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9180,7 +9212,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9230,7 +9262,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9273,7 +9305,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9316,7 +9348,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -9359,7 +9391,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9409,7 +9441,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9444,6 +9476,55 @@
      "rank": 194
     },
     {
+     "name": "AHARA",
+     "slug": "ahara",
+     "description": "AHARA is a Los Angeles personalized-nutrition company founded in 2022 by physician nutritionist Dr. Melina Jampolis and The RealReal founder Julie Wainwright, funded with a $10.25M seed round led by Greycroft. It pairs a health questionnaire and at-home genetic, epigenetic and blood-biomarker testing with registered-dietitian guidance and a consumer app (Food Health Rx) that turns the results into a personalized food-as-medicine plan, sold direct to consumers and through employers, health plans and providers. In late 2024 the company rebranded as Food Health Collective and moved its web presence to foodhealthcollective.org; the original ahara.com domain is now registrar-suspended (clientHold, NXDOMAIN) and the ahara.health Squarespace site has expired. AHARA operates no developer program: there is no portal, no documentation, no API reference, no public package, no GitHub organization and no machine-readable contract on any host it controls.",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 195
+    },
+    {
      "name": "balldontlie",
      "slug": "balldontlie",
      "description": "Balldontlie provides access to stats data from the NBA",
@@ -9459,7 +9540,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -9484,7 +9565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "City Bikes",
@@ -9502,50 +9583,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 196
-    },
-    {
-     "name": "Cloudbet",
-     "slug": "cloudbet",
-     "description": "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudbet/refs/heads/main/screenshots/cloudbet-2026-06-20T174543.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9573,10 +9611,10 @@
      "rank": 197
     },
     {
-     "name": "DiscGolf",
-     "slug": "discgolf",
-     "description": "Structured disc golf course data",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/discgolf/refs/heads/main/screenshots/discgolf-2026-06-20T180032.png",
+     "name": "Cloudbet",
+     "slug": "cloudbet",
+     "description": "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudbet/refs/heads/main/screenshots/cloudbet-2026-06-20T174543.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9588,7 +9626,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9616,10 +9654,10 @@
      "rank": 198
     },
     {
-     "name": "Ergast F1",
-     "slug": "ergast-f1",
-     "description": "F1 data from the beginning of the world championships in 1950",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ergast-f1/refs/heads/main/screenshots/ergast-f1-2026-08-07T164957.png",
+     "name": "DiscGolf",
+     "slug": "discgolf",
+     "description": "Structured disc golf course data",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/discgolf/refs/heads/main/screenshots/discgolf-2026-06-20T180032.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9631,7 +9669,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9659,10 +9697,10 @@
      "rank": 199
     },
     {
-     "name": "Football",
-     "slug": "football",
-     "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football/refs/heads/main/screenshots/football-2026-06-20T181411.png",
+     "name": "Ergast F1",
+     "slug": "ergast-f1",
+     "description": "F1 data from the beginning of the world championships in 1950",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ergast-f1/refs/heads/main/screenshots/ergast-f1-2026-08-07T164957.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9674,7 +9712,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9702,10 +9740,10 @@
      "rank": 200
     },
     {
-     "name": "Football (Soccer) Videos",
-     "slug": "football-soccer-videos",
-     "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football-soccer-videos/refs/heads/main/screenshots/football-soccer-videos-2026-06-20T181409.png",
+     "name": "Football",
+     "slug": "football",
+     "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football/refs/heads/main/screenshots/football-2026-06-20T181411.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9717,7 +9755,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9745,10 +9783,10 @@
      "rank": 201
     },
     {
-     "name": "JCDecaux Bike",
-     "slug": "jcdecaux-bike",
-     "description": "JCDecaux's self-service bicycles",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jcdecaux-bike/refs/heads/main/screenshots/jcdecaux-bike-2026-06-20T183709.png",
+     "name": "Football (Soccer) Videos",
+     "slug": "football-soccer-videos",
+     "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football-soccer-videos/refs/heads/main/screenshots/football-soccer-videos-2026-06-20T181409.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9760,7 +9798,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9788,10 +9826,10 @@
      "rank": 202
     },
     {
-     "name": "MLB Records and Stats",
-     "slug": "mlb-records-and-stats",
-     "description": "Current and historical MLB statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mlb-records-and-stats/refs/heads/main/screenshots/mlb-records-and-stats-2026-06-20T185624.png",
+     "name": "JCDecaux Bike",
+     "slug": "jcdecaux-bike",
+     "description": "JCDecaux's self-service bicycles",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jcdecaux-bike/refs/heads/main/screenshots/jcdecaux-bike-2026-06-20T183709.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9803,7 +9841,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9831,10 +9869,10 @@
      "rank": 203
     },
     {
-     "name": "NBA Data",
-     "slug": "nba-data",
-     "description": "All NBA Stats DATA, Games, Livescore, Standings, Statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nba-data/refs/heads/main/screenshots/nba-data-2026-06-20T190108.png",
+     "name": "MLB Records and Stats",
+     "slug": "mlb-records-and-stats",
+     "description": "Current and historical MLB statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mlb-records-and-stats/refs/heads/main/screenshots/mlb-records-and-stats-2026-06-20T185624.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9846,7 +9884,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9874,9 +9912,10 @@
      "rank": 204
     },
     {
-     "name": "Oddsmagnet",
-     "slug": "oddsmagnet",
-     "description": "Odds history from multiple UK bookmakers",
+     "name": "NBA Data",
+     "slug": "nba-data",
+     "description": "All NBA Stats DATA, Games, Livescore, Standings, Statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nba-data/refs/heads/main/screenshots/nba-data-2026-06-20T190108.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9888,7 +9927,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9916,10 +9955,9 @@
      "rank": 205
     },
     {
-     "name": "OpenLigaDB",
-     "slug": "openligadb",
-     "description": "Crowd sourced sports league results",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openligadb/refs/heads/main/screenshots/openligadb-2026-06-20T191015.png",
+     "name": "Oddsmagnet",
+     "slug": "oddsmagnet",
+     "description": "Odds history from multiple UK bookmakers",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9931,7 +9969,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9959,10 +9997,10 @@
      "rank": 206
     },
     {
-     "name": "Premier League Standings",
-     "slug": "premier-league-standings",
-     "description": "All Current Premier League Standings and Statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/premier-league-standings/refs/heads/main/screenshots/premier-league-standings-2026-06-20T192056.png",
+     "name": "OpenLigaDB",
+     "slug": "openligadb",
+     "description": "Crowd sourced sports league results",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openligadb/refs/heads/main/screenshots/openligadb-2026-06-20T191015.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9974,7 +10012,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10002,10 +10040,10 @@
      "rank": 207
     },
     {
-     "name": "RacingHub",
-     "slug": "racinghub",
-     "description": "Formula 1 historical data and statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/racinghub/refs/heads/main/screenshots/racinghub-2026-06-20T192509.png",
+     "name": "Premier League Standings",
+     "slug": "premier-league-standings",
+     "description": "All Current Premier League Standings and Statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/premier-league-standings/refs/heads/main/screenshots/premier-league-standings-2026-06-20T192056.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10017,7 +10055,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10045,9 +10083,10 @@
      "rank": 208
     },
     {
-     "name": "Squiggle",
-     "slug": "squiggle",
-     "description": "Fixtures, results and predictions for Australian Football League matches",
+     "name": "RacingHub",
+     "slug": "racinghub",
+     "description": "Formula 1 historical data and statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/racinghub/refs/heads/main/screenshots/racinghub-2026-06-20T192509.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10059,7 +10098,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10087,11 +10126,10 @@
      "rank": 209
     },
     {
-     "name": "Canadian Football League (CFL)",
-     "slug": "canadian-football-league-cfl",
-     "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-football-league-cfl/refs/heads/main/screenshots/canadian-football-league-cfl-2026-07-25T204326.png",
-     "score": 7.2,
+     "name": "Squiggle",
+     "slug": "squiggle",
+     "description": "Fixtures, results and predictions for Australian Football League matches",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10099,10 +10137,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10130,6 +10168,49 @@
      "rank": 210
     },
     {
+     "name": "Canadian Football League (CFL)",
+     "slug": "canadian-football-league-cfl",
+     "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-football-league-cfl/refs/heads/main/screenshots/canadian-football-league-cfl-2026-07-25T204326.png",
+     "score": 7.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 211
+    },
+    {
      "name": "CAPS",
      "slug": "caps",
      "description": "CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December 2014 whose mission is to maximize the total amount of happiness through health management (健康経営). CAPS operates a chain of primary-care clinics plus its Doctor365 telemedicine and urgent-care service, provides corporate health-support and wellness programs for employers, runs 24-hour IT-enabled fitness gyms, and delivers health-education programs including a Sesame Street partnership. Headquartered in Roppongi, Minato-ku, Tokyo, the company was seed-funded by 500 Startups Japan (500 Global) in 2018. This API Evangelist profile tracks CAPS as a company; enrichment found no public API, developer portal, or machine-readable specification.",
@@ -10145,7 +10226,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10177,7 +10258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Football Standings",
@@ -10195,50 +10276,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 212
-    },
-    {
-     "name": "ApiMedic",
-     "slug": "apimedic",
-     "description": "ApiMedic offers a medical symptom checker API primarily for patients",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apimedic/refs/heads/main/screenshots/apimedic-2026-06-20T172248.png",
-     "score": 6.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10266,6 +10304,49 @@
      "rank": 213
     },
     {
+     "name": "ApiMedic",
+     "slug": "apimedic",
+     "description": "ApiMedic offers a medical symptom checker API primarily for patients",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apimedic/refs/heads/main/screenshots/apimedic-2026-06-20T172248.png",
+     "score": 6.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 214
+    },
+    {
      "name": "Fitmint",
      "slug": "fitmint",
      "description": "Fitmint is a mobile move-to-earn fitness application from Rabbit Technologies Inc that gamifies everyday walking. Users set daily step goals, level up, open mystery boxes, and earn an in-app currency called $GRIT that can be redeemed for Amazon and other gift cards. The app layers social features such as leaderboards, challenges, and streaks on top of activity tracking to help people build a lifelong habit of walking. Fitmint is a consumer mobile app and does not currently publish a public developer API, SDK, or developer portal; this record is maintained in the API Evangelist network as a company/provider profile and was surfaced as a portfolio company of General Catalyst.",
@@ -10281,7 +10362,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10313,7 +10394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "Glorify",
@@ -10331,49 +10412,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 215
-    },
-    {
-     "name": "Sport List & Data",
-     "slug": "sport-list-and-data",
-     "description": "List of and resources related to sports",
-     "score": 6.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10401,9 +10440,9 @@
      "rank": 216
     },
     {
-     "name": "Sport Places",
-     "slug": "sport-places",
-     "description": "Crowd-source sports places around the world",
+     "name": "Sport List & Data",
+     "slug": "sport-list-and-data",
+     "description": "List of and resources related to sports",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10415,7 +10454,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10443,9 +10482,9 @@
      "rank": 217
     },
     {
-     "name": "Sport Vision",
-     "slug": "sport-vision",
-     "description": "Identify sport, brands and gear in an image. Also does image sports captioning",
+     "name": "Sport Places",
+     "slug": "sport-places",
+     "description": "Crowd-source sports places around the world",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10457,7 +10496,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10485,9 +10524,9 @@
      "rank": 218
     },
     {
-     "name": "SuredBits",
-     "slug": "suredbits",
-     "description": "Query sports data, including teams, players, games, scores and statistics",
+     "name": "Sport Vision",
+     "slug": "sport-vision",
+     "description": "Identify sport, brands and gear in an image. Also does image sports captioning",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10499,7 +10538,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10527,10 +10566,9 @@
      "rank": 219
     },
     {
-     "name": "TourneyRadar",
-     "slug": "tourneyradar",
-     "description": "Upcoming chess tournaments from 140+ national federations worldwide",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tourneyradar/refs/heads/main/screenshots/tourneyradar-2026-06-20T195503.png",
+     "name": "SuredBits",
+     "slug": "suredbits",
+     "description": "Query sports data, including teams, players, games, scores and statistics",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10542,7 +10580,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10570,11 +10608,11 @@
      "rank": 220
     },
     {
-     "name": "CollegeFootballData.com",
-     "slug": "collegefootballdata-com",
-     "description": "Unofficial detailed American college football statistics, records, and results API",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/collegefootballdata-com/refs/heads/main/screenshots/collegefootballdata-com-2026-06-20T174746.png",
-     "score": 6.2,
+     "name": "TourneyRadar",
+     "slug": "tourneyradar",
+     "description": "Upcoming chess tournaments from 140+ national federations worldwide",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tourneyradar/refs/heads/main/screenshots/tourneyradar-2026-06-20T195503.png",
+     "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10582,10 +10620,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10611,6 +10649,49 @@
       "agentic_commerce": false
      },
      "rank": 221
+    },
+    {
+     "name": "CollegeFootballData.com",
+     "slug": "collegefootballdata-com",
+     "description": "Unofficial detailed American college football statistics, records, and results API",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/collegefootballdata-com/refs/heads/main/screenshots/collegefootballdata-com-2026-06-20T174746.png",
+     "score": 6.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 222
     },
     {
      "name": "Treecard",
@@ -10655,7 +10736,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "Hims",
@@ -10672,7 +10753,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10704,7 +10785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "Circles - Online Group Support",
@@ -10721,7 +10802,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10753,7 +10834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "NBA Stats",
@@ -10771,49 +10852,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 225
-    },
-    {
-     "name": "Sport Data",
-     "slug": "sport-data",
-     "description": "Get sports data from all over the world",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10839,6 +10878,48 @@
       "agentic_commerce": false
      },
      "rank": 226
+    },
+    {
+     "name": "Sport Data",
+     "slug": "sport-data",
+     "description": "Get sports data from all over the world",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 227
     },
     {
      "name": "Unwind Me",
@@ -10883,7 +10964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "Y&S",
@@ -10900,7 +10981,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10925,7 +11006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "Alan",
@@ -10943,7 +11024,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10975,7 +11056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "GoWabi",
@@ -10993,50 +11074,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 230
-    },
-    {
-     "name": "tripaneer",
-     "slug": "tripaneer",
-     "description": "tripaneer is an Amsterdam-based online travel company that operates a family of themed wellness and activity travel marketplaces, connecting travelers with the organizers of retreats, courses, and holidays around the world. Its brands include BookYogaRetreats.com, BookSurfCamps.com, BookMeditationRetreats.com, BookAdventureRetreats.com, BookFitnessHolidays.com, BookMartialArtsHolidays.com, and BookSailingHolidays.com, among others. Each site lets travelers discover, compare, and book multi-day experiences by theme, destination, price, and date, while giving retreat and course organizers a channel to list and sell their offerings. tripaneer was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. As of this enrichment pass the company publishes a consumer travel marketplace (sitemaps for listings, organizers, and a blog) but exposes no public developer API, OpenAPI, OAuth/OIDC discovery, or developer-portal surface that could be found or probed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripaneer/refs/heads/main/screenshots/tripaneer-2026-09-02T164239.png",
-     "score": 5.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11064,10 +11102,11 @@
      "rank": 231
     },
     {
-     "name": "BeautyDate",
-     "slug": "beautydate",
-     "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace that connects consumers with salons and independent beauty professionals for discovering and booking appointments online. It was surfaced as a 500 Global venture-portfolio company and added to the API Evangelist network for enrichment. At the time of this enrichment pass the public website and application endpoints were unreachable (HTTP 530 behind Cloudflare, with api.beautydate.com.br redirecting to a down app.beautydate.com.br origin), so no developer portal, API documentation, or machine-readable specification could be captured.",
-     "score": 5.0,
+     "name": "tripaneer",
+     "slug": "tripaneer",
+     "description": "tripaneer is an Amsterdam-based online travel company that operates a family of themed wellness and activity travel marketplaces, connecting travelers with the organizers of retreats, courses, and holidays around the world. Its brands include BookYogaRetreats.com, BookSurfCamps.com, BookMeditationRetreats.com, BookAdventureRetreats.com, BookFitnessHolidays.com, BookMartialArtsHolidays.com, and BookSailingHolidays.com, among others. Each site lets travelers discover, compare, and book multi-day experiences by theme, destination, price, and date, while giving retreat and course organizers a channel to list and sell their offerings. tripaneer was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. As of this enrichment pass the company publishes a consumer travel marketplace (sitemaps for listings, organizers, and a blog) but exposes no public developer API, OpenAPI, OAuth/OIDC discovery, or developer-portal surface that could be found or probed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripaneer/refs/heads/main/screenshots/tripaneer-2026-09-02T164239.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -11075,10 +11114,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11106,6 +11145,48 @@
      "rank": 232
     },
     {
+     "name": "BeautyDate",
+     "slug": "beautydate",
+     "description": "BeautyDate (beautydate.com.br) is a Brazilian beauty and wellness marketplace that connects consumers with salons and independent beauty professionals for discovering and booking appointments online. It was surfaced as a 500 Global venture-portfolio company and added to the API Evangelist network for enrichment. At the time of this enrichment pass the public website and application endpoints were unreachable (HTTP 530 behind Cloudflare, with api.beautydate.com.br redirecting to a down app.beautydate.com.br origin), so no developer portal, API documentation, or machine-readable specification could be captured.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 233
+    },
+    {
      "name": "CareClinic",
      "slug": "careclinic",
      "description": "CareClinic MCP is a private OAuth-connected health-tracking service for supported AI assistants: user-authorized schedule and wellness reads, observational summaries, and explicitly confirmed symptom or mood writes. Medication writes remain disabled. MCP-only surface -- there is no public REST contract, by design.",
@@ -11120,7 +11201,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11152,7 +11233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Clicky",
@@ -11170,50 +11251,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 234
-    },
-    {
-     "name": "Dulcetta",
-     "slug": "dulcetta",
-     "description": "Dulcetta is the company behind Focus@Will (focusatwill.com), a functional-music streaming service that curates instrumental soundtracks scientifically designed to improve concentration and productivity during focused work. Backed by 500 Global, Dulcetta operates a consumer subscription product marketing measurable gains in focus for knowledge workers, students, and creative professionals who work with music. It is tracked in the API Evangelist network as a portfolio-sourced lead; no public developer API or documentation surface has been identified to date, so this profile carries company identity and probed domain-security posture only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dulcetta/refs/heads/main/screenshots/dulcetta-2026-07-25T212457.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11241,10 +11279,10 @@
      "rank": 235
     },
     {
-     "name": "Markato",
-     "slug": "markato",
-     "description": "Markato (legally On Your Marks) is a brand builder and distributor for health, beauty, and wellness brands across Asia, positioning itself as a next-generation distribution disruptor. From bases in Hong Kong, Singapore, Taiwan, Malaysia, Thailand, and Australia, it helps high-potential brands enter, grow, and dominate the region's most competitive markets. Its capabilities span strategic channel development into top-tier offline and online retailers (Sephora, Watsons, Mannings, SaSa), e-commerce and social commerce operations across Shopee, TikTok, and Lazada, 360-degree marketing and brand building, and end-to-end local operations, logistics, product registration, and compliance. Markato is backed by a roughly US$4M seed round led by Lightspeed Venture Partners, with a team drawn from L'Oreal, P&G, McKinsey, and Lane Crawford. Markato is a services and distribution business and does not currently publish a public API, developer portal, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/markato/refs/heads/main/screenshots/markato-2026-07-25T230206.png",
+     "name": "Dulcetta",
+     "slug": "dulcetta",
+     "description": "Dulcetta is the company behind Focus@Will (focusatwill.com), a functional-music streaming service that curates instrumental soundtracks scientifically designed to improve concentration and productivity during focused work. Backed by 500 Global, Dulcetta operates a consumer subscription product marketing measurable gains in focus for knowledge workers, students, and creative professionals who work with music. It is tracked in the API Evangelist network as a portfolio-sourced lead; no public developer API or documentation surface has been identified to date, so this profile carries company identity and probed domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dulcetta/refs/heads/main/screenshots/dulcetta-2026-07-25T212457.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11256,7 +11294,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11284,10 +11322,10 @@
      "rank": 236
     },
     {
-     "name": "Omvana",
-     "slug": "omvana",
-     "description": "Omvana was a meditation and personal-growth audio app developed by Mindvalley, offering guided meditations, ambient soundscapes, and mixable audio tracks for daily mindfulness practice. The standalone Omvana product has since been folded into Mindvalley; omvana.com now permanently redirects (HTTP 308) to mindvalley.com/free-meditations. No public developer, API, or partner surface is published for Omvana or the successor free-meditations offering.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/omvana/refs/heads/main/screenshots/omvana-2026-08-07T190205.png",
+     "name": "Markato",
+     "slug": "markato",
+     "description": "Markato (legally On Your Marks) is a brand builder and distributor for health, beauty, and wellness brands across Asia, positioning itself as a next-generation distribution disruptor. From bases in Hong Kong, Singapore, Taiwan, Malaysia, Thailand, and Australia, it helps high-potential brands enter, grow, and dominate the region's most competitive markets. Its capabilities span strategic channel development into top-tier offline and online retailers (Sephora, Watsons, Mannings, SaSa), e-commerce and social commerce operations across Shopee, TikTok, and Lazada, 360-degree marketing and brand building, and end-to-end local operations, logistics, product registration, and compliance. Markato is backed by a roughly US$4M seed round led by Lightspeed Venture Partners, with a team drawn from L'Oreal, P&G, McKinsey, and Lane Crawford. Markato is a services and distribution business and does not currently publish a public API, developer portal, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/markato/refs/heads/main/screenshots/markato-2026-07-25T230206.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11299,7 +11337,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11327,9 +11365,10 @@
      "rank": 237
     },
     {
-     "name": "Within",
-     "slug": "within",
-     "description": "Within (Within Unlimited, Inc.) is a Los Angeles virtual-reality studio founded in 2014 by Chris Milk and Aaron Koblin, both alumni of Google's Data Arts team. Andreessen Horowitz (a16z) led the company's 2016 Series A. Within builds Supernatural, a VR fitness service for Meta Quest headsets that pairs live human coaches with rhythm-mapped workouts set in 360-degree virtual locations; its earlier work spans immersive 360 video and AR (Clouds Over Sidra, Wonderscope). Meta Platforms acquired Within in February 2023 after the FTC's challenge to the deal failed, and it now operates as a Meta studio. Within is a consumer VR product company and publishes no public developer API, OpenAPI, SDK, or developer portal; its primary domain within.com is currently parked. This profile is retained as an a16z portfolio lead with no API surface to enrich.",
+     "name": "Omvana",
+     "slug": "omvana",
+     "description": "Omvana was a meditation and personal-growth audio app developed by Mindvalley, offering guided meditations, ambient soundscapes, and mixable audio tracks for daily mindfulness practice. The standalone Omvana product has since been folded into Mindvalley; omvana.com now permanently redirects (HTTP 308) to mindvalley.com/free-meditations. No public developer, API, or partner surface is published for Omvana or the successor free-meditations offering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/omvana/refs/heads/main/screenshots/omvana-2026-08-07T190205.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11341,7 +11380,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11369,22 +11408,21 @@
      "rank": 238
     },
     {
-     "name": "Tilray Brands",
-     "slug": "tilray-brands",
-     "description": "A global lifestyle and consumer packaged goods company operating across cannabis, beverage alcohol, and wellness segments. One of the largest cannabis companies worldwide with cultivation, processing, and distribution operations spanning North America, Europe, and beyond.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tilray-brands/refs/heads/main/screenshots/tilray-brands-2026-06-20T195356.png",
-     "score": 4.4,
+     "name": "Within",
+     "slug": "within",
+     "description": "Within (Within Unlimited, Inc.) is a Los Angeles virtual-reality studio founded in 2014 by Chris Milk and Aaron Koblin, both alumni of Google's Data Arts team. Andreessen Horowitz (a16z) led the company's 2016 Series A. Within builds Supernatural, a VR fitness service for Meta Quest headsets that pairs live human coaches with rhythm-mapped workouts set in 360-degree virtual locations; its earlier work spans immersive 360 video and AR (Clouds Over Sidra, Wonderscope). Meta Platforms acquired Within in February 2023 after the FTC's challenge to the deal failed, and it now operates as a Meta studio. Within is a consumer VR product company and publishes no public developer API, OpenAPI, SDK, or developer portal; its primary domain within.com is currently parked. This profile is retained as an a16z portfolio lead with no API surface to enrich.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11412,30 +11450,23 @@
      "rank": 239
     },
     {
-     "name": "10percenthappier",
-     "slug": "10percenthappier",
-     "description": "10percenthappier (now branded Happier Meditation) is a personalized meditation and mindfulness company offering a consumer mobile app with over 500 guided meditations, multi-day courses, and daily mindfulness practices led by expert teachers. The app adapts to the user with monthly check-ins and daily recommendations, and is available on iOS and Android. Surfaced as a portfolio company of Techstars and added to the API Evangelist network. The company operates a consumer product and does not currently publish a public developer API, developer portal, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/10percenthappier/refs/heads/main/screenshots/10percenthappier-2026-07-25T181056.png",
-     "score": 4.3,
+     "name": "Tilray Brands",
+     "slug": "tilray-brands",
+     "description": "A global lifestyle and consumer packaged goods company operating across cannabis, beverage alcohol, and wellness segments. One of the largest cannabis companies worldwide with cultivation, processing, and distribution operations spanning North America, Europe, and beyond.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tilray-brands/refs/heads/main/screenshots/tilray-brands-2026-06-20T195356.png",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11462,10 +11493,10 @@
      "rank": 240
     },
     {
-     "name": "Proclaim",
-     "slug": "proclaim",
-     "description": "Proclaim, built by Fresh Health, Inc., makes a custom-jet oral health system that replaces traditional flossing with a 3D-scanned, custom-fitted mouthpiece that pulses water through up to 60 jets to clean between teeth and below the gumline in about seven seconds. The consumer device is clinically shown to reduce gum bleeding and plaque, and is backed by Khosla Ventures. Proclaim is a direct-to-consumer oral-care hardware and wellness brand; it publishes a marketing and e-commerce site, a dental-professional portal, a help/knowledge center, and a blog, but exposes no public API, developer portal, SDKs, or machine-readable specification. This profile was surfaced as a Khosla Ventures portfolio lead and enriched with the identity and web properties the company actually publishes plus a probed domain-security profile; there is no API surface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/proclaim/refs/heads/main/screenshots/proclaim-2026-09-02T152104.png",
+     "name": "10percenthappier",
+     "slug": "10percenthappier",
+     "description": "10percenthappier (now branded Happier Meditation) is a personalized meditation and mindfulness company offering a consumer mobile app with over 500 guided meditations, multi-day courses, and daily mindfulness practices led by expert teachers. The app adapts to the user with monthly check-ins and daily recommendations, and is available on iOS and Android. Surfaced as a portfolio company of Techstars and added to the API Evangelist network. The company operates a consumer product and does not currently publish a public developer API, developer portal, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/10percenthappier/refs/heads/main/screenshots/10percenthappier-2026-07-25T181056.png",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11477,7 +11508,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11512,10 +11543,10 @@
      "rank": 241
     },
     {
-     "name": "Talofa Games",
-     "slug": "talofa-games",
-     "description": "Talofa Games is a mobile game developer and publisher backed by Andreessen Horowitz (a16z). The studio builds social fitness games that turn real-world physical activity into cooperative multiplayer play. Its flagship title, Run Legends, is a free-to-play running RPG available on iOS and Android in which players' real-world runs and walks power team battles against monsters, and its newer title Monster Walk is in closed beta. Talofa Games is a consumer mobile-gaming company and does not publish a public developer API, SDK, or developer portal; this API Evangelist profile captures its company identity and public web presence rather than an API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/talofa-games/refs/heads/main/screenshots/talofa-games-2026-09-02T162503.png",
+     "name": "Proclaim",
+     "slug": "proclaim",
+     "description": "Proclaim, built by Fresh Health, Inc., makes a custom-jet oral health system that replaces traditional flossing with a 3D-scanned, custom-fitted mouthpiece that pulses water through up to 60 jets to clean between teeth and below the gumline in about seven seconds. The consumer device is clinically shown to reduce gum bleeding and plaque, and is backed by Khosla Ventures. Proclaim is a direct-to-consumer oral-care hardware and wellness brand; it publishes a marketing and e-commerce site, a dental-professional portal, a help/knowledge center, and a blog, but exposes no public API, developer portal, SDKs, or machine-readable specification. This profile was surfaced as a Khosla Ventures portfolio lead and enriched with the identity and web properties the company actually publishes plus a probed domain-security profile; there is no API surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/proclaim/refs/heads/main/screenshots/proclaim-2026-09-02T152104.png",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11527,7 +11558,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11562,10 +11593,10 @@
      "rank": 242
     },
     {
-     "name": "Tripp",
-     "slug": "tripp",
-     "description": "TRIPP is a digital mental-wellness company whose consumer app delivers immersive, interactive meditation, breathwork and mood-management experiences across virtual-reality headsets (including Meta Quest and PlayStation VR) and mobile devices. It blends guided sessions, generative visuals, spatial audio and gamified \"trips\" to help people manage stress, focus, mood and sleep. Tripp is backed by Mayfield. As of this enrichment pass Tripp operates a consumer-facing application and an Intercom-powered help center but publishes no public developer API, SDK, or documentation portal; its web properties sit behind a bot-mitigation (captcha) wall, so no OpenAPI, llms.txt, or /.well-known discovery documents were retrievable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripp/refs/heads/main/screenshots/tripp-2026-09-02T164254.png",
+     "name": "Talofa Games",
+     "slug": "talofa-games",
+     "description": "Talofa Games is a mobile game developer and publisher backed by Andreessen Horowitz (a16z). The studio builds social fitness games that turn real-world physical activity into cooperative multiplayer play. Its flagship title, Run Legends, is a free-to-play running RPG available on iOS and Android in which players' real-world runs and walks power team battles against monsters, and its newer title Monster Walk is in closed beta. Talofa Games is a consumer mobile-gaming company and does not publish a public developer API, SDK, or developer portal; this API Evangelist profile captures its company identity and public web presence rather than an API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/talofa-games/refs/heads/main/screenshots/talofa-games-2026-09-02T162503.png",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11577,7 +11608,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11612,22 +11643,22 @@
      "rank": 243
     },
     {
-     "name": "BRND.ME",
-     "slug": "brndme",
-     "description": "BRND.ME (legally Mensa Brand Technologies Private Limited) is an India-based house-of-brands company that acquires, builds, and scales digital-first consumer brands across Health, Wellness, Lifestyle, Fashion, Party & Celebration, and Home Decor. Founded by Ananth Narayanan and backed by Accel, the company combines technology, data insight, and centralized operations to grow market-leading D2C brands from India for global customers. Its portfolio includes brands such as Majestic Pure, Botanic Hearth, Dennis Lingo, House of Ishin, and MyFitness. This is a company/provider profile in the API Evangelist network; BRND.ME operates a corporate marketing presence and does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brndme/refs/heads/main/screenshots/brndme-2026-07-25T203942.png",
-     "score": 4.1,
+     "name": "Tripp",
+     "slug": "tripp",
+     "description": "TRIPP is a digital mental-wellness company whose consumer app delivers immersive, interactive meditation, breathwork and mood-management experiences across virtual-reality headsets (including Meta Quest and PlayStation VR) and mobile devices. It blends guided sessions, generative visuals, spatial audio and gamified \"trips\" to help people manage stress, focus, mood and sleep. Tripp is backed by Mayfield. As of this enrichment pass Tripp operates a consumer-facing application and an Intercom-powered help center but publishes no public developer API, SDK, or documentation portal; its web properties sit behind a bot-mitigation (captcha) wall, so no OpenAPI, llms.txt, or /.well-known discovery documents were retrievable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripp/refs/heads/main/screenshots/tripp-2026-09-02T164254.png",
+     "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11660,6 +11691,56 @@
       "agentic_commerce": false
      },
      "rank": 244
+    },
+    {
+     "name": "BRND.ME",
+     "slug": "brndme",
+     "description": "BRND.ME (legally Mensa Brand Technologies Private Limited) is an India-based house-of-brands company that acquires, builds, and scales digital-first consumer brands across Health, Wellness, Lifestyle, Fashion, Party & Celebration, and Home Decor. Founded by Ananth Narayanan and backed by Accel, the company combines technology, data insight, and centralized operations to grow market-leading D2C brands from India for global customers. Its portfolio includes brands such as Majestic Pure, Botanic Hearth, Dennis Lingo, House of Ishin, and MyFitness. This is a company/provider profile in the API Evangelist network; BRND.ME operates a corporate marketing presence and does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brndme/refs/heads/main/screenshots/brndme-2026-07-25T203942.png",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 245
     },
     {
      "name": "FitStar",
@@ -11711,7 +11792,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Misfit",
@@ -11728,7 +11809,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11760,7 +11841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "Big Health",
@@ -11778,57 +11859,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 247
-    },
-    {
-     "name": "Curejoy",
-     "slug": "curejoy",
-     "description": "CureJoy is a consumer health and wellness media company that publishes expert-reviewed content on alternative health, natural remedies, fitness, nutrition, and beauty. Backed by Accel, it grew into one of the larger natural-health content platforms, distributing articles and advice through its website and social channels. The public property is a WordPress.com-hosted content site with no first-party developer or product API; the only programmatic surface is the standard WordPress REST API (wp-json) exposed by the hosting platform, which is generic infrastructure rather than a published product offering.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curejoy/refs/heads/main/screenshots/curejoy-2026-07-25T210936.png",
-     "score": 3.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11863,10 +11894,10 @@
      "rank": 248
     },
     {
-     "name": "Life Time Group Holdings",
-     "slug": "life-time-group",
-     "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
+     "name": "Curejoy",
+     "slug": "curejoy",
+     "description": "CureJoy is a consumer health and wellness media company that publishes expert-reviewed content on alternative health, natural remedies, fitness, nutrition, and beauty. Backed by Accel, it grew into one of the larger natural-health content platforms, distributing articles and advice through its website and social channels. The public property is a WordPress.com-hosted content site with no first-party developer or product API; the only programmatic surface is the standard WordPress REST API (wp-json) exposed by the hosting platform, which is generic infrastructure rather than a published product offering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curejoy/refs/heads/main/screenshots/curejoy-2026-07-25T210936.png",
      "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11878,7 +11909,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11913,10 +11944,11 @@
      "rank": 249
     },
     {
-     "name": "Crossfit",
-     "slug": "crossfit",
-     "description": "CrossFit is a fitness brand and training methodology built around constantly varied, high-intensity functional movements that combine strength, conditioning, gymnastics, and weightlifting. The organization operates a global network of independently owned affiliate gyms, delivers a coaching certification and education program (the Level 1 through Level 4 courses and specialty seminars), and produces the annual CrossFit Games competition season. CrossFit was surfaced as a portfolio company of General Catalyst and added to the API Evangelist network as a lead; as of this enrichment pass the company publishes a consumer and affiliate web presence (gym finder, courses, store, Games results) but no public developer portal, API documentation, or machine-readable API definition.",
-     "score": 3.5,
+     "name": "Life Time Group Holdings",
+     "slug": "life-time-group",
+     "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -11924,110 +11956,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 250
-    },
-    {
-     "name": "Peloton Interactive",
-     "slug": "peloton-interactive",
-     "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
-     "score": 3.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 15.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 251
-    },
-    {
-     "name": "Bellabeat",
-     "slug": "bellabeat",
-     "description": "Bellabeat is a femtech and women's wellness technology company founded in 2014 by Urska Srsen and Sandro Mur, headquartered in San Francisco, California. It designs health-tracking wearables and connected devices aimed at women, including the Leaf and Ivy wellness jewelry trackers, the Time hybrid smartwatch, and the Spring smart water bottle, paired with the Bellabeat mobile app that tracks activity, sleep, stress, meditation, menstrual cycle, and overall wellness. Bellabeat operates as a direct-to-consumer wellness brand; it does not currently publish a public developer API, so this profile captures company identity and network provenance rather than API artifacts. Added to the API Evangelist network as a Y Combinator portfolio lead and enriched here.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bellabeat/refs/heads/main/screenshots/bellabeat-2026-07-25T202711.png",
-     "score": 3.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12059,12 +11991,112 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 250
+    },
+    {
+     "name": "Crossfit",
+     "slug": "crossfit",
+     "description": "CrossFit is a fitness brand and training methodology built around constantly varied, high-intensity functional movements that combine strength, conditioning, gymnastics, and weightlifting. The organization operates a global network of independently owned affiliate gyms, delivers a coaching certification and education program (the Level 1 through Level 4 courses and specialty seminars), and produces the annual CrossFit Games competition season. CrossFit was surfaced as a portfolio company of General Catalyst and added to the API Evangelist network as a lead; as of this enrichment pass the company publishes a consumer and affiliate web presence (gym finder, courses, store, Games results) but no public developer portal, API documentation, or machine-readable API definition.",
+     "score": 3.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 251
+    },
+    {
+     "name": "Peloton Interactive",
+     "slug": "peloton-interactive",
+     "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
+     "score": 3.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 252
     },
     {
-     "name": "besunyen",
-     "slug": "besunyen",
-     "description": "Besunyen is a Chinese consumer-health company known for herbal weight-management, functional and detox teas plus related wellness and nutrition products, surfaced as a portfolio company of Qiming and added to the API Evangelist network as a stub. Enrichment on 2026-07-18 found no public developer, API, or documentation surface — besunyen.com serves only an nginx 404 and its TLS certificate is issued for besunyen.co (hostname mismatch); the only real artifact captured is a domain-security probe.",
+     "name": "Bellabeat",
+     "slug": "bellabeat",
+     "description": "Bellabeat is a femtech and women's wellness technology company founded in 2014 by Urska Srsen and Sandro Mur, headquartered in San Francisco, California. It designs health-tracking wearables and connected devices aimed at women, including the Leaf and Ivy wellness jewelry trackers, the Time hybrid smartwatch, and the Spring smart water bottle, paired with the Bellabeat mobile app that tracks activity, sleep, stress, meditation, menstrual cycle, and overall wellness. Bellabeat operates as a direct-to-consumer wellness brand; it does not currently publish a public developer API, so this profile captures company identity and network provenance rather than API artifacts. Added to the API Evangelist network as a Y Combinator portfolio lead and enriched here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bellabeat/refs/heads/main/screenshots/bellabeat-2026-07-25T202711.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12076,7 +12108,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12111,10 +12143,9 @@
      "rank": 253
     },
     {
-     "name": "Breathe Well-being",
-     "slug": "breathe-well-being",
-     "description": "Breathe Well-being is an India-based digital therapeutics and chronic-care company focused on Type 2 diabetes reversal and management. Through a mobile app (Android/iOS) it pairs continuous health coaching, personalized nutrition and lifestyle plans, medical supervision, and progress tracking to help members reduce blood sugar, lose weight, and lower medication dependence. Founded by Aditya Kaicker and Rohan Verma, the company is backed by Accel and Y Combinator (Series A, 2021). It operates as a direct-to-consumer health program rather than an API provider: as of this enrichment pass it publishes no public developer portal, API documentation, OpenAPI specification, SDKs, or /.well-known discovery surface (paths return the SPA lander fallback). This profile captures the company identity and its probed domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/breathe-well-being/refs/heads/main/screenshots/breathe-well-being-2026-07-25T203747.png",
+     "name": "besunyen",
+     "slug": "besunyen",
+     "description": "Besunyen is a Chinese consumer-health company known for herbal weight-management, functional and detox teas plus related wellness and nutrition products, surfaced as a portfolio company of Qiming and added to the API Evangelist network as a stub. Enrichment on 2026-07-18 found no public developer, API, or documentation surface — besunyen.com serves only an nginx 404 and its TLS certificate is issued for besunyen.co (hostname mismatch); the only real artifact captured is a domain-security probe.",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12126,7 +12157,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12161,10 +12192,10 @@
      "rank": 254
     },
     {
-     "name": "Carevision Inc.",
-     "slug": "carevision-inc",
-     "description": "Carevision Inc. is an AI-powered digital health company whose platform turns any camera into a 60-second contactless cardiometabolic wellness scanner. Using remote photoplethysmography (rPPG) and deep learning models trained on 12M+ patient records, it extracts 30+ physiological parameters — including heart rate, blood pressure indicators, stress index, respiratory rate, and oxygen saturation — and produces a comprehensive digital health persona covering 15+ cardiometabolic conditions. Carevision operates under the FDA General Wellness Policy (it is not a medical device or diagnostic tool) and is delivered as a kiosk, an embedded/white-label SDK for iOS and Android, or a web integration to hospitals and clinics, health insurers, pharmacy chains, diagnostic laboratories, wellness apps, and teleconsultation platforms, integrating with EMR/HIS systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carevision-inc/refs/heads/main/screenshots/carevision-inc-2026-07-25T204603.png",
+     "name": "Breathe Well-being",
+     "slug": "breathe-well-being",
+     "description": "Breathe Well-being is an India-based digital therapeutics and chronic-care company focused on Type 2 diabetes reversal and management. Through a mobile app (Android/iOS) it pairs continuous health coaching, personalized nutrition and lifestyle plans, medical supervision, and progress tracking to help members reduce blood sugar, lose weight, and lower medication dependence. Founded by Aditya Kaicker and Rohan Verma, the company is backed by Accel and Y Combinator (Series A, 2021). It operates as a direct-to-consumer health program rather than an API provider: as of this enrichment pass it publishes no public developer portal, API documentation, OpenAPI specification, SDKs, or /.well-known discovery surface (paths return the SPA lander fallback). This profile captures the company identity and its probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/breathe-well-being/refs/heads/main/screenshots/breathe-well-being-2026-07-25T203747.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12176,7 +12207,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12211,9 +12242,10 @@
      "rank": 255
     },
     {
-     "name": "Fitocracy",
-     "slug": "fitocracy",
-     "description": "Fitocracy is a fitness gamification platform and social network that turns exercise into an RPG-style game, awarding points and levels for logged workouts and letting members join groups, take on challenges, and cheer each other on. Founded in 2011 and later acquired, it popularized applying game mechanics to habit-building and health tracking. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; the public site currently returns HTTP 503 and exposes no documented API surface.",
+     "name": "Carevision Inc.",
+     "slug": "carevision-inc",
+     "description": "Carevision Inc. is an AI-powered digital health company whose platform turns any camera into a 60-second contactless cardiometabolic wellness scanner. Using remote photoplethysmography (rPPG) and deep learning models trained on 12M+ patient records, it extracts 30+ physiological parameters — including heart rate, blood pressure indicators, stress index, respiratory rate, and oxygen saturation — and produces a comprehensive digital health persona covering 15+ cardiometabolic conditions. Carevision operates under the FDA General Wellness Policy (it is not a medical device or diagnostic tool) and is delivered as a kiosk, an embedded/white-label SDK for iOS and Android, or a web integration to hospitals and clinics, health insurers, pharmacy chains, diagnostic laboratories, wellness apps, and teleconsultation platforms, integrating with EMR/HIS systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carevision-inc/refs/heads/main/screenshots/carevision-inc-2026-07-25T204603.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12225,7 +12257,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12260,10 +12292,9 @@
      "rank": 256
     },
     {
-     "name": "Ginger",
-     "slug": "ginger",
-     "description": "Ginger (formerly Ginger.io) was a behavioral and emotional health company offering on-demand mental health support — coaching, therapy, and psychiatry — delivered through a mobile app and an employer/health-plan benefits model. Surfaced in the API Evangelist network as a Techstars portfolio lead, Ginger merged with Headspace in 2021 to form Headspace Health; the ginger.com domain now redirects to Headspace for Organizations (organizations.headspace.com). Enrichment probing on 2026-07-19 found no independent public API, developer portal, OpenAPI, SDKs, or /.well-known discovery surface — every /.well-known path resolves to a soft-404 Headspace marketing page. This profile is retained as an acquired-company record; the only genuine machine-derivable artifact is the live domain-security posture of ginger.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ginger/refs/heads/main/screenshots/ginger-2026-07-25T215825.png",
+     "name": "Fitocracy",
+     "slug": "fitocracy",
+     "description": "Fitocracy is a fitness gamification platform and social network that turns exercise into an RPG-style game, awarding points and levels for logged workouts and letting members join groups, take on challenges, and cheer each other on. Founded in 2011 and later acquired, it popularized applying game mechanics to habit-building and health tracking. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; the public site currently returns HTTP 503 and exposes no documented API surface.",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12275,7 +12306,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12310,10 +12341,10 @@
      "rank": 257
     },
     {
-     "name": "Hero Journey Club",
-     "slug": "hero-journey-club",
-     "description": "Hero Journey Club is a company surfaced as a portfolio company of northzone and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hero-journey-club/refs/heads/main/screenshots/hero-journey-club-2026-08-07T170116.png",
+     "name": "Ginger",
+     "slug": "ginger",
+     "description": "Ginger (formerly Ginger.io) was a behavioral and emotional health company offering on-demand mental health support — coaching, therapy, and psychiatry — delivered through a mobile app and an employer/health-plan benefits model. Surfaced in the API Evangelist network as a Techstars portfolio lead, Ginger merged with Headspace in 2021 to form Headspace Health; the ginger.com domain now redirects to Headspace for Organizations (organizations.headspace.com). Enrichment probing on 2026-07-19 found no independent public API, developer portal, OpenAPI, SDKs, or /.well-known discovery surface — every /.well-known path resolves to a soft-404 Headspace marketing page. This profile is retained as an acquired-company record; the only genuine machine-derivable artifact is the live domain-security posture of ginger.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ginger/refs/heads/main/screenshots/ginger-2026-07-25T215825.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12325,7 +12356,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12360,10 +12391,10 @@
      "rank": 258
     },
     {
-     "name": "Instabeat",
-     "slug": "instabeat",
-     "description": "Instabeat is a San Francisco based swimming technology company that builds a heart-rate monitoring device integrated directly into swim goggles, giving swimmers real-time, color-coded effort feedback (heart-rate zones), automatic stroke detection, lap counting, pace, distance and rest-interval tracking without a chest strap or wrist watch. Paired with the Instabeat mobile app and myinstabeat.com, it delivers data-driven training insights so swimmers can adjust workouts in the water rather than after the session. The company sells the device through a Shopify storefront and has tested the product with 250+ swimmers across 56 countries. Added to the API Evangelist network as a 500 Global portfolio company; no public developer or API surface has been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/instabeat/refs/heads/main/screenshots/instabeat-2026-07-25T222556.png",
+     "name": "Hero Journey Club",
+     "slug": "hero-journey-club",
+     "description": "Hero Journey Club is a company surfaced as a portfolio company of northzone and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hero-journey-club/refs/heads/main/screenshots/hero-journey-club-2026-08-07T170116.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12375,7 +12406,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12410,10 +12441,10 @@
      "rank": 259
     },
     {
-     "name": "Magna",
-     "slug": "magna",
-     "description": "Magna is a direct-to-consumer beverage brand (drinkmagna.com) making a magnesium-based electrolyte hydration drink mix. The product pairs a triple-magnesium formulation (malate, gluconate, glycinate) with electrolytes and is marketed to athletes and fitness enthusiasts for hydration, energy, and recovery. Backed by Forerunner Ventures and added to the API Evangelist network as a consumer-sector company profile. The brand operates as a retail/e-commerce storefront and publishes no public developer API, documentation, or developer portal at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magna/refs/heads/main/screenshots/magna-2026-08-07T171927.png",
+     "name": "Instabeat",
+     "slug": "instabeat",
+     "description": "Instabeat is a San Francisco based swimming technology company that builds a heart-rate monitoring device integrated directly into swim goggles, giving swimmers real-time, color-coded effort feedback (heart-rate zones), automatic stroke detection, lap counting, pace, distance and rest-interval tracking without a chest strap or wrist watch. Paired with the Instabeat mobile app and myinstabeat.com, it delivers data-driven training insights so swimmers can adjust workouts in the water rather than after the session. The company sells the device through a Shopify storefront and has tested the product with 250+ swimmers across 56 countries. Added to the API Evangelist network as a 500 Global portfolio company; no public developer or API surface has been identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/instabeat/refs/heads/main/screenshots/instabeat-2026-07-25T222556.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12425,7 +12456,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12460,9 +12491,10 @@
      "rank": 260
     },
     {
-     "name": "MyLife",
-     "slug": "mylife",
-     "description": "MyLife (formerly Stop, Breathe & Think) was a meditation and mindfulness mobile app backed by 500 Global that guided users through short check-ins and recommended meditations based on how they were feeling. As of this enrichment pass the company's primary web presence at stopbreathethink.com no longer resolves to a live site (DNS and CAA records remain but there is no reachable HTTPS host), and no public developer, API, documentation, or SDK surface could be located. The company appears defunct.",
+     "name": "Magna",
+     "slug": "magna",
+     "description": "Magna is a direct-to-consumer beverage brand (drinkmagna.com) making a magnesium-based electrolyte hydration drink mix. The product pairs a triple-magnesium formulation (malate, gluconate, glycinate) with electrolytes and is marketed to athletes and fitness enthusiasts for hydration, energy, and recovery. Backed by Forerunner Ventures and added to the API Evangelist network as a consumer-sector company profile. The brand operates as a retail/e-commerce storefront and publishes no public developer API, documentation, or developer portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magna/refs/heads/main/screenshots/magna-2026-08-07T171927.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12474,7 +12506,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12509,10 +12541,9 @@
      "rank": 261
     },
     {
-     "name": "Planet Fitness",
-     "slug": "planet-fitness",
-     "description": "The largest fitness franchise in the United States by number of members and locations, operating over 2,500 clubs in the US, Canada, Panama, Mexico, and Australia. Planet Fitness is known for its affordable membership model (Classic and Black Card tiers), the non-intimidating Judgement Free Zone philosophy targeting casual and first-time gym-goers, and the PF App for workout content, club check-in, and member benefits. Planet Fitness does not publish a public developer API, integration portal, or third-party platform program; integrations with workout content providers and biometric/check-in vendors are handled via private commercial partnerships, not public APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-fitness/refs/heads/main/screenshots/planet-fitness-2026-06-20T191757.png",
+     "name": "MyLife",
+     "slug": "mylife",
+     "description": "MyLife (formerly Stop, Breathe & Think) was a meditation and mindfulness mobile app backed by 500 Global that guided users through short check-ins and recommended meditations based on how they were feeling. As of this enrichment pass the company's primary web presence at stopbreathethink.com no longer resolves to a live site (DNS and CAA records remain but there is no reachable HTTPS host), and no public developer, API, documentation, or SDK surface could be located. The company appears defunct.",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12524,7 +12555,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12559,10 +12590,10 @@
      "rank": 262
     },
     {
-     "name": "Prana Health",
-     "slug": "prana-health",
-     "description": "Prana (prana.health) is a research-driven body-enhancement company building a system to engineer more muscle and less fat through three integrated steps: performance testing to measure a user's biology, predictive body-composition models that adapt training and nutrition protocols in real time, and personalized enhancement medicine to accelerate results safely. The platform centers on proprietary body-modeling technology, including its MUSCLE-1 hypertrophy prediction model, and is currently offered to users through a beta program. As of this profile Prana publishes a consumer marketing and research site only and exposes no public developer API, documentation, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prana-health/refs/heads/main/screenshots/prana-health-2026-09-02T151856.png",
+     "name": "Planet Fitness",
+     "slug": "planet-fitness",
+     "description": "The largest fitness franchise in the United States by number of members and locations, operating over 2,500 clubs in the US, Canada, Panama, Mexico, and Australia. Planet Fitness is known for its affordable membership model (Classic and Black Card tiers), the non-intimidating Judgement Free Zone philosophy targeting casual and first-time gym-goers, and the PF App for workout content, club check-in, and member benefits. Planet Fitness does not publish a public developer API, integration portal, or third-party platform program; integrations with workout content providers and biometric/check-in vendors are handled via private commercial partnerships, not public APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-fitness/refs/heads/main/screenshots/planet-fitness-2026-06-20T191757.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12574,7 +12605,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12609,10 +12640,10 @@
      "rank": 263
     },
     {
-     "name": "Shape Shapescale",
-     "slug": "shape-shapescale",
-     "description": "Shapescale is a consumer body-scanning company that builds ShapeScale, a home 3D body scanner and companion mobile app. The device slowly rotates around a standing user, captures a photorealistic 3D model of the body, and measures body composition, weight, and circumference metrics so users can track fitness and body changes over time. Shapescale is a Y Combinator portfolio company. As of this enrichment pass the company publishes a consumer product website but no public developer program, API reference, or machine-readable API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shape-shapescale/refs/heads/main/screenshots/shape-shapescale-2026-09-02T155106.png",
+     "name": "Prana Health",
+     "slug": "prana-health",
+     "description": "Prana (prana.health) is a research-driven body-enhancement company building a system to engineer more muscle and less fat through three integrated steps: performance testing to measure a user's biology, predictive body-composition models that adapt training and nutrition protocols in real time, and personalized enhancement medicine to accelerate results safely. The platform centers on proprietary body-modeling technology, including its MUSCLE-1 hypertrophy prediction model, and is currently offered to users through a beta program. As of this profile Prana publishes a consumer marketing and research site only and exposes no public developer API, documentation, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prana-health/refs/heads/main/screenshots/prana-health-2026-09-02T151856.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12624,7 +12655,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12659,10 +12690,10 @@
      "rank": 264
     },
     {
-     "name": "Silk and Sonder",
-     "slug": "silk-and-sonder",
-     "description": "Silk and Sonder is a company surfaced as a portfolio company of 500-global, redpoint-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silk-and-sonder/refs/heads/main/screenshots/silk-and-sonder-2026-09-02T155504.png",
+     "name": "Shape Shapescale",
+     "slug": "shape-shapescale",
+     "description": "Shapescale is a consumer body-scanning company that builds ShapeScale, a home 3D body scanner and companion mobile app. The device slowly rotates around a standing user, captures a photorealistic 3D model of the body, and measures body composition, weight, and circumference metrics so users can track fitness and body changes over time. Shapescale is a Y Combinator portfolio company. As of this enrichment pass the company publishes a consumer product website but no public developer program, API reference, or machine-readable API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shape-shapescale/refs/heads/main/screenshots/shape-shapescale-2026-09-02T155106.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12674,56 +12705,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 265
-    },
-    {
-     "name": "Sprout Wellness Solutions",
-     "slug": "sprout-wellness-solutions",
-     "description": "Sprout Wellness Solutions is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.",
-     "score": 3.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12755,13 +12737,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 265
     },
     {
-     "name": "Switch",
-     "slug": "switch",
-     "description": "Switch (operating as Livekick at livekick.com) is a 500 Global-backed company running a virtual fitness and yoga SaaS platform. The Livekick Serve product lets movement teachers and wellness creators deliver live and on-demand classes, videos, courses, and programs to students and communities, with subscription billing and creator tooling to grow an online audience. The public surface is a consumer/creator web and mobile application backed by an internal Django REST API; as of this enrichment pass Livekick publishes no public developer program — no developer portal, documentation, OpenAPI specification, SDKs, MCP server, or security.txt (all /.well-known and /llms.txt paths return the single-page-app shell). This profile is therefore identity-only, enriched with a probed domain-security posture rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/switch/refs/heads/main/screenshots/switch-2026-09-02T161424.png",
+     "name": "Silk and Sonder",
+     "slug": "silk-and-sonder",
+     "description": "Silk and Sonder is a company surfaced as a portfolio company of 500-global, redpoint-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silk-and-sonder/refs/heads/main/screenshots/silk-and-sonder-2026-09-02T155504.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12773,7 +12755,56 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 266
+    },
+    {
+     "name": "Sprout Wellness Solutions",
+     "slug": "sprout-wellness-solutions",
+     "description": "Sprout Wellness Solutions is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12808,10 +12839,10 @@
      "rank": 267
     },
     {
-     "name": "YOU-app",
-     "slug": "you-app",
-     "description": "YOU-app was a mobile wellbeing application built by Fifth Corner (Helsinki, Finland) that delivered daily \"micro-actions\" across food, mindfulness, movement, and mental wellbeing, blending social-media style photo sharing with habit-building and originally aligned to the UN Sustainable Development Goals. The company was acquired and is no longer operated as an independent product; the you-app.com domain now 302-redirects to Hintsa Performance (hintsa.com). No public API, developer portal, documentation, SDKs, or machine-readable specification was found during enrichment — this remains a consumer-app profile with no developer surface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/you-app/refs/heads/main/screenshots/you-app-2026-09-02T171322.png",
+     "name": "Switch",
+     "slug": "switch",
+     "description": "Switch (operating as Livekick at livekick.com) is a 500 Global-backed company running a virtual fitness and yoga SaaS platform. The Livekick Serve product lets movement teachers and wellness creators deliver live and on-demand classes, videos, courses, and programs to students and communities, with subscription billing and creator tooling to grow an online audience. The public surface is a consumer/creator web and mobile application backed by an internal Django REST API; as of this enrichment pass Livekick publishes no public developer program — no developer portal, documentation, OpenAPI specification, SDKs, MCP server, or security.txt (all /.well-known and /llms.txt paths return the single-page-app shell). This profile is therefore identity-only, enriched with a probed domain-security posture rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/switch/refs/heads/main/screenshots/switch-2026-09-02T161424.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12823,7 +12854,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12858,6 +12889,56 @@
      "rank": 268
     },
     {
+     "name": "YOU-app",
+     "slug": "you-app",
+     "description": "YOU-app was a mobile wellbeing application built by Fifth Corner (Helsinki, Finland) that delivered daily \"micro-actions\" across food, mindfulness, movement, and mental wellbeing, blending social-media style photo sharing with habit-building and originally aligned to the UN Sustainable Development Goals. The company was acquired and is no longer operated as an independent product; the you-app.com domain now 302-redirects to Hintsa Performance (hintsa.com). No public API, developer portal, documentation, SDKs, or machine-readable specification was found during enrichment — this remains a consumer-app profile with no developer surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/you-app/refs/heads/main/screenshots/you-app-2026-09-02T171322.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 269
+    },
+    {
      "name": "Vail Resorts",
      "slug": "vail-resorts",
      "description": "Profile for Vail Resorts in the API Evangelist network. Fortune F1000 (rank 929).",
@@ -12873,7 +12954,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -12902,7 +12983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "Atlas Wearables",
@@ -12953,7 +13034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Getsupp",
@@ -12970,56 +13051,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 271
-    },
-    {
-     "name": "Gixo",
-     "slug": "gixo",
-     "description": "Gixo was a consumer live-streaming fitness startup (coached, real-time running and workout classes delivered to a mobile app), surfaced as a portfolio company of Cowboy Ventures and added to the API Evangelist network as an enrichment lead. The enrichment pipeline probed the company on 2026-07-19 and found no live provider surface: gixo.com and www.gixo.com both HTTP 301-redirect to www.bodi.com (a Beachbody / BODi property), consistent with Gixo having been acquired and wound down into the Openfit / Beachbody / BODi fitness platform. No api.gixo.com or developer.gixo.com host resolves in DNS, and no /.well-known/ discovery surface, developer portal, documentation, SDKs, or public API is published. There is no API program to enrich; this profile is retained as a historical consumer-sector lead rather than an active provider.",
-     "score": 2.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13054,10 +13086,9 @@
      "rank": 272
     },
     {
-     "name": "HelloFlo",
-     "slug": "helloflo",
-     "description": "HelloFlo was a women's-health startup (a 500 Global / 500 Startups portfolio company) known for its subscription boxes and viral marketing. As of this enrichment pass its helloflo.com domain returns a permanent 301 redirect to theflowspace.com (Flow Space), a women's-health digital media platform owned by Penske Media Corporation. HelloFlo no longer operates as an independent company and publishes no public API, developer portal, documentation, SDKs, or any technical / developer surface. This profile is retained as a defunct/redirected network lead; there is nothing for the enrichment pipeline to harvest.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helloflo/refs/heads/main/screenshots/helloflo-2026-07-25T220925.png",
+     "name": "Gixo",
+     "slug": "gixo",
+     "description": "Gixo was a consumer live-streaming fitness startup (coached, real-time running and workout classes delivered to a mobile app), surfaced as a portfolio company of Cowboy Ventures and added to the API Evangelist network as an enrichment lead. The enrichment pipeline probed the company on 2026-07-19 and found no live provider surface: gixo.com and www.gixo.com both HTTP 301-redirect to www.bodi.com (a Beachbody / BODi property), consistent with Gixo having been acquired and wound down into the Openfit / Beachbody / BODi fitness platform. No api.gixo.com or developer.gixo.com host resolves in DNS, and no /.well-known/ discovery surface, developer portal, documentation, SDKs, or public API is published. There is no API program to enrich; this profile is retained as a historical consumer-sector lead rather than an active provider.",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13069,7 +13100,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13104,9 +13135,10 @@
      "rank": 273
     },
     {
-     "name": "Kerros Health",
-     "slug": "kerros-health",
-     "description": "Kerros Health (Kerros) was a digital mental-health and wellness startup building clinically validated, mobile-based programs proven to improve mental health, positioned as an evidence-based consumer brand modernizing established treatments through mobile technology and design. The product began as a teen-created mental-health app (originating out of Scarsdale High School) and grew largely through word of mouth. Co-founded by Justin Ip and backed by Cowboy Ventures at the seed stage, the company has since exited. It was a consumer mobile app with no public developer/API surface; this API Evangelist profile is maintained as a portfolio-lead record and no OpenAPI, SDK, or developer documentation could be found during enrichment.",
+     "name": "HelloFlo",
+     "slug": "helloflo",
+     "description": "HelloFlo was a women's-health startup (a 500 Global / 500 Startups portfolio company) known for its subscription boxes and viral marketing. As of this enrichment pass its helloflo.com domain returns a permanent 301 redirect to theflowspace.com (Flow Space), a women's-health digital media platform owned by Penske Media Corporation. HelloFlo no longer operates as an independent company and publishes no public API, developer portal, documentation, SDKs, or any technical / developer surface. This profile is retained as a defunct/redirected network lead; there is nothing for the enrichment pipeline to harvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helloflo/refs/heads/main/screenshots/helloflo-2026-07-25T220925.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13118,7 +13150,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13153,9 +13185,9 @@
      "rank": 274
     },
     {
-     "name": "Millennial Fox",
-     "slug": "millennial-fox",
-     "description": "Millennial Fox, Inc. is a Los Angeles-based consumer company backed by Lightspeed Venture Partners that set out to bridge the gap between entertainment and fitness. Its flagship product, Tracks Battle Squad, was a socially gamified workout companion for iOS and watchOS that integrated with the Apple Health app to turn physical activity into points, badges, and accessories for a virtual 3D fox character. The app launched in 2017, was featured on Apple Music's Planet of the Apps, and has since been removed from the App Store; the company appears inactive and exposes no public API, developer portal, documentation, or well-known surface.",
+     "name": "Kerros Health",
+     "slug": "kerros-health",
+     "description": "Kerros Health (Kerros) was a digital mental-health and wellness startup building clinically validated, mobile-based programs proven to improve mental health, positioned as an evidence-based consumer brand modernizing established treatments through mobile technology and design. The product began as a teen-created mental-health app (originating out of Scarsdale High School) and grew largely through word of mouth. Co-founded by Justin Ip and backed by Cowboy Ventures at the seed stage, the company has since exited. It was a consumer mobile app with no public developer/API surface; this API Evangelist profile is maintained as a portfolio-lead record and no OpenAPI, SDK, or developer documentation could be found during enrichment.",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13167,7 +13199,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13202,9 +13234,9 @@
      "rank": 275
     },
     {
-     "name": "MycroFriends",
-     "slug": "mycrofriends",
-     "description": "MycroFriends is a consumer health and wellness company that helps people become healthier through education and coaching centered on the connection between the human microbiome, nutrition, and overall health. Founded by George Cigale (previously founder of the online tutoring company Tutor.com) and headquartered in New York City, the company launched via a 2017 crowdfunding campaign and works with scientists, physicians, dietitians, and technologists to deliver microbiome education, personalized nutritional and lifestyle guidance, and access to expert health coaches. It was surfaced in the API Evangelist network as a portfolio company of Bloomberg Beta. As of this enrichment pass MycroFriends publishes no public API, developer portal, SDK, or machine-readable API surface, and its former website resolves only to a default (unconfigured) Azure App Service host.",
+     "name": "Millennial Fox",
+     "slug": "millennial-fox",
+     "description": "Millennial Fox, Inc. is a Los Angeles-based consumer company backed by Lightspeed Venture Partners that set out to bridge the gap between entertainment and fitness. Its flagship product, Tracks Battle Squad, was a socially gamified workout companion for iOS and watchOS that integrated with the Apple Health app to turn physical activity into points, badges, and accessories for a virtual 3D fox character. The app launched in 2017, was featured on Apple Music's Planet of the Apps, and has since been removed from the App Store; the company appears inactive and exposes no public API, developer portal, documentation, or well-known surface.",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13216,7 +13248,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13251,9 +13283,9 @@
      "rank": 276
     },
     {
-     "name": "Weilos",
-     "slug": "weilos",
-     "description": "Weilos was a health and wellness startup surfaced as an a16z portfolio company and added to the API Evangelist network as a stub for enrichment. As of the 2026-07-21 enrichment pass the company no longer operates independently — weilos.com issues a 301 redirect to weightwatchers.com, indicating Weilos has been absorbed into WeightWatchers (WW). No independent developer surface exists — the hosts api.weilos.com, developer.weilos.com, and docs.weilos.com do not resolve in DNS, and there is no public API, OpenAPI specification, SDK, or developer portal to catalog. This profile is retained as an acquired/defunct lead with no API artifacts.",
+     "name": "MycroFriends",
+     "slug": "mycrofriends",
+     "description": "MycroFriends is a consumer health and wellness company that helps people become healthier through education and coaching centered on the connection between the human microbiome, nutrition, and overall health. Founded by George Cigale (previously founder of the online tutoring company Tutor.com) and headquartered in New York City, the company launched via a 2017 crowdfunding campaign and works with scientists, physicians, dietitians, and technologists to deliver microbiome education, personalized nutritional and lifestyle guidance, and access to expert health coaches. It was surfaced in the API Evangelist network as a portfolio company of Bloomberg Beta. As of this enrichment pass MycroFriends publishes no public API, developer portal, SDK, or machine-readable API surface, and its former website resolves only to a default (unconfigured) Azure App Service host.",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13265,7 +13297,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13300,10 +13332,10 @@
      "rank": 277
     },
     {
-     "name": "Dream Voyage Inc.",
-     "slug": "dream-voyage-inc",
-     "description": "Dream Voyage Inc. is an AI-driven consumer studio founded in 2023 and backed by Andreessen Horowitz through its Speedrun accelerator alongside Soma Capital. Led by co-founder and CEO Coco Chen, a former TikTok founding product manager and Tinder PM, the studio builds viral AI-powered consumer applications spanning spiritual wellness, dream interpretation, gaming, and social payments. Its products include SINE Daily Manifest (an AI spiritual-health app offering daily affirmations, astrology, birth-chart analysis, and tarot readings that went viral on TikTok), Dreamore (AI-powered dream interpretation), Vdrop (turning social media into a payment network), and RPS (a Solana-based social game). Dream Voyage ships consumer mobile apps rather than a public developer platform; as of this profile it publishes no developer portal, OpenAPI, SDKs, or documented API surface. This record is a network stub retained for discovery and future enrichment.",
-     "score": 1.5,
+     "name": "Weilos",
+     "slug": "weilos",
+     "description": "Weilos was a health and wellness startup surfaced as an a16z portfolio company and added to the API Evangelist network as a stub for enrichment. As of the 2026-07-21 enrichment pass the company no longer operates independently — weilos.com issues a 301 redirect to weightwatchers.com, indicating Weilos has been absorbed into WeightWatchers (WW). No independent developer surface exists — the hosts api.weilos.com, developer.weilos.com, and docs.weilos.com do not resolve in DNS, and there is no public API, OpenAPI specification, SDK, or developer portal to catalog. This profile is retained as an acquired/defunct lead with no API artifacts.",
+     "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -13314,57 +13346,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 278
-    },
-    {
-     "name": "Saude Bliss",
-     "slug": "saude-bliss",
-     "description": "Saude Bliss (saudebliss.com) is a health and wellness company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. Its public presence is a Cloudflare-protected WordPress marketing website; a July 2026 enrichment pass found no public API surface, no OpenAPI/Swagger, no .well-known endpoints, no security.txt and no llms.txt. The upstream portfolio record marks it is_api_provider=false, so this remains an identity-only company profile rather than an API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saude-bliss/refs/heads/main/screenshots/saude-bliss-2026-09-02T154436.png",
-     "score": 1.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13396,22 +13378,105 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+     "rank": 278
+    },
     {
-     "name": "AHARA",
-     "slug": "ahara",
-     "description": "AHARA is a Los Angeles personalized-nutrition company founded in 2022 by physician nutritionist Dr. Melina Jampolis and The RealReal founder Julie Wainwright, funded with a $10.25M seed round led by Greycroft. It pairs a health questionnaire and at-home genetic, epigenetic and blood-biomarker testing with registered-dietitian guidance and a consumer app (Food Health Rx) that turns the results into a personalized food-as-medicine plan, sold direct to consumers and through employers, health plans and providers. In late 2024 the company rebranded as Food Health Collective and moved its web presence to foodhealthcollective.org; the original ahara.com domain is now registrar-suspended (clientHold, NXDOMAIN) and the ahara.health Squarespace site has expired. AHARA operates no developer program: there is no portal, no documentation, no API reference, no public package, no GitHub organization and no machine-readable contract on any host it controls.",
+     "name": "Dream Voyage Inc.",
+     "slug": "dream-voyage-inc",
+     "description": "Dream Voyage Inc. is an AI-driven consumer studio founded in 2023 and backed by Andreessen Horowitz through its Speedrun accelerator alongside Soma Capital. Led by co-founder and CEO Coco Chen, a former TikTok founding product manager and Tinder PM, the studio builds viral AI-powered consumer applications spanning spiritual wellness, dream interpretation, gaming, and social payments. Its products include SINE Daily Manifest (an AI spiritual-health app offering daily affirmations, astrology, birth-chart analysis, and tarot readings that went viral on TikTok), Dreamore (AI-powered dream interpretation), Vdrop (turning social media into a payment network), and RPS (a Solana-based social game). Dream Voyage ships consumer mobile apps rather than a public developer platform; as of this profile it publishes no developer portal, OpenAPI, SDKs, or documented API surface. This record is a network stub retained for discovery and future enrichment.",
+     "score": 1.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 279
+    },
+    {
+     "name": "Saude Bliss",
+     "slug": "saude-bliss",
+     "description": "Saude Bliss (saudebliss.com) is a health and wellness company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. Its public presence is a Cloudflare-protected WordPress marketing website; a July 2026 enrichment pass found no public API surface, no OpenAPI/Swagger, no .well-known endpoints, no security.txt and no llms.txt. The upstream portfolio record marks it is_api_provider=false, so this remains an identity-only company profile rather than an API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saude-bliss/refs/heads/main/screenshots/saude-bliss-2026-09-02T154436.png",
+     "score": 1.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 280
     }
    ]

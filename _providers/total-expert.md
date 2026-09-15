@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 41.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -219,6 +244,7 @@ collections:
   slug: open-total-expert-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/capabilities/total-expert-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/total-expert-capability-edges.yml
@@ -279,82 +305,102 @@ common:
   type: Compliance
   url: https://www.totalexpert.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/security/total-expert-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/total-expert-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/authentication/total-expert-authentication.yml
   title: ''
   type: Authentication
   url: authentication/total-expert-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/scopes/total-expert-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/total-expert-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/agentic-access/total-expert-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/total-expert-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/security/total-expert-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/total-expert-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/packages/total-expert-packages.yml
   title: ''
   type: Packages
   url: packages/total-expert-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/mcp/total-expert-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/total-expert-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/llms/total-expert-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/total-expert-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/overlays/total-expert-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/total-expert-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/conformance/total-expert-conformance.yml
   title: ''
   type: Conformance
   url: conformance/total-expert-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/errors/total-expert-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/total-expert-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/lifecycle/total-expert-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/total-expert-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/sandbox/total-expert-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/total-expert-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/conventions/total-expert-conventions.yml
   title: ''
   type: Conventions
   url: conventions/total-expert-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/conventions/total-expert-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/total-expert-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/rate-limits/total-expert-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/total-expert-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/asyncapi/total-expert-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/total-expert-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/data-model/total-expert-data-model.yml
   title: ''
   type: DataModel
   url: data-model/total-expert-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/changelog/total-expert-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/total-expert-changelog.yml
@@ -363,14 +409,17 @@ common:
   type: ReleaseNotes
   url: https://totalexpert.freshdesk.com/support/solutions/22000109162
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/plans/total-expert-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/total-expert-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/components/total-expert-components.yml
   title: ''
   type: Components
   url: components/total-expert-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/vocabulary/total-expert-te-connect-ppe-schema.yml
   title: ''
   type: Vocabulary
   url: vocabulary/total-expert-te-connect-ppe-schema.yml
@@ -411,6 +460,47 @@ scopes:
   scope_count: 5
   slug: total-expert-scopes
   summary_line: 5 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 61.7
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 50.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 33.3
+    contract_quality: 64.9
+    developer_ergonomics: 70.8
+    discoverability: 68.5
+    operational_transparency: 63.2
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 59.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/screenshots/total-expert-2026-08-17T082415.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
@@ -22,6 +47,7 @@ common:
   type: Website
   url: https://www.lightsprint.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/mcp/lightsprint-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lightsprint-mcp.yml
@@ -70,62 +96,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/SprintsAI
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/security/lightsprint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lightsprint-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/security/lightsprint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightsprint-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/authentication/lightsprint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lightsprint-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/scopes/lightsprint-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lightsprint-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/conventions/lightsprint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lightsprint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/data-model/lightsprint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lightsprint-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/lifecycle/lightsprint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lightsprint-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/conformance/lightsprint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lightsprint-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/well-known/lightsprint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lightsprint-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/packages/lightsprint-packages.yml
   title: ''
   type: Packages
   url: packages/lightsprint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/packages/lightsprint-packages.yml
   title: ''
   type: SDKs
   url: packages/lightsprint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/cli/lightsprint-cli.yml
   title: ''
   type: CLI
   url: cli/lightsprint-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/llms/lightsprint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lightsprint-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/plans/lightsprint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lightsprint-plans-pricing.yml
@@ -167,6 +208,36 @@ scopes:
   scope_count: 7
   slug: lightsprint-scopes
   summary_line: 7 scopes · authorizationCode
+score:
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 5.3
+  previous_composite: 39.9
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/screenshots/lightsprint-2026-07-25T225137.png
 security:
 - kind: authentication

@@ -9,6 +9,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.linqalpha.com
@@ -118,6 +144,7 @@ common:
   type: GettingStarted
   url: https://docs.linqalpha.com/quickstart
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/_original/linqalpha-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/linqalpha-openapi-original.json
@@ -142,38 +169,47 @@ common:
   type: PrivacyPolicy
   url: https://linqalpha.com/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/mcp/linqalpha-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/linqalpha-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/llms/linqalpha-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linqalpha-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/authentication/linqalpha-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linqalpha-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/scopes/linqalpha-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linqalpha-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/conventions/linqalpha-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linqalpha-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/errors/linqalpha-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/linqalpha-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/rate-limits/linqalpha-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/linqalpha-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/lifecycle/linqalpha-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linqalpha-lifecycle.yml
@@ -182,6 +218,7 @@ common:
   type: StatusPage
   url: https://status.linqalpha.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/conformance/linqalpha-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linqalpha-conformance.yml
@@ -190,22 +227,27 @@ common:
   type: Compliance
   url: https://linqalpha.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/security/linqalpha-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/linqalpha-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/security/linqalpha-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linqalpha-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/well-known/linqalpha-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/linqalpha-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/data-model/linqalpha-data-model.yml
   title: ''
   type: DataModel
   url: data-model/linqalpha-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/overlays/linqalpha-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/linqalpha-api-overlay.yaml
@@ -235,6 +277,46 @@ scopes:
   scope_count: 1
   slug: linqalpha-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 54.8
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 51.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 66.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
 security:
 - kind: authentication

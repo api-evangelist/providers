@@ -10,6 +10,32 @@ access_model:
   - https://funnel.io/pricing
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.9
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'The Funnel Control Plane API provides configuration-management operations for a Funnel subscription — workspaces, data sources, custom dimensions and metrics, and data exports to BigQuery, Snowflake, '
@@ -72,34 +98,42 @@ common:
   type: StatusPage
   url: https://status.funnel.io
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/packages/funnel-packages.yml
   title: ''
   type: Packages
   url: packages/funnel-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/packages/funnel-packages.yml
   title: ''
   type: SDKs
   url: packages/funnel-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/authentication/funnel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/funnel-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/conventions/funnel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/funnel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/data-model/funnel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/funnel-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/lifecycle/funnel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/funnel-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/changelog/funnel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/funnel-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/conformance/funnel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/funnel-conformance.yml
@@ -108,46 +142,57 @@ common:
   type: Compliance
   url: https://funnel.io/funnel-information-security-overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/security/funnel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/funnel-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/security/funnel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/funnel-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/llms/funnel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/funnel-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/well-known/funnel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/funnel-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/mcp/funnel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/funnel-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/scopes/funnel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/funnel-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/errors/funnel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/funnel-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/rate-limits/funnel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/funnel-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/plans/funnel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/funnel-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/asyncapi/funnel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/funnel-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -197,6 +242,36 @@ scopes:
   scope_count: 0
   slug: funnel-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 55.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 49.4
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 55.8
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/screenshots/funnel-2026-07-25T215322.png
 security:
 - kind: authentication

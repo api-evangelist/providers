@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -155,18 +180,22 @@ collections:
   slug: open-red5-streams-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/capabilities/red5-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/red5-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/agentic-access/red5-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red5-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/security/red5-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red5-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/authentication/red5-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red5-authentication.yml
@@ -207,70 +236,87 @@ common:
   type: Contact
   url: https://www.red5.net/contact/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/json-ld/red5-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/red5-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/json-schema/red5-stream-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red5-stream-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/json-schema/red5-restream-provision-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red5-restream-provision-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/_superseded/red5-server-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_superseded/red5-server-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/_original/red5-stream-manager-2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red5-stream-manager-2-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/_original/red5-brew-mixer-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red5-brew-mixer-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/openapi/_original/red5-restreamer-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red5-restreamer-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/asyncapi/red5-webrtc-streaming-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/red5-webrtc-streaming-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/json-structure/red5-stream-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/red5-stream-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/rules/red5-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/red5-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/vocabulary/red5-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/red5-vocabulary.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/llms/red5-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/red5-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/packages/red5-packages.yml
   title: ''
   type: Packages
   url: packages/red5-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/packages/red5-packages.yml
   title: ''
   type: SDKs
   url: packages/red5-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/mcp/red5-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/red5-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/conformance/red5-conformance.yml
   title: ''
   type: Conformance
   url: conformance/red5-conformance.yml
@@ -279,10 +325,12 @@ common:
   type: Compliance
   url: https://www.red5.net/legal/data-processing-addendum/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/errors/red5-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/red5-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/lifecycle/red5-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/red5-lifecycle.yml
@@ -291,10 +339,12 @@ common:
   type: StatusPage
   url: https://status.red5.net/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/conventions/red5-conventions.yml
   title: ''
   type: Conventions
   url: conventions/red5-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/changelog/red5-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/red5-changelog.yml
@@ -303,18 +353,22 @@ common:
   type: ChangeLog
   url: https://www.red5.net/docs/red5-pro/resources/release-notes/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/components/red5-components.yml
   title: ''
   type: Components
   url: components/red5-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/data-model/red5-data-model.yml
   title: ''
   type: DataModel
   url: data-model/red5-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/sandbox/red5-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/red5-sandbox.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/asyncapi/red5-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/red5-webhooks-asyncapi.yml
@@ -323,22 +377,27 @@ common:
   type: Webhooks
   url: https://www.red5.net/docs/red5-pro/users-guide/red5-pro-webhooks-overview/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/plans/red5-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/red5-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/rate-limits/red5-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red5-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/finops/red5-finops.yml
   title: ''
   type: FinOps
   url: finops/red5-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/examples/red5-server-api-list-streams-example.json
   title: ''
   type: Examples
   url: examples/red5-server-api-list-streams-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/examples/red5-stream-manager-create-provision-example.json
   title: ''
   type: Examples
   url: examples/red5-stream-manager-create-provision-example.json
@@ -462,6 +521,41 @@ rules:
     info: 0
     warn: 8
   slug: red5-rules
+score:
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 69.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 33.3
+    contract_quality: 63.4
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 42.1
+  previous_composite: 65.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:
 - kind: authentication

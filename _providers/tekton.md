@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'tekton.dev/v1 kind=Task — defines a series of steps that launch specific build or delivery tools, ingest specific inputs (params, workspaces, resources), and produce specific outputs (results). Tasks '
@@ -84,6 +109,7 @@ collections:
   slug: open-tekton-pipeline
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/security/tekton-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tekton-domain-security.yml
@@ -172,14 +198,17 @@ common:
   type: RoadMap
   url: https://github.com/tektoncd/pipeline/blob/main/roadmap.md
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/plans/tekton-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tekton-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/rate-limits/tekton-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tekton-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/finops/tekton-finops.yml
   title: ''
   type: FinOps
   url: finops/tekton-finops.yml
@@ -208,6 +237,32 @@ rate_limits:
 - limit_count: 5
   name: Tekton Rate Limits
   slug: tekton-rate-limits
+score:
+  band: emerging
+  composite: 24.6
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 31.0
+    discoverability: 50.0
+    operational_transparency: 31.6
+  previous_composite: 24.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/screenshots/tekton-2026-06-20T195017.png
 security:
 - kind: domain-security
@@ -224,6 +279,5 @@ tags:
 - Open-Source
 - CRD
 - Operator
-- Developer Tools
 website: https://tekton.dev/
 ---

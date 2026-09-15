@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -103,6 +128,7 @@ collections:
   slug: open-amazon-sagemaker
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/capabilities/amazon-sagemaker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-sagemaker-capability-edges.yml
@@ -127,18 +153,22 @@ common:
   type: License
   url: https://github.com/aws/sagemaker-core/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/agentic-access/amazon-sagemaker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-sagemaker-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/security/amazon-sagemaker-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-sagemaker-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/security/amazon-sagemaker-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-sagemaker-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/security/amazon-sagemaker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-sagemaker-domain-security.yml
@@ -147,34 +177,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-sagemaker/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-audit-endpoint-fleet-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-audit-endpoint-fleet-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-deploy-existing-model-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-deploy-existing-model-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-deploy-model-to-endpoint-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-deploy-model-to-endpoint-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-inventory-models-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-inventory-models-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-provision-notebook-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-provision-notebook-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-register-latest-completed-training-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-register-latest-completed-training-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-train-and-poll-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-train-and-poll-job-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/arazzo/amazon-sagemaker-train-then-deploy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-sagemaker-train-then-deploy-workflow.yml
@@ -275,10 +313,12 @@ common:
   type: GitHubRepository
   url: https://github.com/aws/sagemaker-distribution
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/rules/amazon-sagemaker-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-sagemaker-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/vocabulary/amazon-sagemaker-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-sagemaker-vocabulary.yaml
@@ -287,50 +327,62 @@ common:
   type: Training
   url: https://aws.amazon.com/training/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/json-ld/amazon-sagemaker-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-sagemaker-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/json-schema/amazon-sagemaker-tag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-sagemaker-tag-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/json-structure/amazon-sagemaker-endpoint-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-sagemaker-endpoint-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/json-structure/amazon-sagemaker-model-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-sagemaker-model-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/json-structure/amazon-sagemaker-notebook-instance-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-sagemaker-notebook-instance-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/json-structure/amazon-sagemaker-tag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-sagemaker-tag-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/json-structure/amazon-sagemaker-training-job-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-sagemaker-training-job-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/examples/amazon-sagemaker-endpoint-example.json
   title: ''
   type: Examples
   url: examples/amazon-sagemaker-endpoint-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/examples/amazon-sagemaker-model-example.json
   title: ''
   type: Examples
   url: examples/amazon-sagemaker-model-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/examples/amazon-sagemaker-notebook-instance-example.json
   title: ''
   type: Examples
   url: examples/amazon-sagemaker-notebook-instance-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/examples/amazon-sagemaker-tag-example.json
   title: ''
   type: Examples
   url: examples/amazon-sagemaker-tag-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/examples/amazon-sagemaker-training-job-example.json
   title: ''
   type: Examples
   url: examples/amazon-sagemaker-training-job-example.json
@@ -516,6 +568,41 @@ rules:
     info: 2
     warn: 14
   slug: amazon-sagemaker-spectral-rules
+score:
+  band: strong
+  composite: 63.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 73.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 28.8
+    contract_quality: 70.5
+    developer_ergonomics: 67.9
+    discoverability: 70.4
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/screenshots/amazon-sagemaker-2026-06-20T171815.png
 security:
 - kind: domain-security

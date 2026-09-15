@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://feed.fusion.tempus-ex.com/v2/
@@ -23,6 +48,7 @@ asyncapis:
   slug: tempus-ex-fusionfeed-asyncapi
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/security/tempus-ex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tempus-ex-domain-security.yml
@@ -59,50 +85,62 @@ common:
   type: StatusPage
   url: https://status.tempus-ex.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/lifecycle/tempus-ex-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tempus-ex-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/authentication/tempus-ex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tempus-ex-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/conventions/tempus-ex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tempus-ex-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/rate-limits/tempus-ex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tempus-ex-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/lifecycle/tempus-ex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tempus-ex-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/errors/tempus-ex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tempus-ex-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/conformance/tempus-ex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tempus-ex-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/data-model/tempus-ex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tempus-ex-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/asyncapi/tempus-ex-fusionfeed-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/tempus-ex-fusionfeed-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/mcp/tempus-ex-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tempus-ex-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/llms/tempus-ex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tempus-ex-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -126,6 +164,36 @@ rate_limits:
 - limit_count: 0
   name: Tempus Ex Rate Limits
   slug: tempus-ex-rate-limits
+score:
+  band: thin
+  composite: 35.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 44.8
+    developer_ergonomics: 56.5
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 35.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/screenshots/tempus-ex-2026-09-02T163041.png
 security:
 - kind: authentication

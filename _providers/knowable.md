@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knowable/refs/heads/main/security/knowable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knowable-domain-security.yml
@@ -44,10 +45,12 @@ common:
   type: Announcement
   url: https://a16z.com/announcement/knowable-and-audio-startups/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knowable/refs/heads/main/lifecycle/knowable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/knowable-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knowable/refs/heads/main/llms/knowable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knowable-llms.txt

@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -88,6 +113,7 @@ common:
   type: Website
   url: https://www.google.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/overlays/google-forms-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-forms-api-overlay.yaml
@@ -96,62 +122,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-forms/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/agentic-access/google-forms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-forms-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/packages/google-forms-packages.yml
   title: ''
   type: Packages
   url: packages/google-forms-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/well-known/google-forms-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-forms-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/mcp/google-forms-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/google-forms-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/llms/google-forms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-forms-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/conformance/google-forms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-forms-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/errors/google-forms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-forms-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/lifecycle/google-forms-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-forms-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/changelog/google-forms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-forms-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/conventions/google-forms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-forms-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/data-model/google-forms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-forms-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/security/google-forms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-forms-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/security/google-forms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-forms-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/authentication/google-forms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-forms-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/scopes/google-forms-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-forms-scopes.yml
@@ -192,46 +233,57 @@ common:
   type: Support
   url: https://developers.google.com/forms/api/support
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/json-ld/google-forms-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-forms-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/rules/google-forms-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-forms-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/vocabulary/google-forms-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/google-forms-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-create-and-publish-form-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-create-and-publish-form-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-harvest-form-responses-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-harvest-form-responses-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-subscribe-response-notifications-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-subscribe-response-notifications-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-renew-expiring-watch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-renew-expiring-watch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-safe-form-edit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-safe-form-edit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-build-and-grade-quiz-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-build-and-grade-quiz-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-close-form-and-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-close-form-and-export-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/arazzo/google-forms-unsubscribe-form-watches-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-forms-unsubscribe-form-watches-workflow.yml
@@ -360,6 +412,40 @@ scopes:
   scope_count: 6
   slug: google-forms-scopes
   summary_line: 6 scopes · authorizationCode
+score:
+  band: developing
+  composite: 43.0
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 79.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 33.3
+    contract_quality: 32.0
+    developer_ergonomics: 50.0
+    discoverability: 88.9
+    operational_transparency: 42.1
+  previous_composite: 43.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:
 - kind: authentication

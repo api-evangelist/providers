@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.certifid.com
@@ -142,10 +167,12 @@ collections:
   slug: open-certifid-wiringinstructions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/capabilities/certifid-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/certifid-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/mcp/certifid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/certifid-mcp.yml
@@ -158,50 +185,62 @@ common:
   type: APIReference
   url: https://api.certifid.com/swagger/index.html
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/openapi/_original/certifid-v2-apis-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/certifid-v2-apis-openapi.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/authentication/certifid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/certifid-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/scopes/certifid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/certifid-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/security/certifid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/certifid-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/well-known/certifid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/certifid-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/well-known/certifid-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/certifid-openid-configuration.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/errors/certifid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/certifid-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/conventions/certifid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/certifid-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/data-model/certifid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/certifid-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/overlays/certifid-certifid-v2-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/certifid-certifid-v2-apis-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/conformance/certifid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/certifid-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/conformance/certifid-conformance.yml
   title: ''
   type: Compliance
   url: conformance/certifid-conformance.yml
@@ -210,6 +249,7 @@ common:
   type: TrustCenter
   url: https://trust.certifid.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/lifecycle/certifid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/certifid-lifecycle.yml
@@ -218,14 +258,17 @@ common:
   type: StatusPage
   url: https://status.certifid.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/changelog/certifid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/certifid-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/llms/certifid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/certifid-llms.txt
@@ -275,6 +318,46 @@ scopes:
   scope_count: 12
   slug: certifid-scopes
   summary_line: 12 scopes · authorizationCode
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 44.8
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 42.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/screenshots/certifid-2026-08-17T080816.png
 security:
 - kind: authentication

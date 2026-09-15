@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -144,18 +169,22 @@ collections:
   slug: open-augustus-webhook-subscriptions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/capabilities/augustus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/augustus-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/security/augustus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/augustus-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/agentic-access/augustus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/augustus-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/authentication/augustus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/augustus-authentication.yml
@@ -208,42 +237,52 @@ common:
   type: StatusPage
   url: https://status.getivy.io
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/_original/augustus-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/augustus-openapi-original.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/packages/augustus-packages.yml
   title: ''
   type: Packages
   url: packages/augustus-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/packages/augustus-packages.yml
   title: ''
   type: SDKs
   url: packages/augustus-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/mcp/augustus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/augustus-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/llms/augustus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/augustus-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/overlays/augustus-banking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/augustus-banking-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/conformance/augustus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/augustus-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/errors/augustus-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/augustus-error-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/errors/augustus-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/augustus-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/lifecycle/augustus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/augustus-lifecycle.yml
@@ -252,30 +291,37 @@ common:
   type: Deprecation
   url: https://docs.augustus.com/v1/versioning
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/scopes/augustus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/augustus-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/sandbox/augustus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/augustus-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/conventions/augustus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/augustus-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/conventions/augustus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/augustus-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/data-model/augustus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/augustus-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/asyncapi/augustus-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/augustus-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -300,6 +346,47 @@ scopes:
   scope_count: 16
   slug: augustus-scopes
   summary_line: 16 scopes
+score:
+  band: developing
+  composite: 48.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 60.4
+    developer_ergonomics: 70.8
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 48.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 53.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:
 - kind: authentication

@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -246,14 +272,17 @@ collections:
   slug: open-canix-weightunits-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/capabilities/canix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/canix-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/agentic-access/canix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/canix-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/security/canix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canix-domain-security.yml
@@ -298,70 +327,87 @@ common:
   type: StatusPage
   url: https://status.canix.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/openapi/_original/canix-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/canix-openapi-original.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/mcp/canix-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/canix-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/mcp/canix-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/canix-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/well-known/canix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/canix-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/authentication/canix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canix-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/scopes/canix-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/canix-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/conventions/canix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/canix-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/errors/canix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/canix-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/lifecycle/canix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/canix-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/conformance/canix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/canix-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/data-model/canix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/canix-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/overlays/canix-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/canix-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/llms/canix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canix-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/canix-create-and-fulfill-sales-order.md
   title: ''
   type: AgentSkill
   url: skills/canix-create-and-fulfill-sales-order.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/canix-sync-inventory-and-compliance.md
   title: ''
   type: AgentSkill
   url: skills/canix-sync-inventory-and-compliance.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/skills/canix-purchasing-and-manufacturing-costs.md
   title: ''
   type: AgentSkill
   url: skills/canix-purchasing-and-manufacturing-costs.md
@@ -387,6 +433,41 @@ scopes:
   scope_count: 1
   slug: canix-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 40.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 60.0
+    developer_ergonomics: 47.0
+    discoverability: 68.5
+    operational_transparency: 15.8
+  previous_composite: 40.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png
 security:
 - kind: authentication

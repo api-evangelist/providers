@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 api_count: 18
 apis:
 - baseURL: https://prod01.api.gaig.com/shop
@@ -103,6 +128,7 @@ asyncapis:
   slug: american-financial-group-ingestion-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/security/american-financial-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-financial-group-domain-security.yml
@@ -143,74 +169,92 @@ common:
   type: PrivacyPolicy
   url: https://www.greatamericaninsurancegroup.com/contact/privacy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/well-known/american-financial-group-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/american-financial-group-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/well-known/american-financial-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/american-financial-group-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/security/american-financial-group-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/american-financial-group-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/security/american-financial-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/american-financial-group-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/authentication/american-financial-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/american-financial-group-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/scopes/american-financial-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/american-financial-group-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/conformance/american-financial-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/american-financial-group-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/errors/american-financial-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/american-financial-group-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/lifecycle/american-financial-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/american-financial-group-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/conventions/american-financial-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/american-financial-group-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/data-model/american-financial-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/american-financial-group-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/sandbox/american-financial-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/american-financial-group-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/rate-limits/american-financial-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/american-financial-group-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/plans/american-financial-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/american-financial-group-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/packages/american-financial-group-packages.yml
   title: ''
   type: Packages
   url: packages/american-financial-group-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/llms/american-financial-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/american-financial-group-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/american-financial-group/refs/heads/main/examples/american-financial-group-examples.yml
   title: ''
   type: Examples
   url: examples/american-financial-group-examples.yml
@@ -278,6 +322,51 @@ scopes:
   scope_count: 0
   slug: american-financial-group-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 42.4
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 44.9
+    developer_ergonomics: 54.2
+    discoverability: 64.8
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 42.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 88.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 72.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: American Financial Group Authentication

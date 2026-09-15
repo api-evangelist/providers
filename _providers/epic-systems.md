@@ -10,6 +10,31 @@ access_model:
   - well-known
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -37,10 +62,12 @@ asyncapis:
   slug: epic-systems-cds-hooks-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/security/epic-systems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/epic-systems-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/security/epic-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epic-systems-domain-security.yml
@@ -65,6 +92,7 @@ common:
   type: GettingStarted
   url: https://fhir.epic.com/Documentation?docId=fhirtutorial
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/authentication/epic-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epic-systems-authentication.yml
@@ -81,46 +109,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/epic1979/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/well-known/epic-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/epic-systems-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/well-known/epic-systems-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/epic-systems-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/scopes/epic-systems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/epic-systems-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/conformance/epic-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epic-systems-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/conventions/epic-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/epic-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/conventions/epic-systems-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/epic-systems-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/errors/epic-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/epic-systems-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/data-model/epic-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/epic-systems-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/lifecycle/epic-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/epic-systems-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/asyncapi/epic-systems-cds-hooks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/epic-systems-cds-hooks-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/llms/epic-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/epic-systems-llms.txt
@@ -129,18 +168,22 @@ common:
   type: Security
   url: https://www.epic.com/epic/page/reporting-potential-security-vulnerability/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/packages/epic-systems-packages.yml
   title: ''
   type: Packages
   url: packages/epic-systems-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/sandbox/epic-systems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/epic-systems-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/errors/epic-systems-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/epic-systems-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/changelog/epic-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/epic-systems-changelog.yml
@@ -149,18 +192,22 @@ common:
   type: Deprecation
   url: https://fhir.epic.com/Documentation?docId=developerguidelines
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/rate-limits/epic-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epic-systems-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/plans/epic-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epic-systems-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/fhir/epic-systems-endpoint-catalog.yml
   title: ''
   type: APICatalog
   url: fhir/epic-systems-endpoint-catalog.yml
@@ -206,6 +253,49 @@ scopes:
   scope_count: 0
   slug: epic-systems-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.1
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 46.3
+    developer_ergonomics: 63.7
+    discoverability: 81.5
+    operational_transparency: 73.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 64.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 77.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png
 security:
 - kind: authentication

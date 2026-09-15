@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.0
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
@@ -23,38 +48,47 @@ common:
   type: PrivacyPolicy
   url: https://www.urbint.com/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/packages/urbint-packages.yml
   title: ''
   type: Packages
   url: packages/urbint-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/components/urbint-components.yml
   title: ''
   type: Components
   url: components/urbint-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/mcp/urbint-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/urbint-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/llms/urbint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/urbint-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/security/urbint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/urbint-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/conformance/urbint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/urbint-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/conformance/urbint-conformance.yml
   title: ''
   type: Compliance
   url: conformance/urbint-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/plans/urbint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/urbint-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/urbint/refs/heads/main/rate-limits/urbint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/urbint-rate-limits.yml
@@ -71,7 +105,7 @@ modified: '2026-09-02'
 name: Urbint
 nav: Providers
 network: true
-overview: 'Urbint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Utilities, Energy, Artificial Intelligence, and Machine Learning.
+overview: 'Urbint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Utilities, Energy, Artificial Intelligence, and Machine-Learning.
 
 
   Urbint''s developer surface includes support and 13 more developer resources.'
@@ -84,6 +118,41 @@ rate_limits:
 - limit_count: 0
   name: Urbint Rate Limits
   slug: urbint-rate-limits
+score:
+  band: emerging
+  composite: 17.0
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 57.4
+    operational_transparency: 2.6
+  previous_composite: 17.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 32.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Urbint Domain Security
@@ -95,7 +164,7 @@ tags:
 - Utilities
 - Energy
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Worker Safety
 - Risk Management
 - Damage Prevention

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://voidpet.com
@@ -38,38 +63,47 @@ common:
   type: Website
   url: https://www.voidpet.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/overlays/voidpet-discovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/voidpet-discovery-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/security/voidpet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voidpet-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/authentication/voidpet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voidpet-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/mcp/voidpet-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/voidpet-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/well-known/voidpet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/voidpet-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/llms/voidpet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voidpet-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/conformance/voidpet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voidpet-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/lifecycle/voidpet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voidpet-lifecycle.yml
@@ -110,6 +144,47 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
   Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 11 more developer resources.'
 random_paper: 7
+score:
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 42.9
+    developer_ergonomics: 38.1
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 39.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/screenshots/voidpet-2026-09-02T170212.png
 security:
 - kind: authentication

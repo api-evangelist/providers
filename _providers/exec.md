@@ -11,6 +11,32 @@ access_model:
   - https://docs.exec.com/platform/plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -103,42 +129,52 @@ collections:
   slug: open-exec-workspace-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/capabilities/exec-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/exec-capability-edges.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/_original/exec-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/exec-openapi-original.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/agentic-access/exec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/exec-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/security/exec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exec-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/authentication/exec-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exec-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/conventions/exec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exec-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/conventions/exec-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/exec-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/rate-limits/exec-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/exec-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/errors/exec-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/exec-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/lifecycle/exec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exec-lifecycle.yml
@@ -147,6 +183,7 @@ common:
   type: StatusPage
   url: https://status.exec.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/conformance/exec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exec-conformance.yml
@@ -159,38 +196,47 @@ common:
   type: TrustCenter
   url: https://app.vanta.com/exec.com/trust/j0xkhh5zesxvojinovqlpm
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/data-model/exec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/exec-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/overlays/exec-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/exec-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/asyncapi/exec-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/exec-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/mcp/exec-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/exec-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/mcp/exec-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/exec-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/components/exec-components.yml
   title: ''
   type: Components
   url: components/exec-components.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/plans/exec-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/exec-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/llms/exec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exec-llms.txt
@@ -266,6 +312,47 @@ rate_limits:
 - limit_count: 3
   name: Exec Rate Limits
   slug: exec-rate-limits
+score:
+  band: exemplar
+  composite: 69.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 66.9
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 47.4
+  previous_composite: 69.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/screenshots/exec-2026-07-25T213855.png
 security:
 - kind: authentication

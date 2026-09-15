@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - baseURL: https://jenavalve.com/wp-json
@@ -75,6 +100,7 @@ collections:
   slug: open-jenavalve-technology-taxonomy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/overlays/jenavalve-technology-discover-ar-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jenavalve-technology-discover-ar-overlay.yaml
@@ -147,42 +173,52 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/jenavalve-technology_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/well-known/jenavalve-technology-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jenavalve-technology-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/security/jenavalve-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jenavalve-technology-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/authentication/jenavalve-technology-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jenavalve-technology-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/conventions/jenavalve-technology-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jenavalve-technology-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/conformance/jenavalve-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jenavalve-technology-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/lifecycle/jenavalve-technology-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jenavalve-technology-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/data-model/jenavalve-technology-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jenavalve-technology-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/errors/jenavalve-technology-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jenavalve-technology-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/llms/jenavalve-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jenavalve-technology-llms.txt
@@ -200,6 +236,46 @@ overview: 'JenaValve Technology publishes 7 APIs on the [APIs.io](https://apis.i
 
   JenaValve Technology''s developer surface includes engineering blog, product news, support, documentation, authentication, and 23 more developer resources.'
 random_paper: 6
+score:
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 49.0
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 0.0
+  previous_composite: 37.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 44.4
+      total: 9
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/screenshots/jenavalve-technology-2026-08-07T170957.png
 security:
 - kind: authentication

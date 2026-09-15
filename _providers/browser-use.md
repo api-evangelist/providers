@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 58.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -111,102 +137,127 @@ common:
   type: StatusPage
   url: https://status.browser-use.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/changelog/browser-use-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/browser-use-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/llms/browser-use-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/browser-use-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/a2a/browser-use-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/browser-use-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/mcp/browser-use-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/browser-use-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/mcp/browser-use-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/browser-use-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/well-known/browser-use-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/browser-use-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/packages/browser-use-packages.yml
   title: ''
   type: Packages
   url: packages/browser-use-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/packages/browser-use-packages.yml
   title: ''
   type: SDKs
   url: packages/browser-use-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/cli/browser-use-cli.yml
   title: ''
   type: CLI
   url: cli/browser-use-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/components/browser-use-components.yml
   title: ''
   type: Components
   url: components/browser-use-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/authentication/browser-use-authentication.yml
   title: ''
   type: Authentication
   url: authentication/browser-use-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/scopes/browser-use-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/browser-use-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/conventions/browser-use-conventions.yml
   title: ''
   type: Conventions
   url: conventions/browser-use-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/errors/browser-use-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/browser-use-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/lifecycle/browser-use-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/browser-use-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/conformance/browser-use-conformance.yml
   title: ''
   type: Conformance
   url: conformance/browser-use-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/conformance/browser-use-conformance.yml
   title: ''
   type: Compliance
   url: conformance/browser-use-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/asyncapi/browser-use-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/browser-use-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/data-model/browser-use-data-model.yml
   title: ''
   type: DataModel
   url: data-model/browser-use-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/rate-limits/browser-use-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/browser-use-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/plans/browser-use-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/browser-use-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/finops/browser-use-finops.yml
   title: ''
   type: FinOps
   url: finops/browser-use-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/agentic-access/browser-use-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/browser-use-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/security/browser-use-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/browser-use-domain-security.yml
@@ -247,6 +298,41 @@ scopes:
   scope_count: 0
   slug: browser-use-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 69.1
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 67.1
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    operational_transparency: 65.8
+  previous_composite: 69.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/screenshots/browser-use-2026-06-20T173722.png
 security:
 - kind: authentication

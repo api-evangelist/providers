@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: The core Sailthru HTTPS API. All requests are GET, POST or DELETE calls to https://api.sailthru.com/<endpointName>, authenticated with api_key, an MD5 sig over the sorted parameter values, and a forma
@@ -27,14 +52,17 @@ asyncapis:
   slug: sailthru-postbacks-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/security/sailthru-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sailthru-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/security/sailthru-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sailthru-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/security/sailthru-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sailthru-vulnerability-disclosure.yml
@@ -95,58 +123,72 @@ common:
   type: ChangeLog
   url: https://products.zetaglobal.com/sailthru/Content/ReleaseNotes/releasenotes-2026.htm
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/changelog/sailthru-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sailthru-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/packages/sailthru-packages.yml
   title: ''
   type: Packages
   url: packages/sailthru-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/packages/sailthru-packages.yml
   title: ''
   type: SDKs
   url: packages/sailthru-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/cli/sailthru-cli.yml
   title: ''
   type: CLI
   url: cli/sailthru-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/components/sailthru-components.yml
   title: ''
   type: Components
   url: components/sailthru-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/authentication/sailthru-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sailthru-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/conventions/sailthru-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sailthru-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/errors/sailthru-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sailthru-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/rate-limits/sailthru-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sailthru-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/plans/sailthru-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sailthru-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/lifecycle/sailthru-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sailthru-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/conformance/sailthru-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sailthru-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/asyncapi/sailthru-postbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sailthru-postbacks-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/llms/sailthru-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sailthru-llms.txt
@@ -175,6 +217,48 @@ rate_limits:
 - limit_count: 5
   name: Sailthru Rate Limits
   slug: sailthru-rate-limits
+score:
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 68.5
+    operational_transparency: 68.4
+  previous_composite: 54.2
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hitrust
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 59.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sailthru/refs/heads/main/screenshots/sailthru-2026-08-17T081714.png
 security:
 - kind: authentication

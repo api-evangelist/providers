@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -296,6 +321,7 @@ common:
   type: Website
   url: https://www.ibm.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/capabilities/ibm-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ibm-capability-edges.yml
@@ -304,130 +330,162 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ibm/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/agentic-access/ibm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ibm-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/security/ibm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ibm-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/security/ibm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ibm-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/security/ibm-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ibm-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/authentication/ibm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ibm-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/scopes/ibm-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ibm-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/packages/ibm-packages.yml
   title: ''
   type: Packages
   url: packages/ibm-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/well-known/ibm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ibm-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/well-known/ibm-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ibm-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/mcp/ibm-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ibm-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/llms/ibm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ibm-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/overlays/ibm-cloud-iam-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ibm-cloud-iam-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/conformance/ibm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ibm-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/errors/ibm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ibm-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/lifecycle/ibm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ibm-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/conventions/ibm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ibm-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/changelog/ibm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ibm-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/cli/ibm-cli.yml
   title: ''
   type: CLI
   url: cli/ibm-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/data-model/ibm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ibm-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-authenticate-and-inspect-api-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-authenticate-and-inspect-api-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-service-id-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-service-id-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-grant-service-id-access-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-grant-service-id-access-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-api-key-rotation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-api-key-rotation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-api-key-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-api-key-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-api-key-reactivation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-api-key-reactivation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-trusted-profile-federation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-trusted-profile-federation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-claim-rule-maintenance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-claim-rule-maintenance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-trusted-profile-decommission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-trusted-profile-decommission-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-custom-role-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-custom-role-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-policy-deactivation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-policy-deactivation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-policy-role-change-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-policy-role-change-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/arazzo/ibm-service-id-deprovision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/ibm-service-id-deprovision-workflow.yml
@@ -693,6 +751,40 @@ scopes:
   scope_count: 7
   slug: ibm-scopes
   summary_line: 7 scopes
+score:
+  band: strong
+  composite: 60.0
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 54.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 14.4
+    contract_quality: 72.6
+    developer_ergonomics: 72.6
+    discoverability: 61.1
+    operational_transparency: 50.0
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:
 - kind: authentication

@@ -16,14 +16,17 @@ common:
   type: Website
   url: http://fleksy.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fleksy/refs/heads/main/packages/fleksy-packages.yml
   title: ''
   type: Packages
   url: packages/fleksy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fleksy/refs/heads/main/packages/fleksy-packages.yml
   title: ''
   type: SDKs
   url: packages/fleksy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fleksy/refs/heads/main/llms/fleksy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fleksy-llms.txt

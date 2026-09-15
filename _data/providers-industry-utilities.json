@@ -27,14 +27,21 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 74.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -77,14 +84,21 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 78.4,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "smart-energy-code",
+        "jurisdiction": "GB"
+       }
+      ]
      },
      "agent_score": 36.2,
      "agent_band": "agent-ready",
@@ -138,7 +152,7 @@
       "developer_ergonomics": 87.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +202,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +252,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -288,7 +302,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -338,7 +352,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -388,7 +402,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -438,7 +452,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -488,7 +502,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -538,7 +552,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -588,7 +602,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -638,7 +652,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -688,7 +702,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -738,7 +752,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -787,7 +801,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -837,7 +851,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -898,7 +912,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -948,7 +962,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -998,7 +1012,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1048,7 +1062,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1098,7 +1112,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1148,7 +1162,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1198,7 +1212,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1248,7 +1262,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1298,7 +1312,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1348,7 +1362,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1398,7 +1412,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1448,7 +1462,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1498,14 +1512,21 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 62.2,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "smart-energy-code",
+        "jurisdiction": "GB"
+       }
+      ]
      },
      "agent_score": 28.7,
      "agent_band": "agent-ready",
@@ -1548,7 +1569,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1598,14 +1619,25 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 54.1,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "smart-energy-code",
+        "jurisdiction": "GB"
+       },
+       {
+        "standard": "uk-gdpr",
+        "jurisdiction": "UK"
+       }
+      ]
      },
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -1648,7 +1680,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1698,7 +1730,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1748,7 +1780,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1798,7 +1830,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1848,7 +1880,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1898,7 +1930,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1948,7 +1980,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1997,7 +2029,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2047,7 +2079,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2097,7 +2129,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2147,7 +2179,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2197,7 +2229,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2247,7 +2279,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2297,7 +2329,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2347,7 +2379,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2397,7 +2429,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2447,7 +2479,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2506,7 +2538,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2556,7 +2588,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2606,7 +2638,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2656,7 +2688,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2706,7 +2738,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2756,7 +2788,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2806,7 +2838,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2856,7 +2888,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2906,7 +2938,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2956,7 +2988,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3005,7 +3037,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3055,7 +3087,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3105,7 +3137,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3155,7 +3187,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3205,7 +3237,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3255,7 +3287,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3305,7 +3337,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3355,7 +3387,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3404,7 +3436,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3454,7 +3486,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3504,7 +3536,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3554,14 +3586,21 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 48.6,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3604,7 +3643,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3654,7 +3693,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3704,7 +3743,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3754,7 +3793,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3804,7 +3843,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3854,7 +3893,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3904,7 +3943,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3954,7 +3993,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4004,7 +4043,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4054,7 +4093,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4104,7 +4143,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4145,8 +4184,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 66,
-   "shown": 66,
+   "count": 67,
+   "shown": 67,
    "providers": [
     {
      "name": "Entergy",
@@ -4164,7 +4203,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4214,7 +4253,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4264,7 +4303,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4314,7 +4353,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -4361,7 +4400,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4411,7 +4450,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4461,7 +4500,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4511,7 +4550,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4561,7 +4600,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4611,7 +4650,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4661,7 +4700,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4711,7 +4750,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4760,7 +4799,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4810,7 +4849,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4860,7 +4899,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4910,7 +4949,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4945,6 +4984,56 @@
      "rank": 98
     },
     {
+     "name": "Hawaiian Electric Industries",
+     "slug": "hawaiian-electric-industries",
+     "description": "Hawaiian Electric Industries (HEI) is a Honolulu-based holding company whose principal subsidiary, Hawaiian Electric, delivers electricity to roughly 95% of Hawaii's residents through three operating utilities — Hawaiian Electric (Oahu), Hawaii Electric Light (Hawaii Island) and Maui Electric (Maui County) — alongside Pacific Current, its clean-energy and sustainability investment arm. HEI runs no developer program and publishes no OpenAPI, SDK or MCP server. It does serve one real, anonymously callable machine-readable surface: a public Esri ArcGIS REST feature-service catalog carrying the Locational Value Maps, published grid needs and EV charging locations that its own hawaiianelectric.com map applications consume.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/screenshots/hawaiian-electric-industries-2026-06-20T182541.png",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 28.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 7.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 99
+    },
+    {
      "name": "Southern Company",
      "slug": "southern",
      "description": "Southern Company is a leading American gas and electric utility holding company headquartered in Atlanta, Georgia. Through its subsidiaries — Alabama Power, Georgia Power, Mississippi Power, Southern Natural Gas, and Southern Company Gas — it serves 9 million gas and electric utility customers across 6 states. Southern Company is a Fortune 500 company with operations spanning electricity generation, transmission, distribution, and natural gas distribution.",
@@ -4960,7 +5049,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4992,7 +5081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Acumen Software",
@@ -5009,7 +5098,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5041,7 +5130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Irth Solutions",
@@ -5059,7 +5148,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5091,7 +5180,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Nova Scotia Power",
@@ -5109,7 +5198,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5141,7 +5230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Sempra",
@@ -5159,7 +5248,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5191,7 +5280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "SaskPower",
@@ -5209,7 +5298,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5241,7 +5330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Rhythmos",
@@ -5259,57 +5348,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 105
-    },
-    {
-     "name": "OVO Energy",
-     "slug": "ovo-energy",
-     "description": "OVO Energy is a United Kingdom household electricity and gas supplier founded in Bristol in 2009 by Stephen Fitzpatrick, and — after absorbing SSE's household energy business in January 2020 — the third-largest domestic supplier in Great Britain with roughly four million home energy customers. It sits at the retail end of the GB energy value chain: buying wholesale, holding an Ofgem supply licence, settling through Elexon, reading SMETS2 smart meters over the licensed Smart DCC network, and billing the customer, alongside solar, home battery, heat pump, EV smart-charging (Charge Anytime) and demand-flexibility (Power Move) propositions. Its parent OVO Group also owns Kaluza, an API-first energy intelligence platform licensed to utilities worldwide — the direct British analogue to Octopus Energy's Kraken — but that platform is a separate brand on a separate domain, and none of its API surface is published under OVO Energy. OVO Energy's own API posture is closed: no developer portal, no API documentation, no machine-readable contract, and no third-party route to a customer's usage or billing data. developer.ovoenergy.com, developers.ovoenergy.com, docs.ovoenergy.com and data.ovoenergy.com do not resolve; /developers, /api, /docs, /openapi.json and /.well-known/openid-configuration all return 404; api.ovoenergy.com resolves and is live but answers every path with a bare text/plain 404 (\"No context-path matches the request URI\"). The only consumer data surface found is undocumented and unsupported — smartpaymapi.ovoenergy.com/usage/api/half-hourly returns HTTP 401 JSON to an anonymous caller and serves half-hourly smart-meter consumption only to a signed-in OVO customer session. Britain mandated the metering INFRASTRUCTURE, not a data right: OVO is bound by the Smart Energy Code and the DCC, which is live and implemented, but no consumer data-portability mandate equivalent to Australia's Consumer Data Right or Ontario's Green Button applies to it. The Australian namesake, OVO Energy Pty Ltd, IS a designated CDR energy data holder — but it was acquired outright by AGL Energy in April 2024 and is no longer part of this organization, so that obligation does not attach here. Consumer data is closed, open market data is published by other GB parties (NESO, Elexon, the DNOs), and on 11 May 2026 OVO agreed the sale of this retail business to E.ON, with Kaluza explicitly excluded from the deal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/screenshots/ovo-energy-2026-08-07T191145.png",
-     "score": 19.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5344,571 +5383,22 @@
      "rank": 106
     },
     {
-     "name": "Energy Robotics",
-     "slug": "energy-robotics",
-     "description": "Energy Robotics GmbH, now trading as Korial, is a Darmstadt, Germany enterprise AI platform (spun out of TU Darmstadt robotics research) for fully autonomous industrial operations. It is hardware-agnostic, unifying mixed-vendor robots, legged and tracked ground robots, drones, fixed cameras, and field sensors into a single governed AI operating layer that turns live telemetry into verified insight and orchestrated action across oil & gas, chemicals, power & utilities, and critical infrastructure. The platform spans four modules: Kore (the AI core with LLM, agentic workflows, embedded AI skills, and fleet/device supervision), Connect (an integration backbone exposing bidirectional governed APIs into ERP, EAM, SCADA, historians and ICS/OT systems), Recreate (digital twins and mission simulation), and Sustain (support, onboarding, and managed mission execution). Korial reports 1,000,000+ autonomous inspections, 100+ global deployments, and named customers including Shell, bp, Repsol, Petrobras, Pluspetrol, Chevron, E.ON, Evonik, BASF, and Merck. Rebranded from Energy Robotics GmbH on 4 May 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-robotics/refs/heads/main/screenshots/energy-robotics-2026-07-25T213334.png",
-     "score": 19.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 32.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 107
-    },
-    {
-     "name": "HData",
-     "slug": "hdata",
-     "description": "HData is the AI-native operating system for energy regulation. Founded in 2018 by Hudson Hollister, the platform turns disconnected federal and state regulatory filings, dockets, and proceedings from sources such as FERC, EIA, and state utility commissions into standardized, citable, machine-readable data. It combines centralized regulatory data, domain-specific AI trained on more than 20 million citable documents, and purpose-built tools — including HData Analytics, Regulatory Intelligence, Gateway for FERC data extraction, and Data Request Management — to help utilities, regulators, advocates, advisory firms, financial institutions, and large energy customers accelerate rate cases, resource planning, compliance reporting, and policy research.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hdata/refs/heads/main/screenshots/hdata-2026-07-25T220814.png",
-     "score": 19.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 25.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 108
-    },
-    {
-     "name": "Percepto",
-     "slug": "percepto",
-     "description": "Percepto is an Israeli-founded industrial autonomy company (founded 2014, offices in Modi'in, Israel and the United States) that builds drone-in-a-box hardware and the software that runs it. Its hardware line includes the Percepto Air Max and Air Mobile drones and the Percepto Base docking station, and its software product is Percepto AIM (Autonomous Inspection and Monitoring), a platform that plans and launches autonomous missions, ingests visual, thermal, optical-gas-imaging and 3D data from Percepto drones as well as third-party DJI drones and fixed cameras, and applies AI-driven analytics to produce inspection, monitoring, emergency-response and security insights for oil and gas, mining, electric utilities, solar, ports and heavy industry sites. Percepto holds FAA beyond-visual-line-of-sight (BVLOS) authorizations for automated industrial inspections and has raised approximately $138.6M. The Percepto AIM console is served at drones.percepto.co and exposes an HTTP API under /api/, but the API schema and API documentation routes both redirect anonymous callers to a customer login: Percepto publishes no public developer portal, no OpenAPI document and no public API reference.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/screenshots/percepto-2026-09-02T151035.png",
-     "score": 19.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 27.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 109
-    },
-    {
-     "name": "Synop",
-     "slug": "synop",
-     "description": "Synop is a software platform for commercial electric vehicle fleet charging and energy management, describing itself as \"the operating system for commercial EV fleets.\" Its hardware- and software-agnostic platform integrates vehicles, chargers, and the grid across the U.S. and Europe, spanning charge management (remote charger control, real-time alerts, EVSE interoperability across 100+ charging station models), energy management (AI-based load and time-of-use optimization, curtailment, demand response, and vehicle-to-grid events), vehicle management (state-of-charge and efficiency via telematics), payment management (billing, driver reimbursement, and transaction reporting), utility management, and SynopLink edge connectivity for site-level operations. Synop cites 500+ MWh under management across 800+ commercial depots. Its API integrations surface live time-of-use rate data and export reimbursement data to accounting and expense systems, though the developer documentation is a password-gated ReadMe admin guide rather than a public developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/synop/refs/heads/main/screenshots/synop-2026-09-02T161506.png",
-     "score": 18.8,
+     "name": "OVO Energy",
+     "slug": "ovo-energy",
+     "description": "OVO Energy is a United Kingdom household electricity and gas supplier founded in Bristol in 2009 by Stephen Fitzpatrick, and — after absorbing SSE's household energy business in January 2020 — the third-largest domestic supplier in Great Britain with roughly four million home energy customers. It sits at the retail end of the GB energy value chain: buying wholesale, holding an Ofgem supply licence, settling through Elexon, reading SMETS2 smart meters over the licensed Smart DCC network, and billing the customer, alongside solar, home battery, heat pump, EV smart-charging (Charge Anytime) and demand-flexibility (Power Move) propositions. Its parent OVO Group also owns Kaluza, an API-first energy intelligence platform licensed to utilities worldwide — the direct British analogue to Octopus Energy's Kraken — but that platform is a separate brand on a separate domain, and none of its API surface is published under OVO Energy. OVO Energy's own API posture is closed: no developer portal, no API documentation, no machine-readable contract, and no third-party route to a customer's usage or billing data. developer.ovoenergy.com, developers.ovoenergy.com, docs.ovoenergy.com and data.ovoenergy.com do not resolve; /developers, /api, /docs, /openapi.json and /.well-known/openid-configuration all return 404; api.ovoenergy.com resolves and is live but answers every path with a bare text/plain 404 (\"No context-path matches the request URI\"). The only consumer data surface found is undocumented and unsupported — smartpaymapi.ovoenergy.com/usage/api/half-hourly returns HTTP 401 JSON to an anonymous caller and serves half-hourly smart-meter consumption only to a signed-in OVO customer session. Britain mandated the metering INFRASTRUCTURE, not a data right: OVO is bound by the Smart Energy Code and the DCC, which is live and implemented, but no consumer data-portability mandate equivalent to Australia's Consumer Data Right or Ontario's Green Button applies to it. The Australian namesake, OVO Energy Pty Ltd, IS a designated CDR energy data holder — but it was acquired outright by AGL Energy in April 2024 and is no longer part of this organization, so that obligation does not attach here. Consumer data is closed, open market data is published by other GB parties (NESO, Elexon, the DNOs), and on 11 May 2026 OVO agreed the sale of this retail business to E.ON, with Kaluza explicitly excluded from the deal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/screenshots/ovo-energy-2026-08-07T191145.png",
+     "score": 19.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 25.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 110
-    },
-    {
-     "name": "Uplight",
-     "slug": "uplight",
-     "description": "Uplight is a Boulder, Colorado energy technology company formed in 2019 from the merger of Tendril and Simple Energy and expanded through the acquisitions of EnergySavvy, FirstFuel, Ecotagious, EEme, and DERMS/VPP provider AutoGrid (closed February 2024). It sells software to electric and gas utilities and retailers in North America, Europe, and Asia rather than to consumers, covering energy efficiency and electrification marketplaces, home energy reports, rate engagement, demand response, distributed energy resource management (DERMS), virtual power plants, and a utility data lake with analytics. In the United States value chain Uplight sits on the utility side of the meter as a vendor and orchestration layer between the utility, its customers, and connected devices, and it publicly states support for OpenADR, IEEE 2030.5, Modbus, DNP3 and other SCADA protocols for DER control. Its API posture is honestly closed — a Developer Platform exists and is marketed to utilities and ecosystem partners, the documentation portal at docs.uplight.com serves a public landing shell but every Documentation and API Reference path redirects to a ReadMe login, and the production gateway at api.uplight.com answers anonymously only with HTTP 401 and a bearer-token error. No consumer usage-data API, no open market data, no downloadable OpenAPI, and no Green Button or ESPI reference could be found. Uplight is a software vendor, not a regulated data holder, so no consumer data mandate applies to it.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/screenshots/uplight-2026-09-02T165035.png",
-     "score": 18.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 32.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 111
-    },
-    {
-     "name": "Southwest Gas",
-     "slug": "southwest-gas",
-     "description": "Southwest Gas Holdings is a natural gas distribution company that purchases, distributes, and transports natural gas for customers in Arizona, Nevada, and California. As a Fortune 1000 utility company headquartered in Las Vegas, Nevada, Southwest Gas serves over 2 million customers through its regulated utility segment and also operates Centuri Group, a full-service utility infrastructure services company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwest-gas/refs/heads/main/screenshots/southwest-gas-2026-06-20T194233.png",
-     "score": 18.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 28.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 14.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 112
-    },
-    {
-     "name": "FortisBC",
-     "slug": "fortisbc",
-     "description": "FortisBC is a British Columbia energy utility and a subsidiary of Fortis Inc., delivering natural gas to more than 1,054,000 customers and electricity directly to close to 185,000 customers across the province's Southern Interior, plus liquefied natural gas from the Tilbury and Mt. Hayes facilities, renewable natural gas, and EV charging. It sits at the regulated distribution tier of the value chain — the wires-and-pipes monopoly that meters the customer — under British Columbia Utilities Commission oversight, in a province with no wholesale electricity market and no consumer energy data right. Its API posture is honestly none: no developer portal, no published API, no OpenAPI, and no Green Button. British Columbia sits outside Ontario's Green Button regulation (O. Reg. 633/21) and outside Australia's Consumer Data Right, and the Green Button Alliance reports only \"minor discussions of Green Button in British Columbia to-date\". Consumer usage data is reachable only by the account holder through a SiteMinder-protected customer login at accounts.fortisbc.com, or — for commercial gas customers only — pushed into the US EPA's ENERGY STAR Portfolio Manager via that platform's data exchange, an arrangement FortisBC participates in rather than an API it publishes. No open market, grid, or system data is published. Consumer data closed, market data closed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortisbc/refs/heads/main/screenshots/fortisbc-2026-08-07T165419.png",
-     "score": 18.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 4.5,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 25.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 113
-    },
-    {
-     "name": "Httpstat.us",
-     "slug": "httpstat",
-     "description": "httpstat.us is a super simple service for generating different HTTP status codes. It is useful for testing how your own scripts and applications deal with varying HTTP responses, allowing developers to simulate different server response scenarios.",
-     "score": 18.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 45.6,
-      "contract_governance": 0.0,
       "operational_transparency": 13.2,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 114
-    },
-    {
-     "name": "Xcel Energy",
-     "slug": "xcel-energy",
-     "description": "Xcel Energy is a major U.S. electricity and natural gas utility holding company headquartered in Minneapolis, Minnesota, providing service to approximately 3.7 million electricity customers and 2.1 million natural gas customers across eight Midwestern and Western states: Colorado, Minnesota, Texas, New Mexico, North Dakota, South Dakota, Michigan, and Wisconsin. Xcel Energy operates a developer portal at developer-apim.aws.xcelenergy.com that organizes APIs across customer account management, billing, payments, product and service offerings, and request service. The company provides Green Button Connect My Data APIs based on the ESPI (Energy Services Provider Interface) standard developed by NAESB, enabling authorized third-party applications to access customer energy usage data via OAuth 2.0. Xcel Energy also supports IEEE 2030.5 protocol on newer Itron Gen 5 Riva smart meters for direct local-network access to real-time energy data including solar production. Beyond data APIs, Xcel Energy is a Fortune 500 company investing in clean energy, grid modernization, electric vehicle programs, demand response, and renewable energy interconnection.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png",
-     "score": 18.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 16.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 39.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 115
-    },
-    {
-     "name": "American Electric Power",
-     "slug": "american-electric-power",
-     "description": "American Electric Power (AEP) is one of the largest electric utilities in the United States, delivering electricity to more than 5.6 million customers across 11 states through its regulated utility subsidiaries including AEP Ohio, AEP Texas, Appalachian Power, Indiana Michigan Power, Kentucky Power, Public Service Company of Oklahoma, and Southwestern Electric Power Company. AEP operates the nation's largest electricity transmission network spanning over 40,000 miles and maintains approximately 31,000 megawatts of generating capacity.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png",
-     "score": 17.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 116
-    },
-    {
-     "name": "Ohmconnect",
-     "slug": "ohmconnect",
-     "description": "OhmConnect is a residential demand-response and virtual power plant company that turns household electricity flexibility into grid capacity. It alerts customers during \"OhmHours\" — windows when grid power is most expensive or carbon-intensive — and pays them cash, gift cards, and prizes for reducing or automating down their usage, then aggregates those reductions and sells them into wholesale energy markets. It serves California utility customers (PG&E, SCE, and SDG&E) and operates as a competitive retail electricity provider in Texas through OhmConnect Energy. OhmConnect runs a login-gated developer portal (developer.ohmconnect.com) secured with AWS Cognito OAuth2, but publishes no public API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ohmconnect/refs/heads/main/screenshots/ohmconnect-2026-08-07T190040.png",
-     "score": 17.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 27.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 117
-    },
-    {
-     "name": "Enervee",
-     "slug": "enervee",
-     "description": "Enervee operates an AI-powered white-label marketplace platform that helps utilities and government energy programs scale energy efficiency across 39 million-plus households in North America. Its stack spans a utility-branded online store for efficient appliances and equipment across 40-plus product categories (HVAC, water heaters, heat pumps, smart thermostats, EV chargers), the Enervee Score - a proprietary 0-100 energy-efficiency rating updated daily - Eco Financing embedded lending at checkout through national bank partners, and Instant Rebates that automatically stack utility, government, and manufacturer incentives at checkout. Enervee is a portfolio company of Obvious Ventures. No public developer API or documentation surface is currently published; this profile captures the company's public security, trust, and identity posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enervee/refs/heads/main/screenshots/enervee-2026-07-25T213339.png",
-     "score": 17.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
       "developer_ergonomics": 7.1,
-      "access_clarity": 36.8
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5940,7 +5430,613 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 107
+    },
+    {
+     "name": "Energy Robotics",
+     "slug": "energy-robotics",
+     "description": "Energy Robotics GmbH, now trading as Korial, is a Darmstadt, Germany enterprise AI platform (spun out of TU Darmstadt robotics research) for fully autonomous industrial operations. It is hardware-agnostic, unifying mixed-vendor robots, legged and tracked ground robots, drones, fixed cameras, and field sensors into a single governed AI operating layer that turns live telemetry into verified insight and orchestrated action across oil & gas, chemicals, power & utilities, and critical infrastructure. The platform spans four modules: Kore (the AI core with LLM, agentic workflows, embedded AI skills, and fleet/device supervision), Connect (an integration backbone exposing bidirectional governed APIs into ERP, EAM, SCADA, historians and ICS/OT systems), Recreate (digital twins and mission simulation), and Sustain (support, onboarding, and managed mission execution). Korial reports 1,000,000+ autonomous inspections, 100+ global deployments, and named customers including Shell, bp, Repsol, Petrobras, Pluspetrol, Chevron, E.ON, Evonik, BASF, and Merck. Rebranded from Energy Robotics GmbH on 4 May 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-robotics/refs/heads/main/screenshots/energy-robotics-2026-07-25T213334.png",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 32.4,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 108
+    },
+    {
+     "name": "HData",
+     "slug": "hdata",
+     "description": "HData is the AI-native operating system for energy regulation. Founded in 2018 by Hudson Hollister, the platform turns disconnected federal and state regulatory filings, dockets, and proceedings from sources such as FERC, EIA, and state utility commissions into standardized, citable, machine-readable data. It combines centralized regulatory data, domain-specific AI trained on more than 20 million citable documents, and purpose-built tools — including HData Analytics, Regulatory Intelligence, Gateway for FERC data extraction, and Data Request Management — to help utilities, regulators, advocates, advisory firms, financial institutions, and large energy customers accelerate rate cases, resource planning, compliance reporting, and policy research.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hdata/refs/heads/main/screenshots/hdata-2026-07-25T220814.png",
+     "score": 19.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 25.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 109
+    },
+    {
+     "name": "Percepto",
+     "slug": "percepto",
+     "description": "Percepto is an Israeli-founded industrial autonomy company (founded 2014, offices in Modi'in, Israel and the United States) that builds drone-in-a-box hardware and the software that runs it. Its hardware line includes the Percepto Air Max and Air Mobile drones and the Percepto Base docking station, and its software product is Percepto AIM (Autonomous Inspection and Monitoring), a platform that plans and launches autonomous missions, ingests visual, thermal, optical-gas-imaging and 3D data from Percepto drones as well as third-party DJI drones and fixed cameras, and applies AI-driven analytics to produce inspection, monitoring, emergency-response and security insights for oil and gas, mining, electric utilities, solar, ports and heavy industry sites. Percepto holds FAA beyond-visual-line-of-sight (BVLOS) authorizations for automated industrial inspections and has raised approximately $138.6M. The Percepto AIM console is served at drones.percepto.co and exposes an HTTP API under /api/, but the API schema and API documentation routes both redirect anonymous callers to a customer login: Percepto publishes no public developer portal, no OpenAPI document and no public API reference.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/screenshots/percepto-2026-09-02T151035.png",
+     "score": 19.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 27.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 110
+    },
+    {
+     "name": "Synop",
+     "slug": "synop",
+     "description": "Synop is a software platform for commercial electric vehicle fleet charging and energy management, describing itself as \"the operating system for commercial EV fleets.\" Its hardware- and software-agnostic platform integrates vehicles, chargers, and the grid across the U.S. and Europe, spanning charge management (remote charger control, real-time alerts, EVSE interoperability across 100+ charging station models), energy management (AI-based load and time-of-use optimization, curtailment, demand response, and vehicle-to-grid events), vehicle management (state-of-charge and efficiency via telematics), payment management (billing, driver reimbursement, and transaction reporting), utility management, and SynopLink edge connectivity for site-level operations. Synop cites 500+ MWh under management across 800+ commercial depots. Its API integrations surface live time-of-use rate data and export reimbursement data to accounting and expense systems, though the developer documentation is a password-gated ReadMe admin guide rather than a public developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/synop/refs/heads/main/screenshots/synop-2026-09-02T161506.png",
+     "score": 18.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 25.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 111
+    },
+    {
+     "name": "Uplight",
+     "slug": "uplight",
+     "description": "Uplight is a Boulder, Colorado energy technology company formed in 2019 from the merger of Tendril and Simple Energy and expanded through the acquisitions of EnergySavvy, FirstFuel, Ecotagious, EEme, and DERMS/VPP provider AutoGrid (closed February 2024). It sells software to electric and gas utilities and retailers in North America, Europe, and Asia rather than to consumers, covering energy efficiency and electrification marketplaces, home energy reports, rate engagement, demand response, distributed energy resource management (DERMS), virtual power plants, and a utility data lake with analytics. In the United States value chain Uplight sits on the utility side of the meter as a vendor and orchestration layer between the utility, its customers, and connected devices, and it publicly states support for OpenADR, IEEE 2030.5, Modbus, DNP3 and other SCADA protocols for DER control. Its API posture is honestly closed — a Developer Platform exists and is marketed to utilities and ecosystem partners, the documentation portal at docs.uplight.com serves a public landing shell but every Documentation and API Reference path redirects to a ReadMe login, and the production gateway at api.uplight.com answers anonymously only with HTTP 401 and a bearer-token error. No consumer usage-data API, no open market data, no downloadable OpenAPI, and no Green Button or ESPI reference could be found. Uplight is a software vendor, not a regulated data holder, so no consumer data mandate applies to it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/screenshots/uplight-2026-09-02T165035.png",
+     "score": 18.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 32.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 112
+    },
+    {
+     "name": "Southwest Gas",
+     "slug": "southwest-gas",
+     "description": "Southwest Gas Holdings is a natural gas distribution company that purchases, distributes, and transports natural gas for customers in Arizona, Nevada, and California. As a Fortune 1000 utility company headquartered in Las Vegas, Nevada, Southwest Gas serves over 2 million customers through its regulated utility segment and also operates Centuri Group, a full-service utility infrastructure services company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwest-gas/refs/heads/main/screenshots/southwest-gas-2026-06-20T194233.png",
+     "score": 18.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 28.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 14.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 113
+    },
+    {
+     "name": "FortisBC",
+     "slug": "fortisbc",
+     "description": "FortisBC is a British Columbia energy utility and a subsidiary of Fortis Inc., delivering natural gas to more than 1,054,000 customers and electricity directly to close to 185,000 customers across the province's Southern Interior, plus liquefied natural gas from the Tilbury and Mt. Hayes facilities, renewable natural gas, and EV charging. It sits at the regulated distribution tier of the value chain — the wires-and-pipes monopoly that meters the customer — under British Columbia Utilities Commission oversight, in a province with no wholesale electricity market and no consumer energy data right. Its API posture is honestly none: no developer portal, no published API, no OpenAPI, and no Green Button. British Columbia sits outside Ontario's Green Button regulation (O. Reg. 633/21) and outside Australia's Consumer Data Right, and the Green Button Alliance reports only \"minor discussions of Green Button in British Columbia to-date\". Consumer usage data is reachable only by the account holder through a SiteMinder-protected customer login at accounts.fortisbc.com, or — for commercial gas customers only — pushed into the US EPA's ENERGY STAR Portfolio Manager via that platform's data exchange, an arrangement FortisBC participates in rather than an API it publishes. No open market, grid, or system data is published. Consumer data closed, market data closed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortisbc/refs/heads/main/screenshots/fortisbc-2026-08-07T165419.png",
+     "score": 18.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 25.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 114
+    },
+    {
+     "name": "Httpstat.us",
+     "slug": "httpstat",
+     "description": "httpstat.us is a super simple service for generating different HTTP status codes. It is useful for testing how your own scripts and applications deal with varying HTTP responses, allowing developers to simulate different server response scenarios.",
+     "score": 18.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 45.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 20.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 115
+    },
+    {
+     "name": "Xcel Energy",
+     "slug": "xcel-energy",
+     "description": "Xcel Energy is a major U.S. electricity and natural gas utility holding company headquartered in Minneapolis, Minnesota, providing service to approximately 3.7 million electricity customers and 2.1 million natural gas customers across eight Midwestern and Western states: Colorado, Minnesota, Texas, New Mexico, North Dakota, South Dakota, Michigan, and Wisconsin. Xcel Energy operates a developer portal at developer-apim.aws.xcelenergy.com that organizes APIs across customer account management, billing, payments, product and service offerings, and request service. The company provides Green Button Connect My Data APIs based on the ESPI (Energy Services Provider Interface) standard developed by NAESB, enabling authorized third-party applications to access customer energy usage data via OAuth 2.0. Xcel Energy also supports IEEE 2030.5 protocol on newer Itron Gen 5 Riva smart meters for direct local-network access to real-time energy data including solar production. Beyond data APIs, Xcel Energy is a Fortune 500 company investing in clean energy, grid modernization, electric vehicle programs, demand response, and renewable energy interconnection.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png",
+     "score": 18.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 16.5,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 116
+    },
+    {
+     "name": "American Electric Power",
+     "slug": "american-electric-power",
+     "description": "American Electric Power (AEP) is one of the largest electric utilities in the United States, delivering electricity to more than 5.6 million customers across 11 states through its regulated utility subsidiaries including AEP Ohio, AEP Texas, Appalachian Power, Indiana Michigan Power, Kentucky Power, Public Service Company of Oklahoma, and Southwestern Electric Power Company. AEP operates the nation's largest electricity transmission network spanning over 40,000 miles and maintains approximately 31,000 megawatts of generating capacity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png",
+     "score": 17.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 117
+    },
+    {
+     "name": "Ohmconnect",
+     "slug": "ohmconnect",
+     "description": "OhmConnect is a residential demand-response and virtual power plant company that turns household electricity flexibility into grid capacity. It alerts customers during \"OhmHours\" — windows when grid power is most expensive or carbon-intensive — and pays them cash, gift cards, and prizes for reducing or automating down their usage, then aggregates those reductions and sells them into wholesale energy markets. It serves California utility customers (PG&E, SCE, and SDG&E) and operates as a competitive retail electricity provider in Texas through OhmConnect Energy. OhmConnect runs a login-gated developer portal (developer.ohmconnect.com) secured with AWS Cognito OAuth2, but publishes no public API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ohmconnect/refs/heads/main/screenshots/ohmconnect-2026-08-07T190040.png",
+     "score": 17.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 27.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 118
+    },
+    {
+     "name": "Enervee",
+     "slug": "enervee",
+     "description": "Enervee operates an AI-powered white-label marketplace platform that helps utilities and government energy programs scale energy efficiency across 39 million-plus households in North America. Its stack spans a utility-branded online store for efficient appliances and equipment across 40-plus product categories (HVAC, water heaters, heat pumps, smart thermostats, EV chargers), the Enervee Score - a proprietary 0-100 energy-efficiency rating updated daily - Eco Financing embedded lending at checkout through national bank partners, and Instant Rebates that automatically stack utility, government, and manufacturer incentives at checkout. Enervee is a portfolio company of Obvious Ventures. No public developer API or documentation surface is currently published; this profile captures the company's public security, trust, and identity posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enervee/refs/heads/main/screenshots/enervee-2026-07-25T213339.png",
+     "score": 17.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 119
     },
     {
      "name": "Urbint",
@@ -5957,7 +6053,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5989,7 +6085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "WGL Holdings",
@@ -6006,7 +6102,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6038,7 +6134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "JOLT",
@@ -6056,7 +6152,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6088,7 +6184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Berkshire Hathaway",
@@ -6106,7 +6202,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6138,7 +6234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Atmos Energy",
@@ -6156,7 +6252,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6188,7 +6284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Flexitricity",
@@ -6206,7 +6302,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6238,7 +6334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "WEC Energy Group",
@@ -6256,7 +6352,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6288,7 +6384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Tem",
@@ -6305,7 +6401,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6337,7 +6433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "FlexGen Power Systems",
@@ -6355,7 +6451,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6387,7 +6483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "BC Hydro",
@@ -6405,7 +6501,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6437,7 +6533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "Hithium",
@@ -6455,7 +6551,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6487,7 +6583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Nexamp",
@@ -6505,7 +6601,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6537,7 +6633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Haven Energy",
@@ -6555,7 +6651,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6587,7 +6683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Vistra Corp",
@@ -6605,7 +6701,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6637,7 +6733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "UGI Corporation",
@@ -6655,7 +6751,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6687,7 +6783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Beyond Limits",
@@ -6705,7 +6801,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6737,7 +6833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Neara",
@@ -6755,57 +6851,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 135
-    },
-    {
-     "name": "Arbor",
-     "slug": "arbor",
-     "description": "Arbor is a consumer energy savings service operating in deregulated electricity markets across 13 states in the U.S. Northeast, Midwest, and Texas. The Arbor app analyzes a household's current electricity supply rate, matches the customer with vetted alternative suppliers, and automatically switches them to a lower-cost plan when one becomes available, all without changing the utility provider, interrupting service, or charging the customer. Arbor earns revenue through referral fees from energy suppliers rather than from consumers. Founded in 2022 by Andrew Meyer (previously co-founder of Swell Energy), Arbor is backed by First Round Capital, Obvious Ventures, Spring Tide Capital, and Blisce. Arbor is a consumer-facing application and does not currently publish a public API, developer portal, or technical documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arbor/refs/heads/main/screenshots/arbor-2026-07-25T201001.png",
-     "score": 13.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6840,10 +6886,10 @@
      "rank": 136
     },
     {
-     "name": "Fuse",
-     "slug": "fuse",
-     "description": "Fuse Energy is a UK retail energy supplier providing gas and electricity to homes and businesses, alongside EV charging, solar and battery storage tracking with grid export, and smart home energy management. The company emphasises savings against the UK price cap, a fast (~3 minute) online sign-up, automated supplier switching, and 24/7 customer support including an AI assistant called \"Plugs\". Fuse was surfaced as a portfolio company of Accel and Speedinvest and added to the API Evangelist network. It operates a consumer/business energy web and mobile experience and does not publish a public developer API program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuse/refs/heads/main/screenshots/fuse-2026-07-25T215326.png",
+     "name": "Arbor",
+     "slug": "arbor",
+     "description": "Arbor is a consumer energy savings service operating in deregulated electricity markets across 13 states in the U.S. Northeast, Midwest, and Texas. The Arbor app analyzes a household's current electricity supply rate, matches the customer with vetted alternative suppliers, and automatically switches them to a lower-cost plan when one becomes available, all without changing the utility provider, interrupting service, or charging the customer. Arbor earns revenue through referral fees from energy suppliers rather than from consumers. Founded in 2022 by Andrew Meyer (previously co-founder of Swell Energy), Arbor is backed by First Round Capital, Obvious Ventures, Spring Tide Capital, and Blisce. Arbor is a consumer-facing application and does not currently publish a public API, developer portal, or technical documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arbor/refs/heads/main/screenshots/arbor-2026-07-25T201001.png",
      "score": 13.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6855,7 +6901,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6890,10 +6936,10 @@
      "rank": 137
     },
     {
-     "name": "Fuse Energy",
-     "slug": "fuse-energy",
-     "description": "Fuse Energy (Fuse Energy Supply Limited) is a UK-based residential and business energy supplier providing gas and electricity on variable, fixed, and multi-rate tariffs, alongside EV charging, solar and battery export tracking, multi-property account management, and an in-app AI energy assistant called Plugs. The company positions itself around beating the UK energy price cap, sign-up in under three minutes, and 24-hour customer support. It operates a consumer- and business-facing web and mobile app experience and publishes no public API, developer portal, or SDKs at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuse-energy/refs/heads/main/screenshots/fuse-energy-2026-07-25T215328.png",
+     "name": "Fuse",
+     "slug": "fuse",
+     "description": "Fuse Energy is a UK retail energy supplier providing gas and electricity to homes and businesses, alongside EV charging, solar and battery storage tracking with grid export, and smart home energy management. The company emphasises savings against the UK price cap, a fast (~3 minute) online sign-up, automated supplier switching, and 24/7 customer support including an AI assistant called \"Plugs\". Fuse was surfaced as a portfolio company of Accel and Speedinvest and added to the API Evangelist network. It operates a consumer/business energy web and mobile experience and does not publish a public developer API program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuse/refs/heads/main/screenshots/fuse-2026-07-25T215326.png",
      "score": 13.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6905,7 +6951,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6940,6 +6986,56 @@
      "rank": 138
     },
     {
+     "name": "Fuse Energy",
+     "slug": "fuse-energy",
+     "description": "Fuse Energy (Fuse Energy Supply Limited) is a UK-based residential and business energy supplier providing gas and electricity on variable, fixed, and multi-rate tariffs, alongside EV charging, solar and battery export tracking, multi-property account management, and an in-app AI energy assistant called Plugs. The company positions itself around beating the UK energy price cap, sign-up in under three minutes, and 24-hour customer support. It operates a consumer- and business-facing web and mobile app experience and publishes no public API, developer portal, or SDKs at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuse-energy/refs/heads/main/screenshots/fuse-energy-2026-07-25T215328.png",
+     "score": 13.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 139
+    },
+    {
      "name": "Overstory",
      "slug": "overstory",
      "description": "Overstory provides AI-powered vegetation intelligence for electric utilities and grid operators. The platform fuses high-resolution satellite and aerial imagery with machine learning to detect vegetation encroachment, hazard trees, and wildfire risk along power line corridors, helping utilities prioritize trimming, optimize vegetation management spend, and improve grid reliability (SAIDI). Overstory was founded as 20tree.ai and surfaced in the API Evangelist network as a Techstars portfolio company. As of this profile the company delivers its intelligence through a customer platform and services rather than a public developer API; no public API documentation, OpenAPI, or developer portal was found during enrichment.",
@@ -6955,7 +7051,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6987,7 +7083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "FYLD",
@@ -7005,7 +7101,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7037,7 +7133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Inspire",
@@ -7055,7 +7151,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7087,7 +7183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Constellation Energy",
@@ -7105,7 +7201,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7137,7 +7233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Evie Networks",
@@ -7155,57 +7251,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 25.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 143
-    },
-    {
-     "name": "Utilidata",
-     "slug": "utilidata",
-     "description": "Utilidata is an Ann Arbor, Michigan software company building Karman, a distributed AI platform that runs on a custom NVIDIA system-on-module embedded directly into electrical infrastructure — smart meters and grid-edge devices on the utility side, PDUs and power trays inside AI data centers. Karman processes high-resolution AC metrology locally (single-cycle waveform statistics at 1+ MS/s sample rates) to produce \"data products\" such as Power Quality Analytics, enabling millisecond-level power control, GPU/PSU failure prediction, phase balancing and power-aware scheduling. Utilidata publishes the Karman Power Aware Module as Apache-2.0 open source: a Rust reference implementation that serializes Karman data products as Protocol Buffers (package utilidata.karman.bibimbap.v1), transports them over ZeroMQ, and exposes them to Prometheus and TimescaleDB through a Helm-packaged Kubernetes stack. The company has raised a $100M Series C and counts NVIDIA, Microsoft Climate Innovation Fund, American Electric Power and Renown Capital Partners among its backers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/screenshots/utilidata-2026-09-02T165243.png",
-     "score": 12.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7240,28 +7286,28 @@
      "rank": 144
     },
     {
-     "name": "Daupler",
-     "slug": "daupler",
-     "description": "Daupler provides a cloud-based Response Management System (RMS) for utilities, public works, and service organizations that automates and coordinates emergency and service-request response. Its product suite spans Daupler Answering (after-hours call center), Dispatch Assist and AI-driven call management, Callout crew notification, Notify mass notification via SMS/email/phone, Engage customer portal, Event Detection for multi-incident coordination, and Analytics for incident and team-performance insight. Daupler serves water, sewer, electric, multi-utility, trash-collection, and public-works operators. The RMS is built on RESTful services and integrates with CMMS, work-order, AMI, IoT sensor, billing, CIS, CRM, OMS, GIS, and citizen-request systems, though Daupler exposes no public self-serve developer API or documentation. Backed by Techstars.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daupler/refs/heads/main/screenshots/daupler-2026-07-25T211429.png",
-     "score": 11.9,
+     "name": "Utilidata",
+     "slug": "utilidata",
+     "description": "Utilidata is an Ann Arbor, Michigan software company building Karman, a distributed AI platform that runs on a custom NVIDIA system-on-module embedded directly into electrical infrastructure — smart meters and grid-edge devices on the utility side, PDUs and power trays inside AI data centers. Karman processes high-resolution AC metrology locally (single-cycle waveform statistics at 1+ MS/s sample rates) to produce \"data products\" such as Power Quality Analytics, enabling millisecond-level power control, GPU/PSU failure prediction, phase balancing and power-aware scheduling. Utilidata publishes the Karman Power Aware Module as Apache-2.0 open source: a Rust reference implementation that serializes Karman data products as Protocol Buffers (package utilidata.karman.bibimbap.v1), transports them over ZeroMQ, and exposes them to Prometheus and TimescaleDB through a Helm-packaged Kubernetes stack. The company has raised a $100M Series C and counts NVIDIA, Microsoft Climate Innovation Fund, American Electric Power and Renown Capital Partners among its backers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/screenshots/utilidata-2026-09-02T165243.png",
+     "score": 12.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 18.9,
+      "score": 25.7,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -7290,22 +7336,22 @@
      "rank": 145
     },
     {
-     "name": "Choose Energy",
-     "slug": "choose-energy",
-     "description": "Choose Energy is a free online energy marketplace, founded in 2008 and operated by Red Ventures, that helps consumers and businesses in deregulated U.S. energy markets compare electricity and natural gas plans, view transparent all-inclusive pricing, and switch providers online in minutes. The platform serves customers across Texas, Pennsylvania, Ohio, Illinois, New Jersey, New York, Maryland, Massachusetts, Connecticut, and other deregulated states, and also offers solar cost estimation, business energy procurement, and educational energy resources. Choose Energy is a consumer-facing web marketplace and does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/choose-energy/refs/heads/main/screenshots/choose-energy-2026-07-25T205252.png",
-     "score": 11.3,
+     "name": "Daupler",
+     "slug": "daupler",
+     "description": "Daupler provides a cloud-based Response Management System (RMS) for utilities, public works, and service organizations that automates and coordinates emergency and service-request response. Its product suite spans Daupler Answering (after-hours call center), Dispatch Assist and AI-driven call management, Callout crew notification, Notify mass notification via SMS/email/phone, Engage customer portal, Event Detection for multi-incident coordination, and Analytics for incident and team-performance insight. Daupler serves water, sewer, electric, multi-utility, trash-collection, and public-works operators. The RMS is built on RESTful services and integrates with CMMS, work-order, AMI, IoT sensor, billing, CIS, CRM, OMS, GIS, and citizen-request systems, though Daupler exposes no public self-serve developer API or documentation. Backed by Techstars.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daupler/refs/heads/main/screenshots/daupler-2026-07-25T211429.png",
+     "score": 11.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7340,10 +7386,10 @@
      "rank": 146
     },
     {
-     "name": "Exodigo",
-     "slug": "exodigo",
-     "description": "Exodigo is a subsurface intelligence company that maps what is underground and above ground without digging. Founded in 2021 by former Israeli intelligence officers and headquartered in the San Francisco Bay Area, it fuses ground-penetrating radar, electromagnetic (TDEM/FDEM), magnetic gradiometry and electrical sensing with GPS-RTK positioning, then processes the combined signal with AI to produce geolocated 3D maps of buried utilities, foundations and geotechnical conditions. Products span ExoInfo remote data intelligence (AI compilation of public records, engineering documents and imagery), on-site reality capture, AI engineering and digitization, and utility relocation services. Deliverables are handed to customers as GIS and CAD artifacts (Esri ArcGIS, AutoCAD, BIM) and through a client portal rather than a public developer API — as of this profiling pass Exodigo publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK or MCP server. Customers include LA Metro, Caltrans, National Grid, VINCI Construction and state DOTs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exodigo/refs/heads/main/screenshots/exodigo-2026-08-07T165107.png",
+     "name": "Choose Energy",
+     "slug": "choose-energy",
+     "description": "Choose Energy is a free online energy marketplace, founded in 2008 and operated by Red Ventures, that helps consumers and businesses in deregulated U.S. energy markets compare electricity and natural gas plans, view transparent all-inclusive pricing, and switch providers online in minutes. The platform serves customers across Texas, Pennsylvania, Ohio, Illinois, New Jersey, New York, Maryland, Massachusetts, Connecticut, and other deregulated states, and also offers solar cost estimation, business energy procurement, and educational energy resources. Choose Energy is a consumer-facing web marketplace and does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/choose-energy/refs/heads/main/screenshots/choose-energy-2026-07-25T205252.png",
      "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7355,7 +7401,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7390,6 +7436,56 @@
      "rank": 147
     },
     {
+     "name": "Exodigo",
+     "slug": "exodigo",
+     "description": "Exodigo is a subsurface intelligence company that maps what is underground and above ground without digging. Founded in 2021 by former Israeli intelligence officers and headquartered in the San Francisco Bay Area, it fuses ground-penetrating radar, electromagnetic (TDEM/FDEM), magnetic gradiometry and electrical sensing with GPS-RTK positioning, then processes the combined signal with AI to produce geolocated 3D maps of buried utilities, foundations and geotechnical conditions. Products span ExoInfo remote data intelligence (AI compilation of public records, engineering documents and imagery), on-site reality capture, AI engineering and digitization, and utility relocation services. Deliverables are handed to customers as GIS and CAD artifacts (Esri ArcGIS, AutoCAD, BIM) and through a client portal rather than a public developer API — as of this profiling pass Exodigo publishes no developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK or MCP server. Customers include LA Metro, Caltrans, National Grid, VINCI Construction and state DOTs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exodigo/refs/heads/main/screenshots/exodigo-2026-08-07T165107.png",
+     "score": 11.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 148
+    },
+    {
      "name": "Solaren",
      "slug": "solaren",
      "description": "Solaren is a combination energy and aerospace company headquartered in Manhattan Beach, California, founded in 2001 by a team of satellite engineers and space scientists. Solaren designs, develops, integrates, deploys and operates space solar power (SSP) plants: solar arrays on a patented lightweight solar power satellite in geosynchronous orbit convert sunlight to electricity, convert that electricity to radio-frequency power, and beam it to an earth receiving station that returns it to the grid as baseload power. The company's business model is to own and operate its SSP plants and sell continuous, zero-emission electricity to utility and government customers; it signed the world's first power purchase agreement for space solar electricity, with Pacific Gas & Electric. Solaren is a hardware and energy-generation company and publishes no public developer program, API, or machine-readable API contract.",
@@ -7405,7 +7501,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7437,7 +7533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 149
     }
    ]
   },
@@ -7446,8 +7542,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 65,
-   "shown": 65,
+   "count": 64,
+   "shown": 64,
    "providers": [
     {
      "name": "ConnectDER",
@@ -7465,7 +7561,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7497,7 +7593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Sempra Energy",
@@ -7514,7 +7610,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7546,7 +7642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "AMSC",
@@ -7564,57 +7660,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 151
-    },
-    {
-     "name": "AGL Resources",
-     "slug": "agl-resources",
-     "description": "AGL Resources was an energy services holding company headquartered in Atlanta, Georgia, whose principal business was the distribution of natural gas to residential, commercial, and industrial customers. In 2016, AGL Resources was acquired by Southern Company and renamed Southern Company Gas, becoming the nation's largest natural gas-only distribution company. The company distributes natural gas through subsidiaries including Atlanta Gas Light, Chattanooga Gas, Nicor Gas, and Virginia Natural Gas. AGL Resources / Southern Company Gas does not offer a public developer API; utility data access is available through third-party data aggregators and community-built integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agl-resources/refs/heads/main/screenshots/agl-resources-2026-06-20T170314.png",
-     "score": 10.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7649,22 +7695,22 @@
      "rank": 152
     },
     {
-     "name": "Optiwatt",
-     "slug": "optiwatt",
-     "description": "Optiwatt is a consumer-centric energy management platform that helps electric-vehicle drivers and homeowners lower their electricity bills by automatically scheduling EV charging and smart-thermostat use for off-peak, low-cost, and low-carbon hours. Its consumer app (getoptiwatt.com) connects to vehicles, chargers, and thermostats via direct OEM integrations such as the Tesla Fleet API and aggregators like Smartcar, while its utility platform (optiwatt.com) orchestrates these distributed energy resources as virtual power plants across demand-response and load-shaping programs for utility partners. Backed by GV. Optiwatt is primarily a consumer of third-party APIs rather than a public API producer; no public developer API or OpenAPI has been found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optiwatt/refs/heads/main/screenshots/optiwatt-2026-08-07T190814.png",
-     "score": 10.1,
+     "name": "AGL Resources",
+     "slug": "agl-resources",
+     "description": "AGL Resources was an energy services holding company headquartered in Atlanta, Georgia, whose principal business was the distribution of natural gas to residential, commercial, and industrial customers. In 2016, AGL Resources was acquired by Southern Company and renamed Southern Company Gas, becoming the nation's largest natural gas-only distribution company. The company distributes natural gas through subsidiaries including Atlanta Gas Light, Chattanooga Gas, Nicor Gas, and Virginia Natural Gas. AGL Resources / Southern Company Gas does not offer a public developer API; utility data access is available through third-party data aggregators and community-built integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agl-resources/refs/heads/main/screenshots/agl-resources-2026-06-20T170314.png",
+     "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7699,11 +7745,11 @@
      "rank": 153
     },
     {
-     "name": "David Energy",
-     "slug": "david-energy",
-     "description": "David Energy is a clean-energy technology company and licensed electricity retailer that installs free plug-in smart batteries for homes and businesses. Its software charges batteries when grid power is cheap and discharges them during peak-price periods to lower customers' monthly utility bills, alongside bill-monitoring and thermostat-management advisory tools. Backed by Union Square Ventures, David Energy operates in the New York City market with a stated mission of powering the grid on 100% clean energy and shifting the balance of energy control from institutions toward consumers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/david-energy/refs/heads/main/screenshots/david-energy-2026-07-25T211430.png",
-     "score": 10.0,
+     "name": "Optiwatt",
+     "slug": "optiwatt",
+     "description": "Optiwatt is a consumer-centric energy management platform that helps electric-vehicle drivers and homeowners lower their electricity bills by automatically scheduling EV charging and smart-thermostat use for off-peak, low-cost, and low-carbon hours. Its consumer app (getoptiwatt.com) connects to vehicles, chargers, and thermostats via direct OEM integrations such as the Tesla Fleet API and aggregators like Smartcar, while its utility platform (optiwatt.com) orchestrates these distributed energy resources as virtual power plants across demand-response and load-shaping programs for utility partners. Backed by GV. Optiwatt is primarily a consumer of third-party APIs rather than a public API producer; no public developer API or OpenAPI has been found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optiwatt/refs/heads/main/screenshots/optiwatt-2026-08-07T190814.png",
+     "score": 10.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -7711,110 +7757,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 13.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 154
-    },
-    {
-     "name": "AutoGrid",
-     "slug": "autogrid",
-     "description": "AutoGrid Systems is a United States grid-technology company founded in 2011 by Amit Narayan in Redwood City, California, that built AI and machine-learning software for distributed energy resource management (DERMS), virtual power plants, and automated demand response under the AutoGrid Flex platform, selling to investor-owned utilities, retailers, and aggregators rather than to end consumers. It sits on the grid-tech / DERMS layer of the energy value chain - a buyer and orchestrator of utility and device data, not a data custodian - so no Green Button, Consumer Data Right, or smart-meter data-sharing obligation attaches to it. Schneider Electric took control of AutoGrid and then sold it to Uplight in a deal announced 14 December 2023 and closed in early 2024; auto-grid.com now serves only a 270-byte meta-refresh to uplight.com (on an expired TLS certificate as of 27 July 2026) and every developer, docs, api, and data subdomain fails to resolve. Its API posture is therefore honestly none-published - no public developer portal, no OpenAPI, no SDK, no consumer usage API, and no open market data. Its machine-readable contract is instead expressed as protocol conformance, and that is real and still published by the certifying bodies. AutoGrid is a certified OpenADR 2.0a and 2.0b VTN (server) - AutoGrid DROMS and OpenDR Server 2.0, Simple HTTP + XMPP, pull and push - and holds SunSpec Alliance certificate CS-000074 for AutoGrid Flex as an IEEE 2030.5-2018 / CSIP server, tested by Intertek on 12 December 2023 and awarded 22 January 2024. Both surfaces authenticate with mutual TLS x.509 client certificates and were reachable only under commercial contract. The successor surface at docs.uplight.com is real but fully login-gated, redirecting anonymous visitors to a ReadMe dashboard login, and api.uplight.com answers HTTP 401 with \"Invalid or no token provided\" - partner and customer access only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autogrid/refs/heads/main/screenshots/autogrid-2026-08-07T161954.png",
-     "score": 9.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 21.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 155
-    },
-    {
-     "name": "rabot.energy",
-     "slug": "rabotenergy",
-     "description": "rabot.energy (RABOT Energy DE GmbH) is a Hamburg-based German electricity supplier offering dynamic and fixed-rate power tariffs where consumers pay hourly rates that track the wholesale electricity market. The company provides 100% renewable energy certified by TÜV NORD, smart meter installation and management, EV charging optimization (Autostrom), and home battery storage (Rabot Flow), all managed through a consumer mobile app for consumption monitoring. It is a consumer-facing energy retailer; no public developer portal or API is currently published. Added to the API Evangelist network as a portfolio company of HV Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabotenergy/refs/heads/main/screenshots/rabotenergy-2026-09-02T152740.png",
-     "score": 9.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7846,7 +7792,157 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 154
+    },
+    {
+     "name": "David Energy",
+     "slug": "david-energy",
+     "description": "David Energy is a clean-energy technology company and licensed electricity retailer that installs free plug-in smart batteries for homes and businesses. Its software charges batteries when grid power is cheap and discharges them during peak-price periods to lower customers' monthly utility bills, alongside bill-monitoring and thermostat-management advisory tools. Backed by Union Square Ventures, David Energy operates in the New York City market with a stated mission of powering the grid on 100% clean energy and shifting the balance of energy control from institutions toward consumers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/david-energy/refs/heads/main/screenshots/david-energy-2026-07-25T211430.png",
+     "score": 10.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 155
+    },
+    {
+     "name": "AutoGrid",
+     "slug": "autogrid",
+     "description": "AutoGrid Systems is a United States grid-technology company founded in 2011 by Amit Narayan in Redwood City, California, that built AI and machine-learning software for distributed energy resource management (DERMS), virtual power plants, and automated demand response under the AutoGrid Flex platform, selling to investor-owned utilities, retailers, and aggregators rather than to end consumers. It sits on the grid-tech / DERMS layer of the energy value chain - a buyer and orchestrator of utility and device data, not a data custodian - so no Green Button, Consumer Data Right, or smart-meter data-sharing obligation attaches to it. Schneider Electric took control of AutoGrid and then sold it to Uplight in a deal announced 14 December 2023 and closed in early 2024; auto-grid.com now serves only a 270-byte meta-refresh to uplight.com (on an expired TLS certificate as of 27 July 2026) and every developer, docs, api, and data subdomain fails to resolve. Its API posture is therefore honestly none-published - no public developer portal, no OpenAPI, no SDK, no consumer usage API, and no open market data. Its machine-readable contract is instead expressed as protocol conformance, and that is real and still published by the certifying bodies. AutoGrid is a certified OpenADR 2.0a and 2.0b VTN (server) - AutoGrid DROMS and OpenDR Server 2.0, Simple HTTP + XMPP, pull and push - and holds SunSpec Alliance certificate CS-000074 for AutoGrid Flex as an IEEE 2030.5-2018 / CSIP server, tested by Intertek on 12 December 2023 and awarded 22 January 2024. Both surfaces authenticate with mutual TLS x.509 client certificates and were reachable only under commercial contract. The successor surface at docs.uplight.com is real but fully login-gated, redirecting anonymous visitors to a ReadMe dashboard login, and api.uplight.com answers HTTP 401 with \"Invalid or no token provided\" - partner and customer access only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autogrid/refs/heads/main/screenshots/autogrid-2026-08-07T161954.png",
+     "score": 9.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 21.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 156
+    },
+    {
+     "name": "rabot.energy",
+     "slug": "rabotenergy",
+     "description": "rabot.energy (RABOT Energy DE GmbH) is a Hamburg-based German electricity supplier offering dynamic and fixed-rate power tariffs where consumers pay hourly rates that track the wholesale electricity market. The company provides 100% renewable energy certified by TÜV NORD, smart meter installation and management, EV charging optimization (Autostrom), and home battery storage (Rabot Flow), all managed through a consumer mobile app for consumption monitoring. It is a consumer-facing energy retailer; no public developer portal or API is currently published. Added to the API Evangelist network as a portfolio company of HV Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabotenergy/refs/heads/main/screenshots/rabotenergy-2026-09-02T152740.png",
+     "score": 9.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 157
     },
     {
      "name": "Portland General Electric",
@@ -7864,57 +7960,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 157
-    },
-    {
-     "name": "South Jersey Industries",
-     "slug": "south-jersey-industries",
-     "description": "South Jersey Industries is a major US corporation and Fortune 1000 company. The South Jersey Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/south-jersey-industries/refs/heads/main/screenshots/south-jersey-industries-2026-06-20T194227.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7949,6 +7995,56 @@
      "rank": 158
     },
     {
+     "name": "South Jersey Industries",
+     "slug": "south-jersey-industries",
+     "description": "South Jersey Industries is a major US corporation and Fortune 1000 company. The South Jersey Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/south-jersey-industries/refs/heads/main/screenshots/south-jersey-industries-2026-06-20T194227.png",
+     "score": 9.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 159
+    },
+    {
      "name": "SpryPoint",
      "slug": "sprypoint",
      "description": "SpryPoint is a cloud-based customer service and operations software provider for utilities, founded in 2012 and headquartered in Charlottetown, Prince Edward Island, Canada. Its platform modernizes the meter-to-cash lifecycle for water & sewer, electric, and gas utilities across North America through an integrated suite of modules: SpryCIS (customer information system), SpryEngage (omnichannel customer portal), SpryWallet (payment processing), SpryMobile MFS (field service orders), SpryMobile WOAM (work order and asset management), SpryBackflow (backflow compliance), and SpryIDM (interval data management). The company serves 100+ utility clients, employs 285+ people, is SOC 2 audited, and is backed by Norwest Venture Partners and Insight Partners. SpryPoint publishes no public developer portal or API documentation; integrations are delivered through partnership engagements rather than a self-service API.",
@@ -7964,7 +8060,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7996,7 +8092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Project Canary",
@@ -8014,7 +8110,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8046,7 +8142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Sealed",
@@ -8064,7 +8160,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8096,7 +8192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Dycom Industries",
@@ -8114,7 +8210,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8146,7 +8242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Powerledger",
@@ -8164,7 +8260,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8196,7 +8292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "Beacon Power Services",
@@ -8214,57 +8310,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 13.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 164
-    },
-    {
-     "name": "Excelergy",
-     "slug": "excelergy",
-     "description": "Excelergy is a global provider of high-performance retail energy billing and revenue management software, now part of Harris Computer. Its flagship product, RevenueManager, is a cloud-based, meter-to-cash billing platform used by competitive energy retailers across more than 200 jurisdictions in North America, Europe, and Asia Pacific. RevenueManager handles residential, commercial, industrial, and wholesale billing across multiple commodities (electricity, natural gas, water, heat, and sewage), supporting complex tariff and pricing models, customer lifecycle management, smart-meter and time-of-use pricing, and built-in Salesforce CRM integration. The platform exposes APIs for connectivity with third-party systems and access to data held in the RevenueManager database. This API Evangelist profile was surfaced as a Battery Ventures portfolio company; Excelergy publishes a corporate marketing site and a customer support portal but no public developer portal, API documentation, or machine-readable specifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/excelergy/refs/heads/main/screenshots/excelergy-2026-07-25T213845.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8299,10 +8345,10 @@
      "rank": 165
     },
     {
-     "name": "Ferrellgas Partners",
-     "slug": "ferrellgas-partners",
-     "description": "Ferrellgas Partners, L.P. (FGPR) is one of the largest propane distributors in the United States, selling and delivering propane to residential, commercial, industrial, agricultural, wholesale and portable tank exchange customers from a nationwide network of district locations, and operating the Blue Rhino propane tank exchange brand. Its digital surface is customer-facing rather than developer-facing: MyFerrellgas (myferrellgas.com) is an Angular single-page account portal backed by a private backend-for-frontend at bff.myferrellgas.com with Amazon Cognito sign-in, and api.ferrellgas.com resolves in DNS but answers every anonymous request with HTTP 503. As of this enrichment pass Ferrellgas publishes no developer program, no API documentation, no SDKs and no machine-readable API contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ferrellgas-partners/refs/heads/main/screenshots/ferrellgas-partners-2026-06-20T181140.png",
+     "name": "Excelergy",
+     "slug": "excelergy",
+     "description": "Excelergy is a global provider of high-performance retail energy billing and revenue management software, now part of Harris Computer. Its flagship product, RevenueManager, is a cloud-based, meter-to-cash billing platform used by competitive energy retailers across more than 200 jurisdictions in North America, Europe, and Asia Pacific. RevenueManager handles residential, commercial, industrial, and wholesale billing across multiple commodities (electricity, natural gas, water, heat, and sewage), supporting complex tariff and pricing models, customer lifecycle management, smart-meter and time-of-use pricing, and built-in Salesforce CRM integration. The platform exposes APIs for connectivity with third-party systems and access to data held in the RevenueManager database. This API Evangelist profile was surfaced as a Battery Ventures portfolio company; Excelergy publishes a corporate marketing site and a customer support portal but no public developer portal, API documentation, or machine-readable specifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/excelergy/refs/heads/main/screenshots/excelergy-2026-07-25T213845.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8314,7 +8360,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8349,10 +8395,10 @@
      "rank": 166
     },
     {
-     "name": "Tantalus",
-     "slug": "tantalus",
-     "description": "Tantalus Systems (TSX: GRID; OTCQX: TGMPF) is a technology company that has served public power utilities and electric cooperatives for over 35 years, modernizing electrical distribution grids through data-centric solutions. Its Tantalus Grid Modernization Platform (TGMP) unifies intelligence across the distribution grid, connecting metering, load and DER management, grid automation, and data management across both legacy and modern infrastructure. Product lines include TRUConnect advanced metering infrastructure (AMI), TRUFlex load and DER management, TRUGrid automation analytics, TRUSync grid data management, and the TRUSense behind-the-meter gateway. Tantalus does not currently publish a public developer API, OpenAPI specification, or developer portal; integration with back-end utility software is delivered through standard data formats and handled via its technical support and integration teams.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tantalus/refs/heads/main/screenshots/tantalus-2026-09-02T162524.png",
+     "name": "Ferrellgas Partners",
+     "slug": "ferrellgas-partners",
+     "description": "Ferrellgas Partners, L.P. (FGPR) is one of the largest propane distributors in the United States, selling and delivering propane to residential, commercial, industrial, agricultural, wholesale and portable tank exchange customers from a nationwide network of district locations, and operating the Blue Rhino propane tank exchange brand. Its digital surface is customer-facing rather than developer-facing: MyFerrellgas (myferrellgas.com) is an Angular single-page account portal backed by a private backend-for-frontend at bff.myferrellgas.com with Amazon Cognito sign-in, and api.ferrellgas.com resolves in DNS but answers every anonymous request with HTTP 503. As of this enrichment pass Ferrellgas publishes no developer program, no API documentation, no SDKs and no machine-readable API contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ferrellgas-partners/refs/heads/main/screenshots/ferrellgas-partners-2026-06-20T181140.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8364,7 +8410,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8399,22 +8445,22 @@
      "rank": 167
     },
     {
-     "name": "The Human Utility",
-     "slug": "the-human-utility",
-     "description": "The Human Utility (formerly the Detroit Water Project) is a Y Combinator-backed not-for-profit organization founded in 2014 by Tiffani Ashley Bell whose mission is to preserve human dignity by increasing water affordability for families across the United States. It matches families who are behind on their water bills with donors who want to help, paying utility companies directly on their behalf through crowdfunded donations, community-building, and policy action. Operating in Detroit, Baltimore, and dozens of other cities, it has helped thousands of households avoid water shutoffs. The Human Utility runs a public-facing web application for donors and recipients rather than a developer-facing API product; its source code lives in the humanutility GitHub organization. This profile was surfaced as a Y Combinator portfolio company and enriched with identity and link details; no public API surface was found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-human-utility/refs/heads/main/screenshots/the-human-utility-2026-09-02T163352.png",
-     "score": 7.5,
+     "name": "Tantalus",
+     "slug": "tantalus",
+     "description": "Tantalus Systems (TSX: GRID; OTCQX: TGMPF) is a technology company that has served public power utilities and electric cooperatives for over 35 years, modernizing electrical distribution grids through data-centric solutions. Its Tantalus Grid Modernization Platform (TGMP) unifies intelligence across the distribution grid, connecting metering, load and DER management, grid automation, and data management across both legacy and modern infrastructure. Product lines include TRUConnect advanced metering infrastructure (AMI), TRUFlex load and DER management, TRUGrid automation analytics, TRUSync grid data management, and the TRUSense behind-the-meter gateway. Tantalus does not currently publish a public developer API, OpenAPI specification, or developer portal; integration with back-end utility software is delivered through standard data formats and handled via its technical support and integration teams.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tantalus/refs/heads/main/screenshots/tantalus-2026-09-02T162524.png",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8449,28 +8495,28 @@
      "rank": 168
     },
     {
-     "name": "Westar Energy",
-     "slug": "westar-energy",
-     "description": "Westar Energy was the largest electric utility in Kansas, providing electric service to homes, businesses, and industries throughout Kansas before merging with Great Plains Energy in 2018 to form Evergy, Inc. As Evergy, the company continues to serve approximately 1.6 million customers in Kansas and Missouri with a focus on grid modernization, smart metering (AMI) through its Gridstream Connect IoT platform, and clean energy transformation including wind power and demand response programs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/westar-energy/refs/heads/main/screenshots/westar-energy-2026-06-20T201356.png",
-     "score": 7.1,
+     "name": "The Human Utility",
+     "slug": "the-human-utility",
+     "description": "The Human Utility (formerly the Detroit Water Project) is a Y Combinator-backed not-for-profit organization founded in 2014 by Tiffani Ashley Bell whose mission is to preserve human dignity by increasing water affordability for families across the United States. It matches families who are behind on their water bills with donors who want to help, paying utility companies directly on their behalf through crowdfunded donations, community-building, and policy action. Operating in Detroit, Baltimore, and dozens of other cities, it has helped thousands of households avoid water shutoffs. The Human Utility runs a public-facing web application for donors and recipients rather than a developer-facing API product; its source code lives in the humanutility GitHub organization. This profile was surfaced as a Y Combinator portfolio company and enriched with identity and link details; no public API surface was found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-human-utility/refs/heads/main/screenshots/the-human-utility-2026-09-02T163352.png",
+     "score": 7.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 0.0
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 8.1,
+      "score": 13.5,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -8499,11 +8545,11 @@
      "rank": 169
     },
     {
-     "name": "Dynegy",
-     "slug": "dynegy",
-     "description": "Dynegy is a retail electric service provider and part of the Vistra Corp family of companies, delivering simple, price-protected retail electricity plans for homes and businesses across the Northeast, Mid-Atlantic, and Midwest, including Ohio, Illinois, and Pennsylvania. No public APIs have been documented for Dynegy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dynegy/refs/heads/main/screenshots/dynegy-2026-06-20T180344.png",
-     "score": 6.9,
+     "name": "Westar Energy",
+     "slug": "westar-energy",
+     "description": "Westar Energy was the largest electric utility in Kansas, providing electric service to homes, businesses, and industries throughout Kansas before merging with Great Plains Energy in 2018 to form Evergy, Inc. As Evergy, the company continues to serve approximately 1.6 million customers in Kansas and Missouri with a focus on grid modernization, smart metering (AMI) through its Gridstream Connect IoT platform, and clean energy transformation including wind power and demand response programs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/westar-energy/refs/heads/main/screenshots/westar-energy-2026-06-20T201356.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -8511,10 +8557,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 13.2
+      "developer_ergonomics": 19.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8549,6 +8595,56 @@
      "rank": 170
     },
     {
+     "name": "Dynegy",
+     "slug": "dynegy",
+     "description": "Dynegy is a retail electric service provider and part of the Vistra Corp family of companies, delivering simple, price-protected retail electricity plans for homes and businesses across the Northeast, Mid-Atlantic, and Midwest, including Ohio, Illinois, and Pennsylvania. No public APIs have been documented for Dynegy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dynegy/refs/heads/main/screenshots/dynegy-2026-06-20T180344.png",
+     "score": 6.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 171
+    },
+    {
      "name": "Globetouch",
      "slug": "globetouch",
      "description": "Globetouch is a global mobile and IoT connectivity provider founded in 2010 and headquartered in San Ramon, California, which rebranded to Airlinq in February 2020 — globetouch.com now 301-redirects to www.airlinq.com. Its GConnect / CloudSIM heritage (physical SIM, soft SIM and eSIM provisioning with rule-engine-driven subscription-profile management for mobile operators and IoT enterprises) is carried forward in Mobilinq, the company's IoT connectivity and application management platform, alongside Autolinq for the connected-vehicle ecosystem, Utilinq for electric, gas and water utilities, and Marketlinq, an operator-branded private-5G and IoT marketplace and dashboard. Airlinq markets a \"comprehensive API library\" for BSS/OSS integration and data and voice plans \"enabled via API\", but as of August 2026 it publishes no public developer portal, API reference, or machine-readable specification of any kind; the only entry point is a contact-sales form.",
@@ -8564,7 +8660,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8596,7 +8692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Exelon",
@@ -8614,63 +8710,13 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 13.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 172
-    },
-    {
-     "name": "Hawaiian Electric Industries",
-     "slug": "hawaiian-electric-industries",
-     "description": "Hawaiian Electric Industries (HEI) is a Honolulu-based holding company whose principal subsidiary, Hawaiian Electric, delivers electricity to roughly 95% of Hawaii's residents through three operating utilities — Hawaiian Electric (Oahu), Hawaii Electric Light (Hawaii Island) and Maui Electric (Maui County) — alongside Pacific Current, its clean-energy and sustainability investment arm. HEI runs no developer program and publishes no OpenAPI, SDK or MCP server. It does serve one real, anonymously callable machine-readable surface: a public Esri ArcGIS REST feature-service catalog carrying the Locational Value Maps, published grid needs and EV charging locations that its own hawaiianelectric.com map applications consume.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/screenshots/hawaiian-electric-industries-2026-06-20T182541.png",
-     "score": 6.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -8714,7 +8760,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8764,7 +8810,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8814,7 +8860,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8864,7 +8910,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8914,7 +8960,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8964,7 +9010,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9014,7 +9060,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9064,7 +9110,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9114,7 +9160,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9164,7 +9210,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9214,7 +9260,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9264,7 +9310,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9314,7 +9360,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9364,7 +9410,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9413,7 +9459,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9463,7 +9509,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9513,7 +9559,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9563,7 +9609,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -9609,7 +9655,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9651,7 +9697,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9694,7 +9740,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9736,7 +9782,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9779,7 +9825,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9828,7 +9874,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9871,7 +9917,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9921,7 +9967,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9971,7 +10017,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10021,7 +10067,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10071,7 +10117,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10121,7 +10167,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10171,7 +10217,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10221,7 +10267,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10322,7 +10368,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10372,7 +10418,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10422,7 +10468,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10523,7 +10569,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10573,7 +10619,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10622,7 +10668,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

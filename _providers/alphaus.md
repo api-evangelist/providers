@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 404
   human_in_the_loop: 8
@@ -145,14 +170,17 @@ collections:
   slug: open-alphaus-vortex-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/overlays/alphaus-blueapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alphaus-blueapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/agentic-access/alphaus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alphaus-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/security/alphaus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alphaus-domain-security.yml
@@ -177,10 +205,12 @@ common:
   type: GettingStarted
   url: https://labs.alphaus.cloud/docs/blueapi/overview/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/authentication/alphaus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alphaus-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/scopes/alphaus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alphaus-scopes.yml
@@ -213,46 +243,57 @@ common:
   type: StatusPage
   url: https://status.alphaus.cloud/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/lifecycle/alphaus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alphaus-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/packages/alphaus-packages.yml
   title: ''
   type: Packages
   url: packages/alphaus-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/packages/alphaus-packages.yml
   title: ''
   type: SDKs
   url: packages/alphaus-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/cli/alphaus-cli.yml
   title: ''
   type: CLI
   url: cli/alphaus-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/conventions/alphaus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alphaus-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/errors/alphaus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alphaus-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/conformance/alphaus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alphaus-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/data-model/alphaus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alphaus-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/mcp/alphaus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alphaus-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/llms/alphaus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alphaus-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -274,6 +315,46 @@ scopes:
   scope_count: 1
   slug: alphaus-scopes
   summary_line: 1 scope
+score:
+  band: developing
+  composite: 49.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 42.2
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 49.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 88.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/screenshots/alphaus-2026-07-25T195758.png
 security:
 - kind: authentication

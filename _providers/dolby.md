@@ -9,6 +9,32 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 40.1
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: 'Cross-platform video playback (formerly THEOplayer) for web, Android/Fire TV, iOS/tvOS, Roku, React Native and Flutter, with DRM, ad and analytics connectors. A client-side SDK surface: there is no pu'
@@ -131,102 +157,127 @@ common:
   type: ChangeLog
   url: https://optiview.dolby.com/docs/millicast/changelog/changelog-rest-apis/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/llms/dolby-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dolby-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/well-known/dolby-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dolby-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/well-known/dolby-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dolby-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/security/dolby-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/dolby-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/security/dolby-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dolby-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/security/dolby-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dolby-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/packages/dolby-packages.yml
   title: ''
   type: Packages
   url: packages/dolby-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/packages/dolby-packages.yml
   title: ''
   type: SDKs
   url: packages/dolby-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/components/dolby-components.yml
   title: ''
   type: Components
   url: components/dolby-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/cli/dolby-cli.yml
   title: ''
   type: CLI
   url: cli/dolby-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/authentication/dolby-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dolby-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/conventions/dolby-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dolby-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/conventions/dolby-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/dolby-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/errors/dolby-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dolby-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/data-model/dolby-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dolby-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/lifecycle/dolby-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dolby-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/lifecycle/dolby-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/dolby-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/conformance/dolby-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dolby-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/asyncapi/dolby-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dolby-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/mcp/dolby-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dolby-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/changelog/dolby-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dolby-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/plans/dolby-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dolby-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/rate-limits/dolby-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dolby-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/finops/dolby-finops.yml
   title: ''
   type: FinOps
   url: finops/dolby-finops.yml
@@ -262,6 +313,40 @@ rate_limits:
 - limit_count: 1
   name: Dolby Rate Limits
   slug: dolby-rate-limits
+score:
+  band: strong
+  composite: 65.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 58.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 77.6
+    contract_governance: 4.5
+    contract_quality: 60.3
+    developer_ergonomics: 73.2
+    discoverability: 72.2
+    operational_transparency: 81.6
+  previous_composite: 65.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 71.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/screenshots/dolby-2026-06-20T180133.png
 security:
 - kind: authentication

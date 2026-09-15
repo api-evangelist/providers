@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -175,14 +200,17 @@ collections:
   slug: open-mine-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/overlays/mine-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mine-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/agentic-access/mine-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mine-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -203,34 +231,42 @@ common:
   type: GettingStarted
   url: https://developers.mineos.ai/docs/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/authentication/mine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mine-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/llms/mine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mine-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/mcp/mine-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mine-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/asyncapi/mine-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mine-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/rate-limits/mine-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mine-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/errors/mine-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mine-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/conventions/mine-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mine-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/lifecycle/mine-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mine-lifecycle.yml
@@ -239,6 +275,7 @@ common:
   type: StatusPage
   url: https://status.mineos.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/conformance/mine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mine-conformance.yml
@@ -247,6 +284,7 @@ common:
   type: Compliance
   url: https://www.mineos.ai/about-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/security/mine-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mine-trust-center.yml
@@ -255,14 +293,17 @@ common:
   type: Security
   url: https://www.mineos.ai/about-security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/security/mine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mine-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/security/mine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mine-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/well-known/mine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mine-well-known.yml
@@ -318,6 +359,41 @@ rate_limits:
 - limit_count: 2
   name: Mine Rate Limits
   slug: mine-rate-limits
+score:
+  band: developing
+  composite: 48.0
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 52.7
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 48.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/screenshots/mine-2026-08-07T172945.png
 security:
 - kind: authentication

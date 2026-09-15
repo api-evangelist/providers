@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,18 +124,22 @@ collections:
   slug: open-solar-edge-version-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/overlays/solar-edge-monitoring-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/solar-edge-monitoring-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/agentic-access/solar-edge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/solar-edge-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/security/solar-edge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solar-edge-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/authentication/solar-edge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solar-edge-authentication.yml
@@ -143,14 +172,17 @@ common:
   type: X
   url: https://x.com/SolarEdgePV
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/plans/solar-edge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/solar-edge-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/rate-limits/solar-edge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/solar-edge-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/finops/solar-edge-finops.yml
   title: ''
   type: FinOps
   url: finops/solar-edge-finops.yml
@@ -187,26 +219,32 @@ common:
   type: PrivacyPolicy
   url: https://www.solaredge.com/us/legal/privacy-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/conventions/solar-edge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/solar-edge-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/errors/solar-edge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/solar-edge-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/lifecycle/solar-edge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solar-edge-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/conformance/solar-edge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solar-edge-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/mcp/solar-edge-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/solar-edge-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/llms/solar-edge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solar-edge-llms.txt
@@ -280,6 +318,47 @@ rules:
     info: 2
     warn: 4
   slug: solar-edge-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 77.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 14.4
+    contract_quality: 63.9
+    developer_ergonomics: 45.2
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:
 - kind: authentication

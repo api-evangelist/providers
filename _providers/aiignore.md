@@ -17,10 +17,12 @@ apis:
 artifact_total: 40
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/security/aiignore-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aiignore-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/security/aiignore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aiignore-domain-security.yml

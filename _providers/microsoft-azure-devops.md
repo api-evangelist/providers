@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://dev.azure.com'', ''status'': 302, ''note'': ''declared website redirects to https://azure.microsoft.com/en-us/products/devops/?nav=min — a different registrable domain (azure.com -> microsoft.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -501,10 +526,12 @@ common:
   type: SpectralRules
   url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/rules/azure-dev-ops-spectral-rules.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/security/microsoft-azure-devops-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-azure-devops-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/scopes/microsoft-azure-devops-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-devops-scopes.yml
@@ -533,18 +560,22 @@ common:
   type: SDKs
   url: https://github.com/microsoft/azure-devops-java-api
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/_original/microsoft-azure-devops-work-items-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/microsoft-azure-devops-work-items-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/openapi/_original/microsoft-azure-devops-pipelines-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/microsoft-azure-devops-pipelines-openapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/vocabulary/microsoft-azure-devops-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-azure-devops-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/rules/microsoft-azure-devops-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/microsoft-azure-devops-spectral-rules.yml
@@ -553,6 +584,7 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/capabilities/microsoft-azure-devops-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-devops-capability-edges.yml
@@ -577,14 +609,17 @@ common:
   type: License
   url: https://github.com/microsoft/azure-devops-python-api/blob/dev/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/agentic-access/microsoft-azure-devops-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-devops-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/security/microsoft-azure-devops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-devops-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/authentication/microsoft-azure-devops-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-devops-authentication.yml
@@ -593,74 +628,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-devops/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-board-bug-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-board-bug-comment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-build-artifacts-retrieval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-build-artifacts-retrieval-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-build-definition-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-build-definition-provision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-build-queue-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-build-queue-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-git-push-commit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-git-push-commit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-pipeline-create-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-pipeline-create-run-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-pipeline-run-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-pipeline-run-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-project-repository-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-project-repository-inventory-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-pull-request-complete-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-pull-request-complete-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-pull-request-create-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-pull-request-create-comment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-pull-request-review-cycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-pull-request-review-cycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-release-create-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-release-create-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-release-definition-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-release-definition-provision-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-release-from-definition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-release-from-definition-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-repository-provision-init-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-repository-provision-init-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-work-item-bug-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-work-item-bug-triage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-work-item-create-linked-child-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-work-item-create-linked-child-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/arazzo/microsoft-azure-devops-work-item-create-update-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-azure-devops-work-item-create-update-comment-workflow.yml
@@ -769,14 +822,17 @@ common:
   type: GitHubRepository
   url: https://github.com/microsoft/azure-devops-extension-sdk
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/json-schema/azure-devops-work-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-devops-work-item-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/json-schema/azure-devops-pipeline-run-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/azure-devops-pipeline-run-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/json-ld/azure-devops-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/azure-devops-context.jsonld
@@ -1162,6 +1218,41 @@ scopes:
   scope_count: 4
   slug: microsoft-azure-devops-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: exemplar
+  composite: 67.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 58.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 28.8
+    contract_quality: 77.4
+    developer_ergonomics: 82.1
+    discoverability: 66.7
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 67.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:
 - kind: authentication

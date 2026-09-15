@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Laundryheap's primary product API. A single GraphQL endpoint serving the consumer web and mobile apps, covering ordering, recurring orders, addresses, timeslots, services, hotels, subscriptions, bundl
@@ -26,6 +51,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/security/laundryheap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/laundryheap-domain-security.yml
@@ -34,30 +60,37 @@ common:
   type: Website
   url: https://www.laundryheap.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/well-known/laundryheap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/laundryheap-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/conventions/laundryheap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/laundryheap-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/conformance/laundryheap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/laundryheap-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/lifecycle/laundryheap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/laundryheap-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/rate-limits/laundryheap-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/laundryheap-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/plans/laundryheap-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/laundryheap-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/packages/laundryheap-packages.yml
   title: ''
   type: Packages
   url: packages/laundryheap-packages.yml
@@ -90,38 +123,47 @@ common:
   type: SignUp
   url: https://app.laundryheap.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/authentication/laundryheap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/laundryheap-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/scopes/laundryheap-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/laundryheap-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/well-known/laundryheap-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/laundryheap-openid-configuration.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/graphql/laundryheap-graphql.yml
   title: ''
   type: GraphQL
   url: graphql/laundryheap-graphql.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/errors/laundryheap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/laundryheap-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/data-model/laundryheap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/laundryheap-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/examples/laundryheap-services-response.json
   title: ''
   type: Examples
   url: examples/laundryheap-services-response.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/llms/laundryheap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laundryheap-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -151,6 +193,36 @@ scopes:
   scope_count: 0
   slug: laundryheap-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 22.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 20.8
+    discoverability: 74.1
+    operational_transparency: 2.6
+  previous_composite: 22.1
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/screenshots/laundryheap-2026-09-02T150223.png
 security:
 - kind: authentication

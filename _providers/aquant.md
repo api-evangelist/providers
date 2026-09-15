@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -95,10 +121,12 @@ collections:
   slug: open-aquant-voiceai-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/overlays/aquant-voiceai-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aquant-voiceai-api-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/security/aquant-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aquant-trust-center.yml
@@ -151,46 +179,57 @@ common:
   type: Compliance
   url: https://security.aquant.ai/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/mcp/aquant-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aquant-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/mcp/aquant-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aquant-tool-crosswalk.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/packages/aquant-packages.yml
   title: ''
   type: Packages
   url: packages/aquant-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/packages/aquant-packages.yml
   title: ''
   type: SDKs
   url: packages/aquant-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/llms/aquant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aquant-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/well-known/aquant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aquant-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/authentication/aquant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aquant-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/scopes/aquant-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aquant-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/conventions/aquant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aquant-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/errors/aquant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aquant-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/lifecycle/aquant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aquant-lifecycle.yml
@@ -199,54 +238,67 @@ common:
   type: ChangeLog
   url: https://www.aquant.ai/company/whats-new
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/changelog/aquant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aquant-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/conformance/aquant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aquant-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/data-model/aquant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aquant-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/agentic-access/aquant-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aquant-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/security/aquant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aquant-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/aquant-diagnose-and-source-part.yml
   title: ''
   type: Arazzo
   url: arazzo/aquant-diagnose-and-source-part.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/aquant-dispatch-nearest-technician.yml
   title: ''
   type: Arazzo
   url: arazzo/aquant-dispatch-nearest-technician.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/arazzo/aquant-preventive-maintenance-visit.yml
   title: ''
   type: Arazzo
   url: arazzo/aquant-preventive-maintenance-visit.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/overlays/aquant-mcp-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aquant-mcp-server-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/json-schema/aquant-mcp-server-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/aquant-mcp-server-schemas.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/examples/aquant-mcp-server-examples.yml
   title: ''
   type: Examples
   url: examples/aquant-mcp-server-examples.yml
@@ -276,6 +328,57 @@ scopes:
   scope_count: 7
   slug: aquant-scopes
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password/refreshToken
+score:
+  band: developing
+  composite: 49.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 4.5
+    contract_quality: 52.8
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 49.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: fedramp
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:
 - kind: authentication

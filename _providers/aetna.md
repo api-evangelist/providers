@@ -14,6 +14,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,230 +78,287 @@ apis:
 artifact_total: 128
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-patient-access-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/aetna-patient-access-api-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-provider-directory-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/aetna-provider-directory-api-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/overlays/aetna-patient-access-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aetna-patient-access-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/fhir/aetna-patient-access-capability-statement.json
   title: ''
   type: CapabilityStatement
   url: fhir/aetna-patient-access-capability-statement.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/vocabulary/aetna-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aetna-vocabulary.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-allergyintolerance.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-allergyintolerance.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-bundle.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-bundle.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-careplan.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-careplan.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-careteam.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-careteam.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-condition.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-condition.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-device.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-device.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-diagnosticreport.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-diagnosticreport.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-documentreference.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-documentreference.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-encounter.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-encounter.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-explanationofbenefit.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-explanationofbenefit.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-goal.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-goal.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-healthcareservice.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-healthcareservice.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-immunization.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-immunization.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-insuranceplan.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-insuranceplan.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-location.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-location.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-medicationknowledge.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-medicationknowledge.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-medicationrequest.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-medicationrequest.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-observation.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-observation.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-operationoutcome.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-operationoutcome.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-organization.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-organization.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-organizationaffiliation.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-organizationaffiliation.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-patient.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-patient.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-practitioner.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-practitioner.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-practitionerrole.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-practitionerrole.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/json-schema/aetna-procedure.json
   title: ''
   type: JSONSchema
   url: json-schema/aetna-procedure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-insuranceplan-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-insuranceplan-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-location-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-location-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-location-id-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-location-id-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-organization-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-organization-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-organization-id-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-organization-id-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-organizationaffiliation-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-organizationaffiliation-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-practitioner-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-practitioner-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-practitioner-id-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-practitioner-id-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectory-practitionerrole-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectory-practitionerrole-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-healthcareservice-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-healthcareservice-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-healthcareservice-id-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-healthcareservice-id-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-insuranceplan-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-insuranceplan-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-location-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-location-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-location-id-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-location-id-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-organization-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-organization-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-organization-id-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-organization-id-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-organizationaffiliation-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-organizationaffiliation-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-practitioner-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-practitioner-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-practitioner-id-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-practitioner-id-200-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/examples/aetna-v1-providerdirectorydata-practitionerrole-200-example.json
   title: ''
   type: Examples
   url: examples/aetna-v1-providerdirectorydata-practitionerrole-200-example.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/authentication/aetna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aetna-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/scopes/aetna-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aetna-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/conformance/aetna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aetna-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/conformance/aetna-conformance.yml
   title: ''
   type: Compliance
   url: conformance/aetna-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/errors/aetna-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aetna-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/conventions/aetna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aetna-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/lifecycle/aetna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aetna-lifecycle.yml
@@ -285,6 +367,7 @@ common:
   type: Deprecation
   url: https://developerportal.aetna.com/managedcontent/pdfs/Previous_Releases.pdf
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/changelog/aetna-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aetna-changelog.yml
@@ -297,50 +380,62 @@ common:
   type: Roadmap
   url: https://developerportal.aetna.com/managedcontent/pdfs/Upcoming_Releases.pdf
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/sandbox/aetna-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aetna-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/data-model/aetna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aetna-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/rate-limits/aetna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aetna-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/plans/aetna-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aetna-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/packages/aetna-packages.yml
   title: ''
   type: Packages
   url: packages/aetna-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/mcp/aetna-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aetna-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/llms/aetna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aetna-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/well-known/aetna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aetna-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/agentic-access/aetna-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aetna-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/security/aetna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aetna-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/finops/aetna-finops.yml
   title: ''
   type: FinOps
   url: finops/aetna-finops.yml
@@ -760,6 +855,48 @@ scopes:
   scope_count: 54
   slug: aetna-scopes
   summary_line: 54 scopes · authorizationCode/clientCredentials
+score:
+  band: developing
+  composite: 47.5
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 48.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 33.3
+    contract_quality: 38.2
+    developer_ergonomics: 42.3
+    discoverability: 74.1
+    operational_transparency: 31.6
+  previous_composite: 47.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 66.7
+      total: 3
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 68.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Aetna Authentication

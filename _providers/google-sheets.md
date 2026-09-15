@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -108,66 +133,82 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/agentic-access/google-sheets-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-sheets-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/security/google-sheets-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-sheets-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/security/google-sheets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-sheets-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/authentication/google-sheets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-sheets-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/scopes/google-sheets-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-sheets-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/packages/google-sheets-packages.yml
   title: ''
   type: Packages
   url: packages/google-sheets-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/well-known/google-sheets-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-sheets-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/mcp/google-sheets-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/google-sheets-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/llms/google-sheets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-sheets-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/overlays/google-sheets-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/google-sheets-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/conformance/google-sheets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-sheets-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/errors/google-sheets-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-sheets-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/lifecycle/google-sheets-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-sheets-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/conventions/google-sheets-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-sheets-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/changelog/google-sheets-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-sheets-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/data-model/google-sheets-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-sheets-data-model.yml
@@ -176,50 +217,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-sheets/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-append-and-format-header-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-append-and-format-header-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-archive-and-clear-multiple-ranges-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-archive-and-clear-multiple-ranges-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-bulk-load-multiple-ranges-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-bulk-load-multiple-ranges-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-copy-sheet-between-spreadsheets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-copy-sheet-between-spreadsheets-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-create-and-seed-spreadsheet-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-create-and-seed-spreadsheet-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-create-with-extra-sheet-and-write-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-create-with-extra-sheet-and-write-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-create-write-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-create-write-and-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-overwrite-or-append-rows-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-overwrite-or-append-rows-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-refresh-range-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-refresh-range-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-seed-if-empty-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-seed-if-empty-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-tag-and-find-developer-metadata-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-tag-and-find-developer-metadata-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/arazzo/google-sheets-update-and-read-by-data-filter-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/google-sheets-update-and-read-by-data-filter-workflow.yml
@@ -296,6 +349,7 @@ common:
   type: RateLimits
   url: https://developers.google.com/workspace/sheets/api/limits
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/rules/google-sheets-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/google-sheets-spectral-rules.yml
@@ -1168,6 +1222,40 @@ scopes:
   scope_count: 5
   slug: google-sheets-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 46.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 70.1
+    developer_ergonomics: 65.5
+    discoverability: 55.6
+    operational_transparency: 42.1
+  previous_composite: 52.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/screenshots/google-sheets-2026-06-20T182233.png
 security:
 - kind: authentication

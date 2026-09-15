@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -408,26 +434,32 @@ collections:
   slug: open-mux
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/capabilities/mux-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mux-com-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/agentic-access/mux-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mux-com-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/security/mux-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mux-com-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/security/mux-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mux-com-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/security/mux-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mux-com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/authentication/mux-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mux-com-authentication.yml
@@ -436,106 +468,132 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mux/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-account-delivery-usage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-account-delivery-usage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-ai-summarize-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-ai-summarize-asset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-annotation-manage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-annotation-manage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-asset-add-caption-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-asset-add-caption-track-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-asset-add-playback-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-asset-add-playback-id-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-asset-library-drilldown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-asset-library-drilldown-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-asset-mp4-rendition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-asset-mp4-rendition-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-asset-tag-and-cleanup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-asset-tag-and-cleanup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-create-asset-from-url-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-create-asset-from-url-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-dimension-exploration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-dimension-exploration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-direct-upload-to-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-direct-upload-to-asset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-errors-impact-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-errors-impact-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-incident-drilldown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-incident-drilldown-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-live-stream-add-playback-id-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-live-stream-add-playback-id-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-live-stream-generated-subtitles-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-live-stream-generated-subtitles-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-live-stream-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-live-stream-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-live-stream-with-simulcast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-live-stream-with-simulcast-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-metric-breakdown-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-metric-breakdown-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-metric-timeseries-trend-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-metric-timeseries-trend-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-monitoring-breakdown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-monitoring-breakdown-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-playback-restriction-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-playback-restriction-setup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-realtime-breakdown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-realtime-breakdown-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-reset-stream-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-reset-stream-key-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-system-signing-key-rotation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-system-signing-key-rotation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-url-signing-key-rotation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-url-signing-key-rotation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/arazzo/mux-com-video-view-drilldown-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mux-com-video-view-drilldown-workflow.yml
@@ -676,26 +734,32 @@ common:
   type: SDKs
   url: https://github.com/muxinc/mux-player-swift
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/rules/mux-com-rules.yml
   title: ''
   type: Rules
   url: rules/mux-com-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/json-ld/mux-com-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/mux-com-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/vocabulary/mux-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mux-com-vocabulary.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/plans/mux-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mux-com-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/rate-limits/mux-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mux-com-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/finops/mux-com-finops.yml
   title: ''
   type: FinOps
   url: finops/mux-com-finops.yml
@@ -816,6 +880,39 @@ rules:
     info: 0
     warn: 9
   slug: mux-com-rules
+score:
+  band: exemplar
+  composite: 77.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 89.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 26.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 60.6
+    contract_quality: 66.9
+    developer_ergonomics: 79.8
+    discoverability: 70.4
+    operational_transparency: 78.9
+  previous_composite: 77.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/screenshots/mux-com-2026-08-07T184502.png
 security:
 - kind: authentication

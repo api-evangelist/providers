@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -91,22 +116,27 @@ collections:
   slug: open-powerschool-students-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/capabilities/powerschool-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/powerschool-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/agentic-access/powerschool-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/powerschool-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/security/powerschool-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/powerschool-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/security/powerschool-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/powerschool-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/authentication/powerschool-authentication.yml
   title: ''
   type: Authentication
   url: authentication/powerschool-authentication.yml
@@ -143,34 +173,42 @@ common:
   type: X
   url: https://x.com/mypowerschool
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/plans/powerschool-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/powerschool-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/rate-limits/powerschool-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/powerschool-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/finops/powerschool-finops.yml
   title: ''
   type: FinOps
   url: finops/powerschool-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/vocabulary/powerschool-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/powerschool-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/json-ld/powerschool-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/powerschool-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/json-schema/powerschool-student.json
   title: ''
   type: JSONSchema
   url: json-schema/powerschool-student.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/json-schema/powerschool-school.json
   title: ''
   type: JSONSchema
   url: json-schema/powerschool-school.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/json-schema/powerschool-section.json
   title: ''
   type: JSONSchema
   url: json-schema/powerschool-section.json
@@ -245,6 +283,44 @@ rules:
     info: 1
     warn: 5
   slug: powerschool-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 43.7
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 68.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 25.0
+    contract_quality: 64.3
+    developer_ergonomics: 21.4
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 43.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 40.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/screenshots/powerschool-2026-06-20T192035.png
 security:
 - kind: authentication

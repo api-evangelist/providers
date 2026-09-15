@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 1.3
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 11
 common:
@@ -52,58 +77,72 @@ common:
   type: Schema.org Vocabulary (JSON-LD)
   url: https://schema.org/version/latest/schemaorg-current-https.jsonld
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/llms/customer-database-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/customer-database-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/vocabulary/customer-database-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/customer-database-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/data-model/customer-database-data-model.yml
   title: ''
   type: DataModel
   url: data-model/customer-database-data-model.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/json-schema/customer-record.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-record.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/json-schema/customer-contact-point.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-contact-point.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/json-schema/customer-postal-address.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-postal-address.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/json-schema/customer-consent-record.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-consent-record.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/json-schema/customer-identity-link.json
   title: ''
   type: JSONSchema
   url: json-schema/customer-identity-link.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/json-structure/customer-database-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/customer-database-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/json-ld/customer-database-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/customer-database-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/rules/customer-database-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/customer-database-jsonschema-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/examples/customer-record-example.json
   title: ''
   type: Examples
   url: examples/customer-record-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/examples/customer-consent-record-example.json
   title: ''
   type: Examples
   url: examples/customer-consent-record-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/examples/customer-identity-link-example.json
   title: ''
   type: Examples
   url: examples/customer-identity-link-example.json
@@ -181,6 +220,38 @@ rules:
     info: 0
     warn: 6
   slug: customer-database-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 15.2
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 49.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 34.1
+    contract_quality: 21.3
+    developer_ergonomics: 0.0
+    discoverability: 57.4
+    operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
+  previous_composite: 15.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-database/refs/heads/main/screenshots/customer-database-2026-06-20T175347.png
 slug: customer-database
 tags:

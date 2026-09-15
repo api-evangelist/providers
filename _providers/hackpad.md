@@ -16,6 +16,7 @@ common:
   type: IssueTracker
   url: https://github.com/dropbox/hackpad/issues
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hackpad/refs/heads/main/security/hackpad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hackpad-domain-security.yml

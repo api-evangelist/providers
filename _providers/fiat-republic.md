@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: RESTful API for crypto and stablecoin platforms to onboard end users (KYC/AML), open named and virtual fiat accounts, receive pay-ins and send payouts across GBP, EUR and USD schemes, run FX conversio
@@ -21,14 +46,17 @@ asyncapis:
   slug: fiat-republic-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/security/fiat-republic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fiat-republic-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/well-known/fiat-republic-security.txt
   title: ''
   type: Security
   url: well-known/fiat-republic-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/security/fiat-republic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fiat-republic-domain-security.yml
@@ -81,6 +109,7 @@ common:
   type: ChangeLog
   url: https://docs.fiatrepublic.com/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/changelog/fiat-republic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fiat-republic-changelog.yml
@@ -93,66 +122,82 @@ common:
   type: Postman
   url: https://www.postman.com/fiatrepublicdev/fiat-republic-developers/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/llms/fiat-republic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fiat-republic-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/authentication/fiat-republic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fiat-republic-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/scopes/fiat-republic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fiat-republic-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/conventions/fiat-republic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fiat-republic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/conventions/fiat-republic-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/fiat-republic-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/rate-limits/fiat-republic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fiat-republic-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/errors/fiat-republic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fiat-republic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/lifecycle/fiat-republic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fiat-republic-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/lifecycle/fiat-republic-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/fiat-republic-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/sandbox/fiat-republic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fiat-republic-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/data-model/fiat-republic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fiat-republic-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/asyncapi/fiat-republic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fiat-republic-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/conformance/fiat-republic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fiat-republic-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/mcp/fiat-republic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fiat-republic-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/well-known/fiat-republic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fiat-republic-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/well-known/fiat-republic-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fiat-republic-security.txt
@@ -181,6 +226,45 @@ scopes:
   scope_count: 2
   slug: fiat-republic-scopes
   summary_line: 2 scopes
+score:
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 49.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 55.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/screenshots/fiat-republic-2026-07-25T214357.png
 security:
 - kind: authentication

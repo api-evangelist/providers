@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/arrowpoint/refs/heads/main/security/arrowpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arrowpoint-domain-security.yml

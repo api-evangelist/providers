@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://api.virtuosis.ai/v1.3
@@ -40,70 +65,87 @@ common:
   type: MCPServer
   url: https://docs.virtuosis.ai/_mcp/server
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/overlays/virtuosis-voice-biomarker-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virtuosis-voice-biomarker-api-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/security/virtuosis-voice-biomarker-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virtuosis-voice-biomarker-api-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/authentication/virtuosis-voice-biomarker-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virtuosis-voice-biomarker-api-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/well-known/virtuosis-voice-biomarker-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/virtuosis-voice-biomarker-api-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/well-known/virtuosis-voice-biomarker-api-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/virtuosis-voice-biomarker-api-api-catalog.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/mcp/virtuosis-voice-biomarker-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/virtuosis-voice-biomarker-api-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/mcp/virtuosis-voice-biomarker-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/virtuosis-voice-biomarker-api-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/llms/virtuosis-voice-biomarker-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virtuosis-voice-biomarker-api-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/conventions/virtuosis-voice-biomarker-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virtuosis-voice-biomarker-api-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/errors/virtuosis-voice-biomarker-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/virtuosis-voice-biomarker-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/lifecycle/virtuosis-voice-biomarker-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virtuosis-voice-biomarker-api-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/conformance/virtuosis-voice-biomarker-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virtuosis-voice-biomarker-api-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/conformance/virtuosis-voice-biomarker-api-conformance.yml
   title: ''
   type: Compliance
   url: conformance/virtuosis-voice-biomarker-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/data-model/virtuosis-voice-biomarker-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virtuosis-voice-biomarker-api-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/plans/virtuosis-voice-biomarker-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/virtuosis-voice-biomarker-api-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/rate-limits/virtuosis-voice-biomarker-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/virtuosis-voice-biomarker-api-rate-limits.yml
@@ -174,7 +216,7 @@ modified: '2026-08-19'
 name: Virtuosis Voice Biomarker API
 nav: Providers
 network: true
-overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include Digital Health, voice biomarkers, speech analysis, acoustic analysis, and Medical Device.
+overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include Digital Health, voice biomarkers, Speech Analysis, acoustic analysis, and Medical Device.
 
 
   Virtuosis Voice Biomarker API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
@@ -187,6 +229,46 @@ rate_limits:
 - limit_count: 0
   name: Virtuosis Voice Biomarker Api Rate Limits
   slug: virtuosis-voice-biomarker-api-rate-limits
+score:
+  band: developing
+  composite: 46.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 0.0
+    contract_quality: 51.2
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 2.6
+  previous_composite: 46.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 53.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/screenshots/virtuosis-voice-biomarker-api-2026-09-02T170023.png
 security:
 - kind: authentication
@@ -201,7 +283,7 @@ slug: virtuosis-voice-biomarker-api
 tags:
 - Digital Health
 - voice biomarkers
-- speech analysis
+- Speech Analysis
 - acoustic analysis
 - Medical Device
 - Mental Health

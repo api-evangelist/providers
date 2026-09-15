@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: ATF publishes annual firearms trace data reports covering the source and age of crime guns traced by law enforcement agencies across the United States. Data includes state-level statistics on firearms
@@ -31,6 +56,7 @@ apis:
 artifact_total: 13
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/security/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security.yml
@@ -63,66 +89,82 @@ common:
   type: Statistics
   url: https://www.atf.gov/resource-center/data-statistics
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/overlays/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-overlay.yaml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/json-schema/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--ffl-locations.json
   title: ''
   type: JSONSchema
   url: json-schema/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--ffl-locations.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/data-model/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--data-model.yml
   title: ''
   type: DataModel
   url: data-model/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/conformance/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--conformance.yml
   title: ''
   type: Conformance
   url: conformance/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/authentication/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--authentication.yml
   title: ''
   type: Authentication
   url: authentication/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/conventions/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--conventions.yml
   title: ''
   type: Conventions
   url: conventions/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/errors/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/lifecycle/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/rate-limits/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/plans/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/packages/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--packages.yml
   title: ''
   type: Packages
   url: packages/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/mcp/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/llms/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/finops/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--finops.yml
   title: ''
   type: FinOps
   url: finops/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--finops.yml
@@ -170,6 +212,47 @@ rate_limits:
 - limit_count: 0
   name: Bureau Of Alcohol Tobacco Firearms And Explosives Atf  Rate Limits
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--rate-limits
+score:
+  band: thin
+  composite: 34.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 44.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 18.4
+    contract_governance: 18.2
+    contract_quality: 51.7
+    developer_ergonomics: 30.4
+    discoverability: 64.8
+    operational_transparency: 2.6
+  previous_composite: 34.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 38.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/screenshots/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--2026-06-20T173802.png
 security:
 - kind: authentication

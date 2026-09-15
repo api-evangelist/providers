@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 api_count: 48
 apis:
 - description: Hosted Model Context Protocol server for Splunk Observability Cloud, using the streamable HTTP transport. Twelve tools across metrics/SignalFlow, APM and alerting. Authenticated with X-SF-REALM and X-
@@ -268,206 +293,257 @@ asyncapis:
   slug: splunk-observability-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-apm-service-topology-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-apm-service-topology-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-apm-visibility-filters-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-apm-visibility-filters-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-audit-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-audit-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-automatedarchival-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-automatedarchival-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-backfill-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-backfill-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-charts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-charts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-client-inventory-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-client-inventory-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-dashboard-groups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-dashboard-groups-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-dashboards-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-dashboards-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-datalinks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-datalinks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-detectors-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-detectors-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-incidents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-incidents-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-ingest-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-ingest-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-integrations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-integrations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-metric-ruleset-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-metric-ruleset-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-metrics-metadata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-metrics-metadata-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-navigator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-navigator-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-org-tokens-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-org-tokens-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-organizations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-organizations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-passwords-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-passwords-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-retrieve-events-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-retrieve-events-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-retrieve-events-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-retrieve-events-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-retrieve-timeserieswindow-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-retrieve-timeserieswindow-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-roles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-roles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-sessiontokens-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-sessiontokens-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-signalflow-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-signalflow-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-slo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-slo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-api-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-api-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-api-tests-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-api-tests-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-artifacts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-artifacts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-audits-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-audits-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-browser-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-browser-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-browser-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-browser-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-ca-certs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-ca-certs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-certificates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-certificates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-chrome-flags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-chrome-flags-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-devices-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-downtime-configurations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-downtime-configurations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-excluded-files-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-excluded-files-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-global-variables-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-global-variables-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-http-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-http-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-locations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-locations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-ports-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-ports-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-runs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-runs-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-ssl-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-ssl-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-synthetics-tests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-synthetics-tests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-teams-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-teams-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/overlays/splunk-observability-trace-id-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splunk-observability-trace-id-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/security/splunk-observability-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/splunk-observability-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/security/splunk-observability-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/splunk-observability-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/security/splunk-observability-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splunk-observability-domain-security.yml
@@ -512,10 +588,12 @@ common:
   type: Pricing
   url: https://www.splunk.com/en_us/products/pricing/observability.html
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/plans/splunk-observability-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/splunk-observability-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/rate-limits/splunk-observability-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/splunk-observability-rate-limits.yml
@@ -548,6 +626,7 @@ common:
   type: ChangeLog
   url: https://help.splunk.com/en/splunk-observability-cloud/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/changelog/splunk-observability-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/splunk-observability-changelog.yml
@@ -556,6 +635,7 @@ common:
   type: StatusPage
   url: https://status.signalfx.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/lifecycle/splunk-observability-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/splunk-observability-lifecycle.yml
@@ -564,22 +644,27 @@ common:
   type: Deprecation
   url: https://help.splunk.com/en/splunk-observability-cloud/administer/org-reference-info/view-your-realm-api-endpoints-and-organization
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/authentication/splunk-observability-authentication.yml
   title: ''
   type: Authentication
   url: authentication/splunk-observability-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/conventions/splunk-observability-conventions.yml
   title: ''
   type: Conventions
   url: conventions/splunk-observability-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/errors/splunk-observability-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/splunk-observability-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/data-model/splunk-observability-data-model.yml
   title: ''
   type: DataModel
   url: data-model/splunk-observability-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/conformance/splunk-observability-conformance.yml
   title: ''
   type: Conformance
   url: conformance/splunk-observability-conformance.yml
@@ -592,46 +677,57 @@ common:
   type: Security
   url: https://advisory.splunk.com/report
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/well-known/splunk-observability-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/splunk-observability-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/well-known/splunk-observability-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/splunk-observability-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/packages/splunk-observability-packages.yml
   title: ''
   type: Packages
   url: packages/splunk-observability-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/packages/splunk-observability-packages.yml
   title: ''
   type: SDKs
   url: packages/splunk-observability-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/cli/splunk-observability-cli.yml
   title: ''
   type: CLI
   url: cli/splunk-observability-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/mcp/splunk-observability-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/splunk-observability-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/mcp/splunk-observability-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/splunk-observability-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/asyncapi/splunk-observability-signalflow-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/splunk-observability-signalflow-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/asyncapi/splunk-observability-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/splunk-observability-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/llms/splunk-observability-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/splunk-observability-llms.txt
@@ -667,6 +763,40 @@ rate_limits:
 - limit_count: 2
   name: Splunk Observability Rate Limits
   slug: splunk-observability-rate-limits
+score:
+  band: strong
+  composite: 60.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 47.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 24.2
+    developer_ergonomics: 73.2
+    discoverability: 57.4
+    operational_transparency: 81.6
+  previous_composite: 60.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 48
+      marker_coverage: 100.0
+      total: 48
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/screenshots/splunk-observability-2026-09-02T160527.png
 security:
 - kind: authentication

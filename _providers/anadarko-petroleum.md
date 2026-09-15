@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anadarko-petroleum/refs/heads/main/security/anadarko-petroleum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anadarko-petroleum-domain-security.yml
@@ -20,6 +21,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/anadarko-petroleum-corporation
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anadarko-petroleum/refs/heads/main/llms/anadarko-petroleum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anadarko-petroleum-llms.txt

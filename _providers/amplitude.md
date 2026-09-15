@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -361,22 +386,27 @@ common:
   type: Website
   url: https://www.amplitude.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/agentic-access/amplitude-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amplitude-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/security/amplitude-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amplitude-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/security/amplitude-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amplitude-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/security/amplitude-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amplitude-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/authentication/amplitude-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amplitude-authentication.yml
@@ -385,54 +415,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amplitude/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-annotation-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-annotation-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-cohort-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-cohort-export-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-cohort-upload-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-cohort-upload-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-dsar-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-dsar-request-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-event-property-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-event-property-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-experiment-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-experiment-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-flag-rollout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-flag-rollout-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-identity-merge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-identity-merge-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-ingest-and-segment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-ingest-and-segment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-scim-user-provisioning-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-scim-user-provisioning-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-taxonomy-event-governance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-taxonomy-event-governance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-user-360-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-user-360-lookup-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/arazzo/amplitude-variant-evaluation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amplitude-variant-evaluation-workflow.yml
@@ -493,46 +536,57 @@ common:
   type: PrivacyPolicy
   url: https://amplitude.com/privacy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-ld/amplitude-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amplitude-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-schema/amplitude-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amplitude-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-schema/amplitude-cohort-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amplitude-cohort-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-schema/amplitude-experiment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amplitude-experiment-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/rules/amplitude-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amplitude-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/vocabulary/amplitude-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amplitude-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-structure/behavioral-cohorts-api-cohort-request-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/behavioral-cohorts-api-cohort-request-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-structure/dashboard-rest-api-user-search-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/dashboard-rest-api-user-search-result-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-structure/scim-api-scim-group-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/scim-api-scim-group-request-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-structure/http-v2-api-event-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/http-v2-api-event-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/json-structure/experiment-evaluation-api-flag-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/experiment-evaluation-api-flag-configuration-structure.json
@@ -1790,6 +1844,39 @@ rules:
     info: 3
     warn: 15
   slug: amplitude-spectral-rules
+score:
+  band: strong
+  composite: 56.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 61.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 28.8
+    contract_quality: 80.7
+    developer_ergonomics: 65.5
+    discoverability: 59.3
+    operational_transparency: 26.3
+  previous_composite: 56.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/screenshots/amplitude-2026-06-20T171944.png
 security:
 - kind: authentication

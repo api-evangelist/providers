@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: na
+    mcp_server: templated
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 62.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,82 +233,102 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/eodhd/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/agentic-access/eodhd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eodhd-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/security/eodhd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eodhd-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/authentication/eodhd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eodhd-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/scopes/eodhd-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eodhd-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/packages/eodhd-packages.yml
   title: ''
   type: Packages
   url: packages/eodhd-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/packages/eodhd-packages.yml
   title: ''
   type: SDKs
   url: packages/eodhd-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/well-known/eodhd-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eodhd-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/mcp/eodhd-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/eodhd-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/llms/eodhd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eodhd-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/overlays/eodhd-financial-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eodhd-financial-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/overlays/eodhd-eod-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eodhd-eod-api-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/conformance/eodhd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eodhd-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/errors/eodhd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eodhd-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/lifecycle/eodhd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eodhd-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/sandbox/eodhd-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eodhd-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/conventions/eodhd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eodhd-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/changelog/eodhd-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eodhd-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/components/eodhd-components.yml
   title: ''
   type: Components
   url: components/eodhd-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/data-model/eodhd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eodhd-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/rate-limits/eodhd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eodhd-rate-limits.yml
@@ -364,6 +409,7 @@ common:
   type: TermsOfService
   url: https://eodhd.com/financial-apis/terms-conditions
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/mcp/eodhd-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eodhd-mcp.yml
@@ -372,6 +418,7 @@ common:
   type: MCPServer
   url: https://eodhd.com/financial-apis-blog/eodhd-mcp-server-update-75-tools-oauth-and-api-versioning
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -442,6 +489,48 @@ scopes:
   scope_count: 12
   slug: eodhd-scopes
   summary_line: 12 scopes · authorizationCode
+score:
+  band: strong
+  composite: 61.8
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 49.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 14.4
+    contract_quality: 61.5
+    developer_ergonomics: 83.3
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 61.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 68.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:
 - kind: authentication

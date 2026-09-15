@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -183,10 +208,12 @@ collections:
   slug: open-remberg-work-requests-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/capabilities/remberg-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/remberg-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/overlays/remberg-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/remberg-ai-overlay.yaml
@@ -223,6 +250,7 @@ common:
   type: Website
   url: https://remberg.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/authentication/remberg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/remberg-authentication.yml
@@ -231,18 +259,22 @@ common:
   type: OpenAPI
   url: https://developers.remberg.de/openapi
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/conventions/remberg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/remberg-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/rate-limits/remberg-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/remberg-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/errors/remberg-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/remberg-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/lifecycle/remberg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/remberg-lifecycle.yml
@@ -251,14 +283,17 @@ common:
   type: StatusPage
   url: https://status.remberg.de
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/asyncapi/remberg-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/remberg-events-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/data-model/remberg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/remberg-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/conformance/remberg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/remberg-conformance.yml
@@ -267,38 +302,47 @@ common:
   type: Compliance
   url: https://remberg.com/trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/security/remberg-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/remberg-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/security/remberg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/remberg-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/well-known/remberg-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/remberg-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/llms/remberg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/remberg-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/mcp/remberg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/remberg-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/agentic-access/remberg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/remberg-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/skills/remberg-manage-assets.md
   title: ''
   type: AgentSkill
   url: skills/remberg-manage-assets.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/skills/remberg-manage-work-orders.md
   title: ''
   type: AgentSkill
   url: skills/remberg-manage-work-orders.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/skills/remberg-sync-organizations-contacts.md
   title: ''
   type: AgentSkill
   url: skills/remberg-sync-organizations-contacts.md
@@ -322,6 +366,49 @@ rate_limits:
 - limit_count: 2
   name: Remberg Rate Limits
   slug: remberg-rate-limits
+score:
+  band: developing
+  composite: 42.2
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 64.7
+    developer_ergonomics: 39.9
+    discoverability: 81.5
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 42.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png
 security:
 - kind: authentication

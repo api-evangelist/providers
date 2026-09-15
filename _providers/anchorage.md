@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -263,10 +288,12 @@ collections:
   slug: open-anchorage-webhook-notifications-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/capabilities/anchorage-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/anchorage-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/overlays/anchorage-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anchorage-v2-overlay.yaml
@@ -303,42 +330,52 @@ common:
   type: PrivacyPolicy
   url: https://www.anchorage.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/authentication/anchorage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anchorage-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/openapi/_original/anchorage-v2-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/anchorage-v2-openapi-original.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/mcp/anchorage-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/anchorage-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/llms/anchorage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anchorage-llms.txt
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/sandbox/anchorage-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/anchorage-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/conventions/anchorage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anchorage-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/conventions/anchorage-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/anchorage-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/rate-limits/anchorage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anchorage-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/changelog/anchorage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anchorage-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/lifecycle/anchorage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anchorage-lifecycle.yml
@@ -351,38 +388,47 @@ common:
   type: Deprecation
   url: https://docs.anchorage.com/knowledge-base/api-reference/changelog.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/errors/anchorage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anchorage-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/conformance/anchorage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anchorage-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/data-model/anchorage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anchorage-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/asyncapi/anchorage-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/anchorage-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/arazzo/anchorage-receive-deposit.yml
   title: ''
   type: Arazzo
   url: arazzo/anchorage-receive-deposit.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/arazzo/anchorage-trade-rfq.yml
   title: ''
   type: Arazzo
   url: arazzo/anchorage-trade-rfq.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/agentic-access/anchorage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anchorage-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/security/anchorage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anchorage-vulnerability-disclosure.yml
@@ -391,6 +437,7 @@ common:
   type: Security
   url: https://www.anchorage.com/vulnerability-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/security/anchorage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anchorage-domain-security.yml
@@ -426,6 +473,47 @@ rate_limits:
 - limit_count: 1
   name: Anchorage Rate Limits
   slug: anchorage-rate-limits
+score:
+  band: developing
+  composite: 47.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 35.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 65.3
+    developer_ergonomics: 23.2
+    discoverability: 57.4
+    operational_transparency: 81.6
+  previous_composite: 47.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 39.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png
 security:
 - kind: authentication

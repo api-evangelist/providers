@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Anonymous, publicly callable MCP server on binske's direct-to-consumer storefront host implementing the Universal Commerce Protocol shopping service. A live JSON-RPC 2.0 tools/list returned 13 tools w
@@ -19,6 +44,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/security/binske-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/binske-domain-security.yml
@@ -31,46 +57,57 @@ common:
   type: Documentation
   url: https://shopbinske.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/mcp/binske-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/binske-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/llms/binske-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/binske-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/well-known/binske-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/binske-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/authentication/binske-authentication.yml
   title: ''
   type: Authentication
   url: authentication/binske-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/scopes/binske-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/binske-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/conventions/binske-conventions.yml
   title: ''
   type: Conventions
   url: conventions/binske-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/conventions/binske-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/binske-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/conformance/binske-conformance.yml
   title: ''
   type: Conformance
   url: conformance/binske-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/lifecycle/binske-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/binske-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/data-model/binske-data-model.yml
   title: ''
   type: DataModel
   url: data-model/binske-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -127,6 +164,36 @@ scopes:
   scope_count: 0
   slug: binske-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 20.1
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 20.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png
 security:
 - kind: authentication

@@ -24,10 +24,12 @@ common:
   type: SourceCode
   url: https://github.com/sigopt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sigopt/refs/heads/main/packages/sigopt-packages.yml
   title: ''
   type: Packages
   url: packages/sigopt-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sigopt/refs/heads/main/packages/sigopt-packages.yml
   title: ''
   type: SDKs
   url: packages/sigopt-packages.yml

@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -329,10 +354,12 @@ collections:
   slug: open-currencycloud-withdrawal-accounts-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/capabilities/currencycloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/currencycloud-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/overlays/currencycloud-reference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/currencycloud-reference-overlay.yaml
@@ -357,6 +384,7 @@ common:
   type: GettingStarted
   url: https://developer.currencycloud.com/guides/getting-started/getting-started-with-the-api/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/authentication/currencycloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/currencycloud-authentication.yml
@@ -393,82 +421,102 @@ common:
   type: Postman
   url: https://github.com/CurrencyCloud/postman
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/packages/currencycloud-packages.yml
   title: ''
   type: SDKs
   url: packages/currencycloud-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/packages/currencycloud-packages.yml
   title: ''
   type: Packages
   url: packages/currencycloud-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/mcp/currencycloud-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/currencycloud-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/llms/currencycloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/currencycloud-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/well-known/currencycloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/currencycloud-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/conformance/currencycloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/currencycloud-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/security/currencycloud-trust-center.yml
   title: ''
   type: Compliance
   url: security/currencycloud-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/security/currencycloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/currencycloud-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/errors/currencycloud-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/currencycloud-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/lifecycle/currencycloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/currencycloud-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/changelog/currencycloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/currencycloud-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/rate-limits/currencycloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/currencycloud-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/conventions/currencycloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/currencycloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/conventions/currencycloud-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/currencycloud-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/data-model/currencycloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/currencycloud-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/asyncapi/currencycloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/currencycloud-webhooks.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/sandbox/currencycloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/currencycloud-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/agentic-access/currencycloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/currencycloud-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/security/currencycloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/currencycloud-domain-security.yml
@@ -496,6 +544,51 @@ rate_limits:
 - limit_count: 5
   name: Currencycloud Rate Limits
   slug: currencycloud-rate-limits
+score:
+  band: strong
+  composite: 58.8
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 58.6
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 58.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 38.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:
 - kind: authentication

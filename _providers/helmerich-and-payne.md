@@ -10,6 +10,31 @@ access_model:
   - https://www.magvar.com/EULA_SurveyValidationAPI.html
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -27,6 +52,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/security/helmerich-and-payne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/helmerich-and-payne-domain-security.yml
@@ -71,50 +97,62 @@ common:
   type: Login
   url: https://www.hpinc.com/customer-login
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/llms/helmerich-and-payne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/helmerich-and-payne-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/authentication/helmerich-and-payne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/helmerich-and-payne-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/conventions/helmerich-and-payne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/helmerich-and-payne-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/conformance/helmerich-and-payne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/helmerich-and-payne-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/lifecycle/helmerich-and-payne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/helmerich-and-payne-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/sandbox/helmerich-and-payne-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/helmerich-and-payne-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/rate-limits/helmerich-and-payne-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/helmerich-and-payne-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/plans/helmerich-and-payne-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/helmerich-and-payne-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/data-model/helmerich-and-payne-data-model.yml
   title: ''
   type: DataModel
   url: data-model/helmerich-and-payne-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/errors/helmerich-and-payne-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/helmerich-and-payne-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/agentic-access/helmerich-and-payne-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/helmerich-and-payne-agentic-access.yml
@@ -155,6 +193,43 @@ rate_limits:
 - limit_count: 0
   name: Helmerich And Payne Rate Limits
   slug: helmerich-and-payne-rate-limits
+score:
+  band: thin
+  composite: 35.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 31.4
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 40.8
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 3.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 33.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: rising
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Helmerich And Payne Authentication

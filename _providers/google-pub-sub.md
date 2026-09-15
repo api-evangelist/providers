@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -81,22 +106,27 @@ collections:
   slug: open-google-pub-sub
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/agentic-access/google-pub-sub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-pub-sub-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/security/google-pub-sub-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-pub-sub-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/security/google-pub-sub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-pub-sub-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/authentication/google-pub-sub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-pub-sub-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/scopes/google-pub-sub-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-pub-sub-scopes.yml
@@ -179,6 +209,38 @@ scopes:
   scope_count: 2
   slug: google-pub-sub-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 55.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 13.6
+    contract_quality: 68.5
+    developer_ergonomics: 35.7
+    discoverability: 59.3
+    operational_transparency: 13.2
+  previous_composite: 38.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/screenshots/google-pub-sub-2026-06-20T182227.png
 security:
 - kind: authentication

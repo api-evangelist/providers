@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the EasyPay/Fawaterak payment gateway. Authenticated with a vendor Bearer token, it lists available payment methods, creates invoice and payment links, initiates payment on an invoice, an
@@ -63,34 +88,42 @@ common:
   type: Support
   url: https://fawaterk.com/contact-us/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/authentication/easypay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/easypay-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/conventions/easypay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/easypay-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/errors/easypay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/easypay-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/rate-limits/easypay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/easypay-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/lifecycle/easypay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/easypay-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/security/easypay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/easypay-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/well-known/easypay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/easypay-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/mcp/easypay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/easypay-mcp.yml
@@ -111,6 +144,45 @@ rate_limits:
 - limit_count: 1
   name: Easypay Rate Limits
   slug: easypay-rate-limits
+score:
+  band: emerging
+  composite: 25.4
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 68.5
+    operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 25.4
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/screenshots/easypay-2026-07-25T212717.png
 security:
 - kind: authentication

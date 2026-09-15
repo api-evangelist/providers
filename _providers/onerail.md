@@ -10,6 +10,31 @@ access_model:
   - https://developer.onerail.io/hc/en-us/articles/53169025821339-CapacityConnect-API-Quickstart-Guide
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -633,10 +658,12 @@ collections:
   slug: open-onerail-visibility-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/capabilities/onerail-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/onerail-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/agentic-access/onerail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/onerail-agentic-access.yml
@@ -685,6 +712,7 @@ common:
   type: Compliance
   url: https://www.onerail.com/ai/data-privacy-security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/security/onerail-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/onerail-trust-center.yml
@@ -693,58 +721,72 @@ common:
   type: StatusPage
   url: https://onerail.cronitorstatus.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/authentication/onerail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onerail-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/scopes/onerail-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/onerail-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/security/onerail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onerail-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/conventions/onerail-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onerail-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/conventions/onerail-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/onerail-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/sandbox/onerail-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/onerail-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/errors/onerail-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/onerail-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/lifecycle/onerail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onerail-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/conformance/onerail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onerail-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/data-model/onerail-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onerail-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/well-known/onerail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/onerail-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/asyncapi/onerail-delivery-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/onerail-delivery-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/llms/onerail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onerail-llms.txt
@@ -770,6 +812,41 @@ scopes:
   scope_count: 0
   slug: onerail-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 47.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 50.5
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 47.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 17.3
+      derived: 0
+      marker_coverage: 0.0
+      total: 75
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/screenshots/onerail-2026-08-07T190340.png
 security:
 - kind: authentication

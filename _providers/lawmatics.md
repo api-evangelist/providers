@@ -10,6 +10,32 @@ access_model:
   - docs
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -165,34 +191,42 @@ collections:
   slug: postman-lawmatics-oauth-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/agentic-access/lawmatics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lawmatics-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/scopes/lawmatics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lawmatics-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/authentication/lawmatics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lawmatics-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/security/lawmatics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lawmatics-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/packages/lawmatics-packages.yml
   title: ''
   type: Packages
   url: packages/lawmatics-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/llms/lawmatics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lawmatics-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/overlays/lawmatics-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lawmatics-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/conformance/lawmatics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lawmatics-conformance.yml
@@ -201,38 +235,47 @@ common:
   type: Compliance
   url: https://www.lawmatics.com/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/lifecycle/lawmatics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lawmatics-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/changelog/lawmatics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lawmatics-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/conventions/lawmatics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lawmatics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/errors/lawmatics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lawmatics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/data-model/lawmatics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lawmatics-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/asyncapi/lawmatics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lawmatics-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/components/lawmatics-components.yml
   title: ''
   type: Components
   url: components/lawmatics-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/postman/lawmatics-oauth-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/lawmatics-oauth-api.postman_collection.json
@@ -293,14 +336,17 @@ common:
   type: X
   url: https://x.com/lawmatics
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/plans/lawmatics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lawmatics-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/rate-limits/lawmatics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lawmatics-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/finops/lawmatics-finops.yml
   title: ''
   type: FinOps
   url: finops/lawmatics-finops.yml
@@ -342,6 +388,41 @@ scopes:
   scope_count: 0
   slug: lawmatics-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 52.7
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 71.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 44.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 32.5
+    developer_ergonomics: 54.2
+    discoverability: 68.5
+    operational_transparency: 55.3
+  previous_composite: 52.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 27
+      marker_coverage: 100.0
+      total: 27
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/screenshots/lawmatics-2026-06-20T184337.png
 security:
 - kind: authentication

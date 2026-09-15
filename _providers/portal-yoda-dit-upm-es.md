@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: CKAN API for UPM YODA Open Data Portal, ~201 datasets.
@@ -16,6 +41,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/security/portal-yoda-dit-upm-es-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/portal-yoda-dit-upm-es-domain-security.yml
@@ -28,18 +54,22 @@ common:
   type: Documentation
   url: https://docs.ckan.org/en/latest/api/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/plans/portal-yoda-dit-upm-es-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/portal-yoda-dit-upm-es-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/rate-limits/portal-yoda-dit-upm-es-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/portal-yoda-dit-upm-es-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/finops/portal-yoda-dit-upm-es-finops.yml
   title: ''
   type: FinOps
   url: finops/portal-yoda-dit-upm-es-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -68,6 +98,46 @@ rate_limits:
 - limit_count: 0
   name: Portal Yoda Dit Upm Es Rate Limits
   slug: portal-yoda-dit-upm-es-rate-limits
+score:
+  band: minimal
+  composite: 6.9
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 9.5
+    discoverability: 59.3
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - spain
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 6.9
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 11.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/screenshots/portal-yoda-dit-upm-es-2026-06-20T191931.png
 security:
 - kind: domain-security

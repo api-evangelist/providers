@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 31.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://services-catalog.melorra.com/api
@@ -36,10 +61,12 @@ apis:
 artifact_total: 8
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/overlays/melorra-catalog-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/melorra-catalog-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -52,10 +79,12 @@ common:
   type: APICatalog
   url: https://www.melorra.com/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/well-known/melorra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/melorra-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/llms/melorra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/melorra-llms.txt
@@ -84,14 +113,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/MelorraTech
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/packages/melorra-packages.yml
   title: ''
   type: Packages
   url: packages/melorra-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/security/melorra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/melorra-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/plans/melorra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/melorra-plans-pricing.yml
@@ -116,6 +148,48 @@ rate_limits:
 - limit_count: 0
   name: Melorra Rate Limits
   slug: melorra-rate-limits
+score:
+  band: emerging
+  composite: 23.1
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 12.9
+    developer_ergonomics: 30.4
+    discoverability: 87.0
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 23.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/screenshots/melorra-2026-09-02T150552.png
 security:
 - kind: authentication

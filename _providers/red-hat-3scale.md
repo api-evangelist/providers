@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -219,18 +244,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/red-hat-3scale/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/agentic-access/red-hat-3scale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red-hat-3scale-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/security/red-hat-3scale-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/red-hat-3scale-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/security/red-hat-3scale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-hat-3scale-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/authentication/red-hat-3scale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-hat-3scale-authentication.yml
@@ -295,46 +324,57 @@ common:
   type: ChangeLog
   url: https://access.redhat.com/documentation/en-us/red_hat_3scale_api_management/2.14/html/release_notes/index
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/_original/red-hat-3scale-service-management-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-3scale-service-management-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/_original/red-hat-3scale-account-management-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-3scale-account-management-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/_original/red-hat-3scale-analytics-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-3scale-analytics-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/_original/red-hat-3scale-billing-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-3scale-billing-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/_original/red-hat-3scale-apicast-management-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-3scale-apicast-management-openapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/json-ld/red-hat-3scale-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/red-hat-3scale-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/json-schema/red-hat-3scale-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-3scale-account-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/json-schema/red-hat-3scale-application-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-3scale-application-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/json-structure/red-hat-3scale-account-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/red-hat-3scale-account-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/rules/red-hat-3scale-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/red-hat-3scale-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/vocabulary/red-hat-3scale-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/red-hat-3scale-vocabulary.yml
@@ -508,6 +548,41 @@ rules:
     info: 2
     warn: 7
   slug: red-hat-3scale-rules
+score:
+  band: developing
+  composite: 49.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 28.8
+    contract_quality: 61.7
+    developer_ergonomics: 56.0
+    discoverability: 72.2
+    operational_transparency: 23.7
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 49.6
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/screenshots/red-hat-3scale-2026-06-20T192716.png
 security:
 - kind: authentication

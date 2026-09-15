@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -177,6 +202,7 @@ common:
   type: Website
   url: https://www.redhat.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/capabilities/openshift-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openshift-capability-edges.yml
@@ -185,14 +211,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/openshift/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/agentic-access/openshift-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openshift-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/security/openshift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openshift-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/authentication/openshift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openshift-authentication.yml
@@ -921,7 +950,7 @@ modified: '2026-05-19'
 name: OpenShift
 nav: Providers
 network: true
-overview: 'OpenShift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Routes API, BuildConfigs API, Builds API, and 4 more. Tagged areas include CI/CD, Cloud-Native, Containers, Developer Tools, and DevOps.
+overview: 'OpenShift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Routes API, BuildConfigs API, Builds API, and 4 more. Tagged areas include CI/CD, Cloud-Native, Containers, DevOps, and Enterprise.
 
 
   The OpenShift catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -959,6 +988,38 @@ rules:
     info: 2
     warn: 6
   slug: openshift-spectral-rules
+score:
+  band: developing
+  composite: 43.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 53.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 13.6
+    contract_quality: 64.6
+    developer_ergonomics: 27.4
+    discoverability: 59.3
+    operational_transparency: 34.2
+  previous_composite: 43.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/screenshots/openshift-2026-06-20T191034.png
 security:
 - kind: authentication
@@ -974,7 +1035,6 @@ tags:
 - CI/CD
 - Cloud-Native
 - Containers
-- Developer Tools
 - DevOps
 - Enterprise
 - Kubernetes

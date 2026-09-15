@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Landbase cloud gateway that landbase-cli calls in platform mode. It backs natural-language audience search and agent runs, dataset upload/lineage/download, record match, synchronous person/company
@@ -72,66 +97,82 @@ common:
   type: PrivacyPolicy
   url: https://www.landbase.com/legal/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/security/landbase-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/landbase-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/llms/landbase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landbase-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/cli/landbase-cli.yml
   title: ''
   type: CLI
   url: cli/landbase-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/packages/landbase-packages.yml
   title: ''
   type: Packages
   url: packages/landbase-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/changelog/landbase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/landbase-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/lifecycle/landbase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landbase-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/authentication/landbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/landbase-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/conventions/landbase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/landbase-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/conventions/landbase-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/landbase-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/errors/landbase-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/landbase-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/conformance/landbase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landbase-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/well-known/landbase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/landbase-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/security/landbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landbase-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/plans/landbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/landbase-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/rate-limits/landbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/landbase-rate-limits.yml
@@ -156,6 +197,36 @@ rate_limits:
 - limit_count: 4
   name: Landbase Rate Limits
   slug: landbase-rate-limits
+score:
+  band: developing
+  composite: 44.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 66.7
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 44.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/screenshots/landbase-2026-09-02T150332.png
 security:
 - kind: authentication

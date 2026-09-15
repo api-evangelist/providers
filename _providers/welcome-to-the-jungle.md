@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 23.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST API over Welcome to the Jungle Solutions recruiting and employer-branding data. Bearer-token (OAuth access token) authentication with a published scope model, JSON request and response bodies, pa
@@ -10,6 +35,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/security/welcome-to-the-jungle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/welcome-to-the-jungle-domain-security.yml
@@ -66,66 +92,82 @@ common:
   type: StatusPage
   url: https://status.welcomekit.co/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/plans/welcome-to-the-jungle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/welcome-to-the-jungle-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/rate-limits/welcome-to-the-jungle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/welcome-to-the-jungle-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/authentication/welcome-to-the-jungle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/welcome-to-the-jungle-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/scopes/welcome-to-the-jungle-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/welcome-to-the-jungle-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/errors/welcome-to-the-jungle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/welcome-to-the-jungle-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/conventions/welcome-to-the-jungle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/welcome-to-the-jungle-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/lifecycle/welcome-to-the-jungle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/welcome-to-the-jungle-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/conformance/welcome-to-the-jungle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/welcome-to-the-jungle-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/llms/welcome-to-the-jungle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/welcome-to-the-jungle-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/mcp/welcome-to-the-jungle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/welcome-to-the-jungle-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/packages/welcome-to-the-jungle-packages.yml
   title: ''
   type: Packages
   url: packages/welcome-to-the-jungle-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/components/welcome-to-the-jungle-components.yml
   title: ''
   type: Components
   url: components/welcome-to-the-jungle-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/conformance/welcome-to-the-jungle-conformance.yml
   title: ''
   type: Compliance
   url: conformance/welcome-to-the-jungle-conformance.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/graphql/welcome-to-the-jungle.graphql
   title: ''
   type: GraphQL
   url: graphql/welcome-to-the-jungle.graphql
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/mcp/welcome-to-the-jungle-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/welcome-to-the-jungle-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/welcome-to-the-jungle/refs/heads/main/data-model/welcome-to-the-jungle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/welcome-to-the-jungle-data-model.yml
@@ -137,7 +179,7 @@ modified: '2026-09-04'
 name: Welcome to the Jungle
 nav: Providers
 network: true
-overview: 'Welcome to the Jungle publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruiting, Applicant Tracking, and Jobs.
+overview: 'Welcome to the Jungle publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruiting, Applicant Tracking, and Job.
 
 
   Welcome to the Jungle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -155,6 +197,43 @@ scopes:
   scope_count: 0
   slug: welcome-to-the-jungle-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 37.2
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
+  previous_composite: 40.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Welcome To The Jungle Authentication
@@ -170,7 +249,7 @@ tags:
 - Human Resources
 - Recruiting
 - Applicant Tracking
-- Jobs
+- Job
 - Employer Branding
 - Talent Acquisition
 - HR Tech

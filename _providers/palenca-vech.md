@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.palenca.com
@@ -195,6 +220,7 @@ collections:
   slug: open-palenca-vech-widgets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/overlays/palenca-vech-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/palenca-vech-openapi-overlay.yaml
@@ -203,22 +229,27 @@ common:
   type: Website
   url: https://palenca.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/openapi/_original/palenca-vech-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/palenca-vech-openapi.json
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/rate-limits/palenca-vech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/palenca-vech-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/errors/palenca-vech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/palenca-vech-problem-types.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/sandbox/palenca-vech-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/palenca-vech-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/mcp/palenca-vech-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/palenca-vech-mcp.yml
@@ -239,18 +270,22 @@ common:
   type: GettingStarted
   url: https://developers.palenca.com/docs/getting-started-1
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/authentication/palenca-vech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/palenca-vech-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/llms/palenca-vech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/palenca-vech-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/conventions/palenca-vech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/palenca-vech-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/lifecycle/palenca-vech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/palenca-vech-lifecycle.yml
@@ -259,42 +294,52 @@ common:
   type: StatusPage
   url: https://status.palenca.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/conformance/palenca-vech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/palenca-vech-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/conformance/palenca-vech-conformance.yml
   title: ''
   type: Compliance
   url: conformance/palenca-vech-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/security/palenca-vech-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/palenca-vech-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/security/palenca-vech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/palenca-vech-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/security/palenca-vech-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/palenca-vech-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/security/palenca-vech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/palenca-vech-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/asyncapi/palenca-vech-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/palenca-vech-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/components/palenca-vech-components.yml
   title: ''
   type: Components
   url: components/palenca-vech-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/well-known/palenca-vech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/palenca-vech-well-known.yml
@@ -342,6 +387,45 @@ rate_limits:
 - limit_count: 1
   name: Palenca Vech Rate Limits
   slug: palenca-vech-rate-limits
+score:
+  band: developing
+  composite: 48.6
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 47.1
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 48.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:
 - kind: authentication

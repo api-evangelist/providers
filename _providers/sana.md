@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.sana.ai
@@ -102,14 +127,17 @@ collections:
   slug: open-sana-xapi-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/capabilities/sana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sana-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/overlays/sana-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sana-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/security/sana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sana-domain-security.yml
@@ -154,42 +182,52 @@ common:
   type: Compliance
   url: https://app.eu.vanta.com/sanalabs/trust/5awpv6z2jqb96ybu60v6ir
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/authentication/sana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sana-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/scopes/sana-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sana-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/conventions/sana-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sana-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/conformance/sana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sana-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/lifecycle/sana-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sana-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/asyncapi/sana-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sana-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/mcp/sana-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sana-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/llms/sana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sana-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/data-model/sana-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sana-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -214,6 +252,50 @@ scopes:
   scope_count: 2
   slug: sana-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: developing
+  composite: 43.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 61.2
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 43.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/screenshots/sana-2026-08-17T081718.png
 security:
 - kind: authentication

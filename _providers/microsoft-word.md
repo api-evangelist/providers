@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -253,86 +279,107 @@ common:
   type: License
   url: https://github.com/OfficeDev/Open-XML-SDK/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/agentic-access/microsoft-word-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-word-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/security/microsoft-word-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-word-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/security/microsoft-word-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-word-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/authentication/microsoft-word-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-word-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/scopes/microsoft-word-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-word-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/security/microsoft-word-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-word-trust-center.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/packages/microsoft-word-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-word-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/well-known/microsoft-word-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-word-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/mcp/microsoft-word-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/microsoft-word-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/llms/microsoft-word-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-word-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/conformance/microsoft-word-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-word-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/errors/microsoft-word-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-word-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/lifecycle/microsoft-word-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-word-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/sandbox/microsoft-word-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-word-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/conventions/microsoft-word-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-word-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/changelog/microsoft-word-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-word-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/cli/microsoft-word-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-word-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/data-model/microsoft-word-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-word-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/overlays/microsoft-word-graph-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-word-graph-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/overlays/microsoft-word-javascript-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-word-javascript-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/overlays/microsoft-word-open-xml-sdk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-word-open-xml-sdk-overlay.yaml
@@ -341,50 +388,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-word/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-author-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-author-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-browse-and-copy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-browse-and-copy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-build-report-body-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-build-report-body-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-checkout-edit-checkin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-checkout-edit-checkin-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-generate-and-convert-pdf-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-generate-and-convert-pdf-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-inspect-and-export-html-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-inspect-and-export-html-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-organize-and-invite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-organize-and-invite-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-rename-move-and-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-rename-move-and-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-resumable-upload-session-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-resumable-upload-session-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-search-and-download-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-search-and-download-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-search-and-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-search-and-tag-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/arazzo/microsoft-word-upload-and-share-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-word-upload-and-share-workflow.yml
@@ -461,10 +520,12 @@ common:
   type: Training
   url: https://learn.microsoft.com/en-us/training/browse/?products=ms-graph
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/rules/microsoft-word-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-word-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/vocabulary/microsoft-word-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-word-vocabulary.yaml
@@ -636,6 +697,43 @@ scopes:
   scope_count: 8
   slug: microsoft-word-scopes
   summary_line: 8 scopes · authorizationCode
+score:
+  band: strong
+  composite: 58.5
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 33.3
+    contract_quality: 33.9
+    developer_ergonomics: 89.3
+    discoverability: 57.4
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 58.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 21
+      marker_coverage: 100.0
+      total: 21
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:
 - kind: authentication

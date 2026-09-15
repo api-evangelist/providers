@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.infstones.com/bsc/mainnet
@@ -28,6 +53,7 @@ collections:
   slug: open-infstones-bnb-chain-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/overlays/infstones-bnb-chain-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infstones-bnb-chain-overlay.yaml
@@ -72,34 +98,42 @@ common:
   type: PrivacyPolicy
   url: https://infstones.com/terms/privacy-notice
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/llms/infstones-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infstones-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/authentication/infstones-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infstones-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/conventions/infstones-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infstones-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/errors/infstones-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/infstones-problem-types.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/sandbox/infstones-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/infstones-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/mcp/infstones-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/infstones-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/conformance/infstones-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infstones-conformance.yml
@@ -108,6 +142,7 @@ common:
   type: Compliance
   url: https://infstones.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/security/infstones-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/infstones-vulnerability-disclosure.yml
@@ -116,6 +151,7 @@ common:
   type: Security
   url: https://infstones.com/bug-bounty-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/security/infstones-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infstones-domain-security.yml
@@ -132,6 +168,40 @@ overview: 'InfStones publishes 1 API on the [APIs.io](https://apis.io/) network:
 
   InfStones'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 19
+score:
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 54.4
+    developer_ergonomics: 42.3
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 38.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/infstones/refs/heads/main/screenshots/infstones-2026-07-25T222427.png
 security:
 - kind: authentication

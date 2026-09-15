@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tsumobi/refs/heads/main/security/tsumobi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tsumobi-domain-security.yml
@@ -28,6 +29,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/tsumobi
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tsumobi/refs/heads/main/llms/tsumobi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tsumobi-llms.txt

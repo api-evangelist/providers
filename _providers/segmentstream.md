@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing SegmentStream's marketing measurement, attribution, budget-optimization, and BigQuery query capabilities as agent-callable tools (read-only reporting by d
@@ -61,46 +86,57 @@ common:
   type: StatusPage
   url: https://status.segmentstream.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/mcp/segmentstream-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/segmentstream-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/well-known/segmentstream-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/segmentstream-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/llms/segmentstream-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/segmentstream-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/packages/segmentstream-packages.yml
   title: ''
   type: Packages
   url: packages/segmentstream-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/packages/segmentstream-packages.yml
   title: ''
   type: SDKs
   url: packages/segmentstream-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/authentication/segmentstream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/segmentstream-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/conventions/segmentstream-conventions.yml
   title: ''
   type: Conventions
   url: conventions/segmentstream-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/conformance/segmentstream-conformance.yml
   title: ''
   type: Conformance
   url: conformance/segmentstream-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/lifecycle/segmentstream-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/segmentstream-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/security/segmentstream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/segmentstream-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/security/segmentstream-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/segmentstream-trust-center.yml
@@ -109,34 +145,42 @@ common:
   type: Compliance
   url: https://segmentstream.com/trust
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/a2a/segmentstream-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/segmentstream-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/cli/segmentstream-cli.yml
   title: ''
   type: CLI
   url: cli/segmentstream-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/changelog/segmentstream-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/segmentstream-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/plans/segmentstream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/segmentstream-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/rate-limits/segmentstream-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/segmentstream-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/errors/segmentstream-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/segmentstream-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/components/segmentstream-components.yml
   title: ''
   type: Components
   url: components/segmentstream-components.yml
@@ -165,6 +209,36 @@ rate_limits:
 - limit_count: 0
   name: Segmentstream Rate Limits
   slug: segmentstream-rate-limits
+score:
+  band: developing
+  composite: 43.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 73.8
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 43.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmentstream/refs/heads/main/screenshots/segmentstream-2026-08-17T081754.png
 security:
 - kind: authentication

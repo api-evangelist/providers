@@ -30,7 +30,7 @@ tags:
 - GTIN
 - Barcodes
 - Product Catalog
-- PIM
+- Product Information Management
 - Syndication
 - Schema.org Product
 ---

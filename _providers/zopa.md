@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -121,26 +146,32 @@ collections:
   slug: open-zopa-transactions-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/capabilities/zopa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zopa-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/overlays/zopa-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zopa-account-info-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/agentic-access/zopa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zopa-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/scopes/zopa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zopa-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/authentication/zopa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zopa-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/security/zopa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zopa-domain-security.yml
@@ -149,14 +180,17 @@ common:
   type: Website
   url: https://www.zopa.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/well-known/zopa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zopa-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/well-known/zopa-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zopa-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/security/zopa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zopa-vulnerability-disclosure.yml
@@ -165,22 +199,27 @@ common:
   type: Security
   url: https://www.zopa.com/.well-known/security.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/errors/zopa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zopa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/conventions/zopa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zopa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/conventions/zopa-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zopa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/lifecycle/zopa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zopa-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/conformance/zopa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zopa-conformance.yml
@@ -189,22 +228,27 @@ common:
   type: Compliance
   url: https://www.zopa.com/open-banking-developer
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/data-model/zopa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zopa-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/mcp/zopa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zopa-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/llms/zopa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zopa-llms.txt
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/sandbox/zopa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zopa-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -258,6 +302,59 @@ scopes:
   scope_count: 2
   slug: zopa-scopes
   summary_line: 2 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 39.5
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 50.3
+    developer_ergonomics: 38.7
+    discoverability: 75.9
+    operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 39.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 76.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/screenshots/zopa-2026-08-17T083118.png
 security:
 - kind: authentication

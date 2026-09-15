@@ -11,6 +11,31 @@ access_model:
   - https://www.insightera.co.th/contact-us/
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -37,58 +62,72 @@ collections:
   slug: open-insightera-nlp-platform
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/agentic-access/insightera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/insightera-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/security/insightera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insightera-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/authentication/insightera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/insightera-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/conventions/insightera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/insightera-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/errors/insightera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/insightera-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/data-model/insightera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/insightera-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/conformance/insightera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insightera-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/lifecycle/insightera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/insightera-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/rate-limits/insightera-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/insightera-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/plans/insightera-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/insightera-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/packages/insightera-packages.yml
   title: ''
   type: Packages
   url: packages/insightera-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/overlays/insightera-nlp-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/insightera-nlp-platform-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/llms/insightera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insightera-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,6 +205,46 @@ rate_limits:
 - limit_count: 0
   name: Insightera Rate Limits
   slug: insightera-rate-limits
+score:
+  band: thin
+  composite: 26.3
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 45.6
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
+  previous_composite: 26.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/screenshots/insightera-2026-08-07T170722.png
 security:
 - kind: authentication

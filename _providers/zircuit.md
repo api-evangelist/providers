@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Zircuit L2 network (HTTP and WebSocket) for reading chain state and submitting transactions. Mainnet is chain ID 48900; the Garfield testnet is chain ID
@@ -31,6 +56,7 @@ collections:
   slug: open-zircuit-orders-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/security/zircuit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zircuit-domain-security.yml
@@ -87,42 +113,52 @@ common:
   type: x-explorer
   url: https://explorer.zircuit.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/llms/zircuit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zircuit-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/authentication/zircuit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zircuit-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/conventions/zircuit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zircuit-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/conformance/zircuit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zircuit-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/errors/zircuit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zircuit-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/lifecycle/zircuit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zircuit-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/lifecycle/zircuit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/zircuit-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/sandbox/zircuit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zircuit-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/well-known/zircuit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zircuit-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/mcp/zircuit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zircuit-mcp.yml
@@ -139,6 +175,39 @@ overview: 'Zircuit publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
   Zircuit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 43.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 52.4
+    developer_ergonomics: 60.7
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 43.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/screenshots/zircuit-2026-08-17T083112.png
 security:
 - kind: authentication

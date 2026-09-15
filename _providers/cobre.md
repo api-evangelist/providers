@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.cobre.co
@@ -29,6 +54,7 @@ asyncapis:
   slug: cobre-events-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/security/cobre-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cobre-domain-security.yml
@@ -53,6 +79,7 @@ common:
   type: GettingStarted
   url: https://docs.cobre.com/get-started-1737317m0
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/authentication/cobre-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cobre-authentication.yml
@@ -69,46 +96,57 @@ common:
   type: StatusPage
   url: https://status.cobre.co/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/llms/cobre-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cobre-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/mcp/cobre-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cobre-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/conventions/cobre-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cobre-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/conventions/cobre-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cobre-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/rate-limits/cobre-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cobre-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/errors/cobre-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cobre-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/asyncapi/cobre-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cobre-events-webhooks.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/asyncapi/cobre-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/cobre-events-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/lifecycle/cobre-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cobre-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/sandbox/cobre-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cobre-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/conformance/cobre-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cobre-conformance.yml
@@ -117,6 +155,7 @@ common:
   type: Compliance
   url: https://docs.cobre.com/security-at-cobre-1737320m0
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/data-model/cobre-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cobre-data-model.yml
@@ -144,6 +183,48 @@ rate_limits:
 - limit_count: 1
   name: Cobre Rate Limits
   slug: cobre-rate-limits
+score:
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 18.2
+    contract_quality: 42.7
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - mexico
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 40.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 27.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png
 security:
 - kind: authentication

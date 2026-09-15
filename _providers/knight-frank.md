@@ -11,6 +11,31 @@ access_model:
   - openapi
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,66 +91,82 @@ collections:
   slug: open-knight-frank-api-v3
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/agentic-access/knight-frank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/knight-frank-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/security/knight-frank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knight-frank-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/authentication/knight-frank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/knight-frank-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/scopes/knight-frank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/knight-frank-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/conventions/knight-frank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/knight-frank-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/errors/knight-frank-error-responses.yml
   title: ''
   type: ErrorCatalog
   url: errors/knight-frank-error-responses.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/lifecycle/knight-frank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/knight-frank-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/conformance/knight-frank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/knight-frank-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/data-model/knight-frank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/knight-frank-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/packages/knight-frank-packages.yml
   title: ''
   type: Packages
   url: packages/knight-frank-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/well-known/knight-frank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/knight-frank-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/mcp/knight-frank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/knight-frank-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/llms/knight-frank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knight-frank-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/overlays/knight-frank-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/knight-frank-api-v3-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/arazzo/knight-frank-office-lookup.yml
   title: ''
   type: Arazzo
   url: arazzo/knight-frank-office-lookup.yml
@@ -182,10 +223,12 @@ common:
   type: LinkedIn
   url: https://uk.linkedin.com/company/knight-frank
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/authentication/knight-frank-b2c-mykfsignin-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: authentication/knight-frank-b2c-mykfsignin-openid-configuration.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/authentication/knight-frank-b2clogin-mykfsignin-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: authentication/knight-frank-b2clogin-mykfsignin-openid-configuration.json
@@ -209,6 +252,55 @@ scopes:
   scope_count: 2
   slug: knight-frank-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: thin
+  composite: 27.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 29.3
+    developer_ergonomics: 28.0
+    discoverability: 68.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 27.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 58.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:
 - kind: authentication

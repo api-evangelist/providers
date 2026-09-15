@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Cakewalk Open API is a REST API for building custom access-governance workflows and integrations. It exposes users, user groups, work apps, accesses, permission levels, requests, tasks, policies, '
@@ -41,62 +66,77 @@ common:
   type: GettingStarted
   url: https://www.cakewalk.security/docs/open-api-and-mcp/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/authentication/cakewalk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cakewalk-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/scopes/cakewalk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cakewalk-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/mcp/cakewalk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cakewalk-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/errors/cakewalk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cakewalk-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/conventions/cakewalk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cakewalk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/data-model/cakewalk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cakewalk-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/lifecycle/cakewalk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cakewalk-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/conformance/cakewalk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cakewalk-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/security/cakewalk-trust-center.yml
   title: ''
   type: Compliance
   url: security/cakewalk-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/security/cakewalk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cakewalk-trust-center.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/rate-limits/cakewalk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cakewalk-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/asyncapi/cakewalk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cakewalk-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/llms/cakewalk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cakewalk-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/security/cakewalk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cakewalk-domain-security.yml
@@ -157,6 +197,36 @@ scopes:
   scope_count: 4
   slug: cakewalk-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 39.2
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/screenshots/cakewalk-2026-07-25T204223.png
 security:
 - kind: authentication

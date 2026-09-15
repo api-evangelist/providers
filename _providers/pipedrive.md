@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 0
@@ -564,6 +589,7 @@ collections:
   slug: open-pipedrive-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/capabilities/pipedrive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pipedrive-capability-edges.yml
@@ -572,18 +598,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/pipedrive/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/agentic-access/pipedrive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pipedrive-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/security/pipedrive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pipedrive-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/authentication/pipedrive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pipedrive-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/scopes/pipedrive-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pipedrive-scopes.yml
@@ -648,14 +678,17 @@ common:
   type: Webhooks
   url: https://developers.pipedrive.com/docs/api/v1/Webhooks
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/plans/pipedrive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pipedrive-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/rate-limits/pipedrive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pipedrive-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/finops/pipedrive-finops.yml
   title: ''
   type: FinOps
   url: finops/pipedrive-finops.yml
@@ -723,6 +756,38 @@ scopes:
   scope_count: 28
   slug: pipedrive-scopes
   summary_line: 28 scopes · authorizationCode
+score:
+  band: developing
+  composite: 46.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 36.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 11.4
+    contract_quality: 68.0
+    developer_ergonomics: 31.0
+    discoverability: 51.9
+    operational_transparency: 34.2
+  previous_composite: 46.5
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png
 security:
 - kind: authentication

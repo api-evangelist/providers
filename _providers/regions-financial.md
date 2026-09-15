@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -69,22 +94,27 @@ collections:
   slug: open-regions-open-banking
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/capabilities/regions-financial-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/regions-financial-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/agentic-access/regions-financial-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/regions-financial-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/security/regions-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/regions-financial-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/authentication/regions-financial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/regions-financial-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/scopes/regions-financial-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/regions-financial-scopes.yml
@@ -208,6 +238,44 @@ scopes:
   scope_count: 4
   slug: regions-financial-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 31.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 58.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 28.8
+    contract_quality: 57.8
+    developer_ergonomics: 11.9
+    discoverability: 63.0
+    operational_transparency: 5.3
+  previous_composite: 31.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 48.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Regions Financial Authentication

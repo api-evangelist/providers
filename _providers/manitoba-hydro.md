@@ -10,6 +10,31 @@ access_model:
   - probes
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: A hosted Esri feature service published by Manitoba Hydro's ArcGIS Online organization (org id QoeQkfdOG126FqSi, org name "Manitoba Hydro", item owner dcarpenter@hydro.mb.ca) carrying live unplanned p
@@ -27,50 +52,62 @@ apis:
 artifact_total: 19
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/security/manitoba-hydro-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/manitoba-hydro-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/security/manitoba-hydro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manitoba-hydro-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/well-known/manitoba-hydro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/manitoba-hydro-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/well-known/manitoba-hydro-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/manitoba-hydro-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/authentication/manitoba-hydro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/manitoba-hydro-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/conventions/manitoba-hydro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/manitoba-hydro-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/errors/manitoba-hydro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/manitoba-hydro-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/conformance/manitoba-hydro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/manitoba-hydro-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/lifecycle/manitoba-hydro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/manitoba-hydro-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/data-model/manitoba-hydro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/manitoba-hydro-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/llms/manitoba-hydro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/manitoba-hydro-llms.txt
@@ -170,6 +207,47 @@ overview: 'Manitoba Hydro publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
   Manitoba Hydro''s developer surface includes authentication, code examples, documentation, signup flow, support, engineering blog, and 17 more developer resources.'
 random_paper: 10
+score:
+  band: thin
+  composite: 36.0
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 50.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 25.3
+    developer_ergonomics: 45.2
+    discoverability: 74.1
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 36.0
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 38.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/screenshots/manitoba-hydro-2026-08-07T171956.png
 security:
 - kind: authentication

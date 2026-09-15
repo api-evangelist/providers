@@ -11,6 +11,32 @@ access_model:
   - https://api-console.zoho.com/
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 1
@@ -207,426 +233,532 @@ asyncapis:
   slug: zoho-crm-notifications-asyncapi
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/capabilities/zoho-crm-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zoho-crm-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-apis-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-appointment-preference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-appointment-preference-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-appointments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-appointments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-assignment-rules-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-assignment-rules-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-associate-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-associate-email-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-attachments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-attachments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-audit-log-export-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-audit-log-export-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-available-currencies-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-available-currencies-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-bulk-read-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-bulk-read-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-bulk-write-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-bulk-write-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-business-hours-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-business-hours-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-cadences-execution-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-cadences-execution-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-cadences-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-cadences-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-call-preferences-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-call-preferences-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-cancel-meetings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-cancel-meetings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-change-owner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-change-owner-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-composite-requests-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-composite-requests-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-contact-roles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-contact-roles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-conversion-option-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-conversion-option-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-convert-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-convert-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-coql-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-coql-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-currencies-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-currencies-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-custom-views-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-custom-views-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-data-sharing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-data-sharing-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-deal-contact-roles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-deal-contact-roles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-deal-link-emails-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-deal-link-emails-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-download-attachments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-download-attachments-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-download-inline-images-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-download-inline-images-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-duplicate-check-preference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-duplicate-check-preference-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-email-drafts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-email-drafts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-email-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-email-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-emails-sharing-details-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-emails-sharing-details-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-features-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-features-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-fetch-full-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-fetch-full-data-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-field-updates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-field-updates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-fields-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-fields-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-files-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-files-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-find-and-merge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-find-and-merge-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-fiscal-year-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-fiscal-year-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-from-addresses-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-from-addresses-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-get-related-records-count-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-get-related-records-count-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-global-picklists-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-global-picklists-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-holidays-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-holidays-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-inventory-convert-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-inventory-convert-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-inventory-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-inventory-templates-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-layouts-activate-deactivate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-layouts-activate-deactivate-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-layouts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-layouts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-locking-informations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-locking-informations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-mail-merge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-mail-merge-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-map-dependency-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-map-dependency-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-mass-change-owner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-mass-change-owner-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-mass-convert-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-mass-convert-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-mass-delete-cvid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-mass-delete-cvid-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-mass-delete-tags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-mass-delete-tags-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-mass-update-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-mass-update-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-module-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-module-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-modules-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-modules-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-notes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-notes-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-notifications-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-notifications-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-org-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-org-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-org-photo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-org-photo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-ownership-history-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-ownership-history-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-pick-list-values-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-pick-list-values-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-pipeline-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-pipeline-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-portal-user-type-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-portal-user-type-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-portal-users-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-portal-users-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-portals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-portals-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-profiles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-profiles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-record-count-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-record-count-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-record-locking-configurations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-record-locking-configurations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-record-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-record-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-record-photo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-record-photo-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-record-share-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-record-share-email-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-recycle-bin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-recycle-bin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-related-lists-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-related-lists-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-related-notes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-related-notes-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-related-records-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-related-records-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-roles-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-roles-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-scoring-rules-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-scoring-rules-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-send-mail-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-send-mail-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-service-preference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-service-preference-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-services-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-services-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-share-records-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-share-records-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-shift-hours-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-shift-hours-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-tags-actions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-tags-actions-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-tags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-tags-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-territories-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-territories-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-territory-users-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-territory-users-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-timelines-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-timelines-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-unblock-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-unblock-email-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-unsubscribe-links-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-unsubscribe-links-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-upload-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-upload-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-user-groups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-user-groups-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-users-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-users-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-users-territories-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-users-territories-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-users-transfer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-users-transfer-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-variable-groups-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-variable-groups-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-variables-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-variables-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-webhooks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-wizards-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-wizards-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-workflow-configurations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-workflow-configurations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-workflow-rules-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-workflow-rules-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-workflow-tasks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-workflow-tasks-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-zia-enrichment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-zia-enrichment-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/overlays/zoho-crm-zia-org-enrichment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zoho-crm-zia-org-enrichment-overlay.yaml
@@ -699,30 +831,37 @@ common:
   type: Console
   url: https://api-console.zoho.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/authentication/zoho-crm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zoho-crm-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/scopes/zoho-crm-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zoho-crm-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/conventions/zoho-crm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zoho-crm-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/errors/zoho-crm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zoho-crm-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/rate-limits/zoho-crm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zoho-crm-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/plans/zoho-crm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zoho-crm-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/lifecycle/zoho-crm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zoho-crm-lifecycle.yml
@@ -731,42 +870,52 @@ common:
   type: StatusPage
   url: https://status.zoho.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/changelog/zoho-crm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zoho-crm-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/data-model/zoho-crm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zoho-crm-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/packages/zoho-crm-packages.yml
   title: ''
   type: Packages
   url: packages/zoho-crm-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/packages/zoho-crm-packages.yml
   title: ''
   type: SDKs
   url: packages/zoho-crm-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/cli/zoho-crm-cli.yml
   title: ''
   type: CLI
   url: cli/zoho-crm-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/components/zoho-crm-components.yml
   title: ''
   type: Components
   url: components/zoho-crm-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/sandbox/zoho-crm-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zoho-crm-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/well-known/zoho-crm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zoho-crm-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/well-known/zoho-crm-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zoho-crm-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/security/zoho-crm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zoho-crm-vulnerability-disclosure.yml
@@ -775,10 +924,12 @@ common:
   type: Security
   url: https://bugbounty.zohocorp.com/bb/info
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/security/zoho-crm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoho-crm-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/security/zoho-crm-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zoho-crm-trust-center.yml
@@ -787,42 +938,52 @@ common:
   type: Compliance
   url: https://www.zoho.com/compliance.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/conformance/zoho-crm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zoho-crm-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/mcp/zoho-crm-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/zoho-crm-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/mcp/zoho-crm-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/zoho-crm-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/agentic-access/zoho-crm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zoho-crm-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/llms/zoho-crm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zoho-crm-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/asyncapi/zoho-crm-notifications-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/zoho-crm-notifications-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/asyncapi/zoho-crm-notifications-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/zoho-crm-notifications-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/graphql/zoho-crm-graphql.md
   title: ''
   type: GraphQL
   url: graphql/zoho-crm-graphql.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/rules/zoho-crm-asyncapi-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/zoho-crm-asyncapi-spectral-rules.yml
@@ -876,6 +1037,41 @@ scopes:
   scope_count: 458
   slug: zoho-crm-scopes
   summary_line: 458 scopes · authorizationCode/clientCredentials
+score:
+  band: exemplar
+  composite: 75.8
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 64.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 50.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 29.5
+    contract_quality: 67.5
+    developer_ergonomics: 82.7
+    discoverability: 68.5
+    operational_transparency: 84.2
+  previous_composite: 75.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:
 - kind: authentication

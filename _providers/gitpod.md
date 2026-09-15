@@ -12,6 +12,31 @@ access_model:
   - '{''url'': ''https://www.gitpod.io'', ''status'': 308, ''note'': ''declared website redirects to https://ona.com/ — a different registrable domain (gitpod.io -> ona.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 388
   human_in_the_loop: 5
@@ -285,22 +310,27 @@ collections:
   slug: open-gitpod-gitpod-v1-workflowservice-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/capabilities/gitpod-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gitpod-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/agentic-access/gitpod-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gitpod-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/security/gitpod-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gitpod-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/security/gitpod-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gitpod-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/authentication/gitpod-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gitpod-authentication.yml
@@ -353,22 +383,27 @@ common:
   type: SDKGo
   url: https://github.com/gitpod-io/gitpod-sdk-go
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/plans/gitpod-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gitpod-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/rate-limits/gitpod-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gitpod-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/finops/gitpod-finops.yml
   title: ''
   type: FinOps
   url: finops/gitpod-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/vocabulary/gitpod-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gitpod-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/json-ld/gitpod-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/gitpod-context.jsonld
@@ -445,6 +480,38 @@ rules:
     info: 2
     warn: 3
   slug: gitpod-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 45.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 72.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 25.0
+    contract_quality: 59.0
+    developer_ergonomics: 23.8
+    discoverability: 68.5
+    operational_transparency: 47.4
+  previous_composite: 45.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/screenshots/gitpod-2026-06-20T181852.png
 security:
 - kind: authentication

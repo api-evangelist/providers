@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Self-serve REST API to generate and edit sound effects from video or text. Bearer-token (API key) auth; JSON request/response returning generated audio asset URLs; synchronous and asynchronous (job-po
@@ -66,42 +91,52 @@ common:
   type: StatusPage
   url: https://status.mirelo.ai
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/authentication/mirelo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mirelo-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/conventions/mirelo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mirelo-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/lifecycle/mirelo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mirelo-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/changelog/mirelo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mirelo-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/packages/mirelo-packages.yml
   title: ''
   type: Packages
   url: packages/mirelo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/packages/mirelo-packages.yml
   title: ''
   type: SDKs
   url: packages/mirelo-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/mcp/mirelo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mirelo-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/components/mirelo-components.yml
   title: ''
   type: Components
   url: components/mirelo-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/security/mirelo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mirelo-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/llms/mirelo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mirelo-llms.txt
@@ -118,6 +153,40 @@ overview: 'Mirelo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Mirelo''s developer surface includes documentation, API reference, engineering blog, pricing, support, signup flow, authentication, and 15 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 29.6
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 29.6
+  provenance:
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/heads/main/screenshots/mirelo-2026-08-07T183717.png
 security:
 - kind: authentication

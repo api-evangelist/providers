@@ -32,10 +32,12 @@ common:
   type: PrivacyPolicy
   url: https://www.lendup.com/privacy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lendup/refs/heads/main/security/lendup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lendup-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lendup/refs/heads/main/llms/lendup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lendup-llms.txt

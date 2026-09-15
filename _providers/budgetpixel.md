@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: First-party hosted remote Model Context Protocol server (streamable HTTP, protocol 2025-06-18) giving agents 12 tools to generate images, video, music and sound effects on the signed-in account, upsca
@@ -177,6 +203,7 @@ common:
   type: Pricing
   url: https://budgetpixel.com/pricing
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/plans/budgetpixel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/budgetpixel-plans-pricing.yml
@@ -209,70 +236,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/budgetpixel-ai
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/mcp/budgetpixel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/budgetpixel-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/mcp/budgetpixel-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/budgetpixel-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/a2a/budgetpixel-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/budgetpixel-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/llms/budgetpixel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/budgetpixel-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/well-known/budgetpixel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/budgetpixel-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/authentication/budgetpixel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/budgetpixel-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/scopes/budgetpixel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/budgetpixel-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/conventions/budgetpixel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/budgetpixel-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/errors/budgetpixel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/budgetpixel-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/rate-limits/budgetpixel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/budgetpixel-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/lifecycle/budgetpixel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/budgetpixel-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/conformance/budgetpixel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/budgetpixel-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/data-model/budgetpixel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/budgetpixel-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/packages/budgetpixel-packages.yml
   title: ''
   type: Packages
   url: packages/budgetpixel-packages.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/overlays/budgetpixel-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/budgetpixel-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/security/budgetpixel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/budgetpixel-domain-security.yml
@@ -312,6 +356,46 @@ scopes:
   scope_count: 0
   slug: budgetpixel-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 56.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 57.5
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 56.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/screenshots/budgetpixel-2026-09-02T144959.png
 security:
 - kind: authentication

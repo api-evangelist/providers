@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.prod.fortahealth.com/api/v1/
@@ -294,14 +319,17 @@ collections:
   slug: open-forta-health-treatment-plan-statuses-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/capabilities/forta-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/forta-health-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/overlays/forta-health-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/forta-health-platform-overlay.yaml
@@ -358,22 +386,27 @@ common:
   type: Compliance
   url: https://www.fortahealth.com/notice-of-privacy-practices
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/conformance/forta-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/forta-health-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/packages/forta-health-packages.yml
   title: ''
   type: Packages
   url: packages/forta-health-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/lifecycle/forta-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/forta-health-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/security/forta-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forta-health-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/llms/forta-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forta-health-llms.txt
@@ -391,6 +424,51 @@ overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) net
 
   Forta Health''s developer surface includes signup flow, support, engineering blog, and 18 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 4.5
+    contract_quality: 55.7
+    developer_ergonomics: 26.2
+    discoverability: 68.5
+    operational_transparency: 2.6
+  previous_composite: 40.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    skills: unknown
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:
 - kind: authentication

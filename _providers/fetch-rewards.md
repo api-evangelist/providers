@@ -9,6 +9,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Receipts API from Fetch Rewards — 2 operation(s) for receipts.
@@ -21,6 +46,7 @@ collections:
   slug: open-fetch-rewards-receipt-processor
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/overlays/fetch-rewards-receipt-processor-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fetch-rewards-receipt-processor-overlay.yaml
@@ -81,30 +107,37 @@ common:
   type: Security
   url: https://hackerone.com/fetchrewards_vdp
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/security/fetch-rewards-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fetch-rewards-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/well-known/fetch-rewards-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fetch-rewards-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/well-known/fetch-rewards-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fetch-rewards-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/security/fetch-rewards-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fetch-rewards-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/packages/fetch-rewards-packages.yml
   title: ''
   type: Packages
   url: packages/fetch-rewards-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/conformance/fetch-rewards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fetch-rewards-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/llms/fetch-rewards-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fetch-rewards-llms.txt
@@ -122,6 +155,38 @@ overview: 'Fetch Rewards publishes 1 API on the [APIs.io](https://apis.io/) netw
 
   Fetch Rewards'' developer surface includes engineering blog, support, FAQ, and 19 more developer resources.'
 random_paper: 4
+score:
+  band: emerging
+  composite: 24.6
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 42.9
+    developer_ergonomics: 7.1
+    discoverability: 66.7
+    operational_transparency: 13.2
+  previous_composite: 24.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png
 security:
 - kind: domain-security

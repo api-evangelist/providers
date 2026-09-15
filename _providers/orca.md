@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,10 +78,12 @@ collections:
   slug: open-orca-whirlpools-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/agentic-access/orca-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orca-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/security/orca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orca-domain-security.yml
@@ -89,66 +116,82 @@ common:
   type: Support
   url: https://docs.orca.so/support/faqs
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/authentication/orca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orca-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/packages/orca-packages.yml
   title: ''
   type: Packages
   url: packages/orca-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/packages/orca-packages.yml
   title: ''
   type: SDKs
   url: packages/orca-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/mcp/orca-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/orca-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/llms/orca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orca-llms.txt
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/sandbox/orca-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orca-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/conventions/orca-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orca-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/changelog/orca-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orca-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/lifecycle/orca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orca-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/conformance/orca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orca-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/errors/orca-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orca-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/data-model/orca-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orca-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/cli/orca-cli.yml
   title: ''
   type: CLI
   url: cli/orca-cli.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/overlays/orca-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orca-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/arazzo/orca-find-pool.yml
   title: ''
   type: Arazzo
   url: arazzo/orca-find-pool.yml
@@ -169,6 +212,42 @@ overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: pro
 
   Orca''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
 random_paper: 1
+score:
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 49.4
+    developer_ergonomics: 78.0
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 38.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/screenshots/orca-2026-08-07T190854.png
 security:
 - kind: authentication

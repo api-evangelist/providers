@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: Payment gateway API for accepting credit card and eCheck.Net payments, storing customer payment profiles (CIM), recurring billing (ARB), hosted/tokenized card capture (Accept.js / Accept Hosted), tran
@@ -38,6 +63,7 @@ asyncapis:
   slug: authorizenet-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/security/authorizenet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authorizenet-domain-security.yml
@@ -98,50 +124,62 @@ common:
   type: StatusPage
   url: https://status.authorize.net/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/packages/authorizenet-packages.yml
   title: ''
   type: Packages
   url: packages/authorizenet-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/packages/authorizenet-packages.yml
   title: ''
   type: SDKs
   url: packages/authorizenet-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/mcp/authorizenet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/authorizenet-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/lifecycle/authorizenet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/authorizenet-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/sandbox/authorizenet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/authorizenet-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/asyncapi/authorizenet-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/authorizenet-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/errors/authorizenet-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/authorizenet-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/errors/authorizenet-decline-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/authorizenet-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/conformance/authorizenet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/authorizenet-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/authentication/authorizenet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/authorizenet-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/conventions/authorizenet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/authorizenet-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/conventions/authorizenet-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/authorizenet-conventions.yml
@@ -162,6 +200,45 @@ overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) netw
 
   Authorize.net''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, sandbox, and 20 more developer resources.'
 random_paper: 12
+score:
+  band: thin
+  composite: 36.9
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 8.1
+    developer_ergonomics: 61.9
+    discoverability: 74.1
+    operational_transparency: 26.3
+  previous_composite: 36.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 51.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/screenshots/authorizenet-2026-07-25T201810.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - lifecycle
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.mavrck.co
@@ -1451,18 +1476,22 @@ collections:
   slug: open-mavrck-ytbcbrandchannels-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/capabilities/mavrck-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mavrck-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/skills/mavrck-receive-workflow-stage-change-webhook.md
   title: ''
   type: AgentSkill
   url: skills/mavrck-receive-workflow-stage-change-webhook.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/authentication/mavrck-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mavrck-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/security/mavrck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mavrck-domain-security.yml
@@ -1507,74 +1536,92 @@ common:
   type: StatusPage
   url: https://status.later.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/conventions/mavrck-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mavrck-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/errors/mavrck-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mavrck-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/data-model/mavrck-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mavrck-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/conformance/mavrck-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mavrck-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/security/mavrck-trust-center.yml
   title: ''
   type: Compliance
   url: security/mavrck-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/security/mavrck-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mavrck-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/lifecycle/mavrck-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mavrck-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/lifecycle/mavrck-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/mavrck-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/changelog/mavrck-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mavrck-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/plans/mavrck-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mavrck-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/rate-limits/mavrck-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mavrck-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/packages/mavrck-packages.yml
   title: ''
   type: Packages
   url: packages/mavrck-packages.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/asyncapi/mavrck-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/mavrck-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/webhooks/mavrck-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/mavrck-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/llms/mavrck-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mavrck-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/overlays/mavrck-platform-servers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mavrck-platform-servers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/overlays/mavrck-reporting-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mavrck-reporting-api-overlay.yaml
@@ -1603,6 +1650,46 @@ rate_limits:
 - limit_count: 0
   name: Mavrck Rate Limits
   slug: mavrck-rate-limits
+score:
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 24.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 55.3
+    developer_ergonomics: 47.0
+    discoverability: 51.9
+    operational_transparency: 47.4
+  previous_composite: 51.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 180
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/screenshots/mavrck-2026-07-25T230437.png
 security:
 - kind: authentication

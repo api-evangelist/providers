@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: REST API for Deskera Books, the cloud ERP and accounting product — contacts, products, accounts, invoices, bills, quotations, sales and purchase orders, credit and debit notes, deposits, expenses, pay
@@ -33,6 +58,7 @@ asyncapis:
   slug: deskera-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/security/deskera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deskera-domain-security.yml
@@ -57,10 +83,12 @@ common:
   type: GettingStarted
   url: https://deskera.github.io/Developer-Documentation/docs/books/started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/authentication/deskera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deskera-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/scopes/deskera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/deskera-scopes.yml
@@ -117,46 +145,57 @@ common:
   type: StatusPage
   url: https://status.deskera.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/changelog/deskera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/deskera-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/lifecycle/deskera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deskera-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/conventions/deskera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deskera-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/errors/deskera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/deskera-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/asyncapi/deskera-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/deskera-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/packages/deskera-packages.yml
   title: ''
   type: Packages
   url: packages/deskera-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/packages/deskera-packages.yml
   title: ''
   type: SDKs
   url: packages/deskera-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/sandbox/deskera-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/deskera-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/well-known/deskera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deskera-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/conformance/deskera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deskera-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/llms/deskera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deskera-llms.txt
@@ -181,6 +220,34 @@ scopes:
   scope_count: 3
   slug: deskera-scopes
   summary_line: 3 scopes · authorizationCode
+score:
+  band: developing
+  composite: 48.7
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 71.4
+    discoverability: 74.1
+    operational_transparency: 42.1
+  previous_composite: 48.7
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Deskera Authentication

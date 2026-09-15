@@ -13,6 +13,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 56.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -125,18 +151,22 @@ collections:
   slug: open-acceldata-users-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/agentic-access/acceldata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/acceldata-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/security/acceldata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/acceldata-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/security/acceldata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acceldata-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/authentication/acceldata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acceldata-authentication.yml
@@ -145,30 +175,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/acceldata/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/arazzo/acceldata-access-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/acceldata-access-review-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/arazzo/acceldata-create-and-verify-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/acceldata-create-and-verify-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/arazzo/acceldata-critical-alert-sweep-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/acceldata-critical-alert-sweep-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/arazzo/acceldata-dataset-quality-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/acceldata-dataset-quality-audit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/arazzo/acceldata-onboard-rule-with-impact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/acceldata-onboard-rule-with-impact-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/arazzo/acceldata-pipeline-failure-investigation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/acceldata-pipeline-failure-investigation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/arazzo/acceldata-triage-dataset-alerts-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/acceldata-triage-dataset-alerts-workflow.yml
@@ -213,14 +250,17 @@ common:
   type: TermsOfService
   url: https://www.acceldata.io/terms-of-use
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/rules/acceldata-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/acceldata-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/vocabulary/acceldata-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/acceldata-vocabulary.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/json-ld/acceldata-adoc-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/acceldata-adoc-api-context.jsonld
@@ -229,86 +269,107 @@ common:
   type: LlmsText
   url: https://docs.acceldata.io/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/packages/acceldata-packages.yml
   title: ''
   type: Packages
   url: packages/acceldata-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/packages/acceldata-packages.yml
   title: ''
   type: SDKs
   url: packages/acceldata-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/well-known/acceldata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/acceldata-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/mcp/acceldata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/acceldata-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/mcp/acceldata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/acceldata-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/llms/acceldata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acceldata-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/conformance/acceldata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acceldata-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/conformance/acceldata-conformance.yml
   title: ''
   type: Compliance
   url: conformance/acceldata-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/errors/acceldata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/acceldata-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/lifecycle/acceldata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acceldata-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/lifecycle/acceldata-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/acceldata-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/scopes/acceldata-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/acceldata-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/conventions/acceldata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acceldata-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/changelog/acceldata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/acceldata-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/cli/acceldata-cli.yml
   title: ''
   type: CLI
   url: cli/acceldata-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/data-model/acceldata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acceldata-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/plans/acceldata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acceldata-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/rate-limits/acceldata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acceldata-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/security/acceldata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/acceldata-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/security/acceldata-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/acceldata-vulnerability-disclosure.yml
@@ -325,6 +386,7 @@ common:
   type: Support
   url: https://acceldatatechnology.my.site.com/s/login/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/finops/acceldata-finops.yml
   title: ''
   type: FinOps
   url: finops/acceldata-finops.yml
@@ -567,6 +629,41 @@ scopes:
   scope_count: 0
   slug: acceldata-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 79.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 32.7
+    developer_ergonomics: 41.1
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 53.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/screenshots/acceldata-2026-08-17T082111.png
 security:
 - kind: authentication

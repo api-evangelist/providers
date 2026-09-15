@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.9
+  scored_at: '2026-09-14'
 api_count: 104
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
@@ -246,6 +271,7 @@ common:
   type: Website
   url: https://apifreaks.com
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/capabilities/apifreaks-api-hub-for-developers-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apifreaks-api-hub-for-developers-capability-edges.yml
@@ -322,54 +348,67 @@ common:
   type: Postman
   url: https://www.postman.com/apifreaks-official/apifreaks/overview
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/plans/apifreaks-api-hub-for-developers-plans.yml
   title: ''
   type: Plans
   url: plans/apifreaks-api-hub-for-developers-plans.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/rate-limits/apifreaks-api-hub-for-developers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apifreaks-api-hub-for-developers-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/llms/apifreaks-api-hub-for-developers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apifreaks-api-hub-for-developers-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/packages/apifreaks-api-hub-for-developers-packages.yml
   title: ''
   type: Packages
   url: packages/apifreaks-api-hub-for-developers-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/packages/apifreaks-api-hub-for-developers-packages.yml
   title: ''
   type: SDKs
   url: packages/apifreaks-api-hub-for-developers-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/mcp/apifreaks-api-hub-for-developers-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apifreaks-api-hub-for-developers-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/mcp/apifreaks-api-hub-for-developers-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/apifreaks-api-hub-for-developers-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/data-model/apifreaks-api-hub-for-developers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apifreaks-api-hub-for-developers-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/authentication/apifreaks-api-hub-for-developers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apifreaks-api-hub-for-developers-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/conventions/apifreaks-api-hub-for-developers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apifreaks-api-hub-for-developers-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/errors/apifreaks-api-hub-for-developers-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apifreaks-api-hub-for-developers-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/lifecycle/apifreaks-api-hub-for-developers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apifreaks-api-hub-for-developers-lifecycle.yml
@@ -378,26 +417,32 @@ common:
   type: Deprecation
   url: https://apifreaks.com/announcements
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/changelog/apifreaks-api-hub-for-developers-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apifreaks-api-hub-for-developers-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/conformance/apifreaks-api-hub-for-developers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apifreaks-api-hub-for-developers-conformance.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/sandbox/apifreaks-api-hub-for-developers-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/apifreaks-api-hub-for-developers-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/asyncapi/apifreaks-api-hub-for-developers-pdf-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/apifreaks-api-hub-for-developers-pdf-webhooks.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/overlays/apifreaks-api-hub-for-developers-auth-errors-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apifreaks-api-hub-for-developers-auth-errors-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/security/apifreaks-api-hub-for-developers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apifreaks-api-hub-for-developers-domain-security.yml
@@ -430,6 +475,43 @@ rate_limits:
 - limit_count: 2
   name: Apifreaks Api Hub For Developers Rate Limits
   slug: apifreaks-api-hub-for-developers-rate-limits
+score:
+  band: strong
+  composite: 58.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 66.6
+    developer_ergonomics: 72.0
+    discoverability: 75.9
+    operational_transparency: 63.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 58.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/screenshots/apifreaks-api-hub-for-developers-2026-08-17T080405.png
 security:
 - kind: authentication

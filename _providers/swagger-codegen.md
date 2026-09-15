@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -86,14 +111,17 @@ common:
   type: ContributionGuide
   url: https://github.com/swagger-api/swagger-codegen/blob/master/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/mcp/swagger-codegen-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/swagger-codegen-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/agentic-access/swagger-codegen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/swagger-codegen-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/security/swagger-codegen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swagger-codegen-domain-security.yml
@@ -142,34 +170,42 @@ common:
   type: Gradle Plugin
   url: https://plugins.gradle.org/plugin/org.hidetake.swagger.generator
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/packages/swagger-codegen-packages.yml
   title: ''
   type: Packages
   url: packages/swagger-codegen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/packages/swagger-codegen-packages.yml
   title: ''
   type: SDKs
   url: packages/swagger-codegen-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/cli/swagger-codegen-cli.yml
   title: ''
   type: CLI
   url: cli/swagger-codegen-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/authentication/swagger-codegen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swagger-codegen-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/conventions/swagger-codegen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/swagger-codegen-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/errors/swagger-codegen-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/swagger-codegen-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/lifecycle/swagger-codegen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/swagger-codegen-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/lifecycle/swagger-codegen-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/swagger-codegen-lifecycle.yml
@@ -178,14 +214,17 @@ common:
   type: StatusPage
   url: https://status.smartbear.com/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/changelog/swagger-codegen-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/swagger-codegen-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/data-model/swagger-codegen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/swagger-codegen-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/conformance/swagger-codegen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/swagger-codegen-conformance.yml
@@ -194,10 +233,12 @@ common:
   type: Compliance
   url: https://trust.smartbear.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/security/swagger-codegen-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/swagger-codegen-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/security/swagger-codegen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/swagger-codegen-vulnerability-disclosure.yml
@@ -206,14 +247,17 @@ common:
   type: Security
   url: https://smartbear.com/security/
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/sandbox/swagger-codegen-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/swagger-codegen-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/llms/swagger-codegen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/swagger-codegen-llms.txt
@@ -273,7 +317,7 @@ modified: '2026-08-06'
 name: Swagger Codegen
 nav: Providers
 network: true
-overview: 'Swagger Codegen publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 4 more. Tagged areas include Client Libraries, Code Generation, Developer Tools, Open-Source, and OpenAPI.
+overview: 'Swagger Codegen publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 4 more. Tagged areas include Client Libraries, Code Generation, Open-Source, OpenAPI, and SDK.
 
 
   The Swagger Codegen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -311,6 +355,41 @@ rules:
     info: 0
     warn: 5
   slug: swagger-codegen-rules
+score:
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 31.8
+    contract_quality: 52.5
+    developer_ergonomics: 80.4
+    discoverability: 64.8
+    operational_transparency: 52.6
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 85.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:
 - kind: authentication
@@ -333,7 +412,6 @@ slug: swagger-codegen
 tags:
 - Client Libraries
 - Code Generation
-- Developer Tools
 - Open-Source
 - OpenAPI
 - SDK

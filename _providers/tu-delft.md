@@ -9,6 +9,31 @@ access_model:
   - probed
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -40,6 +65,7 @@ apis:
 artifact_total: 17
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/capabilities/tu-delft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tu-delft-capability-edges.yml
@@ -152,50 +178,62 @@ common:
   type: SecurityTxt
   url: https://www.tudelft.nl/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/security/tu-delft-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tu-delft-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/security/tu-delft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tu-delft-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/authentication/tu-delft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tu-delft-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/scopes/tu-delft-scopes.yml
   title: ''
   type: Scopes
   url: scopes/tu-delft-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/conformance/tu-delft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tu-delft-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/lifecycle/tu-delft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tu-delft-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/vocabulary/tu-delft-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tu-delft-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/json-ld/tu-delft-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tu-delft-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/plans/tu-delft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tu-delft-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/rate-limits/tu-delft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tu-delft-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/finops/tu-delft-finops.yml
   title: ''
   type: FinOps
   url: finops/tu-delft-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tu-delft/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -258,6 +296,53 @@ scopes:
   scope_count: 0
   slug: tu-delft-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 86.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 67.4
+    contract_quality: 64.1
+    developer_ergonomics: 35.7
+    discoverability: 79.6
+    operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - netherlands
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
+  previous_composite: 65.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 90.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Tu Delft Authentication

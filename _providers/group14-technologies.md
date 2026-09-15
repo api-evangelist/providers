@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,34 +101,42 @@ apis:
 artifact_total: 17
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/capabilities/group14-technologies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/group14-technologies-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/overlays/group14-technologies-resources-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/group14-technologies-resources-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/overlays/group14-technologies-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/group14-technologies-content-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/overlays/group14-technologies-careers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/group14-technologies-careers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/overlays/group14-technologies-locations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/group14-technologies-locations-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/overlays/group14-technologies-media-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/group14-technologies-media-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/overlays/group14-technologies-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/group14-technologies-search-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/overlays/group14-technologies-discovery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/group14-technologies-discovery-overlay.yaml
@@ -176,70 +209,87 @@ common:
   type: SecondaryMarketListing
   url: https://forgeglobal.com/group14-technologies_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/llms/group14-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/group14-technologies-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/authentication/group14-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/group14-technologies-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/errors/group14-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/group14-technologies-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/conventions/group14-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/group14-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/data-model/group14-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/group14-technologies-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/conformance/group14-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/group14-technologies-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/conformance/group14-technologies-conformance.yml
   title: ''
   type: Compliance
   url: conformance/group14-technologies-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/lifecycle/group14-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/group14-technologies-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/rate-limits/group14-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/group14-technologies-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/plans/group14-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/group14-technologies-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/packages/group14-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/group14-technologies-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/mcp/group14-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/group14-technologies-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/mcp/group14-technologies-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/group14-technologies-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/examples/group14-technologies-examples.yml
   title: ''
   type: Examples
   url: examples/group14-technologies-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/agentic-access/group14-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/group14-technologies-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/security/group14-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/group14-technologies-domain-security.yml
@@ -269,6 +319,53 @@ rate_limits:
 - limit_count: 0
   name: Group14 Technologies Rate Limits
   slug: group14-technologies-rate-limits
+score:
+  band: emerging
+  composite: 24.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 16.0
+    developer_ergonomics: 16.1
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 24.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 17
+      marker_coverage: 100.0
+      total: 17
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 40.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/screenshots/group14-technologies-2026-09-02T145641.png
 security:
 - kind: authentication

@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 1.3
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: The open source Renovate CLI is a Node.js application distributed via npm and as Docker images on Docker Hub and GitHub Container Registry. It can be run locally, in CI, or as a long-lived self-hosted
@@ -43,10 +68,12 @@ common:
   type: ContributionGuide
   url: https://github.com/renovatebot/renovate/blob/main/.github/contributing.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/security/renovate-bot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/renovate-bot-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/security/renovate-bot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/renovate-bot-domain-security.yml
@@ -264,6 +291,32 @@ overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network.
 
   Renovate''s developer surface includes developer portal, documentation, getting-started guide, signup flow, changelog, support, tooling, and 42 more developer resources.'
 random_paper: 20
+score:
+  band: thin
+  composite: 28.9
+  coverage:
+    artifact_dirs: 3
+    catalog_earned: 41.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 14.7
+    developer_ergonomics: 40.5
+    discoverability: 64.8
+    operational_transparency: 28.9
+  previous_composite: 28.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/screenshots/renovate-bot-2026-06-20T192849.png
 security:
 - kind: domain-security

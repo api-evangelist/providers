@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,10 +85,12 @@ collections:
   slug: open-ual-refunds-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/overlays/ual-bis-auth-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ual-bis-auth-v2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/agentic-access/ual-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ual-agentic-access.yml
@@ -116,66 +143,82 @@ common:
   type: PrivacyPolicy
   url: https://www.uala.com.ar/privacidad
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/changelog/ual-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ual-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/asyncapi/ual-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ual-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/errors/ual-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ual-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/conventions/ual-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ual-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/sandbox/ual-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ual-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/lifecycle/ual-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ual-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/conformance/ual-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ual-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/packages/ual-packages.yml
   title: ''
   type: Packages
   url: packages/ual-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/packages/ual-packages.yml
   title: ''
   type: SDKs
   url: packages/ual-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/mcp/ual-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ual-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/llms/ual-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ual-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/data-model/ual-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ual-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/components/ual-components.yml
   title: ''
   type: Components
   url: components/ual-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/authentication/ual-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ual-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/security/ual-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ual-domain-security.yml
@@ -195,6 +238,54 @@ overview: 'Ualá publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
   Ualá''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 23 more developer resources.'
 random_paper: 7
+score:
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 21.1
+    developer_ergonomics: 70.8
+    discoverability: 68.5
+    operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - mexico
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 37.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 4
+      marker_coverage: 100.0
+      total: 4
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 31.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/screenshots/ual-2026-08-17T082515.png
 security:
 - kind: authentication

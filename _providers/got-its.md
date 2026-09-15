@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -217,22 +242,27 @@ collections:
   slug: open-got-its-workspaces-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/capabilities/got-its-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/got-its-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/overlays/got-its-gateway-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/got-its-gateway-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/security/got-its-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/got-its-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/agentic-access/got-its-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/got-its-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/authentication/got-its-authentication.yml
   title: ''
   type: Authentication
   url: authentication/got-its-authentication.yml
@@ -273,42 +303,52 @@ common:
   type: ChangeLog
   url: https://docs.reelables.com/changes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/llms/got-its-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/got-its-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/mcp/got-its-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/got-its-mcp.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/changelog/got-its-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/got-its-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/lifecycle/got-its-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/got-its-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/conventions/got-its-conventions.yml
   title: ''
   type: Conventions
   url: conventions/got-its-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/errors/got-its-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/got-its-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/conformance/got-its-conformance.yml
   title: ''
   type: Conformance
   url: conformance/got-its-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/data-model/got-its-data-model.yml
   title: ''
   type: DataModel
   url: data-model/got-its-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/scopes/got-its-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/got-its-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -334,6 +374,41 @@ scopes:
   scope_count: 1
   slug: got-its-scopes
   summary_line: 1 scope · clientCredentials
+score:
+  band: thin
+  composite: 33.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 49.8
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 33.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -1031,6 +1056,7 @@ collections:
   slug: open-unified-to-webinar-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/capabilities/unified-to-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unified-to-capability-edges.yml
@@ -1039,58 +1065,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/unifiedto/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/agentic-access/unified-to-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unified-to-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/security/unified-to-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unified-to-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/security/unified-to-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/unified-to-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/security/unified-to-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unified-to-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/authentication/unified-to-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unified-to-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-accounting-invoice-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-accounting-invoice-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-ats-candidate-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-ats-candidate-application-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-ats-job-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-ats-job-pipeline-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-commerce-item-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-commerce-item-inventory-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-connection-webhook-provisioning-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-connection-webhook-provisioning-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-crm-contact-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-crm-contact-lifecycle-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-crm-deal-with-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-crm-deal-with-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-hris-employee-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-hris-employee-onboarding-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/arazzo/unified-to-hris-timeoff-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/unified-to-hris-timeoff-request-workflow.yml
@@ -4671,6 +4711,38 @@ rules:
     info: 7
     warn: 19
   slug: unified-to-spectral-rules
+score:
+  band: strong
+  composite: 63.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 28.8
+    contract_quality: 71.4
+    developer_ergonomics: 69.0
+    discoverability: 57.4
+    operational_transparency: 55.3
+  previous_composite: 63.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 29
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:
 - kind: authentication

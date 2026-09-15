@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: OpenAI-style hosted inference. GET /v1/models answers keyless with the live catalog (verified 2026-09-09); calls authenticate with Bearer mr_live_ keys.
@@ -15,18 +40,22 @@ collections:
   slug: postman-ModelRush-Public-API
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/security/modelrush-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modelrush-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/security/modelrush-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/modelrush-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/security/modelrush-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/modelrush-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/authentication/modelrush-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modelrush-authentication.yml
@@ -73,7 +102,7 @@ modified: '2026-09-10'
 name: ModelRush
 nav: Providers
 network: true
-overview: 'ModelRush publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, Inference, Multimodal, and Model Hosting.
+overview: 'ModelRush publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Model Hosting.
 
 
   The ModelRush catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -89,6 +118,40 @@ rate_limits:
 - limit_count: 0
   name: Modelrush Rate Limits
   slug: modelrush-rate-limits
+score:
+  band: developing
+  composite: 47.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 62.4
+    developer_ergonomics: 54.2
+    discoverability: 72.2
+    operational_transparency: 36.8
+  previous_composite: 47.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Modelrush Authentication
@@ -104,12 +167,12 @@ security:
   summary_line: Hackerone
 slug: modelrush
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
+- Multi-Modal
 - Model Hosting
 - Speech
-- Image Generation
+- Image-Generation
 website: https://modelrush.ai
 ---

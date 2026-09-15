@@ -14,6 +14,32 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
@@ -31,14 +57,17 @@ asyncapis:
   slug: lili-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/overlays/lili-application-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lili-application-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/overlays/lili-customer-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lili-customer-management-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/overlays/lili-webhooks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lili-webhooks-api-overlay.yaml
@@ -95,86 +124,107 @@ common:
   type: ChangeLog
   url: https://dev.lili.co/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/changelog/lili-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lili-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/llms/lili-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lili-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/mcp/lili-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lili-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/well-known/lili-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lili-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/authentication/lili-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lili-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/scopes/lili-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lili-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/conventions/lili-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lili-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/lifecycle/lili-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lili-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/conformance/lili-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lili-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/conformance/lili-conformance.yml
   title: ''
   type: Compliance
   url: conformance/lili-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/errors/lili-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lili-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/errors/lili-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/lili-decline-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/data-model/lili-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lili-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/sandbox/lili-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lili-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/components/lili-components.yml
   title: ''
   type: Components
   url: components/lili-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/packages/lili-packages.yml
   title: ''
   type: Packages
   url: packages/lili-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/plans/lili-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lili-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/rate-limits/lili-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lili-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/asyncapi/lili-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lili-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/security/lili-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lili-domain-security.yml
@@ -214,6 +264,46 @@ scopes:
   scope_count: 0
   slug: lili-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 64.5
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 59.1
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 23.7
+  previous_composite: 64.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 77.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/screenshots/lili-2026-09-02T150252.png
 security:
 - kind: authentication

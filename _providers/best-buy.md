@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,14 +92,17 @@ common:
   type: ContributionGuide
   url: https://github.com/BestBuyAPIs/api-documentation/blob/master/CONTRIBUTING.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/agentic-access/best-buy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/best-buy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/security/best-buy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/best-buy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/authentication/best-buy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/best-buy-authentication.yml
@@ -123,82 +151,102 @@ common:
   type: RateLimits
   url: https://bestbuyapis.github.io/api-documentation/#rate-limiting
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/rules/best-buy-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/best-buy-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/vocabulary/best-buy-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/best-buy-vocabulary.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/packages/best-buy-packages.yml
   title: ''
   type: Packages
   url: packages/best-buy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/packages/best-buy-packages.yml
   title: ''
   type: SDKs
   url: packages/best-buy-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/cli/best-buy-cli.yml
   title: ''
   type: CLI
   url: cli/best-buy-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/llms/best-buy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/best-buy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/conventions/best-buy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/best-buy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/data-model/best-buy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/best-buy-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/errors/best-buy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/best-buy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/lifecycle/best-buy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/best-buy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/lifecycle/best-buy-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/best-buy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/changelog/best-buy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/best-buy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/conformance/best-buy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/best-buy-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/security/best-buy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/best-buy-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/security/best-buy-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/best-buy-vulnerability-disclosure.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/rate-limits/best-buy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/best-buy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/plans/best-buy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/best-buy-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/mcp/best-buy-mcp.yml
   title: ''
   type: MCP
   url: mcp/best-buy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/well-known/best-buy-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/best-buy-well-known.yml
@@ -412,6 +460,42 @@ rules:
     info: 6
     warn: 17
   slug: best-buy-spectral-rules
+score:
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 74.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 33.3
+    contract_quality: 28.5
+    developer_ergonomics: 80.4
+    discoverability: 72.2
+    operational_transparency: 57.9
+  previous_composite: 52.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png
 security:
 - kind: authentication

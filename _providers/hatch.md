@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.usehatchapp.com
@@ -32,10 +57,12 @@ collections:
   slug: open-hatch-contacts-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/capabilities/hatch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hatch-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/mcp/hatch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hatch-mcp.yml
@@ -92,54 +119,67 @@ common:
   type: StatusPage
   url: https://status.usehatchapp.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/openapi/_original/hatch-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/hatch-openapi-original.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/authentication/hatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hatch-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/errors/hatch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hatch-problem-types.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/overlays/hatch-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hatch-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/conventions/hatch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hatch-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/lifecycle/hatch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hatch-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/rate-limits/hatch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hatch-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/asyncapi/hatch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hatch-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/conformance/hatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hatch-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/data-model/hatch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hatch-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/security/hatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hatch-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/llms/hatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hatch-llms.txt
@@ -163,6 +203,46 @@ rate_limits:
 - limit_count: 1
   name: Hatch Rate Limits
   slug: hatch-rate-limits
+score:
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 4.5
+    contract_quality: 60.4
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 53.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/screenshots/hatch-2026-07-25T220750.png
 security:
 - kind: authentication

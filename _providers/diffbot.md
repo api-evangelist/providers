@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 41.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -94,38 +120,47 @@ collections:
   slug: open-diffbot
 common:
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-extract-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/diffbot-extract-openapi.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/packages/diffbot-packages.yml
   title: ''
   type: Packages
   url: packages/diffbot-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/packages/diffbot-packages.yml
   title: ''
   type: SDKs
   url: packages/diffbot-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/mcp/diffbot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/diffbot-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/mcp/diffbot-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/diffbot-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/conventions/diffbot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/diffbot-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/errors/diffbot-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/diffbot-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/lifecycle/diffbot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diffbot-lifecycle.yml
@@ -138,14 +173,17 @@ common:
   type: Deprecation
   url: https://www.diffbot.com/docs/dql/migrating-from-legacy-api
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/changelog/diffbot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/diffbot-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/cli/diffbot-cli.yml
   title: ''
   type: CLI
   url: cli/diffbot-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/sandbox/diffbot-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/diffbot-sandbox.yml
@@ -154,34 +192,42 @@ common:
   type: Console
   url: https://www.diffbot.com/products/extract/testdrive
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/conformance/diffbot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diffbot-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/conformance/diffbot-conformance.yml
   title: ''
   type: Compliance
   url: conformance/diffbot-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/data-model/diffbot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/diffbot-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/asyncapi/diffbot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/diffbot-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/rate-limits/diffbot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/diffbot-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/plans/diffbot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/diffbot-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/finops/diffbot-finops.yml
   title: ''
   type: FinOps
   url: finops/diffbot-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/overlays/diffbot-extract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diffbot-extract-overlay.yaml
@@ -222,14 +268,17 @@ common:
   type: Careers
   url: https://www.diffbot.com/company/careers
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/agentic-access/diffbot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/diffbot-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/security/diffbot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diffbot-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/authentication/diffbot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diffbot-authentication.yml
@@ -290,6 +339,7 @@ common:
   type: DataLicensing
   url: https://www.diffbot.com/docs/account-billing/gdpr
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/llms/diffbot-llms.txt
   title: ''
   type: LlmsText
   url: llms/diffbot-llms.txt
@@ -329,6 +379,41 @@ rate_limits:
 - limit_count: 12
   name: Diffbot Rate Limits
   slug: diffbot-rate-limits
+score:
+  band: exemplar
+  composite: 73.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 58.7
+    developer_ergonomics: 90.5
+    discoverability: 81.5
+    operational_transparency: 81.6
+  previous_composite: 73.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/screenshots/diffbot-2026-06-20T180012.png
 security:
 - kind: authentication
@@ -348,8 +433,8 @@ tags:
 - Knowledge Graph
 - Crawling
 - Web Search
-- Natural Language
+- Natural-Language
 - Entity Resolution
-- AI
+- Artificial Intelligence
 website: https://www.diffbot.com/
 ---

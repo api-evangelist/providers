@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 12
 apis:
 - description: Free public REST API that returns whether a given crypto address is identified as sanctioned by OFAC, EU, or UN sanctions authorities. No commercial licence required; widely embedded by wallets, dApps
@@ -114,50 +139,62 @@ common:
   type: X
   url: https://x.com/chainalysis
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/llms/chainalysis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chainalysis-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/packages/chainalysis-packages.yml
   title: ''
   type: Packages
   url: packages/chainalysis-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/packages/chainalysis-packages.yml
   title: ''
   type: SDKs
   url: packages/chainalysis-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/authentication/chainalysis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chainalysis-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/errors/chainalysis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chainalysis-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/lifecycle/chainalysis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chainalysis-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/conventions/chainalysis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chainalysis-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/conformance/chainalysis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chainalysis-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/security/chainalysis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chainalysis-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/security/chainalysis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chainalysis-domain-security.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/rate-limits/chainalysis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chainalysis-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/plans/chainalysis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chainalysis-plans-pricing.yml
@@ -186,6 +223,35 @@ rate_limits:
 - limit_count: 1
   name: Chainalysis Rate Limits
   slug: chainalysis-rate-limits
+score:
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 59.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 40.5
+    discoverability: 81.5
+    operational_transparency: 50.0
+  previous_composite: 39.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/screenshots/chainalysis-2026-06-20T174208.png
 security:
 - kind: authentication

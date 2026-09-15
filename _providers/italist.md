@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Agent-native commerce surface for the Italist Shopify storefront — a Universal Commerce Protocol (UCP) merchant profile and a Model Context Protocol (MCP) shopping endpoint for catalog search, cart, a
@@ -41,38 +66,47 @@ common:
   type: PrivacyPolicy
   url: https://italist.com/policies/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/mcp/italist-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/italist-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/llms/italist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/italist-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/well-known/italist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/italist-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/authentication/italist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/italist-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/scopes/italist-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/italist-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/conventions/italist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/italist-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/conformance/italist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/italist-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/security/italist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/italist-domain-security.yml
@@ -98,6 +132,36 @@ scopes:
   scope_count: 4
   slug: italist-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 21.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 26.2
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 21.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/screenshots/italist-2026-08-07T170928.png
 security:
 - kind: authentication

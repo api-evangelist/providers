@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the Zenoti beauty/wellness/fitness platform covering centers, appointments, guests, invoices and payments, memberships, packages, gift cards, classes, opportunities, employees, and webhoo
@@ -62,62 +87,77 @@ common:
   type: StatusPage
   url: https://status.zenoti.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/lifecycle/zenoti-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenoti-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/authentication/zenoti-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenoti-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/conventions/zenoti-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenoti-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/errors/zenoti-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zenoti-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/asyncapi/zenoti-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zenoti-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/conformance/zenoti-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zenoti-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-trust-center.yml
   title: ''
   type: Compliance
   url: security/zenoti-trust-center.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/mcp/zenoti-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zenoti-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/llms/zenoti-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenoti-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/well-known/zenoti-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zenoti-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/well-known/zenoti-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zenoti-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenoti-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zenoti-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/zenoti-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zenoti-trust-center.yml
@@ -137,6 +177,41 @@ overview: 'Zenoti publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Zenoti''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 14
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 41.7
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 41.9
+  provenance:
+    conformance: derived
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 43.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/screenshots/zenoti-2026-08-17T083047.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - probed
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://www.bu.edu/wp-json
@@ -98,46 +123,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/boston-university/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/conformance/boston-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boston-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/authentication/boston-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boston-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/errors/boston-errors.yml
   title: ''
   type: Errors
   url: errors/boston-errors.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/lifecycle/boston-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/boston-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/vocabulary/boston-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/boston-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/json-ld/boston-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/boston-context.jsonld
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/security/boston-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boston-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/plans/boston-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/boston-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/rate-limits/boston-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/boston-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/finops/boston-finops.yml
   title: ''
   type: FinOps
   url: finops/boston-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -179,6 +215,51 @@ rate_limits:
 - limit_count: 1
   name: Boston Rate Limits
   slug: boston-rate-limits
+score:
+  band: thin
+  composite: 34.3
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 66.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 3.8
+    contract_quality: 28.0
+    developer_ergonomics: 28.6
+    discoverability: 59.3
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 34.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png
 security:
 - kind: authentication

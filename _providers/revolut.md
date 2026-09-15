@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -398,6 +423,7 @@ collections:
   slug: open-revolut-webhooks-v2-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/capabilities/revolut-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/revolut-capability-edges.yml
@@ -406,6 +432,7 @@ common:
   type: IssueTracker
   url: https://github.com/revolut-engineering/revolut-openapi/issues
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/overlays/revolut-business-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/revolut-business-overlay.yaml
@@ -438,78 +465,97 @@ common:
   type: SourceCode
   url: https://github.com/revolut-engineering/revolut-openapi
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/authentication/revolut-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revolut-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conventions/revolut-conventions.yml
   title: ''
   type: Conventions
   url: conventions/revolut-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conventions/revolut-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/revolut-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/errors/revolut-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/revolut-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/lifecycle/revolut-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/revolut-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/lifecycle/revolut-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/revolut-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/changelog/revolut-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/revolut-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conformance/revolut-conformance.yml
   title: ''
   type: Conformance
   url: conformance/revolut-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/conformance/revolut-conformance.yml
   title: ''
   type: Compliance
   url: conformance/revolut-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/data-model/revolut-data-model.yml
   title: ''
   type: DataModel
   url: data-model/revolut-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/sandbox/revolut-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/revolut-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/asyncapi/revolut-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/revolut-webhooks.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/packages/revolut-packages.yml
   title: ''
   type: Packages
   url: packages/revolut-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/packages/revolut-packages.yml
   title: ''
   type: SDKs
   url: packages/revolut-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/mcp/revolut-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/revolut-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/llms/revolut-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/revolut-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/well-known/revolut-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/revolut-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/well-known/revolut-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/revolut-security.txt
@@ -518,14 +564,17 @@ common:
   type: Security
   url: https://www.revolut.com/responsible-disclosure-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/security/revolut-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/revolut-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/security/revolut-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revolut-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/agentic-access/revolut-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/revolut-agentic-access.yml
@@ -545,6 +594,51 @@ overview: 'Revolut publishes 46 APIs on the [APIs.io](https://apis.io/) network,
 
   Revolut''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 27 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 52.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 30.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 4.5
+    contract_quality: 70.5
+    developer_ergonomics: 67.9
+    discoverability: 63.0
+    operational_transparency: 44.7
+  previous_composite: 52.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 46
+    mcp: derived
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png
 security:
 - kind: authentication

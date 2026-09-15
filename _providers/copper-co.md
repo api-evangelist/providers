@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.9
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://api.copper.co/platform
@@ -169,10 +194,12 @@ collections:
   slug: open-copper-co-wallets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/capabilities/copper-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/copper-co-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/overlays/copper-co-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/copper-co-platform-overlay.yaml
@@ -197,6 +224,7 @@ common:
   type: GettingStarted
   url: https://developer.copper.co/api-reference/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/authentication/copper-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/copper-co-authentication.yml
@@ -225,10 +253,12 @@ common:
   type: Postman
   url: https://developer.copper.co/api-reference/try-it-out#postman-collection
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/changelog/copper-co-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/copper-co-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/lifecycle/copper-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/copper-co-lifecycle.yml
@@ -237,54 +267,67 @@ common:
   type: StatusPage
   url: https://copper.co/en/status
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/lifecycle/copper-co-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/copper-co-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/conventions/copper-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/copper-co-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/conventions/copper-co-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/copper-co-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/errors/copper-co-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/copper-co-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/rate-limits/copper-co-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/copper-co-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/sandbox/copper-co-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/copper-co-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/asyncapi/copper-co-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/copper-co-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/mcp/copper-co-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/copper-co-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/a2a/copper-co-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/copper-co-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/llms/copper-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/copper-co-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/well-known/copper-co-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/copper-co-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/conformance/copper-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/copper-co-conformance.yml
@@ -293,14 +336,17 @@ common:
   type: Compliance
   url: https://copper.co/en/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/security/copper-co-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/copper-co-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/security/copper-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/copper-co-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/packages/copper-co-packages.yml
   title: ''
   type: Packages
   url: packages/copper-co-packages.yml
@@ -328,6 +374,52 @@ rate_limits:
 - limit_count: 4
   name: Copper Co Rate Limits
   slug: copper-co-rate-limits
+score:
+  band: strong
+  composite: 56.7
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 4.5
+    contract_quality: 55.4
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 56.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
 security:
 - kind: authentication

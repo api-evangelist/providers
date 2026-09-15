@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Verification-as-a-Service. A single POST /v1/verifications call declares which verification modules to run — organization_identity, individual_identity, payment_method and payee_qualification (PQS) — '
@@ -11,6 +36,7 @@ asyncapis:
   slug: verituity-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/security/verituity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verituity-domain-security.yml
@@ -47,62 +73,77 @@ common:
   type: Pricing
   url: https://verituity.com/developers
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/sandbox/verituity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/verituity-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/authentication/verituity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verituity-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/conventions/verituity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verituity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/conventions/verituity-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/verituity-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/errors/verituity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/verituity-problem-types.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/errors/verituity-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/verituity-decline-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/rate-limits/verituity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/verituity-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/plans/verituity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/verituity-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/examples/verituity-verification-examples.yml
   title: ''
   type: Examples
   url: examples/verituity-verification-examples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/data-model/verituity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verituity-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/conformance/verituity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verituity-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/conformance/verituity-conformance.yml
   title: ''
   type: Compliance
   url: conformance/verituity-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/lifecycle/verituity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verituity-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/packages/verituity-packages.yml
   title: ''
   type: Packages
   url: packages/verituity-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/verituity/refs/heads/main/llms/verituity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verituity-llms.txt
@@ -130,6 +171,41 @@ rate_limits:
 - limit_count: 0
   name: Verituity Rate Limits
   slug: verituity-rate-limits
+score:
+  band: developing
+  composite: 42.6
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 18.2
+    contract_quality: 48.1
+    developer_ergonomics: 57.1
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 42.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 45.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Verituity Authentication
@@ -149,7 +225,7 @@ tags:
 - Fraud Prevention
 - Payment Integrity
 - Banking
-- Financial Services
+- Financial-Services
 - Public Sector
 - ISO 20022
 - Compliance

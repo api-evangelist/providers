@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -257,18 +283,22 @@ collections:
   slug: open-gong-workspaces-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/agentic-access/gong-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gong-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/security/gong-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gong-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/security/gong-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gong-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/authentication/gong-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gong-authentication.yml
@@ -285,14 +315,17 @@ common:
   type: Website
   url: https://www.gong.io/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/plans/gong-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gong-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/rate-limits/gong-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gong-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/finops/gong-finops.yml
   title: ''
   type: FinOps
   url: finops/gong-finops.yml
@@ -353,30 +386,37 @@ common:
   type: Twitter
   url: https://x.com/gong_io
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/packages/gong-packages.yml
   title: ''
   type: Packages
   url: packages/gong-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/packages/gong-packages.yml
   title: ''
   type: SDKs
   url: packages/gong-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/well-known/gong-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gong-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/mcp/gong-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gong-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/mcp/gong-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/gong-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/llms/gong-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gong-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/conformance/gong-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gong-conformance.yml
@@ -385,10 +425,12 @@ common:
   type: Compliance
   url: https://www.gong.io/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/errors/gong-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gong-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/lifecycle/gong-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gong-lifecycle.yml
@@ -401,38 +443,47 @@ common:
   type: Deprecation
   url: https://help.gong.io/docs/public-api-change-deprecating-call-action-items-in-the-extensive-endpoint
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/scopes/gong-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gong-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/security/gong-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gong-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/sandbox/gong-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gong-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/conventions/gong-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gong-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/changelog/gong-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gong-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/components/gong-components.yml
   title: ''
   type: Components
   url: components/gong-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/data-model/gong-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gong-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/asyncapi/gong-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gong-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -797,6 +848,41 @@ scopes:
   scope_count: 6
   slug: gong-scopes
   summary_line: 6 scopes
+score:
+  band: strong
+  composite: 62.9
+  coverage:
+    artifact_dirs: 32
+    catalog_earned: 62.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 28.0
+    contract_quality: 71.0
+    developer_ergonomics: 67.3
+    discoverability: 81.5
+    operational_transparency: 81.6
+  previous_composite: 62.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/screenshots/gong-2026-06-20T182025.png
 security:
 - kind: authentication

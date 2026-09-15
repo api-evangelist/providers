@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: platform
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -40,62 +65,77 @@ common:
   type: Documentation
   url: https://bespokenspirits.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/llms/bespoken-spirits-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bespoken-spirits-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/mcp/bespoken-spirits-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bespoken-spirits-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/well-known/bespoken-spirits-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bespoken-spirits-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/authentication/bespoken-spirits-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bespoken-spirits-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/scopes/bespoken-spirits-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bespoken-spirits-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/conventions/bespoken-spirits-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bespoken-spirits-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/conventions/bespoken-spirits-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bespoken-spirits-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/errors/bespoken-spirits-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bespoken-spirits-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/conformance/bespoken-spirits-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bespoken-spirits-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/lifecycle/bespoken-spirits-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bespoken-spirits-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/data-model/bespoken-spirits-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bespoken-spirits-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/agentic-access/bespoken-spirits-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bespoken-spirits-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/examples/bespoken-spirits-products-sample.json
   title: ''
   type: Examples
   url: examples/bespoken-spirits-products-sample.json
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/security/bespoken-spirits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bespoken-spirits-domain-security.yml
@@ -173,6 +213,37 @@ scopes:
   scope_count: 4
   slug: bespoken-spirits-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 25.5
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 35.7
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 25.5
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/screenshots/bespoken-spirits-2026-08-07T162314.png
 security:
 - kind: authentication

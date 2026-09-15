@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://velocityglobal.com'', ''status'': 301, ''note'': ''declared website redirects to https://hellopebl.com/ — a different registrable domain (velocityglobal.com -> hellopebl.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 15.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for managing global employment operations including international hiring, employee records, payroll processing, benefits administration, onboarding, offboarding, and compliance management acr
@@ -18,10 +43,12 @@ apis:
 artifact_total: 6
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/security/velocity-global-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/velocity-global-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/security/velocity-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/velocity-global-domain-security.yml
@@ -58,14 +85,17 @@ common:
   type: X
   url: https://twitter.com/velocity_global
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/plans/velocity-global-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/velocity-global-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/rate-limits/velocity-global-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/velocity-global-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/finops/velocity-global-finops.yml
   title: ''
   type: FinOps
   url: finops/velocity-global-finops.yml
@@ -94,6 +124,32 @@ rate_limits:
 - limit_count: 0
   name: Velocity Global Rate Limits
   slug: velocity-global-rate-limits
+score:
+  band: thin
+  composite: 28.1
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 48.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 0.0
+    contract_quality: 26.7
+    developer_ergonomics: 11.9
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 28.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/screenshots/velocity-global-2026-06-20T200937.png
 security:
 - kind: domain-security

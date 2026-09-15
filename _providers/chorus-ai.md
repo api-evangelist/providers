@@ -11,6 +11,31 @@ access_model:
   - pricing-page
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://chorus.ai/api/v1
@@ -138,14 +163,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/zoominfo/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/capabilities/chorus-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/chorus-ai-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/authentication/chorus-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chorus-ai-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/security/chorus-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chorus-ai-domain-security.yml
@@ -154,18 +182,22 @@ common:
   type: Website
   url: https://www.chorus.ai/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/plans/chorus-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chorus-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/rate-limits/chorus-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chorus-ai-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/finops/chorus-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/chorus-ai-finops.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/openapi/chorus-ai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/chorus-ai-openapi.yml
@@ -182,26 +214,32 @@ common:
   type: Postman
   url: https://api-docs.chorus.ai/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/conventions/chorus-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chorus-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/errors/chorus-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chorus-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/data-model/chorus-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chorus-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/conformance/chorus-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chorus-ai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/conformance/chorus-ai-conformance.yml
   title: ''
   type: Compliance
   url: conformance/chorus-ai-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/lifecycle/chorus-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chorus-ai-lifecycle.yml
@@ -210,34 +248,42 @@ common:
   type: StatusPage
   url: https://status.zoominfo.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/asyncapi/chorus-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/chorus-ai-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/llms/chorus-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chorus-ai-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/overlays/chorus-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chorus-ai-openapi-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/packages/chorus-ai-packages.yml
   title: ''
   type: Packages
   url: packages/chorus-ai-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/security/chorus-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/chorus-ai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/security/chorus-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chorus-ai-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/security/chorus-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/chorus-ai-trust-center.yml
@@ -285,6 +331,40 @@ rate_limits:
 - limit_count: 0
   name: Chorus Ai Rate Limits
   slug: chorus-ai-rate-limits
+score:
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 63.9
+    developer_ergonomics: 33.9
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 53.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 66.7
 screenshot: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-08-17T082957.png
 security:
 - kind: authentication

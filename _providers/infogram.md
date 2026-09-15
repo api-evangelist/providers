@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for managing Infogram projects programmatically — list and copy projects, read and update project entities, upload image assets, publish and unpublish, delete, and export projects as image/PD
@@ -70,50 +95,62 @@ common:
   type: StatusPage
   url: https://infogram.statuspage.io/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/packages/infogram-packages.yml
   title: ''
   type: Packages
   url: packages/infogram-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/packages/infogram-packages.yml
   title: ''
   type: SDKs
   url: packages/infogram-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/authentication/infogram-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infogram-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/conventions/infogram-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infogram-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/conventions/infogram-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/infogram-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/errors/infogram-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/infogram-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/lifecycle/infogram-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infogram-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/mcp/infogram-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/infogram-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/llms/infogram-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infogram-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/well-known/infogram-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/infogram-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/security/infogram-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infogram-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/data-model/infogram-data-model.yml
   title: ''
   type: DataModel
   url: data-model/infogram-data-model.yml
@@ -130,6 +167,40 @@ overview: 'Infogram publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Infogram''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 11
+score:
+  band: thin
+  composite: 29.4
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - cee
+    - europe
+  previous_composite: 29.4
+  provenance:
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/screenshots/infogram-2026-07-25T222416.png
 security:
 - kind: authentication

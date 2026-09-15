@@ -16,6 +16,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/bt-com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/counterpane/refs/heads/main/security/counterpane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/counterpane-domain-security.yml

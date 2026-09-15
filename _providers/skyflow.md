@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 11.7
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Insert, retrieve, tokenize/detokenize, query, and manage records and files in a Skyflow data privacy vault. Authenticated with a JWT bearer token or API key (RFC 6750). Base URLs are per-vault under t
@@ -21,10 +46,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/security/skyflow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/skyflow-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/security/skyflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/skyflow-vulnerability-disclosure.yml
@@ -33,6 +60,7 @@ common:
   type: Security
   url: https://www.skyflow.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/security/skyflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyflow-domain-security.yml
@@ -57,10 +85,12 @@ common:
   type: GettingStarted
   url: https://docs.skyflow.com/get-started/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/packages/skyflow-packages.yml
   title: ''
   type: SDKs
   url: packages/skyflow-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/packages/skyflow-packages.yml
   title: ''
   type: Packages
   url: packages/skyflow-packages.yml
@@ -101,46 +131,57 @@ common:
   type: Compliance
   url: https://docs.skyflow.com/docs/fundamentals/compliance-certifications
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/authentication/skyflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skyflow-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/mcp/skyflow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/skyflow-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/llms/skyflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skyflow-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/well-known/skyflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skyflow-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/conventions/skyflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skyflow-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/changelog/skyflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/skyflow-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/lifecycle/skyflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skyflow-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/conformance/skyflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skyflow-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/errors/skyflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skyflow-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/data-model/skyflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skyflow-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/components/skyflow-components.yml
   title: ''
   type: Components
   url: components/skyflow-components.yml
@@ -161,6 +202,47 @@ overview: 'Skyflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
   Skyflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
 random_paper: 6
+score:
+  band: developing
+  composite: 42.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 36.8
+  previous_composite: 42.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/skyflow/refs/heads/main/screenshots/skyflow-2026-08-17T081918.png
 security:
 - kind: authentication

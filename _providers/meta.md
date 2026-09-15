@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -144,86 +169,107 @@ collections:
   slug: open-meta
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/capabilities/meta-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/meta-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/agentic-access/meta-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/meta-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/security/meta-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meta-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/security/meta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meta-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/authentication/meta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meta-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/scopes/meta-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/meta-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/packages/meta-packages.yml
   title: ''
   type: Packages
   url: packages/meta-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/well-known/meta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meta-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/well-known/meta-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/meta-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/mcp/meta-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/meta-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/llms/meta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meta-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/overlays/meta-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meta-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/conformance/meta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meta-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/errors/meta-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meta-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/lifecycle/meta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meta-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/conventions/meta-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meta-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/changelog/meta-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meta-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/cli/meta-cli.yml
   title: ''
   type: CLI
   url: cli/meta-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/components/meta-components.yml
   title: ''
   type: Components
   url: components/meta-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/data-model/meta-data-model.yml
   title: ''
   type: DataModel
   url: data-model/meta-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/sandbox/meta-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/meta-sandbox.yml
@@ -232,54 +278,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/meta/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-add-current-user-to-audience-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-add-current-user-to-audience-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-audit-current-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-audit-current-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-decommission-user-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-decommission-user-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-get-current-user-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-get-current-user-feed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-onboard-user-to-audience-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-onboard-user-to-audience-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-provision-then-cleanup-test-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-provision-then-cleanup-test-user-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-read-user-feed-and-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-read-user-feed-and-identity-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-read-user-then-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-read-user-then-feed-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-refresh-audience-cohort-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-refresh-audience-cohort-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-sync-custom-audience-membership-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-sync-custom-audience-membership-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-unblock-and-add-to-audience-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-unblock-and-add-to-audience-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-update-current-user-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-update-current-user-profile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/arazzo/meta-verify-and-update-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/meta-verify-and-update-user-workflow.yml
@@ -324,6 +383,7 @@ common:
   type: LlmsText
   url: https://developers.facebook.com/llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/llms/meta-llms-index.yml
   title: ''
   type: AgentGuidance
   url: llms/meta-llms-index.yml
@@ -452,30 +512,37 @@ common:
   type: SDKs
   url: https://github.com/facebook/facebook-android-sdk
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/json-schema/user.json
   title: ''
   type: JSONSchema
   url: json-schema/user.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/json-schema/page.json
   title: ''
   type: JSONSchema
   url: json-schema/page.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/json-schema/post.json
   title: ''
   type: JSONSchema
   url: json-schema/post.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/json-schema/ad-campaign.json
   title: ''
   type: JSONSchema
   url: json-schema/ad-campaign.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/json-schema/message.json
   title: ''
   type: JSONSchema
   url: json-schema/message.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/json-schema/media.json
   title: ''
   type: JSONSchema
   url: json-schema/media.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/json-ld/meta-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/meta-context.jsonld
@@ -591,6 +658,40 @@ scopes:
   scope_count: 15
   slug: meta-scopes
   summary_line: 15 scopes · implicit
+score:
+  band: strong
+  composite: 56.7
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 46.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 14.4
+    contract_quality: 54.8
+    developer_ergonomics: 89.3
+    discoverability: 63.0
+    operational_transparency: 60.5
+  previous_composite: 56.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:
 - kind: authentication

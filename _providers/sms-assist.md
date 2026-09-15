@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: GraphQL API for clients (property owners and managers) to create and track reactive and recurrent work orders, residents, locations, service requests, invoices, proposals, Turn/Reno projects, ratings,
@@ -24,6 +49,7 @@ asyncapis:
   slug: sms-assist-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/security/sms-assist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sms-assist-domain-security.yml
@@ -48,6 +74,7 @@ common:
   type: GettingStarted
   url: https://developers.lessen.com/docs/#/client/overview
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/authentication/sms-assist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sms-assist-authentication.yml
@@ -80,6 +107,7 @@ common:
   type: ChangeLog
   url: https://developers.lessen.com/docs/#/client/releaseNotes/client
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/changelog/sms-assist-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sms-assist-changelog.yml
@@ -92,42 +120,52 @@ common:
   type: Webhooks
   url: https://developers.lessen.com/docs/#/client/guides/webhook/about-webhooks
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/lifecycle/sms-assist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sms-assist-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/conventions/sms-assist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sms-assist-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/sandbox/sms-assist-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sms-assist-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/errors/sms-assist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sms-assist-problem-types.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/mcp/sms-assist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sms-assist-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/llms/sms-assist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sms-assist-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/well-known/sms-assist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sms-assist-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/conformance/sms-assist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sms-assist-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/data-model/sms-assist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sms-assist-data-model.yml
@@ -147,6 +185,36 @@ overview: 'SMS Assist publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
   SMS Assist''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, changelog, and 20 more developer resources.'
 random_paper: 18
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 44.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sms-assist/refs/heads/main/screenshots/sms-assist-2026-08-17T081935.png
 security:
 - kind: authentication

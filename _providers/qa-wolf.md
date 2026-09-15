@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.qawolf.com
@@ -39,6 +64,7 @@ collections:
   slug: open-qa-wolf-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/overlays/qa-wolf-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qa-wolf-rest-overlay.yaml
@@ -103,62 +129,77 @@ common:
   type: Compliance
   url: https://trust.qawolf.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/authentication/qa-wolf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qa-wolf-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/security/qa-wolf-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qa-wolf-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/security/qa-wolf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qa-wolf-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/packages/qa-wolf-packages.yml
   title: ''
   type: Packages
   url: packages/qa-wolf-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/packages/qa-wolf-packages.yml
   title: ''
   type: SDKs
   url: packages/qa-wolf-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/cli/qa-wolf-cli.yml
   title: ''
   type: CLI
   url: cli/qa-wolf-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/llms/qa-wolf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qa-wolf-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/asyncapi/qa-wolf-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qa-wolf-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/conventions/qa-wolf-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qa-wolf-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/errors/qa-wolf-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qa-wolf-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/lifecycle/qa-wolf-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qa-wolf-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/conformance/qa-wolf-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qa-wolf-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/mcp/qa-wolf-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qa-wolf-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/data-model/qa-wolf-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qa-wolf-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -178,6 +219,40 @@ overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
   QA Wolf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
 random_paper: 2
+score:
+  band: developing
+  composite: 42.1
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 22.1
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 42.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/screenshots/qa-wolf-2026-08-17T081412.png
 security:
 - kind: authentication

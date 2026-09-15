@@ -17,10 +17,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/USNC
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ultra-safe-nuclear/refs/heads/main/security/ultra-safe-nuclear-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ultra-safe-nuclear-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ultra-safe-nuclear/refs/heads/main/llms/ultra-safe-nuclear-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ultra-safe-nuclear-llms.txt

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://nextbigideaclub.com/wp-json/members/v1
@@ -26,6 +51,7 @@ collections:
   slug: open-next-big-idea-club-members-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/overlays/next-big-idea-club-members-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/next-big-idea-club-members-overlay.yaml
@@ -54,34 +80,42 @@ common:
   type: Blog
   url: https://nextbigideaclub.com/magazine/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/well-known/next-big-idea-club-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/next-big-idea-club-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/authentication/next-big-idea-club-authentication.yml
   title: ''
   type: Authentication
   url: authentication/next-big-idea-club-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/scopes/next-big-idea-club-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/next-big-idea-club-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/mcp/next-big-idea-club-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/next-big-idea-club-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/llms/next-big-idea-club-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/next-big-idea-club-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/conventions/next-big-idea-club-conventions.yml
   title: ''
   type: Conventions
   url: conventions/next-big-idea-club-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/errors/next-big-idea-club-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/next-big-idea-club-problem-types.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/security/next-big-idea-club-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/next-big-idea-club-domain-security.yml
@@ -103,6 +137,44 @@ scopes:
   scope_count: 4
   slug: next-big-idea-club-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 32.7
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 0.0
+    contract_quality: 49.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 32.7
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 55.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png
 security:
 - kind: authentication

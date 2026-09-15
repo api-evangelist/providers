@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,14 +51,17 @@ apis:
 artifact_total: 19
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/agentic-access/api-league-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/api-league-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/authentication/api-league-authentication.yml
   title: ''
   type: Authentication
   url: authentication/api-league-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/security/api-league-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-league-domain-security.yml
@@ -110,54 +138,67 @@ common:
   type: Sandbox
   url: https://apileague.com/playground/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/packages/api-league-packages.yml
   title: ''
   type: Packages
   url: packages/api-league-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/packages/api-league-packages.yml
   title: ''
   type: SDKs
   url: packages/api-league-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/llms/api-league-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/api-league-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/conventions/api-league-conventions.yml
   title: ''
   type: Conventions
   url: conventions/api-league-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/errors/api-league-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/api-league-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/lifecycle/api-league-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/api-league-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/conformance/api-league-conformance.yml
   title: ''
   type: Conformance
   url: conformance/api-league-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/data-model/api-league-data-model.yml
   title: ''
   type: DataModel
   url: data-model/api-league-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/overlays/api-league-text-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/api-league-text-overlay.yaml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/rate-limits/api-league-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/api-league-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/plans/api-league-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/api-league-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/finops/api-league-finops.yml
   title: ''
   type: FinOps
   url: finops/api-league-finops.yml
@@ -187,7 +228,7 @@ modified: '2026-09-02'
 name: API League
 nav: Providers
 network: true
-overview: 'API League publishes 1 API on the [APIs.io](https://apis.io/) network: Platform. Tagged areas include API Marketplace, Books, Developer Tools, Food, and Games.
+overview: 'API League publishes 1 API on the [APIs.io](https://apis.io/) network: Platform. Tagged areas include API Marketplace, Books, Developer Tools, Food, and Humor.
 
 
   API League''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
@@ -200,6 +241,42 @@ rate_limits:
 - limit_count: 12
   name: Api League Rate Limits
   slug: api-league-rate-limits
+score:
+  band: strong
+  composite: 54.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 33.3
+    developer_ergonomics: 75.6
+    discoverability: 75.9
+    operational_transparency: 50.0
+  previous_composite: 54.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/screenshots/api-league-2026-06-20T172214.png
 security:
 - kind: authentication
@@ -216,14 +293,10 @@ tags:
 - Books
 - Developer Tools
 - Food
-- Games
 - Humor
-- Media
 - News
-- OpenAPI
 - SDK
 - Text Processing
-- Web Scraping
 use_cases:
 - description: Build news aggregators, book discovery apps, and article readers using News and Books APIs.
   name: Content Applications

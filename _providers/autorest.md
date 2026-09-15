@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: The AutoRest Core package (@autorest/core) is the central engine that orchestrates code generation from OpenAPI specifications. It handles input processing, configuration resolution, pipeline manageme
@@ -80,18 +105,22 @@ common:
   type: License
   url: https://github.com/Azure/autorest/blob/main/LICENSE
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/packages/autorest-packages.yml
   title: ''
   type: Packages
   url: packages/autorest-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/packages/autorest-packages.yml
   title: First-party npm packages and language generators
   type: SDKs
   url: packages/autorest-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/cli/autorest-cli.yml
   title: ''
   type: CLI
   url: cli/autorest-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/lifecycle/autorest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autorest-lifecycle.yml
@@ -100,10 +129,12 @@ common:
   type: Deprecation
   url: https://github.com/Azure/autorest/issues/5175
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/changelog/autorest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/autorest-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/security/autorest-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/autorest-vulnerability-disclosure.yml
@@ -112,14 +143,17 @@ common:
   type: Security
   url: https://github.com/Azure/autorest/blob/main/SECURITY.md
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/vocabulary/autorest-openapi-extensions.yml
   title: AutoRest x-ms-* extensions for OpenAPI 2.0
   type: Vocabulary
   url: vocabulary/autorest-openapi-extensions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/conformance/autorest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autorest-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/llms/autorest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autorest-llms.txt
@@ -166,6 +200,34 @@ rate_limits:
 - limit_count: 5
   name: Autorest Rate Limits
   slug: autorest-rate-limits
+score:
+  band: thin
+  composite: 29.0
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 49.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 33.3
+    contract_quality: 0.0
+    developer_ergonomics: 47.6
+    discoverability: 64.8
+    operational_transparency: 44.7
+  previous_composite: 29.0
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/screenshots/autorest-2026-06-20T172707.png
 security:
 - kind: vulnerability-disclosure

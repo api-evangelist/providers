@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST/JSON API versioned under /v2 at https://api.matilogistics.com for tracking requests, shipments, containers, carrier and terminal reference data, and webhooks. Bearer-token auth (tnt_ keys, one pe
@@ -52,50 +77,62 @@ common:
   type: Login
   url: https://www.matilogistics.com/login
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/authentication/matilogistics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matilogistics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/conventions/matilogistics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/matilogistics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/errors/matilogistics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/matilogistics-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/rate-limits/matilogistics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matilogistics-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/lifecycle/matilogistics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/matilogistics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/asyncapi/matilogistics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/matilogistics-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/data-model/matilogistics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/matilogistics-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/conformance/matilogistics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matilogistics-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/plans/matilogistics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matilogistics-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/packages/matilogistics-packages.yml
   title: ''
   type: Packages
   url: packages/matilogistics-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/llms/matilogistics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matilogistics-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/security/matilogistics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matilogistics-domain-security.yml
@@ -123,6 +160,35 @@ rate_limits:
 - limit_count: 2
   name: Matilogistics Rate Limits
   slug: matilogistics-rate-limits
+score:
+  band: developing
+  composite: 41.8
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 54.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 40.5
+    discoverability: 63.0
+    operational_transparency: 28.9
+  previous_composite: 41.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/matilogistics/refs/heads/main/screenshots/matilogistics-2026-09-02T150521.png
 security:
 - kind: authentication

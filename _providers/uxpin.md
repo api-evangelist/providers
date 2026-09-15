@@ -8,14 +8,41 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 11.5
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/security/uxpin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uxpin-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/security/uxpin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uxpin-domain-security.yml
@@ -76,34 +103,42 @@ common:
   type: Compliance
   url: https://www.uxpin.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/llms/uxpin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uxpin-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/packages/uxpin-packages.yml
   title: ''
   type: Packages
   url: packages/uxpin-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/packages/uxpin-packages.yml
   title: ''
   type: SDKs
   url: packages/uxpin-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/cli/uxpin-cli.yml
   title: ''
   type: CLI
   url: cli/uxpin-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/well-known/uxpin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uxpin-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/conformance/uxpin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uxpin-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/lifecycle/uxpin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uxpin-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/components/uxpin-components.yml
   title: ''
   type: Components
   url: components/uxpin-components.yml
@@ -120,6 +155,35 @@ overview: 'UXPin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
   UXPin''s developer surface includes documentation, getting-started guide, pricing, engineering blog, changelog, signup flow, support, and 17 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 33.1
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 42.9
+    discoverability: 57.4
+    operational_transparency: 34.2
+  previous_composite: 33.1
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/screenshots/uxpin-2026-09-02T165256.png
 security:
 - kind: domain-security

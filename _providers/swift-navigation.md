@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.1
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: Real-time GNSS corrections delivered as continuously-open NTRIP streams. A client opens an HTTP GET against a regional caster mountpoint with HTTP Basic credentials issued per device, and the caster w
@@ -37,6 +62,7 @@ common:
   type: License
   url: https://github.com/swift-nav/libsbp/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/security/swift-navigation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swift-navigation-domain-security.yml
@@ -85,86 +111,107 @@ common:
   type: PrivacyPolicy
   url: https://www.swiftnav.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/conformance/swift-navigation-conformance.yml
   title: ''
   type: Compliance
   url: conformance/swift-navigation-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/conformance/swift-navigation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/swift-navigation-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/packages/swift-navigation-packages.yml
   title: ''
   type: SDKs
   url: packages/swift-navigation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/packages/swift-navigation-packages.yml
   title: ''
   type: Packages
   url: packages/swift-navigation-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/cli/swift-navigation-cli.yml
   title: ''
   type: CLI
   url: cli/swift-navigation-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/authentication/swift-navigation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swift-navigation-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/conventions/swift-navigation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/swift-navigation-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/lifecycle/swift-navigation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/swift-navigation-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/lifecycle/swift-navigation-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/swift-navigation-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/changelog/swift-navigation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/swift-navigation-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/vocabulary/swift-navigation-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/swift-navigation-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/data-model/swift-navigation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/swift-navigation-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/examples/swift-navigation-examples.yml
   title: ''
   type: Examples
   url: examples/swift-navigation-examples.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/rate-limits/swift-navigation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/swift-navigation-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/plans/swift-navigation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/swift-navigation-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/llms/swift-navigation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/swift-navigation-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/scopes/swift-navigation-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/swift-navigation-scopes.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/grpc/swift-navigation-sora-api.yml
   title: ''
   type: Protobuf
   url: grpc/swift-navigation-sora-api.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/json-schema/swift-navigation-json-schema.yml
   title: ''
   type: JSONSchema
   url: json-schema/swift-navigation-json-schema.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/spec/swift-navigation-sbp-spec.yml
   title: ''
   type: Specification
   url: spec/swift-navigation-sbp-spec.yml
@@ -872,6 +919,36 @@ scopes:
   scope_count: 0
   slug: swift-navigation-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 51.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 7.9
+    contract_governance: 33.3
+    contract_quality: 55.8
+    developer_ergonomics: 49.4
+    discoverability: 74.1
+    operational_transparency: 26.3
+  previous_composite: 40.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/screenshots/swift-navigation-2026-09-02T161356.png
 security:
 - kind: authentication

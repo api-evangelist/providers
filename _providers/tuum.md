@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.3
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Tuum's modular, API-first core banking platform. Per-module REST APIs (auth, person, employee, account, payment, card, loan, deposit, data-import, notification) versioned independently in the URL path
@@ -21,6 +46,7 @@ asyncapis:
   slug: tuum-notification-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/security/tuum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tuum-domain-security.yml
@@ -57,42 +83,52 @@ common:
   type: PrivacyPolicy
   url: https://tuumplatform.com/privacy-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/authentication/tuum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tuum-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/conventions/tuum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tuum-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/conventions/tuum-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tuum-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/lifecycle/tuum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tuum-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/lifecycle/tuum-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tuum-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/sandbox/tuum-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tuum-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/asyncapi/tuum-notification-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tuum-notification-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/conformance/tuum-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tuum-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/well-known/tuum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tuum-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/llms/tuum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tuum-llms.txt
@@ -112,6 +148,40 @@ overview: 'Tuum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
   Tuum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 12 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 33.9
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 33.9
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuum/refs/heads/main/screenshots/tuum-2026-09-02T164559.png
 security:
 - kind: authentication

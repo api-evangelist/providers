@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 18.0
+  scored_at: '2026-09-14'
 api_count: 14
 apis:
 - description: The Capital One Account Lookup API is a DevExchange product that lets approved partners resolve and retrieve consumer account information such as balances, transaction history, and account status. Int
@@ -113,18 +138,22 @@ common:
   type: PrivacyPolicy
   url: https://www.capitalone.com/privacy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/security/capital-one-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/capital-one-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/well-known/capital-one-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/capital-one-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/well-known/capital-one-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/capital-one-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/security/capital-one-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/capital-one-vulnerability-disclosure.yml
@@ -133,30 +162,37 @@ common:
   type: Security
   url: https://www.capitalone.com/digital/responsible-disclosure/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/authentication/capital-one-authentication.yml
   title: ''
   type: Authentication
   url: authentication/capital-one-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/conformance/capital-one-conformance.yml
   title: ''
   type: Conformance
   url: conformance/capital-one-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/conventions/capital-one-conventions.yml
   title: ''
   type: Conventions
   url: conventions/capital-one-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/llms/capital-one-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/capital-one-llms.txt
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/plans/capital-one-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/capital-one-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/rate-limits/capital-one-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/capital-one-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/finops/capital-one-finops.yml
   title: ''
   type: FinOps
   url: finops/capital-one-finops.yml
@@ -205,6 +241,51 @@ rate_limits:
 - limit_count: 1
   name: Capital One Rate Limits
   slug: capital-one-rate-limits
+score:
+  band: developing
+  composite: 44.4
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 47.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 18.2
+    contract_quality: 37.2
+    developer_ergonomics: 57.1
+    discoverability: 81.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 44.4
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: fdx
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 49.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png
 security:
 - kind: authentication

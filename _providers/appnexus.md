@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.appnexus.com'', ''status'': 301, ''note'': ''declared website redirects to https://about.ads.microsoft.com/en — a different registrable domain (appnexus.com -> microsoft.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: RESTful JSON API for the AppNexus/Xandr programmatic advertising platform - manage advertisers, campaigns, line items, creatives, placements, inventory, deals, and pull reporting. Token authentication
@@ -42,18 +67,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/appnexus
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/authentication/appnexus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appnexus-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/conventions/appnexus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appnexus-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/errors/appnexus-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/appnexus-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/lifecycle/appnexus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appnexus-lifecycle.yml
@@ -70,6 +99,7 @@ common:
   type: ChangeLog
   url: https://learn.microsoft.com/en-us/xandr/monetize/release-notes
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/changelog/appnexus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appnexus-changelog.yml
@@ -82,58 +112,72 @@ common:
   type: Login
   url: https://monetize.xandr.com/login
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/packages/appnexus-packages.yml
   title: ''
   type: Packages
   url: packages/appnexus-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/packages/appnexus-packages.yml
   title: ''
   type: SDKs
   url: packages/appnexus-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/packages/appnexus-packages.yml
   title: ''
   type: SDKs
   url: packages/appnexus-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/packages/appnexus-packages.yml
   title: ''
   type: SDKs
   url: packages/appnexus-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/components/appnexus-components.yml
   title: ''
   type: Components
   url: components/appnexus-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/rate-limits/appnexus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appnexus-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/plans/appnexus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/appnexus-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/data-model/appnexus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appnexus-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/conformance/appnexus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appnexus-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/conformance/appnexus-conformance.yml
   title: ''
   type: Compliance
   url: conformance/appnexus-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/security/appnexus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appnexus-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/security/appnexus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/appnexus-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/security/appnexus-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/appnexus-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/llms/appnexus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appnexus-llms.txt
@@ -159,6 +203,39 @@ rate_limits:
 - limit_count: 4
   name: Appnexus Rate Limits
   slug: appnexus-rate-limits
+score:
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 61.9
+    discoverability: 75.9
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 37.3
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/screenshots/appnexus-2026-07-25T200821.png
 security:
 - kind: authentication

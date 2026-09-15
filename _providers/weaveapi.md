@@ -12,6 +12,31 @@ access_model:
   - authentication
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: true
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 10.1
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: OpenAI-wire-compatible REST API for chat completions, responses-style requests and the model catalog, authenticated with a bearer API key in the Authorization header. Three endpoints are documented (P
@@ -71,46 +96,57 @@ common:
   type: About
   url: https://weaveapi.dev/about/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/authentication/weaveapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weaveapi-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/conventions/weaveapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/weaveapi-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/errors/weaveapi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/weaveapi-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/rate-limits/weaveapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/weaveapi-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/plans/weaveapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/weaveapi-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/lifecycle/weaveapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/weaveapi-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/conformance/weaveapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/weaveapi-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/packages/weaveapi-packages.yml
   title: ''
   type: Packages
   url: packages/weaveapi-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/llms/weaveapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/weaveapi-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/well-known/weaveapi-content-signals.yml
   title: ''
   type: ContentSignal
   url: well-known/weaveapi-content-signals.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/security/weaveapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weaveapi-domain-security.yml
@@ -135,6 +171,34 @@ rate_limits:
 - limit_count: 0
   name: Weaveapi Rate Limits
   slug: weaveapi-rate-limits
+score:
+  band: thin
+  composite: 33.2
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 54.8
+    discoverability: 68.5
+    operational_transparency: 0.0
+  previous_composite: 33.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaveapi/refs/heads/main/screenshots/weaveapi-2026-09-02T170527.png
 security:
 - kind: authentication

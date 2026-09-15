@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
@@ -191,86 +216,107 @@ collections:
   slug: open-obie-opendata-swagger
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/capabilities/bank-of-scotland-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bank-of-scotland-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/overlays/bank-of-scotland-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-scotland-opendata-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/mcp/bank-of-scotland-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bank-of-scotland-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/skills/bank-of-scotland-find-branches-atms.md
   title: ''
   type: AgentSkill
   url: skills/bank-of-scotland-find-branches-atms.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/overlays/bank-of-scotland-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-scotland-account-info-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/skills/bank-of-scotland-read-account-transactions.md
   title: ''
   type: AgentSkill
   url: skills/bank-of-scotland-read-account-transactions.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/overlays/bank-of-scotland-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-scotland-payment-initiation-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/skills/bank-of-scotland-initiate-domestic-payment.md
   title: ''
   type: AgentSkill
   url: skills/bank-of-scotland-initiate-domestic-payment.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/overlays/bank-of-scotland-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-scotland-confirmation-funds-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/security/bank-of-scotland-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-scotland-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/authentication/bank-of-scotland-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-scotland-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/scopes/bank-of-scotland-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bank-of-scotland-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/conventions/bank-of-scotland-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bank-of-scotland-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/conventions/bank-of-scotland-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bank-of-scotland-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/errors/bank-of-scotland-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bank-of-scotland-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/conformance/bank-of-scotland-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bank-of-scotland-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/lifecycle/bank-of-scotland-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bank-of-scotland-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/data-model/bank-of-scotland-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bank-of-scotland-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/sandbox/bank-of-scotland-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bank-of-scotland-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/llms/bank-of-scotland-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bank-of-scotland-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -317,6 +363,58 @@ scopes:
   scope_count: 3
   slug: bank-of-scotland-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
+score:
+  band: thin
+  composite: 33.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 50.9
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 33.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 34
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 50.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png
 security:
 - kind: authentication

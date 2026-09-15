@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The HTTP JSON API served by every DeSo node — data endpoints (profiles, posts, users, NFTs, creator/DAO coins, messages) plus transaction-construction endpoints. The public node is node.deso.org; tran
@@ -53,54 +78,67 @@ common:
   type: GraphQL
   url: https://graphql-prod.deso.com/graphql
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/packages/bitclout-deso-packages.yml
   title: ''
   type: Packages
   url: packages/bitclout-deso-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/packages/bitclout-deso-packages.yml
   title: ''
   type: SDKs
   url: packages/bitclout-deso-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/mcp/bitclout-deso-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bitclout-deso-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/llms/bitclout-deso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitclout-deso-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/authentication/bitclout-deso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitclout-deso-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/conventions/bitclout-deso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitclout-deso-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/conformance/bitclout-deso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitclout-deso-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/lifecycle/bitclout-deso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitclout-deso-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/changelog/bitclout-deso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bitclout-deso-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/sandbox/bitclout-deso-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bitclout-deso-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/components/bitclout-deso-components.yml
   title: ''
   type: Components
   url: components/bitclout-deso-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/data-model/bitclout-deso-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitclout-deso-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/security/bitclout-deso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitclout-deso-domain-security.yml
@@ -121,6 +159,35 @@ overview: 'BitClout (DeSo) publishes 1 API on the [APIs.io](https://apis.io/) ne
 
   BitClout (DeSo)''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 15 more developer resources.'
 random_paper: 19
+score:
+  band: thin
+  composite: 26.7
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 23.7
+  previous_composite: 26.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/screenshots/bitclout-deso-2026-07-25T203136.png
 security:
 - kind: authentication

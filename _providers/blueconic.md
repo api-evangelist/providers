@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: templated
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -254,22 +280,27 @@ collections:
   slug: open-blueconic-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/capabilities/blueconic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blueconic-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/agentic-access/blueconic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blueconic-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/security/blueconic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blueconic-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/authentication/blueconic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blueconic-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/scopes/blueconic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blueconic-scopes.yml
@@ -326,42 +357,52 @@ common:
   type: MCPServer
   url: https://github.com/blueconic/blueconic-mcp
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/plans/blueconic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blueconic-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/rate-limits/blueconic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blueconic-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/finops/blueconic-finops.yml
   title: ''
   type: FinOps
   url: finops/blueconic-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/packages/blueconic-packages.yml
   title: ''
   type: Packages
   url: packages/blueconic-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/packages/blueconic-packages.yml
   title: ''
   type: SDKs
   url: packages/blueconic-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/mcp/blueconic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/blueconic-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/mcp/blueconic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/blueconic-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/llms/blueconic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blueconic-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/conformance/blueconic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blueconic-conformance.yml
@@ -370,10 +411,12 @@ common:
   type: Compliance
   url: https://www.blueconic.com/trust-center
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/security/blueconic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blueconic-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/security/blueconic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blueconic-vulnerability-disclosure.yml
@@ -382,10 +425,12 @@ common:
   type: Security
   url: https://support.blueconic.com/en/articles/266965-guidelines-for-penetration-tests
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/errors/blueconic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blueconic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/lifecycle/blueconic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blueconic-lifecycle.yml
@@ -394,6 +439,7 @@ common:
   type: Deprecation
   url: https://support.blueconic.com/en/articles/248010-blueconic-rest-api-migration
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/changelog/blueconic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blueconic-changelog.yml
@@ -402,54 +448,67 @@ common:
   type: ChangeLog
   url: https://announcekit.co/blueconic-changelog/blueconic-product-updates
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/conventions/blueconic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blueconic-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/data-model/blueconic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blueconic-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/sandbox/blueconic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blueconic-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/asyncapi/blueconic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blueconic-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/vocabulary/blueconic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/blueconic-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/rules/blueconic-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/blueconic-jsonschema-spectral-rules.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/getOneProfile-response-200.json
   title: ''
   type: Examples
   url: examples/getOneProfile-response-200.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/createUpdateDeleteProfiles-request.json
   title: ''
   type: Examples
   url: examples/createUpdateDeleteProfiles-request.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/getProfilesInSegment-response-200.json
   title: ''
   type: Examples
   url: examples/getProfilesInSegment-response-200.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/examples/getAuditEvents-response-200.json
   title: ''
   type: Examples
   url: examples/getAuditEvents-response-200.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/json-schema/profile.json
   title: ''
   type: JSONSchema
   url: json-schema/profile.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/json-schema/segment.json
   title: ''
   type: JSONSchema
   url: json-schema/segment.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/json-ld/blueconic-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blueconic-context.jsonld
@@ -807,6 +866,41 @@ scopes:
   scope_count: 27
   slug: blueconic-scopes
   summary_line: 27 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 30
+    catalog_earned: 51.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 31.8
+    contract_quality: 69.2
+    developer_ergonomics: 78.6
+    discoverability: 51.9
+    operational_transparency: 94.7
+  previous_composite: 64.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/screenshots/blueconic-2026-06-20T173532.png
 security:
 - kind: authentication

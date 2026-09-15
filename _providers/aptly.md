@@ -10,6 +10,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -186,70 +212,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/getaptly
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/_original/aptly-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/aptly-openapi-original.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/mcp/aptly-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aptly-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/llms/aptly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aptly-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/authentication/aptly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aptly-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/agentic-access/aptly-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aptly-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/conventions/aptly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aptly-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/conventions/aptly-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/aptly-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/errors/aptly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aptly-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/lifecycle/aptly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aptly-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/lifecycle/aptly-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/aptly-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/changelog/aptly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aptly-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/conformance/aptly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aptly-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/components/aptly-components.yml
   title: ''
   type: Components
   url: components/aptly-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/data-model/aptly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aptly-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/overlays/aptly-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aptly-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/security/aptly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aptly-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -274,6 +317,41 @@ overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
   Aptly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
 random_paper: 8
+score:
+  band: developing
+  composite: 47.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 54.6
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 47.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/screenshots/aptly-2026-07-25T200942.png
 security:
 - kind: authentication

@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.5
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: Remote MCP server that lets any MCP-compatible assistant query the NordStellar platform in natural language. Clients connect through the open-source nordstellar-mcp auth proxy (PyPI, run via uvx, or a
@@ -203,14 +229,17 @@ collections:
   slug: open-nord-security-nordstellar-platform-integration-api-v3
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/capabilities/nord-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nord-security-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/overlays/nord-security-nordstellar-enterprise-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nord-security-nordstellar-enterprise-data-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/overlays/nord-security-nordstellar-platform-integration-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nord-security-nordstellar-platform-integration-api-v3-overlay.yaml
@@ -307,106 +336,132 @@ common:
   type: Security
   url: https://nordlayer.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/well-known/nord-security-nordlayer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nord-security-nordlayer-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/well-known/nord-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nord-security-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/security/nord-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nord-security-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/security/nord-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nord-security-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/security/nord-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nord-security-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/authentication/nord-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nord-security-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/conventions/nord-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nord-security-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/conformance/nord-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nord-security-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/errors/nord-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nord-security-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/data-model/nord-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nord-security-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/lifecycle/nord-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nord-security-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/changelog/nord-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nord-security-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/rate-limits/nord-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nord-security-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/packages/nord-security-packages.yml
   title: ''
   type: Packages
   url: packages/nord-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/packages/nord-security-packages.yml
   title: ''
   type: SDKs
   url: packages/nord-security-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/mcp/nord-security-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nord-security-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/mcp/nord-security-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/nord-security-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/llms/nord-security-nordvpn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nord-security-nordvpn-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/llms/nord-security-nordlayer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nord-security-nordlayer-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/grpc/nord-security-nordvpn-daemon-service.proto
   title: ''
   type: Protobuf
   url: grpc/nord-security-nordvpn-daemon-service.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/grpc/nord-security-nordvpn-meshnet-service.proto
   title: ''
   type: Protobuf
   url: grpc/nord-security-nordvpn-meshnet-service.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/grpc/nord-security-nordvpn-fileshare-service.proto
   title: ''
   type: Protobuf
   url: grpc/nord-security-nordvpn-fileshare-service.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/grpc/nord-security-nordvpn-norduser-service.proto
   title: ''
   type: Protobuf
   url: grpc/nord-security-nordvpn-norduser-service.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/grpc/nord-security-nordvpn-daemon-telemetry-v1-service.proto
   title: ''
   type: Protobuf
   url: grpc/nord-security-nordvpn-daemon-telemetry-v1-service.proto
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/grpc/nord-security-llt-ens.proto
   title: ''
   type: Protobuf
   url: grpc/nord-security-llt-ens.proto
@@ -434,6 +489,43 @@ rate_limits:
 - limit_count: 0
   name: Nord Security Rate Limits
   slug: nord-security-rate-limits
+score:
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 57.7
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 31.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 54.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 10.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:
 - kind: authentication

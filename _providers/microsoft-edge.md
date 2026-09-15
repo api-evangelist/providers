@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -113,18 +138,22 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/agentic-access/microsoft-edge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-edge-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/security/microsoft-edge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-edge-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/security/microsoft-edge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-edge-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/authentication/microsoft-edge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-edge-authentication.yml
@@ -133,30 +162,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-edge/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-find-and-close-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-find-and-close-target-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-inspect-browser-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-inspect-browser-environment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-list-and-inspect-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-list-and-inspect-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-open-and-activate-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-open-and-activate-target-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-publish-extension-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-publish-extension-update-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-submit-draft-and-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-submit-draft-and-track-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/arazzo/microsoft-edge-upload-package-and-validate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-edge-upload-package-and-validate-workflow.yml
@@ -229,18 +265,22 @@ common:
   type: Marketplace
   url: https://microsoftedge.microsoft.com/addons/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/json-ld/microsoft-edge-devtools-api-context.jsonld
   title: DevTools API Context
   type: JSONLD
   url: json-ld/microsoft-edge-devtools-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/json-ld/microsoft-edge-addons-api-context.jsonld
   title: Add-ons API Context
   type: JSONLD
   url: json-ld/microsoft-edge-addons-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/rules/microsoft-edge-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-edge-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/vocabulary/microsoft-edge-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-edge-vocabulary.yaml
@@ -403,6 +443,38 @@ rules:
     info: 1
     warn: 16
   slug: microsoft-edge-spectral-rules
+score:
+  band: developing
+  composite: 42.8
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 75.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 40.8
+    contract_governance: 28.8
+    contract_quality: 28.7
+    developer_ergonomics: 65.5
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 42.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/screenshots/microsoft-edge-2026-08-07T172849.png
 security:
 - kind: authentication

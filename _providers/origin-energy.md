@@ -11,6 +11,31 @@ access_model:
   - documentation
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -152,62 +177,77 @@ collections:
   slug: open-origin-energy-kraken-orders
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/capabilities/origin-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/origin-energy-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/overlays/origin-energy-cds-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/origin-energy-cds-energy-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/skills/origin-energy-cdr-consented-energy-data.md
   title: ''
   type: AgentSkill
   url: skills/origin-energy-cdr-consented-energy-data.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/overlays/origin-energy-cds-common-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/origin-energy-cds-common-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/skills/origin-energy-retail-plan-comparison.md
   title: ''
   type: AgentSkill
   url: skills/origin-energy-retail-plan-comparison.md
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/overlays/origin-energy-kraken-default-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/origin-energy-kraken-default-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/overlays/origin-energy-kraken-data-import-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/origin-energy-kraken-data-import-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/overlays/origin-energy-kraken-orders-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/origin-energy-kraken-orders-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/skills/origin-energy-kraken-customer-migration.md
   title: ''
   type: AgentSkill
   url: skills/origin-energy-kraken-customer-migration.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/skills/origin-energy-kraken-order-scheduling.md
   title: ''
   type: AgentSkill
   url: skills/origin-energy-kraken-order-scheduling.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/mcp/origin-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/origin-energy-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/agentic-access/origin-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/origin-energy-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/security/origin-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/origin-energy-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/security/origin-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/origin-energy-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/authentication/origin-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/origin-energy-authentication.yml
@@ -224,6 +264,7 @@ common:
   type: Documentation
   url: https://developer.origin-kraken.energy/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/well-known/origin-energy-kraken-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: well-known/origin-energy-kraken-openid-configuration.json
@@ -280,30 +321,37 @@ common:
   type: GettingStarted
   url: https://developer.origin-kraken.energy/graphql/guides/basics/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/changelog/origin-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/origin-energy-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/conventions/origin-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/origin-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/conventions/origin-energy-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/origin-energy-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/rate-limits/origin-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/origin-energy-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/errors/origin-energy-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/origin-energy-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/errors/origin-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/origin-energy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/lifecycle/origin-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/origin-energy-lifecycle.yml
@@ -316,10 +364,12 @@ common:
   type: Deprecation
   url: https://developer.origin-kraken.energy/announcements/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/scopes/origin-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/origin-energy-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/conformance/origin-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/origin-energy-conformance.yml
@@ -328,34 +378,42 @@ common:
   type: Security
   url: https://bugcrowd.com/engagements/originenergy-og1
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/well-known/origin-energy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/origin-energy-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/well-known/origin-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/origin-energy-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/packages/origin-energy-packages.yml
   title: ''
   type: Packages
   url: packages/origin-energy-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/llms/origin-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/origin-energy-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/llms/origin-energy-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/origin-energy-api-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/data-model/origin-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/origin-energy-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/asyncapi/origin-energy-kraken-external-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/origin-energy-kraken-external-events.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -403,6 +461,54 @@ scopes:
   scope_count: 113
   slug: origin-energy-scopes
   summary_line: 113 scopes
+score:
+  band: strong
+  composite: 57.9
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 18.2
+    contract_quality: 62.9
+    developer_ergonomics: 51.8
+    discoverability: 75.9
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 57.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 55.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 64.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:
 - kind: authentication

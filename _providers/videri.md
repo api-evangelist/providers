@@ -17,6 +17,6 @@ tags:
 - Device Management
 - IoT
 - Proof of Play
-- Webhooks
+- Webhook
 - Real-Time Messaging
 ---

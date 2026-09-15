@@ -9,6 +9,31 @@ access_model:
   - https://spotwise.ai/faq
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 16.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: 'The product Model Context Protocol server for Spotwise aOS — the surface an agent connects to in order to reach Spotwise ad detections, leads, contacts and workflows. Streamable HTTP transport. Every '
@@ -58,70 +83,87 @@ common:
   type: StatusPage
   url: https://status.spotwise.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/security/spotwise-inc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spotwise-inc-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/security/spotwise-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spotwise-inc-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/security/spotwise-inc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spotwise-inc-vulnerability-disclosure.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/well-known/spotwise-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spotwise-inc-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/mcp/spotwise-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spotwise-inc-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/authentication/spotwise-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spotwise-inc-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/scopes/spotwise-inc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spotwise-inc-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/lifecycle/spotwise-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spotwise-inc-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/conformance/spotwise-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spotwise-inc-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/errors/spotwise-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spotwise-inc-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/conventions/spotwise-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spotwise-inc-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/data-model/spotwise-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spotwise-inc-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/components/spotwise-inc-components.yml
   title: ''
   type: Components
   url: components/spotwise-inc-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/packages/spotwise-inc-packages.yml
   title: ''
   type: Packages
   url: packages/spotwise-inc-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/plans/spotwise-inc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spotwise-inc-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/rate-limits/spotwise-inc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spotwise-inc-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/llms/spotwise-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spotwise-inc-llms.txt
@@ -156,6 +198,35 @@ scopes:
   scope_count: 0
   slug: spotwise-inc-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: emerging
+  composite: 21.9
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 19.0
+    discoverability: 74.1
+    operational_transparency: 10.5
+  previous_composite: 21.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/screenshots/spotwise-inc-2026-09-02T160602.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - '{''url'': ''https://www.heska.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.antechdiagnostics.com/in-house-diagnostics/ — a different registrable domain (heska.com -> antechdiagnostics.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Partner-gated integration surface for placing point-of-care laboratory orders from a practice information management system to Heska in-clinic analyzers. A completed order in the PIMS triggers a reque
@@ -27,6 +52,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/antech-diagnostics/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heska/refs/heads/main/security/heska-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heska-domain-security.yml
@@ -60,6 +86,38 @@ overview: 'Heska publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
   Heska''s developer surface includes documentation and 5 more developer resources.'
 random_paper: 20
+score:
+  band: minimal
+  composite: 9.3
+  coverage:
+    artifact_dirs: 2
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 9.5
+    discoverability: 64.8
+    operational_transparency: 0.0
+  previous_composite: 9.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 7.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/heska/refs/heads/main/screenshots/heska-2026-07-25T221053.png
 security:
 - kind: domain-security

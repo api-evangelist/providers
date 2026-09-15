@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -125,18 +150,22 @@ common:
   type: Website
   url: https://www.useparagon.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/agentic-access/paragon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paragon-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/security/paragon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paragon-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/security/paragon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paragon-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/authentication/paragon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paragon-authentication.yml
@@ -145,34 +174,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/paragon/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-disconnect-integration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-disconnect-integration-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-discover-and-run-action-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-discover-and-run-action-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-enable-sync-and-pull-records-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-enable-sync-and-pull-records-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-find-and-replay-failed-execution-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-find-and-replay-failed-execution-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-manage-trigger-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-manage-trigger-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-permissioned-record-retrieval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-permissioned-record-retrieval-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-subscribe-to-trigger-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-subscribe-to-trigger-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/arazzo/paragon-verify-integration-and-proxy-request-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/paragon-verify-integration-and-proxy-request-workflow.yml
@@ -221,14 +258,17 @@ common:
   type: ServiceLevelAgreement
   url: https://docs.useparagon.com/billing/concurrency-limits
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/rate-limits/paragon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paragon-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/plans/paragon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paragon-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/finops/paragon-finops.yml
   title: ''
   type: FinOps
   url: finops/paragon-finops.yml
@@ -317,22 +357,27 @@ common:
   type: Deployment
   url: https://github.com/useparagon/enterprise-installer
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/vocabulary/paragon-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/paragon-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/rules/paragon-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/paragon-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/json-structure/paragon-action-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/paragon-action-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/json-structure/paragon-synced-record-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/paragon-synced-record-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/json-structure/paragon-trigger-subscription-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/paragon-trigger-subscription-structure.json
@@ -660,6 +705,38 @@ rules:
     info: 0
     warn: 5
   slug: paragon-rules
+score:
+  band: strong
+  composite: 55.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 68.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 28.8
+    contract_quality: 69.4
+    developer_ergonomics: 44.0
+    discoverability: 66.7
+    operational_transparency: 63.2
+  previous_composite: 55.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 80.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/screenshots/paragon-2026-06-20T191356.png
 security:
 - kind: authentication

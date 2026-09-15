@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -109,78 +134,97 @@ collections:
   slug: open-fatsecret-weight-tracking-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/agentic-access/fatsecret-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fatsecret-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/security/fatsecret-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fatsecret-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/authentication/fatsecret-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fatsecret-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/scopes/fatsecret-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fatsecret-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/packages/fatsecret-packages.yml
   title: ''
   type: Packages
   url: packages/fatsecret-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/well-known/fatsecret-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fatsecret-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/mcp/fatsecret-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fatsecret-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/llms/fatsecret-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fatsecret-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/conformance/fatsecret-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fatsecret-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/errors/fatsecret-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/fatsecret-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/lifecycle/fatsecret-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fatsecret-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/conventions/fatsecret-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fatsecret-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/data-model/fatsecret-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fatsecret-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/sandbox/fatsecret-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fatsecret-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/plans/fatsecret-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fatsecret-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/rate-limits/fatsecret-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fatsecret-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/finops/fatsecret-finops.yml
   title: ''
   type: FinOps
   url: finops/fatsecret-finops.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/rules/fatsecret-jsonschema-spectral-rules.yml
   title: Spectral Rules
   type: Documentation
   url: rules/fatsecret-jsonschema-spectral-rules.yml
@@ -302,6 +346,47 @@ scopes:
   scope_count: 7
   slug: fatsecret-scopes
   summary_line: 7 scopes · clientCredentials
+score:
+  band: strong
+  composite: 59.5
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 77.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 14.4
+    contract_quality: 49.9
+    developer_ergonomics: 56.5
+    discoverability: 68.5
+    operational_transparency: 34.2
+  previous_composite: 59.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 20.0
+      total: 10
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/screenshots/fatsecret-2026-06-20T181056.png
 security:
 - kind: authentication

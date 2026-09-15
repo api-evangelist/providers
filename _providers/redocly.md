@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 38.1
+  scored_at: '2026-09-14'
 api_count: 12
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
@@ -62,14 +87,17 @@ asyncapis:
   slug: redocly-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/scopes/redocly-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/redocly-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/authentication/redocly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/redocly-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/security/redocly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redocly-domain-security.yml
@@ -174,14 +202,17 @@ common:
   type: Reference
   url: https://redocly.com/reference
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/plans/redocly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/redocly-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/rate-limits/redocly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/redocly-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/finops/redocly-finops.yml
   title: ''
   type: FinOps
   url: finops/redocly-finops.yml
@@ -190,78 +221,97 @@ common:
   type: LlmsText
   url: https://redocly.com/llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/packages/redocly-packages.yml
   title: ''
   type: Packages
   url: packages/redocly-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/well-known/redocly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/redocly-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/mcp/redocly-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/redocly-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/mcp/redocly-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/redocly-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/a2a/redocly-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/redocly-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/llms/redocly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/redocly-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/conformance/redocly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/redocly-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/security/redocly-trust-center.yml
   title: ''
   type: Compliance
   url: security/redocly-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/security/redocly-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/redocly-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/security/redocly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/redocly-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/errors/redocly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/redocly-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/lifecycle/redocly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/redocly-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/conventions/redocly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/redocly-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/changelog/redocly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/redocly-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/cli/redocly-cli.yml
   title: ''
   type: CLI
   url: cli/redocly-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/components/redocly-components.yml
   title: ''
   type: Components
   url: components/redocly-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/data-model/redocly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/redocly-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/asyncapi/redocly-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/redocly-webhooks.yml
@@ -362,6 +412,40 @@ scopes:
   scope_count: 0
   slug: redocly-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 74.6
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 85.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 29.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 100.0
+    contract_governance: 43.2
+    contract_quality: 65.4
+    developer_ergonomics: 61.9
+    discoverability: 72.2
+    operational_transparency: 92.1
+  previous_composite: 74.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/screenshots/redocly-2026-06-20T192731.png
 security:
 - kind: authentication
@@ -392,5 +476,4 @@ tags:
 - MCP
 - Monitoring
 - OpenAPI
-- Developer Tools
 ---

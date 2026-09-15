@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -189,14 +214,17 @@ collections:
   slug: open-shoplazza-webhook-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/capabilities/shoplazza-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shoplazza-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/overlays/shoplazza-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shoplazza-admin-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/security/shoplazza-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shoplazza-domain-security.yml
@@ -261,74 +289,92 @@ common:
   type: AppStore
   url: https://appstore.shoplazza.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/asyncapi/shoplazza-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shoplazza-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/authentication/shoplazza-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shoplazza-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/scopes/shoplazza-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shoplazza-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/packages/shoplazza-packages.yml
   title: ''
   type: Packages
   url: packages/shoplazza-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/packages/shoplazza-packages.yml
   title: ''
   type: SDKs
   url: packages/shoplazza-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/cli/shoplazza-cli.yml
   title: ''
   type: CLI
   url: cli/shoplazza-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/mcp/shoplazza-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shoplazza-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/llms/shoplazza-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shoplazza-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/conformance/shoplazza-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shoplazza-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/errors/shoplazza-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shoplazza-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/lifecycle/shoplazza-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shoplazza-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/conventions/shoplazza-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shoplazza-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/changelog/shoplazza-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shoplazza-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/components/shoplazza-components.yml
   title: ''
   type: Components
   url: components/shoplazza-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/data-model/shoplazza-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shoplazza-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/rate-limits/shoplazza-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shoplazza-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/agentic-access/shoplazza-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shoplazza-agentic-access.yml
@@ -357,6 +403,47 @@ scopes:
   scope_count: 29
   slug: shoplazza-scopes
   summary_line: 29 scopes
+score:
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 62.8
+    developer_ergonomics: 61.3
+    discoverability: 68.5
+    operational_transparency: 65.8
+  previous_composite: 53.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/screenshots/shoplazza-2026-08-17T081837.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - https://drillster.com/en/pricing
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Drillster REST API (v2.1.1) lets developers integrate Drillster's adaptive learning and training platform into external applications. Roughly 180 documented endpoints and 200 response objects cove
@@ -41,22 +66,27 @@ common:
   type: GettingStarted
   url: https://www.drillster.com/info/developers/rest-apis/registering-your-application/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/authentication/drillster-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drillster-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/scopes/drillster-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/drillster-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/conventions/drillster-conventions.yml
   title: ''
   type: Conventions
   url: conventions/drillster-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/errors/drillster-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/drillster-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/lifecycle/drillster-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/drillster-lifecycle.yml
@@ -65,38 +95,47 @@ common:
   type: Deprecation
   url: https://www.drillster.com/info/developers/api/2.1.1/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/asyncapi/drillster-push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/drillster-push-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/components/drillster-components.yml
   title: ''
   type: Components
   url: components/drillster-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/conformance/drillster-conformance.yml
   title: ''
   type: Conformance
   url: conformance/drillster-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/packages/drillster-packages.yml
   title: ''
   type: Packages
   url: packages/drillster-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/plans/drillster-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drillster-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/rate-limits/drillster-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drillster-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/llms/drillster-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drillster-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/well-known/drillster-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/drillster-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/well-known/drillster-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/drillster-security.txt
@@ -105,10 +144,12 @@ common:
   type: Security
   url: https://www.drillster.com/info/reporting-security-breach/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/security/drillster-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/drillster-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/security/drillster-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drillster-domain-security.yml
@@ -181,6 +222,47 @@ scopes:
   scope_count: 1
   slug: drillster-scopes
   summary_line: 1 scope · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer
+score:
+  band: strong
+  composite: 57.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - benelux
+    - europe
+  previous_composite: 57.3
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 75.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/screenshots/drillster-2026-06-20T180231.png
 security:
 - kind: authentication
@@ -205,6 +287,6 @@ tags:
 - LMS
 - Adaptive Learning
 - Compliance Training
-- Webhooks
+- Webhook
 website: https://www.drillster.com
 ---

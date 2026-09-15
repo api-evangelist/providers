@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 13.0
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 4
 common:
@@ -79,54 +104,67 @@ common:
   type: PrivacyPolicy
   url: https://www.testsprite.com/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/mcp/testsprite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/testsprite-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/cli/testsprite-cli.yml
   title: ''
   type: CLI
   url: cli/testsprite-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/packages/testsprite-packages.yml
   title: ''
   type: Packages
   url: packages/testsprite-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/authentication/testsprite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/testsprite-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/scopes/testsprite-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/testsprite-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/errors/testsprite-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/testsprite-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/conventions/testsprite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/testsprite-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/conventions/testsprite-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/testsprite-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/lifecycle/testsprite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/testsprite-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/security/testsprite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/testsprite-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/conformance/testsprite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/testsprite-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/llms/testsprite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/testsprite-llms.txt
@@ -152,6 +190,36 @@ scopes:
   scope_count: 5
   slug: testsprite-scopes
   summary_line: 5 scopes
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 57.4
+    operational_transparency: 23.7
+  previous_composite: 31.5
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/screenshots/testsprite-2026-09-02T163244.png
 security:
 - kind: authentication

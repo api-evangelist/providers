@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -523,6 +548,7 @@ collections:
   slug: open-update-manager
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/capabilities/peoplesoft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/peoplesoft-capability-edges.yml
@@ -531,18 +557,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/agentic-access/peoplesoft-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/peoplesoft-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/security/peoplesoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peoplesoft-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/authentication/peoplesoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/peoplesoft-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/scopes/peoplesoft-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/peoplesoft-scopes.yml
@@ -551,50 +581,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/peoplesoft/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-approval-process-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-approval-process-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-component-upsert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-component-upsert-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-customer-case-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-customer-case-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-employee-payroll-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-employee-payroll-review-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-env-provision-notify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-env-provision-notify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-financial-period-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-financial-period-review-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-pivot-grid-dashboard-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-pivot-grid-dashboard-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-query-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-query-export-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-recruiting-apply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-recruiting-apply-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-scheduled-process-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-scheduled-process-poll-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-search-reindex-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-search-reindex-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/arazzo/peoplesoft-student-enrollment-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/peoplesoft-student-enrollment-review-workflow.yml
@@ -889,6 +931,38 @@ scopes:
   scope_count: 0
   slug: peoplesoft-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 49.4
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 59.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 13.6
+    contract_quality: 59.6
+    developer_ergonomics: 58.3
+    discoverability: 68.5
+    operational_transparency: 47.4
+  previous_composite: 49.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 38
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/screenshots/peoplesoft-2026-06-20T191552.png
 security:
 - kind: authentication

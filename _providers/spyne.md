@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Spyne Unified API accepts vehicle images and video (by SKU / VIN / stock number) and returns AI-transformed studio images, background replacement, 360-degree spins, and feature videos, plus image '
@@ -42,54 +67,67 @@ common:
   type: GettingStarted
   url: https://docs.spyne.ai/docs/transform-your-first-vehicle-1
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/authentication/spyne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spyne-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/packages/spyne-packages.yml
   title: ''
   type: SDKs
   url: packages/spyne-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/packages/spyne-packages.yml
   title: ''
   type: Packages
   url: packages/spyne-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/asyncapi/spyne-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spyne-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/mcp/spyne-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spyne-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/llms/spyne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spyne-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/errors/spyne-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spyne-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/conventions/spyne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spyne-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/lifecycle/spyne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spyne-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/data-model/spyne-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spyne-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/conformance/spyne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spyne-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/security/spyne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spyne-domain-security.yml
@@ -141,6 +179,36 @@ overview: 'Spyne publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
   Spyne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 19 more developer resources.'
 random_paper: 13
+score:
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 52.6
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    operational_transparency: 7.9
+  previous_composite: 40.2
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/screenshots/spyne-2026-08-17T082052.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for the Hush Security platform, secured with OAuth 2.0 client-credentials (API Key ID + Secret exchanged at POST /v1/oauth/token for a Bearer access token). Region-scoped host (US). Errors fo
@@ -17,6 +42,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/security/hush-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hush-security-domain-security.yml
@@ -77,42 +103,52 @@ common:
   type: Compliance
   url: https://www.hush.security/trust-center/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/authentication/hush-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hush-security-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/conventions/hush-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hush-security-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/errors/hush-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hush-security-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/lifecycle/hush-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hush-security-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/conformance/hush-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hush-security-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/packages/hush-security-packages.yml
   title: ''
   type: Packages
   url: packages/hush-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/packages/hush-security-packages.yml
   title: ''
   type: SDKs
   url: packages/hush-security-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/cli/hush-security-cli.yml
   title: ''
   type: CLI
   url: cli/hush-security-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/llms/hush-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hush-security-llms.txt
@@ -129,6 +165,35 @@ overview: 'Hush Security publishes 1 API on the [APIs.io](https://apis.io/) netw
 
   Hush Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
 random_paper: 8
+score:
+  band: thin
+  composite: 35.8
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 35.8
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/screenshots/hush-security-2026-07-25T221747.png
 security:
 - kind: authentication

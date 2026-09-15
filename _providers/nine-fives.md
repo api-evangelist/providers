@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.3
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: http://192.168.0.95
@@ -58,10 +83,12 @@ collections:
   slug: open-nine-fives-system-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/overlays/nine-fives-attenuator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nine-fives-attenuator-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/security/nine-fives-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nine-fives-domain-security.yml
@@ -102,42 +129,52 @@ common:
   type: Website
   url: https://ninefives.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/authentication/nine-fives-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nine-fives-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/conventions/nine-fives-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nine-fives-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/errors/nine-fives-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nine-fives-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/lifecycle/nine-fives-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nine-fives-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/conformance/nine-fives-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nine-fives-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/data-model/nine-fives-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nine-fives-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/well-known/nine-fives-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nine-fives-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/llms/nine-fives-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nine-fives-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/mcp/nine-fives-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nine-fives-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,6 +191,40 @@ overview: 'Nine Fives publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
   Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
 random_paper: 4
+score:
+  band: thin
+  composite: 29.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 18.2
+    contract_quality: 11.4
+    developer_ergonomics: 58.9
+    discoverability: 81.5
+    operational_transparency: 0.0
+  previous_composite: 29.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/screenshots/nine-fives-2026-08-07T185318.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - https://sbgi.net/wp-json/sbg/v1/station-map
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.5
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://sbgi.net/wp-json
@@ -63,50 +88,62 @@ common:
   type: Website
   url: https://www.sbgi.net/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/capabilities/sinclair-broadcast-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sinclair-broadcast-group-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/overlays/sinclair-broadcast-group-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sinclair-broadcast-group-content-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/mcp/sinclair-broadcast-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sinclair-broadcast-group-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/security/sinclair-broadcast-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sinclair-broadcast-group-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/security/sinclair-broadcast-group-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/sinclair-broadcast-group-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/security/sinclair-broadcast-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sinclair-broadcast-group-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/well-known/sinclair-broadcast-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sinclair-broadcast-group-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/well-known/sinclair-broadcast-group-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sinclair-broadcast-group-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/llms/sinclair-broadcast-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sinclair-broadcast-group-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/packages/sinclair-broadcast-group-packages.yml
   title: ''
   type: Packages
   url: packages/sinclair-broadcast-group-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/plans/sinclair-broadcast-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sinclair-broadcast-group-plans-pricing.yml
@@ -189,6 +226,41 @@ rate_limits:
 - limit_count: 0
   name: Sinclair Broadcast Group Rate Limits
   slug: sinclair-broadcast-group-rate-limits
+score:
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 52.4
+    developer_ergonomics: 47.0
+    discoverability: 72.2
+    operational_transparency: 13.2
+  previous_composite: 36.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:
 - kind: authentication

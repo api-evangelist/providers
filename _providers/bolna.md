@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API for building and operating conversational voice AI agents — create and manage agents, place outbound calls, run CSV batch campaigns, wire inbound numbers and SIP trunks, purchase/search phone
@@ -83,74 +108,92 @@ common:
   type: ChangeLog
   url: https://www.bolna.ai/docs/changelog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/mcp/bolna-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bolna-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/llms/bolna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bolna-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/packages/bolna-packages.yml
   title: ''
   type: Packages
   url: packages/bolna-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/packages/bolna-packages.yml
   title: ''
   type: SDKs
   url: packages/bolna-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/cli/bolna-cli.yml
   title: ''
   type: CLI
   url: cli/bolna-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/components/bolna-components.yml
   title: ''
   type: Components
   url: components/bolna-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/authentication/bolna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bolna-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/conventions/bolna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bolna-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/errors/bolna-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bolna-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/rate-limits/bolna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bolna-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/lifecycle/bolna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bolna-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/lifecycle/bolna-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bolna-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/asyncapi/bolna-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bolna-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/conformance/bolna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bolna-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/data-model/bolna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bolna-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/well-known/bolna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bolna-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/security/bolna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bolna-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -178,6 +221,36 @@ rate_limits:
 - limit_count: 4
   name: Bolna Rate Limits
   slug: bolna-rate-limits
+score:
+  band: developing
+  composite: 49.6
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 49.6
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/screenshots/bolna-2026-07-25T203540.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 44.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.newtqnia.com
@@ -31,6 +56,7 @@ common:
   type: MCPServer
   url: https://newtqnia.com/mcp
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/overlays/newtqnia-daily-digest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/newtqnia-daily-digest-api-overlay.yaml
@@ -67,62 +93,77 @@ common:
   type: PrivacyPolicy
   url: https://newtqnia.com/en/privacy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/packages/newtqnia-packages.yml
   title: ''
   type: Packages
   url: packages/newtqnia-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/packages/newtqnia-packages.yml
   title: ''
   type: SDKs
   url: packages/newtqnia-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/components/newtqnia-components.yml
   title: ''
   type: Components
   url: components/newtqnia-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/well-known/newtqnia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/newtqnia-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/authentication/newtqnia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/newtqnia-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/scopes/newtqnia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/newtqnia-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/conventions/newtqnia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/newtqnia-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/errors/newtqnia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/newtqnia-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/rate-limits/newtqnia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/newtqnia-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/plans/newtqnia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/newtqnia-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/lifecycle/newtqnia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/newtqnia-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/changelog/newtqnia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/newtqnia-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/conformance/newtqnia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/newtqnia-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/security/newtqnia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newtqnia-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,6 +207,41 @@ scopes:
   scope_count: 0
   slug: newtqnia-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 18.2
+    contract_quality: 51.7
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 53.7
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/screenshots/newtqnia-2026-09-02T150744.png
 security:
 - kind: authentication

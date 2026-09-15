@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for poolside's Laguna agentic-coding models. Send chat-completion and model-listing requests from your own tools, scripts, and applications using the OpenAI SDK by swit
@@ -74,14 +99,17 @@ common:
   type: ChangeLog
   url: https://docs.poolside.ai/release-notes/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/llms/poolside-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/poolside-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/well-known/poolside-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/poolside-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/well-known/poolside-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/poolside-security.txt
@@ -90,50 +118,62 @@ common:
   type: Security
   url: https://poolside.ai/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/security/poolside-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/poolside-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/security/poolside-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/poolside-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/authentication/poolside-authentication.yml
   title: ''
   type: Authentication
   url: authentication/poolside-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/conventions/poolside-conventions.yml
   title: ''
   type: Conventions
   url: conventions/poolside-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/conformance/poolside-conformance.yml
   title: ''
   type: Conformance
   url: conformance/poolside-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/lifecycle/poolside-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/poolside-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/lifecycle/poolside-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/poolside-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/cli/poolside-cli.yml
   title: ''
   type: CLI
   url: cli/poolside-cli.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/packages/poolside-packages.yml
   title: ''
   type: Packages
   url: packages/poolside-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/changelog/poolside-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/poolside-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/errors/poolside-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/poolside-problem-types.yml
@@ -150,6 +190,36 @@ overview: 'poolside publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   poolside''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 23 more developer resources.'
 random_paper: 2
+score:
+  band: thin
+  composite: 32.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 32.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/screenshots/poolside-2026-09-02T151727.png
 security:
 - kind: authentication

@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/unikrn/refs/heads/main/security/unikrn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unikrn-domain-security.yml
@@ -24,6 +25,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/unikrn
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/unikrn/refs/heads/main/llms/unikrn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unikrn-llms.txt

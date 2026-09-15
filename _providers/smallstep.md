@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bound
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -78,6 +103,7 @@ collections:
   slug: open-smallstep-protect-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/overlays/smallstep-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/smallstep-platform-overlay.yaml
@@ -134,18 +160,22 @@ common:
   type: StatusPage
   url: https://status.smallstep.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/authentication/smallstep-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smallstep-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/agentic-access/smallstep-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smallstep-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/security/smallstep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smallstep-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/security/smallstep-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/smallstep-vulnerability-disclosure.yml
@@ -154,62 +184,77 @@ common:
   type: Security
   url: https://smallstep.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/well-known/smallstep-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/smallstep-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/well-known/smallstep-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/smallstep-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/packages/smallstep-packages.yml
   title: ''
   type: Packages
   url: packages/smallstep-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/packages/smallstep-packages.yml
   title: ''
   type: SDKs
   url: packages/smallstep-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/cli/smallstep-cli.yml
   title: ''
   type: CLI
   url: cli/smallstep-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/llms/smallstep-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smallstep-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/conformance/smallstep-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smallstep-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/errors/smallstep-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/smallstep-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/lifecycle/smallstep-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smallstep-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/conventions/smallstep-conventions.yml
   title: ''
   type: Conventions
   url: conventions/smallstep-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/changelog/smallstep-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/smallstep-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/data-model/smallstep-data-model.yml
   title: ''
   type: DataModel
   url: data-model/smallstep-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/asyncapi/smallstep-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/smallstep-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/mcp/smallstep-mcp.yml
   title: ''
   type: MCPServerCandidate
   url: mcp/smallstep-mcp.yml
@@ -229,6 +274,41 @@ overview: 'SmallStep publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
   SmallStep''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 27 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 4.5
+    contract_quality: 69.5
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 44.7
+  previous_composite: 52.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/screenshots/smallstep-2026-08-17T081926.png
 security:
 - kind: authentication

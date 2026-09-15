@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.6
+  scored_at: '2026-09-14'
 api_count: 10
 apis:
 - baseURL: https://api.measurabl.com/core/v0
@@ -153,42 +178,52 @@ collections:
   slug: open-measurabl-partners
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/capabilities/measurabl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/measurabl-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-core-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-esgx-buildings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-esgx-buildings-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-esgx-securities-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-esgx-securities-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-esgx-securities-compliance-files-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-esgx-securities-compliance-files-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/overlays/measurabl-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/measurabl-partners-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/mcp/measurabl-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/measurabl-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/security/measurabl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/measurabl-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/scopes/measurabl-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/measurabl-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/authentication/measurabl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/measurabl-authentication.yml
@@ -261,46 +296,57 @@ common:
   type: Compliance
   url: https://www.measurabl.com/security/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/security/measurabl-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/measurabl-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/conformance/measurabl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/measurabl-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/conventions/measurabl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/measurabl-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/errors/measurabl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/measurabl-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/rate-limits/measurabl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/measurabl-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/data-model/measurabl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/measurabl-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/lifecycle/measurabl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/measurabl-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/changelog/measurabl-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/measurabl-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/packages/measurabl-packages.yml
   title: ''
   type: Packages
   url: packages/measurabl-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/llms/measurabl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/measurabl-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -327,6 +373,50 @@ scopes:
   scope_count: 0
   slug: measurabl-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 32.9
+    contract_governance: 4.5
+    contract_quality: 51.2
+    developer_ergonomics: 61.3
+    discoverability: 68.5
+    operational_transparency: 50.0
+  previous_composite: 51.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 64.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:
 - kind: authentication

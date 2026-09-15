@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: http://api.moxionpower.com/developer/v1
@@ -67,6 +92,7 @@ collections:
   slug: open-moxion-power-co-organizations-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/capabilities/moxion-power-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moxion-power-co-capability-edges.yml
@@ -87,6 +113,7 @@ common:
   type: GettingStarted
   url: https://developer.moxionpower.com/docs/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/authentication/moxion-power-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moxion-power-co-authentication.yml
@@ -99,46 +126,57 @@ common:
   type: Website
   url: https://www.moxionpower.com
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/llms/moxion-power-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moxion-power-co-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/errors/moxion-power-co-fault-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moxion-power-co-fault-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/vocabulary/moxion-power-co-metrics.yml
   title: ''
   type: Vocabulary
   url: vocabulary/moxion-power-co-metrics.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/conformance/moxion-power-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moxion-power-co-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/conventions/moxion-power-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moxion-power-co-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/lifecycle/moxion-power-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moxion-power-co-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/data-model/moxion-power-co-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moxion-power-co-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/mcp/moxion-power-co-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moxion-power-co-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/overlays/moxion-power-co-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moxion-power-co-openapi-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/security/moxion-power-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moxion-power-co-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -187,6 +225,47 @@ overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 20 more developer resources.'
 random_paper: 11
+score:
+  band: emerging
+  composite: 25.1
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 33.3
+    contract_quality: 13.4
+    developer_ergonomics: 35.1
+    discoverability: 81.5
+    operational_transparency: 5.3
+  previous_composite: 25.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:
 - kind: authentication

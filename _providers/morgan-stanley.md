@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 11.2
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - description: 'The institutional REST APIs on the Morgan Stanley API Platform let onboarded clients and third-party partners integrate Morgan Stanley data and services directly into their own systems and processes. '
@@ -69,10 +94,12 @@ common:
   type: GettingStarted
   url: https://developer.etrade.com/getting-started
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/security/morgan-stanley-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morgan-stanley-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/security/morgan-stanley-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/morgan-stanley-vulnerability-disclosure.yml
@@ -81,38 +108,47 @@ common:
   type: Security
   url: https://www.morganstanley.com/vulnerability-disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/authentication/morgan-stanley-authentication.yml
   title: ''
   type: Authentication
   url: authentication/morgan-stanley-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/conventions/morgan-stanley-conventions.yml
   title: ''
   type: Conventions
   url: conventions/morgan-stanley-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/conventions/morgan-stanley-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/morgan-stanley-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/errors/morgan-stanley-etrade-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/morgan-stanley-etrade-error-codes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/sandbox/morgan-stanley-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/morgan-stanley-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/lifecycle/morgan-stanley-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/morgan-stanley-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/conformance/morgan-stanley-conformance.yml
   title: ''
   type: Conformance
   url: conformance/morgan-stanley-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/packages/morgan-stanley-packages.yml
   title: ''
   type: Packages
   url: packages/morgan-stanley-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/llms/morgan-stanley-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/morgan-stanley-llms.txt
@@ -157,6 +193,47 @@ rate_limits:
 - limit_count: 2
   name: Morgan Stanley Rate Limits
   slug: morgan-stanley-rate-limits
+score:
+  band: thin
+  composite: 29.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 42.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 72.2
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 29.3
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 55.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/morgan-stanley/refs/heads/main/screenshots/morgan-stanley-2026-06-20T185816.png
 security:
 - kind: authentication

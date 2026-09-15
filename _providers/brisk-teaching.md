@@ -8,6 +8,31 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.6
+  scored_at: '2026-09-14'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,14 +73,17 @@ common:
   type: StatusPage
   url: https://statuspage.incident.io/brisk-teaching
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/brisk-teaching/refs/heads/main/llms/brisk-teaching-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brisk-teaching-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/brisk-teaching/refs/heads/main/lifecycle/brisk-teaching-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brisk-teaching-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/brisk-teaching/refs/heads/main/security/brisk-teaching-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brisk-teaching-domain-security.yml
@@ -72,6 +100,40 @@ overview: 'Brisk Teaching is profiled on the [APIs.io](https://apis.io/) network
 
   Brisk Teaching''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
 random_paper: 12
+score:
+  band: emerging
+  composite: 15.6
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 38.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 57.4
+    operational_transparency: 7.9
+  previous_composite: 15.6
+  provenance:
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 25.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/brisk-teaching/refs/heads/main/screenshots/brisk-teaching-2026-07-25T203915.png
 security:
 - kind: domain-security

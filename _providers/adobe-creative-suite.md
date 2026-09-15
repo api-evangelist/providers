@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -371,22 +396,27 @@ common:
   type: Website
   url: https://www.adobe.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/capabilities/adobe-creative-suite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-creative-suite-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/agentic-access/adobe-creative-suite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-creative-suite-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/security/adobe-creative-suite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-creative-suite-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/security/adobe-creative-suite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-creative-suite-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/authentication/adobe-creative-suite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-creative-suite-authentication.yml
@@ -395,106 +425,132 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-creative-suite/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-expand-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-expand-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-generate-similar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-generate-similar-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-generative-fill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-generative-fill-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-object-composite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-object-composite-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-text-to-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-text-to-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-text-to-video-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-text-to-video-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-autotag-accessibility-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-autotag-accessibility-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-combine-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-combine-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-compress-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-compress-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-create-from-office-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-create-from-office-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-export-to-word-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-export-to-word-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-generate-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-generate-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-linearize-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-linearize-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-ocr-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-ocr-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-create-mask-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-create-mask-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-create-rendition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-create-rendition-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-edit-text-layers-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-edit-text-layers-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-product-crop-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-product-crop-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-remove-background-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-remove-background-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-stock-license-with-quota-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-stock-license-with-quota-check-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-stock-search-and-license-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-stock-search-and-license-image-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-stock-search-and-license-video-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-stock-search-and-license-video-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-ld/adobe-creative-suite-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-creative-suite-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-schema/adobe-creative-suite-image-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-creative-suite-image-job-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-schema/adobe-creative-suite-firefly-generation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-creative-suite-firefly-generation-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-schema/adobe-creative-suite-stock-file-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-creative-suite-stock-file-schema.json
@@ -1328,6 +1384,38 @@ rules:
     info: 2
     warn: 7
   slug: adobe-creative-suite-spectral-rules
+score:
+  band: developing
+  composite: 50.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 13.6
+    contract_quality: 73.0
+    developer_ergonomics: 65.5
+    discoverability: 59.3
+    operational_transparency: 15.8
+  previous_composite: 50.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 27
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
 security:
 - kind: authentication

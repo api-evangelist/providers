@@ -10,6 +10,31 @@ access_model:
   - https://loops.so/docs/api-reference/intro
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 62.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -166,90 +191,112 @@ collections:
   slug: open-loops-transactional-emails-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/capabilities/loops-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/loops-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/agentic-access/loops-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/loops-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/authentication/loops-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loops-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/scopes/loops-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/loops-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/conventions/loops-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loops-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/conventions/loops-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/loops-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/errors/loops-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/loops-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/rate-limits/loops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loops-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/plans/loops-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loops-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/finops/loops-finops.yml
   title: ''
   type: FinOps
   url: finops/loops-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/data-model/loops-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loops-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/examples/loops-examples.yml
   title: ''
   type: Examples
   url: examples/loops-examples.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/packages/loops-packages.yml
   title: ''
   type: Packages
   url: packages/loops-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/packages/loops-packages.yml
   title: ''
   type: SDKs
   url: packages/loops-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/cli/loops-cli.yml
   title: ''
   type: CLI
   url: cli/loops-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/mcp/loops-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/loops-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/mcp/loops-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/loops-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/asyncapi/loops-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/loops-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/asyncapi/loops-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/loops-webhooks-asyncapi.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/well-known/loops-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/loops-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/lifecycle/loops-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loops-lifecycle.yml
@@ -258,26 +305,32 @@ common:
   type: StatusPage
   url: https://status.loops.so
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/changelog/loops-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/loops-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/conformance/loops-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loops-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/conformance/loops-conformance.yml
   title: ''
   type: Compliance
   url: conformance/loops-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/security/loops-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/loops-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/security/loops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loops-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/llms/loops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loops-llms.txt
@@ -386,6 +439,41 @@ scopes:
   scope_count: 0
   slug: loops-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 69.1
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 89.5
+    contract_governance: 18.2
+    contract_quality: 63.0
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 73.7
+  previous_composite: 69.1
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/screenshots/loops-2026-06-20T184718.png
 security:
 - kind: authentication

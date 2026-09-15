@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,14 +75,17 @@ collections:
   slug: open-bank-of-melbourne-cds-banking-products
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/agentic-access/bank-of-melbourne-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bank-of-melbourne-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/security/bank-of-melbourne-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bank-of-melbourne-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/security/bank-of-melbourne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-melbourne-domain-security.yml
@@ -82,46 +110,57 @@ common:
   type: Security
   url: https://www.bankofmelbourne.com.au/online-services/security-centre
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/authentication/bank-of-melbourne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-melbourne-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/conventions/bank-of-melbourne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bank-of-melbourne-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/errors/bank-of-melbourne-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bank-of-melbourne-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/lifecycle/bank-of-melbourne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bank-of-melbourne-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/lifecycle/bank-of-melbourne-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bank-of-melbourne-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/conformance/bank-of-melbourne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bank-of-melbourne-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/data-model/bank-of-melbourne-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bank-of-melbourne-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/overlays/bank-of-melbourne-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-melbourne-cds-banking-products-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/mcp/bank-of-melbourne-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bank-of-melbourne-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/skills/bank-of-melbourne-browse-products.md
   title: ''
   type: AgentSkill
   url: skills/bank-of-melbourne-browse-products.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/llms/bank-of-melbourne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bank-of-melbourne-llms.txt
@@ -138,6 +177,49 @@ overview: 'Bank of Melbourne publishes 5 APIs on the [APIs.io](https://apis.io/)
 
   Bank of Melbourne''s developer surface includes documentation, authentication, and 17 more developer resources.'
 random_paper: 4
+score:
+  band: thin
+  composite: 29.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 30.4
+    discoverability: 81.5
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 29.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 48.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png
 security:
 - kind: authentication

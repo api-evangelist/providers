@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: near-conformant
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 62.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST/HTTP API to discover, inspect, run and poll third-party agent tools, with smart-run capabilities, leaderboards, wallet balance and agent self-registration. Exposes OpenAPI 3.1, two hosted MCP ser
@@ -15,66 +40,82 @@ common:
   type: Website
   url: https://www.cracked.ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/security/cracked-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cracked-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/security/cracked-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cracked-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/security/cracked-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cracked-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/authentication/cracked-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cracked-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/packages/cracked-packages.yml
   title: ''
   type: Packages
   url: packages/cracked-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/packages/cracked-packages.yml
   title: ''
   type: SDKs
   url: packages/cracked-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/well-known/cracked-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cracked-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/mcp/cracked-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cracked-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/mcp/cracked-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cracked-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/a2a/cracked-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/cracked-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/llms/cracked-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cracked-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/overlays/cracked-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cracked-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/conformance/cracked-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cracked-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/errors/cracked-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cracked-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/lifecycle/cracked-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cracked-lifecycle.yml
@@ -83,6 +124,7 @@ common:
   type: StatusPage
   url: https://cracked.ai/status
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/scopes/cracked-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cracked-scopes.yml
@@ -91,18 +133,22 @@ common:
   type: Security
   url: https://cracked.ai/security
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/sandbox/cracked-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cracked-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/conventions/cracked-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cracked-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/conventions/cracked-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cracked-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/changelog/cracked-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cracked-changelog.yml
@@ -111,22 +157,27 @@ common:
   type: ChangeLog
   url: https://cracked.ai/changelog
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/cli/cracked-cli.yml
   title: ''
   type: CLI
   url: cli/cracked-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/data-model/cracked-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cracked-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/plans/cracked-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cracked-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/rate-limits/cracked-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cracked-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cracked/refs/heads/main/asyncapi/cracked-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cracked-webhooks.yml
@@ -180,7 +231,7 @@ modified: '2026-09-03'
 name: Cracked API
 nav: Providers
 network: true
-overview: 'Cracked API publishes 1 API on the [APIs.io](https://apis.io/) network: Cracked API. Tagged areas include ai agents, agent tools, mcp, tool router, and API aggregator.
+overview: 'Cracked API publishes 1 API on the [APIs.io](https://apis.io/) network: Cracked API. Tagged areas include AI Agents, Agent Tools, MCP, Tool Router, and API Aggregator.
 
 
   The Cracked API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -201,6 +252,40 @@ scopes:
   scope_count: 4
   slug: cracked-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 64.0
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 49.8
+    developer_ergonomics: 83.3
+    discoverability: 75.9
+    operational_transparency: 81.6
+  previous_composite: 64.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Cracked Authentication
@@ -220,35 +305,26 @@ security:
   summary_line: trust center published
 slug: cracked
 tags:
-- ai agents
-- agent tools
-- mcp
-- tool router
-- API aggregator
-- web search
-- web scraping
-- data enrichment
-- llms.txt
-- agent skills
-- pay-per-call
-- ai-agents
-- agent-tools
-- tool-router
-- aggregator
-- web-search
-- web-scraping
-- data-enrichment
-- lead-generation
-- ai-models
-- developer-tools
-- AI agents
+- AI Agents
+- Agent Tools
 - MCP
+- Tool Router
+- API Aggregator
+- Web Search
+- Web Scraping
+- Data Enrichment
+- llms-txt
+- Agent Skills
+- pay-per-call
+- Aggregator
+- Lead Generation
+- AI Models
+- Developer Tools
 - lead gen
 - SEO
-- social media data
-- ecommerce
-- finance
-- weather
-- AI models
+- social-media-data
+- E-Commerce
+- Finance
+- Weather
 website: https://www.cracked.ai/
 ---

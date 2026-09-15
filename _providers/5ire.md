@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint for the 5ireChain mainnet (EIP-155 chain ID 995, native currency 5ire, 18 decimals). Serves the standard eth_*, net_* and web3_* method families against the E
@@ -97,42 +122,52 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/5ire_stock/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/packages/5ire-packages.yml
   title: ''
   type: Packages
   url: packages/5ire-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/packages/5ire-packages.yml
   title: ''
   type: SDKs
   url: packages/5ire-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/sandbox/5ire-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/5ire-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/conventions/5ire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/5ire-conventions.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/authentication/5ire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/5ire-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/conformance/5ire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/5ire-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/lifecycle/5ire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/5ire-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/changelog/5ire-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/5ire-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/llms/5ire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/5ire-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/5ire/refs/heads/main/security/5ire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/5ire-domain-security.yml
@@ -150,6 +185,42 @@ overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
   5ire''s developer surface includes documentation, getting-started guide, engineering blog, support, FAQ, sandbox, authentication, and 21 more developer resources.'
 random_paper: 16
+score:
+  band: emerging
+  composite: 23.4
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 48.8
+    discoverability: 81.5
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - middle-east
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 23.4
+  provenance:
+    conformance: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: 5Ire Authentication

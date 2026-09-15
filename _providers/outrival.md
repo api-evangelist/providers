@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -230,6 +255,7 @@ collections:
   slug: open-outrival-workflows-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/overlays/outrival-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/outrival-v1-overlay.yaml
@@ -278,54 +304,67 @@ common:
   type: PrivacyPolicy
   url: https://privacy.outrival.com/privacy-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/authentication/outrival-authentication.yml
   title: ''
   type: Authentication
   url: authentication/outrival-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/llms/outrival-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/outrival-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/packages/outrival-packages.yml
   title: ''
   type: Packages
   url: packages/outrival-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/packages/outrival-packages.yml
   title: ''
   type: SDKs
   url: packages/outrival-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/components/outrival-components.yml
   title: ''
   type: Components
   url: components/outrival-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/asyncapi/outrival-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/outrival-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/mcp/outrival-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/outrival-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/errors/outrival-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/outrival-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/conventions/outrival-conventions.yml
   title: ''
   type: Conventions
   url: conventions/outrival-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/data-model/outrival-data-model.yml
   title: ''
   type: DataModel
   url: data-model/outrival-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/lifecycle/outrival-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/outrival-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/conformance/outrival-conformance.yml
   title: ''
   type: Conformance
   url: conformance/outrival-conformance.yml
@@ -334,6 +373,7 @@ common:
   type: Compliance
   url: https://outrival.com/security
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/agentic-access/outrival-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/outrival-agentic-access.yml
@@ -342,14 +382,17 @@ common:
   type: Security
   url: https://outrival.com/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/security/outrival-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/outrival-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/security/outrival-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/outrival-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/security/outrival-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/outrival-domain-security.yml
@@ -369,6 +412,47 @@ overview: 'OutRival publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
   OutRival''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
 random_paper: 4
+score:
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 53.8
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    operational_transparency: 21.1
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/screenshots/outrival-2026-08-07T191105.png
 security:
 - kind: authentication

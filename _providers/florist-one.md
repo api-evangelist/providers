@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,14 +90,17 @@ collections:
   slug: open-florist-one
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/agentic-access/florist-one-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/florist-one-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/security/florist-one-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/florist-one-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/authentication/florist-one-authentication.yml
   title: ''
   type: Authentication
   url: authentication/florist-one-authentication.yml
@@ -101,26 +129,32 @@ common:
   type: Contact
   url: https://www.floristone.com/api/api-contact/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/packages/florist-one-packages.yml
   title: ''
   type: Packages
   url: packages/florist-one-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/mcp/florist-one-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/florist-one-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/llms/florist-one-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/florist-one-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/conformance/florist-one-conformance.yml
   title: ''
   type: Conformance
   url: conformance/florist-one-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/errors/florist-one-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/florist-one-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/lifecycle/florist-one-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/florist-one-lifecycle.yml
@@ -129,22 +163,27 @@ common:
   type: Deprecation
   url: https://www.floristone.com/api/print_api_legal/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/conventions/florist-one-conventions.yml
   title: ''
   type: Conventions
   url: conventions/florist-one-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/data-model/florist-one-data-model.yml
   title: ''
   type: DataModel
   url: data-model/florist-one-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/plans/florist-one-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/florist-one-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/rate-limits/florist-one-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/florist-one-rate-limits.yml
@@ -197,6 +236,41 @@ rate_limits:
 - limit_count: 0
   name: Florist One Rate Limits
   slug: florist-one-rate-limits
+score:
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 0.0
+    contract_quality: 47.6
+    developer_ergonomics: 49.4
+    discoverability: 68.5
+    operational_transparency: 10.5
+  previous_composite: 41.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Florist One Authentication

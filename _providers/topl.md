@@ -26,54 +26,67 @@ common:
   type: Documentation
   url: https://github.com/Topl/Knowledge-Base
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/grpc/topl-protobuf.yml
   title: ''
   type: Protobuf
   url: grpc/topl-protobuf.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/packages/topl-packages.yml
   title: ''
   type: Packages
   url: packages/topl-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/packages/topl-packages.yml
   title: ''
   type: SDKs
   url: packages/topl-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/cli/topl-cli.yml
   title: ''
   type: CLI
   url: cli/topl-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/authentication/topl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/topl-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/conventions/topl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/topl-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/data-model/topl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/topl-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/conformance/topl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/topl-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/lifecycle/topl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/topl-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/changelog/topl-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/topl-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/plans/topl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/topl-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/rate-limits/topl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/topl-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/llms/topl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/topl-llms.txt

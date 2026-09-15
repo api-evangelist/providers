@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 47.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,18 +91,22 @@ collections:
   slug: open-flexpa
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/capabilities/flexpa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flexpa-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/agentic-access/flexpa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flexpa-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/security/flexpa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flexpa-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/authentication/flexpa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flexpa-authentication.yml
@@ -97,14 +127,17 @@ common:
   type: Documentation
   url: https://www.flexpa.com/docs
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/plans/flexpa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flexpa-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/rate-limits/flexpa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flexpa-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/finops/flexpa-finops.yml
   title: ''
   type: FinOps
   url: finops/flexpa-finops.yml
@@ -113,38 +146,47 @@ common:
   type: Blog
   url: https://www.flexpa.com/blog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/well-known/flexpa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flexpa-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/mcp/flexpa-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flexpa-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/mcp/flexpa-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/flexpa-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/llms/flexpa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flexpa-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/packages/flexpa-packages.yml
   title: ''
   type: Packages
   url: packages/flexpa-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/packages/flexpa-packages.yml
   title: ''
   type: SDKs
   url: packages/flexpa-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/conventions/flexpa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flexpa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/errors/flexpa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flexpa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/lifecycle/flexpa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flexpa-lifecycle.yml
@@ -153,10 +195,12 @@ common:
   type: StatusPage
   url: https://flexpastatus.com
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/changelog/flexpa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flexpa-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/conformance/flexpa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flexpa-conformance.yml
@@ -165,30 +209,37 @@ common:
   type: Compliance
   url: https://security.flexpa.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/security/flexpa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flexpa-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/scopes/flexpa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flexpa-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/sandbox/flexpa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/flexpa-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/components/flexpa-components.yml
   title: ''
   type: Components
   url: components/flexpa-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/data-model/flexpa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flexpa-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/asyncapi/flexpa-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/flexpa-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -265,6 +316,47 @@ scopes:
   scope_count: 0
   slug: flexpa-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 72.4
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 18.2
+    contract_quality: 56.5
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 72.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 76.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/screenshots/flexpa-2026-07-25T214752.png
 security:
 - kind: authentication

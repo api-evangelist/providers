@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: flavored
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 49.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -785,26 +811,32 @@ common:
   type: Website
   url: https://www.cloudflare.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/capabilities/cloudflare-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudflare-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/a2a/cloudflare-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/cloudflare-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/agentic-access/cloudflare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudflare-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/security/cloudflare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudflare-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/security/cloudflare-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudflare-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/authentication/cloudflare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudflare-authentication.yml
@@ -817,94 +849,117 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/cloudflare/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-block-ip-access-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-block-ip-access-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-configure-ssl-mode-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-configure-ssl-mode-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-create-and-activate-zone-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-create-and-activate-zone-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-create-dns-record-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-create-dns-record-and-verify-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-create-firewall-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-create-firewall-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-create-load-balancer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-create-load-balancer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-create-page-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-create-page-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-create-ruleset-with-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-create-ruleset-with-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-create-waf-override-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-create-waf-override-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-deploy-worker-route-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-deploy-worker-route-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-enable-universal-ssl-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-enable-universal-ssl-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-provision-zone-with-dns-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-provision-zone-with-dns-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-purge-cache-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-purge-cache-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-replace-page-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-replace-page-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-rotate-dns-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-rotate-dns-record-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-rotate-load-balancer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-rotate-load-balancer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-rotate-page-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-rotate-page-rule-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-rotate-worker-route-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-rotate-worker-route-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-rotate-worker-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-rotate-worker-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-toggle-waf-setting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-toggle-waf-setting-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-update-entrypoint-ruleset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-update-entrypoint-ruleset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-upload-custom-ssl-certificate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-upload-custom-ssl-certificate-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/arazzo/cloudflare-upsert-dns-record-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cloudflare-upsert-dns-record-workflow.yml
@@ -913,34 +968,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/cloudflare
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-ld/cloudflare-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudflare-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-dns-record-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudflare-dns-record-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-zone-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudflare-zone-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-worker-script-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudflare-worker-script-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-account-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudflare-account-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-notification-webhook-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudflare-notification-webhook-payload-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-r2-bucket-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudflare-r2-bucket-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/json-schema/cloudflare-d1-database-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudflare-d1-database-schema.json
@@ -2026,6 +2089,39 @@ rules:
     info: 0
     warn: 7
   slug: cloudflare-spectral-rules
+score:
+  band: strong
+  composite: 65.1
+  coverage:
+    artifact_dirs: 27
+    catalog_earned: 48.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 13.6
+    contract_quality: 71.6
+    developer_ergonomics: 96.4
+    discoverability: 57.4
+    operational_transparency: 44.7
+  previous_composite: 65.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 57
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:
 - kind: authentication

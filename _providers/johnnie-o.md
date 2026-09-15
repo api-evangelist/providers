@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 38.0
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Anonymous, fully introspectable GraphQL endpoint served from Johnnie-O's own Hydrogen storefront host. This is the Shopify Storefront API for merchant tenant 22750137; the Hydrogen app proxies the req
@@ -23,6 +48,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/security/johnnie-o-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/johnnie-o-domain-security.yml
@@ -31,66 +57,82 @@ common:
   type: Website
   url: https://www.johnnie-o.com/
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/graphql/johnnie-o-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/johnnie-o-storefront.graphql
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/mcp/johnnie-o-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/johnnie-o-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/mcp/johnnie-o-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/johnnie-o-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/llms/johnnie-o-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/johnnie-o-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/well-known/johnnie-o-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/johnnie-o-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/authentication/johnnie-o-authentication.yml
   title: ''
   type: Authentication
   url: authentication/johnnie-o-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/scopes/johnnie-o-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/johnnie-o-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/conformance/johnnie-o-conformance.yml
   title: ''
   type: Conformance
   url: conformance/johnnie-o-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/conventions/johnnie-o-conventions.yml
   title: ''
   type: Conventions
   url: conventions/johnnie-o-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/lifecycle/johnnie-o-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/johnnie-o-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/errors/johnnie-o-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/johnnie-o-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/data-model/johnnie-o-data-model.yml
   title: ''
   type: DataModel
   url: data-model/johnnie-o-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/rate-limits/johnnie-o-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/johnnie-o-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/plans/johnnie-o-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/johnnie-o-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/packages/johnnie-o-packages.yml
   title: ''
   type: Packages
   url: packages/johnnie-o-packages.yml
@@ -149,6 +191,36 @@ scopes:
   scope_count: 0
   slug: johnnie-o-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.5
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 37.2
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 31.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/johnnie-o/refs/heads/main/screenshots/johnnie-o-2026-09-02T145957.png
 security:
 - kind: authentication

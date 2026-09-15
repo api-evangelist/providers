@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.6
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: REST API for tables data (datatables) — row and column filtered access to hundreds of financial, economic, and alternative datasets, with JSON, XML, and CSV formats, cursor-based pagination, and an as
@@ -71,58 +96,72 @@ common:
   type: Postman
   url: https://github.com/Nasdaq/NasdaqCloudDataService-REST-API/tree/main/restapi/postman
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/llms/nasdaq-data-link-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nasdaq-data-link-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/packages/nasdaq-data-link-packages.yml
   title: ''
   type: Packages
   url: packages/nasdaq-data-link-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/packages/nasdaq-data-link-packages.yml
   title: ''
   type: SDKs
   url: packages/nasdaq-data-link-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/cli/nasdaq-data-link-cli.yml
   title: ''
   type: CLI
   url: cli/nasdaq-data-link-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/mcp/nasdaq-data-link-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nasdaq-data-link-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/well-known/nasdaq-data-link-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nasdaq-data-link-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/errors/nasdaq-data-link-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nasdaq-data-link-error-codes.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/rate-limits/nasdaq-data-link-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nasdaq-data-link-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/lifecycle/nasdaq-data-link-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nasdaq-data-link-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/authentication/nasdaq-data-link-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nasdaq-data-link-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/scopes/nasdaq-data-link-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nasdaq-data-link-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/conventions/nasdaq-data-link-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nasdaq-data-link-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/conformance/nasdaq-data-link-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nasdaq-data-link-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/security/nasdaq-data-link-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nasdaq-data-link-domain-security.yml
@@ -156,6 +195,41 @@ scopes:
   scope_count: 9
   slug: nasdaq-data-link-scopes
   summary_line: 9 scopes · clientCredentials/authorizationCode
+score:
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 22.4
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 67.9
+    discoverability: 88.9
+    operational_transparency: 50.0
+  previous_composite: 38.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 55.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png
 security:
 - kind: authentication

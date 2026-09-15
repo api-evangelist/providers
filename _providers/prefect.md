@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -404,6 +429,7 @@ common:
   type: Website
   url: https://www.prefect.io/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/capabilities/prefect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/prefect-capability-edges.yml
@@ -432,14 +458,17 @@ common:
   type: License
   url: https://github.com/PrefectHQ/prefect/blob/main/LICENSE
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/agentic-access/prefect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/prefect-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/security/prefect-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/prefect-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/security/prefect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prefect-domain-security.yml
@@ -540,6 +569,41 @@ rate_limits:
 - limit_count: 5
   name: Prefect Rate Limits
   slug: prefect-rate-limits
+score:
+  band: developing
+  composite: 49.4
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 33.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 0.0
+    contract_quality: 45.5
+    developer_ergonomics: 16.7
+    discoverability: 51.9
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 49.4
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 61
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:
 - kind: domain-security

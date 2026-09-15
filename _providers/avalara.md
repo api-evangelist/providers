@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -723,182 +749,227 @@ common:
   type: Website
   url: https://www.avalara.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/capabilities/avalara-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/avalara-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/agentic-access/avalara-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/avalara-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/security/avalara-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avalara-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/authentication/avalara-authentication.yml
   title: ''
   type: Authentication
   url: authentication/avalara-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/packages/avalara-packages.yml
   title: ''
   type: Packages
   url: packages/avalara-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/well-known/avalara-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/avalara-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/mcp/avalara-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/avalara-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/llms/avalara-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avalara-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/scopes/avalara-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/avalara-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/conformance/avalara-conformance.yml
   title: ''
   type: Conformance
   url: conformance/avalara-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/errors/avalara-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/avalara-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/lifecycle/avalara-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/avalara-lifecycle.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/sandbox/avalara-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/avalara-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/conventions/avalara-conventions.yml
   title: ''
   type: Conventions
   url: conventions/avalara-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/changelog/avalara-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/avalara-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/data-model/avalara-data-model.yml
   title: ''
   type: DataModel
   url: data-model/avalara-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/security/avalara-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/avalara-trust-center.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-avatax-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-avatax-rest-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-avatax-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-avatax-apis-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-avatax-brazil-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-avatax-brazil-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-communications-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-communications-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-excise-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-excise-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-item-classification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-item-classification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-hs-code-classification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-hs-code-classification-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-vat-reporting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-vat-reporting-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-mylodgetax-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-mylodgetax-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-certcapture-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-certcapture-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-e-invoicing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-e-invoicing-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-activation-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-activation-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-business-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-business-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-portal-oauth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-portal-oauth-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-shared-company-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-shared-company-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/overlays/avalara-1099-w9-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avalara-1099-w9-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-adjust-committed-transaction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-adjust-committed-transaction-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-calculate-and-commit-transaction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-calculate-and-commit-transaction-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-classify-item-and-test-tax-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-classify-item-and-test-tax-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-create-company-with-nexus-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-create-company-with-nexus-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-estimate-then-quote-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-estimate-then-quote-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-initialize-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-initialize-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-onboard-exempt-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-onboard-exempt-customer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-quick-tax-quote-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-quick-tax-quote-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-refund-transaction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-refund-transaction-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-retrieve-company-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-retrieve-company-report-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-submit-transaction-batch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-submit-transaction-batch-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/arazzo/avalara-void-and-recreate-transaction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/avalara-void-and-recreate-transaction-workflow.yml
@@ -1079,14 +1150,17 @@ common:
   type: X
   url: https://twitter.com/avalara
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/json-ld/avalara-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/avalara-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/json-schema/avalara-transaction-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/avalara-transaction-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/json-schema/avalara-company-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/avalara-company-schema.json
@@ -2847,6 +2921,40 @@ scopes:
   scope_count: 24
   slug: avalara-scopes
   summary_line: 24 scopes
+score:
+  band: strong
+  composite: 62.0
+  coverage:
+    artifact_dirs: 34
+    catalog_earned: 52.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 65.8
+    contract_governance: 47.0
+    contract_quality: 71.1
+    developer_ergonomics: 69.0
+    discoverability: 57.4
+    operational_transparency: 42.1
+  previous_composite: 62.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 86.0
+      derived: 0
+      marker_coverage: 2.9
+      total: 68
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:
 - kind: authentication

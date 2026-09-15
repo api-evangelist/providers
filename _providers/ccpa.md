@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.5
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: Global Privacy Control is a browser-level signal that communicates a user's opt-out preference to websites. The California Attorney General has affirmed that GPC must be treated as a valid CCPA "Do No
@@ -35,10 +60,12 @@ asyncapis:
   slug: ccpa-drop-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/security/ccpa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ccpa-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/security/ccpa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ccpa-domain-security.yml
@@ -87,86 +114,107 @@ common:
   type: Applicability
   url: ''
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/authentication/ccpa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ccpa-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/openapi/ccpa-drop-databroker-api.yml
   title: ''
   type: OpenAPI
   url: openapi/ccpa-drop-databroker-api.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/overlays/ccpa-drop-databroker-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ccpa-drop-databroker-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/well-known/ccpa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ccpa-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/well-known/ccpa-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ccpa-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/security/ccpa-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ccpa-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/conventions/ccpa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ccpa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/conformance/ccpa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ccpa-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/errors/ccpa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ccpa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/lifecycle/ccpa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ccpa-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/changelog/ccpa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ccpa-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/sandbox/ccpa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ccpa-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/asyncapi/ccpa-drop-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ccpa-drop-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/data-model/ccpa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ccpa-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/packages/ccpa-packages.yml
   title: ''
   type: Packages
   url: packages/ccpa-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/packages/ccpa-packages.yml
   title: ''
   type: SDKs
   url: packages/ccpa-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/llms/ccpa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ccpa-llms.txt
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/rate-limits/ccpa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ccpa-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/plans/ccpa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ccpa-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/finops/ccpa-finops.yml
   title: ''
   type: FinOps
   url: finops/ccpa-finops.yml
@@ -264,6 +312,40 @@ rate_limits:
 - limit_count: 0
   name: Ccpa Rate Limits
   slug: ccpa-rate-limits
+score:
+  band: strong
+  composite: 59.1
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 46.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 66.4
+    developer_ergonomics: 73.2
+    discoverability: 64.8
+    operational_transparency: 39.5
+  previous_composite: 59.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/screenshots/ccpa-2026-06-20T174058.png
 security:
 - kind: authentication

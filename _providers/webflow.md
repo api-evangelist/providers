@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 50.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -318,26 +344,32 @@ collections:
   slug: open-webflow-workspce-audit-logs-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/agentic-access/webflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/webflow-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/security/webflow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/webflow-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/security/webflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/webflow-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/security/webflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webflow-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/authentication/webflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webflow-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/scopes/webflow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/webflow-scopes.yml
@@ -346,38 +378,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/webflow/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-add-item-to-existing-collection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-add-item-to-existing-collection-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-collect-form-submissions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-collect-form-submissions-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-deploy-site-custom-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-deploy-site-custom-code-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-fulfill-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-fulfill-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-launch-ecommerce-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-launch-ecommerce-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-publish-collection-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-publish-collection-item-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-publish-site-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-publish-site-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-register-form-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-register-form-webhook-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/arazzo/webflow-scaffold-cms-collection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/webflow-scaffold-cms-collection-workflow.yml
@@ -470,30 +511,37 @@ common:
   type: Webhooks
   url: https://developers.webflow.com/data/docs/working-with-webhooks
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/json-schema/webflow-site-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/webflow-site-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/json-schema/webflow-collection-item-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/webflow-collection-item-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/json-schema/webflow-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/webflow-order-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/json-schema/webflow-webhook-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/webflow-webhook-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/json-ld/webflow-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/webflow-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/rules/webflow-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/webflow-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/vocabulary/webflow-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/webflow-vocabulary.yml
@@ -643,6 +691,39 @@ scopes:
   scope_count: 29
   slug: webflow-scopes
   summary_line: 29 scopes · authorizationCode
+score:
+  band: strong
+  composite: 58.1
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 28.8
+    contract_quality: 70.1
+    developer_ergonomics: 65.5
+    discoverability: 63.0
+    operational_transparency: 52.6
+  previous_composite: 58.1
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 19
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:
 - kind: authentication

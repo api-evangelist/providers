@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 8.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'REST API for AI-powered product discovery — autocomplete, search, browse, recommendations, quizzes, catalog management, searchandising, and behavioral tracking. A public API key identifies the index; '
@@ -38,46 +63,57 @@ common:
   type: GettingStarted
   url: https://docs.constructor.com/docs
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/authentication/constructor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/constructor-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/packages/constructor-packages.yml
   title: ''
   type: SDKs
   url: packages/constructor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/packages/constructor-packages.yml
   title: ''
   type: Packages
   url: packages/constructor-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/cli/constructor-cli.yml
   title: ''
   type: CLI
   url: cli/constructor-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/components/constructor-components.yml
   title: ''
   type: Components
   url: components/constructor-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/mcp/constructor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/constructor-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/llms/constructor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/constructor-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/conventions/constructor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/constructor-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/errors/constructor-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/constructor-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/lifecycle/constructor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/constructor-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/changelog/constructor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/constructor-changelog.yml
@@ -86,6 +122,7 @@ common:
   type: ReleaseNotes
   url: https://releases.constructor.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/conformance/constructor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/constructor-conformance.yml
@@ -94,10 +131,12 @@ common:
   type: Compliance
   url: https://constructor.com/security-and-compliance
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/security/constructor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/constructor-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/security/constructor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/constructor-domain-security.yml
@@ -138,6 +177,35 @@ overview: 'Constructor publishes 1 API on the [APIs.io](https://apis.io/) networ
 
   Constructor''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, release notes, and 19 more developer resources.'
 random_paper: 4
+score:
+  band: thin
+  composite: 30.5
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 41.7
+    discoverability: 75.9
+    operational_transparency: 18.4
+  previous_composite: 30.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructor/refs/heads/main/screenshots/constructor-2026-07-25T210311.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -311,18 +336,22 @@ common:
   type: Website
   url: https://www.mixpanel.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/agentic-access/mixpanel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mixpanel-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/security/mixpanel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mixpanel-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/security/mixpanel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mixpanel-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/authentication/mixpanel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mixpanel-authentication.yml
@@ -331,58 +360,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mixpanel/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-cohort-driven-segmentation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-cohort-driven-segmentation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-funnel-analysis-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-funnel-analysis-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-gdpr-deletion-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-gdpr-deletion-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-gdpr-retrieval-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-gdpr-retrieval-flow-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-group-profile-and-insights-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-group-profile-and-insights-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-identity-resolve-and-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-identity-resolve-and-track-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-import-and-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-import-and-export-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-lookup-table-enrichment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-lookup-table-enrichment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-numeric-metric-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-numeric-metric-monitor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-profile-and-engage-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-profile-and-engage-query-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-retention-with-annotation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-retention-with-annotation-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-schema-governance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-schema-governance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-track-and-segment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-track-and-segment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/arazzo/mixpanel-warehouse-import-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mixpanel-warehouse-import-run-workflow.yml
@@ -455,18 +498,22 @@ common:
   type: Support
   url: https://mixpanel.com/get-support
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/json-ld/mixpanel-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/mixpanel-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/json-schema/mixpanel-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/mixpanel-event-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/json-schema/mixpanel-user-profile-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/mixpanel-user-profile-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/json-schema/mixpanel-funnel-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/mixpanel-funnel-schema.json
@@ -696,6 +743,39 @@ rules:
     info: 2
     warn: 3
   slug: mixpanel-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 55.0
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 53.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 53.9
+    contract_governance: 13.6
+    contract_quality: 72.0
+    developer_ergonomics: 65.5
+    discoverability: 74.1
+    operational_transparency: 36.8
+  previous_composite: 55.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/screenshots/mixpanel-2026-06-20T185622.png
 security:
 - kind: authentication

@@ -21,10 +21,12 @@ common:
   type: Website
   url: https://workpop.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workpop/refs/heads/main/packages/workpop-packages.yml
   title: ''
   type: Packages
   url: packages/workpop-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workpop/refs/heads/main/llms/workpop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workpop-llms.txt

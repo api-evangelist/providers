@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -656,22 +681,27 @@ collections:
   slug: open-harri-troncs-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/capabilities/harri-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/harri-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/overlays/harri-employee-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/harri-employee-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/agentic-access/harri-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/harri-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/security/harri-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harri-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/scopes/harri-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/harri-scopes.yml
@@ -696,6 +726,7 @@ common:
   type: GettingStarted
   url: https://developer.harri.com/authentication/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/authentication/harri-authentication.yml
   title: ''
   type: Authentication
   url: authentication/harri-authentication.yml
@@ -732,54 +763,67 @@ common:
   type: ChangeLog
   url: https://developer.harri.com/api-release-notes/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/lifecycle/harri-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/harri-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/changelog/harri-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/harri-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/asyncapi/harri-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/harri-webhooks.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/rate-limits/harri-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/harri-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/errors/harri-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/harri-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/conventions/harri-conventions.yml
   title: ''
   type: Conventions
   url: conventions/harri-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/conformance/harri-conformance.yml
   title: ''
   type: Conformance
   url: conformance/harri-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/data-model/harri-data-model.yml
   title: ''
   type: DataModel
   url: data-model/harri-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/packages/harri-packages.yml
   title: ''
   type: Packages
   url: packages/harri-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/well-known/harri-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/harri-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/mcp/harri-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/harri-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/llms/harri-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/harri-llms.txt
@@ -809,6 +853,41 @@ scopes:
   scope_count: 0
   slug: harri-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 57.0
+    developer_ergonomics: 58.9
+    discoverability: 63.0
+    operational_transparency: 55.3
+  previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 78
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png
 security:
 - kind: authentication

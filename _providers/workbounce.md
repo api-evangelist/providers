@@ -12,14 +12,17 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workbounce/refs/heads/main/security/workbounce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workbounce-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workbounce/refs/heads/main/well-known/workbounce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workbounce-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workbounce/refs/heads/main/llms/workbounce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workbounce-llms.txt

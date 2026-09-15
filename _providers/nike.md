@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Nike provides APIs for product catalog access, inventory, store locations, and e-commerce integration. The platform supports partners and developers building experiences around Nike products.
@@ -17,6 +42,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/security/nike-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nike-domain-security.yml
@@ -64,6 +90,32 @@ rate_limits:
 - limit_count: 1
   name: Nike Rate Limits
   slug: nike-rate-limits
+score:
+  band: emerging
+  composite: 11.1
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 36.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 11.9
+    discoverability: 53.7
+    operational_transparency: 5.3
+  previous_composite: 11.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png
 security:
 - kind: domain-security

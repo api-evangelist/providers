@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/code-of-conduct-md/refs/heads/main/security/code-of-conduct-md-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/code-of-conduct-md-domain-security.yml

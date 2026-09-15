@@ -7,6 +7,7 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/metacrine_stock/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/metacrine/refs/heads/main/well-known/metacrine-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/metacrine-well-known.yml

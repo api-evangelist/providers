@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -45,10 +70,12 @@ asyncapis:
   slug: hotmart-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/mcp/hotmart-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hotmart-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/security/hotmart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hotmart-domain-security.yml
@@ -113,6 +140,7 @@ common:
   type: ChangeLog
   url: https://developers.hotmart.com/docs/en/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/changelog/hotmart-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hotmart-changelog.yml
@@ -121,58 +149,72 @@ common:
   type: FAQ
   url: https://developers.hotmart.com/docs/en/faq
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/authentication/hotmart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hotmart-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/conventions/hotmart-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hotmart-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/errors/hotmart-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hotmart-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/lifecycle/hotmart-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hotmart-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/conformance/hotmart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hotmart-conformance.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/rate-limits/hotmart-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hotmart-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/sandbox/hotmart-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hotmart-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/examples/hotmart-code-samples.yml
   title: ''
   type: Examples
   url: examples/hotmart-code-samples.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/data-model/hotmart-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hotmart-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/components/hotmart-components.yml
   title: ''
   type: Components
   url: components/hotmart-components.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/packages/hotmart-packages.yml
   title: ''
   type: Packages
   url: packages/hotmart-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/asyncapi/hotmart-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hotmart-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/llms/hotmart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hotmart-llms.txt
@@ -181,6 +223,7 @@ common:
   type: Security
   url: https://hotmart.com/en/legal/cybersecurity-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/security/hotmart-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hotmart-vulnerability-disclosure.yml
@@ -209,6 +252,49 @@ rate_limits:
 - limit_count: 1
   name: Hotmart Rate Limits
   slug: hotmart-rate-limits
+score:
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 48.1
+    developer_ergonomics: 61.3
+    discoverability: 81.5
+    operational_transparency: 65.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 52.9
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png
 security:
 - kind: authentication

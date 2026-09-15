@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts, partners, deals, and tenant-defined custom objects) using the THQL query language with skip/take paging, fie
@@ -61,54 +86,67 @@ common:
   type: StatusPage
   url: https://status.impartner.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/authentication/impartner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impartner-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/scopes/impartner-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/impartner-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/conventions/impartner-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impartner-conventions.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/packages/impartner-packages.yml
   title: ''
   type: Packages
   url: packages/impartner-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/packages/impartner-packages.yml
   title: ''
   type: SDKs
   url: packages/impartner-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/cli/impartner-cli.yml
   title: ''
   type: CLI
   url: cli/impartner-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/lifecycle/impartner-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impartner-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/conformance/impartner-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impartner-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/mcp/impartner-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/impartner-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/asyncapi/impartner-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/impartner-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/well-known/impartner-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/impartner-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/security/impartner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/impartner-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/llms/impartner-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impartner-llms.txt
@@ -133,6 +171,40 @@ scopes:
   scope_count: 14
   slug: impartner-scopes
   summary_line: 14 scopes
+score:
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 36.9
+    discoverability: 75.9
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 36.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/screenshots/impartner-2026-08-17T123914.png
 security:
 - kind: authentication

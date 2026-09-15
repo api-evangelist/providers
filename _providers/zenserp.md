@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,14 +95,17 @@ collections:
   slug: open-zenserp-trends-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/agentic-access/zenserp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zenserp-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/security/zenserp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenserp-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/authentication/zenserp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenserp-authentication.yml
@@ -110,62 +138,77 @@ common:
   type: X
   url: https://twitter.com/apilayer
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/plans/zenserp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zenserp-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/rate-limits/zenserp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zenserp-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/finops/zenserp-finops.yml
   title: ''
   type: FinOps
   url: finops/zenserp-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/packages/zenserp-packages.yml
   title: ''
   type: Packages
   url: packages/zenserp-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/packages/zenserp-packages.yml
   title: ''
   type: SDKs
   url: packages/zenserp-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/llms/zenserp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenserp-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/conventions/zenserp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenserp-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/errors/zenserp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zenserp-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/lifecycle/zenserp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenserp-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/conformance/zenserp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zenserp-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/data-model/zenserp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zenserp-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/sandbox/zenserp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zenserp-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/asyncapi/zenserp-batch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zenserp-batch-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/overlays/zenserp-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zenserp-search-overlay.yaml
@@ -267,6 +310,41 @@ rules:
     info: 1
     warn: 4
   slug: zenserp-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 57.4
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 78.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 63.2
+    contract_governance: 14.4
+    contract_quality: 70.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 57.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png
 security:
 - kind: authentication

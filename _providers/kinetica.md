@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.3
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: 'POST-only JSON REST API exposed by every Kinetica deployment on port 9191. Endpoints cover SQL execution (/execute/sql), record ingest and egress (/insert/records/json, /get/records/json), schema and '
@@ -26,10 +51,12 @@ apis:
 artifact_total: 9
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/security/kinetica-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kinetica-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/security/kinetica-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kinetica-domain-security.yml
@@ -86,6 +113,7 @@ common:
   type: ChangeLog
   url: https://docs.kinetica.com/7.2/release/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/changelog/kinetica-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kinetica-changelog.yml
@@ -94,70 +122,87 @@ common:
   type: Security
   url: https://www.kinetica.com/.well-known/security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/well-known/kinetica-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kinetica-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/well-known/kinetica-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kinetica-well-known.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/a2a/kinetica-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/kinetica-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/mcp/kinetica-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kinetica-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/packages/kinetica-packages.yml
   title: ''
   type: Packages
   url: packages/kinetica-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/packages/kinetica-packages.yml
   title: ''
   type: SDKs
   url: packages/kinetica-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/llms/kinetica-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kinetica-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/authentication/kinetica-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kinetica-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/scopes/kinetica-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kinetica-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/conventions/kinetica-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kinetica-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/errors/kinetica-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kinetica-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/lifecycle/kinetica-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kinetica-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/conformance/kinetica-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kinetica-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/cli/kinetica-cli.yml
   title: ''
   type: CLI
   url: cli/kinetica-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/components/kinetica-components.yml
   title: ''
   type: Components
   url: components/kinetica-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/sandbox/kinetica-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kinetica-sandbox.yml
@@ -187,6 +232,36 @@ scopes:
   scope_count: 2
   slug: kinetica-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: thin
+  composite: 37.6
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 31.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 85.7
+    discoverability: 81.5
+    operational_transparency: 28.9
+  previous_composite: 37.6
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/screenshots/kinetica-2026-08-07T171232.png
 security:
 - kind: authentication

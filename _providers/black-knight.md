@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 6.3
+  scored_at: '2026-09-14'
 api_count: 9
 apis:
 - description: MSP (Mortgage Servicing Platform) was Black Knight's flagship product — the mainframe-rooted system of record that services the majority of US first-mortgage loans. MSP DX (Direct Exchange) is the RES
@@ -41,6 +66,7 @@ apis:
 artifact_total: 43
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/security/black-knight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/black-knight-domain-security.yml
@@ -81,26 +107,32 @@ common:
   type: Acquisition
   url: https://www.ice.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/rules/black-knight-rules.yml
   title: ''
   type: SpectralRules
   url: rules/black-knight-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/vocabulary/black-knight-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/black-knight-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/json-ld/black-knight-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/black-knight-context.jsonld
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/plans/black-knight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/black-knight-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/rate-limits/black-knight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/black-knight-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/finops/black-knight-finops.yml
   title: ''
   type: FinOps
   url: finops/black-knight-finops.yml
@@ -218,6 +250,37 @@ rules:
     info: 1
     warn: 4
   slug: black-knight-rules
+score:
+  band: thin
+  composite: 35.2
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 77.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 28.8
+    contract_quality: 34.7
+    developer_ergonomics: 39.3
+    discoverability: 59.3
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 35.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/screenshots/black-knight-2026-06-20T173333.png
 security:
 - kind: domain-security

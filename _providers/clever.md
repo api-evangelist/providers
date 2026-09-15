@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -109,30 +134,37 @@ collections:
   slug: open-clever-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/capabilities/clever-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/clever-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/agentic-access/clever-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clever-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/security/clever-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clever-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/security/clever-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clever-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/security/clever-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clever-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/authentication/clever-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clever-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/scopes/clever-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clever-scopes.yml
@@ -169,54 +201,67 @@ common:
   type: X
   url: https://twitter.com/clever
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/plans/clever-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clever-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/rate-limits/clever-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clever-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/finops/clever-finops.yml
   title: ''
   type: FinOps
   url: finops/clever-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/vocabulary/clever-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/clever-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/json-ld/clever-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/clever-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/json-schema/clever-user.json
   title: ''
   type: JSONSchema
   url: json-schema/clever-user.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/json-schema/clever-student.json
   title: ''
   type: JSONSchema
   url: json-schema/clever-student.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/json-schema/clever-school.json
   title: ''
   type: JSONSchema
   url: json-schema/clever-school.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/json-schema/clever-section.json
   title: ''
   type: JSONSchema
   url: json-schema/clever-section.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/examples/clever-user-example.json
   title: ''
   type: Examples
   url: examples/clever-user-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/examples/clever-student-example.json
   title: ''
   type: Examples
   url: examples/clever-student-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/examples/clever-district-example.json
   title: ''
   type: Examples
   url: examples/clever-district-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/examples/clever-section-example.json
   title: ''
   type: Examples
   url: examples/clever-section-example.json
@@ -299,6 +344,44 @@ scopes:
   scope_count: 5
   slug: clever-scopes
   summary_line: 5 scopes · authorizationCode
+score:
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 71.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 25.0
+    contract_quality: 63.9
+    developer_ergonomics: 19.0
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 49.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 70.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/screenshots/clever-2026-06-20T174509.png
 security:
 - kind: authentication

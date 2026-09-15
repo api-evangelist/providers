@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The Constellation Digital Experience (DX) API — REST endpoints external systems use to create Launchpad/Platform cases and data objects, read them, and advance them by running assignment actions. Auth
@@ -62,6 +87,7 @@ common:
   type: PrivacyPolicy
   url: https://www.pega.com/privacy
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/plans/pega-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pega-plans-pricing.yml
@@ -70,38 +96,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/pegasystems
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/packages/pega-packages.yml
   title: ''
   type: Packages
   url: packages/pega-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/packages/pega-packages.yml
   title: ''
   type: SDKs
   url: packages/pega-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/components/pega-components.yml
   title: ''
   type: Components
   url: components/pega-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/authentication/pega-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pega-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/conventions/pega-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pega-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/errors/pega-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pega-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/conformance/pega-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pega-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/security/pega-trust-center.yml
   title: ''
   type: Compliance
   url: security/pega-trust-center.yml
@@ -110,10 +145,12 @@ common:
   type: TrustCenter
   url: https://trust.pega.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/security/pega-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pega-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/lifecycle/pega-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pega-lifecycle.yml
@@ -122,10 +159,12 @@ common:
   type: Deprecation
   url: https://docs.pega.com/bundle/platform/page/platform/release-notes/deprecated-and-removed-features.html
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/well-known/pega-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pega-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/llms/pega-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pega-llms.txt
@@ -146,6 +185,35 @@ plans:
   plan_count: 4
   slug: pega-plans-pricing
 random_paper: 14
+score:
+  band: developing
+  composite: 42.3
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 10.5
+  previous_composite: 42.3
+  provenance:
+    conformance: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Pega Authentication

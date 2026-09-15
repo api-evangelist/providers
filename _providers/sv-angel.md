@@ -31,7 +31,6 @@ tags:
 - Developer Tools
 - Fintech
 - Artificial Intelligence
-- Consumer
 - Enterprise
 - San Francisco
 - United States

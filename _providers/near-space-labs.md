@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.8
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - baseURL: https://api.nearspacelabs.net
@@ -26,10 +51,12 @@ apis:
 artifact_total: 12
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/overlays/near-space-labs-tile-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/near-space-labs-tile-service-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/overlays/near-space-labs-oauth-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/near-space-labs-oauth-service-overlay.yaml
@@ -78,62 +105,77 @@ common:
   type: Postman
   url: https://docs.nearspacelabs.com/nsl_postman.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/llms/near-space-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/near-space-labs-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/packages/near-space-labs-packages.yml
   title: ''
   type: Packages
   url: packages/near-space-labs-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/packages/near-space-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/near-space-labs-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/authentication/near-space-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/near-space-labs-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/conventions/near-space-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/near-space-labs-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/errors/near-space-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/near-space-labs-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/conformance/near-space-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/near-space-labs-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/data-model/near-space-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/near-space-labs-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/lifecycle/near-space-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/near-space-labs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/lifecycle/near-space-labs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/near-space-labs-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/rate-limits/near-space-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/near-space-labs-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/plans/near-space-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/near-space-labs-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/security/near-space-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/near-space-labs-domain-security.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/examples/near-space-labs-examples.yml
   title: ''
   type: Examples
   url: examples/near-space-labs-examples.yml
@@ -177,6 +219,46 @@ rate_limits:
 - limit_count: 0
   name: Near Space Labs Rate Limits
   slug: near-space-labs-rate-limits
+score:
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 10.5
+    contract_governance: 4.5
+    contract_quality: 40.7
+    developer_ergonomics: 70.8
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 38.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 31.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/screenshots/near-space-labs-2026-09-02T150728.png
 security:
 - kind: authentication

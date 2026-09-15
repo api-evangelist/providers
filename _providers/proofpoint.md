@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 7.9
+  scored_at: '2026-09-14'
 api_count: 7
 apis:
 - description: 'The TAP v2 API exposes the Threat Insight Dashboard to machines: SIEM event download (blocked/permitted clicks, blocked/delivered messages, issues, all), campaign identifiers and detail, forensic evid'
@@ -65,38 +90,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/pfptcommunity
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/packages/proofpoint-packages.yml
   title: ''
   type: Packages
   url: packages/proofpoint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/packages/proofpoint-packages.yml
   title: ''
   type: SDKs
   url: packages/proofpoint-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/cli/proofpoint-cli.yml
   title: ''
   type: CLI
   url: cli/proofpoint-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/authentication/proofpoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/proofpoint-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/rate-limits/proofpoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/proofpoint-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/errors/proofpoint-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/proofpoint-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/conventions/proofpoint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/proofpoint-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/lifecycle/proofpoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/proofpoint-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/conformance/proofpoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proofpoint-conformance.yml
@@ -105,6 +139,7 @@ common:
   type: Compliance
   url: https://www.proofpoint.com/us/legal/trust/product-certifications
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/security/proofpoint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/proofpoint-trust-center.yml
@@ -113,6 +148,7 @@ common:
   type: Trust
   url: https://www.proofpoint.com/us/legal/trust
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/security/proofpoint-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/proofpoint-vulnerability-disclosure.yml
@@ -121,18 +157,22 @@ common:
   type: Security
   url: https://www.proofpoint.com/us/security/vulnerability-disclosure-policy
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/security/proofpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proofpoint-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/plans/proofpoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/proofpoint-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/data-model/proofpoint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/proofpoint-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/llms/proofpoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/proofpoint-llms.txt
@@ -157,6 +197,32 @@ rate_limits:
 - limit_count: 14
   name: Proofpoint Rate Limits
   slug: proofpoint-rate-limits
+score:
+  band: thin
+  composite: 30.6
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 44.0
+    discoverability: 74.1
+    operational_transparency: 39.5
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Proofpoint Authentication

@@ -31,7 +31,6 @@ tags:
 - Artificial Intelligence
 - Fintech
 - Enterprise
-- Consumer
 - Developer Tools
 - Healthcare
 - New York

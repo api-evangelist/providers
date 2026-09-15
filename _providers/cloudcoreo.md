@@ -16,6 +16,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/CloudCoreo
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cloudcoreo/refs/heads/main/cli/cloudcoreo-cli.yml
   title: ''
   type: CLI
   url: cli/cloudcoreo-cli.yml

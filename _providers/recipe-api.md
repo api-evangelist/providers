@@ -11,6 +11,32 @@ access_model:
   - rate-limits
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://recipe-api.com
@@ -60,6 +86,7 @@ collections:
   slug: open-recipe-api-recipes-api
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/security/recipe-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recipe-api-domain-security.yml
@@ -100,18 +127,22 @@ common:
   type: LlmsText
   url: https://recipe-api.com/llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/mcp/recipe-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/recipe-api-mcp.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/plans/recipe-api-plans.yml
   title: ''
   type: Plans
   url: plans/recipe-api-plans.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/rate-limits/recipe-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/recipe-api-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/authentication/recipe-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recipe-api-authentication.yml
@@ -140,6 +171,38 @@ rate_limits:
 - limit_count: 4
   name: Recipe Api Rate Limits
   slug: recipe-api-rate-limits
+score:
+  band: developing
+  composite: 42.9
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 0.0
+    contract_quality: 54.8
+    developer_ergonomics: 21.4
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 42.9
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/screenshots/recipe-api-2026-08-17T081456.png
 security:
 - kind: authentication

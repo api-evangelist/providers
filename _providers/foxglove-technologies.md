@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -129,50 +154,62 @@ asyncapis:
   slug: foxglove-technologies-webhooks
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/overlays/foxglove-technologies-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/foxglove-technologies-api-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/packages/foxglove-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/foxglove-technologies-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/packages/foxglove-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/foxglove-technologies-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/cli/foxglove-technologies-cli.yml
   title: ''
   type: CLI
   url: cli/foxglove-technologies-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/components/foxglove-technologies-components.yml
   title: ''
   type: Components
   url: components/foxglove-technologies-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/mcp/foxglove-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/foxglove-technologies-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/llms/foxglove-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/foxglove-technologies-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/asyncapi/foxglove-technologies-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/foxglove-technologies-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/conventions/foxglove-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/foxglove-technologies-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/lifecycle/foxglove-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/foxglove-technologies-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/conformance/foxglove-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/foxglove-technologies-conformance.yml
@@ -181,22 +218,27 @@ common:
   type: Compliance
   url: https://foxglove.dev/security
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/sandbox/foxglove-technologies-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/foxglove-technologies-sandbox.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/plans/foxglove-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/foxglove-technologies-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/rate-limits/foxglove-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/foxglove-technologies-rate-limits.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/json-schema/_index.yml
   title: ''
   type: JSONSchema
   url: json-schema/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
@@ -205,14 +247,17 @@ common:
   type: Download
   url: https://foxglove.dev/download
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/agentic-access/foxglove-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/foxglove-technologies-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/security/foxglove-technologies-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/foxglove-technologies-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/security/foxglove-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/foxglove-technologies-domain-security.yml
@@ -281,6 +326,7 @@ common:
   type: ChangeLog
   url: https://docs.foxglove.dev/changelog
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/changelog/foxglove-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/foxglove-technologies-changelog.yml
@@ -463,6 +509,41 @@ rate_limits:
 - limit_count: 0
   name: Foxglove Technologies Rate Limits
   slug: foxglove-technologies-rate-limits
+score:
+  band: strong
+  composite: 58.3
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 4.5
+    contract_quality: 58.2
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 58.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/screenshots/foxglove-technologies-2026-08-17T080933.png
 security:
 - kind: authentication

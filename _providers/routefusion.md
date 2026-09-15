@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'Routefusion''s global payments GraphQL API: users, entities, wallets, virtual accounts, beneficiaries, transfers, quotes/rates, incoming transfers, and webhooks for cross-border payouts over SWIFT, loc'
@@ -75,66 +100,82 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/2597780/TzCV3Q8u
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/packages/routefusion-packages.yml
   title: ''
   type: SDKs
   url: packages/routefusion-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/packages/routefusion-packages.yml
   title: ''
   type: Packages
   url: packages/routefusion-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/asyncapi/routefusion-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/routefusion-webhooks.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/authentication/routefusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/routefusion-authentication.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/sandbox/routefusion-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/routefusion-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/conventions/routefusion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/routefusion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/errors/routefusion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/routefusion-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/lifecycle/routefusion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/routefusion-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/lifecycle/routefusion-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/routefusion-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/data-model/routefusion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/routefusion-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/conformance/routefusion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/routefusion-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/mcp/routefusion-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/routefusion-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/llms/routefusion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/routefusion-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/well-known/routefusion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/routefusion-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/security/routefusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/routefusion-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,6 +195,42 @@ overview: 'Routefusion publishes 1 API on the [APIs.io](https://apis.io/) networ
 
   Routefusion''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 26.3
+  previous_composite: 40.2
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/routefusion/refs/heads/main/screenshots/routefusion-2026-08-17T081642.png
 security:
 - kind: authentication

@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.6
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -26,22 +51,27 @@ apis:
 artifact_total: 11
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/security/practice-fusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/practice-fusion-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/authentication/practice-fusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/practice-fusion-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/scopes/practice-fusion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/practice-fusion-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/well-known/practice-fusion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/practice-fusion-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/conformance/practice-fusion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/practice-fusion-conformance.yml
@@ -50,30 +80,37 @@ common:
   type: Compliance
   url: https://www.practicefusion.com/onc-certified-ehr/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/errors/practice-fusion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/practice-fusion-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/lifecycle/practice-fusion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/practice-fusion-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/conventions/practice-fusion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/practice-fusion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/conventions/practice-fusion-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/practice-fusion-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/data-model/practice-fusion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/practice-fusion-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/mcp/practice-fusion-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/practice-fusion-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/llms/practice-fusion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/practice-fusion-llms.txt
@@ -126,30 +163,37 @@ common:
   type: PrivacyPolicy
   url: https://www.practicefusion.com/pages/privacy-policy.html
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/packages/practice-fusion-packages.yml
   title: ''
   type: Packages
   url: packages/practice-fusion-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/plans/practice-fusion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/practice-fusion-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/rate-limits/practice-fusion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/practice-fusion-rate-limits.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/changelog/practice-fusion-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/practice-fusion-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/security/practice-fusion-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/practice-fusion-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/security/practice-fusion-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/practice-fusion-vulnerability-disclosure.yml
@@ -207,6 +251,46 @@ scopes:
   scope_count: 0
   slug: practice-fusion-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 61.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 85.5
+    contract_governance: 18.2
+    contract_quality: 34.4
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    operational_transparency: 44.7
+  previous_composite: 61.4
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 73.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/screenshots/practice-fusion-2026-08-17T081329.png
 security:
 - kind: authentication

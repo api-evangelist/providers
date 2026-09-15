@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API returning Shariah-compliance screening for stocks and ETFs — a compliance status and 0-5 ranking per ticker, a full screening report with revenue breakdown and interest-bearing securities/deb
@@ -24,6 +49,7 @@ asyncapis:
   slug: musaffa-screening-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/security/musaffa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/musaffa-domain-security.yml
@@ -72,46 +98,57 @@ common:
   type: Blog
   url: https://musaffa.com/news/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/authentication/musaffa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/musaffa-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/rate-limits/musaffa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/musaffa-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/plans/musaffa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/musaffa-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/errors/musaffa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/musaffa-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/conventions/musaffa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/musaffa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/conformance/musaffa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/musaffa-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/lifecycle/musaffa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/musaffa-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/asyncapi/musaffa-screening-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/musaffa-screening-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/data-model/musaffa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/musaffa-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/packages/musaffa-packages.yml
   title: ''
   type: Packages
   url: packages/musaffa-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/llms/musaffa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/musaffa-llms.txt
@@ -139,6 +176,46 @@ rate_limits:
 - limit_count: 3
   name: Musaffa Rate Limits
   slug: musaffa-rate-limits
+score:
+  band: developing
+  composite: 47.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 31.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 47.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/screenshots/musaffa-2026-09-02T150701.png
 security:
 - kind: authentication

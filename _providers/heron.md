@@ -10,6 +10,31 @@ access_model:
   - authentication/heron-authentication.yml
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://app.herondata.io/api
@@ -259,6 +284,7 @@ asyncapis:
   slug: heron-webhooks-asyncapi
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/capabilities/heron-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/heron-capability-edges.yml
@@ -307,6 +333,7 @@ common:
   type: StatusPage
   url: https://status.herondata.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/security/heron-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/heron-trust-center.yml
@@ -319,10 +346,12 @@ common:
   type: Security
   url: https://www.herondata.io/disclosure
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/security/heron-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/heron-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/security/heron-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heron-domain-security.yml
@@ -331,54 +360,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/heron-data
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/openapi/heron-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/heron-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/overlays/heron-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/heron-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/llms/heron-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/heron-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/authentication/heron-authentication.yml
   title: ''
   type: Authentication
   url: authentication/heron-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/errors/heron-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/heron-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/errors/heron-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/heron-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/rate-limits/heron-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/heron-rate-limits.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/asyncapi/heron-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/heron-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/asyncapi/heron-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/heron-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/conventions/heron-conventions.yml
   title: ''
   type: Conventions
   url: conventions/heron-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/conformance/heron-conformance.yml
   title: ''
   type: Conformance
   url: conformance/heron-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/lifecycle/heron-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/heron-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/changelog/heron-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/heron-changelog.yml
@@ -387,46 +429,57 @@ common:
   type: ReleaseNotes
   url: https://docs.herondata.io/miscellaneous/release-notes
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/mcp/heron-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/heron-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/mcp/heron-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/heron-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/a2a/heron-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/heron-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/packages/heron-packages.yml
   title: ''
   type: Packages
   url: packages/heron-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/packages/heron-packages.yml
   title: ''
   type: SDKs
   url: packages/heron-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/plans/heron-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/heron-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/sandbox/heron-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/heron-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/data-model/heron-data-model.yml
   title: ''
   type: DataModel
   url: data-model/heron-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/well-known/heron-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/heron-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/skills/heron-herondata-skill.md
   title: ''
   type: AgentSkill
   url: skills/heron-herondata-skill.md
@@ -458,6 +511,52 @@ rate_limits:
 - limit_count: 1
   name: Heron Rate Limits
   slug: heron-rate-limits
+score:
+  band: strong
+  composite: 64.8
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 42.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 59.4
+    developer_ergonomics: 78.6
+    discoverability: 70.4
+    operational_transparency: 73.7
+  previous_composite: 64.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 62.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:
 - kind: authentication

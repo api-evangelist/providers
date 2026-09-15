@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 17.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The management REST API served by the Hammerspace Anvil metadata server at the base path /mgmt/v1.2/rest. It is the programmatic control plane behind the Hammerspace GUI and admin CLI, covering shares
@@ -31,6 +56,7 @@ common:
   type: License
   url: https://github.com/hammer-space/csi-plugin/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/security/hammerspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hammerspace-domain-security.yml
@@ -87,26 +113,32 @@ common:
   type: PrivacyPolicy
   url: https://hammerspace.com/privacy-statement-us/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/authentication/hammerspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hammerspace-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/conventions/hammerspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hammerspace-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/data-model/hammerspace-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hammerspace-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/lifecycle/hammerspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hammerspace-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/changelog/hammerspace-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hammerspace-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/conformance/hammerspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hammerspace-conformance.yml
@@ -115,26 +147,32 @@ common:
   type: Compliance
   url: https://hammerspace.com/hammerspace-announces-fips-140-3-validation-plans-to-integrate-certified-cryptography-into-data-platform/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/packages/hammerspace-packages.yml
   title: ''
   type: Packages
   url: packages/hammerspace-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/packages/hammerspace-packages.yml
   title: ''
   type: SDKs
   url: packages/hammerspace-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/cli/hammerspace-cli.yml
   title: ''
   type: CLI
   url: cli/hammerspace-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/mcp/hammerspace-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hammerspace-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/well-known/hammerspace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hammerspace-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/llms/hammerspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hammerspace-llms.txt
@@ -160,6 +198,38 @@ scopes:
   scope_count: 36
   slug: hammerspace-scopes
   summary_line: 36 scopes · authorizationCode/implicit
+score:
+  band: emerging
+  composite: 18.7
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 26.2
+    discoverability: 68.5
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 18.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/screenshots/hammerspace-2026-08-07T165941.png
 security:
 - kind: authentication

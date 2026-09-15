@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -888,6 +913,7 @@ collections:
   slug: open-eloqua-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/capabilities/eloqua-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eloqua-capability-edges.yml
@@ -912,18 +938,22 @@ common:
   type: SignUp
   url: https://login.eloqua.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/agentic-access/eloqua-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eloqua-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/security/eloqua-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eloqua-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/authentication/eloqua-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eloqua-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/scopes/eloqua-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eloqua-scopes.yml
@@ -960,26 +990,32 @@ common:
   type: DeveloperPortal
   url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-develop/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/packages/eloqua-packages.yml
   title: ''
   type: Packages
   url: packages/eloqua-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/llms/eloqua-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eloqua-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/overlays/eloqua-published-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eloqua-published-swagger-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/conformance/eloqua-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eloqua-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/errors/eloqua-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eloqua-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/lifecycle/eloqua-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eloqua-lifecycle.yml
@@ -988,26 +1024,32 @@ common:
   type: StatusPage
   url: https://community.oracle.com/customerconnect/categories/cx-eloqua-system-status/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/conventions/eloqua-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eloqua-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/changelog/eloqua-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eloqua-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/data-model/eloqua-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eloqua-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/plans/eloqua-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eloqua-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/rate-limits/eloqua-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eloqua-rate-limits.yml
@@ -1070,6 +1112,41 @@ scopes:
   scope_count: 1
   slug: eloqua-scopes
   summary_line: 1 scope · authorizationCode/implicit/password
+score:
+  band: developing
+  composite: 49.1
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 63.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 14.4
+    contract_quality: 53.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 57.9
+  previous_composite: 49.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 13.9
+      derived: 0
+      marker_coverage: 0.0
+      total: 158
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png
 security:
 - kind: authentication

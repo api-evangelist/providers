@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 12
 apis:
 - description: 'Trinity''s own Shibboleth IdP, self-hosted on its own registrable domain: idp.tcd.ie resolves through idpha.tcd.ie to 134.226.14.232, inside Trinity''s 134.226.0.0/16 allocation. The metadata endpoint s'
@@ -114,34 +139,42 @@ common:
   type: AITooling
   url: https://www.tcd.ie/itservices/keeping-it-secure/artificial-intelligence-ai/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/authentication/trinity-college-dublin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trinity-college-dublin-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/conformance/trinity-college-dublin-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/trinity-college-dublin-domain-standards.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/security/trinity-college-dublin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trinity-college-dublin-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/plans/trinity-college-dublin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trinity-college-dublin-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/rate-limits/trinity-college-dublin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trinity-college-dublin-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/finops/trinity-college-dublin-finops.yml
   title: ''
   type: FinOps
   url: finops/trinity-college-dublin-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/json-ld/trinity-college-dublin-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trinity-college-dublin-context.jsonld
@@ -205,6 +238,48 @@ rate_limits:
 - limit_count: 1
   name: Trinity College Dublin Rate Limits
   slug: trinity-college-dublin-rate-limits
+score:
+  band: thin
+  composite: 32.1
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 67.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 14.3
+    developer_ergonomics: 26.2
+    discoverability: 74.1
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - ireland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 32.1
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 46.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png
 security:
 - kind: authentication

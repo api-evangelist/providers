@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -130,14 +155,17 @@ collections:
   slug: open-listmonk
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/agentic-access/listmonk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/listmonk-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/security/listmonk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/listmonk-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/authentication/listmonk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/listmonk-authentication.yml
@@ -158,82 +186,102 @@ common:
   type: Documentation
   url: https://listmonk.app/docs/apis/apis/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/plans/listmonk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/listmonk-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/rate-limits/listmonk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/listmonk-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/finops/listmonk-finops.yml
   title: ''
   type: FinOps
   url: finops/listmonk-finops.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/_original/listmonk-collections-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/listmonk-collections-openapi.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/overlays/listmonk-collections-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/listmonk-collections-overlay.yaml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/packages/listmonk-packages.yml
   title: ''
   type: Packages
   url: packages/listmonk-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/llms/listmonk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/listmonk-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/mcp/listmonk-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/listmonk-tool-crosswalk.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/asyncapi/listmonk-bounce-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/listmonk-bounce-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/asyncapi/listmonk-bounce-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/listmonk-bounce-webhooks-asyncapi.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/conventions/listmonk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/listmonk-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/errors/listmonk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/listmonk-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/data-model/listmonk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/listmonk-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/conformance/listmonk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/listmonk-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/lifecycle/listmonk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/listmonk-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/changelog/listmonk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/listmonk-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/cli/listmonk-cli.yml
   title: ''
   type: CLI
   url: cli/listmonk-cli.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/sandbox/listmonk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/listmonk-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/security/listmonk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/listmonk-vulnerability-disclosure.yml
@@ -297,6 +345,47 @@ rate_limits:
 - limit_count: 4
   name: Listmonk Rate Limits
   slug: listmonk-rate-limits
+score:
+  band: developing
+  composite: 48.0
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 48.3
+    developer_ergonomics: 70.8
+    discoverability: 68.5
+    operational_transparency: 68.4
+  previous_composite: 48.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 31.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/screenshots/listmonk-2026-07-25T225325.png
 security:
 - kind: authentication

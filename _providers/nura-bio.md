@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://nurabio.com/wp-json
@@ -83,54 +108,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/nurabio
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/llms/nura-bio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nura-bio-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/authentication/nura-bio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nura-bio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/conventions/nura-bio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nura-bio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/conformance/nura-bio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nura-bio-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/errors/nura-bio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nura-bio-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/lifecycle/nura-bio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nura-bio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/data-model/nura-bio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nura-bio-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/rate-limits/nura-bio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nura-bio-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/plans/nura-bio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nura-bio-plans-pricing.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/packages/nura-bio-packages.yml
   title: ''
   type: Packages
   url: packages/nura-bio-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/security/nura-bio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nura-bio-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/overlays/nura-bio-content-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nura-bio-content-api-overlay.yaml
@@ -156,6 +194,52 @@ rate_limits:
 - limit_count: 0
   name: Nura Bio Rate Limits
   slug: nura-bio-rate-limits
+score:
+  band: thin
+  composite: 27.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 52.4
+    developer_ergonomics: 13.7
+    discoverability: 75.9
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 27.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 38.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/screenshots/nura-bio-2026-09-02T150816.png
 security:
 - kind: authentication

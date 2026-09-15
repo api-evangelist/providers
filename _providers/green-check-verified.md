@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 45.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://prod-api.greencheckverified.com
@@ -108,14 +134,17 @@ apis:
 artifact_total: 24
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/capabilities/green-check-verified-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/green-check-verified-capability-edges.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/security/green-check-verified-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/green-check-verified-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/authentication/green-check-verified-authentication.yml
   title: ''
   type: Authentication
   url: authentication/green-check-verified-authentication.yml
@@ -168,62 +197,77 @@ common:
   type: PrivacyPolicy
   url: https://greencheckverified.com/privacy-policy/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/well-known/green-check-verified-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/green-check-verified-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/mcp/green-check-verified-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/green-check-verified-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/mcp/green-check-verified-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/green-check-verified-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/llms/green-check-verified-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/green-check-verified-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/overlays/green-check-verified-access-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/green-check-verified-access-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/conformance/green-check-verified-conformance.yml
   title: ''
   type: Conformance
   url: conformance/green-check-verified-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/errors/green-check-verified-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/green-check-verified-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/lifecycle/green-check-verified-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/green-check-verified-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/scopes/green-check-verified-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/green-check-verified-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/sandbox/green-check-verified-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/green-check-verified-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/conventions/green-check-verified-conventions.yml
   title: ''
   type: Conventions
   url: conventions/green-check-verified-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/data-model/green-check-verified-data-model.yml
   title: ''
   type: DataModel
   url: data-model/green-check-verified-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/plans/green-check-verified-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/green-check-verified-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/rate-limits/green-check-verified-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/green-check-verified-rate-limits.yml
@@ -258,6 +302,46 @@ scopes:
   scope_count: 0
   slug: green-check-verified-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 4.5
+    contract_quality: 56.3
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 45.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 53.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/screenshots/green-check-verified-2026-09-02T145630.png
 security:
 - kind: authentication

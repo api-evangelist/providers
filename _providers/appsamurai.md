@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 29.7
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - baseURL: http://api.appsamurai.com
@@ -62,14 +87,17 @@ collections:
   slug: open-appsamurai-storyly-external-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/overlays/appsamurai-storyly-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsamurai-storyly-external-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/overlays/appsamurai-campaign-spend-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsamurai-campaign-spend-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/security/appsamurai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appsamurai-domain-security.yml
@@ -122,38 +150,47 @@ common:
   type: Compliance
   url: https://appsamurai.com/information-security-policy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/authentication/appsamurai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appsamurai-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/llms/appsamurai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appsamurai-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/packages/appsamurai-packages.yml
   title: ''
   type: Packages
   url: packages/appsamurai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/packages/appsamurai-packages.yml
   title: ''
   type: SDKs
   url: packages/appsamurai-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/well-known/appsamurai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appsamurai-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/mcp/appsamurai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/appsamurai-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/errors/appsamurai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appsamurai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/conventions/appsamurai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appsamurai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/conformance/appsamurai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appsamurai-conformance.yml
@@ -166,30 +203,37 @@ common:
   type: StatusPage
   url: https://status.storyly.io/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/lifecycle/appsamurai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appsamurai-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/mcp/appsamurai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/appsamurai-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/data-model/appsamurai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appsamurai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/components/appsamurai-components.yml
   title: ''
   type: Components
   url: components/appsamurai-components.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/changelog/appsamurai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appsamurai-changelog.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/plans/appsamurai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/appsamurai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/rate-limits/appsamurai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appsamurai-rate-limits.yml
@@ -202,10 +246,12 @@ common:
   type: GettingStarted
   url: https://docs.storyly.io/docs/introduction
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/llms/appsamurai-storyly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appsamurai-storyly-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -231,6 +277,40 @@ rate_limits:
 - limit_count: 0
   name: Appsamurai Rate Limits
   slug: appsamurai-rate-limits
+score:
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 53.9
+    developer_ergonomics: 55.4
+    discoverability: 81.5
+    operational_transparency: 34.2
+  previous_composite: 52.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 7
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:
 - kind: authentication

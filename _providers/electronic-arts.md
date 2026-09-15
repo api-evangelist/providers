@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.0
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Public-facing presence of Electronic Arts. Covers EA's corporate site, consumer game services, the EA app, EA Play subscription, and EA Help support surfaces. EA does not publish a developer API porta
@@ -23,10 +48,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/security/electronic-arts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/electronic-arts-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/security/electronic-arts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/electronic-arts-domain-security.yml
@@ -63,38 +90,47 @@ common:
   type: Blog
   url: https://www.ea.com/news
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/well-known/electronic-arts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/electronic-arts-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/authentication/electronic-arts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/electronic-arts-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/scopes/electronic-arts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/electronic-arts-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/conformance/electronic-arts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/electronic-arts-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/conventions/electronic-arts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/electronic-arts-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/lifecycle/electronic-arts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/electronic-arts-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/packages/electronic-arts-packages.yml
   title: ''
   type: Packages
   url: packages/electronic-arts-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/plans/electronic-arts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/electronic-arts-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/llms/electronic-arts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/electronic-arts-llms.txt
@@ -168,6 +204,34 @@ scopes:
   scope_count: 0
   slug: electronic-arts-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 30.2
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 46.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 21.4
+    discoverability: 64.8
+    operational_transparency: 39.5
+  previous_composite: 30.2
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/screenshots/electronic-arts-2026-06-20T180553.png
 security:
 - kind: authentication

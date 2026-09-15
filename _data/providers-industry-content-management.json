@@ -1,6 +1,6 @@
 {
- "total": 195,
- "shown": 195,
+ "total": 196,
+ "shown": 196,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 95.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 48.8,
      "agent_band": "agent-ready",
@@ -120,7 +120,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 48.5,
      "agent_band": "agent-ready",
@@ -163,7 +163,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 53.0,
      "agent_band": "agent-ready",
@@ -206,7 +206,7 @@
       "developer_ergonomics": 86.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -249,7 +249,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -299,7 +299,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -349,7 +349,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -392,7 +392,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -435,7 +435,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -485,7 +485,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 51.6,
      "agent_band": "agent-ready",
@@ -528,7 +528,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 63.7,
      "agent_band": "agent-ready",
@@ -571,7 +571,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -621,7 +621,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -656,8 +656,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 24,
-   "shown": 24,
+   "count": 25,
+   "shown": 25,
    "providers": [
     {
      "name": "Contensis",
@@ -675,7 +675,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -725,14 +725,21 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
       "score": 41.7,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 53.0,
      "agent_band": "agent-ready",
@@ -760,6 +767,48 @@
      "rank": 16
     },
     {
+     "name": "Progress Software",
+     "slug": "progress-software",
+     "description": "Progress Software Corporation (NASDAQ: PRGS) is a Burlington, Massachusetts enterprise software company that builds and acquires infrastructure and digital-experience products. Its portfolio spans application development and data (OpenEdge, MarkLogic, Semaphore, DataDirect, Corticon, Nuclia agentic RAG), digital experience (Sitefinity CMS, Sitefinity Insight), developer tooling and UI components (Telerik, Kendo UI, Fiddler, Test Studio), secure file transfer and collaboration (MOVEit, ShareFile), infrastructure automation and monitoring (Chef, WhatsUp Gold, Flowmon, LoadMaster by Kemp). Most of its API surface is shipped inside self-hosted products — MOVEit Transfer, WhatsUp Gold and Chef Automate each publish a full Swagger 2.0 contract against the customer's own installation — alongside SaaS surfaces such as the ShareFile OData API and Sitefinity's headless OData services.",
+     "score": 63.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 49.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
      "name": "Buffer",
      "slug": "buffer",
      "description": "Buffer is a social media scheduling, publishing and analytics platform with a GraphQL API for scheduling posts, managing content queues and ideas, working with post templates, accessing normalized engagement metrics, and publishing across eleven social channels including Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, YouTube, Mastodon and Google Business Profiles. Access is by personal API key or OAuth 2.0 with PKCE, and Buffer also operates a hosted Model Context Protocol server plus a first-party CLI that ships installable agent skills. The legacy REST API is being retired on February 1, 2027.",
@@ -775,7 +824,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -800,7 +849,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Wix.com",
@@ -818,7 +867,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -850,7 +899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Coda Project",
@@ -868,7 +917,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 53.3,
      "agent_band": "agent-ready",
@@ -893,7 +942,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Yoast",
@@ -911,7 +960,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 39.1,
      "agent_band": "agent-ready",
@@ -936,7 +985,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Flint",
@@ -954,7 +1003,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -979,7 +1028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Newscred",
@@ -997,7 +1046,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
@@ -1022,7 +1071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Dyspatch",
@@ -1040,7 +1089,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1072,7 +1121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Archbee",
@@ -1090,7 +1139,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 60.6,
      "agent_band": "agent-ready",
@@ -1115,7 +1164,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Box",
@@ -1133,7 +1182,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 52.1,
      "agent_band": "agent-ready",
@@ -1158,7 +1207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "CI HUB",
@@ -1176,7 +1225,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
@@ -1201,7 +1250,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Kentico",
@@ -1219,7 +1268,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -1244,7 +1293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "MediaValet",
@@ -1262,7 +1311,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
@@ -1287,7 +1336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Ploy",
@@ -1305,7 +1354,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1330,7 +1379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Webflow",
@@ -1348,7 +1397,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
@@ -1373,7 +1422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Hashnode",
@@ -1391,7 +1440,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -1416,7 +1465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Bynder",
@@ -1434,7 +1483,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -1459,7 +1508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Salsify",
@@ -1477,7 +1526,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 53.4,
      "agent_band": "agent-ready",
@@ -1502,7 +1551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "TheBrief",
@@ -1520,7 +1569,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1545,7 +1594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Brandfolder",
@@ -1563,7 +1612,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -1588,7 +1637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "NationBuilder",
@@ -1606,7 +1655,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -1631,7 +1680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Frontify",
@@ -1649,7 +1698,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 41.7,
      "agent_band": "agent-ready",
@@ -1674,7 +1723,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Bigtincan",
@@ -1692,7 +1741,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -1717,7 +1766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     }
    ],
    "open": true
@@ -1746,7 +1795,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 38.4,
      "agent_band": "agent-ready",
@@ -1771,7 +1820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Leadpages",
@@ -1789,7 +1838,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
@@ -1814,7 +1863,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Pixc",
@@ -1832,7 +1881,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -1857,7 +1906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Uniform",
@@ -1875,7 +1924,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1900,7 +1949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Spekit",
@@ -1918,7 +1967,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 50.0,
      "agent_band": "agent-native",
@@ -1943,7 +1992,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Salesforce Experience Cloud",
@@ -1961,7 +2010,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -1986,7 +2035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Storyblok",
@@ -2004,7 +2053,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -2029,7 +2078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Sanity",
@@ -2047,7 +2096,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -2072,7 +2121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Ceros",
@@ -2090,7 +2139,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -2115,7 +2164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Agora Real Estate",
@@ -2132,14 +2181,21 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 54.7,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 37.1,
      "agent_band": "agent-ready",
@@ -2164,7 +2220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Automattic",
@@ -2182,7 +2238,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 60.2,
      "agent_band": "agent-ready",
@@ -2207,7 +2263,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Getty Images",
@@ -2225,7 +2281,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -2250,7 +2306,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Cloudinary",
@@ -2268,7 +2324,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
@@ -2293,7 +2349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Google Sites",
@@ -2311,7 +2367,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2336,7 +2392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Builder.io",
@@ -2354,7 +2410,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 45.4,
      "agent_band": "agent-native",
@@ -2379,7 +2435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Later",
@@ -2397,7 +2453,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -2422,7 +2478,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Mindtickle",
@@ -2440,7 +2496,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2472,7 +2528,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "ImageKit",
@@ -2490,7 +2546,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -2515,7 +2571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Episerver",
@@ -2533,7 +2589,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -2558,7 +2614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Devoted Health",
@@ -2576,7 +2632,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2608,7 +2664,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "MemberPress",
@@ -2626,7 +2682,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2658,7 +2714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Opal",
@@ -2676,7 +2732,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.8,
      "agent_band": "agent-ready",
@@ -2701,7 +2757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Templafy",
@@ -2719,7 +2775,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -2744,7 +2800,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "ClearSlide",
@@ -2762,7 +2818,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -2787,7 +2843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Socialbakers",
@@ -2805,7 +2861,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -2830,7 +2886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Brandcast",
@@ -2848,7 +2904,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -2873,7 +2929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "WordPress",
@@ -2891,7 +2947,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.9,
      "agent_band": "agent-ready",
@@ -2916,7 +2972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Makeswift",
@@ -2934,7 +2990,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.5,
      "agent_band": "agent-ready",
@@ -2959,7 +3015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Ninetailed",
@@ -2977,7 +3033,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3002,7 +3058,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "anew",
@@ -3019,9 +3075,9 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
-     "agent_score": 47.1,
+     "agent_score": 50.6,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -3037,14 +3093,14 @@
       "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
-      "agent_card": false,
+      "agent_card": "near-conformant",
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Duda",
@@ -3062,7 +3118,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -3087,7 +3143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Canto",
@@ -3105,7 +3161,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3137,7 +3193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Contentful",
@@ -3155,7 +3211,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
@@ -3180,7 +3236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "10Web",
@@ -3198,7 +3254,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 27.8,
      "agent_band": "agent-aware",
@@ -3223,7 +3279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "TYPO3",
@@ -3241,7 +3297,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3266,7 +3322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Transifex",
@@ -3284,7 +3340,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -3309,7 +3365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "DatoCMS",
@@ -3327,7 +3383,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -3352,7 +3408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Rightsline",
@@ -3370,50 +3426,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 76
-    },
-    {
-     "name": "Widen",
-     "slug": "widen",
-     "description": "Acquia Digital Asset Management (formerly Widen Collective) provides a REST API for managing digital assets, metadata, collections, embed codes, and asset distribution workflows. The API supports asset search and discovery, metadata management, analytics, orders, products, webhooks, and workflow automation across both v1 and v2 endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/screenshots/widen-2026-06-20T201453.png",
-     "score": 41.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 50.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 57.9
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3441,6 +3454,49 @@
      "rank": 77
     },
     {
+     "name": "Widen",
+     "slug": "widen",
+     "description": "Acquia Digital Asset Management (formerly Widen Collective) provides a REST API for managing digital assets, metadata, collections, embed codes, and asset distribution workflows. The API supports asset search and discovery, metadata management, analytics, orders, products, webhooks, and workflow automation across both v1 and v2 endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/screenshots/widen-2026-06-20T201453.png",
+     "score": 41.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 50.5,
+      "contract_governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 78
+    },
+    {
      "name": "echo3D",
      "slug": "echo3d",
      "description": "echo3D is a cloud-based 3D digital asset management (DAM) platform that lets enterprises and development teams store, secure, optimize, convert, version, and share 3D models, animations, scans, and interactive AR/VR content across their organization and beyond. It exposes a RESTful HTTP API at api.echo3d.com for uploading, querying, downloading, converting, compressing, organizing, and deleting 3D content entries in collections, plus first-party SDKs and plugins for Unity, Unreal Engine, Swift/iOS, JavaScript/web, React, React Native, Flutter, Python, Blender, NVIDIA Omniverse, Adobe Substance 3D, and Autodesk 3ds Max. The platform adds event webhooks, an MCP server for AI clients, AI agents for deduplication and watermarking, WebAR delivery, and cross-platform 3D content optimization.",
@@ -3456,7 +3512,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 32.0,
      "agent_band": "agent-ready",
@@ -3481,7 +3537,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Strapi",
@@ -3499,7 +3555,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -3524,7 +3580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Kapost",
@@ -3542,7 +3598,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3567,7 +3623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Vev",
@@ -3585,7 +3641,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3610,7 +3666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Extensis",
@@ -3628,7 +3684,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -3653,7 +3709,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Highspot",
@@ -3671,7 +3727,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -3696,7 +3752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Publer",
@@ -3714,7 +3770,7 @@
       "developer_ergonomics": 22.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -3739,7 +3795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "SilverStripe",
@@ -3757,7 +3813,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -3782,7 +3838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Django CMS",
@@ -3800,7 +3856,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -3825,7 +3881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Kive",
@@ -3843,7 +3899,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -3868,7 +3924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Yodeck",
@@ -3886,7 +3942,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -3911,7 +3967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "AmeriHealth Caritas",
@@ -3929,7 +3985,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3961,7 +4017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 90
     }
    ]
   },
@@ -3989,7 +4045,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -4014,7 +4070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Spredfast",
@@ -4032,7 +4088,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -4057,7 +4113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Basekit",
@@ -4075,7 +4131,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -4100,7 +4156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Adonmo Private Limited",
@@ -4117,7 +4173,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -4142,7 +4198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Phraseanet",
@@ -4160,7 +4216,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -4185,7 +4241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Cloudimage",
@@ -4203,7 +4259,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -4228,7 +4284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Sitefinity CMS",
@@ -4246,50 +4302,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 96
-    },
-    {
-     "name": "Zesty",
-     "slug": "zesty",
-     "description": "Zesty.io is a composable, data-driven, headless CMS platform that provides REST APIs for authentication, account management, instance content management, and media file management. All resources are identified by ZUIDs (Zesty Universal Identifiers). The platform supports WebEngine for traditional CMS, headless API architecture, GraphQL, and JamStack implementations. Built on Google Cloud Platform with Fastly edge caching.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png",
-     "score": 36.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 72.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -4317,108 +4330,22 @@
      "rank": 97
     },
     {
-     "name": "Payload",
-     "slug": "payload",
-     "description": "Payload is an open-source TypeScript-first headless CMS and application framework that ships with auto-generated REST, GraphQL, and Local APIs, authentication, access control, file storage, and a Next.js-native admin UI used to build content-driven websites, applications, and digital products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png",
-     "score": 36.8,
+     "name": "Zesty",
+     "slug": "zesty",
+     "description": "Zesty.io is a composable, data-driven, headless CMS platform that provides REST APIs for authentication, account management, instance content management, and media file management. All resources are identified by ZUIDs (Zesty Universal Identifiers). The platform supports WebEngine for traditional CMS, headless API architecture, GraphQL, and JamStack implementations. Built on Google Cloud Platform with Fastly edge caching.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png",
+     "score": 36.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 46.9,
-      "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 18.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 98
-    },
-    {
-     "name": "ScreenCloud",
-     "slug": "screencloud",
-     "description": "ScreenCloud is a cloud digital signage platform that turns any screen into a managed display for content, dashboards, and apps. Its developer surface is the ScreenCloud Studio API - a single public GraphQL endpoint (bearer-token authenticated, region-specific, copied from the DEVELOPER tab in Studio) that lets you automate anything you can do in Studio by hand - pairing and managing screens, building playlists and channels, uploading media and files, casting content, installing and configuring signage apps, and exporting playback logs and QR metrics. ScreenCloud also runs a Developer Platform / App framework for building custom HTML/JavaScript signage apps that can be published (with approval) to the App Store. There is no documented public WebSocket API - the Studio API is request/response GraphQL over HTTPS.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/screencloud/refs/heads/main/screenshots/screencloud-2026-09-02T154608.png",
-     "score": 36.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 99
-    },
-    {
-     "name": "Nuxeo",
-     "slug": "nuxeo",
-     "description": "Nuxeo is an open-source, cloud-native enterprise content management platform owned by Hyland Software. It provides a comprehensive REST API for managing documents, digital assets, workflows, metadata, search, batch uploads, and cloud file storage in large-scale enterprise environments. The API supports OAuth2, token-based, and basic authentication, and exposes automation chains, content enrichers, and web adapters for flexible integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/screenshots/nuxeo-2026-06-20T190538.png",
-     "score": 36.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 54.6,
+      "discoverability": 72.2,
+      "contract_quality": 72.5,
       "contract_governance": 9.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 39.5
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -4443,14 +4370,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 98
     },
     {
-     "name": "OptiSigns",
-     "slug": "optisigns",
-     "description": "OptiSigns is a cloud digital signage platform that turns any TV or display into a digital sign using low-cost media players (Android, Amazon Fire TV, Raspberry Pi, ProDVX, and others). Screens, media assets, playlists, and schedules are managed centrally from the OptiSigns dashboard. Developers manage the same resources programmatically through the OptiSigns GraphQL API, which is served from a single endpoint at https://graphql-gateway.optisigns.com/graphql and authenticated with a Bearer API key. API access is a paid capability available on the Pro Plus plan and higher; the API covers devices (screens), assets (content), playlists, schedules, and team management. Official TypeScript/JavaScript and Python SDKs plus an API cookbook are published on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optisigns/refs/heads/main/screenshots/optisigns-2026-08-07T190813.png",
-     "score": 36.4,
+     "name": "Payload",
+     "slug": "payload",
+     "description": "Payload is an open-source TypeScript-first headless CMS and application framework that ships with auto-generated REST, GraphQL, and Local APIs, authentication, access control, file storage, and a Next.js-native admin UI used to build content-driven websites, applications, and digital products.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png",
+     "score": 36.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 46.9,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 18.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 99
+    },
+    {
+     "name": "ScreenCloud",
+     "slug": "screencloud",
+     "description": "ScreenCloud is a cloud digital signage platform that turns any screen into a managed display for content, dashboards, and apps. Its developer surface is the ScreenCloud Studio API - a single public GraphQL endpoint (bearer-token authenticated, region-specific, copied from the DEVELOPER tab in Studio) that lets you automate anything you can do in Studio by hand - pairing and managing screens, building playlists and channels, uploading media and files, casting content, installing and configuring signage apps, and exporting playback logs and QR metrics. ScreenCloud also runs a Developer Platform / App framework for building custom HTML/JavaScript signage apps that can be published (with approval) to the App Store. There is no documented public WebSocket API - the Studio API is request/response GraphQL over HTTPS.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/screencloud/refs/heads/main/screenshots/screencloud-2026-09-02T154608.png",
+     "score": 36.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -4458,10 +4428,10 @@
       "contract_quality": 37.2,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 28.6,
+      "developer_ergonomics": 31.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4486,7 +4456,93 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 100
+    },
+    {
+     "name": "Nuxeo",
+     "slug": "nuxeo",
+     "description": "Nuxeo is an open-source, cloud-native enterprise content management platform owned by Hyland Software. It provides a comprehensive REST API for managing documents, digital assets, workflows, metadata, search, batch uploads, and cloud file storage in large-scale enterprise environments. The API supports OAuth2, token-based, and basic authentication, and exposes automation chains, content enrichers, and web adapters for flexible integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/screenshots/nuxeo-2026-06-20T190538.png",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 54.6,
+      "contract_governance": 9.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 101
+    },
+    {
+     "name": "OptiSigns",
+     "slug": "optisigns",
+     "description": "OptiSigns is a cloud digital signage platform that turns any TV or display into a digital sign using low-cost media players (Android, Amazon Fire TV, Raspberry Pi, ProDVX, and others). Screens, media assets, playlists, and schedules are managed centrally from the OptiSigns dashboard. Developers manage the same resources programmatically through the OptiSigns GraphQL API, which is served from a single endpoint at https://graphql-gateway.optisigns.com/graphql and authenticated with a Bearer API key. API access is a paid capability available on the Pro Plus plan and higher; the API covers devices (screens), assets (content), playlists, schedules, and team management. Official TypeScript/JavaScript and Python SDKs plus an API cookbook are published on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optisigns/refs/heads/main/screenshots/optisigns-2026-08-07T190813.png",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 37.2,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 15.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 102
     },
     {
      "name": "Panopto",
@@ -4504,7 +4560,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4536,7 +4592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Phrase",
@@ -4554,7 +4610,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -4579,7 +4635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Brickwork",
@@ -4597,7 +4653,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
@@ -4622,7 +4678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Wix",
@@ -4640,7 +4696,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
@@ -4665,7 +4721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Craft CMS",
@@ -4683,7 +4739,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4708,7 +4764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Boston University",
@@ -4726,7 +4782,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4758,7 +4814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Flockjay",
@@ -4776,7 +4832,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4808,7 +4864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Google Blogger",
@@ -4826,7 +4882,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -4851,7 +4907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Podia",
@@ -4868,7 +4924,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4893,7 +4949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Payload CMS",
@@ -4911,7 +4967,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4936,7 +4992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "HealthData.gov",
@@ -4954,7 +5010,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4986,7 +5042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Decap CMS",
@@ -5004,7 +5060,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -5029,7 +5085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "TinaCMS",
@@ -5047,7 +5103,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -5072,7 +5128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Turntide Technologies",
@@ -5090,7 +5146,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5122,7 +5178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Orakl",
@@ -5140,7 +5196,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5172,7 +5228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Plasmic",
@@ -5190,7 +5246,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -5215,7 +5271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Weebly",
@@ -5233,7 +5289,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -5258,7 +5314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Encurate",
@@ -5276,7 +5332,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5308,7 +5364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Edools",
@@ -5326,7 +5382,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5358,7 +5414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "The Picklr",
@@ -5376,7 +5432,7 @@
       "developer_ergonomics": 17.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5408,7 +5464,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "B12",
@@ -5426,7 +5482,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5458,7 +5514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Packdigital",
@@ -5476,7 +5532,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 14.9,
      "agent_band": "agent-aware",
@@ -5501,7 +5557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "KeystoneJS",
@@ -5519,7 +5575,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -5544,7 +5600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Newfold",
@@ -5562,7 +5618,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 14.0,
      "agent_band": "agent-aware",
@@ -5587,7 +5643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Ciloo",
@@ -5605,7 +5661,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -5630,7 +5686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Kontent AI",
@@ -5648,7 +5704,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -5673,7 +5729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "CarbonFarm",
@@ -5691,7 +5747,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -5716,7 +5772,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "GoSite",
@@ -5734,7 +5790,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5766,7 +5822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Carrd",
@@ -5784,7 +5840,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5809,7 +5865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Jimdo",
@@ -5827,7 +5883,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -5852,7 +5908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Allego",
@@ -5870,7 +5926,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -5895,7 +5951,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "dopost",
@@ -5913,7 +5969,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -5938,7 +5994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "WPGraphQL",
@@ -5956,7 +6012,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -5981,7 +6037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Elementor",
@@ -5999,7 +6055,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6024,7 +6080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Pantheon",
@@ -6042,7 +6098,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -6067,7 +6123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 137
     }
    ]
   },
@@ -6076,8 +6132,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 40,
-   "shown": 40,
+   "count": 41,
+   "shown": 41,
    "providers": [
     {
      "name": "Strikingly",
@@ -6095,7 +6151,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6120,7 +6176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "WebsitePros",
@@ -6138,7 +6194,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -6163,7 +6219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Wuilt",
@@ -6181,7 +6237,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
@@ -6206,7 +6262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "BookStack",
@@ -6224,7 +6280,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -6249,7 +6305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Directus",
@@ -6267,7 +6323,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -6292,7 +6348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Webstudio",
@@ -6310,7 +6366,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -6335,7 +6391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Provivi",
@@ -6353,7 +6409,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -6378,7 +6434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Adobe Experience Manager",
@@ -6396,7 +6452,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 20.1,
      "agent_band": "agent-aware",
@@ -6421,7 +6477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Stensul",
@@ -6439,7 +6495,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -6464,7 +6520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Agility CMS",
@@ -6482,7 +6538,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -6507,7 +6563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "MadeThis",
@@ -6525,7 +6581,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -6550,7 +6606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Caisy",
@@ -6568,7 +6624,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -6593,7 +6649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "Hygraph",
@@ -6611,7 +6667,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -6636,7 +6692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "soona",
@@ -6654,7 +6710,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6679,7 +6735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Apache Sling",
@@ -6697,7 +6753,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6722,7 +6778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "BaseHub",
@@ -6740,7 +6796,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -6765,7 +6821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "LaunchRock",
@@ -6783,7 +6839,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6808,7 +6864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Starfish Space",
@@ -6826,7 +6882,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
@@ -6851,7 +6907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Orange Logic",
@@ -6869,7 +6925,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6894,7 +6950,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Flotiq",
@@ -6912,7 +6968,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -6937,7 +6993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "DNN Software",
@@ -6955,7 +7011,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6980,7 +7036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Xelta - Create Images, Videos & More with Generative AI",
@@ -6998,7 +7054,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -7023,7 +7079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Wagtail",
@@ -7041,7 +7097,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7066,7 +7122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "INK Games",
@@ -7083,7 +7139,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7115,7 +7171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "MadCap Software",
@@ -7133,7 +7189,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7158,7 +7214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "ACTO",
@@ -7175,58 +7231,22 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 30.0,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 162
-    },
-    {
-     "name": "Joomla",
-     "slug": "joomla",
-     "description": "Joomla is a free and open-source content management system (CMS) built in PHP that includes a built-in REST API for managing core content types. The Web Services API provides JSON endpoints for articles, categories, contacts, banners, menus, modules, tags, fields, and user accounts. Authentication is handled via Bearer tokens with optional HMAC security, and every endpoint requires authentication unless explicitly marked public. Joomla is maintained entirely by volunteers and released under the GNU General Public License.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/screenshots/joomla-2026-06-20T183801.png",
-     "score": 17.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 10.7,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7253,41 +7273,42 @@
      "rank": 163
     },
     {
-     "name": "Ascend Elements",
-     "slug": "ascend-elements",
-     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
-     "score": 17.2,
+     "name": "Century Communities",
+     "slug": "century-communities",
+     "description": "Century Communities, Inc. (NYSE: CCS) is one of the largest homebuilders in the United States, building and selling single-family homes across roughly twenty states under the Century Communities and Century Complete brands, with in-house mortgage, title and insurance arms. It runs no developer program: there is no developer portal, no API documentation, no OpenAPI, no SDK and no published pricing or rate limits, and the api. and developer. hosts a previous version of this record carried do not resolve. One machine-readable surface is nonetheless live and anonymous — the Optimizely (Episerver) Content Delivery API v3.0 that the company's own marketing site exposes at /api/episerver/v3.0, alongside an OpenID Connect authorization server on the same host. This profile is built entirely from what those endpoints and the company's public pages actually returned when probed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/century-communities/refs/heads/main/screenshots/century-communities-2026-06-20T174130.png",
+     "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 16.6,
-      "contract_governance": 4.5,
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 14.9,
-      "access_clarity": 10.5
+      "developer_ergonomics": 19.0,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
-     "agent_score": 28.2,
+     "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -7295,22 +7316,22 @@
      "rank": 164
     },
     {
-     "name": "Postcron",
-     "slug": "postcron",
-     "description": "Postcron is a social media scheduling and publishing tool that lets marketers, agencies, and small businesses plan, schedule, and automatically publish content across Instagram, Facebook, X (Twitter), LinkedIn, Pinterest, and TikTok from a single dashboard. It supports bulk uploading up to 1,000 posts from Excel or Google Docs, multi-account and team management, automatic image watermarking, a browser extension, and mobile apps for iOS and Android. Originally a Y Combinator / 500 Global-backed startup, Postcron is a consumer- and SMB-facing publishing product; it exposes an internal application API used by its own clients but does not publish a documented public developer API, OpenAPI specification, SDKs, or a developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postcron/refs/heads/main/screenshots/postcron-2026-09-02T151826.png",
-     "score": 16.4,
+     "name": "Joomla",
+     "slug": "joomla",
+     "description": "Joomla is a free and open-source content management system (CMS) built in PHP that includes a built-in REST API for managing core content types. The Web Services API provides JSON endpoints for articles, categories, contacts, banners, menus, modules, tags, fields, and user accounts. Authentication is handled via Bearer tokens with optional HMAC security, and every endpoint requires authentication unless explicitly marked public. Joomla is maintained entirely by volunteers and released under the GNU General Public License.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/screenshots/joomla-2026-06-20T183801.png",
+     "score": 17.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 10.7,
+      "access_clarity": 39.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7338,6 +7359,91 @@
      "rank": 165
     },
     {
+     "name": "Ascend Elements",
+     "slug": "ascend-elements",
+     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
+     "score": 17.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 16.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 14.9,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 28.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 166
+    },
+    {
+     "name": "Postcron",
+     "slug": "postcron",
+     "description": "Postcron is a social media scheduling and publishing tool that lets marketers, agencies, and small businesses plan, schedule, and automatically publish content across Instagram, Facebook, X (Twitter), LinkedIn, Pinterest, and TikTok from a single dashboard. It supports bulk uploading up to 1,000 posts from Excel or Google Docs, multi-account and team management, automatic image watermarking, a browser extension, and mobile apps for iOS and Android. Originally a Y Combinator / 500 Global-backed startup, Postcron is a consumer- and SMB-facing publishing product; it exposes an internal application API used by its own clients but does not publish a documented public developer API, OpenAPI specification, SDKs, or a developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postcron/refs/heads/main/screenshots/postcron-2026-09-02T151826.png",
+     "score": 16.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 167
+    },
+    {
      "name": "Universe",
      "slug": "universe",
      "description": "Universe is a no-code website builder that lets anyone design and publish a custom website from a phone, tablet, or computer, using a drag-and-drop GRID block system with built-in commerce, mail tools, analytics, and SEO. A 2023 Apple Design Award winner with more than one million sites built, Universe is a Y Combinator W18 company backed by GV and General Catalyst. Universe is a consumer creation platform and publishes no public developer API.",
@@ -7353,93 +7459,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 166
-    },
-    {
-     "name": "mxHero",
-     "slug": "mxhero",
-     "description": "mxHERO Inc. is the pioneer of email-to-cloud content management, based in San Francisco and a long-time Box partner. Its Mail2Cloud platform is a bridge that intelligently captures email and attachments (in-flight or at-rest) over SMTP/S and IMAP/S and routes them, bi-directionally, into cloud content platforms such as Box, Egnyte, Microsoft OneDrive, Google Drive, and Dropbox — without retaining the content itself. Mail2Cloud Advanced adds an AI email-knowledge layer: captured email is deduplicated, metadata-preserved, and stored in an isolated per-tenant vector database that an official Model Context Protocol (MCP) server exposes to AI agents for secure email search and knowledge recovery, with a V3 REST API for dataset and S/MIME management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/screenshots/mxhero-2026-08-07T184502.png",
-     "score": 15.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 29.2,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 12.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 167
-    },
-    {
-     "name": "About.me",
-     "slug": "aboutme",
-     "description": "About.me is a personal homepage and online-identity platform that lets anyone create a free, one-page website in minutes to showcase their work, links, bio, and story on a claimable about.me/username profile page. Founded in 2009 and acquired by Vistaprint (Cimpress) in 2013, the service has evolved to add an AI \"Virtual Twin\" that lets visitors chat with an AI version of the page owner to answer questions, capture leads into a CRM, and schedule appointments automatically. About.me offers free, Standard, and Pro tiers with custom-domain connection, portfolio media, Google Analytics, and branding controls. It does not currently expose a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aboutme/refs/heads/main/screenshots/aboutme-2026-07-25T181403.png",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7467,37 +7487,37 @@
      "rank": 168
     },
     {
-     "name": "Owner.com",
-     "slug": "owner-com",
-     "description": "Owner.com is an all-in-one, done-for-you digital platform for independent restaurants - an AI-built website with SEO, commission-free online and direct ordering, a branded mobile app, email/SMS and push marketing, automated campaigns, a loyalty and rewards program, plus delivery and catering management and reporting - sold as a per-location monthly subscription. Owner.com is a closed SaaS product operated as a managed service for small and independent restaurant operators. It does NOT publish a public or partner developer API, SDK, or developer portal, and exposes no documented, self-serve, programmatic endpoints. It advertises \"POS integrations\" (Toast, Clover, Square) and payment integrations (Stripe, Apple Pay, Google Pay), but these are configured by Owner.com's own team as part of onboarding rather than offered as documented API surfaces to third-party developers. As of this writing there is no programmatic API to model - this entry is documented honestly as a no-public-API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/owner-com/refs/heads/main/screenshots/owner-com-2026-08-07T191208.png",
-     "score": 15.3,
+     "name": "mxHero",
+     "slug": "mxhero",
+     "description": "mxHERO Inc. is the pioneer of email-to-cloud content management, based in San Francisco and a long-time Box partner. Its Mail2Cloud platform is a bridge that intelligently captures email and attachments (in-flight or at-rest) over SMTP/S and IMAP/S and routes them, bi-directionally, into cloud content platforms such as Box, Egnyte, Microsoft OneDrive, Google Drive, and Dropbox — without retaining the content itself. Mail2Cloud Advanced adds an AI email-knowledge layer: captured email is deduplicated, metadata-preserved, and stored in an isolated per-tenant vector database that an official Model Context Protocol (MCP) server exposes to AI agents for secure email search and knowledge recovery, with a V3 REST API for dataset and S/MIME management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mxhero/refs/heads/main/screenshots/mxhero-2026-08-07T184502.png",
+     "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 42.1
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 29.2,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 12.1,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -7510,22 +7530,22 @@
      "rank": 169
     },
     {
-     "name": "Comply365",
-     "slug": "comply365",
-     "description": "Comply365 is an enterprise SaaS provider of operational content, safety, and training management software for highly regulated, safety-critical industries including airlines, defense, rail, and MRO (maintenance, repair, and overhaul). Its AI-powered platform unifies three mission-critical products: ContentManager365 for authoring, managing, and distributing controlled operational documentation and manuals; SafetyManager365 for safety reporting, investigation, and root-cause analysis; and TrainingManager365 for workforce readiness and compliance training. Comply365 helps regulated operators shorten document change cycles, maintain regulatory compliance, and connect frontline teams to the current, approved content they need. The company is an Insight Partners portfolio company and is an ISO 27001 and ISO 9001 certified organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comply365/refs/heads/main/screenshots/comply365-2026-07-25T210154.png",
-     "score": 15.1,
+     "name": "About.me",
+     "slug": "aboutme",
+     "description": "About.me is a personal homepage and online-identity platform that lets anyone create a free, one-page website in minutes to showcase their work, links, bio, and story on a claimable about.me/username profile page. Founded in 2009 and acquired by Vistaprint (Cimpress) in 2013, the service has evolved to add an AI \"Virtual Twin\" that lets visitors chat with an AI version of the page owner to answer questions, capture leads into a CRM, and schedule appointments automatically. About.me offers free, Standard, and Pro tiers with custom-domain connection, portfolio media, Google Analytics, and branding controls. It does not currently expose a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aboutme/refs/heads/main/screenshots/aboutme-2026-07-25T181403.png",
+     "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "contract_governance": 18.2,
+      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 28.9
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7553,22 +7573,22 @@
      "rank": 170
     },
     {
-     "name": "XtGem",
-     "slug": "xtgem",
-     "description": "XtGem is a visual mobile website builder operated by UAB XtGem of Vilnius, Lithuania, letting anyone build and host mobile sites on *.xtgem.com subdomains (10 million+ sites hosted) with a drag-and-drop builder, file hosting, community blocks (forums, blogs, guestbooks), and the XtScript templating language. XtGem publishes no public developer API, webhooks, or SDKs; its GitHub organization ships the open-source XtFramework PHP framework.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xtgem/refs/heads/main/screenshots/xtgem-2026-09-02T171158.png",
-     "score": 14.5,
+     "name": "Owner.com",
+     "slug": "owner-com",
+     "description": "Owner.com is an all-in-one, done-for-you digital platform for independent restaurants - an AI-built website with SEO, commission-free online and direct ordering, a branded mobile app, email/SMS and push marketing, automated campaigns, a loyalty and rewards program, plus delivery and catering management and reporting - sold as a per-location monthly subscription. Owner.com is a closed SaaS product operated as a managed service for small and independent restaurant operators. It does NOT publish a public or partner developer API, SDK, or developer portal, and exposes no documented, self-serve, programmatic endpoints. It advertises \"POS integrations\" (Toast, Clover, Square) and payment integrations (Stripe, Apple Pay, Google Pay), but these are configured by Owner.com's own team as part of onboarding rather than offered as documented API surfaces to third-party developers. As of this writing there is no programmatic API to model - this entry is documented honestly as a no-public-API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/owner-com/refs/heads/main/screenshots/owner-com-2026-08-07T191208.png",
+     "score": 15.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 27.6
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 42.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7596,22 +7616,22 @@
      "rank": 171
     },
     {
-     "name": "HELP",
-     "slug": "help",
-     "description": "This profile was surfaced as a portfolio-linked lead of 500 Global and added to the API Evangelist network as a stub for enrichment. The website pointer on this record resolves to Venturz (operated by GoVenturz, LLC), an all-in-one business operating system for founders that bundles 15+ tools — website builder, CRM, email marketing, payments, and analytics — behind a single dashboard alongside an \"AI co-founder\" assistant, a founder community, a startup academy, and Venturz Capital funding. As of this enrichment pass Venturz publishes no public API, developer portal, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so no machine-readable API artifacts could be harvested. See x-identity-note regarding the stub name versus the linked brand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/help/refs/heads/main/screenshots/help-2026-07-25T220942.png",
-     "score": 14.4,
+     "name": "Comply365",
+     "slug": "comply365",
+     "description": "Comply365 is an enterprise SaaS provider of operational content, safety, and training management software for highly regulated, safety-critical industries including airlines, defense, rail, and MRO (maintenance, repair, and overhaul). Its AI-powered platform unifies three mission-critical products: ContentManager365 for authoring, managing, and distributing controlled operational documentation and manuals; SafetyManager365 for safety reporting, investigation, and root-cause analysis; and TrainingManager365 for workforce readiness and compliance training. Comply365 helps regulated operators shorten document change cycles, maintain regulatory compliance, and connect frontline teams to the current, approved content they need. The company is an Insight Partners portfolio company and is an ISO 27001 and ISO 9001 certified organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comply365/refs/heads/main/screenshots/comply365-2026-07-25T210154.png",
+     "score": 15.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "contract_governance": 0.0,
+      "contract_governance": 18.2,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 44.7
+      "developer_ergonomics": 7.1,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7639,22 +7659,22 @@
      "rank": 172
     },
     {
-     "name": "Enplug",
-     "slug": "enplug",
-     "description": "Enplug is a cloud-based digital signage and content-management platform that powers communications on screens across retail, hospitality, corporate, and public-venue locations, with content apps for social feeds, dashboards, video, wayfinding, and menus managed from a central web dashboard. Enplug was acquired by Spectrio, and enplug.com now redirects to Spectrio's Enplug acquisition page; the legacy Enplug cloud login remains live at login.enplug.com. This API Evangelist profile was surfaced as a 500 Global portfolio lead; Enplug exposes no public developer API, SDK, or documentation surface, so this repo carries identity and domain-security signals only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enplug/refs/heads/main/screenshots/enplug-2026-07-25T213414.png",
-     "score": 14.1,
+     "name": "XtGem",
+     "slug": "xtgem",
+     "description": "XtGem is a visual mobile website builder operated by UAB XtGem of Vilnius, Lithuania, letting anyone build and host mobile sites on *.xtgem.com subdomains (10 million+ sites hosted) with a drag-and-drop builder, file hosting, community blocks (forums, blogs, guestbooks), and the XtScript templating language. XtGem publishes no public developer API, webhooks, or SDKs; its GitHub organization ships the open-source XtFramework PHP framework.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xtgem/refs/heads/main/screenshots/xtgem-2026-09-02T171158.png",
+     "score": 14.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7682,11 +7702,11 @@
      "rank": 173
     },
     {
-     "name": "Raydiant",
-     "slug": "raydiant",
-     "description": "Raydiant is a digital signage and in-location experience management platform for brick-and-mortar businesses, now operating under the Displai brand (raydiant.com redirects to displai.ai). The platform lets restaurants, retail stores, hospitality venues, commercial buildings, and schools manage branded content across networks of screens and kiosks from a central cloud dashboard. Core products include Displai Signage (multi-location content management), Displai Engage (employee engagement and gamification), Displai InSight (AI foot traffic and visitor analytics), and self-service ordering kiosks integrated with point-of-sale systems. Customers include Chick-fil-A, Macy's, Toyota, T-Mobile, and Red Bull. It runs a production cloud API at api.raydiant.com / api.displai.ai, but that surface is not publicly documented — there is no public developer portal, OpenAPI specification, SDK, or API reference. Originally added to the API Evangelist network as a Bloomberg Beta portfolio lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/raydiant/refs/heads/main/screenshots/raydiant-2026-09-02T152926.png",
-     "score": 13.3,
+     "name": "HELP",
+     "slug": "help",
+     "description": "This profile was surfaced as a portfolio-linked lead of 500 Global and added to the API Evangelist network as a stub for enrichment. The website pointer on this record resolves to Venturz (operated by GoVenturz, LLC), an all-in-one business operating system for founders that bundles 15+ tools — website builder, CRM, email marketing, payments, and analytics — behind a single dashboard alongside an \"AI co-founder\" assistant, a founder community, a startup academy, and Venturz Capital funding. As of this enrichment pass Venturz publishes no public API, developer portal, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so no machine-readable API artifacts could be harvested. See x-identity-note regarding the stub name versus the linked brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/help/refs/heads/main/screenshots/help-2026-07-25T220942.png",
+     "score": 14.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -7694,10 +7714,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
+      "developer_ergonomics": 2.4,
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7725,6 +7745,92 @@
      "rank": 174
     },
     {
+     "name": "Enplug",
+     "slug": "enplug",
+     "description": "Enplug is a cloud-based digital signage and content-management platform that powers communications on screens across retail, hospitality, corporate, and public-venue locations, with content apps for social feeds, dashboards, video, wayfinding, and menus managed from a central web dashboard. Enplug was acquired by Spectrio, and enplug.com now redirects to Spectrio's Enplug acquisition page; the legacy Enplug cloud login remains live at login.enplug.com. This API Evangelist profile was surfaced as a 500 Global portfolio lead; Enplug exposes no public developer API, SDK, or documentation surface, so this repo carries identity and domain-security signals only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enplug/refs/heads/main/screenshots/enplug-2026-07-25T213414.png",
+     "score": 14.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 175
+    },
+    {
+     "name": "Raydiant",
+     "slug": "raydiant",
+     "description": "Raydiant is a digital signage and in-location experience management platform for brick-and-mortar businesses, now operating under the Displai brand (raydiant.com redirects to displai.ai). The platform lets restaurants, retail stores, hospitality venues, commercial buildings, and schools manage branded content across networks of screens and kiosks from a central cloud dashboard. Core products include Displai Signage (multi-location content management), Displai Engage (employee engagement and gamification), Displai InSight (AI foot traffic and visitor analytics), and self-service ordering kiosks integrated with point-of-sale systems. Customers include Chick-fil-A, Macy's, Toyota, T-Mobile, and Red Bull. It runs a production cloud API at api.raydiant.com / api.displai.ai, but that surface is not publicly documented — there is no public developer portal, OpenAPI specification, SDK, or API reference. Originally added to the API Evangelist network as a Bloomberg Beta portfolio lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/raydiant/refs/heads/main/screenshots/raydiant-2026-09-02T152926.png",
+     "score": 13.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 176
+    },
+    {
      "name": "Keystatic",
      "slug": "keystatic",
      "description": "Keystatic is an open source, Git-based content management system that stores content as Markdown, JSON, and YAML directly in a project's Git repository. The Keystatic Reader API is a Node.js library that lets applications read Keystatic content from any local directory or GitHub repository server-side, supporting frameworks like Next.js, Astro, Remix, and React Server Components.",
@@ -7740,103 +7846,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 175
-    },
-    {
-     "name": "MediaBeacon",
-     "slug": "mediabeacon",
-     "description": "MediaBeacon is a Digital Asset Management (DAM) platform from Esko with a highly flexible architecture and open APIs that enable integration into many products. Its APIs support hands-off data transfer between services, reducing human intervention and enabling workflow automation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mediabeacon/refs/heads/main/screenshots/mediabeacon-2026-06-20T185117.png",
-     "score": 11.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 176
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
-   "providers": [
-    {
-     "name": "Podcastpage",
-     "slug": "podcastpage-api-podcastpage-io",
-     "description": "Podcastpage.io was a podcast website builder that provided programmatic access for managing podcast websites and content. The product is now operating under the Beamly brand (beamly.com) following a rebrand. As of this entry the service does not publish a public OpenAPI specification or open developer documentation, and integration support is provided through customer support and Help Center articles.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/screenshots/podcastpage-api-podcastpage-io-2026-06-20T191831.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7864,6 +7874,102 @@
      "rank": 177
     },
     {
+     "name": "MediaBeacon",
+     "slug": "mediabeacon",
+     "description": "MediaBeacon is a Digital Asset Management (DAM) platform from Esko with a highly flexible architecture and open APIs that enable integration into many products. Its APIs support hands-off data transfer between services, reducing human intervention and enabling workflow automation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mediabeacon/refs/heads/main/screenshots/mediabeacon-2026-06-20T185117.png",
+     "score": 11.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 178
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 17,
+   "shown": 17,
+   "providers": [
+    {
+     "name": "Podcastpage",
+     "slug": "podcastpage-api-podcastpage-io",
+     "description": "Podcastpage.io was a podcast website builder that provided programmatic access for managing podcast websites and content. The product is now operating under the Beamly brand (beamly.com) following a rebrand. As of this entry the service does not publish a public OpenAPI specification or open developer documentation, and integration support is provided through customer support and Help Center articles.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/podcastpage-api-podcastpage-io/refs/heads/main/screenshots/podcastpage-api-podcastpage-io-2026-06-20T191831.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 179
+    },
+    {
      "name": "Kovzy Co.",
      "slug": "kovzy-co",
      "description": "Kovzy is a restaurant technology company with offices in Tbilisi, Georgia and Yerevan, Armenia, selling an all-in-one SaaS platform for restaurants and cafes. The product is built from three modules that share one back office - a website builder that gives a restaurant its own online ordering site with no commission on direct sales, a QR digital menu customers browse and order from by scanning a code at the table, and a point-of-sale system that consolidates orders arriving from delivery aggregators (Wolt, Glovo), the QR menu, and the restaurant's own website into a single queue, with kitchen management and recipe and cost tracking on top. Pricing is per module and quoted monthly in Georgian lari, and onboarding is self-service through a hosted signup that provisions a restaurant subdomain. Kovzy was surfaced as a 500 Global portfolio company. It publishes no public API, developer portal, SDK, or API documentation as of this profile, so this entry describes the company and its partner surface rather than an API.",
@@ -7879,7 +7985,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7904,7 +8010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 180
     },
     {
      "name": "Network Solutions",
@@ -7922,7 +8028,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7954,7 +8060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 181
     },
     {
      "name": "BRICKS",
@@ -7972,7 +8078,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -7997,7 +8103,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 182
     },
     {
      "name": "Newgen Software",
@@ -8015,7 +8121,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8040,7 +8146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 183
     },
     {
      "name": "Alogent",
@@ -8058,7 +8164,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8090,7 +8196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 184
     },
     {
      "name": "Mediaspectrum",
@@ -8108,7 +8214,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8133,7 +8239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 185
     },
     {
      "name": "FilmTrack",
@@ -8150,7 +8256,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8175,7 +8281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 186
     },
     {
      "name": "GuruHotel",
@@ -8193,7 +8299,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8225,7 +8331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 187
     },
     {
      "name": "Filmgrail",
@@ -8243,7 +8349,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8268,7 +8374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 188
     },
     {
      "name": "9Slides",
@@ -8286,7 +8392,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8311,7 +8417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 189
     },
     {
      "name": "Chute",
@@ -8355,7 +8461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 190
     },
     {
      "name": "JCR",
@@ -8373,91 +8479,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 189
-    },
-    {
-     "name": "Metalogix",
-     "slug": "metalogix",
-     "description": "Metalogix was an independent software vendor providing migration, management, and security solutions for Microsoft SharePoint and Office 365, best known for its Content Matrix SharePoint-to-SharePoint migration tool. Quest Software acquired Metalogix in June 2018, and the metalogix.com domain now redirects to Quest, where the products live on as the Metalogix Content Matrix line. The tooling is delivered as a desktop console with PowerShell cmdlets that drive the supported SharePoint APIs; it does not publish an independent public REST API, OpenAPI definition, developer portal, or client SDK. This profile is retained for network/portfolio lineage.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 190
-    },
-    {
-     "name": "Populr.me",
-     "slug": "populrme",
-     "description": "Populr.me was a self-service website builder that let users create and host single-page personal and marketing pages on free and paid subscription tiers. Surfaced as a portfolio company of 500 Global, it was added to the API Evangelist network as a stub. Enrichment found the consumer service permanently shut down on June 1, 2023 (users directed to Wix, Weebly, Squarespace, GoDaddy) and no public API, developer program, documentation, or event surface remains — only a static shutdown page on the domain.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8485,10 +8507,9 @@
      "rank": 191
     },
     {
-     "name": "Strattic",
-     "slug": "strattic",
-     "description": "Strattic was a static and headless WordPress hosting platform that pre-rendered WordPress sites into static assets for improved security, performance, and scalability, while preserving the familiar WordPress admin experience via SFTP and WP-CLI developer access. Strattic was acquired by Elementor in 2022 and folded into Elementor Hosting; Elementor announced the sunset of its dedicated static hosting service in 2025, and strattic.com now 301-redirects to elementor.com/hosting/. No independent Strattic public API, developer portal, or documentation surface remains.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/strattic/refs/heads/main/screenshots/strattic-2026-09-02T160959.png",
+     "name": "Metalogix",
+     "slug": "metalogix",
+     "description": "Metalogix was an independent software vendor providing migration, management, and security solutions for Microsoft SharePoint and Office 365, best known for its Content Matrix SharePoint-to-SharePoint migration tool. Quest Software acquired Metalogix in June 2018, and the metalogix.com domain now redirects to Quest, where the products live on as the Metalogix Content Matrix line. The tooling is delivered as a desktop console with PowerShell cmdlets that drive the supported SharePoint APIs; it does not publish an independent public REST API, OpenAPI definition, developer portal, or client SDK. This profile is retained for network/portfolio lineage.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8500,7 +8521,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8528,10 +8549,9 @@
      "rank": 192
     },
     {
-     "name": "Waffl",
-     "slug": "waffl",
-     "description": "Waffl is an early-stage website builder — a drag-and-drop platform for creating a website and growing a small business from customizable templates. As of this profile the product is pre-launch (\"Coming Soon\" at waffl.io) with no public API, developer portal, documentation, SDKs, or other developer surface. Surfaced as a 500 Global portfolio lead and added to the API Evangelist network as a stub; it carries no API surface to enrich yet.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waffl/refs/heads/main/screenshots/waffl-2026-09-02T170349.png",
+     "name": "Populr.me",
+     "slug": "populrme",
+     "description": "Populr.me was a self-service website builder that let users create and host single-page personal and marketing pages on free and paid subscription tiers. Surfaced as a portfolio company of 500 Global, it was added to the API Evangelist network as a stub. Enrichment found the consumer service permanently shut down on June 1, 2023 (users directed to Wix, Weebly, Squarespace, GoDaddy) and no public API, developer program, documentation, or event surface remains — only a static shutdown page on the domain.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8543,7 +8563,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-13",
+     "scored_at": "2026-09-14",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8569,6 +8589,92 @@
       "agentic_commerce": false
      },
      "rank": 193
+    },
+    {
+     "name": "Strattic",
+     "slug": "strattic",
+     "description": "Strattic was a static and headless WordPress hosting platform that pre-rendered WordPress sites into static assets for improved security, performance, and scalability, while preserving the familiar WordPress admin experience via SFTP and WP-CLI developer access. Strattic was acquired by Elementor in 2022 and folded into Elementor Hosting; Elementor announced the sunset of its dedicated static hosting service in 2025, and strattic.com now 301-redirects to elementor.com/hosting/. No independent Strattic public API, developer portal, or documentation surface remains.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/strattic/refs/heads/main/screenshots/strattic-2026-09-02T160959.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 194
+    },
+    {
+     "name": "Waffl",
+     "slug": "waffl",
+     "description": "Waffl is an early-stage website builder — a drag-and-drop platform for creating a website and growing a small business from customizable templates. As of this profile the product is pre-launch (\"Coming Soon\" at waffl.io) with no public API, developer portal, documentation, SDKs, or other developer surface. Surfaced as a 500 Global portfolio lead and added to the API Evangelist network as a stub; it carries no API surface to enrich yet.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waffl/refs/heads/main/screenshots/waffl-2026-09-02T170349.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-14",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 195
     }
    ]
   },
@@ -8577,20 +8683,14 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "AgentSquared",
      "slug": "agentsquared",
      "description": "AgentSquared was a La Jolla, California real estate marketing technology company, founded in 2013 by Albert Lopez and a team its LinkedIn page describes as \"Internet pioneers who have founded, built and sold leading brand name Internet companies such as Media Temple, Miva, and Attracta.\" Its product was marketing automation for real estate agents and brokers: Instant IDX websites provisioned with a single click, single-property websites generated automatically for new listings, social sharing of those listings, lead capture and CRM, and Google Business Profile and Local Services Ads management. The company was notable as an API CONSUMER rather than an API producer — it was a RESO (Real Estate Standards Organization) member and one of the few vendors building on the National Association of Realtors Web API standard, using deep integrations and channel partnerships with MLS software providers to pull a broker's identity and listing data straight out of the MLS and stand up a fully populated website from it. It worked with RESO to help define and document the client portion of the RESO Web API certification program. AgentSquared never published a developer program of its own: no developer portal, API reference, OpenAPI or other machine-readable contract, SDK, or public package ever appeared on its site. The company reached roughly $961K in reported revenue without raising venture capital. Its web presence is now gone — see x-status below.",
-     "rank": 194
-    },
-    {
-     "name": "Progress Software",
-     "slug": "progress-software",
-     "description": "Progress Software Corporation (NASDAQ: PRGS) is a Burlington, Massachusetts enterprise software company that builds and acquires infrastructure and digital-experience products. Its portfolio spans application development and data (OpenEdge, MarkLogic, Semaphore, DataDirect, Corticon, Nuclia agentic RAG), digital experience (Sitefinity CMS, Sitefinity Insight), developer tooling and UI components (Telerik, Kendo UI, Fiddler, Test Studio), secure file transfer and collaboration (MOVEit, ShareFile), infrastructure automation and monitoring (Chef, WhatsUp Gold, Flowmon, LoadMaster by Kemp). Most of its API surface is shipped inside self-hosted products — MOVEit Transfer, WhatsUp Gold and Chef Automate each publish a full Swagger 2.0 contract against the customer's own installation — alongside SaaS surfaces such as the ShareFile OData API and Sitefinity's headless OData services.",
-     "rank": 195
+     "rank": 196
     }
    ]
   }

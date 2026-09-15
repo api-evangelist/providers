@@ -13,6 +13,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The SimSpace Portal Suite platform API. SimSpace describes the cyber range platform as built API-first, giving partners and customers programmatic access for custom integrations, automation, advanced '
@@ -73,58 +98,72 @@ common:
   type: Compliance
   url: https://trust.simspace.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/security/simspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simspace-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/mcp/simspace-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/simspace-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/well-known/simspace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simspace-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/authentication/simspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simspace-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/scopes/simspace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/simspace-scopes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/packages/simspace-packages.yml
   title: ''
   type: Packages
   url: packages/simspace-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/components/simspace-components.yml
   title: ''
   type: Components
   url: components/simspace-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/conformance/simspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simspace-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/lifecycle/simspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simspace-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/changelog/simspace-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simspace-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/conventions/simspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simspace-conventions.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/plans/simspace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simspace-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/rate-limits/simspace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simspace-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/llms/simspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simspace-llms.txt
@@ -159,6 +198,46 @@ scopes:
   scope_count: 0
   slug: simspace-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 38.1
+    discoverability: 68.5
+    operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 39.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 74.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/screenshots/simspace-2026-09-02T155603.png
 security:
 - kind: authentication

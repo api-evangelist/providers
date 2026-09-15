@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 19.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -166,18 +191,22 @@ collections:
   slug: open-workday-finance-worktags-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/agentic-access/workday-finance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workday-finance-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/security/workday-finance-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workday-finance-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/security/workday-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workday-finance-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/authentication/workday-finance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workday-finance-authentication.yml
@@ -186,42 +215,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/workday-finance/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-audit-open-period-journals-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-audit-open-period-journals-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-onboard-supplier-purchase-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-onboard-supplier-purchase-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-reconcile-supplier-invoices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-reconcile-supplier-invoices-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-record-balanced-journal-entry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-record-balanced-journal-entry-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-record-supplier-invoice-expense-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-record-supplier-invoice-expense-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-requisition-to-purchase-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-requisition-to-purchase-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-supplier-invoice-from-purchase-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-supplier-invoice-from-purchase-order-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-supplier-spend-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-supplier-spend-overview-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-tag-journal-entry-with-worktags-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-tag-journal-entry-with-worktags-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/arazzo/workday-finance-verify-account-balance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/workday-finance-verify-account-balance-workflow.yml
@@ -298,26 +337,32 @@ common:
   type: Reference
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/rules/workday-finance-rules.yml
   title: ''
   type: SpectralRules
   url: rules/workday-finance-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/json-ld/workday-finance-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/workday-finance-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/json-schema/workday-finance-journal-entry-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workday-finance-journal-entry-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/json-schema/workday-finance-supplier-invoice-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workday-finance-supplier-invoice-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/json-schema/workday-finance-purchase-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/workday-finance-purchase-order-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/vocabulary/workday-finance-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/workday-finance-vocabulary.yml
@@ -449,6 +494,38 @@ rules:
     info: 0
     warn: 7
   slug: workday-finance-rules
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 28.8
+    contract_quality: 64.7
+    developer_ergonomics: 34.5
+    discoverability: 59.3
+    operational_transparency: 18.4
+  previous_composite: 45.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/screenshots/workday-finance-2026-06-20T201558.png
 security:
 - kind: authentication

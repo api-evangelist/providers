@@ -9,6 +9,31 @@ access_model:
   - https://developer.express-scripts.com/
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 17.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The partner-facing API estate Express Scripts exposes through its own gateway. The production host api.express-scripts.io and the sandbox host api-sandbox.express-scripts.io both answer HTTP 401 to ev
@@ -17,62 +42,77 @@ apis:
 artifact_total: 8
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/well-known/express-scripts-holding-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/express-scripts-holding-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/authentication/express-scripts-holding-authentication.yml
   title: ''
   type: Authentication
   url: authentication/express-scripts-holding-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/scopes/express-scripts-holding-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/express-scripts-holding-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/conformance/express-scripts-holding-conformance.yml
   title: ''
   type: Conformance
   url: conformance/express-scripts-holding-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-trust-center.yml
   title: ''
   type: Compliance
   url: security/express-scripts-holding-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/express-scripts-holding-vulnerability-disclosure.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/sandbox/express-scripts-holding-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/express-scripts-holding-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/lifecycle/express-scripts-holding-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/express-scripts-holding-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/plans/express-scripts-holding-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/express-scripts-holding-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/rate-limits/express-scripts-holding-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/express-scripts-holding-rate-limits.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/packages/express-scripts-holding-packages.yml
   title: ''
   type: Packages
   url: packages/express-scripts-holding-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/llms/express-scripts-holding-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/express-scripts-holding-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/express-scripts-holding-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/express-scripts-holding-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/security/express-scripts-holding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/express-scripts-holding-domain-security.yml
@@ -168,6 +208,40 @@ scopes:
   scope_count: 0
   slug: express-scripts-holding-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 31.9
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 23.8
+    discoverability: 75.9
+    operational_transparency: 13.2
+  previous_composite: 31.9
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 73.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/screenshots/express-scripts-holding-2026-06-20T180943.png
 security:
 - kind: authentication

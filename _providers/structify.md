@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 7
@@ -288,10 +313,12 @@ collections:
   slug: open-structify-workflow-schedule-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/capabilities/structify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/structify-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/overlays/structify-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/structify-openapi-overlay.yaml
@@ -340,42 +367,52 @@ common:
   type: StatusPage
   url: https://structify.statuspage.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/authentication/structify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/structify-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/packages/structify-packages.yml
   title: ''
   type: Packages
   url: packages/structify-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/packages/structify-packages.yml
   title: ''
   type: SDKs
   url: packages/structify-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/llms/structify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/structify-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/conventions/structify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/structify-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/rate-limits/structify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/structify-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/errors/structify-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/structify-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/lifecycle/structify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/structify-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/changelog/structify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/structify-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/conformance/structify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/structify-conformance.yml
@@ -384,42 +421,52 @@ common:
   type: Compliance
   url: https://www.structify.ai/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/security/structify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/structify-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/security/structify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/structify-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/mcp/structify-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/structify-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/asyncapi/structify-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/structify-events-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/agentic-access/structify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/structify-agentic-access.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/a2a/structify-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/structify-a2a.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/mcp/structify-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/structify-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/well-known/structify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/structify-well-known.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/plans/structify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/structify-plans-pricing.yml
@@ -455,6 +502,41 @@ rate_limits:
 - limit_count: 2
   name: Structify Rate Limits
   slug: structify-rate-limits
+score:
+  band: strong
+  composite: 61.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 18.2
+    contract_quality: 54.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 63.2
+  previous_composite: 61.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 32
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/screenshots/structify-2026-08-17T082142.png
 security:
 - kind: authentication

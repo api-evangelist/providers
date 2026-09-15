@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Control-plane REST API for Onehouse — a SQL Command API to create and manage lakehouse resources (lakes, databases, tables, flows, clusters, jobs, transformations) plus a Status API to poll the return
@@ -66,38 +91,47 @@ common:
   type: ChangeLog
   url: https://docs.onehouse.ai/releases/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/llms/onehouse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onehouse-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/packages/onehouse-packages.yml
   title: ''
   type: Packages
   url: packages/onehouse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/packages/onehouse-packages.yml
   title: ''
   type: SDKs
   url: packages/onehouse-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/cli/onehouse-cli.yml
   title: ''
   type: CLI
   url: cli/onehouse-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/authentication/onehouse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onehouse-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/conventions/onehouse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onehouse-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/lifecycle/onehouse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onehouse-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/security/onehouse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onehouse-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/conformance/onehouse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onehouse-conformance.yml
@@ -106,6 +140,7 @@ common:
   type: Compliance
   url: https://www.onehouse.ai/product/security
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/data-model/onehouse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onehouse-data-model.yml
@@ -122,6 +157,34 @@ overview: 'Onehouse publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Onehouse''s developer surface includes documentation, API reference, engineering blog, signup flow, changelog, CLI, authentication, and 16 more developer resources.'
 random_paper: 9
+score:
+  band: thin
+  composite: 30.8
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 54.8
+    discoverability: 68.5
+    operational_transparency: 18.4
+  previous_composite: 30.8
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/screenshots/onehouse-2026-08-07T190333.png
 security:
 - kind: authentication

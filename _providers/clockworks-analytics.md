@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 4
 apis:
 - description: The Base container of the Clockworks REST API. Serves static asset information — clients, buildings, building types and variables, equipment, equipment classes / types / variables, points, point class
@@ -80,42 +105,52 @@ common:
   type: TrustCenter
   url: https://trust.clockworksanalytics.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/security/clockworks-analytics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/clockworks-analytics-trust-center.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/changelog/clockworks-analytics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clockworks-analytics-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/authentication/clockworks-analytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clockworks-analytics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/conventions/clockworks-analytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clockworks-analytics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/lifecycle/clockworks-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clockworks-analytics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/conformance/clockworks-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clockworks-analytics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/data-model/clockworks-analytics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clockworks-analytics-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/sandbox/clockworks-analytics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clockworks-analytics-sandbox.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/security/clockworks-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clockworks-analytics-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/llms/clockworks-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clockworks-analytics-llms.txt
@@ -132,6 +167,40 @@ overview: 'Clockworks Analytics publishes 4 APIs on the [APIs.io](https://apis.i
 
   Clockworks Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 16 more developer resources.'
 random_paper: 3
+score:
+  band: thin
+  composite: 36.8
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 74.1
+    operational_transparency: 31.6
+  previous_composite: 36.8
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 40.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockworks-analytics/refs/heads/main/screenshots/clockworks-analytics-2026-09-02T145108.png
 security:
 - kind: authentication

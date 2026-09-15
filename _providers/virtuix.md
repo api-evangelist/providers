@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 24.1
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The UCP-conforming Model Context Protocol endpoint Virtuix serves from its own domain. Thirteen tools cover catalog search and lookup, product detail, cart create/update/cancel, checkout create/update
@@ -59,58 +84,72 @@ common:
   type: License
   url: https://virtuix.com/omni-one-sdk-eula
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/mcp/virtuix-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/virtuix-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/well-known/virtuix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/virtuix-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/authentication/virtuix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virtuix-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/scopes/virtuix-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/virtuix-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/conformance/virtuix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virtuix-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/conventions/virtuix-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virtuix-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/lifecycle/virtuix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virtuix-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/changelog/virtuix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virtuix-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/packages/virtuix-packages.yml
   title: ''
   type: Packages
   url: packages/virtuix-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/packages/virtuix-packages.yml
   title: ''
   type: SDKs
   url: packages/virtuix-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/plans/virtuix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/virtuix-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/rate-limits/virtuix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/virtuix-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/llms/virtuix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virtuix-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/virtuix/refs/heads/main/security/virtuix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virtuix-domain-security.yml
@@ -126,7 +165,7 @@ modified: '2026-09-04'
 name: Virtuix
 nav: Providers
 network: true
-overview: 'Virtuix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Virtual Reality, Gaming, Hardware, Agent Commerce, and Model Context Protocol.
+overview: 'Virtuix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Virtual Reality, Gaming, Hardware, Agent Commerce, and MCP.
 
 
   Virtuix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -144,6 +183,35 @@ scopes:
   scope_count: 4
   slug: virtuix-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: thin
+  composite: 27.4
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 33.3
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 27.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Virtuix Authentication
@@ -159,11 +227,11 @@ tags:
 - Gaming
 - Hardware
 - Agent Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - Esports
 - Game Development
-- Location Based Entertainment
+- Location-Based Entertainment
 - Consumer Electronics
 website: https://virtuix.com/
 ---

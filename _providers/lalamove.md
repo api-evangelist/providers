@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 23.6
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Lalamove Delivery API (v3) is a REST API for on-demand and scheduled courier delivery. Partners request a quotation for a route of stops, place an order against that quotation, retrieve order and '
@@ -23,6 +48,7 @@ asyncapis:
   slug: lalamove-delivery-webhooks
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/mcp/lalamove-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lalamove-mcp.yml
@@ -75,58 +101,72 @@ common:
   type: PrivacyPolicy
   url: https://www.lalamove.com/en-hk/privacy-policy
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/packages/lalamove-packages.yml
   title: ''
   type: Packages
   url: packages/lalamove-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/packages/lalamove-packages.yml
   title: ''
   type: SDKs
   url: packages/lalamove-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/authentication/lalamove-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lalamove-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/conventions/lalamove-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lalamove-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/errors/lalamove-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lalamove-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/lifecycle/lalamove-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lalamove-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/changelog/lalamove-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lalamove-changelog.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/sandbox/lalamove-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lalamove-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/conformance/lalamove-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lalamove-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/data-model/lalamove-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lalamove-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/asyncapi/lalamove-delivery-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lalamove-delivery-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/llms/lalamove-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lalamove-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/security/lalamove-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lalamove-domain-security.yml
@@ -146,6 +186,36 @@ overview: 'Lalamove publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
   Lalamove''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 9
+score:
+  band: developing
+  composite: 42.9
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 41.6
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 42.1
+  previous_composite: 42.9
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/screenshots/lalamove-2026-07-25T224438.png
 security:
 - kind: authentication

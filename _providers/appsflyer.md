@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 47.9
+  scored_at: '2026-09-14'
 api_count: 78
 apis:
 - description: The Creative External API uploads creative assets and publishes ads to ad networks programmatically, bypassing the AppsFlyer Creative Dashboard UI. It is asynchronous — a batch is submitted for upload
@@ -496,170 +522,212 @@ collections:
   slug: open-appsflyer-web-server-to-server-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/capabilities/appsflyer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/appsflyer-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-raw-data-pull-api-v2-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-raw-data-pull-api-v2-token-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-raw-data-pull-api-v1-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-raw-data-pull-api-v1-token-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-aggregate-pull-api-v2-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-aggregate-pull-api-v2-token-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-aggregate-pull-api-v1-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-aggregate-pull-api-v1-token-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-master-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-master-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-master-freshness-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-master-freshness-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-cohort-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-cohort-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-server-to-server-events-api-for-mobile-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-server-to-server-events-api-for-mobile-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-legacy-server-to-server-events-api-for-mobile-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-legacy-server-to-server-events-api-for-mobile-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-web-server-to-server-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-web-server-to-server-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-pcconsolectv-events-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-pcconsolectv-events-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-pcconsolectv-client-app-events-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-pcconsolectv-client-app-events-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-engagements-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-engagements-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-deep-linking-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-deep-linking-rest-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-preload-measurement-api-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-preload-measurement-api-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-preload-c2s-measurement-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-preload-c2s-measurement-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-gcd-api-for-sdk-attribution-testing-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-gcd-api-for-sdk-attribution-testing-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-app-management-api-v20-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-app-management-api-v20-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-app-list-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-app-list-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-user-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-user-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-audit-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-audit-public-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-partner-integration-settings-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-partner-integration-settings-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-adrevenue-account-integrations-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-adrevenue-account-integrations-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-incost-api-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-incost-api-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-test-console-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-test-console-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-push-api-configuration-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-push-api-configuration-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-audience-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-audience-external-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-audience-import-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-audience-import-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-audiences-user-attribution-import-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-audiences-user-attribution-import-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-additional-identifiers-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-additional-identifiers-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-onelink-api-v20-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-onelink-api-v20-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-skan-aggregated-performance-report-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-skan-aggregated-performance-report-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-skan-aggregated-postback-by-arrival-date-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-skan-aggregated-postback-by-arrival-date-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-skan-cv-schema-api-for-advertisers-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-skan-cv-schema-api-for-advertisers-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-skan-cv-schema-api-for-ad-networks-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-skan-cv-schema-api-for-ad-networks-2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-skan-conversion-studio-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-skan-conversion-studio-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-opendsr-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-opendsr-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-click-signing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-click-signing-api-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/overlays/appsflyer-roi360-net-revenue-api-v20-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsflyer-roi360-net-revenue-api-v20-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/security/appsflyer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appsflyer-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/authentication/appsflyer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appsflyer-authentication.yml
@@ -736,14 +804,17 @@ common:
   type: Compliance
   url: https://www.appsflyer.com/trust/security/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/packages/appsflyer-packages.yml
   title: ''
   type: Packages
   url: packages/appsflyer-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/packages/appsflyer-packages.yml
   title: ''
   type: SDKs
   url: packages/appsflyer-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/well-known/appsflyer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appsflyer-well-known.yml
@@ -752,70 +823,87 @@ common:
   type: APICatalog
   url: https://dev.appsflyer.com/.well-known/api-catalog
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/mcp/appsflyer-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/appsflyer-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/mcp/appsflyer-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/appsflyer-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/llms/appsflyer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appsflyer-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/conformance/appsflyer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appsflyer-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/errors/appsflyer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appsflyer-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/lifecycle/appsflyer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appsflyer-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/conventions/appsflyer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appsflyer-conventions.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/sandbox/appsflyer-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/appsflyer-sandbox.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/changelog/appsflyer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appsflyer-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/components/appsflyer-components.yml
   title: ''
   type: Components
   url: components/appsflyer-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/data-model/appsflyer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appsflyer-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/asyncapi/appsflyer-push-api-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/appsflyer-push-api-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/security/appsflyer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/appsflyer-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/security/appsflyer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/appsflyer-trust-center.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/plans/appsflyer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/appsflyer-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/rate-limits/appsflyer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appsflyer-rate-limits.yml
@@ -847,6 +935,40 @@ rate_limits:
 - limit_count: 11
   name: Appsflyer Rate Limits
   slug: appsflyer-rate-limits
+score:
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 60.1
+    developer_ergonomics: 58.9
+    discoverability: 87.0
+    operational_transparency: 73.7
+  previous_composite: 65.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 70
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png
 security:
 - kind: authentication

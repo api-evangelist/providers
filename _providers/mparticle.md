@@ -10,6 +10,32 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 48.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -87,26 +113,32 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/rokt/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/overlays/mparticle-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mparticle-events-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/overlays/mparticle-identity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mparticle-identity-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/overlays/mparticle-dataplanning-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mparticle-dataplanning-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/agentic-access/mparticle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mparticle-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/security/mparticle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mparticle-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/security/mparticle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mparticle-vulnerability-disclosure.yml
@@ -119,90 +151,112 @@ common:
   type: Compliance
   url: https://trust.mparticle.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/security/mparticle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mparticle-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/authentication/mparticle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mparticle-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/conformance/mparticle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mparticle-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/conventions/mparticle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mparticle-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/errors/mparticle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mparticle-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/lifecycle/mparticle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mparticle-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/changelog/mparticle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mparticle-changelog.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/rate-limits/mparticle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mparticle-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/plans/mparticle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mparticle-plans-pricing.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/sandbox/mparticle-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mparticle-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/data-model/mparticle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mparticle-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/packages/mparticle-packages.yml
   title: ''
   type: Packages
   url: packages/mparticle-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/packages/mparticle-packages.yml
   title: ''
   type: SDKs
   url: packages/mparticle-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/cli/mparticle-cli.yml
   title: ''
   type: CLI
   url: cli/mparticle-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/components/mparticle-components.yml
   title: ''
   type: Components
   url: components/mparticle-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/asyncapi/mparticle-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mparticle-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/mcp/mparticle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mparticle-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/well-known/mparticle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mparticle-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/well-known/mparticle-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mparticle-security.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/json-schema/mparticle-eventsapi-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/mparticle-eventsapi-schema.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/llms/mparticle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mparticle-llms.txt
@@ -296,6 +350,41 @@ rate_limits:
 - limit_count: 14
   name: Mparticle Rate Limits
   slug: mparticle-rate-limits
+score:
+  band: strong
+  composite: 54.6
+  coverage:
+    artifact_dirs: 26
+    catalog_earned: 58.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 62.2
+    developer_ergonomics: 42.3
+    discoverability: 81.5
+    operational_transparency: 68.4
+  previous_composite: 54.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/screenshots/mparticle-2026-06-20T185839.png
 security:
 - kind: authentication

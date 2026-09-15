@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,66 +114,82 @@ common:
   type: Compliance
   url: https://scribo.causaprima.ai/compliance
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/_original/causa-prima-scribo-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/causa-prima-scribo-openapi.json
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/llms/causa-prima-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/causa-prima-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/mcp/causa-prima-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/causa-prima-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/packages/causa-prima-packages.yml
   title: ''
   type: Packages
   url: packages/causa-prima-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/cli/causa-prima-cli.yml
   title: ''
   type: CLI
   url: cli/causa-prima-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/errors/causa-prima-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/causa-prima-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/conventions/causa-prima-conventions.yml
   title: ''
   type: Conventions
   url: conventions/causa-prima-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/conventions/causa-prima-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/causa-prima-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/data-model/causa-prima-data-model.yml
   title: ''
   type: DataModel
   url: data-model/causa-prima-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/conformance/causa-prima-conformance.yml
   title: ''
   type: Conformance
   url: conformance/causa-prima-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/lifecycle/causa-prima-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/causa-prima-lifecycle.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/overlays/causa-prima-scribo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/causa-prima-scribo-overlay.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/security/causa-prima-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/causa-prima-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/agentic-access/causa-prima-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/causa-prima-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/authentication/causa-prima-authentication.yml
   title: ''
   type: Authentication
   url: authentication/causa-prima-authentication.yml
@@ -169,6 +210,55 @@ overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
   Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 21 more developer resources.'
 random_paper: 15
+score:
+  band: developing
+  composite: 42.6
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 49.4
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
+  previous_composite: 42.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/screenshots/causa-prima-2026-07-25T204814.png
 security:
 - kind: authentication

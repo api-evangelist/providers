@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,74 +170,92 @@ collections:
   slug: open-aeso-unitcommitmentdata-api-v2
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-poolprice-api-v1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-poolprice-api-v1-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-systemmarginalprice-api-v1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-systemmarginalprice-api-v1-1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-currentsupplydemand-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-currentsupplydemand-api-v2-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-currentsupplydemand-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-currentsupplydemand-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-actualforecast-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-actualforecast-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-aiesgencapacity-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-aiesgencapacity-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-loadoutageforecast-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-loadoutageforecast-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-itc-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-itc-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-energymeritorder-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-energymeritorder-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-meteredvolume-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-meteredvolume-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-operatingreserveoffercontrol-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-operatingreserveoffercontrol-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-assetlist-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-assetlist-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-poolparticipant-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-poolparticipant-api-v1-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/overlays/aeso-unitcommitmentdata-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aeso-unitcommitmentdata-api-v2-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/mcp/aeso-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aeso-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/agentic-access/aeso-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aeso-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/security/aeso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aeso-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/authentication/aeso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aeso-authentication.yml
@@ -277,66 +320,82 @@ common:
   type: PrivacyPolicy
   url: https://www.aeso.ca/privacy/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/plans/aeso-plans.yml
   title: ''
   type: Plans
   url: plans/aeso-plans.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/changelog/aeso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aeso-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/lifecycle/aeso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aeso-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/conventions/aeso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aeso-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/errors/aeso-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aeso-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/conformance/aeso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aeso-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/data-model/aeso-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aeso-data-model.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/examples/aeso-examples.yml
   title: ''
   type: Examples
   url: examples/aeso-examples.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/packages/aeso-packages.yml
   title: ''
   type: Packages
   url: packages/aeso-packages.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/sandbox/aeso-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aeso-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/mcp/aeso-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aeso-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/llms/aeso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aeso-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/arazzo/aeso-market-snapshot.yaml
   title: ''
   type: Arazzo
   url: arazzo/aeso-market-snapshot.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/arazzo/aeso-asset-drilldown.yaml
   title: ''
   type: Arazzo
   url: arazzo/aeso-asset-drilldown.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/arazzo/aeso-price-formation.yaml
   title: ''
   type: Arazzo
   url: arazzo/aeso-price-formation.yaml
@@ -359,6 +418,55 @@ plans:
   plan_count: 1
   slug: aeso-plans
 random_paper: 4
+score:
+  band: developing
+  composite: 42.9
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 55.3
+    contract_governance: 4.5
+    contract_quality: 16.4
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 42.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 13
+      marker_coverage: 100.0
+      total: 13
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 44.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png
 security:
 - kind: authentication

@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,54 +116,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/addisenergy/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/authentication/addis-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/addis-energy-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/conventions/addis-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/addis-energy-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/errors/addis-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/addis-energy-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/data-model/addis-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/addis-energy-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/conformance/addis-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/addis-energy-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/lifecycle/addis-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/addis-energy-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/rate-limits/addis-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/addis-energy-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/plans/addis-energy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/addis-energy-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/llms/addis-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/addis-energy-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/examples/addis-energy-examples.yml
   title: ''
   type: Examples
   url: examples/addis-energy-examples.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/security/addis-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/addis-energy-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/agentic-access/addis-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/addis-energy-agentic-access.yml
@@ -163,6 +201,48 @@ rate_limits:
 - limit_count: 0
   name: Addis Energy Rate Limits
   slug: addis-energy-rate-limits
+score:
+  band: emerging
+  composite: 24.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 16.0
+    developer_ergonomics: 16.1
+    discoverability: 74.1
+    operational_transparency: 0.0
+  previous_composite: 24.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 44.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Addis Energy Authentication

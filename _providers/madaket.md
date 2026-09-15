@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://provider.madakethealth.com/provider-services
@@ -302,14 +327,17 @@ apis:
 artifact_total: 61
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/capabilities/madaket-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/madaket-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/overlays/madaket-provider-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/madaket-provider-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -354,38 +382,47 @@ common:
   type: PrivacyPolicy
   url: https://www.madakethealth.com/privacy-policy
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/vocabulary/madaket-providerjson.md
   title: ''
   type: Vocabulary
   url: vocabulary/madaket-providerjson.md
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/packages/madaket-packages.yml
   title: ''
   type: Packages
   url: packages/madaket-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/packages/madaket-packages.yml
   title: ''
   type: SDKs
   url: packages/madaket-packages.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/plans/madaket-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/madaket-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/rate-limits/madaket-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/madaket-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/lifecycle/madaket-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/madaket-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/conformance/madaket-conformance.yml
   title: ''
   type: Conformance
   url: conformance/madaket-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/security/madaket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/madaket-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/llms/madaket-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madaket-llms.txt
@@ -410,6 +447,46 @@ rate_limits:
 - limit_count: 0
   name: Madaket Rate Limits
   slug: madaket-rate-limits
+score:
+  band: developing
+  composite: 42.7
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 46.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 15.2
+    contract_quality: 50.2
+    developer_ergonomics: 37.5
+    discoverability: 53.7
+    operational_transparency: 2.6
+  previous_composite: 42.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 57
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/screenshots/madaket-2026-09-02T150433.png
 security:
 - kind: authentication

@@ -13,6 +13,31 @@ access_model:
   - '{''url'': ''https://www.spocket.dev'', ''status'': 308, ''note'': ''declared website redirects to https://www.spockethosting.com/ — a different registrable domain (spocket.dev -> spockethosting.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.4
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: Hosted MCP server (Streamable HTTP) with ~20 tools for deploying and managing always-on apps. Uses OAuth 2.1 with PKCE and dynamic client registration; usable by any account holder from Claude Code, C
@@ -24,6 +49,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/security/spocket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spocket-domain-security.yml
@@ -76,50 +102,62 @@ common:
   type: StatusPage
   url: https://www.spocket.dev/status
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/lifecycle/spocket-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spocket-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/authentication/spocket-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spocket-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/scopes/spocket-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spocket-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/conventions/spocket-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spocket-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/conventions/spocket-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spocket-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/errors/spocket-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spocket-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/conformance/spocket-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spocket-conformance.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/well-known/spocket-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spocket-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/llms/spocket-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spocket-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/data-model/spocket-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spocket-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/plans/spocket-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spocket-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -149,6 +187,36 @@ scopes:
   scope_count: 5
   slug: spocket-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
+score:
+  band: thin
+  composite: 37.2
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 37.2
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/screenshots/spocket-2026-09-02T160531.png
 security:
 - kind: authentication

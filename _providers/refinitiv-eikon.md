@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -322,38 +347,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/refinitiv-eikon/overview
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/agentic-access/refinitiv-eikon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/refinitiv-eikon-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/security/refinitiv-eikon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/refinitiv-eikon-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/authentication/refinitiv-eikon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/refinitiv-eikon-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/arazzo/refinitiv-eikon-datascope-extraction-download-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/refinitiv-eikon-datascope-extraction-download-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/arazzo/refinitiv-eikon-instrument-esg-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/refinitiv-eikon-instrument-esg-profile-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/arazzo/refinitiv-eikon-news-headline-to-story-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/refinitiv-eikon-news-headline-to-story-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/arazzo/refinitiv-eikon-search-to-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/refinitiv-eikon-search-to-snapshot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/arazzo/refinitiv-eikon-symbol-to-timeseries-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/refinitiv-eikon-symbol-to-timeseries-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/arazzo/refinitiv-eikon-tickhistory-extraction-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/refinitiv-eikon-tickhistory-extraction-poll-workflow.yml
@@ -434,42 +468,52 @@ common:
   type: Website
   url: https://www.lseg.com
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/_original/refinitiv-eikon-data-platform-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/refinitiv-eikon-data-platform-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/_original/refinitiv-eikon-datascope-select-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/refinitiv-eikon-datascope-select-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/openapi/_original/refinitiv-eikon-tick-history-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/refinitiv-eikon-tick-history-openapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/asyncapi/refinitiv-eikon-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/refinitiv-eikon-asyncapi.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/json-schema/refinitiv-eikon-instrument-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/refinitiv-eikon-instrument-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/json-schema/refinitiv-eikon-esg-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/refinitiv-eikon-esg-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/json-structure/refinitiv-eikon-data-platform-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/refinitiv-eikon-data-platform-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/json-ld/refinitiv-eikon-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/refinitiv-eikon-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/rules/refinitiv-eikon-rules.yml
   title: ''
   type: SpectralRules
   url: rules/refinitiv-eikon-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/vocabulary/refinitiv-eikon-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/refinitiv-eikon-vocabulary.yml
@@ -635,6 +679,44 @@ rules:
     info: 1
     warn: 6
   slug: refinitiv-eikon-rules
+score:
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 64.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 30.3
+    contract_governance: 28.8
+    contract_quality: 71.4
+    developer_ergonomics: 58.3
+    discoverability: 68.5
+    operational_transparency: 39.5
+  previous_composite: 51.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 45.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:
 - kind: authentication

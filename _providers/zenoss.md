@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://www.zenoss.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.virtana.com/service-observability/ — a different registrable domain (zenoss.com -> virtana.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 26.1
+  scored_at: '2026-09-14'
 api_count: 3
 apis:
 - description: Versioned /v1 REST API for the Zenoss (Virtana Service Observability) platform. Covers the data receiver (metrics, events, entity models), event query and event management, model context (entity searc
@@ -92,10 +117,12 @@ common:
   type: ChangeLog
   url: https://docs.zenoss.io/admin/updates/cloud-updates.html
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/changelog/zenoss-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zenoss-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/lifecycle/zenoss-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenoss-lifecycle.yml
@@ -108,62 +135,77 @@ common:
   type: TrustCenter
   url: https://www.virtana.com/trust/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/security/zenoss-trust-center.yml
   title: ''
   type: Compliance
   url: security/zenoss-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/conformance/zenoss-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zenoss-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/packages/zenoss-packages.yml
   title: ''
   type: Packages
   url: packages/zenoss-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/packages/zenoss-packages.yml
   title: ''
   type: SDKs
   url: packages/zenoss-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/authentication/zenoss-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenoss-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/conventions/zenoss-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenoss-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/errors/zenoss-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zenoss-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/data-model/zenoss-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zenoss-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/asyncapi/zenoss-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zenoss-webhooks.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/plans/zenoss-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zenoss-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/rate-limits/zenoss-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zenoss-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/finops/zenoss-finops.yml
   title: ''
   type: FinOps
   url: finops/zenoss-finops.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/security/zenoss-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenoss-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/llms/zenoss-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenoss-llms.txt
@@ -195,6 +237,36 @@ rate_limits:
 - limit_count: 0
   name: Zenoss Rate Limits
   slug: zenoss-rate-limits
+score:
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 33.3
+    contract_quality: 41.6
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    operational_transparency: 50.0
+  previous_composite: 50.6
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/screenshots/zenoss-2026-06-20T201817.png
 security:
 - kind: authentication

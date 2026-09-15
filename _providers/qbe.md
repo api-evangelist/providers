@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 27.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -50,22 +75,27 @@ collections:
   slug: open-qbe-ctp-switch-service
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/overlays/qbe-anzo-digital-brokers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qbe-anzo-digital-brokers-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/overlays/qbe-ctp-switch-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qbe-ctp-switch-service-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/agentic-access/qbe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qbe-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/security/qbe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qbe-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/authentication/qbe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qbe-authentication.yml
@@ -118,66 +148,82 @@ common:
   type: Security
   url: https://www.qbe.com/responsible-disclosure-program
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/security/qbe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qbe-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/conventions/qbe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qbe-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/errors/qbe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qbe-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/lifecycle/qbe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qbe-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/conformance/qbe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qbe-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/vocabulary/qbe-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/qbe-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/data-model/qbe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qbe-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/sandbox/qbe-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/qbe-sandbox.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/packages/qbe-packages.yml
   title: ''
   type: Packages
   url: packages/qbe-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/mcp/qbe-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qbe-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/mcp/qbe-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/qbe-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/llms/qbe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qbe-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/arazzo/qbe-quote-to-bind.yml
   title: ''
   type: Arazzo
   url: arazzo/qbe-quote-to-bind.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/arazzo/qbe-endorse-and-bind.yml
   title: ''
   type: Arazzo
   url: arazzo/qbe-endorse-and-bind.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/arazzo/qbe-cancel-policy.yml
   title: ''
   type: Arazzo
   url: arazzo/qbe-cancel-policy.yml
@@ -195,6 +241,54 @@ overview: 'QBE Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
   QBE Insurance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 27 more developer resources.'
 random_paper: 18
+score:
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 38.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 27.6
+    contract_governance: 8.3
+    contract_quality: 15.7
+    developer_ergonomics: 63.7
+    discoverability: 68.5
+    operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 34.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 47.0
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/screenshots/qbe-2026-09-02T152422.png
 security:
 - kind: authentication

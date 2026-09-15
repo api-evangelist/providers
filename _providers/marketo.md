@@ -10,6 +10,31 @@ access_model:
   - '{''url'': ''https://developers.marketo.com/'', ''status'': 301, ''note'': ''declared website redirects to https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home — a different registrable domain (marketo.com -> adobe.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -454,34 +479,42 @@ common:
   type: Website
   url: https://www.adobe.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/capabilities/marketo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/marketo-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/overlays/marketo-asset-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/marketo-asset-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/overlays/marketo-lead-database-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/marketo-lead-database-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/overlays/marketo-user-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/marketo-user-management-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/overlays/marketo-identity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/marketo-identity-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/overlays/marketo-data-ingestion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/marketo-data-ingestion-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/agentic-access/marketo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/marketo-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/security/marketo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marketo-domain-security.yml
@@ -526,42 +559,52 @@ common:
   type: Libraries
   url: https://github.com/Marketo/Community-Supported-Client-Libraries
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/packages/marketo-packages.yml
   title: ''
   type: Packages
   url: packages/marketo-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/packages/marketo-packages.yml
   title: ''
   type: SDKs
   url: packages/marketo-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/authentication/marketo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marketo-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/scopes/marketo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/marketo-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/errors/marketo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/marketo-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/conventions/marketo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/marketo-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/rate-limits/marketo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marketo-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/plans/marketo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marketo-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/finops/marketo-finops.yml
   title: ''
   type: FinOps
   url: finops/marketo-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/lifecycle/marketo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/marketo-lifecycle.yml
@@ -574,54 +617,67 @@ common:
   type: Deprecation
   url: https://experienceleague.adobe.com/en/docs/marketo/using/release-notes/current
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/changelog/marketo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/marketo-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/conformance/marketo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/marketo-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/data-model/marketo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/marketo-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/components/marketo-components.yml
   title: ''
   type: Components
   url: components/marketo-components.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/mcp/marketo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/marketo-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/mcp/marketo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/marketo-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/llms/marketo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/marketo-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/well-known/marketo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/marketo-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/well-known/marketo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/marketo-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/security/marketo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/marketo-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/security/marketo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/marketo-vulnerability-disclosure.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/rules/marketo-asyncapi-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/marketo-asyncapi-spectral-rules.yml
@@ -690,6 +746,41 @@ scopes:
   scope_count: 24
   slug: marketo-scopes
   summary_line: 24 scopes
+score:
+  band: strong
+  composite: 56.3
+  coverage:
+    artifact_dirs: 28
+    catalog_earned: 56.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 58.6
+    developer_ergonomics: 63.7
+    discoverability: 68.5
+    operational_transparency: 84.2
+  previous_composite: 56.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 45
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/screenshots/marketo-2026-06-20T184954.png
 security:
 - kind: authentication

@@ -13,6 +13,32 @@ access_model:
   - sandbox
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: true
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -378,18 +404,22 @@ collections:
   slug: open-koyeb
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/capabilities/koyeb-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/koyeb-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/agentic-access/koyeb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/koyeb-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/security/koyeb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koyeb-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/authentication/koyeb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koyeb-authentication.yml
@@ -418,30 +448,37 @@ common:
   type: Blog
   url: https://www.koyeb.com/feed.xml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/packages/koyeb-packages.yml
   title: ''
   type: Packages
   url: packages/koyeb-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/packages/koyeb-packages.yml
   title: ''
   type: SDKs
   url: packages/koyeb-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/mcp/koyeb-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/koyeb-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/mcp/koyeb-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/koyeb-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/llms/koyeb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koyeb-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/conformance/koyeb-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koyeb-conformance.yml
@@ -450,14 +487,17 @@ common:
   type: Compliance
   url: https://trust.koyeb.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/security/koyeb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/koyeb-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/errors/koyeb-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/koyeb-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/lifecycle/koyeb-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koyeb-lifecycle.yml
@@ -466,26 +506,32 @@ common:
   type: StatusPage
   url: https://status.koyeb.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/conventions/koyeb-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koyeb-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/changelog/koyeb-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/koyeb-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/cli/koyeb-cli.yml
   title: ''
   type: CLI
   url: cli/koyeb-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/components/koyeb-components.yml
   title: ''
   type: Components
   url: components/koyeb-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/data-model/koyeb-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koyeb-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/sandbox/koyeb-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/koyeb-sandbox.yml
@@ -494,14 +540,17 @@ common:
   type: Console
   url: https://app.koyeb.com
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/plans/koyeb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/koyeb-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/rate-limits/koyeb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/koyeb-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/finops/koyeb-finops.yml
   title: ''
   type: FinOps
   url: finops/koyeb-finops.yml
@@ -594,6 +643,41 @@ rate_limits:
 - limit_count: 1
   name: Koyeb Rate Limits
   slug: koyeb-rate-limits
+score:
+  band: strong
+  composite: 64.2
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 18.2
+    contract_quality: 51.3
+    developer_ergonomics: 81.0
+    discoverability: 68.5
+    operational_transparency: 52.6
+  previous_composite: 64.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:
 - kind: authentication

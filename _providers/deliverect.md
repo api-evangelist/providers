@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 5
@@ -266,22 +291,27 @@ collections:
   slug: open-deliverect-upsell-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/agentic-access/deliverect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deliverect-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/security/deliverect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/deliverect-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/security/deliverect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deliverect-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/authentication/deliverect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deliverect-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/scopes/deliverect-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/deliverect-scopes.yml
@@ -338,62 +368,77 @@ common:
   type: LlmsText
   url: https://developers.deliverect.com/llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/rules/deliverect-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/deliverect-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/vocabulary/deliverect-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/deliverect-vocabulary.yaml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/plans/deliverect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deliverect-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/rate-limits/deliverect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/deliverect-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/finops/deliverect-finops.yml
   title: ''
   type: FinOps
   url: finops/deliverect-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-channel-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-channel-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-commerce-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-commerce-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-crm-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-crm-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-dispatch-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-dispatch-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-gift-cards-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-gift-cards-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-kds-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-kds-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-loyalty-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-loyalty-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-pay-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-pay-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-pos-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-pos-api-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/json-ld/deliverect-store-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/deliverect-store-api-context.jsonld
@@ -911,6 +956,38 @@ scopes:
   scope_count: 7
   slug: deliverect-scopes
   summary_line: 7 scopes · clientCredentials
+score:
+  band: thin
+  composite: 36.7
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 80.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 28.8
+    contract_quality: 21.2
+    developer_ergonomics: 40.5
+    discoverability: 75.9
+    operational_transparency: 34.2
+  previous_composite: 36.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 40
+      marker_coverage: 100.0
+      total: 40
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/screenshots/deliverect-2026-06-20T175855.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -96,54 +121,67 @@ asyncapis:
   slug: paystone-datacandy-webhooks
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/authentication/paystone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paystone-authentication.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/agentic-access/paystone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paystone-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/security/paystone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paystone-domain-security.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/conventions/paystone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paystone-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/errors/paystone-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paystone-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/lifecycle/paystone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paystone-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/conformance/paystone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paystone-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/data-model/paystone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paystone-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/mcp/paystone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/paystone-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/asyncapi/paystone-datacandy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paystone-datacandy-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/llms/paystone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paystone-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/overlays/paystone-datacandy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paystone-datacandy-overlay.yaml
@@ -216,6 +254,56 @@ overview: 'Paystone publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
   Paystone''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, and 20 more developer resources.'
 random_paper: 1
+score:
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 44.7
+    contract_governance: 4.5
+    contract_quality: 64.3
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - north-america
+    - united-kingdom-ireland
+  previous_composite: 45.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/screenshots/paystone-2026-08-07T191657.png
 security:
 - kind: authentication

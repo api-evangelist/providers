@@ -11,6 +11,32 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 39.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -103,6 +129,7 @@ collections:
   slug: open-vitally-users-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/overlays/vitally-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vitally-rest-overlay.yaml
@@ -155,38 +182,47 @@ common:
   type: StatusPage
   url: https://vitally.statuspage.io
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/changelog/vitally-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vitally-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/mcp/vitally-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vitally-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/llms/vitally-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vitally-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/authentication/vitally-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vitally-authentication.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/rate-limits/vitally-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vitally-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/conventions/vitally-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vitally-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/errors/vitally-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vitally-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/lifecycle/vitally-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vitally-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/conformance/vitally-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vitally-conformance.yml
@@ -199,42 +235,52 @@ common:
   type: Security
   url: https://www.vitally.io/security
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/security/vitally-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vitally-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/security/vitally-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vitally-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/security/vitally-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vitally-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/agentic-access/vitally-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vitally-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/data-model/vitally-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vitally-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/packages/vitally-packages.yml
   title: ''
   type: Packages
   url: packages/vitally-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/packages/vitally-packages.yml
   title: ''
   type: SDKs
   url: packages/vitally-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/asyncapi/vitally-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vitally-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/components/vitally-components.yml
   title: ''
   type: Components
   url: components/vitally-components.yml
@@ -262,6 +308,41 @@ rate_limits:
 - limit_count: 1
   name: Vitally Rate Limits
   slug: vitally-rate-limits
+score:
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 24.4
+    developer_ergonomics: 56.5
+    discoverability: 81.5
+    operational_transparency: 71.1
+  previous_composite: 51.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 10
+      marker_coverage: 100.0
+      total: 10
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/screenshots/vitally-2026-08-17T082804.png
 security:
 - kind: authentication

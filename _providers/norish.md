@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 9.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The HTTP API each Norish instance serves under /api/v1, covering a public health check plus authenticated recipe read/search/create/import, grocery list management, stores, and planned recipes for tod
@@ -19,6 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/security/norish-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/norish-domain-security.yml
@@ -51,30 +77,37 @@ common:
   type: License
   url: https://github.com/norish-recipes/norish/blob/main/LICENSE
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/packages/norish-packages.yml
   title: ''
   type: Packages
   url: packages/norish-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/lifecycle/norish-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/norish-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/changelog/norish-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/norish-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/conformance/norish-conformance.yml
   title: ''
   type: Conformance
   url: conformance/norish-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/plans/norish-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/norish-plans-pricing.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/llms/norish-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/norish-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/mcp/norish-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/norish-mcp.yml
@@ -87,26 +120,32 @@ common:
   type: APIReference
   url: https://docs.norish.dev/reference/api
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/authentication/norish-authentication.yml
   title: ''
   type: Authentication
   url: authentication/norish-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/conventions/norish-conventions.yml
   title: ''
   type: Conventions
   url: conventions/norish-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/conventions/norish-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/norish-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/rate-limits/norish-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/norish-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/data-model/norish-data-model.yml
   title: ''
   type: DataModel
   url: data-model/norish-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -131,6 +170,36 @@ rate_limits:
 - limit_count: 1
   name: Norish Rate Limits
   slug: norish-rate-limits
+score:
+  band: emerging
+  composite: 24.6
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    operational_transparency: 39.5
+  previous_composite: 24.6
+  provenance:
+    conformance: derived
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/norish/refs/heads/main/screenshots/norish-2026-09-02T150800.png
 security:
 - kind: authentication

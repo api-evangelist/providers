@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -447,86 +472,107 @@ collections:
   slug: open-remote-time-attendance-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/capabilities/remote-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/remote-com-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/overlays/remote-com-benefits-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/remote-com-benefits-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/agentic-access/remote-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/remote-com-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/packages/remote-com-packages.yml
   title: ''
   type: Packages
   url: packages/remote-com-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/well-known/remote-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/remote-com-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/mcp/remote-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/remote-com-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/llms/remote-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/remote-com-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/conformance/remote-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/remote-com-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/errors/remote-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/remote-com-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/lifecycle/remote-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/remote-com-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/scopes/remote-com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/remote-com-scopes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/sandbox/remote-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/remote-com-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/conventions/remote-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/remote-com-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/changelog/remote-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/remote-com-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/cli/remote-com-cli.yml
   title: ''
   type: CLI
   url: cli/remote-com-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/components/remote-com-components.yml
   title: ''
   type: Components
   url: components/remote-com-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/data-model/remote-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/remote-com-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/security/remote-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/remote-com-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/security/remote-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/remote-com-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/security/remote-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/remote-com-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/authentication/remote-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/remote-com-authentication.yml
@@ -535,70 +581,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/remote/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-amend-contract-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-amend-contract-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-cancel-time-off-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-cancel-time-off-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-country-leave-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-country-leave-policy-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-create-incentive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-create-incentive-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-employee-payslip-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-employee-payslip-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-enroll-employee-benefits-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-enroll-employee-benefits-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-estimate-and-hire-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-estimate-and-hire-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-hire-eor-employee-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-hire-eor-employee-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-offboard-employee-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-offboard-employee-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-onboard-company-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-onboard-company-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-request-time-off-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-request-time-off-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-review-billing-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-review-billing-document-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-review-timesheet-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-review-timesheet-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-schedule-contractor-invoices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-schedule-contractor-invoices-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-screen-contractor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-screen-contractor-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-submit-expense-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-submit-expense-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/arazzo/remote-com-terminate-contractor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/remote-com-terminate-contractor-workflow.yml
@@ -663,26 +726,32 @@ common:
   type: GitHub
   url: https://github.com/remoteoss
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/plans/remote-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/remote-com-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/rate-limits/remote-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/remote-com-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/finops/remote-com-finops.yml
   title: ''
   type: FinOps
   url: finops/remote-com-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/rules/remote-com-rules.yml
   title: ''
   type: SpectralRules
   url: rules/remote-com-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/vocabulary/remote-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/remote-com-vocabulary.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -814,6 +883,40 @@ scopes:
   scope_count: 74
   slug: remote-com-scopes
   summary_line: 74 scopes · authorizationCode/clientCredentials/urn:ietf:params:oauth:grant-type:jwt-bearer
+score:
+  band: exemplar
+  composite: 72.6
+  coverage:
+    artifact_dirs: 33
+    catalog_earned: 87.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 78.9
+    contract_governance: 33.3
+    contract_quality: 72.0
+    developer_ergonomics: 70.2
+    discoverability: 75.9
+    operational_transparency: 68.4
+  previous_composite: 72.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 39
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:
 - kind: authentication

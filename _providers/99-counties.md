@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 14.7
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the 99 Counties Shopify store via the Universal Commerce Protocol over MCP — catalog search, cart, checkout, fulfillment, and buyer-approved order completion.
@@ -25,42 +50,52 @@ common:
   type: Documentation
   url: https://99counties.com/agents.md
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/llms/99-counties-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/99-counties-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/mcp/99-counties-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/99-counties-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/well-known/99-counties-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/99-counties-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/authentication/99-counties-authentication.yml
   title: ''
   type: Authentication
   url: authentication/99-counties-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/scopes/99-counties-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/99-counties-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/conventions/99-counties-conventions.yml
   title: ''
   type: Conventions
   url: conventions/99-counties-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/conformance/99-counties-conformance.yml
   title: ''
   type: Conformance
   url: conformance/99-counties-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/lifecycle/99-counties-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/99-counties-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/skills/99-counties-ucp-shopping.md
   title: ''
   type: AgentSkill
   url: skills/99-counties-ucp-shopping.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/security/99-counties-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/99-counties-domain-security.yml
@@ -106,6 +141,36 @@ scopes:
   scope_count: 4
   slug: 99-counties-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: emerging
+  composite: 21.7
+  coverage:
+    artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 25.6
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 21.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/screenshots/99-counties-2026-08-07T160727.png
 security:
 - kind: authentication

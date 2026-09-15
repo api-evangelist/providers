@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: verified
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -94,6 +119,7 @@ collections:
   slug: open-ando-webhooks-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/capabilities/ando-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ando-capability-edges.yml
@@ -114,74 +140,92 @@ common:
   type: GettingStarted
   url: https://docs.ando.so/developers/quickstart
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/authentication/ando-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ando-authentication.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/_original/ando-public-api-v1-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/ando-public-api-v1-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/overlays/ando-public-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ando-public-api-v1-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/conventions/ando-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ando-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/conventions/ando-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ando-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/errors/ando-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ando-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/data-model/ando-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ando-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/conformance/ando-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ando-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/asyncapi/ando-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ando-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/mcp/ando-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ando-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/agentic-access/ando-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ando-agentic-access.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/packages/ando-packages.yml
   title: ''
   type: Packages
   url: packages/ando-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/packages/ando-packages.yml
   title: ''
   type: SDKs
   url: packages/ando-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/cli/ando-cli.yml
   title: ''
   type: CLI
   url: cli/ando-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/llms/ando-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ando-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/well-known/ando-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ando-well-known.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/lifecycle/ando-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ando-lifecycle.yml
@@ -190,10 +234,12 @@ common:
   type: StatusPage
   url: https://status.ando.so
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/changelog/ando-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ando-changelog.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/security/ando-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ando-domain-security.yml
@@ -257,6 +303,41 @@ overview: 'Ando publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
   Ando''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 29 more developer resources.'
 random_paper: 19
+score:
+  band: developing
+  composite: 46.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 64.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 46.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/screenshots/ando-2026-07-25T200233.png
 security:
 - kind: authentication

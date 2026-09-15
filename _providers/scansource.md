@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.5
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -91,14 +116,17 @@ collections:
   slug: open-scansource-tracking-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/agentic-access/scansource-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scansource-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/security/scansource-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scansource-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/authentication/scansource-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scansource-authentication.yml
@@ -127,18 +155,22 @@ common:
   type: PartnerPortal
   url: https://partnerdevportal.scansource.com
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/rules/scansource-rules.yml
   title: ''
   type: SpectralRules
   url: rules/scansource-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/json-structure/scansource-product-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/scansource-product-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/json-ld/scansource-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/scansource-context.jsonld
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/vocabulary/scansource-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/scansource-vocabulary.yml
@@ -230,6 +262,38 @@ rules:
     info: 0
     warn: 6
   slug: scansource-rules
+score:
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 76.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 13.2
+    contract_governance: 25.0
+    contract_quality: 70.4
+    developer_ergonomics: 42.9
+    discoverability: 74.1
+    operational_transparency: 5.3
+  previous_composite: 39.2
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:
 - kind: authentication

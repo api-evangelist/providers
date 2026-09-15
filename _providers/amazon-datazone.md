@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -118,22 +143,27 @@ collections:
   slug: open-amazon-datazone
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/agentic-access/amazon-datazone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-datazone-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/security/amazon-datazone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-datazone-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/security/amazon-datazone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-datazone-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/security/amazon-datazone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-datazone-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/authentication/amazon-datazone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-datazone-authentication.yml
@@ -142,50 +172,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-datazone/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-audit-domain-subscriptions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-audit-domain-subscriptions-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-bootstrap-domain-and-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-bootstrap-domain-and-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-catalog-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-catalog-asset-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-discover-and-subscribe-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-discover-and-subscribe-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-onboard-data-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-onboard-data-workspace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-provision-domain-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-provision-domain-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-provision-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-provision-environment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-publish-data-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-publish-data-product-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-rename-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-rename-project-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-request-and-track-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-request-and-track-subscription-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-teardown-domain-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-teardown-domain-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/arazzo/amazon-datazone-teardown-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-datazone-teardown-project-workflow.yml
@@ -242,10 +284,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/rules/amazon-datazone-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-datazone-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/vocabulary/amazon-datazone-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-datazone-vocabulary.yaml
@@ -430,6 +474,38 @@ rules:
     info: 3
     warn: 10
   slug: amazon-datazone-spectral-rules
+score:
+  band: strong
+  composite: 55.9
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 73.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 61.8
+    contract_governance: 28.8
+    contract_quality: 69.8
+    developer_ergonomics: 65.5
+    discoverability: 68.5
+    operational_transparency: 26.3
+  previous_composite: 55.9
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/screenshots/amazon-datazone-2026-06-20T171616.png
 security:
 - kind: authentication

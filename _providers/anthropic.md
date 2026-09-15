@@ -12,6 +12,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 37.7
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -405,118 +430,147 @@ common:
   type: Website
   url: https://www.anthropic.com/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/capabilities/anthropic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/anthropic-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/agentic-access/anthropic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anthropic-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/security/anthropic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anthropic-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/authentication/anthropic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anthropic-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/packages/anthropic-packages.yml
   title: ''
   type: Packages
   url: packages/anthropic-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/well-known/anthropic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/anthropic-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/well-known/anthropic-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/anthropic-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/mcp/anthropic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/anthropic-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/llms/anthropic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anthropic-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/conformance/anthropic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anthropic-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/errors/anthropic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anthropic-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/lifecycle/anthropic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anthropic-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/conventions/anthropic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anthropic-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/changelog/anthropic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anthropic-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/cli/anthropic-cli.yml
   title: ''
   type: CLI
   url: cli/anthropic-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/data-model/anthropic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anthropic-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/security/anthropic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anthropic-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/security/anthropic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anthropic-trust-center.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-messages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-messages-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-models-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-models-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-message-batches-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-message-batches-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-files-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-files-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-admin-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-prompts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-prompts-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-token-counting-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-token-counting-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-skills-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-skills-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-usage-cost-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-usage-cost-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-claude-code-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-claude-code-analytics-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/overlays/anthropic-managed-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/anthropic-managed-agents-overlay.yaml
@@ -525,46 +579,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/anthropic/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-batch-cancel-and-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-batch-cancel-and-confirm-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-batch-create-poll-results-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-batch-create-poll-results-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-count-tokens-then-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-count-tokens-then-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-create-workspace-and-add-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-create-workspace-and-add-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-discover-model-and-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-discover-model-and-message-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-invite-org-member-and-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-invite-org-member-and-confirm-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-list-batches-and-fetch-latest-results-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-list-batches-and-fetch-latest-results-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-onboard-member-to-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-onboard-member-to-workspace-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-provision-and-promote-workspace-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-provision-and-promote-workspace-member-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-upload-list-and-cleanup-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-upload-list-and-cleanup-file-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/arazzo/anthropic-upload-verify-download-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anthropic-upload-verify-download-file-workflow.yml
@@ -905,30 +970,37 @@ common:
   type: GettingStarted
   url: https://docs.anthropic.com/en/api/getting-started
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/plans/anthropic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anthropic-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/rate-limits/anthropic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anthropic-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/finops/anthropic-finops.yml
   title: ''
   type: FinOps
   url: finops/anthropic-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/mcp/anthropic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/anthropic-tool-crosswalk.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/sandbox/anthropic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/anthropic-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/asyncapi/anthropic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/anthropic-webhooks.yml
@@ -937,14 +1009,17 @@ common:
   type: LLMsTxt
   url: https://docs.anthropic.com/llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/security/anthropic-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/anthropic-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/security/anthropic-trust-center.yml
   title: ''
   type: Compliance
   url: security/anthropic-trust-center.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/lifecycle/anthropic-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/anthropic-lifecycle.yml
@@ -1049,6 +1124,41 @@ rules:
     info: 1
     warn: 5
   slug: anthropic-jsonschema-spectral-rules
+score:
+  band: exemplar
+  composite: 77.8
+  coverage:
+    artifact_dirs: 31
+    catalog_earned: 68.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 31.8
+    contract_quality: 77.6
+    developer_ergonomics: 96.4
+    discoverability: 75.9
+    operational_transparency: 71.1
+  previous_composite: 77.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 48
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:
 - kind: authentication

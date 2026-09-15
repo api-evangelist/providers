@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -39,6 +64,7 @@ collections:
   slug: open-bytez-models-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/overlays/bytez-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bytez-openapi-overlay.yaml
@@ -91,50 +117,62 @@ common:
   type: StatusPage
   url: https://status.bytez.com
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/packages/bytez-packages.yml
   title: ''
   type: SDKs
   url: packages/bytez-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/packages/bytez-packages.yml
   title: ''
   type: Packages
   url: packages/bytez-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/mcp/bytez-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bytez-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/llms/bytez-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bytez-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/agentic-access/bytez-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bytez-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/authentication/bytez-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bytez-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/conventions/bytez-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bytez-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/errors/bytez-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bytez-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/lifecycle/bytez-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bytez-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/conformance/bytez-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bytez-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/security/bytez-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bytez-domain-security.yml
@@ -155,6 +193,41 @@ rate_limits:
 - limit_count: 0
   name: Bytez Rate Limits
   slug: bytez-rate-limits
+score:
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 55.8
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 15.8
+  previous_composite: 41.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/screenshots/bytez-2026-07-25T204146.png
 security:
 - kind: authentication

@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 22.3
+  scored_at: '2026-09-14'
 api_count: 6
 apis:
 - baseURL: https://bluejaytx.com/wp-json
@@ -67,10 +92,12 @@ collections:
   slug: open-bluejay-therapeutics-taxonomy-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/capabilities/bluejay-therapeutics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bluejay-therapeutics-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/overlays/bluejay-therapeutics-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bluejay-therapeutics-content-overlay.yaml
@@ -107,46 +134,57 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/bluejay-therapeutics_stock/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/authentication/bluejay-therapeutics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bluejay-therapeutics-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/conventions/bluejay-therapeutics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bluejay-therapeutics-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/conformance/bluejay-therapeutics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bluejay-therapeutics-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/errors/bluejay-therapeutics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bluejay-therapeutics-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/lifecycle/bluejay-therapeutics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bluejay-therapeutics-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/data-model/bluejay-therapeutics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bluejay-therapeutics-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/json-ld/bluejay-therapeutics-json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/bluejay-therapeutics-json-ld.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/well-known/bluejay-therapeutics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bluejay-therapeutics-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/security/bluejay-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bluejay-therapeutics-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/llms/bluejay-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bluejay-therapeutics-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -172,6 +210,51 @@ overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.i
 
   Bluejay Therapeutics'' developer surface includes engineering blog, authentication, and 19 more developer resources.'
 random_paper: 11
+score:
+  band: emerging
+  composite: 16.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 45.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 55.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 15.9
+    developer_ergonomics: 16.1
+    discoverability: 81.5
+    operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 16.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 7
+      marker_coverage: 100.0
+      total: 7
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 21.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/screenshots/bluejay-therapeutics-2026-08-07T162648.png
 security:
 - kind: authentication

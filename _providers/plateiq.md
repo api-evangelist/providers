@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 34.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - baseURL: https://api.ottimate.com/v1
@@ -126,86 +151,107 @@ common:
   type: TermsOfService
   url: https://ottimate.com/terms-of-service/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/lifecycle/plateiq-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/plateiq-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/lifecycle/plateiq-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/plateiq-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/lifecycle/plateiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plateiq-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/changelog/plateiq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/plateiq-changelog.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/openapi/_original/plateiq-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/plateiq-openapi.yaml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/authentication/plateiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plateiq-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/scopes/plateiq-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/plateiq-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/conventions/plateiq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plateiq-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/conventions/plateiq-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/plateiq-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/rate-limits/plateiq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plateiq-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/errors/plateiq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/plateiq-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/data-model/plateiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plateiq-data-model.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/sandbox/plateiq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/plateiq-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/mcp/plateiq-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/plateiq-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/llms/plateiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plateiq-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/overlays/plateiq-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/plateiq-openapi-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/conformance/plateiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plateiq-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/conformance/plateiq-conformance.yml
   title: ''
   type: Compliance
   url: conformance/plateiq-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/security/plateiq-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/plateiq-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/security/plateiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plateiq-domain-security.yml
@@ -235,6 +281,46 @@ scopes:
   scope_count: 0
   slug: plateiq-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 61.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 53.9
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 71.1
+  previous_composite: 61.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/screenshots/plateiq-2026-08-17T081300.png
 security:
 - kind: authentication

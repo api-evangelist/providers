@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 46.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://tankcar.gbrx.com
@@ -67,38 +92,47 @@ common:
   type: Compliance
   url: https://www.gbrx.com/certifications/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/conformance/greenbrier-cos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/greenbrier-cos-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/packages/greenbrier-cos-packages.yml
   title: ''
   type: Packages
   url: packages/greenbrier-cos-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/well-known/greenbrier-cos-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/greenbrier-cos-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/llms/greenbrier-cos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/greenbrier-cos-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/mcp/greenbrier-cos-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/greenbrier-cos-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/plans/greenbrier-cos-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/greenbrier-cos-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/rate-limits/greenbrier-cos-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/greenbrier-cos-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/security/greenbrier-cos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greenbrier-cos-domain-security.yml
@@ -144,6 +178,41 @@ rate_limits:
 - limit_count: 0
   name: Greenbrier Cos Rate Limits
   slug: greenbrier-cos-rate-limits
+score:
+  band: emerging
+  composite: 23.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 28.9
+    contract_governance: 18.2
+    contract_quality: 13.1
+    developer_ergonomics: 20.8
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 23.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/screenshots/greenbrier-cos-2026-06-20T182356.png
 security:
 - kind: authentication

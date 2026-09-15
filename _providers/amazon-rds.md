@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,22 +139,27 @@ collections:
   slug: open-amazon-rds
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/agentic-access/amazon-rds-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-rds-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/security/amazon-rds-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-rds-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/security/amazon-rds-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-rds-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/security/amazon-rds-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-rds-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/authentication/amazon-rds-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-rds-authentication.yml
@@ -138,66 +168,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-rds/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-add-aurora-replica-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-add-aurora-replica-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-clean-up-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-clean-up-snapshot-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-clone-instance-from-snapshot-restore-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-clone-instance-from-snapshot-restore-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-convert-to-multi-az-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-convert-to-multi-az-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-delete-aurora-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-delete-aurora-cluster-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-enable-backup-retention-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-enable-backup-retention-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-modify-instance-class-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-modify-instance-class-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-provision-aurora-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-provision-aurora-cluster-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-provision-db-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-provision-db-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-reboot-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-reboot-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-rotate-master-password-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-rotate-master-password-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-scale-instance-storage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-scale-instance-storage-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-snapshot-db-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-snapshot-db-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-snapshot-then-delete-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-snapshot-then-delete-instance-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-upgrade-engine-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-upgrade-engine-version-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/arazzo/amazon-rds-verify-engine-then-provision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-rds-verify-engine-then-provision-workflow.yml
@@ -274,154 +320,192 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-ld/amazon-rds-context-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-rds-context-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-create-db-cluster-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-create-db-cluster-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-create-db-instance-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-create-db-instance-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-create-db-snapshot-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-create-db-snapshot-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-db-cluster-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-db-cluster-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-db-instance-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-db-instance-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-db-snapshot-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-db-snapshot-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-describe-db-clusters-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-describe-db-clusters-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-describe-db-instances-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-describe-db-instances-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-describe-db-snapshots-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-describe-db-snapshots-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-modify-db-instance-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-modify-db-instance-response-schema.json
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-schema/amazon-rds-openapi-tag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-rds-openapi-tag-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-instance-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-instance-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-create-db-cluster-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-create-db-cluster-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-create-db-instance-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-create-db-instance-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-create-db-snapshot-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-create-db-snapshot-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-db-cluster-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-db-cluster-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-db-instance-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-db-instance-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-db-snapshot-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-db-snapshot-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-describe-db-clusters-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-describe-db-clusters-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-describe-db-instances-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-describe-db-instances-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-describe-db-snapshots-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-describe-db-snapshots-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-modify-db-instance-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-modify-db-instance-response-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/json-structure/amazon-rds-openapi-tag-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-rds-openapi-tag-structure.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-instance-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-instance-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-create-db-cluster-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-create-db-cluster-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-create-db-instance-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-create-db-instance-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-create-db-snapshot-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-create-db-snapshot-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-db-cluster-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-db-cluster-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-db-instance-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-db-instance-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-db-snapshot-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-db-snapshot-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-describe-db-clusters-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-describe-db-clusters-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-describe-db-instances-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-describe-db-instances-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-describe-db-snapshots-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-describe-db-snapshots-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-modify-db-instance-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-modify-db-instance-response-example.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/examples/amazon-rds-openapi-tag-example.json
   title: ''
   type: Examples
   url: examples/amazon-rds-openapi-tag-example.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/rules/amazon-rds-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-rds-spectral-rules.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/vocabulary/amazon-rds-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-rds-vocabulary.yaml
@@ -595,6 +679,39 @@ rules:
     info: 2
     warn: 17
   slug: amazon-rds-spectral-rules
+score:
+  band: strong
+  composite: 60.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 72.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 69.7
+    contract_governance: 28.8
+    contract_quality: 72.6
+    developer_ergonomics: 65.5
+    discoverability: 68.5
+    operational_transparency: 36.8
+  previous_composite: 60.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/screenshots/amazon-rds-2026-06-20T171805.png
 security:
 - kind: authentication

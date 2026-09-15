@@ -12,6 +12,32 @@ access_model:
   - '{''url'': ''https://www.lambdatest.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.testmuai.com/ — a different registrable domain (lambdatest.com -> testmuai.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 40.3
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -178,18 +204,22 @@ collections:
   slug: open-lambdatest-user-files-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/agentic-access/lambdatest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lambdatest-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/security/lambdatest-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lambdatest-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/security/lambdatest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lambdatest-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/authentication/lambdatest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lambdatest-authentication.yml
@@ -230,14 +260,17 @@ common:
   type: StatusPage
   url: https://status.lambdatest.com/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/plans/lambdatest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lambdatest-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/rate-limits/lambdatest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lambdatest-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/finops/lambdatest-finops.yml
   title: ''
   type: FinOps
   url: finops/lambdatest-finops.yml
@@ -305,6 +338,39 @@ rules:
     info: 1
     warn: 4
   slug: lambdatest-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 45.3
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 78.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.9
+    contract_governance: 9.8
+    contract_quality: 58.8
+    developer_ergonomics: 31.0
+    discoverability: 68.5
+    operational_transparency: 42.1
+  previous_composite: 45.3
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/screenshots/lambdatest-2026-06-20T184255.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: na
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 43.1
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,74 +65,92 @@ collections:
   slug: open-ripe-insurance-umbraco-content-delivery
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/overlays/ripe-insurance-umbraco-content-delivery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripe-insurance-umbraco-content-delivery-overlay.yaml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/overlays/ripe-insurance-cycleplan-content-delivery-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ripe-insurance-cycleplan-content-delivery-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/agentic-access/ripe-insurance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ripe-insurance-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/security/ripe-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ripe-insurance-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/authentication/ripe-insurance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ripe-insurance-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/scopes/ripe-insurance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ripe-insurance-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/conventions/ripe-insurance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ripe-insurance-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/conformance/ripe-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ripe-insurance-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/lifecycle/ripe-insurance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ripe-insurance-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/errors/ripe-insurance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ripe-insurance-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/data-model/ripe-insurance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ripe-insurance-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/well-known/ripe-insurance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ripe-insurance-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/packages/ripe-insurance-packages.yml
   title: ''
   type: Packages
   url: packages/ripe-insurance-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/llms/ripe-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ripe-insurance-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/mcp/ripe-insurance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ripe-insurance-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/mcp/ripe-insurance-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ripe-insurance-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/well-known/ripe-insurance-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/ripe-insurance-openid-configuration.json
@@ -190,6 +233,56 @@ scopes:
   scope_count: 2
   slug: ripe-insurance-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
+score:
+  band: developing
+  composite: 42.7
+  coverage:
+    artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 57.1
+    contract_governance: 4.5
+    contract_quality: 39.5
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 42.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 63.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/screenshots/ripe-insurance-2026-09-02T153839.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: The StrongDM control-plane API for automating management of resources, accounts, roles, access grants, gateways, relays, secret stores, and audit logs. The transport is gRPC with request signing; Stro
@@ -19,10 +44,12 @@ apis:
 artifact_total: 5
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/security/strongdm-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/strongdm-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/security/strongdm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/strongdm-domain-security.yml
@@ -71,38 +98,47 @@ common:
   type: StatusPage
   url: https://status.strongdm.com/
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/packages/strongdm-packages.yml
   title: ''
   type: Packages
   url: packages/strongdm-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/packages/strongdm-packages.yml
   title: ''
   type: SDKs
   url: packages/strongdm-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/cli/strongdm-cli.yml
   title: ''
   type: CLI
   url: cli/strongdm-cli.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/authentication/strongdm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/strongdm-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/conventions/strongdm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/strongdm-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/rate-limits/strongdm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/strongdm-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/lifecycle/strongdm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/strongdm-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/changelog/strongdm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/strongdm-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/conformance/strongdm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/strongdm-conformance.yml
@@ -111,6 +147,7 @@ common:
   type: Compliance
   url: https://security.strongdm.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/llms/strongdm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/strongdm-llms.txt
@@ -131,6 +168,34 @@ rate_limits:
 - limit_count: 4
   name: Strongdm Rate Limits
   slug: strongdm-rate-limits
+score:
+  band: thin
+  composite: 37.9
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 26.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    operational_transparency: 65.8
+  previous_composite: 37.9
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/strongdm/refs/heads/main/screenshots/strongdm-2026-09-02T161023.png
 security:
 - kind: authentication

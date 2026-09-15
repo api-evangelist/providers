@@ -9,6 +9,31 @@ access_model:
   - probe
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.0
+  scored_at: '2026-09-14'
 api_count: 11
 apis:
 - description: Queen Mary's open-access institutional repository runs DSpace 8.4 and exposes the standard DSpace REST API on the university's own host. The HAL service document at /server/api answers unauthenticated
@@ -115,38 +140,47 @@ common:
   type: x-learning-platform
   url: https://qmplus.qmul.ac.uk/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/conformance/queen-mary-university-of-london-conformance.yml
   title: ''
   type: Conformance
   url: conformance/queen-mary-university-of-london-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/authentication/queen-mary-university-of-london-authentication.yml
   title: ''
   type: Authentication
   url: authentication/queen-mary-university-of-london-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/security/queen-mary-university-of-london-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/queen-mary-university-of-london-domain-security.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/plans/queen-mary-university-of-london-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/queen-mary-university-of-london-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/rate-limits/queen-mary-university-of-london-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/queen-mary-university-of-london-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/finops/queen-mary-university-of-london-finops.yml
   title: ''
   type: FinOps
   url: finops/queen-mary-university-of-london-finops.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: company
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/blogs/blogs.json
   title: ''
   type: x-blogs
   url: blogs/blogs.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/json-ld/queen-mary-university-of-london-context.jsonld
   title: ''
   type: x-json-ld
   url: json-ld/queen-mary-university-of-london-context.jsonld
@@ -188,6 +222,48 @@ rate_limits:
 - limit_count: 1
   name: Queen Mary University Of London Rate Limits
   slug: queen-mary-university-of-london-rate-limits
+score:
+  band: thin
+  composite: 28.8
+  coverage:
+    artifact_dirs: 10
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 14.3
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
+  previous_composite: 28.8
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 38.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Queen Mary University Of London Authentication

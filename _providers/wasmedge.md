@@ -9,6 +9,31 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - description: The WasmEdge C API provides a low-level interface for embedding the WasmEdge runtime into C/C++ host applications. It exposes the full WasmEdge runtime capabilities including module instantiation, fun
@@ -53,6 +78,7 @@ common:
   type: License
   url: https://github.com/WasmEdge/WasmEdge/blob/master/LICENSE
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/security/wasmedge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wasmedge-domain-security.yml
@@ -93,22 +119,27 @@ common:
   type: Discord
   url: https://discord.gg/U4B5sFTkFc
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/vocabulary/wasmedge-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wasmedge-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/json-ld/wasmedge-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/wasmedge-context.jsonld
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/json-schema/wasmedge-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/wasmedge-config-schema.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/json-structure/wasmedge-config-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/wasmedge-config-structure.json
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/vocabulary/wasmedge-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wasmedge-vocabulary.yml
@@ -171,6 +202,35 @@ rules:
     info: 2
     warn: 3
   slug: wasmedge-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 32.2
+  coverage:
+    artifact_dirs: 12
+    catalog_earned: 63.3
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 15.8
+    contract_governance: 25.0
+    contract_quality: 14.7
+    developer_ergonomics: 14.3
+    discoverability: 72.2
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 32.2
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/screenshots/wasmedge-2026-06-20T201238.png
 security:
 - kind: domain-security

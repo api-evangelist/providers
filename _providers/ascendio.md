@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.4
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: REST API (/api/v1) for managing Ascend workspaces, deployments, environments, projects, profiles, flows, flow runs, and Otto. Service-account Bearer authentication.
@@ -50,54 +75,67 @@ common:
   type: Support
   url: https://docs.ascend.io/support
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/packages/ascendio-packages.yml
   title: ''
   type: Packages
   url: packages/ascendio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/packages/ascendio-packages.yml
   title: ''
   type: SDKs
   url: packages/ascendio-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/cli/ascendio-cli.yml
   title: ''
   type: CLI
   url: cli/ascendio-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/mcp/ascendio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ascendio-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/authentication/ascendio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ascendio-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/conventions/ascendio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ascendio-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/errors/ascendio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ascendio-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/lifecycle/ascendio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ascendio-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/data-model/ascendio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ascendio-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/conformance/ascendio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ascendio-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/security/ascendio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ascendio-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/llms/ascendio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ascendio-llms.txt
@@ -118,6 +156,36 @@ overview: 'Ascend.io publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   Ascend.io''s developer surface includes documentation, API reference, quickstart, signup flow, support, CLI, authentication, and 14 more developer resources.'
 random_paper: 19
+score:
+  band: emerging
+  composite: 22.6
+  coverage:
+    artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 6.6
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 2.6
+  previous_composite: 22.6
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/screenshots/ascendio-2026-07-25T201409.png
 security:
 - kind: authentication

@@ -11,6 +11,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 31.2
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -292,22 +317,27 @@ collections:
   slug: open-monnify-wallets-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/capabilities/moniepoint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moniepoint-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/agentic-access/moniepoint-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moniepoint-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/security/moniepoint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/moniepoint-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/security/moniepoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moniepoint-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/authentication/moniepoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moniepoint-authentication.yml
@@ -316,54 +346,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/moniepoint/overview
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-bulk-disbursement-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-bulk-disbursement-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-card-charge-otp-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-card-charge-otp-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-collect-bank-transfer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-collect-bank-transfer-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-kyc-reserve-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-kyc-reserve-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-pay-bill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-pay-bill-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-pos-push-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-pos-push-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-recurring-mandate-debit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-recurring-mandate-debit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-refund-collected-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-refund-collected-payment-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-reserve-virtual-account-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-reserve-virtual-account-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-single-transfer-otp-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-single-transfer-otp-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-verify-and-disburse-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-verify-and-disburse-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-virtual-account-with-limit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-virtual-account-with-limit-workflow.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/arazzo/moniepoint-wallet-balance-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/moniepoint-wallet-balance-check-workflow.yml
@@ -496,22 +539,27 @@ common:
   type: Versioning
   url: https://developers.monnify.com/docs/getting-started/versioning
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/plans/moniepoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moniepoint-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/rate-limits/moniepoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moniepoint-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/finops/moniepoint-finops.yml
   title: ''
   type: FinOps
   url: finops/moniepoint-finops.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/vocabulary/moniepoint-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/moniepoint-vocabulary.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/rules/moniepoint-rules.yml
   title: ''
   type: Rules
   url: rules/moniepoint-rules.yml
@@ -621,6 +669,49 @@ rules:
     info: 0
     warn: 3
   slug: moniepoint-rules
+score:
+  band: strong
+  composite: 56.8
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 83.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 71.1
+    contract_governance: 28.8
+    contract_quality: 62.4
+    developer_ergonomics: 47.6
+    discoverability: 59.3
+    operational_transparency: 57.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 56.8
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 94.4
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 40.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:
 - kind: authentication

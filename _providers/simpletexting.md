@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: true
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.8
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -126,18 +151,22 @@ collections:
   slug: open-simpletexting
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/capabilities/simpletexting-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/simpletexting-capability-edges.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/agentic-access/simpletexting-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simpletexting-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/security/simpletexting-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simpletexting-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/authentication/simpletexting-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simpletexting-authentication.yml
@@ -158,38 +187,47 @@ common:
   type: Documentation
   url: https://simpletexting.com/api/docs/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/plans/simpletexting-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simpletexting-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/rate-limits/simpletexting-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simpletexting-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/finops/simpletexting-finops.yml
   title: ''
   type: FinOps
   url: finops/simpletexting-finops.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/packages/simpletexting-packages.yml
   title: ''
   type: Packages
   url: packages/simpletexting-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/llms/simpletexting-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simpletexting-llms.txt
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/conformance/simpletexting-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simpletexting-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/conformance/simpletexting-conformance.yml
   title: ''
   type: Compliance
   url: conformance/simpletexting-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/errors/simpletexting-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simpletexting-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/lifecycle/simpletexting-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simpletexting-lifecycle.yml
@@ -198,22 +236,27 @@ common:
   type: StatusPage
   url: https://status.simpletexting.com/
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/conventions/simpletexting-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simpletexting-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/data-model/simpletexting-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simpletexting-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/components/simpletexting-components.yml
   title: ''
   type: Components
   url: components/simpletexting-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/asyncapi/simpletexting-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/simpletexting-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -281,6 +324,47 @@ rate_limits:
 - limit_count: 4
   name: Simpletexting Rate Limits
   slug: simpletexting-rate-limits
+score:
+  band: strong
+  composite: 57.2
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 75.0
+    contract_governance: 4.5
+    contract_quality: 63.0
+    developer_ergonomics: 41.1
+    discoverability: 68.5
+    operational_transparency: 55.3
+  previous_composite: 57.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 51.4
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/screenshots/simpletexting-2026-06-20T193933.png
 security:
 - kind: authentication

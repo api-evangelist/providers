@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 21.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 124
@@ -79,50 +104,62 @@ common:
   type: Support
   url: https://join.slack.com/t/soku-talk/shared_invite/zt-3s9i1a4w7-AWlkU3GAiar3wJM4ToYLEg
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/packages/nexad-packages.yml
   title: ''
   type: Packages
   url: packages/nexad-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/packages/nexad-packages.yml
   title: ''
   type: SDKs
   url: packages/nexad-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/cli/nexad-cli.yml
   title: ''
   type: CLI
   url: cli/nexad-cli.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/mcp/nexad-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nexad-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/authentication/nexad-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nexad-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/components/nexad-components.yml
   title: ''
   type: Components
   url: components/nexad-components.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/lifecycle/nexad-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nexad-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/changelog/nexad-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nexad-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/llms/nexad-soku-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nexad-soku-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/llms/nexad-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nexad-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/security/nexad-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nexad-domain-security.yml
@@ -131,6 +168,7 @@ common:
   type: Security
   url: https://github.com/About-Intelligence/soku-cli/blob/main/SECURITY.md
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/security/nexad-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nexad-vulnerability-disclosure.yml
@@ -143,34 +181,42 @@ common:
   type: SourceCode
   url: https://github.com/About-Intelligence/soku-cli
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/agentic-access/nexad-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nexad-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/conventions/nexad-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nexad-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/errors/nexad-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nexad-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/data-model/nexad-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nexad-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/conformance/nexad-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nexad-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/plans/nexad-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nexad-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/rate-limits/nexad-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nexad-rate-limits.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/cli/nexad-capabilities.json
   title: ''
   type: Capabilities
   url: cli/nexad-capabilities.json
@@ -200,6 +246,37 @@ rate_limits:
 - limit_count: 0
   name: Nexad Rate Limits
   slug: nexad-rate-limits
+score:
+  band: developing
+  composite: 43.6
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 44.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 78.6
+    discoverability: 66.7
+    operational_transparency: 28.9
+  previous_composite: 43.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexad/refs/heads/main/screenshots/nexad-2026-08-07T185142.png
 security:
 - kind: authentication

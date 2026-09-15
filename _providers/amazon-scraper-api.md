@@ -1,4 +1,29 @@
 ---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://api.amazonscraperapi.com
@@ -17,50 +42,62 @@ common:
   type: Website
   url: https://amazonscraperapi.com
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/security/amazon-scraper-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-scraper-api-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/authentication/amazon-scraper-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-scraper-api-authentication.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/packages/amazon-scraper-api-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-scraper-api-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/packages/amazon-scraper-api-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-scraper-api-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/well-known/amazon-scraper-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-scraper-api-well-known.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/mcp/amazon-scraper-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-scraper-api-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/mcp/amazon-scraper-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-scraper-api-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/llms/amazon-scraper-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-scraper-api-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/overlays/amazon-scraper-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-scraper-api-openapi-overlay.yaml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/conformance/amazon-scraper-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-scraper-api-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/errors/amazon-scraper-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-scraper-api-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/lifecycle/amazon-scraper-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-scraper-api-lifecycle.yml
@@ -69,34 +106,42 @@ common:
   type: Deprecation
   url: https://amazonscraperapi.com/docs/changelog
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/conventions/amazon-scraper-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-scraper-api-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/changelog/amazon-scraper-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-scraper-api-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/cli/amazon-scraper-api-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-scraper-api-cli.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/data-model/amazon-scraper-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-scraper-api-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/asyncapi/amazon-scraper-api-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/amazon-scraper-api-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/rate-limits/amazon-scraper-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-scraper-api-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/plans/amazon-scraper-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-scraper-api-plans-pricing.yml
@@ -167,6 +212,40 @@ rate_limits:
 - limit_count: 4
   name: Amazon Scraper Api Rate Limits
   slug: amazon-scraper-api-rate-limits
+score:
+  band: strong
+  composite: 60.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 76.3
+    contract_governance: 4.5
+    contract_quality: 55.7
+    developer_ergonomics: 78.6
+    discoverability: 72.2
+    operational_transparency: 65.8
+  previous_composite: 60.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/screenshots/amazon-scraper-api-2026-07-25T200010.png
 security:
 - kind: authentication

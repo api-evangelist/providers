@@ -11,6 +11,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Payple REST payment API (v2) for card, bank-account, recurring/billing-key, link, verification, and payout (Hub) operations, plus the hosted payment window.
@@ -63,62 +88,77 @@ common:
   type: Login
   url: https://accounts.payple.kr
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/packages/payple-packages.yml
   title: ''
   type: Packages
   url: packages/payple-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/packages/payple-packages.yml
   title: ''
   type: SDKs
   url: packages/payple-packages.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/authentication/payple-authentication.yml
   title: ''
   type: Authentication
   url: authentication/payple-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/errors/payple-response-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/payple-response-codes.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/errors/payple-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/payple-decline-codes.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/sandbox/payple-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/payple-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/conventions/payple-conventions.yml
   title: ''
   type: Conventions
   url: conventions/payple-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/conventions/payple-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/payple-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/lifecycle/payple-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/payple-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/conformance/payple-conformance.yml
   title: ''
   type: Conformance
   url: conformance/payple-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/conformance/payple-conformance.yml
   title: ''
   type: Compliance
   url: conformance/payple-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/asyncapi/payple-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/payple-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/components/payple-components.yml
   title: ''
   type: Components
   url: components/payple-components.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/security/payple-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payple-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/llms/payple-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/payple-llms.txt
@@ -138,6 +178,47 @@ overview: 'Payple publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Payple''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
 random_paper: 0
+score:
+  band: developing
+  composite: 42.7
+  coverage:
+    artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 59.5
+    discoverability: 75.9
+    operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
+  previous_composite: 42.7
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/payple/refs/heads/main/screenshots/payple-2026-08-07T191656.png
 security:
 - kind: authentication

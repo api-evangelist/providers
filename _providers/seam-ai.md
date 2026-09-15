@@ -10,6 +10,31 @@ access_model:
   - https://www.getseam.ai/get-started
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - baseURL: https://enricher.getseam.ai
@@ -20,6 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/overlays/seam-ai-enrichment-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seam-ai-enrichment-overlay.yaml
@@ -60,66 +86,82 @@ common:
   type: PrivacyPolicy
   url: https://www.getseam.ai/legal/privacy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/llms/seam-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seam-ai-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/mcp/seam-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/seam-ai-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/mcp/seam-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/seam-ai-tool-crosswalk.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/a2a/seam-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/seam-ai-a2a.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/well-known/seam-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/seam-ai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/authentication/seam-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seam-ai-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/conventions/seam-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seam-ai-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/errors/seam-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/seam-ai-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/data-model/seam-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seam-ai-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/lifecycle/seam-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seam-ai-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/conformance/seam-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seam-ai-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/conformance/seam-ai-conformance.yml
   title: ''
   type: Compliance
   url: conformance/seam-ai-conformance.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/plans/seam-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seam-ai-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/rate-limits/seam-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/seam-ai-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/security/seam-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seam-ai-domain-security.yml
@@ -148,6 +190,40 @@ rate_limits:
 - limit_count: 0
   name: Seam Ai Rate Limits
   slug: seam-ai-rate-limits
+score:
+  band: developing
+  composite: 49.4
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 84.2
+    contract_governance: 18.2
+    contract_quality: 55.8
+    developer_ergonomics: 47.6
+    discoverability: 75.9
+    operational_transparency: 0.0
+  previous_composite: 49.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/screenshots/seam-ai-2026-08-17T081740.png
 security:
 - kind: authentication

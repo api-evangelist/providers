@@ -10,6 +10,31 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 33.6
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -81,22 +106,27 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/agentic-access/google-vault-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-vault-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/security/google-vault-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-vault-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/security/google-vault-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-vault-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/authentication/google-vault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-vault-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/scopes/google-vault-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-vault-scopes.yml
@@ -165,98 +195,122 @@ common:
   type: PrivacyPolicy
   url: https://policies.google.com/privacy
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/discovery/google-vault-discovery-v1.json
   title: ''
   type: Discovery
   url: discovery/google-vault-discovery-v1.json
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/packages/google-vault-packages.yml
   title: ''
   type: Packages
   url: packages/google-vault-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/packages/google-vault-packages.yml
   title: ''
   type: SDKs
   url: packages/google-vault-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/well-known/google-vault-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/google-vault-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/well-known/google-vault-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/google-vault-security.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/security/google-vault-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/google-vault-vulnerability-disclosure.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/security/google-vault-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/google-vault-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/security/google-vault-trust-center.yml
   title: ''
   type: Compliance
   url: security/google-vault-trust-center.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/conformance/google-vault-conformance.yml
   title: ''
   type: Conformance
   url: conformance/google-vault-conformance.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/authentication/google-vault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-vault-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/scopes/google-vault-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-vault-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/conventions/google-vault-conventions.yml
   title: ''
   type: Conventions
   url: conventions/google-vault-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/errors/google-vault-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/google-vault-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/lifecycle/google-vault-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/google-vault-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/lifecycle/google-vault-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/google-vault-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/changelog/google-vault-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/google-vault-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/data-model/google-vault-data-model.yml
   title: ''
   type: DataModel
   url: data-model/google-vault-data-model.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/rate-limits/google-vault-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-vault-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/plans/google-vault-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-vault-plans-pricing.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/finops/google-vault-finops.yml
   title: ''
   type: FinOps
   url: finops/google-vault-finops.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/llms/google-vault-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/google-vault-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/mcp/google-vault-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/google-vault-mcp.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/sandbox/google-vault-sandbox.yml
   title: ''
   type: X-SandboxAbsent
   url: sandbox/google-vault-sandbox.yml
@@ -290,6 +344,41 @@ scopes:
   scope_count: 2
   slug: google-vault-scopes
   summary_line: 2 scopes · authorizationCode
+score:
+  band: strong
+  composite: 59.7
+  coverage:
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 51.0
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 84.2
+  previous_composite: 59.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/screenshots/google-vault-2026-06-20T182245.png
 security:
 - kind: authentication

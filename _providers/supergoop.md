@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.6
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol server implementing the Universal Commerce Protocol dev.ucp.shopping service for the Supergoop! store. An anonymous tools/list returns 13 tools with full JSON Sche
@@ -23,6 +48,7 @@ apis:
 artifact_total: 12
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/security/supergoop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/supergoop-domain-security.yml
@@ -63,66 +89,82 @@ common:
   type: SecondaryMarketListing
   url: https://www.hiive.com/securities/supergoop-stock
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/llms/supergoop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/supergoop-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/well-known/supergoop-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/supergoop-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/authentication/supergoop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/supergoop-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/scopes/supergoop-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/supergoop-scopes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/errors/supergoop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/supergoop-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/rate-limits/supergoop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/supergoop-rate-limits.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/mcp/supergoop-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/supergoop-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/mcp/supergoop-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/supergoop-tool-crosswalk.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/conventions/supergoop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/supergoop-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/conventions/supergoop-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/supergoop-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/lifecycle/supergoop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/supergoop-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/conformance/supergoop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/supergoop-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/data-model/supergoop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/supergoop-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/plans/supergoop-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/supergoop-plans-pricing.yml
@@ -169,6 +211,41 @@ scopes:
   scope_count: 0
   slug: supergoop-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: thin
+  composite: 34.3
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 34.2
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 28.0
+    discoverability: 75.9
+    operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 34.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/screenshots/supergoop-2026-09-02T161239.png
 security:
 - kind: authentication

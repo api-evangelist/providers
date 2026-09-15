@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: platform
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 24.9
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -378,10 +403,12 @@ collections:
   slug: open-wincl-webhook-api
 common:
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/capabilities/wincl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wincl-capability-edges.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/overlays/wincl-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wincl-openapi-overlay.yaml
@@ -398,46 +425,57 @@ common:
   type: APIReference
   url: https://api.wincl.io/v3/api-docs
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/authentication/wincl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wincl-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/conventions/wincl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wincl-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/errors/wincl-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/wincl-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/lifecycle/wincl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wincl-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/conformance/wincl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wincl-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/data-model/wincl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wincl-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/mcp/wincl-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wincl-mcp.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/llms/wincl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wincl-llms.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/agentic-access/wincl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wincl-agentic-access.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/security/wincl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wincl-domain-security.yml
@@ -454,6 +492,47 @@ overview: 'WinCL publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
   WinCL''s developer surface includes documentation, API reference, authentication, and 13 more developer resources.'
 random_paper: 16
+score:
+  band: emerging
+  composite: 23.0
+  coverage:
+    artifact_dirs: 18
+    catalog_earned: 34.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 0.0
+    contract_governance: 4.5
+    contract_quality: 49.6
+    developer_ergonomics: 23.2
+    discoverability: 70.4
+    operational_transparency: 0.0
+  previous_composite: 23.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png
 security:
 - kind: authentication

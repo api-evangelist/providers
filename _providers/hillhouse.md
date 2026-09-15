@@ -30,7 +30,6 @@ tags:
 - Series A
 - Growth
 - Healthcare
-- Consumer
 - Industrials
 - Technology
 - Asia

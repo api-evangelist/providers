@@ -12,6 +12,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 25.2
+  scored_at: '2026-09-14'
 api_count: 2
 apis:
 - description: REST endpoint that returns the fully-resolved values behind a Sight Machine dashboard, panel by panel, so dashboard data can be consumed by external enterprise applications. Authenticated with a tenan
@@ -27,6 +52,7 @@ asyncapis:
   slug: sight-machine-event-surface
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/security/sight-machine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sight-machine-domain-security.yml
@@ -67,62 +93,77 @@ common:
   type: LinkedIn
   url: https://linkedin.com/company/sight-machine
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/changelog/sight-machine-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sight-machine-changelog.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/packages/sight-machine-packages.yml
   title: ''
   type: Packages
   url: packages/sight-machine-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/packages/sight-machine-packages.yml
   title: ''
   type: SDKs
   url: packages/sight-machine-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/well-known/sight-machine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sight-machine-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/well-known/sight-machine-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sight-machine-security.txt
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/llms/sight-machine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sight-machine-llms.txt
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/authentication/sight-machine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sight-machine-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/conventions/sight-machine-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sight-machine-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/errors/sight-machine-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sight-machine-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/lifecycle/sight-machine-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sight-machine-lifecycle.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/conformance/sight-machine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sight-machine-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/data-model/sight-machine-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sight-machine-data-model.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/plans/sight-machine-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sight-machine-plans-pricing.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/rate-limits/sight-machine-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sight-machine-rate-limits.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/security/sight-machine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sight-machine-vulnerability-disclosure.yml
@@ -149,6 +190,35 @@ rate_limits:
 - limit_count: 0
   name: Sight Machine Rate Limits
   slug: sight-machine-rate-limits
+score:
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 47.6
+    discoverability: 72.2
+    operational_transparency: 28.9
+  previous_composite: 37.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/screenshots/sight-machine-2026-09-02T155420.png
 security:
 - kind: authentication

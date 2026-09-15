@@ -10,6 +10,31 @@ access_model:
   - security
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: verified
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 28.1
+  scored_at: '2026-09-14'
 api_count: 5
 apis:
 - baseURL: https://app.pixee.ai/api/v1
@@ -63,10 +88,12 @@ collections:
   slug: open-pixee-ai-webhooks-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/mcp/pixee-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pixee-ai-mcp.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/overlays/pixee-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pixee-ai-openapi-overlay.yaml
@@ -115,42 +142,52 @@ common:
   type: PrivacyPolicy
   url: https://www.pixee.ai/policies/privacy-policy
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/llms/pixee-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pixee-ai-llms.txt
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/packages/pixee-ai-packages.yml
   title: ''
   type: Packages
   url: packages/pixee-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/packages/pixee-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/pixee-ai-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/cli/pixee-ai-cli.yml
   title: ''
   type: CLI
   url: cli/pixee-ai-cli.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/changelog/pixee-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pixee-ai-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/well-known/pixee-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pixee-ai-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/security/pixee-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pixee-ai-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/security/pixee-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pixee-ai-domain-security.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/security/pixee-ai-trust-center.yml
   title: ''
   type: Compliance
   url: security/pixee-ai-trust-center.yml
@@ -170,6 +207,40 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
   Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
 random_paper: 9
+score:
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 47.4
+    contract_governance: 4.5
+    contract_quality: 21.1
+    developer_ergonomics: 73.8
+    discoverability: 81.5
+    operational_transparency: 26.3
+  previous_composite: 40.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:
 - kind: authentication

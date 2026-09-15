@@ -12,6 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/multi/refs/heads/main/security/multi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/multi-domain-security.yml

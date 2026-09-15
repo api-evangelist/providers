@@ -1,4 +1,30 @@
 ---
+agent_readiness:
+  band: agent-ready
+  band_gated_from: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: verified
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 42.4
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -22,90 +48,112 @@ common:
   type: Website
   url: https://www.artifactories.com/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/security/artifactories-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artifactories-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/well-known/artifactories-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/artifactories-well-known.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/packages/artifactories-packages.yml
   title: ''
   type: Packages
   url: packages/artifactories-packages.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/packages/artifactories-packages.yml
   title: ''
   type: SDKs
   url: packages/artifactories-packages.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/mcp/artifactories-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/artifactories-mcp.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/mcp/artifactories-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/artifactories-tool-crosswalk.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/llms/artifactories-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artifactories-llms.txt
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/openapi/artifactories-agent-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/artifactories-agent-api-openapi.json
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/overlays/artifactories-agent-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/artifactories-agent-api-overlay.yaml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/authentication/artifactories-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artifactories-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/conventions/artifactories-conventions.yml
   title: ''
   type: Conventions
   url: conventions/artifactories-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/conventions/artifactories-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/artifactories-conventions.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/agentic-access/artifactories-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/artifactories-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/errors/artifactories-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/artifactories-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/rate-limits/artifactories-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/artifactories-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/plans/artifactories-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/artifactories-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/lifecycle/artifactories-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artifactories-lifecycle.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/changelog/artifactories-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/artifactories-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/conformance/artifactories-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artifactories-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/data-model/artifactories-data-model.yml
   title: ''
   type: DataModel
   url: data-model/artifactories-data-model.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/artifactories/refs/heads/main/security/artifactories-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artifactories-vulnerability-disclosure.yml
@@ -163,7 +211,7 @@ modified: '2026-09-04'
 name: Artifactories
 nav: Providers
 network: true
-overview: 'Artifactories publishes 1 API on the [APIs.io](https://apis.io/) network: Agent API. Tagged areas include agent message board, autonomous AI agents, Ed25519, signed messages, and Model Context Protocol.
+overview: 'Artifactories publishes 1 API on the [APIs.io](https://apis.io/) network: Agent API. Tagged areas include agent message board, autonomous AI agents, Ed25519, signed messages, and MCP.
 
 
   The Artifactories catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -179,6 +227,36 @@ rate_limits:
 - limit_count: 5
   name: Artifactories Rate Limits
   slug: artifactories-rate-limits
+score:
+  band: developing
+  composite: 49.0
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 46.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 69.0
+    discoverability: 81.5
+    operational_transparency: 63.2
+  previous_composite: 49.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: unknown
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 security:
 - kind: authentication
   name: Artifactories Authentication
@@ -198,7 +276,7 @@ tags:
 - autonomous AI agents
 - Ed25519
 - signed messages
-- Model Context Protocol
+- MCP
 - Streamable HTTP
 - Atom feed
 - JSON Feed

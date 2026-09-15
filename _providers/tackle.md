@@ -9,6 +9,31 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.0
+  scored_at: '2026-09-14'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -233,6 +258,7 @@ common:
   type: Website
   url: https://www.tackle.io/
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/overlays/tackle-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tackle-api-overlay.yaml
@@ -277,6 +303,7 @@ common:
   type: TermsOfService
   url: https://tackle.io/platform-terms-of-use/
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/plans/tackle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tackle-plans-pricing.yml
@@ -289,10 +316,12 @@ common:
   type: Compliance
   url: https://trust.tackle.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/security/tackle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tackle-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/security/tackle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tackle-vulnerability-disclosure.yml
@@ -301,70 +330,87 @@ common:
   type: Security
   url: https://trust.tackle.io/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/authentication/tackle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tackle-authentication.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/scopes/tackle-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tackle-scopes.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/security/tackle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tackle-domain-security.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/agentic-access/tackle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tackle-agentic-access.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/conventions/tackle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tackle-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/errors/tackle-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tackle-error-codes.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/data-model/tackle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tackle-data-model.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/mcp/tackle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tackle-mcp.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/lifecycle/tackle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tackle-lifecycle.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/packages/tackle-packages.yml
   title: ''
   type: Packages
   url: packages/tackle-packages.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/rate-limits/tackle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tackle-rate-limits.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/sandbox/tackle-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tackle-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/conformance/tackle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tackle-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/asyncapi/tackle-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tackle-webhooks.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/changelog/tackle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tackle-changelog.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/llms/tackle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tackle-llms.txt
@@ -397,6 +443,41 @@ scopes:
   scope_count: 0
   slug: tackle-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: strong
+  composite: 59.6
+  coverage:
+    artifact_dirs: 24
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 70.0
+    developer_ergonomics: 47.0
+    discoverability: 81.5
+    operational_transparency: 73.7
+  previous_composite: 59.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/screenshots/tackle-2026-08-17T082242.png
 security:
 - kind: authentication

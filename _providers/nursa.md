@@ -13,6 +13,31 @@ access_model:
   - sandbox
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: verified
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 36.8
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
@@ -133,14 +158,17 @@ collections:
   slug: open-nursa-webhook-logs-api
 common:
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/mcp/nursa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nursa-mcp.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/security/nursa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nursa-trust-center.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/security/nursa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nursa-domain-security.yml
@@ -213,66 +241,82 @@ common:
   type: Compliance
   url: https://trust.nursa.com/
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/llms/nursa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nursa-llms.txt
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/sandbox/nursa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nursa-sandbox.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/conventions/nursa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nursa-conventions.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/conformance/nursa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nursa-conformance.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/lifecycle/nursa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nursa-lifecycle.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/well-known/nursa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nursa-well-known.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/scopes/nursa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nursa-scopes.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/packages/nursa-packages.yml
   title: ''
   type: Packages
   url: packages/nursa-packages.yml
 - group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/_original/nursa-public-api-v2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/nursa-public-api-v2-openapi.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/authentication/nursa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nursa-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/asyncapi/nursa-public-api-v2-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nursa-public-api-v2-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/errors/nursa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nursa-problem-types.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/rate-limits/nursa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nursa-rate-limits.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/data-model/nursa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nursa-data-model.yml
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/overlays/nursa-public-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nursa-public-api-v2-overlay.yaml
@@ -302,6 +346,46 @@ scopes:
   scope_count: 26
   slug: nursa-scopes
   summary_line: 26 scopes · authorizationCode/clientCredentials
+score:
+  band: strong
+  composite: 59.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 60.5
+    contract_governance: 4.5
+    contract_quality: 67.4
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 31.6
+  previous_composite: 59.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:
 - kind: authentication

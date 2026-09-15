@@ -10,6 +10,31 @@ access_model:
   - plans/every-org-plans-pricing.yml
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 12.2
+  scored_at: '2026-09-14'
 api_count: 1
 apis:
 - description: 'The Every.org API is a powerful tool that allows developers to access and interact with a wide range of charitable giving data. By integrating the API into their applications, developers can retrieve '
@@ -22,6 +47,7 @@ common:
   type: Website
   url: https://www.every.org/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/security/every-org-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/every-org-domain-security.yml
@@ -78,58 +104,72 @@ common:
   type: StatusPage
   url: https://status.every.org/
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/changelog/every-org-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/every-org-changelog.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/lifecycle/every-org-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/every-org-lifecycle.yml
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/authentication/every-org-authentication.yml
   title: ''
   type: Authentication
   url: authentication/every-org-authentication.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/conventions/every-org-conventions.yml
   title: ''
   type: Conventions
   url: conventions/every-org-conventions.yml
 - group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/rate-limits/every-org-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/every-org-rate-limits.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/plans/every-org-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/every-org-plans-pricing.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/webhooks/every-org-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/every-org-webhooks.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/errors/every-org-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/every-org-problem-types.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/data-model/every-org-data-model.yml
   title: ''
   type: DataModel
   url: data-model/every-org-data-model.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/conformance/every-org-conformance.yml
   title: ''
   type: Conformance
   url: conformance/every-org-conformance.yml
 - group: build
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/packages/every-org-packages.yml
   title: ''
   type: Packages
   url: packages/every-org-packages.yml
 - group: design
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/components/every-org-components.yml
   title: ''
   type: Components
   url: components/every-org-components.yml
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/sandbox/every-org-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/every-org-sandbox.yml
 - group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/llms/every-org-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/every-org-llms.txt
@@ -158,6 +198,35 @@ rate_limits:
 - limit_count: 3
   name: Every Org Rate Limits
   slug: every-org-rate-limits
+score:
+  band: developing
+  composite: 39.7
+  coverage:
+    artifact_dirs: 21
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 51.3
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 68.5
+    operational_transparency: 65.8
+  previous_composite: 39.7
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-14'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/screenshots/every-org-2026-06-20T180910.png
 security:
 - kind: authentication
